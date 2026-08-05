@@ -3497,10 +3497,17 @@ def load_from_file(
     return result
 
 
-REPOSITORY = (
-    f"https://github.com/iconmaster5326/YGOJSON/releases/download/v{SCHEMA_VERSION}"
+REPOSITORY = os.environ.get(
+    "YGOJSON_REPOSITORY",
+    f"https://github.com/matt-roz/YGOJSON/releases/download/v{SCHEMA_VERSION}",
 )
-"""The default repository for the data ZIP files."""
+"""The default repository for the data ZIP files.
+
+This must point at whichever repository actually publishes the runs, because
+``--download`` seeds ``last_yugipedia_read`` from it. Seed from a repository
+that stopped publishing more than ``TIME_TO_JUST_REDOWNLOAD_ALL_PAGES`` ago and
+every run throws away its Yugipedia page cache and refetches the whole wiki.
+"""
 
 LAST_MODIFIED_HEADER = "Last-Modified"
 """The HTTP header to get when the ZIP files on the server were last modified."""
