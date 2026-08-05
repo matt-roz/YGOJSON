@@ -20,18 +20,51 @@ from ..database import *
 
 API_URL = "https://yugipedia.com/api.php"
 RATE_LIMIT = 1.1
+REQUEST_TIMEOUT = 60
+MAX_TRIES = 10
+MAX_RETRY_DELAY = 300
 TIME_TO_JUST_REDOWNLOAD_ALL_PAGES = 30 * 24 * 60 * 60  # 1 month-ish
 
+# MediaWiki reports these with HTTP 200 and an error body, so they can't be
+# spotted by status code alone. They're all transient server-side hiccups.
+RETRYABLE_API_ERRORS = {"maxlag", "readonly"}
+
 _last_access = time.time()
+_session = requests.Session()
+
+
+def _retryable_api_error(response: requests.Response) -> typing.Optional[str]:
+    """Returns the error code if this is a transient MediaWiki API error, else None.
+
+    Some queries (the XML page exports) don't return JSON at all, so we only
+    look at bodies the server actually labelled as JSON.
+    """
+    if "json" not in response.headers.get("Content-Type", ""):
+        return None
+    if b'"error"' not in response.content:
+        # cheap pre-filter, so we don't parse every response twice
+        return None
+    try:
+        body = response.json()
+    except ValueError:
+        return None
+    if not isinstance(body, dict):
+        return None
+    error = body.get("error")
+    if not isinstance(error, dict):
+        return None
+    code = str(error.get("code", "")).lower()
+    if code.startswith("internal_api_error") or code in RETRYABLE_API_ERRORS:
+        return code
+    return None
 
 
 def make_request(rawparams: typing.Dict[str, str], n_tries=0) -> requests.Response:
     global _last_access
 
-    now = time.time()
-    while (now - _last_access) <= RATE_LIMIT:
-        time.sleep(now - _last_access)
-        now = time.time()
+    delay = RATE_LIMIT - (time.time() - _last_access)
+    if delay > 0:
+        time.sleep(delay)
     _last_access = time.time()
 
     params = {
@@ -44,31 +77,43 @@ def make_request(rawparams: typing.Dict[str, str], n_tries=0) -> requests.Respon
 
     if logging.getLogger().getEffectiveLevel() <= logging.DEBUG:
         logging.debug(f"Making request: {json.dumps(params)}")
+
+    def retry(reason: str) -> requests.Response:
+        if n_tries + 1 >= MAX_TRIES:
+            raise RuntimeError(
+                f"Yugipedia request failed {MAX_TRIES} times ({reason}); "
+                f"query: {json.dumps(params)}"
+            )
+        # servers must be hammered; back off further each time
+        backoff = min(RATE_LIMIT * 30 * 2**n_tries, MAX_RETRY_DELAY)
+        logging.error(f"{reason}; waiting {backoff:.0f}s and retrying...")
+        time.sleep(backoff)
+        return make_request(rawparams, n_tries + 1)
+
     try:
-        response = requests.get(
+        response = _session.get(
             API_URL,
             params=params,
             headers={
                 "User-Agent": USER_AGENT,
             },
-            timeout=13,
+            timeout=REQUEST_TIMEOUT,
         )
-        if logging.getLogger().getEffectiveLevel() <= logging.DEBUG:
-            logging.debug(
-                f"Got response: {response.status_code} {response.reason} {response.text}"
-            )
-        if not response.ok:
-            # timeout; servers must be hammered
-            logging.error(
-                f"Yugipedia server returned {response.status_code}: {response.reason}; waiting and retrying..."
-            )
-            time.sleep(RATE_LIMIT * 30)
-            return make_request(rawparams, n_tries + 1)
-        return response
-    except requests.exceptions.Timeout:
-        logging.error("timeout; waiting and retrying...")
-        time.sleep(RATE_LIMIT * 30)
-        return make_request(rawparams, n_tries + 1)
+    except (requests.exceptions.Timeout, requests.exceptions.ConnectionError) as e:
+        return retry(f"{type(e).__name__} contacting Yugipedia")
+
+    if logging.getLogger().getEffectiveLevel() <= logging.DEBUG:
+        logging.debug(
+            f"Got response: {response.status_code} {response.reason} {response.text}"
+        )
+    if not response.ok:
+        return retry(
+            f"Yugipedia server returned {response.status_code}: {response.reason}"
+        )
+    api_error = _retryable_api_error(response)
+    if api_error:
+        return retry(f"Yugipedia API returned transient error {api_error}")
+    return response
 
 
 class WikiPage:
@@ -3689,6 +3734,9 @@ class YugipediaBatcher:
             query = {
                 "action": "query",
                 "prop": "categories",
+                # without this the API hands back 10 categories per request,
+                # which turns one batch of pages into dozens of round trips
+                "cllimit": "max",
                 **({"pageids": "|".join(pageids)} if pageids else {}),
                 **({"titles": "|".join(pagetitles)} if pagetitles else {}),
             }

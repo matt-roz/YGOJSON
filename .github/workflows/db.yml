@@ -9,6 +9,12 @@ permissions:
   contents: write
   actions: write
 
+# a full run takes the better part of a day, and every job shares the same
+# `temp`/`data` caches; two runs at once would trample each other's state
+concurrency:
+  group: db
+  cancel-in-progress: false
+
 jobs:
   lint:
     runs-on: ubuntu-latest
