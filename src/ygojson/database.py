@@ -16,8 +16,17 @@ from .version import __version__
 SCHEMA_VERSION = 1
 """The version of the JSON schema we are currently at."""
 
-USER_AGENT = f"YGOJSON/{__version__} (https://github.com/iconmaster5326/YGOJSON)"
-"""The User-Agent string we use when making requests."""
+USER_AGENT = os.environ.get(
+    "YGOJSON_USER_AGENT",
+    f"YGOJSON/{__version__} (https://github.com/matt-roz/YGOJSON)",
+)
+"""The User-Agent string we use when making requests.
+
+Yugipedia's API policy requires the name of the service *and* contact
+information for whoever is actually making the requests, on pain of being
+blocked without warning. Set ``YGOJSON_USER_AGENT`` if you run this yourself,
+so the wiki reaches you and not us.
+"""
 
 ROOT_DIR = os.path.abspath(
     os.path.join(os.path.dirname(__file__), os.pardir, os.pardir)
