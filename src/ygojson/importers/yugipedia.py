@@ -3689,6 +3689,9 @@ class YugipediaBatcher:
             query = {
                 "action": "query",
                 "prop": "categories",
+                # without this the API hands back 10 categories per request,
+                # which turns one batch of pages into dozens of round trips
+                "cllimit": "max",
                 **({"pageids": "|".join(pageids)} if pageids else {}),
                 **({"titles": "|".join(pagetitles)} if pagetitles else {}),
             }
