@@ -1928,16 +1928,23 @@ def parse_tcg_ocg_set(
                 if typing.TYPE_CHECKING:
                     default_rarities = [x for x in default_rarities if x]
 
+                # A *present* `print` or `qty` parameter gives every row that column,
+                # even when the parameter is empty; its value is only the default for
+                # rows leaving the column blank. Column presence and column default
+                # are therefore two separate things: test presence for the layout,
+                # not truthiness of the default.
                 raw_default_reprint_status = get_table_entry(setlist, "print")
+                has_print_column = raw_default_reprint_status is not None
 
-                raw_default_qty = get_table_entry(setlist, "qty", "").strip()
+                raw_default_qty = get_table_entry(setlist, "qty")
+                has_qty_column = raw_default_qty is not None
                 default_qty = None
-                if raw_default_qty:
+                if raw_default_qty is not None and raw_default_qty.strip():
                     try:
-                        default_qty = int(raw_default_qty)
+                        default_qty = int(raw_default_qty.strip())
                     except ValueError:
                         logging.warn(
-                            f"Could not determine default quantity of {listpagename}: {raw_default_qty}"
+                            f"Could not determine default quantity of {listpagename}: {raw_default_qty.strip()}"
                         )
 
                 raw_options = get_table_entry(setlist, "options", "").strip()
@@ -1953,7 +1960,6 @@ def parse_tcg_ocg_set(
                             if not comment_parts:
                                 continue
                             pre_comment = comment_parts[0]
-                            post_comment = " // ".join(comment_parts[1:])
 
                             cols = [x.strip() for x in pre_comment.split(";")]
 
@@ -1966,11 +1972,7 @@ def parse_tcg_ocg_set(
                                 code = cols[col_index]
                                 col_index += 1
                             else:
-                                abbr_override = re.match(r"abbr::[^\s;]+", post_comment)
-                                if abbr_override:
-                                    code = str(abbr_override.group(1))
-                                else:
-                                    code = ""
+                                code = ""
 
                             name = cols[col_index] if len(cols) > col_index else None
                             if not name:
@@ -2000,11 +2002,11 @@ def parse_tcg_ocg_set(
                                     rarities.append(rarity)
                             col_index += 1
 
-                            if raw_default_reprint_status:
+                            if has_print_column:
                                 col_index += 1
 
                             qty = None
-                            if default_qty is not None and len(cols) > col_index:
+                            if has_qty_column and len(cols) > col_index:
                                 raw_qty = cols[col_index]
                                 if raw_qty:
                                     try:
