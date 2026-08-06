@@ -17,7 +17,7 @@ import tqdm
 import wikitextparser
 
 from ..database import *
-from ..rarity import resolve_abbreviation, resolve_rarity
+from ..rarity import report_unknown_rarity, resolve_abbreviation, resolve_rarity
 
 API_URL = "https://yugipedia.com/api.php"
 RATE_LIMIT = 1.1
@@ -1241,20 +1241,22 @@ def parse_tcg_ocg_set(
                 raw_default_rarity = get_table_entry(setlist, "rarities", "C").strip()
                 if not raw_default_rarity:
                     raw_default_rarity = "C"
-                default_rarities = [
-                    resolve_rarity(x)
-                    for x in raw_default_rarity.split(",")
-                    if x.strip()
-                ]
-                if not default_rarities:
-                    default_rarities = [CardRarity.COMMON]
-                elif not all(default_rarities):
-                    logging.warn(
-                        f"Could not determine default rarity of {listpagename}: {raw_default_rarity}"
-                    )
-                    default_rarities = [CardRarity.COMMON]
-                if typing.TYPE_CHECKING:
-                    default_rarities = [x for x in default_rarities if x]
+                # An entry the vocabulary doesn't claim drops itself and leaves
+                # the entries beside it alone. Dropping the whole list instead
+                # sent every row that names no rarity of its own to Common, over
+                # one unreadable entry.
+                default_rarities: typing.List[CardRarity] = []
+                for raw_default_entry in raw_default_rarity.split(","):
+                    raw_default_entry = raw_default_entry.strip()
+                    if not raw_default_entry:
+                        continue
+                    default_entry = resolve_rarity(raw_default_entry)
+                    if not default_entry:
+                        report_unknown_rarity(
+                            listpagename, raw_default_entry, "default rarity list"
+                        )
+                    else:
+                        default_rarities.append(default_entry)
 
                 # A *present* `print` or `qty` parameter gives every row that column,
                 # even when the parameter is empty; its value is only the default for
@@ -1321,8 +1323,8 @@ def parse_tcg_ocg_set(
                             for raw_rarity in raw_rarities:
                                 rarity = resolve_rarity(raw_rarity)
                                 if not rarity:
-                                    logging.warn(
-                                        f"Got strange rarity in {listpagename}, in row {name}: {raw_rarity}"
+                                    report_unknown_rarity(
+                                        listpagename, raw_rarity, f"row {name}"
                                     )
                                 else:
                                     rarities.append(rarity)
@@ -1439,12 +1441,14 @@ def parse_tcg_ocg_set(
                     )
                     if not raw_default_rarity:
                         raw_default_rarity = "C"
+                    # Left as None rather than Common: a gallery image is matched
+                    # to a printing by rarity, so guessing here hangs the image
+                    # off whichever printing happens to be Common.
                     default_rarity = resolve_rarity(raw_default_rarity)
                     if not default_rarity:
-                        logging.warn(
-                            f"Could not determine default rarity of {galleryname}: {raw_default_rarity}"
+                        report_unknown_rarity(
+                            galleryname, raw_default_rarity, "gallery default"
                         )
-                        default_rarity = CardRarity.COMMON
 
                     default_alt = get_table_entry(gallery, "alt", "").strip()
 
@@ -1509,7 +1513,17 @@ def parse_tcg_ocg_set(
                                         rarity_override = resolve_rarity(raw_rarity)
                                         if rarity_override:
                                             rarity = rarity_override
+                                        else:
+                                            report_unknown_rarity(
+                                                galleryname, raw_rarity, f"row {name}"
+                                            )
                                     col_index += 1
+
+                                if not rarity:
+                                    # nothing this row or its gallery named is a
+                                    # rarity we know, and add_card_image finds the
+                                    # printing to attach to by rarity
+                                    continue
 
                                 raw_alt = default_alt or ""
                                 if len(cols) > col_index:
@@ -1571,8 +1585,8 @@ def parse_tcg_ocg_set(
                             (codelink, raritylink, namelink, *_) = parsed_line.wikilinks
                             rarity = resolve_rarity(raritylink.target)
                             if not rarity:
-                                logging.warn(
-                                    f"Found strange rarity in subgallery in {galleryname}: {raritylink.target}"
+                                report_unknown_rarity(
+                                    galleryname, raritylink.target, "subgallery row"
                                 )
                                 continue
                             name = namelink.target.strip()

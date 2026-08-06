@@ -7,6 +7,8 @@
 # publishes a ``normalize`` table of aliases and a ``main`` table of
 # ``{abbr, full}`` per rarity; ``RARITIES`` below mirrors ``main``, section for
 # section, so that a rarity the wiki adds is one row here.
+import collections
+import logging
 import re
 import typing
 
@@ -440,3 +442,43 @@ def resolve_abbreviation(raw: str) -> typing.Optional[str]:
     if exact is not None:
         return exact
     return NORMALIZED_RARITY_STR_TO_ABBREVIATION.get(_normalize(spelling))
+
+
+UNKNOWN_RARITIES: typing.Counter[str] = collections.Counter()
+"""Every rarity string a run could not resolve, and how often it appeared.
+
+Two things land here: a spelling no row in :data:`RARITIES` claims, and a
+rarity Yugipedia names that the schema has no member for. Both come out the
+same way — the printing is published carrying no rarity rather than a guess —
+so both are worth seeing, and neither is findable among a day-long run's
+warnings unless something counts it."""
+
+
+def report_unknown_rarity(page: str, raw: str, where: str) -> None:
+    """Warns that a rarity string did not resolve, and counts it for the summary.
+
+    Every rarity call site reports through here rather than logging its own
+    warning, so that an unresolved rarity is both actionable on the spot — the
+    warning names the page and the string — and present in
+    :func:`log_unknown_rarities`. A site that logged its own warning would be
+    missing from the summary, which is how the gallery row path stayed invisible.
+    """
+    UNKNOWN_RARITIES[raw] += 1
+    logging.warn(f"Unknown rarity in {page} ({where}): {raw}")
+
+
+def log_unknown_rarities() -> None:
+    """Logs each rarity string this run could not resolve, and how often.
+
+    Deliberately counts rarity strings and nothing else: a run drops thousands
+    of warnings and the handful of spellings worth adding to :data:`RARITIES`
+    are not findable among them.
+    """
+    if not UNKNOWN_RARITIES:
+        return
+    logging.warn(
+        f"Could not resolve {sum(UNKNOWN_RARITIES.values())} rarities, "
+        f"in {len(UNKNOWN_RARITIES)} distinct spellings:"
+    )
+    for raw, count in sorted(UNKNOWN_RARITIES.items(), key=lambda kv: (-kv[1], kv[0])):
+        logging.warn(f"\t{count} x {raw}")
