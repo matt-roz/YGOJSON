@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/iconmaster5326/YGOJSON/main/schema/v1/series.json",
+  "$id": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/series.json",
   "title": "Series/Archetype",
   "description": "A series or archetype of cards.",
   "type": "object",
@@ -14,7 +14,7 @@
   ],
   "properties": {
     "$schema": {
-      "const": "https://raw.githubusercontent.com/iconmaster5326/YGOJSON/main/schema/v1/series.json"
+      "const": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/series.json"
     },
     "id": {
       "description": "The UUID of this series. The name of the series's file should be this UUID.",
@@ -24,7 +24,7 @@
     "name": {
       "description": "A map of languages to series names.",
       "propertyNames": {
-        "$ref": "https://raw.githubusercontent.com/iconmaster5326/YGOJSON/main/schema/v1/language.json"
+        "$ref": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/language.json"
       },
       "additionalProperties": {
         "type": "string"

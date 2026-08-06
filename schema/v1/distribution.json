@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/iconmaster5326/YGOJSON/main/schema/v1/distribution.json",
+  "$id": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/distribution.json",
   "title": "Distribution",
   "description": "A distribution is a particlar method of randomly (or not so randomly) laying out cards in a set. This determines how to pull packs, and so on.",
   "type": "object",
@@ -11,7 +11,7 @@
   ],
   "properties": {
     "$schema": {
-      "const": "https://raw.githubusercontent.com/iconmaster5326/YGOJSON/main/schema/v1/distribution.json"
+      "const": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/distribution.json"
     },
     "id": {
       "description": "The UUID of this distribution. The name of the distribution's file should be this UUID.",
@@ -76,7 +76,7 @@
                       "type": "array",
                       "items": {
                         "description": "A rarity constant.",
-                        "$ref": "https://raw.githubusercontent.com/iconmaster5326/YGOJSON/main/schema/v1/rarity.json"
+                        "$ref": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/rarity.json"
                       }
                     }
                   }

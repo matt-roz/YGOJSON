@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/iconmaster5326/YGOJSON/main/schema/v1/card.json",
+  "$id": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
   "title": "Card",
   "description": "A logical Yu-Gi-Oh card (as opposed to a physical card, of which belongs to a set).",
   "type": "object",
@@ -18,7 +18,7 @@
   ],
   "properties": {
     "$schema": {
-      "const": "https://raw.githubusercontent.com/iconmaster5326/YGOJSON/main/schema/v1/card.json"
+      "const": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json"
     },
     "id": {
       "description": "The UUID of this card. The name of the card's file should be this UUID.",
@@ -29,7 +29,7 @@
       "description": "A map of languages to textual card information.",
       "type": "object",
       "propertyNames": {
-        "$ref": "https://raw.githubusercontent.com/iconmaster5326/YGOJSON/main/schema/v1/language.json"
+        "$ref": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/language.json"
       },
       "additionalProperties": {
         "description": "Textual information on the card.",
@@ -279,7 +279,7 @@
       "description": "A mapping of formats to legalities.",
       "type": "object",
       "propertyNames": {
-        "$ref": "https://raw.githubusercontent.com/iconmaster5326/YGOJSON/main/schema/v1/format.json"
+        "$ref": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/format.json"
       },
       "additionalProperties": {
         "description": "Legality information for this format. Never set for cards that are illegal or are not game pieces (such as tokens).",
@@ -289,12 +289,12 @@
         ],
         "properties": {
           "current": {
-            "$ref": "https://raw.githubusercontent.com/iconmaster5326/YGOJSON/main/schema/v1/legality.json",
+            "$ref": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/legality.json",
             "description": "The current legality of this card. Deprecated; use 'currentLegality' instead.",
             "deprecated": true
           },
           "currentLegality": {
-            "$ref": "https://raw.githubusercontent.com/iconmaster5326/YGOJSON/main/schema/v1/legality.json",
+            "$ref": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/legality.json",
             "description": "The current legality of this card. Use this to avoid reading the legality history, or use this when the legality history is unknown/empty."
           },
           "currentPoints": {
@@ -313,7 +313,7 @@
               ],
               "properties": {
                 "legality": {
-                  "$ref": "https://raw.githubusercontent.com/iconmaster5326/YGOJSON/main/schema/v1/legality.json",
+                  "$ref": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/legality.json",
                   "description": "What the legality was changed to."
                 },
                 "points": {

@@ -896,7 +896,7 @@ class Card:
 
     def _to_json(self) -> typing.Dict[str, typing.Any]:
         return {
-            "$schema": f"https://raw.githubusercontent.com/iconmaster5326/YGOJSON/main/schema/v{SCHEMA_VERSION}/card.json",
+            "$schema": f"https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v{SCHEMA_VERSION}/card.json",
             "id": str(self.id),
             "text": {
                 k.value: {
@@ -1275,7 +1275,7 @@ class PackDistrobution:
 
     def _to_json(self) -> typing.Dict[str, typing.Any]:
         return {
-            "$schema": f"https://raw.githubusercontent.com/iconmaster5326/YGOJSON/main/schema/v{SCHEMA_VERSION}/distribution.json",
+            "$schema": f"https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v{SCHEMA_VERSION}/distribution.json",
             "id": str(self.id),
             **({"name": self.name} if self.name else {}),
             **(
@@ -1898,7 +1898,7 @@ class Set:
 
     def _to_json(self) -> typing.Dict[str, typing.Any]:
         return {
-            "$schema": f"https://raw.githubusercontent.com/iconmaster5326/YGOJSON/main/schema/v{SCHEMA_VERSION}/set.json",
+            "$schema": f"https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v{SCHEMA_VERSION}/set.json",
             "id": str(self.id),
             **({"date": self.date.isoformat()} if self.date else {}),
             "name": {k.value: v for k, v in self.name.items()},
@@ -2705,7 +2705,7 @@ class Database:
 
     def _save_meta_json(self) -> typing.Dict[str, typing.Any]:
         return {
-            "$schema": "https://raw.githubusercontent.com/iconmaster5326/YGOJSON/main/schema/v1/meta.json",
+            "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/meta.json",
             "version": SCHEMA_VERSION,
             "increment": self.increment,
             **(

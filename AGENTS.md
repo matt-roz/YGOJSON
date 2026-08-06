@@ -140,9 +140,9 @@ run, and every cache step is `continue-on-error: true`, so a cache that fails to
 
 ## Fork and branches
 
-`origin` is `matt-roz/YGOJSON` (this fork, and what publishes the data); `upstream` is
-`iconmaster5326/YGOJSON`. Work happens on `fix/`, `perf/` and `feature/` branches merged into an
-integration branch.
+`origin` is `matt-roz/YGOJSON` — this repository, and what publishes the data. The project this was
+originally forked from is still configured as the `upstream` remote; run `git remote -v` if you need
+it. Work happens on `fix/`, `perf/` and `feature/` branches merged into an integration branch.
 
 **Commit subjects follow the log, not a linter.** There is no commitlint here, and the log has two
 registers: code changes read as plain imperative sentences matching upstream's style

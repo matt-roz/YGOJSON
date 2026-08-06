@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/iconmaster5326/YGOJSON/main/schema/v1/meta.json",
+  "$id": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/meta.json",
   "title": "YGOJSON Metadata",
   "description": "Metadata for the entire YGOJSON database.",
   "type": "object",
@@ -11,7 +11,7 @@
   ],
   "properties": {
     "$schema": {
-      "const": "https://raw.githubusercontent.com/iconmaster5326/YGOJSON/main/schema/v1/meta.json"
+      "const": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/meta.json"
     },
     "version": {
       "description": "The version number of this schema.",

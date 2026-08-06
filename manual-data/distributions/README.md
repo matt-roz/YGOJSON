@@ -10,7 +10,7 @@ For the schema these files need to take, see [the JSON schema file](../../schema
 
 ```json
 {
-  "$schema": "https://raw.githubusercontent.com/iconmaster5326/YGOJSON/main/schema/v1/distribution.json",
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/distribution.json",
   "id": "02952b2c-8cfa-42a7-8e26-6a7759543e16",
   "name": "test",
   "slots": [

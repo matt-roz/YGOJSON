@@ -12,7 +12,7 @@ import tqdm
 import ygojson
 
 SCHEMA_DIR = os.path.join(ygojson.ROOT_DIR, "schema")
-SCHEMA_URI = "https://raw.githubusercontent.com/iconmaster5326/YGOJSON/main/schema/"
+SCHEMA_URI = "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/"
 
 
 def removeprefix(self, prefix):
