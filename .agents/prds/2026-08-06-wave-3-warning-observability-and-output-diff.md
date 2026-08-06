@@ -416,3 +416,58 @@ the live wiki beforehand — all 67 rarities the wiki defines resolve. Run 31120
 its first attempt failed during job setup on a GitHub Actions major outage, before any project step
 ran, and the re-run is queued behind that outage. It is the first run that will exercise either wave,
 and the first that can produce numbers this wave is entitled to use.
+
+
+---
+
+## Implementation Issues
+
+| Issue | Title | Type | Blocked by |
+|---|---|---|---|
+| #55 | Replace the deprecated logging call at every site and guard it | AFK | — |
+| #56 | Identify the run in published metadata, and make increment mean what it documents | AFK | — |
+| #57 | Report what a run changed in published output | AFK | — |
+| #58 | Bucket warnings by call site and print a per-run histogram | AFK | #55 |
+| #59 | Import the sixteen dual-purpose Token/Counter cards the importer drops | AFK | #55 |
+| #60 | Sum the warning histogram across every job in the run | AFK | #58 |
+| #61 | Count the two expected-condition warning buckets without printing them | AFK | #58 |
+| #62 | Run the output diff every run and pair it with the changelog count | AFK | #56, #57 |
+| #63 | Re-derive Wave 3's figures from a real run and record the audit's corrections | **HITL** | all of the above |
+
+```mermaid
+graph TD
+  55["#55 · logging rename + guard"]
+  56["#56 · metadata run identity"]
+  57["#57 · output diff reporter"]
+  58["#58 · warning histogram"]
+  59["#59 · compound card types<br/>data-loss"]
+  60["#60 · cross-job summary"]
+  61["#61 · quiet expected conditions"]
+  62["#62 · publish output diff"]
+  63["#63 · re-derive figures + corrections<br/>HITL"]
+
+  55 --> 58
+  55 --> 59
+  58 --> 60
+  58 --> 61
+  56 --> 62
+  57 --> 62
+
+  59 --> 63
+  60 --> 63
+  61 --> 63
+  62 --> 63
+```
+
+**Reading it.** #55, #56 and #57 are unblocked today. #55 goes first by design, so every later slice is
+written against the correct logging call and the guard is already in place. #56 and #57 are independent
+of the warning work entirely and can run alongside it.
+
+**#60 and #62 both edit the workflow file** and cannot be verified in parallel — CI has a single `db`
+concurrency group and a full run takes the better part of a day. Both also carry verification that is
+deliberately deferred to the next full run rather than claimed at merge.
+
+**#63 is HITL and gated on an external event**, not on judgement: it needs a completed full run with this
+wave in it. Run [31120463581](https://github.com/matt-roz/YGOJSON/actions/runs/31120463581) was dispatched
+against `main` after Waves 1 and 2 were merged there, and is the first run that will exercise any of this.
+
