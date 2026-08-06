@@ -464,7 +464,7 @@ def report_unknown_rarity(page: str, raw: str, where: str) -> None:
     missing from the summary, which is how the gallery row path stayed invisible.
     """
     UNKNOWN_RARITIES[raw] += 1
-    logging.warn(f"Unknown rarity in {page} ({where}): {raw}")
+    logging.warning(f"Unknown rarity in {page} ({where}): {raw}")
 
 
 def log_unknown_rarities() -> None:
@@ -476,9 +476,9 @@ def log_unknown_rarities() -> None:
     """
     if not UNKNOWN_RARITIES:
         return
-    logging.warn(
+    logging.warning(
         f"Could not resolve {sum(UNKNOWN_RARITIES.values())} rarities, "
         f"in {len(UNKNOWN_RARITIES)} distinct spellings:"
     )
     for raw, count in sorted(UNKNOWN_RARITIES.items(), key=lambda kv: (-kv[1], kv[0])):
-        logging.warn(f"\t{count} x {raw}")
+        logging.warning(f"\t{count} x {raw}")

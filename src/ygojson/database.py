@@ -2633,7 +2633,7 @@ class Database:
                     ):
                         set_ = self.lookup_set(mfi)
                         if not set_:
-                            logging.warn(f"Unknown set to fixup: {mfi}")
+                            logging.warning(f"Unknown set to fixup: {mfi}")
                             continue
 
                         for in_contents in in_json["contents"]:
@@ -2679,7 +2679,7 @@ class Database:
                                             if distro:
                                                 contents.distrobution = distro.id
                                             else:
-                                                logging.warn(
+                                                logging.warning(
                                                     f"Unknown distro: {distro_mfi}"
                                                 )
 

@@ -98,7 +98,7 @@ def _parse_cardtype(typeline: str) -> CardType:
     elif "Skill" in typeline:
         return CardType.SKILL
     else:
-        logging.warn(f"Unknown card type: {typeline}")
+        logging.warning(f"Unknown card type: {typeline}")
         raise InvalidCardImport
 
 
@@ -117,7 +117,7 @@ def _import_card(
 
     if not in_json.get("name"):
         # sometimes the YGOPRODECK API bugs out and returns null for all the names
-        # logging.warn(f"Found card without name: {in_json['id']}")
+        # logging.warning(f"Found card without name: {in_json['id']}")
         raise InvalidCardImport
 
     card = db.cards_by_ygoprodeck_id.get(in_json["id"])
@@ -150,7 +150,7 @@ def _import_card(
 
     # if cardtype == CardType.MONSTER:
     #     if not in_json.get("attribute"):
-    #         logging.warn(f"Card {in_json['name']} is missing an attribute!")
+    #         logging.warning(f"Card {in_json['name']} is missing an attribute!")
     #         raise InvalidCardImport
 
     return False, Card(id=uuid.uuid4(), card_type=cardtype)
@@ -200,14 +200,18 @@ def _write_card(in_json: typing.Dict[str, typing.Any], card: Card) -> Card:
             if type(in_json["atk"]) is int or in_json["atk"] == "?":
                 card.atk = in_json["atk"]
             else:
-                logging.warn(f"Card {en_text.name} has bad ATK: {in_json.get('atk')}")
+                logging.warning(
+                    f"Card {en_text.name} has bad ATK: {in_json.get('atk')}"
+                )
         if "def" in in_json:
             if in_json["def"] is None:
                 pass  # link monsters now have null def
             elif type(in_json["def"]) is int or in_json["def"] == "?":
                 card.def_ = in_json["def"]
             else:
-                logging.warn(f"Card {en_text.name} has bad DEF: {in_json.get('def')}")
+                logging.warning(
+                    f"Card {en_text.name} has bad DEF: {in_json.get('def')}"
+                )
 
     if card.card_type == CardType.MONSTER:
         card.scale = in_json.get("scale")
@@ -217,7 +221,7 @@ def _write_card(in_json: typing.Dict[str, typing.Any], card: Card) -> Card:
         if in_json.get("race"):
             raw_race = in_json["race"].lower().replace("-", "")
             if raw_race not in SubCategory._value2member_map_:
-                logging.warn(
+                logging.warning(
                     f"Found seplltrap with bad subcategory {en_text.name or in_json['id']}: {raw_race}"
                 )
             else:
@@ -228,7 +232,7 @@ def _write_card(in_json: typing.Dict[str, typing.Any], card: Card) -> Card:
         if in_json.get("race"):
             card.character = in_json["race"]
     else:
-        logging.warn(f"Unknown card type for {en_text.name}: {card.card_type}")
+        logging.warning(f"Unknown card type for {en_text.name}: {card.card_type}")
 
     if (
         in_json["id"] > 0 and in_json["id"] <= MAX_REAL_PASSWORD
@@ -271,7 +275,7 @@ def _write_card(in_json: typing.Dict[str, typing.Any], card: Card) -> Card:
         if len(in_json["misc_info"]) == 1:
             card.db_id = in_json["misc_info"][0].get("konami_id", card.db_id)
         else:
-            logging.warn(
+            logging.warning(
                 f"Card {en_text.name} has {len(in_json['misc_info'])} misc_infos!"
             )
 
