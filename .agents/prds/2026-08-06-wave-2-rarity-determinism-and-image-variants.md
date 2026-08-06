@@ -12,12 +12,12 @@ Yugipedia's own data module and image policy.
 
 Three separate things are wrong with the published database, and none of them announce themselves.
 
-**Rarities are wrong, and sometimes wrong for a whole set at once.** Someone looking up
-`Limit Over Collection: The Heroes` (OCG-JP) sees every card in the gallery recorded as Common. Not
-one card — all of them. The set's gallery declares a default rarity of *Grand Master Rare*, which the
-importer does not recognise, and the code path that handles that replaces the entire default rarity
-list with Common rather than the one entry it failed to read. The same happens to
-`Limit Over Collection: The Rivals`. Someone looking up `Limited Pack GX: Ra Yellow` finds ten
+**Rarities are wrong, and sometimes wrong for a whole gallery at once.** Someone looking up
+`Limit Over Collection: The Heroes` loses its eighteen *Grand Master Rare* printings in every one of
+its three locales (jp/kr/sc), and one of its gallery tables degrades wholesale to Common — the
+gallery declares a default rarity the importer does not recognise, and the code path that handles
+that replaces the entire default rarity list with Common rather than the one entry it failed to
+read. The same happens to `Limit Over Collection: The Rivals`. Someone looking up `Limited Pack GX: Ra Yellow` finds ten
 printings that should carry both an Ultra Rare and an *Ultra Rare (Special Blue Version)* printing;
 the Special Blue ones are gone. `Structure Deck: Harpie Lady Sisters` loses two Secret Blue rarities
 because the wiki wrote the name without parentheses. Every Rush Duel rarity is dropped outright.
