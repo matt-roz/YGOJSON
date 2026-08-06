@@ -1,6 +1,7 @@
 # Import data from Yugipedia (https://yugipedia.com).
 import atexit
 import datetime
+import itertools
 import json
 import logging
 import math
@@ -17,6 +18,7 @@ import tqdm
 import wikitextparser
 
 from ..database import *
+from ..rarity import report_unknown_rarity, resolve_abbreviation, resolve_rarity
 
 API_URL = "https://yugipedia.com/api.php"
 RATE_LIMIT = 1.1
@@ -862,719 +864,34 @@ def parse_card(
 
 CARD_GALLERY_NAMESPACE = "Set Card Galleries:"
 
-#   | c     | common                         = {{ safesubst:<noinclude/>#if: {{{full|}}} | Common                                  | C     }}
-#   | nr    | normal                         = {{ safesubst:<noinclude/>#if: {{{full|}}} | Normal Rare                             | NR    }}
-#   | sp    | short print                    = {{ safesubst:<noinclude/>#if: {{{full|}}} | Short Print                             | SP    }}
-#   | ssp   | super short print              = {{ safesubst:<noinclude/>#if: {{{full|}}} | Super Short Print                       | SSP   }}
-#   | hfr   | holofoil                       = {{ safesubst:<noinclude/>#if: {{{full|}}} | Holofoil Rare                           | HFR   }}
-#   | r     | rare                           = {{ safesubst:<noinclude/>#if: {{{full|}}} | Rare                                    | R     }}
-#   | sr    | super                          = {{ safesubst:<noinclude/>#if: {{{full|}}} | Super Rare                              | SR    }}
-#   | ur    | ultra                          = {{ safesubst:<noinclude/>#if: {{{full|}}} | Ultra Rare                              | UR    }}
-#   | utr   | ultimate                       = {{ safesubst:<noinclude/>#if: {{{full|}}} | Ultimate Rare                           | UtR   }}
-#   | gr    | ghost                          = {{ safesubst:<noinclude/>#if: {{{full|}}} | Ghost Rare                              | GR    }}
-#   | hr | hgr | holographic                 = {{ safesubst:<noinclude/>#if: {{{full|}}} | Holographic Rare                        | HGR   }}
-#   | se | scr | secret                      = {{ safesubst:<noinclude/>#if: {{{full|}}} | Secret Rare                             | ScR   }}
-#   | pscr  | prismatic secret               = {{ safesubst:<noinclude/>#if: {{{full|}}} | Prismatic Secret Rare                   | PScR  }}
-#   | uscr  | ultra secret                   = {{ safesubst:<noinclude/>#if: {{{full|}}} | Ultra Secret Rare                       | UScR  }}
-#   | scur  | secret ultra                   = {{ safesubst:<noinclude/>#if: {{{full|}}} | Secret Ultra Rare                       | ScUR  }}
-#   | escr  | extra secret                   = {{ safesubst:<noinclude/>#if: {{{full|}}} | Extra Secret Rare                       | EScR  }}
-#   | 20scr | 20th secret                    = {{ safesubst:<noinclude/>#if: {{{full|}}} | 20th Secret Rare                        | 20ScR }}
-#   | qcscr | quarter century secret         = {{ safesubst:<noinclude/>#if: {{{full|}}} | Quarter Century Secret Rare             | QCScR }}
-#   | 10000scr | 10000 secret                = {{ safesubst:<noinclude/>#if: {{{full|}}} | 10000 Secret Rare                       | 10000ScR }}
-#   | altr  | str | alternate | starlight    = {{ safesubst:<noinclude/>#if: {{{full|}}} | Starlight Rare                          | StR   }}
-#   | plr   | platinum                       = {{ safesubst:<noinclude/>#if: {{{full|}}} | Platinum Rare                           | PlR   }}
-#   | plscr | platinum secret                = {{ safesubst:<noinclude/>#if: {{{full|}}} | Platinum Secret Rare                    | PlScR }}
-#   | pr    | parallel                       = {{ safesubst:<noinclude/>#if: {{{full|}}} | Parallel Rare                           | PR    }}
-#   | pc    | parallel common                = {{ safesubst:<noinclude/>#if: {{{full|}}} | Parallel Common                         | PC    }}
-#   | npr   | normal parallel                = {{ safesubst:<noinclude/>#if: {{{full|}}} | Normal Parallel Rare                    | NPR   }}
-#   | rpr   | rare parallel                  = {{ safesubst:<noinclude/>#if: {{{full|}}} | Rare Parallel Rare                      | RPR   }}
-#   | spr   | super parallel                 = {{ safesubst:<noinclude/>#if: {{{full|}}} | Super Parallel Rare                     | SPR   }}
-#   | upr   | ultra parallel                 = {{ safesubst:<noinclude/>#if: {{{full|}}} | Ultra Parallel Rare                     | UPR   }}
-#   | scpr  | secret parallel                = {{ safesubst:<noinclude/>#if: {{{full|}}} | Secret Parallel Rare                    | ScPR  }}
-#   | escpr | extra secret parallel          = {{ safesubst:<noinclude/>#if: {{{full|}}} | Extra Secret Parallel Rare              | EScPR }}
-#   | h     | hobby                          = {{ safesubst:<noinclude/>#if: {{{full|}}} | Hobby Rare                              | H     }}
-#   | sfr   | starfoil                       = {{ safesubst:<noinclude/>#if: {{{full|}}} | Starfoil Rare                           | SFR   }}
-#   | msr   | mosaic                         = {{ safesubst:<noinclude/>#if: {{{full|}}} | Mosaic Rare                             | MSR   }}
-#   | shr   | shatterfoil                    = {{ safesubst:<noinclude/>#if: {{{full|}}} | Shatterfoil Rare                        | SHR   }}
-#   | cr    | collectors                     = {{ safesubst:<noinclude/>#if: {{{full|}}} | Collector's Rare                        | CR    }}
-#   | hgpr  | holographic parallel           = {{ safesubst:<noinclude/>#if: {{{full|}}} | Holographic Parallel Rare               | HGPR  }}
-#   | urpr  | ultra pharaohs | pharaohs      = {{ safesubst:<noinclude/>#if: {{{full|}}} | Ultra Rare (Pharaoh's Rare)             | URPR  }}
-#   | kcc | kcn | kaiba corporation common | kaiba corporation normal = {{ safesubst:<noinclude/>#if: {{{full|}}} | Kaiba Corporation Common | KCC }}
-#   | kcr   | kaiba corporation              = {{ safesubst:<noinclude/>#if: {{{full|}}} | Kaiba Corporation Rare                  | KCR   }}
-#   | kcsr  | kaiba corporation super        = {{ safesubst:<noinclude/>#if: {{{full|}}} | Kaiba Corporation Super Rare            | KCSR  }}
-#   | kcur  | kaiba corporation ultra        = {{ safesubst:<noinclude/>#if: {{{full|}}} | Kaiba Corporation Ultra Rare            | KCUR  }}
-#   | kcscr | kaiba corporation secret       = {{ safesubst:<noinclude/>#if: {{{full|}}} | Kaiba Corporation Secret Rare           | KCScR }}
-#   | mr | mlr | millennium                  = {{ safesubst:<noinclude/>#if: {{{full|}}} | Millennium Rare                         | MLR   }}
-#   | mlsr  | millennium super               = {{ safesubst:<noinclude/>#if: {{{full|}}} | Millennium Super Rare                   | MLSR  }}
-#   | mlur  | millennium ultra               = {{ safesubst:<noinclude/>#if: {{{full|}}} | Millennium Ultra Rare                   | MLUR  }}
-#   | mlscr | millennium secret              = {{ safesubst:<noinclude/>#if: {{{full|}}} | Millennium Secret Rare                  | MLScR }}
-#   | mlgr  | millennium gold                = {{ safesubst:<noinclude/>#if: {{{full|}}} | Millennium Gold Rare                    | MLGR  }}
-#   | gur   | gold                           = {{ safesubst:<noinclude/>#if: {{{full|}}} | Gold Rare                               | GUR   }}
-#   | gscr  | gold secret                    = {{ safesubst:<noinclude/>#if: {{{full|}}} | Gold Secret Rare                        | GScR  }}
-#   | ggr   | ghost/gold                     = {{ safesubst:<noinclude/>#if: {{{full|}}} | Ghost/Gold Rare                         | GGR   }}
-#   | pgr   | premium gold                   = {{ safesubst:<noinclude/>#if: {{{full|}}} | Premium Gold Rare                       | PGR   }}
-#   | dpc   | duel terminal parallel common  = {{ safesubst:<noinclude/>#if: {{{full|}}} | Duel Terminal Parallel Common           | DPC   }}
-#   | dnrpr                                  = {{ safesubst:<noinclude/>#if: {{{full|}}} | Duel Terminal Normal Rare Parallel Rare | DNRPR }}
-#   | dnpr                                   = {{ safesubst:<noinclude/>#if: {{{full|}}} | Duel Terminal Normal Parallel Rare      | DNPR  }}
-#   | drpr  | duel terminal  parallel        = {{ safesubst:<noinclude/>#if: {{{full|}}} | Duel Terminal Rare Parallel Rare        | DRPR  }}
-#   | dspr  | duel terminal super parallel   = {{ safesubst:<noinclude/>#if: {{{full|}}} | Duel Terminal Super Parallel Rare       | DSPR  }}
-#   | dupr  | duel terminal ultra parallel   = {{ safesubst:<noinclude/>#if: {{{full|}}} | Duel Terminal Ultra Parallel Rare       | DUPR  }}
-#   | dscpr | duel terminal secret parallel  = {{ safesubst:<noinclude/>#if: {{{full|}}} | Duel Terminal Secret Parallel Rare      | DScPR }}
-#   | rr    | rush                           = {{ safesubst:<noinclude/>#if: {{{full|}}} | Rush Rare                               | RR    }}
-#   | grr   | gold rush                      = {{ safesubst:<noinclude/>#if: {{{full|}}} | Gold Rush Rare                          | GRR   }}
-#   | orr   | over rush                      = {{ safesubst:<noinclude/>#if: {{{full|}}} | Over Rush Rare                          | ORR   }}
-
-RARITY_STR_TO_ENUM = {
-    "c": CardRarity.COMMON,
-    "sp": CardRarity.SHORTPRINT,
-    "ssp": CardRarity.SHORTPRINT,
-    "nr": CardRarity.SHORTPRINT,
-    "r": CardRarity.RARE,
-    "sr": CardRarity.SUPER,
-    "ur": CardRarity.ULTRA,
-    "rar": CardRarity.ULTRA,  # not official, but typos were made in a few galleries (?)
-    "urpurple": CardRarity.ULTRA_PURPLE,  # AFAIK, Yugipedia doesn't actually use this abbreviation; we use this for consistency's sake
-    "utr": CardRarity.ULTIMATE,
-    "se": CardRarity.SECRET,
-    "scr": CardRarity.SECRET,
-    "scrred": CardRarity.SECRET_RED,
-    "scrblue": CardRarity.SECRET_BLUE,
-    "uscr": CardRarity.ULTRASECRET,
-    "pscr": CardRarity.PRISMATICSECRET,
-    "hr": CardRarity.GHOST,
-    "hgr": CardRarity.GHOST,
-    "gr": CardRarity.GHOST,
-    "pr": CardRarity.PARALLEL,
-    "npr": CardRarity.COMMONPARALLEL,
-    "pc": CardRarity.COMMONPARALLEL,
-    "rpr": CardRarity.RAREPARALLEL,
-    "spr": CardRarity.SUPERPARALLEL,
-    "upr": CardRarity.ULTRAPARALLEL,
-    "dpc": CardRarity.DTPC,
-    "dnpr": CardRarity.DTPC,
-    "dnrpr": CardRarity.DTPSP,
-    "drpr": CardRarity.DTRPR,
-    "dspr": CardRarity.DTSPR,
-    "dupr": CardRarity.DTUPR,
-    "dscpr": CardRarity.DTSCPR,
-    "gur": CardRarity.GOLD,
-    "10000scr": CardRarity.TENTHOUSANDSECRET,
-    "20scr": CardRarity.TWENTITHSECRET,
-    "cr": CardRarity.COLLECTORS,
-    "escr": CardRarity.EXTRASECRET,
-    "escpr": CardRarity.EXTRASECRETPARALLEL,
-    "ggr": CardRarity.GOLDGHOST,
-    "gscr": CardRarity.GOLDSECRET,
-    "sfr": CardRarity.STARFOIL,
-    "msr": CardRarity.MOSAIC,
-    "shr": CardRarity.SHATTERFOIL,
-    "hgpr": CardRarity.GHOSTPARALLEL,
-    "plr": CardRarity.PLATINUM,
-    "plscr": CardRarity.PLATINUMSECRET,
-    "pgr": CardRarity.PREMIUMGOLD,
-    "qcscr": CardRarity.TWENTYFIFTHSECRET,
-    "scpr": CardRarity.SECRETPARALLEL,
-    "altr": CardRarity.STARLIGHT,
-    "str": CardRarity.STARLIGHT,
-    "urpr": CardRarity.PHARAOHS,
-    "kcc": CardRarity.KCCOMMON,
-    "kcn": CardRarity.KCCOMMON,
-    "kcr": CardRarity.KCRARE,
-    "kcsr": CardRarity.KCSUPER,
-    "kcur": CardRarity.KCULTRA,
-    "kcscr": CardRarity.KCSECRET,
-    "mr": CardRarity.MILLENIUM,
-    "mlr": CardRarity.MILLENIUM,
-    "mlsr": CardRarity.MILLENIUMSUPER,
-    "mlur": CardRarity.MILLENIUMULTRA,
-    "mlscr": CardRarity.MILLENIUMSECRET,
-    "mlgr": CardRarity.MILLENIUMGOLD,
-}
-
-_RARITY_FTS_RAW: typing.List[typing.Tuple[typing.List[str], str]] = [
-    (
-        [
-            "c",
-            "common",
-            "Common",
-        ],
-        "C",
-    ),
-    (
-        [
-            "nr",
-            "normal",
-            "Normal Rare",
-        ],
-        "NR",
-    ),
-    (
-        [
-            "sp",
-            "short print",
-            "Short Print",
-        ],
-        "SP",
-    ),
-    (
-        [
-            "ssp",
-            "super short print",
-            "Super Short Print",
-        ],
-        "SSP",
-    ),
-    (
-        [
-            "hfr",
-            "holofoil",
-            "Holofoil Rare",
-        ],
-        "HFR",
-    ),
-    (
-        [
-            "r",
-            "rare",
-            "Rare",
-        ],
-        "R",
-    ),
-    (
-        [
-            "sr",
-            "super",
-            "Super Rare",
-        ],
-        "SR",
-    ),
-    (
-        [
-            "ur",
-            "ultra",
-            "Ultra Rare",
-        ],
-        "UR",
-    ),
-    (
-        [
-            "urpurple",
-            "Ultra Rare (Special Purple Version)",
-        ],
-        "URPurple",
-    ),
-    (
-        [
-            "utr",
-            "ultimate",
-            "Ultimate Rare",
-        ],
-        "UtR",
-    ),
-    (
-        [
-            "gr",
-            "ghost",
-            "Ghost Rare",
-        ],
-        "GR",
-    ),
-    (
-        [
-            "hr",
-            "hgr",
-            "holographic",
-            "Holographic Rare",
-        ],
-        "HGR",
-    ),
-    (
-        [
-            "se",
-            "scr",
-            "secret",
-            "Secret Rare",
-        ],
-        "ScR",
-    ),
-    (
-        [
-            "pscr",
-            "prismatic secret",
-            "Prismatic Secret Rare",
-        ],
-        "PScR",
-    ),
-    (
-        [
-            "uscr",
-            "ultra secret",
-            "Ultra Secret Rare",
-        ],
-        "UScR",
-    ),
-    (
-        [
-            "scur",
-            "secret ultra",
-            "Secret Ultra Rare",
-        ],
-        "ScUR",
-    ),
-    (
-        [
-            "escr",
-            "extra secret",
-            "Extra Secret Rare",
-        ],
-        "EScR",
-    ),
-    (
-        [
-            "20scr",
-            "20th secret",
-            "20th Secret Rare",
-        ],
-        "20ScR",
-    ),
-    (
-        [
-            "qcscr",
-            "quarter century secret",
-            "Quarter Century Secret Rare",
-        ],
-        "QCScR",
-    ),
-    (
-        [
-            "10000scr",
-            "10000 secret",
-            "10000 Secret Rare",
-        ],
-        "10000ScR",
-    ),
-    (
-        [
-            "str",
-            "starlight",
-            "Starlight Rare",
-            "alt",
-            "altr",
-            "alternate",
-            "Alternate Rare",
-        ],
-        "StR",
-    ),
-    (
-        [
-            "plr",
-            "platinum",
-            "Platinum Rare",
-        ],
-        "PlR",
-    ),
-    (
-        [
-            "plscr",
-            "platinum secret",
-            "Platinum Secret Rare",
-        ],
-        "PlScR",
-    ),
-    (
-        [
-            "pr",
-            "parallel",
-            "Parallel Rare",
-        ],
-        "PR",
-    ),
-    (
-        [
-            "pc",
-            "parallel common",
-            "Parallel Common",
-        ],
-        "PC",
-    ),
-    (
-        [
-            "npr",
-            "normal parallel",
-            "Normal Parallel Rare",
-        ],
-        "NPR",
-    ),
-    (
-        [
-            "rpr",
-            "rare parallel",
-            "Rare Parallel Rare",
-        ],
-        "RPR",
-    ),
-    (
-        [
-            "spr",
-            "super parallel",
-            "Super Parallel Rare",
-        ],
-        "SPR",
-    ),
-    (
-        [
-            "upr",
-            "ultra parallel",
-            "Ultra Parallel Rare",
-        ],
-        "UPR",
-    ),
-    (
-        [
-            "scpr",
-            "secret parallel",
-            "Secret Parallel Rare",
-        ],
-        "ScPR",
-    ),
-    (
-        [
-            "escpr",
-            "extra secret parallel",
-            "Extra Secret Parallel Rare",
-        ],
-        "EScPR",
-    ),
-    (
-        [
-            "h",
-            "hobby",
-            "Hobby Rare",
-        ],
-        "H",
-    ),
-    (
-        [
-            "sfr",
-            "starfoil",
-            "Starfoil Rare",
-        ],
-        "SFR",
-    ),
-    (
-        [
-            "msr",
-            "mosaic",
-            "Mosaic Rare",
-        ],
-        "MSR",
-    ),
-    (
-        [
-            "shr",
-            "shatterfoil",
-            "Shatterfoil Rare",
-        ],
-        "SHR",
-    ),
-    (
-        [
-            "cr",
-            "collectors",
-            "Collectors Rare",
-            "Collector's Rare",
-        ],
-        "CR",
-    ),
-    (
-        [
-            "hgpr",
-            "holographic parallel",
-            "Holographic Parallel Rare",
-        ],
-        "HGPR",
-    ),
-    (
-        [
-            "urpr",
-            "ultra pharaohs",
-            "pharaohs",
-            "Ultra Rare (Pharaoh's Rare)",
-        ],
-        "URPR",
-    ),
-    (
-        [
-            "kcc",
-            "kcn",
-            "kaiba corporation common",
-            "kaiba corporation normal",
-            "Kaiba Corporation Common",
-        ],
-        "KCC",
-    ),
-    (
-        [
-            "kcr",
-            "kaiba corporation",
-            "Kaiba Corporation Rare",
-        ],
-        "KCR",
-    ),
-    (
-        [
-            "kcsr",
-            "kaiba corporation super",
-            "Kaiba Corporation Super Rare",
-        ],
-        "KCSR",
-    ),
-    (
-        [
-            "kcur",
-            "kaiba corporation ultra",
-            "Kaiba Corporation Ultra Rare",
-        ],
-        "KCUR",
-    ),
-    (
-        [
-            "kcscr",
-            "kaiba corporation secret",
-            "Kaiba Corporation Secret Rare",
-        ],
-        "KCScR",
-    ),
-    (
-        [
-            "mr",
-            "mlr",
-            "millennium",
-            "Millennium Rare",
-        ],
-        "MLR",
-    ),
-    (
-        [
-            "mlsr",
-            "millennium super",
-            "Millennium Super Rare",
-        ],
-        "MLSR",
-    ),
-    (
-        [
-            "mlur",
-            "millennium ultra",
-            "Millennium Ultra Rare",
-        ],
-        "MLUR",
-    ),
-    (
-        [
-            "mlscr",
-            "millennium secret",
-            "Millennium Secret Rare",
-        ],
-        "MLScR",
-    ),
-    (
-        [
-            "mlgr",
-            "millennium gold",
-            "Millennium Gold Rare",
-        ],
-        "MLGR",
-    ),
-    (
-        [
-            "gur",
-            "gold",
-            "Gold Rare",
-        ],
-        "GUR",
-    ),
-    (
-        [
-            "gscr",
-            "gold secret",
-            "Gold Secret Rare",
-        ],
-        "GScR",
-    ),
-    (
-        [
-            "ggr",
-            "ghost/gold",
-            "Ghost/Gold Rare",
-        ],
-        "GGR",
-    ),
-    (
-        [
-            "pgr",
-            "premium gold",
-            "Premium Gold Rare",
-        ],
-        "PGR",
-    ),
-    (
-        [
-            "dpc",
-            "duel terminal parallel common",
-            "Duel Terminal Parallel Common",
-        ],
-        "DPC",
-    ),
-    (
-        [
-            "dnrpr",
-            "Duel Terminal Normal Rare Parallel Rare",
-        ],
-        "DNRPR",
-    ),
-    (
-        [
-            "dnpr",
-            "Duel Terminal Normal Parallel Rare",
-        ],
-        "DNPR",
-    ),
-    (
-        [
-            "drpr",
-            "duel terminal parallel",
-            "Duel Terminal Rare Parallel Rare",
-        ],
-        "DRPR",
-    ),
-    (
-        [
-            "dspr",
-            "duel terminal super parallel",
-            "Duel Terminal Super Parallel Rare",
-        ],
-        "DSPR",
-    ),
-    (
-        [
-            "dupr",
-            "duel terminal ultra parallel",
-            "Duel Terminal Ultra Parallel Rare",
-        ],
-        "DUPR",
-    ),
-    (
-        [
-            "dscpr",
-            "duel terminal secret parallel",
-            "Duel Terminal Secret Parallel Rare",
-        ],
-        "DScPR",
-    ),
-    (
-        [
-            "rr",
-            "rush",
-            "Rush Rare",
-        ],
-        "RR",
-    ),
-    (
-        [
-            "grr",
-            "gold rush",
-            "Gold Rush Rare",
-        ],
-        "GRR",
-    ),
-    (
-        [
-            "scrred",
-            "Secret Rare (Special Red Version)",
-        ],
-        "ScRRed",
-    ),
-    (
-        [
-            "scrblue",
-            "Secret Rare (Special Blue Version)",
-        ],
-        "ScRBlue",
-    ),
-    (["orr", "over rush", "Over Rush Rare"], "ORR"),
-]
-RAIRTY_FULL_TO_SHORT = {kk.lower(): v for k, v in _RARITY_FTS_RAW for kk in k}
-
-FULL_RARITY_STR_TO_ENUM = {
-    "common": CardRarity.COMMON,  # c
-    "short print": CardRarity.SHORTPRINT,  # sp
-    "super short print": CardRarity.SHORTPRINT,  # ssp
-    "normal rare": CardRarity.SHORTPRINT,  # nr
-    "rare": CardRarity.RARE,  # r
-    "super rare": CardRarity.SUPER,  # sr
-    "ultra rare": CardRarity.ULTRA,  # ur
-    "ultra rare (special purple version)": CardRarity.ULTRA_PURPLE,
-    "ultimate rare": CardRarity.ULTIMATE,  # utr
-    "secret rare": CardRarity.SECRET,  # se / scr
-    "secret rare (special red version)": CardRarity.SECRET_RED,
-    "secret rare (special blue version)": CardRarity.SECRET_BLUE,
-    "ultra secret rare": CardRarity.ULTRASECRET,  # uscr
-    "prismatic secret rare": CardRarity.PRISMATICSECRET,  # pscr
-    "holographic rare": CardRarity.GHOST,  # hr / hgr
-    "ghost rare": CardRarity.GHOST,  # gr
-    "parallel rare": CardRarity.PARALLEL,  # pr
-    "normal parallel rare": CardRarity.COMMONPARALLEL,  # npr
-    "parallel common": CardRarity.COMMONPARALLEL,  # pc
-    "rare parallel rare": CardRarity.RAREPARALLEL,  # rpr
-    "super parallel rare": CardRarity.SUPERPARALLEL,  # spr
-    "ultra parallel rare": CardRarity.ULTRAPARALLEL,  # upr
-    "duel terminal parallel common": CardRarity.DTPC,  # dpc
-    "duel terminal normal parallel rare": CardRarity.DTPC,  # dnpr
-    "duel terminal rare parallel rare": CardRarity.DTPSP,  # drpr
-    "duel terminal normal rare parallel rare": CardRarity.DTRPR,  # dnrpr
-    "duel terminal super parallel rare": CardRarity.DTSPR,  # dspr
-    "duel terminal ultra parallel rare": CardRarity.DTUPR,  # dupr
-    "duel terminal secret parallel rare": CardRarity.DTSCPR,  # dscpr
-    "gold rare": CardRarity.GOLD,  # gur
-    "10000 secret rare": CardRarity.TENTHOUSANDSECRET,  # 10000scr
-    "20th secret rare": CardRarity.TWENTITHSECRET,  # 20scr
-    "collector's rare": CardRarity.COLLECTORS,  # cr
-    "collectors rare": CardRarity.COLLECTORS,  # cr
-    "extra secret": CardRarity.EXTRASECRET,  # escr
-    "extra secret rare": CardRarity.EXTRASECRET,  # escr
-    "extra secret parallel rare": CardRarity.EXTRASECRETPARALLEL,  # escpr
-    "ghost/gold rare": CardRarity.GOLDGHOST,  # ggr
-    "gold secret rare": CardRarity.GOLDSECRET,  # gscr
-    "starfoil rare": CardRarity.STARFOIL,  # sfr
-    "starfoil": CardRarity.STARFOIL,  # sfr
-    "mosaic rare": CardRarity.MOSAIC,  # msr
-    "shatterfoil rare": CardRarity.SHATTERFOIL,  # shr
-    "holographic parallel rare": CardRarity.GHOSTPARALLEL,  # hgpr
-    "platinum rare": CardRarity.PLATINUM,  # plr
-    "platinum secret rare": CardRarity.PLATINUMSECRET,  # plscr
-    "premium gold rare": CardRarity.PREMIUMGOLD,  # pgr
-    "quarter century secret rare": CardRarity.TWENTYFIFTHSECRET,  # qcscr
-    "secret parallel rare": CardRarity.SECRETPARALLEL,  # scpr
-    "starlight rare": CardRarity.STARLIGHT,  # altr / str
-    "alternate rare": CardRarity.STARLIGHT,  # altr / str
-    "ultra rare (pharaoh's rare)": CardRarity.PHARAOHS,  # urpr
-    "kaiba corporation common": CardRarity.KCCOMMON,  # kcc / kcn
-    "kaiba corporation rare": CardRarity.KCRARE,  # kcr
-    "kaiba corporation super rare": CardRarity.KCSUPER,  # kcsr
-    "kaiba corporation ultra rare": CardRarity.KCULTRA,  # kcur
-    "kaiba corporation secret rare": CardRarity.KCSECRET,  # kcscr
-    "millennium rare": CardRarity.MILLENIUM,  # mr / mlr
-    "millennium super rare": CardRarity.MILLENIUMSUPER,  # mlsr
-    "millennium ultra rare": CardRarity.MILLENIUMULTRA,  # mlur
-    "millennium secret rare": CardRarity.MILLENIUMSECRET,  # mlscr
-    "millennium gold rare": CardRarity.MILLENIUMGOLD,  # mlgr
-}
-
 PRINT_STATUS_STR_TO_ENUM = {
     "new": PrintStatus.NEW,
     "reprint": PrintStatus.REPRINT,
 }
+
+IMAGE_VARIANT_STR_TO_ENUM = {
+    "AA": ImageVariant.ALTERNATE_ART,
+    "AA2": ImageVariant.ALTERNATE_ART,
+    "AA3": ImageVariant.ALTERNATE_ART,
+    "AA4": ImageVariant.ALTERNATE_ART,
+    "AA5": ImageVariant.ALTERNATE_ART,
+    "AA6": ImageVariant.ALTERNATE_ART,
+    "OP": ImageVariant.OFFICIAL_PROXY,
+    "OW": ImageVariant.OFFICIAL_WEBSITE,
+}
+"""The gallery variant codes whose meaning is documented, and what they mean.
+``OP`` and ``OW`` are defined by ``Yugipedia:Image policy``; the ``AA`` family is
+alternate artwork, numbered where one printing has several of them - ``Quarter
+Century Art Collection`` gets Dark Magician up to ``AA6``.
+
+Listed one by one on purpose, including every number. A code absent here is
+published with its raw spelling and no classification, which is the safe
+direction: a code is only ever as reliable as the editor who wrote it in the
+gallery row, and ``Reprint`` is already known to mean two different things on one
+page. Matching loosely - by prefix, or case-insensitively - would classify codes
+nobody has read, which is how ``Reprint`` came to be mistaken for a card-text
+distinction in the first place.
+"""
 
 EDITION_STR_TO_ENUM = {
     "1E": SetEdition.FIRST,
@@ -1723,6 +1040,13 @@ class ImageLocator(typing.NamedTuple):
     altinfo: str
 
 
+class GalleryImage(typing.NamedTuple):
+    position: typing.Tuple[int, int]
+    """Where the gallery row that claimed this image sits: which gallery page,
+    then which row of it."""
+    url: str
+
+
 class PrintingLocator(typing.NamedTuple):
     card: Card
     rarity: CardRarity
@@ -1737,9 +1061,14 @@ class RawPrinting:
     card: Card
     code: str
     rarity: CardRarity
-    image: typing.Dict[ImageLocator, str]
+    image: typing.Dict[ImageLocator, GalleryImage]
     qty: int
     noabbr: bool
+    row: int
+    """Which row of the set list page named this printing, counted where the row
+    is parsed rather than where its card lookup answers. The answers arrive in
+    fetch-completion order, so this is the only record of the order the wiki
+    writes its set list in."""
 
     def __init__(
         self,
@@ -1748,6 +1077,7 @@ class RawPrinting:
         rarity: CardRarity,
         qty: int,
         noabbr: bool,
+        row: int,
         print_status: typing.Optional[PrintStatus] = None,
     ) -> None:
         self.card = card
@@ -1756,6 +1086,7 @@ class RawPrinting:
         self.image = {}
         self.qty = qty
         self.noabbr = noabbr
+        self.row = row
         self.print_status = print_status
 
     def locator(self) -> PrintingLocator:
@@ -1765,7 +1096,10 @@ class RawPrinting:
 class RawLocale:
     key: str
     format: str
-    editions: typing.Set[SetEdition]
+    editions: typing.List[SetEdition]
+    """In ``EDITIONS_IN_NAV`` order. A set here would iterate in a different
+    order every run, since enum members hash by name and Python randomizes
+    string hashing per process."""
     cards: typing.Dict[PrintingLocator, RawPrinting]
     date: typing.Optional[datetime.date]
     images: typing.Dict[SetEdition, str]
@@ -1774,11 +1108,92 @@ class RawLocale:
     def __init__(self, key: str, format: str) -> None:
         self.key = key
         self.format = format
-        self.editions = set()
+        self.editions = []
         self.cards = {}
         self.date = None
         self.images = {}
         self.db_ids = []
+
+
+def _pack_image(raw_locale: RawLocale) -> typing.Optional[str]:
+    """The pack image a locale publishes: the image of the first of its
+    editions that has one, in ``EDITIONS_IN_NAV`` order. A locale whose
+    editions carry distinct pack images therefore publishes its 1st Edition
+    image, rather than whichever edition happened to be iterated first."""
+    for edition in raw_locale.editions:
+        if edition in raw_locale.images:
+            return raw_locale.images[edition]
+    return None
+
+
+def _canonical_image(ils: typing.List[ImageLocator]) -> ImageLocator:
+    """The one image a printing publishes for an edition, picked from the
+    locators it carries there. The plain image, the one with no variant code,
+    wins. Where a printing carries no plain image at all, as ``OTS Tournament
+    Pack 9``'s Mecha Phantom Beast Token carries only ``Harrliard``,
+    ``Megaraptor`` and ``Dracossack``, the alphabetically first code wins
+    instead. The codes a printing carries in one edition are distinct, since
+    they key the same dict, so this order is total: the pick does not depend
+    on the order the asynchronous image lookups happened to complete in, and
+    is the same on every run."""
+    return min(ils, key=lambda il: (bool(il.altinfo), il.altinfo))
+
+
+def _variant_image(
+    art_treatments: typing.Dict[typing.Tuple[Card, str], CardImage],
+    card: Card,
+    il: ImageLocator,
+    url: str,
+) -> VariantImage:
+    """One coded image of a printing, carrying the art treatment it depicts
+    where the code says it depicts one.
+
+    Only alternate artworks get a treatment. Their code is what the galleries
+    number when a card has several of them, and the number is what tells two
+    artworks apart: ``Quarter Century Art Collection`` gives Dark Magician
+    ``AA`` through ``AA6``, six different artworks, and Yugipedia's own card
+    page lists the same files as six separate artwork entries. So the code is
+    the key, shared across the locales and rarities of one set - one artwork,
+    one treatment, however many scans of it a set publishes - and not across
+    sets, where nothing says two galleries numbered the same artwork alike.
+    """
+    variant = IMAGE_VARIANT_STR_TO_ENUM.get(il.altinfo)
+    treatment = None
+    if variant is ImageVariant.ALTERNATE_ART:
+        treatment = art_treatments.setdefault(
+            (card, il.altinfo), CardImage(id=uuid.uuid4())
+        )
+    return VariantImage(
+        code=il.altinfo,
+        image=url,
+        variant=variant,
+        art_treatment=treatment,
+    )
+
+
+def _record_image(
+    images: typing.Dict[ImageLocator, GalleryImage],
+    il: ImageLocator,
+    position: typing.Tuple[int, int],
+    url: str,
+) -> None:
+    """Record what one gallery row says a printing's image is for an edition and
+    a variant code. Two rows can land on the same key. A set locale can carry
+    both an edition's own gallery and an edition-agnostic one - sixty-one do -
+    whose rows build file names differing only by the edition suffix; and
+    ``COLORFUL_RARES`` clearing a row's variant code while ``FALLBACK_RARITIES``
+    moves it onto the plain rarity's printing can fold two tables of one gallery
+    onto the same key.
+
+    The earlier row wins. ``position`` counts where the row is parsed - which
+    gallery page, then which row of it - rather than when its image lookup
+    answers, because the answers arrive in fetch-completion order: keeping the
+    last write, as this used to, publishes whichever of the two the wiki
+    answered for last, which differs between runs and between a warm and a cold
+    page cache. The edition's own gallery is read before the edition-agnostic
+    one, so an edition publishes its own scan wherever the wiki has one."""
+    if il not in images or position < images[il].position:
+        images[il] = GalleryImage(position, url)
 
 
 COLORFUL_RARES = {
@@ -1828,7 +1243,9 @@ def parse_tcg_ocg_set(
         logging.warn(f"Found set with multiple set navigation tables: {title}")
 
     raw_locales: typing.Dict[str, RawLocale] = {}
-    packimages: typing.Dict[str, str] = {}
+    # keyed by locale, or locale and edition; the int is which line of the set
+    # page's pack image gallery the image came from
+    packimages: typing.Dict[str, typing.Tuple[int, str]] = {}
 
     def get_card(name: str):
         # MediaWiki escapes "=" and "|" inside template arguments, so a card
@@ -1863,7 +1280,7 @@ def parse_tcg_ocg_set(
         return GetCardDecorator
 
     def addcardlist(
-        setname: str, raw_locale: RawLocale, editions: typing.Set[SetEdition]
+        setname: str, raw_locale: RawLocale, editions: typing.List[SetEdition]
     ):
         listpagename = f"Set Card Lists:{setname} ({raw_locale.format.upper()}-{raw_locale.key.upper()})"
 
@@ -1876,19 +1293,22 @@ def parse_tcg_ocg_set(
                 if x.name.lower().strip() == "set list"
             ]
 
+            row_numbers = itertools.count()
+
             def add_card_to_cardlist(
                 name: str,
                 code: str,
                 rarity: CardRarity,
                 qty: typing.Optional[int],
                 noabbr: bool,
+                row: int,
                 print_status: typing.Optional[PrintStatus] = None,
             ):
                 @get_card(name)
                 def onGetCard(card: Card):
                     rcs: typing.List[RawPrinting] = []
                     raw_rc = RawPrinting(
-                        card, code, rarity, qty or 1, noabbr, print_status
+                        card, code, rarity, qty or 1, noabbr, row, print_status
                     )
                     if (
                         setname in MANUAL_RARITY_FIXUPS
@@ -1902,6 +1322,7 @@ def parse_tcg_ocg_set(
                                     new_rarity,
                                     raw_rc.qty,
                                     raw_rc.noabbr,
+                                    raw_rc.row,
                                     raw_rc.print_status,
                                 )
                             )
@@ -1922,27 +1343,22 @@ def parse_tcg_ocg_set(
                 raw_default_rarity = get_table_entry(setlist, "rarities", "C").strip()
                 if not raw_default_rarity:
                     raw_default_rarity = "C"
-                raw_long_default_rarities = [
-                    x.strip() for x in raw_default_rarity.split(",") if x.strip()
-                ]
-                raw_short_default_rarities = [
-                    RAIRTY_FULL_TO_SHORT.get(x.lower(), x.lower())
-                    for x in raw_long_default_rarities
-                ]
-                default_rarities = [
-                    RARITY_STR_TO_ENUM.get(x.lower())
-                    or FULL_RARITY_STR_TO_ENUM.get(x.lower())
-                    for x in raw_short_default_rarities
-                ]
-                if not default_rarities:
-                    default_rarities = [CardRarity.COMMON]
-                elif not all(default_rarities):
-                    logging.warn(
-                        f"Could not determine default rarity of {listpagename}: {raw_default_rarity}"
-                    )
-                    default_rarities = [CardRarity.COMMON]
-                if typing.TYPE_CHECKING:
-                    default_rarities = [x for x in default_rarities if x]
+                # An entry the vocabulary doesn't claim drops itself and leaves
+                # the entries beside it alone. Dropping the whole list instead
+                # sent every row that names no rarity of its own to Common, over
+                # one unreadable entry.
+                default_rarities: typing.List[CardRarity] = []
+                for raw_default_entry in raw_default_rarity.split(","):
+                    raw_default_entry = raw_default_entry.strip()
+                    if not raw_default_entry:
+                        continue
+                    default_entry = resolve_rarity(raw_default_entry)
+                    if not default_entry:
+                        report_unknown_rarity(
+                            listpagename, raw_default_entry, "default rarity list"
+                        )
+                    else:
+                        default_rarities.append(default_entry)
 
                 # A *present* `print` or `qty` parameter gives every row that column,
                 # even when the parameter is empty; its value is only the default for
@@ -2007,12 +1423,10 @@ def parse_tcg_ocg_set(
                             )
                             rarities: typing.List[CardRarity] = []
                             for raw_rarity in raw_rarities:
-                                rarity = RARITY_STR_TO_ENUM.get(
-                                    raw_rarity.lower()
-                                ) or FULL_RARITY_STR_TO_ENUM.get(raw_rarity.lower())
+                                rarity = resolve_rarity(raw_rarity)
                                 if not rarity:
-                                    logging.warn(
-                                        f"Got strange rarity in {listpagename}, in row {name}: {raw_rarity}"
+                                    report_unknown_rarity(
+                                        listpagename, raw_rarity, f"row {name}"
                                     )
                                 else:
                                     rarities.append(rarity)
@@ -2052,6 +1466,7 @@ def parse_tcg_ocg_set(
                                     rarity,
                                     qty if qty is not None else default_qty,
                                     noabbr,
+                                    next(row_numbers),
                                     print_status,
                                 )
 
@@ -2067,9 +1482,10 @@ def parse_tcg_ocg_set(
     def get_gallery_data(
         setname: str, raw_locale: RawLocale, edition: SetEdition, locale_code: str
     ):
-        raw_locale.editions.add(edition)
+        if edition not in raw_locale.editions:
+            raw_locale.editions.append(edition)
 
-        def do(galleryname: str):
+        def do(galleryname: str, gallery_rank: int):
             @batcher.getPageContents(galleryname)
             def onGetList(raw_gallery_data: str):
                 gallery_data = wikitextparser.parse(raw_gallery_data)
@@ -2081,12 +1497,14 @@ def parse_tcg_ocg_set(
                 subgallery_htmls = re.findall(
                     r"<gallery[^\n]*\n(.*?)\n</gallery>", raw_gallery_data, re.DOTALL
                 )
+                row_numbers = itertools.count()
 
                 def add_card_image(
                     name: str,
                     rarity: CardRarity,
                     alt: str,
                     image: str,
+                    row: int,
                     code: typing.Optional[str] = None,
                 ):
                     @batcher.getImageURL(f"File:{image}")
@@ -2113,7 +1531,12 @@ def parse_tcg_ocg_set(
                                     )
                             else:
                                 for rc in rcs:
-                                    rc.image[ImageLocator(edition, alt)] = url
+                                    _record_image(
+                                        rc.image,
+                                        ImageLocator(edition, alt),
+                                        (gallery_rank, row),
+                                        url,
+                                    )
 
                         @get_card(name)
                         def do(card: Card):
@@ -2128,17 +1551,14 @@ def parse_tcg_ocg_set(
                     )
                     if not raw_default_rarity:
                         raw_default_rarity = "C"
-                    raw_short_default_rarity = RAIRTY_FULL_TO_SHORT.get(
-                        raw_default_rarity.lower(), raw_default_rarity.lower()
-                    )
-                    default_rarity = RARITY_STR_TO_ENUM.get(
-                        raw_short_default_rarity.lower()
-                    ) or FULL_RARITY_STR_TO_ENUM.get(raw_short_default_rarity.lower())
+                    # Left as None rather than Common: a gallery image is matched
+                    # to a printing by rarity, so guessing here hangs the image
+                    # off whichever printing happens to be Common.
+                    default_rarity = resolve_rarity(raw_default_rarity)
                     if not default_rarity:
-                        logging.warn(
-                            f"Could not determine default rarity of {galleryname}: {raw_default_rarity}"
+                        report_unknown_rarity(
+                            galleryname, raw_default_rarity, "gallery default"
                         )
-                        default_rarity = CardRarity.COMMON
 
                     default_alt = get_table_entry(gallery, "alt", "").strip()
 
@@ -2200,14 +1620,20 @@ def parse_tcg_ocg_set(
                                     col_rarity = cols[col_index]
                                     if col_rarity:
                                         raw_rarity = col_rarity
-                                        rarity_override = RARITY_STR_TO_ENUM.get(
-                                            raw_rarity.lower()
-                                        ) or FULL_RARITY_STR_TO_ENUM.get(
-                                            raw_rarity.lower()
-                                        )
+                                        rarity_override = resolve_rarity(raw_rarity)
                                         if rarity_override:
                                             rarity = rarity_override
+                                        else:
+                                            report_unknown_rarity(
+                                                galleryname, raw_rarity, f"row {name}"
+                                            )
                                     col_index += 1
+
+                                if not rarity:
+                                    # nothing this row or its gallery named is a
+                                    # rarity we know, and add_card_image finds the
+                                    # printing to attach to by rarity
+                                    continue
 
                                 raw_alt = default_alt or ""
                                 if len(cols) > col_index:
@@ -2231,9 +1657,7 @@ def parse_tcg_ocg_set(
                                             image += f"-{code_before_dash.group(0)}"
                                     image += f"-{raw_locale.key.upper()}"
                                     if raw_rarity:
-                                        rarity_code = RAIRTY_FULL_TO_SHORT.get(
-                                            raw_rarity.lower()
-                                        )
+                                        rarity_code = resolve_abbreviation(raw_rarity)
                                         if rarity_code:
                                             image += f"-{rarity_code}"
                                         else:
@@ -2251,7 +1675,9 @@ def parse_tcg_ocg_set(
                                     else:
                                         image += ".png"
 
-                                add_card_image(name, rarity, alt, image, code)
+                                add_card_image(
+                                    name, rarity, alt, image, next(row_numbers), code
+                                )
 
                 for subgallery in subgallery_htmls:
                     lines = [x.strip() for x in subgallery.split("\n") if x.strip()]
@@ -2269,32 +1695,37 @@ def parse_tcg_ocg_set(
                                 image = ""
 
                             (codelink, raritylink, namelink, *_) = parsed_line.wikilinks
-                            rarity = RARITY_STR_TO_ENUM.get(
-                                raritylink.target.strip().lower()
-                            ) or FULL_RARITY_STR_TO_ENUM.get(
-                                raritylink.target.strip().lower()
-                            )
+                            rarity = resolve_rarity(raritylink.target)
                             if not rarity:
-                                logging.warn(
-                                    f"Found strange rarity in subgallery in {galleryname}: {raritylink.target}"
+                                report_unknown_rarity(
+                                    galleryname, raritylink.target, "subgallery row"
                                 )
                                 continue
                             name = namelink.target.strip()
                             add_card_image(
-                                name, rarity, "", image, codelink.target.strip()
+                                name,
+                                rarity,
+                                "",
+                                image,
+                                next(row_numbers),
+                                codelink.target.strip(),
                             )
 
                 if not gallery_templates and not subgallery_htmls:
                     logging.warn(f"No gallery tables found in {galleryname}!")
 
+        # the edition's own gallery first, so that _record_image prefers its
+        # scan over the edition-agnostic gallery's where a locale has both
         do(
-            f"Set Card Galleries:{setname} ({raw_locale.format.upper()}-{raw_locale.key.upper()}-{EDITIONS_IN_NAV_REVERSE[edition].upper()})"
+            f"Set Card Galleries:{setname} ({raw_locale.format.upper()}-{raw_locale.key.upper()}-{EDITIONS_IN_NAV_REVERSE[edition].upper()})",
+            0,
         )
         do(
-            f"Set Card Galleries:{setname} ({raw_locale.format.upper()}-{raw_locale.key.upper()})"
+            f"Set Card Galleries:{setname} ({raw_locale.format.upper()}-{raw_locale.key.upper()})",
+            1,
         )
 
-    def parse_packimage_line(line: str):
+    def parse_packimage_line(line: str, row: int):
         imagename = re.match(r"\S+", line)
         if imagename:
             gallery_links = [
@@ -2308,7 +1739,13 @@ def parse_tcg_ocg_set(
                 for gallery_link in gallery_links:
                     lc = re.search(r"\([^\-]+\-([^\)]+)\)", gallery_link)
                     if lc:
-                        packimages[lc.group(1).lower()] = url
+                        key = lc.group(1).lower()
+                        # The earliest line wins. Five set pages, Toon Chaos
+                        # among them, point several pack images at one locale
+                        # key; keeping the last write published whichever image
+                        # lookup answered last, which differs between runs.
+                        if key not in packimages or row < packimages[key][0]:
+                            packimages[key] = (row, url)
 
     for nav in navs:
         lists = [
@@ -2340,7 +1777,12 @@ def parse_tcg_ocg_set(
         if not lists and not galleries:
             logging.warn(f"Found set without card lists or galleries: {title}")
 
-        all_lcs = {lc for lc in [*lists, *[y for x in galleries.values() for y in x]]}
+        # deduplicated but kept in the order the set navigation names them:
+        # this drives the published locale and set contents ordering, which a
+        # set would reshuffle on every run
+        all_lcs = list(
+            dict.fromkeys([*lists, *[y for x in galleries.values() for y in x]])
+        )
         release_dates = {
             locale: _parse_date(_strip_markup(arg.value.strip()))
             for arg in settable.arguments
@@ -2393,7 +1835,7 @@ def parse_tcg_ocg_set(
                 addcardlist(
                     setname,
                     raw_locale,
-                    {EDITIONS_IN_NAV[ec] for ec, lcs in galleries.items() if lc in lcs},
+                    [EDITIONS_IN_NAV[ec] for ec, lcs in galleries.items() if lc in lcs],
                 )
 
     if not navs:
@@ -2409,15 +1851,44 @@ def parse_tcg_ocg_set(
     )
     if packimages_html:
         lines = [x.strip() for x in packimages_html.group(1).split("\n") if x.strip()]
-        for line in lines:
-            parse_packimage_line(line)
+        for row, line in enumerate(lines):
+            parse_packimage_line(line, row)
 
     batcher.flushPendingOperations()
+
+    for raw_locale in raw_locales.values():
+        # The card lookups that filled this answered in fetch-completion order,
+        # so its insertion order is decided by which pages the page cache
+        # already held. Put it back into the order the set list page writes its
+        # rows, which is what everything below reads it in: the published
+        # `cards` list order, and the printing tuple that decides which locales
+        # share one SetContents.
+        raw_locale.cards = {
+            rcl: rc
+            for rcl, rc in sorted(
+                raw_locale.cards.items(),
+                key=lambda item: (item[1].row, item[0].rarity.value),
+            )
+        }
 
     old_printing_ids = {
         PrintingLocator(p.card, p.rarity or CardRarity.COMMON, p.suffix): p.id
         for c in set_.contents
         for p in c.cards
+    }
+
+    # The art treatments this set's alternate artworks resolved to last run,
+    # keyed the way the gallery names them. Harvested before the clear below for
+    # the same reason ``old_printing_ids`` is: the locales are rebuilt from
+    # scratch, and a treatment that got a fresh UUID every run would be no use
+    # to anyone linking to it.
+    art_treatments: typing.Dict[typing.Tuple[Card, str], CardImage] = {
+        (printing.card, variant.code): variant.art_treatment
+        for locale in set_.locales.values()
+        for printings in locale.card_image_variants.values()
+        for printing, variants in printings.items()
+        for variant in variants
+        if variant.art_treatment
     }
 
     set_.locales.clear()
@@ -2438,7 +1909,7 @@ def parse_tcg_ocg_set(
                 f"{raw_locale.key}-{EDITIONS_IN_NAV_REVERSE[edition]}"
             ) or packimages.get(raw_locale.key)
             if image:
-                raw_locale.images[edition] = image
+                raw_locale.images[edition] = image[1]
 
         prefix = commonprefix(c.code for c in raw_locale.cards.values())
         prefixfixer = re.match(r"[^\-]+\-\D*", prefix)
@@ -2458,7 +1929,7 @@ def parse_tcg_ocg_set(
             language=LOCALES.get(raw_locale.key, raw_locale.key),
             editions=[*raw_locale.editions],
             formats=[fmt],
-            image=[*raw_locale.images.values(), None][0],
+            image=_pack_image(raw_locale),
             date=raw_locale.date,
             prefix=None
             if all(rc.noabbr for rc in raw_locale.cards.values())
@@ -2481,7 +1952,7 @@ def parse_tcg_ocg_set(
                 locales=[locale],
                 editions=[*raw_locale.editions],
                 formats=[fmt],
-                image=[*raw_locale.images.values(), None][0],
+                image=_pack_image(raw_locale),
             )
             raw_printings_to_printings[content] = {}
             for rc in raw_locale.cards.values():
@@ -2511,15 +1982,25 @@ def parse_tcg_ocg_set(
             locale.card_images.setdefault(edition, {})
             for rc in raw_locale.cards.values():
                 ils = [il for il in rc.image if il.edition == edition]
-                if len(ils) > 1:
-                    logging.warn(
-                        f"Found multiple images for the same card {rc.card.text[Language.ENGLISH].name} / {rc.rarity}, in {title}: {[il.altinfo for il in ils]}"
-                    )
                 if ils:
-                    il = ils[0]
-                    locale.card_images[edition][
-                        raw_printings_to_printings[content][suffix_locator(rc)]
-                    ] = rc.image[il]
+                    printing = raw_printings_to_printings[content][suffix_locator(rc)]
+                    locale.card_images[edition][printing] = rc.image[
+                        _canonical_image(ils)
+                    ].url
+                    # Every image the galleries tagged with a code, in code order:
+                    # the codes a printing carries in one edition are distinct,
+                    # since they key the same dict, so this order is total and the
+                    # same on every run. The canonical image is among them wherever
+                    # the printing has no plain scan at all.
+                    variants = [
+                        _variant_image(art_treatments, rc.card, il, rc.image[il].url)
+                        for il in sorted(ils, key=lambda il: il.altinfo)
+                        if il.altinfo
+                    ]
+                    if variants:
+                        locale.card_image_variants.setdefault(edition, {})[
+                            printing
+                        ] = variants
 
     return True
 
@@ -2555,7 +2036,9 @@ def parse_md_set(
     else:
         contents = SetContents(formats=[Format.MASTERDUEL])
 
-    found_cards: typing.Set[Card] = set()
+    # the cards the set list names, and which of its rows first named them
+    found_cards: typing.Dict[Card, int] = {}
+    row_numbers = itertools.count()
     setlists = [
         x for x in data.templates if x.name.strip().lower() == "master duel set list"
     ]
@@ -2587,12 +2070,12 @@ def parse_md_set(
                 if cardname.endswith(MD_DISAMBIG_SUFFIX):
                     cardname = cardname[: -len(MD_DISAMBIG_SUFFIX)]
 
-                def add_card(card: Card):
-                    found_cards.add(card)
+                def add_card(card: Card, row: int):
+                    found_cards.setdefault(card, row)
                     if card not in {p.card for p in contents.cards}:
                         contents.cards.append(CardPrinting(id=uuid.uuid4(), card=card))
 
-                def do(cardname: str):
+                def do(cardname: str, row: int):
                     @batcher.getPageID(cardname)
                     def onGetID(cardid: int, _: str):
                         card = db.cards_by_yugipedia_id.get(cardid)
@@ -2606,12 +2089,12 @@ def parse_md_set(
                                         f"Unknown card in MD set {title}: {cardname}"
                                     )
                                 else:
-                                    add_card(card)
+                                    add_card(card, row)
 
                         else:
-                            add_card(card)
+                            add_card(card, row)
 
-                do(cardname)
+                do(cardname, next(row_numbers))
 
     def deloldprints():
         for i, printing in enumerate([*contents.cards]):
@@ -2621,7 +2104,16 @@ def parse_md_set(
                 # if printing.card not in {p.card for p in contents.removed_cards}:
                 #     contents.removed_cards.append(printing)
 
+    # Every card lookup above is asynchronous. Without this, a cold page cache
+    # leaves `found_cards` empty here, `deloldprints` deletes the whole set as
+    # unfound, and the answers then rebuild it with fresh printing UUIDs.
+    batcher.flushPendingOperations()
+
     deloldprints()
+
+    # The answers arrived in fetch-completion order, so anything appended above
+    # sits in cache-hit order rather than set list order.
+    contents.cards.sort(key=lambda printing: found_cards[printing.card])
 
     if contents not in set_.contents:
         set_.contents.append(contents)
@@ -2654,7 +2146,9 @@ def parse_dl_set(
     else:
         contents = SetContents(formats=[Format.DUELLINKS])
 
-    found_cards: typing.Set[Card] = set()
+    # the cards the set list names, and which of its rows first named them
+    found_cards: typing.Dict[Card, int] = {}
+    row_numbers = itertools.count()
     setlists = [x for x in data.templates if x.name.strip().lower() == "set list"]
     if not setlists:
         logging.warn(f"Found Duel Links set without setlists: {title}")
@@ -2681,12 +2175,12 @@ def parse_dl_set(
                 if cardname.endswith(DL_DISAMBIG_SUFFIX):
                     cardname = cardname[: -len(DL_DISAMBIG_SUFFIX)]
 
-                def add_card(card: Card):
-                    found_cards.add(card)
+                def add_card(card: Card, row: int):
+                    found_cards.setdefault(card, row)
                     if card not in {p.card for p in contents.cards}:
                         contents.cards.append(CardPrinting(id=uuid.uuid4(), card=card))
 
-                def do(cardname: str):
+                def do(cardname: str, row: int):
                     @batcher.getPageID(cardname)
                     def onGetID(cardid: int, _: str):
                         card = db.cards_by_yugipedia_id.get(cardid)
@@ -2700,12 +2194,12 @@ def parse_dl_set(
                                         f"Unknown card in DL set {title}: {cardname}"
                                     )
                                 else:
-                                    add_card(card)
+                                    add_card(card, row)
 
                         else:
-                            add_card(card)
+                            add_card(card, row)
 
-                do(cardname)
+                do(cardname, next(row_numbers))
 
     def deloldprints():
         for i, printing in enumerate([*contents.cards]):
@@ -2715,7 +2209,16 @@ def parse_dl_set(
                 # if printing.card not in {p.card for p in contents.removed_cards}:
                 #     contents.removed_cards.append(printing)
 
+    # Every card lookup above is asynchronous. Without this, a cold page cache
+    # leaves `found_cards` empty here, `deloldprints` deletes the whole set as
+    # unfound, and the answers then rebuild it with fresh printing UUIDs.
+    batcher.flushPendingOperations()
+
     deloldprints()
+
+    # The answers arrived in fetch-completion order, so anything appended above
+    # sits in cache-hit order rather than set list order.
+    contents.cards.sort(key=lambda printing: found_cards[printing.card])
 
     if contents not in set_.contents:
         set_.contents.append(contents)
@@ -2985,6 +2488,56 @@ def get_genesys_banlist(
         batcher.flushPendingOperations()
         progress_bar.update()
         return result
+
+
+def _attach_art_treatments(db: Database) -> None:
+    """Puts every art treatment a gallery's alternate artworks resolved to into
+    its card's list of them.
+
+    Appends, like every other way this list is filled: an art treatment keeps
+    the position it was first published at, since the card page's own image list
+    is read against this one by position.
+
+    What one run appends is sorted, though, because the gallery parse cannot
+    offer a stable order to append in. A warm page cache answers a page lookup
+    inside the call that asks for it, while a cold one answers it whenever the
+    batch it landed in comes back, so which set's gallery is read first differs
+    between two runs. Sorting on what the sets say, rather than leaving it to
+    when they answered, is what makes a cold run and a warm one write the same
+    file.
+    """
+    found: typing.Dict[Card, typing.List[typing.Tuple[str, str, str, CardImage]]] = {}
+    for set_ in db.sets:
+        name = set_.name.get(Language.ENGLISH, "")
+        for locale in set_.locales.values():
+            for printings in locale.card_image_variants.values():
+                for printing, variants in printings.items():
+                    for variant in variants:
+                        if variant.art_treatment:
+                            found.setdefault(printing.card, []).append(
+                                (
+                                    name,
+                                    str(set_.id),
+                                    variant.code,
+                                    variant.art_treatment,
+                                )
+                            )
+
+    n_new = 0
+    for card, entries in found.items():
+        # One artwork reaches a card once per locale, rarity and edition of the
+        # set that published it, and again from every other set that did; the
+        # list holds each treatment once, and already holds the ones a previous
+        # run wrote to the card's own JSON.
+        for *_, treatment in sorted(entries, key=lambda entry: entry[:3]):
+            if treatment not in card.images:
+                card.images.append(treatment)
+                n_new += 1
+
+    logging.info(
+        f"{n_new} alternate artworks became new art treatments, "
+        f"across {len(found)} cards."
+    )
 
 
 def import_from_yugipedia(
@@ -3370,6 +2923,8 @@ def import_from_yugipedia(
         f"{batcher.licenseRestrictedImages} images Yugipedia won't serve for licensing reasons, "
         f"{batcher.cachedMissingImages} already known to be missing from a previous run."
     )
+
+    _attach_art_treatments(db)
 
     return n_found, n_new
 

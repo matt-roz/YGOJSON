@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/imageVariant.json",
+  "title": "Image Variant",
+  "description": "What a variant image of a printing shows, where the code the source tagged it with has a documented meaning. Deliberately small: most variant codes mean whatever the person who wrote the gallery row meant by them, so they are published with their raw code and none of these values.",
+  "enum": [
+    "alternate-art",
+    "official-proxy",
+    "official-website"
+  ]
+}

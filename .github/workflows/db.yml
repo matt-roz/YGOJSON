@@ -29,6 +29,11 @@ jobs:
       - name: Lint
         run: |
           pre-commit run --all-files
+      # fails in seconds when Yugipedia has grown a rarity we do not model,
+      # rather than letting the run publish printings without one
+      - name: Validate rarity coverage
+        run: |
+          python test/validate_rarity_coverage.py
   pre-yugipedia:
     runs-on: ubuntu-latest
     needs: lint

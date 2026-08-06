@@ -473,6 +473,26 @@ class PrintStatus(enum.Enum):
     REPRINT = "reprint"
 
 
+class ImageVariant(enum.Enum):
+    """What a variant image of a :class:`CardPrinting` shows, where the code the
+    source used for it has a documented meaning.
+
+    Deliberately small. Yugipedia's galleries tag a variant with a free-text
+    code, and most of those codes mean whatever the editor writing the row meant
+    by them - ``Reprint`` marks the Spell version of a pre-rename card on one
+    page and a later print run on the next. Only codes whose meaning survived
+    being checked against the wiki's own galleries are members here. Every other
+    code is published verbatim and unclassified, which is the majority of them.
+    """
+
+    ALTERNATE_ART = "alternate-art"
+    """A different artwork of the same printing."""
+    OFFICIAL_PROXY = "official-proxy"
+    """An Official Proxy: it depicts the card, but is not the card."""
+    OFFICIAL_WEBSITE = "official-website"
+    """The printing's artwork as shown on an official Konami website."""
+
+
 class CardRarity(enum.Enum):
     """The rarity of a :class:`Card`.
     We use the TCG name of a rarity here if there is an equivalent OCG rarity with a different name.
@@ -507,6 +527,8 @@ class CardRarity(enum.Enum):
     """Ultra Rare with blue text foiling."""
     ULTRA_PURPLE = "ultra-purple"
     """Ultra Rare with purple text foiling."""
+    ULTRA_RED = "ultra-red"
+    """Ultra Rare (Special Red Version)."""
     ULTIMATE = "ultimate"
     """Ultimate Rare."""
     SECRET = "secret"
@@ -517,6 +539,8 @@ class CardRarity(enum.Enum):
     """Secret Rare (Special Blue Version)."""
     ULTRASECRET = "ultrasecret"
     """Ultra Secret Rare."""
+    SECRETULTRA = "secretultra"
+    """Secret Ultra Rare."""
     PRISMATICSECRET = "prismaticsecret"
     """Prismatic Secret Rare."""
     GHOST = "ghost"
@@ -559,6 +583,8 @@ class CardRarity(enum.Enum):
     """Gold/Ghost Rare."""
     GOLDSECRET = "goldsecret"
     """Gold Secret Rare."""
+    HOLOFOIL = "holofoil"
+    """Holofoil Rare."""
     STARFOIL = "starfoil"
     """Starfoil Rare."""
     MOSAIC = "mosaic"
@@ -575,10 +601,16 @@ class CardRarity(enum.Enum):
     """Premium Gold Rare."""
     TWENTYFIFTHSECRET = "25thsecret"
     """25th Anniversary Secret Rare."""
+    TWENTYFIFTHSECRET_SPECIAL = "25thsecret-special"
+    """Quarter Century Secret Rare (Special Version)."""
+    TWENTYFIFTHSECRET_TOKYODOME = "25thsecret-tokyodome"
+    """Quarter Century Secret Rare Tokyo Dome Green Version."""
     SECRETPARALLEL = "secretparallel"
     """Parallel Secret Rare."""
     STARLIGHT = "starlight"
     """Starlight Rare or Alternate Rare."""
+    GRANDMASTER = "grandmaster"
+    """Grand Master Rare."""
     PHARAOHS = "pharaohs"
     """Pharaoh's Ultra Rare."""
     KCCOMMON = "kccommon"
@@ -601,6 +633,18 @@ class CardRarity(enum.Enum):
     """Millenium Secret Rare."""
     MILLENIUMGOLD = "milleniumgold"
     """Millenium Gold Rare."""
+    RUSH = "rush"
+    """Rush Rare."""
+    RUSH_RED = "rush-red"
+    """Rush Rare (Special Red Version)."""
+    GOLDRUSH = "goldrush"
+    """Gold Rush Rare."""
+    OVERRUSH = "overrush"
+    """Over Rush Rare."""
+    OVERRUSH_BLACK = "overrush-black"
+    """Over Rush Rare (Premium Black Version)."""
+    FULLOVERRUSH = "fulloverrush"
+    """Full Over Rush Rare."""
 
 
 class CardText:
@@ -1758,6 +1802,59 @@ class SetContents:
         }
 
 
+class VariantImage:
+    """One further image a :class:`CardPrinting` has beyond the one it publishes,
+    such as an alternate artwork or a later print run's scan.
+    """
+
+    code: str
+    """The code the source tagged this image with, verbatim. Yugipedia writes it
+    in the fourth column of a set gallery row: ``AA``, ``Reprint``,
+    ``Emblazoned``, and a long tail of one-offs.
+    """
+
+    image: str
+    """A URL to this image."""
+
+    variant: typing.Optional[ImageVariant]
+    """What this image shows, where `code` has a documented meaning.
+    `None` means the code is not one we classify - it is not a claim that this
+    image is the same as the printing's canonical one.
+    """
+
+    art_treatment: typing.Optional[CardImage]
+    """The :class:`CardImage` art treatment this image depicts, where it depicts
+    one we can name. Set for alternate artworks, whose whole point is that they
+    show art the printing's own image does not: the printing's `image` keeps
+    denoting the treatment of its canonical scan, so a variant showing different
+    art has to say so itself.
+
+    `None` for the rest, which is most of them - a code we do not classify tells
+    us nothing about what its image shows.
+    """
+
+    def __init__(
+        self,
+        *,
+        code: str,
+        image: str,
+        variant: typing.Optional[ImageVariant] = None,
+        art_treatment: typing.Optional[CardImage] = None,
+    ) -> None:
+        self.code = code
+        self.image = image
+        self.variant = variant
+        self.art_treatment = art_treatment
+
+    def _to_json(self) -> typing.Dict[str, typing.Any]:
+        return {
+            "code": self.code,
+            "image": self.image,
+            **({"variant": self.variant.value} if self.variant else {}),
+            **({"imageID": str(self.art_treatment.id)} if self.art_treatment else {}),
+        }
+
+
 class SetLocale:
     """A locale in which a :class:`Set` was released."""
 
@@ -1785,6 +1882,20 @@ class SetLocale:
 
     card_images: typing.Dict[SetEdition, typing.Dict[CardPrinting, str]]
     """Images of printings of cards in this locale. Keys are edition and printings. Values are URLs to images."""
+
+    card_image_variants: typing.Dict[
+        SetEdition, typing.Dict[CardPrinting, typing.List[VariantImage]]
+    ]
+    """The further images a printing has in this locale beyond the one
+    `card_images` publishes: every image the source gave it under a variant code.
+    Keys are edition and printings.
+
+    The printing's canonical image appears here too whenever it is itself coded,
+    as it is for a printing the source only ever gave coded images - ``OTS
+    Tournament Pack 9``'s Mecha Phantom Beast Token has three artworks and no
+    plain scan. So this is every coded image, not every image `card_images`
+    passed over.
+    """
 
     card_prices: typing.Dict[SetEdition, typing.Dict[CardPrinting, float]]
     """Prices of printings in this locale. Keys are edition and printings.
@@ -1814,6 +1925,11 @@ class SetLocale:
         card_images: typing.Optional[
             typing.Dict[SetEdition, typing.Dict[CardPrinting, str]]
         ] = None,
+        card_image_variants: typing.Optional[
+            typing.Dict[
+                SetEdition, typing.Dict[CardPrinting, typing.List[VariantImage]]
+            ]
+        ] = None,
         card_prices: typing.Optional[
             typing.Dict[SetEdition, typing.Dict[CardPrinting, float]]
         ] = None,
@@ -1828,6 +1944,7 @@ class SetLocale:
         self.image = image
         self.box_image = box_image
         self.card_images = card_images or {}
+        self.card_image_variants = card_image_variants or {}
         self.card_prices = card_prices or {}
         self.db_ids = db_ids or []
         self.formats = formats or []
@@ -1840,9 +1957,18 @@ class SetLocale:
             **({"date": self.date.isoformat()} if self.date else {}),
             **({"image": self.image} if self.image else {}),
             **({"boxImage": self.box_image} if self.box_image else {}),
+            # editions and printings are keyed by the string they get in the JSON,
+            # and sorted by it: printings hash by identity and editions by enum
+            # name, so iterating either unsorted reshuffles every set file on
+            # every run.
             "cardImages": {
-                k.value: {str(kk.id): vv for kk, vv in v.items()}
-                for k, v in self.card_images.items()
+                edition.value: {
+                    str(printing.id): images[printing]
+                    for printing in sorted(images, key=lambda p: str(p.id))
+                }
+                for edition, images in sorted(
+                    self.card_images.items(), key=lambda kv: kv[0].value
+                )
             },
             "cardInfo": {
                 edition.value: {
@@ -1857,16 +1983,36 @@ class SetLocale:
                             if printing in self.card_prices.get(edition, {})
                             else {}
                         ),
+                        **(
+                            {
+                                "variants": [
+                                    variant._to_json()
+                                    for variant in self.card_image_variants[edition][
+                                        printing
+                                    ]
+                                ]
+                            }
+                            if self.card_image_variants.get(edition, {}).get(printing)
+                            else {}
+                        ),
                     }
-                    for printing in {
-                        *self.card_images.get(edition, {}).keys(),
-                        *self.card_prices.get(edition, {}).keys(),
-                    }
+                    for printing in sorted(
+                        {
+                            *self.card_images.get(edition, {}).keys(),
+                            *self.card_image_variants.get(edition, {}).keys(),
+                            *self.card_prices.get(edition, {}).keys(),
+                        },
+                        key=lambda p: str(p.id),
+                    )
                 }
-                for edition in {
-                    *self.card_images.keys(),
-                    *self.card_prices.keys(),
-                }
+                for edition in sorted(
+                    {
+                        *self.card_images.keys(),
+                        *self.card_image_variants.keys(),
+                        *self.card_prices.keys(),
+                    },
+                    key=lambda e: e.value,
+                )
             },
             **({"formats": [x.value for x in self.formats]} if self.formats else {}),
             **({"editions": [x.value for x in self.editions]} if self.editions else {}),
@@ -3180,6 +3326,28 @@ class Database:
                             for edition, infos in v.get("cardInfo", {}).items()
                         },
                     ).items()
+                },
+                card_image_variants={
+                    SetEdition(edition): {
+                        printings[uuid.UUID(printing)]: [
+                            VariantImage(
+                                code=variant["code"],
+                                image=variant["image"],
+                                variant=ImageVariant(variant["variant"])
+                                if "variant" in variant
+                                else None,
+                                art_treatment=self.card_images_by_id.get(
+                                    uuid.UUID(variant["imageID"])
+                                )
+                                if "imageID" in variant
+                                else None,
+                            )
+                            for variant in info["variants"]
+                        ]
+                        for printing, info in infos.items()
+                        if uuid.UUID(printing) in printings and "variants" in info
+                    }
+                    for edition, infos in v.get("cardInfo", {}).items()
                 },
                 card_prices={
                     SetEdition(edition): {
