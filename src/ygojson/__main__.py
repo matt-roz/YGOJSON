@@ -270,6 +270,8 @@ def main(argv: typing.Optional[typing.List[str]] = None) -> int:
         generate_aggregates=not args.no_aggregates,
     )
 
+    log_unknown_rarities()
+
     logging.info("Done!")
     return 0
 
