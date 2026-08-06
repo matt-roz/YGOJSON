@@ -2143,12 +2143,21 @@ def parse_tcg_ocg_set(
 
                                 col_index = 0
 
-                                code = default_abbr if default_abbr else None
-                                if not default_abbr and len(cols) > col_index:
+                                # An abbreviation from either source - the
+                                # template-level parameter or the row-level entry
+                                # option - means this row has no card-number
+                                # column, so it must be resolved before the first
+                                # column is consumed.
+                                abbr = (
+                                    str(abbr_override.group(1))
+                                    if abbr_override
+                                    else default_abbr
+                                )
+
+                                code = abbr if abbr else None
+                                if not abbr and len(cols) > col_index:
                                     code = cols[col_index]
                                     col_index += 1
-                                if abbr_override:
-                                    code = str(abbr_override.group(1))
 
                                 if len(cols) > col_index:
                                     name = cols[col_index]
