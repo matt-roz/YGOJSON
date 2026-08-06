@@ -1795,6 +1795,19 @@ def _pack_image(raw_locale: RawLocale) -> typing.Optional[str]:
     return None
 
 
+def _canonical_image(ils: typing.List[ImageLocator]) -> ImageLocator:
+    """The one image a printing publishes for an edition, picked from the
+    locators it carries there. The plain image, the one with no variant code,
+    wins. Where a printing carries no plain image at all, as ``OTS Tournament
+    Pack 9``'s Mecha Phantom Beast Token carries only ``Harrliard``,
+    ``Megaraptor`` and ``Dracossack``, the alphabetically first code wins
+    instead. The codes a printing carries in one edition are distinct, since
+    they key the same dict, so this order is total: the pick does not depend
+    on the order the asynchronous image lookups happened to complete in, and
+    is the same on every run."""
+    return min(ils, key=lambda il: (bool(il.altinfo), il.altinfo))
+
+
 COLORFUL_RARES = {
     (CardRarity.RARE, "Red"): CardRarity.RARE_RED,
     (CardRarity.RARE, "Bronze"): CardRarity.RARE_COPPER,
@@ -2533,13 +2546,12 @@ def parse_tcg_ocg_set(
                 ils = [il for il in rc.image if il.edition == edition]
                 if len(ils) > 1:
                     logging.warn(
-                        f"Found multiple images for the same card {rc.card.text[Language.ENGLISH].name} / {rc.rarity}, in {title}: {[il.altinfo for il in ils]}"
+                        f"Found multiple images for the same card {rc.card.text[Language.ENGLISH].name} / {rc.rarity}, in {title}: {sorted(il.altinfo for il in ils)}"
                     )
                 if ils:
-                    il = ils[0]
                     locale.card_images[edition][
                         raw_printings_to_printings[content][suffix_locator(rc)]
-                    ] = rc.image[il]
+                    ] = rc.image[_canonical_image(ils)]
 
     return True
 
