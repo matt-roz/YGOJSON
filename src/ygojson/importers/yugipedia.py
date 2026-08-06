@@ -19,6 +19,7 @@ import wikitextparser
 
 from ..database import *
 from ..rarity import report_unknown_rarity, resolve_abbreviation, resolve_rarity
+from ..warnings import EXPECTED_CONDITIONS
 
 API_URL = "https://yugipedia.com/api.php"
 RATE_LIMIT = 1.1
@@ -26,6 +27,25 @@ REQUEST_TIMEOUT = 60
 MAX_TRIES = 10
 MAX_RETRY_DELAY = 300
 TIME_TO_JUST_REDOWNLOAD_ALL_PAGES = 30 * 24 * 60 * 60  # 1 month-ish
+
+CHANGELOG_PAGES_PATH = os.path.join(
+    ROOT_DIR if os.access(ROOT_DIR, os.W_OK) else os.curdir, "changelog-pages.txt"
+)
+"""Where a run writes how many wiki pages its changelog reported changed.
+
+Read by ``test/report_output_diff.py``, which is only worth reading as a pair:
+1,415 published files changed is unremarkable beside 1,400 changed pages and is
+a determinism defect beside three. The two figures are measured in different CI
+jobs, so the count has to be written down rather than held in memory.
+
+Deliberately neither ``TEMP_DIR`` nor ``DATA_DIR``, for the reason
+:data:`ygojson.warnings.WARNING_BUCKETS_PATH` gives: both are restored from a
+failure-tolerant cache, so a job that read no changelog would find a previous
+run's count already sitting there and report it as its own. Absence means no
+changelog was read at all - the first run against a database, or one whose
+cache was older than ``TIME_TO_JUST_REDOWNLOAD_ALL_PAGES`` so every page was
+re-read and a large diff is expected - and never that zero pages changed.
+"""
 
 # MediaWiki reports these with HTTP 200 and an error body, so they can't be
 # spotted by status code alone. They're all transient server-side hiccups.
@@ -273,6 +293,21 @@ def get_changelog(
             )
 
 
+def _record_changelog_pages(changelog: typing.Iterable[ChangelogEntry]) -> None:
+    """Writes how many distinct pages the changelog reported, for the output diff.
+
+    Distinct pages rather than changelog entries: a page edited five times in
+    two days is one page whose parse could have moved, and counting it five
+    times over would understate the ratio the diff report exists to show.
+    """
+    pages = len({entry.id for entry in changelog})
+    logging.info(
+        f"Yugipedia's changelog reports {pages} pages changed since the last read."
+    )
+    with open(CHANGELOG_PAGES_PATH, "w", encoding="utf-8") as file:
+        file.write(f"{pages}\n")
+
+
 def get_changes(
     batcher: "YugipediaBatcher",
     relevant_pages: typing.Iterable[int],
@@ -493,7 +528,7 @@ def parse_card(
         )
         if value and value.strip():
             if lang not in card.text:
-                # logging.warn(f"Card has no name in {key} but has effect: {title}")
+                # logging.warning(f"Card has no name in {key} but has effect: {title}")
                 pass
             else:
                 card.text[lang].effect = _strip_markup(value.strip())
@@ -503,7 +538,7 @@ def parse_card(
         )
         if value and value.strip():
             if lang not in card.text:
-                # logging.warn(f"Card has no name in {key} but has pend. effect: {title}")
+                # logging.warning(f"Card has no name in {key} but has pend. effect: {title}")
                 pass
             else:
                 card.text[lang].pendulum_effect = _strip_markup(value.strip())
@@ -518,7 +553,7 @@ def parse_card(
             for t in data.templates
         ):
             if lang not in card.text:
-                # logging.warn(f"Card has no name in {key} but is unofficial: {title}")
+                # logging.warning(f"Card has no name in {key} but is unofficial: {title}")
                 pass
             else:
                 card.text[lang].official = False
@@ -537,12 +572,12 @@ def parse_card(
         if not typeline:
             typeline = ""
             if card.card_type != CardType.TOKEN:
-                logging.warn(f"Monster has no typeline: {title}")
+                logging.warning(f"Monster has no typeline: {title}")
                 return False
 
         value = get_table_entry(cardtable, "attribute")
         if not value:
-            # logging.warn(f"Monster has no attribute: {title}")
+            # logging.warning(f"Monster has no attribute: {title}")
             pass  # some illegal-for-play monsters have no attribute
         else:
             value = value.strip().lower()
@@ -550,7 +585,7 @@ def parse_card(
                 pass  # attribute to be announced; omit it
             elif value not in Attribute._value2member_map_:
                 if card.card_type != CardType.TOKEN:
-                    logging.warn(f"Unknown attribute '{value.strip()}' in {title}")
+                    logging.warning(f"Unknown attribute '{value.strip()}' in {title}")
             else:
                 card.attribute = Attribute(value)
 
@@ -575,7 +610,7 @@ def parse_card(
                 and x not in CLASSIFICATIONS
                 and x not in ABILITIES
             ):
-                logging.warn(f"Monster typeline bit unknown in {title}: {x}")
+                logging.warning(f"Monster typeline bit unknown in {title}: {x}")
 
         if not card.monster_card_types:
             card.monster_card_types = []
@@ -597,7 +632,7 @@ def parse_card(
                 card.abilities.append(v)
         # if not card.type and "???" not in typeline:
         #     # some illegal-for-play monsters have no type
-        #     logging.warn(f"Monster has no type: {title}")
+        #     logging.warning(f"Monster has no type: {title}")
 
         value = get_table_entry(cardtable, "level")
         if value and value.strip() != "???":
@@ -605,7 +640,7 @@ def parse_card(
                 card.level = int(value)
             except ValueError:
                 if card.card_type != CardType.TOKEN:
-                    logging.warn(f"Unknown level '{value.strip()}' in {title}")
+                    logging.warning(f"Unknown level '{value.strip()}' in {title}")
                     return False
 
         value = get_table_entry(cardtable, "atk")
@@ -613,7 +648,7 @@ def parse_card(
             try:
                 card.atk = "?" if value.strip() in MYSTERY_ATK_DEFS else int(value)
             except ValueError:
-                logging.warn(f"Unknown ATK '{value.strip()}' in {title}")
+                logging.warning(f"Unknown ATK '{value.strip()}' in {title}")
                 if card.card_type != CardType.TOKEN:
                     return False
         value = get_table_entry(cardtable, "def")
@@ -621,7 +656,7 @@ def parse_card(
             try:
                 card.def_ = "?" if value.strip() in MYSTERY_ATK_DEFS else int(value)
             except ValueError:
-                logging.warn(f"Unknown DEF '{value.strip()}' in {title}")
+                logging.warning(f"Unknown DEF '{value.strip()}' in {title}")
                 if card.card_type != CardType.TOKEN:
                     return False
 
@@ -631,7 +666,7 @@ def parse_card(
             try:
                 card.rank = int(value)
             except ValueError:
-                logging.warn(f"Unknown rank '{value.strip()}' in {title}")
+                logging.warning(f"Unknown rank '{value.strip()}' in {title}")
                 return False
 
         value = get_table_entry(cardtable, "pendulum_scale")
@@ -639,7 +674,7 @@ def parse_card(
             try:
                 card.scale = int(value)
             except ValueError:
-                logging.warn(f"Unknown scale '{value.strip()}' in {title}")
+                logging.warning(f"Unknown scale '{value.strip()}' in {title}")
                 return False
 
         value = get_table_entry(cardtable, "link_arrows")
@@ -650,7 +685,7 @@ def parse_card(
     elif card.card_type == CardType.SPELL or card.card_type == CardType.TRAP:
         value = get_table_entry(cardtable, "property")
         if not value:
-            logging.warn(f"Spell/trap has no subcategory: {title}")
+            logging.warning(f"Spell/trap has no subcategory: {title}")
             return False
         card.subcategory = SubCategory(value.lower().replace("-", "").strip())
     elif card.card_type == CardType.TOKEN:
@@ -667,9 +702,9 @@ def parse_card(
         if len(typeline) == 3:
             card.skill_type = typeline[2]
         elif len(typeline) > 3:
-            logging.warn(f"Found skill card {title} with weird typeline: {typeline}")
+            logging.warning(f"Found skill card {title} with weird typeline: {typeline}")
     else:
-        logging.warn(f"Skipping {card.card_type} card: {title}")
+        logging.warning(f"Skipping {card.card_type} card: {title}")
         return False
 
     value = get_table_entry(cardtable, "password")
@@ -678,7 +713,7 @@ def parse_card(
         if vmatch and value.strip() not in card.passwords:
             card.passwords.append(value.strip())
         if not vmatch and value.strip() and value.strip() != "none":
-            logging.warn(f"Bad password '{value.strip()}' in card {title}")
+            logging.warning(f"Bad password '{value.strip()}' in card {title}")
 
     # generally, we want YGOProDeck to handle generic images
     # But if all else fails, we can add one!
@@ -703,7 +738,7 @@ def parse_card(
                 elif len(in_image) == 3:
                     image_name = in_image[1]
                 else:
-                    logging.warn(
+                    logging.warning(
                         f"Weird image string for {title}: {' ; '.join(in_image)}"
                     )
                     return
@@ -743,7 +778,7 @@ def parse_card(
                 if rarity in {"?", "???"}:
                     pass  # unknown rarity; this is fine
                 elif rarity not in VideoGameRaity._value2member_map_:
-                    logging.warn(
+                    logging.warning(
                         f"Found MD page for '{md_title}' with invalid rarity: {rarity}"
                     )
                 else:
@@ -772,7 +807,7 @@ def parse_card(
                 if rarity in {"?", "???"}:
                     pass  # unknown rarity; this is fine
                 elif rarity not in VideoGameRaity._value2member_map_:
-                    logging.warn(
+                    logging.warning(
                         f"Found DL page for '{dl_title}' with invalid rarity: {rarity}"
                     )
                 else:
@@ -785,7 +820,9 @@ def parse_card(
     else:
         for rawformat, ban_history in banlists.items():
             if rawformat not in Format._value2member_map_:
-                logging.warn(f"Found unknown legality format in {title}: {rawformat}")
+                logging.warning(
+                    f"Found unknown legality format in {title}: {rawformat}"
+                )
                 continue
             format = Format(rawformat)
 
@@ -1240,7 +1277,7 @@ def parse_tcg_ocg_set(
 
     navs = [x for x in data.templates if x.name.strip().lower() == "set navigation"]
     if len(navs) > 1:
-        logging.warn(f"Found set with multiple set navigation tables: {title}")
+        logging.warning(f"Found set with multiple set navigation tables: {title}")
 
     raw_locales: typing.Dict[str, RawLocale] = {}
     # keyed by locale, or locale and edition; the int is which line of the set
@@ -1264,7 +1301,7 @@ def parse_tcg_ocg_set(
                         def getID(cardid: int, cardname: str):
                             card = db.cards_by_yugipedia_id.get(cardid)
                             if not card:
-                                logging.warn(
+                                logging.warning(
                                     f"Could not find card {cardname} (card) ({cardid})"
                                 )
                                 return
@@ -1273,7 +1310,7 @@ def parse_tcg_ocg_set(
                         return
                     card = db.cards_by_yugipedia_id.get(cardid)
                     if not card:
-                        logging.warn(f"Could not find card {cardname} ({cardid})")
+                        logging.warning(f"Could not find card {cardname} ({cardid})")
                         return
                     callback(card)
 
@@ -1375,7 +1412,7 @@ def parse_tcg_ocg_set(
                     try:
                         default_qty = int(raw_default_qty.strip())
                     except ValueError:
-                        logging.warn(
+                        logging.warning(
                             f"Could not determine default quantity of {listpagename}: {raw_default_qty.strip()}"
                         )
 
@@ -1442,7 +1479,7 @@ def parse_tcg_ocg_set(
                                         raw_print_status.strip().lower()
                                     )
                                     if not print_status:
-                                        logging.warn(
+                                        logging.warning(
                                             f"Got strange print status in {listpagename}, in row {name}: {raw_print_status.strip()}"
                                         )
                                 col_index += 1
@@ -1454,7 +1491,7 @@ def parse_tcg_ocg_set(
                                     try:
                                         qty = int(raw_qty)
                                     except ValueError:
-                                        logging.warn(
+                                        logging.warning(
                                             f"Got strange quantity in {listpagename}, in row {name}: {raw_qty}"
                                         )
                                 col_index += 1
@@ -1471,7 +1508,7 @@ def parse_tcg_ocg_set(
                                 )
 
             if not setlists:
-                logging.warn(
+                logging.warning(
                     f"Found set list page without set list template: {listpagename}"
                 )
 
@@ -1526,7 +1563,7 @@ def parse_tcg_ocg_set(
                                 elif (
                                     not alt
                                 ):  # some special cards, like oversized cards, should be ignored
-                                    logging.warn(
+                                    logging.warning(
                                         f"Printing in gallery {galleryname} not found in locale: {name} / {rarity.value} -- Available in {[rc.rarity.value for rc in raw_locale.cards.values() if rc.card == card]}"
                                     )
                             else:
@@ -1662,7 +1699,7 @@ def parse_tcg_ocg_set(
                                             image += f"-{rarity_code}"
                                         else:
                                             image += f"-{raw_rarity}"
-                                            logging.warn(
+                                            logging.warning(
                                                 f"Could not decipher rarity code for {name} in {galleryname}: {raw_rarity}"
                                             )
                                     ed_str = EDITIONS_IN_NAV_REVERSE[edition].upper()
@@ -1684,7 +1721,13 @@ def parse_tcg_ocg_set(
                     for line in lines:
                         parsed_line = wikitextparser.parse(line)
                         if len(parsed_line.wikilinks) < 3:
-                            logging.warn(
+                            # Not a card row, and correctly skipped. A subgallery
+                            # is every other gallery on the page: rule inserts,
+                            # FAQ cards, coins, card backings. The page's actual
+                            # printings are in its `Set gallery` template, which
+                            # parses fine. Counted rather than printed — see
+                            # `EXPECTED_CONDITIONS`.
+                            EXPECTED_CONDITIONS.warning(
                                 f"Found strange subgallery line in {galleryname}: {line}"
                             )
                         else:
@@ -1712,7 +1755,7 @@ def parse_tcg_ocg_set(
                             )
 
                 if not gallery_templates and not subgallery_htmls:
-                    logging.warn(f"No gallery tables found in {galleryname}!")
+                    logging.warning(f"No gallery tables found in {galleryname}!")
 
         # the edition's own gallery first, so that _record_image prefers its
         # scan over the edition-agnostic gallery's where a locale has both
@@ -1763,7 +1806,7 @@ def parse_tcg_ocg_set(
             if arg.name.endswith("_galleries") and all(
                 not arg.name.startswith(x) for x in EDITIONS_IN_NAV
             ):
-                logging.warn(
+                logging.warning(
                     f"Found gallery argument for unknown edition in {title}: {arg.name}"
                 )
 
@@ -1775,7 +1818,7 @@ def parse_tcg_ocg_set(
             ]
 
         if not lists and not galleries:
-            logging.warn(f"Found set without card lists or galleries: {title}")
+            logging.warning(f"Found set without card lists or galleries: {title}")
 
         # deduplicated but kept in the order the set navigation names them:
         # this drives the published locale and set contents ordering, which a
@@ -1791,7 +1834,7 @@ def parse_tcg_ocg_set(
         }
         for lc in all_lcs:
             if lc not in FORMATS_IN_NAV:
-                logging.warn(f"Unknown locale in {title}: {lc}")
+                logging.warning(f"Unknown locale in {title}: {lc}")
             else:
                 raw_locale = RawLocale(lc, FORMATS_IN_NAV[lc])
                 raw_locales[lc] = raw_locale
@@ -1812,7 +1855,7 @@ def parse_tcg_ocg_set(
                                 raw_locale.db_ids.append(int(raw_id))
                             except ValueError:
                                 if raw_id != "none":
-                                    logging.warn(
+                                    logging.warning(
                                         f"Found bad konami ID in {title}: {raw_id}"
                                     )
                         break
@@ -1827,7 +1870,7 @@ def parse_tcg_ocg_set(
                     date_lc = FALLBACK_LOCALES.get(date_lc)
 
                 if not any(x.lower() == lc for x in lists):
-                    logging.warn(
+                    logging.warning(
                         f"Found set navigation in {title} with gallery but no list for locale {lc}"
                     )
                     continue
@@ -1839,11 +1882,11 @@ def parse_tcg_ocg_set(
                 )
 
     if not navs:
-        logging.warn(f"Found set without set navigation table: {title}")
+        logging.warning(f"Found set without set navigation table: {title}")
         return False
 
     if not raw_locales:
-        logging.warn(f"Found set without locales: {title}")
+        logging.warning(f"Found set without locales: {title}")
         return False
 
     packimages_html = re.search(
@@ -1958,7 +2001,7 @@ def parse_tcg_ocg_set(
             for rc in raw_locale.cards.values():
                 rcl = suffix_locator(rc)
                 if rcl in raw_printings_to_printings[content]:
-                    logging.warn(
+                    logging.warning(
                         f"Found mutliple printings with the same code and rarity in the same locale in {title}: {rcl.card.text[Language.ENGLISH].name} / {rcl.rarity.value}"
                     )
                     continue
@@ -2043,7 +2086,7 @@ def parse_md_set(
         x for x in data.templates if x.name.strip().lower() == "master duel set list"
     ]
     if not setlists:
-        logging.warn(f"Found Master Duel set without setlists: {title}")
+        logging.warning(f"Found Master Duel set without setlists: {title}")
         return False
 
     raw_imagename = get_table_entry(settable, "image")
@@ -2085,7 +2128,7 @@ def parse_md_set(
                             def onGetID(cardid: int, _: str):
                                 card = db.cards_by_yugipedia_id.get(cardid)
                                 if not card:
-                                    logging.warn(
+                                    logging.warning(
                                         f"Unknown card in MD set {title}: {cardname}"
                                     )
                                 else:
@@ -2151,7 +2194,7 @@ def parse_dl_set(
     row_numbers = itertools.count()
     setlists = [x for x in data.templates if x.name.strip().lower() == "set list"]
     if not setlists:
-        logging.warn(f"Found Duel Links set without setlists: {title}")
+        logging.warning(f"Found Duel Links set without setlists: {title}")
         return False
 
     raw_imagename = get_table_entry(settable, "image")
@@ -2190,7 +2233,7 @@ def parse_dl_set(
                             def onGetID(cardid: int, _: str):
                                 card = db.cards_by_yugipedia_id.get(cardid)
                                 if not card:
-                                    logging.warn(
+                                    logging.warning(
                                         f"Unknown card in DL set {title}: {cardname}"
                                     )
                                 else:
@@ -2317,7 +2360,7 @@ def _parse_banlist(
         if (
             format != "masterduel"
         ):  # master duel has a lot of event banlists we want to ignore
-            logging.warn(
+            logging.warning(
                 f"Found banlist without limitlist template: {batcher.idsToNames[pageid]}"
             )
         return None
@@ -2357,13 +2400,13 @@ def _parse_banlist(
             elif len(parts) == 3:
                 (name, _, raw_legality) = parts
             else:
-                logging.warn(
+                logging.warning(
                     f"Unparsable master duel banlist row in {batcher.idsToNames[pageid]}: {row}"
                 )
                 continue
 
             if raw_legality.lower() not in BANLIST_STR_TO_LEGALITY:
-                logging.warn(
+                logging.warning(
                     f"Unknown legality in master duel banlist row in {batcher.idsToNames[pageid]}: {raw_legality}"
                 )
                 continue
@@ -2372,7 +2415,7 @@ def _parse_banlist(
 
     start_date = _parse_date(raw_start_date or "")
     if not start_date:
-        logging.warn(
+        logging.warning(
             f"Found invalid start date of {batcher.idsToNames[pageid]}: {raw_start_date}"
         )
         return None
@@ -2626,25 +2669,24 @@ def import_from_yugipedia(
                                     )
                                 )
                             except StopIteration:
-                                logging.warn(
+                                logging.warning(
                                     f"Found card without card table: {batcher.idsToNames[pageid]}"
                                 )
                                 return
 
-                            ct = (
-                                get_table_entry(cardtable, "card_type", "monster")
-                                .strip()
-                                .lower()
-                            )
-                            if (
-                                ct == "counter"
-                                or batcher.namesToIDs.get(CAT_TOKENS) in categories
-                            ):
-                                ct = "token"
+                            raw_ct = get_table_entry(
+                                cardtable, "card_type", "monster"
+                            ).strip()
+                            ct = resolve_card_type(raw_ct)
+                            if batcher.namesToIDs.get(CAT_TOKENS) in categories:
+                                ct = CardType.TOKEN
                             if batcher.namesToIDs.get(CAT_SKILLS) in categories:
-                                ct = "skill"
-                            if ct not in CardType._value2member_map_:
-                                logging.warn(f"Found card with illegal card type: {ct}")
+                                ct = CardType.SKILL
+                            if ct is None:
+                                logging.warning(
+                                    f"Found card with illegal card type in "
+                                    f"{batcher.idsToNames[pageid]}: {raw_ct}"
+                                )
                                 return
 
                             found = pageid in db.cards_by_yugipedia_id
@@ -2667,7 +2709,7 @@ def import_from_yugipedia(
                                     batcher.idsToNames[pageid]
                                 )
                             if not card:
-                                card = Card(id=uuid.uuid4(), card_type=CardType(ct))
+                                card = Card(id=uuid.uuid4(), card_type=ct)
 
                             if parse_card(
                                 batcher,
@@ -2732,7 +2774,7 @@ def import_from_yugipedia(
                                                         break
                                             except ValueError:
                                                 if arg.value.strip() != "none":
-                                                    logging.warn(
+                                                    logging.warning(
                                                         f'Unparsable konami set ID for {arg.name} in {batcher.idsToNames.get(pageid, pageid)}: "{arg.value}"'
                                                     )
                                 if not set_:
@@ -2832,7 +2874,15 @@ def import_from_yugipedia(
 
                             @batcher.getPageID(pageid)
                             def onGetName(pageid: int, title: str):
-                                logging.warn(f"Found set without set table: {title}")
+                                # Not a set, and correctly rejected. These are
+                                # hub pages naming a product *line* — series
+                                # indexes, promo overviews, navigation — and
+                                # none carries a set infobox, so there is
+                                # nothing here to parse. Counted rather than
+                                # printed — see `EXPECTED_CONDITIONS`.
+                                EXPECTED_CONDITIONS.warning(
+                                    f"Found set without set table: {title}"
+                                )
 
                             return
 
@@ -2898,7 +2948,7 @@ def import_from_yugipedia(
                                     n_new += 1
 
                         if not seriestables:
-                            logging.warn(
+                            logging.warning(
                                 f"Found series without series table: {batcher.idsToNames[pageid]}"
                             )
                             return
@@ -2955,7 +3005,7 @@ def _get_lists(
             batcher.clearCache()
         else:
             # clear the cache of any changed pages
-            _ = [*get_changelog(batcher, last_access)]
+            _record_changelog_pages([*get_changelog(batcher, last_access)])
 
     cards = []
     if import_cards:
@@ -3661,7 +3711,7 @@ class YugipediaBatcher:
 
                     if "imageinfo" not in result:
                         # this happens if an image metadata exists but no actual file with a URL; ignore it
-                        # logging.warn(f"Page is not an image file: {title}")
+                        # logging.warning(f"Page is not an image file: {title}")
                         self.missingPagesCache.add(title)
                         self.missingPagesCache.add(str(pageid))
                         self.filePagesWithoutImage += 1
@@ -3673,11 +3723,11 @@ class YugipediaBatcher:
                             # This is their (bad) way of telling us that.
                             self.missingPagesCache.add(title)
                             self.missingPagesCache.add(str(pageid))
-                            # logging.warn(f"Image file cannot be accessed: {title}")
+                            # logging.warning(f"Image file cannot be accessed: {title}")
                             self.licenseRestrictedImages += 1
                             continue
                         if "url" not in image:
-                            logging.warn(
+                            logging.warning(
                                 f"Found strange response from server for image URL: {json.dumps(image)}"
                             )
                             continue

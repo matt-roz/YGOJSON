@@ -4,6 +4,7 @@ import json
 import logging
 import os
 import os.path
+import re
 import typing
 import uuid
 import zipfile
@@ -26,6 +27,16 @@ Yugipedia's API policy requires the name of the service *and* contact
 information for whoever is actually making the requests, on pain of being
 blocked without warning. Set ``YGOJSON_USER_AGENT`` if you run this yourself,
 so the wiki reaches you and not us.
+"""
+
+RUN_ID = os.environ.get("GITHUB_RUN_ID") or None
+"""The identifier of the CI run producing this database, or ``None`` off CI.
+
+This is the only thing tying a published database to the run that built it, and
+it is what makes ``increment`` advance once per run rather than once per job.
+Name the wrong environment variable and both of those silently stop working:
+the published metadata drops the identifier, and ``increment`` goes back to
+counting saves, with nothing failing to say so.
 """
 
 ROOT_DIR = os.path.abspath(
@@ -114,6 +125,54 @@ class CardType(enum.Enum):
     TRAP = "trap"
     TOKEN = "token"
     SKILL = "skill"
+
+
+CARD_TYPE_STR_TO_ENUM = {
+    "monster": CardType.MONSTER,
+    "spell": CardType.SPELL,
+    "trap": CardType.TRAP,
+    "token": CardType.TOKEN,
+    "skill": CardType.SKILL,
+    # Yugipedia types a counter card as a counter. The schema has no member for
+    # one and deliberately does not gain one here: every such page carries token
+    # lore ("This card can be used as any Token or Counter"), so a counter has
+    # always published as a token, and a member of its own would reclassify the
+    # counter cards already published.
+    "counter": CardType.TOKEN,
+}
+"""Every spelling of a card type a source may name, to the member it means.
+
+Keyed on :func:`_normalize_card_type`, so one meaning is written down once
+however a page happens to punctuate it. A spelling missing here is not a card
+published at the wrong type — it is a card dropped from the database entirely.
+"""
+
+
+def _normalize_card_type(spelling: str) -> str:
+    """Reduces a card type spelling to what :data:`CARD_TYPE_STR_TO_ENUM` is keyed on.
+
+    Case, spacing and punctuation are the ways one card type gets written two
+    ways — fifteen Yugipedia pages spell a dual-purpose card ``Counter / Token``
+    and a sixteenth spells it ``Counter/  Token`` — and nothing else in a card
+    type name is meaningful.
+    """
+    return re.sub(r"[^0-9a-z]", "", spelling.lower())
+
+
+def resolve_card_type(raw: str) -> typing.Optional[CardType]:
+    """Returns the card type a source's raw value names, or None if unknown.
+
+    A value may name more than one type, separated by a slash. Each part is
+    resolved on its own and an answer is returned only if the parts agree, so
+    ``Counter / Token`` resolves to token — both parts mean token — while a
+    value naming something unrecognized, or two types that disagree, resolves to
+    None so the caller can report it rather than guess.
+    """
+    parts = [_normalize_card_type(part) for part in raw.split("/")]
+    named = {CARD_TYPE_STR_TO_ENUM.get(part) for part in parts if part}
+    if len(named) != 1:
+        return None
+    return named.pop()
 
 
 class Attribute(enum.Enum):
@@ -2219,7 +2278,14 @@ class Database:
     """The directory aggregated JSON is stored in."""
 
     increment: int
-    """How many times this database has been modified."""
+    """How many runs have updated this database.
+
+    A run saves once per job, and all of a run's saves share one increment.
+    Without a `RUN_ID` to tell runs apart, every save counts as its own update.
+    """
+
+    run_id: typing.Optional[str]
+    """The CI run that last saved this database, or None if none was recorded."""
 
     last_yamlyugi_read: typing.Optional[datetime.datetime]
     """The last time Yaml Yugi was read from to produce this database."""
@@ -2335,6 +2401,7 @@ class Database:
         self.aggregates_dir = aggregates_dir
 
         self.increment = 0
+        self.run_id = None
         self.last_yamlyugi_read = None
         self.last_yugipedia_read = None
         self.last_ygoprodeck_read = None
@@ -2633,7 +2700,7 @@ class Database:
                     ):
                         set_ = self.lookup_set(mfi)
                         if not set_:
-                            logging.warn(f"Unknown set to fixup: {mfi}")
+                            logging.warning(f"Unknown set to fixup: {mfi}")
                             continue
 
                         for in_contents in in_json["contents"]:
@@ -2679,7 +2746,7 @@ class Database:
                                             if distro:
                                                 contents.distrobution = distro.id
                                             else:
-                                                logging.warn(
+                                                logging.warning(
                                                     f"Unknown distro: {distro_mfi}"
                                                 )
 
@@ -2874,6 +2941,7 @@ class Database:
             "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/meta.json",
             "version": SCHEMA_VERSION,
             "increment": self.increment,
+            **({"runID": self.run_id} if self.run_id else {}),
             **(
                 {"lastYamlyugiRead": self.last_yamlyugi_read.isoformat()}
                 if self.last_yamlyugi_read
@@ -2893,6 +2961,7 @@ class Database:
 
     def _load_meta_json(self, meta_json: typing.Dict[str, typing.Any]):
         self.increment = meta_json["increment"]
+        self.run_id = meta_json.get("runID")
         self.last_yamlyugi_read = (
             datetime.datetime.fromisoformat(meta_json["lastYamlyugiRead"])
             if "lastYamlyugiRead" in meta_json
@@ -2921,7 +2990,12 @@ class Database:
         :param generate_aggregates: Whether or not to generate aggregated JSON files.
         """
 
-        self.increment += 1
+        # a run saves once per job - ten times, in CI - and those ten saves are
+        # one update of the database, not ten. Off CI there is no run identifier
+        # to tell two runs apart, so every save is its own update, as before.
+        if RUN_ID is None or RUN_ID != self.run_id:
+            self.increment += 1
+        self.run_id = RUN_ID
 
         if generate_individuals and self.individuals_dir is None:
             raise Exception("No output directory for individuals configured!")
@@ -3704,6 +3778,61 @@ LAST_MODIFIED_HEADER = "Last-Modified"
 """The HTTP header to get when the ZIP files on the server were last modified."""
 
 
+def download_published_zip(
+    name: str, dest: str, *, repository: str = REPOSITORY
+) -> None:
+    """Download one published data ZIP and extract it into ``dest``.
+
+    The ZIP is kept in your temporary directory and not redownloaded while it
+    is up to date. It extracts to exactly the layout it was published from, so
+    ``dest`` is a drop-in for a generated ``individual`` or ``aggregate``
+    directory.
+
+    :param name: Which ZIP to get: ``individual`` or ``aggregate``
+    :param dest: A directory to extract into
+    :param repository: The URL to get the data ZIP files from, defaults to the official YGOJSON URL
+    """
+    os.makedirs(TEMP_DIR, exist_ok=True)
+
+    with tqdm.tqdm(total=3, desc=f"Downloading {name}s from server") as progress_bar:
+        zipname = name + ".zip"
+        zippath = os.path.join(TEMP_DIR, zipname)
+        last_modified = datetime.datetime.now()
+        zip_already_exists = os.path.exists(zippath)
+
+        if zip_already_exists:
+            response = requests.head(repository + "/" + zipname, stream=True)
+            if not response.ok:
+                response.raise_for_status()
+            if LAST_MODIFIED_HEADER in response.headers:
+                last_modified = datetime.datetime.fromisoformat(
+                    response.headers[LAST_MODIFIED_HEADER]
+                )
+        progress_bar.update(1)
+
+        if (
+            not zip_already_exists
+            or last_modified.timestamp() > os.stat(zippath).st_mtime
+        ):
+            response = requests.get(
+                repository + "/" + zipname,
+                stream=True,
+                headers={
+                    "User-Agent": USER_AGENT,
+                },
+            )
+            if not response.ok:
+                response.raise_for_status()
+            with open(zippath, "wb") as file:
+                for chunk in response.iter_content(chunk_size=None):
+                    file.write(chunk)
+        progress_bar.update(1)
+
+        with open(zippath, "rb") as file, zipfile.ZipFile(file) as zip:
+            zip.extractall(dest)
+        progress_bar.update(1)
+
+
 def load_from_internet(
     *,
     individuals_dir: typing.Optional[str] = None,
@@ -3719,54 +3848,11 @@ def load_from_internet(
     :param url: The URL to get the data ZIP files from, defaults to the official YGOJSON URL
     """
 
-    def getzip(name: str, dest: str):
-        with tqdm.tqdm(
-            total=3, desc=f"Downloading {name}s from server"
-        ) as progress_bar:
-            zipname = name + ".zip"
-            zippath = os.path.join(TEMP_DIR, zipname)
-            last_modified = datetime.datetime.now()
-            zip_already_exists = os.path.exists(zippath)
-
-            if zip_already_exists:
-                response = requests.head(repository + "/" + zipname, stream=True)
-                if not response.ok:
-                    response.raise_for_status()
-                if LAST_MODIFIED_HEADER in response.headers:
-                    last_modified = datetime.datetime.fromisoformat(
-                        response.headers[LAST_MODIFIED_HEADER]
-                    )
-            progress_bar.update(1)
-
-            if (
-                not zip_already_exists
-                or last_modified.timestamp() > os.stat(zippath).st_mtime
-            ):
-                response = requests.get(
-                    repository + "/" + zipname,
-                    stream=True,
-                    headers={
-                        "User-Agent": USER_AGENT,
-                    },
-                )
-                if not response.ok:
-                    response.raise_for_status()
-                with open(zippath, "wb") as file:
-                    for chunk in response.iter_content(chunk_size=None):
-                        file.write(chunk)
-            progress_bar.update(1)
-
-            with open(zippath, "rb") as file, zipfile.ZipFile(file) as zip:
-                zip.extractall(dest)
-            progress_bar.update(1)
-
-    os.makedirs(TEMP_DIR, exist_ok=True)
-
     if individuals_dir is not None:
-        getzip("individual", individuals_dir)
+        download_published_zip("individual", individuals_dir, repository=repository)
 
     if aggregates_dir is not None:
-        getzip("aggregate", aggregates_dir)
+        download_published_zip("aggregate", aggregates_dir, repository=repository)
 
     return load_from_file(
         individuals_dir=individuals_dir, aggregates_dir=aggregates_dir

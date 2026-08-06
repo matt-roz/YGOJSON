@@ -15,3 +15,16 @@ repos:
     hooks:
       - id: isort
         args: [--line-length, '88']
+  # `logging.warn` is a deprecated alias for `logging.warning`. Python does not
+  # surface the deprecation here — its default filter only reports deprecations
+  # raised in `__main__`, and every warning site lives in an importer — so the
+  # day the alias is removed, every one of them becomes a crash at the moment
+  # the pipeline tries to warn about something, mid-run, in production. There is
+  # no linter in this repository to catch a re-typed call, so this is the guard.
+  - repo: local
+    hooks:
+      - id: no-deprecated-logging-warn
+        name: use logging.warning(), not the deprecated logging.warn() alias
+        entry: \blogging\.warn\b
+        language: pygrep
+        types: [python]

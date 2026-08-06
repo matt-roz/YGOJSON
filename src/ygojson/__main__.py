@@ -173,6 +173,7 @@ def main(argv: typing.Optional[typing.List[str]] = None) -> int:
         format="[%(levelname)s] %(message)s",
         level=logging.getLevelName(args.logging.strip().upper()),
     )
+    install_warning_buckets()
 
     logging.info("Loading database...")
     if args.download:
@@ -271,6 +272,8 @@ def main(argv: typing.Optional[typing.List[str]] = None) -> int:
     )
 
     log_unknown_rarities()
+    save_warning_buckets()
+    log_warning_buckets()
 
     logging.info("Done!")
     return 0

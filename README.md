@@ -167,6 +167,11 @@ reading a database built after these landed.
   YGOPRODECK-sourced artworks, so **a card's artwork count may go up**. Variant entries tagged
   `alternate-art` carry an `imageID` pointing at the treatment they depict.
 
+* **`meta.json` gained an optional `runID`.** The CI run that produced the database — the GitHub
+  Actions run ID, which resolves at `<repository>/actions/runs/<runID>` — so a published snapshot can
+  be tied to the run that built it. **Absence means no run was recorded**, such as a database built
+  locally; it does not mean the run is unknown.
+
 * **Two schema definitions were silently vacuous and are now enforced.** `set.json`'s `locales` and
   `sealedProduct.json`'s `locales` both used `remainingProperties`, which is not a JSON Schema
   keyword — so nothing under either was validated at all. Data already conformed; if you generated
@@ -184,6 +189,13 @@ Not schema changes, but visible in the data:
 
 * **An unrecognised rarity is no longer replaced with Common.** A printing whose rarity cannot be
   determined carries no rarity, so absence now means "unknown" rather than "unknown, or Common".
+
+* **`meta.json`'s `increment` now advances once per run, not once per job.** It is documented as
+  incrementing each time YGOJSON is updated, but the generator writes the database once per job and a
+  run has ten jobs, so a run advanced it by ten. The field was corrected rather than the description.
+  **A published `increment` therefore rises by roughly one tenth of what it used to per run**, and
+  compares across that change only as an ordering, not as a count. Where no run identifier is
+  available — a local run, for instance — each write still counts as its own update.
 
 # Python API Changelog
 

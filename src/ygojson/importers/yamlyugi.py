@@ -209,7 +209,7 @@ def _write_card(
                 card.type = v
                 break
         if not card.type:
-            logging.warn(
+            logging.warning(
                 f"Card {card.text[Language.ENGLISH].name} has no race! Typeline: {in_json['monster_type_line']}"
             )
             card.type = Race.CREATORGOD
@@ -258,12 +258,12 @@ def _write_card(
         if not v:
             continue
         if v not in LEGALITIES:
-            logging.warn(
+            logging.warning(
                 f"Card {card.text[Language.ENGLISH].name} has unknown legality in format {k}: {v}"
             )
             continue
         if k not in Format._value2member_map_:
-            logging.warn(
+            logging.warning(
                 f"Found unknown legality format in {card.text[Language.ENGLISH].name}: {k}"
             )
             continue
