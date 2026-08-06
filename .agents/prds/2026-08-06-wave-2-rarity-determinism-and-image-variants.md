@@ -19,7 +19,7 @@ gallery declares a default rarity the importer does not recognise, and the code 
 that replaces the entire default rarity list with Common rather than the one entry it failed to
 read. The same happens to `Limit Over Collection: The Rivals`. Someone looking up `Limited Pack GX: Ra Yellow` finds ten
 printings that should carry both an Ultra Rare and an *Ultra Rare (Special Blue Version)* printing;
-the Special Blue ones are gone. `Structure Deck: Harpie Lady Sisters` loses two Secret Blue rarities
+the Special Blue ones are gone. `Advanced Event Pack 2025 Vol.2` (OCG-KR) loses two Secret Blue rarities
 because the wiki wrote the name without parentheses. Every Rush Duel rarity is dropped outright.
 
 Worse, whether a rarity resolves depends on **where on the page it appears**. A set list that declares
@@ -355,7 +355,7 @@ after. The production flag is omitted so the page cache is never cleared. Assert
   cards carry Grand Master Rare, and their image URLs resolve.
 - `Limited Pack GX: Ra Yellow` (OCG-JP) — the ten affected printings each carry both an Ultra Rare and
   an Ultra Rare (Special Blue Version) printing.
-- `Structure Deck: Harpie Lady Sisters` (OCG-JP and OCG-KR) — the two affected rows carry Secret Blue.
+- `Advanced Event Pack 2025 Vol.2 Version 1` and `Version 2` (OCG-KR) — the two affected rows carry Secret Blue.
 - `Tournament Pack 2025 Vol.2` (OCG-JP) — the hyphenated spelling resolves and the image filename no
   longer has a raw rarity string appended.
 - A Duel Terminal product spelling its rarity in full — resolves to the same member as the
