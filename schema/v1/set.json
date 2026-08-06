@@ -41,7 +41,7 @@
       "propertyNames": {
         "$ref": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/locale.json"
       },
-      "remainingProperties": {
+      "additionalProperties": {
         "description": "Locale-specific information for this set.",
         "type": "object",
         "required": [
@@ -97,7 +97,8 @@
               "additionalProperties": {
                 "type": "object",
                 "description": "Per-card information for this specific locale.",
-                "additionalProperties": {
+                "required": [],
+                "properties": {
                   "image": {
                     "type": "string",
                     "description": "The URL to the full card image for this printing.",
@@ -106,6 +107,33 @@
                   "price": {
                     "type": "number",
                     "description": "Price information for this printing, if available. All prices are the most recent available as of the creation of this database, and are normalized to USD. No guarantees are made that this price is accurate, or that all sources were considered, or that the correct locale was considered."
+                  },
+                  "variants": {
+                    "description": "Every further image this printing has, where the source tagged the image with a variant code: alternate artworks, later print runs, and so on. The image in 'image' is the one image this printing publishes; where that image is itself tagged, it appears here too. Absent for the great majority of printings, which have a single untagged image.",
+                    "type": "array",
+                    "items": {
+                      "description": "One tagged image of this printing.",
+                      "type": "object",
+                      "required": [
+                        "code",
+                        "image"
+                      ],
+                      "properties": {
+                        "code": {
+                          "description": "The code the source tagged this image with, verbatim: 'AA', 'Reprint', 'Emblazoned', and a long tail of one-offs. Most codes mean whatever the person who wrote the gallery row meant by them, so this is given as written rather than interpreted.",
+                          "type": "string"
+                        },
+                        "image": {
+                          "description": "The URL to the full card image for this variant.",
+                          "type": "string",
+                          "format": "uri"
+                        },
+                        "variant": {
+                          "description": "What this image shows, for the few codes whose meaning is documented. Absence means the code is one we do not classify; it does not mean this image matches the printing's canonical one.",
+                          "$ref": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/imageVariant.json"
+                        }
+                      }
+                    }
                   }
                 }
               }
