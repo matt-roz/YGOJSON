@@ -35,6 +35,7 @@ There is no task runner and no `pyproject.toml`. These are the only commands.
 | `pre-commit run --all-files`   | black, isort (line length 88), JSON pretty-format, merge-conflict | no                   | **Yes** (`lint`)  | **Yes — loop closer**          |
 | `python -m ygojson --help`     | Smoke check that the package still imports and the CLI parses     | no                   | No                | **Yes** — cheapest real signal |
 | `python test/validate_data.py` | Validates everything under `data/` against `schema/v1`            | **yes**              | **Yes** (final)   | Only if you have a `data/` dir |
+| `python test/validate_rarity_coverage.py` | Asserts every rarity Yugipedia defines resolves to one of ours (one wiki request) | no | **Yes** (`lint`) | Only when touching `rarity.py` |
 | `ygojson [flags]`              | The pipeline itself — see below                                   | no                   | **Yes** (the job) | Only with narrow flags         |
 
 
