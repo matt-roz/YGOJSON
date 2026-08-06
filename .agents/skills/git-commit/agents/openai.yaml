@@ -1,0 +1,7 @@
+interface:
+  display_name: "Git Commit"
+  short_description: "Conventional commits written from the actual diff"
+policy:
+  # Deliberately implicit. Autonomous agents spawned by /orchestrate-prd are
+  # told to call this mid-task, and there is no human present to type it.
+  allow_implicit_invocation: true

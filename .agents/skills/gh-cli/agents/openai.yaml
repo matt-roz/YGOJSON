@@ -1,0 +1,7 @@
+interface:
+  display_name: "GitHub CLI"
+  short_description: "Reference for gh, from issues and pull requests to the API"
+policy:
+  # Deliberately implicit, like /git-commit. Nine skills instruct agents to reach
+  # for this mid-task, and the sub-agents /orchestrate-prd spawns have no human.
+  allow_implicit_invocation: true
