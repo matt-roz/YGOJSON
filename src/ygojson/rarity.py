@@ -398,14 +398,33 @@ Gallery image filenames carry the abbreviation, so a rarity missing here is a
 printing whose image is looked up under a filename the wiki does not use.
 Rarities with no schema member appear here and nowhere else."""
 
+NORMALIZED_RARITY_STR_TO_ABBREVIATION = {
+    _normalize(spelling): row.abbreviation
+    for row in RARITIES
+    for spelling in _spellings(row)
+}
+"""The same, keyed on :func:`_normalize` — what a punctuated spelling falls back to.
+
+Without this a rarity only the normalized lookup recognises resolves its schema
+member but not its abbreviation, and the gallery pastes the raw string into the
+image filename instead."""
+
 
 def resolve_rarity(raw: str) -> typing.Optional[CardRarity]:
     """Returns the rarity a wiki page's rarity string names, or None if unknown.
 
     Every rarity call site goes through here, so that a spelling means the same
     thing whether the page put it in a template parameter or in a table row.
+
+    The written-down spelling is tried first and the normalized one only if that
+    misses, so making lookup forgiving can rescue a spelling that used to fail
+    but can never move one that already worked.
     """
-    return RARITY_STR_TO_ENUM.get(raw.strip().lower())
+    spelling = raw.strip()
+    exact = RARITY_STR_TO_ENUM.get(spelling.lower())
+    if exact is not None:
+        return exact
+    return NORMALIZED_RARITY_STR_TO_ENUM.get(_normalize(spelling))
 
 
 def resolve_abbreviation(raw: str) -> typing.Optional[str]:
@@ -413,5 +432,11 @@ def resolve_abbreviation(raw: str) -> typing.Optional[str]:
 
     Gallery image filenames carry the abbreviation, so a wrong answer here does
     not produce a wrong rarity — it produces a printing with no image.
+
+    Exact before normalized, for the same reason as :func:`resolve_rarity`.
     """
-    return RARITY_STR_TO_ABBREVIATION.get(raw.strip().lower())
+    spelling = raw.strip()
+    exact = RARITY_STR_TO_ABBREVIATION.get(spelling.lower())
+    if exact is not None:
+        return exact
+    return NORMALIZED_RARITY_STR_TO_ABBREVIATION.get(_normalize(spelling))
