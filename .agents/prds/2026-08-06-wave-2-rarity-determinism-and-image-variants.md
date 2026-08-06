@@ -241,15 +241,42 @@ remains reachable only through the alt-column mechanism, with no name mapping ad
   and an art-treatment reference.
 - A new `ImageVariant` vocabulary is added as an enum with its string-to-enum map, following the
   existing convention for vocabularies, and gets its own published schema file. It is deliberately
-  **small**, containing only what Yugipedia's image policy documents:
-  - the Spell-text variant — the wiki's `Reprint` code, which denotes a card originally printed before
-    the Magic-to-Spell rename shown in its Spell version;
+  **small**, containing only the codes whose documented meaning survived being checked against the
+  wiki's own galleries:
   - alternate artwork;
   - official proxy;
   - official website artwork.
-- **Unrecognised codes are carried verbatim with no classification.** They are not guessed at. The
-  long tail is roughly 110 keys across a dozen undocumented codes, several of them single-digit
-  one-offs, and the verbatim map already carries them losslessly.
+- **`Reprint` and `Reprint2` are not typed.** They join the verbatim-only tail. Yugipedia's image
+  policy defines `Reprint` as marking a card originally released before the Magic-to-Spell rename
+  shown in its Spell version, and editors do use it that way — `Set Card Galleries:Pharaonic Guardian
+  (TCG-NA-UE)` heads its section `== Reprints (''Magic'' to ''Spell'') ==`, and
+  `Forest-LOB-NA-C-UE.png` reads `[MAGIC CARD]` against `[SPELL CARD]` on its `-Reprint`. But they
+  also use it for print runs with no text change at all, and #35 established that the two usages are
+  not distinguishable from the data we hold. `Legend of Blue Eyes White Dragon` and `Metal Raiders`
+  each carry a second `alt=Reprint` section headed `== Legendary Collection reprints ==`; `Vol.1`
+  tags its entire contents `==20th Anniversary Set reprints==`. Inside one gallery page, `Reprint`
+  means the Spell version for `Forest` and the Legendary Collection printing for `Blue-Eyes White
+  Dragon`. Other `-Reprint` files turned out to be a name errata (`Trial of Hell` → `Trial of
+  Nightmare`), a Type errata (`Two-Mouth Darkruler`, Dragon → Dinosaur) and a numeric errata
+  (`Steel Scorpion`, 3rd → 2nd turn). The OCG kept the 魔法 wording — `Dark Hole` reads
+  【魔法カード】 in both `DarkHole-V1-JP-SR.jpg` and `DarkHole-V1-JP-SR-Reprint.png` — so a JP
+  printing has no type-line Magic-to-Spell artefact to record, yet `Vol.1`, `Vol.4`–`Vol.7` and
+  `EX Starter Box` account for 351 `Reprint` rows between them.
+- A full scan of all 7,157 `Set Card Galleries:` pages found 2,095 rows carrying a `Reprint`/
+  `Reprint2` alt across 48 pages. Grouped by the section heading the editor wrote above them:
+  **64% say a print run explicitly** (`Legendary Collection reprints`, `2025 Reprint`,
+  `20th Anniversary Set reprints`, `Reprints (Yugi & Kaiba Collector Box)`, `Main Deck`),
+  **9% say the Magic-to-Spell change explicitly** (`Reprints (''Magic'' to ''Spell'')`,
+  `Reprints (Pre-SRL ''Spell'')`, `Spell Cards reprints`), and **27% say nothing either way**.
+- `Reprint2` carries no meaning of its own either: it is a collision-avoidance suffix, allocated only
+  when `Reprint` was already taken for that card in the same gallery.
+- **Unrecognised codes are carried verbatim with no classification.** They are not guessed at. With
+  `Reprint`/`Reprint2` moved here the verbatim tail is now the larger part of the variant volume —
+  roughly 110 keys across a dozen undocumented codes, several of them single-digit one-offs, plus the
+  ~840 `Reprint`/`Reprint2` keys — and the verbatim map already carries all of them losslessly.
+  Nothing is lost by leaving `Reprint` untyped: the images still publish and still carry the raw
+  code. Promoting it to a typed member later is additive, and would then be done from data we are
+  publishing rather than from a policy page that practice has outgrown.
 - Because the extra images are now published, the multiple-images warning stops describing a data
   loss and is removed or reduced to an aggregate count.
 
@@ -368,7 +395,7 @@ the variants collection present on some printings and absent on others.
 - **Semantics for undocumented variant codes.** `Emblazoned`, `ClassicStyle`, `EA`, `Silver`,
   `OriginalLayout`, `Logo`, `S1`, `GC`, `CT` and the one-offs are carried verbatim and left
   unclassified. Promoting them later is additive and can be done from data we will then be publishing.
-- **Splitting Spell-text variants into separate printings.** Rejected in favour of variant entries;
+- **Splitting reprint variants into separate printings.** Rejected in favour of variant entries;
   revisitable later from published data, and irreversible if done now.
 - **Renaming `millenium` or `25thsecret`.** Both are wrong against the wiki — the first is a
   misspelling, the second uses a name Yugipedia does not use — but renaming a published value is
@@ -408,11 +435,12 @@ should be updated.
   the issue warns about.
 - **#17 assumes an `ultra-green` rarity that the wiki does not define.** Blue, purple and red exist;
   green does not. The enum member is retained but should not be wired to a name.
-- **#9's account of `Reprint` is wrong, and it is 65% of the variant volume.** The issue glosses
-  `Reprint`/`Reprint2` as "different print runs within one set". Yugipedia's image policy defines the
-  code as marking a card originally released before the Magic-to-Spell rename, shown in its Spell
-  version. That is a card-text distinction, not a print-run distinction, and it explains why
-  `Legend of Blue Eyes White Dragon` tops the affected-sets list.
+- **`Reprint` means both what #9 says and what the image policy says, and it is 65% of the variant
+  volume.** #9 glosses `Reprint`/`Reprint2` as "different print runs within one set"; Yugipedia's
+  image policy defines the code as marking a card originally released before the Magic-to-Spell
+  rename, shown in its Spell version. #35 fetched the images and found **both readings correct on
+  different gallery pages**, with nothing in the filename to say which. The code is therefore carried
+  verbatim and left unclassified, with the rest of the undocumented tail.
 - **Most variant codes are undocumented.** The policy covers `Reprint`, official website and official
   proxy, and mentions replicas, giant cards and case toppers. `AA`, `Emblazoned`, `ClassicStyle`,
   `EA`, `Silver`, `OriginalLayout`, `Logo`, `S1`, `GC` and `CT` appear nowhere, and the gallery
@@ -446,11 +474,11 @@ should be updated.
 
 ### Open items to settle during implementation
 
-- **The Spell-text meaning must be confirmed against real images before the largest bucket is
-  modelled.** Roughly 840 keys depend on a policy page that may lag practice. Pulling a handful of
-  those files from `Legend of Blue Eyes White Dragon` and checking whether the card reads Magic or
-  Spell settles it cheaply. If editors have been using the code colloquially, the classification for
-  that bucket is wrong and those variants should be carried verbatim instead.
+- ~~**The Spell-text meaning must be confirmed against real images before the largest bucket is
+  modelled.**~~ **Settled by #35: it did not hold.** The policy page lags practice. Images from
+  `Legend of Blue Eyes White Dragon`, `Metal Raiders`, `Pharaonic Guardian` and `Vol.1` show the code
+  used both for the Magic-to-Spell change and for plain print runs, sometimes on the same gallery
+  page, so those ~840 keys are carried verbatim and left unclassified.
 - **The alternate-artwork classification rests on inspection, not documentation.** It is the one
   classification adopted without a citable source, chosen because the schema already has the right
   structure for it. It should be sampled before being committed to.
@@ -461,3 +489,70 @@ should be updated.
   carrying two *locales* under one printing, and a token in `OTS Tournament Pack 9` carrying three
   artwork variants. This is correct behaviour. They should be reported upstream rather than
   special-cased.
+
+
+---
+
+## Implementation Issues
+
+| Issue | Title | Type | Blocked by |
+|---|---|---|---|
+| #34 | Make published output deterministic: serializer key ordering and edition iteration | AFK | — |
+| #35 | Confirm what Yugipedia's `Reprint` image code means before modelling 65% of the variants | AFK | — |
+| #36 | Choose a printing's canonical image by an explicit total order | AFK | #34 |
+| #37 | One rarity vocabulary: single canonical table, derived lookups, all five call sites rewired | AFK | #34 |
+| #38 | Rarity lookup falls back to Yugipedia's own normalization | AFK | #37 |
+| #39 | Model the thirteen rarities Yugipedia defines and we cannot resolve | AFK | #37 |
+| #40 | Unknown rarities are reported and dropped, never replaced with Common | AFK | #37 |
+| #41 | Fail the lint job when Yugipedia defines a rarity we do not model | AFK | #39 |
+| #42 | Publish variant images on printings instead of discarding them | AFK | #35, #36 |
+| #43 | Alternate artworks resolve into the card's art-treatment list | AFK | #42 |
+| #44 | Document the Wave 2 schema additions and write the release note | AFK | #39, #42, #43 |
+
+```mermaid
+graph TD
+    I34["34 · deterministic output<br/><i>goes first — makes everything measurable</i>"]
+    I35["35 · what does <code>Reprint</code> mean?<br/><i>research, no code</i>"]
+    I36["36 · canonical image total order"]
+    I37["37 · one rarity vocabulary<br/>fixes the DT swap + 48-spelling divergence"]
+    I38["38 · normalized lookup fallback"]
+    I39["39 · thirteen missing rarities<br/>DATA-LOSS"]
+    I40["40 · unknown rarity never becomes Common<br/>DATA-LOSS"]
+    I41["41 · wiki coverage check fails lint"]
+    I42["42 · publish variant images<br/>69% of warning volume"]
+    I43["43 · alternate art → art treatments"]
+    I44["44 · schema docs + release note"]
+
+    I34 ==> I36
+    I34 ==> I37
+    I37 ==> I38
+    I37 ==> I39
+    I37 ==> I40
+    I39 ==> I41
+    I35 ==> I42
+    I36 ==> I42
+    I42 ==> I43
+    I39 --> I44
+    I42 --> I44
+    I43 --> I44
+```
+
+**Reading it.** #34 and #35 are unblocked today. #34 is the smallest change in the wave and gates most
+of it — while published key ordering churns in all 3,376 set files, no before/after diff can be read,
+so every later slice's verification depends on it landing first. #35 is pure research and can run
+alongside anything.
+
+#37 is the thick one: the module, the canonical table, and five call-site rewires, with a ~3.5-hour
+corpus fetch inside it as its acceptance evidence. It is **not** a behaviour-preserving refactor —
+consolidating inherently fixes #3 and the 48-spelling divergence — and should be reviewed on its
+corpus change report rather than on "output unchanged". #38, #39 and #40 are siblings off it and can
+run in parallel.
+
+Everything is AFK. #35 has since run and found exactly the mixed case it was watching for, so
+`Reprint` is carried verbatim and `ImageVariant` ships with no Spell-text member. #43 carries the
+other soft spot: the alternate-artwork
+classification is the only one in the wave adopted without a citable source, so it samples images
+before modelling and is allowed to conclude that the code belongs in the verbatim tail instead.
+
+
+
