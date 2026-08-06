@@ -1571,6 +1571,11 @@ FULL_RARITY_STR_TO_ENUM = {
     "millennium gold rare": CardRarity.MILLENIUMGOLD,  # mlgr
 }
 
+PRINT_STATUS_STR_TO_ENUM = {
+    "new": PrintStatus.NEW,
+    "reprint": PrintStatus.REPRINT,
+}
+
 EDITION_STR_TO_ENUM = {
     "1E": SetEdition.FIRST,
     "UE": SetEdition.UNLIMTED,
@@ -1737,7 +1742,13 @@ class RawPrinting:
     noabbr: bool
 
     def __init__(
-        self, card: Card, code: str, rarity: CardRarity, qty: int, noabbr: bool
+        self,
+        card: Card,
+        code: str,
+        rarity: CardRarity,
+        qty: int,
+        noabbr: bool,
+        print_status: typing.Optional[PrintStatus] = None,
     ) -> None:
         self.card = card
         self.code = code
@@ -1745,6 +1756,7 @@ class RawPrinting:
         self.image = {}
         self.qty = qty
         self.noabbr = noabbr
+        self.print_status = print_status
 
     def locator(self) -> PrintingLocator:
         return PrintingLocator(self.card, self.rarity, self.code)
@@ -1870,11 +1882,14 @@ def parse_tcg_ocg_set(
                 rarity: CardRarity,
                 qty: typing.Optional[int],
                 noabbr: bool,
+                print_status: typing.Optional[PrintStatus] = None,
             ):
                 @get_card(name)
                 def onGetCard(card: Card):
                     rcs: typing.List[RawPrinting] = []
-                    raw_rc = RawPrinting(card, code, rarity, qty or 1, noabbr)
+                    raw_rc = RawPrinting(
+                        card, code, rarity, qty or 1, noabbr, print_status
+                    )
                     if (
                         setname in MANUAL_RARITY_FIXUPS
                         and rarity in MANUAL_RARITY_FIXUPS[setname]
@@ -1887,6 +1902,7 @@ def parse_tcg_ocg_set(
                                     new_rarity,
                                     raw_rc.qty,
                                     raw_rc.noabbr,
+                                    raw_rc.print_status,
                                 )
                             )
                     else:
@@ -2002,7 +2018,19 @@ def parse_tcg_ocg_set(
                                     rarities.append(rarity)
                             col_index += 1
 
+                            print_status = None
                             if has_print_column:
+                                raw_print_status = (
+                                    cols[col_index] if len(cols) > col_index else ""
+                                ) or raw_default_reprint_status
+                                if raw_print_status and raw_print_status.strip():
+                                    print_status = PRINT_STATUS_STR_TO_ENUM.get(
+                                        raw_print_status.strip().lower()
+                                    )
+                                    if not print_status:
+                                        logging.warn(
+                                            f"Got strange print status in {listpagename}, in row {name}: {raw_print_status.strip()}"
+                                        )
                                 col_index += 1
 
                             qty = None
@@ -2024,6 +2052,7 @@ def parse_tcg_ocg_set(
                                     rarity,
                                     qty if qty is not None else default_qty,
                                     noabbr,
+                                    print_status,
                                 )
 
             if not setlists:
@@ -2471,6 +2500,7 @@ def parse_tcg_ocg_set(
                     suffix=rcl.code,
                     replica=any(il.altinfo.lower() == "rp" for il in rc.image),
                     qty=rc.qty,
+                    print_status=rc.print_status,
                 )
                 raw_printings_to_printings[content][rcl] = printing
                 content.cards.append(printing)

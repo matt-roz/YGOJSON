@@ -56,6 +56,13 @@
       "description": "If this set's distribution is of 'preconstructed' type, this indicates how many were present in the set. Default is 1 if not provided.",
       "type": "integer"
     },
+    "printStatus": {
+      "description": "Whether this printing debuted in this set ('new') or was reprinted from an earlier one ('reprint'). Only some sources record this, so this property is absent for most printings. IMPORTANT: absence means the source did not say, NOT that the printing is new; do not treat a missing value as 'new'.",
+      "enum": [
+        "new",
+        "reprint"
+      ]
+    },
     "history": {
       "description": "Cards in virtual sets may be added or removed on Konami's whim. This is a record of when cards were added or removed from this virtual set.",
       "type": "array",
