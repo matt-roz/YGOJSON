@@ -1840,9 +1840,18 @@ class SetLocale:
             **({"date": self.date.isoformat()} if self.date else {}),
             **({"image": self.image} if self.image else {}),
             **({"boxImage": self.box_image} if self.box_image else {}),
+            # editions and printings are keyed by the string they get in the JSON,
+            # and sorted by it: printings hash by identity and editions by enum
+            # name, so iterating either unsorted reshuffles every set file on
+            # every run.
             "cardImages": {
-                k.value: {str(kk.id): vv for kk, vv in v.items()}
-                for k, v in self.card_images.items()
+                edition.value: {
+                    str(printing.id): images[printing]
+                    for printing in sorted(images, key=lambda p: str(p.id))
+                }
+                for edition, images in sorted(
+                    self.card_images.items(), key=lambda kv: kv[0].value
+                )
             },
             "cardInfo": {
                 edition.value: {
@@ -1858,15 +1867,21 @@ class SetLocale:
                             else {}
                         ),
                     }
-                    for printing in {
-                        *self.card_images.get(edition, {}).keys(),
-                        *self.card_prices.get(edition, {}).keys(),
-                    }
+                    for printing in sorted(
+                        {
+                            *self.card_images.get(edition, {}).keys(),
+                            *self.card_prices.get(edition, {}).keys(),
+                        },
+                        key=lambda p: str(p.id),
+                    )
                 }
-                for edition in {
-                    *self.card_images.keys(),
-                    *self.card_prices.keys(),
-                }
+                for edition in sorted(
+                    {
+                        *self.card_images.keys(),
+                        *self.card_prices.keys(),
+                    },
+                    key=lambda e: e.value,
+                )
             },
             **({"formats": [x.value for x in self.formats]} if self.formats else {}),
             **({"editions": [x.value for x in self.editions]} if self.editions else {}),

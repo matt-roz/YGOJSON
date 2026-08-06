@@ -1765,7 +1765,10 @@ class RawPrinting:
 class RawLocale:
     key: str
     format: str
-    editions: typing.Set[SetEdition]
+    editions: typing.List[SetEdition]
+    """In ``EDITIONS_IN_NAV`` order. A set here would iterate in a different
+    order every run, since enum members hash by name and Python randomizes
+    string hashing per process."""
     cards: typing.Dict[PrintingLocator, RawPrinting]
     date: typing.Optional[datetime.date]
     images: typing.Dict[SetEdition, str]
@@ -1774,11 +1777,22 @@ class RawLocale:
     def __init__(self, key: str, format: str) -> None:
         self.key = key
         self.format = format
-        self.editions = set()
+        self.editions = []
         self.cards = {}
         self.date = None
         self.images = {}
         self.db_ids = []
+
+
+def _pack_image(raw_locale: RawLocale) -> typing.Optional[str]:
+    """The pack image a locale publishes: the image of the first of its
+    editions that has one, in ``EDITIONS_IN_NAV`` order. A locale whose
+    editions carry distinct pack images therefore publishes its 1st Edition
+    image, rather than whichever edition happened to be iterated first."""
+    for edition in raw_locale.editions:
+        if edition in raw_locale.images:
+            return raw_locale.images[edition]
+    return None
 
 
 COLORFUL_RARES = {
@@ -1863,7 +1877,7 @@ def parse_tcg_ocg_set(
         return GetCardDecorator
 
     def addcardlist(
-        setname: str, raw_locale: RawLocale, editions: typing.Set[SetEdition]
+        setname: str, raw_locale: RawLocale, editions: typing.List[SetEdition]
     ):
         listpagename = f"Set Card Lists:{setname} ({raw_locale.format.upper()}-{raw_locale.key.upper()})"
 
@@ -2067,7 +2081,8 @@ def parse_tcg_ocg_set(
     def get_gallery_data(
         setname: str, raw_locale: RawLocale, edition: SetEdition, locale_code: str
     ):
-        raw_locale.editions.add(edition)
+        if edition not in raw_locale.editions:
+            raw_locale.editions.append(edition)
 
         def do(galleryname: str):
             @batcher.getPageContents(galleryname)
@@ -2340,7 +2355,12 @@ def parse_tcg_ocg_set(
         if not lists and not galleries:
             logging.warn(f"Found set without card lists or galleries: {title}")
 
-        all_lcs = {lc for lc in [*lists, *[y for x in galleries.values() for y in x]]}
+        # deduplicated but kept in the order the set navigation names them:
+        # this drives the published locale and set contents ordering, which a
+        # set would reshuffle on every run
+        all_lcs = list(
+            dict.fromkeys([*lists, *[y for x in galleries.values() for y in x]])
+        )
         release_dates = {
             locale: _parse_date(_strip_markup(arg.value.strip()))
             for arg in settable.arguments
@@ -2393,7 +2413,7 @@ def parse_tcg_ocg_set(
                 addcardlist(
                     setname,
                     raw_locale,
-                    {EDITIONS_IN_NAV[ec] for ec, lcs in galleries.items() if lc in lcs},
+                    [EDITIONS_IN_NAV[ec] for ec, lcs in galleries.items() if lc in lcs],
                 )
 
     if not navs:
@@ -2458,7 +2478,7 @@ def parse_tcg_ocg_set(
             language=LOCALES.get(raw_locale.key, raw_locale.key),
             editions=[*raw_locale.editions],
             formats=[fmt],
-            image=[*raw_locale.images.values(), None][0],
+            image=_pack_image(raw_locale),
             date=raw_locale.date,
             prefix=None
             if all(rc.noabbr for rc in raw_locale.cards.values())
@@ -2481,7 +2501,7 @@ def parse_tcg_ocg_set(
                 locales=[locale],
                 editions=[*raw_locale.editions],
                 formats=[fmt],
-                image=[*raw_locale.images.values(), None][0],
+                image=_pack_image(raw_locale),
             )
             raw_printings_to_printings[content] = {}
             for rc in raw_locale.cards.values():
