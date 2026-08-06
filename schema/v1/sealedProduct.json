@@ -51,7 +51,7 @@
       "propertyNames": {
         "$ref": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/locale.json"
       },
-      "remainingProperties": {
+      "additionalProperties": {
         "description": "Locale-specific information for this product.",
         "type": "object",
         "required": [
