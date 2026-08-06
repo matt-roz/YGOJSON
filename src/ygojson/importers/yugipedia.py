@@ -3311,6 +3311,23 @@ def import_from_yugipedia(
 
                 do(seriesid)
 
+    # One line rather than one per miss: per-miss logging was tried and abandoned (the two
+    # commented-out warnings in the batcher are what is left of it), and the point of this
+    # figure is that somebody reads it. The first number cannot tell "we built the wrong
+    # filename" from "the wiki genuinely has no such image" - it is a tripwire for watching
+    # the figure across runs, not a way to scope which of the two is happening.
+    unresolved_images = (
+        batcher.missingFilePages
+        + batcher.filePagesWithoutImage
+        + batcher.licenseRestrictedImages
+    )
+    logging.warning(
+        f"{unresolved_images} image lookups did not resolve: "
+        f"{batcher.missingFilePages} file pages that do not exist, "
+        f"{batcher.filePagesWithoutImage} file pages carrying no image, "
+        f"{batcher.licenseRestrictedImages} images Yugipedia won't serve for licensing reasons."
+    )
+
     return n_found, n_new
 
 
@@ -3453,6 +3470,9 @@ class YugipediaBatcher:
 
         self.imagesCache = {}
         self.pendingImages = {}
+        self.missingFilePages = 0
+        self.filePagesWithoutImage = 0
+        self.licenseRestrictedImages = 0
 
         self.categoryMembersCache = {}
 
@@ -3965,6 +3985,14 @@ class YugipediaBatcher:
         typing.Union[int, str], typing.List[typing.Callable[[str], None]]
     ]
 
+    # Image lookups that never call their callback, counted by cause so that the images
+    # the wiki refuses to serve don't mask the ones we failed to name. Only lookups that
+    # reach the API are counted: a file already known to be missing is skipped before it
+    # gets here, so these shrink as the page cache warms up.
+    missingFilePages: int
+    filePagesWithoutImage: int
+    licenseRestrictedImages: int
+
     def getImageURL(self, page: typing.Union[str, int]):
         batcher = self
 
@@ -4016,6 +4044,7 @@ class YugipediaBatcher:
                         self.missingPagesCache.add(
                             str(result.get("title") or result.get("pageid") or "")
                         )
+                        self.missingFilePages += 1
                         continue
 
                     title = result["title"]
@@ -4029,6 +4058,7 @@ class YugipediaBatcher:
                         # logging.warn(f"Page is not an image file: {title}")
                         self.missingPagesCache.add(title)
                         self.missingPagesCache.add(str(pageid))
+                        self.filePagesWithoutImage += 1
                         continue
 
                     for image in result["imageinfo"]:
@@ -4038,6 +4068,7 @@ class YugipediaBatcher:
                             self.missingPagesCache.add(title)
                             self.missingPagesCache.add(str(pageid))
                             # logging.warn(f"Image file cannot be accessed: {title}")
+                            self.licenseRestrictedImages += 1
                             continue
                         if "url" not in image:
                             logging.warn(
