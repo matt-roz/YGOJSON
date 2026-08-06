@@ -3320,12 +3320,14 @@ def import_from_yugipedia(
         batcher.missingFilePages
         + batcher.filePagesWithoutImage
         + batcher.licenseRestrictedImages
+        + batcher.cachedMissingImages
     )
     logging.warning(
         f"{unresolved_images} image lookups did not resolve: "
         f"{batcher.missingFilePages} file pages that do not exist, "
         f"{batcher.filePagesWithoutImage} file pages carrying no image, "
-        f"{batcher.licenseRestrictedImages} images Yugipedia won't serve for licensing reasons."
+        f"{batcher.licenseRestrictedImages} images Yugipedia won't serve for licensing reasons, "
+        f"{batcher.cachedMissingImages} already known to be missing from a previous run."
     )
 
     return n_found, n_new
@@ -3473,6 +3475,7 @@ class YugipediaBatcher:
         self.missingFilePages = 0
         self.filePagesWithoutImage = 0
         self.licenseRestrictedImages = 0
+        self.cachedMissingImages = 0
 
         self.categoryMembersCache = {}
 
@@ -3986,12 +3989,18 @@ class YugipediaBatcher:
     ]
 
     # Image lookups that never call their callback, counted by cause so that the images
-    # the wiki refuses to serve don't mask the ones we failed to name. Only lookups that
-    # reach the API are counted: a file already known to be missing is skipped before it
-    # gets here, so these shrink as the page cache warms up.
+    # the wiki refuses to serve don't mask the ones we failed to name. These three only
+    # count lookups that reach the API, so on their own they shrink to nothing as the
+    # page cache warms up.
     missingFilePages: int
     filePagesWithoutImage: int
     licenseRestrictedImages: int
+
+    # Lookups the cache answered "missing" without asking the API. Counted separately so
+    # the reported total stays comparable between a cold run and a warm one: without this
+    # a CI run restoring `temp` reports near zero and reads as "no images are being lost",
+    # when the loss is merely being remembered instead of rediscovered.
+    cachedMissingImages: int
 
     def getImageURL(self, page: typing.Union[str, int]):
         batcher = self
@@ -3999,6 +4008,7 @@ class YugipediaBatcher:
         class GetImageDecorator:
             def __init__(self, callback: typing.Callable[[str], None]) -> None:
                 if batcher.use_cache and str(page) in batcher.missingPagesCache:
+                    batcher.cachedMissingImages += 1
                     return
 
                 pageid = (
