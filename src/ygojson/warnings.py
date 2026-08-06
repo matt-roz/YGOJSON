@@ -36,6 +36,37 @@ too. This is the test for telling their records from ours; widen it and
 somebody else's library can take the top row of a histogram about our pipeline.
 """
 
+EXPECTED_CONDITIONS = logging.getLogger("ygojson.expected-conditions")
+"""The logger for warnings that describe the parser working *correctly*.
+
+Two call sites are most of the raw log and none of its signal: pages correctly
+rejected as not being sets, and gallery lines correctly rejected as not being
+cards. Records sent here reach the bucketing handler and nothing else, so they
+are counted into the histogram and never printed. That is what makes silencing
+them safe — a bucket that is 90% noise is still 10% signal, and a count answers
+it: if the bucket triples, the histogram says so even though nothing printed.
+
+Deliberately a logger of its own rather than a lower root level. Two places in
+the Yugipedia importer log ``response.text`` when the *root* logger is at
+debug, so dropping the root level to make these countable would put the body of
+every HTTP response of a day-long run into the log.
+
+Route a warning here only after re-deriving the bucket from a real run and
+confirming the condition is one the parser is right about. Anything that could
+be a real set or a real card row belongs in the printed log; silencing one of
+those is worse than every line this suppresses.
+"""
+
+# Nothing printed: the root logger's handlers are where printing happens.
+EXPECTED_CONDITIONS.propagate = False
+# Counted whatever the root level is, so that `--logging ERROR` cannot stop
+# these records before they are bucketed and quietly shorten the histogram.
+EXPECTED_CONDITIONS.setLevel(logging.WARNING)
+# A logger that neither propagates nor has a handler falls back to
+# `logging.lastResort`, which prints to stderr. Without this, a process that
+# never called `install_warning_buckets` would print the lines this suppresses.
+EXPECTED_CONDITIONS.addHandler(logging.NullHandler())
+
 WARNING_BUCKETS_PATH = os.path.join(
     ROOT_DIR if os.access(ROOT_DIR, os.W_OK) else os.curdir, "warning-buckets.json"
 )
@@ -160,10 +191,16 @@ def install_warning_buckets() -> None:
     a handler installed any later silently misses everything that ran before
     it, and a histogram that is quietly short is worse than none — it presents
     as a measurement.
+
+    The same handler goes on :data:`EXPECTED_CONDITIONS` as well as the root
+    logger, because that one does not propagate: it is the only way its records
+    reach the counts at all, and skipping it would drop two of the largest
+    buckets out of the histogram rather than merely out of the log.
     """
     handler = _WarningBucketer()
     handler.setLevel(logging.WARNING)
     logging.getLogger().addHandler(handler)
+    EXPECTED_CONDITIONS.addHandler(handler)
     atexit.register(_save_warning_buckets_at_exit)
 
 

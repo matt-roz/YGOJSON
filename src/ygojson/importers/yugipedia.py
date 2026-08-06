@@ -19,6 +19,7 @@ import wikitextparser
 
 from ..database import *
 from ..rarity import report_unknown_rarity, resolve_abbreviation, resolve_rarity
+from ..warnings import EXPECTED_CONDITIONS
 
 API_URL = "https://yugipedia.com/api.php"
 RATE_LIMIT = 1.1
@@ -1720,7 +1721,13 @@ def parse_tcg_ocg_set(
                     for line in lines:
                         parsed_line = wikitextparser.parse(line)
                         if len(parsed_line.wikilinks) < 3:
-                            logging.warning(
+                            # Not a card row, and correctly skipped. A subgallery
+                            # is every other gallery on the page: rule inserts,
+                            # FAQ cards, coins, card backings. The page's actual
+                            # printings are in its `Set gallery` template, which
+                            # parses fine. Counted rather than printed — see
+                            # `EXPECTED_CONDITIONS`.
+                            EXPECTED_CONDITIONS.warning(
                                 f"Found strange subgallery line in {galleryname}: {line}"
                             )
                         else:
@@ -2867,7 +2874,15 @@ def import_from_yugipedia(
 
                             @batcher.getPageID(pageid)
                             def onGetName(pageid: int, title: str):
-                                logging.warning(f"Found set without set table: {title}")
+                                # Not a set, and correctly rejected. These are
+                                # hub pages naming a product *line* — series
+                                # indexes, promo overviews, navigation — and
+                                # none carries a set infobox, so there is
+                                # nothing here to parse. Counted rather than
+                                # printed — see `EXPECTED_CONDITIONS`.
+                                EXPECTED_CONDITIONS.warning(
+                                    f"Found set without set table: {title}"
+                                )
 
                             return
 
