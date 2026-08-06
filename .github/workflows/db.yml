@@ -37,6 +37,12 @@ jobs:
   pre-yugipedia:
     runs-on: ubuntu-latest
     needs: lint
+    # the only job that reads Yugipedia's changelog, and the output diff at the
+    # end of the run is only worth reading beside that figure; carried as a job
+    # output rather than through the `temp`/`data` caches, which are
+    # failure-tolerant and would hand on a previous run's count in silence
+    outputs:
+      changelog-pages: ${{ steps.changelog.outputs.pages }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -47,6 +53,10 @@ jobs:
       - name: Run YGOJSON (Pre-Yugipedia)
         run: |
           ygojson --production --download --yugipedia-gen-partitions 8 --yugipedia-gen-partitions-prefix temp/part --no-yamlyugi --no-manual --individuals '' --no-individuals
+      - name: Record Changelog Pages
+        id: changelog
+        run: |
+          echo "pages=$(cat changelog-pages.txt 2>/dev/null || true)" >> "$GITHUB_OUTPUT"
       - name: Teardown
         uses: ./.github/actions/teardown
         if: always()
@@ -132,7 +142,9 @@ jobs:
           i: 8
   post-yugipedia:
     runs-on: ubuntu-latest
-    needs: yugipedia-8
+    # `pre-yugipedia` is already a transitive dependency, so naming it changes
+    # no ordering; it is named to reach its changelog page count
+    needs: [pre-yugipedia, yugipedia-8]
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -161,6 +173,24 @@ jobs:
           FOLDER: data/aggregate
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SQUASH_HISTORY: true
+      # Sits between the two publishes on purpose. The branch above is what
+      # consumers track and has already landed, so nothing here can gate it;
+      # the release asset below is the baseline this compares against, and the
+      # steps that follow replace it. Reports only - never fails the run.
+      - name: Report Output Diff
+        continue-on-error: true
+        env:
+          CHANGELOG_PAGES: ${{ needs.pre-yugipedia.outputs.changelog-pages }}
+        run: |
+          set +e
+          python -c "from ygojson import download_published_zip; download_published_zip('individual', 'baseline')" || rm -rf baseline
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          python test/report_output_diff.py ${CHANGELOG_PAGES:+--changelog-pages "$CHANGELOG_PAGES"} baseline data/individual | tee -a "$GITHUB_STEP_SUMMARY"
+          status=${PIPESTATUS[0]}
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          if [ "$status" -ne 0 ]; then
+            echo "::warning::This run's output could not be compared against the previously published release. See the run summary."
+          fi
       - name: Archive Individuals
         uses: vimtor/action-zip@v1.2
         with:

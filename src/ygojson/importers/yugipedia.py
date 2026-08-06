@@ -27,6 +27,25 @@ MAX_TRIES = 10
 MAX_RETRY_DELAY = 300
 TIME_TO_JUST_REDOWNLOAD_ALL_PAGES = 30 * 24 * 60 * 60  # 1 month-ish
 
+CHANGELOG_PAGES_PATH = os.path.join(
+    ROOT_DIR if os.access(ROOT_DIR, os.W_OK) else os.curdir, "changelog-pages.txt"
+)
+"""Where a run writes how many wiki pages its changelog reported changed.
+
+Read by ``test/report_output_diff.py``, which is only worth reading as a pair:
+1,415 published files changed is unremarkable beside 1,400 changed pages and is
+a determinism defect beside three. The two figures are measured in different CI
+jobs, so the count has to be written down rather than held in memory.
+
+Deliberately neither ``TEMP_DIR`` nor ``DATA_DIR``, for the reason
+:data:`ygojson.warnings.WARNING_BUCKETS_PATH` gives: both are restored from a
+failure-tolerant cache, so a job that read no changelog would find a previous
+run's count already sitting there and report it as its own. Absence means no
+changelog was read at all - the first run against a database, or one whose
+cache was older than ``TIME_TO_JUST_REDOWNLOAD_ALL_PAGES`` so every page was
+re-read and a large diff is expected - and never that zero pages changed.
+"""
+
 # MediaWiki reports these with HTTP 200 and an error body, so they can't be
 # spotted by status code alone. They're all transient server-side hiccups.
 RETRYABLE_API_ERRORS = {"maxlag", "readonly"}
@@ -271,6 +290,21 @@ def get_changelog(
             yield ChangelogEntry(
                 result["pageid"], result["title"], ChangeType(result["type"])
             )
+
+
+def _record_changelog_pages(changelog: typing.Iterable[ChangelogEntry]) -> None:
+    """Writes how many distinct pages the changelog reported, for the output diff.
+
+    Distinct pages rather than changelog entries: a page edited five times in
+    two days is one page whose parse could have moved, and counting it five
+    times over would understate the ratio the diff report exists to show.
+    """
+    pages = len({entry.id for entry in changelog})
+    logging.info(
+        f"Yugipedia's changelog reports {pages} pages changed since the last read."
+    )
+    with open(CHANGELOG_PAGES_PATH, "w", encoding="utf-8") as file:
+        file.write(f"{pages}\n")
 
 
 def get_changes(
@@ -2956,7 +2990,7 @@ def _get_lists(
             batcher.clearCache()
         else:
             # clear the cache of any changed pages
-            _ = [*get_changelog(batcher, last_access)]
+            _record_changelog_pages([*get_changelog(batcher, last_access)])
 
     cards = []
     if import_cards:

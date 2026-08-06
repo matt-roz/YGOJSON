@@ -3778,6 +3778,61 @@ LAST_MODIFIED_HEADER = "Last-Modified"
 """The HTTP header to get when the ZIP files on the server were last modified."""
 
 
+def download_published_zip(
+    name: str, dest: str, *, repository: str = REPOSITORY
+) -> None:
+    """Download one published data ZIP and extract it into ``dest``.
+
+    The ZIP is kept in your temporary directory and not redownloaded while it
+    is up to date. It extracts to exactly the layout it was published from, so
+    ``dest`` is a drop-in for a generated ``individual`` or ``aggregate``
+    directory.
+
+    :param name: Which ZIP to get: ``individual`` or ``aggregate``
+    :param dest: A directory to extract into
+    :param repository: The URL to get the data ZIP files from, defaults to the official YGOJSON URL
+    """
+    os.makedirs(TEMP_DIR, exist_ok=True)
+
+    with tqdm.tqdm(total=3, desc=f"Downloading {name}s from server") as progress_bar:
+        zipname = name + ".zip"
+        zippath = os.path.join(TEMP_DIR, zipname)
+        last_modified = datetime.datetime.now()
+        zip_already_exists = os.path.exists(zippath)
+
+        if zip_already_exists:
+            response = requests.head(repository + "/" + zipname, stream=True)
+            if not response.ok:
+                response.raise_for_status()
+            if LAST_MODIFIED_HEADER in response.headers:
+                last_modified = datetime.datetime.fromisoformat(
+                    response.headers[LAST_MODIFIED_HEADER]
+                )
+        progress_bar.update(1)
+
+        if (
+            not zip_already_exists
+            or last_modified.timestamp() > os.stat(zippath).st_mtime
+        ):
+            response = requests.get(
+                repository + "/" + zipname,
+                stream=True,
+                headers={
+                    "User-Agent": USER_AGENT,
+                },
+            )
+            if not response.ok:
+                response.raise_for_status()
+            with open(zippath, "wb") as file:
+                for chunk in response.iter_content(chunk_size=None):
+                    file.write(chunk)
+        progress_bar.update(1)
+
+        with open(zippath, "rb") as file, zipfile.ZipFile(file) as zip:
+            zip.extractall(dest)
+        progress_bar.update(1)
+
+
 def load_from_internet(
     *,
     individuals_dir: typing.Optional[str] = None,
@@ -3793,54 +3848,11 @@ def load_from_internet(
     :param url: The URL to get the data ZIP files from, defaults to the official YGOJSON URL
     """
 
-    def getzip(name: str, dest: str):
-        with tqdm.tqdm(
-            total=3, desc=f"Downloading {name}s from server"
-        ) as progress_bar:
-            zipname = name + ".zip"
-            zippath = os.path.join(TEMP_DIR, zipname)
-            last_modified = datetime.datetime.now()
-            zip_already_exists = os.path.exists(zippath)
-
-            if zip_already_exists:
-                response = requests.head(repository + "/" + zipname, stream=True)
-                if not response.ok:
-                    response.raise_for_status()
-                if LAST_MODIFIED_HEADER in response.headers:
-                    last_modified = datetime.datetime.fromisoformat(
-                        response.headers[LAST_MODIFIED_HEADER]
-                    )
-            progress_bar.update(1)
-
-            if (
-                not zip_already_exists
-                or last_modified.timestamp() > os.stat(zippath).st_mtime
-            ):
-                response = requests.get(
-                    repository + "/" + zipname,
-                    stream=True,
-                    headers={
-                        "User-Agent": USER_AGENT,
-                    },
-                )
-                if not response.ok:
-                    response.raise_for_status()
-                with open(zippath, "wb") as file:
-                    for chunk in response.iter_content(chunk_size=None):
-                        file.write(chunk)
-            progress_bar.update(1)
-
-            with open(zippath, "rb") as file, zipfile.ZipFile(file) as zip:
-                zip.extractall(dest)
-            progress_bar.update(1)
-
-    os.makedirs(TEMP_DIR, exist_ok=True)
-
     if individuals_dir is not None:
-        getzip("individual", individuals_dir)
+        download_published_zip("individual", individuals_dir, repository=repository)
 
     if aggregates_dir is not None:
-        getzip("aggregate", aggregates_dir)
+        download_published_zip("aggregate", aggregates_dir, repository=repository)
 
     return load_from_file(
         individuals_dir=individuals_dir, aggregates_dir=aggregates_dir

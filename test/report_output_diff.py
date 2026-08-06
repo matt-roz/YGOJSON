@@ -34,6 +34,17 @@ changed nothing. Those two want completely different responses and are
 otherwise indistinguishable: both print no differences.
 """
 
+META_FILENAME = "meta.json"
+"""The published file naming the CI run that produced a snapshot.
+
+Read so that the report names both sides by the run that built them, rather
+than by two directory paths that say nothing about where either came from. A
+snapshot without it, or without a ``runID`` in it, was built somewhere that
+offered no run identifier - which is reported as such, and is not the same
+thing as an unknown run. Rename this file in the database module and this
+constant must move with it.
+"""
+
 SETS_DIRNAME = "sets"
 """The sub-directory of published individual JSON holding sets.
 
@@ -92,6 +103,9 @@ class Snapshot(typing.NamedTuple):
 
     unreadable: typing.Tuple[str, ...]
     """Set files that are not readable JSON, so contributed no printings."""
+
+    run_id: typing.Optional[str]
+    """The CI run that published this snapshot, if it recorded one."""
 
 
 class FileCounts(typing.NamedTuple):
@@ -217,12 +231,20 @@ def index_snapshot(directory: str) -> Snapshot:
         list
     )
     unreadable: typing.List[str] = []
+    run_id: typing.Optional[str] = None
     sets_dirname = SETS_DIRNAME + "/"
 
     for path in sorted(root.rglob("*.json")):
         relative = path.relative_to(root).as_posix()
         content = path.read_bytes()
         files[relative] = hashlib.sha256(content).hexdigest()
+        if relative == META_FILENAME:
+            try:
+                run_id = json.loads(content).get("runID")
+            except (ValueError, AttributeError):
+                # Naming the run is a courtesy; a snapshot whose metadata will
+                # not parse still compares perfectly well.
+                pass
         if object_type(relative) != sets_dirname:
             continue
         try:
@@ -244,6 +266,7 @@ def index_snapshot(directory: str) -> Snapshot:
         files=files,
         printings={uuid: identify(a) for uuid, a in appearances.items()},
         unreadable=tuple(unreadable),
+        run_id=run_id,
     )
 
 
@@ -342,8 +365,14 @@ def _spell(identity: PrintingIdentity) -> str:
     )
 
 
-def report(comparison: Comparison) -> typing.List[str]:
-    """Renders a comparison as the lines to print."""
+def report(
+    comparison: Comparison, changelog_pages: typing.Optional[int] = None
+) -> typing.List[str]:
+    """Renders a comparison as the lines to print.
+
+    ``changelog_pages`` is how many wiki pages the run's changelog reported
+    changed, which is the figure the headline is only meaningful beside.
+    """
     baseline_files = sum(
         counts.unchanged + counts.modified + counts.removed
         for counts in comparison.files.values()
@@ -354,6 +383,7 @@ def report(comparison: Comparison) -> typing.List[str]:
     )
     lines = [
         f"{changed} of {baseline_files} published files changed.",
+        _against_the_wiki(changed, changelog_pages),
         "",
         "Files by object type:",
     ]
@@ -426,7 +456,39 @@ def report(comparison: Comparison) -> typing.List[str]:
             "was expected.",
         ]
     )
+    if changelog_pages is not None:
+        lines.extend(
+            [
+                "",
+                "One changed wiki page rewrites more than one published file - a",
+                "set page touches its own file and every card printed in it - so",
+                "the two counts at the top are never equal, and it is the ratio",
+                "between them rather than either count that is the signal. Three",
+                "sets re-imported and 1,415 files different is what the serializer",
+                "defect looked like, and it hid for as long as it did because",
+                "neither of those numbers looks wrong on its own.",
+            ]
+        )
     return lines
+
+
+def _against_the_wiki(changed: int, changelog_pages: typing.Optional[int]) -> str:
+    """Renders the changed-file count beside the count of changed wiki pages."""
+    if changelog_pages is None:
+        return (
+            "How many wiki pages the changelog reported changed was not recorded "
+            "for this run, so there is nothing here to weigh that against."
+        )
+    if not changelog_pages:
+        return (
+            "The wiki changelog reported no pages changed, so whatever changed "
+            "here was changed by this pipeline rather than by the wiki."
+        )
+    return "The wiki changelog reported {} page{} changed - {:.1f} published files changed per changed page.".format(
+        changelog_pages,
+        "s" if changelog_pages != 1 else "",
+        changed / changelog_pages,
+    )
 
 
 def _file_row(label: str, counts: FileCounts, width: int) -> str:
@@ -450,6 +512,11 @@ def _across(identities: typing.Iterable[PrintingIdentity]) -> str:
     return ", across {} set{}".format(sets, "s" if sets > 1 else "")
 
 
+def _names_run(run_id: typing.Optional[str]) -> str:
+    """Names the CI run one side of the comparison came from."""
+    return f"run {run_id}" if run_id else "no run recorded"
+
+
 def main(argv: typing.List[str]) -> int:
     parser = argparse.ArgumentParser(
         description="Report what changed between two directories of published "
@@ -465,6 +532,14 @@ def main(argv: typing.List[str]) -> int:
         metavar="CURRENT",
         help="The individual JSON a run produced",
     )
+    parser.add_argument(
+        "--changelog-pages",
+        type=int,
+        default=None,
+        metavar="N",
+        help="How many wiki pages the run's changelog reported changed, which "
+        "is the figure the changed-file count is only meaningful beside",
+    )
     args = parser.parse_args(argv[1:])
 
     try:
@@ -478,10 +553,10 @@ def main(argv: typing.List[str]) -> int:
         print("Nothing was compared, so this is not a run that changed nothing.")
         return EXIT_COULD_NOT_COMPARE
 
-    print(f"Baseline: {args.baseline}")
-    print(f"Current:  {args.current}")
+    print(f"Baseline: {args.baseline} ({_names_run(baseline.run_id)})")
+    print(f"Current:  {args.current} ({_names_run(current.run_id)})")
     print("")
-    for line in report(compare(baseline, current)):
+    for line in report(compare(baseline, current), args.changelog_pages):
         print(line)
     return 0
 
