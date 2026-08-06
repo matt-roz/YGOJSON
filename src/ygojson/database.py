@@ -4,6 +4,7 @@ import json
 import logging
 import os
 import os.path
+import re
 import typing
 import uuid
 import zipfile
@@ -124,6 +125,54 @@ class CardType(enum.Enum):
     TRAP = "trap"
     TOKEN = "token"
     SKILL = "skill"
+
+
+CARD_TYPE_STR_TO_ENUM = {
+    "monster": CardType.MONSTER,
+    "spell": CardType.SPELL,
+    "trap": CardType.TRAP,
+    "token": CardType.TOKEN,
+    "skill": CardType.SKILL,
+    # Yugipedia types a counter card as a counter. The schema has no member for
+    # one and deliberately does not gain one here: every such page carries token
+    # lore ("This card can be used as any Token or Counter"), so a counter has
+    # always published as a token, and a member of its own would reclassify the
+    # counter cards already published.
+    "counter": CardType.TOKEN,
+}
+"""Every spelling of a card type a source may name, to the member it means.
+
+Keyed on :func:`_normalize_card_type`, so one meaning is written down once
+however a page happens to punctuate it. A spelling missing here is not a card
+published at the wrong type — it is a card dropped from the database entirely.
+"""
+
+
+def _normalize_card_type(spelling: str) -> str:
+    """Reduces a card type spelling to what :data:`CARD_TYPE_STR_TO_ENUM` is keyed on.
+
+    Case, spacing and punctuation are the ways one card type gets written two
+    ways — fifteen Yugipedia pages spell a dual-purpose card ``Counter / Token``
+    and a sixteenth spells it ``Counter/  Token`` — and nothing else in a card
+    type name is meaningful.
+    """
+    return re.sub(r"[^0-9a-z]", "", spelling.lower())
+
+
+def resolve_card_type(raw: str) -> typing.Optional[CardType]:
+    """Returns the card type a source's raw value names, or None if unknown.
+
+    A value may name more than one type, separated by a slash. Each part is
+    resolved on its own and an answer is returned only if the parts agree, so
+    ``Counter / Token`` resolves to token — both parts mean token — while a
+    value naming something unrecognized, or two types that disagree, resolves to
+    None so the caller can report it rather than guess.
+    """
+    parts = [_normalize_card_type(part) for part in raw.split("/")]
+    named = {CARD_TYPE_STR_TO_ENUM.get(part) for part in parts if part}
+    if len(named) != 1:
+        return None
+    return named.pop()
 
 
 class Attribute(enum.Enum):

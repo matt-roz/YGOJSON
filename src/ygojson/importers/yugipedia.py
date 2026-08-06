@@ -2633,21 +2633,18 @@ def import_from_yugipedia(
                                 )
                                 return
 
-                            ct = (
-                                get_table_entry(cardtable, "card_type", "monster")
-                                .strip()
-                                .lower()
-                            )
-                            if (
-                                ct == "counter"
-                                or batcher.namesToIDs.get(CAT_TOKENS) in categories
-                            ):
-                                ct = "token"
+                            raw_ct = get_table_entry(
+                                cardtable, "card_type", "monster"
+                            ).strip()
+                            ct = resolve_card_type(raw_ct)
+                            if batcher.namesToIDs.get(CAT_TOKENS) in categories:
+                                ct = CardType.TOKEN
                             if batcher.namesToIDs.get(CAT_SKILLS) in categories:
-                                ct = "skill"
-                            if ct not in CardType._value2member_map_:
+                                ct = CardType.SKILL
+                            if ct is None:
                                 logging.warning(
-                                    f"Found card with illegal card type: {ct}"
+                                    f"Found card with illegal card type in "
+                                    f"{batcher.idsToNames[pageid]}: {raw_ct}"
                                 )
                                 return
 
@@ -2671,7 +2668,7 @@ def import_from_yugipedia(
                                     batcher.idsToNames[pageid]
                                 )
                             if not card:
-                                card = Card(id=uuid.uuid4(), card_type=CardType(ct))
+                                card = Card(id=uuid.uuid4(), card_type=ct)
 
                             if parse_card(
                                 batcher,
