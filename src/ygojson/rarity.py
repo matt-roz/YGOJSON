@@ -21,9 +21,9 @@ class Rarity(typing.NamedTuple):
     rarity maps onto, and ``spellings`` is every *other* accepted spelling — the
     abbreviation is always accepted and is never repeated there.
 
-    ``card_rarity`` is ``None`` for a rarity Yugipedia names but the schema has
-    no member for. Such a row still resolves its abbreviation, which is what
-    gallery image filenames are built from, so dropping it would rename images.
+    ``card_rarity`` is ``None`` for a rarity the schema has no member for. Such
+    a row still resolves its abbreviation, which is what gallery image filenames
+    are built from, so dropping it would rename images.
     """
 
     key: str
@@ -66,7 +66,9 @@ RARITIES: typing.Tuple[Rarity, ...] = (
     Rarity(
         "uscr", "UScR", CardRarity.ULTRASECRET, ("ultra secret", "Ultra Secret Rare")
     ),
-    Rarity("scur", "ScUR", None, ("secret ultra", "Secret Ultra Rare")),
+    Rarity(
+        "scur", "ScUR", CardRarity.SECRETULTRA, ("secret ultra", "Secret Ultra Rare")
+    ),
     Rarity(
         "escr", "EScR", CardRarity.EXTRASECRET, ("extra secret", "Extra Secret Rare")
     ),
@@ -91,6 +93,7 @@ RARITIES: typing.Tuple[Rarity, ...] = (
         CardRarity.STARLIGHT,
         ("starlight", "Starlight Rare", "alt", "altr", "alternate", "Alternate Rare"),
     ),
+    Rarity("gmr", "GMR", CardRarity.GRANDMASTER, ("grand master", "Grand Master Rare")),
     # Precious
     Rarity("gur", "GUR", CardRarity.GOLD, ("gold", "Gold Rare")),
     Rarity("gscr", "GScR", CardRarity.GOLDSECRET, ("gold secret", "Gold Secret Rare")),
@@ -224,15 +227,33 @@ RARITIES: typing.Tuple[Rarity, ...] = (
         ("kaiba corporation ultra", "Kaiba Corporation Ultra Rare"),
     ),
     # Rush Duel
-    Rarity("rr", "RR", None, ("rush", "Rush Rare")),
-    Rarity("grr", "GRR", None, ("gold rush", "Gold Rush Rare")),
-    Rarity("orr", "ORR", None, ("over rush", "Over Rush Rare")),
+    Rarity("rr", "RR", CardRarity.RUSH, ("rush", "Rush Rare")),
+    Rarity("grr", "GRR", CardRarity.GOLDRUSH, ("gold rush", "Gold Rush Rare")),
+    Rarity("orr", "ORR", CardRarity.OVERRUSH, ("over rush", "Over Rush Rare")),
+    Rarity(
+        "forr",
+        "FORR",
+        CardRarity.FULLOVERRUSH,
+        ("full over rush", "Full Over Rush Rare"),
+    ),
     # Colourful
+    Rarity(
+        "urblue",
+        "URBlue",
+        CardRarity.ULTRA_BLUE,
+        ("Ultra Rare (Special Blue Version)",),
+    ),
     Rarity(
         "urpurple",
         "URPurple",
         CardRarity.ULTRA_PURPLE,
         ("Ultra Rare (Special Purple Version)",),
+    ),
+    Rarity(
+        "urred",
+        "URRed",
+        CardRarity.ULTRA_RED,
+        ("Ultra Rare (Special Red Version)",),
     ),
     Rarity(
         "scrblue",
@@ -246,8 +267,32 @@ RARITIES: typing.Tuple[Rarity, ...] = (
         CardRarity.SECRET_RED,
         ("Secret Rare (Special Red Version)",),
     ),
+    Rarity(
+        "rrred",
+        "RRRed",
+        CardRarity.RUSH_RED,
+        ("Rush Rare (Special Red Version)",),
+    ),
+    Rarity(
+        "orrblack",
+        "ORRBlack",
+        CardRarity.OVERRUSH_BLACK,
+        ("Over Rush Rare (Premium Black Version)",),
+    ),
+    Rarity(
+        "qcscrtdgreen",
+        "QCScRTDGreen",
+        CardRarity.TWENTYFIFTHSECRET_TOKYODOME,
+        ("Quarter Century Secret Rare Tokyo Dome Green Version",),
+    ),
+    Rarity(
+        "qcscrsv",
+        "QCScRSV",
+        CardRarity.TWENTYFIFTHSECRET_SPECIAL,
+        ("Quarter Century Secret Rare (Special Version)",),
+    ),
     # Other
-    Rarity("hfr", "HFR", None, ("holofoil", "Holofoil Rare")),
+    Rarity("hfr", "HFR", CardRarity.HOLOFOIL, ("holofoil", "Holofoil Rare")),
     Rarity("sfr", "SFR", CardRarity.STARFOIL, ("starfoil", "Starfoil Rare")),
     Rarity("msr", "MSR", CardRarity.MOSAIC, ("mosaic", "Mosaic Rare")),
     Rarity("shr", "SHR", CardRarity.SHATTERFOIL, ("shatterfoil", "Shatterfoil Rare")),
