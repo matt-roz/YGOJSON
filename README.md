@@ -22,19 +22,19 @@ Special thanks goes out to [YGO Prog](https://www.ygoprog.com/) for their tirele
 
 There are several methods of consuming the database. To get the files, you can either:
 
-* Download a ZIP file [here](https://github.com/iconmaster5326/YGOJSON/releases/latest)
-* Download the raw JSON files on the [indiviual](https://github.com/iconmaster5326/YGOJSON/tree/v1/individual) and [aggregate](https://github.com/iconmaster5326/YGOJSON/tree/v1/aggregate) branches
+* Download a ZIP file [here](https://github.com/matt-roz/YGOJSON/releases/latest)
+* Download the raw JSON files on the [indiviual](https://github.com/matt-roz/YGOJSON/tree/v1/individual) and [aggregate](https://github.com/matt-roz/YGOJSON/tree/v1/aggregate) branches
 
 To get the ZIP files in an automated fashion, fetch the following URLs:
 
-* For a individualized ZIP file: https://github.com/iconmaster5326/YGOJSON/releases/download/v1/individual.zip
-* For a aggregated ZIP file: https://github.com/iconmaster5326/YGOJSON/releases/download/v1/aggregate.zip
+* For a individualized ZIP file: https://github.com/matt-roz/YGOJSON/releases/download/v1/individual.zip
+* For a aggregated ZIP file: https://github.com/matt-roz/YGOJSON/releases/download/v1/aggregate.zip
 
 If you don't want everything, or don't want to unzip things, just fetch the following URLs for indiviudal things, with `cards` replaced by the type of things you want, and the UUID replaced with your UUID:
 
-* For individual card JSON files: https://raw.githubusercontent.com/iconmaster5326/YGOJSON/v1/individual/cards/00045021-f0d3-4473-8bbc-8aa6504d3562.json
-* For a list of all card UUIDs: https://raw.githubusercontent.com/iconmaster5326/YGOJSON/v1/individual/cards.json
-* For all information for all cards: https://raw.githubusercontent.com/iconmaster5326/YGOJSON/v1/aggregate/cards.json ***(NOTE: These files are currently BROKEN and OUT OF DATE due to GitHub file size limits. Use the individuals or download the aggregates ZIP file instead!)***
+* For individual card JSON files: https://raw.githubusercontent.com/matt-roz/YGOJSON/v1/individual/cards/00045021-f0d3-4473-8bbc-8aa6504d3562.json
+* For a list of all card UUIDs: https://raw.githubusercontent.com/matt-roz/YGOJSON/v1/individual/cards.json
+* For all information for all cards: https://raw.githubusercontent.com/matt-roz/YGOJSON/v1/aggregate/cards.json ***(NOTE: These files are currently BROKEN and OUT OF DATE due to GitHub file size limits. Use the individuals or download the aggregates ZIP file instead!)***
 
 You may have noticed the two different ways of getting the data: individual and aggregate. The differences between the two are as follows:
 

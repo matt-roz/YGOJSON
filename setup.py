@@ -17,8 +17,8 @@ setuptools.setup(
     description="Generate and manipulate Yugioh card and set data.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/iconmaster5326/YGOJSON",
-    author="iconmaster5326",
+    url="https://github.com/matt-roz/YGOJSON",
+    author="matt-roz",
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Intended Audience :: End Users/Desktop",

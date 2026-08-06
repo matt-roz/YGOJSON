@@ -10,7 +10,7 @@ For the schema these files need to take, see [the JSON schema file](../../schema
 
 ```json
 {
-  "$schema": "https://raw.githubusercontent.com/iconmaster5326/YGOJSON/main/schema/v1/sealedProduct.json",
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/sealedProduct.json",
   "id": "935ef40b-5691-4e5c-b96f-b71c9c4b2383",
   "name": {
     "en": "Starter Deck Box"

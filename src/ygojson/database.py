@@ -462,6 +462,17 @@ class SetBoxType(enum.Enum):
     RETAIL = "retail"
 
 
+class PrintStatus(enum.Enum):
+    """Whether a :class:`CardPrinting` debuted in its set or was reprinted from an earlier one.
+
+    Only some set lists record this, so a printing having no status means the
+    source did not say - it does not mean the printing is new.
+    """
+
+    NEW = "new"
+    REPRINT = "reprint"
+
+
 class CardRarity(enum.Enum):
     """The rarity of a :class:`Card`.
     We use the TCG name of a rarity here if there is an equivalent OCG rarity with a different name.
@@ -896,7 +907,7 @@ class Card:
 
     def _to_json(self) -> typing.Dict[str, typing.Any]:
         return {
-            "$schema": f"https://raw.githubusercontent.com/iconmaster5326/YGOJSON/main/schema/v{SCHEMA_VERSION}/card.json",
+            "$schema": f"https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v{SCHEMA_VERSION}/card.json",
             "id": str(self.id),
             "text": {
                 k.value: {
@@ -1275,7 +1286,7 @@ class PackDistrobution:
 
     def _to_json(self) -> typing.Dict[str, typing.Any]:
         return {
-            "$schema": f"https://raw.githubusercontent.com/iconmaster5326/YGOJSON/main/schema/v{SCHEMA_VERSION}/distribution.json",
+            "$schema": f"https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v{SCHEMA_VERSION}/distribution.json",
             "id": str(self.id),
             **({"name": self.name} if self.name else {}),
             **(
@@ -1570,6 +1581,12 @@ class CardPrinting:
     Default 1.
     """
 
+    print_status: typing.Optional[PrintStatus]
+    """Whether the source recorded this printing as new or as a reprint.
+    `None` means the source did not say, which is the common case: most set
+    lists omit the column entirely. Absence is not the same as `NEW`.
+    """
+
     def __init__(
         self,
         *,
@@ -1582,6 +1599,7 @@ class CardPrinting:
         image: typing.Optional[CardImage] = None,
         replica: bool = False,
         qty: int = 1,
+        print_status: typing.Optional[PrintStatus] = None,
     ) -> None:
         self.id = id
         self.card = card
@@ -1592,6 +1610,7 @@ class CardPrinting:
         self.image = image
         self.replica = replica
         self.qty = qty
+        self.print_status = print_status
 
     def _to_json(self) -> typing.Dict[str, typing.Any]:
         return {
@@ -1604,6 +1623,7 @@ class CardPrinting:
             **({"imageID": str(self.image.id)} if self.image else {}),
             **({"replica": True} if self.replica else {}),
             **({"qty": self.qty} if self.qty != 1 else {}),
+            **({"printStatus": self.print_status.value} if self.print_status else {}),
         }
 
 
@@ -1898,7 +1918,7 @@ class Set:
 
     def _to_json(self) -> typing.Dict[str, typing.Any]:
         return {
-            "$schema": f"https://raw.githubusercontent.com/iconmaster5326/YGOJSON/main/schema/v{SCHEMA_VERSION}/set.json",
+            "$schema": f"https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v{SCHEMA_VERSION}/set.json",
             "id": str(self.id),
             **({"date": self.date.isoformat()} if self.date else {}),
             "name": {k.value: v for k, v in self.name.items()},
@@ -2705,7 +2725,7 @@ class Database:
 
     def _save_meta_json(self) -> typing.Dict[str, typing.Any]:
         return {
-            "$schema": "https://raw.githubusercontent.com/iconmaster5326/YGOJSON/main/schema/v1/meta.json",
+            "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/meta.json",
             "version": SCHEMA_VERSION,
             "increment": self.increment,
             **(
@@ -3089,6 +3109,9 @@ class Database:
             else None,
             replica=rawprinting["replica"] if "replica" in rawprinting else False,
             qty=rawprinting["qty"] if "qty" in rawprinting else 1,
+            print_status=PrintStatus(rawprinting["printStatus"])
+            if "printStatus" in rawprinting
+            else None,
         )
         printings[result.id] = result
         return result

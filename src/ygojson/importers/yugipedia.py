@@ -1571,6 +1571,11 @@ FULL_RARITY_STR_TO_ENUM = {
     "millennium gold rare": CardRarity.MILLENIUMGOLD,  # mlgr
 }
 
+PRINT_STATUS_STR_TO_ENUM = {
+    "new": PrintStatus.NEW,
+    "reprint": PrintStatus.REPRINT,
+}
+
 EDITION_STR_TO_ENUM = {
     "1E": SetEdition.FIRST,
     "UE": SetEdition.UNLIMTED,
@@ -1737,7 +1742,13 @@ class RawPrinting:
     noabbr: bool
 
     def __init__(
-        self, card: Card, code: str, rarity: CardRarity, qty: int, noabbr: bool
+        self,
+        card: Card,
+        code: str,
+        rarity: CardRarity,
+        qty: int,
+        noabbr: bool,
+        print_status: typing.Optional[PrintStatus] = None,
     ) -> None:
         self.card = card
         self.code = code
@@ -1745,6 +1756,7 @@ class RawPrinting:
         self.image = {}
         self.qty = qty
         self.noabbr = noabbr
+        self.print_status = print_status
 
     def locator(self) -> PrintingLocator:
         return PrintingLocator(self.card, self.rarity, self.code)
@@ -1870,11 +1882,14 @@ def parse_tcg_ocg_set(
                 rarity: CardRarity,
                 qty: typing.Optional[int],
                 noabbr: bool,
+                print_status: typing.Optional[PrintStatus] = None,
             ):
                 @get_card(name)
                 def onGetCard(card: Card):
                     rcs: typing.List[RawPrinting] = []
-                    raw_rc = RawPrinting(card, code, rarity, qty or 1, noabbr)
+                    raw_rc = RawPrinting(
+                        card, code, rarity, qty or 1, noabbr, print_status
+                    )
                     if (
                         setname in MANUAL_RARITY_FIXUPS
                         and rarity in MANUAL_RARITY_FIXUPS[setname]
@@ -1887,6 +1902,7 @@ def parse_tcg_ocg_set(
                                     new_rarity,
                                     raw_rc.qty,
                                     raw_rc.noabbr,
+                                    raw_rc.print_status,
                                 )
                             )
                     else:
@@ -1928,16 +1944,23 @@ def parse_tcg_ocg_set(
                 if typing.TYPE_CHECKING:
                     default_rarities = [x for x in default_rarities if x]
 
+                # A *present* `print` or `qty` parameter gives every row that column,
+                # even when the parameter is empty; its value is only the default for
+                # rows leaving the column blank. Column presence and column default
+                # are therefore two separate things: test presence for the layout,
+                # not truthiness of the default.
                 raw_default_reprint_status = get_table_entry(setlist, "print")
+                has_print_column = raw_default_reprint_status is not None
 
-                raw_default_qty = get_table_entry(setlist, "qty", "").strip()
+                raw_default_qty = get_table_entry(setlist, "qty")
+                has_qty_column = raw_default_qty is not None
                 default_qty = None
-                if raw_default_qty:
+                if raw_default_qty is not None and raw_default_qty.strip():
                     try:
-                        default_qty = int(raw_default_qty)
+                        default_qty = int(raw_default_qty.strip())
                     except ValueError:
                         logging.warn(
-                            f"Could not determine default quantity of {listpagename}: {raw_default_qty}"
+                            f"Could not determine default quantity of {listpagename}: {raw_default_qty.strip()}"
                         )
 
                 raw_options = get_table_entry(setlist, "options", "").strip()
@@ -1953,7 +1976,6 @@ def parse_tcg_ocg_set(
                             if not comment_parts:
                                 continue
                             pre_comment = comment_parts[0]
-                            post_comment = " // ".join(comment_parts[1:])
 
                             cols = [x.strip() for x in pre_comment.split(";")]
 
@@ -1966,11 +1988,7 @@ def parse_tcg_ocg_set(
                                 code = cols[col_index]
                                 col_index += 1
                             else:
-                                abbr_override = re.match(r"abbr::[^\s;]+", post_comment)
-                                if abbr_override:
-                                    code = str(abbr_override.group(1))
-                                else:
-                                    code = ""
+                                code = ""
 
                             name = cols[col_index] if len(cols) > col_index else None
                             if not name:
@@ -2000,11 +2018,23 @@ def parse_tcg_ocg_set(
                                     rarities.append(rarity)
                             col_index += 1
 
-                            if raw_default_reprint_status:
+                            print_status = None
+                            if has_print_column:
+                                raw_print_status = (
+                                    cols[col_index] if len(cols) > col_index else ""
+                                ) or raw_default_reprint_status
+                                if raw_print_status and raw_print_status.strip():
+                                    print_status = PRINT_STATUS_STR_TO_ENUM.get(
+                                        raw_print_status.strip().lower()
+                                    )
+                                    if not print_status:
+                                        logging.warn(
+                                            f"Got strange print status in {listpagename}, in row {name}: {raw_print_status.strip()}"
+                                        )
                                 col_index += 1
 
                             qty = None
-                            if default_qty is not None and len(cols) > col_index:
+                            if has_qty_column and len(cols) > col_index:
                                 raw_qty = cols[col_index]
                                 if raw_qty:
                                     try:
@@ -2022,6 +2052,7 @@ def parse_tcg_ocg_set(
                                     rarity,
                                     qty if qty is not None else default_qty,
                                     noabbr,
+                                    print_status,
                                 )
 
             if not setlists:
@@ -2141,12 +2172,21 @@ def parse_tcg_ocg_set(
 
                                 col_index = 0
 
-                                code = default_abbr if default_abbr else None
-                                if not default_abbr and len(cols) > col_index:
+                                # An abbreviation from either source - the
+                                # template-level parameter or the row-level entry
+                                # option - means this row has no card-number
+                                # column, so it must be resolved before the first
+                                # column is consumed.
+                                abbr = (
+                                    str(abbr_override.group(1))
+                                    if abbr_override
+                                    else default_abbr
+                                )
+
+                                code = abbr if abbr else None
+                                if not abbr and len(cols) > col_index:
                                     code = cols[col_index]
                                     col_index += 1
-                                if abbr_override:
-                                    code = str(abbr_override.group(1))
 
                                 if len(cols) > col_index:
                                     name = cols[col_index]
@@ -2460,6 +2500,7 @@ def parse_tcg_ocg_set(
                     suffix=rcl.code,
                     replica=any(il.altinfo.lower() == "rp" for il in rc.image),
                     qty=rc.qty,
+                    print_status=rc.print_status,
                 )
                 raw_printings_to_printings[content][rcl] = printing
                 content.cards.append(printing)
@@ -3311,6 +3352,25 @@ def import_from_yugipedia(
 
                 do(seriesid)
 
+    # One line rather than one per miss: per-miss logging was tried and abandoned (the two
+    # commented-out warnings in the batcher are what is left of it), and the point of this
+    # figure is that somebody reads it. The first number cannot tell "we built the wrong
+    # filename" from "the wiki genuinely has no such image" - it is a tripwire for watching
+    # the figure across runs, not a way to scope which of the two is happening.
+    unresolved_images = (
+        batcher.missingFilePages
+        + batcher.filePagesWithoutImage
+        + batcher.licenseRestrictedImages
+        + batcher.cachedMissingImages
+    )
+    logging.warning(
+        f"{unresolved_images} image lookups did not resolve: "
+        f"{batcher.missingFilePages} file pages that do not exist, "
+        f"{batcher.filePagesWithoutImage} file pages carrying no image, "
+        f"{batcher.licenseRestrictedImages} images Yugipedia won't serve for licensing reasons, "
+        f"{batcher.cachedMissingImages} already known to be missing from a previous run."
+    )
+
     return n_found, n_new
 
 
@@ -3453,6 +3513,10 @@ class YugipediaBatcher:
 
         self.imagesCache = {}
         self.pendingImages = {}
+        self.missingFilePages = 0
+        self.filePagesWithoutImage = 0
+        self.licenseRestrictedImages = 0
+        self.cachedMissingImages = 0
 
         self.categoryMembersCache = {}
 
@@ -3965,12 +4029,27 @@ class YugipediaBatcher:
         typing.Union[int, str], typing.List[typing.Callable[[str], None]]
     ]
 
+    # Image lookups that never call their callback, counted by cause so that the images
+    # the wiki refuses to serve don't mask the ones we failed to name. These three only
+    # count lookups that reach the API, so on their own they shrink to nothing as the
+    # page cache warms up.
+    missingFilePages: int
+    filePagesWithoutImage: int
+    licenseRestrictedImages: int
+
+    # Lookups the cache answered "missing" without asking the API. Counted separately so
+    # the reported total stays comparable between a cold run and a warm one: without this
+    # a CI run restoring `temp` reports near zero and reads as "no images are being lost",
+    # when the loss is merely being remembered instead of rediscovered.
+    cachedMissingImages: int
+
     def getImageURL(self, page: typing.Union[str, int]):
         batcher = self
 
         class GetImageDecorator:
             def __init__(self, callback: typing.Callable[[str], None]) -> None:
                 if batcher.use_cache and str(page) in batcher.missingPagesCache:
+                    batcher.cachedMissingImages += 1
                     return
 
                 pageid = (
@@ -4016,6 +4095,7 @@ class YugipediaBatcher:
                         self.missingPagesCache.add(
                             str(result.get("title") or result.get("pageid") or "")
                         )
+                        self.missingFilePages += 1
                         continue
 
                     title = result["title"]
@@ -4029,6 +4109,7 @@ class YugipediaBatcher:
                         # logging.warn(f"Page is not an image file: {title}")
                         self.missingPagesCache.add(title)
                         self.missingPagesCache.add(str(pageid))
+                        self.filePagesWithoutImage += 1
                         continue
 
                     for image in result["imageinfo"]:
@@ -4038,6 +4119,7 @@ class YugipediaBatcher:
                             self.missingPagesCache.add(title)
                             self.missingPagesCache.add(str(pageid))
                             # logging.warn(f"Image file cannot be accessed: {title}")
+                            self.licenseRestrictedImages += 1
                             continue
                         if "url" not in image:
                             logging.warn(

@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/iconmaster5326/YGOJSON/main/schema/v1/sealedProduct.json",
+  "$id": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/sealedProduct.json",
   "title": "Sealed Product",
   "description": "A sealed product is a set of multiple other yugioh products, such as a tin or a booster box.",
   "type": "object",
@@ -14,7 +14,7 @@
   ],
   "properties": {
     "$schema": {
-      "const": "https://raw.githubusercontent.com/iconmaster5326/YGOJSON/main/schema/v1/sealedProduct.json"
+      "const": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/sealedProduct.json"
     },
     "id": {
       "description": "The UUID of this sealed product. The name of the product's file should be this UUID.",
@@ -30,7 +30,7 @@
       "description": "A mapping of language to product names. In physical products, if the locales object has a mapping for this language, then this name is official, else it is unofficial.",
       "type": "object",
       "propertyNames": {
-        "$ref": "https://raw.githubusercontent.com/iconmaster5326/YGOJSON/main/schema/v1/language.json"
+        "$ref": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/language.json"
       },
       "additionalProperties": {
         "type": "string"
@@ -49,7 +49,7 @@
       "description": "A mapping of locale to locale-specific information.",
       "type": "object",
       "propertyNames": {
-        "$ref": "https://raw.githubusercontent.com/iconmaster5326/YGOJSON/main/schema/v1/locale.json"
+        "$ref": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/locale.json"
       },
       "remainingProperties": {
         "description": "Locale-specific information for this product.",
@@ -104,7 +104,7 @@
             "description": "The locales these contents apply to. Not present in virtual products.",
             "type": "array",
             "items": {
-              "$ref": "https://raw.githubusercontent.com/iconmaster5326/YGOJSON/main/schema/v1/locale.json"
+              "$ref": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/locale.json"
             }
           },
           "image": {

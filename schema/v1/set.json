@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/iconmaster5326/YGOJSON/main/schema/v1/set.json",
+  "$id": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
   "title": "Set",
   "description": "A set of Yu-Gi-Oh cards. Sets may be physical (booster pack, structure deck, promo card list, etc) or virtual (Master Duel pack, etc).",
   "type": "object",
@@ -13,7 +13,7 @@
   ],
   "properties": {
     "$schema": {
-      "const": "https://raw.githubusercontent.com/iconmaster5326/YGOJSON/main/schema/v1/set.json"
+      "const": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json"
     },
     "id": {
       "description": "The UUID of this set. The name of the set's file should be this UUID.",
@@ -29,7 +29,7 @@
       "description": "A mapping of language to set names. In physical sets, if the locales object has a mapping for this language, then this name is official, else it is unofficial.",
       "type": "object",
       "propertyNames": {
-        "$ref": "https://raw.githubusercontent.com/iconmaster5326/YGOJSON/main/schema/v1/language.json"
+        "$ref": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/language.json"
       },
       "additionalProperties": {
         "type": "string"
@@ -39,7 +39,7 @@
       "description": "A mapping of locale to locale-specific information. Only used in physical sets.",
       "type": "object",
       "propertyNames": {
-        "$ref": "https://raw.githubusercontent.com/iconmaster5326/YGOJSON/main/schema/v1/locale.json"
+        "$ref": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/locale.json"
       },
       "remainingProperties": {
         "description": "Locale-specific information for this set.",
@@ -127,7 +127,7 @@
             "description": "A list of formats this set was printed in in this locale.",
             "type": "array",
             "items": {
-              "$ref": "https://raw.githubusercontent.com/iconmaster5326/YGOJSON/main/schema/v1/format.json"
+              "$ref": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/format.json"
             }
           },
           "externalIDs": {
@@ -163,7 +163,7 @@
             "description": "The locales these contents apply to. Not present in virtual packs.",
             "type": "array",
             "items": {
-              "$ref": "https://raw.githubusercontent.com/iconmaster5326/YGOJSON/main/schema/v1/locale.json"
+              "$ref": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/locale.json"
             }
           },
           "formats": {
@@ -231,14 +231,14 @@
             "description": "Cards in this set.",
             "type": "array",
             "items": {
-              "$ref": "https://raw.githubusercontent.com/iconmaster5326/YGOJSON/main/schema/v1/printing.json"
+              "$ref": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/printing.json"
             }
           },
           "removedCards": {
             "description": "Cards that were in this set, but have been removed. Used only in virtual sets.",
             "type": "array",
             "items": {
-              "$ref": "https://raw.githubusercontent.com/iconmaster5326/YGOJSON/main/schema/v1/printing.json"
+              "$ref": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/printing.json"
             }
           },
           "externalIDs": {
