@@ -18,8 +18,12 @@
       "const": 1
     },
     "increment": {
-      "description": "An integer. Starts at 1. Increments by 1 each time YGOJSON is updated.",
+      "description": "An integer. Starts at 1. Increments by 1 each time YGOJSON is updated, where one update means one run of the database generator, not one write of these files. A run writes them once per job, and every write in a run carries the same increment. This is a correction of the field, not of the description: the number previously advanced once per job, so a single run advanced it by ten. Where no run can be identified (see 'runID'), each write counts as its own update, as before.",
       "type": "integer"
+    },
+    "runID": {
+      "description": "The CI run that produced this database, so that a published database can be tied to the run that built it. This is the GitHub Actions run ID, which resolves at <repository>/actions/runs/<runID>. IMPORTANT: absence means no run was recorded - the database was built somewhere that offered no run identifier, such as a local run - NOT that it came from an unknown run.",
+      "type": "string"
     },
     "lastYamlyugiRead": {
       "description": "The last time of access of Yaml Yugi.",

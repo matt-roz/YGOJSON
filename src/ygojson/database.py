@@ -28,6 +28,16 @@ blocked without warning. Set ``YGOJSON_USER_AGENT`` if you run this yourself,
 so the wiki reaches you and not us.
 """
 
+RUN_ID = os.environ.get("GITHUB_RUN_ID") or None
+"""The identifier of the CI run producing this database, or ``None`` off CI.
+
+This is the only thing tying a published database to the run that built it, and
+it is what makes ``increment`` advance once per run rather than once per job.
+Name the wrong environment variable and both of those silently stop working:
+the published metadata drops the identifier, and ``increment`` goes back to
+counting saves, with nothing failing to say so.
+"""
+
 ROOT_DIR = os.path.abspath(
     os.path.join(os.path.dirname(__file__), os.pardir, os.pardir)
 )
@@ -2219,7 +2229,14 @@ class Database:
     """The directory aggregated JSON is stored in."""
 
     increment: int
-    """How many times this database has been modified."""
+    """How many runs have updated this database.
+
+    A run saves once per job, and all of a run's saves share one increment.
+    Without a `RUN_ID` to tell runs apart, every save counts as its own update.
+    """
+
+    run_id: typing.Optional[str]
+    """The CI run that last saved this database, or None if none was recorded."""
 
     last_yamlyugi_read: typing.Optional[datetime.datetime]
     """The last time Yaml Yugi was read from to produce this database."""
@@ -2335,6 +2352,7 @@ class Database:
         self.aggregates_dir = aggregates_dir
 
         self.increment = 0
+        self.run_id = None
         self.last_yamlyugi_read = None
         self.last_yugipedia_read = None
         self.last_ygoprodeck_read = None
@@ -2874,6 +2892,7 @@ class Database:
             "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/meta.json",
             "version": SCHEMA_VERSION,
             "increment": self.increment,
+            **({"runID": self.run_id} if self.run_id else {}),
             **(
                 {"lastYamlyugiRead": self.last_yamlyugi_read.isoformat()}
                 if self.last_yamlyugi_read
@@ -2893,6 +2912,7 @@ class Database:
 
     def _load_meta_json(self, meta_json: typing.Dict[str, typing.Any]):
         self.increment = meta_json["increment"]
+        self.run_id = meta_json.get("runID")
         self.last_yamlyugi_read = (
             datetime.datetime.fromisoformat(meta_json["lastYamlyugiRead"])
             if "lastYamlyugiRead" in meta_json
@@ -2921,7 +2941,12 @@ class Database:
         :param generate_aggregates: Whether or not to generate aggregated JSON files.
         """
 
-        self.increment += 1
+        # a run saves once per job - ten times, in CI - and those ten saves are
+        # one update of the database, not ten. Off CI there is no run identifier
+        # to tell two runs apart, so every save is its own update, as before.
+        if RUN_ID is None or RUN_ID != self.run_id:
+            self.increment += 1
+        self.run_id = RUN_ID
 
         if generate_individuals and self.individuals_dir is None:
             raise Exception("No output directory for individuals configured!")
