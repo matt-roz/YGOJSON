@@ -134,6 +134,57 @@ python3 test/validate_data.py # runs a JSON schema validator against everything 
 
 Initial release.
 
+### Unreleased additions
+
+All of the below are additive: no field changed meaning, no published value was renamed, and
+everything new is optional. Note, though, that **adding values to an enum can break a consumer that
+validates strictly** against a cached copy of the schema. If you do that, re-fetch `schema/v1` before
+reading a database built after these landed.
+
+* **`rarity.json` gained 12 values**, bringing it to 73. Every rarity Yugipedia's own data module
+  defines is now representable: `grandmaster`, `holofoil`, `secretultra`, `ultra-red`, the Rush Duel
+  family (`rush`, `goldrush`, `overrush`, `fulloverrush`, `rush-red`, `overrush-black`), and the two
+  Quarter Century variants (`25thsecret-special`, `25thsecret-tokyodome`). `ultra-blue` already
+  existed but could not previously be produced from a rarity name.
+
+  A CI check now fails the build if Yugipedia introduces a rarity we do not model, so this list should
+  not silently fall behind again. Rarities Yugipedia has since dropped — `parallel`,
+  `commonparallel`, `dtpc` and the Kaiba Corporation secret — are deliberately retained.
+
+* **`imageVariant.json` is new.** A small vocabulary — `alternate-art`, `official-proxy`,
+  `official-website` — for classifying the variant images below.
+
+* **`cardInfo` entries in `set.json` gained an optional `variants` array.** A printing can have
+  several images in one edition: alternate artworks, different print runs, stamped promo variants.
+  Previously we kept one and discarded the rest. Each entry is `{code, image, variant?}`, where
+  `code` is Yugipedia's own tag verbatim, and `variant` is present only where the tag's meaning is
+  established. **Most entries have no `variant`** — that is deliberate, not an omission. Yugipedia's
+  `Reprint` tag in particular means a print run on some pages and a Magic-to-Spell text change on
+  others, so classifying it would be asserting something untrue about roughly two thirds of the
+  cases.
+
+* **Alternate artworks now appear in a card's `images` array.** That array previously held only
+  YGOPRODECK-sourced artworks, so **a card's artwork count may go up**. Variant entries tagged
+  `alternate-art` carry an `imageID` pointing at the treatment they depict.
+
+* **Two schema definitions were silently vacuous and are now enforced.** `set.json`'s `locales` and
+  `sealedProduct.json`'s `locales` both used `remainingProperties`, which is not a JSON Schema
+  keyword — so nothing under either was validated at all. Data already conformed; if you generated
+  your own database against the old schema and it passed, it may not now.
+
+### Unreleased behaviour changes
+
+Not schema changes, but visible in the data:
+
+* **The database is now reproducible.** Two runs over the same Yugipedia content produce
+  byte-identical files, whether the page cache is cold or warm. Previously the key ordering inside
+  every set file churned on every run, printings in Master Duel and Duel Links sets were assigned
+  **new UUIDs on every cold run**, and which image a printing published depended on which network
+  request finished first. If you diff published snapshots, that diff now means something.
+
+* **An unrecognised rarity is no longer replaced with Common.** A printing whose rarity cannot be
+  determined carries no rarity, so absence now means "unknown" rather than "unknown, or Common".
+
 # Python API Changelog
 
 ## 0.6.0
