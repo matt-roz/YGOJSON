@@ -18,6 +18,7 @@
 # This is a net under the two summaries that count *values* — unresolved rarity
 # spellings in ``rarity.py``, image misses by cause in the Yugipedia importer —
 # not a replacement for them. A source location cannot say which spelling.
+import atexit
 import collections
 import json
 import logging
@@ -80,6 +81,15 @@ raw log, and a run where a dependency suddenly warns ten thousand times is
 worth one line at the bottom of the summary.
 """
 
+_SAVED = False
+"""Whether this process has already written its counts.
+
+Read by the exit hook, which writes them only for a run that never reached the
+end and said so itself. The end-of-run save deliberately happens *before* the
+histogram is logged — those lines are warnings too — so a second, later write
+would fold the summary into the counts the run's sum adds up.
+"""
+
 
 def _shorten(message: str) -> str:
     """Collapses a message to one bounded line, for use as a bucket's example."""
@@ -100,18 +110,27 @@ def _location(pathname: str, lineno: int) -> str:
     return "{}:{}".format(module.replace(os.sep, "/"), lineno)
 
 
-def _bucket_rows() -> typing.List[typing.Tuple[str, int, str]]:
-    """The buckets as ``(location, count, example)``, largest first.
+def _sorted_rows(
+    rows: typing.List[typing.Tuple[str, int, str]]
+) -> typing.List[typing.Tuple[str, int, str]]:
+    """Orders ``(location, count, example)`` rows largest first.
 
     Largest first because the biggest problem should be the first thing read.
-    Ties break on location, so that the same run twice renders the same table.
+    Ties break on location, so that the same run twice renders the same table —
+    and so that one job's histogram and the run's sum of ten of them order
+    their shared rows the same way.
     """
-    rows = [
-        (_location(pathname, lineno), count, WARNING_EXAMPLES[(pathname, lineno)])
-        for (pathname, lineno), count in WARNING_BUCKETS.items()
-    ]
-    rows.sort(key=lambda row: (-row[1], row[0]))
-    return rows
+    return sorted(rows, key=lambda row: (-row[1], row[0]))
+
+
+def _bucket_rows() -> typing.List[typing.Tuple[str, int, str]]:
+    """This process's buckets as ``(location, count, example)``, largest first."""
+    return _sorted_rows(
+        [
+            (_location(pathname, lineno), count, WARNING_EXAMPLES[(pathname, lineno)])
+            for (pathname, lineno), count in WARNING_BUCKETS.items()
+        ]
+    )
 
 
 class _WarningBucketer(logging.Handler):
@@ -145,6 +164,7 @@ def install_warning_buckets() -> None:
     handler = _WarningBucketer()
     handler.setLevel(logging.WARNING)
     logging.getLogger().addHandler(handler)
+    atexit.register(_save_warning_buckets_at_exit)
 
 
 def save_warning_buckets() -> None:
@@ -155,12 +175,97 @@ def save_warning_buckets() -> None:
     so that a job with no warnings is distinguishable from a job that died
     before it could say.
     """
+    global _SAVED
     buckets = {
         location: {"count": count, "example": example}
         for location, count, example in _bucket_rows()
     }
     with open(WARNING_BUCKETS_PATH, "w", encoding="utf-8") as file:
         json.dump(buckets, file, indent=2)
+    _SAVED = True
+
+
+def _save_warning_buckets_at_exit() -> None:
+    """Writes the counts of a process that stopped before it could report them.
+
+    An unhandled exception is how this pipeline actually stops early — every
+    Yugipedia API error the importer does not retry aborts the import — and
+    those runs are the ones worth reading. Without this the job's whole share
+    of the run's warnings would be missing from the sum, silently and in the
+    direction that makes a broken run look quiet.
+
+    It does not cover a process killed outright, by a cancelled job or a runner
+    timeout; nothing inside the process can. That gap is why the cross-job
+    summary states how many jobs it summed rather than letting a short sum read
+    as the run's total.
+    """
+    if not _SAVED:
+        save_warning_buckets()
+
+
+def merge_warning_buckets(
+    contributions: typing.Iterable[typing.Dict[str, typing.Dict[str, typing.Any]]]
+) -> typing.List[typing.Tuple[str, int, str]]:
+    """Sums the saved buckets of several processes into one table of rows.
+
+    A run is ten pipeline processes and partition assignment is an unseeded
+    shuffle, so which pages a given job saw is different every run and its own
+    figure is comparable to nothing. The sum over the run is the comparable
+    one: the page list is rebuilt every run, so the same corpus is behind it
+    each time.
+
+    Locations are the key because that is what :func:`save_warning_buckets`
+    wrote them under, already relative to the checkout so that ten different
+    working directories still agree. Each bucket keeps the example of the first
+    contribution to carry it, in the order the caller passes them, so that the
+    same artifacts render the same table.
+    """
+    counts: typing.Counter[str] = collections.Counter()
+    examples: typing.Dict[str, str] = {}
+    for buckets in contributions:
+        for location, bucket in buckets.items():
+            counts[location] += bucket["count"]
+            examples.setdefault(location, bucket["example"])
+    return _sorted_rows(
+        [(location, count, examples[location]) for location, count in counts.items()]
+    )
+
+
+def render_warning_buckets(
+    rows: typing.List[typing.Tuple[str, int, str]],
+    contributors: typing.Sequence[str],
+    expected: typing.Optional[int] = None,
+) -> typing.List[str]:
+    """The summed histogram as lines, headed by how much of the run it covers.
+
+    Coverage is stated before any figure, because a sum missing a job's counts
+    is a lower bound and otherwise reads exactly like a complete one — which is
+    the failure this whole instrument exists to prevent. ``expected`` is how
+    many jobs were meant to contribute; ``None`` says the caller does not know,
+    which is honest for a hand-assembled sum and still refuses to claim
+    completeness.
+    """
+    lines = []
+    if expected is None:
+        lines.append(f"Summed the warning counts of {len(contributors)} job(s).")
+    elif len(contributors) == expected:
+        lines.append(f"Summed the warning counts of all {expected} jobs of the run.")
+    else:
+        lines.append(
+            f"INCOMPLETE: summed {len(contributors)} of the run's {expected} jobs. "
+            "This is a partial sum, not the run's total."
+        )
+    if contributors:
+        lines.append("Contributing jobs: " + ", ".join(contributors))
+    lines.append("")
+    if not rows:
+        lines.append("No warnings were counted.")
+        return lines
+    total = sum(count for _, count, _ in rows)
+    lines.append(f"{total} warnings from {len(rows)} call sites:")
+    for location, count, example in rows:
+        lines.append(f"\t{count} x {location}: {example}")
+    return lines
 
 
 def log_warning_buckets() -> None:

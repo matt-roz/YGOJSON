@@ -15,6 +15,18 @@ runs:
       shell: bash
       run: |
         ygojson --production --no-ygoprodeck --no-yamlyugi --yugipedia-use-partition temp/part${{inputs.i}}.json --no-manual --individuals '' --no-individuals
+    # `github.job` is the calling job - `yugipedia-1` through `yugipedia-8` -
+    # so the eight partitions upload under eight names, and artifact names in a
+    # workflow must be unique. See the same step in `db.yml` for why this is an
+    # artifact rather than one of the caches saved below.
+    - name: Upload Warning Counts
+      uses: actions/upload-artifact@v4
+      if: always()
+      continue-on-error: true
+      with:
+        name: warning-buckets-${{ github.job }}
+        path: warning-buckets.json
+        if-no-files-found: warn
     - name: Teardown
       uses: ./.github/actions/teardown
       if: always()
