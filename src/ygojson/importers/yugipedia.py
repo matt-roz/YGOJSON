@@ -869,6 +869,30 @@ PRINT_STATUS_STR_TO_ENUM = {
     "reprint": PrintStatus.REPRINT,
 }
 
+IMAGE_VARIANT_STR_TO_ENUM = {
+    "AA": ImageVariant.ALTERNATE_ART,
+    "AA2": ImageVariant.ALTERNATE_ART,
+    "AA3": ImageVariant.ALTERNATE_ART,
+    "AA4": ImageVariant.ALTERNATE_ART,
+    "AA5": ImageVariant.ALTERNATE_ART,
+    "AA6": ImageVariant.ALTERNATE_ART,
+    "OP": ImageVariant.OFFICIAL_PROXY,
+    "OW": ImageVariant.OFFICIAL_WEBSITE,
+}
+"""The gallery variant codes whose meaning is documented, and what they mean.
+``OP`` and ``OW`` are defined by ``Yugipedia:Image policy``; the ``AA`` family is
+alternate artwork, numbered where one printing has several of them - ``Quarter
+Century Art Collection`` gets Dark Magician up to ``AA6``.
+
+Listed one by one on purpose, including every number. A code absent here is
+published with its raw spelling and no classification, which is the safe
+direction: a code is only ever as reliable as the editor who wrote it in the
+gallery row, and ``Reprint`` is already known to mean two different things on one
+page. Matching loosely - by prefix, or case-insensitively - would classify codes
+nobody has read, which is how ``Reprint`` came to be mistaken for a card-text
+distinction in the first place.
+"""
+
 EDITION_STR_TO_ENUM = {
     "1E": SetEdition.FIRST,
     "UE": SetEdition.UNLIMTED,
@@ -1912,14 +1936,29 @@ def parse_tcg_ocg_set(
             locale.card_images.setdefault(edition, {})
             for rc in raw_locale.cards.values():
                 ils = [il for il in rc.image if il.edition == edition]
-                if len(ils) > 1:
-                    logging.warn(
-                        f"Found multiple images for the same card {rc.card.text[Language.ENGLISH].name} / {rc.rarity}, in {title}: {sorted(il.altinfo for il in ils)}"
-                    )
                 if ils:
-                    locale.card_images[edition][
-                        raw_printings_to_printings[content][suffix_locator(rc)]
-                    ] = rc.image[_canonical_image(ils)].url
+                    printing = raw_printings_to_printings[content][suffix_locator(rc)]
+                    locale.card_images[edition][printing] = rc.image[
+                        _canonical_image(ils)
+                    ].url
+                    # Every image the galleries tagged with a code, in code order:
+                    # the codes a printing carries in one edition are distinct,
+                    # since they key the same dict, so this order is total and the
+                    # same on every run. The canonical image is among them wherever
+                    # the printing has no plain scan at all.
+                    variants = [
+                        VariantImage(
+                            code=il.altinfo,
+                            image=rc.image[il].url,
+                            variant=IMAGE_VARIANT_STR_TO_ENUM.get(il.altinfo),
+                        )
+                        for il in sorted(ils, key=lambda il: il.altinfo)
+                        if il.altinfo
+                    ]
+                    if variants:
+                        locale.card_image_variants.setdefault(edition, {})[
+                            printing
+                        ] = variants
 
     return True
 
