@@ -12,12 +12,13 @@ Yugipedia's own data module and image policy.
 
 Three separate things are wrong with the published database, and none of them announce themselves.
 
-**Rarities are wrong, and sometimes wrong for a whole gallery at once.** Someone looking up
-`Limit Over Collection: The Heroes` loses its eighteen *Grand Master Rare* printings in every one of
-its three locales (jp/kr/sc), and one of its gallery tables degrades wholesale to Common — the
-gallery declares a default rarity the importer does not recognise, and the code path that handles
-that replaces the entire default rarity list with Common rather than the one entry it failed to
-read. The same happens to `Limit Over Collection: The Rivals`. Someone looking up `Limited Pack GX: Ra Yellow` finds ten
+**Rarities the importer does not know cost printings, images, and sometimes a whole gallery's
+rarities.** Someone looking up `Limit Over Collection: The Heroes` finds its eighteen *Grand Master
+Rare* printings missing from every one of its three locales (jp/kr/sc), along with their images —
+the rarity resolves to nothing, so the row contributes nothing and the generated filename is built
+from the raw string and never resolves. The same for `Limit Over Collection: The Rivals`. Separately,
+where a gallery declares a *default* rarity the importer cannot read, the code substitutes Common for
+the whole table: 86 gallery templates and 696 rows are published at Common on that path today. Someone looking up `Limited Pack GX: Ra Yellow` finds ten
 printings that should carry both an Ultra Rare and an *Ultra Rare (Special Blue Version)* printing;
 the Special Blue ones are gone. `Advanced Event Pack 2025 Vol.2` (OCG-KR) loses two Secret Blue rarities
 because the wiki wrote the name without parentheses. Every Rush Duel rarity is dropped outright.
