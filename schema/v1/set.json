@@ -131,6 +131,11 @@
                         "variant": {
                           "description": "What this image shows, for the few codes whose meaning is documented. Absence means the code is one we do not classify; it does not mean this image matches the printing's canonical one.",
                           "$ref": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/imageVariant.json"
+                        },
+                        "imageID": {
+                          "description": "The UUID of the art treatment this image depicts, as defined in the card's art JSON. Present for alternate artworks, which by definition show art the printing's own image does not: the printing's own 'imageID' keeps denoting its canonical scan's treatment, so a variant showing different art carries its own reference. Absent for codes we do not classify, which tell us nothing about what their image shows.",
+                          "type": "string",
+                          "format": "uuid"
                         }
                       }
                     }

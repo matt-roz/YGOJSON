@@ -1139,6 +1139,38 @@ def _canonical_image(ils: typing.List[ImageLocator]) -> ImageLocator:
     return min(ils, key=lambda il: (bool(il.altinfo), il.altinfo))
 
 
+def _variant_image(
+    art_treatments: typing.Dict[typing.Tuple[Card, str], CardImage],
+    card: Card,
+    il: ImageLocator,
+    url: str,
+) -> VariantImage:
+    """One coded image of a printing, carrying the art treatment it depicts
+    where the code says it depicts one.
+
+    Only alternate artworks get a treatment. Their code is what the galleries
+    number when a card has several of them, and the number is what tells two
+    artworks apart: ``Quarter Century Art Collection`` gives Dark Magician
+    ``AA`` through ``AA6``, six different artworks, and Yugipedia's own card
+    page lists the same files as six separate artwork entries. So the code is
+    the key, shared across the locales and rarities of one set - one artwork,
+    one treatment, however many scans of it a set publishes - and not across
+    sets, where nothing says two galleries numbered the same artwork alike.
+    """
+    variant = IMAGE_VARIANT_STR_TO_ENUM.get(il.altinfo)
+    treatment = None
+    if variant is ImageVariant.ALTERNATE_ART:
+        treatment = art_treatments.setdefault(
+            (card, il.altinfo), CardImage(id=uuid.uuid4())
+        )
+    return VariantImage(
+        code=il.altinfo,
+        image=url,
+        variant=variant,
+        art_treatment=treatment,
+    )
+
+
 def _record_image(
     images: typing.Dict[ImageLocator, GalleryImage],
     il: ImageLocator,
@@ -1845,6 +1877,20 @@ def parse_tcg_ocg_set(
         for p in c.cards
     }
 
+    # The art treatments this set's alternate artworks resolved to last run,
+    # keyed the way the gallery names them. Harvested before the clear below for
+    # the same reason ``old_printing_ids`` is: the locales are rebuilt from
+    # scratch, and a treatment that got a fresh UUID every run would be no use
+    # to anyone linking to it.
+    art_treatments: typing.Dict[typing.Tuple[Card, str], CardImage] = {
+        (printing.card, variant.code): variant.art_treatment
+        for locale in set_.locales.values()
+        for printings in locale.card_image_variants.values()
+        for printing, variants in printings.items()
+        for variant in variants
+        if variant.art_treatment
+    }
+
     set_.locales.clear()
     set_.contents.clear()
 
@@ -1947,11 +1993,7 @@ def parse_tcg_ocg_set(
                     # same on every run. The canonical image is among them wherever
                     # the printing has no plain scan at all.
                     variants = [
-                        VariantImage(
-                            code=il.altinfo,
-                            image=rc.image[il].url,
-                            variant=IMAGE_VARIANT_STR_TO_ENUM.get(il.altinfo),
-                        )
+                        _variant_image(art_treatments, rc.card, il, rc.image[il].url)
                         for il in sorted(ils, key=lambda il: il.altinfo)
                         if il.altinfo
                     ]
@@ -2448,6 +2490,56 @@ def get_genesys_banlist(
         return result
 
 
+def _attach_art_treatments(db: Database) -> None:
+    """Puts every art treatment a gallery's alternate artworks resolved to into
+    its card's list of them.
+
+    Appends, like every other way this list is filled: an art treatment keeps
+    the position it was first published at, since the card page's own image list
+    is read against this one by position.
+
+    What one run appends is sorted, though, because the gallery parse cannot
+    offer a stable order to append in. A warm page cache answers a page lookup
+    inside the call that asks for it, while a cold one answers it whenever the
+    batch it landed in comes back, so which set's gallery is read first differs
+    between two runs. Sorting on what the sets say, rather than leaving it to
+    when they answered, is what makes a cold run and a warm one write the same
+    file.
+    """
+    found: typing.Dict[Card, typing.List[typing.Tuple[str, str, str, CardImage]]] = {}
+    for set_ in db.sets:
+        name = set_.name.get(Language.ENGLISH, "")
+        for locale in set_.locales.values():
+            for printings in locale.card_image_variants.values():
+                for printing, variants in printings.items():
+                    for variant in variants:
+                        if variant.art_treatment:
+                            found.setdefault(printing.card, []).append(
+                                (
+                                    name,
+                                    str(set_.id),
+                                    variant.code,
+                                    variant.art_treatment,
+                                )
+                            )
+
+    n_new = 0
+    for card, entries in found.items():
+        # One artwork reaches a card once per locale, rarity and edition of the
+        # set that published it, and again from every other set that did; the
+        # list holds each treatment once, and already holds the ones a previous
+        # run wrote to the card's own JSON.
+        for *_, treatment in sorted(entries, key=lambda entry: entry[:3]):
+            if treatment not in card.images:
+                card.images.append(treatment)
+                n_new += 1
+
+    logging.info(
+        f"{n_new} alternate artworks became new art treatments, "
+        f"across {len(found)} cards."
+    )
+
+
 def import_from_yugipedia(
     db: Database,
     *,
@@ -2831,6 +2923,8 @@ def import_from_yugipedia(
         f"{batcher.licenseRestrictedImages} images Yugipedia won't serve for licensing reasons, "
         f"{batcher.cachedMissingImages} already known to be missing from a previous run."
     )
+
+    _attach_art_treatments(db)
 
     return n_found, n_new
 

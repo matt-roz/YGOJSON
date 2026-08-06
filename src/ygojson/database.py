@@ -1822,22 +1822,36 @@ class VariantImage:
     image is the same as the printing's canonical one.
     """
 
+    art_treatment: typing.Optional[CardImage]
+    """The :class:`CardImage` art treatment this image depicts, where it depicts
+    one we can name. Set for alternate artworks, whose whole point is that they
+    show art the printing's own image does not: the printing's `image` keeps
+    denoting the treatment of its canonical scan, so a variant showing different
+    art has to say so itself.
+
+    `None` for the rest, which is most of them - a code we do not classify tells
+    us nothing about what its image shows.
+    """
+
     def __init__(
         self,
         *,
         code: str,
         image: str,
         variant: typing.Optional[ImageVariant] = None,
+        art_treatment: typing.Optional[CardImage] = None,
     ) -> None:
         self.code = code
         self.image = image
         self.variant = variant
+        self.art_treatment = art_treatment
 
     def _to_json(self) -> typing.Dict[str, typing.Any]:
         return {
             "code": self.code,
             "image": self.image,
             **({"variant": self.variant.value} if self.variant else {}),
+            **({"imageID": str(self.art_treatment.id)} if self.art_treatment else {}),
         }
 
 
@@ -3321,6 +3335,11 @@ class Database:
                                 image=variant["image"],
                                 variant=ImageVariant(variant["variant"])
                                 if "variant" in variant
+                                else None,
+                                art_treatment=self.card_images_by_id.get(
+                                    uuid.UUID(variant["imageID"])
+                                )
+                                if "imageID" in variant
                                 else None,
                             )
                             for variant in info["variants"]
