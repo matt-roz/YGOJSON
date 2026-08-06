@@ -1,6 +1,7 @@
 # Import data from Yugipedia (https://yugipedia.com).
 import atexit
 import datetime
+import itertools
 import json
 import logging
 import math
@@ -1015,6 +1016,13 @@ class ImageLocator(typing.NamedTuple):
     altinfo: str
 
 
+class GalleryImage(typing.NamedTuple):
+    position: typing.Tuple[int, int]
+    """Where the gallery row that claimed this image sits: which gallery page,
+    then which row of it."""
+    url: str
+
+
 class PrintingLocator(typing.NamedTuple):
     card: Card
     rarity: CardRarity
@@ -1029,9 +1037,14 @@ class RawPrinting:
     card: Card
     code: str
     rarity: CardRarity
-    image: typing.Dict[ImageLocator, str]
+    image: typing.Dict[ImageLocator, GalleryImage]
     qty: int
     noabbr: bool
+    row: int
+    """Which row of the set list page named this printing, counted where the row
+    is parsed rather than where its card lookup answers. The answers arrive in
+    fetch-completion order, so this is the only record of the order the wiki
+    writes its set list in."""
 
     def __init__(
         self,
@@ -1040,6 +1053,7 @@ class RawPrinting:
         rarity: CardRarity,
         qty: int,
         noabbr: bool,
+        row: int,
         print_status: typing.Optional[PrintStatus] = None,
     ) -> None:
         self.card = card
@@ -1048,6 +1062,7 @@ class RawPrinting:
         self.image = {}
         self.qty = qty
         self.noabbr = noabbr
+        self.row = row
         self.print_status = print_status
 
     def locator(self) -> PrintingLocator:
@@ -1100,6 +1115,31 @@ def _canonical_image(ils: typing.List[ImageLocator]) -> ImageLocator:
     return min(ils, key=lambda il: (bool(il.altinfo), il.altinfo))
 
 
+def _record_image(
+    images: typing.Dict[ImageLocator, GalleryImage],
+    il: ImageLocator,
+    position: typing.Tuple[int, int],
+    url: str,
+) -> None:
+    """Record what one gallery row says a printing's image is for an edition and
+    a variant code. Two rows can land on the same key. A set locale can carry
+    both an edition's own gallery and an edition-agnostic one - sixty-one do -
+    whose rows build file names differing only by the edition suffix; and
+    ``COLORFUL_RARES`` clearing a row's variant code while ``FALLBACK_RARITIES``
+    moves it onto the plain rarity's printing can fold two tables of one gallery
+    onto the same key.
+
+    The earlier row wins. ``position`` counts where the row is parsed - which
+    gallery page, then which row of it - rather than when its image lookup
+    answers, because the answers arrive in fetch-completion order: keeping the
+    last write, as this used to, publishes whichever of the two the wiki
+    answered for last, which differs between runs and between a warm and a cold
+    page cache. The edition's own gallery is read before the edition-agnostic
+    one, so an edition publishes its own scan wherever the wiki has one."""
+    if il not in images or position < images[il].position:
+        images[il] = GalleryImage(position, url)
+
+
 COLORFUL_RARES = {
     (CardRarity.RARE, "Red"): CardRarity.RARE_RED,
     (CardRarity.RARE, "Bronze"): CardRarity.RARE_COPPER,
@@ -1147,7 +1187,9 @@ def parse_tcg_ocg_set(
         logging.warn(f"Found set with multiple set navigation tables: {title}")
 
     raw_locales: typing.Dict[str, RawLocale] = {}
-    packimages: typing.Dict[str, str] = {}
+    # keyed by locale, or locale and edition; the int is which line of the set
+    # page's pack image gallery the image came from
+    packimages: typing.Dict[str, typing.Tuple[int, str]] = {}
 
     def get_card(name: str):
         # MediaWiki escapes "=" and "|" inside template arguments, so a card
@@ -1195,19 +1237,22 @@ def parse_tcg_ocg_set(
                 if x.name.lower().strip() == "set list"
             ]
 
+            row_numbers = itertools.count()
+
             def add_card_to_cardlist(
                 name: str,
                 code: str,
                 rarity: CardRarity,
                 qty: typing.Optional[int],
                 noabbr: bool,
+                row: int,
                 print_status: typing.Optional[PrintStatus] = None,
             ):
                 @get_card(name)
                 def onGetCard(card: Card):
                     rcs: typing.List[RawPrinting] = []
                     raw_rc = RawPrinting(
-                        card, code, rarity, qty or 1, noabbr, print_status
+                        card, code, rarity, qty or 1, noabbr, row, print_status
                     )
                     if (
                         setname in MANUAL_RARITY_FIXUPS
@@ -1221,6 +1266,7 @@ def parse_tcg_ocg_set(
                                     new_rarity,
                                     raw_rc.qty,
                                     raw_rc.noabbr,
+                                    raw_rc.row,
                                     raw_rc.print_status,
                                 )
                             )
@@ -1362,6 +1408,7 @@ def parse_tcg_ocg_set(
                                     rarity,
                                     qty if qty is not None else default_qty,
                                     noabbr,
+                                    next(row_numbers),
                                     print_status,
                                 )
 
@@ -1380,7 +1427,7 @@ def parse_tcg_ocg_set(
         if edition not in raw_locale.editions:
             raw_locale.editions.append(edition)
 
-        def do(galleryname: str):
+        def do(galleryname: str, gallery_rank: int):
             @batcher.getPageContents(galleryname)
             def onGetList(raw_gallery_data: str):
                 gallery_data = wikitextparser.parse(raw_gallery_data)
@@ -1392,12 +1439,14 @@ def parse_tcg_ocg_set(
                 subgallery_htmls = re.findall(
                     r"<gallery[^\n]*\n(.*?)\n</gallery>", raw_gallery_data, re.DOTALL
                 )
+                row_numbers = itertools.count()
 
                 def add_card_image(
                     name: str,
                     rarity: CardRarity,
                     alt: str,
                     image: str,
+                    row: int,
                     code: typing.Optional[str] = None,
                 ):
                     @batcher.getImageURL(f"File:{image}")
@@ -1424,7 +1473,12 @@ def parse_tcg_ocg_set(
                                     )
                             else:
                                 for rc in rcs:
-                                    rc.image[ImageLocator(edition, alt)] = url
+                                    _record_image(
+                                        rc.image,
+                                        ImageLocator(edition, alt),
+                                        (gallery_rank, row),
+                                        url,
+                                    )
 
                         @get_card(name)
                         def do(card: Card):
@@ -1551,7 +1605,9 @@ def parse_tcg_ocg_set(
                                     else:
                                         image += ".png"
 
-                                add_card_image(name, rarity, alt, image, code)
+                                add_card_image(
+                                    name, rarity, alt, image, next(row_numbers), code
+                                )
 
                 for subgallery in subgallery_htmls:
                     lines = [x.strip() for x in subgallery.split("\n") if x.strip()]
@@ -1577,20 +1633,29 @@ def parse_tcg_ocg_set(
                                 continue
                             name = namelink.target.strip()
                             add_card_image(
-                                name, rarity, "", image, codelink.target.strip()
+                                name,
+                                rarity,
+                                "",
+                                image,
+                                next(row_numbers),
+                                codelink.target.strip(),
                             )
 
                 if not gallery_templates and not subgallery_htmls:
                     logging.warn(f"No gallery tables found in {galleryname}!")
 
+        # the edition's own gallery first, so that _record_image prefers its
+        # scan over the edition-agnostic gallery's where a locale has both
         do(
-            f"Set Card Galleries:{setname} ({raw_locale.format.upper()}-{raw_locale.key.upper()}-{EDITIONS_IN_NAV_REVERSE[edition].upper()})"
+            f"Set Card Galleries:{setname} ({raw_locale.format.upper()}-{raw_locale.key.upper()}-{EDITIONS_IN_NAV_REVERSE[edition].upper()})",
+            0,
         )
         do(
-            f"Set Card Galleries:{setname} ({raw_locale.format.upper()}-{raw_locale.key.upper()})"
+            f"Set Card Galleries:{setname} ({raw_locale.format.upper()}-{raw_locale.key.upper()})",
+            1,
         )
 
-    def parse_packimage_line(line: str):
+    def parse_packimage_line(line: str, row: int):
         imagename = re.match(r"\S+", line)
         if imagename:
             gallery_links = [
@@ -1604,7 +1669,13 @@ def parse_tcg_ocg_set(
                 for gallery_link in gallery_links:
                     lc = re.search(r"\([^\-]+\-([^\)]+)\)", gallery_link)
                     if lc:
-                        packimages[lc.group(1).lower()] = url
+                        key = lc.group(1).lower()
+                        # The earliest line wins. Five set pages, Toon Chaos
+                        # among them, point several pack images at one locale
+                        # key; keeping the last write published whichever image
+                        # lookup answered last, which differs between runs.
+                        if key not in packimages or row < packimages[key][0]:
+                            packimages[key] = (row, url)
 
     for nav in navs:
         lists = [
@@ -1710,10 +1781,25 @@ def parse_tcg_ocg_set(
     )
     if packimages_html:
         lines = [x.strip() for x in packimages_html.group(1).split("\n") if x.strip()]
-        for line in lines:
-            parse_packimage_line(line)
+        for row, line in enumerate(lines):
+            parse_packimage_line(line, row)
 
     batcher.flushPendingOperations()
+
+    for raw_locale in raw_locales.values():
+        # The card lookups that filled this answered in fetch-completion order,
+        # so its insertion order is decided by which pages the page cache
+        # already held. Put it back into the order the set list page writes its
+        # rows, which is what everything below reads it in: the published
+        # `cards` list order, and the printing tuple that decides which locales
+        # share one SetContents.
+        raw_locale.cards = {
+            rcl: rc
+            for rcl, rc in sorted(
+                raw_locale.cards.items(),
+                key=lambda item: (item[1].row, item[0].rarity.value),
+            )
+        }
 
     old_printing_ids = {
         PrintingLocator(p.card, p.rarity or CardRarity.COMMON, p.suffix): p.id
@@ -1739,7 +1825,7 @@ def parse_tcg_ocg_set(
                 f"{raw_locale.key}-{EDITIONS_IN_NAV_REVERSE[edition]}"
             ) or packimages.get(raw_locale.key)
             if image:
-                raw_locale.images[edition] = image
+                raw_locale.images[edition] = image[1]
 
         prefix = commonprefix(c.code for c in raw_locale.cards.values())
         prefixfixer = re.match(r"[^\-]+\-\D*", prefix)
@@ -1819,7 +1905,7 @@ def parse_tcg_ocg_set(
                 if ils:
                     locale.card_images[edition][
                         raw_printings_to_printings[content][suffix_locator(rc)]
-                    ] = rc.image[_canonical_image(ils)]
+                    ] = rc.image[_canonical_image(ils)].url
 
     return True
 
@@ -1855,7 +1941,9 @@ def parse_md_set(
     else:
         contents = SetContents(formats=[Format.MASTERDUEL])
 
-    found_cards: typing.Set[Card] = set()
+    # the cards the set list names, and which of its rows first named them
+    found_cards: typing.Dict[Card, int] = {}
+    row_numbers = itertools.count()
     setlists = [
         x for x in data.templates if x.name.strip().lower() == "master duel set list"
     ]
@@ -1887,12 +1975,12 @@ def parse_md_set(
                 if cardname.endswith(MD_DISAMBIG_SUFFIX):
                     cardname = cardname[: -len(MD_DISAMBIG_SUFFIX)]
 
-                def add_card(card: Card):
-                    found_cards.add(card)
+                def add_card(card: Card, row: int):
+                    found_cards.setdefault(card, row)
                     if card not in {p.card for p in contents.cards}:
                         contents.cards.append(CardPrinting(id=uuid.uuid4(), card=card))
 
-                def do(cardname: str):
+                def do(cardname: str, row: int):
                     @batcher.getPageID(cardname)
                     def onGetID(cardid: int, _: str):
                         card = db.cards_by_yugipedia_id.get(cardid)
@@ -1906,12 +1994,12 @@ def parse_md_set(
                                         f"Unknown card in MD set {title}: {cardname}"
                                     )
                                 else:
-                                    add_card(card)
+                                    add_card(card, row)
 
                         else:
-                            add_card(card)
+                            add_card(card, row)
 
-                do(cardname)
+                do(cardname, next(row_numbers))
 
     def deloldprints():
         for i, printing in enumerate([*contents.cards]):
@@ -1921,7 +2009,16 @@ def parse_md_set(
                 # if printing.card not in {p.card for p in contents.removed_cards}:
                 #     contents.removed_cards.append(printing)
 
+    # Every card lookup above is asynchronous. Without this, a cold page cache
+    # leaves `found_cards` empty here, `deloldprints` deletes the whole set as
+    # unfound, and the answers then rebuild it with fresh printing UUIDs.
+    batcher.flushPendingOperations()
+
     deloldprints()
+
+    # The answers arrived in fetch-completion order, so anything appended above
+    # sits in cache-hit order rather than set list order.
+    contents.cards.sort(key=lambda printing: found_cards[printing.card])
 
     if contents not in set_.contents:
         set_.contents.append(contents)
@@ -1954,7 +2051,9 @@ def parse_dl_set(
     else:
         contents = SetContents(formats=[Format.DUELLINKS])
 
-    found_cards: typing.Set[Card] = set()
+    # the cards the set list names, and which of its rows first named them
+    found_cards: typing.Dict[Card, int] = {}
+    row_numbers = itertools.count()
     setlists = [x for x in data.templates if x.name.strip().lower() == "set list"]
     if not setlists:
         logging.warn(f"Found Duel Links set without setlists: {title}")
@@ -1981,12 +2080,12 @@ def parse_dl_set(
                 if cardname.endswith(DL_DISAMBIG_SUFFIX):
                     cardname = cardname[: -len(DL_DISAMBIG_SUFFIX)]
 
-                def add_card(card: Card):
-                    found_cards.add(card)
+                def add_card(card: Card, row: int):
+                    found_cards.setdefault(card, row)
                     if card not in {p.card for p in contents.cards}:
                         contents.cards.append(CardPrinting(id=uuid.uuid4(), card=card))
 
-                def do(cardname: str):
+                def do(cardname: str, row: int):
                     @batcher.getPageID(cardname)
                     def onGetID(cardid: int, _: str):
                         card = db.cards_by_yugipedia_id.get(cardid)
@@ -2000,12 +2099,12 @@ def parse_dl_set(
                                         f"Unknown card in DL set {title}: {cardname}"
                                     )
                                 else:
-                                    add_card(card)
+                                    add_card(card, row)
 
                         else:
-                            add_card(card)
+                            add_card(card, row)
 
-                do(cardname)
+                do(cardname, next(row_numbers))
 
     def deloldprints():
         for i, printing in enumerate([*contents.cards]):
@@ -2015,7 +2114,16 @@ def parse_dl_set(
                 # if printing.card not in {p.card for p in contents.removed_cards}:
                 #     contents.removed_cards.append(printing)
 
+    # Every card lookup above is asynchronous. Without this, a cold page cache
+    # leaves `found_cards` empty here, `deloldprints` deletes the whole set as
+    # unfound, and the answers then rebuild it with fresh printing UUIDs.
+    batcher.flushPendingOperations()
+
     deloldprints()
+
+    # The answers arrived in fetch-completion order, so anything appended above
+    # sits in cache-hit order rather than set list order.
+    contents.cards.sort(key=lambda printing: found_cards[printing.card])
 
     if contents not in set_.contents:
         set_.contents.append(contents)
