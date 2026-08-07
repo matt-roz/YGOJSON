@@ -1279,6 +1279,15 @@ COLORFUL_RARES = {
 FALLBACK_RARITIES = {
     CardRarity.COMMON: CardRarity.SHORTPRINT,
     CardRarity.SHORTPRINT: CardRarity.COMMON,
+    # `Parallel Rare` is a class of rarities on Yugipedia, not a rarity: its
+    # module publishes only the tiers (`npr`, `spr`, `upr`, `scpr`, `hgpr`), and
+    # no set list anywhere resolves to `parallel`. The term survives on the two
+    # `World Ranking Promos` galleries, which link `[[PR]]` beside `-NPR` image
+    # files for a list reading `rarities=Common, Normal Parallel Rare`. Falling
+    # back to the class's Common tier is a guess, and it is only ever reached
+    # once an exact match has failed - so it costs a dropped image at worst,
+    # where an exact `parallel` printing would already have won.
+    CardRarity.PARALLEL: CardRarity.COMMONPARALLEL,
     **{r2: r1 for (r1, alt), r2 in COLORFUL_RARES.items()},
 }
 
