@@ -902,6 +902,36 @@ def parse_card(
 
 CARD_GALLERY_NAMESPACE = "Set Card Galleries:"
 
+GALLERY_LEGEND_WORDS = {
+    "number",
+    "card number",
+    "name",
+    "card name",
+    "rarity",
+    "card rarity",
+    "rarities",
+    "card rarities",
+    "alt",
+    "print",
+    "quantity",
+}
+"""Every word ``Set gallery`` and ``Set list`` use to name a row's columns in
+their own documentation.
+
+A row whose columns are *all* from this vocabulary is that documentation line
+left on a gallery nobody filled in - three of them carry ``number; name;
+rarity`` verbatim - rather than a printing. Both templates' words are listed
+because a stub is a pasted line and the row does not say which template it was
+pasted from.
+
+Matched as a vocabulary and not as one string on purpose: an exact match
+against wiki free text stops matching the day somebody edits the line, and says
+nothing when it does. Widening this is what costs a printing, and only barely -
+every column must match, so a word here is dangerous only if a card is named it
+*and* sits at a card number and a rarity that are legend words too. Narrowing
+it only returns the noise.
+"""
+
 IMAGE_VARIANT_STR_TO_ENUM = {
     "AA": ImageVariant.ALTERNATE_ART,
     "AA2": ImageVariant.ALTERNATE_ART,
@@ -1638,6 +1668,25 @@ def parse_tcg_ocg_set(
                                 cols = [x.strip() for x in pre_comment.split(";")]
 
                                 if not cols:
+                                    continue
+
+                                if all(
+                                    col.lower() in GALLERY_LEGEND_WORDS for col in cols
+                                ):
+                                    # The template's own parameter legend, left
+                                    # on a gallery nobody filled in. Not a card
+                                    # row, and correctly skipped. It has to go
+                                    # before the rarity column is resolved:
+                                    # `rarity` is a legend word, so the row
+                                    # otherwise warns once as an unknown rarity
+                                    # and once as an undecipherable rarity code,
+                                    # then spends an image lookup on a file
+                                    # named after a card called `name`. Counted
+                                    # rather than printed - see
+                                    # `EXPECTED_CONDITIONS`.
+                                    EXPECTED_CONDITIONS.warning(
+                                        f"Found parameter legend where a gallery row should be in {galleryname}: {pre_comment}"
+                                    )
                                     continue
 
                                 col_index = 0
