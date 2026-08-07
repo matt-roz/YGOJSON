@@ -45,7 +45,7 @@ Within each folder should be the data you need. Check out the [JSON schema](http
 
 We have the following things available for you:
 
-* `cards`: Yugioh cards. This includes tokens and Speed Duel skill cards. This does NOT include Rush Duel cards, and does NOT include video-game exclusive cards.
+* `cards`: Yugioh cards. This includes tokens, Speed Duel skill cards and Rush Duel cards. Rush Duel cards carry the stats they share with every other card; their Rush-only properties (Requirement/Condition, MAXIMUM ATK, Legend status) are not modelled. This does NOT include video-game exclusive cards.
 * `sets`: Yugioh products such as booster packs, decks, and sets of promotional cards.
 * `series`: Information about archetypes and series.
 * `sealedProducts`: Sealed products are things like booster boxes, tins, and other things that consist of a mix of packs.
