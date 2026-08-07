@@ -3037,18 +3037,41 @@ def import_from_yugipedia(
 
         if len(specific_pages) > 0:
             specific_ids: typing.List[int] = []
+            resolved: typing.Dict[typing.Union[int, str], int] = {}
             for page in specific_pages:
 
                 def get_page_id(page: typing.Union[int, str]):
                     @batcher.getPageID(page)
                     def on_get_id(id: int, title: str):
                         specific_ids.append(id)
+                        resolved[page] = id
 
                 get_page_id(page)
             batcher.flushPendingOperations()
             cards = [x for x in cards if x in specific_ids]
             sets = [x for x in sets if x in specific_ids]
             series = [x for x in series if x in specific_ids]
+
+            # These pages *filter* the enumerated lists rather than being
+            # fetched, so anything not itself an enumerated card, set or series
+            # page - a `Set Card Lists:` page, a typo, a set in a category
+            # `SET_CATS` cannot reach - selects nothing and the run succeeds
+            # having imported nothing. That reads exactly like a fix that
+            # changed no data, which is the whole reason to say so here.
+            selected = {*cards, *sets, *series}
+            for page in specific_pages:
+                if page not in resolved:
+                    logging.warning(
+                        f"No Yugipedia page named in --yugipedia-pages: {page}"
+                    )
+                elif resolved[page] not in selected:
+                    logging.warning(
+                        f"Page in --yugipedia-pages is not an enumerated card, set or series, so nothing will be imported for it: {page}"
+                    )
+            logging.info(
+                f"--yugipedia-pages selected {len(cards)} cards, {len(sets)} sets "
+                f"and {len(series)} series from {len(specific_pages)} pages."
+            )
 
         if import_cards:
             banlists = get_banlist_pages(batcher)
