@@ -198,7 +198,63 @@ SET_CATS = [
     "Category:Yu-Gi-Oh! Master Duel sets",
     "Category:Yu-Gi-Oh! Duel Links sets",
     "Category:Preconstructed Decks",  # for specifically the Speed Duel box decks, because for some reason they have no format category in Yugipedia
+    # Orphaned on Yugipedia: each of these has no parent category at all, so
+    # the recursive walk below - which only ever descends - cannot reach them
+    # from the roots above no matter where it starts. See the docstring.
+    "Category:+1 Assist Packs",
+    "Category:+1 Expansion Packs",
+    "Category:Asian-English Tournament Packs",
+    "Category:Boss Duel Decks",
+    "Category:Complement Packs",
+    "Category:Duelist Sets",
+    "Category:Event Packs",
+    "Category:Genesys Packs",
+    "Category:Hidden Chapter Packs",
+    "Category:Korean National Championship promotional cards",
+    "Category:Master Guide promotional cards",
+    "Category:OCG Special Edition Sets",
+    "Category:OCG book promotional cards",
+    "Category:Perfect Rulebook promotional cards",
+    "Category:Premiere! promotional cards",
+    "Category:Simplified Chinese Tournament Packs",
+    "Category:TCG bundles",
+    "Category:Ultimate Tournament Packs",
+    "Category:Weekly Shonen Jump Jump Pack promotional cards",
+    "Category:Winner's Packs",
 ]
+"""The category roots every set page is enumerated from.
+
+``getCategoryMembersRecursive`` only ever descends, so a set page exists for us
+only if one of its categories has an upward path to a root here. Nothing warns
+when that fails: a page never enumerated is never fetched, so it cannot reach
+any parse-time warning, and the only signal is a manual fixup that happens to
+name it.
+
+Walking the tree from the five format roots reaches 3475 pages, which is every
+one of the 3376 sets we publish and nothing else. Against Yugipedia's own
+``Category:All sets``, that leaves **463 pages carrying both ``{{Infobox set}}``
+and ``{{Set navigation}}`` that we never look at.** The twenty roots added here
+are the orphaned categories holding the products among them; they recover 101
+of those pages and pull in no subcategories.
+
+Deliberately not here:
+
+- **Rush Duel**, 331 of the 463, across five orphaned categories. Rush Duel
+  cards never import at all, so enumerating their sets would publish 331 sets
+  with empty card lists - the exact silent failure that stripping set page
+  disambiguators just fixed for 32 others. These belong here the day that is
+  fixed, and not before.
+- ``Category:Sets without a database ID`` and ``…without an English database
+  ID``, which are tracking categories: their membership is whatever currently
+  lacks an ID, so a wiki edit would silently add or drop sets from our output.
+- **26 pages that carry no content category at all**, only ``Category:All
+  sets`` and tracking categories. No root can reach them; they need a category
+  adding on the wiki.
+- ``Category:All sets`` itself. It has 5217 members against our 3376 published
+  sets, and 1998 of them carry no ``{{Set navigation}}`` - anime, manga and
+  video-game sets we exclude on purpose. Adding it would be a decision about
+  what the database contains, not a fix for this one.
+"""
 
 BANLIST_CATS = {
     "tcg": "Category:TCG Advanced Format Forbidden & Limited Lists",
