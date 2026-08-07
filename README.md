@@ -45,7 +45,7 @@ Within each folder should be the data you need. Check out the [JSON schema](http
 
 We have the following things available for you:
 
-* `cards`: Yugioh cards. This includes tokens and Speed Duel skill cards. This does NOT include Rush Duel cards, and does NOT include video-game exclusive cards.
+* `cards`: Yugioh cards. This includes tokens, Speed Duel skill cards and Rush Duel cards. Rush Duel cards carry the stats they share with every other card; their Rush-only properties (Requirement/Condition, MAXIMUM ATK, Legend status) are not modelled. This does NOT include video-game exclusive cards.
 * `sets`: Yugioh products such as booster packs, decks, and sets of promotional cards.
 * `series`: Information about archetypes and series.
 * `sealedProducts`: Sealed products are things like booster boxes, tins, and other things that consist of a mix of packs.
@@ -167,6 +167,17 @@ reading a database built after these landed.
   YGOPRODECK-sourced artworks, so **a card's artwork count may go up**. Variant entries tagged
   `alternate-art` carry an `imageID` pointing at the treatment they depict.
 
+* **`printing.json` gained an optional `printNote`.** Yugipedia's set lists write far more in their
+  `print` column than the two words `printStatus` can hold — `Speed Duel debut`, `New artwork`,
+  `Functional errata`, `Reprint (renamed)` — and we previously published no `printStatus` at all for
+  those rows, which the schema documents as "the source did not say". They now resolve (all 23
+  measured phrases mean `reprint`) and carry the phrase verbatim in `printNote`. **`printNote` is
+  present only when the source said something other than literally `new` or `reprint`**, so its
+  presence tells you `printStatus` lost information; it is not on every printing. It may also appear
+  *without* a `printStatus`, which means the phrase is one we do not classify — you get the wiki's
+  words even where we decline to interpret them. **`printStatus` itself is unchanged**: same two
+  values, same meaning, just present on many more printings than before.
+
 * **`meta.json` gained an optional `runID`.** The CI run that produced the database — the GitHub
   Actions run ID, which resolves at `<repository>/actions/runs/<runID>` — so a published snapshot can
   be tied to the run that built it. **Absence means no run was recorded**, such as a database built
@@ -176,6 +187,21 @@ reading a database built after these landed.
   `sealedProduct.json`'s `locales` both used `remainingProperties`, which is not a JSON Schema
   keyword — so nothing under either was validated at all. Data already conformed; if you generated
   your own database against the old schema and it passed, it may not now.
+
+* **`card.json`'s `attribute` and `type` each gained one value** - `laugh` and `charisma`. Both exist
+  for a single real printed OCG card, `Charisma Token`, whose `attribute = LAUGH` and
+  `types = Charisma` were previously parsed, found unmodellable and dropped. Yugipedia tracks it in
+  `Category:Cards with odd Attributes` and `Category:Cards with odd Types`. **That card gains two
+  fields**; nothing else changes. The other odd values in those categories belong to anime-only cards
+  we do not import and are deliberately not modelled.
+
+* **`format.json` gained `rushduel`**, and so did `set.json`'s deprecated `contents.formats` enum.
+  Rush Duel is a separate game, and its sets are Japanese or Korean, so they were previously
+  published as `ocg` — as though playable in the OCG. **A set that used to report `ocg` may now
+  report `rushduel`**, which is a value change for existing sets even though the enum addition is
+  additive. Rush Duel *cards* are new to the database entirely (see below); their Rush-only
+  properties — Requirement/Condition, MAXIMUM ATK, Legend status — are **not** modelled, so those
+  cards publish with the stats they share with every other card and nothing more.
 
 ### Unreleased behaviour changes
 
@@ -196,6 +222,38 @@ Not schema changes, but visible in the data:
   **A published `increment` therefore rises by roughly one tenth of what it used to per run**, and
   compares across that change only as an ordering, not as a count. Where no run identifier is
   available — a local run, for instance — each write still counts as its own update.
+
+* **`increment` can no longer go backwards.** It was seeded from whichever ZIP the run downloaded,
+  and the individual and aggregate artifacts drift, so the published counter went 2351 → 2350 once.
+  A save now continues from the highest of what it loaded and what the output already publishes.
+
+* **A one-time consolidation of 6,184 printing UUIDs happened in the 2026-08-07 publish.** No
+  printing disappeared: card entries went *up* by 1,702 while distinct printing UUIDs fell by 4,042,
+  because printings that used to get a separate UUID in each locale block now share one across the
+  blocks they appear in, which is the shape a set is supposed to have. **Identifiers held from a
+  snapshot before 2026-08-07 may no longer resolve.** This is a correction, not the recurring churn
+  that the reproducibility fix above addressed, and it is not expected to repeat.
+
+* **Many more sets publish their printings.** A set's card-list and gallery pages are named after
+  the set, and we built those names from the Yugipedia *page title* — so every set with a
+  disambiguated title (`Premium Pack 2 (TCG)`, `Metal Raiders (Japanese)`) looked for a page that
+  does not exist and published an empty card list, silently. 73 locale entries across 49 sets were
+  affected. Separately, `Legacy Pack` (4,057 printings) and `Promotional Pack` (50) keep their lists
+  in shapes we did not read, and now publish.
+
+* **Sets that shared a Konami set ID no longer collapse onto one another.** 153 Konami set IDs are
+  declared by more than one Yugipedia page — a booster and its `+1 Bonus Pack`, `Wave 1` and
+  `Wave 2` — and one ID in common was enough for one page to take the other's set object, leaving
+  that set absent from the database and its UUID naming something else. **Sets absent for this
+  reason reappear, with new UUIDs**, and a set already published keeps the UUID it had.
+
+* **101 set pages are enumerated that never were.** Set discovery walks category trees downward
+  only, and twenty categories on Yugipedia have no parent category at all, so nothing in them was
+  ever fetched. Rush Duel's five such categories (331 pages) are still excluded deliberately.
+
+* **Rush Duel cards are in the database.** 3,151 cards that were in neither `Category:TCG cards` nor
+  `Category:OCG cards` and so were never imported. Rush Duel sets consequently stop publishing empty
+  card lists, and 1,234 Duel Links set-list rows that resolved to nothing now resolve.
 
 # Python API Changelog
 

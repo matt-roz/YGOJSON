@@ -1,4 +1,5 @@
 import datetime
+import email.utils
 import enum
 import json
 import logging
@@ -116,6 +117,18 @@ MANUAL_DISTROS_DIR = os.path.join(MANUAL_DATA_DIR, "distributions")
 MANUAL_PRODUCTS_DIR = os.path.join(MANUAL_DATA_DIR, "sealed-products")
 """The directory containing manual sealed product fixup data."""
 
+MANUAL_FIXUP_ORDER = "filename, ascending"
+"""The order the three ``manually_fixup_*`` passes read their directories in.
+
+``os.listdir`` returns filesystem order, which differs between machines and
+between filesystems. Where two fixups touch the same object the later one wins,
+so unsorted reads mean two machines applying the same ``manual-data/`` can
+publish different objects from identical inputs. Sorting by filename makes the
+winner a property of the data rather than of the disk.
+
+Documented here rather than at each call site because all three passes share
+the rule, and a fourth should adopt it."""
+
 
 class CardType(enum.Enum):
     """The overarching type of :class:`Card`: Monster, spell, trap, etc."""
@@ -185,6 +198,7 @@ class Attribute(enum.Enum):
     WIND = "wind"
     EARTH = "earth"
     DIVINE = "divine"
+    LAUGH = "laugh"  # `Charisma Token` only; Yugipedia tracks it as an odd Attribute.
 
 
 class MonsterCardType(enum.Enum):
@@ -227,6 +241,7 @@ class Race(enum.Enum):
     CREATORGOD = "creatorgod"
     WYRM = "wyrm"
     CYBERSE = "cyberse"
+    CHARISMA = "charisma"  # `Charisma Token` only; Yugipedia tracks it as an odd Type.
 
 
 class Classification(enum.Enum):
@@ -317,6 +332,7 @@ class Format(enum.Enum):
     DUELLINKS = "duellinks"  # Worldwide Duel Links.
     MASTERDUEL = "masterduel"  # Worldwide Master Duel.
     GENESYS = "genesys"  # TCG Genesys.
+    RUSHDUEL = "rushduel"  # Rush Duel, the separate game.
 
     @property
     def parent(self) -> typing.Optional["Format"]:
@@ -1690,6 +1706,15 @@ class CardPrinting:
     lists omit the column entirely. Absence is not the same as `NEW`.
     """
 
+    print_note: typing.Optional[str]
+    """What the source said about this printing, where it said more than
+    `new` or `reprint` - `Speed Duel debut`, `New artwork`, `Functional errata`.
+    Verbatim, so a plain reprint can be told apart from one with changed
+    artwork. `None` means the source said only one of the two bare words, or
+    said nothing at all; it is present regardless of whether `print_status`
+    resolved.
+    """
+
     def __init__(
         self,
         *,
@@ -1703,6 +1728,7 @@ class CardPrinting:
         replica: bool = False,
         qty: int = 1,
         print_status: typing.Optional[PrintStatus] = None,
+        print_note: typing.Optional[str] = None,
     ) -> None:
         self.id = id
         self.card = card
@@ -1714,6 +1740,7 @@ class CardPrinting:
         self.replica = replica
         self.qty = qty
         self.print_status = print_status
+        self.print_note = print_note
 
     def _to_json(self) -> typing.Dict[str, typing.Any]:
         return {
@@ -1727,6 +1754,7 @@ class CardPrinting:
             **({"replica": True} if self.replica else {}),
             **({"qty": self.qty} if self.qty != 1 else {}),
             **({"printStatus": self.print_status.value} if self.print_status else {}),
+            **({"printNote": self.print_note} if self.print_note else {}),
         }
 
 
@@ -2553,7 +2581,13 @@ class Database:
             total=len(self.series),
             desc="Regenerating card backlinks to series",
         ):
-            for member in series.members:
+            # `Series.members` is a `typing.Set[Card]` and `Card` defines no
+            # `__hash__`, so iterating it is identity order - which varies with
+            # allocation, and therefore between machines rather than merely
+            # between cold and warm runs. `_to_json` already sorts by card UUID
+            # before serializing the series side; sort the same way here so the
+            # two sides of the backlink agree.
+            for member in sorted(series.members, key=lambda card: str(card.id)):
                 member.series.append(series)
 
     def lookup_set(self, mfi: ManualFixupIdentifier) -> typing.Optional[Set]:
@@ -2685,7 +2719,7 @@ class Database:
             image: typing.Optional[str]
 
         for filename in tqdm.tqdm(
-            os.listdir(MANUAL_SETS_DIR), desc="Applying manual fixups to sets"
+            sorted(os.listdir(MANUAL_SETS_DIR)), desc="Applying manual fixups to sets"
         ):
             if filename.endswith(".json"):
                 with open(
@@ -2839,7 +2873,7 @@ class Database:
         """Applies all pack distribution manual fixups to this database."""
 
         for filename in tqdm.tqdm(
-            os.listdir(MANUAL_DISTROS_DIR), desc="Importing pack distributions"
+            sorted(os.listdir(MANUAL_DISTROS_DIR)), desc="Importing pack distributions"
         ):
             if filename.endswith(".json"):
                 with open(
@@ -2888,7 +2922,7 @@ class Database:
         """Applies all sealed product manual fixups to this database."""
 
         for filename in tqdm.tqdm(
-            os.listdir(MANUAL_PRODUCTS_DIR), desc="Importing sealed products"
+            sorted(os.listdir(MANUAL_PRODUCTS_DIR)), desc="Importing sealed products"
         ):
             if filename.endswith(".json"):
                 # logging.info(f"Reading {filename}...")
@@ -2899,11 +2933,34 @@ class Database:
                     def process():
                         in_json = json.load(infile)
 
+                        # Every `return` below abandons `process()` before the
+                        # delete-and-re-add at the bottom, so the product is
+                        # neither updated nor dropped: the copy `load()` read
+                        # from the previous run survives and is republished
+                        # unchanged. `manual-data/` stops being the source of
+                        # truth for that file until the lookup resolves again,
+                        # which is worth saying out loud in the warning rather
+                        # than leaving the reader to infer it.
+                        stale = "keeping its previously published contents"
+
                         if "boxOf" in in_json:
-                            in_json["boxOf"] = [
-                                str(self.lookup_set(ManualFixupIdentifier(in_set)).id)
-                                for in_set in in_json["boxOf"]
-                            ]
+                            box_of = []
+                            for in_set in in_json["boxOf"]:
+                                set_ = self.lookup_set(ManualFixupIdentifier(in_set))
+                                if not set_:
+                                    # Was `.id` on the `Optional[Set]` this
+                                    # returns, so a `boxOf` naming a set that
+                                    # does not exist raised a bare
+                                    # `AttributeError` naming neither the
+                                    # product nor the set - while both paths
+                                    # below, in this same function, warned and
+                                    # carried on.
+                                    logging.warning(
+                                        f"In sealed product {filename}: Set not found in boxOf: {json.dumps(in_set)}; {stale}"
+                                    )
+                                    return
+                                box_of.append(str(set_.id))
+                            in_json["boxOf"] = box_of
 
                         for in_content in in_json["contents"]:
                             for in_pack in in_content["packs"]:
@@ -2912,7 +2969,7 @@ class Database:
                                 )
                                 if not set_:
                                     logging.warning(
-                                        f"In sealed product {filename}: Set not found: {json.dumps(in_pack['set'])}"
+                                        f"In sealed product {filename}: Set not found: {json.dumps(in_pack['set'])}; {stale}"
                                     )
                                     return
                                 in_pack["set"] = str(set_.id)
@@ -2923,7 +2980,7 @@ class Database:
                                     )
                                     if not card:
                                         logging.warning(
-                                            f"In sealed product {filename}: Card not found: {json.dumps(in_pack['card'])}"
+                                            f"In sealed product {filename}: Card not found: {json.dumps(in_pack['card'])}; {stale}"
                                         )
                                         return
                                     in_pack["card"] = str(card.id)
@@ -2989,6 +3046,23 @@ class Database:
         :param generate_individuals: Whether or not to generate individualized JSON files.
         :param generate_aggregates: Whether or not to generate aggregated JSON files.
         """
+
+        # `increment` is whatever the artifact `load()` happened to read, and
+        # the two published artifacts drift: the aggregate push is
+        # `continue-on-error` because aggregates exceed GitHub's file size
+        # limit, so `v1/aggregate` can sit hundreds of increments behind
+        # `v1/individual`. A run seeded from the stale one publishes a counter
+        # the schema documents as monotonic having gone *down*, and nothing
+        # noticed. Never write less than an output directory already publishes.
+        for directory in (self.individuals_dir, self.aggregates_dir):
+            published = _published_increment(directory)
+            if published is not None and published > self.increment:
+                logging.warning(
+                    f"Loaded increment {self.increment} is behind the {published} "
+                    f"already published in {directory}; continuing from that, so "
+                    f"the published counter does not go backwards."
+                )
+                self.increment = published
 
         # a run saves once per job - ten times, in CI - and those ten saves are
         # one update of the database, not ten. Off CI there is no run identifier
@@ -3332,6 +3406,7 @@ class Database:
             print_status=PrintStatus(rawprinting["printStatus"])
             if "printStatus" in rawprinting
             else None,
+            print_note=rawprinting.get("printNote"),
         )
         printings[result.id] = result
         return result
@@ -3626,6 +3701,26 @@ class Database:
             progress_bar.update(1)
 
 
+def _published_increment(directory: typing.Optional[str]) -> typing.Optional[int]:
+    """The ``increment`` a directory already publishes, if it publishes one.
+
+    Read at save time rather than load time on purpose: a run is seeded from
+    whichever artifact ``load()`` was pointed at, which is not necessarily the
+    one it is about to overwrite."""
+    if not directory:
+        return None
+    path = os.path.join(directory, META_FILENAME)
+    if not os.path.exists(path):
+        return None
+    try:
+        with open(path, encoding="utf-8") as file:
+            return int(json.load(file)["increment"])
+    except (ValueError, KeyError, OSError):
+        # An unreadable or half-written `meta.json` is not a reason to refuse
+        # to publish; it just cannot vouch for a number.
+        return None
+
+
 def load_from_file(
     *,
     individuals_dir: typing.Optional[str] = None,
@@ -3801,11 +3896,20 @@ def download_published_zip(
         zip_already_exists = os.path.exists(zippath)
 
         if zip_already_exists:
-            response = requests.head(repository + "/" + zipname, stream=True)
+            # `allow_redirects` because `requests.head` does not follow them by
+            # default, unlike `requests.get`: the release URL answers 302 with
+            # no `Last-Modified` at all, and the header only appears on the
+            # asset the redirect leads to.
+            response = requests.head(
+                repository + "/" + zipname, stream=True, allow_redirects=True
+            )
             if not response.ok:
                 response.raise_for_status()
             if LAST_MODIFIED_HEADER in response.headers:
-                last_modified = datetime.datetime.fromisoformat(
+                # An RFC 7231 date - `Fri, 07 Aug 2026 03:42:10 GMT`.
+                # `datetime.fromisoformat` raises `ValueError` on it, which
+                # never showed because the header was never there to parse.
+                last_modified = email.utils.parsedate_to_datetime(
                     response.headers[LAST_MODIFIED_HEADER]
                 )
         progress_bar.update(1)

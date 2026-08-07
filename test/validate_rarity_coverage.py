@@ -39,11 +39,29 @@ restructured module cannot be mistaken for a missing rarity — the two want
 completely different responses.
 """
 
-MAIN_TABLE = re.compile(r"\blocal main = \{(.*?)\n\}", re.DOTALL)
-"""The module's ``main`` table, which is one entry per rarity.
+EXIT_UNRESOLVED_SPELLING = 3
+"""Yugipedia accepts a spelling of a modelled rarity that we do not.
 
-Its sibling ``normalize`` table is one entry per accepted *spelling*, which is
-a different thing and not what this checks."""
+Distinct from :data:`EXIT_UNMODELLED_RARITY` because it costs less and is fixed
+differently: the rarity is modelled and every other spelling of it still works,
+so only the printings written that particular way lose their rarity, and the
+repair is a string in an existing row rather than a new one."""
+
+MAIN_TABLE = re.compile(r"\blocal main = \{(.*?)\n\}", re.DOTALL)
+"""The module's ``main`` table, which is one entry per rarity."""
+
+NORMALIZE_TABLE = re.compile(r"\blocal normalize = \{(.*?)\n\}", re.DOTALL)
+"""The module's ``normalize`` table, which is one entry per accepted spelling.
+
+This is how the wiki's own templates accept what editors actually type, so it
+is the list of strings a set list or gallery can legitimately contain. We read
+wikitext rather than rendered output, so a spelling here that we do not accept
+is a printing published without its rarity - and normalization cannot rescue
+it, because `duelterminalnormalparallel` and `duelterminalnormalparallelrare`
+differ by a word, not by punctuation."""
+
+ALIAS_ROW = re.compile(r"\['(?P<alias>[^']+)'\]\s*=\s*'(?P<key>[^']+)'")
+"""One ``['alias'] = 'key'`` entry of the ``normalize`` table."""
 
 RARITY_ROW = re.compile(r"\['(?P<key>[^']+)'\]\s*=\s*\{(?P<body>[^}]*)\}")
 """One ``['key'] = { abbr = 'X', full = 'Y' }`` entry of the ``main`` table."""
@@ -110,6 +128,57 @@ def parse_rarities(wikitext: str) -> typing.Tuple[WikiRarity, ...]:
     return rarities
 
 
+def parse_aliases(wikitext: str) -> typing.Dict[str, str]:
+    """Returns every spelling the module's ``normalize`` table accepts.
+
+    Raises if the table cannot be found or cannot be read whole, for the same
+    reason :func:`parse_rarities` does: a restructured module must report as
+    unreadable rather than as a wiki that suddenly accepts no spellings.
+    """
+    table = NORMALIZE_TABLE.search(wikitext)
+    if not table:
+        raise ValueError("no 'local normalize = {...}' table")
+    body = table.group(1)
+    aliases = {row.group("alias"): row.group("key") for row in ALIAS_ROW.finditer(body)}
+    entries = len(ROW_KEY.findall(body))
+    if len(aliases) != entries:
+        raise ValueError(f"read {len(aliases)} of the table's {entries} spellings")
+    return aliases
+
+
+def report_spelling_gaps(
+    aliases: typing.Dict[str, str], rarities: typing.Tuple[WikiRarity, ...]
+) -> typing.List[str]:
+    """Returns one line per spelling Yugipedia accepts that we do not resolve.
+
+    Compared against the rarity the module maps the spelling onto, not against
+    each other, so a spelling that resolves to the *wrong* rarity is reported
+    as loudly as one that resolves to nothing.
+
+    Spellings whose canonical key is not in ``main`` are skipped rather than
+    reported: that is a broken row of the wiki's own table, and
+    :func:`report_gaps` is the check that owns the ``main`` table.
+    """
+    by_key = {rarity.key: rarity for rarity in rarities}
+    gaps = []
+    for alias, key in sorted(aliases.items()):
+        rarity = by_key.get(key)
+        if rarity is None:
+            continue
+        ours = resolve_abbreviation(alias)
+        if ours is None:
+            gaps.append(
+                f"'{alias}' resolves to nothing; Yugipedia reads it as "
+                f"{rarity.name} ({rarity.abbreviation})"
+            )
+        elif ours != rarity.abbreviation:
+            gaps.append(
+                f"'{alias}' resolves to '{ours}' for us and to "
+                f"'{rarity.abbreviation}' ({rarity.name}) for Yugipedia"
+            )
+    return gaps
+
+
 def report_gaps(rarities: typing.Tuple[WikiRarity, ...]) -> typing.List[str]:
     """Returns one line per rarity of the wiki's we do not resolve as it does.
 
@@ -149,7 +218,9 @@ def report_gaps(rarities: typing.Tuple[WikiRarity, ...]) -> typing.List[str]:
 
 def main(argv: typing.List[str]) -> int:
     try:
-        rarities = parse_rarities(fetch_module())
+        wikitext = fetch_module()
+        rarities = parse_rarities(wikitext)
+        aliases = parse_aliases(wikitext)
     except Exception as error:
         # Anything at all that goes wrong before there is a table to compare
         # means the check did not run. Saying so is the whole point: an outage
@@ -169,9 +240,21 @@ def main(argv: typing.List[str]) -> int:
         )
         return EXIT_UNMODELLED_RARITY
 
+    spelling_gaps = report_spelling_gaps(aliases, rarities)
+    if spelling_gaps:
+        print(f"Yugipedia accepts spellings in {MODULE_PAGE} that we do not:")
+        for gap in spelling_gaps:
+            print(f"\t{gap}")
+        print(
+            "Add each to the `spellings` tuple of the matching row in "
+            "src/ygojson/rarity.py."
+        )
+        return EXIT_UNRESOLVED_SPELLING
+
     print(
         f"All {len(rarities)} rarities in {MODULE_PAGE} resolve, with "
-        f"Yugipedia's abbreviation. ({len(RARITIES)} rows in RARITIES; the "
+        f"Yugipedia's abbreviation, and so do all {len(aliases)} spellings its "
+        f"normalize table accepts. ({len(RARITIES)} rows in RARITIES; the "
         "rest are rarities Yugipedia has dropped, which is allowed.)"
     )
     return 0

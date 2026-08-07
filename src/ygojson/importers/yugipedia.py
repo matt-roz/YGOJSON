@@ -18,6 +18,11 @@ import tqdm
 import wikitextparser
 
 from ..database import *
+from ..print_status import (
+    print_status_note,
+    report_unknown_print_status,
+    resolve_print_status,
+)
 from ..rarity import report_unknown_rarity, resolve_abbreviation, resolve_rarity
 from ..warnings import EXPECTED_CONDITIONS
 
@@ -180,6 +185,22 @@ def paginate_query(query) -> typing.Iterable:
 
 CAT_TCG_CARDS = "Category:TCG cards"
 CAT_OCG_CARDS = "Category:OCG cards"
+RUSH_MEDIUM = "rush duel"
+"""What `{{Infobox set}}`'s ``medium`` says on a Rush Duel set.
+
+The only thing on a set page that distinguishes one: its navigation table
+names Japanese and Korean locales exactly as an OCG set does, so without this
+every Rush Duel product publishes as `ocg`."""
+
+CAT_RUSH_CARDS = "Category:Rush Duel cards"
+"""The 3151 Rush Duel card pages, which are in neither of the two categories
+above and so were never discovered, fetched or parsed.
+
+Their absence was silent and reached much further than the cards themselves:
+every Rush Duel set published `"cards": []`, and 1234 Duel Links set list rows
+across 38 sets resolved to nothing because a Duel Links Rush Duel row names the
+Rush Duel card page. The pages carry the same `{{CardTable2}}` as every other
+card, so the parser reads them without changes."""
 CAT_TOKENS = "Category:Tokens"
 CAT_SKILLS = "Category:Skill Cards"
 CAT_UNUSABLE = "Category:Unusable cards"
@@ -193,7 +214,63 @@ SET_CATS = [
     "Category:Yu-Gi-Oh! Master Duel sets",
     "Category:Yu-Gi-Oh! Duel Links sets",
     "Category:Preconstructed Decks",  # for specifically the Speed Duel box decks, because for some reason they have no format category in Yugipedia
+    # Orphaned on Yugipedia: each of these has no parent category at all, so
+    # the recursive walk below - which only ever descends - cannot reach them
+    # from the roots above no matter where it starts. See the docstring.
+    "Category:+1 Assist Packs",
+    "Category:+1 Expansion Packs",
+    "Category:Asian-English Tournament Packs",
+    "Category:Boss Duel Decks",
+    "Category:Complement Packs",
+    "Category:Duelist Sets",
+    "Category:Event Packs",
+    "Category:Genesys Packs",
+    "Category:Hidden Chapter Packs",
+    "Category:Korean National Championship promotional cards",
+    "Category:Master Guide promotional cards",
+    "Category:OCG Special Edition Sets",
+    "Category:OCG book promotional cards",
+    "Category:Perfect Rulebook promotional cards",
+    "Category:Premiere! promotional cards",
+    "Category:Simplified Chinese Tournament Packs",
+    "Category:TCG bundles",
+    "Category:Ultimate Tournament Packs",
+    "Category:Weekly Shonen Jump Jump Pack promotional cards",
+    "Category:Winner's Packs",
 ]
+"""The category roots every set page is enumerated from.
+
+``getCategoryMembersRecursive`` only ever descends, so a set page exists for us
+only if one of its categories has an upward path to a root here. Nothing warns
+when that fails: a page never enumerated is never fetched, so it cannot reach
+any parse-time warning, and the only signal is a manual fixup that happens to
+name it.
+
+Walking the tree from the five format roots reaches 3475 pages, which is every
+one of the 3376 sets we publish and nothing else. Against Yugipedia's own
+``Category:All sets``, that leaves **463 pages carrying both ``{{Infobox set}}``
+and ``{{Set navigation}}`` that we never look at.** The twenty roots added here
+are the orphaned categories holding the products among them; they recover 101
+of those pages and pull in no subcategories.
+
+Deliberately not here:
+
+- **Rush Duel**, 331 of the 463, across five orphaned categories. Rush Duel
+  cards never import at all, so enumerating their sets would publish 331 sets
+  with empty card lists - the exact silent failure that stripping set page
+  disambiguators just fixed for 32 others. These belong here the day that is
+  fixed, and not before.
+- ``Category:Sets without a database ID`` and ``…without an English database
+  ID``, which are tracking categories: their membership is whatever currently
+  lacks an ID, so a wiki edit would silently add or drop sets from our output.
+- **26 pages that carry no content category at all**, only ``Category:All
+  sets`` and tracking categories. No root can reach them; they need a category
+  adding on the wiki.
+- ``Category:All sets`` itself. It has 5217 members against our 3376 published
+  sets, and 1998 of them carry no ``{{Set navigation}}`` - anime, manga and
+  video-game sets we exclude on purpose. Adding it would be a decision about
+  what the database contains, not a fix for this one.
+"""
 
 BANLIST_CATS = {
     "tcg": "Category:TCG Advanced Format Forbidden & Limited Lists",
@@ -217,21 +294,20 @@ FILE_PREFIX = "file::"
 
 
 def get_card_pages(batcher: "YugipediaBatcher") -> typing.Iterable[int]:
-    with tqdm.tqdm(total=2, desc="Fetching Yugipedia card list") as progress_bar:
+    cats = [CAT_TCG_CARDS, CAT_OCG_CARDS, CAT_RUSH_CARDS]
+    with tqdm.tqdm(
+        total=len(cats), desc="Fetching Yugipedia card list"
+    ) as progress_bar:
         result = []
         seen = set()
 
-        @batcher.getCategoryMembers(CAT_TCG_CARDS)
-        def catMem1(members: typing.List[int]):
-            result.extend(x for x in members if x not in seen)
-            seen.update(members)
-            progress_bar.update(1)
+        for cat in cats:
 
-        @batcher.getCategoryMembers(CAT_OCG_CARDS)
-        def catMem2(members: typing.List[int]):
-            result.extend(x for x in members if x not in seen)
-            seen.update(members)
-            progress_bar.update(1)
+            @batcher.getCategoryMembers(cat)
+            def catMem(members: typing.List[int]):
+                result.extend(x for x in members if x not in seen)
+                seen.update(members)
+                progress_bar.update(1)
 
         return result
 
@@ -448,6 +524,7 @@ TYPES = {
     "Creator God": Race.CREATORGOD,
     "Wyrm": Race.WYRM,
     "Cyberse": Race.CYBERSE,
+    "Charisma": Race.CHARISMA,
 }
 CLASSIFICATIONS = {
     "Normal": Classification.NORMAL,
@@ -581,11 +658,19 @@ def parse_card(
             pass  # some illegal-for-play monsters have no attribute
         else:
             value = value.strip().lower()
-            if value == "???":
-                pass  # attribute to be announced; omit it
+            if value in {"?", "???"}:
+                # attribute deliberately unspecified or to be announced; omit
+                # it. Three imported tokens - `Option Token`, `Crystal Beast
+                # Token`, `Duel Dragon Token` - write `?` where a card yet to
+                # be revealed writes `???`, and mean the same thing by it.
+                pass
             elif value not in Attribute._value2member_map_:
-                if card.card_type != CardType.TOKEN:
-                    logging.warning(f"Unknown attribute '{value.strip()}' in {title}")
+                # Tokens used to be exempt from this warning, which is why
+                # `Charisma Token` - a printed OCG card whose attribute is
+                # `LAUGH` - dropped that attribute in silence while its
+                # equally unmodelled typeline warned. A dropped value is worth
+                # the same line whichever kind of card carries it.
+                logging.warning(f"Unknown attribute '{value.strip()}' in {title}")
             else:
                 card.attribute = Attribute(value)
 
@@ -901,10 +986,35 @@ def parse_card(
 
 CARD_GALLERY_NAMESPACE = "Set Card Galleries:"
 
-PRINT_STATUS_STR_TO_ENUM = {
-    "new": PrintStatus.NEW,
-    "reprint": PrintStatus.REPRINT,
+GALLERY_LEGEND_WORDS = {
+    "number",
+    "card number",
+    "name",
+    "card name",
+    "rarity",
+    "card rarity",
+    "rarities",
+    "card rarities",
+    "alt",
+    "print",
+    "quantity",
 }
+"""Every word ``Set gallery`` and ``Set list`` use to name a row's columns in
+their own documentation.
+
+A row whose columns are *all* from this vocabulary is that documentation line
+left on a gallery nobody filled in - three of them carry ``number; name;
+rarity`` verbatim - rather than a printing. Both templates' words are listed
+because a stub is a pasted line and the row does not say which template it was
+pasted from.
+
+Matched as a vocabulary and not as one string on purpose: an exact match
+against wiki free text stops matching the day somebody edits the line, and says
+nothing when it does. Widening this is what costs a printing, and only barely -
+every column must match, so a word here is dangerous only if a card is named it
+*and* sits at a card number and a rarity that are legend words too. Narrowing
+it only returns the noise.
+"""
 
 IMAGE_VARIANT_STR_TO_ENUM = {
     "AA": ImageVariant.ALTERNATE_ART,
@@ -967,6 +1077,32 @@ FORMATS_IN_NAV = {
     "sc": "OCG",
     "ae": "OCG",
 }
+
+SET_DISAMBIGUATOR = re.compile(r"\s*\(([^(]*)\)\s*$")
+"""The trailing parenthetical Yugipedia appends to a set page's title when the
+name is taken - ``Premium Pack 2 (TCG)``, ``Metal Raiders (Japanese)``.
+
+Matches ``Module:Util``'s ``getDab``/``removeDab``, which is what builds every
+``Set Card Lists:``/``Set Card Galleries:`` link on the wiki. Content with no
+``(`` keeps a name whose own parentheses are nested from being cut short."""
+
+SET_DISAMBIGUATORS_IN_NAME = {
+    "2011",
+    "2018",
+    "2019",
+    "series",
+    "All-Foil Edition",
+    "Obelisk the Tormentor",  # 20th Anniversary Duel Set
+    "Slifer the Sky Dragon",  # 20th Anniversary Duel Set
+    "25th Anniversary Edition",
+}
+"""Parentheticals that are part of the set's name rather than a disambiguator,
+so their card list and gallery pages carry them.
+
+``Module:Set navigation``'s ``SET_NAMES_SPECIAL_CASES``. Dropping one of these
+derives a card list page that does not exist, which publishes the set with no
+printings and warns about nothing - the same silent failure stripping none of
+them caused for 32 sets."""
 
 FALLBACK_LOCALES = {
     "en": "",
@@ -1116,6 +1252,7 @@ class RawPrinting:
         noabbr: bool,
         row: int,
         print_status: typing.Optional[PrintStatus] = None,
+        print_note: typing.Optional[str] = None,
     ) -> None:
         self.card = card
         self.code = code
@@ -1125,6 +1262,7 @@ class RawPrinting:
         self.noabbr = noabbr
         self.row = row
         self.print_status = print_status
+        self.print_note = print_note
 
     def locator(self) -> PrintingLocator:
         return PrintingLocator(self.card, self.rarity, self.code)
@@ -1251,8 +1389,74 @@ COLORFUL_RARES = {
 FALLBACK_RARITIES = {
     CardRarity.COMMON: CardRarity.SHORTPRINT,
     CardRarity.SHORTPRINT: CardRarity.COMMON,
+    # `Parallel Rare` is a class of rarities on Yugipedia, not a rarity: its
+    # module publishes only the tiers (`npr`, `spr`, `upr`, `scpr`, `hgpr`), and
+    # no set list anywhere resolves to `parallel`. The term survives on the two
+    # `World Ranking Promos` galleries, which link `[[PR]]` beside `-NPR` image
+    # files for a list reading `rarities=Common, Normal Parallel Rare`. Falling
+    # back to the class's Common tier is a guess, and it is only ever reached
+    # once an exact match has failed - so it costs a dropped image at worst,
+    # where an exact `parallel` printing would already have won.
+    CardRarity.PARALLEL: CardRarity.COMMONPARALLEL,
     **{r2: r1 for (r1, alt), r2 in COLORFUL_RARES.items()},
 }
+
+
+class GalleryImageSuffix(typing.NamedTuple):
+    """Everything after the card name in a gallery image's filename.
+
+    Yugipedia builds these filenames from the card's *English name*, which
+    ``Module:Card image name`` looks up from the page the row names rather than
+    reading off the row. A row naming a disambiguated page - ``Obelisk the
+    Tormentor (original)``, ``Dark Magician (Arkana)`` - therefore has a
+    filename stem that its own text does not contain, and asking for the stem
+    the text does give finds nothing: the batcher caches the miss and never
+    calls back, so the printing loses its image and its ``replica`` flag
+    without a line in the log.
+
+    The suffix is known when the row is parsed and the stem is not, since the
+    card is resolved asynchronously. This carries the one until the other
+    arrives."""
+
+    suffix: str
+
+
+def _setname_in_page_titles(name: str) -> str:
+    """The set name Yugipedia builds its card list and gallery page titles from.
+
+    ``Module:Set navigation``'s ``normalizeSetNameForLink``: the page title's
+    disambiguator is dropped unless it is part of the name. Deriving these page
+    titles from the raw page title instead finds nothing for every set whose
+    title is disambiguated, and nothing warns - the page simply does not exist,
+    so the set publishes with an empty card list."""
+    disambiguator = SET_DISAMBIGUATOR.search(name)
+    if disambiguator and disambiguator.group(1).strip() in SET_DISAMBIGUATORS_IN_NAME:
+        return name.strip()
+    return SET_DISAMBIGUATOR.sub("", name).strip()
+
+
+def _parse_nav_locales(raw: str, setname: str) -> typing.List[typing.Tuple[str, str]]:
+    """Split one ``{{Set navigation}}`` ``lists``/``*_galleries`` value into its
+    ``(locale key, set name)`` entries, in the order the nav names them.
+
+    An entry may carry its own set name in a parenthetical - ``NA (Magic
+    Ruler)`` - for a locale whose pages sit under a different name than the
+    rest of the set's. Reading the whole entry as the locale key instead loses
+    that locale entirely, warning only that the key is unknown."""
+    entries = []
+    for entry in raw.split(","):
+        if not entry.strip():
+            continue
+        override = SET_DISAMBIGUATOR.search(entry)
+        locale = SET_DISAMBIGUATOR.sub("", entry).strip().lower()
+        name = (
+            _setname_in_page_titles(override.group(1))
+            if override and override.group(1).strip()
+            else setname
+        )
+        if (locale, name) not in entries:
+            entries.append((locale, name))
+    return entries
 
 
 def parse_tcg_ocg_set(
@@ -1276,6 +1480,9 @@ def parse_tcg_ocg_set(
             set_.name[Language.normalize(key)] = namearg
 
     navs = [x for x in data.templates if x.name.strip().lower() == "set navigation"]
+    transclusions = [
+        x for x in data.templates if x.name.strip().lower() == "set list transclusion"
+    ]
     if len(navs) > 1:
         logging.warning(f"Found set with multiple set navigation tables: {title}")
 
@@ -1317,7 +1524,9 @@ def parse_tcg_ocg_set(
         return GetCardDecorator
 
     def addcardlist(
-        setname: str, raw_locale: RawLocale, editions: typing.List[SetEdition]
+        setname: str,
+        raw_locale: RawLocale,
+        galleries: typing.List[typing.Tuple[SetEdition, str]],
     ):
         listpagename = f"Set Card Lists:{setname} ({raw_locale.format.upper()}-{raw_locale.key.upper()})"
 
@@ -1340,12 +1549,20 @@ def parse_tcg_ocg_set(
                 noabbr: bool,
                 row: int,
                 print_status: typing.Optional[PrintStatus] = None,
+                print_note: typing.Optional[str] = None,
             ):
                 @get_card(name)
                 def onGetCard(card: Card):
                     rcs: typing.List[RawPrinting] = []
                     raw_rc = RawPrinting(
-                        card, code, rarity, qty or 1, noabbr, row, print_status
+                        card,
+                        code,
+                        rarity,
+                        qty or 1,
+                        noabbr,
+                        row,
+                        print_status,
+                        print_note,
                     )
                     if (
                         setname in MANUAL_RARITY_FIXUPS
@@ -1361,6 +1578,7 @@ def parse_tcg_ocg_set(
                                     raw_rc.noabbr,
                                     raw_rc.row,
                                     raw_rc.print_status,
+                                    raw_rc.print_note,
                                 )
                             )
                     else:
@@ -1470,17 +1688,24 @@ def parse_tcg_ocg_set(
                             col_index += 1
 
                             print_status = None
+                            print_note = None
                             if has_print_column:
                                 raw_print_status = (
                                     cols[col_index] if len(cols) > col_index else ""
                                 ) or raw_default_reprint_status
                                 if raw_print_status and raw_print_status.strip():
-                                    print_status = PRINT_STATUS_STR_TO_ENUM.get(
-                                        raw_print_status.strip().lower()
+                                    print_status = resolve_print_status(
+                                        raw_print_status
                                     )
+                                    # Published whether or not the status
+                                    # resolved: a phrase we decline to classify
+                                    # is exactly the one worth handing on whole.
+                                    print_note = print_status_note(raw_print_status)
                                     if not print_status:
-                                        logging.warning(
-                                            f"Got strange print status in {listpagename}, in row {name}: {raw_print_status.strip()}"
+                                        report_unknown_print_status(
+                                            listpagename,
+                                            raw_print_status,
+                                            f"row {name}",
                                         )
                                 col_index += 1
 
@@ -1505,6 +1730,7 @@ def parse_tcg_ocg_set(
                                     noabbr,
                                     next(row_numbers),
                                     print_status,
+                                    print_note,
                                 )
 
             if not setlists:
@@ -1513,11 +1739,11 @@ def parse_tcg_ocg_set(
                 )
 
             batcher.flushPendingOperations()
-            for edition in editions:
-                get_gallery_data(setname, raw_locale, edition, raw_locale.key)
+            for rank, (edition, gallery_setname) in enumerate(galleries):
+                get_gallery_data(gallery_setname, raw_locale, edition, rank)
 
     def get_gallery_data(
-        setname: str, raw_locale: RawLocale, edition: SetEdition, locale_code: str
+        setname: str, raw_locale: RawLocale, edition: SetEdition, rank: int
     ):
         if edition not in raw_locale.editions:
             raw_locale.editions.append(edition)
@@ -1540,44 +1766,59 @@ def parse_tcg_ocg_set(
                     name: str,
                     rarity: CardRarity,
                     alt: str,
-                    image: str,
+                    image: typing.Union[str, GalleryImageSuffix],
                     row: int,
                     code: typing.Optional[str] = None,
                 ):
-                    @batcher.getImageURL(f"File:{image}")
-                    def onGetImage(url: str):
-                        def onGetCard(card: Card, card_rarity: CardRarity = rarity):
-                            rcs = [
-                                rc
-                                for rc in raw_locale.cards.values()
-                                if rc.card == card and rc.rarity == card_rarity
-                            ]
-                            if code and any(rc.code == code for rc in rcs):
-                                rcs = [rc for rc in rcs if rc.code == code]
-                            if not rcs:
-                                if (
-                                    rarity == card_rarity
-                                    and card_rarity in FALLBACK_RARITIES
-                                ):
-                                    onGetCard(card, FALLBACK_RARITIES[card_rarity])
-                                elif (
-                                    not alt
-                                ):  # some special cards, like oversized cards, should be ignored
-                                    logging.warning(
-                                        f"Printing in gallery {galleryname} not found in locale: {name} / {rarity.value} -- Available in {[rc.rarity.value for rc in raw_locale.cards.values() if rc.card == card]}"
-                                    )
-                            else:
-                                for rc in rcs:
-                                    _record_image(
-                                        rc.image,
-                                        ImageLocator(edition, alt),
-                                        (gallery_rank, row),
-                                        url,
-                                    )
+                    # The card is resolved first so that a `GalleryImageSuffix`
+                    # can be completed with the card's English name, which is
+                    # what Yugipedia names these files after. Nothing is lost by
+                    # the order: an image whose card does not resolve could not
+                    # be attached to a printing anyway.
+                    @get_card(name)
+                    def onGetCardPage(card: Card):
+                        if isinstance(image, GalleryImageSuffix):
+                            stem = name
+                            if Language.ENGLISH in card.text and (
+                                card.text[Language.ENGLISH].name
+                            ):
+                                stem = card.text[Language.ENGLISH].name
+                            filename = re.sub(r"\W", r"", stem) + image.suffix
+                        else:
+                            filename = image
 
-                        @get_card(name)
-                        def do(card: Card):
-                            onGetCard(card)
+                        @batcher.getImageURL(f"File:{filename}")
+                        def onGetImage(url: str):
+                            def onGetCard(card_rarity: CardRarity = rarity):
+                                rcs = [
+                                    rc
+                                    for rc in raw_locale.cards.values()
+                                    if rc.card == card and rc.rarity == card_rarity
+                                ]
+                                if code and any(rc.code == code for rc in rcs):
+                                    rcs = [rc for rc in rcs if rc.code == code]
+                                if not rcs:
+                                    if (
+                                        rarity == card_rarity
+                                        and card_rarity in FALLBACK_RARITIES
+                                    ):
+                                        onGetCard(FALLBACK_RARITIES[card_rarity])
+                                    elif (
+                                        not alt
+                                    ):  # some special cards, like oversized cards, should be ignored
+                                        logging.warning(
+                                            f"Printing in gallery {galleryname} not found in locale: {name} / {rarity.value} -- Available in {[rc.rarity.value for rc in raw_locale.cards.values() if rc.card == card]}"
+                                        )
+                                else:
+                                    for rc in rcs:
+                                        _record_image(
+                                            rc.image,
+                                            ImageLocator(edition, alt),
+                                            (gallery_rank, row),
+                                            url,
+                                        )
+
+                            onGetCard()
 
                 for gallery in gallery_templates:
                     default_abbr = get_table_entry(gallery, "abbr", "").strip()
@@ -1625,6 +1866,25 @@ def parse_tcg_ocg_set(
                                 cols = [x.strip() for x in pre_comment.split(";")]
 
                                 if not cols:
+                                    continue
+
+                                if all(
+                                    col.lower() in GALLERY_LEGEND_WORDS for col in cols
+                                ):
+                                    # The template's own parameter legend, left
+                                    # on a gallery nobody filled in. Not a card
+                                    # row, and correctly skipped. It has to go
+                                    # before the rarity column is resolved:
+                                    # `rarity` is a legend word, so the row
+                                    # otherwise warns once as an unknown rarity
+                                    # and once as an undecipherable rarity code,
+                                    # then spends an image lookup on a file
+                                    # named after a card called `name`. Counted
+                                    # rather than printed - see
+                                    # `EXPECTED_CONDITIONS`.
+                                    EXPECTED_CONDITIONS.warning(
+                                        f"Found parameter legend where a gallery row should be in {galleryname}: {pre_comment}"
+                                    )
                                     continue
 
                                 col_index = 0
@@ -1684,33 +1944,38 @@ def parse_tcg_ocg_set(
                                 else:
                                     alt = raw_alt
 
+                                image: typing.Union[str, GalleryImageSuffix]
                                 if file_override:
                                     image = file_override.group(1)
                                 else:
-                                    image = re.sub(r"\W", r"", name)
+                                    # everything after the card's name; the name
+                                    # itself is only known once the row's card
+                                    # resolves - see `GalleryImageSuffix`
+                                    suffix = ""
                                     if code:
                                         code_before_dash = re.match(r"[^\-]+", code)
                                         if code_before_dash:
-                                            image += f"-{code_before_dash.group(0)}"
-                                    image += f"-{raw_locale.key.upper()}"
+                                            suffix += f"-{code_before_dash.group(0)}"
+                                    suffix += f"-{raw_locale.key.upper()}"
                                     if raw_rarity:
                                         rarity_code = resolve_abbreviation(raw_rarity)
                                         if rarity_code:
-                                            image += f"-{rarity_code}"
+                                            suffix += f"-{rarity_code}"
                                         else:
-                                            image += f"-{raw_rarity}"
+                                            suffix += f"-{raw_rarity}"
                                             logging.warning(
                                                 f"Could not decipher rarity code for {name} in {galleryname}: {raw_rarity}"
                                             )
                                     ed_str = EDITIONS_IN_NAV_REVERSE[edition].upper()
                                     if "-" + ed_str in galleryname:
-                                        image += f"-{ed_str}"
+                                        suffix += f"-{ed_str}"
                                     if raw_alt:
-                                        image += f"-{raw_alt}"
+                                        suffix += f"-{raw_alt}"
                                     if ext_override:
-                                        image += f".{ext_override.group(1)}"
+                                        suffix += f".{ext_override.group(1)}"
                                     else:
-                                        image += ".png"
+                                        suffix += ".png"
+                                    image = GalleryImageSuffix(suffix)
 
                                 add_card_image(
                                     name, rarity, alt, image, next(row_numbers), code
@@ -1758,14 +2023,16 @@ def parse_tcg_ocg_set(
                     logging.warning(f"No gallery tables found in {galleryname}!")
 
         # the edition's own gallery first, so that _record_image prefers its
-        # scan over the edition-agnostic gallery's where a locale has both
+        # scan over the edition-agnostic gallery's where a locale has both.
+        # `rank` keeps the set navigation's own order between galleries when a
+        # locale names more than one, so the earlier-named gallery still wins.
         do(
             f"Set Card Galleries:{setname} ({raw_locale.format.upper()}-{raw_locale.key.upper()}-{EDITIONS_IN_NAV_REVERSE[edition].upper()})",
-            0,
+            rank * 2,
         )
         do(
             f"Set Card Galleries:{setname} ({raw_locale.format.upper()}-{raw_locale.key.upper()})",
-            1,
+            rank * 2 + 1,
         )
 
     def parse_packimage_line(line: str, row: int):
@@ -1790,18 +2057,25 @@ def parse_tcg_ocg_set(
                         if key not in packimages or row < packimages[key][0]:
                             packimages[key] = (row, url)
 
-    for nav in navs:
-        lists = [
-            x.strip().lower()
-            for x in get_table_entry(nav, "lists", "").split(",")
-            if x.strip()
+    # Where this page says its card list and gallery pages are, as
+    # ``(lists, galleries)``. A `{{Set navigation}}` names them per locale;
+    # `{{Set list transclusion}}` names a single list page directly and is the
+    # only thing `Promotional Pack` - a Spanish booster of 50 cards - has.
+    list_sources: typing.List[
+        typing.Tuple[
+            typing.List[typing.Tuple[str, str]],
+            typing.Dict[str, typing.List[typing.Tuple[str, str]]],
         ]
-        galleries: typing.Dict[str, typing.List[str]] = {}
+    ] = []
+
+    for nav in navs:
+        galleries: typing.Dict[str, typing.List[typing.Tuple[str, str]]] = {}
         setname = title
 
         for arg in nav.arguments:
-            if arg.positional and arg.name == "0":
-                # alternate set name
+            if arg.positional and arg.value.strip():
+                # alternate set name, for a set whose pages are not under its
+                # page title at all
                 setname = arg.value.strip()
             if arg.name.endswith("_galleries") and all(
                 not arg.name.startswith(x) for x in EDITIONS_IN_NAV
@@ -1809,29 +2083,56 @@ def parse_tcg_ocg_set(
                 logging.warning(
                     f"Found gallery argument for unknown edition in {title}: {arg.name}"
                 )
+        setname = _setname_in_page_titles(setname)
 
+        lists = _parse_nav_locales(get_table_entry(nav, "lists", ""), setname)
         for edition in EDITIONS_IN_NAV:
-            galleries[edition] = [
-                x.strip().lower()
-                for x in get_table_entry(nav, f"{edition}_galleries", "").split(",")
-                if x.strip()
-            ]
+            galleries[edition] = _parse_nav_locales(
+                get_table_entry(nav, f"{edition}_galleries", ""), setname
+            )
 
         if not lists and not galleries:
             logging.warning(f"Found set without card lists or galleries: {title}")
 
+        list_sources.append((lists, galleries))
+
+    for transclusion in transclusions:
+        positional = [x.value.strip() for x in transclusion.arguments if x.positional]
+        # `{{Set list transclusion|TCG-SP|Starter Deck: Yugi}}`: the format and
+        # locale of the one list page, then optionally the set name it is
+        # under, defaulting to this page's as the template's own `#explode`
+        # chain does.
+        raw_key = positional[0] if positional else "OCG-JP"
+        setname = _setname_in_page_titles(
+            positional[1] if len(positional) > 1 and positional[1] else title
+        )
+        lc = raw_key.rsplit("-", 1)[-1].strip().lower()
+        list_sources.append(
+            ([(lc, setname)], {edition: [] for edition in EDITIONS_IN_NAV})
+        )
+
+    release_dates = {
+        locale: _parse_date(_strip_markup(arg.value.strip()))
+        for arg in settable.arguments
+        if arg.name.strip()[-(len(RELDATE_SUFFIX) - 1) :] == RELDATE_SUFFIX[1:]
+        for locale in arg.name.strip()[: -len(RELDATE_SUFFIX)].split("/")
+    }
+
+    for lists, galleries in list_sources:
         # deduplicated but kept in the order the set navigation names them:
         # this drives the published locale and set contents ordering, which a
         # set would reshuffle on every run
         all_lcs = list(
-            dict.fromkeys([*lists, *[y for x in galleries.values() for y in x]])
+            dict.fromkeys(
+                [
+                    lc
+                    for lc, _ in [
+                        *lists,
+                        *[y for x in galleries.values() for y in x],
+                    ]
+                ]
+            )
         )
-        release_dates = {
-            locale: _parse_date(_strip_markup(arg.value.strip()))
-            for arg in settable.arguments
-            if arg.name.strip()[-(len(RELDATE_SUFFIX) - 1) :] == RELDATE_SUFFIX[1:]
-            for locale in arg.name.strip()[: -len(RELDATE_SUFFIX)].split("/")
-        }
         for lc in all_lcs:
             if lc not in FORMATS_IN_NAV:
                 logging.warning(f"Unknown locale in {title}: {lc}")
@@ -1869,19 +2170,30 @@ def parse_tcg_ocg_set(
                         break
                     date_lc = FALLBACK_LOCALES.get(date_lc)
 
-                if not any(x.lower() == lc for x in lists):
+                list_names = [name for locale, name in lists if locale == lc]
+                if not list_names:
                     logging.warning(
                         f"Found set navigation in {title} with gallery but no list for locale {lc}"
                     )
                     continue
 
                 addcardlist(
-                    setname,
+                    list_names[0],
                     raw_locale,
-                    [EDITIONS_IN_NAV[ec] for ec, lcs in galleries.items() if lc in lcs],
+                    [
+                        (EDITIONS_IN_NAV[ec], name)
+                        for ec, entries in galleries.items()
+                        for locale, name in entries
+                        if locale == lc
+                    ],
                 )
 
-    if not navs:
+    if not list_sources:
+        # The page says nothing about where its card lists are. Of the 35 pages
+        # this named in run 31142489208, 20 have no card list anywhere on the
+        # wiki - boxes and bundles recorded by their infobox alone - and 14 are
+        # video-game decks carrying `{{Video game set list}}`, a format this
+        # database does not model. Publishing no contents is right for all 34.
         logging.warning(f"Found set without set navigation table: {title}")
         return False
 
@@ -1920,6 +2232,10 @@ def parse_tcg_ocg_set(
         for p in c.cards
     }
 
+    # Which printing this run has already handed each reclaimed UUID to, so no
+    # UUID ends up on two different card codes. See where it is consulted.
+    printing_id_owners: typing.Dict[uuid.UUID, PrintingLocator] = {}
+
     # The art treatments this set's alternate artworks resolved to last run,
     # keyed the way the gallery names them. Harvested before the clear below for
     # the same reason ``old_printing_ids`` is: the locales are rebuilt from
@@ -1944,8 +2260,16 @@ def parse_tcg_ocg_set(
         SetContents, typing.Dict[PrintingLocator, CardPrinting]
     ] = {}
 
+    # `{{Set navigation}}` only says which locale a list is for, and every
+    # Rush Duel set is a Japanese or Korean one, so the format derived from the
+    # locale alone is `ocg` - which publishes Rush Duel products as though they
+    # were playable in the OCG. The infobox is where the two are told apart.
+    is_rush = (
+        RUSH_MEDIUM in _strip_markup(get_table_entry(settable, "medium", "")).lower()
+    )
+
     for raw_locale in raw_locales.values():
-        fmt = Format(raw_locale.format.lower())
+        fmt = Format.RUSHDUEL if is_rush else Format(raw_locale.format.lower())
 
         for edition in raw_locale.editions:
             image = packimages.get(
@@ -2005,16 +2329,30 @@ def parse_tcg_ocg_set(
                         f"Found mutliple printings with the same code and rarity in the same locale in {title}: {rcl.card.text[Language.ENGLISH].name} / {rcl.rarity.value}"
                     )
                     continue
+                # A printing UUID may be shared between contents blocks - that
+                # is how a set expresses one printing appearing in several
+                # locales - but only where the blocks agree on what the
+                # printing *is*. `old_printing_ids` is a plain locator-to-id
+                # map read off the previous publish, so once two locators there
+                # pointed at one id, both reclaimed it every run and the set
+                # kept publishing one UUID with two card codes. Refusing the
+                # reclaim breaks that loop; the second locator takes a fresh
+                # UUID, once.
+                old_id = old_printing_ids.get(rcl)
+                if (
+                    old_id is not None
+                    and printing_id_owners.setdefault(old_id, rcl) != rcl
+                ):
+                    old_id = None
                 printing = CardPrinting(
-                    id=old_printing_ids[rcl]
-                    if rcl in old_printing_ids
-                    else uuid.uuid4(),
+                    id=old_id if old_id is not None else uuid.uuid4(),
                     card=rc.card,
                     rarity=rc.rarity,
                     suffix=rcl.code,
                     replica=any(il.altinfo.lower() == "rp" for il in rc.image),
                     qty=rc.qty,
                     print_status=rc.print_status,
+                    print_note=rc.print_note,
                 )
                 raw_printings_to_printings[content][rcl] = printing
                 content.cards.append(printing)
@@ -2049,6 +2387,16 @@ def parse_tcg_ocg_set(
 
 
 MD_DISAMBIG_SUFFIX = " (Master Duel)"
+
+MD_HARDCODED_LIST_ROW = re.compile(r'^\|\s*"\[\[([^\]|]+)', re.MULTILINE)
+"""A card row of a Master Duel card list written as a raw wikitable.
+
+The card cell is the only one of the three that quotes its link, so this does
+not match the rarity or category cells beside it. Exactly one page on the wiki
+needs it - ``Set Card Lists:Legacy Pack``, 4057 rows - and Yugipedia files that
+page under ``Category:Pages with hardcoded formatting``, so it is meant to
+become a template eventually. Until it does, matching nothing here means
+dropping a set of 4057 cards with one warning to show for it."""
 DL_DISAMBIG_SUFFIX = " (Duel Links)"
 ARCHETYPE_DISAMBIG_SUFFIX = " (archetype)"
 SERIES_DISAMBIG_SUFFIX = " (series)"
@@ -2081,11 +2429,47 @@ def parse_md_set(
 
     # the cards the set list names, and which of its rows first named them
     found_cards: typing.Dict[Card, int] = {}
+    # what every row named, and which rows ended up with a card. As in
+    # `parse_dl_set`, a row can only ever be observed to resolve: a page lookup
+    # for a name Yugipedia does not have never calls back, so a miss has to be
+    # read off as the difference.
+    row_names: typing.Dict[int, str] = {}
+    resolved_rows: typing.Set[int] = set()
     row_numbers = itertools.count()
     setlists = [
         x for x in data.templates if x.name.strip().lower() == "master duel set list"
     ]
+
+    # The names this set's list gives, in list order, from whichever shape the
+    # wiki keeps them in.
+    cardnames: typing.List[str] = []
+    for setlist in setlists:
+        for arg in setlist.arguments:
+            if not arg.positional:
+                continue
+            for row in [x.strip() for x in arg.value.split("\n") if x.strip()]:
+                # first is card; second is rarity; third is (optional) quantity (in decks) or reprint status (in packs)
+                parts = [x.strip() for x in row.split(";") if x.strip()]
+                if parts:
+                    cardnames.append(parts[0])
+
     if not setlists:
+        # `Legacy Pack` keeps its 4057 cards in a hardcoded wikitable on its own
+        # list page rather than a `Master Duel set list` template - the only
+        # page on the wiki that does, and one Yugipedia itself files under
+        # `Category:Pages with hardcoded formatting`. Read it here rather than
+        # dropping the set: if that page is ever converted to the template, the
+        # branch above takes over and this one finds nothing.
+        @batcher.getPageContents(f"Set Card Lists:{set_.name[Language.ENGLISH]}")
+        def onGetList(raw_list_data: str):
+            cardnames.extend(
+                m.group(1).strip()
+                for m in MD_HARDCODED_LIST_ROW.finditer(raw_list_data)
+            )
+
+        batcher.flushPendingOperations()
+
+    if not cardnames:
         logging.warning(f"Found Master Duel set without setlists: {title}")
         return False
 
@@ -2099,45 +2483,34 @@ def parse_md_set(
     def onGetImage(url: str):
         contents.image = url
 
-    for setlist in setlists:
-        for arg in setlist.arguments:
-            if not arg.positional:
-                continue
-            for row in [x.strip() for x in arg.value.split("\n") if x.strip()]:
-                # first is card; second is rarity; third is (optional) quantity (in decks) or reprint status (in packs)
-                parts = [x.strip() for x in row.split(";") if x.strip()]
-                if not parts:
-                    continue
+    for cardname in cardnames:
+        if cardname.endswith(MD_DISAMBIG_SUFFIX):
+            cardname = cardname[: -len(MD_DISAMBIG_SUFFIX)]
 
-                cardname = parts[0]
-                if cardname.endswith(MD_DISAMBIG_SUFFIX):
-                    cardname = cardname[: -len(MD_DISAMBIG_SUFFIX)]
+        def add_card(card: Card, row: int):
+            resolved_rows.add(row)
+            found_cards.setdefault(card, row)
+            if card not in {p.card for p in contents.cards}:
+                contents.cards.append(CardPrinting(id=uuid.uuid4(), card=card))
 
-                def add_card(card: Card, row: int):
-                    found_cards.setdefault(card, row)
-                    if card not in {p.card for p in contents.cards}:
-                        contents.cards.append(CardPrinting(id=uuid.uuid4(), card=card))
+        def do(cardname: str, row: int):
+            @batcher.getPageID(cardname)
+            def onGetID(cardid: int, _: str):
+                card = db.cards_by_yugipedia_id.get(cardid)
+                if not card:
 
-                def do(cardname: str, row: int):
-                    @batcher.getPageID(cardname)
+                    @batcher.getPageID(cardname + " (card)")
                     def onGetID(cardid: int, _: str):
                         card = db.cards_by_yugipedia_id.get(cardid)
-                        if not card:
-
-                            @batcher.getPageID(cardname + " (card)")
-                            def onGetID(cardid: int, _: str):
-                                card = db.cards_by_yugipedia_id.get(cardid)
-                                if not card:
-                                    logging.warning(
-                                        f"Unknown card in MD set {title}: {cardname}"
-                                    )
-                                else:
-                                    add_card(card, row)
-
-                        else:
+                        if card:
                             add_card(card, row)
 
-                do(cardname, next(row_numbers))
+                else:
+                    add_card(card, row)
+
+        row = next(row_numbers)
+        row_names[row] = cardname
+        do(cardname, row)
 
     def deloldprints():
         for i, printing in enumerate([*contents.cards]):
@@ -2151,6 +2524,21 @@ def parse_md_set(
     # leaves `found_cards` empty here, `deloldprints` deletes the whole set as
     # unfound, and the answers then rebuild it with fresh printing UUIDs.
     batcher.flushPendingOperations()
+
+    unresolved = [
+        row_names[row] for row in sorted(row_names) if row not in resolved_rows
+    ]
+    if unresolved:
+        # One line per set, leading with the count - the same instrument as
+        # `parse_dl_set`, and broken here for the same reason: warning per row
+        # only ever fired where a row's `<name> (card)` page happened to exist.
+        shown = ", ".join(unresolved[:3])
+        if len(unresolved) > 3:
+            shown += f", and {len(unresolved) - 3} more"
+        logging.warning(
+            f"Unknown cards in MD set {title}: "
+            f"{len(unresolved)} of {len(row_names)} rows: {shown}"
+        )
 
     deloldprints()
 
@@ -2191,6 +2579,12 @@ def parse_dl_set(
 
     # the cards the set list names, and which of its rows first named them
     found_cards: typing.Dict[Card, int] = {}
+    # what every row named, and which rows ended up with a card. A row is only
+    # ever *shown* to have resolved, never shown to have failed: a page lookup
+    # for a name Yugipedia does not have never calls its callback at all, so a
+    # miss cannot report itself and has to be read off as the difference.
+    row_names: typing.Dict[int, str] = {}
+    resolved_rows: typing.Set[int] = set()
     row_numbers = itertools.count()
     setlists = [x for x in data.templates if x.name.strip().lower() == "set list"]
     if not setlists:
@@ -2219,6 +2613,7 @@ def parse_dl_set(
                     cardname = cardname[: -len(DL_DISAMBIG_SUFFIX)]
 
                 def add_card(card: Card, row: int):
+                    resolved_rows.add(row)
                     found_cards.setdefault(card, row)
                     if card not in {p.card for p in contents.cards}:
                         contents.cards.append(CardPrinting(id=uuid.uuid4(), card=card))
@@ -2232,17 +2627,15 @@ def parse_dl_set(
                             @batcher.getPageID(cardname + " (card)")
                             def onGetID(cardid: int, _: str):
                                 card = db.cards_by_yugipedia_id.get(cardid)
-                                if not card:
-                                    logging.warning(
-                                        f"Unknown card in DL set {title}: {cardname}"
-                                    )
-                                else:
+                                if card:
                                     add_card(card, row)
 
                         else:
                             add_card(card, row)
 
-                do(cardname, next(row_numbers))
+                row = next(row_numbers)
+                row_names[row] = cardname
+                do(cardname, row)
 
     def deloldprints():
         for i, printing in enumerate([*contents.cards]):
@@ -2256,6 +2649,25 @@ def parse_dl_set(
     # leaves `found_cards` empty here, `deloldprints` deletes the whole set as
     # unfound, and the answers then rebuild it with fresh printing UUIDs.
     batcher.flushPendingOperations()
+
+    unresolved = [
+        row_names[row] for row in sorted(row_names) if row not in resolved_rows
+    ]
+    if unresolved:
+        # One line per set, leading with the count. Warning per row instead
+        # named one row of the 40 in `Genesis Maximum` and said nothing about
+        # the other 39: it only ever fired where a row's `<name> (card)` page
+        # happened to exist, that being the single path through this lookup
+        # that reaches a callback at all when the card is unknown. Every other
+        # miss ended at a page lookup Yugipedia has no page for, which never
+        # calls back. The bucket read 1 for a set publishing nothing.
+        shown = ", ".join(unresolved[:3])
+        if len(unresolved) > 3:
+            shown += f", and {len(unresolved) - 3} more"
+        logging.warning(
+            f"Unknown cards in DL set {title}: "
+            f"{len(unresolved)} of {len(row_names)} rows: {shown}"
+        )
 
     deloldprints()
 
@@ -2313,6 +2725,15 @@ class Banlist:
     format: str
     date: datetime.date
     cards: typing.Dict[str, Legality]
+    pageid: int
+    """The Yugipedia page this banlist was read from.
+
+    Only ever used to break a tie on ``date``. Two banlists of one format can
+    share a start date, and the order they end up in decides which entries the
+    running-total dedup drops from a card's published legality history - so
+    without a tiebreak that history differs between runs, by an entry rather
+    than by ordering. A page id is Yugipedia's own, stable, and not a function
+    of when a fetch finished."""
 
     def __init__(
         self,
@@ -2320,10 +2741,12 @@ class Banlist:
         format: str,
         date: datetime.date,
         cards: typing.Optional[typing.Dict[str, Legality]] = None,
+        pageid: int = 0,
     ) -> None:
         self.format = format
         self.date = date
         self.cards = cards or {}
+        self.pageid = pageid
 
 
 BANLIST_STR_TO_LEGALITY = {
@@ -2420,7 +2843,7 @@ def _parse_banlist(
         )
         return None
 
-    return Banlist(format=format, date=start_date, cards=cards)
+    return Banlist(format=format, date=start_date, cards=cards, pageid=pageid)
 
 
 def get_banlist_pages(
@@ -2457,7 +2880,7 @@ def get_banlist_pages(
 
         batcher.flushPendingOperations()
         for format, banlists in result.items():
-            banlists.sort(key=lambda b: b.date)
+            banlists.sort(key=lambda b: (b.date, b.pageid))
             running_totals: typing.Dict[str, Legality] = {}
             for banlist in banlists:
                 for card, legality in {**banlist.cards}.items():
@@ -2474,6 +2897,9 @@ def get_genesys_banlist(
 ) -> typing.Dict[datetime.date, typing.Dict[str, float]]:
     with tqdm.tqdm(total=1, desc="Fetching Yugipedia pointlists") as progress_bar:
         result: typing.Dict[datetime.date, typing.Dict[str, float]] = {}
+        # which page supplied the list currently held for a date, so a second
+        # list on that date resolves by a rule rather than by write order
+        seen_dates: typing.Dict[datetime.date, int] = {}
 
         @batcher.getCategoryMembers(CAT_BANLIST_GENESYS)
         def onGetGenesysBanlist(banlists: typing.List[int]):
@@ -2502,6 +2928,19 @@ def get_genesys_banlist(
                                 f"Genesys pointlist has odd date: {repr(get_table_entry(table, 'date'))}"
                             )
                             return
+                        if date in result:
+                            # Two point lists carrying one date used to be
+                            # last-write-wins, so which survived depended on
+                            # which fetch finished first. The lower page id
+                            # wins instead - an arbitrary rule, but a stated
+                            # one that answers the same way every run.
+                            if banlist >= seen_dates.get(date, banlist):
+                                return
+                            logging.warning(
+                                f"Two Genesys pointlists dated {date}; keeping "
+                                f"{batcher.idsToNames[banlist]}"
+                            )
+                        seen_dates[date] = banlist
                         result[date] = {}
 
                         for raw_card in (
@@ -2583,6 +3022,115 @@ def _attach_art_treatments(db: Database) -> None:
     )
 
 
+def _attach_printing_art(db: Database) -> None:
+    """Says which art treatment a printing's canonical image depicts, wherever
+    that can be established without guessing.
+
+    ``imageID`` has been in ``schema/v1/printing.json`` since the schema was
+    written and no importer has ever set it, so a consumer asking "which of
+    this card's artworks is this printing?" got nothing. Two answers are
+    derivable and one is not:
+
+    - the printing's canonical image is itself an alternate artwork - the only
+      scan a set published, or the first of several - in which case the
+      treatment is the one that image already carries, by construction;
+    - the card has exactly one art treatment, in which case every printing of
+      it shows that one. 13607 of 14821 published cards, and 91% of printing
+      entries.
+
+    What is left is a plain scan of a card that has several treatments, where
+    nothing on the gallery row says which. Those keep no ``imageID`` rather
+    than being given the first one and hoping: absent means "we cannot say",
+    which is what the field being absent has always meant.
+
+    Runs after :func:`_attach_art_treatments`, since until that has appended
+    them a card's treatment list is not final."""
+    variants: typing.Dict[CardPrinting, typing.List[VariantImage]] = {}
+    for set_ in db.sets:
+        for locale in set_.locales.values():
+            for printings in locale.card_image_variants.values():
+                for printing, printing_variants in printings.items():
+                    variants.setdefault(printing, []).extend(printing_variants)
+
+    n_variant = n_only = 0
+    for set_ in db.sets:
+        for content in set_.contents:
+            for printing in content.cards:
+                treatment = None
+                # the same order `_canonical_image` picks a locator in: no
+                # code first, then the lowest code
+                for variant in sorted(
+                    variants.get(printing, []),
+                    key=lambda variant: (bool(variant.code), variant.code),
+                ):
+                    treatment = variant.art_treatment
+                    break
+                if treatment is not None:
+                    n_variant += 1
+                elif len(printing.card.images) == 1:
+                    treatment = printing.card.images[0]
+                    n_only += 1
+                if treatment is not None:
+                    printing.image = treatment
+
+    logging.info(
+        f"{n_variant + n_only} printings carry the art treatment their image "
+        f"shows: {n_variant} from the image's own code, {n_only} from being "
+        f"the card's only treatment."
+    )
+
+
+def _set_by_konami_sid(
+    db: Database,
+    batcher: "YugipediaBatcher",
+    pageid: int,
+    settable: wikitextparser.Template,
+) -> typing.Optional[Set]:
+    """The set this page's Konami set IDs identify, so that a page Yugipedia has
+    renamed keeps the set - and the UUID - it published under before.
+
+    Only ever a set no *other* Yugipedia page has already claimed. 153 Konami
+    set IDs are declared by two set pages apiece - a ``+1 Bonus Pack`` beside
+    its booster, ``Wave 2`` beside ``Wave 1``, a Special Edition beside the
+    Structure Deck it reprints - and one locale's ID in common was enough to
+    hand one page's set to the other. The page that lost then published nothing
+    at all, while its UUID silently began naming the other set. Only
+    ``sets_by_yugipedia_id`` kept such a pair apart, and only while both already
+    had a set object, so the pair swapped every time either side missed that
+    cache.
+
+    The scan also stops at the first ID that identifies a set. It used to run to
+    the end of the infobox and keep whatever the *last* ``*_database_id``
+    argument found - including ``None``, so an argument whose IDs matched
+    nothing discarded a match an earlier argument had already made."""
+    title = batcher.idsToNames[pageid]
+    for arg in settable.arguments:
+        if not arg.name or not arg.name.strip().endswith(DBID_SUFFIX):
+            continue
+        db_ids = [
+            x.strip() for x in arg.value.replace("*", "").split("\n") if x.strip()
+        ]
+        for db_id in db_ids:
+            try:
+                candidate = db.sets_by_konami_sid.get(int(db_id))
+            except ValueError:
+                if arg.value.strip() != "none":
+                    logging.warning(
+                        f'Unparsable konami set ID for {arg.name} in {title}: "{arg.value}"'
+                    )
+                break
+            if not candidate:
+                continue
+            if candidate.yugipedia and candidate.yugipedia.id != pageid:
+                logging.warning(
+                    f"Konami set ID {db_id} is on both {title} and "
+                    f"{candidate.yugipedia.name}; keeping them as separate sets"
+                )
+                continue
+            return candidate
+    return None
+
+
 def import_from_yugipedia(
     db: Database,
     *,
@@ -2631,18 +3179,41 @@ def import_from_yugipedia(
 
         if len(specific_pages) > 0:
             specific_ids: typing.List[int] = []
+            resolved: typing.Dict[typing.Union[int, str], int] = {}
             for page in specific_pages:
 
                 def get_page_id(page: typing.Union[int, str]):
                     @batcher.getPageID(page)
                     def on_get_id(id: int, title: str):
                         specific_ids.append(id)
+                        resolved[page] = id
 
                 get_page_id(page)
             batcher.flushPendingOperations()
             cards = [x for x in cards if x in specific_ids]
             sets = [x for x in sets if x in specific_ids]
             series = [x for x in series if x in specific_ids]
+
+            # These pages *filter* the enumerated lists rather than being
+            # fetched, so anything not itself an enumerated card, set or series
+            # page - a `Set Card Lists:` page, a typo, a set in a category
+            # `SET_CATS` cannot reach - selects nothing and the run succeeds
+            # having imported nothing. That reads exactly like a fix that
+            # changed no data, which is the whole reason to say so here.
+            selected = {*cards, *sets, *series}
+            for page in specific_pages:
+                if page not in resolved:
+                    logging.warning(
+                        f"No Yugipedia page named in --yugipedia-pages: {page}"
+                    )
+                elif resolved[page] not in selected:
+                    logging.warning(
+                        f"Page in --yugipedia-pages is not an enumerated card, set or series, so nothing will be imported for it: {page}"
+                    )
+            logging.info(
+                f"--yugipedia-pages selected {len(cards)} cards, {len(sets)} sets "
+                f"and {len(series)} series from {len(specific_pages)} pages."
+            )
 
         if import_cards:
             banlists = get_banlist_pages(batcher)
@@ -2754,29 +3325,9 @@ def import_from_yugipedia(
                                 found = True
                                 set_ = db.sets_by_yugipedia_id.get(pageid)
                                 if not set_:
-                                    for arg in settable.arguments:
-                                        if arg.name and arg.name.strip().endswith(
-                                            DBID_SUFFIX
-                                        ):
-                                            db_ids = [
-                                                x.strip()
-                                                for x in arg.value.replace(
-                                                    "*", ""
-                                                ).split("\n")
-                                                if x.strip()
-                                            ]
-                                            try:
-                                                for db_id in db_ids:
-                                                    set_ = db.sets_by_konami_sid.get(
-                                                        int(db_id)
-                                                    )
-                                                    if set_:
-                                                        break
-                                            except ValueError:
-                                                if arg.value.strip() != "none":
-                                                    logging.warning(
-                                                        f'Unparsable konami set ID for {arg.name} in {batcher.idsToNames.get(pageid, pageid)}: "{arg.value}"'
-                                                    )
+                                    set_ = _set_by_konami_sid(
+                                        db, batcher, pageid, settable
+                                    )
                                 if not set_:
                                     set_ = db.sets_by_en_name.get(
                                         get_table_entry(settable, "en_name", "")
@@ -2948,7 +3499,16 @@ def import_from_yugipedia(
                                     n_new += 1
 
                         if not seriestables:
-                            logging.warning(
+                            # Not a series, and correctly rejected. Series
+                            # discovery takes every member of
+                            # `Category:Archetypes` and `Category:Series`, and
+                            # each category holds its own main article -
+                            # `Archetype` and `Series` - which are glossary
+                            # pages carrying `{{Unofficial terminology}}` and no
+                            # infobox of any kind. There is nothing on them to
+                            # parse and no series they should publish. Counted
+                            # rather than printed - see `EXPECTED_CONDITIONS`.
+                            EXPECTED_CONDITIONS.warning(
                                 f"Found series without series table: {batcher.idsToNames[pageid]}"
                             )
                             return
@@ -2975,6 +3535,7 @@ def import_from_yugipedia(
     )
 
     _attach_art_treatments(db)
+    _attach_printing_art(db)
 
     return n_found, n_new
 

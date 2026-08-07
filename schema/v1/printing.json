@@ -63,6 +63,10 @@
         "reprint"
       ]
     },
+    "printNote": {
+      "description": "What the source said about this printing, verbatim, where it said more than 'new' or 'reprint' - for example 'Speed Duel debut', 'New artwork', 'Functional errata'. Present only when the source phrase was not literally one of those two words, so it tells you 'printStatus' lost information rather than appearing on every printing. May be present when 'printStatus' is absent, which means the phrase is one we do not classify.",
+      "type": "string"
+    },
     "history": {
       "description": "Cards in virtual sets may be added or removed on Konami's whim. This is a record of when cards were added or removed from this virtual set.",
       "type": "array",
