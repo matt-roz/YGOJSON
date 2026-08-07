@@ -2261,6 +2261,16 @@ def parse_tcg_ocg_set(
 
 
 MD_DISAMBIG_SUFFIX = " (Master Duel)"
+
+MD_HARDCODED_LIST_ROW = re.compile(r'^\|\s*"\[\[([^\]|]+)', re.MULTILINE)
+"""A card row of a Master Duel card list written as a raw wikitable.
+
+The card cell is the only one of the three that quotes its link, so this does
+not match the rarity or category cells beside it. Exactly one page on the wiki
+needs it - ``Set Card Lists:Legacy Pack``, 4057 rows - and Yugipedia files that
+page under ``Category:Pages with hardcoded formatting``, so it is meant to
+become a template eventually. Until it does, matching nothing here means
+dropping a set of 4057 cards with one warning to show for it."""
 DL_DISAMBIG_SUFFIX = " (Duel Links)"
 ARCHETYPE_DISAMBIG_SUFFIX = " (archetype)"
 SERIES_DISAMBIG_SUFFIX = " (series)"
@@ -2293,11 +2303,47 @@ def parse_md_set(
 
     # the cards the set list names, and which of its rows first named them
     found_cards: typing.Dict[Card, int] = {}
+    # what every row named, and which rows ended up with a card. As in
+    # `parse_dl_set`, a row can only ever be observed to resolve: a page lookup
+    # for a name Yugipedia does not have never calls back, so a miss has to be
+    # read off as the difference.
+    row_names: typing.Dict[int, str] = {}
+    resolved_rows: typing.Set[int] = set()
     row_numbers = itertools.count()
     setlists = [
         x for x in data.templates if x.name.strip().lower() == "master duel set list"
     ]
+
+    # The names this set's list gives, in list order, from whichever shape the
+    # wiki keeps them in.
+    cardnames: typing.List[str] = []
+    for setlist in setlists:
+        for arg in setlist.arguments:
+            if not arg.positional:
+                continue
+            for row in [x.strip() for x in arg.value.split("\n") if x.strip()]:
+                # first is card; second is rarity; third is (optional) quantity (in decks) or reprint status (in packs)
+                parts = [x.strip() for x in row.split(";") if x.strip()]
+                if parts:
+                    cardnames.append(parts[0])
+
     if not setlists:
+        # `Legacy Pack` keeps its 4057 cards in a hardcoded wikitable on its own
+        # list page rather than a `Master Duel set list` template - the only
+        # page on the wiki that does, and one Yugipedia itself files under
+        # `Category:Pages with hardcoded formatting`. Read it here rather than
+        # dropping the set: if that page is ever converted to the template, the
+        # branch above takes over and this one finds nothing.
+        @batcher.getPageContents(f"Set Card Lists:{set_.name[Language.ENGLISH]}")
+        def onGetList(raw_list_data: str):
+            cardnames.extend(
+                m.group(1).strip()
+                for m in MD_HARDCODED_LIST_ROW.finditer(raw_list_data)
+            )
+
+        batcher.flushPendingOperations()
+
+    if not cardnames:
         logging.warning(f"Found Master Duel set without setlists: {title}")
         return False
 
@@ -2311,45 +2357,34 @@ def parse_md_set(
     def onGetImage(url: str):
         contents.image = url
 
-    for setlist in setlists:
-        for arg in setlist.arguments:
-            if not arg.positional:
-                continue
-            for row in [x.strip() for x in arg.value.split("\n") if x.strip()]:
-                # first is card; second is rarity; third is (optional) quantity (in decks) or reprint status (in packs)
-                parts = [x.strip() for x in row.split(";") if x.strip()]
-                if not parts:
-                    continue
+    for cardname in cardnames:
+        if cardname.endswith(MD_DISAMBIG_SUFFIX):
+            cardname = cardname[: -len(MD_DISAMBIG_SUFFIX)]
 
-                cardname = parts[0]
-                if cardname.endswith(MD_DISAMBIG_SUFFIX):
-                    cardname = cardname[: -len(MD_DISAMBIG_SUFFIX)]
+        def add_card(card: Card, row: int):
+            resolved_rows.add(row)
+            found_cards.setdefault(card, row)
+            if card not in {p.card for p in contents.cards}:
+                contents.cards.append(CardPrinting(id=uuid.uuid4(), card=card))
 
-                def add_card(card: Card, row: int):
-                    found_cards.setdefault(card, row)
-                    if card not in {p.card for p in contents.cards}:
-                        contents.cards.append(CardPrinting(id=uuid.uuid4(), card=card))
+        def do(cardname: str, row: int):
+            @batcher.getPageID(cardname)
+            def onGetID(cardid: int, _: str):
+                card = db.cards_by_yugipedia_id.get(cardid)
+                if not card:
 
-                def do(cardname: str, row: int):
-                    @batcher.getPageID(cardname)
+                    @batcher.getPageID(cardname + " (card)")
                     def onGetID(cardid: int, _: str):
                         card = db.cards_by_yugipedia_id.get(cardid)
-                        if not card:
-
-                            @batcher.getPageID(cardname + " (card)")
-                            def onGetID(cardid: int, _: str):
-                                card = db.cards_by_yugipedia_id.get(cardid)
-                                if not card:
-                                    logging.warning(
-                                        f"Unknown card in MD set {title}: {cardname}"
-                                    )
-                                else:
-                                    add_card(card, row)
-
-                        else:
+                        if card:
                             add_card(card, row)
 
-                do(cardname, next(row_numbers))
+                else:
+                    add_card(card, row)
+
+        row = next(row_numbers)
+        row_names[row] = cardname
+        do(cardname, row)
 
     def deloldprints():
         for i, printing in enumerate([*contents.cards]):
@@ -2363,6 +2398,21 @@ def parse_md_set(
     # leaves `found_cards` empty here, `deloldprints` deletes the whole set as
     # unfound, and the answers then rebuild it with fresh printing UUIDs.
     batcher.flushPendingOperations()
+
+    unresolved = [
+        row_names[row] for row in sorted(row_names) if row not in resolved_rows
+    ]
+    if unresolved:
+        # One line per set, leading with the count - the same instrument as
+        # `parse_dl_set`, and broken here for the same reason: warning per row
+        # only ever fired where a row's `<name> (card)` page happened to exist.
+        shown = ", ".join(unresolved[:3])
+        if len(unresolved) > 3:
+            shown += f", and {len(unresolved) - 3} more"
+        logging.warning(
+            f"Unknown cards in MD set {title}: "
+            f"{len(unresolved)} of {len(row_names)} rows: {shown}"
+        )
 
     deloldprints()
 
