@@ -2913,11 +2913,34 @@ class Database:
                     def process():
                         in_json = json.load(infile)
 
+                        # Every `return` below abandons `process()` before the
+                        # delete-and-re-add at the bottom, so the product is
+                        # neither updated nor dropped: the copy `load()` read
+                        # from the previous run survives and is republished
+                        # unchanged. `manual-data/` stops being the source of
+                        # truth for that file until the lookup resolves again,
+                        # which is worth saying out loud in the warning rather
+                        # than leaving the reader to infer it.
+                        stale = "keeping its previously published contents"
+
                         if "boxOf" in in_json:
-                            in_json["boxOf"] = [
-                                str(self.lookup_set(ManualFixupIdentifier(in_set)).id)
-                                for in_set in in_json["boxOf"]
-                            ]
+                            box_of = []
+                            for in_set in in_json["boxOf"]:
+                                set_ = self.lookup_set(ManualFixupIdentifier(in_set))
+                                if not set_:
+                                    # Was `.id` on the `Optional[Set]` this
+                                    # returns, so a `boxOf` naming a set that
+                                    # does not exist raised a bare
+                                    # `AttributeError` naming neither the
+                                    # product nor the set - while both paths
+                                    # below, in this same function, warned and
+                                    # carried on.
+                                    logging.warning(
+                                        f"In sealed product {filename}: Set not found in boxOf: {json.dumps(in_set)}; {stale}"
+                                    )
+                                    return
+                                box_of.append(str(set_.id))
+                            in_json["boxOf"] = box_of
 
                         for in_content in in_json["contents"]:
                             for in_pack in in_content["packs"]:
@@ -2926,7 +2949,7 @@ class Database:
                                 )
                                 if not set_:
                                     logging.warning(
-                                        f"In sealed product {filename}: Set not found: {json.dumps(in_pack['set'])}"
+                                        f"In sealed product {filename}: Set not found: {json.dumps(in_pack['set'])}; {stale}"
                                     )
                                     return
                                 in_pack["set"] = str(set_.id)
@@ -2937,7 +2960,7 @@ class Database:
                                     )
                                     if not card:
                                         logging.warning(
-                                            f"In sealed product {filename}: Card not found: {json.dumps(in_pack['card'])}"
+                                            f"In sealed product {filename}: Card not found: {json.dumps(in_pack['card'])}; {stale}"
                                         )
                                         return
                                     in_pack["card"] = str(card.id)
