@@ -317,6 +317,7 @@ class Format(enum.Enum):
     DUELLINKS = "duellinks"  # Worldwide Duel Links.
     MASTERDUEL = "masterduel"  # Worldwide Master Duel.
     GENESYS = "genesys"  # TCG Genesys.
+    RUSHDUEL = "rushduel"  # Rush Duel, the separate game.
 
     @property
     def parent(self) -> typing.Optional["Format"]:

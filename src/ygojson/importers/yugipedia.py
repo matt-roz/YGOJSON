@@ -185,6 +185,22 @@ def paginate_query(query) -> typing.Iterable:
 
 CAT_TCG_CARDS = "Category:TCG cards"
 CAT_OCG_CARDS = "Category:OCG cards"
+RUSH_MEDIUM = "rush duel"
+"""What `{{Infobox set}}`'s ``medium`` says on a Rush Duel set.
+
+The only thing on a set page that distinguishes one: its navigation table
+names Japanese and Korean locales exactly as an OCG set does, so without this
+every Rush Duel product publishes as `ocg`."""
+
+CAT_RUSH_CARDS = "Category:Rush Duel cards"
+"""The 3151 Rush Duel card pages, which are in neither of the two categories
+above and so were never discovered, fetched or parsed.
+
+Their absence was silent and reached much further than the cards themselves:
+every Rush Duel set published `"cards": []`, and 1234 Duel Links set list rows
+across 38 sets resolved to nothing because a Duel Links Rush Duel row names the
+Rush Duel card page. The pages carry the same `{{CardTable2}}` as every other
+card, so the parser reads them without changes."""
 CAT_TOKENS = "Category:Tokens"
 CAT_SKILLS = "Category:Skill Cards"
 CAT_UNUSABLE = "Category:Unusable cards"
@@ -278,21 +294,20 @@ FILE_PREFIX = "file::"
 
 
 def get_card_pages(batcher: "YugipediaBatcher") -> typing.Iterable[int]:
-    with tqdm.tqdm(total=2, desc="Fetching Yugipedia card list") as progress_bar:
+    cats = [CAT_TCG_CARDS, CAT_OCG_CARDS, CAT_RUSH_CARDS]
+    with tqdm.tqdm(
+        total=len(cats), desc="Fetching Yugipedia card list"
+    ) as progress_bar:
         result = []
         seen = set()
 
-        @batcher.getCategoryMembers(CAT_TCG_CARDS)
-        def catMem1(members: typing.List[int]):
-            result.extend(x for x in members if x not in seen)
-            seen.update(members)
-            progress_bar.update(1)
+        for cat in cats:
 
-        @batcher.getCategoryMembers(CAT_OCG_CARDS)
-        def catMem2(members: typing.List[int]):
-            result.extend(x for x in members if x not in seen)
-            seen.update(members)
-            progress_bar.update(1)
+            @batcher.getCategoryMembers(cat)
+            def catMem(members: typing.List[int]):
+                result.extend(x for x in members if x not in seen)
+                seen.update(members)
+                progress_bar.update(1)
 
         return result
 
@@ -2193,8 +2208,16 @@ def parse_tcg_ocg_set(
         SetContents, typing.Dict[PrintingLocator, CardPrinting]
     ] = {}
 
+    # `{{Set navigation}}` only says which locale a list is for, and every
+    # Rush Duel set is a Japanese or Korean one, so the format derived from the
+    # locale alone is `ocg` - which publishes Rush Duel products as though they
+    # were playable in the OCG. The infobox is where the two are told apart.
+    is_rush = (
+        RUSH_MEDIUM in _strip_markup(get_table_entry(settable, "medium", "")).lower()
+    )
+
     for raw_locale in raw_locales.values():
-        fmt = Format(raw_locale.format.lower())
+        fmt = Format.RUSHDUEL if is_rush else Format(raw_locale.format.lower())
 
         for edition in raw_locale.editions:
             image = packimages.get(
