@@ -13,8 +13,15 @@ repos:
   - repo: https://github.com/PyCQA/isort
     rev: 5.12.0
     hooks:
+      # `--profile black` is load-bearing, not a style preference. Without it
+      # isort rewraps a too-long import to hanging indent and black rewraps it
+      # back to one name per line, forever: both hooks report a modification on
+      # every run, so `pre-commit run --all-files` can never exit 0 — and that
+      # command *is* the `lint` job, which gates the whole database chain. Every
+      # import in `src/` happens to fit in 88 columns today, so the first one
+      # that does not would stop every run.
       - id: isort
-        args: [--line-length, '88']
+        args: [--profile, black, --line-length, '88']
   # `logging.warn` is a deprecated alias for `logging.warning`. Python does not
   # surface the deprecation here — its default filter only reports deprecations
   # raised in `__main__`, and every warning site lives in an importer — so the

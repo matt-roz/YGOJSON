@@ -1690,6 +1690,15 @@ class CardPrinting:
     lists omit the column entirely. Absence is not the same as `NEW`.
     """
 
+    print_note: typing.Optional[str]
+    """What the source said about this printing, where it said more than
+    `new` or `reprint` - `Speed Duel debut`, `New artwork`, `Functional errata`.
+    Verbatim, so a plain reprint can be told apart from one with changed
+    artwork. `None` means the source said only one of the two bare words, or
+    said nothing at all; it is present regardless of whether `print_status`
+    resolved.
+    """
+
     def __init__(
         self,
         *,
@@ -1703,6 +1712,7 @@ class CardPrinting:
         replica: bool = False,
         qty: int = 1,
         print_status: typing.Optional[PrintStatus] = None,
+        print_note: typing.Optional[str] = None,
     ) -> None:
         self.id = id
         self.card = card
@@ -1714,6 +1724,7 @@ class CardPrinting:
         self.replica = replica
         self.qty = qty
         self.print_status = print_status
+        self.print_note = print_note
 
     def _to_json(self) -> typing.Dict[str, typing.Any]:
         return {
@@ -1727,6 +1738,7 @@ class CardPrinting:
             **({"replica": True} if self.replica else {}),
             **({"qty": self.qty} if self.qty != 1 else {}),
             **({"printStatus": self.print_status.value} if self.print_status else {}),
+            **({"printNote": self.print_note} if self.print_note else {}),
         }
 
 
@@ -3332,6 +3344,7 @@ class Database:
             print_status=PrintStatus(rawprinting["printStatus"])
             if "printStatus" in rawprinting
             else None,
+            print_note=rawprinting.get("printNote"),
         )
         printings[result.id] = result
         return result

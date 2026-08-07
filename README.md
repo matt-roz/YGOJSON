@@ -167,6 +167,17 @@ reading a database built after these landed.
   YGOPRODECK-sourced artworks, so **a card's artwork count may go up**. Variant entries tagged
   `alternate-art` carry an `imageID` pointing at the treatment they depict.
 
+* **`printing.json` gained an optional `printNote`.** Yugipedia's set lists write far more in their
+  `print` column than the two words `printStatus` can hold — `Speed Duel debut`, `New artwork`,
+  `Functional errata`, `Reprint (renamed)` — and we previously published no `printStatus` at all for
+  those rows, which the schema documents as "the source did not say". They now resolve (all 23
+  measured phrases mean `reprint`) and carry the phrase verbatim in `printNote`. **`printNote` is
+  present only when the source said something other than literally `new` or `reprint`**, so its
+  presence tells you `printStatus` lost information; it is not on every printing. It may also appear
+  *without* a `printStatus`, which means the phrase is one we do not classify — you get the wiki's
+  words even where we decline to interpret them. **`printStatus` itself is unchanged**: same two
+  values, same meaning, just present on many more printings than before.
+
 * **`meta.json` gained an optional `runID`.** The CI run that produced the database — the GitHub
   Actions run ID, which resolves at `<repository>/actions/runs/<runID>` — so a published snapshot can
   be tied to the run that built it. **Absence means no run was recorded**, such as a database built

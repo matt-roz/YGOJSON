@@ -18,6 +18,11 @@ import tqdm
 import wikitextparser
 
 from ..database import *
+from ..print_status import (
+    print_status_note,
+    report_unknown_print_status,
+    resolve_print_status,
+)
 from ..rarity import report_unknown_rarity, resolve_abbreviation, resolve_rarity
 from ..warnings import EXPECTED_CONDITIONS
 
@@ -901,10 +906,35 @@ def parse_card(
 
 CARD_GALLERY_NAMESPACE = "Set Card Galleries:"
 
-PRINT_STATUS_STR_TO_ENUM = {
-    "new": PrintStatus.NEW,
-    "reprint": PrintStatus.REPRINT,
+GALLERY_LEGEND_WORDS = {
+    "number",
+    "card number",
+    "name",
+    "card name",
+    "rarity",
+    "card rarity",
+    "rarities",
+    "card rarities",
+    "alt",
+    "print",
+    "quantity",
 }
+"""Every word ``Set gallery`` and ``Set list`` use to name a row's columns in
+their own documentation.
+
+A row whose columns are *all* from this vocabulary is that documentation line
+left on a gallery nobody filled in - three of them carry ``number; name;
+rarity`` verbatim - rather than a printing. Both templates' words are listed
+because a stub is a pasted line and the row does not say which template it was
+pasted from.
+
+Matched as a vocabulary and not as one string on purpose: an exact match
+against wiki free text stops matching the day somebody edits the line, and says
+nothing when it does. Widening this is what costs a printing, and only barely -
+every column must match, so a word here is dangerous only if a card is named it
+*and* sits at a card number and a rarity that are legend words too. Narrowing
+it only returns the noise.
+"""
 
 IMAGE_VARIANT_STR_TO_ENUM = {
     "AA": ImageVariant.ALTERNATE_ART,
@@ -1116,6 +1146,7 @@ class RawPrinting:
         noabbr: bool,
         row: int,
         print_status: typing.Optional[PrintStatus] = None,
+        print_note: typing.Optional[str] = None,
     ) -> None:
         self.card = card
         self.code = code
@@ -1125,6 +1156,7 @@ class RawPrinting:
         self.noabbr = noabbr
         self.row = row
         self.print_status = print_status
+        self.print_note = print_note
 
     def locator(self) -> PrintingLocator:
         return PrintingLocator(self.card, self.rarity, self.code)
@@ -1251,6 +1283,15 @@ COLORFUL_RARES = {
 FALLBACK_RARITIES = {
     CardRarity.COMMON: CardRarity.SHORTPRINT,
     CardRarity.SHORTPRINT: CardRarity.COMMON,
+    # `Parallel Rare` is a class of rarities on Yugipedia, not a rarity: its
+    # module publishes only the tiers (`npr`, `spr`, `upr`, `scpr`, `hgpr`), and
+    # no set list anywhere resolves to `parallel`. The term survives on the two
+    # `World Ranking Promos` galleries, which link `[[PR]]` beside `-NPR` image
+    # files for a list reading `rarities=Common, Normal Parallel Rare`. Falling
+    # back to the class's Common tier is a guess, and it is only ever reached
+    # once an exact match has failed - so it costs a dropped image at worst,
+    # where an exact `parallel` printing would already have won.
+    CardRarity.PARALLEL: CardRarity.COMMONPARALLEL,
     **{r2: r1 for (r1, alt), r2 in COLORFUL_RARES.items()},
 }
 
@@ -1340,12 +1381,20 @@ def parse_tcg_ocg_set(
                 noabbr: bool,
                 row: int,
                 print_status: typing.Optional[PrintStatus] = None,
+                print_note: typing.Optional[str] = None,
             ):
                 @get_card(name)
                 def onGetCard(card: Card):
                     rcs: typing.List[RawPrinting] = []
                     raw_rc = RawPrinting(
-                        card, code, rarity, qty or 1, noabbr, row, print_status
+                        card,
+                        code,
+                        rarity,
+                        qty or 1,
+                        noabbr,
+                        row,
+                        print_status,
+                        print_note,
                     )
                     if (
                         setname in MANUAL_RARITY_FIXUPS
@@ -1361,6 +1410,7 @@ def parse_tcg_ocg_set(
                                     raw_rc.noabbr,
                                     raw_rc.row,
                                     raw_rc.print_status,
+                                    raw_rc.print_note,
                                 )
                             )
                     else:
@@ -1470,17 +1520,24 @@ def parse_tcg_ocg_set(
                             col_index += 1
 
                             print_status = None
+                            print_note = None
                             if has_print_column:
                                 raw_print_status = (
                                     cols[col_index] if len(cols) > col_index else ""
                                 ) or raw_default_reprint_status
                                 if raw_print_status and raw_print_status.strip():
-                                    print_status = PRINT_STATUS_STR_TO_ENUM.get(
-                                        raw_print_status.strip().lower()
+                                    print_status = resolve_print_status(
+                                        raw_print_status
                                     )
+                                    # Published whether or not the status
+                                    # resolved: a phrase we decline to classify
+                                    # is exactly the one worth handing on whole.
+                                    print_note = print_status_note(raw_print_status)
                                     if not print_status:
-                                        logging.warning(
-                                            f"Got strange print status in {listpagename}, in row {name}: {raw_print_status.strip()}"
+                                        report_unknown_print_status(
+                                            listpagename,
+                                            raw_print_status,
+                                            f"row {name}",
                                         )
                                 col_index += 1
 
@@ -1505,6 +1562,7 @@ def parse_tcg_ocg_set(
                                     noabbr,
                                     next(row_numbers),
                                     print_status,
+                                    print_note,
                                 )
 
             if not setlists:
@@ -1625,6 +1683,25 @@ def parse_tcg_ocg_set(
                                 cols = [x.strip() for x in pre_comment.split(";")]
 
                                 if not cols:
+                                    continue
+
+                                if all(
+                                    col.lower() in GALLERY_LEGEND_WORDS for col in cols
+                                ):
+                                    # The template's own parameter legend, left
+                                    # on a gallery nobody filled in. Not a card
+                                    # row, and correctly skipped. It has to go
+                                    # before the rarity column is resolved:
+                                    # `rarity` is a legend word, so the row
+                                    # otherwise warns once as an unknown rarity
+                                    # and once as an undecipherable rarity code,
+                                    # then spends an image lookup on a file
+                                    # named after a card called `name`. Counted
+                                    # rather than printed - see
+                                    # `EXPECTED_CONDITIONS`.
+                                    EXPECTED_CONDITIONS.warning(
+                                        f"Found parameter legend where a gallery row should be in {galleryname}: {pre_comment}"
+                                    )
                                     continue
 
                                 col_index = 0
@@ -2015,6 +2092,7 @@ def parse_tcg_ocg_set(
                     replica=any(il.altinfo.lower() == "rp" for il in rc.image),
                     qty=rc.qty,
                     print_status=rc.print_status,
+                    print_note=rc.print_note,
                 )
                 raw_printings_to_printings[content][rcl] = printing
                 content.cards.append(printing)
