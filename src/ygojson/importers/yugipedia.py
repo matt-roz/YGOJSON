@@ -2707,6 +2707,15 @@ class Banlist:
     format: str
     date: datetime.date
     cards: typing.Dict[str, Legality]
+    pageid: int
+    """The Yugipedia page this banlist was read from.
+
+    Only ever used to break a tie on ``date``. Two banlists of one format can
+    share a start date, and the order they end up in decides which entries the
+    running-total dedup drops from a card's published legality history - so
+    without a tiebreak that history differs between runs, by an entry rather
+    than by ordering. A page id is Yugipedia's own, stable, and not a function
+    of when a fetch finished."""
 
     def __init__(
         self,
@@ -2714,10 +2723,12 @@ class Banlist:
         format: str,
         date: datetime.date,
         cards: typing.Optional[typing.Dict[str, Legality]] = None,
+        pageid: int = 0,
     ) -> None:
         self.format = format
         self.date = date
         self.cards = cards or {}
+        self.pageid = pageid
 
 
 BANLIST_STR_TO_LEGALITY = {
@@ -2814,7 +2825,7 @@ def _parse_banlist(
         )
         return None
 
-    return Banlist(format=format, date=start_date, cards=cards)
+    return Banlist(format=format, date=start_date, cards=cards, pageid=pageid)
 
 
 def get_banlist_pages(
@@ -2851,7 +2862,7 @@ def get_banlist_pages(
 
         batcher.flushPendingOperations()
         for format, banlists in result.items():
-            banlists.sort(key=lambda b: b.date)
+            banlists.sort(key=lambda b: (b.date, b.pageid))
             running_totals: typing.Dict[str, Legality] = {}
             for banlist in banlists:
                 for card, legality in {**banlist.cards}.items():
@@ -2868,6 +2879,9 @@ def get_genesys_banlist(
 ) -> typing.Dict[datetime.date, typing.Dict[str, float]]:
     with tqdm.tqdm(total=1, desc="Fetching Yugipedia pointlists") as progress_bar:
         result: typing.Dict[datetime.date, typing.Dict[str, float]] = {}
+        # which page supplied the list currently held for a date, so a second
+        # list on that date resolves by a rule rather than by write order
+        seen_dates: typing.Dict[datetime.date, int] = {}
 
         @batcher.getCategoryMembers(CAT_BANLIST_GENESYS)
         def onGetGenesysBanlist(banlists: typing.List[int]):
@@ -2896,6 +2910,19 @@ def get_genesys_banlist(
                                 f"Genesys pointlist has odd date: {repr(get_table_entry(table, 'date'))}"
                             )
                             return
+                        if date in result:
+                            # Two point lists carrying one date used to be
+                            # last-write-wins, so which survived depended on
+                            # which fetch finished first. The lower page id
+                            # wins instead - an arbitrary rule, but a stated
+                            # one that answers the same way every run.
+                            if banlist >= seen_dates.get(date, banlist):
+                                return
+                            logging.warning(
+                                f"Two Genesys pointlists dated {date}; keeping "
+                                f"{batcher.idsToNames[banlist]}"
+                            )
+                        seen_dates[date] = banlist
                         result[date] = {}
 
                         for raw_card in (

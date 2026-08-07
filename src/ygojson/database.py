@@ -117,6 +117,18 @@ MANUAL_DISTROS_DIR = os.path.join(MANUAL_DATA_DIR, "distributions")
 MANUAL_PRODUCTS_DIR = os.path.join(MANUAL_DATA_DIR, "sealed-products")
 """The directory containing manual sealed product fixup data."""
 
+MANUAL_FIXUP_ORDER = "filename, ascending"
+"""The order the three ``manually_fixup_*`` passes read their directories in.
+
+``os.listdir`` returns filesystem order, which differs between machines and
+between filesystems. Where two fixups touch the same object the later one wins,
+so unsorted reads mean two machines applying the same ``manual-data/`` can
+publish different objects from identical inputs. Sorting by filename makes the
+winner a property of the data rather than of the disk.
+
+Documented here rather than at each call site because all three passes share
+the rule, and a fourth should adopt it."""
+
 
 class CardType(enum.Enum):
     """The overarching type of :class:`Card`: Monster, spell, trap, etc."""
@@ -2567,7 +2579,13 @@ class Database:
             total=len(self.series),
             desc="Regenerating card backlinks to series",
         ):
-            for member in series.members:
+            # `Series.members` is a `typing.Set[Card]` and `Card` defines no
+            # `__hash__`, so iterating it is identity order - which varies with
+            # allocation, and therefore between machines rather than merely
+            # between cold and warm runs. `_to_json` already sorts by card UUID
+            # before serializing the series side; sort the same way here so the
+            # two sides of the backlink agree.
+            for member in sorted(series.members, key=lambda card: str(card.id)):
                 member.series.append(series)
 
     def lookup_set(self, mfi: ManualFixupIdentifier) -> typing.Optional[Set]:
@@ -2699,7 +2717,7 @@ class Database:
             image: typing.Optional[str]
 
         for filename in tqdm.tqdm(
-            os.listdir(MANUAL_SETS_DIR), desc="Applying manual fixups to sets"
+            sorted(os.listdir(MANUAL_SETS_DIR)), desc="Applying manual fixups to sets"
         ):
             if filename.endswith(".json"):
                 with open(
@@ -2853,7 +2871,7 @@ class Database:
         """Applies all pack distribution manual fixups to this database."""
 
         for filename in tqdm.tqdm(
-            os.listdir(MANUAL_DISTROS_DIR), desc="Importing pack distributions"
+            sorted(os.listdir(MANUAL_DISTROS_DIR)), desc="Importing pack distributions"
         ):
             if filename.endswith(".json"):
                 with open(
@@ -2902,7 +2920,7 @@ class Database:
         """Applies all sealed product manual fixups to this database."""
 
         for filename in tqdm.tqdm(
-            os.listdir(MANUAL_PRODUCTS_DIR), desc="Importing sealed products"
+            sorted(os.listdir(MANUAL_PRODUCTS_DIR)), desc="Importing sealed products"
         ):
             if filename.endswith(".json"):
                 # logging.info(f"Reading {filename}...")
