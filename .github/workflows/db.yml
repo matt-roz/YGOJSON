@@ -34,6 +34,11 @@ jobs:
       - name: Validate rarity coverage
         run: |
           python test/validate_rarity_coverage.py
+      # offline, unlike the check above: there is no upstream list of print
+      # values, so this can only fail because our own table regressed
+      - name: Validate print status vocabulary
+        run: |
+          python test/validate_print_status.py
   pre-yugipedia:
     runs-on: ubuntu-latest
     needs: lint

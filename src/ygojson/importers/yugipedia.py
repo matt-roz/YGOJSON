@@ -18,6 +18,7 @@ import tqdm
 import wikitextparser
 
 from ..database import *
+from ..print_status import print_status_note, resolve_print_status
 from ..rarity import report_unknown_rarity, resolve_abbreviation, resolve_rarity
 from ..warnings import EXPECTED_CONDITIONS
 
@@ -901,11 +902,6 @@ def parse_card(
 
 CARD_GALLERY_NAMESPACE = "Set Card Galleries:"
 
-PRINT_STATUS_STR_TO_ENUM = {
-    "new": PrintStatus.NEW,
-    "reprint": PrintStatus.REPRINT,
-}
-
 IMAGE_VARIANT_STR_TO_ENUM = {
     "AA": ImageVariant.ALTERNATE_ART,
     "AA2": ImageVariant.ALTERNATE_ART,
@@ -1116,6 +1112,7 @@ class RawPrinting:
         noabbr: bool,
         row: int,
         print_status: typing.Optional[PrintStatus] = None,
+        print_note: typing.Optional[str] = None,
     ) -> None:
         self.card = card
         self.code = code
@@ -1125,6 +1122,7 @@ class RawPrinting:
         self.noabbr = noabbr
         self.row = row
         self.print_status = print_status
+        self.print_note = print_note
 
     def locator(self) -> PrintingLocator:
         return PrintingLocator(self.card, self.rarity, self.code)
@@ -1340,12 +1338,20 @@ def parse_tcg_ocg_set(
                 noabbr: bool,
                 row: int,
                 print_status: typing.Optional[PrintStatus] = None,
+                print_note: typing.Optional[str] = None,
             ):
                 @get_card(name)
                 def onGetCard(card: Card):
                     rcs: typing.List[RawPrinting] = []
                     raw_rc = RawPrinting(
-                        card, code, rarity, qty or 1, noabbr, row, print_status
+                        card,
+                        code,
+                        rarity,
+                        qty or 1,
+                        noabbr,
+                        row,
+                        print_status,
+                        print_note,
                     )
                     if (
                         setname in MANUAL_RARITY_FIXUPS
@@ -1361,6 +1367,7 @@ def parse_tcg_ocg_set(
                                     raw_rc.noabbr,
                                     raw_rc.row,
                                     raw_rc.print_status,
+                                    raw_rc.print_note,
                                 )
                             )
                     else:
@@ -1470,14 +1477,19 @@ def parse_tcg_ocg_set(
                             col_index += 1
 
                             print_status = None
+                            print_note = None
                             if has_print_column:
                                 raw_print_status = (
                                     cols[col_index] if len(cols) > col_index else ""
                                 ) or raw_default_reprint_status
                                 if raw_print_status and raw_print_status.strip():
-                                    print_status = PRINT_STATUS_STR_TO_ENUM.get(
-                                        raw_print_status.strip().lower()
+                                    print_status = resolve_print_status(
+                                        raw_print_status
                                     )
+                                    # Published whether or not the status
+                                    # resolved: a phrase we decline to classify
+                                    # is exactly the one worth handing on whole.
+                                    print_note = print_status_note(raw_print_status)
                                     if not print_status:
                                         logging.warning(
                                             f"Got strange print status in {listpagename}, in row {name}: {raw_print_status.strip()}"
@@ -1505,6 +1517,7 @@ def parse_tcg_ocg_set(
                                     noabbr,
                                     next(row_numbers),
                                     print_status,
+                                    print_note,
                                 )
 
             if not setlists:
@@ -2015,6 +2028,7 @@ def parse_tcg_ocg_set(
                     replica=any(il.altinfo.lower() == "rp" for il in rc.image),
                     qty=rc.qty,
                     print_status=rc.print_status,
+                    print_note=rc.print_note,
                 )
                 raw_printings_to_printings[content][rcl] = printing
                 content.cards.append(printing)
