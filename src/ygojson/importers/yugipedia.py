@@ -2231,6 +2231,10 @@ def parse_tcg_ocg_set(
         for p in c.cards
     }
 
+    # Which printing this run has already handed each reclaimed UUID to, so no
+    # UUID ends up on two different card codes. See where it is consulted.
+    printing_id_owners: typing.Dict[uuid.UUID, PrintingLocator] = {}
+
     # The art treatments this set's alternate artworks resolved to last run,
     # keyed the way the gallery names them. Harvested before the clear below for
     # the same reason ``old_printing_ids`` is: the locales are rebuilt from
@@ -2324,10 +2328,23 @@ def parse_tcg_ocg_set(
                         f"Found mutliple printings with the same code and rarity in the same locale in {title}: {rcl.card.text[Language.ENGLISH].name} / {rcl.rarity.value}"
                     )
                     continue
+                # A printing UUID may be shared between contents blocks - that
+                # is how a set expresses one printing appearing in several
+                # locales - but only where the blocks agree on what the
+                # printing *is*. `old_printing_ids` is a plain locator-to-id
+                # map read off the previous publish, so once two locators there
+                # pointed at one id, both reclaimed it every run and the set
+                # kept publishing one UUID with two card codes. Refusing the
+                # reclaim breaks that loop; the second locator takes a fresh
+                # UUID, once.
+                old_id = old_printing_ids.get(rcl)
+                if (
+                    old_id is not None
+                    and printing_id_owners.setdefault(old_id, rcl) != rcl
+                ):
+                    old_id = None
                 printing = CardPrinting(
-                    id=old_printing_ids[rcl]
-                    if rcl in old_printing_ids
-                    else uuid.uuid4(),
+                    id=old_id if old_id is not None else uuid.uuid4(),
                     card=rc.card,
                     rarity=rc.rarity,
                     suffix=rcl.code,
