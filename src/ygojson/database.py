@@ -1,4 +1,5 @@
 import datetime
+import email.utils
 import enum
 import json
 import logging
@@ -3815,11 +3816,20 @@ def download_published_zip(
         zip_already_exists = os.path.exists(zippath)
 
         if zip_already_exists:
-            response = requests.head(repository + "/" + zipname, stream=True)
+            # `allow_redirects` because `requests.head` does not follow them by
+            # default, unlike `requests.get`: the release URL answers 302 with
+            # no `Last-Modified` at all, and the header only appears on the
+            # asset the redirect leads to.
+            response = requests.head(
+                repository + "/" + zipname, stream=True, allow_redirects=True
+            )
             if not response.ok:
                 response.raise_for_status()
             if LAST_MODIFIED_HEADER in response.headers:
-                last_modified = datetime.datetime.fromisoformat(
+                # An RFC 7231 date - `Fri, 07 Aug 2026 03:42:10 GMT`.
+                # `datetime.fromisoformat` raises `ValueError` on it, which
+                # never showed because the header was never there to parse.
+                last_modified = email.utils.parsedate_to_datetime(
                     response.headers[LAST_MODIFIED_HEADER]
                 )
         progress_bar.update(1)
