@@ -18,7 +18,11 @@ import tqdm
 import wikitextparser
 
 from ..database import *
-from ..print_status import print_status_note, resolve_print_status
+from ..print_status import (
+    print_status_note,
+    report_unknown_print_status,
+    resolve_print_status,
+)
 from ..rarity import report_unknown_rarity, resolve_abbreviation, resolve_rarity
 from ..warnings import EXPECTED_CONDITIONS
 
@@ -1521,8 +1525,10 @@ def parse_tcg_ocg_set(
                                     # is exactly the one worth handing on whole.
                                     print_note = print_status_note(raw_print_status)
                                     if not print_status:
-                                        logging.warning(
-                                            f"Got strange print status in {listpagename}, in row {name}: {raw_print_status.strip()}"
+                                        report_unknown_print_status(
+                                            listpagename,
+                                            raw_print_status,
+                                            f"row {name}",
                                         )
                                 col_index += 1
 

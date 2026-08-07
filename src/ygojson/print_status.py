@@ -6,6 +6,8 @@
 # ``Module:Card collection/modules/Set list`` validates nothing, so every value
 # below was measured from the corpus rather than read off a wiki module. The
 # classification is ours and will always have a tail.
+import collections
+import logging
 import typing
 
 from .database import PrintStatus
@@ -128,3 +130,64 @@ def print_status_note(raw: str) -> typing.Optional[str]:
     if not note or note.lower() in _BARE_SPELLINGS:
         return None
     return note
+
+
+UNKNOWN_PRINT_STATUSES: typing.Counter[str] = collections.Counter()
+"""Every ``print`` value a run could not resolve, and how often it appeared.
+
+Keyed the way :data:`PRINT_STATUS_STR_TO_ENUM` is keyed, so a value spelled two
+ways is the one row it would take to fix rather than two. The verbatim spelling
+is in the warning the first sighting logs; this is the index, not the detail.
+
+Counting matters more here than anywhere else in the importer, because the
+``print`` column is *inherited*: a template-level ``print=`` default applies to
+every row that leaves the column blank, so one new parameter on one page is
+worth hundreds of occurrences of one spelling."""
+
+
+def report_unknown_print_status(page: str, raw: str, where: str) -> None:
+    """Counts a ``print`` value that did not resolve, warning the first time only.
+
+    Every occurrence is counted and only the first prints, which is the one way
+    this differs from :func:`~ygojson.rarity.report_unknown_rarity`: a rarity
+    string is written per row, but one ``print=`` default is inherited by every
+    row of a page that leaves the column blank, and 78% of the 6591 warnings
+    this replaces were a single default on ~53 Speed Duel pages. The first line
+    names the page and the row so it is actionable on its own, and
+    :func:`log_unknown_print_statuses` says how big the value really got.
+
+    Every print call site reports through here rather than logging its own
+    warning, for the same reason the rarity path does: a site that logged its
+    own warning would be missing from the summary.
+
+    Deliberately not routed to :data:`~ygojson.warnings.EXPECTED_CONDITIONS`,
+    whose docstring forbids it - a dropped print status is a real card row
+    losing real data, not a row the parser is right to reject.
+    """
+    value = raw.strip()
+    key = value.lower()
+    first_sighting = key not in UNKNOWN_PRINT_STATUSES
+    UNKNOWN_PRINT_STATUSES[key] += 1
+    if first_sighting:
+        logging.warning(f"Unknown print status in {page} ({where}): {value}")
+
+
+def log_unknown_print_statuses() -> None:
+    """Logs each ``print`` value this run could not resolve, and how often.
+
+    The counts are the point: only the first occurrence of a spelling printed,
+    so this is the only place a value that appeared once is distinguishable from
+    one that appeared five thousand times - and the only place a spelling worth
+    adding to :data:`PRINT_STATUS_SPELLINGS` can be read off without grepping a
+    day-long run's log.
+    """
+    if not UNKNOWN_PRINT_STATUSES:
+        return
+    logging.warning(
+        f"Could not resolve {sum(UNKNOWN_PRINT_STATUSES.values())} print statuses, "
+        f"in {len(UNKNOWN_PRINT_STATUSES)} distinct spellings:"
+    )
+    for raw, count in sorted(
+        UNKNOWN_PRINT_STATUSES.items(), key=lambda kv: (-kv[1], kv[0])
+    ):
+        logging.warning(f"\t{count} x {raw}")

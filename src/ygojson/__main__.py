@@ -272,6 +272,7 @@ def main(argv: typing.Optional[typing.List[str]] = None) -> int:
     )
 
     log_unknown_rarities()
+    log_unknown_print_statuses()
     save_warning_buckets()
     log_warning_buckets()
 
