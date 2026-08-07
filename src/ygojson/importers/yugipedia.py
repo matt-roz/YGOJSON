@@ -998,6 +998,32 @@ FORMATS_IN_NAV = {
     "ae": "OCG",
 }
 
+SET_DISAMBIGUATOR = re.compile(r"\s*\(([^(]*)\)\s*$")
+"""The trailing parenthetical Yugipedia appends to a set page's title when the
+name is taken - ``Premium Pack 2 (TCG)``, ``Metal Raiders (Japanese)``.
+
+Matches ``Module:Util``'s ``getDab``/``removeDab``, which is what builds every
+``Set Card Lists:``/``Set Card Galleries:`` link on the wiki. Content with no
+``(`` keeps a name whose own parentheses are nested from being cut short."""
+
+SET_DISAMBIGUATORS_IN_NAME = {
+    "2011",
+    "2018",
+    "2019",
+    "series",
+    "All-Foil Edition",
+    "Obelisk the Tormentor",  # 20th Anniversary Duel Set
+    "Slifer the Sky Dragon",  # 20th Anniversary Duel Set
+    "25th Anniversary Edition",
+}
+"""Parentheticals that are part of the set's name rather than a disambiguator,
+so their card list and gallery pages carry them.
+
+``Module:Set navigation``'s ``SET_NAMES_SPECIAL_CASES``. Dropping one of these
+derives a card list page that does not exist, which publishes the set with no
+printings and warns about nothing - the same silent failure stripping none of
+them caused for 32 sets."""
+
 FALLBACK_LOCALES = {
     "en": "",
     "na": "en",
@@ -1296,6 +1322,44 @@ FALLBACK_RARITIES = {
 }
 
 
+def _setname_in_page_titles(name: str) -> str:
+    """The set name Yugipedia builds its card list and gallery page titles from.
+
+    ``Module:Set navigation``'s ``normalizeSetNameForLink``: the page title's
+    disambiguator is dropped unless it is part of the name. Deriving these page
+    titles from the raw page title instead finds nothing for every set whose
+    title is disambiguated, and nothing warns - the page simply does not exist,
+    so the set publishes with an empty card list."""
+    disambiguator = SET_DISAMBIGUATOR.search(name)
+    if disambiguator and disambiguator.group(1).strip() in SET_DISAMBIGUATORS_IN_NAME:
+        return name.strip()
+    return SET_DISAMBIGUATOR.sub("", name).strip()
+
+
+def _parse_nav_locales(raw: str, setname: str) -> typing.List[typing.Tuple[str, str]]:
+    """Split one ``{{Set navigation}}`` ``lists``/``*_galleries`` value into its
+    ``(locale key, set name)`` entries, in the order the nav names them.
+
+    An entry may carry its own set name in a parenthetical - ``NA (Magic
+    Ruler)`` - for a locale whose pages sit under a different name than the
+    rest of the set's. Reading the whole entry as the locale key instead loses
+    that locale entirely, warning only that the key is unknown."""
+    entries = []
+    for entry in raw.split(","):
+        if not entry.strip():
+            continue
+        override = SET_DISAMBIGUATOR.search(entry)
+        locale = SET_DISAMBIGUATOR.sub("", entry).strip().lower()
+        name = (
+            _setname_in_page_titles(override.group(1))
+            if override and override.group(1).strip()
+            else setname
+        )
+        if (locale, name) not in entries:
+            entries.append((locale, name))
+    return entries
+
+
 def parse_tcg_ocg_set(
     db: Database,
     batcher: "YugipediaBatcher",
@@ -1358,7 +1422,9 @@ def parse_tcg_ocg_set(
         return GetCardDecorator
 
     def addcardlist(
-        setname: str, raw_locale: RawLocale, editions: typing.List[SetEdition]
+        setname: str,
+        raw_locale: RawLocale,
+        galleries: typing.List[typing.Tuple[SetEdition, str]],
     ):
         listpagename = f"Set Card Lists:{setname} ({raw_locale.format.upper()}-{raw_locale.key.upper()})"
 
@@ -1571,11 +1637,11 @@ def parse_tcg_ocg_set(
                 )
 
             batcher.flushPendingOperations()
-            for edition in editions:
-                get_gallery_data(setname, raw_locale, edition, raw_locale.key)
+            for rank, (edition, gallery_setname) in enumerate(galleries):
+                get_gallery_data(gallery_setname, raw_locale, edition, rank)
 
     def get_gallery_data(
-        setname: str, raw_locale: RawLocale, edition: SetEdition, locale_code: str
+        setname: str, raw_locale: RawLocale, edition: SetEdition, rank: int
     ):
         if edition not in raw_locale.editions:
             raw_locale.editions.append(edition)
@@ -1835,14 +1901,16 @@ def parse_tcg_ocg_set(
                     logging.warning(f"No gallery tables found in {galleryname}!")
 
         # the edition's own gallery first, so that _record_image prefers its
-        # scan over the edition-agnostic gallery's where a locale has both
+        # scan over the edition-agnostic gallery's where a locale has both.
+        # `rank` keeps the set navigation's own order between galleries when a
+        # locale names more than one, so the earlier-named gallery still wins.
         do(
             f"Set Card Galleries:{setname} ({raw_locale.format.upper()}-{raw_locale.key.upper()}-{EDITIONS_IN_NAV_REVERSE[edition].upper()})",
-            0,
+            rank * 2,
         )
         do(
             f"Set Card Galleries:{setname} ({raw_locale.format.upper()}-{raw_locale.key.upper()})",
-            1,
+            rank * 2 + 1,
         )
 
     def parse_packimage_line(line: str, row: int):
@@ -1868,17 +1936,13 @@ def parse_tcg_ocg_set(
                             packimages[key] = (row, url)
 
     for nav in navs:
-        lists = [
-            x.strip().lower()
-            for x in get_table_entry(nav, "lists", "").split(",")
-            if x.strip()
-        ]
-        galleries: typing.Dict[str, typing.List[str]] = {}
+        galleries: typing.Dict[str, typing.List[typing.Tuple[str, str]]] = {}
         setname = title
 
         for arg in nav.arguments:
-            if arg.positional and arg.name == "0":
-                # alternate set name
+            if arg.positional and arg.value.strip():
+                # alternate set name, for a set whose pages are not under its
+                # page title at all
                 setname = arg.value.strip()
             if arg.name.endswith("_galleries") and all(
                 not arg.name.startswith(x) for x in EDITIONS_IN_NAV
@@ -1886,13 +1950,13 @@ def parse_tcg_ocg_set(
                 logging.warning(
                     f"Found gallery argument for unknown edition in {title}: {arg.name}"
                 )
+        setname = _setname_in_page_titles(setname)
 
+        lists = _parse_nav_locales(get_table_entry(nav, "lists", ""), setname)
         for edition in EDITIONS_IN_NAV:
-            galleries[edition] = [
-                x.strip().lower()
-                for x in get_table_entry(nav, f"{edition}_galleries", "").split(",")
-                if x.strip()
-            ]
+            galleries[edition] = _parse_nav_locales(
+                get_table_entry(nav, f"{edition}_galleries", ""), setname
+            )
 
         if not lists and not galleries:
             logging.warning(f"Found set without card lists or galleries: {title}")
@@ -1901,7 +1965,15 @@ def parse_tcg_ocg_set(
         # this drives the published locale and set contents ordering, which a
         # set would reshuffle on every run
         all_lcs = list(
-            dict.fromkeys([*lists, *[y for x in galleries.values() for y in x]])
+            dict.fromkeys(
+                [
+                    lc
+                    for lc, _ in [
+                        *lists,
+                        *[y for x in galleries.values() for y in x],
+                    ]
+                ]
+            )
         )
         release_dates = {
             locale: _parse_date(_strip_markup(arg.value.strip()))
@@ -1946,16 +2018,22 @@ def parse_tcg_ocg_set(
                         break
                     date_lc = FALLBACK_LOCALES.get(date_lc)
 
-                if not any(x.lower() == lc for x in lists):
+                list_names = [name for locale, name in lists if locale == lc]
+                if not list_names:
                     logging.warning(
                         f"Found set navigation in {title} with gallery but no list for locale {lc}"
                     )
                     continue
 
                 addcardlist(
-                    setname,
+                    list_names[0],
                     raw_locale,
-                    [EDITIONS_IN_NAV[ec] for ec, lcs in galleries.items() if lc in lcs],
+                    [
+                        (EDITIONS_IN_NAV[ec], name)
+                        for ec, entries in galleries.items()
+                        for locale, name in entries
+                        if locale == lc
+                    ],
                 )
 
     if not navs:
