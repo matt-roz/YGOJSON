@@ -1437,6 +1437,9 @@ def parse_tcg_ocg_set(
             set_.name[Language.normalize(key)] = namearg
 
     navs = [x for x in data.templates if x.name.strip().lower() == "set navigation"]
+    transclusions = [
+        x for x in data.templates if x.name.strip().lower() == "set list transclusion"
+    ]
     if len(navs) > 1:
         logging.warning(f"Found set with multiple set navigation tables: {title}")
 
@@ -1991,6 +1994,17 @@ def parse_tcg_ocg_set(
                         if key not in packimages or row < packimages[key][0]:
                             packimages[key] = (row, url)
 
+    # Where this page says its card list and gallery pages are, as
+    # ``(lists, galleries)``. A `{{Set navigation}}` names them per locale;
+    # `{{Set list transclusion}}` names a single list page directly and is the
+    # only thing `Promotional Pack` - a Spanish booster of 50 cards - has.
+    list_sources: typing.List[
+        typing.Tuple[
+            typing.List[typing.Tuple[str, str]],
+            typing.Dict[str, typing.List[typing.Tuple[str, str]]],
+        ]
+    ] = []
+
     for nav in navs:
         galleries: typing.Dict[str, typing.List[typing.Tuple[str, str]]] = {}
         setname = title
@@ -2017,6 +2031,31 @@ def parse_tcg_ocg_set(
         if not lists and not galleries:
             logging.warning(f"Found set without card lists or galleries: {title}")
 
+        list_sources.append((lists, galleries))
+
+    for transclusion in transclusions:
+        positional = [x.value.strip() for x in transclusion.arguments if x.positional]
+        # `{{Set list transclusion|TCG-SP|Starter Deck: Yugi}}`: the format and
+        # locale of the one list page, then optionally the set name it is
+        # under, defaulting to this page's as the template's own `#explode`
+        # chain does.
+        raw_key = positional[0] if positional else "OCG-JP"
+        setname = _setname_in_page_titles(
+            positional[1] if len(positional) > 1 and positional[1] else title
+        )
+        lc = raw_key.rsplit("-", 1)[-1].strip().lower()
+        list_sources.append(
+            ([(lc, setname)], {edition: [] for edition in EDITIONS_IN_NAV})
+        )
+
+    release_dates = {
+        locale: _parse_date(_strip_markup(arg.value.strip()))
+        for arg in settable.arguments
+        if arg.name.strip()[-(len(RELDATE_SUFFIX) - 1) :] == RELDATE_SUFFIX[1:]
+        for locale in arg.name.strip()[: -len(RELDATE_SUFFIX)].split("/")
+    }
+
+    for lists, galleries in list_sources:
         # deduplicated but kept in the order the set navigation names them:
         # this drives the published locale and set contents ordering, which a
         # set would reshuffle on every run
@@ -2031,12 +2070,6 @@ def parse_tcg_ocg_set(
                 ]
             )
         )
-        release_dates = {
-            locale: _parse_date(_strip_markup(arg.value.strip()))
-            for arg in settable.arguments
-            if arg.name.strip()[-(len(RELDATE_SUFFIX) - 1) :] == RELDATE_SUFFIX[1:]
-            for locale in arg.name.strip()[: -len(RELDATE_SUFFIX)].split("/")
-        }
         for lc in all_lcs:
             if lc not in FORMATS_IN_NAV:
                 logging.warning(f"Unknown locale in {title}: {lc}")
@@ -2092,7 +2125,12 @@ def parse_tcg_ocg_set(
                     ],
                 )
 
-    if not navs:
+    if not list_sources:
+        # The page says nothing about where its card lists are. Of the 35 pages
+        # this named in run 31142489208, 20 have no card list anywhere on the
+        # wiki - boxes and bundles recorded by their infobox alone - and 14 are
+        # video-game decks carrying `{{Video game set list}}`, a format this
+        # database does not model. Publishing no contents is right for all 34.
         logging.warning(f"Found set without set navigation table: {title}")
         return False
 
