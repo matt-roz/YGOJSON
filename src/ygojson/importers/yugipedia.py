@@ -2739,6 +2739,57 @@ def _attach_art_treatments(db: Database) -> None:
     )
 
 
+def _set_by_konami_sid(
+    db: Database,
+    batcher: "YugipediaBatcher",
+    pageid: int,
+    settable: wikitextparser.Template,
+) -> typing.Optional[Set]:
+    """The set this page's Konami set IDs identify, so that a page Yugipedia has
+    renamed keeps the set - and the UUID - it published under before.
+
+    Only ever a set no *other* Yugipedia page has already claimed. 153 Konami
+    set IDs are declared by two set pages apiece - a ``+1 Bonus Pack`` beside
+    its booster, ``Wave 2`` beside ``Wave 1``, a Special Edition beside the
+    Structure Deck it reprints - and one locale's ID in common was enough to
+    hand one page's set to the other. The page that lost then published nothing
+    at all, while its UUID silently began naming the other set. Only
+    ``sets_by_yugipedia_id`` kept such a pair apart, and only while both already
+    had a set object, so the pair swapped every time either side missed that
+    cache.
+
+    The scan also stops at the first ID that identifies a set. It used to run to
+    the end of the infobox and keep whatever the *last* ``*_database_id``
+    argument found - including ``None``, so an argument whose IDs matched
+    nothing discarded a match an earlier argument had already made."""
+    title = batcher.idsToNames[pageid]
+    for arg in settable.arguments:
+        if not arg.name or not arg.name.strip().endswith(DBID_SUFFIX):
+            continue
+        db_ids = [
+            x.strip() for x in arg.value.replace("*", "").split("\n") if x.strip()
+        ]
+        for db_id in db_ids:
+            try:
+                candidate = db.sets_by_konami_sid.get(int(db_id))
+            except ValueError:
+                if arg.value.strip() != "none":
+                    logging.warning(
+                        f'Unparsable konami set ID for {arg.name} in {title}: "{arg.value}"'
+                    )
+                break
+            if not candidate:
+                continue
+            if candidate.yugipedia and candidate.yugipedia.id != pageid:
+                logging.warning(
+                    f"Konami set ID {db_id} is on both {title} and "
+                    f"{candidate.yugipedia.name}; keeping them as separate sets"
+                )
+                continue
+            return candidate
+    return None
+
+
 def import_from_yugipedia(
     db: Database,
     *,
@@ -2910,29 +2961,9 @@ def import_from_yugipedia(
                                 found = True
                                 set_ = db.sets_by_yugipedia_id.get(pageid)
                                 if not set_:
-                                    for arg in settable.arguments:
-                                        if arg.name and arg.name.strip().endswith(
-                                            DBID_SUFFIX
-                                        ):
-                                            db_ids = [
-                                                x.strip()
-                                                for x in arg.value.replace(
-                                                    "*", ""
-                                                ).split("\n")
-                                                if x.strip()
-                                            ]
-                                            try:
-                                                for db_id in db_ids:
-                                                    set_ = db.sets_by_konami_sid.get(
-                                                        int(db_id)
-                                                    )
-                                                    if set_:
-                                                        break
-                                            except ValueError:
-                                                if arg.value.strip() != "none":
-                                                    logging.warning(
-                                                        f'Unparsable konami set ID for {arg.name} in {batcher.idsToNames.get(pageid, pageid)}: "{arg.value}"'
-                                                    )
+                                    set_ = _set_by_konami_sid(
+                                        db, batcher, pageid, settable
+                                    )
                                 if not set_:
                                     set_ = db.sets_by_en_name.get(
                                         get_table_entry(settable, "en_name", "")
