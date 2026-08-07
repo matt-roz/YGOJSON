@@ -188,6 +188,13 @@ reading a database built after these landed.
   keyword — so nothing under either was validated at all. Data already conformed; if you generated
   your own database against the old schema and it passed, it may not now.
 
+* **`card.json`'s `attribute` and `type` each gained one value** - `laugh` and `charisma`. Both exist
+  for a single real printed OCG card, `Charisma Token`, whose `attribute = LAUGH` and
+  `types = Charisma` were previously parsed, found unmodellable and dropped. Yugipedia tracks it in
+  `Category:Cards with odd Attributes` and `Category:Cards with odd Types`. **That card gains two
+  fields**; nothing else changes. The other odd values in those categories belong to anime-only cards
+  we do not import and are deliberately not modelled.
+
 * **`format.json` gained `rushduel`**, and so did `set.json`'s deprecated `contents.formats` enum.
   Rush Duel is a separate game, and its sets are Japanese or Korean, so they were previously
   published as `ocg` — as though playable in the OCG. **A set that used to report `ocg` may now

@@ -198,6 +198,7 @@ class Attribute(enum.Enum):
     WIND = "wind"
     EARTH = "earth"
     DIVINE = "divine"
+    LAUGH = "laugh"  # `Charisma Token` only; Yugipedia tracks it as an odd Attribute.
 
 
 class MonsterCardType(enum.Enum):
@@ -240,6 +241,7 @@ class Race(enum.Enum):
     CREATORGOD = "creatorgod"
     WYRM = "wyrm"
     CYBERSE = "cyberse"
+    CHARISMA = "charisma"  # `Charisma Token` only; Yugipedia tracks it as an odd Type.
 
 
 class Classification(enum.Enum):

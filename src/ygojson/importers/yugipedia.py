@@ -524,6 +524,7 @@ TYPES = {
     "Creator God": Race.CREATORGOD,
     "Wyrm": Race.WYRM,
     "Cyberse": Race.CYBERSE,
+    "Charisma": Race.CHARISMA,
 }
 CLASSIFICATIONS = {
     "Normal": Classification.NORMAL,
