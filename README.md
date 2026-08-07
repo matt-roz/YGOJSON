@@ -188,6 +188,14 @@ reading a database built after these landed.
   keyword — so nothing under either was validated at all. Data already conformed; if you generated
   your own database against the old schema and it passed, it may not now.
 
+* **`format.json` gained `rushduel`**, and so did `set.json`'s deprecated `contents.formats` enum.
+  Rush Duel is a separate game, and its sets are Japanese or Korean, so they were previously
+  published as `ocg` — as though playable in the OCG. **A set that used to report `ocg` may now
+  report `rushduel`**, which is a value change for existing sets even though the enum addition is
+  additive. Rush Duel *cards* are new to the database entirely (see below); their Rush-only
+  properties — Requirement/Condition, MAXIMUM ATK, Legend status — are **not** modelled, so those
+  cards publish with the stats they share with every other card and nothing more.
+
 ### Unreleased behaviour changes
 
 Not schema changes, but visible in the data:
@@ -207,6 +215,38 @@ Not schema changes, but visible in the data:
   **A published `increment` therefore rises by roughly one tenth of what it used to per run**, and
   compares across that change only as an ordering, not as a count. Where no run identifier is
   available — a local run, for instance — each write still counts as its own update.
+
+* **`increment` can no longer go backwards.** It was seeded from whichever ZIP the run downloaded,
+  and the individual and aggregate artifacts drift, so the published counter went 2351 → 2350 once.
+  A save now continues from the highest of what it loaded and what the output already publishes.
+
+* **A one-time consolidation of 6,184 printing UUIDs happened in the 2026-08-07 publish.** No
+  printing disappeared: card entries went *up* by 1,702 while distinct printing UUIDs fell by 4,042,
+  because printings that used to get a separate UUID in each locale block now share one across the
+  blocks they appear in, which is the shape a set is supposed to have. **Identifiers held from a
+  snapshot before 2026-08-07 may no longer resolve.** This is a correction, not the recurring churn
+  that the reproducibility fix above addressed, and it is not expected to repeat.
+
+* **Many more sets publish their printings.** A set's card-list and gallery pages are named after
+  the set, and we built those names from the Yugipedia *page title* — so every set with a
+  disambiguated title (`Premium Pack 2 (TCG)`, `Metal Raiders (Japanese)`) looked for a page that
+  does not exist and published an empty card list, silently. 73 locale entries across 49 sets were
+  affected. Separately, `Legacy Pack` (4,057 printings) and `Promotional Pack` (50) keep their lists
+  in shapes we did not read, and now publish.
+
+* **Sets that shared a Konami set ID no longer collapse onto one another.** 153 Konami set IDs are
+  declared by more than one Yugipedia page — a booster and its `+1 Bonus Pack`, `Wave 1` and
+  `Wave 2` — and one ID in common was enough for one page to take the other's set object, leaving
+  that set absent from the database and its UUID naming something else. **Sets absent for this
+  reason reappear, with new UUIDs**, and a set already published keeps the UUID it had.
+
+* **101 set pages are enumerated that never were.** Set discovery walks category trees downward
+  only, and twenty categories on Yugipedia have no parent category at all, so nothing in them was
+  ever fetched. Rush Duel's five such categories (331 pages) are still excluded deliberately.
+
+* **Rush Duel cards are in the database.** 3,151 cards that were in neither `Category:TCG cards` nor
+  `Category:OCG cards` and so were never imported. Rush Duel sets consequently stop publishing empty
+  card lists, and 1,234 Duel Links set-list rows that resolved to nothing now resolve.
 
 # Python API Changelog
 
