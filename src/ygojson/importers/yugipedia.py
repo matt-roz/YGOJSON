@@ -3191,7 +3191,16 @@ def import_from_yugipedia(
                                     n_new += 1
 
                         if not seriestables:
-                            logging.warning(
+                            # Not a series, and correctly rejected. Series
+                            # discovery takes every member of
+                            # `Category:Archetypes` and `Category:Series`, and
+                            # each category holds its own main article -
+                            # `Archetype` and `Series` - which are glossary
+                            # pages carrying `{{Unofficial terminology}}` and no
+                            # infobox of any kind. There is nothing on them to
+                            # parse and no series they should publish. Counted
+                            # rather than printed - see `EXPECTED_CONDITIONS`.
+                            EXPECTED_CONDITIONS.warning(
                                 f"Found series without series table: {batcher.idsToNames[pageid]}"
                             )
                             return
