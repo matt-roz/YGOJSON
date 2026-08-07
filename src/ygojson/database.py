@@ -3027,6 +3027,23 @@ class Database:
         :param generate_aggregates: Whether or not to generate aggregated JSON files.
         """
 
+        # `increment` is whatever the artifact `load()` happened to read, and
+        # the two published artifacts drift: the aggregate push is
+        # `continue-on-error` because aggregates exceed GitHub's file size
+        # limit, so `v1/aggregate` can sit hundreds of increments behind
+        # `v1/individual`. A run seeded from the stale one publishes a counter
+        # the schema documents as monotonic having gone *down*, and nothing
+        # noticed. Never write less than an output directory already publishes.
+        for directory in (self.individuals_dir, self.aggregates_dir):
+            published = _published_increment(directory)
+            if published is not None and published > self.increment:
+                logging.warning(
+                    f"Loaded increment {self.increment} is behind the {published} "
+                    f"already published in {directory}; continuing from that, so "
+                    f"the published counter does not go backwards."
+                )
+                self.increment = published
+
         # a run saves once per job - ten times, in CI - and those ten saves are
         # one update of the database, not ten. Off CI there is no run identifier
         # to tell two runs apart, so every save is its own update, as before.
@@ -3662,6 +3679,26 @@ class Database:
             progress_bar.update(1)
             self._deduplicate(self.products, self.products_by_id)
             progress_bar.update(1)
+
+
+def _published_increment(directory: typing.Optional[str]) -> typing.Optional[int]:
+    """The ``increment`` a directory already publishes, if it publishes one.
+
+    Read at save time rather than load time on purpose: a run is seeded from
+    whichever artifact ``load()`` was pointed at, which is not necessarily the
+    one it is about to overwrite."""
+    if not directory:
+        return None
+    path = os.path.join(directory, META_FILENAME)
+    if not os.path.exists(path):
+        return None
+    try:
+        with open(path, encoding="utf-8") as file:
+            return int(json.load(file)["increment"])
+    except (ValueError, KeyError, OSError):
+        # An unreadable or half-written `meta.json` is not a reason to refuse
+        # to publish; it just cannot vouch for a number.
+        return None
 
 
 def load_from_file(
