@@ -36,7 +36,7 @@ class Rarity(typing.NamedTuple):
 
 RARITIES: typing.Tuple[Rarity, ...] = (
     # Standard non-foil
-    Rarity("c", "C", CardRarity.COMMON, ("common",)),
+    Rarity("c", "C", CardRarity.COMMON, ("common", "n")),
     Rarity("nr", "NR", CardRarity.SHORTPRINT, ("normal", "Normal Rare")),
     Rarity("sp", "SP", CardRarity.SHORTPRINT, ("short print",)),
     Rarity("ssp", "SSP", CardRarity.SHORTPRINT, ("super short print",)),
@@ -63,7 +63,7 @@ RARITIES: typing.Tuple[Rarity, ...] = (
         "pscr",
         "PScR",
         CardRarity.PRISMATICSECRET,
-        ("prismatic secret", "Prismatic Secret Rare"),
+        ("prismatic secret", "Prismatic Secret Rare", "prismatic"),
     ),
     Rarity(
         "uscr", "UScR", CardRarity.ULTRASECRET, ("ultra secret", "Ultra Secret Rare")
@@ -97,7 +97,7 @@ RARITIES: typing.Tuple[Rarity, ...] = (
     ),
     Rarity("gmr", "GMR", CardRarity.GRANDMASTER, ("grand master", "Grand Master Rare")),
     # Precious
-    Rarity("gur", "GUR", CardRarity.GOLD, ("gold", "Gold Rare")),
+    Rarity("gur", "GUR", CardRarity.GOLD, ("gold", "Gold Rare", "gold ultra")),
     Rarity("gscr", "GScR", CardRarity.GOLDSECRET, ("gold secret", "Gold Secret Rare")),
     Rarity("ggr", "GGR", CardRarity.GOLDGHOST, ("ghost/gold", "Ghost/Gold Rare")),
     Rarity("pgr", "PGR", CardRarity.PREMIUMGOLD, ("premium gold", "Premium Gold Rare")),
@@ -175,18 +175,30 @@ RARITIES: typing.Tuple[Rarity, ...] = (
         ("holographic parallel", "Holographic Parallel Rare"),
     ),
     # Duel Terminal
-    Rarity("dnpr", "DNPR", CardRarity.DTPC, ("Duel Terminal Normal Parallel Rare",)),
+    Rarity(
+        "dnpr",
+        "DNPR",
+        CardRarity.DTPC,
+        ("Duel Terminal Normal Parallel Rare", "duel terminal normal parallel"),
+    ),
     Rarity(
         "dnrpr",
         "DNRPR",
         CardRarity.DTPSP,
-        ("Duel Terminal Normal Rare Parallel Rare",),
+        (
+            "Duel Terminal Normal Rare Parallel Rare",
+            "duel terminal normal rare parallel",
+        ),
     ),
     Rarity(
         "drpr",
         "DRPR",
         CardRarity.DTRPR,
-        ("duel terminal parallel", "Duel Terminal Rare Parallel Rare"),
+        (
+            "duel terminal parallel",
+            "Duel Terminal Rare Parallel Rare",
+            "duel terminal rare parallel",
+        ),
     ),
     Rarity(
         "dspr",
@@ -220,13 +232,13 @@ RARITIES: typing.Tuple[Rarity, ...] = (
         "kcsr",
         "KCSR",
         CardRarity.KCSUPER,
-        ("kaiba corporation super", "Kaiba Corporation Super Rare"),
+        ("kaiba corporation super", "Kaiba Corporation Super Rare", "kcs"),
     ),
     Rarity(
         "kcur",
         "KCUR",
         CardRarity.KCULTRA,
-        ("kaiba corporation ultra", "Kaiba Corporation Ultra Rare"),
+        ("kaiba corporation ultra", "Kaiba Corporation Ultra Rare", "kcu"),
     ),
     # Rush Duel
     Rarity("rr", "RR", CardRarity.RUSH, ("rush", "Rush Rare")),
@@ -302,13 +314,21 @@ RARITIES: typing.Tuple[Rarity, ...] = (
         "cr",
         "CR",
         CardRarity.COLLECTORS,
-        ("collectors", "Collectors Rare", "Collector's Rare"),
+        ("collectors", "Collectors Rare", "Collector's Rare", "collector"),
     ),
     Rarity(
         "urpr",
         "URPR",
         CardRarity.PHARAOHS,
-        ("ultra pharaohs", "pharaohs", "Ultra Rare (Pharaoh's Rare)"),
+        (
+            "ultra pharaohs",
+            "pharaohs",
+            "Ultra Rare (Pharaoh's Rare)",
+            "ultra pharaoh",
+            "ultra rare pharaoh",
+            "pharaohs rare ultra",
+            "pharaoh",
+        ),
     ),
     # Rarities Yugipedia's module no longer publishes, kept because set lists
     # and galleries written against older templates still spell them
