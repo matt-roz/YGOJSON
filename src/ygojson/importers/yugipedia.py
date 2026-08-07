@@ -3021,6 +3021,64 @@ def _attach_art_treatments(db: Database) -> None:
     )
 
 
+def _attach_printing_art(db: Database) -> None:
+    """Says which art treatment a printing's canonical image depicts, wherever
+    that can be established without guessing.
+
+    ``imageID`` has been in ``schema/v1/printing.json`` since the schema was
+    written and no importer has ever set it, so a consumer asking "which of
+    this card's artworks is this printing?" got nothing. Two answers are
+    derivable and one is not:
+
+    - the printing's canonical image is itself an alternate artwork - the only
+      scan a set published, or the first of several - in which case the
+      treatment is the one that image already carries, by construction;
+    - the card has exactly one art treatment, in which case every printing of
+      it shows that one. 13607 of 14821 published cards, and 91% of printing
+      entries.
+
+    What is left is a plain scan of a card that has several treatments, where
+    nothing on the gallery row says which. Those keep no ``imageID`` rather
+    than being given the first one and hoping: absent means "we cannot say",
+    which is what the field being absent has always meant.
+
+    Runs after :func:`_attach_art_treatments`, since until that has appended
+    them a card's treatment list is not final."""
+    variants: typing.Dict[CardPrinting, typing.List[VariantImage]] = {}
+    for set_ in db.sets:
+        for locale in set_.locales.values():
+            for printings in locale.card_image_variants.values():
+                for printing, printing_variants in printings.items():
+                    variants.setdefault(printing, []).extend(printing_variants)
+
+    n_variant = n_only = 0
+    for set_ in db.sets:
+        for content in set_.contents:
+            for printing in content.cards:
+                treatment = None
+                # the same order `_canonical_image` picks a locator in: no
+                # code first, then the lowest code
+                for variant in sorted(
+                    variants.get(printing, []),
+                    key=lambda variant: (bool(variant.code), variant.code),
+                ):
+                    treatment = variant.art_treatment
+                    break
+                if treatment is not None:
+                    n_variant += 1
+                elif len(printing.card.images) == 1:
+                    treatment = printing.card.images[0]
+                    n_only += 1
+                if treatment is not None:
+                    printing.image = treatment
+
+    logging.info(
+        f"{n_variant + n_only} printings carry the art treatment their image "
+        f"shows: {n_variant} from the image's own code, {n_only} from being "
+        f"the card's only treatment."
+    )
+
+
 def _set_by_konami_sid(
     db: Database,
     batcher: "YugipediaBatcher",
@@ -3476,6 +3534,7 @@ def import_from_yugipedia(
     )
 
     _attach_art_treatments(db)
+    _attach_printing_art(db)
 
     return n_found, n_new
 
