@@ -657,11 +657,19 @@ def parse_card(
             pass  # some illegal-for-play monsters have no attribute
         else:
             value = value.strip().lower()
-            if value == "???":
-                pass  # attribute to be announced; omit it
+            if value in {"?", "???"}:
+                # attribute deliberately unspecified or to be announced; omit
+                # it. Three imported tokens - `Option Token`, `Crystal Beast
+                # Token`, `Duel Dragon Token` - write `?` where a card yet to
+                # be revealed writes `???`, and mean the same thing by it.
+                pass
             elif value not in Attribute._value2member_map_:
-                if card.card_type != CardType.TOKEN:
-                    logging.warning(f"Unknown attribute '{value.strip()}' in {title}")
+                # Tokens used to be exempt from this warning, which is why
+                # `Charisma Token` - a printed OCG card whose attribute is
+                # `LAUGH` - dropped that attribute in silence while its
+                # equally unmodelled typeline warned. A dropped value is worth
+                # the same line whichever kind of card carries it.
+                logging.warning(f"Unknown attribute '{value.strip()}' in {title}")
             else:
                 card.attribute = Attribute(value)
 
