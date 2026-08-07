@@ -2403,6 +2403,12 @@ def parse_dl_set(
 
     # the cards the set list names, and which of its rows first named them
     found_cards: typing.Dict[Card, int] = {}
+    # what every row named, and which rows ended up with a card. A row is only
+    # ever *shown* to have resolved, never shown to have failed: a page lookup
+    # for a name Yugipedia does not have never calls its callback at all, so a
+    # miss cannot report itself and has to be read off as the difference.
+    row_names: typing.Dict[int, str] = {}
+    resolved_rows: typing.Set[int] = set()
     row_numbers = itertools.count()
     setlists = [x for x in data.templates if x.name.strip().lower() == "set list"]
     if not setlists:
@@ -2431,6 +2437,7 @@ def parse_dl_set(
                     cardname = cardname[: -len(DL_DISAMBIG_SUFFIX)]
 
                 def add_card(card: Card, row: int):
+                    resolved_rows.add(row)
                     found_cards.setdefault(card, row)
                     if card not in {p.card for p in contents.cards}:
                         contents.cards.append(CardPrinting(id=uuid.uuid4(), card=card))
@@ -2444,17 +2451,15 @@ def parse_dl_set(
                             @batcher.getPageID(cardname + " (card)")
                             def onGetID(cardid: int, _: str):
                                 card = db.cards_by_yugipedia_id.get(cardid)
-                                if not card:
-                                    logging.warning(
-                                        f"Unknown card in DL set {title}: {cardname}"
-                                    )
-                                else:
+                                if card:
                                     add_card(card, row)
 
                         else:
                             add_card(card, row)
 
-                do(cardname, next(row_numbers))
+                row = next(row_numbers)
+                row_names[row] = cardname
+                do(cardname, row)
 
     def deloldprints():
         for i, printing in enumerate([*contents.cards]):
@@ -2468,6 +2473,25 @@ def parse_dl_set(
     # leaves `found_cards` empty here, `deloldprints` deletes the whole set as
     # unfound, and the answers then rebuild it with fresh printing UUIDs.
     batcher.flushPendingOperations()
+
+    unresolved = [
+        row_names[row] for row in sorted(row_names) if row not in resolved_rows
+    ]
+    if unresolved:
+        # One line per set, leading with the count. Warning per row instead
+        # named one row of the 40 in `Genesis Maximum` and said nothing about
+        # the other 39: it only ever fired where a row's `<name> (card)` page
+        # happened to exist, that being the single path through this lookup
+        # that reaches a callback at all when the card is unknown. Every other
+        # miss ended at a page lookup Yugipedia has no page for, which never
+        # calls back. The bucket read 1 for a set publishing nothing.
+        shown = ", ".join(unresolved[:3])
+        if len(unresolved) > 3:
+            shown += f", and {len(unresolved) - 3} more"
+        logging.warning(
+            f"Unknown cards in DL set {title}: "
+            f"{len(unresolved)} of {len(row_names)} rows: {shown}"
+        )
 
     deloldprints()
 
