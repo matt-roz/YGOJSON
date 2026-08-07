@@ -1401,6 +1401,25 @@ FALLBACK_RARITIES = {
 }
 
 
+class GalleryImageSuffix(typing.NamedTuple):
+    """Everything after the card name in a gallery image's filename.
+
+    Yugipedia builds these filenames from the card's *English name*, which
+    ``Module:Card image name`` looks up from the page the row names rather than
+    reading off the row. A row naming a disambiguated page - ``Obelisk the
+    Tormentor (original)``, ``Dark Magician (Arkana)`` - therefore has a
+    filename stem that its own text does not contain, and asking for the stem
+    the text does give finds nothing: the batcher caches the miss and never
+    calls back, so the printing loses its image and its ``replica`` flag
+    without a line in the log.
+
+    The suffix is known when the row is parsed and the stem is not, since the
+    card is resolved asynchronously. This carries the one until the other
+    arrives."""
+
+    suffix: str
+
+
 def _setname_in_page_titles(name: str) -> str:
     """The set name Yugipedia builds its card list and gallery page titles from.
 
@@ -1746,44 +1765,59 @@ def parse_tcg_ocg_set(
                     name: str,
                     rarity: CardRarity,
                     alt: str,
-                    image: str,
+                    image: typing.Union[str, GalleryImageSuffix],
                     row: int,
                     code: typing.Optional[str] = None,
                 ):
-                    @batcher.getImageURL(f"File:{image}")
-                    def onGetImage(url: str):
-                        def onGetCard(card: Card, card_rarity: CardRarity = rarity):
-                            rcs = [
-                                rc
-                                for rc in raw_locale.cards.values()
-                                if rc.card == card and rc.rarity == card_rarity
-                            ]
-                            if code and any(rc.code == code for rc in rcs):
-                                rcs = [rc for rc in rcs if rc.code == code]
-                            if not rcs:
-                                if (
-                                    rarity == card_rarity
-                                    and card_rarity in FALLBACK_RARITIES
-                                ):
-                                    onGetCard(card, FALLBACK_RARITIES[card_rarity])
-                                elif (
-                                    not alt
-                                ):  # some special cards, like oversized cards, should be ignored
-                                    logging.warning(
-                                        f"Printing in gallery {galleryname} not found in locale: {name} / {rarity.value} -- Available in {[rc.rarity.value for rc in raw_locale.cards.values() if rc.card == card]}"
-                                    )
-                            else:
-                                for rc in rcs:
-                                    _record_image(
-                                        rc.image,
-                                        ImageLocator(edition, alt),
-                                        (gallery_rank, row),
-                                        url,
-                                    )
+                    # The card is resolved first so that a `GalleryImageSuffix`
+                    # can be completed with the card's English name, which is
+                    # what Yugipedia names these files after. Nothing is lost by
+                    # the order: an image whose card does not resolve could not
+                    # be attached to a printing anyway.
+                    @get_card(name)
+                    def onGetCardPage(card: Card):
+                        if isinstance(image, GalleryImageSuffix):
+                            stem = name
+                            if Language.ENGLISH in card.text and (
+                                card.text[Language.ENGLISH].name
+                            ):
+                                stem = card.text[Language.ENGLISH].name
+                            filename = re.sub(r"\W", r"", stem) + image.suffix
+                        else:
+                            filename = image
 
-                        @get_card(name)
-                        def do(card: Card):
-                            onGetCard(card)
+                        @batcher.getImageURL(f"File:{filename}")
+                        def onGetImage(url: str):
+                            def onGetCard(card_rarity: CardRarity = rarity):
+                                rcs = [
+                                    rc
+                                    for rc in raw_locale.cards.values()
+                                    if rc.card == card and rc.rarity == card_rarity
+                                ]
+                                if code and any(rc.code == code for rc in rcs):
+                                    rcs = [rc for rc in rcs if rc.code == code]
+                                if not rcs:
+                                    if (
+                                        rarity == card_rarity
+                                        and card_rarity in FALLBACK_RARITIES
+                                    ):
+                                        onGetCard(FALLBACK_RARITIES[card_rarity])
+                                    elif (
+                                        not alt
+                                    ):  # some special cards, like oversized cards, should be ignored
+                                        logging.warning(
+                                            f"Printing in gallery {galleryname} not found in locale: {name} / {rarity.value} -- Available in {[rc.rarity.value for rc in raw_locale.cards.values() if rc.card == card]}"
+                                        )
+                                else:
+                                    for rc in rcs:
+                                        _record_image(
+                                            rc.image,
+                                            ImageLocator(edition, alt),
+                                            (gallery_rank, row),
+                                            url,
+                                        )
+
+                            onGetCard()
 
                 for gallery in gallery_templates:
                     default_abbr = get_table_entry(gallery, "abbr", "").strip()
@@ -1909,33 +1943,38 @@ def parse_tcg_ocg_set(
                                 else:
                                     alt = raw_alt
 
+                                image: typing.Union[str, GalleryImageSuffix]
                                 if file_override:
                                     image = file_override.group(1)
                                 else:
-                                    image = re.sub(r"\W", r"", name)
+                                    # everything after the card's name; the name
+                                    # itself is only known once the row's card
+                                    # resolves - see `GalleryImageSuffix`
+                                    suffix = ""
                                     if code:
                                         code_before_dash = re.match(r"[^\-]+", code)
                                         if code_before_dash:
-                                            image += f"-{code_before_dash.group(0)}"
-                                    image += f"-{raw_locale.key.upper()}"
+                                            suffix += f"-{code_before_dash.group(0)}"
+                                    suffix += f"-{raw_locale.key.upper()}"
                                     if raw_rarity:
                                         rarity_code = resolve_abbreviation(raw_rarity)
                                         if rarity_code:
-                                            image += f"-{rarity_code}"
+                                            suffix += f"-{rarity_code}"
                                         else:
-                                            image += f"-{raw_rarity}"
+                                            suffix += f"-{raw_rarity}"
                                             logging.warning(
                                                 f"Could not decipher rarity code for {name} in {galleryname}: {raw_rarity}"
                                             )
                                     ed_str = EDITIONS_IN_NAV_REVERSE[edition].upper()
                                     if "-" + ed_str in galleryname:
-                                        image += f"-{ed_str}"
+                                        suffix += f"-{ed_str}"
                                     if raw_alt:
-                                        image += f"-{raw_alt}"
+                                        suffix += f"-{raw_alt}"
                                     if ext_override:
-                                        image += f".{ext_override.group(1)}"
+                                        suffix += f".{ext_override.group(1)}"
                                     else:
-                                        image += ".png"
+                                        suffix += ".png"
+                                    image = GalleryImageSuffix(suffix)
 
                                 add_card_image(
                                     name, rarity, alt, image, next(row_numbers), code
