@@ -1,0 +1,47 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "51dbb79e-e006-4aa2-bcab-1f587bb4b8e4",
+  "text": {
+    "en": {
+      "name": "Konpon Chacha",
+      "effect": "Shuffle 1 Ritual Spell Card from either Graveyard into the owner's Deck. Then, you can Special Summon 1 Level 7-9 Ritual Monster from your Graveyard face-up to your field.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u72d0\u72f8\u8336\u3005",
+      "effect": "\u81ea\u5206\u307e\u305f\u306f\u76f8\u624b\u306e\u5893\u5730\u306e\u30ea\u30c1\u30e5\u30a2\u30eb\u9b54\u6cd5\u30ab\u30fc\u30c9\uff11\u679a\u3092\u9078\u3093\u3067\u6301\u3061\u4e3b\u306e\u30c7\u30c3\u30ad\u306b\u623b\u3059\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u30ea\u30c1\u30e5\u30a2\u30eb\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff17\uff5e\uff19\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u8868\u793a\u3067\u7279\u6b8a\u53ec\u559a\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ucf69\ud401\ucc60\ucc60",
+      "effect": "\uc790\uc2e0 \ub610\ub294 \uc0c1\ub300 \ubb18\uc9c0\uc758 \ub9ac\ucd94\uc5bc \ub9c8\ubc95 \uce74\ub4dc 1\uc7a5\uc744 \uace0\ub974\uace0 \uc8fc\uc778\uc758 \ub371\uc73c\ub85c \ub418\ub3cc\ub9b0\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0 \ubb18\uc9c0\uc758 \ub9ac\ucd94\uc5bc \ubaac\uc2a4\ud130(\ub808\ubca8 7~9) 1\uc7a5\uc744 \uace0\ub974\uace0 \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \ud45c\uc2dc\ub85c \ud2b9\uc218 \uc18c\ud658\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "beast",
+  "classifications": [
+    "effect"
+  ],
+  "level": 5,
+  "atk": 1600,
+  "def": 800,
+  "passwords": [],
+  "images": [
+    {
+      "id": "7174caf1-ea13-4529-8a5d-795898a6cb70",
+      "card": "https://ms.yugipedia.com//a/ac/KonponChacha-RDKP23-JP-UR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Konpon Chacha",
+        "id": 1159436
+      }
+    ],
+    "dbID": 22443
+  },
+  "series": []
+}

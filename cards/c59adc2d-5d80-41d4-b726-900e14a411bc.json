@@ -1,0 +1,71 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "c59adc2d-5d80-41d4-b726-900e14a411bc",
+  "text": {
+    "en": {
+      "name": "Semeruler the Dark Summoner",
+      "effect": "Special Summon 1 monster with 0 ATK from your hand face-up to your field. It gains ATK equal to [its original DEF] until the end of this turn."
+    },
+    "fr": {
+      "name": "Semeruler l'Invocateur des T\u00e9n\u00e8bres",
+      "effect": "Invoquez Sp\u00e9cialement 1 monstre avec 0 ATK depuis votre main face recto sur votre Terrain. Il gagne une ATK \u00e9gale \u00e0 [sa DEF d'origine] jusqu'\u00e0 la fin de ce tour."
+    },
+    "de": {
+      "name": "Semeruler der dunkle Beschw\u00f6rer",
+      "effect": "Beschw\u00f6re 1 Monster mit 0 ATK als Spezialbeschw\u00f6rung von deiner Hand als offene Figur auf deine Spielfeldseite. Es erh\u00e4lt dann bis zum Ende dieses Spielzugs einen ATK in H\u00f6he [seiner Grund-DEF]."
+    },
+    "it": {
+      "name": "Semeruler l'Evocatore Oscuro",
+      "effect": "Evoca Specialmente 1 mostro con ATK 0 dalla tua mano, scoperto sul tuo Terreno. Guadagna ATK pari [alla sua DEF originale] fino alla fine di questo turno."
+    },
+    "es": {
+      "name": "Semeruler el Invocador Oscuro",
+      "effect": "Invoca de Modo Especial, desde tu mano, 1 monstruo con 0 ATK boca arriba en tu Campo. Gana ATK igual a [su DEF original] hasta el final de este turno."
+    },
+    "ja": {
+      "name": "\u9b54\u5c06\u30bb\u30e1\u30eb\u30fc\u30e9",
+      "effect": "\u624b\u672d\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u653b\u6483\u529b\uff10\uff09\uff11\u4f53\u3092\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u8868\u793a\u3067\u7279\u6b8a\u53ec\u559a\u3059\u308b\u3002\u3053\u306e\u52b9\u679c\u3067\u7279\u6b8a\u53ec\u559a\u3057\u305f\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u653b\u6483\u529b\u306f\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\u3001\uff3b\u305d\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u5143\u3005\u306e\u5b88\u5099\u529b\uff3d\u3060\u3051\u30a2\u30c3\u30d7\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub9c8\uc7a5 \uc138\uba54\ub8f0\ub7ec",
+      "effect": "\ud328\uc758 \ubaac\uc2a4\ud130(\uacf5\uaca9\ub825 0) 1\uc7a5\uc744 \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \ud45c\uc2dc\ub85c \ud2b9\uc218 \uc18c\ud658\ud55c\ub2e4. \uc774 \ud6a8\uacfc\ub85c \ud2b9\uc218 \uc18c\ud658\ud55c \ubaac\uc2a4\ud130\uc758 \uacf5\uaca9\ub825\uc740 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0, [\uadf8 \ubaac\uc2a4\ud130\uc758 \uc6d0\ub798 \uc218\ube44\ub825]\ub9cc\ud07c \uc62c\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 2500,
+  "def": 2000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "50fdba6b-94ea-480e-8839-89c8f76e5be3",
+      "card": "https://ms.yugipedia.com//b/b7/SemerulertheDarkSummoner-RDMRP2-JP-C.png"
+    }
+  ],
+  "sets": [
+    "389782ec-2c38-4819-ae84-d3d562b6364c",
+    "f8e7532a-02f9-4834-aa0e-230e163cf5e4",
+    "f8e7532a-02f9-4834-aa0e-230e163cf5e4"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Semeruler the Dark Summoner",
+        "id": 716635
+      }
+    ],
+    "dbID": 16143
+  },
+  "series": [
+    "2b04e0f3-925c-4ad0-921d-ed78f5f1c53b"
+  ]
+}

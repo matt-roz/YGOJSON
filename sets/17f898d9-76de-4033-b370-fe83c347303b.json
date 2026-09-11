@@ -1,0 +1,995 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "17f898d9-76de-4033-b370-fe83c347303b",
+  "name": {
+    "en": "Duel Terminal - Vylon Descends!!",
+    "ja": "\u30c7\u30e5\u30a8\u30eb\u30bf\u30fc\u30df\u30ca\u30eb \u300c\u30f4\u30a1\u30a4\u30ed\u30f3\u964d\u81e8\uff01\uff01\u300d"
+  },
+  "locales": {
+    "jp": {
+      "language": "ja",
+      "prefix": "DT09-JP",
+      "date": "2010-04-27",
+      "cardImages": {
+        "unlimited": {
+          "058a24af-aebb-42eb-afe4-fe18614691ff": "https://ms.yugipedia.com//b/b0/GemKnightAquamarine-DT09-JP-DSPR-DT.jpg",
+          "0c465ea6-bd5b-4782-9bfe-ba9a368a0174": "https://ms.yugipedia.com//9/90/LavalBurner-DT09-JP-DNPR-DT.jpg",
+          "0ceeda44-5152-41d6-be01-2fd6f2ba7f9e": "https://ms.yugipedia.com//6/6c/SpearCretin-DT09-JP-DNPR-DT.jpg",
+          "124cf500-f780-4a0b-aa8e-83a79f0c0990": "https://ms.yugipedia.com//0/07/LavalWarrior-DT09-JP-DRPR-DT.jpg",
+          "13da75bb-d336-477a-82de-f7e9199e04b8": "https://ms.yugipedia.com//5/5c/Gellenduo-DT09-JP-DNPR-DT.jpg",
+          "23986c4f-45bd-445b-98b7-d38f8cc3137e": "https://ms.yugipedia.com//3/37/KayenntheMasterMagmaBlacksmith-DT09-JP-DNPR-DT.jpg",
+          "2d7b506a-11e6-494d-93d0-31bacc601425": "https://ms.yugipedia.com//c/cf/GemKnightAlexandrite-DT09-JP-DSPR-DT.jpg",
+          "3b3a0a2d-8f3a-4e26-b99b-8b2230b5dd9b": "https://ms.yugipedia.com//f/f9/GemKnightSapphire-DT09-JP-DNPR-DT.jpg",
+          "3ecaedf4-7c9a-4003-818b-b72ce2bf8c16": "https://ms.yugipedia.com//7/76/LavalForestSprite-DT09-JP-DNPR-DT.jpg",
+          "49a9a0df-c4ad-4eaf-bfa6-9100fdd00607": "https://ms.yugipedia.com//8/82/VylonCube-DT09-JP-DRPR-DT.jpg",
+          "4ce07766-98ca-4b0b-9389-77d564ec3d92": "https://ms.yugipedia.com//b/b3/GemKnightTopaz-DT09-JP-DScPR-DT.jpg",
+          "4d48f179-5a5d-4c7a-9c9b-cc391544aafa": "https://ms.yugipedia.com//5/53/GemKnightFusion-DT09-JP-DNPR-DT.jpg",
+          "4f1ce554-9843-4649-8373-853d1707858b": "https://ms.yugipedia.com//6/63/SkillSuccessor-DT09-JP-DNPR-DT.jpg",
+          "5c097794-c0f9-438b-9645-d67d58007e5c": "https://ms.yugipedia.com//d/df/GemMerchant-DT09-JP-DNPR-DT.jpg",
+          "6980ad00-de3c-4062-9348-8238b04b9260": "https://ms.yugipedia.com//e/e8/MyBodyasaShield-DT09-JP-DNPR-DT.jpg",
+          "70470e2c-eda8-4acd-8f65-a215c5c77f8f": "https://ms.yugipedia.com//5/59/VylonVanguard-DT09-JP-DNPR-DT.jpg",
+          "735edcd8-b20d-4bca-9abc-09ef690f0c35": "https://ms.yugipedia.com//d/d8/VylonEpsilon-DT09-JP-DUPR-DT.jpg",
+          "79328a59-3080-4ee3-b3aa-5c7b8693038e": "https://ms.yugipedia.com//4/42/MahaVailo-DT09-JP-DNPR-DT.jpg",
+          "7a9ccc69-d90f-4b1a-b813-94c3260fbaad": "https://ms.yugipedia.com//0/09/TrapStun-DT09-JP-DNPR-DT.jpg",
+          "845a63f0-53c9-47b7-ae3d-ea97a50a4349": "https://ms.yugipedia.com//0/06/SummonedSkull-DT09-JP-DRPR-DT.jpg",
+          "89697b6a-fbb5-4aa3-b56d-a51367a56f46": "https://ms.yugipedia.com//b/b6/GemKnightRuby-DT09-JP-DUPR-DT.jpg",
+          "8f2b53e5-3c43-41f6-a146-b8896778ef9f": "https://ms.yugipedia.com//6/65/GemKnightTopaz-DT09-JP-DUPR-DT.jpg",
+          "91f0b450-c47c-407e-864f-69b0f0c9cc2f": "https://ms.yugipedia.com//3/37/ProminenceMoltenSwordsman-DT09-JP-DNPR-DT.jpg",
+          "9476b81f-755c-4320-883e-fbe81c1dde13": "https://ms.yugipedia.com//8/84/NecroGardna-DT09-JP-DNPR-DT.jpg",
+          "9a605843-1052-4c94-80ef-d34e04b88547": "https://ms.yugipedia.com//4/4e/LavalvalDragon-DT09-JP-DUPR-DT.jpg",
+          "9d5729ad-5857-46e2-bd17-f436b570251f": "https://ms.yugipedia.com//8/84/FoolishBurial-DT09-JP-DNPR-DT.jpg",
+          "aaa2e9fd-942a-469c-bbd4-b5e7ddeb0fdc": "https://ms.yugipedia.com//e/e2/VylonCharger-DT09-JP-DNPR-DT.jpg",
+          "ad947d22-a734-4433-89d8-f28a8b37d660": "https://ms.yugipedia.com//e/e3/GemKnightTourmaline-DT09-JP-DNPR-DT.jpg",
+          "ae10abef-8008-4a47-9834-466e08e68206": "https://ms.yugipedia.com//f/fc/NimbleMomonga-DT09-JP-DNPR-DT.jpg",
+          "b24621c9-6819-4821-b429-b1209cd643b7": "https://ms.yugipedia.com//a/a5/VylonSoldier-DT09-JP-DRPR-DT.jpg",
+          "b342b1d7-ea9e-4ebe-afbb-1dfed0b82a3e": "https://ms.yugipedia.com//0/07/SilentSwordsmanLV3-DT09-JP-DRPR-DT.jpg",
+          "bdba7b68-e18a-4a14-a7ba-18a809f7dadd": "https://ms.yugipedia.com//d/d7/VylonSigma-DT09-JP-DSPR-DT.jpg",
+          "c39bd323-42fa-4ecd-8b10-29ef40ba0349": "https://ms.yugipedia.com//6/6e/SearingFireWall-DT09-JP-DNPR-DT.jpg",
+          "c4168768-01e9-4f14-9bb3-4f5aab63d281": "https://ms.yugipedia.com//d/da/LavalMiller-DT09-JP-DRPR-DT.jpg",
+          "c75b973b-ef6e-4096-ab4e-4425e344b85d": "https://ms.yugipedia.com//b/b1/GemArmadillo-DT09-JP-DRPR-DT.jpg",
+          "d11b5145-2d69-43e8-a271-b875374cf092": "https://ms.yugipedia.com//9/96/GemKnightRuby-DT09-JP-DScPR-DT.jpg",
+          "d825f56b-88e9-485b-8b72-3eb4e85effca": "https://ms.yugipedia.com//0/02/VylonEpsilon-DT09-JP-DScPR-DT.jpg",
+          "de3abf07-0609-4f35-a83d-5a6f19e22dee": "https://ms.yugipedia.com//7/74/CardEjector-DT09-JP-DNRPR-DT.jpg",
+          "e5745469-37cd-4fb9-8673-bfa103f69978": "https://ms.yugipedia.com//b/bb/ElementalHEROOcean-DT09-JP-DNRPR-DT.jpg",
+          "e613005c-5425-4e3f-935a-0d3bc349d9dd": "https://ms.yugipedia.com//f/f1/LavalJudgmentLord-DT09-JP-DSPR-DT.jpg",
+          "e74a56c7-464d-4188-bbd2-fcf17dc1535f": "https://ms.yugipedia.com//6/6f/GemKnightGarnet-DT09-JP-DNPR-DT.jpg",
+          "ea2dd560-87a1-41ca-b76e-133e7ba9569e": "https://ms.yugipedia.com//d/d2/LavalvalDragon-DT09-JP-DScPR-DT.jpg",
+          "f2a123be-a5f6-4d9e-bdb4-669c3b066e00": "https://ms.yugipedia.com//0/07/SlateWarrior-DT09-JP-DNPR-DT.png",
+          "f527004f-c626-4cc2-a601-9115596f2b8d": "https://ms.yugipedia.com//2/24/GemEnhancement-DT09-JP-DRPR-DT.jpg",
+          "f541d95b-8cce-42d0-b5b2-8e39c050eb12": "https://ms.yugipedia.com//2/2e/SoaringEagleAbovetheSearingLand-DT09-JP-DRPR-DT.jpg",
+          "fc79c41e-e7c3-4627-a3bb-9d71a105dccb": "https://ms.yugipedia.com//d/de/Tualatin-DT09-JP-DSPR-DT.png",
+          "fc8e0c40-9445-4ab2-a84a-49abe0393b00": "https://ms.yugipedia.com//1/13/LavaltheGreater-DT09-JP-DSPR-DT.jpg",
+          "fc98cb69-c5c6-4416-8201-f958676b5bb1": "https://ms.yugipedia.com//9/9f/VylonMaterial-DT09-JP-DRPR-DT.jpg",
+          "fde4d592-3a70-4a7a-9af9-0c3ac39fb326": "https://ms.yugipedia.com//c/c4/CyberdarkKeel-DT09-JP-DNPR-DT.jpg",
+          "ffcaf1dd-1115-46ea-875a-d778f9210b8f": "https://ms.yugipedia.com//c/c3/MoltenWhirlwindWall-DT09-JP-DNPR-DT.jpg",
+          "ffff61a1-2498-409b-81e0-987c8b50303c": "https://ms.yugipedia.com//f/f0/KunaiwithChain-DT09-JP-DNPR-DT.jpg"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "058a24af-aebb-42eb-afe4-fe18614691ff": {
+            "image": "https://ms.yugipedia.com//b/b0/GemKnightAquamarine-DT09-JP-DSPR-DT.jpg",
+            "variants": [
+              {
+                "code": "DT",
+                "image": "https://ms.yugipedia.com//b/b0/GemKnightAquamarine-DT09-JP-DSPR-DT.jpg"
+              }
+            ]
+          },
+          "0c465ea6-bd5b-4782-9bfe-ba9a368a0174": {
+            "image": "https://ms.yugipedia.com//9/90/LavalBurner-DT09-JP-DNPR-DT.jpg",
+            "variants": [
+              {
+                "code": "DT",
+                "image": "https://ms.yugipedia.com//9/90/LavalBurner-DT09-JP-DNPR-DT.jpg"
+              }
+            ]
+          },
+          "0ceeda44-5152-41d6-be01-2fd6f2ba7f9e": {
+            "image": "https://ms.yugipedia.com//6/6c/SpearCretin-DT09-JP-DNPR-DT.jpg",
+            "variants": [
+              {
+                "code": "DT",
+                "image": "https://ms.yugipedia.com//6/6c/SpearCretin-DT09-JP-DNPR-DT.jpg"
+              }
+            ]
+          },
+          "124cf500-f780-4a0b-aa8e-83a79f0c0990": {
+            "image": "https://ms.yugipedia.com//0/07/LavalWarrior-DT09-JP-DRPR-DT.jpg",
+            "variants": [
+              {
+                "code": "DT",
+                "image": "https://ms.yugipedia.com//0/07/LavalWarrior-DT09-JP-DRPR-DT.jpg"
+              }
+            ]
+          },
+          "13da75bb-d336-477a-82de-f7e9199e04b8": {
+            "image": "https://ms.yugipedia.com//5/5c/Gellenduo-DT09-JP-DNPR-DT.jpg",
+            "variants": [
+              {
+                "code": "DT",
+                "image": "https://ms.yugipedia.com//5/5c/Gellenduo-DT09-JP-DNPR-DT.jpg"
+              }
+            ]
+          },
+          "23986c4f-45bd-445b-98b7-d38f8cc3137e": {
+            "image": "https://ms.yugipedia.com//3/37/KayenntheMasterMagmaBlacksmith-DT09-JP-DNPR-DT.jpg",
+            "variants": [
+              {
+                "code": "DT",
+                "image": "https://ms.yugipedia.com//3/37/KayenntheMasterMagmaBlacksmith-DT09-JP-DNPR-DT.jpg"
+              }
+            ]
+          },
+          "2d7b506a-11e6-494d-93d0-31bacc601425": {
+            "image": "https://ms.yugipedia.com//c/cf/GemKnightAlexandrite-DT09-JP-DSPR-DT.jpg",
+            "variants": [
+              {
+                "code": "DT",
+                "image": "https://ms.yugipedia.com//c/cf/GemKnightAlexandrite-DT09-JP-DSPR-DT.jpg"
+              }
+            ]
+          },
+          "3b3a0a2d-8f3a-4e26-b99b-8b2230b5dd9b": {
+            "image": "https://ms.yugipedia.com//f/f9/GemKnightSapphire-DT09-JP-DNPR-DT.jpg",
+            "variants": [
+              {
+                "code": "DT",
+                "image": "https://ms.yugipedia.com//f/f9/GemKnightSapphire-DT09-JP-DNPR-DT.jpg"
+              }
+            ]
+          },
+          "3ecaedf4-7c9a-4003-818b-b72ce2bf8c16": {
+            "image": "https://ms.yugipedia.com//7/76/LavalForestSprite-DT09-JP-DNPR-DT.jpg",
+            "variants": [
+              {
+                "code": "DT",
+                "image": "https://ms.yugipedia.com//7/76/LavalForestSprite-DT09-JP-DNPR-DT.jpg"
+              }
+            ]
+          },
+          "49a9a0df-c4ad-4eaf-bfa6-9100fdd00607": {
+            "image": "https://ms.yugipedia.com//8/82/VylonCube-DT09-JP-DRPR-DT.jpg",
+            "variants": [
+              {
+                "code": "DT",
+                "image": "https://ms.yugipedia.com//8/82/VylonCube-DT09-JP-DRPR-DT.jpg"
+              }
+            ]
+          },
+          "4ce07766-98ca-4b0b-9389-77d564ec3d92": {
+            "image": "https://ms.yugipedia.com//b/b3/GemKnightTopaz-DT09-JP-DScPR-DT.jpg",
+            "variants": [
+              {
+                "code": "DT",
+                "image": "https://ms.yugipedia.com//b/b3/GemKnightTopaz-DT09-JP-DScPR-DT.jpg"
+              }
+            ]
+          },
+          "4d48f179-5a5d-4c7a-9c9b-cc391544aafa": {
+            "image": "https://ms.yugipedia.com//5/53/GemKnightFusion-DT09-JP-DNPR-DT.jpg",
+            "variants": [
+              {
+                "code": "DT",
+                "image": "https://ms.yugipedia.com//5/53/GemKnightFusion-DT09-JP-DNPR-DT.jpg"
+              }
+            ]
+          },
+          "4f1ce554-9843-4649-8373-853d1707858b": {
+            "image": "https://ms.yugipedia.com//6/63/SkillSuccessor-DT09-JP-DNPR-DT.jpg",
+            "variants": [
+              {
+                "code": "DT",
+                "image": "https://ms.yugipedia.com//6/63/SkillSuccessor-DT09-JP-DNPR-DT.jpg"
+              }
+            ]
+          },
+          "5c097794-c0f9-438b-9645-d67d58007e5c": {
+            "image": "https://ms.yugipedia.com//d/df/GemMerchant-DT09-JP-DNPR-DT.jpg",
+            "variants": [
+              {
+                "code": "DT",
+                "image": "https://ms.yugipedia.com//d/df/GemMerchant-DT09-JP-DNPR-DT.jpg"
+              }
+            ]
+          },
+          "6980ad00-de3c-4062-9348-8238b04b9260": {
+            "image": "https://ms.yugipedia.com//e/e8/MyBodyasaShield-DT09-JP-DNPR-DT.jpg",
+            "variants": [
+              {
+                "code": "DT",
+                "image": "https://ms.yugipedia.com//e/e8/MyBodyasaShield-DT09-JP-DNPR-DT.jpg"
+              }
+            ]
+          },
+          "70470e2c-eda8-4acd-8f65-a215c5c77f8f": {
+            "image": "https://ms.yugipedia.com//5/59/VylonVanguard-DT09-JP-DNPR-DT.jpg",
+            "variants": [
+              {
+                "code": "DT",
+                "image": "https://ms.yugipedia.com//5/59/VylonVanguard-DT09-JP-DNPR-DT.jpg"
+              }
+            ]
+          },
+          "735edcd8-b20d-4bca-9abc-09ef690f0c35": {
+            "image": "https://ms.yugipedia.com//d/d8/VylonEpsilon-DT09-JP-DUPR-DT.jpg",
+            "variants": [
+              {
+                "code": "DT",
+                "image": "https://ms.yugipedia.com//d/d8/VylonEpsilon-DT09-JP-DUPR-DT.jpg"
+              }
+            ]
+          },
+          "79328a59-3080-4ee3-b3aa-5c7b8693038e": {
+            "image": "https://ms.yugipedia.com//4/42/MahaVailo-DT09-JP-DNPR-DT.jpg",
+            "variants": [
+              {
+                "code": "DT",
+                "image": "https://ms.yugipedia.com//4/42/MahaVailo-DT09-JP-DNPR-DT.jpg"
+              }
+            ]
+          },
+          "7a9ccc69-d90f-4b1a-b813-94c3260fbaad": {
+            "image": "https://ms.yugipedia.com//0/09/TrapStun-DT09-JP-DNPR-DT.jpg",
+            "variants": [
+              {
+                "code": "DT",
+                "image": "https://ms.yugipedia.com//0/09/TrapStun-DT09-JP-DNPR-DT.jpg"
+              }
+            ]
+          },
+          "845a63f0-53c9-47b7-ae3d-ea97a50a4349": {
+            "image": "https://ms.yugipedia.com//0/06/SummonedSkull-DT09-JP-DRPR-DT.jpg",
+            "variants": [
+              {
+                "code": "DT",
+                "image": "https://ms.yugipedia.com//0/06/SummonedSkull-DT09-JP-DRPR-DT.jpg"
+              }
+            ]
+          },
+          "89697b6a-fbb5-4aa3-b56d-a51367a56f46": {
+            "image": "https://ms.yugipedia.com//b/b6/GemKnightRuby-DT09-JP-DUPR-DT.jpg",
+            "variants": [
+              {
+                "code": "DT",
+                "image": "https://ms.yugipedia.com//b/b6/GemKnightRuby-DT09-JP-DUPR-DT.jpg"
+              }
+            ]
+          },
+          "8f2b53e5-3c43-41f6-a146-b8896778ef9f": {
+            "image": "https://ms.yugipedia.com//6/65/GemKnightTopaz-DT09-JP-DUPR-DT.jpg",
+            "variants": [
+              {
+                "code": "DT",
+                "image": "https://ms.yugipedia.com//6/65/GemKnightTopaz-DT09-JP-DUPR-DT.jpg"
+              }
+            ]
+          },
+          "91f0b450-c47c-407e-864f-69b0f0c9cc2f": {
+            "image": "https://ms.yugipedia.com//3/37/ProminenceMoltenSwordsman-DT09-JP-DNPR-DT.jpg",
+            "variants": [
+              {
+                "code": "DT",
+                "image": "https://ms.yugipedia.com//3/37/ProminenceMoltenSwordsman-DT09-JP-DNPR-DT.jpg"
+              }
+            ]
+          },
+          "9476b81f-755c-4320-883e-fbe81c1dde13": {
+            "image": "https://ms.yugipedia.com//8/84/NecroGardna-DT09-JP-DNPR-DT.jpg",
+            "variants": [
+              {
+                "code": "DT",
+                "image": "https://ms.yugipedia.com//8/84/NecroGardna-DT09-JP-DNPR-DT.jpg"
+              }
+            ]
+          },
+          "9a605843-1052-4c94-80ef-d34e04b88547": {
+            "image": "https://ms.yugipedia.com//4/4e/LavalvalDragon-DT09-JP-DUPR-DT.jpg",
+            "variants": [
+              {
+                "code": "DT",
+                "image": "https://ms.yugipedia.com//4/4e/LavalvalDragon-DT09-JP-DUPR-DT.jpg"
+              }
+            ]
+          },
+          "9d5729ad-5857-46e2-bd17-f436b570251f": {
+            "image": "https://ms.yugipedia.com//8/84/FoolishBurial-DT09-JP-DNPR-DT.jpg",
+            "variants": [
+              {
+                "code": "DT",
+                "image": "https://ms.yugipedia.com//8/84/FoolishBurial-DT09-JP-DNPR-DT.jpg"
+              }
+            ]
+          },
+          "aaa2e9fd-942a-469c-bbd4-b5e7ddeb0fdc": {
+            "image": "https://ms.yugipedia.com//e/e2/VylonCharger-DT09-JP-DNPR-DT.jpg",
+            "variants": [
+              {
+                "code": "DT",
+                "image": "https://ms.yugipedia.com//e/e2/VylonCharger-DT09-JP-DNPR-DT.jpg"
+              }
+            ]
+          },
+          "ad947d22-a734-4433-89d8-f28a8b37d660": {
+            "image": "https://ms.yugipedia.com//e/e3/GemKnightTourmaline-DT09-JP-DNPR-DT.jpg",
+            "variants": [
+              {
+                "code": "DT",
+                "image": "https://ms.yugipedia.com//e/e3/GemKnightTourmaline-DT09-JP-DNPR-DT.jpg"
+              }
+            ]
+          },
+          "ae10abef-8008-4a47-9834-466e08e68206": {
+            "image": "https://ms.yugipedia.com//f/fc/NimbleMomonga-DT09-JP-DNPR-DT.jpg",
+            "variants": [
+              {
+                "code": "DT",
+                "image": "https://ms.yugipedia.com//f/fc/NimbleMomonga-DT09-JP-DNPR-DT.jpg"
+              }
+            ]
+          },
+          "b24621c9-6819-4821-b429-b1209cd643b7": {
+            "image": "https://ms.yugipedia.com//a/a5/VylonSoldier-DT09-JP-DRPR-DT.jpg",
+            "variants": [
+              {
+                "code": "DT",
+                "image": "https://ms.yugipedia.com//a/a5/VylonSoldier-DT09-JP-DRPR-DT.jpg"
+              }
+            ]
+          },
+          "b342b1d7-ea9e-4ebe-afbb-1dfed0b82a3e": {
+            "image": "https://ms.yugipedia.com//0/07/SilentSwordsmanLV3-DT09-JP-DRPR-DT.jpg",
+            "variants": [
+              {
+                "code": "DT",
+                "image": "https://ms.yugipedia.com//0/07/SilentSwordsmanLV3-DT09-JP-DRPR-DT.jpg"
+              }
+            ]
+          },
+          "bdba7b68-e18a-4a14-a7ba-18a809f7dadd": {
+            "image": "https://ms.yugipedia.com//d/d7/VylonSigma-DT09-JP-DSPR-DT.jpg",
+            "variants": [
+              {
+                "code": "DT",
+                "image": "https://ms.yugipedia.com//d/d7/VylonSigma-DT09-JP-DSPR-DT.jpg"
+              }
+            ]
+          },
+          "c39bd323-42fa-4ecd-8b10-29ef40ba0349": {
+            "image": "https://ms.yugipedia.com//6/6e/SearingFireWall-DT09-JP-DNPR-DT.jpg",
+            "variants": [
+              {
+                "code": "DT",
+                "image": "https://ms.yugipedia.com//6/6e/SearingFireWall-DT09-JP-DNPR-DT.jpg"
+              }
+            ]
+          },
+          "c4168768-01e9-4f14-9bb3-4f5aab63d281": {
+            "image": "https://ms.yugipedia.com//d/da/LavalMiller-DT09-JP-DRPR-DT.jpg",
+            "variants": [
+              {
+                "code": "DT",
+                "image": "https://ms.yugipedia.com//d/da/LavalMiller-DT09-JP-DRPR-DT.jpg"
+              }
+            ]
+          },
+          "c75b973b-ef6e-4096-ab4e-4425e344b85d": {
+            "image": "https://ms.yugipedia.com//b/b1/GemArmadillo-DT09-JP-DRPR-DT.jpg",
+            "variants": [
+              {
+                "code": "DT",
+                "image": "https://ms.yugipedia.com//b/b1/GemArmadillo-DT09-JP-DRPR-DT.jpg"
+              }
+            ]
+          },
+          "d11b5145-2d69-43e8-a271-b875374cf092": {
+            "image": "https://ms.yugipedia.com//9/96/GemKnightRuby-DT09-JP-DScPR-DT.jpg",
+            "variants": [
+              {
+                "code": "DT",
+                "image": "https://ms.yugipedia.com//9/96/GemKnightRuby-DT09-JP-DScPR-DT.jpg"
+              }
+            ]
+          },
+          "d825f56b-88e9-485b-8b72-3eb4e85effca": {
+            "image": "https://ms.yugipedia.com//0/02/VylonEpsilon-DT09-JP-DScPR-DT.jpg",
+            "variants": [
+              {
+                "code": "DT",
+                "image": "https://ms.yugipedia.com//0/02/VylonEpsilon-DT09-JP-DScPR-DT.jpg"
+              }
+            ]
+          },
+          "de3abf07-0609-4f35-a83d-5a6f19e22dee": {
+            "image": "https://ms.yugipedia.com//7/74/CardEjector-DT09-JP-DNRPR-DT.jpg",
+            "variants": [
+              {
+                "code": "DT",
+                "image": "https://ms.yugipedia.com//7/74/CardEjector-DT09-JP-DNRPR-DT.jpg"
+              }
+            ]
+          },
+          "e5745469-37cd-4fb9-8673-bfa103f69978": {
+            "image": "https://ms.yugipedia.com//b/bb/ElementalHEROOcean-DT09-JP-DNRPR-DT.jpg",
+            "variants": [
+              {
+                "code": "DT",
+                "image": "https://ms.yugipedia.com//b/bb/ElementalHEROOcean-DT09-JP-DNRPR-DT.jpg"
+              }
+            ]
+          },
+          "e613005c-5425-4e3f-935a-0d3bc349d9dd": {
+            "image": "https://ms.yugipedia.com//f/f1/LavalJudgmentLord-DT09-JP-DSPR-DT.jpg",
+            "variants": [
+              {
+                "code": "DT",
+                "image": "https://ms.yugipedia.com//f/f1/LavalJudgmentLord-DT09-JP-DSPR-DT.jpg"
+              }
+            ]
+          },
+          "e74a56c7-464d-4188-bbd2-fcf17dc1535f": {
+            "image": "https://ms.yugipedia.com//6/6f/GemKnightGarnet-DT09-JP-DNPR-DT.jpg",
+            "variants": [
+              {
+                "code": "DT",
+                "image": "https://ms.yugipedia.com//6/6f/GemKnightGarnet-DT09-JP-DNPR-DT.jpg"
+              }
+            ]
+          },
+          "ea2dd560-87a1-41ca-b76e-133e7ba9569e": {
+            "image": "https://ms.yugipedia.com//d/d2/LavalvalDragon-DT09-JP-DScPR-DT.jpg",
+            "variants": [
+              {
+                "code": "DT",
+                "image": "https://ms.yugipedia.com//d/d2/LavalvalDragon-DT09-JP-DScPR-DT.jpg"
+              }
+            ]
+          },
+          "f2a123be-a5f6-4d9e-bdb4-669c3b066e00": {
+            "image": "https://ms.yugipedia.com//0/07/SlateWarrior-DT09-JP-DNPR-DT.png",
+            "variants": [
+              {
+                "code": "DT",
+                "image": "https://ms.yugipedia.com//0/07/SlateWarrior-DT09-JP-DNPR-DT.png"
+              }
+            ]
+          },
+          "f527004f-c626-4cc2-a601-9115596f2b8d": {
+            "image": "https://ms.yugipedia.com//2/24/GemEnhancement-DT09-JP-DRPR-DT.jpg",
+            "variants": [
+              {
+                "code": "DT",
+                "image": "https://ms.yugipedia.com//2/24/GemEnhancement-DT09-JP-DRPR-DT.jpg"
+              }
+            ]
+          },
+          "f541d95b-8cce-42d0-b5b2-8e39c050eb12": {
+            "image": "https://ms.yugipedia.com//2/2e/SoaringEagleAbovetheSearingLand-DT09-JP-DRPR-DT.jpg",
+            "variants": [
+              {
+                "code": "DT",
+                "image": "https://ms.yugipedia.com//2/2e/SoaringEagleAbovetheSearingLand-DT09-JP-DRPR-DT.jpg"
+              }
+            ]
+          },
+          "fc79c41e-e7c3-4627-a3bb-9d71a105dccb": {
+            "image": "https://ms.yugipedia.com//d/de/Tualatin-DT09-JP-DSPR-DT.png",
+            "variants": [
+              {
+                "code": "DT",
+                "image": "https://ms.yugipedia.com//d/de/Tualatin-DT09-JP-DSPR-DT.png"
+              }
+            ]
+          },
+          "fc8e0c40-9445-4ab2-a84a-49abe0393b00": {
+            "image": "https://ms.yugipedia.com//1/13/LavaltheGreater-DT09-JP-DSPR-DT.jpg",
+            "variants": [
+              {
+                "code": "DT",
+                "image": "https://ms.yugipedia.com//1/13/LavaltheGreater-DT09-JP-DSPR-DT.jpg"
+              }
+            ]
+          },
+          "fc98cb69-c5c6-4416-8201-f958676b5bb1": {
+            "image": "https://ms.yugipedia.com//9/9f/VylonMaterial-DT09-JP-DRPR-DT.jpg",
+            "variants": [
+              {
+                "code": "DT",
+                "image": "https://ms.yugipedia.com//9/9f/VylonMaterial-DT09-JP-DRPR-DT.jpg"
+              }
+            ]
+          },
+          "fde4d592-3a70-4a7a-9af9-0c3ac39fb326": {
+            "image": "https://ms.yugipedia.com//c/c4/CyberdarkKeel-DT09-JP-DNPR-DT.jpg",
+            "variants": [
+              {
+                "code": "DT",
+                "image": "https://ms.yugipedia.com//c/c4/CyberdarkKeel-DT09-JP-DNPR-DT.jpg"
+              }
+            ]
+          },
+          "ffcaf1dd-1115-46ea-875a-d778f9210b8f": {
+            "image": "https://ms.yugipedia.com//c/c3/MoltenWhirlwindWall-DT09-JP-DNPR-DT.jpg",
+            "variants": [
+              {
+                "code": "DT",
+                "image": "https://ms.yugipedia.com//c/c3/MoltenWhirlwindWall-DT09-JP-DNPR-DT.jpg"
+              }
+            ]
+          },
+          "ffff61a1-2498-409b-81e0-987c8b50303c": {
+            "image": "https://ms.yugipedia.com//f/f0/KunaiwithChain-DT09-JP-DNPR-DT.jpg",
+            "variants": [
+              {
+                "code": "DT",
+                "image": "https://ms.yugipedia.com//f/f0/KunaiwithChain-DT09-JP-DNPR-DT.jpg"
+              }
+            ]
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          4401008
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "cards": [
+        {
+          "id": "845a63f0-53c9-47b7-ae3d-ea97a50a4349",
+          "card": "a0265517-063f-4ffa-8b4e-31acd1512992",
+          "suffix": "001",
+          "rarity": "dtrpr",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "fde4d592-3a70-4a7a-9af9-0c3ac39fb326",
+          "card": "1a2bad1d-d2f2-4dc1-84d5-426b3d5ee8ac",
+          "suffix": "002",
+          "rarity": "dtpc",
+          "imageID": "b12d36e7-a53c-418d-8a3f-c3b3d4fb7978",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "ea0b9c8d-ae77-4e93-a3cf-477a1651db54",
+          "card": "ee59059b-2c61-4b8a-a3f0-36a50c06a7d0",
+          "suffix": "003",
+          "rarity": "dtpsp",
+          "imageID": "3a6d418f-a213-4442-bcfc-f972d5411a10",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "9476b81f-755c-4320-883e-fbe81c1dde13",
+          "card": "391c58ba-0a3d-45e0-8313-a8a90adc0923",
+          "suffix": "004",
+          "rarity": "dtpc",
+          "imageID": "e8632461-b50b-4171-84c8-40d9b41eb831",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "463ad0a9-4f80-4676-992b-0dd14afeafec",
+          "card": "8164f813-d644-47f4-8f6c-3e71c2c496cd",
+          "suffix": "005",
+          "rarity": "dtpsp",
+          "imageID": "b08fa2cd-2f1c-4437-ba34-d3a7e81e9c49",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "0ceeda44-5152-41d6-be01-2fd6f2ba7f9e",
+          "card": "e3fe5556-d201-47ed-9897-0a326bd810a6",
+          "suffix": "006",
+          "rarity": "dtpc",
+          "imageID": "b27c03da-8a03-44a9-939b-8ea73a8217ba",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "79328a59-3080-4ee3-b3aa-5c7b8693038e",
+          "card": "d979497d-2762-41db-ad51-c79c14e99f4c",
+          "suffix": "007",
+          "rarity": "dtpc",
+          "imageID": "0b7cd0a4-66d4-4428-ad92-5f72a5cbdfac",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "ae10abef-8008-4a47-9834-466e08e68206",
+          "card": "19aeadef-b3b5-4da7-9fd5-65ed2a20e766",
+          "suffix": "008",
+          "rarity": "dtpc",
+          "imageID": "d4c97e77-082e-4744-ae35-f4df22f61600",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "b342b1d7-ea9e-4ebe-afbb-1dfed0b82a3e",
+          "card": "d93fe7df-a3b6-4bbd-abc0-1ae51a863fe9",
+          "suffix": "009",
+          "rarity": "dtrpr",
+          "imageID": "6f45f5f7-607b-441b-b31b-b0cb3a2725ef",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "420a308f-2cdb-44e5-a986-69e9fa233cf4",
+          "card": "41926564-e6dc-4c76-83ce-056cf2e2ab80",
+          "suffix": "010",
+          "rarity": "dtpsp",
+          "imageID": "a1602394-5a00-4520-abe4-ca5cded5dc39",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "f2a123be-a5f6-4d9e-bdb4-669c3b066e00",
+          "card": "428c5dff-522f-41ef-af0a-b8b2e6b6a595",
+          "suffix": "011",
+          "rarity": "dtpc",
+          "imageID": "a344d8e9-00d1-4280-ac9e-d3ba5522c03f",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "13da75bb-d336-477a-82de-f7e9199e04b8",
+          "card": "ee6416b2-9fea-46cf-baad-e42d396852cc",
+          "suffix": "012",
+          "rarity": "dtpc",
+          "imageID": "8d0a7838-da69-424a-b7a7-ebb6e79a4924",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "de3abf07-0609-4f35-a83d-5a6f19e22dee",
+          "card": "aa4107fe-e581-4a33-b783-5492bb4307db",
+          "suffix": "013",
+          "rarity": "dtpsp",
+          "imageID": "7a88ca4f-ad4c-4017-88a0-e7e309f622a8",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "e5745469-37cd-4fb9-8673-bfa103f69978",
+          "card": "567d817e-4673-4334-b2a1-a6560b29b75b",
+          "suffix": "014",
+          "rarity": "dtpsp",
+          "imageID": "17a78174-12ff-49d5-a11c-667d156e4c16",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "fc79c41e-e7c3-4627-a3bb-9d71a105dccb",
+          "card": "f30647b9-2f4a-4f80-943d-cd463c11d7bc",
+          "suffix": "015",
+          "rarity": "dtspr",
+          "imageID": "07fc64db-ebe1-4338-8c98-7bf96f8ca3fc",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "e74a56c7-464d-4188-bbd2-fcf17dc1535f",
+          "card": "ce3728a6-0d15-4b29-b431-4cc36a7f5687",
+          "suffix": "016",
+          "rarity": "dtpc",
+          "imageID": "197ce873-3458-48cd-9b71-ebd360c694cd",
+          "printStatus": "new"
+        },
+        {
+          "id": "3b3a0a2d-8f3a-4e26-b99b-8b2230b5dd9b",
+          "card": "99703634-bd61-46fa-85f6-3cf7b940eca7",
+          "suffix": "017",
+          "rarity": "dtpc",
+          "imageID": "75ad274f-e513-4c8f-a2cd-149be9c6bf98",
+          "printStatus": "new"
+        },
+        {
+          "id": "ad947d22-a734-4433-89d8-f28a8b37d660",
+          "card": "a6293f3e-22da-4497-bb44-1cadfcc217b8",
+          "suffix": "018",
+          "rarity": "dtpc",
+          "imageID": "c673afdd-34ab-4073-8717-6c53750b2a34",
+          "printStatus": "new"
+        },
+        {
+          "id": "2d7b506a-11e6-494d-93d0-31bacc601425",
+          "card": "81dafb94-c048-47ca-853d-8e8d203f8e31",
+          "suffix": "019",
+          "rarity": "dtspr",
+          "imageID": "da52b855-365b-4214-a97b-84a424fc191a",
+          "printStatus": "new"
+        },
+        {
+          "id": "c75b973b-ef6e-4096-ab4e-4425e344b85d",
+          "card": "e2378eab-d6a6-41eb-ad90-ba3dad85cae4",
+          "suffix": "020",
+          "rarity": "dtrpr",
+          "imageID": "66da7cd1-5439-4ff7-80e3-2e31162e75c0",
+          "printStatus": "new"
+        },
+        {
+          "id": "5c097794-c0f9-438b-9645-d67d58007e5c",
+          "card": "b4c2c770-3f5f-4aaa-bec5-2bba8dc46481",
+          "suffix": "021",
+          "rarity": "dtpc",
+          "imageID": "5047ab72-427a-417f-84a2-8150a82addd6",
+          "printStatus": "new"
+        },
+        {
+          "id": "c4168768-01e9-4f14-9bb3-4f5aab63d281",
+          "card": "1dcf4e9f-5c52-4756-a461-d8c50b477cc3",
+          "suffix": "022",
+          "rarity": "dtrpr",
+          "imageID": "60fe04b8-bb31-453e-b8b0-76eab788351c",
+          "printStatus": "new"
+        },
+        {
+          "id": "f541d95b-8cce-42d0-b5b2-8e39c050eb12",
+          "card": "7de08bab-1f1a-4879-bafb-391eed2f5180",
+          "suffix": "023",
+          "rarity": "dtrpr",
+          "imageID": "dc7b335c-d19d-4515-a60d-03e445d86125",
+          "printStatus": "new"
+        },
+        {
+          "id": "124cf500-f780-4a0b-aa8e-83a79f0c0990",
+          "card": "b84f5e1f-cb6a-4a34-8f4b-cb919d10c4bb",
+          "suffix": "024",
+          "rarity": "dtrpr",
+          "imageID": "61fea3cf-5f71-43c1-9108-4a4d16b3d992",
+          "printStatus": "new"
+        },
+        {
+          "id": "91f0b450-c47c-407e-864f-69b0f0c9cc2f",
+          "card": "070dded8-da07-4f9f-a97c-9e4ae9e3858c",
+          "suffix": "025",
+          "rarity": "dtpc",
+          "imageID": "b42deaa2-6144-4265-8b8b-7a73c814d5d6",
+          "printStatus": "new"
+        },
+        {
+          "id": "3ecaedf4-7c9a-4003-818b-b72ce2bf8c16",
+          "card": "de2ae9b8-0b2c-4404-96dd-0ef0483d53f8",
+          "suffix": "026",
+          "rarity": "dtpc",
+          "imageID": "ca93c908-4857-4ec8-ba5b-53d04d3f086a",
+          "printStatus": "new"
+        },
+        {
+          "id": "23986c4f-45bd-445b-98b7-d38f8cc3137e",
+          "card": "19e81df0-f187-4876-9c31-7c4a85f0144e",
+          "suffix": "027",
+          "rarity": "dtpc",
+          "imageID": "07dba038-3b56-4026-949b-0425e736898b",
+          "printStatus": "new"
+        },
+        {
+          "id": "0c465ea6-bd5b-4782-9bfe-ba9a368a0174",
+          "card": "09b37ea0-8647-4d55-84e6-9127cdae510a",
+          "suffix": "028",
+          "rarity": "dtpc",
+          "imageID": "74039a0d-d3ee-40e4-88c3-07314c3dae68",
+          "printStatus": "new"
+        },
+        {
+          "id": "e613005c-5425-4e3f-935a-0d3bc349d9dd",
+          "card": "ed941f36-51e4-4bb8-8774-cd1c9c27d72e",
+          "suffix": "029",
+          "rarity": "dtspr",
+          "imageID": "11f5b8cf-4460-4e41-a8b7-7ef00d2e362f",
+          "printStatus": "new"
+        },
+        {
+          "id": "49a9a0df-c4ad-4eaf-bfa6-9100fdd00607",
+          "card": "511309ff-8144-47d2-bd78-4e5b5bc479ad",
+          "suffix": "030",
+          "rarity": "dtrpr",
+          "imageID": "5f2736ef-1ee6-4524-86de-e5f8a3d40abf",
+          "printStatus": "new"
+        },
+        {
+          "id": "70470e2c-eda8-4acd-8f65-a215c5c77f8f",
+          "card": "24819ca1-86a8-4665-93cc-f93103908489",
+          "suffix": "031",
+          "rarity": "dtpc",
+          "imageID": "62b8e785-5d90-4d7b-9fa5-fd8c03b606f9",
+          "printStatus": "new"
+        },
+        {
+          "id": "aaa2e9fd-942a-469c-bbd4-b5e7ddeb0fdc",
+          "card": "52cbb222-4d3a-43a7-89a2-4e3f91c8fe37",
+          "suffix": "032",
+          "rarity": "dtpc",
+          "imageID": "acf47e0b-4262-44ad-89be-4039e13424ac",
+          "printStatus": "new"
+        },
+        {
+          "id": "b24621c9-6819-4821-b429-b1209cd643b7",
+          "card": "a8fcaa0f-ad62-4282-b8f9-46fb059b1dff",
+          "suffix": "033",
+          "rarity": "dtrpr",
+          "imageID": "b13dee37-9794-4c80-96cf-dd9e146dc80b",
+          "printStatus": "new"
+        },
+        {
+          "id": "89697b6a-fbb5-4aa3-b56d-a51367a56f46",
+          "card": "c77f92ae-1271-4b47-8bef-3075ce52dea7",
+          "suffix": "034",
+          "rarity": "dtupr",
+          "imageID": "d06cea76-c541-449a-bef2-ad678212933a",
+          "printStatus": "new"
+        },
+        {
+          "id": "d11b5145-2d69-43e8-a271-b875374cf092",
+          "card": "c77f92ae-1271-4b47-8bef-3075ce52dea7",
+          "suffix": "034",
+          "rarity": "dtscpr",
+          "imageID": "d06cea76-c541-449a-bef2-ad678212933a",
+          "printStatus": "new"
+        },
+        {
+          "id": "058a24af-aebb-42eb-afe4-fe18614691ff",
+          "card": "28afab0b-cb04-4900-ae0e-59c003abe30a",
+          "suffix": "035",
+          "rarity": "dtspr",
+          "imageID": "f7062d45-a7e8-41da-b8e5-7f27310f7ebd",
+          "printStatus": "new"
+        },
+        {
+          "id": "8f2b53e5-3c43-41f6-a146-b8896778ef9f",
+          "card": "e5f9f775-0fb2-4b65-836a-8b4739055d2e",
+          "suffix": "036",
+          "rarity": "dtupr",
+          "imageID": "4664227c-e29b-41ad-96e2-befb4551162c",
+          "printStatus": "new"
+        },
+        {
+          "id": "4ce07766-98ca-4b0b-9389-77d564ec3d92",
+          "card": "e5f9f775-0fb2-4b65-836a-8b4739055d2e",
+          "suffix": "036",
+          "rarity": "dtscpr",
+          "imageID": "4664227c-e29b-41ad-96e2-befb4551162c",
+          "printStatus": "new"
+        },
+        {
+          "id": "9a605843-1052-4c94-80ef-d34e04b88547",
+          "card": "43187801-282c-467a-b7fc-e872ace17689",
+          "suffix": "037",
+          "rarity": "dtupr",
+          "imageID": "dd87fb02-03a2-4362-908f-9908b6519485",
+          "printStatus": "new"
+        },
+        {
+          "id": "ea2dd560-87a1-41ca-b76e-133e7ba9569e",
+          "card": "43187801-282c-467a-b7fc-e872ace17689",
+          "suffix": "037",
+          "rarity": "dtscpr",
+          "imageID": "dd87fb02-03a2-4362-908f-9908b6519485",
+          "printStatus": "new"
+        },
+        {
+          "id": "fc8e0c40-9445-4ab2-a84a-49abe0393b00",
+          "card": "f8438c72-f875-493e-b49c-aed099f134ac",
+          "suffix": "038",
+          "rarity": "dtspr",
+          "imageID": "1acfc57f-be2c-4766-8b74-ae25813fe542",
+          "printStatus": "new"
+        },
+        {
+          "id": "bdba7b68-e18a-4a14-a7ba-18a809f7dadd",
+          "card": "c65e8bbe-b0be-42bd-9b11-100403e3e6eb",
+          "suffix": "039",
+          "rarity": "dtspr",
+          "imageID": "05450ef3-cad4-4198-afd0-8e938cea3dd8",
+          "printStatus": "new"
+        },
+        {
+          "id": "735edcd8-b20d-4bca-9abc-09ef690f0c35",
+          "card": "5e40cabf-8056-4750-bc70-7d7dd19455a8",
+          "suffix": "040",
+          "rarity": "dtupr",
+          "imageID": "02f234b2-a173-40fd-b12e-8a89eb31a3e6",
+          "printStatus": "new"
+        },
+        {
+          "id": "d825f56b-88e9-485b-8b72-3eb4e85effca",
+          "card": "5e40cabf-8056-4750-bc70-7d7dd19455a8",
+          "suffix": "040",
+          "rarity": "dtscpr",
+          "imageID": "02f234b2-a173-40fd-b12e-8a89eb31a3e6",
+          "printStatus": "new"
+        },
+        {
+          "id": "6980ad00-de3c-4062-9348-8238b04b9260",
+          "card": "c299e8bf-eec7-4557-bfa9-66356415f635",
+          "suffix": "041",
+          "rarity": "dtpc",
+          "imageID": "8f890c40-afb9-48d1-9caf-f7e337aeb4f7",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "9d5729ad-5857-46e2-bd17-f436b570251f",
+          "card": "f2fdc396-fb8d-4899-80a1-1d7907648ab4",
+          "suffix": "042",
+          "rarity": "dtpc",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "4d48f179-5a5d-4c7a-9c9b-cc391544aafa",
+          "card": "d73b717f-9dc8-4b20-9185-d5b58e33b8e2",
+          "suffix": "043",
+          "rarity": "dtpc",
+          "imageID": "2349c6a0-2e38-4512-adfe-00d92c0c2acc",
+          "printStatus": "new"
+        },
+        {
+          "id": "c39bd323-42fa-4ecd-8b10-29ef40ba0349",
+          "card": "40e5b892-e838-4754-9282-e2471a470ada",
+          "suffix": "044",
+          "rarity": "dtpc",
+          "imageID": "cdb0931f-22df-4fe4-8405-635372766e89",
+          "printStatus": "new"
+        },
+        {
+          "id": "fc98cb69-c5c6-4416-8201-f958676b5bb1",
+          "card": "f101735d-37ec-4fc4-8215-af58bb3f1a57",
+          "suffix": "045",
+          "rarity": "dtrpr",
+          "imageID": "34b043bf-52d2-4901-9392-b32f78d6e1f0",
+          "printStatus": "new"
+        },
+        {
+          "id": "7a9ccc69-d90f-4b1a-b813-94c3260fbaad",
+          "card": "7482dd7c-1865-42d2-a896-268594db87e6",
+          "suffix": "046",
+          "rarity": "dtpc",
+          "imageID": "71c76f4e-f8eb-4b94-8563-16bc4d3cab4e",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "4f1ce554-9843-4649-8373-853d1707858b",
+          "card": "2981d8b8-41a0-41aa-8c53-4514d97c8453",
+          "suffix": "047",
+          "rarity": "dtpc",
+          "imageID": "bec204cd-ff45-49a5-a0ca-0338118c4851",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "ffff61a1-2498-409b-81e0-987c8b50303c",
+          "card": "9468f3bd-9796-4259-93bc-61e33578f552",
+          "suffix": "048",
+          "rarity": "dtpc",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "f527004f-c626-4cc2-a601-9115596f2b8d",
+          "card": "d01f8688-3103-4d4c-a13e-0e6252876c6d",
+          "suffix": "049",
+          "rarity": "dtrpr",
+          "imageID": "de82f2bb-2c45-4421-a8fd-73348d76c69a",
+          "printStatus": "new"
+        },
+        {
+          "id": "ffcaf1dd-1115-46ea-875a-d778f9210b8f",
+          "card": "d9d9a0e6-b660-494c-9f58-f8bcdb0482d2",
+          "suffix": "050",
+          "rarity": "dtpc",
+          "imageID": "7399983f-3636-412c-afee-56c165f39879",
+          "printStatus": "new"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Duel Terminal - Vylon Descends!!",
+      "id": 129170
+    }
+  }
+}

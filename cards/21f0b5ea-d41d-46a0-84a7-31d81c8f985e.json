@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "21f0b5ea-d41d-46a0-84a7-31d81c8f985e",
+  "text": {
+    "en": {
+      "name": "Necromaid Doctor",
+      "effect": "Set 1 \"Maid's Baneful Gift\" or \"Necromaid Trickment\" from your Graveyard to your Spell & Trap Zone.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30cd\u30af\u30e1\u30a4\u30c9\u30fb\u30c9\u30af\u30bf\u30fc",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u30e1\u30a4\u30c9\u306e\u571f\u7523\u300d\u307e\u305f\u306f\u300c\u30cd\u30af\u30e1\u30a4\u30c9\u30fb\u30c8\u30ea\u30c3\u30af\u30e1\u30f3\u30c8\u300d\uff11\u679a\u3092\u9078\u3093\u3067\u81ea\u5206\u306e\u9b54\u6cd5\uff06\u7f60\u30be\u30fc\u30f3\u306b\u30bb\u30c3\u30c8\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub124\ud06c\uba54\uc774\ub4dc \ub2e5\ud130",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \"\uba54\uc774\ub4dc\uc758 \uc120\ubb3c\" \ub610\ub294 \"\ub124\ud06c\uba54\uc774\ub4dc \ud2b8\ub9ad\uba3c\ud2b8\" 1\uc7a5\uc744 \uace0\ub974\uace0 \uc790\uc2e0\uc758 \ub9c8\ubc95 & \ud568\uc815 \uc874\uc5d0 \uc138\ud2b8\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "zombie",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1100,
+  "def": 700,
+  "passwords": [],
+  "images": [
+    {
+      "id": "3b5605d2-5c2e-4587-a4ec-64a5f361d356",
+      "card": "https://ms.yugipedia.com//2/27/NecromaidDoctor-RDKP23-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Necromaid Doctor",
+        "id": 1159900
+      }
+    ],
+    "dbID": 22420
+  },
+  "series": [
+    "15739dea-0414-41f3-ab94-5d27e0578485"
+  ]
+}

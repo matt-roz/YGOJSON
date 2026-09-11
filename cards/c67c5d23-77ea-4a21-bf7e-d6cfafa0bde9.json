@@ -1,0 +1,44 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "c67c5d23-77ea-4a21-bf7e-d6cfafa0bde9",
+  "text": {
+    "en": {
+      "name": "Y-Dragon Head (Rush Duel)",
+      "effect": "Equip this card to 1 face-up \"X-Head Cannon\", or Fusion Monster that mentions it as material, on your field as an Equip Spell Card with the following effect. \u25cfThe equipped monster gains 400 ATK/DEF.",
+      "official": false
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "abilities": [
+    "union"
+  ],
+  "level": 4,
+  "atk": 1500,
+  "def": 1600,
+  "passwords": [],
+  "images": [
+    {
+      "id": "bb7033e9-27d6-46e3-9cd8-bb5c61c8ee88",
+      "card": "https://ms.yugipedia.com//0/01/YDragonHead-RDAP03-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Y-Dragon Head (Rush Duel)",
+        "id": 1196061
+      }
+    ],
+    "dbID": 23470
+  },
+  "series": [
+    "55d07b9d-24c6-4be1-9101-c7e5785a9c49"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "86a82afa-a951-477e-a8ac-38a90495af9c",
+  "text": {
+    "en": {
+      "name": "Drilling Tractiger",
+      "effect": "Add 1 \"Pierce!\", \"Powerful Pierce!!\", or \"Straight Pierce\" from your Graveyard to your hand.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30c9\u30ea\u30ea\u30f3\u30b0\u30fb\u30c8\u30e9\u30af\u30bf\u30a4\u30ac\u30fc",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u8cab\u901a\uff01\u300d\u300c\u5927\u8cab\u901a\uff01\uff01\u300d\u300c\u4e00\u6c17\u8cab\u901a\u300d\u306e\u4e2d\u304b\u3089\uff11\u679a\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub4dc\ub9b4\ub9c1 \ud2b8\ub799\ud0c0\uc774\uac70",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \"\uad00\ud1b5!\" \"\ub300\uad00\ud1b5!!\" \"\uc77c\uae30\uad00\ud1b5\" \uc911\uc5d0\uc11c 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\ub294\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2500,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "8237301d-8a4f-47aa-9a15-97570add8e67",
+      "card": "https://ms.yugipedia.com//8/8f/DrillingTractiger-RDSJMP-JP-NPR.png"
+    }
+  ],
+  "sets": [
+    "b254644c-27d2-4111-9a53-3a82de7d4cd5"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Drilling Tractiger",
+        "id": 714702
+      }
+    ],
+    "dbID": 18028
+  },
+  "series": []
+}

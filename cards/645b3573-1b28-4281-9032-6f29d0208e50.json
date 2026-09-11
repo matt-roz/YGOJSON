@@ -1,0 +1,53 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "645b3573-1b28-4281-9032-6f29d0208e50",
+  "text": {
+    "en": {
+      "name": "Knight of Twin Swords",
+      "effect": "Can make up to 2 attacks on monsters during each Battle Phase. You can only use each of the following effects of \"Knight of Twin Swords\" once per turn. If this card is in your hand and you control a card with an effect that requires a die roll: You can Special Summon this card. During your Main Phase: You can roll a six-sided die 3 times, and if you do, this card gains ATK equal to the total x 350 (until the end of this turn), then if 2 or more of the results were the same, you can Special Summon 1 monster from your hand.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30c7\u30e5\u30fc\u30ab\u30fc\u30fb\u30c4\u30a4\u30f3\u30fb\u30bd\u30fc\u30c9"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 350,
+  "def": 200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "d26708af-9fc2-4e32-9bda-24c80e011293",
+      "card": "https://ms.yugipedia.com//5/57/KnightofTwinSwords-YAC1-JP-OP.png"
+    },
+    {
+      "id": "0ef2d16b-cecd-4e7e-8cc7-c5bc77b2b13a",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/100459020.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/100459020.jpg"
+    }
+  ],
+  "sets": [
+    "9aefc662-0b55-44d0-85b1-7c92cfe8a78b",
+    "9aefc662-0b55-44d0-85b1-7c92cfe8a78b"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Knight of Twin Swords",
+        "id": 1222616
+      }
+    ],
+    "ygoprodeck": {
+      "id": 100459020,
+      "name": "knight-of-twin-swords-15921"
+    }
+  },
+  "series": []
+}

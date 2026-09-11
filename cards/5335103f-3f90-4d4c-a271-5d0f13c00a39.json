@@ -1,0 +1,48 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "5335103f-3f90-4d4c-a271-5d0f13c00a39",
+  "text": {
+    "en": {
+      "name": "Osmanjupiter the Planetairy",
+      "effect": "Destroy this card on your field. Then, you can Special Summon 1 Level 6 or higher Galaxy Type monster with 900 ATK from your Graveyard to your field in face-up Defense Position.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u60d1\u7cbe\u306e\u30aa\u30b9\u30de\u30f3\u30b8\u30e5\u30d4\u30bf\u30fc",
+      "effect": "\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u3053\u306e\u30ab\u30fc\u30c9\u3092\u7834\u58ca\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff16\u4ee5\u4e0a\uff0f\u30ae\u30e3\u30e9\u30af\u30b7\u30fc\u65cf\uff0f\u653b\u6483\u529b\uff19\uff10\uff10\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u5b88\u5099\u8868\u793a\u3067\u7279\u6b8a\u53ec\u559a\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud639\uc815\uc758 \uc624\uc2a4\ub9cc\uc8fc\ud53c\ud130",
+      "effect": "\uc790\uc2e0 \ud544\ub4dc\uc758 \uc774 \uce74\ub4dc\ub97c \ud30c\uad34\ud55c\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130(\ub808\ubca8 6 \uc774\uc0c1 / \uac24\ub7ed\uc2dc\uc871 / \uacf5\uaca9\ub825 900) 1\uc7a5\uc744 \uace0\ub974\uace0 \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \uc218\ube44 \ud45c\uc2dc\ub85c \ud2b9\uc218 \uc18c\ud658\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "wind",
+  "classifications": [
+    "effect"
+  ],
+  "level": 5,
+  "atk": 900,
+  "def": 1600,
+  "passwords": [],
+  "images": [
+    {
+      "id": "a366de3f-0c52-4ceb-84f7-5a86a3816b83",
+      "card": "https://ms.yugipedia.com//e/ea/OsmanjupiterthePlanetairy-RDORP3-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Osmanjupiter the Planetairy",
+        "id": 1143487
+      }
+    ],
+    "dbID": 22250
+  },
+  "series": [
+    "402a6515-eafb-46c8-8a48-c408fc3deaaa"
+  ]
+}

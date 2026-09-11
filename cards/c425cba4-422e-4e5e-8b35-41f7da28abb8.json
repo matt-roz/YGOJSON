@@ -1,0 +1,69 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "c425cba4-422e-4e5e-8b35-41f7da28abb8",
+  "text": {
+    "en": {
+      "name": "The Sun God of Darkness - The Winged Dragon of Ra",
+      "effect": "\"The Winged Dragon of Ra\" + 3 \"Sun God\" monsters\nUnaffected by other cards' effects. Once per turn, during the Main Phase (Quick Effect): You can discard any number of \"Sun God\" cards, then choose that many of your opponent's occupied Main Monster Zones; your opponent must send the monsters in those zones to the GY. When an attack is declared involving this card: You can pay LP so that you only have 1 left; this card gains ATK/DEF equal to the amount of LP paid and the total ATK of all \"Sun God\" monsters currently in your GY.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u6697\u9ed2\u306e\u592a\u967d\u795e\uff0d\u30e9\u30fc\u306e\u7ffc\u795e\u7adc"
+    },
+    "zh-CN": {
+      "name": "\u6697\u9ed1\u592a\u9633\u795e\uff0d\u62c9\u4e4b\u7ffc\u795e\u9f99",
+      "effect": "\u201c\u62c9\u4e4b\u7ffc\u795e\u9f99\u201d\uff0b\u201c\u592a\u9633\u795e\u201d\u602a\u517d\u00d73\n\u2460\uff1a\u573a\u4e0a\u7684\u6b64\u5361\u4e0d\u53d7\u5176\u4ed6\u5361\u7684\u6548\u679c\u5f71\u54cd\u3002\u2461\uff1a1\u56de\u54081\u6b21\uff0c\u5728\u81ea\u5df1\u30fb\u5bf9\u624b\u7684\u4e3b\u8981\u9636\u6bb5\uff0c\u4ece\u624b\u724c\u5c06\u4efb\u610f\u6570\u91cf\u7684\u201c\u592a\u9633\u795e\u201d\u5361\u820d\u5f03\uff0c\u4f9d\u5176\u6570\u91cf\u6307\u5b9a\u4f7f\u7528\u4e2d\u7684\u5bf9\u624b\u7684\u4e3b\u8981\u602a\u517d\u533a\u57df\u53ef\u4ee5\u53d1\u52a8\u3002\u5bf9\u624b\u5fc5\u987b\u5c06\u8be5\u533a\u57df\u7684\u602a\u517d\u9001\u81f3\u5893\u5730\u3002\u2462\uff1a\u6b64\u5361\u8fdb\u884c\u6218\u6597\u7684\u653b\u51fb\u5ba3\u8a00\u65f6\uff0c\u652f\u4ed8LP\u76f4\u81f3\u53d8\u4e3a1LP\u53ef\u4ee5\u53d1\u52a8\u3002\u6b64\u5361\u7684\u653b\u51fb\u529b\u30fb\u5b88\u5907\u529b\u4e0a\u5347\u76f8\u5f53\u4e8e\u6240\u652f\u4ed8\u7684\u6570\u503c\u53ca\u81ea\u5df1\u5893\u5730\u7684\u201c\u592a\u9633\u795e\u201d\u602a\u517d\u7684\u653b\u51fb\u529b\u5408\u8ba1\u6570\u503c\u3002"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "divine",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "divinebeast",
+  "classifications": [
+    "effect"
+  ],
+  "level": 10,
+  "atk": "?",
+  "def": "?",
+  "passwords": [],
+  "images": [
+    {
+      "id": "8b003f12-3676-44f6-8b8a-8d992f564615",
+      "card": "https://ms.yugipedia.com//c/c3/TheSunGodofDarknessTheWingedDragonofRa-IMPH-JP-OP.png"
+    },
+    {
+      "id": "90da0e26-2e94-4efe-88cb-c5b3ea4826a2",
+      "card": "https://ms.yugipedia.com//3/3a/TheSunGodofDarknessTheWingedDragonofRa-IMPH-JP-OP-EA.png"
+    },
+    {
+      "id": "10e5c9f6-0952-4754-8a12-ba4816bca42e",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/101403030.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/101403030.jpg"
+    }
+  ],
+  "sets": [
+    "ccc8125c-0182-45df-91a7-57e5e2423dfc",
+    "ccc8125c-0182-45df-91a7-57e5e2423dfc",
+    "ccc8125c-0182-45df-91a7-57e5e2423dfc",
+    "ccc8125c-0182-45df-91a7-57e5e2423dfc"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "The Sun God of Darkness - The Winged Dragon of Ra",
+        "id": 1210963
+      }
+    ],
+    "ygoprodeck": {
+      "id": 101403030,
+      "name": "the-sun-god-of-darkness-the-winged-dragon-of-ra-15916"
+    }
+  },
+  "series": [
+    "e857129c-f40b-4e55-88ae-9d2c1f82b78d",
+    "3b0eaf12-c2db-4323-bd23-08c247d04643"
+  ]
+}

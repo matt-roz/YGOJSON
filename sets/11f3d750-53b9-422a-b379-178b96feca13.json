@@ -1,0 +1,2563 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "11f3d750-53b9-422a-b379-178b96feca13",
+  "name": {
+    "en": "Structure Deck: Marik",
+    "fr": "Deck de Structure: Marik",
+    "de": "Structure Deck: Marik",
+    "it": "Structure Deck: Marik",
+    "es": "Baraja de Estructura: Marik"
+  },
+  "locales": {
+    "en": {
+      "language": "en",
+      "prefix": "SDMA-EN",
+      "image": "https://ms.yugipedia.com//3/30/SDMA-DeckEN.png",
+      "cardImages": {
+        "1st": {
+          "00279a11-d10f-44f7-9b26-d48c7a63afab": "https://ms.yugipedia.com//0/04/GilGarth-SDMA-EN-C-1E.png",
+          "06b1f479-03bb-43c2-b5d6-ec8d56058ce3": "https://ms.yugipedia.com//6/6d/GravekeepersCommandant-SDMA-EN-C-1E.png",
+          "0977bdc4-c226-4746-8161-5f6066a96116": "https://ms.yugipedia.com//f/f5/GravekeepersDescendant-SDMA-EN-C-1E.png",
+          "10f185e4-5a73-48f2-90e6-51bf19cc2a6c": "https://ms.yugipedia.com//b/bc/GravekeepersChief-SDMA-EN-C-1E.jpg",
+          "146bb8e0-dd69-431b-9cbb-80a34bb6ca7a": "https://ms.yugipedia.com//0/04/DarkIllusion-SDMA-EN-C-1E.png",
+          "1b2e079d-8b69-4fb0-9119-8685e8b52ae9": "https://ms.yugipedia.com//c/c6/AllureofDarkness-SDMA-EN-C-1E.png",
+          "327ad1b8-ba9f-44c5-a14c-91fdaec139f5": "https://ms.yugipedia.com//3/3d/GravekeepersAssailant-SDMA-EN-C-1E.png",
+          "3a784a18-5a0a-449b-b54f-f795caa8b34e": "https://ms.yugipedia.com//d/db/MalevolentCatastrophe-SDMA-EN-C-1E.png",
+          "3e97a89c-a9e7-4ee4-adbf-a122a91cdb39": "https://ms.yugipedia.com//c/c5/FoolishBurial-SDMA-EN-C-1E.png",
+          "3ebe76e1-5fc7-4188-9d55-441cbb8b6c08": "https://ms.yugipedia.com//3/34/Necrovalley-SDMA-EN-C-1E.png",
+          "529e6f48-0d4e-4e76-add2-15bcb64bc9a5": "https://ms.yugipedia.com//6/62/NightmaresSteelcage-SDMA-EN-C-1E.png",
+          "52a64b6d-34d1-40a7-bc40-d882f938e253": "https://ms.yugipedia.com//b/b2/MagicalStoneExcavation-SDMA-EN-C-1E.png",
+          "55bc7f0a-4508-472b-bba0-c977c89b5d5b": "https://ms.yugipedia.com//e/eb/MysticTomato-SDMA-EN-C-1E.jpg",
+          "5ac27d7e-8c30-451a-89aa-d91085ab01b2": "https://ms.yugipedia.com//6/6c/TempleoftheKings-SDMA-EN-UR-1E.png",
+          "5f4d7364-21dc-47a2-bc92-9e4d08741c37": "https://ms.yugipedia.com//9/99/CreatureSwap-SDMA-EN-C-1E.jpg",
+          "60b1e42e-3340-4bb7-8650-37b51f7d169a": "https://ms.yugipedia.com//8/84/ViserDes-SDMA-EN-C-1E.png",
+          "60d0d97b-b48f-4d29-9ed2-ece60d35dc4b": "https://ms.yugipedia.com//a/a9/MetalReflectSlime-SDMA-EN-C-1E.jpg",
+          "61063136-1a06-4b77-859f-e623c0561268": "https://ms.yugipedia.com//4/41/AcidTrapHole-SDMA-EN-C-1E.png",
+          "612b5279-2245-4c6b-a5dc-acea9a1f9c79": "https://ms.yugipedia.com//6/6c/GravekeepersCannonholder-SDMA-EN-C-1E.png",
+          "6ca0da21-08b1-48c7-8c91-17b0529d8748": "https://ms.yugipedia.com//7/7e/BookofMoon-SDMA-EN-C-1E.jpg",
+          "72dbf26c-942b-419d-8e10-703ecf5f31d4": "https://ms.yugipedia.com//b/b7/MirrorForce-SDMA-EN-C-1E.jpg",
+          "79fcd63b-471f-4049-87b0-fb3313da515e": "https://ms.yugipedia.com//a/ac/MysticalBeastofSerket-SDMA-EN-UR-1E.png",
+          "7cbdc7e5-0656-4b44-ab7d-6fd33511c694": "https://ms.yugipedia.com//9/92/LavaGolem-SDMA-EN-UR-1E.png",
+          "89895b98-b0c1-4697-a360-bb715461e48c": "https://ms.yugipedia.com//f/fc/Newdoria-SDMA-EN-C-1E.png",
+          "8c57ae51-8e9e-4743-95d7-a715fd24e8ac": "https://ms.yugipedia.com//c/cf/Drillago-SDMA-EN-C-1E.png",
+          "a10cb4f3-1da1-4a30-95c9-1b74aa45f3d3": "https://ms.yugipedia.com//8/85/NightmareWheel-SDMA-EN-C-1E.jpg",
+          "a44fbc5d-0783-4430-a78e-a9f3e5ba0afa": "https://ms.yugipedia.com//0/07/MysticalSpaceTyphoon-SDMA-EN-C-1E.png",
+          "a8b2473a-b814-424b-bb7c-edba3ac9230a": "https://ms.yugipedia.com//e/e4/DarkRoomofNightmare-SDMA-EN-C-1E.png",
+          "a9e6c615-a8bc-47fd-ba09-0212e7177ef4": "https://ms.yugipedia.com//d/d8/GravekeepersSpy-SDMA-EN-C-1E.jpg",
+          "b5060b81-23f6-4bb9-94bb-f43a899e1138": "https://ms.yugipedia.com//a/a8/GravekeepersGuard-SDMA-EN-C-1E.png",
+          "be612bef-88c2-4b64-a115-94f9061e42be": "https://ms.yugipedia.com//0/09/LegendaryFiend-SDMA-EN-C-1E.png",
+          "ce0b43fb-307b-4b50-9df3-06833b260f8f": "https://ms.yugipedia.com//2/20/GravekeepersVisionary-SDMA-EN-C-1E.png",
+          "d116fb34-29c6-4c65-bdbc-9175e54b31f8": "https://ms.yugipedia.com//f/ff/CoffinSeller-SDMA-EN-C-1E.png",
+          "e2359202-245f-4f88-b5f8-25dd2daa931b": "https://ms.yugipedia.com//a/a3/DarkJeroid-SDMA-EN-C-1E.png",
+          "e8e3bbc5-315a-4790-aa02-d322a41ba852": "https://ms.yugipedia.com//9/91/GravekeepersCurse-SDMA-EN-C-1E.png",
+          "e98d287a-e0c2-4d3a-a469-430dbbc2445a": "https://ms.yugipedia.com//5/5d/GravekeepersSpearSoldier-SDMA-EN-C-1E.png",
+          "f4549933-ee4c-49be-923d-cde720a2b0fb": "https://ms.yugipedia.com//8/8a/Bowganian-SDMA-EN-C-1E.png",
+          "f8dc75c8-9665-4aff-9a2b-e9e544288462": "https://ms.yugipedia.com//a/a1/SkullInvitation-SDMA-EN-C-1E.png"
+        },
+        "unlimited": {
+          "00279a11-d10f-44f7-9b26-d48c7a63afab": "https://ms.yugipedia.com//3/3d/GilGarth-SDMA-EN-C-UE.png",
+          "06b1f479-03bb-43c2-b5d6-ec8d56058ce3": "https://ms.yugipedia.com//6/6b/GravekeepersCommandant-SDMA-EN-C-UE.png",
+          "0977bdc4-c226-4746-8161-5f6066a96116": "https://ms.yugipedia.com//f/fb/GravekeepersDescendant-SDMA-EN-C-UE.png",
+          "10f185e4-5a73-48f2-90e6-51bf19cc2a6c": "https://ms.yugipedia.com//2/23/GravekeepersChief-SDMA-EN-C-UE.png",
+          "146bb8e0-dd69-431b-9cbb-80a34bb6ca7a": "https://ms.yugipedia.com//5/54/DarkIllusion-SDMA-EN-C-UE.png",
+          "1b2e079d-8b69-4fb0-9119-8685e8b52ae9": "https://ms.yugipedia.com//c/c1/AllureofDarkness-SDMA-EN-C-UE.png",
+          "327ad1b8-ba9f-44c5-a14c-91fdaec139f5": "https://ms.yugipedia.com//4/4f/GravekeepersAssailant-SDMA-EN-C-UE.png",
+          "3a784a18-5a0a-449b-b54f-f795caa8b34e": "https://ms.yugipedia.com//3/3b/MalevolentCatastrophe-SDMA-EN-C-UE.png",
+          "3e97a89c-a9e7-4ee4-adbf-a122a91cdb39": "https://ms.yugipedia.com//2/28/FoolishBurial-SDMA-EN-C-UE.png",
+          "3ebe76e1-5fc7-4188-9d55-441cbb8b6c08": "https://ms.yugipedia.com//e/e6/Necrovalley-SDMA-EN-C-UE.png",
+          "529e6f48-0d4e-4e76-add2-15bcb64bc9a5": "https://ms.yugipedia.com//7/72/NightmaresSteelcage-SDMA-EN-C-UE.png",
+          "52a64b6d-34d1-40a7-bc40-d882f938e253": "https://ms.yugipedia.com//9/9d/MagicalStoneExcavation-SDMA-EN-C-UE.png",
+          "55bc7f0a-4508-472b-bba0-c977c89b5d5b": "https://ms.yugipedia.com//6/65/MysticTomato-SDMA-EN-C-UE.png",
+          "5f4d7364-21dc-47a2-bc92-9e4d08741c37": "https://ms.yugipedia.com//6/64/CreatureSwap-SDMA-EN-C-UE.png",
+          "60b1e42e-3340-4bb7-8650-37b51f7d169a": "https://ms.yugipedia.com//7/79/ViserDes-SDMA-EN-C-UE.png",
+          "60d0d97b-b48f-4d29-9ed2-ece60d35dc4b": "https://ms.yugipedia.com//6/67/MetalReflectSlime-SDMA-EN-C-UE.png",
+          "61063136-1a06-4b77-859f-e623c0561268": "https://ms.yugipedia.com//6/68/AcidTrapHole-SDMA-EN-C-UE.png",
+          "612b5279-2245-4c6b-a5dc-acea9a1f9c79": "https://ms.yugipedia.com//2/22/GravekeepersCannonholder-SDMA-EN-C-UE.png",
+          "6ca0da21-08b1-48c7-8c91-17b0529d8748": "https://ms.yugipedia.com//d/dc/BookofMoon-SDMA-EN-C-UE.png",
+          "72dbf26c-942b-419d-8e10-703ecf5f31d4": "https://ms.yugipedia.com//5/51/MirrorForce-SDMA-EN-C-UE.png",
+          "79fcd63b-471f-4049-87b0-fb3313da515e": "https://ms.yugipedia.com//b/bb/MysticalBeastofSerket-SDMA-EN-UR-UE.png",
+          "7cbdc7e5-0656-4b44-ab7d-6fd33511c694": "https://ms.yugipedia.com//a/a1/LavaGolem-SDMA-EN-UR-UE.png",
+          "89895b98-b0c1-4697-a360-bb715461e48c": "https://ms.yugipedia.com//1/1c/Newdoria-SDMA-EN-C-UE.png",
+          "8c57ae51-8e9e-4743-95d7-a715fd24e8ac": "https://ms.yugipedia.com//8/86/Drillago-SDMA-EN-C-UE.png",
+          "a10cb4f3-1da1-4a30-95c9-1b74aa45f3d3": "https://ms.yugipedia.com//2/27/NightmareWheel-SDMA-EN-C-UE.png",
+          "a8b2473a-b814-424b-bb7c-edba3ac9230a": "https://ms.yugipedia.com//6/61/DarkRoomofNightmare-SDMA-EN-C-UE.png",
+          "a9e6c615-a8bc-47fd-ba09-0212e7177ef4": "https://ms.yugipedia.com//1/1a/GravekeepersSpy-SDMA-EN-C-UE.png",
+          "b5060b81-23f6-4bb9-94bb-f43a899e1138": "https://ms.yugipedia.com//1/13/GravekeepersGuard-SDMA-EN-C-UE.png",
+          "be612bef-88c2-4b64-a115-94f9061e42be": "https://ms.yugipedia.com//2/2c/LegendaryFiend-SDMA-EN-C-UE.png",
+          "ce0b43fb-307b-4b50-9df3-06833b260f8f": "https://ms.yugipedia.com//5/5e/GravekeepersVisionary-SDMA-EN-C-UE.png",
+          "d116fb34-29c6-4c65-bdbc-9175e54b31f8": "https://ms.yugipedia.com//c/c4/CoffinSeller-SDMA-EN-C-UE.png",
+          "e2359202-245f-4f88-b5f8-25dd2daa931b": "https://ms.yugipedia.com//7/74/DarkJeroid-SDMA-EN-C-UE.png",
+          "e8e3bbc5-315a-4790-aa02-d322a41ba852": "https://ms.yugipedia.com//8/84/GravekeepersCurse-SDMA-EN-C-UE.png",
+          "e98d287a-e0c2-4d3a-a469-430dbbc2445a": "https://ms.yugipedia.com//5/59/GravekeepersSpearSoldier-SDMA-EN-C-UE.png",
+          "f4549933-ee4c-49be-923d-cde720a2b0fb": "https://ms.yugipedia.com//8/80/Bowganian-SDMA-EN-C-UE.png",
+          "f8dc75c8-9665-4aff-9a2b-e9e544288462": "https://ms.yugipedia.com//d/dd/SkullInvitation-SDMA-EN-C-UE.png"
+        }
+      },
+      "cardInfo": {
+        "1st": {
+          "00279a11-d10f-44f7-9b26-d48c7a63afab": {
+            "image": "https://ms.yugipedia.com//0/04/GilGarth-SDMA-EN-C-1E.png"
+          },
+          "06b1f479-03bb-43c2-b5d6-ec8d56058ce3": {
+            "image": "https://ms.yugipedia.com//6/6d/GravekeepersCommandant-SDMA-EN-C-1E.png"
+          },
+          "0977bdc4-c226-4746-8161-5f6066a96116": {
+            "image": "https://ms.yugipedia.com//f/f5/GravekeepersDescendant-SDMA-EN-C-1E.png"
+          },
+          "10f185e4-5a73-48f2-90e6-51bf19cc2a6c": {
+            "image": "https://ms.yugipedia.com//b/bc/GravekeepersChief-SDMA-EN-C-1E.jpg"
+          },
+          "146bb8e0-dd69-431b-9cbb-80a34bb6ca7a": {
+            "image": "https://ms.yugipedia.com//0/04/DarkIllusion-SDMA-EN-C-1E.png"
+          },
+          "1b2e079d-8b69-4fb0-9119-8685e8b52ae9": {
+            "image": "https://ms.yugipedia.com//c/c6/AllureofDarkness-SDMA-EN-C-1E.png"
+          },
+          "327ad1b8-ba9f-44c5-a14c-91fdaec139f5": {
+            "image": "https://ms.yugipedia.com//3/3d/GravekeepersAssailant-SDMA-EN-C-1E.png"
+          },
+          "3a784a18-5a0a-449b-b54f-f795caa8b34e": {
+            "image": "https://ms.yugipedia.com//d/db/MalevolentCatastrophe-SDMA-EN-C-1E.png"
+          },
+          "3e97a89c-a9e7-4ee4-adbf-a122a91cdb39": {
+            "image": "https://ms.yugipedia.com//c/c5/FoolishBurial-SDMA-EN-C-1E.png"
+          },
+          "3ebe76e1-5fc7-4188-9d55-441cbb8b6c08": {
+            "image": "https://ms.yugipedia.com//3/34/Necrovalley-SDMA-EN-C-1E.png"
+          },
+          "529e6f48-0d4e-4e76-add2-15bcb64bc9a5": {
+            "image": "https://ms.yugipedia.com//6/62/NightmaresSteelcage-SDMA-EN-C-1E.png"
+          },
+          "52a64b6d-34d1-40a7-bc40-d882f938e253": {
+            "image": "https://ms.yugipedia.com//b/b2/MagicalStoneExcavation-SDMA-EN-C-1E.png"
+          },
+          "55bc7f0a-4508-472b-bba0-c977c89b5d5b": {
+            "image": "https://ms.yugipedia.com//e/eb/MysticTomato-SDMA-EN-C-1E.jpg"
+          },
+          "5ac27d7e-8c30-451a-89aa-d91085ab01b2": {
+            "image": "https://ms.yugipedia.com//6/6c/TempleoftheKings-SDMA-EN-UR-1E.png"
+          },
+          "5f4d7364-21dc-47a2-bc92-9e4d08741c37": {
+            "image": "https://ms.yugipedia.com//9/99/CreatureSwap-SDMA-EN-C-1E.jpg"
+          },
+          "60b1e42e-3340-4bb7-8650-37b51f7d169a": {
+            "image": "https://ms.yugipedia.com//8/84/ViserDes-SDMA-EN-C-1E.png"
+          },
+          "60d0d97b-b48f-4d29-9ed2-ece60d35dc4b": {
+            "image": "https://ms.yugipedia.com//a/a9/MetalReflectSlime-SDMA-EN-C-1E.jpg"
+          },
+          "61063136-1a06-4b77-859f-e623c0561268": {
+            "image": "https://ms.yugipedia.com//4/41/AcidTrapHole-SDMA-EN-C-1E.png"
+          },
+          "612b5279-2245-4c6b-a5dc-acea9a1f9c79": {
+            "image": "https://ms.yugipedia.com//6/6c/GravekeepersCannonholder-SDMA-EN-C-1E.png"
+          },
+          "6ca0da21-08b1-48c7-8c91-17b0529d8748": {
+            "image": "https://ms.yugipedia.com//7/7e/BookofMoon-SDMA-EN-C-1E.jpg"
+          },
+          "72dbf26c-942b-419d-8e10-703ecf5f31d4": {
+            "image": "https://ms.yugipedia.com//b/b7/MirrorForce-SDMA-EN-C-1E.jpg"
+          },
+          "79fcd63b-471f-4049-87b0-fb3313da515e": {
+            "image": "https://ms.yugipedia.com//a/ac/MysticalBeastofSerket-SDMA-EN-UR-1E.png"
+          },
+          "7cbdc7e5-0656-4b44-ab7d-6fd33511c694": {
+            "image": "https://ms.yugipedia.com//9/92/LavaGolem-SDMA-EN-UR-1E.png"
+          },
+          "89895b98-b0c1-4697-a360-bb715461e48c": {
+            "image": "https://ms.yugipedia.com//f/fc/Newdoria-SDMA-EN-C-1E.png"
+          },
+          "8c57ae51-8e9e-4743-95d7-a715fd24e8ac": {
+            "image": "https://ms.yugipedia.com//c/cf/Drillago-SDMA-EN-C-1E.png"
+          },
+          "a10cb4f3-1da1-4a30-95c9-1b74aa45f3d3": {
+            "image": "https://ms.yugipedia.com//8/85/NightmareWheel-SDMA-EN-C-1E.jpg"
+          },
+          "a44fbc5d-0783-4430-a78e-a9f3e5ba0afa": {
+            "image": "https://ms.yugipedia.com//0/07/MysticalSpaceTyphoon-SDMA-EN-C-1E.png"
+          },
+          "a8b2473a-b814-424b-bb7c-edba3ac9230a": {
+            "image": "https://ms.yugipedia.com//e/e4/DarkRoomofNightmare-SDMA-EN-C-1E.png"
+          },
+          "a9e6c615-a8bc-47fd-ba09-0212e7177ef4": {
+            "image": "https://ms.yugipedia.com//d/d8/GravekeepersSpy-SDMA-EN-C-1E.jpg"
+          },
+          "b5060b81-23f6-4bb9-94bb-f43a899e1138": {
+            "image": "https://ms.yugipedia.com//a/a8/GravekeepersGuard-SDMA-EN-C-1E.png"
+          },
+          "be612bef-88c2-4b64-a115-94f9061e42be": {
+            "image": "https://ms.yugipedia.com//0/09/LegendaryFiend-SDMA-EN-C-1E.png"
+          },
+          "ce0b43fb-307b-4b50-9df3-06833b260f8f": {
+            "image": "https://ms.yugipedia.com//2/20/GravekeepersVisionary-SDMA-EN-C-1E.png"
+          },
+          "d116fb34-29c6-4c65-bdbc-9175e54b31f8": {
+            "image": "https://ms.yugipedia.com//f/ff/CoffinSeller-SDMA-EN-C-1E.png"
+          },
+          "e2359202-245f-4f88-b5f8-25dd2daa931b": {
+            "image": "https://ms.yugipedia.com//a/a3/DarkJeroid-SDMA-EN-C-1E.png"
+          },
+          "e8e3bbc5-315a-4790-aa02-d322a41ba852": {
+            "image": "https://ms.yugipedia.com//9/91/GravekeepersCurse-SDMA-EN-C-1E.png"
+          },
+          "e98d287a-e0c2-4d3a-a469-430dbbc2445a": {
+            "image": "https://ms.yugipedia.com//5/5d/GravekeepersSpearSoldier-SDMA-EN-C-1E.png"
+          },
+          "f4549933-ee4c-49be-923d-cde720a2b0fb": {
+            "image": "https://ms.yugipedia.com//8/8a/Bowganian-SDMA-EN-C-1E.png"
+          },
+          "f8dc75c8-9665-4aff-9a2b-e9e544288462": {
+            "image": "https://ms.yugipedia.com//a/a1/SkullInvitation-SDMA-EN-C-1E.png"
+          }
+        },
+        "unlimited": {
+          "00279a11-d10f-44f7-9b26-d48c7a63afab": {
+            "image": "https://ms.yugipedia.com//3/3d/GilGarth-SDMA-EN-C-UE.png"
+          },
+          "06b1f479-03bb-43c2-b5d6-ec8d56058ce3": {
+            "image": "https://ms.yugipedia.com//6/6b/GravekeepersCommandant-SDMA-EN-C-UE.png"
+          },
+          "0977bdc4-c226-4746-8161-5f6066a96116": {
+            "image": "https://ms.yugipedia.com//f/fb/GravekeepersDescendant-SDMA-EN-C-UE.png"
+          },
+          "10f185e4-5a73-48f2-90e6-51bf19cc2a6c": {
+            "image": "https://ms.yugipedia.com//2/23/GravekeepersChief-SDMA-EN-C-UE.png"
+          },
+          "146bb8e0-dd69-431b-9cbb-80a34bb6ca7a": {
+            "image": "https://ms.yugipedia.com//5/54/DarkIllusion-SDMA-EN-C-UE.png"
+          },
+          "1b2e079d-8b69-4fb0-9119-8685e8b52ae9": {
+            "image": "https://ms.yugipedia.com//c/c1/AllureofDarkness-SDMA-EN-C-UE.png"
+          },
+          "327ad1b8-ba9f-44c5-a14c-91fdaec139f5": {
+            "image": "https://ms.yugipedia.com//4/4f/GravekeepersAssailant-SDMA-EN-C-UE.png"
+          },
+          "3a784a18-5a0a-449b-b54f-f795caa8b34e": {
+            "image": "https://ms.yugipedia.com//3/3b/MalevolentCatastrophe-SDMA-EN-C-UE.png"
+          },
+          "3e97a89c-a9e7-4ee4-adbf-a122a91cdb39": {
+            "image": "https://ms.yugipedia.com//2/28/FoolishBurial-SDMA-EN-C-UE.png"
+          },
+          "3ebe76e1-5fc7-4188-9d55-441cbb8b6c08": {
+            "image": "https://ms.yugipedia.com//e/e6/Necrovalley-SDMA-EN-C-UE.png"
+          },
+          "529e6f48-0d4e-4e76-add2-15bcb64bc9a5": {
+            "image": "https://ms.yugipedia.com//7/72/NightmaresSteelcage-SDMA-EN-C-UE.png"
+          },
+          "52a64b6d-34d1-40a7-bc40-d882f938e253": {
+            "image": "https://ms.yugipedia.com//9/9d/MagicalStoneExcavation-SDMA-EN-C-UE.png"
+          },
+          "55bc7f0a-4508-472b-bba0-c977c89b5d5b": {
+            "image": "https://ms.yugipedia.com//6/65/MysticTomato-SDMA-EN-C-UE.png"
+          },
+          "5f4d7364-21dc-47a2-bc92-9e4d08741c37": {
+            "image": "https://ms.yugipedia.com//6/64/CreatureSwap-SDMA-EN-C-UE.png"
+          },
+          "60b1e42e-3340-4bb7-8650-37b51f7d169a": {
+            "image": "https://ms.yugipedia.com//7/79/ViserDes-SDMA-EN-C-UE.png"
+          },
+          "60d0d97b-b48f-4d29-9ed2-ece60d35dc4b": {
+            "image": "https://ms.yugipedia.com//6/67/MetalReflectSlime-SDMA-EN-C-UE.png"
+          },
+          "61063136-1a06-4b77-859f-e623c0561268": {
+            "image": "https://ms.yugipedia.com//6/68/AcidTrapHole-SDMA-EN-C-UE.png"
+          },
+          "612b5279-2245-4c6b-a5dc-acea9a1f9c79": {
+            "image": "https://ms.yugipedia.com//2/22/GravekeepersCannonholder-SDMA-EN-C-UE.png"
+          },
+          "6ca0da21-08b1-48c7-8c91-17b0529d8748": {
+            "image": "https://ms.yugipedia.com//d/dc/BookofMoon-SDMA-EN-C-UE.png"
+          },
+          "72dbf26c-942b-419d-8e10-703ecf5f31d4": {
+            "image": "https://ms.yugipedia.com//5/51/MirrorForce-SDMA-EN-C-UE.png"
+          },
+          "79fcd63b-471f-4049-87b0-fb3313da515e": {
+            "image": "https://ms.yugipedia.com//b/bb/MysticalBeastofSerket-SDMA-EN-UR-UE.png"
+          },
+          "7cbdc7e5-0656-4b44-ab7d-6fd33511c694": {
+            "image": "https://ms.yugipedia.com//a/a1/LavaGolem-SDMA-EN-UR-UE.png"
+          },
+          "89895b98-b0c1-4697-a360-bb715461e48c": {
+            "image": "https://ms.yugipedia.com//1/1c/Newdoria-SDMA-EN-C-UE.png"
+          },
+          "8c57ae51-8e9e-4743-95d7-a715fd24e8ac": {
+            "image": "https://ms.yugipedia.com//8/86/Drillago-SDMA-EN-C-UE.png"
+          },
+          "a10cb4f3-1da1-4a30-95c9-1b74aa45f3d3": {
+            "image": "https://ms.yugipedia.com//2/27/NightmareWheel-SDMA-EN-C-UE.png"
+          },
+          "a8b2473a-b814-424b-bb7c-edba3ac9230a": {
+            "image": "https://ms.yugipedia.com//6/61/DarkRoomofNightmare-SDMA-EN-C-UE.png"
+          },
+          "a9e6c615-a8bc-47fd-ba09-0212e7177ef4": {
+            "image": "https://ms.yugipedia.com//1/1a/GravekeepersSpy-SDMA-EN-C-UE.png"
+          },
+          "b5060b81-23f6-4bb9-94bb-f43a899e1138": {
+            "image": "https://ms.yugipedia.com//1/13/GravekeepersGuard-SDMA-EN-C-UE.png"
+          },
+          "be612bef-88c2-4b64-a115-94f9061e42be": {
+            "image": "https://ms.yugipedia.com//2/2c/LegendaryFiend-SDMA-EN-C-UE.png"
+          },
+          "ce0b43fb-307b-4b50-9df3-06833b260f8f": {
+            "image": "https://ms.yugipedia.com//5/5e/GravekeepersVisionary-SDMA-EN-C-UE.png"
+          },
+          "d116fb34-29c6-4c65-bdbc-9175e54b31f8": {
+            "image": "https://ms.yugipedia.com//c/c4/CoffinSeller-SDMA-EN-C-UE.png"
+          },
+          "e2359202-245f-4f88-b5f8-25dd2daa931b": {
+            "image": "https://ms.yugipedia.com//7/74/DarkJeroid-SDMA-EN-C-UE.png"
+          },
+          "e8e3bbc5-315a-4790-aa02-d322a41ba852": {
+            "image": "https://ms.yugipedia.com//8/84/GravekeepersCurse-SDMA-EN-C-UE.png"
+          },
+          "e98d287a-e0c2-4d3a-a469-430dbbc2445a": {
+            "image": "https://ms.yugipedia.com//5/59/GravekeepersSpearSoldier-SDMA-EN-C-UE.png"
+          },
+          "f4549933-ee4c-49be-923d-cde720a2b0fb": {
+            "image": "https://ms.yugipedia.com//8/80/Bowganian-SDMA-EN-C-UE.png"
+          },
+          "f8dc75c8-9665-4aff-9a2b-e9e544288462": {
+            "image": "https://ms.yugipedia.com//d/dd/SkullInvitation-SDMA-EN-C-UE.png"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "1st",
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          14406001
+        ]
+      }
+    },
+    "fr": {
+      "language": "fr",
+      "prefix": "SDMA-FR",
+      "date": "2010-10-19",
+      "image": "https://ms.yugipedia.com//b/bc/SDMA-DeckFR.png",
+      "cardImages": {
+        "1st": {
+          "00279a11-d10f-44f7-9b26-d48c7a63afab": "https://ms.yugipedia.com//3/33/GilGarth-SDMA-FR-C-1E.png",
+          "06b1f479-03bb-43c2-b5d6-ec8d56058ce3": "https://ms.yugipedia.com//4/41/GravekeepersCommandant-SDMA-FR-C-1E.png",
+          "0977bdc4-c226-4746-8161-5f6066a96116": "https://ms.yugipedia.com//6/6c/GravekeepersDescendant-SDMA-FR-C-1E.png",
+          "10f185e4-5a73-48f2-90e6-51bf19cc2a6c": "https://ms.yugipedia.com//8/8e/GravekeepersChief-SDMA-FR-C-1E.png",
+          "146bb8e0-dd69-431b-9cbb-80a34bb6ca7a": "https://ms.yugipedia.com//c/c1/DarkIllusion-SDMA-FR-C-1E.png",
+          "1b2e079d-8b69-4fb0-9119-8685e8b52ae9": "https://ms.yugipedia.com//9/9c/AllureofDarkness-SDMA-FR-C-1E.png",
+          "327ad1b8-ba9f-44c5-a14c-91fdaec139f5": "https://ms.yugipedia.com//f/f1/GravekeepersAssailant-SDMA-FR-C-1E.png",
+          "3a784a18-5a0a-449b-b54f-f795caa8b34e": "https://ms.yugipedia.com//2/27/MalevolentCatastrophe-SDMA-FR-C-1E.png",
+          "3e97a89c-a9e7-4ee4-adbf-a122a91cdb39": "https://ms.yugipedia.com//2/20/FoolishBurial-SDMA-FR-C-1E.png",
+          "3ebe76e1-5fc7-4188-9d55-441cbb8b6c08": "https://ms.yugipedia.com//4/43/Necrovalley-SDMA-FR-C-1E.png",
+          "529e6f48-0d4e-4e76-add2-15bcb64bc9a5": "https://ms.yugipedia.com//1/11/NightmaresSteelcage-SDMA-FR-C-1E.png",
+          "52a64b6d-34d1-40a7-bc40-d882f938e253": "https://ms.yugipedia.com//9/9f/MagicalStoneExcavation-SDMA-FR-C-1E.png",
+          "55bc7f0a-4508-472b-bba0-c977c89b5d5b": "https://ms.yugipedia.com//f/f6/MysticTomato-SDMA-FR-C-1E.png",
+          "5ac27d7e-8c30-451a-89aa-d91085ab01b2": "https://ms.yugipedia.com//7/7d/TempleoftheKings-SDMA-FR-UR-1E.png",
+          "5f4d7364-21dc-47a2-bc92-9e4d08741c37": "https://ms.yugipedia.com//6/6f/CreatureSwap-SDMA-FR-C-1E.png",
+          "60b1e42e-3340-4bb7-8650-37b51f7d169a": "https://ms.yugipedia.com//5/57/ViserDes-SDMA-FR-C-1E.png",
+          "60d0d97b-b48f-4d29-9ed2-ece60d35dc4b": "https://ms.yugipedia.com//1/12/MetalReflectSlime-SDMA-FR-C-1E.png",
+          "61063136-1a06-4b77-859f-e623c0561268": "https://ms.yugipedia.com//d/df/AcidTrapHole-SDMA-FR-C-1E.png",
+          "612b5279-2245-4c6b-a5dc-acea9a1f9c79": "https://ms.yugipedia.com//c/c8/GravekeepersCannonholder-SDMA-FR-C-1E.png",
+          "6ca0da21-08b1-48c7-8c91-17b0529d8748": "https://ms.yugipedia.com//5/54/BookofMoon-SDMA-FR-C-1E.png",
+          "72dbf26c-942b-419d-8e10-703ecf5f31d4": "https://ms.yugipedia.com//b/b3/MirrorForce-SDMA-FR-C-1E.png",
+          "79fcd63b-471f-4049-87b0-fb3313da515e": "https://ms.yugipedia.com//e/e3/MysticalBeastofSerket-SDMA-FR-UR-1E.png",
+          "7cbdc7e5-0656-4b44-ab7d-6fd33511c694": "https://ms.yugipedia.com//1/11/LavaGolem-SDMA-FR-UR-1E.png",
+          "89895b98-b0c1-4697-a360-bb715461e48c": "https://ms.yugipedia.com//2/22/Newdoria-SDMA-FR-C-1E.png",
+          "8c57ae51-8e9e-4743-95d7-a715fd24e8ac": "https://ms.yugipedia.com//4/43/Drillago-SDMA-FR-C-1E.png",
+          "a10cb4f3-1da1-4a30-95c9-1b74aa45f3d3": "https://ms.yugipedia.com//d/db/NightmareWheel-SDMA-FR-C-1E.png",
+          "a44fbc5d-0783-4430-a78e-a9f3e5ba0afa": "https://ms.yugipedia.com//c/cf/MysticalSpaceTyphoon-SDMA-FR-C-1E.png",
+          "a8b2473a-b814-424b-bb7c-edba3ac9230a": "https://ms.yugipedia.com//3/3c/DarkRoomofNightmare-SDMA-FR-C-1E.png",
+          "a9e6c615-a8bc-47fd-ba09-0212e7177ef4": "https://ms.yugipedia.com//a/a7/GravekeepersSpy-SDMA-FR-C-1E.png",
+          "b5060b81-23f6-4bb9-94bb-f43a899e1138": "https://ms.yugipedia.com//9/95/GravekeepersGuard-SDMA-FR-C-1E.png",
+          "be612bef-88c2-4b64-a115-94f9061e42be": "https://ms.yugipedia.com//c/cf/LegendaryFiend-SDMA-FR-C-1E.png",
+          "ce0b43fb-307b-4b50-9df3-06833b260f8f": "https://ms.yugipedia.com//4/4d/GravekeepersVisionary-SDMA-FR-C-1E.png",
+          "d116fb34-29c6-4c65-bdbc-9175e54b31f8": "https://ms.yugipedia.com//c/ca/CoffinSeller-SDMA-FR-C-1E.png",
+          "e2359202-245f-4f88-b5f8-25dd2daa931b": "https://ms.yugipedia.com//4/45/DarkJeroid-SDMA-FR-C-1E.png",
+          "e8e3bbc5-315a-4790-aa02-d322a41ba852": "https://ms.yugipedia.com//3/38/GravekeepersCurse-SDMA-FR-C-1E.png",
+          "e98d287a-e0c2-4d3a-a469-430dbbc2445a": "https://ms.yugipedia.com//7/75/GravekeepersSpearSoldier-SDMA-FR-C-1E.png",
+          "f4549933-ee4c-49be-923d-cde720a2b0fb": "https://ms.yugipedia.com//d/d1/Bowganian-SDMA-FR-C-1E.png",
+          "f8dc75c8-9665-4aff-9a2b-e9e544288462": "https://ms.yugipedia.com//4/44/SkullInvitation-SDMA-FR-C-1E.png"
+        }
+      },
+      "cardInfo": {
+        "1st": {
+          "00279a11-d10f-44f7-9b26-d48c7a63afab": {
+            "image": "https://ms.yugipedia.com//3/33/GilGarth-SDMA-FR-C-1E.png"
+          },
+          "06b1f479-03bb-43c2-b5d6-ec8d56058ce3": {
+            "image": "https://ms.yugipedia.com//4/41/GravekeepersCommandant-SDMA-FR-C-1E.png"
+          },
+          "0977bdc4-c226-4746-8161-5f6066a96116": {
+            "image": "https://ms.yugipedia.com//6/6c/GravekeepersDescendant-SDMA-FR-C-1E.png"
+          },
+          "10f185e4-5a73-48f2-90e6-51bf19cc2a6c": {
+            "image": "https://ms.yugipedia.com//8/8e/GravekeepersChief-SDMA-FR-C-1E.png"
+          },
+          "146bb8e0-dd69-431b-9cbb-80a34bb6ca7a": {
+            "image": "https://ms.yugipedia.com//c/c1/DarkIllusion-SDMA-FR-C-1E.png"
+          },
+          "1b2e079d-8b69-4fb0-9119-8685e8b52ae9": {
+            "image": "https://ms.yugipedia.com//9/9c/AllureofDarkness-SDMA-FR-C-1E.png"
+          },
+          "327ad1b8-ba9f-44c5-a14c-91fdaec139f5": {
+            "image": "https://ms.yugipedia.com//f/f1/GravekeepersAssailant-SDMA-FR-C-1E.png"
+          },
+          "3a784a18-5a0a-449b-b54f-f795caa8b34e": {
+            "image": "https://ms.yugipedia.com//2/27/MalevolentCatastrophe-SDMA-FR-C-1E.png"
+          },
+          "3e97a89c-a9e7-4ee4-adbf-a122a91cdb39": {
+            "image": "https://ms.yugipedia.com//2/20/FoolishBurial-SDMA-FR-C-1E.png"
+          },
+          "3ebe76e1-5fc7-4188-9d55-441cbb8b6c08": {
+            "image": "https://ms.yugipedia.com//4/43/Necrovalley-SDMA-FR-C-1E.png"
+          },
+          "529e6f48-0d4e-4e76-add2-15bcb64bc9a5": {
+            "image": "https://ms.yugipedia.com//1/11/NightmaresSteelcage-SDMA-FR-C-1E.png"
+          },
+          "52a64b6d-34d1-40a7-bc40-d882f938e253": {
+            "image": "https://ms.yugipedia.com//9/9f/MagicalStoneExcavation-SDMA-FR-C-1E.png"
+          },
+          "55bc7f0a-4508-472b-bba0-c977c89b5d5b": {
+            "image": "https://ms.yugipedia.com//f/f6/MysticTomato-SDMA-FR-C-1E.png"
+          },
+          "5ac27d7e-8c30-451a-89aa-d91085ab01b2": {
+            "image": "https://ms.yugipedia.com//7/7d/TempleoftheKings-SDMA-FR-UR-1E.png"
+          },
+          "5f4d7364-21dc-47a2-bc92-9e4d08741c37": {
+            "image": "https://ms.yugipedia.com//6/6f/CreatureSwap-SDMA-FR-C-1E.png"
+          },
+          "60b1e42e-3340-4bb7-8650-37b51f7d169a": {
+            "image": "https://ms.yugipedia.com//5/57/ViserDes-SDMA-FR-C-1E.png"
+          },
+          "60d0d97b-b48f-4d29-9ed2-ece60d35dc4b": {
+            "image": "https://ms.yugipedia.com//1/12/MetalReflectSlime-SDMA-FR-C-1E.png"
+          },
+          "61063136-1a06-4b77-859f-e623c0561268": {
+            "image": "https://ms.yugipedia.com//d/df/AcidTrapHole-SDMA-FR-C-1E.png"
+          },
+          "612b5279-2245-4c6b-a5dc-acea9a1f9c79": {
+            "image": "https://ms.yugipedia.com//c/c8/GravekeepersCannonholder-SDMA-FR-C-1E.png"
+          },
+          "6ca0da21-08b1-48c7-8c91-17b0529d8748": {
+            "image": "https://ms.yugipedia.com//5/54/BookofMoon-SDMA-FR-C-1E.png"
+          },
+          "72dbf26c-942b-419d-8e10-703ecf5f31d4": {
+            "image": "https://ms.yugipedia.com//b/b3/MirrorForce-SDMA-FR-C-1E.png"
+          },
+          "79fcd63b-471f-4049-87b0-fb3313da515e": {
+            "image": "https://ms.yugipedia.com//e/e3/MysticalBeastofSerket-SDMA-FR-UR-1E.png"
+          },
+          "7cbdc7e5-0656-4b44-ab7d-6fd33511c694": {
+            "image": "https://ms.yugipedia.com//1/11/LavaGolem-SDMA-FR-UR-1E.png"
+          },
+          "89895b98-b0c1-4697-a360-bb715461e48c": {
+            "image": "https://ms.yugipedia.com//2/22/Newdoria-SDMA-FR-C-1E.png"
+          },
+          "8c57ae51-8e9e-4743-95d7-a715fd24e8ac": {
+            "image": "https://ms.yugipedia.com//4/43/Drillago-SDMA-FR-C-1E.png"
+          },
+          "a10cb4f3-1da1-4a30-95c9-1b74aa45f3d3": {
+            "image": "https://ms.yugipedia.com//d/db/NightmareWheel-SDMA-FR-C-1E.png"
+          },
+          "a44fbc5d-0783-4430-a78e-a9f3e5ba0afa": {
+            "image": "https://ms.yugipedia.com//c/cf/MysticalSpaceTyphoon-SDMA-FR-C-1E.png"
+          },
+          "a8b2473a-b814-424b-bb7c-edba3ac9230a": {
+            "image": "https://ms.yugipedia.com//3/3c/DarkRoomofNightmare-SDMA-FR-C-1E.png"
+          },
+          "a9e6c615-a8bc-47fd-ba09-0212e7177ef4": {
+            "image": "https://ms.yugipedia.com//a/a7/GravekeepersSpy-SDMA-FR-C-1E.png"
+          },
+          "b5060b81-23f6-4bb9-94bb-f43a899e1138": {
+            "image": "https://ms.yugipedia.com//9/95/GravekeepersGuard-SDMA-FR-C-1E.png"
+          },
+          "be612bef-88c2-4b64-a115-94f9061e42be": {
+            "image": "https://ms.yugipedia.com//c/cf/LegendaryFiend-SDMA-FR-C-1E.png"
+          },
+          "ce0b43fb-307b-4b50-9df3-06833b260f8f": {
+            "image": "https://ms.yugipedia.com//4/4d/GravekeepersVisionary-SDMA-FR-C-1E.png"
+          },
+          "d116fb34-29c6-4c65-bdbc-9175e54b31f8": {
+            "image": "https://ms.yugipedia.com//c/ca/CoffinSeller-SDMA-FR-C-1E.png"
+          },
+          "e2359202-245f-4f88-b5f8-25dd2daa931b": {
+            "image": "https://ms.yugipedia.com//4/45/DarkJeroid-SDMA-FR-C-1E.png"
+          },
+          "e8e3bbc5-315a-4790-aa02-d322a41ba852": {
+            "image": "https://ms.yugipedia.com//3/38/GravekeepersCurse-SDMA-FR-C-1E.png"
+          },
+          "e98d287a-e0c2-4d3a-a469-430dbbc2445a": {
+            "image": "https://ms.yugipedia.com//7/75/GravekeepersSpearSoldier-SDMA-FR-C-1E.png"
+          },
+          "f4549933-ee4c-49be-923d-cde720a2b0fb": {
+            "image": "https://ms.yugipedia.com//d/d1/Bowganian-SDMA-FR-C-1E.png"
+          },
+          "f8dc75c8-9665-4aff-9a2b-e9e544288462": {
+            "image": "https://ms.yugipedia.com//4/44/SkullInvitation-SDMA-FR-C-1E.png"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "1st"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          34406001
+        ]
+      }
+    },
+    "de": {
+      "language": "de",
+      "prefix": "SDMA-DE",
+      "date": "2010-10-14",
+      "image": "https://ms.yugipedia.com//3/3e/SDMA-DeckDE.png",
+      "cardImages": {
+        "1st": {
+          "00279a11-d10f-44f7-9b26-d48c7a63afab": "https://ms.yugipedia.com//c/c3/GilGarth-SDMA-DE-C-1E.jpg",
+          "06b1f479-03bb-43c2-b5d6-ec8d56058ce3": "https://ms.yugipedia.com//b/bf/GravekeepersCommandant-SDMA-DE-C-1E.jpg",
+          "0977bdc4-c226-4746-8161-5f6066a96116": "https://ms.yugipedia.com//f/f4/GravekeepersDescendant-SDMA-DE-C-1E.png",
+          "10f185e4-5a73-48f2-90e6-51bf19cc2a6c": "https://ms.yugipedia.com//7/7e/GravekeepersChief-SDMA-DE-C-1E.jpg",
+          "146bb8e0-dd69-431b-9cbb-80a34bb6ca7a": "https://ms.yugipedia.com//3/35/DarkIllusion-SDMA-DE-C-1E.jpg",
+          "1b2e079d-8b69-4fb0-9119-8685e8b52ae9": "https://ms.yugipedia.com//5/5b/AllureofDarkness-SDMA-DE-C-1E.jpg",
+          "327ad1b8-ba9f-44c5-a14c-91fdaec139f5": "https://ms.yugipedia.com//a/a7/GravekeepersAssailant-SDMA-DE-C-1E.jpg",
+          "3a784a18-5a0a-449b-b54f-f795caa8b34e": "https://ms.yugipedia.com//7/7d/MalevolentCatastrophe-SDMA-DE-C-1E.png",
+          "3e97a89c-a9e7-4ee4-adbf-a122a91cdb39": "https://ms.yugipedia.com//6/68/FoolishBurial-SDMA-DE-C-1E.jpg",
+          "3ebe76e1-5fc7-4188-9d55-441cbb8b6c08": "https://ms.yugipedia.com//e/e8/Necrovalley-SDMA-DE-C-1E.jpg",
+          "529e6f48-0d4e-4e76-add2-15bcb64bc9a5": "https://ms.yugipedia.com//9/95/NightmaresSteelcage-SDMA-DE-C-1E.jpg",
+          "52a64b6d-34d1-40a7-bc40-d882f938e253": "https://ms.yugipedia.com//8/81/MagicalStoneExcavation-SDMA-DE-C-1E.jpg",
+          "55bc7f0a-4508-472b-bba0-c977c89b5d5b": "https://ms.yugipedia.com//f/fe/MysticTomato-SDMA-DE-C-1E.jpg",
+          "5ac27d7e-8c30-451a-89aa-d91085ab01b2": "https://ms.yugipedia.com//4/49/TempleoftheKings-SDMA-DE-UR-1E.jpg",
+          "5f4d7364-21dc-47a2-bc92-9e4d08741c37": "https://ms.yugipedia.com//7/7e/CreatureSwap-SDMA-DE-C-1E.jpg",
+          "60b1e42e-3340-4bb7-8650-37b51f7d169a": "https://ms.yugipedia.com//2/28/ViserDes-SDMA-DE-C-1E.jpg",
+          "60d0d97b-b48f-4d29-9ed2-ece60d35dc4b": "https://ms.yugipedia.com//6/62/MetalReflectSlime-SDMA-DE-C-1E.jpg",
+          "61063136-1a06-4b77-859f-e623c0561268": "https://ms.yugipedia.com//5/57/AcidTrapHole-SDMA-DE-C-1E.jpg",
+          "612b5279-2245-4c6b-a5dc-acea9a1f9c79": "https://ms.yugipedia.com//1/1b/GravekeepersCannonholder-SDMA-DE-C-1E.jpg",
+          "6ca0da21-08b1-48c7-8c91-17b0529d8748": "https://ms.yugipedia.com//7/7a/BookofMoon-SDMA-DE-C-1E.jpg",
+          "72dbf26c-942b-419d-8e10-703ecf5f31d4": "https://ms.yugipedia.com//9/91/MirrorForce-SDMA-DE-C-1E.jpg",
+          "79fcd63b-471f-4049-87b0-fb3313da515e": "https://ms.yugipedia.com//9/9a/MysticalBeastofSerket-SDMA-DE-UR-1E.jpg",
+          "7cbdc7e5-0656-4b44-ab7d-6fd33511c694": "https://ms.yugipedia.com//b/b6/LavaGolem-SDMA-DE-UR-1E.png",
+          "89895b98-b0c1-4697-a360-bb715461e48c": "https://ms.yugipedia.com//3/39/Newdoria-SDMA-DE-C-1E.jpg",
+          "8c57ae51-8e9e-4743-95d7-a715fd24e8ac": "https://ms.yugipedia.com//c/c1/Drillago-SDMA-DE-C-1E.jpg",
+          "a10cb4f3-1da1-4a30-95c9-1b74aa45f3d3": "https://ms.yugipedia.com//5/55/NightmareWheel-SDMA-DE-C-1E.jpg",
+          "a44fbc5d-0783-4430-a78e-a9f3e5ba0afa": "https://ms.yugipedia.com//5/59/MysticalSpaceTyphoon-SDMA-DE-C-1E.jpg",
+          "a8b2473a-b814-424b-bb7c-edba3ac9230a": "https://ms.yugipedia.com//a/a5/DarkRoomofNightmare-SDMA-DE-C-1E.jpg",
+          "a9e6c615-a8bc-47fd-ba09-0212e7177ef4": "https://ms.yugipedia.com//1/14/GravekeepersSpy-SDMA-DE-C-1E.jpg",
+          "b5060b81-23f6-4bb9-94bb-f43a899e1138": "https://ms.yugipedia.com//8/8d/GravekeepersGuard-SDMA-DE-C-1E.jpg",
+          "be612bef-88c2-4b64-a115-94f9061e42be": "https://ms.yugipedia.com//9/9f/LegendaryFiend-SDMA-DE-C-1E.jpg",
+          "ce0b43fb-307b-4b50-9df3-06833b260f8f": "https://ms.yugipedia.com//a/ab/GravekeepersVisionary-SDMA-DE-C-1E.png",
+          "d116fb34-29c6-4c65-bdbc-9175e54b31f8": "https://ms.yugipedia.com//4/44/CoffinSeller-SDMA-DE-C-1E.jpg",
+          "e2359202-245f-4f88-b5f8-25dd2daa931b": "https://ms.yugipedia.com//c/c9/DarkJeroid-SDMA-DE-C-1E.jpg",
+          "e8e3bbc5-315a-4790-aa02-d322a41ba852": "https://ms.yugipedia.com//3/3a/GravekeepersCurse-SDMA-DE-C-1E.jpg",
+          "e98d287a-e0c2-4d3a-a469-430dbbc2445a": "https://ms.yugipedia.com//a/a5/GravekeepersSpearSoldier-SDMA-DE-C-1E.jpg",
+          "f4549933-ee4c-49be-923d-cde720a2b0fb": "https://ms.yugipedia.com//5/5b/Bowganian-SDMA-DE-C-1E.jpg",
+          "f8dc75c8-9665-4aff-9a2b-e9e544288462": "https://ms.yugipedia.com//4/4f/SkullInvitation-SDMA-DE-C-1E.png"
+        },
+        "unlimited": {
+          "00279a11-d10f-44f7-9b26-d48c7a63afab": "https://ms.yugipedia.com//7/74/GilGarth-SDMA-DE-C-UE.png",
+          "06b1f479-03bb-43c2-b5d6-ec8d56058ce3": "https://ms.yugipedia.com//b/b7/GravekeepersCommandant-SDMA-DE-C-UE.png",
+          "0977bdc4-c226-4746-8161-5f6066a96116": "https://ms.yugipedia.com//a/a8/GravekeepersDescendant-SDMA-DE-C-UE.png",
+          "10f185e4-5a73-48f2-90e6-51bf19cc2a6c": "https://ms.yugipedia.com//b/b9/GravekeepersChief-SDMA-DE-C-UE.png",
+          "327ad1b8-ba9f-44c5-a14c-91fdaec139f5": "https://ms.yugipedia.com//2/28/GravekeepersAssailant-SDMA-DE-C-UE.png",
+          "55bc7f0a-4508-472b-bba0-c977c89b5d5b": "https://ms.yugipedia.com//1/14/MysticTomato-SDMA-DE-C-UE.png",
+          "5ac27d7e-8c30-451a-89aa-d91085ab01b2": "https://ms.yugipedia.com//c/c4/TempleoftheKings-SDMA-DE-UR-UE.png",
+          "60b1e42e-3340-4bb7-8650-37b51f7d169a": "https://ms.yugipedia.com//2/27/ViserDes-SDMA-DE-C-UE.png",
+          "612b5279-2245-4c6b-a5dc-acea9a1f9c79": "https://ms.yugipedia.com//d/da/GravekeepersCannonholder-SDMA-DE-C-UE.png",
+          "79fcd63b-471f-4049-87b0-fb3313da515e": "https://ms.yugipedia.com//8/8c/MysticalBeastofSerket-SDMA-DE-UR-UE.png",
+          "7cbdc7e5-0656-4b44-ab7d-6fd33511c694": "https://ms.yugipedia.com//5/5e/LavaGolem-SDMA-DE-UR-UE.png",
+          "89895b98-b0c1-4697-a360-bb715461e48c": "https://ms.yugipedia.com//2/2a/Newdoria-SDMA-DE-C-UE.png",
+          "8c57ae51-8e9e-4743-95d7-a715fd24e8ac": "https://ms.yugipedia.com//e/e2/Drillago-SDMA-DE-C-UE.png",
+          "a9e6c615-a8bc-47fd-ba09-0212e7177ef4": "https://ms.yugipedia.com//e/ea/GravekeepersSpy-SDMA-DE-C-UE.png",
+          "b5060b81-23f6-4bb9-94bb-f43a899e1138": "https://ms.yugipedia.com//1/1c/GravekeepersGuard-SDMA-DE-C-UE.png",
+          "be612bef-88c2-4b64-a115-94f9061e42be": "https://ms.yugipedia.com//d/da/LegendaryFiend-SDMA-DE-C-UE.png",
+          "ce0b43fb-307b-4b50-9df3-06833b260f8f": "https://ms.yugipedia.com//f/ff/GravekeepersVisionary-SDMA-DE-C-UE.png",
+          "e2359202-245f-4f88-b5f8-25dd2daa931b": "https://ms.yugipedia.com//e/e3/DarkJeroid-SDMA-DE-C-UE.png",
+          "e8e3bbc5-315a-4790-aa02-d322a41ba852": "https://ms.yugipedia.com//c/c4/GravekeepersCurse-SDMA-DE-C-UE.png",
+          "e98d287a-e0c2-4d3a-a469-430dbbc2445a": "https://ms.yugipedia.com//0/0a/GravekeepersSpearSoldier-SDMA-DE-C-UE.png",
+          "f4549933-ee4c-49be-923d-cde720a2b0fb": "https://ms.yugipedia.com//1/1e/Bowganian-SDMA-DE-C-UE.png"
+        }
+      },
+      "cardInfo": {
+        "1st": {
+          "00279a11-d10f-44f7-9b26-d48c7a63afab": {
+            "image": "https://ms.yugipedia.com//c/c3/GilGarth-SDMA-DE-C-1E.jpg"
+          },
+          "06b1f479-03bb-43c2-b5d6-ec8d56058ce3": {
+            "image": "https://ms.yugipedia.com//b/bf/GravekeepersCommandant-SDMA-DE-C-1E.jpg"
+          },
+          "0977bdc4-c226-4746-8161-5f6066a96116": {
+            "image": "https://ms.yugipedia.com//f/f4/GravekeepersDescendant-SDMA-DE-C-1E.png"
+          },
+          "10f185e4-5a73-48f2-90e6-51bf19cc2a6c": {
+            "image": "https://ms.yugipedia.com//7/7e/GravekeepersChief-SDMA-DE-C-1E.jpg"
+          },
+          "146bb8e0-dd69-431b-9cbb-80a34bb6ca7a": {
+            "image": "https://ms.yugipedia.com//3/35/DarkIllusion-SDMA-DE-C-1E.jpg"
+          },
+          "1b2e079d-8b69-4fb0-9119-8685e8b52ae9": {
+            "image": "https://ms.yugipedia.com//5/5b/AllureofDarkness-SDMA-DE-C-1E.jpg"
+          },
+          "327ad1b8-ba9f-44c5-a14c-91fdaec139f5": {
+            "image": "https://ms.yugipedia.com//a/a7/GravekeepersAssailant-SDMA-DE-C-1E.jpg"
+          },
+          "3a784a18-5a0a-449b-b54f-f795caa8b34e": {
+            "image": "https://ms.yugipedia.com//7/7d/MalevolentCatastrophe-SDMA-DE-C-1E.png"
+          },
+          "3e97a89c-a9e7-4ee4-adbf-a122a91cdb39": {
+            "image": "https://ms.yugipedia.com//6/68/FoolishBurial-SDMA-DE-C-1E.jpg"
+          },
+          "3ebe76e1-5fc7-4188-9d55-441cbb8b6c08": {
+            "image": "https://ms.yugipedia.com//e/e8/Necrovalley-SDMA-DE-C-1E.jpg"
+          },
+          "529e6f48-0d4e-4e76-add2-15bcb64bc9a5": {
+            "image": "https://ms.yugipedia.com//9/95/NightmaresSteelcage-SDMA-DE-C-1E.jpg"
+          },
+          "52a64b6d-34d1-40a7-bc40-d882f938e253": {
+            "image": "https://ms.yugipedia.com//8/81/MagicalStoneExcavation-SDMA-DE-C-1E.jpg"
+          },
+          "55bc7f0a-4508-472b-bba0-c977c89b5d5b": {
+            "image": "https://ms.yugipedia.com//f/fe/MysticTomato-SDMA-DE-C-1E.jpg"
+          },
+          "5ac27d7e-8c30-451a-89aa-d91085ab01b2": {
+            "image": "https://ms.yugipedia.com//4/49/TempleoftheKings-SDMA-DE-UR-1E.jpg"
+          },
+          "5f4d7364-21dc-47a2-bc92-9e4d08741c37": {
+            "image": "https://ms.yugipedia.com//7/7e/CreatureSwap-SDMA-DE-C-1E.jpg"
+          },
+          "60b1e42e-3340-4bb7-8650-37b51f7d169a": {
+            "image": "https://ms.yugipedia.com//2/28/ViserDes-SDMA-DE-C-1E.jpg"
+          },
+          "60d0d97b-b48f-4d29-9ed2-ece60d35dc4b": {
+            "image": "https://ms.yugipedia.com//6/62/MetalReflectSlime-SDMA-DE-C-1E.jpg"
+          },
+          "61063136-1a06-4b77-859f-e623c0561268": {
+            "image": "https://ms.yugipedia.com//5/57/AcidTrapHole-SDMA-DE-C-1E.jpg"
+          },
+          "612b5279-2245-4c6b-a5dc-acea9a1f9c79": {
+            "image": "https://ms.yugipedia.com//1/1b/GravekeepersCannonholder-SDMA-DE-C-1E.jpg"
+          },
+          "6ca0da21-08b1-48c7-8c91-17b0529d8748": {
+            "image": "https://ms.yugipedia.com//7/7a/BookofMoon-SDMA-DE-C-1E.jpg"
+          },
+          "72dbf26c-942b-419d-8e10-703ecf5f31d4": {
+            "image": "https://ms.yugipedia.com//9/91/MirrorForce-SDMA-DE-C-1E.jpg"
+          },
+          "79fcd63b-471f-4049-87b0-fb3313da515e": {
+            "image": "https://ms.yugipedia.com//9/9a/MysticalBeastofSerket-SDMA-DE-UR-1E.jpg"
+          },
+          "7cbdc7e5-0656-4b44-ab7d-6fd33511c694": {
+            "image": "https://ms.yugipedia.com//b/b6/LavaGolem-SDMA-DE-UR-1E.png"
+          },
+          "89895b98-b0c1-4697-a360-bb715461e48c": {
+            "image": "https://ms.yugipedia.com//3/39/Newdoria-SDMA-DE-C-1E.jpg"
+          },
+          "8c57ae51-8e9e-4743-95d7-a715fd24e8ac": {
+            "image": "https://ms.yugipedia.com//c/c1/Drillago-SDMA-DE-C-1E.jpg"
+          },
+          "a10cb4f3-1da1-4a30-95c9-1b74aa45f3d3": {
+            "image": "https://ms.yugipedia.com//5/55/NightmareWheel-SDMA-DE-C-1E.jpg"
+          },
+          "a44fbc5d-0783-4430-a78e-a9f3e5ba0afa": {
+            "image": "https://ms.yugipedia.com//5/59/MysticalSpaceTyphoon-SDMA-DE-C-1E.jpg"
+          },
+          "a8b2473a-b814-424b-bb7c-edba3ac9230a": {
+            "image": "https://ms.yugipedia.com//a/a5/DarkRoomofNightmare-SDMA-DE-C-1E.jpg"
+          },
+          "a9e6c615-a8bc-47fd-ba09-0212e7177ef4": {
+            "image": "https://ms.yugipedia.com//1/14/GravekeepersSpy-SDMA-DE-C-1E.jpg"
+          },
+          "b5060b81-23f6-4bb9-94bb-f43a899e1138": {
+            "image": "https://ms.yugipedia.com//8/8d/GravekeepersGuard-SDMA-DE-C-1E.jpg"
+          },
+          "be612bef-88c2-4b64-a115-94f9061e42be": {
+            "image": "https://ms.yugipedia.com//9/9f/LegendaryFiend-SDMA-DE-C-1E.jpg"
+          },
+          "ce0b43fb-307b-4b50-9df3-06833b260f8f": {
+            "image": "https://ms.yugipedia.com//a/ab/GravekeepersVisionary-SDMA-DE-C-1E.png"
+          },
+          "d116fb34-29c6-4c65-bdbc-9175e54b31f8": {
+            "image": "https://ms.yugipedia.com//4/44/CoffinSeller-SDMA-DE-C-1E.jpg"
+          },
+          "e2359202-245f-4f88-b5f8-25dd2daa931b": {
+            "image": "https://ms.yugipedia.com//c/c9/DarkJeroid-SDMA-DE-C-1E.jpg"
+          },
+          "e8e3bbc5-315a-4790-aa02-d322a41ba852": {
+            "image": "https://ms.yugipedia.com//3/3a/GravekeepersCurse-SDMA-DE-C-1E.jpg"
+          },
+          "e98d287a-e0c2-4d3a-a469-430dbbc2445a": {
+            "image": "https://ms.yugipedia.com//a/a5/GravekeepersSpearSoldier-SDMA-DE-C-1E.jpg"
+          },
+          "f4549933-ee4c-49be-923d-cde720a2b0fb": {
+            "image": "https://ms.yugipedia.com//5/5b/Bowganian-SDMA-DE-C-1E.jpg"
+          },
+          "f8dc75c8-9665-4aff-9a2b-e9e544288462": {
+            "image": "https://ms.yugipedia.com//4/4f/SkullInvitation-SDMA-DE-C-1E.png"
+          }
+        },
+        "unlimited": {
+          "00279a11-d10f-44f7-9b26-d48c7a63afab": {
+            "image": "https://ms.yugipedia.com//7/74/GilGarth-SDMA-DE-C-UE.png"
+          },
+          "06b1f479-03bb-43c2-b5d6-ec8d56058ce3": {
+            "image": "https://ms.yugipedia.com//b/b7/GravekeepersCommandant-SDMA-DE-C-UE.png"
+          },
+          "0977bdc4-c226-4746-8161-5f6066a96116": {
+            "image": "https://ms.yugipedia.com//a/a8/GravekeepersDescendant-SDMA-DE-C-UE.png"
+          },
+          "10f185e4-5a73-48f2-90e6-51bf19cc2a6c": {
+            "image": "https://ms.yugipedia.com//b/b9/GravekeepersChief-SDMA-DE-C-UE.png"
+          },
+          "327ad1b8-ba9f-44c5-a14c-91fdaec139f5": {
+            "image": "https://ms.yugipedia.com//2/28/GravekeepersAssailant-SDMA-DE-C-UE.png"
+          },
+          "55bc7f0a-4508-472b-bba0-c977c89b5d5b": {
+            "image": "https://ms.yugipedia.com//1/14/MysticTomato-SDMA-DE-C-UE.png"
+          },
+          "5ac27d7e-8c30-451a-89aa-d91085ab01b2": {
+            "image": "https://ms.yugipedia.com//c/c4/TempleoftheKings-SDMA-DE-UR-UE.png"
+          },
+          "60b1e42e-3340-4bb7-8650-37b51f7d169a": {
+            "image": "https://ms.yugipedia.com//2/27/ViserDes-SDMA-DE-C-UE.png"
+          },
+          "612b5279-2245-4c6b-a5dc-acea9a1f9c79": {
+            "image": "https://ms.yugipedia.com//d/da/GravekeepersCannonholder-SDMA-DE-C-UE.png"
+          },
+          "79fcd63b-471f-4049-87b0-fb3313da515e": {
+            "image": "https://ms.yugipedia.com//8/8c/MysticalBeastofSerket-SDMA-DE-UR-UE.png"
+          },
+          "7cbdc7e5-0656-4b44-ab7d-6fd33511c694": {
+            "image": "https://ms.yugipedia.com//5/5e/LavaGolem-SDMA-DE-UR-UE.png"
+          },
+          "89895b98-b0c1-4697-a360-bb715461e48c": {
+            "image": "https://ms.yugipedia.com//2/2a/Newdoria-SDMA-DE-C-UE.png"
+          },
+          "8c57ae51-8e9e-4743-95d7-a715fd24e8ac": {
+            "image": "https://ms.yugipedia.com//e/e2/Drillago-SDMA-DE-C-UE.png"
+          },
+          "a9e6c615-a8bc-47fd-ba09-0212e7177ef4": {
+            "image": "https://ms.yugipedia.com//e/ea/GravekeepersSpy-SDMA-DE-C-UE.png"
+          },
+          "b5060b81-23f6-4bb9-94bb-f43a899e1138": {
+            "image": "https://ms.yugipedia.com//1/1c/GravekeepersGuard-SDMA-DE-C-UE.png"
+          },
+          "be612bef-88c2-4b64-a115-94f9061e42be": {
+            "image": "https://ms.yugipedia.com//d/da/LegendaryFiend-SDMA-DE-C-UE.png"
+          },
+          "ce0b43fb-307b-4b50-9df3-06833b260f8f": {
+            "image": "https://ms.yugipedia.com//f/ff/GravekeepersVisionary-SDMA-DE-C-UE.png"
+          },
+          "e2359202-245f-4f88-b5f8-25dd2daa931b": {
+            "image": "https://ms.yugipedia.com//e/e3/DarkJeroid-SDMA-DE-C-UE.png"
+          },
+          "e8e3bbc5-315a-4790-aa02-d322a41ba852": {
+            "image": "https://ms.yugipedia.com//c/c4/GravekeepersCurse-SDMA-DE-C-UE.png"
+          },
+          "e98d287a-e0c2-4d3a-a469-430dbbc2445a": {
+            "image": "https://ms.yugipedia.com//0/0a/GravekeepersSpearSoldier-SDMA-DE-C-UE.png"
+          },
+          "f4549933-ee4c-49be-923d-cde720a2b0fb": {
+            "image": "https://ms.yugipedia.com//1/1e/Bowganian-SDMA-DE-C-UE.png"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "1st",
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          24406001
+        ]
+      }
+    },
+    "it": {
+      "language": "it",
+      "prefix": "SDMA-IT",
+      "date": "2010-10-14",
+      "cardImages": {
+        "1st": {
+          "00279a11-d10f-44f7-9b26-d48c7a63afab": "https://ms.yugipedia.com//1/1e/GilGarth-SDMA-IT-C-1E.png",
+          "06b1f479-03bb-43c2-b5d6-ec8d56058ce3": "https://ms.yugipedia.com//9/9c/GravekeepersCommandant-SDMA-IT-C-1E.png",
+          "0977bdc4-c226-4746-8161-5f6066a96116": "https://ms.yugipedia.com//a/a2/GravekeepersDescendant-SDMA-IT-C-1E.png",
+          "10f185e4-5a73-48f2-90e6-51bf19cc2a6c": "https://ms.yugipedia.com//8/8a/GravekeepersChief-SDMA-IT-C-1E.png",
+          "146bb8e0-dd69-431b-9cbb-80a34bb6ca7a": "https://ms.yugipedia.com//e/ec/DarkIllusion-SDMA-IT-C-1E.png",
+          "1b2e079d-8b69-4fb0-9119-8685e8b52ae9": "https://ms.yugipedia.com//f/f2/AllureofDarkness-SDMA-IT-C-1E.png",
+          "327ad1b8-ba9f-44c5-a14c-91fdaec139f5": "https://ms.yugipedia.com//b/b3/GravekeepersAssailant-SDMA-IT-C-1E.png",
+          "3a784a18-5a0a-449b-b54f-f795caa8b34e": "https://ms.yugipedia.com//a/ad/MalevolentCatastrophe-SDMA-IT-C-1E.png",
+          "3e97a89c-a9e7-4ee4-adbf-a122a91cdb39": "https://ms.yugipedia.com//d/d8/FoolishBurial-SDMA-IT-C-1E.png",
+          "3ebe76e1-5fc7-4188-9d55-441cbb8b6c08": "https://ms.yugipedia.com//f/f7/Necrovalley-SDMA-IT-C-1E.png",
+          "529e6f48-0d4e-4e76-add2-15bcb64bc9a5": "https://ms.yugipedia.com//b/b1/NightmaresSteelcage-SDMA-IT-C-1E.png",
+          "52a64b6d-34d1-40a7-bc40-d882f938e253": "https://ms.yugipedia.com//d/d0/MagicalStoneExcavation-SDMA-IT-C-1E.png",
+          "55bc7f0a-4508-472b-bba0-c977c89b5d5b": "https://ms.yugipedia.com//d/df/MysticTomato-SDMA-IT-C-1E.png",
+          "5ac27d7e-8c30-451a-89aa-d91085ab01b2": "https://ms.yugipedia.com//5/59/TempleoftheKings-SDMA-IT-UR-1E.png",
+          "5f4d7364-21dc-47a2-bc92-9e4d08741c37": "https://ms.yugipedia.com//9/90/CreatureSwap-SDMA-IT-C-1E.png",
+          "60b1e42e-3340-4bb7-8650-37b51f7d169a": "https://ms.yugipedia.com//7/7d/ViserDes-SDMA-IT-C-1E.png",
+          "60d0d97b-b48f-4d29-9ed2-ece60d35dc4b": "https://ms.yugipedia.com//8/80/MetalReflectSlime-SDMA-IT-C-1E.png",
+          "61063136-1a06-4b77-859f-e623c0561268": "https://ms.yugipedia.com//c/cc/AcidTrapHole-SDMA-IT-C-1E.png",
+          "612b5279-2245-4c6b-a5dc-acea9a1f9c79": "https://ms.yugipedia.com//6/6b/GravekeepersCannonholder-SDMA-IT-C-1E.png",
+          "6ca0da21-08b1-48c7-8c91-17b0529d8748": "https://ms.yugipedia.com//7/75/BookofMoon-SDMA-IT-C-1E.png",
+          "72dbf26c-942b-419d-8e10-703ecf5f31d4": "https://ms.yugipedia.com//2/26/MirrorForce-SDMA-IT-C-1E.png",
+          "79fcd63b-471f-4049-87b0-fb3313da515e": "https://ms.yugipedia.com//9/9f/MysticalBeastofSerket-SDMA-IT-UR-1E.png",
+          "7cbdc7e5-0656-4b44-ab7d-6fd33511c694": "https://ms.yugipedia.com//7/78/LavaGolem-SDMA-IT-UR-1E.png",
+          "89895b98-b0c1-4697-a360-bb715461e48c": "https://ms.yugipedia.com//5/52/Newdoria-SDMA-IT-C-1E.png",
+          "8c57ae51-8e9e-4743-95d7-a715fd24e8ac": "https://ms.yugipedia.com//5/5b/Drillago-SDMA-IT-C-1E.png",
+          "a10cb4f3-1da1-4a30-95c9-1b74aa45f3d3": "https://ms.yugipedia.com//0/07/NightmareWheel-SDMA-IT-C-1E.png",
+          "a44fbc5d-0783-4430-a78e-a9f3e5ba0afa": "https://ms.yugipedia.com//2/28/MysticalSpaceTyphoon-SDMA-IT-C-1E.png",
+          "a8b2473a-b814-424b-bb7c-edba3ac9230a": "https://ms.yugipedia.com//1/1b/DarkRoomofNightmare-SDMA-IT-C-1E.png",
+          "a9e6c615-a8bc-47fd-ba09-0212e7177ef4": "https://ms.yugipedia.com//0/0b/GravekeepersSpy-SDMA-IT-C-1E.png",
+          "b5060b81-23f6-4bb9-94bb-f43a899e1138": "https://ms.yugipedia.com//b/b9/GravekeepersGuard-SDMA-IT-C-1E.png",
+          "be612bef-88c2-4b64-a115-94f9061e42be": "https://ms.yugipedia.com//7/7f/LegendaryFiend-SDMA-IT-C-1E.png",
+          "ce0b43fb-307b-4b50-9df3-06833b260f8f": "https://ms.yugipedia.com//f/f5/GravekeepersVisionary-SDMA-IT-C-1E.png",
+          "d116fb34-29c6-4c65-bdbc-9175e54b31f8": "https://ms.yugipedia.com//d/d5/CoffinSeller-SDMA-IT-C-1E.png",
+          "e2359202-245f-4f88-b5f8-25dd2daa931b": "https://ms.yugipedia.com//7/79/DarkJeroid-SDMA-IT-C-1E.png",
+          "e8e3bbc5-315a-4790-aa02-d322a41ba852": "https://ms.yugipedia.com//5/58/GravekeepersCurse-SDMA-IT-C-1E.png",
+          "e98d287a-e0c2-4d3a-a469-430dbbc2445a": "https://ms.yugipedia.com//2/24/GravekeepersSpearSoldier-SDMA-IT-C-1E.png",
+          "f4549933-ee4c-49be-923d-cde720a2b0fb": "https://ms.yugipedia.com//f/fa/Bowganian-SDMA-IT-C-1E.png",
+          "f8dc75c8-9665-4aff-9a2b-e9e544288462": "https://ms.yugipedia.com//0/02/SkullInvitation-SDMA-IT-C-1E.png"
+        }
+      },
+      "cardInfo": {
+        "1st": {
+          "00279a11-d10f-44f7-9b26-d48c7a63afab": {
+            "image": "https://ms.yugipedia.com//1/1e/GilGarth-SDMA-IT-C-1E.png"
+          },
+          "06b1f479-03bb-43c2-b5d6-ec8d56058ce3": {
+            "image": "https://ms.yugipedia.com//9/9c/GravekeepersCommandant-SDMA-IT-C-1E.png"
+          },
+          "0977bdc4-c226-4746-8161-5f6066a96116": {
+            "image": "https://ms.yugipedia.com//a/a2/GravekeepersDescendant-SDMA-IT-C-1E.png"
+          },
+          "10f185e4-5a73-48f2-90e6-51bf19cc2a6c": {
+            "image": "https://ms.yugipedia.com//8/8a/GravekeepersChief-SDMA-IT-C-1E.png"
+          },
+          "146bb8e0-dd69-431b-9cbb-80a34bb6ca7a": {
+            "image": "https://ms.yugipedia.com//e/ec/DarkIllusion-SDMA-IT-C-1E.png"
+          },
+          "1b2e079d-8b69-4fb0-9119-8685e8b52ae9": {
+            "image": "https://ms.yugipedia.com//f/f2/AllureofDarkness-SDMA-IT-C-1E.png"
+          },
+          "327ad1b8-ba9f-44c5-a14c-91fdaec139f5": {
+            "image": "https://ms.yugipedia.com//b/b3/GravekeepersAssailant-SDMA-IT-C-1E.png"
+          },
+          "3a784a18-5a0a-449b-b54f-f795caa8b34e": {
+            "image": "https://ms.yugipedia.com//a/ad/MalevolentCatastrophe-SDMA-IT-C-1E.png"
+          },
+          "3e97a89c-a9e7-4ee4-adbf-a122a91cdb39": {
+            "image": "https://ms.yugipedia.com//d/d8/FoolishBurial-SDMA-IT-C-1E.png"
+          },
+          "3ebe76e1-5fc7-4188-9d55-441cbb8b6c08": {
+            "image": "https://ms.yugipedia.com//f/f7/Necrovalley-SDMA-IT-C-1E.png"
+          },
+          "529e6f48-0d4e-4e76-add2-15bcb64bc9a5": {
+            "image": "https://ms.yugipedia.com//b/b1/NightmaresSteelcage-SDMA-IT-C-1E.png"
+          },
+          "52a64b6d-34d1-40a7-bc40-d882f938e253": {
+            "image": "https://ms.yugipedia.com//d/d0/MagicalStoneExcavation-SDMA-IT-C-1E.png"
+          },
+          "55bc7f0a-4508-472b-bba0-c977c89b5d5b": {
+            "image": "https://ms.yugipedia.com//d/df/MysticTomato-SDMA-IT-C-1E.png"
+          },
+          "5ac27d7e-8c30-451a-89aa-d91085ab01b2": {
+            "image": "https://ms.yugipedia.com//5/59/TempleoftheKings-SDMA-IT-UR-1E.png"
+          },
+          "5f4d7364-21dc-47a2-bc92-9e4d08741c37": {
+            "image": "https://ms.yugipedia.com//9/90/CreatureSwap-SDMA-IT-C-1E.png"
+          },
+          "60b1e42e-3340-4bb7-8650-37b51f7d169a": {
+            "image": "https://ms.yugipedia.com//7/7d/ViserDes-SDMA-IT-C-1E.png"
+          },
+          "60d0d97b-b48f-4d29-9ed2-ece60d35dc4b": {
+            "image": "https://ms.yugipedia.com//8/80/MetalReflectSlime-SDMA-IT-C-1E.png"
+          },
+          "61063136-1a06-4b77-859f-e623c0561268": {
+            "image": "https://ms.yugipedia.com//c/cc/AcidTrapHole-SDMA-IT-C-1E.png"
+          },
+          "612b5279-2245-4c6b-a5dc-acea9a1f9c79": {
+            "image": "https://ms.yugipedia.com//6/6b/GravekeepersCannonholder-SDMA-IT-C-1E.png"
+          },
+          "6ca0da21-08b1-48c7-8c91-17b0529d8748": {
+            "image": "https://ms.yugipedia.com//7/75/BookofMoon-SDMA-IT-C-1E.png"
+          },
+          "72dbf26c-942b-419d-8e10-703ecf5f31d4": {
+            "image": "https://ms.yugipedia.com//2/26/MirrorForce-SDMA-IT-C-1E.png"
+          },
+          "79fcd63b-471f-4049-87b0-fb3313da515e": {
+            "image": "https://ms.yugipedia.com//9/9f/MysticalBeastofSerket-SDMA-IT-UR-1E.png"
+          },
+          "7cbdc7e5-0656-4b44-ab7d-6fd33511c694": {
+            "image": "https://ms.yugipedia.com//7/78/LavaGolem-SDMA-IT-UR-1E.png"
+          },
+          "89895b98-b0c1-4697-a360-bb715461e48c": {
+            "image": "https://ms.yugipedia.com//5/52/Newdoria-SDMA-IT-C-1E.png"
+          },
+          "8c57ae51-8e9e-4743-95d7-a715fd24e8ac": {
+            "image": "https://ms.yugipedia.com//5/5b/Drillago-SDMA-IT-C-1E.png"
+          },
+          "a10cb4f3-1da1-4a30-95c9-1b74aa45f3d3": {
+            "image": "https://ms.yugipedia.com//0/07/NightmareWheel-SDMA-IT-C-1E.png"
+          },
+          "a44fbc5d-0783-4430-a78e-a9f3e5ba0afa": {
+            "image": "https://ms.yugipedia.com//2/28/MysticalSpaceTyphoon-SDMA-IT-C-1E.png"
+          },
+          "a8b2473a-b814-424b-bb7c-edba3ac9230a": {
+            "image": "https://ms.yugipedia.com//1/1b/DarkRoomofNightmare-SDMA-IT-C-1E.png"
+          },
+          "a9e6c615-a8bc-47fd-ba09-0212e7177ef4": {
+            "image": "https://ms.yugipedia.com//0/0b/GravekeepersSpy-SDMA-IT-C-1E.png"
+          },
+          "b5060b81-23f6-4bb9-94bb-f43a899e1138": {
+            "image": "https://ms.yugipedia.com//b/b9/GravekeepersGuard-SDMA-IT-C-1E.png"
+          },
+          "be612bef-88c2-4b64-a115-94f9061e42be": {
+            "image": "https://ms.yugipedia.com//7/7f/LegendaryFiend-SDMA-IT-C-1E.png"
+          },
+          "ce0b43fb-307b-4b50-9df3-06833b260f8f": {
+            "image": "https://ms.yugipedia.com//f/f5/GravekeepersVisionary-SDMA-IT-C-1E.png"
+          },
+          "d116fb34-29c6-4c65-bdbc-9175e54b31f8": {
+            "image": "https://ms.yugipedia.com//d/d5/CoffinSeller-SDMA-IT-C-1E.png"
+          },
+          "e2359202-245f-4f88-b5f8-25dd2daa931b": {
+            "image": "https://ms.yugipedia.com//7/79/DarkJeroid-SDMA-IT-C-1E.png"
+          },
+          "e8e3bbc5-315a-4790-aa02-d322a41ba852": {
+            "image": "https://ms.yugipedia.com//5/58/GravekeepersCurse-SDMA-IT-C-1E.png"
+          },
+          "e98d287a-e0c2-4d3a-a469-430dbbc2445a": {
+            "image": "https://ms.yugipedia.com//2/24/GravekeepersSpearSoldier-SDMA-IT-C-1E.png"
+          },
+          "f4549933-ee4c-49be-923d-cde720a2b0fb": {
+            "image": "https://ms.yugipedia.com//f/fa/Bowganian-SDMA-IT-C-1E.png"
+          },
+          "f8dc75c8-9665-4aff-9a2b-e9e544288462": {
+            "image": "https://ms.yugipedia.com//0/02/SkullInvitation-SDMA-IT-C-1E.png"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "1st"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          44406001
+        ]
+      }
+    },
+    "sp": {
+      "language": "es",
+      "prefix": "SDMA-SP",
+      "date": "2010-10-14",
+      "image": "https://ms.yugipedia.com//c/cf/SDMA-DeckSP.png",
+      "cardImages": {
+        "1st": {
+          "00279a11-d10f-44f7-9b26-d48c7a63afab": "https://ms.yugipedia.com//c/c3/GilGarth-SDMA-SP-C-1E.png",
+          "06b1f479-03bb-43c2-b5d6-ec8d56058ce3": "https://ms.yugipedia.com//9/96/GravekeepersCommandant-SDMA-SP-C-1E.png",
+          "0977bdc4-c226-4746-8161-5f6066a96116": "https://ms.yugipedia.com//c/c7/GravekeepersDescendant-SDMA-SP-C-1E.png",
+          "10f185e4-5a73-48f2-90e6-51bf19cc2a6c": "https://ms.yugipedia.com//f/f9/GravekeepersChief-SDMA-SP-C-1E.png",
+          "146bb8e0-dd69-431b-9cbb-80a34bb6ca7a": "https://ms.yugipedia.com//0/04/DarkIllusion-SDMA-SP-C-1E.png",
+          "1b2e079d-8b69-4fb0-9119-8685e8b52ae9": "https://ms.yugipedia.com//d/d1/AllureofDarkness-SDMA-SP-C-1E.png",
+          "327ad1b8-ba9f-44c5-a14c-91fdaec139f5": "https://ms.yugipedia.com//b/b5/GravekeepersAssailant-SDMA-SP-C-1E.png",
+          "3a784a18-5a0a-449b-b54f-f795caa8b34e": "https://ms.yugipedia.com//4/44/MalevolentCatastrophe-SDMA-SP-C-1E.png",
+          "3e97a89c-a9e7-4ee4-adbf-a122a91cdb39": "https://ms.yugipedia.com//9/96/FoolishBurial-SDMA-SP-C-1E.png",
+          "3ebe76e1-5fc7-4188-9d55-441cbb8b6c08": "https://ms.yugipedia.com//5/51/Necrovalley-SDMA-SP-C-1E.png",
+          "529e6f48-0d4e-4e76-add2-15bcb64bc9a5": "https://ms.yugipedia.com//a/a1/NightmaresSteelcage-SDMA-SP-C-1E.png",
+          "52a64b6d-34d1-40a7-bc40-d882f938e253": "https://ms.yugipedia.com//9/93/MagicalStoneExcavation-SDMA-SP-C-1E.png",
+          "55bc7f0a-4508-472b-bba0-c977c89b5d5b": "https://ms.yugipedia.com//1/1d/MysticTomato-SDMA-SP-C-1E.png",
+          "5ac27d7e-8c30-451a-89aa-d91085ab01b2": "https://ms.yugipedia.com//a/ae/TempleoftheKings-SDMA-SP-UR-1E.png",
+          "5f4d7364-21dc-47a2-bc92-9e4d08741c37": "https://ms.yugipedia.com//f/f1/CreatureSwap-SDMA-SP-C-1E.png",
+          "60b1e42e-3340-4bb7-8650-37b51f7d169a": "https://ms.yugipedia.com//7/75/ViserDes-SDMA-SP-C-1E.png",
+          "60d0d97b-b48f-4d29-9ed2-ece60d35dc4b": "https://ms.yugipedia.com//2/22/MetalReflectSlime-SDMA-SP-C-1E.png",
+          "61063136-1a06-4b77-859f-e623c0561268": "https://ms.yugipedia.com//a/aa/AcidTrapHole-SDMA-SP-C-1E.png",
+          "612b5279-2245-4c6b-a5dc-acea9a1f9c79": "https://ms.yugipedia.com//d/d0/GravekeepersCannonholder-SDMA-SP-C-1E.png",
+          "6ca0da21-08b1-48c7-8c91-17b0529d8748": "https://ms.yugipedia.com//8/8b/BookofMoon-SDMA-SP-C-1E.png",
+          "72dbf26c-942b-419d-8e10-703ecf5f31d4": "https://ms.yugipedia.com//9/9b/MirrorForce-SDMA-SP-C-1E.png",
+          "79fcd63b-471f-4049-87b0-fb3313da515e": "https://ms.yugipedia.com//d/d9/MysticalBeastofSerket-SDMA-SP-UR-1E.png",
+          "7cbdc7e5-0656-4b44-ab7d-6fd33511c694": "https://ms.yugipedia.com//9/9e/LavaGolem-SDMA-SP-UR-1E.png",
+          "89895b98-b0c1-4697-a360-bb715461e48c": "https://ms.yugipedia.com//2/22/Newdoria-SDMA-SP-C-1E.png",
+          "8c57ae51-8e9e-4743-95d7-a715fd24e8ac": "https://ms.yugipedia.com//2/2c/Drillago-SDMA-SP-C-1E.png",
+          "a10cb4f3-1da1-4a30-95c9-1b74aa45f3d3": "https://ms.yugipedia.com//4/4a/NightmareWheel-SDMA-SP-C-1E.png",
+          "a44fbc5d-0783-4430-a78e-a9f3e5ba0afa": "https://ms.yugipedia.com//b/b4/MysticalSpaceTyphoon-SDMA-SP-C-1E.png",
+          "a8b2473a-b814-424b-bb7c-edba3ac9230a": "https://ms.yugipedia.com//9/98/DarkRoomofNightmare-SDMA-SP-C-1E.png",
+          "a9e6c615-a8bc-47fd-ba09-0212e7177ef4": "https://ms.yugipedia.com//7/7f/GravekeepersSpy-SDMA-SP-C-1E.png",
+          "b5060b81-23f6-4bb9-94bb-f43a899e1138": "https://ms.yugipedia.com//0/01/GravekeepersGuard-SDMA-SP-C-1E.png",
+          "be612bef-88c2-4b64-a115-94f9061e42be": "https://ms.yugipedia.com//2/20/LegendaryFiend-SDMA-SP-C-1E.png",
+          "ce0b43fb-307b-4b50-9df3-06833b260f8f": "https://ms.yugipedia.com//d/d5/GravekeepersVisionary-SDMA-SP-C-1E.png",
+          "d116fb34-29c6-4c65-bdbc-9175e54b31f8": "https://ms.yugipedia.com//3/38/CoffinSeller-SDMA-SP-C-1E.png",
+          "e2359202-245f-4f88-b5f8-25dd2daa931b": "https://ms.yugipedia.com//8/8e/DarkJeroid-SDMA-SP-C-1E.png",
+          "e8e3bbc5-315a-4790-aa02-d322a41ba852": "https://ms.yugipedia.com//1/1c/GravekeepersCurse-SDMA-SP-C-1E.png",
+          "e98d287a-e0c2-4d3a-a469-430dbbc2445a": "https://ms.yugipedia.com//1/1d/GravekeepersSpearSoldier-SDMA-SP-C-1E.png",
+          "f4549933-ee4c-49be-923d-cde720a2b0fb": "https://ms.yugipedia.com//f/f3/Bowganian-SDMA-SP-C-1E.png",
+          "f8dc75c8-9665-4aff-9a2b-e9e544288462": "https://ms.yugipedia.com//2/2d/SkullInvitation-SDMA-SP-C-1E.png"
+        }
+      },
+      "cardInfo": {
+        "1st": {
+          "00279a11-d10f-44f7-9b26-d48c7a63afab": {
+            "image": "https://ms.yugipedia.com//c/c3/GilGarth-SDMA-SP-C-1E.png"
+          },
+          "06b1f479-03bb-43c2-b5d6-ec8d56058ce3": {
+            "image": "https://ms.yugipedia.com//9/96/GravekeepersCommandant-SDMA-SP-C-1E.png"
+          },
+          "0977bdc4-c226-4746-8161-5f6066a96116": {
+            "image": "https://ms.yugipedia.com//c/c7/GravekeepersDescendant-SDMA-SP-C-1E.png"
+          },
+          "10f185e4-5a73-48f2-90e6-51bf19cc2a6c": {
+            "image": "https://ms.yugipedia.com//f/f9/GravekeepersChief-SDMA-SP-C-1E.png"
+          },
+          "146bb8e0-dd69-431b-9cbb-80a34bb6ca7a": {
+            "image": "https://ms.yugipedia.com//0/04/DarkIllusion-SDMA-SP-C-1E.png"
+          },
+          "1b2e079d-8b69-4fb0-9119-8685e8b52ae9": {
+            "image": "https://ms.yugipedia.com//d/d1/AllureofDarkness-SDMA-SP-C-1E.png"
+          },
+          "327ad1b8-ba9f-44c5-a14c-91fdaec139f5": {
+            "image": "https://ms.yugipedia.com//b/b5/GravekeepersAssailant-SDMA-SP-C-1E.png"
+          },
+          "3a784a18-5a0a-449b-b54f-f795caa8b34e": {
+            "image": "https://ms.yugipedia.com//4/44/MalevolentCatastrophe-SDMA-SP-C-1E.png"
+          },
+          "3e97a89c-a9e7-4ee4-adbf-a122a91cdb39": {
+            "image": "https://ms.yugipedia.com//9/96/FoolishBurial-SDMA-SP-C-1E.png"
+          },
+          "3ebe76e1-5fc7-4188-9d55-441cbb8b6c08": {
+            "image": "https://ms.yugipedia.com//5/51/Necrovalley-SDMA-SP-C-1E.png"
+          },
+          "529e6f48-0d4e-4e76-add2-15bcb64bc9a5": {
+            "image": "https://ms.yugipedia.com//a/a1/NightmaresSteelcage-SDMA-SP-C-1E.png"
+          },
+          "52a64b6d-34d1-40a7-bc40-d882f938e253": {
+            "image": "https://ms.yugipedia.com//9/93/MagicalStoneExcavation-SDMA-SP-C-1E.png"
+          },
+          "55bc7f0a-4508-472b-bba0-c977c89b5d5b": {
+            "image": "https://ms.yugipedia.com//1/1d/MysticTomato-SDMA-SP-C-1E.png"
+          },
+          "5ac27d7e-8c30-451a-89aa-d91085ab01b2": {
+            "image": "https://ms.yugipedia.com//a/ae/TempleoftheKings-SDMA-SP-UR-1E.png"
+          },
+          "5f4d7364-21dc-47a2-bc92-9e4d08741c37": {
+            "image": "https://ms.yugipedia.com//f/f1/CreatureSwap-SDMA-SP-C-1E.png"
+          },
+          "60b1e42e-3340-4bb7-8650-37b51f7d169a": {
+            "image": "https://ms.yugipedia.com//7/75/ViserDes-SDMA-SP-C-1E.png"
+          },
+          "60d0d97b-b48f-4d29-9ed2-ece60d35dc4b": {
+            "image": "https://ms.yugipedia.com//2/22/MetalReflectSlime-SDMA-SP-C-1E.png"
+          },
+          "61063136-1a06-4b77-859f-e623c0561268": {
+            "image": "https://ms.yugipedia.com//a/aa/AcidTrapHole-SDMA-SP-C-1E.png"
+          },
+          "612b5279-2245-4c6b-a5dc-acea9a1f9c79": {
+            "image": "https://ms.yugipedia.com//d/d0/GravekeepersCannonholder-SDMA-SP-C-1E.png"
+          },
+          "6ca0da21-08b1-48c7-8c91-17b0529d8748": {
+            "image": "https://ms.yugipedia.com//8/8b/BookofMoon-SDMA-SP-C-1E.png"
+          },
+          "72dbf26c-942b-419d-8e10-703ecf5f31d4": {
+            "image": "https://ms.yugipedia.com//9/9b/MirrorForce-SDMA-SP-C-1E.png"
+          },
+          "79fcd63b-471f-4049-87b0-fb3313da515e": {
+            "image": "https://ms.yugipedia.com//d/d9/MysticalBeastofSerket-SDMA-SP-UR-1E.png"
+          },
+          "7cbdc7e5-0656-4b44-ab7d-6fd33511c694": {
+            "image": "https://ms.yugipedia.com//9/9e/LavaGolem-SDMA-SP-UR-1E.png"
+          },
+          "89895b98-b0c1-4697-a360-bb715461e48c": {
+            "image": "https://ms.yugipedia.com//2/22/Newdoria-SDMA-SP-C-1E.png"
+          },
+          "8c57ae51-8e9e-4743-95d7-a715fd24e8ac": {
+            "image": "https://ms.yugipedia.com//2/2c/Drillago-SDMA-SP-C-1E.png"
+          },
+          "a10cb4f3-1da1-4a30-95c9-1b74aa45f3d3": {
+            "image": "https://ms.yugipedia.com//4/4a/NightmareWheel-SDMA-SP-C-1E.png"
+          },
+          "a44fbc5d-0783-4430-a78e-a9f3e5ba0afa": {
+            "image": "https://ms.yugipedia.com//b/b4/MysticalSpaceTyphoon-SDMA-SP-C-1E.png"
+          },
+          "a8b2473a-b814-424b-bb7c-edba3ac9230a": {
+            "image": "https://ms.yugipedia.com//9/98/DarkRoomofNightmare-SDMA-SP-C-1E.png"
+          },
+          "a9e6c615-a8bc-47fd-ba09-0212e7177ef4": {
+            "image": "https://ms.yugipedia.com//7/7f/GravekeepersSpy-SDMA-SP-C-1E.png"
+          },
+          "b5060b81-23f6-4bb9-94bb-f43a899e1138": {
+            "image": "https://ms.yugipedia.com//0/01/GravekeepersGuard-SDMA-SP-C-1E.png"
+          },
+          "be612bef-88c2-4b64-a115-94f9061e42be": {
+            "image": "https://ms.yugipedia.com//2/20/LegendaryFiend-SDMA-SP-C-1E.png"
+          },
+          "ce0b43fb-307b-4b50-9df3-06833b260f8f": {
+            "image": "https://ms.yugipedia.com//d/d5/GravekeepersVisionary-SDMA-SP-C-1E.png"
+          },
+          "d116fb34-29c6-4c65-bdbc-9175e54b31f8": {
+            "image": "https://ms.yugipedia.com//3/38/CoffinSeller-SDMA-SP-C-1E.png"
+          },
+          "e2359202-245f-4f88-b5f8-25dd2daa931b": {
+            "image": "https://ms.yugipedia.com//8/8e/DarkJeroid-SDMA-SP-C-1E.png"
+          },
+          "e8e3bbc5-315a-4790-aa02-d322a41ba852": {
+            "image": "https://ms.yugipedia.com//1/1c/GravekeepersCurse-SDMA-SP-C-1E.png"
+          },
+          "e98d287a-e0c2-4d3a-a469-430dbbc2445a": {
+            "image": "https://ms.yugipedia.com//1/1d/GravekeepersSpearSoldier-SDMA-SP-C-1E.png"
+          },
+          "f4549933-ee4c-49be-923d-cde720a2b0fb": {
+            "image": "https://ms.yugipedia.com//f/f3/Bowganian-SDMA-SP-C-1E.png"
+          },
+          "f8dc75c8-9665-4aff-9a2b-e9e544288462": {
+            "image": "https://ms.yugipedia.com//2/2d/SkullInvitation-SDMA-SP-C-1E.png"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "1st"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          54406001
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "en"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "distrobution": "preconstructed",
+      "editions": [
+        "1st",
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//3/30/SDMA-DeckEN.png",
+      "cards": [
+        {
+          "id": "00279a11-d10f-44f7-9b26-d48c7a63afab",
+          "card": "02ca2037-0879-4f66-8ba8-8736ff96a5be",
+          "suffix": "001",
+          "rarity": "common",
+          "imageID": "cebf4403-9cc2-42db-8b71-c73b4c4753f4"
+        },
+        {
+          "id": "55bc7f0a-4508-472b-bba0-c977c89b5d5b",
+          "card": "7e30714f-58c9-41de-b9c8-3fc233599882",
+          "suffix": "002",
+          "rarity": "common"
+        },
+        {
+          "id": "60b1e42e-3340-4bb7-8650-37b51f7d169a",
+          "card": "88729c3f-ec93-429b-b96f-86b19fbabc17",
+          "suffix": "003",
+          "rarity": "common"
+        },
+        {
+          "id": "be612bef-88c2-4b64-a115-94f9061e42be",
+          "card": "474b82d9-62fa-4bf9-a961-f79542698cf1",
+          "suffix": "004",
+          "rarity": "common",
+          "imageID": "842e79f4-57bf-4ca7-b9b7-5994b4f0f775"
+        },
+        {
+          "id": "e2359202-245f-4f88-b5f8-25dd2daa931b",
+          "card": "19f15d7e-8dc8-4a37-b72f-19095b153f98",
+          "suffix": "005",
+          "rarity": "common",
+          "imageID": "ce8046ed-0290-4474-aad9-327b15d7072b"
+        },
+        {
+          "id": "89895b98-b0c1-4697-a360-bb715461e48c",
+          "card": "35cbca9a-8de1-4d7a-8567-39c355707b85",
+          "suffix": "006",
+          "rarity": "common",
+          "imageID": "083cc7cc-1ae6-4487-87c3-0f0cafea7a2c"
+        },
+        {
+          "id": "a9e6c615-a8bc-47fd-ba09-0212e7177ef4",
+          "card": "d5fface4-4bca-471c-8bd8-9a81ddcc77b7",
+          "suffix": "007",
+          "rarity": "common",
+          "imageID": "99ed62fd-30f3-41d8-ae86-4837dae43741",
+          "qty": 2
+        },
+        {
+          "id": "e8e3bbc5-315a-4790-aa02-d322a41ba852",
+          "card": "cd3d791b-03c7-4217-bc38-f96d444c4ec0",
+          "suffix": "008",
+          "rarity": "common",
+          "imageID": "43d36e52-0ddf-479d-ac6f-712fa064502e"
+        },
+        {
+          "id": "b5060b81-23f6-4bb9-94bb-f43a899e1138",
+          "card": "800c829e-f0a9-4237-aea3-4b6b26b2d48d",
+          "suffix": "009",
+          "rarity": "common",
+          "imageID": "fdb65624-4f91-471a-acf3-18d35c162f7c",
+          "qty": 2
+        },
+        {
+          "id": "e98d287a-e0c2-4d3a-a469-430dbbc2445a",
+          "card": "fda04a4f-f256-4bc7-a91b-8e7323fbfd40",
+          "suffix": "010",
+          "rarity": "common",
+          "imageID": "ba8e11df-90f4-4e9a-9a13-df67c833d74c"
+        },
+        {
+          "id": "10f185e4-5a73-48f2-90e6-51bf19cc2a6c",
+          "card": "3d724ff6-4644-4063-ae1b-9e66ee0824e6",
+          "suffix": "011",
+          "rarity": "common",
+          "imageID": "e551f7dc-5b6a-4470-ae62-1a64258cc31e"
+        },
+        {
+          "id": "612b5279-2245-4c6b-a5dc-acea9a1f9c79",
+          "card": "39fb0c99-5f37-46c0-a4f4-cd5868f49069",
+          "suffix": "012",
+          "rarity": "common",
+          "imageID": "a20f9f9b-a1d2-42e2-8fa1-d1c1caab4cb6"
+        },
+        {
+          "id": "327ad1b8-ba9f-44c5-a14c-91fdaec139f5",
+          "card": "9106c5e0-369b-4063-b8d8-bf12510b4917",
+          "suffix": "013",
+          "rarity": "common",
+          "imageID": "ba4dfefb-39f7-4f3c-97b7-96817e503700",
+          "qty": 2
+        },
+        {
+          "id": "7cbdc7e5-0656-4b44-ab7d-6fd33511c694",
+          "card": "3d6ae59d-081e-4463-8bc1-f9ec2b16b618",
+          "suffix": "014",
+          "rarity": "ultra",
+          "imageID": "4a9991d3-be93-4ca4-87c1-837a15eea805"
+        },
+        {
+          "id": "8c57ae51-8e9e-4743-95d7-a715fd24e8ac",
+          "card": "88da3322-60ca-456d-bb50-cd233688be9e",
+          "suffix": "015",
+          "rarity": "common",
+          "imageID": "698048a7-e8a0-4dcd-97c4-558fe5c43343"
+        },
+        {
+          "id": "f4549933-ee4c-49be-923d-cde720a2b0fb",
+          "card": "e27f494d-a2c8-4b1f-b430-0a6d2f272d0f",
+          "suffix": "016",
+          "rarity": "common",
+          "imageID": "8443113a-bece-428b-b2b1-9f6fbd0f4984"
+        },
+        {
+          "id": "06b1f479-03bb-43c2-b5d6-ec8d56058ce3",
+          "card": "1caf9e60-ffb8-4118-bc82-576b5f5b0d8e",
+          "suffix": "017",
+          "rarity": "common",
+          "imageID": "d3818b4e-1153-400c-8852-e9fc6ad46c0a"
+        },
+        {
+          "id": "ce0b43fb-307b-4b50-9df3-06833b260f8f",
+          "card": "ed3bccff-4d9f-4d03-892a-55a4de884f03",
+          "suffix": "018",
+          "rarity": "common",
+          "imageID": "d7b6fb90-72e3-4f66-80b2-fb67b104f311"
+        },
+        {
+          "id": "0977bdc4-c226-4746-8161-5f6066a96116",
+          "card": "53c43b88-2f41-4403-a6e0-65ae6c5d077b",
+          "suffix": "019",
+          "rarity": "common",
+          "imageID": "be95e440-c13c-4462-8947-1940eea89463"
+        },
+        {
+          "id": "a44fbc5d-0783-4430-a78e-a9f3e5ba0afa",
+          "card": "d15ea879-903e-481a-9ad1-774823a8518b",
+          "suffix": "020",
+          "rarity": "common",
+          "imageID": "f7eb3c46-62df-45ec-9be3-877f11a4a522"
+        },
+        {
+          "id": "529e6f48-0d4e-4e76-add2-15bcb64bc9a5",
+          "card": "623c52f6-f23a-4b79-994f-15131772c765",
+          "suffix": "021",
+          "rarity": "common",
+          "imageID": "2c7f814d-3dd3-4b40-9979-6cc974ff6bd8"
+        },
+        {
+          "id": "5f4d7364-21dc-47a2-bc92-9e4d08741c37",
+          "card": "474f45db-ad93-45f3-89a9-86e1148a5996",
+          "suffix": "022",
+          "rarity": "common",
+          "imageID": "9dd950a1-3bcf-4f71-842d-0bba1b6e61e2"
+        },
+        {
+          "id": "6ca0da21-08b1-48c7-8c91-17b0529d8748",
+          "card": "fdf3e4be-d5ae-4d10-bd2d-63275f3bb45b",
+          "suffix": "023",
+          "rarity": "common",
+          "imageID": "a14b9561-876b-4f8d-8363-fc94b868876f"
+        },
+        {
+          "id": "a8b2473a-b814-424b-bb7c-edba3ac9230a",
+          "card": "18026b34-4f42-47f7-a76b-2e0932693895",
+          "suffix": "024",
+          "rarity": "common",
+          "imageID": "c2a9a10a-73ab-4efc-a1cb-85715d81d4e4"
+        },
+        {
+          "id": "3ebe76e1-5fc7-4188-9d55-441cbb8b6c08",
+          "card": "cd414938-4032-4616-9d0f-887f4376b789",
+          "suffix": "025",
+          "rarity": "common",
+          "imageID": "ce0b67cf-c626-4c34-bc7e-c1efbc8f0d37",
+          "qty": 2
+        },
+        {
+          "id": "3e97a89c-a9e7-4ee4-adbf-a122a91cdb39",
+          "card": "f2fdc396-fb8d-4899-80a1-1d7907648ab4",
+          "suffix": "026",
+          "rarity": "common"
+        },
+        {
+          "id": "52a64b6d-34d1-40a7-bc40-d882f938e253",
+          "card": "93dad907-3cc6-4f94-ac12-ad5be0c76bac",
+          "suffix": "027",
+          "rarity": "common",
+          "imageID": "8894c413-03f5-4460-a44d-ea9ce16de0c5"
+        },
+        {
+          "id": "1b2e079d-8b69-4fb0-9119-8685e8b52ae9",
+          "card": "9ecfc4ba-581a-476b-aee6-3f6689c2db5c",
+          "suffix": "028",
+          "rarity": "common",
+          "imageID": "de820a4b-d8a0-42b1-ae5f-cb768f56440f"
+        },
+        {
+          "id": "61063136-1a06-4b77-859f-e623c0561268",
+          "card": "641d1a75-a4c2-4a39-82a9-07091a21aa4c",
+          "suffix": "029",
+          "rarity": "common"
+        },
+        {
+          "id": "72dbf26c-942b-419d-8e10-703ecf5f31d4",
+          "card": "0bfcc499-7a45-452e-ad36-d2e2026ad580",
+          "suffix": "030",
+          "rarity": "common",
+          "imageID": "296b1a74-41ac-46bf-87af-b0b1820162ec"
+        },
+        {
+          "id": "f8dc75c8-9665-4aff-9a2b-e9e544288462",
+          "card": "9673d7c1-c452-4951-a054-50a1daa23c5d",
+          "suffix": "031",
+          "rarity": "common",
+          "imageID": "92dd9de0-3021-4e44-9187-95ed0c58119c"
+        },
+        {
+          "id": "d116fb34-29c6-4c65-bdbc-9175e54b31f8",
+          "card": "331f312d-fed2-471e-a7a3-53aecf5eaa8c",
+          "suffix": "032",
+          "rarity": "common",
+          "imageID": "96eaf673-f8d7-43f4-a6f1-e918a040a38c"
+        },
+        {
+          "id": "a10cb4f3-1da1-4a30-95c9-1b74aa45f3d3",
+          "card": "3f1d51cb-93a6-415b-ab67-1aee59e8fc31",
+          "suffix": "033",
+          "rarity": "common",
+          "imageID": "c8353c7b-8983-4f27-aa02-34964cd570d1"
+        },
+        {
+          "id": "60d0d97b-b48f-4d29-9ed2-ece60d35dc4b",
+          "card": "e57bdf12-8720-4b3a-bbc9-261b991e069c",
+          "suffix": "034",
+          "rarity": "common",
+          "imageID": "9f723f33-d15a-40bf-8f2d-e10d6aefe7a7"
+        },
+        {
+          "id": "3a784a18-5a0a-449b-b54f-f795caa8b34e",
+          "card": "e9dea58e-7d6d-4992-aaef-04a827a3dde6",
+          "suffix": "035",
+          "rarity": "common",
+          "imageID": "274263a5-a2a0-4d96-b4a6-154f22fdf3f7"
+        },
+        {
+          "id": "146bb8e0-dd69-431b-9cbb-80a34bb6ca7a",
+          "card": "6e463333-aa99-4176-a0d3-a0d8f2ca7764",
+          "suffix": "036",
+          "rarity": "common",
+          "imageID": "259b933c-024a-4405-a61c-d4ac6d122429"
+        },
+        {
+          "id": "79fcd63b-471f-4049-87b0-fb3313da515e",
+          "card": "996085eb-c90c-4efa-a8a6-48120fb25ef2",
+          "suffix": "037",
+          "rarity": "ultra",
+          "imageID": "69459dff-37f9-40a6-a9ca-7dfc567e36d8"
+        },
+        {
+          "id": "5ac27d7e-8c30-451a-89aa-d91085ab01b2",
+          "card": "9aeb6aec-4499-46f9-a709-f075d2ffc7bc",
+          "suffix": "038",
+          "rarity": "ultra",
+          "imageID": "15b9cb06-b553-42d6-b305-626fdd1e7978"
+        }
+      ],
+      "externalIDs": {
+        "ygoprodeck": "Structure Deck: Marik (TCG)"
+      }
+    },
+    {
+      "locales": [
+        "fr"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "distrobution": "preconstructed",
+      "editions": [
+        "1st"
+      ],
+      "image": "https://ms.yugipedia.com//b/bc/SDMA-DeckFR.png",
+      "cards": [
+        {
+          "id": "00279a11-d10f-44f7-9b26-d48c7a63afab",
+          "card": "02ca2037-0879-4f66-8ba8-8736ff96a5be",
+          "suffix": "001",
+          "rarity": "common",
+          "imageID": "cebf4403-9cc2-42db-8b71-c73b4c4753f4"
+        },
+        {
+          "id": "55bc7f0a-4508-472b-bba0-c977c89b5d5b",
+          "card": "7e30714f-58c9-41de-b9c8-3fc233599882",
+          "suffix": "002",
+          "rarity": "common"
+        },
+        {
+          "id": "60b1e42e-3340-4bb7-8650-37b51f7d169a",
+          "card": "88729c3f-ec93-429b-b96f-86b19fbabc17",
+          "suffix": "003",
+          "rarity": "common"
+        },
+        {
+          "id": "be612bef-88c2-4b64-a115-94f9061e42be",
+          "card": "474b82d9-62fa-4bf9-a961-f79542698cf1",
+          "suffix": "004",
+          "rarity": "common",
+          "imageID": "842e79f4-57bf-4ca7-b9b7-5994b4f0f775"
+        },
+        {
+          "id": "e2359202-245f-4f88-b5f8-25dd2daa931b",
+          "card": "19f15d7e-8dc8-4a37-b72f-19095b153f98",
+          "suffix": "005",
+          "rarity": "common",
+          "imageID": "ce8046ed-0290-4474-aad9-327b15d7072b"
+        },
+        {
+          "id": "89895b98-b0c1-4697-a360-bb715461e48c",
+          "card": "35cbca9a-8de1-4d7a-8567-39c355707b85",
+          "suffix": "006",
+          "rarity": "common",
+          "imageID": "083cc7cc-1ae6-4487-87c3-0f0cafea7a2c"
+        },
+        {
+          "id": "a9e6c615-a8bc-47fd-ba09-0212e7177ef4",
+          "card": "d5fface4-4bca-471c-8bd8-9a81ddcc77b7",
+          "suffix": "007",
+          "rarity": "common",
+          "imageID": "99ed62fd-30f3-41d8-ae86-4837dae43741",
+          "qty": 2
+        },
+        {
+          "id": "e8e3bbc5-315a-4790-aa02-d322a41ba852",
+          "card": "cd3d791b-03c7-4217-bc38-f96d444c4ec0",
+          "suffix": "008",
+          "rarity": "common",
+          "imageID": "43d36e52-0ddf-479d-ac6f-712fa064502e"
+        },
+        {
+          "id": "b5060b81-23f6-4bb9-94bb-f43a899e1138",
+          "card": "800c829e-f0a9-4237-aea3-4b6b26b2d48d",
+          "suffix": "009",
+          "rarity": "common",
+          "imageID": "fdb65624-4f91-471a-acf3-18d35c162f7c",
+          "qty": 2
+        },
+        {
+          "id": "e98d287a-e0c2-4d3a-a469-430dbbc2445a",
+          "card": "fda04a4f-f256-4bc7-a91b-8e7323fbfd40",
+          "suffix": "010",
+          "rarity": "common",
+          "imageID": "ba8e11df-90f4-4e9a-9a13-df67c833d74c"
+        },
+        {
+          "id": "10f185e4-5a73-48f2-90e6-51bf19cc2a6c",
+          "card": "3d724ff6-4644-4063-ae1b-9e66ee0824e6",
+          "suffix": "011",
+          "rarity": "common",
+          "imageID": "e551f7dc-5b6a-4470-ae62-1a64258cc31e"
+        },
+        {
+          "id": "612b5279-2245-4c6b-a5dc-acea9a1f9c79",
+          "card": "39fb0c99-5f37-46c0-a4f4-cd5868f49069",
+          "suffix": "012",
+          "rarity": "common",
+          "imageID": "a20f9f9b-a1d2-42e2-8fa1-d1c1caab4cb6"
+        },
+        {
+          "id": "327ad1b8-ba9f-44c5-a14c-91fdaec139f5",
+          "card": "9106c5e0-369b-4063-b8d8-bf12510b4917",
+          "suffix": "013",
+          "rarity": "common",
+          "imageID": "ba4dfefb-39f7-4f3c-97b7-96817e503700",
+          "qty": 2
+        },
+        {
+          "id": "7cbdc7e5-0656-4b44-ab7d-6fd33511c694",
+          "card": "3d6ae59d-081e-4463-8bc1-f9ec2b16b618",
+          "suffix": "014",
+          "rarity": "ultra",
+          "imageID": "4a9991d3-be93-4ca4-87c1-837a15eea805"
+        },
+        {
+          "id": "8c57ae51-8e9e-4743-95d7-a715fd24e8ac",
+          "card": "88da3322-60ca-456d-bb50-cd233688be9e",
+          "suffix": "015",
+          "rarity": "common",
+          "imageID": "698048a7-e8a0-4dcd-97c4-558fe5c43343"
+        },
+        {
+          "id": "f4549933-ee4c-49be-923d-cde720a2b0fb",
+          "card": "e27f494d-a2c8-4b1f-b430-0a6d2f272d0f",
+          "suffix": "016",
+          "rarity": "common",
+          "imageID": "8443113a-bece-428b-b2b1-9f6fbd0f4984"
+        },
+        {
+          "id": "06b1f479-03bb-43c2-b5d6-ec8d56058ce3",
+          "card": "1caf9e60-ffb8-4118-bc82-576b5f5b0d8e",
+          "suffix": "017",
+          "rarity": "common",
+          "imageID": "d3818b4e-1153-400c-8852-e9fc6ad46c0a"
+        },
+        {
+          "id": "ce0b43fb-307b-4b50-9df3-06833b260f8f",
+          "card": "ed3bccff-4d9f-4d03-892a-55a4de884f03",
+          "suffix": "018",
+          "rarity": "common",
+          "imageID": "d7b6fb90-72e3-4f66-80b2-fb67b104f311"
+        },
+        {
+          "id": "0977bdc4-c226-4746-8161-5f6066a96116",
+          "card": "53c43b88-2f41-4403-a6e0-65ae6c5d077b",
+          "suffix": "019",
+          "rarity": "common",
+          "imageID": "be95e440-c13c-4462-8947-1940eea89463"
+        },
+        {
+          "id": "a44fbc5d-0783-4430-a78e-a9f3e5ba0afa",
+          "card": "d15ea879-903e-481a-9ad1-774823a8518b",
+          "suffix": "020",
+          "rarity": "common",
+          "imageID": "f7eb3c46-62df-45ec-9be3-877f11a4a522"
+        },
+        {
+          "id": "529e6f48-0d4e-4e76-add2-15bcb64bc9a5",
+          "card": "623c52f6-f23a-4b79-994f-15131772c765",
+          "suffix": "021",
+          "rarity": "common",
+          "imageID": "2c7f814d-3dd3-4b40-9979-6cc974ff6bd8"
+        },
+        {
+          "id": "5f4d7364-21dc-47a2-bc92-9e4d08741c37",
+          "card": "474f45db-ad93-45f3-89a9-86e1148a5996",
+          "suffix": "022",
+          "rarity": "common",
+          "imageID": "9dd950a1-3bcf-4f71-842d-0bba1b6e61e2"
+        },
+        {
+          "id": "6ca0da21-08b1-48c7-8c91-17b0529d8748",
+          "card": "fdf3e4be-d5ae-4d10-bd2d-63275f3bb45b",
+          "suffix": "023",
+          "rarity": "common",
+          "imageID": "a14b9561-876b-4f8d-8363-fc94b868876f"
+        },
+        {
+          "id": "a8b2473a-b814-424b-bb7c-edba3ac9230a",
+          "card": "18026b34-4f42-47f7-a76b-2e0932693895",
+          "suffix": "024",
+          "rarity": "common",
+          "imageID": "c2a9a10a-73ab-4efc-a1cb-85715d81d4e4"
+        },
+        {
+          "id": "3ebe76e1-5fc7-4188-9d55-441cbb8b6c08",
+          "card": "cd414938-4032-4616-9d0f-887f4376b789",
+          "suffix": "025",
+          "rarity": "common",
+          "imageID": "ce0b67cf-c626-4c34-bc7e-c1efbc8f0d37",
+          "qty": 2
+        },
+        {
+          "id": "3e97a89c-a9e7-4ee4-adbf-a122a91cdb39",
+          "card": "f2fdc396-fb8d-4899-80a1-1d7907648ab4",
+          "suffix": "026",
+          "rarity": "common"
+        },
+        {
+          "id": "52a64b6d-34d1-40a7-bc40-d882f938e253",
+          "card": "93dad907-3cc6-4f94-ac12-ad5be0c76bac",
+          "suffix": "027",
+          "rarity": "common",
+          "imageID": "8894c413-03f5-4460-a44d-ea9ce16de0c5"
+        },
+        {
+          "id": "1b2e079d-8b69-4fb0-9119-8685e8b52ae9",
+          "card": "9ecfc4ba-581a-476b-aee6-3f6689c2db5c",
+          "suffix": "028",
+          "rarity": "common",
+          "imageID": "de820a4b-d8a0-42b1-ae5f-cb768f56440f"
+        },
+        {
+          "id": "61063136-1a06-4b77-859f-e623c0561268",
+          "card": "641d1a75-a4c2-4a39-82a9-07091a21aa4c",
+          "suffix": "029",
+          "rarity": "common"
+        },
+        {
+          "id": "72dbf26c-942b-419d-8e10-703ecf5f31d4",
+          "card": "0bfcc499-7a45-452e-ad36-d2e2026ad580",
+          "suffix": "030",
+          "rarity": "common",
+          "imageID": "296b1a74-41ac-46bf-87af-b0b1820162ec"
+        },
+        {
+          "id": "f8dc75c8-9665-4aff-9a2b-e9e544288462",
+          "card": "9673d7c1-c452-4951-a054-50a1daa23c5d",
+          "suffix": "031",
+          "rarity": "common",
+          "imageID": "92dd9de0-3021-4e44-9187-95ed0c58119c"
+        },
+        {
+          "id": "d116fb34-29c6-4c65-bdbc-9175e54b31f8",
+          "card": "331f312d-fed2-471e-a7a3-53aecf5eaa8c",
+          "suffix": "032",
+          "rarity": "common",
+          "imageID": "96eaf673-f8d7-43f4-a6f1-e918a040a38c"
+        },
+        {
+          "id": "a10cb4f3-1da1-4a30-95c9-1b74aa45f3d3",
+          "card": "3f1d51cb-93a6-415b-ab67-1aee59e8fc31",
+          "suffix": "033",
+          "rarity": "common",
+          "imageID": "c8353c7b-8983-4f27-aa02-34964cd570d1"
+        },
+        {
+          "id": "60d0d97b-b48f-4d29-9ed2-ece60d35dc4b",
+          "card": "e57bdf12-8720-4b3a-bbc9-261b991e069c",
+          "suffix": "034",
+          "rarity": "common",
+          "imageID": "9f723f33-d15a-40bf-8f2d-e10d6aefe7a7"
+        },
+        {
+          "id": "3a784a18-5a0a-449b-b54f-f795caa8b34e",
+          "card": "e9dea58e-7d6d-4992-aaef-04a827a3dde6",
+          "suffix": "035",
+          "rarity": "common",
+          "imageID": "274263a5-a2a0-4d96-b4a6-154f22fdf3f7"
+        },
+        {
+          "id": "146bb8e0-dd69-431b-9cbb-80a34bb6ca7a",
+          "card": "6e463333-aa99-4176-a0d3-a0d8f2ca7764",
+          "suffix": "036",
+          "rarity": "common",
+          "imageID": "259b933c-024a-4405-a61c-d4ac6d122429"
+        },
+        {
+          "id": "79fcd63b-471f-4049-87b0-fb3313da515e",
+          "card": "996085eb-c90c-4efa-a8a6-48120fb25ef2",
+          "suffix": "037",
+          "rarity": "ultra",
+          "imageID": "69459dff-37f9-40a6-a9ca-7dfc567e36d8"
+        },
+        {
+          "id": "5ac27d7e-8c30-451a-89aa-d91085ab01b2",
+          "card": "9aeb6aec-4499-46f9-a709-f075d2ffc7bc",
+          "suffix": "038",
+          "rarity": "ultra",
+          "imageID": "15b9cb06-b553-42d6-b305-626fdd1e7978"
+        }
+      ],
+      "externalIDs": {
+        "ygoprodeck": "Structure Deck: Marik (TCG)"
+      }
+    },
+    {
+      "locales": [
+        "de"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "distrobution": "preconstructed",
+      "editions": [
+        "1st",
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//3/3e/SDMA-DeckDE.png",
+      "cards": [
+        {
+          "id": "00279a11-d10f-44f7-9b26-d48c7a63afab",
+          "card": "02ca2037-0879-4f66-8ba8-8736ff96a5be",
+          "suffix": "001",
+          "rarity": "common",
+          "imageID": "cebf4403-9cc2-42db-8b71-c73b4c4753f4"
+        },
+        {
+          "id": "55bc7f0a-4508-472b-bba0-c977c89b5d5b",
+          "card": "7e30714f-58c9-41de-b9c8-3fc233599882",
+          "suffix": "002",
+          "rarity": "common"
+        },
+        {
+          "id": "60b1e42e-3340-4bb7-8650-37b51f7d169a",
+          "card": "88729c3f-ec93-429b-b96f-86b19fbabc17",
+          "suffix": "003",
+          "rarity": "common"
+        },
+        {
+          "id": "be612bef-88c2-4b64-a115-94f9061e42be",
+          "card": "474b82d9-62fa-4bf9-a961-f79542698cf1",
+          "suffix": "004",
+          "rarity": "common",
+          "imageID": "842e79f4-57bf-4ca7-b9b7-5994b4f0f775"
+        },
+        {
+          "id": "e2359202-245f-4f88-b5f8-25dd2daa931b",
+          "card": "19f15d7e-8dc8-4a37-b72f-19095b153f98",
+          "suffix": "005",
+          "rarity": "common",
+          "imageID": "ce8046ed-0290-4474-aad9-327b15d7072b"
+        },
+        {
+          "id": "89895b98-b0c1-4697-a360-bb715461e48c",
+          "card": "35cbca9a-8de1-4d7a-8567-39c355707b85",
+          "suffix": "006",
+          "rarity": "common",
+          "imageID": "083cc7cc-1ae6-4487-87c3-0f0cafea7a2c"
+        },
+        {
+          "id": "a9e6c615-a8bc-47fd-ba09-0212e7177ef4",
+          "card": "d5fface4-4bca-471c-8bd8-9a81ddcc77b7",
+          "suffix": "007",
+          "rarity": "common",
+          "imageID": "99ed62fd-30f3-41d8-ae86-4837dae43741",
+          "qty": 2
+        },
+        {
+          "id": "e8e3bbc5-315a-4790-aa02-d322a41ba852",
+          "card": "cd3d791b-03c7-4217-bc38-f96d444c4ec0",
+          "suffix": "008",
+          "rarity": "common",
+          "imageID": "43d36e52-0ddf-479d-ac6f-712fa064502e"
+        },
+        {
+          "id": "b5060b81-23f6-4bb9-94bb-f43a899e1138",
+          "card": "800c829e-f0a9-4237-aea3-4b6b26b2d48d",
+          "suffix": "009",
+          "rarity": "common",
+          "imageID": "fdb65624-4f91-471a-acf3-18d35c162f7c",
+          "qty": 2
+        },
+        {
+          "id": "e98d287a-e0c2-4d3a-a469-430dbbc2445a",
+          "card": "fda04a4f-f256-4bc7-a91b-8e7323fbfd40",
+          "suffix": "010",
+          "rarity": "common",
+          "imageID": "ba8e11df-90f4-4e9a-9a13-df67c833d74c"
+        },
+        {
+          "id": "10f185e4-5a73-48f2-90e6-51bf19cc2a6c",
+          "card": "3d724ff6-4644-4063-ae1b-9e66ee0824e6",
+          "suffix": "011",
+          "rarity": "common",
+          "imageID": "e551f7dc-5b6a-4470-ae62-1a64258cc31e"
+        },
+        {
+          "id": "612b5279-2245-4c6b-a5dc-acea9a1f9c79",
+          "card": "39fb0c99-5f37-46c0-a4f4-cd5868f49069",
+          "suffix": "012",
+          "rarity": "common",
+          "imageID": "a20f9f9b-a1d2-42e2-8fa1-d1c1caab4cb6"
+        },
+        {
+          "id": "327ad1b8-ba9f-44c5-a14c-91fdaec139f5",
+          "card": "9106c5e0-369b-4063-b8d8-bf12510b4917",
+          "suffix": "013",
+          "rarity": "common",
+          "imageID": "ba4dfefb-39f7-4f3c-97b7-96817e503700",
+          "qty": 2
+        },
+        {
+          "id": "7cbdc7e5-0656-4b44-ab7d-6fd33511c694",
+          "card": "3d6ae59d-081e-4463-8bc1-f9ec2b16b618",
+          "suffix": "014",
+          "rarity": "ultra",
+          "imageID": "4a9991d3-be93-4ca4-87c1-837a15eea805"
+        },
+        {
+          "id": "8c57ae51-8e9e-4743-95d7-a715fd24e8ac",
+          "card": "88da3322-60ca-456d-bb50-cd233688be9e",
+          "suffix": "015",
+          "rarity": "common",
+          "imageID": "698048a7-e8a0-4dcd-97c4-558fe5c43343"
+        },
+        {
+          "id": "f4549933-ee4c-49be-923d-cde720a2b0fb",
+          "card": "e27f494d-a2c8-4b1f-b430-0a6d2f272d0f",
+          "suffix": "016",
+          "rarity": "common",
+          "imageID": "8443113a-bece-428b-b2b1-9f6fbd0f4984"
+        },
+        {
+          "id": "06b1f479-03bb-43c2-b5d6-ec8d56058ce3",
+          "card": "1caf9e60-ffb8-4118-bc82-576b5f5b0d8e",
+          "suffix": "017",
+          "rarity": "common",
+          "imageID": "d3818b4e-1153-400c-8852-e9fc6ad46c0a"
+        },
+        {
+          "id": "ce0b43fb-307b-4b50-9df3-06833b260f8f",
+          "card": "ed3bccff-4d9f-4d03-892a-55a4de884f03",
+          "suffix": "018",
+          "rarity": "common",
+          "imageID": "d7b6fb90-72e3-4f66-80b2-fb67b104f311"
+        },
+        {
+          "id": "0977bdc4-c226-4746-8161-5f6066a96116",
+          "card": "53c43b88-2f41-4403-a6e0-65ae6c5d077b",
+          "suffix": "019",
+          "rarity": "common",
+          "imageID": "be95e440-c13c-4462-8947-1940eea89463"
+        },
+        {
+          "id": "a44fbc5d-0783-4430-a78e-a9f3e5ba0afa",
+          "card": "d15ea879-903e-481a-9ad1-774823a8518b",
+          "suffix": "020",
+          "rarity": "common",
+          "imageID": "f7eb3c46-62df-45ec-9be3-877f11a4a522"
+        },
+        {
+          "id": "529e6f48-0d4e-4e76-add2-15bcb64bc9a5",
+          "card": "623c52f6-f23a-4b79-994f-15131772c765",
+          "suffix": "021",
+          "rarity": "common",
+          "imageID": "2c7f814d-3dd3-4b40-9979-6cc974ff6bd8"
+        },
+        {
+          "id": "5f4d7364-21dc-47a2-bc92-9e4d08741c37",
+          "card": "474f45db-ad93-45f3-89a9-86e1148a5996",
+          "suffix": "022",
+          "rarity": "common",
+          "imageID": "9dd950a1-3bcf-4f71-842d-0bba1b6e61e2"
+        },
+        {
+          "id": "6ca0da21-08b1-48c7-8c91-17b0529d8748",
+          "card": "fdf3e4be-d5ae-4d10-bd2d-63275f3bb45b",
+          "suffix": "023",
+          "rarity": "common",
+          "imageID": "a14b9561-876b-4f8d-8363-fc94b868876f"
+        },
+        {
+          "id": "a8b2473a-b814-424b-bb7c-edba3ac9230a",
+          "card": "18026b34-4f42-47f7-a76b-2e0932693895",
+          "suffix": "024",
+          "rarity": "common",
+          "imageID": "c2a9a10a-73ab-4efc-a1cb-85715d81d4e4"
+        },
+        {
+          "id": "3ebe76e1-5fc7-4188-9d55-441cbb8b6c08",
+          "card": "cd414938-4032-4616-9d0f-887f4376b789",
+          "suffix": "025",
+          "rarity": "common",
+          "imageID": "ce0b67cf-c626-4c34-bc7e-c1efbc8f0d37",
+          "qty": 2
+        },
+        {
+          "id": "3e97a89c-a9e7-4ee4-adbf-a122a91cdb39",
+          "card": "f2fdc396-fb8d-4899-80a1-1d7907648ab4",
+          "suffix": "026",
+          "rarity": "common"
+        },
+        {
+          "id": "52a64b6d-34d1-40a7-bc40-d882f938e253",
+          "card": "93dad907-3cc6-4f94-ac12-ad5be0c76bac",
+          "suffix": "027",
+          "rarity": "common",
+          "imageID": "8894c413-03f5-4460-a44d-ea9ce16de0c5"
+        },
+        {
+          "id": "1b2e079d-8b69-4fb0-9119-8685e8b52ae9",
+          "card": "9ecfc4ba-581a-476b-aee6-3f6689c2db5c",
+          "suffix": "028",
+          "rarity": "common",
+          "imageID": "de820a4b-d8a0-42b1-ae5f-cb768f56440f"
+        },
+        {
+          "id": "61063136-1a06-4b77-859f-e623c0561268",
+          "card": "641d1a75-a4c2-4a39-82a9-07091a21aa4c",
+          "suffix": "029",
+          "rarity": "common"
+        },
+        {
+          "id": "72dbf26c-942b-419d-8e10-703ecf5f31d4",
+          "card": "0bfcc499-7a45-452e-ad36-d2e2026ad580",
+          "suffix": "030",
+          "rarity": "common",
+          "imageID": "296b1a74-41ac-46bf-87af-b0b1820162ec"
+        },
+        {
+          "id": "f8dc75c8-9665-4aff-9a2b-e9e544288462",
+          "card": "9673d7c1-c452-4951-a054-50a1daa23c5d",
+          "suffix": "031",
+          "rarity": "common",
+          "imageID": "92dd9de0-3021-4e44-9187-95ed0c58119c"
+        },
+        {
+          "id": "d116fb34-29c6-4c65-bdbc-9175e54b31f8",
+          "card": "331f312d-fed2-471e-a7a3-53aecf5eaa8c",
+          "suffix": "032",
+          "rarity": "common",
+          "imageID": "96eaf673-f8d7-43f4-a6f1-e918a040a38c"
+        },
+        {
+          "id": "a10cb4f3-1da1-4a30-95c9-1b74aa45f3d3",
+          "card": "3f1d51cb-93a6-415b-ab67-1aee59e8fc31",
+          "suffix": "033",
+          "rarity": "common",
+          "imageID": "c8353c7b-8983-4f27-aa02-34964cd570d1"
+        },
+        {
+          "id": "60d0d97b-b48f-4d29-9ed2-ece60d35dc4b",
+          "card": "e57bdf12-8720-4b3a-bbc9-261b991e069c",
+          "suffix": "034",
+          "rarity": "common",
+          "imageID": "9f723f33-d15a-40bf-8f2d-e10d6aefe7a7"
+        },
+        {
+          "id": "3a784a18-5a0a-449b-b54f-f795caa8b34e",
+          "card": "e9dea58e-7d6d-4992-aaef-04a827a3dde6",
+          "suffix": "035",
+          "rarity": "common",
+          "imageID": "274263a5-a2a0-4d96-b4a6-154f22fdf3f7"
+        },
+        {
+          "id": "146bb8e0-dd69-431b-9cbb-80a34bb6ca7a",
+          "card": "6e463333-aa99-4176-a0d3-a0d8f2ca7764",
+          "suffix": "036",
+          "rarity": "common",
+          "imageID": "259b933c-024a-4405-a61c-d4ac6d122429"
+        },
+        {
+          "id": "79fcd63b-471f-4049-87b0-fb3313da515e",
+          "card": "996085eb-c90c-4efa-a8a6-48120fb25ef2",
+          "suffix": "037",
+          "rarity": "ultra",
+          "imageID": "69459dff-37f9-40a6-a9ca-7dfc567e36d8"
+        },
+        {
+          "id": "5ac27d7e-8c30-451a-89aa-d91085ab01b2",
+          "card": "9aeb6aec-4499-46f9-a709-f075d2ffc7bc",
+          "suffix": "038",
+          "rarity": "ultra",
+          "imageID": "15b9cb06-b553-42d6-b305-626fdd1e7978"
+        }
+      ],
+      "externalIDs": {
+        "ygoprodeck": "Structure Deck: Marik (TCG)"
+      }
+    },
+    {
+      "locales": [
+        "it"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "distrobution": "preconstructed",
+      "editions": [
+        "1st"
+      ],
+      "cards": [
+        {
+          "id": "00279a11-d10f-44f7-9b26-d48c7a63afab",
+          "card": "02ca2037-0879-4f66-8ba8-8736ff96a5be",
+          "suffix": "001",
+          "rarity": "common",
+          "imageID": "cebf4403-9cc2-42db-8b71-c73b4c4753f4"
+        },
+        {
+          "id": "55bc7f0a-4508-472b-bba0-c977c89b5d5b",
+          "card": "7e30714f-58c9-41de-b9c8-3fc233599882",
+          "suffix": "002",
+          "rarity": "common"
+        },
+        {
+          "id": "60b1e42e-3340-4bb7-8650-37b51f7d169a",
+          "card": "88729c3f-ec93-429b-b96f-86b19fbabc17",
+          "suffix": "003",
+          "rarity": "common"
+        },
+        {
+          "id": "be612bef-88c2-4b64-a115-94f9061e42be",
+          "card": "474b82d9-62fa-4bf9-a961-f79542698cf1",
+          "suffix": "004",
+          "rarity": "common",
+          "imageID": "842e79f4-57bf-4ca7-b9b7-5994b4f0f775"
+        },
+        {
+          "id": "e2359202-245f-4f88-b5f8-25dd2daa931b",
+          "card": "19f15d7e-8dc8-4a37-b72f-19095b153f98",
+          "suffix": "005",
+          "rarity": "common",
+          "imageID": "ce8046ed-0290-4474-aad9-327b15d7072b"
+        },
+        {
+          "id": "89895b98-b0c1-4697-a360-bb715461e48c",
+          "card": "35cbca9a-8de1-4d7a-8567-39c355707b85",
+          "suffix": "006",
+          "rarity": "common",
+          "imageID": "083cc7cc-1ae6-4487-87c3-0f0cafea7a2c"
+        },
+        {
+          "id": "a9e6c615-a8bc-47fd-ba09-0212e7177ef4",
+          "card": "d5fface4-4bca-471c-8bd8-9a81ddcc77b7",
+          "suffix": "007",
+          "rarity": "common",
+          "imageID": "99ed62fd-30f3-41d8-ae86-4837dae43741",
+          "qty": 2
+        },
+        {
+          "id": "e8e3bbc5-315a-4790-aa02-d322a41ba852",
+          "card": "cd3d791b-03c7-4217-bc38-f96d444c4ec0",
+          "suffix": "008",
+          "rarity": "common",
+          "imageID": "43d36e52-0ddf-479d-ac6f-712fa064502e"
+        },
+        {
+          "id": "b5060b81-23f6-4bb9-94bb-f43a899e1138",
+          "card": "800c829e-f0a9-4237-aea3-4b6b26b2d48d",
+          "suffix": "009",
+          "rarity": "common",
+          "imageID": "fdb65624-4f91-471a-acf3-18d35c162f7c",
+          "qty": 2
+        },
+        {
+          "id": "e98d287a-e0c2-4d3a-a469-430dbbc2445a",
+          "card": "fda04a4f-f256-4bc7-a91b-8e7323fbfd40",
+          "suffix": "010",
+          "rarity": "common",
+          "imageID": "ba8e11df-90f4-4e9a-9a13-df67c833d74c"
+        },
+        {
+          "id": "10f185e4-5a73-48f2-90e6-51bf19cc2a6c",
+          "card": "3d724ff6-4644-4063-ae1b-9e66ee0824e6",
+          "suffix": "011",
+          "rarity": "common",
+          "imageID": "e551f7dc-5b6a-4470-ae62-1a64258cc31e"
+        },
+        {
+          "id": "612b5279-2245-4c6b-a5dc-acea9a1f9c79",
+          "card": "39fb0c99-5f37-46c0-a4f4-cd5868f49069",
+          "suffix": "012",
+          "rarity": "common",
+          "imageID": "a20f9f9b-a1d2-42e2-8fa1-d1c1caab4cb6"
+        },
+        {
+          "id": "327ad1b8-ba9f-44c5-a14c-91fdaec139f5",
+          "card": "9106c5e0-369b-4063-b8d8-bf12510b4917",
+          "suffix": "013",
+          "rarity": "common",
+          "imageID": "ba4dfefb-39f7-4f3c-97b7-96817e503700",
+          "qty": 2
+        },
+        {
+          "id": "7cbdc7e5-0656-4b44-ab7d-6fd33511c694",
+          "card": "3d6ae59d-081e-4463-8bc1-f9ec2b16b618",
+          "suffix": "014",
+          "rarity": "ultra",
+          "imageID": "4a9991d3-be93-4ca4-87c1-837a15eea805"
+        },
+        {
+          "id": "8c57ae51-8e9e-4743-95d7-a715fd24e8ac",
+          "card": "88da3322-60ca-456d-bb50-cd233688be9e",
+          "suffix": "015",
+          "rarity": "common",
+          "imageID": "698048a7-e8a0-4dcd-97c4-558fe5c43343"
+        },
+        {
+          "id": "f4549933-ee4c-49be-923d-cde720a2b0fb",
+          "card": "e27f494d-a2c8-4b1f-b430-0a6d2f272d0f",
+          "suffix": "016",
+          "rarity": "common",
+          "imageID": "8443113a-bece-428b-b2b1-9f6fbd0f4984"
+        },
+        {
+          "id": "06b1f479-03bb-43c2-b5d6-ec8d56058ce3",
+          "card": "1caf9e60-ffb8-4118-bc82-576b5f5b0d8e",
+          "suffix": "017",
+          "rarity": "common",
+          "imageID": "d3818b4e-1153-400c-8852-e9fc6ad46c0a"
+        },
+        {
+          "id": "ce0b43fb-307b-4b50-9df3-06833b260f8f",
+          "card": "ed3bccff-4d9f-4d03-892a-55a4de884f03",
+          "suffix": "018",
+          "rarity": "common",
+          "imageID": "d7b6fb90-72e3-4f66-80b2-fb67b104f311"
+        },
+        {
+          "id": "0977bdc4-c226-4746-8161-5f6066a96116",
+          "card": "53c43b88-2f41-4403-a6e0-65ae6c5d077b",
+          "suffix": "019",
+          "rarity": "common",
+          "imageID": "be95e440-c13c-4462-8947-1940eea89463"
+        },
+        {
+          "id": "a44fbc5d-0783-4430-a78e-a9f3e5ba0afa",
+          "card": "d15ea879-903e-481a-9ad1-774823a8518b",
+          "suffix": "020",
+          "rarity": "common",
+          "imageID": "f7eb3c46-62df-45ec-9be3-877f11a4a522"
+        },
+        {
+          "id": "529e6f48-0d4e-4e76-add2-15bcb64bc9a5",
+          "card": "623c52f6-f23a-4b79-994f-15131772c765",
+          "suffix": "021",
+          "rarity": "common",
+          "imageID": "2c7f814d-3dd3-4b40-9979-6cc974ff6bd8"
+        },
+        {
+          "id": "5f4d7364-21dc-47a2-bc92-9e4d08741c37",
+          "card": "474f45db-ad93-45f3-89a9-86e1148a5996",
+          "suffix": "022",
+          "rarity": "common",
+          "imageID": "9dd950a1-3bcf-4f71-842d-0bba1b6e61e2"
+        },
+        {
+          "id": "6ca0da21-08b1-48c7-8c91-17b0529d8748",
+          "card": "fdf3e4be-d5ae-4d10-bd2d-63275f3bb45b",
+          "suffix": "023",
+          "rarity": "common",
+          "imageID": "a14b9561-876b-4f8d-8363-fc94b868876f"
+        },
+        {
+          "id": "a8b2473a-b814-424b-bb7c-edba3ac9230a",
+          "card": "18026b34-4f42-47f7-a76b-2e0932693895",
+          "suffix": "024",
+          "rarity": "common",
+          "imageID": "c2a9a10a-73ab-4efc-a1cb-85715d81d4e4"
+        },
+        {
+          "id": "3ebe76e1-5fc7-4188-9d55-441cbb8b6c08",
+          "card": "cd414938-4032-4616-9d0f-887f4376b789",
+          "suffix": "025",
+          "rarity": "common",
+          "imageID": "ce0b67cf-c626-4c34-bc7e-c1efbc8f0d37",
+          "qty": 2
+        },
+        {
+          "id": "3e97a89c-a9e7-4ee4-adbf-a122a91cdb39",
+          "card": "f2fdc396-fb8d-4899-80a1-1d7907648ab4",
+          "suffix": "026",
+          "rarity": "common"
+        },
+        {
+          "id": "52a64b6d-34d1-40a7-bc40-d882f938e253",
+          "card": "93dad907-3cc6-4f94-ac12-ad5be0c76bac",
+          "suffix": "027",
+          "rarity": "common",
+          "imageID": "8894c413-03f5-4460-a44d-ea9ce16de0c5"
+        },
+        {
+          "id": "1b2e079d-8b69-4fb0-9119-8685e8b52ae9",
+          "card": "9ecfc4ba-581a-476b-aee6-3f6689c2db5c",
+          "suffix": "028",
+          "rarity": "common",
+          "imageID": "de820a4b-d8a0-42b1-ae5f-cb768f56440f"
+        },
+        {
+          "id": "61063136-1a06-4b77-859f-e623c0561268",
+          "card": "641d1a75-a4c2-4a39-82a9-07091a21aa4c",
+          "suffix": "029",
+          "rarity": "common"
+        },
+        {
+          "id": "72dbf26c-942b-419d-8e10-703ecf5f31d4",
+          "card": "0bfcc499-7a45-452e-ad36-d2e2026ad580",
+          "suffix": "030",
+          "rarity": "common",
+          "imageID": "296b1a74-41ac-46bf-87af-b0b1820162ec"
+        },
+        {
+          "id": "f8dc75c8-9665-4aff-9a2b-e9e544288462",
+          "card": "9673d7c1-c452-4951-a054-50a1daa23c5d",
+          "suffix": "031",
+          "rarity": "common",
+          "imageID": "92dd9de0-3021-4e44-9187-95ed0c58119c"
+        },
+        {
+          "id": "d116fb34-29c6-4c65-bdbc-9175e54b31f8",
+          "card": "331f312d-fed2-471e-a7a3-53aecf5eaa8c",
+          "suffix": "032",
+          "rarity": "common",
+          "imageID": "96eaf673-f8d7-43f4-a6f1-e918a040a38c"
+        },
+        {
+          "id": "a10cb4f3-1da1-4a30-95c9-1b74aa45f3d3",
+          "card": "3f1d51cb-93a6-415b-ab67-1aee59e8fc31",
+          "suffix": "033",
+          "rarity": "common",
+          "imageID": "c8353c7b-8983-4f27-aa02-34964cd570d1"
+        },
+        {
+          "id": "60d0d97b-b48f-4d29-9ed2-ece60d35dc4b",
+          "card": "e57bdf12-8720-4b3a-bbc9-261b991e069c",
+          "suffix": "034",
+          "rarity": "common",
+          "imageID": "9f723f33-d15a-40bf-8f2d-e10d6aefe7a7"
+        },
+        {
+          "id": "3a784a18-5a0a-449b-b54f-f795caa8b34e",
+          "card": "e9dea58e-7d6d-4992-aaef-04a827a3dde6",
+          "suffix": "035",
+          "rarity": "common",
+          "imageID": "274263a5-a2a0-4d96-b4a6-154f22fdf3f7"
+        },
+        {
+          "id": "146bb8e0-dd69-431b-9cbb-80a34bb6ca7a",
+          "card": "6e463333-aa99-4176-a0d3-a0d8f2ca7764",
+          "suffix": "036",
+          "rarity": "common",
+          "imageID": "259b933c-024a-4405-a61c-d4ac6d122429"
+        },
+        {
+          "id": "79fcd63b-471f-4049-87b0-fb3313da515e",
+          "card": "996085eb-c90c-4efa-a8a6-48120fb25ef2",
+          "suffix": "037",
+          "rarity": "ultra",
+          "imageID": "69459dff-37f9-40a6-a9ca-7dfc567e36d8"
+        },
+        {
+          "id": "5ac27d7e-8c30-451a-89aa-d91085ab01b2",
+          "card": "9aeb6aec-4499-46f9-a709-f075d2ffc7bc",
+          "suffix": "038",
+          "rarity": "ultra",
+          "imageID": "15b9cb06-b553-42d6-b305-626fdd1e7978"
+        }
+      ],
+      "externalIDs": {
+        "ygoprodeck": "Structure Deck: Marik (TCG)"
+      }
+    },
+    {
+      "locales": [
+        "sp"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "distrobution": "preconstructed",
+      "editions": [
+        "1st"
+      ],
+      "image": "https://ms.yugipedia.com//c/cf/SDMA-DeckSP.png",
+      "cards": [
+        {
+          "id": "00279a11-d10f-44f7-9b26-d48c7a63afab",
+          "card": "02ca2037-0879-4f66-8ba8-8736ff96a5be",
+          "suffix": "001",
+          "rarity": "common",
+          "imageID": "cebf4403-9cc2-42db-8b71-c73b4c4753f4"
+        },
+        {
+          "id": "55bc7f0a-4508-472b-bba0-c977c89b5d5b",
+          "card": "7e30714f-58c9-41de-b9c8-3fc233599882",
+          "suffix": "002",
+          "rarity": "common"
+        },
+        {
+          "id": "60b1e42e-3340-4bb7-8650-37b51f7d169a",
+          "card": "88729c3f-ec93-429b-b96f-86b19fbabc17",
+          "suffix": "003",
+          "rarity": "common"
+        },
+        {
+          "id": "be612bef-88c2-4b64-a115-94f9061e42be",
+          "card": "474b82d9-62fa-4bf9-a961-f79542698cf1",
+          "suffix": "004",
+          "rarity": "common",
+          "imageID": "842e79f4-57bf-4ca7-b9b7-5994b4f0f775"
+        },
+        {
+          "id": "e2359202-245f-4f88-b5f8-25dd2daa931b",
+          "card": "19f15d7e-8dc8-4a37-b72f-19095b153f98",
+          "suffix": "005",
+          "rarity": "common",
+          "imageID": "ce8046ed-0290-4474-aad9-327b15d7072b"
+        },
+        {
+          "id": "89895b98-b0c1-4697-a360-bb715461e48c",
+          "card": "35cbca9a-8de1-4d7a-8567-39c355707b85",
+          "suffix": "006",
+          "rarity": "common",
+          "imageID": "083cc7cc-1ae6-4487-87c3-0f0cafea7a2c"
+        },
+        {
+          "id": "a9e6c615-a8bc-47fd-ba09-0212e7177ef4",
+          "card": "d5fface4-4bca-471c-8bd8-9a81ddcc77b7",
+          "suffix": "007",
+          "rarity": "common",
+          "imageID": "99ed62fd-30f3-41d8-ae86-4837dae43741",
+          "qty": 2
+        },
+        {
+          "id": "e8e3bbc5-315a-4790-aa02-d322a41ba852",
+          "card": "cd3d791b-03c7-4217-bc38-f96d444c4ec0",
+          "suffix": "008",
+          "rarity": "common",
+          "imageID": "43d36e52-0ddf-479d-ac6f-712fa064502e"
+        },
+        {
+          "id": "b5060b81-23f6-4bb9-94bb-f43a899e1138",
+          "card": "800c829e-f0a9-4237-aea3-4b6b26b2d48d",
+          "suffix": "009",
+          "rarity": "common",
+          "imageID": "fdb65624-4f91-471a-acf3-18d35c162f7c",
+          "qty": 2
+        },
+        {
+          "id": "e98d287a-e0c2-4d3a-a469-430dbbc2445a",
+          "card": "fda04a4f-f256-4bc7-a91b-8e7323fbfd40",
+          "suffix": "010",
+          "rarity": "common",
+          "imageID": "ba8e11df-90f4-4e9a-9a13-df67c833d74c"
+        },
+        {
+          "id": "10f185e4-5a73-48f2-90e6-51bf19cc2a6c",
+          "card": "3d724ff6-4644-4063-ae1b-9e66ee0824e6",
+          "suffix": "011",
+          "rarity": "common",
+          "imageID": "e551f7dc-5b6a-4470-ae62-1a64258cc31e"
+        },
+        {
+          "id": "612b5279-2245-4c6b-a5dc-acea9a1f9c79",
+          "card": "39fb0c99-5f37-46c0-a4f4-cd5868f49069",
+          "suffix": "012",
+          "rarity": "common",
+          "imageID": "a20f9f9b-a1d2-42e2-8fa1-d1c1caab4cb6"
+        },
+        {
+          "id": "327ad1b8-ba9f-44c5-a14c-91fdaec139f5",
+          "card": "9106c5e0-369b-4063-b8d8-bf12510b4917",
+          "suffix": "013",
+          "rarity": "common",
+          "imageID": "ba4dfefb-39f7-4f3c-97b7-96817e503700",
+          "qty": 2
+        },
+        {
+          "id": "7cbdc7e5-0656-4b44-ab7d-6fd33511c694",
+          "card": "3d6ae59d-081e-4463-8bc1-f9ec2b16b618",
+          "suffix": "014",
+          "rarity": "ultra",
+          "imageID": "4a9991d3-be93-4ca4-87c1-837a15eea805"
+        },
+        {
+          "id": "8c57ae51-8e9e-4743-95d7-a715fd24e8ac",
+          "card": "88da3322-60ca-456d-bb50-cd233688be9e",
+          "suffix": "015",
+          "rarity": "common",
+          "imageID": "698048a7-e8a0-4dcd-97c4-558fe5c43343"
+        },
+        {
+          "id": "f4549933-ee4c-49be-923d-cde720a2b0fb",
+          "card": "e27f494d-a2c8-4b1f-b430-0a6d2f272d0f",
+          "suffix": "016",
+          "rarity": "common",
+          "imageID": "8443113a-bece-428b-b2b1-9f6fbd0f4984"
+        },
+        {
+          "id": "06b1f479-03bb-43c2-b5d6-ec8d56058ce3",
+          "card": "1caf9e60-ffb8-4118-bc82-576b5f5b0d8e",
+          "suffix": "017",
+          "rarity": "common",
+          "imageID": "d3818b4e-1153-400c-8852-e9fc6ad46c0a"
+        },
+        {
+          "id": "ce0b43fb-307b-4b50-9df3-06833b260f8f",
+          "card": "ed3bccff-4d9f-4d03-892a-55a4de884f03",
+          "suffix": "018",
+          "rarity": "common",
+          "imageID": "d7b6fb90-72e3-4f66-80b2-fb67b104f311"
+        },
+        {
+          "id": "0977bdc4-c226-4746-8161-5f6066a96116",
+          "card": "53c43b88-2f41-4403-a6e0-65ae6c5d077b",
+          "suffix": "019",
+          "rarity": "common",
+          "imageID": "be95e440-c13c-4462-8947-1940eea89463"
+        },
+        {
+          "id": "a44fbc5d-0783-4430-a78e-a9f3e5ba0afa",
+          "card": "d15ea879-903e-481a-9ad1-774823a8518b",
+          "suffix": "020",
+          "rarity": "common",
+          "imageID": "f7eb3c46-62df-45ec-9be3-877f11a4a522"
+        },
+        {
+          "id": "529e6f48-0d4e-4e76-add2-15bcb64bc9a5",
+          "card": "623c52f6-f23a-4b79-994f-15131772c765",
+          "suffix": "021",
+          "rarity": "common",
+          "imageID": "2c7f814d-3dd3-4b40-9979-6cc974ff6bd8"
+        },
+        {
+          "id": "5f4d7364-21dc-47a2-bc92-9e4d08741c37",
+          "card": "474f45db-ad93-45f3-89a9-86e1148a5996",
+          "suffix": "022",
+          "rarity": "common",
+          "imageID": "9dd950a1-3bcf-4f71-842d-0bba1b6e61e2"
+        },
+        {
+          "id": "6ca0da21-08b1-48c7-8c91-17b0529d8748",
+          "card": "fdf3e4be-d5ae-4d10-bd2d-63275f3bb45b",
+          "suffix": "023",
+          "rarity": "common",
+          "imageID": "a14b9561-876b-4f8d-8363-fc94b868876f"
+        },
+        {
+          "id": "a8b2473a-b814-424b-bb7c-edba3ac9230a",
+          "card": "18026b34-4f42-47f7-a76b-2e0932693895",
+          "suffix": "024",
+          "rarity": "common",
+          "imageID": "c2a9a10a-73ab-4efc-a1cb-85715d81d4e4"
+        },
+        {
+          "id": "3ebe76e1-5fc7-4188-9d55-441cbb8b6c08",
+          "card": "cd414938-4032-4616-9d0f-887f4376b789",
+          "suffix": "025",
+          "rarity": "common",
+          "imageID": "ce0b67cf-c626-4c34-bc7e-c1efbc8f0d37",
+          "qty": 2
+        },
+        {
+          "id": "3e97a89c-a9e7-4ee4-adbf-a122a91cdb39",
+          "card": "f2fdc396-fb8d-4899-80a1-1d7907648ab4",
+          "suffix": "026",
+          "rarity": "common"
+        },
+        {
+          "id": "52a64b6d-34d1-40a7-bc40-d882f938e253",
+          "card": "93dad907-3cc6-4f94-ac12-ad5be0c76bac",
+          "suffix": "027",
+          "rarity": "common",
+          "imageID": "8894c413-03f5-4460-a44d-ea9ce16de0c5"
+        },
+        {
+          "id": "1b2e079d-8b69-4fb0-9119-8685e8b52ae9",
+          "card": "9ecfc4ba-581a-476b-aee6-3f6689c2db5c",
+          "suffix": "028",
+          "rarity": "common",
+          "imageID": "de820a4b-d8a0-42b1-ae5f-cb768f56440f"
+        },
+        {
+          "id": "61063136-1a06-4b77-859f-e623c0561268",
+          "card": "641d1a75-a4c2-4a39-82a9-07091a21aa4c",
+          "suffix": "029",
+          "rarity": "common"
+        },
+        {
+          "id": "72dbf26c-942b-419d-8e10-703ecf5f31d4",
+          "card": "0bfcc499-7a45-452e-ad36-d2e2026ad580",
+          "suffix": "030",
+          "rarity": "common",
+          "imageID": "296b1a74-41ac-46bf-87af-b0b1820162ec"
+        },
+        {
+          "id": "f8dc75c8-9665-4aff-9a2b-e9e544288462",
+          "card": "9673d7c1-c452-4951-a054-50a1daa23c5d",
+          "suffix": "031",
+          "rarity": "common",
+          "imageID": "92dd9de0-3021-4e44-9187-95ed0c58119c"
+        },
+        {
+          "id": "d116fb34-29c6-4c65-bdbc-9175e54b31f8",
+          "card": "331f312d-fed2-471e-a7a3-53aecf5eaa8c",
+          "suffix": "032",
+          "rarity": "common",
+          "imageID": "96eaf673-f8d7-43f4-a6f1-e918a040a38c"
+        },
+        {
+          "id": "a10cb4f3-1da1-4a30-95c9-1b74aa45f3d3",
+          "card": "3f1d51cb-93a6-415b-ab67-1aee59e8fc31",
+          "suffix": "033",
+          "rarity": "common",
+          "imageID": "c8353c7b-8983-4f27-aa02-34964cd570d1"
+        },
+        {
+          "id": "60d0d97b-b48f-4d29-9ed2-ece60d35dc4b",
+          "card": "e57bdf12-8720-4b3a-bbc9-261b991e069c",
+          "suffix": "034",
+          "rarity": "common",
+          "imageID": "9f723f33-d15a-40bf-8f2d-e10d6aefe7a7"
+        },
+        {
+          "id": "3a784a18-5a0a-449b-b54f-f795caa8b34e",
+          "card": "e9dea58e-7d6d-4992-aaef-04a827a3dde6",
+          "suffix": "035",
+          "rarity": "common",
+          "imageID": "274263a5-a2a0-4d96-b4a6-154f22fdf3f7"
+        },
+        {
+          "id": "146bb8e0-dd69-431b-9cbb-80a34bb6ca7a",
+          "card": "6e463333-aa99-4176-a0d3-a0d8f2ca7764",
+          "suffix": "036",
+          "rarity": "common",
+          "imageID": "259b933c-024a-4405-a61c-d4ac6d122429"
+        },
+        {
+          "id": "79fcd63b-471f-4049-87b0-fb3313da515e",
+          "card": "996085eb-c90c-4efa-a8a6-48120fb25ef2",
+          "suffix": "037",
+          "rarity": "ultra",
+          "imageID": "69459dff-37f9-40a6-a9ca-7dfc567e36d8"
+        },
+        {
+          "id": "5ac27d7e-8c30-451a-89aa-d91085ab01b2",
+          "card": "9aeb6aec-4499-46f9-a709-f075d2ffc7bc",
+          "suffix": "038",
+          "rarity": "ultra",
+          "imageID": "15b9cb06-b553-42d6-b305-626fdd1e7978"
+        }
+      ],
+      "externalIDs": {
+        "ygoprodeck": "Structure Deck: Marik (TCG)"
+      }
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Structure Deck: Marik (TCG)",
+      "id": 136538
+    }
+  }
+}

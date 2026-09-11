@@ -1,0 +1,263 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "0864a556-9336-4c8d-9def-63915924b189",
+  "name": {
+    "en": "Duelist's Advance Premiere!",
+    "fr": "L'\u00c9volution du Duelliste Premiere!",
+    "de": "Duelist's Advance Premiere!",
+    "it": "Avanzamento del Duellante Premiere!",
+    "pt": "O Avan\u00e7o do Duelista Premiere!",
+    "es": "Avance del Duelista Premiere!"
+  },
+  "locales": {
+    "en": {
+      "language": "en",
+      "prefix": "DUAD-ENSP",
+      "image": "https://ms.yugipedia.com//c/c0/DUAD-LogoEN.png",
+      "cardImages": {
+        "limited": {
+          "9ab7fde5-cb43-4e53-9d61-cde8ff3c0fff": "https://ms.yugipedia.com//0/0c/MediusthePure-DUAD-EN-ScR-LE.png"
+        }
+      },
+      "cardInfo": {
+        "limited": {
+          "9ab7fde5-cb43-4e53-9d61-cde8ff3c0fff": {
+            "image": "https://ms.yugipedia.com//0/0c/MediusthePure-DUAD-EN-ScR-LE.png"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          2000001498000
+        ]
+      }
+    },
+    "fr": {
+      "language": "fr",
+      "prefix": "DUAD-FRSP",
+      "date": "2025-06-27",
+      "cardImages": {
+        "limited": {}
+      },
+      "cardInfo": {
+        "limited": {}
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "externalIDs": {}
+    },
+    "de": {
+      "language": "de",
+      "prefix": "DUAD-DESP",
+      "date": "2025-06-27",
+      "image": "https://ms.yugipedia.com//c/c0/DUAD-LogoEN.png",
+      "cardImages": {
+        "limited": {}
+      },
+      "cardInfo": {
+        "limited": {}
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "externalIDs": {}
+    },
+    "it": {
+      "language": "it",
+      "prefix": "DUAD-ITSP",
+      "date": "2025-06-27",
+      "cardImages": {
+        "limited": {}
+      },
+      "cardInfo": {
+        "limited": {}
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "externalIDs": {}
+    },
+    "pt": {
+      "language": "pt",
+      "prefix": "DUAD-PTSP",
+      "date": "2025-06-27",
+      "cardImages": {
+        "limited": {}
+      },
+      "cardInfo": {
+        "limited": {}
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "externalIDs": {}
+    },
+    "sp": {
+      "language": "es",
+      "prefix": "DUAD-SPSP",
+      "date": "2025-06-27",
+      "cardImages": {
+        "limited": {}
+      },
+      "cardInfo": {
+        "limited": {}
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "externalIDs": {}
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "en"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "image": "https://ms.yugipedia.com//c/c0/DUAD-LogoEN.png",
+      "cards": [
+        {
+          "id": "9ab7fde5-cb43-4e53-9d61-cde8ff3c0fff",
+          "card": "eab751f9-c908-4492-87a5-6f7ff5ecfcba",
+          "suffix": "1",
+          "rarity": "secret"
+        }
+      ],
+      "externalIDs": {}
+    },
+    {
+      "locales": [
+        "fr"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "cards": [
+        {
+          "id": "9ab7fde5-cb43-4e53-9d61-cde8ff3c0fff",
+          "card": "eab751f9-c908-4492-87a5-6f7ff5ecfcba",
+          "suffix": "1",
+          "rarity": "secret"
+        }
+      ],
+      "externalIDs": {}
+    },
+    {
+      "locales": [
+        "de"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "image": "https://ms.yugipedia.com//c/c0/DUAD-LogoEN.png",
+      "cards": [
+        {
+          "id": "9ab7fde5-cb43-4e53-9d61-cde8ff3c0fff",
+          "card": "eab751f9-c908-4492-87a5-6f7ff5ecfcba",
+          "suffix": "1",
+          "rarity": "secret"
+        }
+      ],
+      "externalIDs": {}
+    },
+    {
+      "locales": [
+        "it"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "cards": [
+        {
+          "id": "9ab7fde5-cb43-4e53-9d61-cde8ff3c0fff",
+          "card": "eab751f9-c908-4492-87a5-6f7ff5ecfcba",
+          "suffix": "1",
+          "rarity": "secret"
+        }
+      ],
+      "externalIDs": {}
+    },
+    {
+      "locales": [
+        "pt"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "cards": [
+        {
+          "id": "9ab7fde5-cb43-4e53-9d61-cde8ff3c0fff",
+          "card": "eab751f9-c908-4492-87a5-6f7ff5ecfcba",
+          "suffix": "1",
+          "rarity": "secret"
+        }
+      ],
+      "externalIDs": {}
+    },
+    {
+      "locales": [
+        "sp"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "cards": [
+        {
+          "id": "9ab7fde5-cb43-4e53-9d61-cde8ff3c0fff",
+          "card": "eab751f9-c908-4492-87a5-6f7ff5ecfcba",
+          "suffix": "1",
+          "rarity": "secret"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Duelist's Advance Premiere! promotional card",
+      "id": 1130920
+    }
+  }
+}

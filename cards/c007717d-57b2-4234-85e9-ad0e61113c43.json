@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "c007717d-57b2-4234-85e9-ad0e61113c43",
+  "text": {
+    "en": {
+      "name": "Hungry Shake",
+      "effect": "Send the top 3 cards of your Deck to the Graveyard. Then, you can add 1 \"Hungry Coupon\" from your Graveyard to your hand.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30cf\u30f3\u30b0\u30ea\u30fc\u30b7\u30a7\u30a4\u30af",
+      "effect": "\u81ea\u5206\u306e\u30c7\u30c3\u30ad\u306e\u4e0a\u304b\u3089\u30ab\u30fc\u30c9\uff13\u679a\u3092\u5893\u5730\u3078\u9001\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u30cf\u30f3\u30b0\u30ea\u30fc\u30af\u30fc\u30dd\u30f3\u300d\uff11\u679a\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud5dd\uadf8\ub9ac \uc170\uc774\ud06c",
+      "effect": "\uc790\uc2e0\uc758 \ub371 \uc704\uc5d0\uc11c \uce74\ub4dc 3\uc7a5\uc744 \ubb18\uc9c0\ub85c \ubcf4\ub0b8\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0 \ubb18\uc9c0\uc758 \"\ud5dd\uadf8\ub9ac \ucfe0\ud3f0\" 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\uc744 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 1200,
+  "def": 900,
+  "passwords": [],
+  "images": [
+    {
+      "id": "e6edbb02-c987-4d5b-8663-f8953a78e5e9",
+      "card": "https://ms.yugipedia.com//3/30/HungryShake-RDKP22-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Hungry Shake",
+        "id": 1136554
+      }
+    ],
+    "dbID": 21994
+  },
+  "series": [
+    "e2d2c5fa-6cb7-405e-84d8-889b5da6d817"
+  ]
+}

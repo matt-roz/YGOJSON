@@ -1,0 +1,42 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "ac660995-1957-42d1-bea4-11ab6658864f",
+  "text": {
+    "en": {
+      "name": "Griffore (Rush Duel)",
+      "effect": "This monster's tough hide deflects almost any attack."
+    },
+    "ko": {
+      "name": "\uadf8\ub9ac\ud3f4",
+      "effect": "\ub531\ub531\ud55c \ubab8\uc73c\ub85c \uc218\ube44\ud558\ub294 \uac83\uc774 \ud2b9\uae30. \uc5b4\uc124\ud508 \uacf5\uaca9\uc740 \ub418\ubc1b\uc544\uce5c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "beast",
+  "classifications": [
+    "normal"
+  ],
+  "level": 4,
+  "atk": 1200,
+  "def": 1500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "03cd453d-4d49-4570-a110-34830f46e744",
+      "card": "https://ms.yugipedia.com//4/42/Griffore-RDKP09-JP-R.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Griffore (Rush Duel)",
+        "id": 715199
+      }
+    ],
+    "dbID": 17498
+  },
+  "series": []
+}

@@ -1,0 +1,139 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "a4fd82b9-a039-4135-aea9-156e6937e169",
+  "name": {
+    "en": "Coco's x Yu-Gi-Oh! Card Game Anniversary Campaign 2024 Part 2",
+    "ja": "\uff23\uff2f\uff23\uff2f\uff07\uff33\u00d7\u904a\u622f\u738b\u30ab\u30fc\u30c9\u30b2\u30fc\u30e0 \u30a2\u30cb\u30d0\u30fc\u30b5\u30ea\u30fc\u30ad\u30e3\u30f3\u30da\u30fc\u30f3\uff12\uff10\uff12\uff14 \u7b2c\uff12\u5f3e"
+  },
+  "locales": {
+    "jp": {
+      "language": "ja",
+      "date": "2024-12-03",
+      "image": "https://ms.yugipedia.com//9/93/CCC2-PromoJP.png",
+      "cardImages": {
+        "unlimited": {
+          "4b49ab59-e724-4749-a1d7-9f7936b185fb": "https://ms.yugipedia.com//7/78/DecodeTalker-CCC2-JP-NPR.png",
+          "bb0c4fb7-7229-4574-b363-d1f820cfcf9a": "https://ms.yugipedia.com//8/81/SteamKnightBULLauncher-CCC2-JP-NPR.png",
+          "c2a4040f-ce91-4f1f-b80b-530dc74c9d0f": "https://ms.yugipedia.com//8/81/OddEyesRebellionDragon-CCC2-JP-NPR.png",
+          "e491157f-d2c4-49e9-abdc-1159588df884": "https://ms.yugipedia.com//6/60/NumberF0UtopicFuture-CCC2-JP-NPR.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "4b49ab59-e724-4749-a1d7-9f7936b185fb": {
+            "image": "https://ms.yugipedia.com//7/78/DecodeTalker-CCC2-JP-NPR.png"
+          },
+          "bb0c4fb7-7229-4574-b363-d1f820cfcf9a": {
+            "image": "https://ms.yugipedia.com//8/81/SteamKnightBULLauncher-CCC2-JP-NPR.png"
+          },
+          "c2a4040f-ce91-4f1f-b80b-530dc74c9d0f": {
+            "image": "https://ms.yugipedia.com//8/81/OddEyesRebellionDragon-CCC2-JP-NPR.png"
+          },
+          "e491157f-d2c4-49e9-abdc-1159588df884": {
+            "image": "https://ms.yugipedia.com//6/60/NumberF0UtopicFuture-CCC2-JP-NPR.png"
+          }
+        }
+      },
+      "formats": [
+        "rushduel"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          1000009312000,
+          1000100496000
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "rushduel"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//9/93/CCC2-PromoJP.png",
+      "cards": [
+        {
+          "id": "bb0c4fb7-7229-4574-b363-d1f820cfcf9a",
+          "card": "ee989f83-e70b-484c-80b3-52b17cca7788",
+          "suffix": "CCC2-JPS02",
+          "rarity": "commonparallel",
+          "printStatus": "new"
+        },
+        {
+          "id": "e491157f-d2c4-49e9-abdc-1159588df884",
+          "card": "f2103209-9232-4af9-9b1f-26b3f15a8d97",
+          "suffix": "CCC2-JP004",
+          "rarity": "commonparallel",
+          "imageID": "b3bd7620-e3c5-41a1-8328-c6feaeb4fc86",
+          "printStatus": "reprint",
+          "printNote": "New artwork"
+        },
+        {
+          "id": "c2a4040f-ce91-4f1f-b80b-530dc74c9d0f",
+          "card": "b268f13f-6b45-4da0-a35a-d6e19602b49c",
+          "suffix": "CCC2-JP005",
+          "rarity": "commonparallel",
+          "imageID": "affe96f0-8bf8-4388-b7ce-1ba988fcacce",
+          "printStatus": "reprint",
+          "printNote": "New artwork"
+        },
+        {
+          "id": "4b49ab59-e724-4749-a1d7-9f7936b185fb",
+          "card": "9a54a9b2-176f-4c12-9941-1b0dfd28ebad",
+          "suffix": "CCC2-JP006",
+          "rarity": "commonparallel",
+          "printStatus": "reprint",
+          "printNote": "New artwork"
+        },
+        {
+          "id": "5796ba71-d61d-427e-83ac-cea06a919c23",
+          "card": "13defbef-5a56-49e5-943c-e308f31dbde0",
+          "suffix": "RD/CCC2-JPS02",
+          "rarity": "commonparallel",
+          "imageID": "3f0b768d-bdba-42e7-b8c1-8f1373cca2f6",
+          "printStatus": "new"
+        },
+        {
+          "id": "744562a8-b677-4a4e-bd5f-e182dd6122d6",
+          "card": "a9b0cb99-508c-4782-ac91-1a857632f02b",
+          "suffix": "RD/CCC2-JP004",
+          "rarity": "commonparallel",
+          "printStatus": "reprint",
+          "printNote": "New artwork"
+        },
+        {
+          "id": "ea5e9f8b-4086-475a-8a79-db8900eaf3e7",
+          "card": "1c26c900-1702-43e3-a65b-f11299a874b3",
+          "suffix": "RD/CCC2-JP005",
+          "rarity": "commonparallel",
+          "printStatus": "reprint",
+          "printNote": "New artwork"
+        },
+        {
+          "id": "c937cafd-ae16-4516-9e8d-3b85a69d70a0",
+          "card": "bb9f8053-6bb0-4511-979f-bb70218ad119",
+          "suffix": "RD/CCC2-JP006",
+          "rarity": "commonparallel",
+          "printStatus": "reprint",
+          "printNote": "New artwork"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Coco's x Yu-Gi-Oh! Card Game Anniversary Campaign 2024 Part 2",
+      "id": 1092652
+    }
+  }
+}

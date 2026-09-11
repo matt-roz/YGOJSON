@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "6dbdeb89-9ee4-4099-8e3e-d5ff83ba1585",
+  "text": {
+    "en": {
+      "name": "Eria the Water Spiritualist",
+      "effect": "Place 1 monster from your opponent's Graveyard on the top of the Deck. Then, your opponent cannot Normal or Special Summon monsters with the same original name as that monster face-up until the end of your opponent's next turn. This turn, you cannot activate the effect of \"Eria the Water Spiritualist\".",
+      "official": false
+    },
+    "ja": {
+      "name": "\u6c34\u970a\u8853\u5e2b\u30a8\u30ea\u30a2",
+      "effect": "\u76f8\u624b\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u3092\u9078\u3093\u3067\u30c7\u30c3\u30ad\u306e\u4e0a\u306b\u623b\u3059\u3002\u3055\u3089\u306b\u6b21\u306e\u76f8\u624b\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\u3001\u76f8\u624b\u306f\u9078\u3093\u3060\u30e2\u30f3\u30b9\u30bf\u30fc\u3068\u5143\u3005\u306e\u30ab\u30fc\u30c9\u540d\u304c\u540c\u3058\u30e2\u30f3\u30b9\u30bf\u30fc\u3092\u8868\u5074\u8868\u793a\u3067\u53ec\u559a\u30fb\u7279\u6b8a\u53ec\u559a\u3067\u304d\u306a\u3044\u3002\u3053\u306e\u30bf\u30fc\u30f3\u3001\u81ea\u5206\u306f\u300c\u6c34\u970a\u8853\u5e2b\u30a8\u30ea\u30a2\u300d\u306e\u52b9\u679c\u3092\u767a\u52d5\u3067\u304d\u306a\u3044\u3002"
+    },
+    "ko": {
+      "name": "\uc218\ub839\uc220\uc0ac \uc5d0\ub9ac\uc544",
+      "effect": "\uc0c1\ub300 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130 1\uc7a5\uc744 \uace0\ub974\uace0 \ub371 \uc704\ub85c \ub418\ub3cc\ub9b0\ub2e4. \ucd94\uac00\ub85c \ub2e4\uc74c \uc0c1\ub300 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0, \uc0c1\ub300\ub294 \uace0\ub978 \ubaac\uc2a4\ud130\uc640 \uc6d0\ub798\uc758 \uce74\ub4dc\uba85\uc774 \uac19\uc740 \ubaac\uc2a4\ud130\ub97c \uc55e\uba74 \ud45c\uc2dc\ub85c \uc77c\ubc18 \uc18c\ud658 / \ud2b9\uc218 \uc18c\ud658\ud560 \uc218 \uc5c6\ub2e4. \uc774 \ud134\uc5d0, \uc790\uc2e0\uc740 \"\uc218\ub839\uc220\uc0ac \uc5d0\ub9ac\uc544\"\uc758 \ud6a8\uacfc\ub97c \ubc1c\ub3d9\ud560 \uc218 \uc5c6\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "type": "spellcaster",
+  "classifications": [
+    "effect"
+  ],
+  "level": 5,
+  "atk": 1900,
+  "def": 1500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "96ce4300-62b4-40fa-97db-b6b860b8b499",
+      "card": "https://ms.yugipedia.com//e/eb/EriatheWaterSpiritualist-RDORP4-JP-UR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Eria the Water Spiritualist",
+        "id": 1176305
+      }
+    ],
+    "dbID": 23043
+  },
+  "series": [
+    "788d3d66-cdd1-44f3-b4e8-93528c9b134e"
+  ]
+}

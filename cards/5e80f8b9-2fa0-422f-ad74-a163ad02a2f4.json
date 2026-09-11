@@ -1,0 +1,47 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "5e80f8b9-2fa0-422f-ad74-a163ad02a2f4",
+  "text": {
+    "en": {
+      "name": "Battle Demotion",
+      "effect": "Change 1 Attack Position monster on your opponent's field to face-up Defense Position.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30d0\u30c8\u30eb\u5de6\u9077",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u653b\u6483\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u3092\u9078\u3093\u3067\u8868\u5074\u5b88\u5099\u8868\u793a\u306b\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ubc30\ud2c0 \uc88c\ucc9c",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \uacf5\uaca9 \ud45c\uc2dc \ubaac\uc2a4\ud130 1\uc7a5\uc744 \uace0\ub974\uace0 \uc55e\uba74 \uc218\ube44 \ud45c\uc2dc\ub85c \ud55c\ub2e4."
+    }
+  },
+  "cardType": "trap",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "d1f37888-8c3a-47ee-8572-441082527729",
+      "card": "https://ms.yugipedia.com//b/b6/BattleDemotion-RDSD02-JP-C.png"
+    }
+  ],
+  "sets": [
+    "31432588-1ddf-4225-8c5e-7dfc48faac1e",
+    "31432588-1ddf-4225-8c5e-7dfc48faac1e",
+    "a5dd7265-59c0-48dc-b924-5def08b05a08",
+    "a5dd7265-59c0-48dc-b924-5def08b05a08"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Battle Demotion",
+        "id": 713500
+      }
+    ],
+    "dbID": 16719
+  },
+  "series": [
+    "20ff6f42-dacc-4386-9945-3b0110386c78"
+  ]
+}

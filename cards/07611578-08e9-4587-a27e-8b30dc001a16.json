@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "07611578-08e9-4587-a27e-8b30dc001a16",
+  "text": {
+    "en": {
+      "name": "Phantom Float",
+      "effect": "Make 1 face-up monster on your opponent's field lose ATK equal to [the number of Trap Cards in your Graveyard] x 500 until the end of this turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30d5\u30a1\u30f3\u30c8\u30e0\u30d5\u30ed\u30fc\u30c8",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u3092\u9078\u3073\u3001\u305d\u306e\u653b\u6483\u529b\u3092\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\u3001\uff3b\u81ea\u5206\u306e\u5893\u5730\u306e\u7f60\u30ab\u30fc\u30c9\u306e\u6570\uff3d\u00d7\uff15\uff10\uff10\u30c0\u30a6\u30f3\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud32c\ud140\ud50c\ub85c\ud2b8",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130 1\uc7a5\uc744 \uace0\ub974\uace0, \uadf8 \uacf5\uaca9\ub825\uc744 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0, [\uc790\uc2e0 \ubb18\uc9c0\uc758 \ud568\uc815 \uce74\ub4dc\uc758 \uc218] \u00d7 500 \ub0b4\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "wind",
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 800,
+  "def": 1200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "8c80fc28-6edf-44a1-a4e0-a9f25b8eee84",
+      "card": "https://ms.yugipedia.com//f/f8/PhantomFloat-RDKP22-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Phantom Float",
+        "id": 1135746
+      }
+    ],
+    "dbID": 21990
+  },
+  "series": [
+    "46f86d76-02e4-4a41-b731-96af4f504c77"
+  ]
+}

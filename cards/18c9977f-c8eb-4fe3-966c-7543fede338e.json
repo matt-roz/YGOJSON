@@ -1,0 +1,47 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "18c9977f-c8eb-4fe3-966c-7543fede338e",
+  "text": {
+    "en": {
+      "name": "Mulliness Power Beetle",
+      "effect": "Special Summon up to 2 Insect Type monsters with 400 DEF and a Continuous Effect from your Graveyard to your field in face-up Defense Position.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30df\u30e5\u30ea\u30cd\u30b9\u30fb\u30d1\u30ef\u30fc\u30fb\u30d3\u30fc\u30c8\u30eb",
+      "effect": "\u6c38\u7d9a\u52b9\u679c\u3092\u6301\u3064\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u6606\u866b\u65cf\uff0f\u5b88\u5099\u529b\uff14\uff10\uff10\uff09\u3092\uff12\u4f53\u307e\u3067\u9078\u3073\u3001\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u5b88\u5099\u8868\u793a\u3067\u7279\u6b8a\u53ec\u559a\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ubba4\ub9ac\ub124\uc2a4 \ud30c\uc6cc \ube44\ud2c0",
+      "effect": "\uc9c0\uc18d \ud6a8\uacfc\ub97c \uac00\uc9c0\ub294 \uc790\uc2e0 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130(\uace4\ucda9\uc871 / \uc218\ube44\ub825 400)\ub97c 2\uc7a5\uae4c\uc9c0 \uace0\ub974\uace0, \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \uc218\ube44 \ud45c\uc2dc\ub85c \ud2b9\uc218 \uc18c\ud658\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "insect",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1100,
+  "def": 400,
+  "passwords": [],
+  "images": [
+    {
+      "id": "5db84e52-f0e6-4c21-b132-9933a0781bfd",
+      "card": "https://ms.yugipedia.com//e/ef/MullinessPowerBeetle-RDKP20-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Mulliness Power Beetle",
+        "id": 1107591
+      }
+    ],
+    "dbID": 21289
+  },
+  "series": []
+}

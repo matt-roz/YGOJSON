@@ -1,0 +1,46 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "86b659ea-4e4d-4053-94a4-114e5945a652",
+  "text": {
+    "en": {
+      "name": "Spell Card \"Enemy Controller\"",
+      "effect": "Pay 1000 LP, then target 1 face-up monster your opponent controls; apply 1 of these effects.\n\u25cf Destroy it.\n\u25cf Immediately after this effect resolves, Tribute Summon 1 monster by Tributing monsters including the targeted opponent's monster, even though you do not control it.\nDuring your Main Phase: You can banish this card from your GY; add 1 \"Spell Card \"Enemy Controller\"\" from your Deck to your hand. You can only use 1 \"Spell Card \"Enemy Controller\"\" effect per turn, and only once that turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30de\u30b8\u30c3\u30af\u30ab\u30fc\u30c9\u300c\u30a8\u30cd\u30df\u30fc\u30b3\u30f3\u30c8\u30ed\u30fc\u30e9\u30fc\u300d"
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "quickplay",
+  "passwords": [],
+  "images": [
+    {
+      "id": "b19764f5-8084-40fb-96a8-9152101bcbf3",
+      "card": "https://ms.yugipedia.com//f/fa/SpellCardEnemyController-YAC1-JP-OP.png"
+    },
+    {
+      "id": "06bfc8ae-5119-4bc3-9579-462179d83311",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/100459024.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/100459024.jpg"
+    }
+  ],
+  "sets": [
+    "9aefc662-0b55-44d0-85b1-7c92cfe8a78b",
+    "9aefc662-0b55-44d0-85b1-7c92cfe8a78b"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Spell Card \"Enemy Controller\"",
+        "id": 1222619
+      }
+    ],
+    "ygoprodeck": {
+      "id": 100459024,
+      "name": "spell-card-enemy-controller-15925"
+    }
+  },
+  "series": []
+}

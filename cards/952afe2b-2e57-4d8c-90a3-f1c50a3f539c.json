@@ -1,0 +1,55 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "952afe2b-2e57-4d8c-90a3-f1c50a3f539c",
+  "text": {
+    "en": {
+      "name": "The King of Beasts that Rises from the Valley of Flames",
+      "effect": "3 FIRE Effect Monsters\n(This card is always treated as \"Salamangreat Heatleo\".)\nFace-up monsters on the field become FIRE. During the Main Phase, if this card was Link Summoned using \"Salamangreat Heatleo\" (Quick Effect): You can target 1 card your opponent controls; shuffle it into the Deck, then you can make the ATK of 1 FIRE monster your opponent controls become the ATK of 1 monster in your GY. You can only use this effect of \"The King of Beasts that Rises from the Valley of Flames\" once per turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u708e\u306e\u5e73\u539f\u3092\u99c6\u3051\u629c\u3051\u308b\u767e\u7363\u306e\u738b"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "monsterCardTypes": [
+    "link"
+  ],
+  "type": "cyberse",
+  "classifications": [
+    "effect"
+  ],
+  "atk": 2300,
+  "linkArrows": [
+    "bottomleft",
+    "bottomright",
+    "topcenter"
+  ],
+  "passwords": [],
+  "images": [
+    {
+      "id": "5567e815-09d4-4a1a-afa0-79fcc4e3ce44",
+      "card": "https://ms.yugipedia.com//7/73/TheKingofBeaststhatRisesfromtheValleyofFlames-IMPH-JP-OP.png"
+    },
+    {
+      "id": "80f33665-e638-4ac2-bd3a-ba24b5147af4",
+      "card": "https://ms.yugipedia.com//0/08/TheKingofBeaststhatRisesfromtheValleyofFlames-IMPH-JP-OP-EA.png"
+    }
+  ],
+  "sets": [
+    "ccc8125c-0182-45df-91a7-57e5e2423dfc",
+    "ccc8125c-0182-45df-91a7-57e5e2423dfc",
+    "ccc8125c-0182-45df-91a7-57e5e2423dfc"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "The King of Beasts that Rises from the Valley of Flames",
+        "id": 1223808
+      }
+    ]
+  },
+  "series": []
+}

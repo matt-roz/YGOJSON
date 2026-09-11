@@ -1,0 +1,55 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "5bf8cdc3-4beb-496d-b5b9-17c06d7b9e01",
+  "text": {
+    "en": {
+      "name": "Pakupakuchu",
+      "effect": "Add 1 Beast Type Normal Monster from your Graveyard to your hand."
+    },
+    "ja": {
+      "name": "\u30d1\u30af\u30c1\u30e5",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u901a\u5e38\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u7363\u65cf\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud30c\ucfe0\uce04",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \uc77c\ubc18 \ubaac\uc2a4\ud130(\uc57c\uc218\uc871) 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\ub294\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "beast",
+  "classifications": [
+    "effect"
+  ],
+  "level": 1,
+  "atk": 100,
+  "def": 100,
+  "passwords": [],
+  "images": [
+    {
+      "id": "97697592-cfd4-406e-8e82-23893590d6c1",
+      "card": "https://ms.yugipedia.com//0/05/Pakupakuchu-RDORP3-JP-C.png"
+    }
+  ],
+  "sets": [
+    "e1cd0077-0760-46c2-8cff-9fd1ac443780",
+    "73606f93-01a6-44c8-b212-d726baceb4b2",
+    "b0f28e3d-b93f-42f7-9518-5a27b9304349",
+    "a3a484b7-43f4-4cde-aa3c-fc8bd9d7f99a",
+    "9fedf2d0-5ae8-4861-b6f6-654c2d8aefeb"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "r"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Pakupakuchu",
+        "id": 716148
+      }
+    ],
+    "dbID": 17510
+  },
+  "series": []
+}

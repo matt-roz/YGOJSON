@@ -1,0 +1,50 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "ee36bc0a-3495-49be-9b54-09c3df3f6379",
+  "text": {
+    "en": {
+      "name": "Excutie Riding!",
+      "effect": "Special Summon 1 monster with ATK less than or equal to that monster from your Graveyard to your field in face-up Attack Position. Then, you can make up to 2 face-up monsters on your opponent's field lose 1800 ATK until the end of this turn."
+    },
+    "ja": {
+      "name": "\u30a8\u30af\u30b9\u30ad\u30e5\u30fc\u30c6\u30a3\u30fc\u30fb\u30e9\u30a4\u30c7\u30a3\u30f3\u30b0\uff01",
+      "effect": "\u305d\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u653b\u6483\u529b\u4ee5\u4e0b\u306e\u653b\u6483\u529b\u3092\u6301\u3064\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u3092\u9078\u3073\u3001\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u653b\u6483\u8868\u793a\u3067\u7279\u6b8a\u53ec\u559a\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\u3092\uff12\u4f53\u307e\u3067\u9078\u3093\u3067\u305d\u306e\u653b\u6483\u529b\u3092\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\uff11\uff18\uff10\uff10\u30c0\u30a6\u30f3\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc5d1\uc2a4\ud050\ud2f0 \ub77c\uc774\ub529!",
+      "effect": "\uadf8 \ubaac\uc2a4\ud130\uc758 \uacf5\uaca9\ub825 \uc774\ud558\uc758 \uacf5\uaca9\ub825\uc744 \uac00\uc9c0\ub294 \uc790\uc2e0 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130 1\uc7a5\uc744 \uace0\ub974\uace0, \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \uacf5\uaca9 \ud45c\uc2dc\ub85c \ud2b9\uc218 \uc18c\ud658\ud55c\ub2e4. \uadf8 \ud6c4, \uc0c1\ub300 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130\ub97c 2\uc7a5\uae4c\uc9c0 \uace0\ub974\uace0 \uadf8 \uacf5\uaca9\ub825\uc744 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0 1800 \ub0b4\ub9b4 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "trap",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "308c84cb-831c-4043-b830-8d4c57e792d1",
+      "card": "https://ms.yugipedia.com//3/3e/ExcutieRiding-RDKP14-JP-UR.png"
+    },
+    {
+      "id": "c7d8fb14-8154-4b58-9adf-5885362ece48",
+      "card": "https://ms.yugipedia.com//6/65/ExcutieRiding-RD5TH1-JP-UPR.png"
+    }
+  ],
+  "sets": [
+    "c0287cbc-dc56-47ae-9e89-0af80eb1b3d9"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Excutie Riding!",
+        "id": 978511
+      }
+    ],
+    "dbID": 19341
+  },
+  "series": [
+    "dae99f8b-02f7-4a16-9e85-778749af5c40"
+  ]
+}

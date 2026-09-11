@@ -1,0 +1,69 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "49a73ae7-71d0-4939-ba6c-66689a3f3fcf",
+  "text": {
+    "en": {
+      "name": "Shining Shaman",
+      "effect": "1 face-up Level 4 or lower Spellcaster Type monster on your field can attack directly this turn."
+    },
+    "fr": {
+      "name": "Shaman Lumineux",
+      "effect": "1 monstre de Type Magicien de max. Niveau 4 face recto sur votre Terrain peut attaquer directement \u00e0 ce tour."
+    },
+    "de": {
+      "name": "Gl\u00e4nzender Schamane",
+      "effect": "1 offenes Monster des Typs Hexer der Stufe 4 oder niedriger von deiner Spielfeldseite kann in diesem Spielzug direkt angreifen."
+    },
+    "it": {
+      "name": "Sciamano Brillante",
+      "effect": "1 mostro scoperto di Tipo Incantatore di Livello 4 o inferiore sul tuo Terreno pu\u00f2 attaccare direttamente in questo turno."
+    },
+    "es": {
+      "name": "Cham\u00e1n Brillante",
+      "effect": "1 monstruo boca arriba de Nivel 4 o menor de Tipo Lanzador de Conjuros en tu Campo puede atacar directamente este turno."
+    },
+    "ja": {
+      "name": "\u30eb\u30df\u30ca\u30b9\u30fb\u30b7\u30e3\u30fc\u30de\u30f3",
+      "effect": "\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff14\u4ee5\u4e0b\uff0f\u9b54\u6cd5\u4f7f\u3044\u65cf\uff09\uff11\u4f53\u3092\u9078\u3076\u3002\u3053\u306e\u30bf\u30fc\u30f3\u3001\u305d\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u306f\u76f4\u63a5\u653b\u6483\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub8e8\ubbf8\ub098\uc2a4 \uc0e4\uba3c",
+      "effect": "\uc790\uc2e0 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\ub808\ubca8 4 \uc774\ud558 / \ub9c8\ubc95\uc0ac\uc871) 1\uc7a5\uc744 \uace0\ub978\ub2e4. \uc774 \ud134\uc5d0, \uadf8 \ubaac\uc2a4\ud130\ub294 \uc9c1\uc811 \uacf5\uaca9\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "spellcaster",
+  "classifications": [
+    "effect"
+  ],
+  "level": 2,
+  "atk": 500,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "a3c8a613-1502-4c7f-bb79-da18abf2e56b",
+      "card": "https://ms.yugipedia.com//b/b9/ShiningShaman-RD5TH1-JP-SR.png"
+    }
+  ],
+  "sets": [
+    "73606f93-01a6-44c8-b212-d726baceb4b2",
+    "b65739b6-1f86-4fbd-8a47-2bfa5b511c44",
+    "b65739b6-1f86-4fbd-8a47-2bfa5b511c44"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Shining Shaman",
+        "id": 716685
+      }
+    ],
+    "dbID": 15158
+  },
+  "series": []
+}

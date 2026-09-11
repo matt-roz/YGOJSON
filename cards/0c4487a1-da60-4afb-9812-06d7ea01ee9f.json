@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "0c4487a1-da60-4afb-9812-06d7ea01ee9f",
+  "text": {
+    "en": {
+      "name": "Summoning Sorcerer Doretheo",
+      "effect": "Send the top 2 cards of your Deck to the Graveyard. Then, you can inflict damage to your opponent equal to [the number of Spellcaster Type monsters sent to the Graveyard by this effect] x 300."
+    },
+    "ja": {
+      "name": "\u9855\u73fe\u8853\u5e2b\u30c9\u30eb\u30c6\u30aa",
+      "effect": "\u81ea\u5206\u306e\u30c7\u30c3\u30ad\u306e\u4e0a\u304b\u3089\u30ab\u30fc\u30c9\uff12\u679a\u3092\u5893\u5730\u3078\u9001\u308b\u3002\u305d\u306e\u5f8c\u3001\uff3b\u3053\u306e\u52b9\u679c\u3067\u5893\u5730\u3078\u9001\u3089\u308c\u305f\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u9b54\u6cd5\u4f7f\u3044\u65cf\uff09\u306e\u6570\uff3d\u00d7\uff13\uff10\uff10\u30c0\u30e1\u30fc\u30b8\u3092\u76f8\u624b\u306b\u4e0e\u3048\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud604\ud604\uc220\uc0ac \ub3c4\ub974\ud14c\uc624",
+      "effect": "\uc790\uc2e0\uc758 \ub371 \uc704\uc5d0\uc11c \uce74\ub4dc 2\uc7a5\uc744 \ubb18\uc9c0\ub85c \ubcf4\ub0b8\ub2e4. \uadf8 \ud6c4, [\uc774 \ud6a8\uacfc\ub85c \ubb18\uc9c0\ub85c \ubcf4\ub0b4\uc9c4 \ubaac\uc2a4\ud130(\ub9c8\ubc95\uc0ac\uc871)\uc758 \uc218] \u00d7 300 \ub370\ubbf8\uc9c0\ub97c \uc0c1\ub300\uc5d0\uac8c \uc904 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "spellcaster",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 2500,
+  "def": 1600,
+  "passwords": [],
+  "images": [
+    {
+      "id": "db17e2c7-2b95-4eb4-9388-2349ffb30e1a",
+      "card": "https://ms.yugipedia.com//0/02/SummoningSorcererDoretheo-RDKP13-JP-C.png"
+    }
+  ],
+  "sets": [
+    "3fe0b98a-9822-4fdc-8329-1fdd2fa31e6d"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Summoning Sorcerer Doretheo",
+        "id": 930090
+      }
+    ],
+    "dbID": 18961
+  },
+  "series": []
+}

@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "aced2379-ab83-40dd-af1d-07d5576b2968",
+  "text": {
+    "en": {
+      "name": "Five-Headed Dragon (Rush Duel)",
+      "effect": "This card cannot be destroyed by battle with DARK, EARTH, WATER, FIRE, or WIND Attribute monsters."
+    },
+    "ko": {
+      "name": "F\u00b7G\u00b7D",
+      "effect": "\uc774 \uce74\ub4dc\ub294 \ubaac\uc2a4\ud130(\uc5b4\ub460 \uc18d\uc131\u30fb\ub545 \uc18d\uc131\u30fb\ubb3c \uc18d\uc131\u30fb\ud654\uc5fc \uc18d\uc131\u30fb\ubc14\ub78c \uc18d\uc131)\uc640\uc758 \uc804\ud22c\ub85c\ub294 \ud30c\uad34\ub418\uc9c0 \uc54a\ub294\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "dragon",
+  "classifications": [
+    "effect"
+  ],
+  "level": 12,
+  "atk": 5000,
+  "def": 5000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "0de08cb2-df53-47dc-aef1-2e5e0a2aca24",
+      "card": "https://ms.yugipedia.com//6/67/FiveHeadedDragon-RD5TH1-JP-SPR.png"
+    },
+    {
+      "id": "883c5971-31e2-4c18-97a9-dd9fc1eb0463",
+      "card": "https://ms.yugipedia.com//a/a6/FiveHeadedDragon-RDKP17-JP-ORR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Five-Headed Dragon (Rush Duel)",
+        "id": 714963
+      }
+    ],
+    "dbID": 18681
+  },
+  "series": []
+}

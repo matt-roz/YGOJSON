@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "ec88f5be-8a73-4325-843f-4f8983bca48d",
+  "text": {
+    "en": {
+      "name": "Praime Bandijo",
+      "effect": "Add 1 Level 4 or lower LIGHT Attribute Normal Monster or 1 \"Praime Call\" from your Graveyard to your hand, and this card gains 500 ATK until the end of this turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30d7\u30e9\u30a4\u30e0\u30fb\u30d0\u30f3\u30c7\u30a3\u30fc\u30b8\u30e7",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u901a\u5e38\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff14\u4ee5\u4e0b\uff0f\u5149\u5c5e\u6027\uff09\uff11\u4f53\u307e\u305f\u306f\u300c\u30d7\u30e9\u30a4\u30e0\u30fb\u30b3\u30fc\u30eb\u300d\uff11\u679a\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u3001\u3053\u306e\u30ab\u30fc\u30c9\u306e\u653b\u6483\u529b\u306f\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\uff15\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud504\ub77c\uc784 \ubc34\ub514\uc8e0",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \uc77c\ubc18 \ubaac\uc2a4\ud130(\ub808\ubca8 4 \uc774\ud558 / \ube5b \uc18d\uc131) 1\uc7a5 \ub610\ub294 \"\ud504\ub77c\uc784 \ucf5c\" 1\uc7a5\uc744 \uace8\ub77c \ud328\uc5d0 \ub123\uace0, \uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\ub825\uc740 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0 500 \uc62c\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "psychic",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2500,
+  "def": 1500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "a466d0cb-d523-480e-9cf1-ac5570b00cc1",
+      "card": "https://ms.yugipedia.com//d/dc/PraimeBandijo-RDKP16-JP-C.png"
+    },
+    {
+      "id": "694b5fa9-63ef-4729-83ff-b72a0cd45978",
+      "card": "https://ms.yugipedia.com//2/28/PraimeBandijo-RDS243-JP-UPR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Praime Bandijo",
+        "id": 1041677
+      }
+    ],
+    "dbID": 19954
+  },
+  "series": []
+}

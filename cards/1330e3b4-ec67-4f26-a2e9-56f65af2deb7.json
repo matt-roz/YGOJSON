@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "1330e3b4-ec67-4f26-a2e9-56f65af2deb7",
+  "text": {
+    "en": {
+      "name": "Fire Jester",
+      "effect": "Make 1 face-up Level 8 or lower monster on your opponent's field lose 500 ATK/DEF until the end of this turn."
+    },
+    "ja": {
+      "name": "\u30d5\u30a1\u30a4\u30a2\u30fb\u30b8\u30a7\u30b9\u30bf\u30fc",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff18\u4ee5\u4e0b\uff09\uff11\u4f53\u3092\u9078\u3073\u3001\u305d\u306e\u653b\u6483\u529b\u30fb\u5b88\u5099\u529b\u3092\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\uff15\uff10\uff10\u30c0\u30a6\u30f3\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud30c\uc774\uc5b4 \uc81c\uc2a4\ud130",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\ub808\ubca8 8 \uc774\ud558) 1\uc7a5\uc744 \uace0\ub974\uace0, \uadf8 \uacf5\uaca9\ub825 / \uc218\ube44\ub825\uc744 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0 500 \ub0b4\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "pyro",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 1000,
+  "def": 500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "e8a9c1f2-fbe6-4336-9bed-b307e49ce6ad",
+      "card": "https://ms.yugipedia.com//b/b7/FireJester-RDEXT1-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Fire Jester",
+        "id": 714952
+      }
+    ],
+    "dbID": 16890
+  },
+  "series": []
+}

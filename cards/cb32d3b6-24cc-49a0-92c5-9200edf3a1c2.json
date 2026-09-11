@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "cb32d3b6-24cc-49a0-92c5-9200edf3a1c2",
+  "text": {
+    "en": {
+      "name": "Worker Warrior - Overhauled Organizer",
+      "effect": "Special Summon 1 \"Worker Warrior - Sinister CEO\" from your hand face-up to your field. This turn, you can only attack with Machine Type monsters.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u5237\u65b0\u6226\u58eb\u30b7\u30e3\u30a4\u30f3\u30fb\uff2f",
+      "effect": "\u624b\u672d\u306e\u300c\u6697\u9ed2\u30b7\u30e3\u30a4\u30f3\u738b\u30a2\u30fc\u30af\u30c8\u30fc\u30af\u300d\uff11\u4f53\u3092\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u8868\u793a\u3067\u7279\u6b8a\u53ec\u559a\u3059\u308b\u3002\u3053\u306e\u30bf\u30fc\u30f3\u3001\u81ea\u5206\u306f\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u6a5f\u68b0\u65cf\u4ee5\u5916\uff09\u3067\u653b\u6483\u3067\u304d\u306a\u3044\u3002"
+    },
+    "ko": {
+      "name": "\uc1c4\uc2e0\uc804\uc0ac \uc0e4\uc778 O",
+      "effect": "\ud328\uc758 \"\uc554\ud751 \uc0e4\uc778\uc655 \uc544\ud06c\ud1a0\ud06c\" 1\uc7a5\uc744 \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \ud45c\uc2dc\ub85c \ud2b9\uc218 \uc18c\ud658\ud55c\ub2e4. \uc774 \ud134\uc5d0, \uc790\uc2e0\uc740 \ubaac\uc2a4\ud130(\uae30\uacc4\uc871 \uc774\uc678)\ub85c \uacf5\uaca9\ud560 \uc218 \uc5c6\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 600,
+  "def": 600,
+  "passwords": [],
+  "images": [
+    {
+      "id": "1f4a679a-6fa3-44c3-9c9b-bf34d8dc89d1",
+      "card": "https://ms.yugipedia.com//e/ed/WorkerWarriorOverhauledOrganizer-RDEXT1-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Worker Warrior - Overhauled Organizer",
+        "id": 717516
+      }
+    ],
+    "dbID": 16923
+  },
+  "series": [
+    "20ff6f42-dacc-4386-9945-3b0110386c78"
+  ]
+}

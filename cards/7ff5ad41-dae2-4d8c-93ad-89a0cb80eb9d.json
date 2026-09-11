@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "7ff5ad41-dae2-4d8c-93ad-89a0cb80eb9d",
+  "text": {
+    "en": {
+      "name": "Spirit Sprite of the Stars",
+      "effect": "This turn, this card's name becomes \"Spirit of the Stars\". Then, you can add 1 \"Pliage the Sacred Shooting Star\" from your Graveyard to your hand.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u661f\u306e\u7cbe\u970a\u866b",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u306e\u30ab\u30fc\u30c9\u540d\u306f\u3053\u306e\u30bf\u30fc\u30f3\u3001\u300c\u661f\u306e\u7cbe\u970a\u300d\u306b\u306a\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u6d41\u8056\u306e\u30d7\u30ea\u30a2\u30fc\u30b8\u30e5\u300d\uff11\u4f53\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "insect",
+  "classifications": [
+    "effect"
+  ],
+  "level": 2,
+  "atk": 800,
+  "def": 1200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "fda69264-b93f-4a66-a0e6-191bb0cb5014",
+      "card": "https://ms.yugipedia.com//3/30/SpiritSpriteoftheStars-RDAP03-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Spirit Sprite of the Stars",
+        "id": 1196077
+      }
+    ],
+    "dbID": 23451
+  },
+  "series": [
+    "2c65f746-fbfd-4e06-a9f8-ace9050c9c95"
+  ]
+}

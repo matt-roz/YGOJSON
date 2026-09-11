@@ -1,0 +1,53 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "6dd4a4a9-3a3a-49cb-b3f7-b26a37e114c0",
+  "text": {
+    "en": {
+      "name": "Kheiron the Star Knight",
+      "effect": "Choose 1 Level 5 or higher face-up Fiend Type monster on your field. This turn, the chosen monster inflicts piercing battle damage (if the ATK of the attacking monster exceeds the DEF of the attack target, inflict the difference)."
+    },
+    "ja": {
+      "name": "\u661f\u6226\u9a0e\u30b1\u30fc\u30ed\u30f3",
+      "effect": "\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff15\u4ee5\u4e0a\uff0f\u60aa\u9b54\u65cf\uff09\uff11\u4f53\u3092\u9078\u3076\u3002\u3053\u306e\u30bf\u30fc\u30f3\u3001\u305d\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u653b\u6483\u529b\u306f\u8cab\u901a\u3059\u308b\uff08\u5b88\u5099\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\u3092\u653b\u6483\u3057\u305f\u6642\u3001\u305d\u306e\u5b88\u5099\u529b\u3092\u653b\u6483\u529b\u304c\u8d85\u3048\u305f\u5206\u3060\u3051\u6226\u95d8\u30c0\u30e1\u30fc\u30b8\u3092\u4e0e\u3048\u308b\uff09\u3002"
+    },
+    "ko": {
+      "name": "\uc131\uc804\uae30 \ucf00\uc774\ub860",
+      "effect": "\uc790\uc2e0 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\ub808\ubca8 5 \uc774\uc0c1 / \uc545\ub9c8\uc871) 1\uc7a5\uc744 \uace0\ub978\ub2e4. \uc774 \ud134\uc5d0, \uadf8 \ubaac\uc2a4\ud130\uc758 \uacf5\uaca9\uc740 \uad00\ud1b5\ud55c\ub2e4(\uc218\ube44 \ud45c\uc2dc \ubaac\uc2a4\ud130\ub97c \uacf5\uaca9\ud588\uc744 \ub54c, \uadf8 \uc218\ube44\ub825\uc744 \uacf5\uaca9\ub825\uc774 \ub118\uc740 \ub9cc\ud07c\ub9cc \uc804\ud22c \ub370\ubbf8\uc9c0\ub97c \uc900\ub2e4)."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "fiend",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2300,
+  "def": 1800,
+  "passwords": [],
+  "images": [
+    {
+      "id": "0d98862b-ccab-4e21-a380-ca210d9e7ede",
+      "card": "https://ms.yugipedia.com//1/16/KheirontheStarKnight-RDKP05-JP-SR.png"
+    }
+  ],
+  "sets": [
+    "15adab2a-8746-40d3-a545-bbb610076d23"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Kheiron the Star Knight",
+        "id": 714270
+      }
+    ],
+    "dbID": 16344
+  },
+  "series": [
+    "23440784-1c3f-4acd-b6e7-c557d9a55037"
+  ]
+}

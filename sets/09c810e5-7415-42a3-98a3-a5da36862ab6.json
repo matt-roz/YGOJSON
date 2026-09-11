@@ -1,0 +1,63 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "09c810e5-7415-42a3-98a3-a5da36862ab6",
+  "name": {
+    "en": "Jump Festa Invitational 2009 promotional card",
+    "ko": "JUMP FESTA INVITATIONAL 2009"
+  },
+  "locales": {
+    "kr": {
+      "language": "ko",
+      "prefix": "EV09-KR",
+      "date": "2009-09-27",
+      "image": "https://ms.yugipedia.com//b/b7/EV09-PromoKR-JumpFestaInvitational.png",
+      "cardImages": {
+        "unlimited": {}
+      },
+      "cardInfo": {
+        "unlimited": {}
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          7141406000
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "kr"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//b/b7/EV09-PromoKR-JumpFestaInvitational.png",
+      "cards": [
+        {
+          "id": "311d733e-dda0-41c1-ad74-6ac888d94994",
+          "card": "38aa0dc9-481f-453b-ac52-9579f1ea4039",
+          "suffix": "005",
+          "rarity": "secret",
+          "imageID": "634f0ed7-7825-496d-ba9b-b441ce0f22d2"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Jump Festa Invitational 2009 promotional card",
+      "id": 120912
+    }
+  }
+}

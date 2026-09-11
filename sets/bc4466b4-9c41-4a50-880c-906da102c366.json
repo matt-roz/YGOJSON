@@ -1,0 +1,1815 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "bc4466b4-9c41-4a50-880c-906da102c366",
+  "name": {
+    "en": "Premium Pack 2",
+    "fr": "Paquet Premium 2",
+    "de": "Premium Pack 2",
+    "it": "Pack Premium 2",
+    "es": "Paquete Premium 2"
+  },
+  "locales": {
+    "en": {
+      "language": "en",
+      "prefix": "PP02-EN",
+      "date": "2008-07-31",
+      "image": "https://ms.yugipedia.com//1/10/PP02-BoosterEN.jpg",
+      "cardImages": {
+        "unlimited": {
+          "1a08512c-e819-4055-afa3-a74e7841f61b": "https://ms.yugipedia.com//3/35/ElementalHEROKnospe-PP02-EN-ScR-UE.png",
+          "1e39f59d-bf2a-48a8-af07-8f4ef3d7f098": "https://ms.yugipedia.com//9/96/ElementalHEROPoisonRose-PP02-EN-SR-UE.png",
+          "2fde38c0-df19-43b9-b695-9bd12f74da02": "https://ms.yugipedia.com//d/d0/Carrierroid-PP02-EN-ScR-UE.png",
+          "338924cf-663d-4132-83ca-590944537e6e": "https://ms.yugipedia.com//a/a5/ElementalHEROHeat-PP02-EN-ScR-UE.png",
+          "349f8d5a-7588-47fb-9c0b-0cdb891cd438": "https://ms.yugipedia.com//8/89/TerraFirmaGravity-PP02-EN-ScR-UE.png",
+          "3de0fef1-3375-487e-9c70-f385f67df931": "https://ms.yugipedia.com//5/5e/Mezuki-PP02-EN-ScR-UE.png",
+          "3e7f32af-f646-4ed1-aaad-daf82baf2e8c": "https://ms.yugipedia.com//5/5e/EvilDragonAnanta-PP02-EN-ScR-UE.png",
+          "4d2b6341-7a1d-45af-b34a-7aefce05ffa6": "https://ms.yugipedia.com//f/fb/ElementalHEROInferno-PP02-EN-ScR-UE.png",
+          "4eb2c3c7-4f70-4007-98a6-e7dc3d199ddb": "https://ms.yugipedia.com//4/46/ElementalHEROTerraFirma-PP02-EN-ScR-UE.png",
+          "4ee63cca-b374-4b44-a364-fc18f2584434": "https://ms.yugipedia.com//5/5e/ElementalHEROWoodsman-PP02-EN-ScR-UE.png",
+          "4f965adf-658a-4c29-9b7f-353308ebcdc4": "https://ms.yugipedia.com//1/1d/WarLionRitual-PP02-EN-SR-UE.png",
+          "50442248-5929-44e7-9776-7350efb815a4": "https://ms.yugipedia.com//f/f1/ValhallaHalloftheFallen-PP02-EN-ScR-UE.png",
+          "5392da23-b741-4a3b-8d6c-3451ad6ff785": "https://ms.yugipedia.com//5/53/RoseBud-PP02-EN-ScR-UE.png",
+          "55808e4c-3115-4337-a558-d71ea383aa35": "https://ms.yugipedia.com//0/0b/RoseBud-PP02-EN-SR-UE.png",
+          "5f882c50-3782-465c-9704-754988788e57": "https://ms.yugipedia.com//e/eb/Hecatrice-PP02-EN-ScR-UE.png",
+          "63233a8c-dfc6-4fd4-8337-746de1817b1c": "https://ms.yugipedia.com//b/b5/Sengenjin-PP02-EN-ScR-UE.png",
+          "656ac49e-bc65-4f1b-9593-707a9148b795": "https://ms.yugipedia.com//5/5d/Sengenjin-PP02-EN-SR-UE.png",
+          "88c9cc64-f05b-45c7-97de-1c8ff1fecf76": "https://ms.yugipedia.com//0/00/SuperWarLion-PP02-EN-ScR-UE.png",
+          "9d13fb67-3659-4f8c-86c7-926c0e1cd47d": "https://ms.yugipedia.com//9/95/Athena-PP02-EN-ScR-UE.png",
+          "a223ba1b-4939-425c-bf13-dcfdaf7bc978": "https://ms.yugipedia.com//4/4f/HEROsBond-PP02-EN-ScR-UE.png",
+          "a7df9f7c-c01e-4a0b-8eb8-4f5a12d5c325": "https://ms.yugipedia.com//f/f7/ElementalHEROPoisonRose-PP02-EN-ScR-UE.png",
+          "ae71a201-92e3-4904-8071-e5ef44fef52d": "https://ms.yugipedia.com//e/e7/WarLionRitual-PP02-EN-ScR-UE.png",
+          "b24012e8-54b5-4980-9d4b-9e1dedd7569b": "https://ms.yugipedia.com//5/52/Hecatrice-PP02-EN-SR-UE.png",
+          "bf7fffa7-bf2e-4cd4-978b-5b4ee1c0b10b": "https://ms.yugipedia.com//4/48/TerraFirmaGravity-PP02-EN-SR-UE.png",
+          "c1fa6163-d7a1-4937-ae8b-bd1e8d38fb1c": "https://ms.yugipedia.com//1/13/ElementalHEROLadyHeat-PP02-EN-SR-UE.png",
+          "c50b9645-e89d-4520-84c2-e73db587e6a6": "https://ms.yugipedia.com//c/c1/ElementalHEROHeat-PP02-EN-SR-UE.png",
+          "cc515110-4629-4cc6-82ad-0df28b52ee6a": "https://ms.yugipedia.com//3/3b/ElementalHEROKnospe-PP02-EN-SR-UE.png",
+          "ce9d0849-0d11-4a0c-8654-433485a22fc8": "https://ms.yugipedia.com//5/54/SuperWarLion-PP02-EN-SR-UE.png",
+          "e049fa30-f35c-4f4e-8aef-3194a989b979": "https://ms.yugipedia.com//3/3d/ElementalHEROLadyHeat-PP02-EN-ScR-UE.png",
+          "e838c895-9c8d-414f-90b1-e0e22ac03863": "https://ms.yugipedia.com//5/53/ElementalHEROVoltic-PP02-EN-ScR-UE.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "1a08512c-e819-4055-afa3-a74e7841f61b": {
+            "image": "https://ms.yugipedia.com//3/35/ElementalHEROKnospe-PP02-EN-ScR-UE.png"
+          },
+          "1e39f59d-bf2a-48a8-af07-8f4ef3d7f098": {
+            "image": "https://ms.yugipedia.com//9/96/ElementalHEROPoisonRose-PP02-EN-SR-UE.png"
+          },
+          "2fde38c0-df19-43b9-b695-9bd12f74da02": {
+            "image": "https://ms.yugipedia.com//d/d0/Carrierroid-PP02-EN-ScR-UE.png"
+          },
+          "338924cf-663d-4132-83ca-590944537e6e": {
+            "image": "https://ms.yugipedia.com//a/a5/ElementalHEROHeat-PP02-EN-ScR-UE.png"
+          },
+          "349f8d5a-7588-47fb-9c0b-0cdb891cd438": {
+            "image": "https://ms.yugipedia.com//8/89/TerraFirmaGravity-PP02-EN-ScR-UE.png"
+          },
+          "3de0fef1-3375-487e-9c70-f385f67df931": {
+            "image": "https://ms.yugipedia.com//5/5e/Mezuki-PP02-EN-ScR-UE.png"
+          },
+          "3e7f32af-f646-4ed1-aaad-daf82baf2e8c": {
+            "image": "https://ms.yugipedia.com//5/5e/EvilDragonAnanta-PP02-EN-ScR-UE.png"
+          },
+          "4d2b6341-7a1d-45af-b34a-7aefce05ffa6": {
+            "image": "https://ms.yugipedia.com//f/fb/ElementalHEROInferno-PP02-EN-ScR-UE.png"
+          },
+          "4eb2c3c7-4f70-4007-98a6-e7dc3d199ddb": {
+            "image": "https://ms.yugipedia.com//4/46/ElementalHEROTerraFirma-PP02-EN-ScR-UE.png"
+          },
+          "4ee63cca-b374-4b44-a364-fc18f2584434": {
+            "image": "https://ms.yugipedia.com//5/5e/ElementalHEROWoodsman-PP02-EN-ScR-UE.png"
+          },
+          "4f965adf-658a-4c29-9b7f-353308ebcdc4": {
+            "image": "https://ms.yugipedia.com//1/1d/WarLionRitual-PP02-EN-SR-UE.png"
+          },
+          "50442248-5929-44e7-9776-7350efb815a4": {
+            "image": "https://ms.yugipedia.com//f/f1/ValhallaHalloftheFallen-PP02-EN-ScR-UE.png"
+          },
+          "5392da23-b741-4a3b-8d6c-3451ad6ff785": {
+            "image": "https://ms.yugipedia.com//5/53/RoseBud-PP02-EN-ScR-UE.png"
+          },
+          "55808e4c-3115-4337-a558-d71ea383aa35": {
+            "image": "https://ms.yugipedia.com//0/0b/RoseBud-PP02-EN-SR-UE.png"
+          },
+          "5f882c50-3782-465c-9704-754988788e57": {
+            "image": "https://ms.yugipedia.com//e/eb/Hecatrice-PP02-EN-ScR-UE.png"
+          },
+          "63233a8c-dfc6-4fd4-8337-746de1817b1c": {
+            "image": "https://ms.yugipedia.com//b/b5/Sengenjin-PP02-EN-ScR-UE.png"
+          },
+          "656ac49e-bc65-4f1b-9593-707a9148b795": {
+            "image": "https://ms.yugipedia.com//5/5d/Sengenjin-PP02-EN-SR-UE.png"
+          },
+          "88c9cc64-f05b-45c7-97de-1c8ff1fecf76": {
+            "image": "https://ms.yugipedia.com//0/00/SuperWarLion-PP02-EN-ScR-UE.png"
+          },
+          "9d13fb67-3659-4f8c-86c7-926c0e1cd47d": {
+            "image": "https://ms.yugipedia.com//9/95/Athena-PP02-EN-ScR-UE.png"
+          },
+          "a223ba1b-4939-425c-bf13-dcfdaf7bc978": {
+            "image": "https://ms.yugipedia.com//4/4f/HEROsBond-PP02-EN-ScR-UE.png"
+          },
+          "a7df9f7c-c01e-4a0b-8eb8-4f5a12d5c325": {
+            "image": "https://ms.yugipedia.com//f/f7/ElementalHEROPoisonRose-PP02-EN-ScR-UE.png"
+          },
+          "ae71a201-92e3-4904-8071-e5ef44fef52d": {
+            "image": "https://ms.yugipedia.com//e/e7/WarLionRitual-PP02-EN-ScR-UE.png"
+          },
+          "b24012e8-54b5-4980-9d4b-9e1dedd7569b": {
+            "image": "https://ms.yugipedia.com//5/52/Hecatrice-PP02-EN-SR-UE.png"
+          },
+          "bf7fffa7-bf2e-4cd4-978b-5b4ee1c0b10b": {
+            "image": "https://ms.yugipedia.com//4/48/TerraFirmaGravity-PP02-EN-SR-UE.png"
+          },
+          "c1fa6163-d7a1-4937-ae8b-bd1e8d38fb1c": {
+            "image": "https://ms.yugipedia.com//1/13/ElementalHEROLadyHeat-PP02-EN-SR-UE.png"
+          },
+          "c50b9645-e89d-4520-84c2-e73db587e6a6": {
+            "image": "https://ms.yugipedia.com//c/c1/ElementalHEROHeat-PP02-EN-SR-UE.png"
+          },
+          "cc515110-4629-4cc6-82ad-0df28b52ee6a": {
+            "image": "https://ms.yugipedia.com//3/3b/ElementalHEROKnospe-PP02-EN-SR-UE.png"
+          },
+          "ce9d0849-0d11-4a0c-8654-433485a22fc8": {
+            "image": "https://ms.yugipedia.com//5/54/SuperWarLion-PP02-EN-SR-UE.png"
+          },
+          "e049fa30-f35c-4f4e-8aef-3194a989b979": {
+            "image": "https://ms.yugipedia.com//3/3d/ElementalHEROLadyHeat-PP02-EN-ScR-UE.png"
+          },
+          "e838c895-9c8d-414f-90b1-e0e22ac03863": {
+            "image": "https://ms.yugipedia.com//5/53/ElementalHEROVoltic-PP02-EN-ScR-UE.png"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          11107003
+        ]
+      }
+    },
+    "fr": {
+      "language": "fr",
+      "prefix": "PP02-FR",
+      "date": "2008-07-29",
+      "image": "https://ms.yugipedia.com//6/65/PP02-BoosterFR.jpg",
+      "cardImages": {
+        "unlimited": {
+          "1e39f59d-bf2a-48a8-af07-8f4ef3d7f098": "https://ms.yugipedia.com//f/fd/ElementalHEROPoisonRose-PP02-FR-SR-UE.png",
+          "2fde38c0-df19-43b9-b695-9bd12f74da02": "https://ms.yugipedia.com//5/5e/Carrierroid-PP02-FR-ScR-UE.png",
+          "3de0fef1-3375-487e-9c70-f385f67df931": "https://ms.yugipedia.com//1/1f/Mezuki-PP02-FR-ScR-UE.jpg",
+          "3e7f32af-f646-4ed1-aaad-daf82baf2e8c": "https://ms.yugipedia.com//a/a1/EvilDragonAnanta-PP02-FR-ScR-UE.png",
+          "4d2b6341-7a1d-45af-b34a-7aefce05ffa6": "https://ms.yugipedia.com//8/8f/ElementalHEROInferno-PP02-FR-ScR-UE.png",
+          "4eb2c3c7-4f70-4007-98a6-e7dc3d199ddb": "https://ms.yugipedia.com//0/03/ElementalHEROTerraFirma-PP02-FR-ScR-UE.png",
+          "4ee63cca-b374-4b44-a364-fc18f2584434": "https://ms.yugipedia.com//d/df/ElementalHEROWoodsman-PP02-FR-ScR-UE.png",
+          "4f965adf-658a-4c29-9b7f-353308ebcdc4": "https://ms.yugipedia.com//c/c9/WarLionRitual-PP02-FR-SR-UE.png",
+          "50442248-5929-44e7-9776-7350efb815a4": "https://ms.yugipedia.com//b/bf/ValhallaHalloftheFallen-PP02-FR-ScR-UE.png",
+          "55808e4c-3115-4337-a558-d71ea383aa35": "https://ms.yugipedia.com//e/e1/RoseBud-PP02-FR-SR-UE.png",
+          "5f882c50-3782-465c-9704-754988788e57": "https://ms.yugipedia.com//7/7b/Hecatrice-PP02-FR-ScR-UE.png",
+          "656ac49e-bc65-4f1b-9593-707a9148b795": "https://ms.yugipedia.com//6/63/Sengenjin-PP02-FR-SR-UE.png",
+          "9d13fb67-3659-4f8c-86c7-926c0e1cd47d": "https://ms.yugipedia.com//6/65/Athena-PP02-FR-ScR-UE.png",
+          "a223ba1b-4939-425c-bf13-dcfdaf7bc978": "https://ms.yugipedia.com//6/61/HEROsBond-PP02-FR-ScR-UE.png",
+          "b24012e8-54b5-4980-9d4b-9e1dedd7569b": "https://ms.yugipedia.com//a/ab/Hecatrice-PP02-FR-SR-UE.png",
+          "bf7fffa7-bf2e-4cd4-978b-5b4ee1c0b10b": "https://ms.yugipedia.com//9/90/TerraFirmaGravity-PP02-FR-SR-UE.png",
+          "c1fa6163-d7a1-4937-ae8b-bd1e8d38fb1c": "https://ms.yugipedia.com//2/25/ElementalHEROLadyHeat-PP02-FR-SR-UE.png",
+          "c50b9645-e89d-4520-84c2-e73db587e6a6": "https://ms.yugipedia.com//5/58/ElementalHEROHeat-PP02-FR-SR-UE.png",
+          "cc515110-4629-4cc6-82ad-0df28b52ee6a": "https://ms.yugipedia.com//4/4b/ElementalHEROKnospe-PP02-FR-SR-UE.png",
+          "ce9d0849-0d11-4a0c-8654-433485a22fc8": "https://ms.yugipedia.com//a/a2/SuperWarLion-PP02-FR-SR-UE.png",
+          "e838c895-9c8d-414f-90b1-e0e22ac03863": "https://ms.yugipedia.com//0/0b/ElementalHEROVoltic-PP02-FR-ScR-UE.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "1e39f59d-bf2a-48a8-af07-8f4ef3d7f098": {
+            "image": "https://ms.yugipedia.com//f/fd/ElementalHEROPoisonRose-PP02-FR-SR-UE.png"
+          },
+          "2fde38c0-df19-43b9-b695-9bd12f74da02": {
+            "image": "https://ms.yugipedia.com//5/5e/Carrierroid-PP02-FR-ScR-UE.png"
+          },
+          "3de0fef1-3375-487e-9c70-f385f67df931": {
+            "image": "https://ms.yugipedia.com//1/1f/Mezuki-PP02-FR-ScR-UE.jpg"
+          },
+          "3e7f32af-f646-4ed1-aaad-daf82baf2e8c": {
+            "image": "https://ms.yugipedia.com//a/a1/EvilDragonAnanta-PP02-FR-ScR-UE.png"
+          },
+          "4d2b6341-7a1d-45af-b34a-7aefce05ffa6": {
+            "image": "https://ms.yugipedia.com//8/8f/ElementalHEROInferno-PP02-FR-ScR-UE.png"
+          },
+          "4eb2c3c7-4f70-4007-98a6-e7dc3d199ddb": {
+            "image": "https://ms.yugipedia.com//0/03/ElementalHEROTerraFirma-PP02-FR-ScR-UE.png"
+          },
+          "4ee63cca-b374-4b44-a364-fc18f2584434": {
+            "image": "https://ms.yugipedia.com//d/df/ElementalHEROWoodsman-PP02-FR-ScR-UE.png"
+          },
+          "4f965adf-658a-4c29-9b7f-353308ebcdc4": {
+            "image": "https://ms.yugipedia.com//c/c9/WarLionRitual-PP02-FR-SR-UE.png"
+          },
+          "50442248-5929-44e7-9776-7350efb815a4": {
+            "image": "https://ms.yugipedia.com//b/bf/ValhallaHalloftheFallen-PP02-FR-ScR-UE.png"
+          },
+          "55808e4c-3115-4337-a558-d71ea383aa35": {
+            "image": "https://ms.yugipedia.com//e/e1/RoseBud-PP02-FR-SR-UE.png"
+          },
+          "5f882c50-3782-465c-9704-754988788e57": {
+            "image": "https://ms.yugipedia.com//7/7b/Hecatrice-PP02-FR-ScR-UE.png"
+          },
+          "656ac49e-bc65-4f1b-9593-707a9148b795": {
+            "image": "https://ms.yugipedia.com//6/63/Sengenjin-PP02-FR-SR-UE.png"
+          },
+          "9d13fb67-3659-4f8c-86c7-926c0e1cd47d": {
+            "image": "https://ms.yugipedia.com//6/65/Athena-PP02-FR-ScR-UE.png"
+          },
+          "a223ba1b-4939-425c-bf13-dcfdaf7bc978": {
+            "image": "https://ms.yugipedia.com//6/61/HEROsBond-PP02-FR-ScR-UE.png"
+          },
+          "b24012e8-54b5-4980-9d4b-9e1dedd7569b": {
+            "image": "https://ms.yugipedia.com//a/ab/Hecatrice-PP02-FR-SR-UE.png"
+          },
+          "bf7fffa7-bf2e-4cd4-978b-5b4ee1c0b10b": {
+            "image": "https://ms.yugipedia.com//9/90/TerraFirmaGravity-PP02-FR-SR-UE.png"
+          },
+          "c1fa6163-d7a1-4937-ae8b-bd1e8d38fb1c": {
+            "image": "https://ms.yugipedia.com//2/25/ElementalHEROLadyHeat-PP02-FR-SR-UE.png"
+          },
+          "c50b9645-e89d-4520-84c2-e73db587e6a6": {
+            "image": "https://ms.yugipedia.com//5/58/ElementalHEROHeat-PP02-FR-SR-UE.png"
+          },
+          "cc515110-4629-4cc6-82ad-0df28b52ee6a": {
+            "image": "https://ms.yugipedia.com//4/4b/ElementalHEROKnospe-PP02-FR-SR-UE.png"
+          },
+          "ce9d0849-0d11-4a0c-8654-433485a22fc8": {
+            "image": "https://ms.yugipedia.com//a/a2/SuperWarLion-PP02-FR-SR-UE.png"
+          },
+          "e838c895-9c8d-414f-90b1-e0e22ac03863": {
+            "image": "https://ms.yugipedia.com//0/0b/ElementalHEROVoltic-PP02-FR-ScR-UE.png"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          31107003
+        ]
+      }
+    },
+    "de": {
+      "language": "de",
+      "prefix": "PP02-DE",
+      "date": "2008-07-31",
+      "cardImages": {
+        "unlimited": {
+          "1a08512c-e819-4055-afa3-a74e7841f61b": "https://ms.yugipedia.com//f/f8/ElementalHEROKnospe-PP02-DE-ScR-UE.jpg",
+          "1e39f59d-bf2a-48a8-af07-8f4ef3d7f098": "https://ms.yugipedia.com//5/51/ElementalHEROPoisonRose-PP02-DE-SR-UE.jpg",
+          "2fde38c0-df19-43b9-b695-9bd12f74da02": "https://ms.yugipedia.com//1/1b/Carrierroid-PP02-DE-ScR-UE.jpg",
+          "338924cf-663d-4132-83ca-590944537e6e": "https://ms.yugipedia.com//8/89/ElementalHEROHeat-PP02-DE-ScR-UE.jpg",
+          "349f8d5a-7588-47fb-9c0b-0cdb891cd438": "https://ms.yugipedia.com//3/3e/TerraFirmaGravity-PP02-DE-ScR-UE.jpg",
+          "3de0fef1-3375-487e-9c70-f385f67df931": "https://ms.yugipedia.com//b/b3/Mezuki-PP02-DE-ScR-UE.jpg",
+          "3e7f32af-f646-4ed1-aaad-daf82baf2e8c": "https://ms.yugipedia.com//2/2b/EvilDragonAnanta-PP02-DE-ScR-UE.jpg",
+          "4d2b6341-7a1d-45af-b34a-7aefce05ffa6": "https://ms.yugipedia.com//f/f8/ElementalHEROInferno-PP02-DE-ScR-UE.jpg",
+          "4eb2c3c7-4f70-4007-98a6-e7dc3d199ddb": "https://ms.yugipedia.com//0/06/ElementalHEROTerraFirma-PP02-DE-ScR-UE.jpg",
+          "4ee63cca-b374-4b44-a364-fc18f2584434": "https://ms.yugipedia.com//c/c7/ElementalHEROWoodsman-PP02-DE-ScR-UE.jpg",
+          "4f965adf-658a-4c29-9b7f-353308ebcdc4": "https://ms.yugipedia.com//8/85/WarLionRitual-PP02-DE-SR-UE.jpg",
+          "50442248-5929-44e7-9776-7350efb815a4": "https://ms.yugipedia.com//0/0f/ValhallaHalloftheFallen-PP02-DE-ScR-UE.png",
+          "5392da23-b741-4a3b-8d6c-3451ad6ff785": "https://ms.yugipedia.com//8/8a/RoseBud-PP02-DE-ScR-UE.jpg",
+          "55808e4c-3115-4337-a558-d71ea383aa35": "https://ms.yugipedia.com//7/75/RoseBud-PP02-DE-SR-UE.jpg",
+          "5f882c50-3782-465c-9704-754988788e57": "https://ms.yugipedia.com//7/7c/Hecatrice-PP02-DE-ScR-UE.jpg",
+          "63233a8c-dfc6-4fd4-8337-746de1817b1c": "https://ms.yugipedia.com//1/16/Sengenjin-PP02-DE-ScR-UE.png",
+          "656ac49e-bc65-4f1b-9593-707a9148b795": "https://ms.yugipedia.com//3/3c/Sengenjin-PP02-DE-SR-UE.png",
+          "88c9cc64-f05b-45c7-97de-1c8ff1fecf76": "https://ms.yugipedia.com//e/e5/SuperWarLion-PP02-DE-ScR-UE.png",
+          "9d13fb67-3659-4f8c-86c7-926c0e1cd47d": "https://ms.yugipedia.com//6/62/Athena-PP02-DE-ScR-UE.jpg",
+          "a223ba1b-4939-425c-bf13-dcfdaf7bc978": "https://ms.yugipedia.com//c/cc/HEROsBond-PP02-DE-ScR-UE.jpg",
+          "a7df9f7c-c01e-4a0b-8eb8-4f5a12d5c325": "https://ms.yugipedia.com//f/f1/ElementalHEROPoisonRose-PP02-DE-ScR-UE.jpg",
+          "ae71a201-92e3-4904-8071-e5ef44fef52d": "https://ms.yugipedia.com//f/f5/WarLionRitual-PP02-DE-ScR-UE.jpg",
+          "b24012e8-54b5-4980-9d4b-9e1dedd7569b": "https://ms.yugipedia.com//2/23/Hecatrice-PP02-DE-SR-UE.jpg",
+          "bf7fffa7-bf2e-4cd4-978b-5b4ee1c0b10b": "https://ms.yugipedia.com//9/9f/TerraFirmaGravity-PP02-DE-SR-UE.jpg",
+          "c1fa6163-d7a1-4937-ae8b-bd1e8d38fb1c": "https://ms.yugipedia.com//0/0e/ElementalHEROLadyHeat-PP02-DE-SR-UE.jpg",
+          "c50b9645-e89d-4520-84c2-e73db587e6a6": "https://ms.yugipedia.com//1/11/ElementalHEROHeat-PP02-DE-SR-UE.jpg",
+          "cc515110-4629-4cc6-82ad-0df28b52ee6a": "https://ms.yugipedia.com//5/56/ElementalHEROKnospe-PP02-DE-SR-UE.jpg",
+          "ce9d0849-0d11-4a0c-8654-433485a22fc8": "https://ms.yugipedia.com//6/60/SuperWarLion-PP02-DE-SR-UE.jpg",
+          "e049fa30-f35c-4f4e-8aef-3194a989b979": "https://ms.yugipedia.com//3/3d/ElementalHEROLadyHeat-PP02-DE-ScR-UE.jpg",
+          "e838c895-9c8d-414f-90b1-e0e22ac03863": "https://ms.yugipedia.com//8/8b/ElementalHEROVoltic-PP02-DE-ScR-UE.jpg"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "1a08512c-e819-4055-afa3-a74e7841f61b": {
+            "image": "https://ms.yugipedia.com//f/f8/ElementalHEROKnospe-PP02-DE-ScR-UE.jpg"
+          },
+          "1e39f59d-bf2a-48a8-af07-8f4ef3d7f098": {
+            "image": "https://ms.yugipedia.com//5/51/ElementalHEROPoisonRose-PP02-DE-SR-UE.jpg"
+          },
+          "2fde38c0-df19-43b9-b695-9bd12f74da02": {
+            "image": "https://ms.yugipedia.com//1/1b/Carrierroid-PP02-DE-ScR-UE.jpg"
+          },
+          "338924cf-663d-4132-83ca-590944537e6e": {
+            "image": "https://ms.yugipedia.com//8/89/ElementalHEROHeat-PP02-DE-ScR-UE.jpg"
+          },
+          "349f8d5a-7588-47fb-9c0b-0cdb891cd438": {
+            "image": "https://ms.yugipedia.com//3/3e/TerraFirmaGravity-PP02-DE-ScR-UE.jpg"
+          },
+          "3de0fef1-3375-487e-9c70-f385f67df931": {
+            "image": "https://ms.yugipedia.com//b/b3/Mezuki-PP02-DE-ScR-UE.jpg"
+          },
+          "3e7f32af-f646-4ed1-aaad-daf82baf2e8c": {
+            "image": "https://ms.yugipedia.com//2/2b/EvilDragonAnanta-PP02-DE-ScR-UE.jpg"
+          },
+          "4d2b6341-7a1d-45af-b34a-7aefce05ffa6": {
+            "image": "https://ms.yugipedia.com//f/f8/ElementalHEROInferno-PP02-DE-ScR-UE.jpg"
+          },
+          "4eb2c3c7-4f70-4007-98a6-e7dc3d199ddb": {
+            "image": "https://ms.yugipedia.com//0/06/ElementalHEROTerraFirma-PP02-DE-ScR-UE.jpg"
+          },
+          "4ee63cca-b374-4b44-a364-fc18f2584434": {
+            "image": "https://ms.yugipedia.com//c/c7/ElementalHEROWoodsman-PP02-DE-ScR-UE.jpg"
+          },
+          "4f965adf-658a-4c29-9b7f-353308ebcdc4": {
+            "image": "https://ms.yugipedia.com//8/85/WarLionRitual-PP02-DE-SR-UE.jpg"
+          },
+          "50442248-5929-44e7-9776-7350efb815a4": {
+            "image": "https://ms.yugipedia.com//0/0f/ValhallaHalloftheFallen-PP02-DE-ScR-UE.png"
+          },
+          "5392da23-b741-4a3b-8d6c-3451ad6ff785": {
+            "image": "https://ms.yugipedia.com//8/8a/RoseBud-PP02-DE-ScR-UE.jpg"
+          },
+          "55808e4c-3115-4337-a558-d71ea383aa35": {
+            "image": "https://ms.yugipedia.com//7/75/RoseBud-PP02-DE-SR-UE.jpg"
+          },
+          "5f882c50-3782-465c-9704-754988788e57": {
+            "image": "https://ms.yugipedia.com//7/7c/Hecatrice-PP02-DE-ScR-UE.jpg"
+          },
+          "63233a8c-dfc6-4fd4-8337-746de1817b1c": {
+            "image": "https://ms.yugipedia.com//1/16/Sengenjin-PP02-DE-ScR-UE.png"
+          },
+          "656ac49e-bc65-4f1b-9593-707a9148b795": {
+            "image": "https://ms.yugipedia.com//3/3c/Sengenjin-PP02-DE-SR-UE.png"
+          },
+          "88c9cc64-f05b-45c7-97de-1c8ff1fecf76": {
+            "image": "https://ms.yugipedia.com//e/e5/SuperWarLion-PP02-DE-ScR-UE.png"
+          },
+          "9d13fb67-3659-4f8c-86c7-926c0e1cd47d": {
+            "image": "https://ms.yugipedia.com//6/62/Athena-PP02-DE-ScR-UE.jpg"
+          },
+          "a223ba1b-4939-425c-bf13-dcfdaf7bc978": {
+            "image": "https://ms.yugipedia.com//c/cc/HEROsBond-PP02-DE-ScR-UE.jpg"
+          },
+          "a7df9f7c-c01e-4a0b-8eb8-4f5a12d5c325": {
+            "image": "https://ms.yugipedia.com//f/f1/ElementalHEROPoisonRose-PP02-DE-ScR-UE.jpg"
+          },
+          "ae71a201-92e3-4904-8071-e5ef44fef52d": {
+            "image": "https://ms.yugipedia.com//f/f5/WarLionRitual-PP02-DE-ScR-UE.jpg"
+          },
+          "b24012e8-54b5-4980-9d4b-9e1dedd7569b": {
+            "image": "https://ms.yugipedia.com//2/23/Hecatrice-PP02-DE-SR-UE.jpg"
+          },
+          "bf7fffa7-bf2e-4cd4-978b-5b4ee1c0b10b": {
+            "image": "https://ms.yugipedia.com//9/9f/TerraFirmaGravity-PP02-DE-SR-UE.jpg"
+          },
+          "c1fa6163-d7a1-4937-ae8b-bd1e8d38fb1c": {
+            "image": "https://ms.yugipedia.com//0/0e/ElementalHEROLadyHeat-PP02-DE-SR-UE.jpg"
+          },
+          "c50b9645-e89d-4520-84c2-e73db587e6a6": {
+            "image": "https://ms.yugipedia.com//1/11/ElementalHEROHeat-PP02-DE-SR-UE.jpg"
+          },
+          "cc515110-4629-4cc6-82ad-0df28b52ee6a": {
+            "image": "https://ms.yugipedia.com//5/56/ElementalHEROKnospe-PP02-DE-SR-UE.jpg"
+          },
+          "ce9d0849-0d11-4a0c-8654-433485a22fc8": {
+            "image": "https://ms.yugipedia.com//6/60/SuperWarLion-PP02-DE-SR-UE.jpg"
+          },
+          "e049fa30-f35c-4f4e-8aef-3194a989b979": {
+            "image": "https://ms.yugipedia.com//3/3d/ElementalHEROLadyHeat-PP02-DE-ScR-UE.jpg"
+          },
+          "e838c895-9c8d-414f-90b1-e0e22ac03863": {
+            "image": "https://ms.yugipedia.com//8/8b/ElementalHEROVoltic-PP02-DE-ScR-UE.jpg"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          21107003
+        ]
+      }
+    },
+    "it": {
+      "language": "it",
+      "prefix": "PP02-IT",
+      "date": "2008-07-31",
+      "cardImages": {
+        "unlimited": {
+          "1a08512c-e819-4055-afa3-a74e7841f61b": "https://ms.yugipedia.com//7/7c/ElementalHEROKnospe-PP02-IT-ScR-UE.jpg",
+          "1e39f59d-bf2a-48a8-af07-8f4ef3d7f098": "https://ms.yugipedia.com//f/fa/ElementalHEROPoisonRose-PP02-IT-SR-UE.jpg",
+          "2fde38c0-df19-43b9-b695-9bd12f74da02": "https://ms.yugipedia.com//9/9b/Carrierroid-PP02-IT-ScR-UE.jpg",
+          "338924cf-663d-4132-83ca-590944537e6e": "https://ms.yugipedia.com//e/ec/ElementalHEROHeat-PP02-IT-ScR-UE.jpg",
+          "349f8d5a-7588-47fb-9c0b-0cdb891cd438": "https://ms.yugipedia.com//a/a3/TerraFirmaGravity-PP02-IT-ScR-UE.jpg",
+          "3de0fef1-3375-487e-9c70-f385f67df931": "https://ms.yugipedia.com//2/2d/Mezuki-PP02-IT-ScR-UE.jpg",
+          "3e7f32af-f646-4ed1-aaad-daf82baf2e8c": "https://ms.yugipedia.com//3/31/EvilDragonAnanta-PP02-IT-ScR-UE.jpg",
+          "4d2b6341-7a1d-45af-b34a-7aefce05ffa6": "https://ms.yugipedia.com//e/eb/ElementalHEROInferno-PP02-IT-ScR-UE.jpg",
+          "4eb2c3c7-4f70-4007-98a6-e7dc3d199ddb": "https://ms.yugipedia.com//3/39/ElementalHEROTerraFirma-PP02-IT-ScR-UE.png",
+          "4ee63cca-b374-4b44-a364-fc18f2584434": "https://ms.yugipedia.com//9/9d/ElementalHEROWoodsman-PP02-IT-ScR-UE.jpg",
+          "4f965adf-658a-4c29-9b7f-353308ebcdc4": "https://ms.yugipedia.com//5/5a/WarLionRitual-PP02-IT-SR-UE.jpg",
+          "50442248-5929-44e7-9776-7350efb815a4": "https://ms.yugipedia.com//9/9d/ValhallaHalloftheFallen-PP02-IT-ScR-UE.jpg",
+          "5392da23-b741-4a3b-8d6c-3451ad6ff785": "https://ms.yugipedia.com//0/08/RoseBud-PP02-IT-ScR-UE.jpg",
+          "55808e4c-3115-4337-a558-d71ea383aa35": "https://ms.yugipedia.com//b/bf/RoseBud-PP02-IT-SR-UE.jpg",
+          "5f882c50-3782-465c-9704-754988788e57": "https://ms.yugipedia.com//c/cf/Hecatrice-PP02-IT-ScR-UE.jpg",
+          "63233a8c-dfc6-4fd4-8337-746de1817b1c": "https://ms.yugipedia.com//6/60/Sengenjin-PP02-IT-ScR-UE.png",
+          "656ac49e-bc65-4f1b-9593-707a9148b795": "https://ms.yugipedia.com//2/27/Sengenjin-PP02-IT-SR-UE.jpg",
+          "88c9cc64-f05b-45c7-97de-1c8ff1fecf76": "https://ms.yugipedia.com//6/69/SuperWarLion-PP02-IT-ScR-UE.jpg",
+          "9d13fb67-3659-4f8c-86c7-926c0e1cd47d": "https://ms.yugipedia.com//f/f9/Athena-PP02-IT-ScR-UE.jpg",
+          "a223ba1b-4939-425c-bf13-dcfdaf7bc978": "https://ms.yugipedia.com//7/7e/HEROsBond-PP02-IT-ScR-UE.jpg",
+          "a7df9f7c-c01e-4a0b-8eb8-4f5a12d5c325": "https://ms.yugipedia.com//3/34/ElementalHEROPoisonRose-PP02-IT-ScR-UE.jpg",
+          "ae71a201-92e3-4904-8071-e5ef44fef52d": "https://ms.yugipedia.com//1/1b/WarLionRitual-PP02-IT-ScR-UE.jpg",
+          "b24012e8-54b5-4980-9d4b-9e1dedd7569b": "https://ms.yugipedia.com//e/e3/Hecatrice-PP02-IT-SR-UE.jpg",
+          "bf7fffa7-bf2e-4cd4-978b-5b4ee1c0b10b": "https://ms.yugipedia.com//8/8a/TerraFirmaGravity-PP02-IT-SR-UE.jpg",
+          "c1fa6163-d7a1-4937-ae8b-bd1e8d38fb1c": "https://ms.yugipedia.com//f/f2/ElementalHEROLadyHeat-PP02-IT-SR-UE.jpg",
+          "c50b9645-e89d-4520-84c2-e73db587e6a6": "https://ms.yugipedia.com//5/51/ElementalHEROHeat-PP02-IT-SR-UE.jpg",
+          "cc515110-4629-4cc6-82ad-0df28b52ee6a": "https://ms.yugipedia.com//5/5e/ElementalHEROKnospe-PP02-IT-SR-UE.jpg",
+          "ce9d0849-0d11-4a0c-8654-433485a22fc8": "https://ms.yugipedia.com//5/50/SuperWarLion-PP02-IT-SR-UE.jpg",
+          "e049fa30-f35c-4f4e-8aef-3194a989b979": "https://ms.yugipedia.com//e/e5/ElementalHEROLadyHeat-PP02-IT-ScR-UE.png",
+          "e838c895-9c8d-414f-90b1-e0e22ac03863": "https://ms.yugipedia.com//b/be/ElementalHEROVoltic-PP02-IT-ScR-UE.jpg"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "1a08512c-e819-4055-afa3-a74e7841f61b": {
+            "image": "https://ms.yugipedia.com//7/7c/ElementalHEROKnospe-PP02-IT-ScR-UE.jpg"
+          },
+          "1e39f59d-bf2a-48a8-af07-8f4ef3d7f098": {
+            "image": "https://ms.yugipedia.com//f/fa/ElementalHEROPoisonRose-PP02-IT-SR-UE.jpg"
+          },
+          "2fde38c0-df19-43b9-b695-9bd12f74da02": {
+            "image": "https://ms.yugipedia.com//9/9b/Carrierroid-PP02-IT-ScR-UE.jpg"
+          },
+          "338924cf-663d-4132-83ca-590944537e6e": {
+            "image": "https://ms.yugipedia.com//e/ec/ElementalHEROHeat-PP02-IT-ScR-UE.jpg"
+          },
+          "349f8d5a-7588-47fb-9c0b-0cdb891cd438": {
+            "image": "https://ms.yugipedia.com//a/a3/TerraFirmaGravity-PP02-IT-ScR-UE.jpg"
+          },
+          "3de0fef1-3375-487e-9c70-f385f67df931": {
+            "image": "https://ms.yugipedia.com//2/2d/Mezuki-PP02-IT-ScR-UE.jpg"
+          },
+          "3e7f32af-f646-4ed1-aaad-daf82baf2e8c": {
+            "image": "https://ms.yugipedia.com//3/31/EvilDragonAnanta-PP02-IT-ScR-UE.jpg"
+          },
+          "4d2b6341-7a1d-45af-b34a-7aefce05ffa6": {
+            "image": "https://ms.yugipedia.com//e/eb/ElementalHEROInferno-PP02-IT-ScR-UE.jpg"
+          },
+          "4eb2c3c7-4f70-4007-98a6-e7dc3d199ddb": {
+            "image": "https://ms.yugipedia.com//3/39/ElementalHEROTerraFirma-PP02-IT-ScR-UE.png"
+          },
+          "4ee63cca-b374-4b44-a364-fc18f2584434": {
+            "image": "https://ms.yugipedia.com//9/9d/ElementalHEROWoodsman-PP02-IT-ScR-UE.jpg"
+          },
+          "4f965adf-658a-4c29-9b7f-353308ebcdc4": {
+            "image": "https://ms.yugipedia.com//5/5a/WarLionRitual-PP02-IT-SR-UE.jpg"
+          },
+          "50442248-5929-44e7-9776-7350efb815a4": {
+            "image": "https://ms.yugipedia.com//9/9d/ValhallaHalloftheFallen-PP02-IT-ScR-UE.jpg"
+          },
+          "5392da23-b741-4a3b-8d6c-3451ad6ff785": {
+            "image": "https://ms.yugipedia.com//0/08/RoseBud-PP02-IT-ScR-UE.jpg"
+          },
+          "55808e4c-3115-4337-a558-d71ea383aa35": {
+            "image": "https://ms.yugipedia.com//b/bf/RoseBud-PP02-IT-SR-UE.jpg"
+          },
+          "5f882c50-3782-465c-9704-754988788e57": {
+            "image": "https://ms.yugipedia.com//c/cf/Hecatrice-PP02-IT-ScR-UE.jpg"
+          },
+          "63233a8c-dfc6-4fd4-8337-746de1817b1c": {
+            "image": "https://ms.yugipedia.com//6/60/Sengenjin-PP02-IT-ScR-UE.png"
+          },
+          "656ac49e-bc65-4f1b-9593-707a9148b795": {
+            "image": "https://ms.yugipedia.com//2/27/Sengenjin-PP02-IT-SR-UE.jpg"
+          },
+          "88c9cc64-f05b-45c7-97de-1c8ff1fecf76": {
+            "image": "https://ms.yugipedia.com//6/69/SuperWarLion-PP02-IT-ScR-UE.jpg"
+          },
+          "9d13fb67-3659-4f8c-86c7-926c0e1cd47d": {
+            "image": "https://ms.yugipedia.com//f/f9/Athena-PP02-IT-ScR-UE.jpg"
+          },
+          "a223ba1b-4939-425c-bf13-dcfdaf7bc978": {
+            "image": "https://ms.yugipedia.com//7/7e/HEROsBond-PP02-IT-ScR-UE.jpg"
+          },
+          "a7df9f7c-c01e-4a0b-8eb8-4f5a12d5c325": {
+            "image": "https://ms.yugipedia.com//3/34/ElementalHEROPoisonRose-PP02-IT-ScR-UE.jpg"
+          },
+          "ae71a201-92e3-4904-8071-e5ef44fef52d": {
+            "image": "https://ms.yugipedia.com//1/1b/WarLionRitual-PP02-IT-ScR-UE.jpg"
+          },
+          "b24012e8-54b5-4980-9d4b-9e1dedd7569b": {
+            "image": "https://ms.yugipedia.com//e/e3/Hecatrice-PP02-IT-SR-UE.jpg"
+          },
+          "bf7fffa7-bf2e-4cd4-978b-5b4ee1c0b10b": {
+            "image": "https://ms.yugipedia.com//8/8a/TerraFirmaGravity-PP02-IT-SR-UE.jpg"
+          },
+          "c1fa6163-d7a1-4937-ae8b-bd1e8d38fb1c": {
+            "image": "https://ms.yugipedia.com//f/f2/ElementalHEROLadyHeat-PP02-IT-SR-UE.jpg"
+          },
+          "c50b9645-e89d-4520-84c2-e73db587e6a6": {
+            "image": "https://ms.yugipedia.com//5/51/ElementalHEROHeat-PP02-IT-SR-UE.jpg"
+          },
+          "cc515110-4629-4cc6-82ad-0df28b52ee6a": {
+            "image": "https://ms.yugipedia.com//5/5e/ElementalHEROKnospe-PP02-IT-SR-UE.jpg"
+          },
+          "ce9d0849-0d11-4a0c-8654-433485a22fc8": {
+            "image": "https://ms.yugipedia.com//5/50/SuperWarLion-PP02-IT-SR-UE.jpg"
+          },
+          "e049fa30-f35c-4f4e-8aef-3194a989b979": {
+            "image": "https://ms.yugipedia.com//e/e5/ElementalHEROLadyHeat-PP02-IT-ScR-UE.png"
+          },
+          "e838c895-9c8d-414f-90b1-e0e22ac03863": {
+            "image": "https://ms.yugipedia.com//b/be/ElementalHEROVoltic-PP02-IT-ScR-UE.jpg"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          41107003
+        ]
+      }
+    },
+    "sp": {
+      "language": "es",
+      "prefix": "PP02-SP",
+      "date": "2008-07-31",
+      "image": "https://ms.yugipedia.com//a/a0/PP02-BoosterSP.png",
+      "cardImages": {
+        "unlimited": {
+          "1e39f59d-bf2a-48a8-af07-8f4ef3d7f098": "https://ms.yugipedia.com//d/db/ElementalHEROPoisonRose-PP02-SP-SR-UE.jpg",
+          "2fde38c0-df19-43b9-b695-9bd12f74da02": "https://ms.yugipedia.com//b/b6/Carrierroid-PP02-SP-ScR-UE.jpg",
+          "338924cf-663d-4132-83ca-590944537e6e": "https://ms.yugipedia.com//0/01/ElementalHEROHeat-PP02-SP-ScR-UE.jpg",
+          "349f8d5a-7588-47fb-9c0b-0cdb891cd438": "https://ms.yugipedia.com//0/0b/TerraFirmaGravity-PP02-SP-ScR-UE.jpg",
+          "3de0fef1-3375-487e-9c70-f385f67df931": "https://ms.yugipedia.com//0/04/Mezuki-PP02-SP-ScR-UE.png",
+          "3e7f32af-f646-4ed1-aaad-daf82baf2e8c": "https://ms.yugipedia.com//2/25/EvilDragonAnanta-PP02-SP-ScR-UE.jpg",
+          "4d2b6341-7a1d-45af-b34a-7aefce05ffa6": "https://ms.yugipedia.com//0/03/ElementalHEROInferno-PP02-SP-ScR-UE.png",
+          "4eb2c3c7-4f70-4007-98a6-e7dc3d199ddb": "https://ms.yugipedia.com//4/4c/ElementalHEROTerraFirma-PP02-SP-ScR-UE.png",
+          "4ee63cca-b374-4b44-a364-fc18f2584434": "https://ms.yugipedia.com//8/87/ElementalHEROWoodsman-PP02-SP-ScR-UE.jpg",
+          "4f965adf-658a-4c29-9b7f-353308ebcdc4": "https://ms.yugipedia.com//6/61/WarLionRitual-PP02-SP-SR-UE.png",
+          "55808e4c-3115-4337-a558-d71ea383aa35": "https://ms.yugipedia.com//8/89/RoseBud-PP02-SP-SR-UE.jpg",
+          "656ac49e-bc65-4f1b-9593-707a9148b795": "https://ms.yugipedia.com//3/33/Sengenjin-PP02-SP-SR-UE.jpg",
+          "9d13fb67-3659-4f8c-86c7-926c0e1cd47d": "https://ms.yugipedia.com//4/48/Athena-PP02-SP-ScR-UE.jpg",
+          "a223ba1b-4939-425c-bf13-dcfdaf7bc978": "https://ms.yugipedia.com//1/11/HEROsBond-PP02-SP-ScR-UE.jpg",
+          "b24012e8-54b5-4980-9d4b-9e1dedd7569b": "https://ms.yugipedia.com//a/a7/Hecatrice-PP02-SP-SR-UE.png",
+          "bf7fffa7-bf2e-4cd4-978b-5b4ee1c0b10b": "https://ms.yugipedia.com//9/91/TerraFirmaGravity-PP02-SP-SR-UE.jpg",
+          "c1fa6163-d7a1-4937-ae8b-bd1e8d38fb1c": "https://ms.yugipedia.com//d/d9/ElementalHEROLadyHeat-PP02-SP-SR-UE.jpg",
+          "c50b9645-e89d-4520-84c2-e73db587e6a6": "https://ms.yugipedia.com//e/e4/ElementalHEROHeat-PP02-SP-SR-UE.jpg",
+          "cc515110-4629-4cc6-82ad-0df28b52ee6a": "https://ms.yugipedia.com//1/17/ElementalHEROKnospe-PP02-SP-SR-UE.jpg",
+          "ce9d0849-0d11-4a0c-8654-433485a22fc8": "https://ms.yugipedia.com//8/8e/SuperWarLion-PP02-SP-SR-UE.png",
+          "e838c895-9c8d-414f-90b1-e0e22ac03863": "https://ms.yugipedia.com//b/b5/ElementalHEROVoltic-PP02-SP-ScR-UE.jpg"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "1e39f59d-bf2a-48a8-af07-8f4ef3d7f098": {
+            "image": "https://ms.yugipedia.com//d/db/ElementalHEROPoisonRose-PP02-SP-SR-UE.jpg"
+          },
+          "2fde38c0-df19-43b9-b695-9bd12f74da02": {
+            "image": "https://ms.yugipedia.com//b/b6/Carrierroid-PP02-SP-ScR-UE.jpg"
+          },
+          "338924cf-663d-4132-83ca-590944537e6e": {
+            "image": "https://ms.yugipedia.com//0/01/ElementalHEROHeat-PP02-SP-ScR-UE.jpg"
+          },
+          "349f8d5a-7588-47fb-9c0b-0cdb891cd438": {
+            "image": "https://ms.yugipedia.com//0/0b/TerraFirmaGravity-PP02-SP-ScR-UE.jpg"
+          },
+          "3de0fef1-3375-487e-9c70-f385f67df931": {
+            "image": "https://ms.yugipedia.com//0/04/Mezuki-PP02-SP-ScR-UE.png"
+          },
+          "3e7f32af-f646-4ed1-aaad-daf82baf2e8c": {
+            "image": "https://ms.yugipedia.com//2/25/EvilDragonAnanta-PP02-SP-ScR-UE.jpg"
+          },
+          "4d2b6341-7a1d-45af-b34a-7aefce05ffa6": {
+            "image": "https://ms.yugipedia.com//0/03/ElementalHEROInferno-PP02-SP-ScR-UE.png"
+          },
+          "4eb2c3c7-4f70-4007-98a6-e7dc3d199ddb": {
+            "image": "https://ms.yugipedia.com//4/4c/ElementalHEROTerraFirma-PP02-SP-ScR-UE.png"
+          },
+          "4ee63cca-b374-4b44-a364-fc18f2584434": {
+            "image": "https://ms.yugipedia.com//8/87/ElementalHEROWoodsman-PP02-SP-ScR-UE.jpg"
+          },
+          "4f965adf-658a-4c29-9b7f-353308ebcdc4": {
+            "image": "https://ms.yugipedia.com//6/61/WarLionRitual-PP02-SP-SR-UE.png"
+          },
+          "55808e4c-3115-4337-a558-d71ea383aa35": {
+            "image": "https://ms.yugipedia.com//8/89/RoseBud-PP02-SP-SR-UE.jpg"
+          },
+          "656ac49e-bc65-4f1b-9593-707a9148b795": {
+            "image": "https://ms.yugipedia.com//3/33/Sengenjin-PP02-SP-SR-UE.jpg"
+          },
+          "9d13fb67-3659-4f8c-86c7-926c0e1cd47d": {
+            "image": "https://ms.yugipedia.com//4/48/Athena-PP02-SP-ScR-UE.jpg"
+          },
+          "a223ba1b-4939-425c-bf13-dcfdaf7bc978": {
+            "image": "https://ms.yugipedia.com//1/11/HEROsBond-PP02-SP-ScR-UE.jpg"
+          },
+          "b24012e8-54b5-4980-9d4b-9e1dedd7569b": {
+            "image": "https://ms.yugipedia.com//a/a7/Hecatrice-PP02-SP-SR-UE.png"
+          },
+          "bf7fffa7-bf2e-4cd4-978b-5b4ee1c0b10b": {
+            "image": "https://ms.yugipedia.com//9/91/TerraFirmaGravity-PP02-SP-SR-UE.jpg"
+          },
+          "c1fa6163-d7a1-4937-ae8b-bd1e8d38fb1c": {
+            "image": "https://ms.yugipedia.com//d/d9/ElementalHEROLadyHeat-PP02-SP-SR-UE.jpg"
+          },
+          "c50b9645-e89d-4520-84c2-e73db587e6a6": {
+            "image": "https://ms.yugipedia.com//e/e4/ElementalHEROHeat-PP02-SP-SR-UE.jpg"
+          },
+          "cc515110-4629-4cc6-82ad-0df28b52ee6a": {
+            "image": "https://ms.yugipedia.com//1/17/ElementalHEROKnospe-PP02-SP-SR-UE.jpg"
+          },
+          "ce9d0849-0d11-4a0c-8654-433485a22fc8": {
+            "image": "https://ms.yugipedia.com//8/8e/SuperWarLion-PP02-SP-SR-UE.png"
+          },
+          "e838c895-9c8d-414f-90b1-e0e22ac03863": {
+            "image": "https://ms.yugipedia.com//b/b5/ElementalHEROVoltic-PP02-SP-ScR-UE.jpg"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          51106002
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "en"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "distrobution": "7a25141a-3b6f-4ecd-b763-63b4efb45a86",
+      "packsPerBox": 20,
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//1/10/PP02-BoosterEN.jpg",
+      "cards": [
+        {
+          "id": "ce9d0849-0d11-4a0c-8654-433485a22fc8",
+          "card": "1f1b0d2b-3234-4b09-afa7-b78e1c85e7f1",
+          "suffix": "001",
+          "rarity": "super",
+          "imageID": "fa7b16e0-e932-4e6e-af21-7bbec7b15bf5"
+        },
+        {
+          "id": "88c9cc64-f05b-45c7-97de-1c8ff1fecf76",
+          "card": "1f1b0d2b-3234-4b09-afa7-b78e1c85e7f1",
+          "suffix": "001",
+          "rarity": "secret",
+          "imageID": "fa7b16e0-e932-4e6e-af21-7bbec7b15bf5"
+        },
+        {
+          "id": "4f965adf-658a-4c29-9b7f-353308ebcdc4",
+          "card": "da9d79c2-6a37-4258-9d6b-0b658db41c5a",
+          "suffix": "002",
+          "rarity": "super",
+          "imageID": "022e1b82-336f-46ae-86e9-066e5c7b00b1"
+        },
+        {
+          "id": "ae71a201-92e3-4904-8071-e5ef44fef52d",
+          "card": "da9d79c2-6a37-4258-9d6b-0b658db41c5a",
+          "suffix": "002",
+          "rarity": "secret",
+          "imageID": "022e1b82-336f-46ae-86e9-066e5c7b00b1"
+        },
+        {
+          "id": "656ac49e-bc65-4f1b-9593-707a9148b795",
+          "card": "f6becb57-b021-4b4e-a318-0576a18c7af3",
+          "suffix": "003",
+          "rarity": "super",
+          "imageID": "4904f19a-0265-41c6-9d12-ce7224414ab5"
+        },
+        {
+          "id": "63233a8c-dfc6-4fd4-8337-746de1817b1c",
+          "card": "f6becb57-b021-4b4e-a318-0576a18c7af3",
+          "suffix": "003",
+          "rarity": "secret",
+          "imageID": "4904f19a-0265-41c6-9d12-ce7224414ab5"
+        },
+        {
+          "id": "4ee63cca-b374-4b44-a364-fc18f2584434",
+          "card": "43d98c6e-9a00-4704-9ab3-8b2775d66a71",
+          "suffix": "004",
+          "rarity": "secret",
+          "imageID": "3feccfac-dfbb-4c54-b996-7e164b922809"
+        },
+        {
+          "id": "cc515110-4629-4cc6-82ad-0df28b52ee6a",
+          "card": "1d51a3ef-332c-46f7-981b-7f883e397015",
+          "suffix": "005",
+          "rarity": "super",
+          "imageID": "fbb7496c-b5d9-4564-b7e2-020537b36e94"
+        },
+        {
+          "id": "1a08512c-e819-4055-afa3-a74e7841f61b",
+          "card": "1d51a3ef-332c-46f7-981b-7f883e397015",
+          "suffix": "005",
+          "rarity": "secret",
+          "imageID": "fbb7496c-b5d9-4564-b7e2-020537b36e94"
+        },
+        {
+          "id": "1e39f59d-bf2a-48a8-af07-8f4ef3d7f098",
+          "card": "cd5b4c7a-852a-4afa-831b-5fa1c02cbaff",
+          "suffix": "006",
+          "rarity": "super",
+          "imageID": "7155e669-8d97-452d-80e7-944f55a076fd"
+        },
+        {
+          "id": "a7df9f7c-c01e-4a0b-8eb8-4f5a12d5c325",
+          "card": "cd5b4c7a-852a-4afa-831b-5fa1c02cbaff",
+          "suffix": "006",
+          "rarity": "secret",
+          "imageID": "7155e669-8d97-452d-80e7-944f55a076fd"
+        },
+        {
+          "id": "c50b9645-e89d-4520-84c2-e73db587e6a6",
+          "card": "140f6066-55ce-4bba-a877-b5837bb56730",
+          "suffix": "007",
+          "rarity": "super",
+          "imageID": "2f18e0f8-1e34-4a6b-b2e2-7a03404b0a09"
+        },
+        {
+          "id": "338924cf-663d-4132-83ca-590944537e6e",
+          "card": "140f6066-55ce-4bba-a877-b5837bb56730",
+          "suffix": "007",
+          "rarity": "secret",
+          "imageID": "2f18e0f8-1e34-4a6b-b2e2-7a03404b0a09"
+        },
+        {
+          "id": "c1fa6163-d7a1-4937-ae8b-bd1e8d38fb1c",
+          "card": "b80f9288-027b-4d7b-ae60-61223f1c9778",
+          "suffix": "008",
+          "rarity": "super",
+          "imageID": "9403e312-3ed0-46e3-927a-3809ec0aa7ca"
+        },
+        {
+          "id": "e049fa30-f35c-4f4e-8aef-3194a989b979",
+          "card": "b80f9288-027b-4d7b-ae60-61223f1c9778",
+          "suffix": "008",
+          "rarity": "secret",
+          "imageID": "9403e312-3ed0-46e3-927a-3809ec0aa7ca"
+        },
+        {
+          "id": "4eb2c3c7-4f70-4007-98a6-e7dc3d199ddb",
+          "card": "fdaf24f3-d46a-47c3-8429-867c499db88e",
+          "suffix": "009",
+          "rarity": "secret",
+          "imageID": "bbd19412-5cf1-44b3-9fae-69843ee96945"
+        },
+        {
+          "id": "4d2b6341-7a1d-45af-b34a-7aefce05ffa6",
+          "card": "17ae2728-528d-4fbd-9e2f-4d993683c59a",
+          "suffix": "010",
+          "rarity": "secret",
+          "imageID": "457e38e0-0bda-456f-9d2b-67fbc2196378"
+        },
+        {
+          "id": "55808e4c-3115-4337-a558-d71ea383aa35",
+          "card": "a51e0051-53b1-45ff-bf54-06ba19d03a60",
+          "suffix": "011",
+          "rarity": "super",
+          "imageID": "1957c9bd-fb5f-4162-8c36-c7b23894b040"
+        },
+        {
+          "id": "5392da23-b741-4a3b-8d6c-3451ad6ff785",
+          "card": "a51e0051-53b1-45ff-bf54-06ba19d03a60",
+          "suffix": "011",
+          "rarity": "secret",
+          "imageID": "1957c9bd-fb5f-4162-8c36-c7b23894b040"
+        },
+        {
+          "id": "a223ba1b-4939-425c-bf13-dcfdaf7bc978",
+          "card": "9c839b66-e01f-4606-b2c4-0145ea9e4579",
+          "suffix": "012",
+          "rarity": "secret",
+          "imageID": "ee8bdd48-114d-40ce-9c72-7f53fb4a3644"
+        },
+        {
+          "id": "bf7fffa7-bf2e-4cd4-978b-5b4ee1c0b10b",
+          "card": "ca3e02f2-6da8-4c93-9e24-a625695866bc",
+          "suffix": "013",
+          "rarity": "super",
+          "imageID": "3eb784e6-6c9b-4b74-81d7-afc569e43f0a"
+        },
+        {
+          "id": "349f8d5a-7588-47fb-9c0b-0cdb891cd438",
+          "card": "ca3e02f2-6da8-4c93-9e24-a625695866bc",
+          "suffix": "013",
+          "rarity": "secret",
+          "imageID": "3eb784e6-6c9b-4b74-81d7-afc569e43f0a"
+        },
+        {
+          "id": "e838c895-9c8d-414f-90b1-e0e22ac03863",
+          "card": "55ff1825-03a5-4647-80c3-7a4f45466cbb",
+          "suffix": "014",
+          "rarity": "secret",
+          "imageID": "76094c1f-bed2-46b0-9135-e9025870f5f4"
+        },
+        {
+          "id": "2fde38c0-df19-43b9-b695-9bd12f74da02",
+          "card": "155b10e5-71c5-48db-b838-cd1203fb6387",
+          "suffix": "015",
+          "rarity": "secret",
+          "imageID": "fb19090e-2e21-47c9-a424-31a89d9cd69c"
+        },
+        {
+          "id": "3de0fef1-3375-487e-9c70-f385f67df931",
+          "card": "a4cfb813-b8c2-4d88-9cc8-0a46a2e97571",
+          "suffix": "016",
+          "rarity": "secret",
+          "imageID": "2dc78836-5517-46c7-8cb1-ff02642ac87d"
+        },
+        {
+          "id": "3e7f32af-f646-4ed1-aaad-daf82baf2e8c",
+          "card": "529c2998-6e4a-4533-b2c3-4f9d6ffcb047",
+          "suffix": "017",
+          "rarity": "secret",
+          "imageID": "1ea4ac71-373c-4668-ac40-5c9e9c9613d4"
+        },
+        {
+          "id": "9d13fb67-3659-4f8c-86c7-926c0e1cd47d",
+          "card": "139a01ed-d10b-4d33-9723-1ac5d682c386",
+          "suffix": "018",
+          "rarity": "secret",
+          "imageID": "35a3704d-6b6f-47ee-9ad4-ca18a4be3eb6"
+        },
+        {
+          "id": "b24012e8-54b5-4980-9d4b-9e1dedd7569b",
+          "card": "8e63d38a-3b24-4ae0-9912-09a3b0c8cf87",
+          "suffix": "019",
+          "rarity": "super",
+          "imageID": "96058439-6132-46c9-8a91-d49a3b7e93e4"
+        },
+        {
+          "id": "5f882c50-3782-465c-9704-754988788e57",
+          "card": "8e63d38a-3b24-4ae0-9912-09a3b0c8cf87",
+          "suffix": "019",
+          "rarity": "secret",
+          "imageID": "96058439-6132-46c9-8a91-d49a3b7e93e4"
+        },
+        {
+          "id": "50442248-5929-44e7-9776-7350efb815a4",
+          "card": "fec799d9-b1a6-4651-a8ed-bd14d133b374",
+          "suffix": "020",
+          "rarity": "secret",
+          "imageID": "33500bcf-01ec-4406-bd5e-2e5fc2593899"
+        }
+      ],
+      "externalIDs": {
+        "ygoprodeck": "Premium Pack 2 (TCG)"
+      }
+    },
+    {
+      "locales": [
+        "fr"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "distrobution": "7a25141a-3b6f-4ecd-b763-63b4efb45a86",
+      "packsPerBox": 20,
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//6/65/PP02-BoosterFR.jpg",
+      "cards": [
+        {
+          "id": "ce9d0849-0d11-4a0c-8654-433485a22fc8",
+          "card": "1f1b0d2b-3234-4b09-afa7-b78e1c85e7f1",
+          "suffix": "001",
+          "rarity": "super",
+          "imageID": "fa7b16e0-e932-4e6e-af21-7bbec7b15bf5"
+        },
+        {
+          "id": "88c9cc64-f05b-45c7-97de-1c8ff1fecf76",
+          "card": "1f1b0d2b-3234-4b09-afa7-b78e1c85e7f1",
+          "suffix": "001",
+          "rarity": "secret",
+          "imageID": "fa7b16e0-e932-4e6e-af21-7bbec7b15bf5"
+        },
+        {
+          "id": "4f965adf-658a-4c29-9b7f-353308ebcdc4",
+          "card": "da9d79c2-6a37-4258-9d6b-0b658db41c5a",
+          "suffix": "002",
+          "rarity": "super",
+          "imageID": "022e1b82-336f-46ae-86e9-066e5c7b00b1"
+        },
+        {
+          "id": "ae71a201-92e3-4904-8071-e5ef44fef52d",
+          "card": "da9d79c2-6a37-4258-9d6b-0b658db41c5a",
+          "suffix": "002",
+          "rarity": "secret",
+          "imageID": "022e1b82-336f-46ae-86e9-066e5c7b00b1"
+        },
+        {
+          "id": "656ac49e-bc65-4f1b-9593-707a9148b795",
+          "card": "f6becb57-b021-4b4e-a318-0576a18c7af3",
+          "suffix": "003",
+          "rarity": "super",
+          "imageID": "4904f19a-0265-41c6-9d12-ce7224414ab5"
+        },
+        {
+          "id": "63233a8c-dfc6-4fd4-8337-746de1817b1c",
+          "card": "f6becb57-b021-4b4e-a318-0576a18c7af3",
+          "suffix": "003",
+          "rarity": "secret",
+          "imageID": "4904f19a-0265-41c6-9d12-ce7224414ab5"
+        },
+        {
+          "id": "4ee63cca-b374-4b44-a364-fc18f2584434",
+          "card": "43d98c6e-9a00-4704-9ab3-8b2775d66a71",
+          "suffix": "004",
+          "rarity": "secret",
+          "imageID": "3feccfac-dfbb-4c54-b996-7e164b922809"
+        },
+        {
+          "id": "cc515110-4629-4cc6-82ad-0df28b52ee6a",
+          "card": "1d51a3ef-332c-46f7-981b-7f883e397015",
+          "suffix": "005",
+          "rarity": "super",
+          "imageID": "fbb7496c-b5d9-4564-b7e2-020537b36e94"
+        },
+        {
+          "id": "1a08512c-e819-4055-afa3-a74e7841f61b",
+          "card": "1d51a3ef-332c-46f7-981b-7f883e397015",
+          "suffix": "005",
+          "rarity": "secret",
+          "imageID": "fbb7496c-b5d9-4564-b7e2-020537b36e94"
+        },
+        {
+          "id": "1e39f59d-bf2a-48a8-af07-8f4ef3d7f098",
+          "card": "cd5b4c7a-852a-4afa-831b-5fa1c02cbaff",
+          "suffix": "006",
+          "rarity": "super",
+          "imageID": "7155e669-8d97-452d-80e7-944f55a076fd"
+        },
+        {
+          "id": "a7df9f7c-c01e-4a0b-8eb8-4f5a12d5c325",
+          "card": "cd5b4c7a-852a-4afa-831b-5fa1c02cbaff",
+          "suffix": "006",
+          "rarity": "secret",
+          "imageID": "7155e669-8d97-452d-80e7-944f55a076fd"
+        },
+        {
+          "id": "c50b9645-e89d-4520-84c2-e73db587e6a6",
+          "card": "140f6066-55ce-4bba-a877-b5837bb56730",
+          "suffix": "007",
+          "rarity": "super",
+          "imageID": "2f18e0f8-1e34-4a6b-b2e2-7a03404b0a09"
+        },
+        {
+          "id": "338924cf-663d-4132-83ca-590944537e6e",
+          "card": "140f6066-55ce-4bba-a877-b5837bb56730",
+          "suffix": "007",
+          "rarity": "secret",
+          "imageID": "2f18e0f8-1e34-4a6b-b2e2-7a03404b0a09"
+        },
+        {
+          "id": "c1fa6163-d7a1-4937-ae8b-bd1e8d38fb1c",
+          "card": "b80f9288-027b-4d7b-ae60-61223f1c9778",
+          "suffix": "008",
+          "rarity": "super",
+          "imageID": "9403e312-3ed0-46e3-927a-3809ec0aa7ca"
+        },
+        {
+          "id": "e049fa30-f35c-4f4e-8aef-3194a989b979",
+          "card": "b80f9288-027b-4d7b-ae60-61223f1c9778",
+          "suffix": "008",
+          "rarity": "secret",
+          "imageID": "9403e312-3ed0-46e3-927a-3809ec0aa7ca"
+        },
+        {
+          "id": "4eb2c3c7-4f70-4007-98a6-e7dc3d199ddb",
+          "card": "fdaf24f3-d46a-47c3-8429-867c499db88e",
+          "suffix": "009",
+          "rarity": "secret",
+          "imageID": "bbd19412-5cf1-44b3-9fae-69843ee96945"
+        },
+        {
+          "id": "4d2b6341-7a1d-45af-b34a-7aefce05ffa6",
+          "card": "17ae2728-528d-4fbd-9e2f-4d993683c59a",
+          "suffix": "010",
+          "rarity": "secret",
+          "imageID": "457e38e0-0bda-456f-9d2b-67fbc2196378"
+        },
+        {
+          "id": "55808e4c-3115-4337-a558-d71ea383aa35",
+          "card": "a51e0051-53b1-45ff-bf54-06ba19d03a60",
+          "suffix": "011",
+          "rarity": "super",
+          "imageID": "1957c9bd-fb5f-4162-8c36-c7b23894b040"
+        },
+        {
+          "id": "5392da23-b741-4a3b-8d6c-3451ad6ff785",
+          "card": "a51e0051-53b1-45ff-bf54-06ba19d03a60",
+          "suffix": "011",
+          "rarity": "secret",
+          "imageID": "1957c9bd-fb5f-4162-8c36-c7b23894b040"
+        },
+        {
+          "id": "a223ba1b-4939-425c-bf13-dcfdaf7bc978",
+          "card": "9c839b66-e01f-4606-b2c4-0145ea9e4579",
+          "suffix": "012",
+          "rarity": "secret",
+          "imageID": "ee8bdd48-114d-40ce-9c72-7f53fb4a3644"
+        },
+        {
+          "id": "bf7fffa7-bf2e-4cd4-978b-5b4ee1c0b10b",
+          "card": "ca3e02f2-6da8-4c93-9e24-a625695866bc",
+          "suffix": "013",
+          "rarity": "super",
+          "imageID": "3eb784e6-6c9b-4b74-81d7-afc569e43f0a"
+        },
+        {
+          "id": "349f8d5a-7588-47fb-9c0b-0cdb891cd438",
+          "card": "ca3e02f2-6da8-4c93-9e24-a625695866bc",
+          "suffix": "013",
+          "rarity": "secret",
+          "imageID": "3eb784e6-6c9b-4b74-81d7-afc569e43f0a"
+        },
+        {
+          "id": "e838c895-9c8d-414f-90b1-e0e22ac03863",
+          "card": "55ff1825-03a5-4647-80c3-7a4f45466cbb",
+          "suffix": "014",
+          "rarity": "secret",
+          "imageID": "76094c1f-bed2-46b0-9135-e9025870f5f4"
+        },
+        {
+          "id": "2fde38c0-df19-43b9-b695-9bd12f74da02",
+          "card": "155b10e5-71c5-48db-b838-cd1203fb6387",
+          "suffix": "015",
+          "rarity": "secret",
+          "imageID": "fb19090e-2e21-47c9-a424-31a89d9cd69c"
+        },
+        {
+          "id": "3de0fef1-3375-487e-9c70-f385f67df931",
+          "card": "a4cfb813-b8c2-4d88-9cc8-0a46a2e97571",
+          "suffix": "016",
+          "rarity": "secret",
+          "imageID": "2dc78836-5517-46c7-8cb1-ff02642ac87d"
+        },
+        {
+          "id": "3e7f32af-f646-4ed1-aaad-daf82baf2e8c",
+          "card": "529c2998-6e4a-4533-b2c3-4f9d6ffcb047",
+          "suffix": "017",
+          "rarity": "secret",
+          "imageID": "1ea4ac71-373c-4668-ac40-5c9e9c9613d4"
+        },
+        {
+          "id": "9d13fb67-3659-4f8c-86c7-926c0e1cd47d",
+          "card": "139a01ed-d10b-4d33-9723-1ac5d682c386",
+          "suffix": "018",
+          "rarity": "secret",
+          "imageID": "35a3704d-6b6f-47ee-9ad4-ca18a4be3eb6"
+        },
+        {
+          "id": "b24012e8-54b5-4980-9d4b-9e1dedd7569b",
+          "card": "8e63d38a-3b24-4ae0-9912-09a3b0c8cf87",
+          "suffix": "019",
+          "rarity": "super",
+          "imageID": "96058439-6132-46c9-8a91-d49a3b7e93e4"
+        },
+        {
+          "id": "5f882c50-3782-465c-9704-754988788e57",
+          "card": "8e63d38a-3b24-4ae0-9912-09a3b0c8cf87",
+          "suffix": "019",
+          "rarity": "secret",
+          "imageID": "96058439-6132-46c9-8a91-d49a3b7e93e4"
+        },
+        {
+          "id": "50442248-5929-44e7-9776-7350efb815a4",
+          "card": "fec799d9-b1a6-4651-a8ed-bd14d133b374",
+          "suffix": "020",
+          "rarity": "secret",
+          "imageID": "33500bcf-01ec-4406-bd5e-2e5fc2593899"
+        }
+      ],
+      "externalIDs": {
+        "ygoprodeck": "Premium Pack 2 (TCG)"
+      }
+    },
+    {
+      "locales": [
+        "de"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "distrobution": "7a25141a-3b6f-4ecd-b763-63b4efb45a86",
+      "packsPerBox": 20,
+      "editions": [
+        "unlimited"
+      ],
+      "cards": [
+        {
+          "id": "ce9d0849-0d11-4a0c-8654-433485a22fc8",
+          "card": "1f1b0d2b-3234-4b09-afa7-b78e1c85e7f1",
+          "suffix": "001",
+          "rarity": "super",
+          "imageID": "fa7b16e0-e932-4e6e-af21-7bbec7b15bf5"
+        },
+        {
+          "id": "88c9cc64-f05b-45c7-97de-1c8ff1fecf76",
+          "card": "1f1b0d2b-3234-4b09-afa7-b78e1c85e7f1",
+          "suffix": "001",
+          "rarity": "secret",
+          "imageID": "fa7b16e0-e932-4e6e-af21-7bbec7b15bf5"
+        },
+        {
+          "id": "4f965adf-658a-4c29-9b7f-353308ebcdc4",
+          "card": "da9d79c2-6a37-4258-9d6b-0b658db41c5a",
+          "suffix": "002",
+          "rarity": "super",
+          "imageID": "022e1b82-336f-46ae-86e9-066e5c7b00b1"
+        },
+        {
+          "id": "ae71a201-92e3-4904-8071-e5ef44fef52d",
+          "card": "da9d79c2-6a37-4258-9d6b-0b658db41c5a",
+          "suffix": "002",
+          "rarity": "secret",
+          "imageID": "022e1b82-336f-46ae-86e9-066e5c7b00b1"
+        },
+        {
+          "id": "656ac49e-bc65-4f1b-9593-707a9148b795",
+          "card": "f6becb57-b021-4b4e-a318-0576a18c7af3",
+          "suffix": "003",
+          "rarity": "super",
+          "imageID": "4904f19a-0265-41c6-9d12-ce7224414ab5"
+        },
+        {
+          "id": "63233a8c-dfc6-4fd4-8337-746de1817b1c",
+          "card": "f6becb57-b021-4b4e-a318-0576a18c7af3",
+          "suffix": "003",
+          "rarity": "secret",
+          "imageID": "4904f19a-0265-41c6-9d12-ce7224414ab5"
+        },
+        {
+          "id": "4ee63cca-b374-4b44-a364-fc18f2584434",
+          "card": "43d98c6e-9a00-4704-9ab3-8b2775d66a71",
+          "suffix": "004",
+          "rarity": "secret",
+          "imageID": "3feccfac-dfbb-4c54-b996-7e164b922809"
+        },
+        {
+          "id": "cc515110-4629-4cc6-82ad-0df28b52ee6a",
+          "card": "1d51a3ef-332c-46f7-981b-7f883e397015",
+          "suffix": "005",
+          "rarity": "super",
+          "imageID": "fbb7496c-b5d9-4564-b7e2-020537b36e94"
+        },
+        {
+          "id": "1a08512c-e819-4055-afa3-a74e7841f61b",
+          "card": "1d51a3ef-332c-46f7-981b-7f883e397015",
+          "suffix": "005",
+          "rarity": "secret",
+          "imageID": "fbb7496c-b5d9-4564-b7e2-020537b36e94"
+        },
+        {
+          "id": "1e39f59d-bf2a-48a8-af07-8f4ef3d7f098",
+          "card": "cd5b4c7a-852a-4afa-831b-5fa1c02cbaff",
+          "suffix": "006",
+          "rarity": "super",
+          "imageID": "7155e669-8d97-452d-80e7-944f55a076fd"
+        },
+        {
+          "id": "a7df9f7c-c01e-4a0b-8eb8-4f5a12d5c325",
+          "card": "cd5b4c7a-852a-4afa-831b-5fa1c02cbaff",
+          "suffix": "006",
+          "rarity": "secret",
+          "imageID": "7155e669-8d97-452d-80e7-944f55a076fd"
+        },
+        {
+          "id": "c50b9645-e89d-4520-84c2-e73db587e6a6",
+          "card": "140f6066-55ce-4bba-a877-b5837bb56730",
+          "suffix": "007",
+          "rarity": "super",
+          "imageID": "2f18e0f8-1e34-4a6b-b2e2-7a03404b0a09"
+        },
+        {
+          "id": "338924cf-663d-4132-83ca-590944537e6e",
+          "card": "140f6066-55ce-4bba-a877-b5837bb56730",
+          "suffix": "007",
+          "rarity": "secret",
+          "imageID": "2f18e0f8-1e34-4a6b-b2e2-7a03404b0a09"
+        },
+        {
+          "id": "c1fa6163-d7a1-4937-ae8b-bd1e8d38fb1c",
+          "card": "b80f9288-027b-4d7b-ae60-61223f1c9778",
+          "suffix": "008",
+          "rarity": "super",
+          "imageID": "9403e312-3ed0-46e3-927a-3809ec0aa7ca"
+        },
+        {
+          "id": "e049fa30-f35c-4f4e-8aef-3194a989b979",
+          "card": "b80f9288-027b-4d7b-ae60-61223f1c9778",
+          "suffix": "008",
+          "rarity": "secret",
+          "imageID": "9403e312-3ed0-46e3-927a-3809ec0aa7ca"
+        },
+        {
+          "id": "4eb2c3c7-4f70-4007-98a6-e7dc3d199ddb",
+          "card": "fdaf24f3-d46a-47c3-8429-867c499db88e",
+          "suffix": "009",
+          "rarity": "secret",
+          "imageID": "bbd19412-5cf1-44b3-9fae-69843ee96945"
+        },
+        {
+          "id": "4d2b6341-7a1d-45af-b34a-7aefce05ffa6",
+          "card": "17ae2728-528d-4fbd-9e2f-4d993683c59a",
+          "suffix": "010",
+          "rarity": "secret",
+          "imageID": "457e38e0-0bda-456f-9d2b-67fbc2196378"
+        },
+        {
+          "id": "55808e4c-3115-4337-a558-d71ea383aa35",
+          "card": "a51e0051-53b1-45ff-bf54-06ba19d03a60",
+          "suffix": "011",
+          "rarity": "super",
+          "imageID": "1957c9bd-fb5f-4162-8c36-c7b23894b040"
+        },
+        {
+          "id": "5392da23-b741-4a3b-8d6c-3451ad6ff785",
+          "card": "a51e0051-53b1-45ff-bf54-06ba19d03a60",
+          "suffix": "011",
+          "rarity": "secret",
+          "imageID": "1957c9bd-fb5f-4162-8c36-c7b23894b040"
+        },
+        {
+          "id": "a223ba1b-4939-425c-bf13-dcfdaf7bc978",
+          "card": "9c839b66-e01f-4606-b2c4-0145ea9e4579",
+          "suffix": "012",
+          "rarity": "secret",
+          "imageID": "ee8bdd48-114d-40ce-9c72-7f53fb4a3644"
+        },
+        {
+          "id": "bf7fffa7-bf2e-4cd4-978b-5b4ee1c0b10b",
+          "card": "ca3e02f2-6da8-4c93-9e24-a625695866bc",
+          "suffix": "013",
+          "rarity": "super",
+          "imageID": "3eb784e6-6c9b-4b74-81d7-afc569e43f0a"
+        },
+        {
+          "id": "349f8d5a-7588-47fb-9c0b-0cdb891cd438",
+          "card": "ca3e02f2-6da8-4c93-9e24-a625695866bc",
+          "suffix": "013",
+          "rarity": "secret",
+          "imageID": "3eb784e6-6c9b-4b74-81d7-afc569e43f0a"
+        },
+        {
+          "id": "e838c895-9c8d-414f-90b1-e0e22ac03863",
+          "card": "55ff1825-03a5-4647-80c3-7a4f45466cbb",
+          "suffix": "014",
+          "rarity": "secret",
+          "imageID": "76094c1f-bed2-46b0-9135-e9025870f5f4"
+        },
+        {
+          "id": "2fde38c0-df19-43b9-b695-9bd12f74da02",
+          "card": "155b10e5-71c5-48db-b838-cd1203fb6387",
+          "suffix": "015",
+          "rarity": "secret",
+          "imageID": "fb19090e-2e21-47c9-a424-31a89d9cd69c"
+        },
+        {
+          "id": "3de0fef1-3375-487e-9c70-f385f67df931",
+          "card": "a4cfb813-b8c2-4d88-9cc8-0a46a2e97571",
+          "suffix": "016",
+          "rarity": "secret",
+          "imageID": "2dc78836-5517-46c7-8cb1-ff02642ac87d"
+        },
+        {
+          "id": "3e7f32af-f646-4ed1-aaad-daf82baf2e8c",
+          "card": "529c2998-6e4a-4533-b2c3-4f9d6ffcb047",
+          "suffix": "017",
+          "rarity": "secret",
+          "imageID": "1ea4ac71-373c-4668-ac40-5c9e9c9613d4"
+        },
+        {
+          "id": "9d13fb67-3659-4f8c-86c7-926c0e1cd47d",
+          "card": "139a01ed-d10b-4d33-9723-1ac5d682c386",
+          "suffix": "018",
+          "rarity": "secret",
+          "imageID": "35a3704d-6b6f-47ee-9ad4-ca18a4be3eb6"
+        },
+        {
+          "id": "b24012e8-54b5-4980-9d4b-9e1dedd7569b",
+          "card": "8e63d38a-3b24-4ae0-9912-09a3b0c8cf87",
+          "suffix": "019",
+          "rarity": "super",
+          "imageID": "96058439-6132-46c9-8a91-d49a3b7e93e4"
+        },
+        {
+          "id": "5f882c50-3782-465c-9704-754988788e57",
+          "card": "8e63d38a-3b24-4ae0-9912-09a3b0c8cf87",
+          "suffix": "019",
+          "rarity": "secret",
+          "imageID": "96058439-6132-46c9-8a91-d49a3b7e93e4"
+        },
+        {
+          "id": "50442248-5929-44e7-9776-7350efb815a4",
+          "card": "fec799d9-b1a6-4651-a8ed-bd14d133b374",
+          "suffix": "020",
+          "rarity": "secret",
+          "imageID": "33500bcf-01ec-4406-bd5e-2e5fc2593899"
+        }
+      ],
+      "externalIDs": {
+        "ygoprodeck": "Premium Pack 2 (TCG)"
+      }
+    },
+    {
+      "locales": [
+        "it"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "distrobution": "7a25141a-3b6f-4ecd-b763-63b4efb45a86",
+      "packsPerBox": 20,
+      "editions": [
+        "unlimited"
+      ],
+      "cards": [
+        {
+          "id": "ce9d0849-0d11-4a0c-8654-433485a22fc8",
+          "card": "1f1b0d2b-3234-4b09-afa7-b78e1c85e7f1",
+          "suffix": "001",
+          "rarity": "super",
+          "imageID": "fa7b16e0-e932-4e6e-af21-7bbec7b15bf5"
+        },
+        {
+          "id": "88c9cc64-f05b-45c7-97de-1c8ff1fecf76",
+          "card": "1f1b0d2b-3234-4b09-afa7-b78e1c85e7f1",
+          "suffix": "001",
+          "rarity": "secret",
+          "imageID": "fa7b16e0-e932-4e6e-af21-7bbec7b15bf5"
+        },
+        {
+          "id": "4f965adf-658a-4c29-9b7f-353308ebcdc4",
+          "card": "da9d79c2-6a37-4258-9d6b-0b658db41c5a",
+          "suffix": "002",
+          "rarity": "super",
+          "imageID": "022e1b82-336f-46ae-86e9-066e5c7b00b1"
+        },
+        {
+          "id": "ae71a201-92e3-4904-8071-e5ef44fef52d",
+          "card": "da9d79c2-6a37-4258-9d6b-0b658db41c5a",
+          "suffix": "002",
+          "rarity": "secret",
+          "imageID": "022e1b82-336f-46ae-86e9-066e5c7b00b1"
+        },
+        {
+          "id": "656ac49e-bc65-4f1b-9593-707a9148b795",
+          "card": "f6becb57-b021-4b4e-a318-0576a18c7af3",
+          "suffix": "003",
+          "rarity": "super",
+          "imageID": "4904f19a-0265-41c6-9d12-ce7224414ab5"
+        },
+        {
+          "id": "63233a8c-dfc6-4fd4-8337-746de1817b1c",
+          "card": "f6becb57-b021-4b4e-a318-0576a18c7af3",
+          "suffix": "003",
+          "rarity": "secret",
+          "imageID": "4904f19a-0265-41c6-9d12-ce7224414ab5"
+        },
+        {
+          "id": "4ee63cca-b374-4b44-a364-fc18f2584434",
+          "card": "43d98c6e-9a00-4704-9ab3-8b2775d66a71",
+          "suffix": "004",
+          "rarity": "secret",
+          "imageID": "3feccfac-dfbb-4c54-b996-7e164b922809"
+        },
+        {
+          "id": "cc515110-4629-4cc6-82ad-0df28b52ee6a",
+          "card": "1d51a3ef-332c-46f7-981b-7f883e397015",
+          "suffix": "005",
+          "rarity": "super",
+          "imageID": "fbb7496c-b5d9-4564-b7e2-020537b36e94"
+        },
+        {
+          "id": "1a08512c-e819-4055-afa3-a74e7841f61b",
+          "card": "1d51a3ef-332c-46f7-981b-7f883e397015",
+          "suffix": "005",
+          "rarity": "secret",
+          "imageID": "fbb7496c-b5d9-4564-b7e2-020537b36e94"
+        },
+        {
+          "id": "1e39f59d-bf2a-48a8-af07-8f4ef3d7f098",
+          "card": "cd5b4c7a-852a-4afa-831b-5fa1c02cbaff",
+          "suffix": "006",
+          "rarity": "super",
+          "imageID": "7155e669-8d97-452d-80e7-944f55a076fd"
+        },
+        {
+          "id": "a7df9f7c-c01e-4a0b-8eb8-4f5a12d5c325",
+          "card": "cd5b4c7a-852a-4afa-831b-5fa1c02cbaff",
+          "suffix": "006",
+          "rarity": "secret",
+          "imageID": "7155e669-8d97-452d-80e7-944f55a076fd"
+        },
+        {
+          "id": "c50b9645-e89d-4520-84c2-e73db587e6a6",
+          "card": "140f6066-55ce-4bba-a877-b5837bb56730",
+          "suffix": "007",
+          "rarity": "super",
+          "imageID": "2f18e0f8-1e34-4a6b-b2e2-7a03404b0a09"
+        },
+        {
+          "id": "338924cf-663d-4132-83ca-590944537e6e",
+          "card": "140f6066-55ce-4bba-a877-b5837bb56730",
+          "suffix": "007",
+          "rarity": "secret",
+          "imageID": "2f18e0f8-1e34-4a6b-b2e2-7a03404b0a09"
+        },
+        {
+          "id": "c1fa6163-d7a1-4937-ae8b-bd1e8d38fb1c",
+          "card": "b80f9288-027b-4d7b-ae60-61223f1c9778",
+          "suffix": "008",
+          "rarity": "super",
+          "imageID": "9403e312-3ed0-46e3-927a-3809ec0aa7ca"
+        },
+        {
+          "id": "e049fa30-f35c-4f4e-8aef-3194a989b979",
+          "card": "b80f9288-027b-4d7b-ae60-61223f1c9778",
+          "suffix": "008",
+          "rarity": "secret",
+          "imageID": "9403e312-3ed0-46e3-927a-3809ec0aa7ca"
+        },
+        {
+          "id": "4eb2c3c7-4f70-4007-98a6-e7dc3d199ddb",
+          "card": "fdaf24f3-d46a-47c3-8429-867c499db88e",
+          "suffix": "009",
+          "rarity": "secret",
+          "imageID": "bbd19412-5cf1-44b3-9fae-69843ee96945"
+        },
+        {
+          "id": "4d2b6341-7a1d-45af-b34a-7aefce05ffa6",
+          "card": "17ae2728-528d-4fbd-9e2f-4d993683c59a",
+          "suffix": "010",
+          "rarity": "secret",
+          "imageID": "457e38e0-0bda-456f-9d2b-67fbc2196378"
+        },
+        {
+          "id": "55808e4c-3115-4337-a558-d71ea383aa35",
+          "card": "a51e0051-53b1-45ff-bf54-06ba19d03a60",
+          "suffix": "011",
+          "rarity": "super",
+          "imageID": "1957c9bd-fb5f-4162-8c36-c7b23894b040"
+        },
+        {
+          "id": "5392da23-b741-4a3b-8d6c-3451ad6ff785",
+          "card": "a51e0051-53b1-45ff-bf54-06ba19d03a60",
+          "suffix": "011",
+          "rarity": "secret",
+          "imageID": "1957c9bd-fb5f-4162-8c36-c7b23894b040"
+        },
+        {
+          "id": "a223ba1b-4939-425c-bf13-dcfdaf7bc978",
+          "card": "9c839b66-e01f-4606-b2c4-0145ea9e4579",
+          "suffix": "012",
+          "rarity": "secret",
+          "imageID": "ee8bdd48-114d-40ce-9c72-7f53fb4a3644"
+        },
+        {
+          "id": "bf7fffa7-bf2e-4cd4-978b-5b4ee1c0b10b",
+          "card": "ca3e02f2-6da8-4c93-9e24-a625695866bc",
+          "suffix": "013",
+          "rarity": "super",
+          "imageID": "3eb784e6-6c9b-4b74-81d7-afc569e43f0a"
+        },
+        {
+          "id": "349f8d5a-7588-47fb-9c0b-0cdb891cd438",
+          "card": "ca3e02f2-6da8-4c93-9e24-a625695866bc",
+          "suffix": "013",
+          "rarity": "secret",
+          "imageID": "3eb784e6-6c9b-4b74-81d7-afc569e43f0a"
+        },
+        {
+          "id": "e838c895-9c8d-414f-90b1-e0e22ac03863",
+          "card": "55ff1825-03a5-4647-80c3-7a4f45466cbb",
+          "suffix": "014",
+          "rarity": "secret",
+          "imageID": "76094c1f-bed2-46b0-9135-e9025870f5f4"
+        },
+        {
+          "id": "2fde38c0-df19-43b9-b695-9bd12f74da02",
+          "card": "155b10e5-71c5-48db-b838-cd1203fb6387",
+          "suffix": "015",
+          "rarity": "secret",
+          "imageID": "fb19090e-2e21-47c9-a424-31a89d9cd69c"
+        },
+        {
+          "id": "3de0fef1-3375-487e-9c70-f385f67df931",
+          "card": "a4cfb813-b8c2-4d88-9cc8-0a46a2e97571",
+          "suffix": "016",
+          "rarity": "secret",
+          "imageID": "2dc78836-5517-46c7-8cb1-ff02642ac87d"
+        },
+        {
+          "id": "3e7f32af-f646-4ed1-aaad-daf82baf2e8c",
+          "card": "529c2998-6e4a-4533-b2c3-4f9d6ffcb047",
+          "suffix": "017",
+          "rarity": "secret",
+          "imageID": "1ea4ac71-373c-4668-ac40-5c9e9c9613d4"
+        },
+        {
+          "id": "9d13fb67-3659-4f8c-86c7-926c0e1cd47d",
+          "card": "139a01ed-d10b-4d33-9723-1ac5d682c386",
+          "suffix": "018",
+          "rarity": "secret",
+          "imageID": "35a3704d-6b6f-47ee-9ad4-ca18a4be3eb6"
+        },
+        {
+          "id": "b24012e8-54b5-4980-9d4b-9e1dedd7569b",
+          "card": "8e63d38a-3b24-4ae0-9912-09a3b0c8cf87",
+          "suffix": "019",
+          "rarity": "super",
+          "imageID": "96058439-6132-46c9-8a91-d49a3b7e93e4"
+        },
+        {
+          "id": "5f882c50-3782-465c-9704-754988788e57",
+          "card": "8e63d38a-3b24-4ae0-9912-09a3b0c8cf87",
+          "suffix": "019",
+          "rarity": "secret",
+          "imageID": "96058439-6132-46c9-8a91-d49a3b7e93e4"
+        },
+        {
+          "id": "50442248-5929-44e7-9776-7350efb815a4",
+          "card": "fec799d9-b1a6-4651-a8ed-bd14d133b374",
+          "suffix": "020",
+          "rarity": "secret",
+          "imageID": "33500bcf-01ec-4406-bd5e-2e5fc2593899"
+        }
+      ],
+      "externalIDs": {
+        "ygoprodeck": "Premium Pack 2 (TCG)"
+      }
+    },
+    {
+      "locales": [
+        "sp"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "distrobution": "7a25141a-3b6f-4ecd-b763-63b4efb45a86",
+      "packsPerBox": 20,
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//a/a0/PP02-BoosterSP.png",
+      "cards": [
+        {
+          "id": "ce9d0849-0d11-4a0c-8654-433485a22fc8",
+          "card": "1f1b0d2b-3234-4b09-afa7-b78e1c85e7f1",
+          "suffix": "001",
+          "rarity": "super",
+          "imageID": "fa7b16e0-e932-4e6e-af21-7bbec7b15bf5"
+        },
+        {
+          "id": "88c9cc64-f05b-45c7-97de-1c8ff1fecf76",
+          "card": "1f1b0d2b-3234-4b09-afa7-b78e1c85e7f1",
+          "suffix": "001",
+          "rarity": "secret",
+          "imageID": "fa7b16e0-e932-4e6e-af21-7bbec7b15bf5"
+        },
+        {
+          "id": "4f965adf-658a-4c29-9b7f-353308ebcdc4",
+          "card": "da9d79c2-6a37-4258-9d6b-0b658db41c5a",
+          "suffix": "002",
+          "rarity": "super",
+          "imageID": "022e1b82-336f-46ae-86e9-066e5c7b00b1"
+        },
+        {
+          "id": "ae71a201-92e3-4904-8071-e5ef44fef52d",
+          "card": "da9d79c2-6a37-4258-9d6b-0b658db41c5a",
+          "suffix": "002",
+          "rarity": "secret",
+          "imageID": "022e1b82-336f-46ae-86e9-066e5c7b00b1"
+        },
+        {
+          "id": "656ac49e-bc65-4f1b-9593-707a9148b795",
+          "card": "f6becb57-b021-4b4e-a318-0576a18c7af3",
+          "suffix": "003",
+          "rarity": "super",
+          "imageID": "4904f19a-0265-41c6-9d12-ce7224414ab5"
+        },
+        {
+          "id": "63233a8c-dfc6-4fd4-8337-746de1817b1c",
+          "card": "f6becb57-b021-4b4e-a318-0576a18c7af3",
+          "suffix": "003",
+          "rarity": "secret",
+          "imageID": "4904f19a-0265-41c6-9d12-ce7224414ab5"
+        },
+        {
+          "id": "4ee63cca-b374-4b44-a364-fc18f2584434",
+          "card": "43d98c6e-9a00-4704-9ab3-8b2775d66a71",
+          "suffix": "004",
+          "rarity": "secret",
+          "imageID": "3feccfac-dfbb-4c54-b996-7e164b922809"
+        },
+        {
+          "id": "cc515110-4629-4cc6-82ad-0df28b52ee6a",
+          "card": "1d51a3ef-332c-46f7-981b-7f883e397015",
+          "suffix": "005",
+          "rarity": "super",
+          "imageID": "fbb7496c-b5d9-4564-b7e2-020537b36e94"
+        },
+        {
+          "id": "1a08512c-e819-4055-afa3-a74e7841f61b",
+          "card": "1d51a3ef-332c-46f7-981b-7f883e397015",
+          "suffix": "005",
+          "rarity": "secret",
+          "imageID": "fbb7496c-b5d9-4564-b7e2-020537b36e94"
+        },
+        {
+          "id": "1e39f59d-bf2a-48a8-af07-8f4ef3d7f098",
+          "card": "cd5b4c7a-852a-4afa-831b-5fa1c02cbaff",
+          "suffix": "006",
+          "rarity": "super",
+          "imageID": "7155e669-8d97-452d-80e7-944f55a076fd"
+        },
+        {
+          "id": "a7df9f7c-c01e-4a0b-8eb8-4f5a12d5c325",
+          "card": "cd5b4c7a-852a-4afa-831b-5fa1c02cbaff",
+          "suffix": "006",
+          "rarity": "secret",
+          "imageID": "7155e669-8d97-452d-80e7-944f55a076fd"
+        },
+        {
+          "id": "c50b9645-e89d-4520-84c2-e73db587e6a6",
+          "card": "140f6066-55ce-4bba-a877-b5837bb56730",
+          "suffix": "007",
+          "rarity": "super",
+          "imageID": "2f18e0f8-1e34-4a6b-b2e2-7a03404b0a09"
+        },
+        {
+          "id": "338924cf-663d-4132-83ca-590944537e6e",
+          "card": "140f6066-55ce-4bba-a877-b5837bb56730",
+          "suffix": "007",
+          "rarity": "secret",
+          "imageID": "2f18e0f8-1e34-4a6b-b2e2-7a03404b0a09"
+        },
+        {
+          "id": "c1fa6163-d7a1-4937-ae8b-bd1e8d38fb1c",
+          "card": "b80f9288-027b-4d7b-ae60-61223f1c9778",
+          "suffix": "008",
+          "rarity": "super",
+          "imageID": "9403e312-3ed0-46e3-927a-3809ec0aa7ca"
+        },
+        {
+          "id": "e049fa30-f35c-4f4e-8aef-3194a989b979",
+          "card": "b80f9288-027b-4d7b-ae60-61223f1c9778",
+          "suffix": "008",
+          "rarity": "secret",
+          "imageID": "9403e312-3ed0-46e3-927a-3809ec0aa7ca"
+        },
+        {
+          "id": "4eb2c3c7-4f70-4007-98a6-e7dc3d199ddb",
+          "card": "fdaf24f3-d46a-47c3-8429-867c499db88e",
+          "suffix": "009",
+          "rarity": "secret",
+          "imageID": "bbd19412-5cf1-44b3-9fae-69843ee96945"
+        },
+        {
+          "id": "4d2b6341-7a1d-45af-b34a-7aefce05ffa6",
+          "card": "17ae2728-528d-4fbd-9e2f-4d993683c59a",
+          "suffix": "010",
+          "rarity": "secret",
+          "imageID": "457e38e0-0bda-456f-9d2b-67fbc2196378"
+        },
+        {
+          "id": "55808e4c-3115-4337-a558-d71ea383aa35",
+          "card": "a51e0051-53b1-45ff-bf54-06ba19d03a60",
+          "suffix": "011",
+          "rarity": "super",
+          "imageID": "1957c9bd-fb5f-4162-8c36-c7b23894b040"
+        },
+        {
+          "id": "5392da23-b741-4a3b-8d6c-3451ad6ff785",
+          "card": "a51e0051-53b1-45ff-bf54-06ba19d03a60",
+          "suffix": "011",
+          "rarity": "secret",
+          "imageID": "1957c9bd-fb5f-4162-8c36-c7b23894b040"
+        },
+        {
+          "id": "a223ba1b-4939-425c-bf13-dcfdaf7bc978",
+          "card": "9c839b66-e01f-4606-b2c4-0145ea9e4579",
+          "suffix": "012",
+          "rarity": "secret",
+          "imageID": "ee8bdd48-114d-40ce-9c72-7f53fb4a3644"
+        },
+        {
+          "id": "bf7fffa7-bf2e-4cd4-978b-5b4ee1c0b10b",
+          "card": "ca3e02f2-6da8-4c93-9e24-a625695866bc",
+          "suffix": "013",
+          "rarity": "super",
+          "imageID": "3eb784e6-6c9b-4b74-81d7-afc569e43f0a"
+        },
+        {
+          "id": "349f8d5a-7588-47fb-9c0b-0cdb891cd438",
+          "card": "ca3e02f2-6da8-4c93-9e24-a625695866bc",
+          "suffix": "013",
+          "rarity": "secret",
+          "imageID": "3eb784e6-6c9b-4b74-81d7-afc569e43f0a"
+        },
+        {
+          "id": "e838c895-9c8d-414f-90b1-e0e22ac03863",
+          "card": "55ff1825-03a5-4647-80c3-7a4f45466cbb",
+          "suffix": "014",
+          "rarity": "secret",
+          "imageID": "76094c1f-bed2-46b0-9135-e9025870f5f4"
+        },
+        {
+          "id": "2fde38c0-df19-43b9-b695-9bd12f74da02",
+          "card": "155b10e5-71c5-48db-b838-cd1203fb6387",
+          "suffix": "015",
+          "rarity": "secret",
+          "imageID": "fb19090e-2e21-47c9-a424-31a89d9cd69c"
+        },
+        {
+          "id": "3de0fef1-3375-487e-9c70-f385f67df931",
+          "card": "a4cfb813-b8c2-4d88-9cc8-0a46a2e97571",
+          "suffix": "016",
+          "rarity": "secret",
+          "imageID": "2dc78836-5517-46c7-8cb1-ff02642ac87d"
+        },
+        {
+          "id": "3e7f32af-f646-4ed1-aaad-daf82baf2e8c",
+          "card": "529c2998-6e4a-4533-b2c3-4f9d6ffcb047",
+          "suffix": "017",
+          "rarity": "secret",
+          "imageID": "1ea4ac71-373c-4668-ac40-5c9e9c9613d4"
+        },
+        {
+          "id": "9d13fb67-3659-4f8c-86c7-926c0e1cd47d",
+          "card": "139a01ed-d10b-4d33-9723-1ac5d682c386",
+          "suffix": "018",
+          "rarity": "secret",
+          "imageID": "35a3704d-6b6f-47ee-9ad4-ca18a4be3eb6"
+        },
+        {
+          "id": "b24012e8-54b5-4980-9d4b-9e1dedd7569b",
+          "card": "8e63d38a-3b24-4ae0-9912-09a3b0c8cf87",
+          "suffix": "019",
+          "rarity": "super",
+          "imageID": "96058439-6132-46c9-8a91-d49a3b7e93e4"
+        },
+        {
+          "id": "5f882c50-3782-465c-9704-754988788e57",
+          "card": "8e63d38a-3b24-4ae0-9912-09a3b0c8cf87",
+          "suffix": "019",
+          "rarity": "secret",
+          "imageID": "96058439-6132-46c9-8a91-d49a3b7e93e4"
+        },
+        {
+          "id": "50442248-5929-44e7-9776-7350efb815a4",
+          "card": "fec799d9-b1a6-4651-a8ed-bd14d133b374",
+          "suffix": "020",
+          "rarity": "secret",
+          "imageID": "33500bcf-01ec-4406-bd5e-2e5fc2593899"
+        }
+      ],
+      "externalIDs": {
+        "ygoprodeck": "Premium Pack 2 (TCG)"
+      }
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Premium Pack 2 (TCG)",
+      "id": 48956
+    }
+  }
+}

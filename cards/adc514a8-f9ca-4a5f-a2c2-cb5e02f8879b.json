@@ -1,0 +1,58 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "adc514a8-f9ca-4a5f-a2c2-cb5e02f8879b",
+  "text": {
+    "en": {
+      "name": "Karatake the Talismanic Warrior",
+      "effect": "Inflict damage to your opponent equal to [the number of Spell/Trap Cards on your opponent's field] x 200."
+    },
+    "ja": {
+      "name": "\u9670\u967d\u58eb\u30ab\u30e9\u30bf\u30b1",
+      "effect": "\uff3b\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u9b54\u6cd5\u30fb\u7f60\u30ab\u30fc\u30c9\u306e\u6570\uff3d\u00d7\uff12\uff10\uff10\u30c0\u30e1\u30fc\u30b8\u3092\u76f8\u624b\u306b\u4e0e\u3048\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc74c\uc591\uc0ac \uce74\ub77c\ud0c0\ucf00",
+      "effect": "[\uc0c1\ub300 \ud544\ub4dc\uc758 \ub9c8\ubc95 / \ud568\uc815 \uce74\ub4dc\uc758 \uc218] \u00d7 200 \ub370\ubbf8\uc9c0\ub97c \uc0c1\ub300\uc5d0\uac8c \uc900\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1000,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "2bfd3933-861d-42c7-8bdc-eb8ddf4022cd",
+      "card": "https://ms.yugipedia.com//0/07/KarataketheTalismanicWarrior-RDSD0B-JP-C.png"
+    }
+  ],
+  "sets": [
+    "f97239a1-ffdc-49fe-a78c-d89fc57c1403",
+    "236e70bf-ca1c-4270-aabb-5afa47fdc1e2",
+    "a5eedf36-311c-4849-a732-d96430b8e8cc",
+    "800a7d3b-5bf8-4d9e-b88b-3ec6be2416b7",
+    "4758595f-fc6c-4993-9a71-0738f485c6c9",
+    "fab3640e-34f2-410e-8c1b-6c7386795132",
+    "fab3640e-34f2-410e-8c1b-6c7386795132",
+    "4c887f72-12bb-4f1a-80de-38526bb09a9e"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "n"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Karatake the Talismanic Warrior",
+        "id": 715506
+      }
+    ],
+    "dbID": 17222
+  },
+  "series": []
+}

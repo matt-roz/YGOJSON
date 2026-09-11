@@ -1,0 +1,965 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "d31b8f82-e97d-4c0a-badf-58b14c1f31e3",
+  "name": {
+    "en": "Gold Series",
+    "ja": "\uff27\uff2f\uff2c\uff24 \uff33\uff25\uff32\uff29\uff25\uff33",
+    "ko": "\uff27\uff2f\uff2c\uff24 \uff33\uff25\uff32\uff29\uff25\uff33"
+  },
+  "locales": {
+    "jp": {
+      "language": "ja",
+      "prefix": "GS01-JP",
+      "date": "2009-01-17",
+      "image": "https://ms.yugipedia.com//a/a4/GS01-BoosterJP.png",
+      "cardImages": {
+        "unlimited": {
+          "0c47aa08-e7b6-41fb-ba41-bdf6ef8043da": "https://ms.yugipedia.com//c/c1/Scapegoat-GS01-JP-C.jpg",
+          "1230cd71-ecd3-433f-8ed6-ef95ca272a18": "https://ms.yugipedia.com//a/aa/MonsterReborn-GS01-JP-GUR.png",
+          "1972acbe-c09d-4aeb-88be-96350c9805d7": "https://ms.yugipedia.com//8/8d/SwordsofRevealingLight-GS01-JP-GUR.jpg",
+          "24e8237a-d351-4123-8100-c69b5904602f": "https://ms.yugipedia.com//7/78/MysticalSpaceTyphoon-GS01-JP-GUR.jpg",
+          "2a67fefb-3c08-4159-afdd-56a8e13cb32b": "https://ms.yugipedia.com//3/34/HeavyStorm-GS01-JP-C.jpg",
+          "2c9cc405-7f33-436c-ae48-4e4e63570ab4": "https://ms.yugipedia.com//5/51/Watapon-GS01-JP-GUR.jpg",
+          "3b193f4d-7f4e-47f9-99ef-118f7c29618d": "https://ms.yugipedia.com//f/f1/Honest-GS01-JP-GUR.jpg",
+          "3e2a3fd2-20ea-4d20-b54a-05a1b1912865": "https://ms.yugipedia.com//f/fe/Dandylion-GS01-JP-GUR.jpg",
+          "400c1e59-8ea7-40be-8359-706f88daae1b": "https://ms.yugipedia.com//0/0b/Jinzo-GS01-JP-GUR.jpg",
+          "40c86044-feb9-43f1-bb54-582a81a5c96a": "https://ms.yugipedia.com//6/61/MirrorForce-GS01-JP-C.jpg",
+          "424e8936-b2e0-4920-b8c8-0c8136639c5c": "https://ms.yugipedia.com//9/9b/BottomlessTrapHole-GS01-JP-C.jpg",
+          "4308f984-1dda-4120-b952-0909f04acbc3": "https://ms.yugipedia.com//1/14/Scapegoat-GS01-JP-GUR.jpg",
+          "49f1029d-45eb-45a9-88de-1e0d9aab0b9d": "https://ms.yugipedia.com//c/c8/MirrorForce-GS01-JP-GUR.jpg",
+          "54f63e36-4fb5-4d25-948f-e3a1a8933a44": "https://ms.yugipedia.com//8/82/TorrentialTribute-GS01-JP-GUR.png",
+          "615e512b-e6e6-4092-8096-ebc0cf971662": "https://ms.yugipedia.com//a/a4/CyberDragon-GS01-JP-C.jpg",
+          "6488f1cc-a225-4204-81c2-aa56e1608171": "https://ms.yugipedia.com//9/9a/BrionacDragonoftheIceBarrier-GS01-JP-GUR.jpg",
+          "695569c9-0e86-49a9-9337-5bc9e150b82b": "https://ms.yugipedia.com//0/00/Marshmallon-GS01-JP-C.jpg",
+          "6d4e2be3-2057-40c6-afe8-e7f3d666dbab": "https://ms.yugipedia.com//f/f2/RoyalDecree-GS01-JP-C.jpg",
+          "7372fc5b-99cd-45a5-92a5-4010c210994c": "https://ms.yugipedia.com//3/35/Sangan-GS01-JP-C.jpg",
+          "74da0f21-de8b-4221-a900-8018f32e8f4a": "https://ms.yugipedia.com//1/1d/Watapon-GS01-JP-C.jpg",
+          "801b4f87-0d48-40a2-a4d5-58756dac32ad": "https://ms.yugipedia.com//a/a3/BrionacDragonoftheIceBarrier-GS01-JP-NR.jpg",
+          "8c78094e-7abd-4d13-88ac-7d27bab48664": "https://ms.yugipedia.com//a/ae/ExodiatheForbiddenOne-GS01-JP-C.jpg",
+          "8dfc9bf9-6a78-4176-ac34-ed7d0a72be83": "https://ms.yugipedia.com//2/2c/Sangan-GS01-JP-GUR.jpg",
+          "953162a4-ec2b-4fc5-bfa3-21476ce402e1": "https://ms.yugipedia.com//3/39/Dandylion-GS01-JP-NR.jpg",
+          "9f83d569-6bdd-456d-8cba-e248127f1978": "https://ms.yugipedia.com//d/de/HeavyStorm-GS01-JP-GUR.jpg",
+          "b9b9b405-647e-4149-8a25-2e67d9ef8940": "https://ms.yugipedia.com//5/51/RaizatheStormMonarch-GS01-JP-C.jpg",
+          "c4e29619-40a0-47f7-9d74-784b4da203a9": "https://ms.yugipedia.com//9/9d/TorrentialTribute-GS01-JP-C.png",
+          "c62ee4eb-1f32-4efb-9796-f088f0137560": "https://ms.yugipedia.com//1/15/Marshmallon-GS01-JP-GUR.jpg",
+          "cfdb837f-494d-4169-bcac-8dfd13ff586d": "https://ms.yugipedia.com//7/77/RaizatheStormMonarch-GS01-JP-GUR.jpg",
+          "d824a0b1-9e1e-42af-8a08-4f0c0c2d8679": "https://ms.yugipedia.com//c/c2/RoyalDecree-GS01-JP-GUR.jpg",
+          "dd9d4df4-e225-4097-92a0-ec7a1f3637bd": "https://ms.yugipedia.com//9/99/Honest-GS01-JP-C.jpg",
+          "df2d69d5-6f89-413b-8ef3-a84d9da48593": "https://ms.yugipedia.com//9/95/Jinzo-GS01-JP-C.jpg",
+          "e300f872-deaf-49a7-ad84-d1b07ea56af0": "https://ms.yugipedia.com//6/63/CyberDragon-GS01-JP-GUR.jpg",
+          "ef7f0cd4-cd40-47af-9175-3f86048926c1": "https://ms.yugipedia.com//a/ab/SwordsofRevealingLight-GS01-JP-C.jpg",
+          "f4fb603f-f87d-4e0c-a937-9c8374b9c983": "https://ms.yugipedia.com//f/f0/CrushCardVirus-GS01-JP-C.jpg",
+          "f6d44d5a-a51b-446b-9cf9-6a91e27bfa2d": "https://ms.yugipedia.com//a/a7/CrushCardVirus-GS01-JP-GUR.jpg",
+          "f829441e-801f-43be-9edd-d4da9ce70ff7": "https://ms.yugipedia.com//6/60/MonsterReborn-GS01-JP-C.png",
+          "fa10bde9-8210-482e-b4f1-284566e4c689": "https://ms.yugipedia.com//4/4e/ExodiatheForbiddenOne-GS01-JP-GUR.jpg",
+          "fb840cc7-7157-4c58-be87-734ff3b72f5d": "https://ms.yugipedia.com//a/a2/BottomlessTrapHole-GS01-JP-GUR.jpg",
+          "fd8ad9fa-1102-44aa-8fc7-82e099d79f3d": "https://ms.yugipedia.com//1/11/MysticalSpaceTyphoon-GS01-JP-C.jpg"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "0c47aa08-e7b6-41fb-ba41-bdf6ef8043da": {
+            "image": "https://ms.yugipedia.com//c/c1/Scapegoat-GS01-JP-C.jpg"
+          },
+          "1230cd71-ecd3-433f-8ed6-ef95ca272a18": {
+            "image": "https://ms.yugipedia.com//a/aa/MonsterReborn-GS01-JP-GUR.png"
+          },
+          "1972acbe-c09d-4aeb-88be-96350c9805d7": {
+            "image": "https://ms.yugipedia.com//8/8d/SwordsofRevealingLight-GS01-JP-GUR.jpg"
+          },
+          "24e8237a-d351-4123-8100-c69b5904602f": {
+            "image": "https://ms.yugipedia.com//7/78/MysticalSpaceTyphoon-GS01-JP-GUR.jpg"
+          },
+          "2a67fefb-3c08-4159-afdd-56a8e13cb32b": {
+            "image": "https://ms.yugipedia.com//3/34/HeavyStorm-GS01-JP-C.jpg"
+          },
+          "2c9cc405-7f33-436c-ae48-4e4e63570ab4": {
+            "image": "https://ms.yugipedia.com//5/51/Watapon-GS01-JP-GUR.jpg"
+          },
+          "3b193f4d-7f4e-47f9-99ef-118f7c29618d": {
+            "image": "https://ms.yugipedia.com//f/f1/Honest-GS01-JP-GUR.jpg"
+          },
+          "3e2a3fd2-20ea-4d20-b54a-05a1b1912865": {
+            "image": "https://ms.yugipedia.com//f/fe/Dandylion-GS01-JP-GUR.jpg"
+          },
+          "400c1e59-8ea7-40be-8359-706f88daae1b": {
+            "image": "https://ms.yugipedia.com//0/0b/Jinzo-GS01-JP-GUR.jpg"
+          },
+          "40c86044-feb9-43f1-bb54-582a81a5c96a": {
+            "image": "https://ms.yugipedia.com//6/61/MirrorForce-GS01-JP-C.jpg"
+          },
+          "424e8936-b2e0-4920-b8c8-0c8136639c5c": {
+            "image": "https://ms.yugipedia.com//9/9b/BottomlessTrapHole-GS01-JP-C.jpg"
+          },
+          "4308f984-1dda-4120-b952-0909f04acbc3": {
+            "image": "https://ms.yugipedia.com//1/14/Scapegoat-GS01-JP-GUR.jpg"
+          },
+          "49f1029d-45eb-45a9-88de-1e0d9aab0b9d": {
+            "image": "https://ms.yugipedia.com//c/c8/MirrorForce-GS01-JP-GUR.jpg"
+          },
+          "54f63e36-4fb5-4d25-948f-e3a1a8933a44": {
+            "image": "https://ms.yugipedia.com//8/82/TorrentialTribute-GS01-JP-GUR.png"
+          },
+          "615e512b-e6e6-4092-8096-ebc0cf971662": {
+            "image": "https://ms.yugipedia.com//a/a4/CyberDragon-GS01-JP-C.jpg"
+          },
+          "6488f1cc-a225-4204-81c2-aa56e1608171": {
+            "image": "https://ms.yugipedia.com//9/9a/BrionacDragonoftheIceBarrier-GS01-JP-GUR.jpg"
+          },
+          "695569c9-0e86-49a9-9337-5bc9e150b82b": {
+            "image": "https://ms.yugipedia.com//0/00/Marshmallon-GS01-JP-C.jpg"
+          },
+          "6d4e2be3-2057-40c6-afe8-e7f3d666dbab": {
+            "image": "https://ms.yugipedia.com//f/f2/RoyalDecree-GS01-JP-C.jpg"
+          },
+          "7372fc5b-99cd-45a5-92a5-4010c210994c": {
+            "image": "https://ms.yugipedia.com//3/35/Sangan-GS01-JP-C.jpg"
+          },
+          "74da0f21-de8b-4221-a900-8018f32e8f4a": {
+            "image": "https://ms.yugipedia.com//1/1d/Watapon-GS01-JP-C.jpg"
+          },
+          "801b4f87-0d48-40a2-a4d5-58756dac32ad": {
+            "image": "https://ms.yugipedia.com//a/a3/BrionacDragonoftheIceBarrier-GS01-JP-NR.jpg"
+          },
+          "8c78094e-7abd-4d13-88ac-7d27bab48664": {
+            "image": "https://ms.yugipedia.com//a/ae/ExodiatheForbiddenOne-GS01-JP-C.jpg"
+          },
+          "8dfc9bf9-6a78-4176-ac34-ed7d0a72be83": {
+            "image": "https://ms.yugipedia.com//2/2c/Sangan-GS01-JP-GUR.jpg"
+          },
+          "953162a4-ec2b-4fc5-bfa3-21476ce402e1": {
+            "image": "https://ms.yugipedia.com//3/39/Dandylion-GS01-JP-NR.jpg"
+          },
+          "9f83d569-6bdd-456d-8cba-e248127f1978": {
+            "image": "https://ms.yugipedia.com//d/de/HeavyStorm-GS01-JP-GUR.jpg"
+          },
+          "b9b9b405-647e-4149-8a25-2e67d9ef8940": {
+            "image": "https://ms.yugipedia.com//5/51/RaizatheStormMonarch-GS01-JP-C.jpg"
+          },
+          "c4e29619-40a0-47f7-9d74-784b4da203a9": {
+            "image": "https://ms.yugipedia.com//9/9d/TorrentialTribute-GS01-JP-C.png"
+          },
+          "c62ee4eb-1f32-4efb-9796-f088f0137560": {
+            "image": "https://ms.yugipedia.com//1/15/Marshmallon-GS01-JP-GUR.jpg"
+          },
+          "cfdb837f-494d-4169-bcac-8dfd13ff586d": {
+            "image": "https://ms.yugipedia.com//7/77/RaizatheStormMonarch-GS01-JP-GUR.jpg"
+          },
+          "d824a0b1-9e1e-42af-8a08-4f0c0c2d8679": {
+            "image": "https://ms.yugipedia.com//c/c2/RoyalDecree-GS01-JP-GUR.jpg"
+          },
+          "dd9d4df4-e225-4097-92a0-ec7a1f3637bd": {
+            "image": "https://ms.yugipedia.com//9/99/Honest-GS01-JP-C.jpg"
+          },
+          "df2d69d5-6f89-413b-8ef3-a84d9da48593": {
+            "image": "https://ms.yugipedia.com//9/95/Jinzo-GS01-JP-C.jpg"
+          },
+          "e300f872-deaf-49a7-ad84-d1b07ea56af0": {
+            "image": "https://ms.yugipedia.com//6/63/CyberDragon-GS01-JP-GUR.jpg"
+          },
+          "ef7f0cd4-cd40-47af-9175-3f86048926c1": {
+            "image": "https://ms.yugipedia.com//a/ab/SwordsofRevealingLight-GS01-JP-C.jpg"
+          },
+          "f4fb603f-f87d-4e0c-a937-9c8374b9c983": {
+            "image": "https://ms.yugipedia.com//f/f0/CrushCardVirus-GS01-JP-C.jpg"
+          },
+          "f6d44d5a-a51b-446b-9cf9-6a91e27bfa2d": {
+            "image": "https://ms.yugipedia.com//a/a7/CrushCardVirus-GS01-JP-GUR.jpg"
+          },
+          "f829441e-801f-43be-9edd-d4da9ce70ff7": {
+            "image": "https://ms.yugipedia.com//6/60/MonsterReborn-GS01-JP-C.png"
+          },
+          "fa10bde9-8210-482e-b4f1-284566e4c689": {
+            "image": "https://ms.yugipedia.com//4/4e/ExodiatheForbiddenOne-GS01-JP-GUR.jpg"
+          },
+          "fb840cc7-7157-4c58-be87-734ff3b72f5d": {
+            "image": "https://ms.yugipedia.com//a/a2/BottomlessTrapHole-GS01-JP-GUR.jpg"
+          },
+          "fd8ad9fa-1102-44aa-8fc7-82e099d79f3d": {
+            "image": "https://ms.yugipedia.com//1/11/MysticalSpaceTyphoon-GS01-JP-C.jpg"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          3310000
+        ]
+      }
+    },
+    "kr": {
+      "language": "ko",
+      "prefix": "GS01-KR",
+      "date": "2009-06-23",
+      "image": "https://ms.yugipedia.com//8/82/GS01-BoosterKR.png",
+      "cardImages": {
+        "unlimited": {
+          "0c47aa08-e7b6-41fb-ba41-bdf6ef8043da": "https://ms.yugipedia.com//1/1a/Scapegoat-GS01-KR-C-UE.jpg",
+          "1230cd71-ecd3-433f-8ed6-ef95ca272a18": "https://ms.yugipedia.com//c/c4/MonsterReborn-GS01-KR-GUR-UE.png",
+          "1972acbe-c09d-4aeb-88be-96350c9805d7": "https://ms.yugipedia.com//e/e5/SwordsofRevealingLight-GS01-KR-GUR-UE.png",
+          "24e8237a-d351-4123-8100-c69b5904602f": "https://ms.yugipedia.com//5/5a/MysticalSpaceTyphoon-GS01-KR-GUR-UE.jpg",
+          "2a67fefb-3c08-4159-afdd-56a8e13cb32b": "https://ms.yugipedia.com//2/25/HeavyStorm-GS01-KR-C-UE.jpg",
+          "2c9cc405-7f33-436c-ae48-4e4e63570ab4": "https://ms.yugipedia.com//9/94/Watapon-GS01-KR-GUR-UE.jpg",
+          "3b193f4d-7f4e-47f9-99ef-118f7c29618d": "https://ms.yugipedia.com//7/7f/Honest-GS01-KR-GUR-UE.jpg",
+          "3e2a3fd2-20ea-4d20-b54a-05a1b1912865": "https://ms.yugipedia.com//c/cb/Dandylion-GS01-KR-GUR-UE.jpg",
+          "40c86044-feb9-43f1-bb54-582a81a5c96a": "https://ms.yugipedia.com//3/39/MirrorForce-GS01-KR-C-UE.jpg",
+          "424e8936-b2e0-4920-b8c8-0c8136639c5c": "https://ms.yugipedia.com//7/7b/BottomlessTrapHole-GS01-KR-C-UE.jpg",
+          "4308f984-1dda-4120-b952-0909f04acbc3": "https://ms.yugipedia.com//d/db/Scapegoat-GS01-KR-GUR-UE.jpg",
+          "49f1029d-45eb-45a9-88de-1e0d9aab0b9d": "https://ms.yugipedia.com//4/41/MirrorForce-GS01-KR-GUR-UE.jpg",
+          "54f63e36-4fb5-4d25-948f-e3a1a8933a44": "https://ms.yugipedia.com//1/1f/TorrentialTribute-GS01-KR-GUR-UE.png",
+          "615e512b-e6e6-4092-8096-ebc0cf971662": "https://ms.yugipedia.com//1/10/CyberDragon-GS01-KR-C-UE.jpg",
+          "6488f1cc-a225-4204-81c2-aa56e1608171": "https://ms.yugipedia.com//0/0f/BrionacDragonoftheIceBarrier-GS01-KR-GUR-UE.jpg",
+          "695569c9-0e86-49a9-9337-5bc9e150b82b": "https://ms.yugipedia.com//2/24/Marshmallon-GS01-KR-C-UE.png",
+          "6abf4d75-e209-463d-bbd1-4ac75282e650": "https://ms.yugipedia.com//1/18/BlueEyesShiningDragon-GS01-KR-C-UE.png",
+          "6d4e2be3-2057-40c6-afe8-e7f3d666dbab": "https://ms.yugipedia.com//4/4f/RoyalDecree-GS01-KR-C-UE.jpg",
+          "74da0f21-de8b-4221-a900-8018f32e8f4a": "https://ms.yugipedia.com//7/75/Watapon-GS01-KR-C-UE.jpg",
+          "7f33b457-21ea-47ca-81ad-1ba3e6d8bcd1": "https://ms.yugipedia.com//a/a0/BanisheroftheRadiance-GS01-KR-GUR-UE.jpg",
+          "801b4f87-0d48-40a2-a4d5-58756dac32ad": "https://ms.yugipedia.com//f/f4/BrionacDragonoftheIceBarrier-GS01-KR-NR-UE.jpg",
+          "94a8c544-912f-49de-a0b5-b27ab301e229": "https://ms.yugipedia.com//6/6e/SnipeHunter-GS01-KR-C-UE.jpg",
+          "953162a4-ec2b-4fc5-bfa3-21476ce402e1": "https://ms.yugipedia.com//d/da/Dandylion-GS01-KR-NR-UE.jpg",
+          "9b10a9c1-66ac-46b7-b626-84464744c997": "https://ms.yugipedia.com//0/03/SnipeHunter-GS01-KR-GUR-UE.jpg",
+          "9f83d569-6bdd-456d-8cba-e248127f1978": "https://ms.yugipedia.com//b/b4/HeavyStorm-GS01-KR-GUR-UE.jpg",
+          "ad51a596-1504-41ef-a0ca-fe51474dcb88": "https://ms.yugipedia.com//d/de/BanisheroftheRadiance-GS01-KR-C-UE.jpg",
+          "b9b9b405-647e-4149-8a25-2e67d9ef8940": "https://ms.yugipedia.com//0/0e/RaizatheStormMonarch-GS01-KR-C-UE.jpg",
+          "c29958f1-186b-4de6-9151-fb4229c95193": "https://ms.yugipedia.com//c/cc/BlueEyesShiningDragon-GS01-KR-GUR-UE.jpg",
+          "c4e29619-40a0-47f7-9d74-784b4da203a9": "https://ms.yugipedia.com//0/0e/TorrentialTribute-GS01-KR-C-UE.png",
+          "c62ee4eb-1f32-4efb-9796-f088f0137560": "https://ms.yugipedia.com//8/86/Marshmallon-GS01-KR-GUR-UE.png",
+          "cfdb837f-494d-4169-bcac-8dfd13ff586d": "https://ms.yugipedia.com//f/f7/RaizatheStormMonarch-GS01-KR-GUR-UE.jpg",
+          "d824a0b1-9e1e-42af-8a08-4f0c0c2d8679": "https://ms.yugipedia.com//a/ac/RoyalDecree-GS01-KR-GUR-UE.png",
+          "dd9d4df4-e225-4097-92a0-ec7a1f3637bd": "https://ms.yugipedia.com//8/84/Honest-GS01-KR-C-UE.jpg",
+          "e300f872-deaf-49a7-ad84-d1b07ea56af0": "https://ms.yugipedia.com//b/b2/CyberDragon-GS01-KR-GUR-UE.jpg",
+          "ef7f0cd4-cd40-47af-9175-3f86048926c1": "https://ms.yugipedia.com//c/cc/SwordsofRevealingLight-GS01-KR-C-UE.png",
+          "f4fb603f-f87d-4e0c-a937-9c8374b9c983": "https://ms.yugipedia.com//f/f6/CrushCardVirus-GS01-KR-C-UE.jpg",
+          "f6d44d5a-a51b-446b-9cf9-6a91e27bfa2d": "https://ms.yugipedia.com//2/23/CrushCardVirus-GS01-KR-GUR-UE.jpg",
+          "f829441e-801f-43be-9edd-d4da9ce70ff7": "https://ms.yugipedia.com//8/84/MonsterReborn-GS01-KR-C-UE.png",
+          "fb840cc7-7157-4c58-be87-734ff3b72f5d": "https://ms.yugipedia.com//3/37/BottomlessTrapHole-GS01-KR-GUR-UE.jpg",
+          "fd8ad9fa-1102-44aa-8fc7-82e099d79f3d": "https://ms.yugipedia.com//c/cd/MysticalSpaceTyphoon-GS01-KR-C-UE.jpg"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "0c47aa08-e7b6-41fb-ba41-bdf6ef8043da": {
+            "image": "https://ms.yugipedia.com//1/1a/Scapegoat-GS01-KR-C-UE.jpg"
+          },
+          "1230cd71-ecd3-433f-8ed6-ef95ca272a18": {
+            "image": "https://ms.yugipedia.com//c/c4/MonsterReborn-GS01-KR-GUR-UE.png"
+          },
+          "1972acbe-c09d-4aeb-88be-96350c9805d7": {
+            "image": "https://ms.yugipedia.com//e/e5/SwordsofRevealingLight-GS01-KR-GUR-UE.png"
+          },
+          "24e8237a-d351-4123-8100-c69b5904602f": {
+            "image": "https://ms.yugipedia.com//5/5a/MysticalSpaceTyphoon-GS01-KR-GUR-UE.jpg"
+          },
+          "2a67fefb-3c08-4159-afdd-56a8e13cb32b": {
+            "image": "https://ms.yugipedia.com//2/25/HeavyStorm-GS01-KR-C-UE.jpg"
+          },
+          "2c9cc405-7f33-436c-ae48-4e4e63570ab4": {
+            "image": "https://ms.yugipedia.com//9/94/Watapon-GS01-KR-GUR-UE.jpg"
+          },
+          "3b193f4d-7f4e-47f9-99ef-118f7c29618d": {
+            "image": "https://ms.yugipedia.com//7/7f/Honest-GS01-KR-GUR-UE.jpg"
+          },
+          "3e2a3fd2-20ea-4d20-b54a-05a1b1912865": {
+            "image": "https://ms.yugipedia.com//c/cb/Dandylion-GS01-KR-GUR-UE.jpg"
+          },
+          "40c86044-feb9-43f1-bb54-582a81a5c96a": {
+            "image": "https://ms.yugipedia.com//3/39/MirrorForce-GS01-KR-C-UE.jpg"
+          },
+          "424e8936-b2e0-4920-b8c8-0c8136639c5c": {
+            "image": "https://ms.yugipedia.com//7/7b/BottomlessTrapHole-GS01-KR-C-UE.jpg"
+          },
+          "4308f984-1dda-4120-b952-0909f04acbc3": {
+            "image": "https://ms.yugipedia.com//d/db/Scapegoat-GS01-KR-GUR-UE.jpg"
+          },
+          "49f1029d-45eb-45a9-88de-1e0d9aab0b9d": {
+            "image": "https://ms.yugipedia.com//4/41/MirrorForce-GS01-KR-GUR-UE.jpg"
+          },
+          "54f63e36-4fb5-4d25-948f-e3a1a8933a44": {
+            "image": "https://ms.yugipedia.com//1/1f/TorrentialTribute-GS01-KR-GUR-UE.png"
+          },
+          "615e512b-e6e6-4092-8096-ebc0cf971662": {
+            "image": "https://ms.yugipedia.com//1/10/CyberDragon-GS01-KR-C-UE.jpg"
+          },
+          "6488f1cc-a225-4204-81c2-aa56e1608171": {
+            "image": "https://ms.yugipedia.com//0/0f/BrionacDragonoftheIceBarrier-GS01-KR-GUR-UE.jpg"
+          },
+          "695569c9-0e86-49a9-9337-5bc9e150b82b": {
+            "image": "https://ms.yugipedia.com//2/24/Marshmallon-GS01-KR-C-UE.png"
+          },
+          "6abf4d75-e209-463d-bbd1-4ac75282e650": {
+            "image": "https://ms.yugipedia.com//1/18/BlueEyesShiningDragon-GS01-KR-C-UE.png"
+          },
+          "6d4e2be3-2057-40c6-afe8-e7f3d666dbab": {
+            "image": "https://ms.yugipedia.com//4/4f/RoyalDecree-GS01-KR-C-UE.jpg"
+          },
+          "74da0f21-de8b-4221-a900-8018f32e8f4a": {
+            "image": "https://ms.yugipedia.com//7/75/Watapon-GS01-KR-C-UE.jpg"
+          },
+          "7f33b457-21ea-47ca-81ad-1ba3e6d8bcd1": {
+            "image": "https://ms.yugipedia.com//a/a0/BanisheroftheRadiance-GS01-KR-GUR-UE.jpg"
+          },
+          "801b4f87-0d48-40a2-a4d5-58756dac32ad": {
+            "image": "https://ms.yugipedia.com//f/f4/BrionacDragonoftheIceBarrier-GS01-KR-NR-UE.jpg"
+          },
+          "94a8c544-912f-49de-a0b5-b27ab301e229": {
+            "image": "https://ms.yugipedia.com//6/6e/SnipeHunter-GS01-KR-C-UE.jpg"
+          },
+          "953162a4-ec2b-4fc5-bfa3-21476ce402e1": {
+            "image": "https://ms.yugipedia.com//d/da/Dandylion-GS01-KR-NR-UE.jpg"
+          },
+          "9b10a9c1-66ac-46b7-b626-84464744c997": {
+            "image": "https://ms.yugipedia.com//0/03/SnipeHunter-GS01-KR-GUR-UE.jpg"
+          },
+          "9f83d569-6bdd-456d-8cba-e248127f1978": {
+            "image": "https://ms.yugipedia.com//b/b4/HeavyStorm-GS01-KR-GUR-UE.jpg"
+          },
+          "ad51a596-1504-41ef-a0ca-fe51474dcb88": {
+            "image": "https://ms.yugipedia.com//d/de/BanisheroftheRadiance-GS01-KR-C-UE.jpg"
+          },
+          "b9b9b405-647e-4149-8a25-2e67d9ef8940": {
+            "image": "https://ms.yugipedia.com//0/0e/RaizatheStormMonarch-GS01-KR-C-UE.jpg"
+          },
+          "c29958f1-186b-4de6-9151-fb4229c95193": {
+            "image": "https://ms.yugipedia.com//c/cc/BlueEyesShiningDragon-GS01-KR-GUR-UE.jpg"
+          },
+          "c4e29619-40a0-47f7-9d74-784b4da203a9": {
+            "image": "https://ms.yugipedia.com//0/0e/TorrentialTribute-GS01-KR-C-UE.png"
+          },
+          "c62ee4eb-1f32-4efb-9796-f088f0137560": {
+            "image": "https://ms.yugipedia.com//8/86/Marshmallon-GS01-KR-GUR-UE.png"
+          },
+          "cfdb837f-494d-4169-bcac-8dfd13ff586d": {
+            "image": "https://ms.yugipedia.com//f/f7/RaizatheStormMonarch-GS01-KR-GUR-UE.jpg"
+          },
+          "d824a0b1-9e1e-42af-8a08-4f0c0c2d8679": {
+            "image": "https://ms.yugipedia.com//a/ac/RoyalDecree-GS01-KR-GUR-UE.png"
+          },
+          "dd9d4df4-e225-4097-92a0-ec7a1f3637bd": {
+            "image": "https://ms.yugipedia.com//8/84/Honest-GS01-KR-C-UE.jpg"
+          },
+          "e300f872-deaf-49a7-ad84-d1b07ea56af0": {
+            "image": "https://ms.yugipedia.com//b/b2/CyberDragon-GS01-KR-GUR-UE.jpg"
+          },
+          "ef7f0cd4-cd40-47af-9175-3f86048926c1": {
+            "image": "https://ms.yugipedia.com//c/cc/SwordsofRevealingLight-GS01-KR-C-UE.png"
+          },
+          "f4fb603f-f87d-4e0c-a937-9c8374b9c983": {
+            "image": "https://ms.yugipedia.com//f/f6/CrushCardVirus-GS01-KR-C-UE.jpg"
+          },
+          "f6d44d5a-a51b-446b-9cf9-6a91e27bfa2d": {
+            "image": "https://ms.yugipedia.com//2/23/CrushCardVirus-GS01-KR-GUR-UE.jpg"
+          },
+          "f829441e-801f-43be-9edd-d4da9ce70ff7": {
+            "image": "https://ms.yugipedia.com//8/84/MonsterReborn-GS01-KR-C-UE.png"
+          },
+          "fb840cc7-7157-4c58-be87-734ff3b72f5d": {
+            "image": "https://ms.yugipedia.com//3/37/BottomlessTrapHole-GS01-KR-GUR-UE.jpg"
+          },
+          "fd8ad9fa-1102-44aa-8fc7-82e099d79f3d": {
+            "image": "https://ms.yugipedia.com//c/cd/MysticalSpaceTyphoon-GS01-KR-C-UE.jpg"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          78804001
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//a/a4/GS01-BoosterJP.png",
+      "cards": [
+        {
+          "id": "74da0f21-de8b-4221-a900-8018f32e8f4a",
+          "card": "827ef2f8-dfe0-46e2-8daf-84cdbbc98e03",
+          "suffix": "001",
+          "rarity": "common",
+          "imageID": "fc138019-d3c2-4ab6-ba83-718cb4493c39"
+        },
+        {
+          "id": "2c9cc405-7f33-436c-ae48-4e4e63570ab4",
+          "card": "827ef2f8-dfe0-46e2-8daf-84cdbbc98e03",
+          "suffix": "001",
+          "rarity": "gold",
+          "imageID": "fc138019-d3c2-4ab6-ba83-718cb4493c39"
+        },
+        {
+          "id": "953162a4-ec2b-4fc5-bfa3-21476ce402e1",
+          "card": "019a1d5a-ac6a-450f-bea9-49e46abda630",
+          "suffix": "002",
+          "rarity": "shortprint",
+          "imageID": "8d938c59-584b-476c-82be-a2bec0ef9b9e"
+        },
+        {
+          "id": "3e2a3fd2-20ea-4d20-b54a-05a1b1912865",
+          "card": "019a1d5a-ac6a-450f-bea9-49e46abda630",
+          "suffix": "002",
+          "rarity": "gold",
+          "imageID": "8d938c59-584b-476c-82be-a2bec0ef9b9e"
+        },
+        {
+          "id": "695569c9-0e86-49a9-9337-5bc9e150b82b",
+          "card": "1ed9c6e9-8008-47b2-9f51-3d42bbbc05ac",
+          "suffix": "003",
+          "rarity": "common",
+          "imageID": "34ec8e22-664b-4605-a994-bd13e148fb96"
+        },
+        {
+          "id": "c62ee4eb-1f32-4efb-9796-f088f0137560",
+          "card": "1ed9c6e9-8008-47b2-9f51-3d42bbbc05ac",
+          "suffix": "003",
+          "rarity": "gold",
+          "imageID": "34ec8e22-664b-4605-a994-bd13e148fb96"
+        },
+        {
+          "id": "df2d69d5-6f89-413b-8ef3-a84d9da48593",
+          "card": "6d9cf67e-c28c-4fb2-a88c-311da15f0577",
+          "suffix": "004",
+          "rarity": "common"
+        },
+        {
+          "id": "400c1e59-8ea7-40be-8359-706f88daae1b",
+          "card": "6d9cf67e-c28c-4fb2-a88c-311da15f0577",
+          "suffix": "004",
+          "rarity": "gold"
+        },
+        {
+          "id": "8c78094e-7abd-4d13-88ac-7d27bab48664",
+          "card": "ae2ca47a-0068-458c-9fe7-8128dc63cad6",
+          "suffix": "005",
+          "rarity": "common",
+          "imageID": "9132554f-b967-4a17-a55c-d1cc992117fd"
+        },
+        {
+          "id": "fa10bde9-8210-482e-b4f1-284566e4c689",
+          "card": "ae2ca47a-0068-458c-9fe7-8128dc63cad6",
+          "suffix": "005",
+          "rarity": "gold",
+          "imageID": "9132554f-b967-4a17-a55c-d1cc992117fd"
+        },
+        {
+          "id": "7372fc5b-99cd-45a5-92a5-4010c210994c",
+          "card": "431a6148-ab71-445d-bb82-a18d339701e5",
+          "suffix": "006",
+          "rarity": "common",
+          "imageID": "4515c837-5961-42fd-8764-46f3267235de"
+        },
+        {
+          "id": "8dfc9bf9-6a78-4176-ac34-ed7d0a72be83",
+          "card": "431a6148-ab71-445d-bb82-a18d339701e5",
+          "suffix": "006",
+          "rarity": "gold",
+          "imageID": "4515c837-5961-42fd-8764-46f3267235de"
+        },
+        {
+          "id": "615e512b-e6e6-4092-8096-ebc0cf971662",
+          "card": "77bc0807-d7fc-461d-98dc-ea23a2acc6fa",
+          "suffix": "007",
+          "rarity": "common"
+        },
+        {
+          "id": "e300f872-deaf-49a7-ad84-d1b07ea56af0",
+          "card": "77bc0807-d7fc-461d-98dc-ea23a2acc6fa",
+          "suffix": "007",
+          "rarity": "gold"
+        },
+        {
+          "id": "b9b9b405-647e-4149-8a25-2e67d9ef8940",
+          "card": "bbd3a9f0-8b7e-467d-91c2-28165f1a3434",
+          "suffix": "008",
+          "rarity": "common",
+          "imageID": "2a431a71-9c22-442a-a749-18c8e3bf4e80"
+        },
+        {
+          "id": "cfdb837f-494d-4169-bcac-8dfd13ff586d",
+          "card": "bbd3a9f0-8b7e-467d-91c2-28165f1a3434",
+          "suffix": "008",
+          "rarity": "gold",
+          "imageID": "2a431a71-9c22-442a-a749-18c8e3bf4e80"
+        },
+        {
+          "id": "dd9d4df4-e225-4097-92a0-ec7a1f3637bd",
+          "card": "a07fd96a-dac9-41f1-8da5-e453f9654cb7",
+          "suffix": "009",
+          "rarity": "common",
+          "imageID": "211ae949-ea29-4c03-97b7-1d93196cf13a"
+        },
+        {
+          "id": "3b193f4d-7f4e-47f9-99ef-118f7c29618d",
+          "card": "a07fd96a-dac9-41f1-8da5-e453f9654cb7",
+          "suffix": "009",
+          "rarity": "gold",
+          "imageID": "211ae949-ea29-4c03-97b7-1d93196cf13a"
+        },
+        {
+          "id": "801b4f87-0d48-40a2-a4d5-58756dac32ad",
+          "card": "38aa0dc9-481f-453b-ac52-9579f1ea4039",
+          "suffix": "010",
+          "rarity": "shortprint",
+          "imageID": "634f0ed7-7825-496d-ba9b-b441ce0f22d2"
+        },
+        {
+          "id": "6488f1cc-a225-4204-81c2-aa56e1608171",
+          "card": "38aa0dc9-481f-453b-ac52-9579f1ea4039",
+          "suffix": "010",
+          "rarity": "gold",
+          "imageID": "634f0ed7-7825-496d-ba9b-b441ce0f22d2"
+        },
+        {
+          "id": "fd8ad9fa-1102-44aa-8fc7-82e099d79f3d",
+          "card": "d15ea879-903e-481a-9ad1-774823a8518b",
+          "suffix": "011",
+          "rarity": "common",
+          "imageID": "f7eb3c46-62df-45ec-9be3-877f11a4a522"
+        },
+        {
+          "id": "24e8237a-d351-4123-8100-c69b5904602f",
+          "card": "d15ea879-903e-481a-9ad1-774823a8518b",
+          "suffix": "011",
+          "rarity": "gold",
+          "imageID": "f7eb3c46-62df-45ec-9be3-877f11a4a522"
+        },
+        {
+          "id": "ef7f0cd4-cd40-47af-9175-3f86048926c1",
+          "card": "e1a7a928-8fa0-4ab1-bade-66c0258a0d0c",
+          "suffix": "012",
+          "rarity": "common",
+          "imageID": "f6499bac-ab74-45a2-8052-33de9994ae1a"
+        },
+        {
+          "id": "1972acbe-c09d-4aeb-88be-96350c9805d7",
+          "card": "e1a7a928-8fa0-4ab1-bade-66c0258a0d0c",
+          "suffix": "012",
+          "rarity": "gold",
+          "imageID": "f6499bac-ab74-45a2-8052-33de9994ae1a"
+        },
+        {
+          "id": "f829441e-801f-43be-9edd-d4da9ce70ff7",
+          "card": "08a59d85-df4c-4a8d-a9f6-b07dc21f58b0",
+          "suffix": "013",
+          "rarity": "common"
+        },
+        {
+          "id": "1230cd71-ecd3-433f-8ed6-ef95ca272a18",
+          "card": "08a59d85-df4c-4a8d-a9f6-b07dc21f58b0",
+          "suffix": "013",
+          "rarity": "gold"
+        },
+        {
+          "id": "2a67fefb-3c08-4159-afdd-56a8e13cb32b",
+          "card": "6dc25591-4b27-4931-b5c6-57d9b8235328",
+          "suffix": "014",
+          "rarity": "common",
+          "imageID": "e6e5dd63-985f-484d-9bd4-238757035733"
+        },
+        {
+          "id": "9f83d569-6bdd-456d-8cba-e248127f1978",
+          "card": "6dc25591-4b27-4931-b5c6-57d9b8235328",
+          "suffix": "014",
+          "rarity": "gold",
+          "imageID": "e6e5dd63-985f-484d-9bd4-238757035733"
+        },
+        {
+          "id": "0c47aa08-e7b6-41fb-ba41-bdf6ef8043da",
+          "card": "2936d7e9-7c26-4dd4-a2e1-03f2746d6439",
+          "suffix": "015",
+          "rarity": "common",
+          "imageID": "d7e04487-79d6-44d4-91fb-5479a1271e28"
+        },
+        {
+          "id": "4308f984-1dda-4120-b952-0909f04acbc3",
+          "card": "2936d7e9-7c26-4dd4-a2e1-03f2746d6439",
+          "suffix": "015",
+          "rarity": "gold",
+          "imageID": "d7e04487-79d6-44d4-91fb-5479a1271e28"
+        },
+        {
+          "id": "c4e29619-40a0-47f7-9d74-784b4da203a9",
+          "card": "64373eb9-b0d1-4d8b-ac79-3eee973a1de7",
+          "suffix": "016",
+          "rarity": "common",
+          "imageID": "a64fff78-669f-4a16-bb11-48b7e8e6e24e"
+        },
+        {
+          "id": "54f63e36-4fb5-4d25-948f-e3a1a8933a44",
+          "card": "64373eb9-b0d1-4d8b-ac79-3eee973a1de7",
+          "suffix": "016",
+          "rarity": "gold",
+          "imageID": "a64fff78-669f-4a16-bb11-48b7e8e6e24e"
+        },
+        {
+          "id": "40c86044-feb9-43f1-bb54-582a81a5c96a",
+          "card": "0bfcc499-7a45-452e-ad36-d2e2026ad580",
+          "suffix": "017",
+          "rarity": "common",
+          "imageID": "296b1a74-41ac-46bf-87af-b0b1820162ec"
+        },
+        {
+          "id": "49f1029d-45eb-45a9-88de-1e0d9aab0b9d",
+          "card": "0bfcc499-7a45-452e-ad36-d2e2026ad580",
+          "suffix": "017",
+          "rarity": "gold",
+          "imageID": "296b1a74-41ac-46bf-87af-b0b1820162ec"
+        },
+        {
+          "id": "6d4e2be3-2057-40c6-afe8-e7f3d666dbab",
+          "card": "a9dbeee4-36e5-41d6-b454-64acbf96e166",
+          "suffix": "018",
+          "rarity": "common",
+          "imageID": "f8e03be9-0773-4a1a-8dee-db744f266e43"
+        },
+        {
+          "id": "d824a0b1-9e1e-42af-8a08-4f0c0c2d8679",
+          "card": "a9dbeee4-36e5-41d6-b454-64acbf96e166",
+          "suffix": "018",
+          "rarity": "gold",
+          "imageID": "f8e03be9-0773-4a1a-8dee-db744f266e43"
+        },
+        {
+          "id": "424e8936-b2e0-4920-b8c8-0c8136639c5c",
+          "card": "2eb40674-ba15-4f1f-a958-04ca04383dd3",
+          "suffix": "019",
+          "rarity": "common",
+          "imageID": "7887c0d6-719b-4c42-b593-34c02d482a39"
+        },
+        {
+          "id": "fb840cc7-7157-4c58-be87-734ff3b72f5d",
+          "card": "2eb40674-ba15-4f1f-a958-04ca04383dd3",
+          "suffix": "019",
+          "rarity": "gold",
+          "imageID": "7887c0d6-719b-4c42-b593-34c02d482a39"
+        },
+        {
+          "id": "f4fb603f-f87d-4e0c-a937-9c8374b9c983",
+          "card": "5b90bc73-a363-435a-8750-d4497c0eabdf",
+          "suffix": "020",
+          "rarity": "common"
+        },
+        {
+          "id": "f6d44d5a-a51b-446b-9cf9-6a91e27bfa2d",
+          "card": "5b90bc73-a363-435a-8750-d4497c0eabdf",
+          "suffix": "020",
+          "rarity": "gold"
+        }
+      ],
+      "externalIDs": {}
+    },
+    {
+      "locales": [
+        "kr"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//8/82/GS01-BoosterKR.png",
+      "cards": [
+        {
+          "id": "74da0f21-de8b-4221-a900-8018f32e8f4a",
+          "card": "827ef2f8-dfe0-46e2-8daf-84cdbbc98e03",
+          "suffix": "001",
+          "rarity": "common",
+          "imageID": "fc138019-d3c2-4ab6-ba83-718cb4493c39"
+        },
+        {
+          "id": "2c9cc405-7f33-436c-ae48-4e4e63570ab4",
+          "card": "827ef2f8-dfe0-46e2-8daf-84cdbbc98e03",
+          "suffix": "001",
+          "rarity": "gold",
+          "imageID": "fc138019-d3c2-4ab6-ba83-718cb4493c39"
+        },
+        {
+          "id": "953162a4-ec2b-4fc5-bfa3-21476ce402e1",
+          "card": "019a1d5a-ac6a-450f-bea9-49e46abda630",
+          "suffix": "002",
+          "rarity": "shortprint",
+          "imageID": "8d938c59-584b-476c-82be-a2bec0ef9b9e"
+        },
+        {
+          "id": "3e2a3fd2-20ea-4d20-b54a-05a1b1912865",
+          "card": "019a1d5a-ac6a-450f-bea9-49e46abda630",
+          "suffix": "002",
+          "rarity": "gold",
+          "imageID": "8d938c59-584b-476c-82be-a2bec0ef9b9e"
+        },
+        {
+          "id": "695569c9-0e86-49a9-9337-5bc9e150b82b",
+          "card": "1ed9c6e9-8008-47b2-9f51-3d42bbbc05ac",
+          "suffix": "003",
+          "rarity": "common",
+          "imageID": "34ec8e22-664b-4605-a994-bd13e148fb96"
+        },
+        {
+          "id": "c62ee4eb-1f32-4efb-9796-f088f0137560",
+          "card": "1ed9c6e9-8008-47b2-9f51-3d42bbbc05ac",
+          "suffix": "003",
+          "rarity": "gold",
+          "imageID": "34ec8e22-664b-4605-a994-bd13e148fb96"
+        },
+        {
+          "id": "ad51a596-1504-41ef-a0ca-fe51474dcb88",
+          "card": "014b8f23-d7d7-4f79-9078-0a965f54080c",
+          "suffix": "004",
+          "rarity": "common",
+          "imageID": "67af045d-c9bb-4254-9267-da300ffe1fdb"
+        },
+        {
+          "id": "7f33b457-21ea-47ca-81ad-1ba3e6d8bcd1",
+          "card": "014b8f23-d7d7-4f79-9078-0a965f54080c",
+          "suffix": "004",
+          "rarity": "gold",
+          "imageID": "67af045d-c9bb-4254-9267-da300ffe1fdb"
+        },
+        {
+          "id": "6abf4d75-e209-463d-bbd1-4ac75282e650",
+          "card": "cd5aa6dc-f6a6-4537-9a5d-17ae46bb4bd7",
+          "suffix": "005",
+          "rarity": "common",
+          "imageID": "d379ad57-da4e-4b0b-afef-ed3844070e28"
+        },
+        {
+          "id": "c29958f1-186b-4de6-9151-fb4229c95193",
+          "card": "cd5aa6dc-f6a6-4537-9a5d-17ae46bb4bd7",
+          "suffix": "005",
+          "rarity": "gold",
+          "imageID": "d379ad57-da4e-4b0b-afef-ed3844070e28"
+        },
+        {
+          "id": "94a8c544-912f-49de-a0b5-b27ab301e229",
+          "card": "ccf8b6ad-2f3b-49e0-9f8f-17e35557050b",
+          "suffix": "006",
+          "rarity": "common",
+          "imageID": "8920a2e3-d200-43b7-9620-2b12cabddcc1"
+        },
+        {
+          "id": "9b10a9c1-66ac-46b7-b626-84464744c997",
+          "card": "ccf8b6ad-2f3b-49e0-9f8f-17e35557050b",
+          "suffix": "006",
+          "rarity": "gold",
+          "imageID": "8920a2e3-d200-43b7-9620-2b12cabddcc1"
+        },
+        {
+          "id": "615e512b-e6e6-4092-8096-ebc0cf971662",
+          "card": "77bc0807-d7fc-461d-98dc-ea23a2acc6fa",
+          "suffix": "007",
+          "rarity": "common"
+        },
+        {
+          "id": "e300f872-deaf-49a7-ad84-d1b07ea56af0",
+          "card": "77bc0807-d7fc-461d-98dc-ea23a2acc6fa",
+          "suffix": "007",
+          "rarity": "gold"
+        },
+        {
+          "id": "b9b9b405-647e-4149-8a25-2e67d9ef8940",
+          "card": "bbd3a9f0-8b7e-467d-91c2-28165f1a3434",
+          "suffix": "008",
+          "rarity": "common",
+          "imageID": "2a431a71-9c22-442a-a749-18c8e3bf4e80"
+        },
+        {
+          "id": "cfdb837f-494d-4169-bcac-8dfd13ff586d",
+          "card": "bbd3a9f0-8b7e-467d-91c2-28165f1a3434",
+          "suffix": "008",
+          "rarity": "gold",
+          "imageID": "2a431a71-9c22-442a-a749-18c8e3bf4e80"
+        },
+        {
+          "id": "dd9d4df4-e225-4097-92a0-ec7a1f3637bd",
+          "card": "a07fd96a-dac9-41f1-8da5-e453f9654cb7",
+          "suffix": "009",
+          "rarity": "common",
+          "imageID": "211ae949-ea29-4c03-97b7-1d93196cf13a"
+        },
+        {
+          "id": "3b193f4d-7f4e-47f9-99ef-118f7c29618d",
+          "card": "a07fd96a-dac9-41f1-8da5-e453f9654cb7",
+          "suffix": "009",
+          "rarity": "gold",
+          "imageID": "211ae949-ea29-4c03-97b7-1d93196cf13a"
+        },
+        {
+          "id": "801b4f87-0d48-40a2-a4d5-58756dac32ad",
+          "card": "38aa0dc9-481f-453b-ac52-9579f1ea4039",
+          "suffix": "010",
+          "rarity": "shortprint",
+          "imageID": "634f0ed7-7825-496d-ba9b-b441ce0f22d2"
+        },
+        {
+          "id": "6488f1cc-a225-4204-81c2-aa56e1608171",
+          "card": "38aa0dc9-481f-453b-ac52-9579f1ea4039",
+          "suffix": "010",
+          "rarity": "gold",
+          "imageID": "634f0ed7-7825-496d-ba9b-b441ce0f22d2"
+        },
+        {
+          "id": "fd8ad9fa-1102-44aa-8fc7-82e099d79f3d",
+          "card": "d15ea879-903e-481a-9ad1-774823a8518b",
+          "suffix": "011",
+          "rarity": "common",
+          "imageID": "f7eb3c46-62df-45ec-9be3-877f11a4a522"
+        },
+        {
+          "id": "24e8237a-d351-4123-8100-c69b5904602f",
+          "card": "d15ea879-903e-481a-9ad1-774823a8518b",
+          "suffix": "011",
+          "rarity": "gold",
+          "imageID": "f7eb3c46-62df-45ec-9be3-877f11a4a522"
+        },
+        {
+          "id": "ef7f0cd4-cd40-47af-9175-3f86048926c1",
+          "card": "e1a7a928-8fa0-4ab1-bade-66c0258a0d0c",
+          "suffix": "012",
+          "rarity": "common",
+          "imageID": "f6499bac-ab74-45a2-8052-33de9994ae1a"
+        },
+        {
+          "id": "1972acbe-c09d-4aeb-88be-96350c9805d7",
+          "card": "e1a7a928-8fa0-4ab1-bade-66c0258a0d0c",
+          "suffix": "012",
+          "rarity": "gold",
+          "imageID": "f6499bac-ab74-45a2-8052-33de9994ae1a"
+        },
+        {
+          "id": "f829441e-801f-43be-9edd-d4da9ce70ff7",
+          "card": "08a59d85-df4c-4a8d-a9f6-b07dc21f58b0",
+          "suffix": "013",
+          "rarity": "common"
+        },
+        {
+          "id": "1230cd71-ecd3-433f-8ed6-ef95ca272a18",
+          "card": "08a59d85-df4c-4a8d-a9f6-b07dc21f58b0",
+          "suffix": "013",
+          "rarity": "gold"
+        },
+        {
+          "id": "2a67fefb-3c08-4159-afdd-56a8e13cb32b",
+          "card": "6dc25591-4b27-4931-b5c6-57d9b8235328",
+          "suffix": "014",
+          "rarity": "common",
+          "imageID": "e6e5dd63-985f-484d-9bd4-238757035733"
+        },
+        {
+          "id": "9f83d569-6bdd-456d-8cba-e248127f1978",
+          "card": "6dc25591-4b27-4931-b5c6-57d9b8235328",
+          "suffix": "014",
+          "rarity": "gold",
+          "imageID": "e6e5dd63-985f-484d-9bd4-238757035733"
+        },
+        {
+          "id": "0c47aa08-e7b6-41fb-ba41-bdf6ef8043da",
+          "card": "2936d7e9-7c26-4dd4-a2e1-03f2746d6439",
+          "suffix": "015",
+          "rarity": "common",
+          "imageID": "d7e04487-79d6-44d4-91fb-5479a1271e28"
+        },
+        {
+          "id": "4308f984-1dda-4120-b952-0909f04acbc3",
+          "card": "2936d7e9-7c26-4dd4-a2e1-03f2746d6439",
+          "suffix": "015",
+          "rarity": "gold",
+          "imageID": "d7e04487-79d6-44d4-91fb-5479a1271e28"
+        },
+        {
+          "id": "c4e29619-40a0-47f7-9d74-784b4da203a9",
+          "card": "64373eb9-b0d1-4d8b-ac79-3eee973a1de7",
+          "suffix": "016",
+          "rarity": "common",
+          "imageID": "a64fff78-669f-4a16-bb11-48b7e8e6e24e"
+        },
+        {
+          "id": "54f63e36-4fb5-4d25-948f-e3a1a8933a44",
+          "card": "64373eb9-b0d1-4d8b-ac79-3eee973a1de7",
+          "suffix": "016",
+          "rarity": "gold",
+          "imageID": "a64fff78-669f-4a16-bb11-48b7e8e6e24e"
+        },
+        {
+          "id": "40c86044-feb9-43f1-bb54-582a81a5c96a",
+          "card": "0bfcc499-7a45-452e-ad36-d2e2026ad580",
+          "suffix": "017",
+          "rarity": "common",
+          "imageID": "296b1a74-41ac-46bf-87af-b0b1820162ec"
+        },
+        {
+          "id": "49f1029d-45eb-45a9-88de-1e0d9aab0b9d",
+          "card": "0bfcc499-7a45-452e-ad36-d2e2026ad580",
+          "suffix": "017",
+          "rarity": "gold",
+          "imageID": "296b1a74-41ac-46bf-87af-b0b1820162ec"
+        },
+        {
+          "id": "6d4e2be3-2057-40c6-afe8-e7f3d666dbab",
+          "card": "a9dbeee4-36e5-41d6-b454-64acbf96e166",
+          "suffix": "018",
+          "rarity": "common",
+          "imageID": "f8e03be9-0773-4a1a-8dee-db744f266e43"
+        },
+        {
+          "id": "d824a0b1-9e1e-42af-8a08-4f0c0c2d8679",
+          "card": "a9dbeee4-36e5-41d6-b454-64acbf96e166",
+          "suffix": "018",
+          "rarity": "gold",
+          "imageID": "f8e03be9-0773-4a1a-8dee-db744f266e43"
+        },
+        {
+          "id": "424e8936-b2e0-4920-b8c8-0c8136639c5c",
+          "card": "2eb40674-ba15-4f1f-a958-04ca04383dd3",
+          "suffix": "019",
+          "rarity": "common",
+          "imageID": "7887c0d6-719b-4c42-b593-34c02d482a39"
+        },
+        {
+          "id": "fb840cc7-7157-4c58-be87-734ff3b72f5d",
+          "card": "2eb40674-ba15-4f1f-a958-04ca04383dd3",
+          "suffix": "019",
+          "rarity": "gold",
+          "imageID": "7887c0d6-719b-4c42-b593-34c02d482a39"
+        },
+        {
+          "id": "f4fb603f-f87d-4e0c-a937-9c8374b9c983",
+          "card": "5b90bc73-a363-435a-8750-d4497c0eabdf",
+          "suffix": "020",
+          "rarity": "common"
+        },
+        {
+          "id": "f6d44d5a-a51b-446b-9cf9-6a91e27bfa2d",
+          "card": "5b90bc73-a363-435a-8750-d4497c0eabdf",
+          "suffix": "020",
+          "rarity": "gold"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Gold Series (OCG)",
+      "id": 251614
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "216d5b05-2f62-42d1-a363-1285aca5aec6",
+  "text": {
+    "en": {
+      "name": "Salamangreat Markhor",
+      "effect": "If this card is Normal or Special Summoned: You can add 1 \"Salamangreat\" Spell/Trap from your Deck or GY to your hand. If this card is sent to the GY as material for a Link-3 or higher FIRE Link Monster: You can Special Summon 1 FIRE Cyberse monster from your Deck. You can only use each effect of \"Salamangreat Markhor\" once per turn, also you cannot Special Summon the turn you activate either of this card's effects, except FIRE monsters.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u8ee2\u751f\u708e\u7363\u30de\u30fc\u30b3\u30fc\u30eb"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "type": "cyberse",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 300,
+  "def": 2100,
+  "passwords": [],
+  "images": [
+    {
+      "id": "2770cb65-8387-4667-bce2-646670207af8",
+      "card": "https://ms.yugipedia.com//7/72/SalamangreatMarkhor-IMPH-JP-OP.png"
+    }
+  ],
+  "sets": [
+    "ccc8125c-0182-45df-91a7-57e5e2423dfc"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Salamangreat Markhor",
+        "id": 1223806
+      }
+    ]
+  },
+  "series": []
+}

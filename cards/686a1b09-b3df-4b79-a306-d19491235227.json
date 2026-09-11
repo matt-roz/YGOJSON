@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "686a1b09-b3df-4b79-a306-d19491235227",
+  "text": {
+    "en": {
+      "name": "Lovely Angel",
+      "effect": "This card cannot be destroyed by battle with a Level 7 or 8 monster.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30e9\u30f4\u30fb\u30a8\u30f3\u30b8\u30a7\u30eb",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u306f\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff17\u30fb\uff18\uff09\u3068\u306e\u6226\u95d8\u3067\u306f\u7834\u58ca\u3055\u308c\u306a\u3044\u3002"
+    },
+    "ko": {
+      "name": "\ub77c\ube0c \uc5d4\uc824",
+      "effect": "\uc774 \uce74\ub4dc\ub294 \ubaac\uc2a4\ud130(\ub808\ubca8 7\u30fb8)\uc640\uc758 \uc804\ud22c\ub85c\ub294 \ud30c\uad34\ub418\uc9c0 \uc54a\ub294\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "fairy",
+  "classifications": [
+    "effect"
+  ],
+  "level": 1,
+  "atk": 0,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "891fe41d-d7ee-4b9a-b40d-d55bd976faad",
+      "card": "https://ms.yugipedia.com//9/97/LovelyAngel-RDORP2-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Lovely Angel",
+        "id": 715653
+      }
+    ],
+    "dbID": 18391
+  },
+  "series": [
+    "3e05c54a-8e27-41d6-b076-ee4fab2d19bc"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "dc0723c3-b159-4d5b-9e61-a4aeddcc96fa",
+  "text": {
+    "en": {
+      "name": "Agent Mistake",
+      "effect": "Excavate the top 3 cards of your Deck. You can add 1 excavated Level 3 or higher Reptile Type monster to your hand. Place the rest on top of your Deck in any order."
+    },
+    "ja": {
+      "name": "\u79d8\u5bc6\u635c\u67fb\u5b98\u30df\u30b9\u30c6\u30a4\u30af",
+      "effect": "\u81ea\u5206\u306e\u30c7\u30c3\u30ad\u306e\u4e0a\u304b\u3089\u30ab\u30fc\u30c9\u3092\uff13\u679a\u3081\u304f\u308a\u3001\u304a\u4e92\u3044\u306b\u78ba\u8a8d\u3059\u308b\u3002\u81ea\u5206\u306f\u305d\u306e\u4e2d\u304b\u3089\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff13\u4ee5\u4e0a\uff0f\u722c\u866b\u985e\u65cf\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002\u6b8b\u308a\u306e\u30ab\u30fc\u30c9\u3092\u597d\u304d\u306a\u9806\u756a\u3067\u30c7\u30c3\u30ad\u306e\u4e0a\u306b\u623b\u3059\u3002"
+    },
+    "ko": {
+      "name": "\ube44\ubc00\uc218\uc0ac\uad00 \ubbf8\uc2a4\ud14c\uc774\ud06c",
+      "effect": "\uc790\uc2e0\uc758 \ub371 \uc704\uc5d0\uc11c \uce74\ub4dc\ub97c 3\uc7a5 \ub118\uae30\uace0, \uc11c\ub85c \ud655\uc778\ud55c\ub2e4. \uc790\uc2e0\uc740 \uadf8 \uc911\uc5d0\uc11c \ubaac\uc2a4\ud130(\ub808\ubca8 3 \uc774\uc0c1 / \ud30c\ucda9\ub958\uc871) 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\uc744 \uc218 \uc788\ub2e4. \ub0a8\uc740 \uce74\ub4dc\ub97c \uc88b\uc544\ud558\ub294 \uc21c\uc11c\ub300\ub85c \ub371 \uc704\ub85c \ub418\ub3cc\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "reptile",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 1300,
+  "def": 300,
+  "passwords": [],
+  "images": [
+    {
+      "id": "ee1e3936-5b55-44ba-9066-6b7181a92817",
+      "card": "https://ms.yugipedia.com//f/fa/AgentMistake-RD5TH1-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Agent Mistake",
+        "id": 993060
+      }
+    ],
+    "dbID": 19296
+  },
+  "series": [
+    "76ab90ac-a878-4762-a384-39b6a1472e91"
+  ]
+}

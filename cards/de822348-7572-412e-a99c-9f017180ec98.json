@@ -1,0 +1,44 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "de822348-7572-412e-a99c-9f017180ec98",
+  "text": {
+    "en": {
+      "name": "Gamma The Magnet Warrior (Rush Duel)",
+      "effect": "Alpha, Beta, and Gamma meld as one to form a powerful monster."
+    },
+    "ko": {
+      "name": "\ub9c8\uadf8\ub137 \uc6cc\ub9ac\uc5b4 \u03b3",
+      "effect": "\u03b1, \u03b2, \u03b3\ub85c \ubcc0\ud615 \ud569\uccb4\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "rock",
+  "classifications": [
+    "normal"
+  ],
+  "level": 4,
+  "atk": 1500,
+  "def": 1800,
+  "passwords": [],
+  "images": [
+    {
+      "id": "0e561f94-4f97-4a59-9cc3-fa51d09dccb5",
+      "card": "https://ms.yugipedia.com//1/13/GammaTheMagnetWarrior-RDORP2-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Gamma The Magnet Warrior (Rush Duel)",
+        "id": 1044858
+      }
+    ],
+    "dbID": 20112
+  },
+  "series": [
+    "e0d53ef2-3fc7-48ed-a573-fbc31ca7e496"
+  ]
+}

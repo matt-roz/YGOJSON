@@ -1,0 +1,47 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "d1b744a3-51b9-42ff-8d15-c10f21b0586d",
+  "text": {
+    "en": {
+      "name": "Animagica Shooter",
+      "effect": "Change the battle position of 1 monster on your opponent's field. Then, you can destroy 1 face-up monster on your opponent's field with a Level lower than this card's Level.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30a2\u30cb\u30de\u30b8\u30ab\u30fb\u30b7\u30e5\u30fc\u30bf\u30fc",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u3092\u9078\u3093\u3067\u8868\u793a\u5f62\u5f0f\u3092\u5909\u66f4\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u3053\u306e\u30ab\u30fc\u30c9\u306e\u30ec\u30d9\u30eb\u3088\u308a\u4f4e\u3044\u30ec\u30d9\u30eb\u3092\u6301\u3064\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u3092\u9078\u3093\u3067\u7834\u58ca\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc560\ub2c8\ub9e4\uc9c0\uce74 \uc288\ud130",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \ubaac\uc2a4\ud130 1\uc7a5\uc744 \uace0\ub974\uace0 \ud45c\uc2dc \ud615\uc2dd\uc744 \ubcc0\uacbd\ud55c\ub2e4. \uadf8 \ud6c4, \uc774 \uce74\ub4dc\uc758 \ub808\ubca8\ubcf4\ub2e4 \ub0ae\uc740 \ub808\ubca8\uc744 \uac00\uc9c0\ub294 \uc0c1\ub300 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130 1\uc7a5\uc744 \uace0\ub974\uace0 \ud30c\uad34\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "beast",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2500,
+  "def": 1500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "e15321f2-c036-43d4-afcb-231d101c1602",
+      "card": "https://ms.yugipedia.com//7/7d/AnimagicaShooter-RDKP20-JP-UR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Animagica Shooter",
+        "id": 1100649
+      }
+    ],
+    "dbID": 21283
+  },
+  "series": []
+}

@@ -1,0 +1,53 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "7005142f-0691-420b-9fd2-df02bccfb687",
+  "text": {
+    "en": {
+      "name": "King of Yamimado",
+      "effect": "While you control a face-down card, this card cannot be destroyed by your opponent's card effects, also your opponent cannot target it with card effects. You can only use each of the following effects of \"King of Yamimado\" once per turn. If this card is in your hand and 2 or more face-down cards, and/or \"Yami\", are on the field: You can Special Summon this card. When a monster on the field with less ATK than this card activates its effect or declares an attack (Quick Effect): You can destroy that monster.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u95c7\u9b54\u5c0e\u306e\u8987\u738b"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "fiend",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2600,
+  "def": 2300,
+  "passwords": [],
+  "images": [
+    {
+      "id": "62a33233-ae41-42a7-9ee8-6bea15cfd895",
+      "card": "https://ms.yugipedia.com//f/f5/KingofYamimado-YAC1-JP-OP.png"
+    },
+    {
+      "id": "f1cb1d07-31b5-4341-a482-bc1cb8a88ef6",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/100459018.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/100459018.jpg"
+    }
+  ],
+  "sets": [
+    "9aefc662-0b55-44d0-85b1-7c92cfe8a78b",
+    "9aefc662-0b55-44d0-85b1-7c92cfe8a78b"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "King of Yamimado",
+        "id": 1222612
+      }
+    ],
+    "ygoprodeck": {
+      "id": 100459018,
+      "name": "king-of-yamimado-15927"
+    }
+  },
+  "series": []
+}

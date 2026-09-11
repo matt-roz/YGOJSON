@@ -1,0 +1,38 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "8e75d755-1510-4d55-a05f-b993ad02d177",
+  "text": {
+    "en": {
+      "name": "Summoner Monk (Rush Duel)",
+      "effect": "Excavate the top 6 cards of your Deck. You can Special Summon 1 excavated Level 4 monster face-up to your field. Shuffle the other cards into the Deck. This turn, the monster Special Summoned by this effect cannot attack.",
+      "official": false
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "spellcaster",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 800,
+  "def": 1600,
+  "passwords": [],
+  "images": [
+    {
+      "id": "c1e3bfee-ebfd-458c-b493-ea886d361637",
+      "card": "https://ms.yugipedia.com//f/fd/SummonerMonk-RDLP01-JP-OP.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Summoner Monk (Rush Duel)",
+        "id": 1203686
+      }
+    ]
+  },
+  "series": []
+}

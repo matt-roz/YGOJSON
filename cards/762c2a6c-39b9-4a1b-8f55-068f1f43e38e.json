@@ -1,0 +1,53 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "762c2a6c-39b9-4a1b-8f55-068f1f43e38e",
+  "text": {
+    "en": {
+      "name": "Voidvelg Meteon",
+      "effect": "Destroy 1 face-up Level 6 or lower LIGHT Attribute monster on your opponent's field. Inflict 300 damage to your opponent."
+    },
+    "ja": {
+      "name": "\u30f4\u30a9\u30a4\u30c9\u30f4\u30a7\u30eb\u30b0\u30fb\u30e1\u30c6\u30aa\u30f3",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff16\u4ee5\u4e0b\uff0f\u5149\u5c5e\u6027\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u7834\u58ca\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u76f8\u624b\u306b\uff13\uff10\uff10\u30c0\u30e1\u30fc\u30b8\u3092\u4e0e\u3048\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ubcf4\uc774\ub4dc\ubca0\ub974\uadf8 \uba54\ud14c\uc624\uc628",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\ub808\ubca8 6 \uc774\ud558 / \ube5b \uc18d\uc131) 1\uc7a5\uc744 \uace0\ub974\uace0 \ud30c\uad34\ud55c\ub2e4. \uadf8 \ud6c4, \uc0c1\ub300\uc5d0\uac8c 300 \ub370\ubbf8\uc9c0\ub97c \uc900\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "classifications": [
+    "effect"
+  ],
+  "level": 2,
+  "atk": 500,
+  "def": 900,
+  "passwords": [],
+  "images": [
+    {
+      "id": "ec13d110-4420-4e58-b749-3e3918e2845a",
+      "card": "https://ms.yugipedia.com//8/8e/VoidvelgMeteon-RDSD05-JP-C.png"
+    }
+  ],
+  "sets": [
+    "cd441253-4a09-47d0-a87e-c4896ae59e5a",
+    "cd441253-4a09-47d0-a87e-c4896ae59e5a"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Voidvelg Meteon",
+        "id": 717423
+      }
+    ],
+    "dbID": 17972
+  },
+  "series": [
+    "1a71afb3-d845-4b98-a693-c9d36036fc9c"
+  ]
+}

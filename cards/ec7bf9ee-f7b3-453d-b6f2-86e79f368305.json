@@ -1,0 +1,43 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "ec7bf9ee-f7b3-453d-b6f2-86e79f368305",
+  "text": {
+    "en": {
+      "name": "Uminotaurus (Rush Duel)",
+      "effect": "Your Fish, Sea Serpent, and Aqua Type monsters inflict piercing battle damage.",
+      "official": false
+    },
+    "ko": {
+      "name": "\uc6b0\ubbf8\ub178\ud0c0\uc6b0\ub85c\uc2a4",
+      "effect": "\uc790\uc2e0 \ubaac\uc2a4\ud130(\uc5b4\ub958\uc871\u30fb\ud574\ub8e1\uc871\u30fb\ubb3c\uc871)\uc758 \uacf5\uaca9\uc740 \uad00\ud1b5\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "type": "aqua",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1700,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "51c27075-0894-425c-be79-364c2dba73cd",
+      "card": "https://ms.yugipedia.com//8/80/Uminotaurus-RDKP18-JP-R.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Uminotaurus (Rush Duel)",
+        "id": 1068809
+      }
+    ],
+    "dbID": 20645
+  },
+  "series": []
+}

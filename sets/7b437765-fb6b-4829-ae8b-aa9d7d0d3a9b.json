@@ -1,0 +1,191 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "7b437765-fb6b-4829-ae8b-aa9d7d0d3a9b",
+  "name": {
+    "en": "Academy Duel Disk",
+    "ja": "\u30a2\u30ab\u30c7\u30df\u30fc\u30c7\u30e5\u30a8\u30eb\u30c7\u30a3\u30b9\u30af",
+    "ko": "\ub4c0\uc5bc\ub514\uc2a4\ud06c GX \ud2b9\uc804 \uce74\ub4dc"
+  },
+  "locales": {
+    "jp": {
+      "language": "ja",
+      "prefix": "DD2-JP",
+      "date": "2005-12-01",
+      "image": "https://ms.yugipedia.com//1/18/DD2-PromoJP.jpg",
+      "cardImages": {
+        "unlimited": {
+          "09ef0532-152b-41b9-b9ca-eec5975f0ac4": "https://ms.yugipedia.com//2/2a/ArmedDragonLV10-DD2-JP-ScR.jpg",
+          "3179c529-ee9c-4059-a989-a68823a2586f": "https://ms.yugipedia.com//3/3f/ElementalHEROSteamHealer-DD2-JP-ScR.png",
+          "78532c33-9690-43a6-a87f-1d25b321a4e2": "https://ms.yugipedia.com//5/52/HeroSpirit-DD2-JP-ScR.png",
+          "e5daabfb-bbd2-4952-94ec-f2d791be936a": "https://ms.yugipedia.com//e/e0/TreasureMap-DD2-JP-ScR.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "09ef0532-152b-41b9-b9ca-eec5975f0ac4": {
+            "image": "https://ms.yugipedia.com//2/2a/ArmedDragonLV10-DD2-JP-ScR.jpg"
+          },
+          "3179c529-ee9c-4059-a989-a68823a2586f": {
+            "image": "https://ms.yugipedia.com//3/3f/ElementalHEROSteamHealer-DD2-JP-ScR.png"
+          },
+          "78532c33-9690-43a6-a87f-1d25b321a4e2": {
+            "image": "https://ms.yugipedia.com//5/52/HeroSpirit-DD2-JP-ScR.png"
+          },
+          "e5daabfb-bbd2-4952-94ec-f2d791be936a": {
+            "image": "https://ms.yugipedia.com//e/e0/TreasureMap-DD2-JP-ScR.png"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          111106001
+        ]
+      }
+    },
+    "kr": {
+      "language": "ko",
+      "prefix": "DSK1-KR",
+      "date": "2006-12-18",
+      "image": "https://ms.yugipedia.com//1/19/DSK1-PromoKR.png",
+      "cardImages": {
+        "limited": {
+          "09ef0532-152b-41b9-b9ca-eec5975f0ac4": "https://ms.yugipedia.com//3/3b/ArmedDragonLV10-DSK1-KR-ScR-LE.jpg",
+          "3179c529-ee9c-4059-a989-a68823a2586f": "https://ms.yugipedia.com//b/b8/ElementalHEROSteamHealer-DSK1-KR-ScR-LE.jpg",
+          "78532c33-9690-43a6-a87f-1d25b321a4e2": "https://ms.yugipedia.com//a/ab/HeroSpirit-DSK1-KR-ScR-LE.png",
+          "e5daabfb-bbd2-4952-94ec-f2d791be936a": "https://ms.yugipedia.com//1/1f/TreasureMap-DSK1-KR-ScR-LE.png"
+        }
+      },
+      "cardInfo": {
+        "limited": {
+          "09ef0532-152b-41b9-b9ca-eec5975f0ac4": {
+            "image": "https://ms.yugipedia.com//3/3b/ArmedDragonLV10-DSK1-KR-ScR-LE.jpg"
+          },
+          "3179c529-ee9c-4059-a989-a68823a2586f": {
+            "image": "https://ms.yugipedia.com//b/b8/ElementalHEROSteamHealer-DSK1-KR-ScR-LE.jpg"
+          },
+          "78532c33-9690-43a6-a87f-1d25b321a4e2": {
+            "image": "https://ms.yugipedia.com//a/ab/HeroSpirit-DSK1-KR-ScR-LE.png"
+          },
+          "e5daabfb-bbd2-4952-94ec-f2d791be936a": {
+            "image": "https://ms.yugipedia.com//1/1f/TreasureMap-DSK1-KR-ScR-LE.png"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          74401001
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//1/18/DD2-PromoJP.jpg",
+      "cards": [
+        {
+          "id": "3179c529-ee9c-4059-a989-a68823a2586f",
+          "card": "8dd3f05e-7571-496b-a645-73ca10146dd2",
+          "suffix": "001",
+          "rarity": "secret",
+          "imageID": "0994bfdd-a5e5-412a-953d-a8ae73ef786a",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "78532c33-9690-43a6-a87f-1d25b321a4e2",
+          "card": "150345de-2c28-49b5-8050-a1167fb08b3e",
+          "suffix": "002",
+          "rarity": "secret",
+          "imageID": "f59bc809-2d4e-49a6-a54a-5fc7db3398eb",
+          "printStatus": "new"
+        },
+        {
+          "id": "09ef0532-152b-41b9-b9ca-eec5975f0ac4",
+          "card": "63477a95-ec3b-4c76-91bf-ed1d57e48a5f",
+          "suffix": "003",
+          "rarity": "secret",
+          "imageID": "e44e0b6f-ec11-4924-943e-c50b2d79d8b6",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "e5daabfb-bbd2-4952-94ec-f2d791be936a",
+          "card": "425c1501-956f-4f99-84cc-ee821a758c54",
+          "suffix": "004",
+          "rarity": "secret",
+          "imageID": "499b0a8c-1567-4d8f-b050-e63e473d62b4",
+          "printStatus": "new"
+        }
+      ],
+      "externalIDs": {}
+    },
+    {
+      "locales": [
+        "kr"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "image": "https://ms.yugipedia.com//1/19/DSK1-PromoKR.png",
+      "cards": [
+        {
+          "id": "3179c529-ee9c-4059-a989-a68823a2586f",
+          "card": "8dd3f05e-7571-496b-a645-73ca10146dd2",
+          "suffix": "001",
+          "rarity": "secret",
+          "imageID": "0994bfdd-a5e5-412a-953d-a8ae73ef786a"
+        },
+        {
+          "id": "78532c33-9690-43a6-a87f-1d25b321a4e2",
+          "card": "150345de-2c28-49b5-8050-a1167fb08b3e",
+          "suffix": "002",
+          "rarity": "secret",
+          "imageID": "f59bc809-2d4e-49a6-a54a-5fc7db3398eb"
+        },
+        {
+          "id": "09ef0532-152b-41b9-b9ca-eec5975f0ac4",
+          "card": "63477a95-ec3b-4c76-91bf-ed1d57e48a5f",
+          "suffix": "003",
+          "rarity": "secret",
+          "imageID": "e44e0b6f-ec11-4924-943e-c50b2d79d8b6"
+        },
+        {
+          "id": "e5daabfb-bbd2-4952-94ec-f2d791be936a",
+          "card": "425c1501-956f-4f99-84cc-ee821a758c54",
+          "suffix": "004",
+          "rarity": "secret",
+          "imageID": "499b0a8c-1567-4d8f-b050-e63e473d62b4"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Academy Duel Disk (set)",
+      "id": 5474
+    }
+  }
+}

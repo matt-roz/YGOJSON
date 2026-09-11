@@ -1,0 +1,52 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "00d44c5d-7283-46a8-9c30-2d2f410eed4c",
+  "text": {
+    "en": {
+      "name": "Chaos Coolstars",
+      "effect": "Draw 1 card. This turn, if you would Tribute Summon \"Galactica Oblivion\" or \"Voidvelg Requiem\" in Attack Position, you can treat this face-up card as 2 Tributes."
+    },
+    "ja": {
+      "name": "\u30ab\u30aa\u30b9\u30fb\u30af\u30fc\u30eb\u30b9\u30bf\u30fc",
+      "effect": "\u81ea\u5206\u306f\uff11\u679a\u30c9\u30ed\u30fc\u3059\u308b\u3002\u3053\u306e\u30bf\u30fc\u30f3\u3001\u300c\u30ae\u30e3\u30e9\u30af\u30c6\u30a3\u30ab\u30fb\u30aa\u30d6\u30ea\u30d3\u30aa\u30f3\u300d\u307e\u305f\u306f\u300c\u30f4\u30a9\u30a4\u30c9\u30f4\u30a7\u30eb\u30b0\u30fb\u30ec\u30af\u30a4\u30a8\u30e0\u300d\u3092\u653b\u6483\u8868\u793a\u3067\u30a2\u30c9\u30d0\u30f3\u30b9\u53ec\u559a\u3059\u308b\u5834\u5408\u3001\u8868\u5074\u8868\u793a\u306e\u3053\u306e\u30ab\u30fc\u30c9\u306f\uff12\u4f53\u5206\u306e\u30ea\u30ea\u30fc\u30b9\u306b\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uce74\uc624\uc2a4 \ucfe8\uc2a4\ud0c0",
+      "effect": "\uc790\uc2e0\uc740 1\uc7a5 \ub4dc\ub85c\uc6b0\ud55c\ub2e4. \uc774 \ud134\uc5d0, \"\uac24\ub7ed\ud2f0\uce74 \uc624\ube14\ub9ac\ube44\uc5b8\" \ub610\ub294 \"\ubcf4\uc774\ub4dc\ubca0\ub974\uadf8 \ub808\ud034\uc5e0\"\uc744 \uacf5\uaca9 \ud45c\uc2dc\ub85c \uc5b4\ub4dc\ubc34\uc2a4 \uc18c\ud658\ud560 \uacbd\uc6b0, \uc55e\uba74 \ud45c\uc2dc\uc758 \uc774 \uce74\ub4dc\ub294 2\uc7a5\ub9cc\ud07c\uc758 \ub9b4\ub9ac\uc2a4\ub85c \ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1200,
+  "def": 200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "624f37db-1177-4496-83ff-b3345833ead8",
+      "card": "https://ms.yugipedia.com//2/24/ChaosCoolstars-RDKP20-JP-C.png"
+    }
+  ],
+  "sets": [
+    "4454e1d2-cecc-444f-ad47-a642c0e93b9b"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Chaos Coolstars",
+        "id": 1103823
+      }
+    ],
+    "dbID": 21255
+  },
+  "series": [
+    "97398238-3d38-45ec-9686-f8d2891eb5e5"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "d7eb8afd-e14b-4adc-be85-10b246ef2485",
+  "text": {
+    "en": {
+      "name": "Straynge Clowder",
+      "effect": "Special Summon 1 Spellcaster Type Normal Monster from your Graveyard face-up to your field. If you Special Summoned \"Straynge Cat\" by this effect, this card also gains 1400 ATK until the end of this turn."
+    },
+    "ja": {
+      "name": "\u306f\u3050\u308c\u96c6\u3044\u9b54",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u901a\u5e38\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u9b54\u6cd5\u4f7f\u3044\u65cf\uff09\uff11\u4f53\u3092\u9078\u3073\u3001\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u8868\u793a\u3067\u7279\u6b8a\u53ec\u559a\u3059\u308b\u3002\u3053\u306e\u52b9\u679c\u3067\u300c\u306f\u3050\u308c\u4f7f\u3044\u9b54\u300d\u3092\u7279\u6b8a\u53ec\u559a\u3057\u305f\u5834\u5408\u3001\u3055\u3089\u306b\u3053\u306e\u30ab\u30fc\u30c9\u306e\u653b\u6483\u529b\u306f\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\uff11\uff14\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub099\uc624\uc790 \ubaa8\uc784\ub9c8",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \uc77c\ubc18 \ubaac\uc2a4\ud130(\ub9c8\ubc95\uc0ac\uc871) 1\uc7a5\uc744 \uace0\ub974\uace0, \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \ud45c\uc2dc\ub85c \ud2b9\uc218 \uc18c\ud658\ud55c\ub2e4. \uc774 \ud6a8\uacfc\ub85c \"\ub099\uc624\uc790 \uc0ac\uc5ed\ub9c8\"\ub97c \ud2b9\uc218 \uc18c\ud658\ud588\uc744 \uacbd\uc6b0, \ucd94\uac00\ub85c \uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\ub825\uc740 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0 1400 \uc62c\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "spellcaster",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 200,
+  "def": 2600,
+  "passwords": [],
+  "images": [
+    {
+      "id": "f22cdef2-1793-4e95-8c62-d4262832e8ee",
+      "card": "https://ms.yugipedia.com//f/f8/StrayngeClowder-RDEXT1-JP-C.png"
+    }
+  ],
+  "sets": [
+    "f15281f0-8ea5-4682-b72c-36f0b779a7bc",
+    "b6e8e337-8faf-48be-851d-4ba7298c81d0",
+    "a6b12f39-c8d9-4ead-87f7-7ea71d365768",
+    "288f40da-3a58-4353-8951-a8b611718475"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "r"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Straynge Clowder",
+        "id": 716892
+      }
+    ],
+    "dbID": 16902
+  },
+  "series": [
+    "c4dd8798-9ff1-412d-8506-6a4e790234e8"
+  ]
+}

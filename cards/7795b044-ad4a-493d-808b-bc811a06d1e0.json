@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "7795b044-ad4a-493d-808b-bc811a06d1e0",
+  "text": {
+    "en": {
+      "name": "Cross Loader",
+      "effect": "Special Summon 1 Level 7 Warrior Type monster with 2500 ATK/2000 DEF from your Graveyard face-up to your field. This turn, you can only attack with Warrior Type monsters.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30af\u30ed\u30b9\u30fb\u30ed\u30fc\u30c0\u30fc",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff17\uff0f\u6226\u58eb\u65cf\uff0f\u653b\u6483\u529b\uff12\uff15\uff10\uff10\uff0f\u5b88\u5099\u529b\uff12\uff10\uff10\uff10\uff09\uff11\u4f53\u3092\u9078\u3073\u3001\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u8868\u793a\u3067\u7279\u6b8a\u53ec\u559a\u3059\u308b\u3002\u3053\u306e\u30bf\u30fc\u30f3\u3001\u81ea\u5206\u306f\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u6226\u58eb\u65cf\u4ee5\u5916\uff09\u3067\u653b\u6483\u3067\u304d\u306a\u3044\u3002"
+    },
+    "ko": {
+      "name": "\ud06c\ub85c\uc2a4 \ub85c\ub354",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130(\ub808\ubca8 7 / \uc804\uc0ac\uc871 / \uacf5\uaca9\ub825 2500 / \uc218\ube44\ub825 2000) 1\uc7a5\uc744 \uace0\ub974\uace0, \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \ud45c\uc2dc\ub85c \ud2b9\uc218 \uc18c\ud658\ud55c\ub2e4. \uc774 \ud134\uc5d0, \uc790\uc2e0\uc740 \ubaac\uc2a4\ud130(\uc804\uc0ac\uc871 \uc774\uc678)\ub85c \uacf5\uaca9\ud560 \uc218 \uc5c6\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 2,
+  "atk": 400,
+  "def": 400,
+  "passwords": [],
+  "images": [
+    {
+      "id": "5ee4ef8b-6103-4e0e-9e02-97f3f3ab644f",
+      "card": "https://ms.yugipedia.com//a/a9/CrossLoader-RDKP18-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Cross Loader",
+        "id": 1074632
+      }
+    ],
+    "dbID": 20625
+  },
+  "series": [
+    "34c5b22c-a2f7-4b8e-8938-a50b1e41c0d6"
+  ]
+}

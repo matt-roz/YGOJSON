@@ -1,0 +1,43 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "79e8d30a-87b1-4858-9b57-829a7481551b",
+  "text": {
+    "en": {
+      "name": "Shadow Ghoul (Rush Duel)",
+      "effect": "This card gains ATK equal to [the number of monsters in your Graveyard] x 100.",
+      "official": false
+    },
+    "ko": {
+      "name": "\uc100\ub3c4\uc6b0 \uad6c\uc6b8",
+      "effect": "\uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\ub825\uc740, [\uc790\uc2e0 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130\uc758 \uc218] \u00d7 100 \uc62c\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "zombie",
+  "classifications": [
+    "effect"
+  ],
+  "level": 5,
+  "atk": 1600,
+  "def": 1300,
+  "passwords": [],
+  "images": [
+    {
+      "id": "32115060-1045-4ca2-a2d7-b9acc8c57e33",
+      "card": "https://ms.yugipedia.com//6/64/ShadowGhoul-RDLGP2-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Shadow Ghoul (Rush Duel)",
+        "id": 716665
+      }
+    ],
+    "dbID": 17715
+  },
+  "series": []
+}

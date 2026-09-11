@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "2ca9e8e6-89e6-4fd5-a8e5-640682242f95",
+  "text": {
+    "en": {
+      "name": "Rise Motor Keelcopper",
+      "effect": "This card's name becomes \"Rising Unit\". Face-up LIGHT Attribute Warrior Type monsters on your field gain 200 ATK, and cannot be destroyed by your opponent's card effects.",
+      "official": false
+    },
+    "ja": {
+      "name": "\uff32\u30fb\u30e2\u30fc\u30bf\u30fc \u30ad\u30fc\u30eb\u30ab\u30c3\u30d1\u30fc",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u306e\u30ab\u30fc\u30c9\u540d\u306f\u300c\uff32\u30fb\u30e6\u30cb\u30c3\u30c8\u300d\u306b\u306a\u308b\u3002\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u5149\u5c5e\u6027\uff0f\u6226\u58eb\u65cf\uff09\u306e\u653b\u6483\u529b\u306f\uff12\uff10\uff10\u30a2\u30c3\u30d7\u3057\u3001\u76f8\u624b\u306e\u52b9\u679c\u3067\u306f\u7834\u58ca\u3055\u308c\u306a\u3044\u3002"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 1100,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "06b65151-c84e-485f-b330-3406225e1864",
+      "card": "https://ms.yugipedia.com//6/6a/RiseMotorKeelcopper-RDKP25-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Rise Motor Keelcopper",
+        "id": 1189615
+      }
+    ],
+    "dbID": 23220
+  },
+  "series": [
+    "4639ddb4-0c81-4fac-b38d-bfac9d55eedb"
+  ]
+}

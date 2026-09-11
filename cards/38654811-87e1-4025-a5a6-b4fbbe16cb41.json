@@ -1,0 +1,47 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "38654811-87e1-4025-a5a6-b4fbbe16cb41",
+  "text": {
+    "en": {
+      "name": "Dark Magician Girl the Dragon Knight (Rush Duel)",
+      "effect": "Destroy 1 face-up card on your opponent's field.",
+      "official": false
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "dragon",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2600,
+  "def": 1700,
+  "passwords": [],
+  "images": [
+    {
+      "id": "7928bc9d-8bb5-4b49-b4bf-bab549bb22be",
+      "card": "https://ms.yugipedia.com//archive/c/cb/20260902154750%21DarkMagicianGirltheDragonKnight-RDCA01-JP-OP.png"
+    },
+    {
+      "id": "015924a5-cefb-47ed-b2af-af82804ddd03",
+      "card": "https://ms.yugipedia.com//d/d3/DarkMagicianGirltheDragonKnight-RDCA01-JP-OP-AA.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Dark Magician Girl the Dragon Knight (Rush Duel)",
+        "id": 1206978
+      }
+    ]
+  },
+  "series": [
+    "73409add-3e9e-400d-a8b0-ae600de6af69"
+  ]
+}

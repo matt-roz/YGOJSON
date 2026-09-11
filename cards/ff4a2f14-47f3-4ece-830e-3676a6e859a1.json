@@ -1,0 +1,60 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "ff4a2f14-47f3-4ece-830e-3676a6e859a1",
+  "text": {
+    "en": {
+      "name": "Nessus the Star Knight",
+      "effect": "An individual imbued with the power of a wicked celestial being. Looks up to Echeclus the Star Knight as one would a mentor."
+    },
+    "ja": {
+      "name": "\u661f\u6226\u9a0e\u30cd\u30c3\u30bd\u30b9",
+      "effect": "\u60aa\u661f\u306e\u529b\u3092\u8eab\u306b\u5bbf\u3057\u305f\u4e00\u4eba\u3002\u661f\u6226\u9a0e\u30a8\u30b1\u30eb\u30af\u30eb\u30b9\u3092\u5e2b\u3068\u4ef0\u3044\u3067\u3044\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc131\uc804\uae30 \ub124\uc18c\uc2a4",
+      "effect": "\uc545\uc131\uc758 \ud798\uc744 \ubab8\uc5d0 \uc9c0\ub2cc \uc790. \uc131\uc804\uae30 \uc5d0\ucf08\ud06c\ub8e8\uc2a4\ub97c \uc2a4\uc2b9\uc73c\ub85c \uc12c\uae30\uace0 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "fiend",
+  "classifications": [
+    "normal"
+  ],
+  "level": 4,
+  "atk": 1500,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "79998e14-34df-4dce-a9bd-e29705bb931d",
+      "card": "https://ms.yugipedia.com//c/cc/NessustheStarKnight-RDSBD5-JP-C.png"
+    }
+  ],
+  "sets": [
+    "e1cd0077-0760-46c2-8cff-9fd1ac443780",
+    "b0f28e3d-b93f-42f7-9518-5a27b9304349",
+    "9fedf2d0-5ae8-4861-b6f6-654c2d8aefeb",
+    "24efaeb8-31d0-4d9b-b5b6-db394582c1f3",
+    "24efaeb8-31d0-4d9b-b5b6-db394582c1f3",
+    "62f50503-1055-4260-b990-3fb3469154e0",
+    "11548122-d48e-4313-aff4-6d29bca3f0b0",
+    "288f40da-3a58-4353-8951-a8b611718475"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "r"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Nessus the Star Knight",
+        "id": 716026
+      }
+    ],
+    "dbID": 16789
+  },
+  "series": [
+    "23440784-1c3f-4acd-b6e7-c557d9a55037"
+  ]
+}

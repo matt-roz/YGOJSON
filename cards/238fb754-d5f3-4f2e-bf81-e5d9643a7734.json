@@ -1,0 +1,48 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "238fb754-d5f3-4f2e-bf81-e5d9643a7734",
+  "text": {
+    "en": {
+      "name": "Reindsurm Gigalovendra",
+      "effect": "You can Ritual Summon this card with \"Reindsurm Conquest\". (Quick Effect): You can send 2 cards from your hand to the GY, including this card; add 1 non-FIRE \"Reindsurm\" monster from your Deck to your hand. If this card is Ritual Summoned, or your opponent Special Summons a monster(s): You can shuffle up to 2 monsters on the field into the Deck. If this card and a WATER \"Reindsurm\" monster are in your GY: You can add this card to your hand. You can only use each effect of \"Reindsurm Gigalovendra\" once per turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30ea\u30a4\u30f3\u30bc\u30eb\u30e0\u30fb\u30ae\u30ac\u30ed\u30f4\u30a7\u30f3\u30c9\u30e9"
+    },
+    "zh-CN": {
+      "name": "\u8f6e\u56de\u866b\u9f99\u30fb\u6781\u5de8\u767e\u8db3\u9f99",
+      "effect": "\u4ee5\u201c\u8f6e\u56de\u866b\u9f99\u4e4b\u9ab8\u6b4c\u201d\u964d\u4e34\n\u6b64\u5361\u540d\u7684\u2460\u2461\u2462\u6548\u679c1\u56de\u5408\u4ec5\u53ef\u5404\u4f7f\u75281\u6b21\u3002\u2460\uff1a\u5728\u81ea\u5df1\u30fb\u5bf9\u624b\u56de\u5408\u4e2d\uff0c\u5c06\u5305\u542b\u6b64\u5361\u5728\u5185\u76842\u5f20\u624b\u724c\u9001\u81f3\u5893\u5730\u53ef\u4ee5\u53d1\u52a8\u3002\u4ece\u724c\u7ec4\u5c06\u708e\u5c5e\u6027\u4ee5\u5916\u76841\u53ea\u201c\u8f6e\u56de\u866b\u9f99\u201d\u602a\u517d\u52a0\u5165\u624b\u724c\u3002\u2461\uff1a\u6b64\u5361\u4eea\u5f0f\u53ec\u5524\u7684\u60c5\u51b5\u4e0b\uff0c\u6216\u5bf9\u624b\u5c06\u602a\u517d\u7279\u6b8a\u53ec\u5524\u7684\u60c5\u51b5\u4e0b\u53ef\u4ee5\u53d1\u52a8\u3002\u5c06\u573a\u4e0a\u7684\u6700\u591a2\u53ea\u602a\u517d\u653e\u56de\u724c\u7ec4\u3002\u2462\uff1a\u81ea\u5df1\u5893\u5730\u5b58\u5728\u6b64\u5361\u548c\u6c34\u5c5e\u6027\u7684\u201c\u8f6e\u56de\u866b\u9f99\u201d\u602a\u517d\u7684\u60c5\u51b5\u4e0b\u53ef\u4ee5\u53d1\u52a8\u3002\u5c06\u6b64\u5361\u52a0\u5165\u624b\u724c\u3002"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "monsterCardTypes": [
+    "ritual"
+  ],
+  "type": "insect",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 3000,
+  "def": 1100,
+  "passwords": [],
+  "images": [
+    {
+      "id": "e71f279c-7150-474f-b428-332616588931",
+      "card": "https://ms.yugipedia.com//8/83/ReindsurmGigalovendra-IMPH-JP-OP.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Reindsurm Gigalovendra",
+        "id": 1223184
+      }
+    ]
+  },
+  "series": []
+}

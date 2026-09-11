@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "ccf61e3c-29e3-4e00-a5a2-29efaa966bf3",
+  "text": {
+    "en": {
+      "name": "Evasive Chaos Ninsect Rosary Cicada",
+      "effect": "Your DARK Attribute Insect Type monsters with a Continuous Effect inflict piercing battle damage. You take no battle damage from battles involving your Insect Type monsters.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u6606\u9041\u5fcd\u866b \u5ff5\u73e0\u306e\u30a6\u30c4\u30bb\u30df",
+      "effect": "\u6c38\u7d9a\u52b9\u679c\u3092\u6301\u3064\u81ea\u5206\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u95c7\u5c5e\u6027\uff0f\u6606\u866b\u65cf\uff09\u306e\u653b\u6483\u306f\u8cab\u901a\u3059\u308b\u3002\u81ea\u5206\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u6606\u866b\u65cf\uff09\u306e\u6226\u95d8\u3067\u3001\u81ea\u5206\u306f\u6226\u95d8\u30c0\u30e1\u30fc\u30b8\u3092\u53d7\u3051\u306a\u3044\u3002"
+    },
+    "ko": {
+      "name": "\uace4\ub454\uc778\ucda9 \uc5fc\uc8fc\uc758 \uc6b0\uce20\uc138\ubbf8",
+      "effect": "\uc9c0\uc18d \ud6a8\uacfc\ub97c \uac00\uc9c0\ub294 \uc790\uc2e0 \ubaac\uc2a4\ud130(\uc5b4\ub460 \uc18d\uc131 / \uace4\ucda9\uc871)\uc758 \uacf5\uaca9\uc740 \uad00\ud1b5\ud55c\ub2e4. \uc790\uc2e0 \ubaac\uc2a4\ud130(\uace4\ucda9\uc871)\uc758 \uc804\ud22c\ub85c, \uc790\uc2e0\uc740 \uc804\ud22c \ub370\ubbf8\uc9c0\ub97c \ubc1b\uc9c0 \uc54a\ub294\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "insect",
+  "classifications": [
+    "effect"
+  ],
+  "level": 1,
+  "atk": 0,
+  "def": 400,
+  "passwords": [],
+  "images": [
+    {
+      "id": "d90c9f02-14b6-496f-9bea-bd4d9d8c8d8e",
+      "card": "https://ms.yugipedia.com//b/b8/EvasiveChaosNinsectRosaryCicada-RDKP20-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Evasive Chaos Ninsect Rosary Cicada",
+        "id": 1107520
+      }
+    ],
+    "dbID": 21263
+  },
+  "series": [
+    "5e2e65fc-ec0c-4d6e-89f1-59deaf9cf2a4"
+  ]
+}

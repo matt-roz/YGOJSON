@@ -1,0 +1,47 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "47509252-5623-43e0-b1f7-a45bafea44d0",
+  "text": {
+    "en": {
+      "name": "Lana the Holy Wind of Healing",
+      "effect": "Return 1 Spell/Trap Card from your opponent's field to the owner's hand. Then, you can change this card's battle position.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u7652\u3057\u306e\u8056\u98a8\u30e9\u30fc\u30ca",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u9b54\u6cd5\u30fb\u7f60\u30ab\u30fc\u30c9\uff11\u679a\u3092\u9078\u3093\u3067\u6301\u3061\u4e3b\u306e\u624b\u672d\u306b\u623b\u3059\u3002\u305d\u306e\u5f8c\u3001\u3053\u306e\u30ab\u30fc\u30c9\u306e\u8868\u793a\u5f62\u5f0f\u3092\u5909\u66f4\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uce58\uc720\uc758 \uc131\ud48d \ub77c\ub098",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \ub9c8\ubc95 / \ud568\uc815 \uce74\ub4dc 1\uc7a5\uc744 \uace0\ub974\uace0 \uc8fc\uc778\uc758 \ud328\ub85c \ub418\ub3cc\ub9b0\ub2e4. \uadf8 \ud6c4, \uc774 \uce74\ub4dc\uc758 \ud45c\uc2dc \ud615\uc2dd\uc744 \ubcc0\uacbd\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "wind",
+  "type": "psychic",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2400,
+  "def": 1200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "d92ad396-7af4-4c79-ac41-77af1848708f",
+      "card": "https://ms.yugipedia.com//9/98/LanatheHolyWindofHealing-RDAP02-JP-UR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Lana the Holy Wind of Healing",
+        "id": 1163988
+      }
+    ],
+    "dbID": 22659
+  },
+  "series": []
+}

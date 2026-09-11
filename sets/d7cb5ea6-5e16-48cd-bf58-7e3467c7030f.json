@@ -1,0 +1,70 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "d7cb5ea6-5e16-48cd-bf58-7e3467c7030f",
+  "name": {
+    "en": "Master Hyperion Value Box"
+  },
+  "locales": {
+    "en": {
+      "language": "en",
+      "prefix": "SDLS-EN",
+      "image": "https://ms.yugipedia.com//4/45/SDLS-PromoEN.png",
+      "cardImages": {
+        "unlimited": {
+          "f56f6b44-b7f5-4295-82bb-d71b1935aa52": "https://ms.yugipedia.com//4/44/MasterHyperion-SDLS-EN-UR-UE-CT.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "f56f6b44-b7f5-4295-82bb-d71b1935aa52": {
+            "image": "https://ms.yugipedia.com//4/44/MasterHyperion-SDLS-EN-UR-UE-CT.png",
+            "variants": [
+              {
+                "code": "CT",
+                "image": "https://ms.yugipedia.com//4/44/MasterHyperion-SDLS-EN-UR-UE-CT.png"
+              }
+            ]
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {}
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "en"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "distrobution": "preconstructed",
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//4/45/SDLS-PromoEN.png",
+      "cards": [
+        {
+          "id": "f56f6b44-b7f5-4295-82bb-d71b1935aa52",
+          "card": "b2d36525-c6b0-4d24-a22e-33565308d5e2",
+          "suffix": "001",
+          "rarity": "ultra",
+          "imageID": "07225451-75ad-4aa0-9327-4214c220e6f7"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Master Hyperion Value Box",
+      "id": 312478
+    }
+  }
+}

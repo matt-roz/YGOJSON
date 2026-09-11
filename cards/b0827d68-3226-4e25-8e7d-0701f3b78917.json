@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "b0827d68-3226-4e25-8e7d-0701f3b78917",
+  "text": {
+    "en": {
+      "name": "Needlkyrie the Celestial Seamstress",
+      "effect": "A messenger who illuminates the way to the higher realm. Darkness flees against the light of the chosen."
+    },
+    "ja": {
+      "name": "\u6226\u5929\u5973\u30cf\u30ea\u30ad\u30ea\u30fc",
+      "effect": "\u5929\u754c\u3078\u306e\u91dd\u8def\u3092\u793a\u3059\u795e\u306e\u4f7f\u3044\u3002\u95c7\u3092\u7167\u3089\u3057\u3066\u5149\u3068\u70ba\u3059\u3002"
+    },
+    "ko": {
+      "name": "\uc804\ucc9c\ub140 \ud558\ub9ac\ud0a4\ub9ac",
+      "effect": "\ucc9c\uacc4\ub85c\uc758 \uae38\uc744 \uac00\ub9ac\ud0a4\ub294 \uc2e0\uc758 \uc0ac\uc790. \uc5b4\ub460\uc744 \ube44\ucd94\uc5b4 \ube5b\uc774 \ub418\ub9ac\ub77c."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "fairy",
+  "classifications": [
+    "normal"
+  ],
+  "level": 1,
+  "atk": 0,
+  "def": 1400,
+  "passwords": [],
+  "images": [
+    {
+      "id": "4b8ab347-1e9e-439a-a7df-fcae8a5157e1",
+      "card": "https://ms.yugipedia.com//2/24/NeedlkyrietheCelestialSeamstress-RDMRP2-JP-C.png"
+    }
+  ],
+  "sets": [
+    "a5eedf36-311c-4849-a732-d96430b8e8cc"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Needlkyrie the Celestial Seamstress",
+        "id": 716010
+      }
+    ],
+    "dbID": 16967
+  },
+  "series": []
+}

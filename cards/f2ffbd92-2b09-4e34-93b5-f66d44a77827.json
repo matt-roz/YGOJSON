@@ -1,0 +1,57 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "f2ffbd92-2b09-4e34-93b5-f66d44a77827",
+  "text": {
+    "en": {
+      "name": "Dynamic Dino Dynamix",
+      "effect": "Destroy up to 2 monsters on your opponent's field."
+    },
+    "ja": {
+      "name": "\u5927\u6050\u7adc\u99d5\u30c0\u30a4\u30ca\uff0d\u30df\u30af\u30b9",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u3092\uff12\u4f53\u307e\u3067\u9078\u3093\u3067\u7834\u58ca\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub300\uacf5\ub8e1\uac00 \ub2e4\uc774\ub108\uff0d\ubbf9\uc2a4",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \ubaac\uc2a4\ud130\ub97c 2\uc7a5\uae4c\uc9c0 \uace0\ub974\uace0 \ud30c\uad34\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "dinosaur",
+  "classifications": [
+    "effect"
+  ],
+  "level": 10,
+  "atk": 1900,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "ce508947-bb1a-4be8-9dbf-ca090a41d3ca",
+      "card": "https://ms.yugipedia.com//b/be/DynamicDinoDynamix-RDMAX2-JP-UR.png"
+    },
+    {
+      "id": "0ca0ff8f-5a70-48e8-8add-2b1575f171dc",
+      "card": "https://ms.yugipedia.com//b/b6/DynamicDinoDynamix-RDTB02-JP-C.png"
+    }
+  ],
+  "sets": [
+    "5b6d7ab4-987e-4469-89bd-9d9bf3d400c0"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Dynamic Dino Dynamix",
+        "id": 714743
+      }
+    ],
+    "dbID": 16574
+  },
+  "series": [
+    "34abd7ad-23eb-4078-a140-43c367297c26"
+  ]
+}

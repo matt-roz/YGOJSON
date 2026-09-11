@@ -1,0 +1,57 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "d4242d4c-d8a4-45ad-bb93-17f6075b60c2",
+  "text": {
+    "en": {
+      "name": "Crescent Moon Swordmaster",
+      "effect": "This turn, this card cannot be destroyed by your opponent's Trap Card effects."
+    },
+    "ja": {
+      "name": "\u4e09\u65e5\u6708\u306e\u5263\u8c6a\u5c06\u8ecd",
+      "effect": "\u3053\u306e\u30bf\u30fc\u30f3\u3001\u3053\u306e\u30ab\u30fc\u30c9\u306f\u76f8\u624b\u306e\u7f60\u30ab\u30fc\u30c9\u306e\u52b9\u679c\u3067\u306f\u7834\u58ca\u3055\u308c\u306a\u3044\u3002"
+    },
+    "ko": {
+      "name": "\ucd08\uc2b9\ub2ec\uc758 \uac80\uac1d\uc7a5\uad70",
+      "effect": "\uc774 \ud134\uc5d0, \uc774 \uce74\ub4dc\ub294 \uc0c1\ub300 \ud568\uc815 \uce74\ub4dc\uc758 \ud6a8\uacfc\ub85c\ub294 \ud30c\uad34\ub418\uc9c0 \uc54a\ub294\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 2600,
+  "def": 2000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "e1e6b244-41d0-4120-9704-fb0429ad81e3",
+      "card": "https://ms.yugipedia.com//5/58/CrescentMoonSwordmaster-RDB221-JP-C.png"
+    }
+  ],
+  "sets": [
+    "f15281f0-8ea5-4682-b72c-36f0b779a7bc",
+    "b6e8e337-8faf-48be-851d-4ba7298c81d0",
+    "800a7d3b-5bf8-4d9e-b88b-3ec6be2416b7",
+    "4758595f-fc6c-4993-9a71-0738f485c6c9"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "r"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Crescent Moon Swordmaster",
+        "id": 715524
+      }
+    ],
+    "dbID": 16917
+  },
+  "series": []
+}

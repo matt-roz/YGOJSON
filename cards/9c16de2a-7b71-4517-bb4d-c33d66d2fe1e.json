@@ -1,0 +1,52 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "9c16de2a-7b71-4517-bb4d-c33d66d2fe1e",
+  "text": {
+    "en": {
+      "name": "Earth Sorcerer",
+      "effect": "Although he fled his hometown one fateful day, this sorcerer still harbors unshakable pride in his clan."
+    },
+    "ja": {
+      "name": "\u30a2\u30fc\u30b9\u30fb\u30bd\u30fc\u30b5\u30e9\u30fc",
+      "effect": "\u4e00\u65cf\u306e\u8a87\u308a\u3092\u80f8\u306b\u62b1\u304f\u9b54\u8853\u5e2b\u3002\u305d\u306e\u65e5\u5f7c\u306f\u9003\u3052\u308b\u3088\u3046\u306b\u6545\u90f7\u3092\u5f8c\u306b\u3057\u305f\u3002"
+    },
+    "ko": {
+      "name": "\uc5b4\uc2a4 \uc18c\uc11c\ub7ec",
+      "effect": "\uc77c\uc871\uc758 \uae0d\uc9c0\ub97c \uac00\uc2b4\uc5d0 \ud488\uc740 \ub9c8\uc220\uc0ac. \uadf8\ub0a0 \uadf8\ub294 \ub3c4\ub9dd\uce58\ub4ef\uc774 \uace0\ud5a5\uc744 \ub4a4\ub85c\ud588\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "spellcaster",
+  "classifications": [
+    "normal"
+  ],
+  "level": 4,
+  "atk": 1500,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "9b6d3235-188f-494d-b671-2d7909ba9779",
+      "card": "https://ms.yugipedia.com//0/02/EarthSorcerer-RDKP13-JP-C.png"
+    }
+  ],
+  "sets": [
+    "f15281f0-8ea5-4682-b72c-36f0b779a7bc",
+    "dd544c08-5223-4f76-9470-5d47aec790d2"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "n"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Earth Sorcerer",
+        "id": 903543
+      }
+    ],
+    "dbID": 18930
+  },
+  "series": []
+}

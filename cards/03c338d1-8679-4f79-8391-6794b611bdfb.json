@@ -1,0 +1,72 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "03c338d1-8679-4f79-8391-6794b611bdfb",
+  "text": {
+    "en": {
+      "name": "Red-Eyes Black Dragon (Rush Duel)",
+      "effect": "A ferocious dragon with a deadly attack."
+    },
+    "fr": {
+      "name": "Dragon Noir aux Yeux Rouges",
+      "effect": "Dragon f\u00e9roce \u00e0 l'attaque meurtri\u00e8re."
+    },
+    "de": {
+      "name": "Rot\u00e4ugiger schwarzer Drache",
+      "effect": "Ein grimmiger Drache, dessen Angriff t\u00f6dlich ist."
+    },
+    "it": {
+      "name": "Drago Nero Occhi Rossi",
+      "effect": "Un feroce drago dotato di un attacco mortale."
+    },
+    "es": {
+      "name": "Drag\u00f3n Negro de Ojos Rojos",
+      "effect": "Un drag\u00f3n feroz con un ataque mortal."
+    },
+    "ko": {
+      "name": "\ubd89\uc740 \ub208\uc758 \ud751\ub8e1",
+      "effect": "\ubd89\uc740 \ub208\uc744 \uac00\uc9c4 \ud751\ub8e1. \ubd84\ub178\uc758 \uac80\uc740 \ud654\uc5fc\uc740 \uadf8 \ub208\uc5d0 \ube44\uce58\ub294 \uc790\ub4e4\uc744 \ubaa8\uc870\ub9ac \ubd88\ud0dc\uc6cc \ubc84\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "dragon",
+  "classifications": [
+    "normal"
+  ],
+  "level": 7,
+  "atk": 2400,
+  "def": 2000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "71cdd954-19b1-47ab-9c0f-bb4327348205",
+      "card": "https://ms.yugipedia.com//f/f9/RedEyesBlackDragon-RDTB02-JP-C.png"
+    },
+    {
+      "id": "865e88a7-9409-40f9-adb6-a8d6bec0113b",
+      "card": "https://ms.yugipedia.com//9/9e/RedEyesBlackDragon-RDG002-JP-ORR.png"
+    },
+    {
+      "id": "fb6d0cb1-5d81-454d-af02-7adb0eb8d4ec",
+      "card": "https://ms.yugipedia.com//7/78/RedEyesBlackDragon-RDTB02-JP-ORR.png"
+    },
+    {
+      "id": "6c6009dc-0909-4471-8093-1d76415ce148",
+      "card": "https://ms.yugipedia.com//f/fa/RedEyesBlackDragon-RDLP01-JP-OP.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Red-Eyes Black Dragon (Rush Duel)",
+        "id": 716405
+      }
+    ],
+    "dbID": 15351
+  },
+  "series": [
+    "b8f9793c-0736-4ee4-99be-120c4d70afbc"
+  ]
+}

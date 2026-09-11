@@ -1,0 +1,53 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "f5b70b6a-3546-48ad-90d6-b461c07165ee",
+  "text": {
+    "en": {
+      "name": "Cybersepice Nutmeg",
+      "effect": "Each player sends the top card of their Deck to the Graveyard. Then, you can place 1 of the cards sent on either the top or bottom of the owner's Deck.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30b5\u30a4\u30d0\u30fc\u30b9\u30d1\u30a4\u30b9\u30fb\u30ca\u30c4\u30e1\u30b0",
+      "effect": "\u304a\u4e92\u3044\u306e\u30c7\u30c3\u30ad\u306e\u4e00\u756a\u4e0a\u306e\u30ab\u30fc\u30c9\u3092\u5893\u5730\u3078\u9001\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306f\u305d\u306e\u4e2d\u304b\u3089\uff11\u679a\u3092\u9078\u3093\u3067\u6301\u3061\u4e3b\u306e\u30c7\u30c3\u30ad\u306e\u4e0a\u304b\u4e0b\u306b\u623b\u3059\u4e8b\u304c\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc0ac\uc774\ubc84\uc2a4\ud30c\uc774\uc2a4 \ub108\ud2b8\uba55",
+      "effect": "\uc11c\ub85c\uc758 \ub371 \ub9e8 \uc704\uc758 \uce74\ub4dc\ub97c \ubb18\uc9c0\ub85c \ubcf4\ub0b8\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0\uc740 \uadf8 \uc911\uc5d0\uc11c 1\uc7a5\uc744 \uace0\ub974\uace0 \uc8fc\uc778\uc758 \ub371 \uc704\ub098 \uc544\ub798\ub85c \ub418\ub3cc\ub9b4 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "type": "cyberse",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2300,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "a923209b-bf45-4bb2-8a00-beb95d9f657c",
+      "card": "https://ms.yugipedia.com//3/3b/CybersepiceNutmeg-RDKP17-JP-SR.png"
+    },
+    {
+      "id": "c42781e6-3a44-456b-9350-dcefb619d235",
+      "card": "https://ms.yugipedia.com//d/d6/CybersepiceNutmeg-RDKP17-JP-ScR-AA.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Cybersepice Nutmeg",
+        "id": 1044906
+      }
+    ],
+    "dbID": 20315
+  },
+  "series": [
+    "77a03aa6-7e6b-4da3-9919-c02287f58091"
+  ]
+}

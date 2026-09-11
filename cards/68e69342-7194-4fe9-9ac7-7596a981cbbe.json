@@ -1,0 +1,54 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "68e69342-7194-4fe9-9ac7-7596a981cbbe",
+  "text": {
+    "en": {
+      "name": "Elemental HERO Sparkman (Rush Duel)",
+      "effect": "An Elemental HERO and a warrior of light who proficiently wields many kinds of armaments. His Static Shockwave cuts off the path of villainy."
+    },
+    "ko": {
+      "name": "\uc5d8\ub9ac\uba58\ud2c0 \ud788\uc5b4\ub85c \uc2a4\ud30c\ud06c\ub9e8",
+      "effect": "\uc5ec\ub7ec\uac00\uc9c0 \ubb34\uae30\ub97c \ub2a5\uc219\ud558\uac8c \ub2e4\ub8e8\ub294, \ube5b\uc758 \uc804\uc0ac \uc5d8\ub9ac\uba58\ud2c0 \ud788\uc5b4\ub85c. \uc131\uc2a4\ub7ec\uc6b4 \ube5b, \uc2a4\ud30c\ud06c \ud50c\ub798\uc2dc\uac00 \uc545\uc758 \ud1f4\ub85c\ub97c \ucc28\ub2e8\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "warrior",
+  "classifications": [
+    "normal"
+  ],
+  "level": 4,
+  "atk": 1600,
+  "def": 1400,
+  "passwords": [],
+  "images": [
+    {
+      "id": "ab3b246a-5134-4a47-acf4-12d48a865eb7",
+      "card": "https://ms.yugipedia.com//8/8a/ElementalHEROSparkman-RDP005-JP-ScRRed.png"
+    },
+    {
+      "id": "9fb8e542-3b2a-47bd-84ec-34685405ebbb",
+      "card": "https://ms.yugipedia.com//a/a4/ElementalHEROSparkman-RD711D-JP-NPR.png"
+    }
+  ],
+  "sets": [
+    "8f9b8437-ca62-4bdc-a9d7-5f2c5ff25567",
+    "fab3640e-34f2-410e-8c1b-6c7386795132",
+    "fab3640e-34f2-410e-8c1b-6c7386795132",
+    "fab3640e-34f2-410e-8c1b-6c7386795132",
+    "fab3640e-34f2-410e-8c1b-6c7386795132"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Elemental HERO Sparkman (Rush Duel)",
+        "id": 1059064
+      }
+    ],
+    "dbID": 20457
+  },
+  "series": [
+    "4e2112ec-34a4-4031-91ad-7dcc3818d4c7"
+  ]
+}

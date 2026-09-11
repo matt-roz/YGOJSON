@@ -1,0 +1,53 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "22fd90bc-91a6-418f-a085-36723acbfea2",
+  "text": {
+    "en": {
+      "name": "Satellite Soldier",
+      "effect": "Increase the Level of 1 face-up Level 6 or lower monster on your field with 1000 DEF by 2 until the end of this turn."
+    },
+    "ja": {
+      "name": "\u30b5\u30c6\u30e9\u30a4\u30c8\u30bd\u30eb\u30b8\u30e3\u30fc",
+      "effect": "\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff16\u4ee5\u4e0b\uff0f\u5b88\u5099\u529b\uff11\uff10\uff10\uff10\uff09\uff11\u4f53\u3092\u9078\u3073\u3001\u305d\u306e\u30ec\u30d9\u30eb\u3092\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\uff12\u4e0a\u3052\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc0c8\ud138\ub77c\uc774\ud2b8\uc194\uc800",
+      "effect": "\uc790\uc2e0 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\ub808\ubca8 6 \uc774\ud558 / \uc218\ube44\ub825 1000) 1\uc7a5\uc744 \uace0\ub974\uace0, \uadf8 \ub808\ubca8\uc744 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0 2 \uc62c\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "classifications": [
+    "effect"
+  ],
+  "level": 5,
+  "atk": 1700,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "36c03a4d-bce2-4fe1-9680-3c773fd33b87",
+      "card": "https://ms.yugipedia.com//3/32/SatelliteSoldier-RDSD0F-JP-C.png"
+    }
+  ],
+  "sets": [
+    "b254644c-27d2-4111-9a53-3a82de7d4cd5",
+    "e2b816ef-5178-4aa9-b864-7248f545e896",
+    "e2b816ef-5178-4aa9-b864-7248f545e896",
+    "cd789676-cedd-4bac-9b31-6fe414ff91be"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "n"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Satellite Soldier",
+        "id": 903539
+      }
+    ],
+    "dbID": 18907
+  },
+  "series": []
+}

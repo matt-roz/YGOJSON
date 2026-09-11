@@ -1,0 +1,67 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "c50d08ad-ca6b-4e1c-b914-4136b469923d",
+  "name": {
+    "en": "Yu-Gi-Oh! World Championship 2025 participation cards"
+  },
+  "locales": {
+    "en": {
+      "language": "en",
+      "date": "2025-08-29",
+      "image": "https://ms.yugipedia.com//4/4e/2025-LogoEN.png",
+      "cardImages": {
+        "limited": {},
+        "unlimited": {}
+      },
+      "cardInfo": {
+        "limited": {},
+        "unlimited": {}
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "unlimited",
+        "limited"
+      ],
+      "externalIDs": {}
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "en"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "unlimited",
+        "limited"
+      ],
+      "image": "https://ms.yugipedia.com//4/4e/2025-LogoEN.png",
+      "cards": [
+        {
+          "id": "f45f7484-fa70-41e4-a49c-49e4ff9c6b02",
+          "card": "bc4ce584-7451-4d5b-8d25-2557632e4be5",
+          "suffix": "NKC1-EN002",
+          "rarity": "secret"
+        },
+        {
+          "id": "d69ac1b5-8deb-4156-bc9b-448240c35f02",
+          "card": "0616ad66-1b02-4d5f-8f63-11672f8e0a13",
+          "rarity": "super",
+          "imageID": "c9d48dcf-607f-4b82-892e-a509392ef830",
+          "qty": 2
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Yu-Gi-Oh! World Championship 2025 participation cards",
+      "id": 1217759
+    }
+  }
+}

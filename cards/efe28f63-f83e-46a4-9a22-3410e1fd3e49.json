@@ -1,0 +1,55 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "efe28f63-f83e-46a4-9a22-3410e1fd3e49",
+  "text": {
+    "en": {
+      "name": "Voidvelg Beyond Probe",
+      "effect": "Destroy 1 face-down card in your opponent's Spell & Trap Zone. This turn, you can only attack with DARK Attribute Galaxy Type monsters."
+    },
+    "ja": {
+      "name": "\u30f4\u30a9\u30a4\u30c9\u30f4\u30a7\u30eb\u30b0\u30fb\u30d3\u30e8\u30f3\u30c9\u30d7\u30ed\u30fc\u30d6",
+      "effect": "\u76f8\u624b\u306e\u9b54\u6cd5\uff06\u7f60\u30be\u30fc\u30f3\u306e\u88cf\u5074\u8868\u793a\u306e\u30ab\u30fc\u30c9\uff11\u679a\u3092\u9078\u3093\u3067\u7834\u58ca\u3059\u308b\u3002\u3053\u306e\u30bf\u30fc\u30f3\u3001\u81ea\u5206\u306f\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u95c7\u5c5e\u6027\uff0f\u30ae\u30e3\u30e9\u30af\u30b7\u30fc\u65cf\uff09\u3067\u3057\u304b\u653b\u6483\u3067\u304d\u306a\u3044\u3002"
+    },
+    "ko": {
+      "name": "\ubcf4\uc774\ub4dc\ubca0\ub974\uadf8 \ube44\uc698\ub4dc\ud504\ub85c\ube0c",
+      "effect": "\uc0c1\ub300\uc758 \ub9c8\ubc95 & \ud568\uc815 \uc874\uc758 \ub4b7\uba74 \ud45c\uc2dc\uc778 \uce74\ub4dc 1\uc7a5\uc744 \uace0\ub974\uace0 \ud30c\uad34\ud55c\ub2e4. \uc774 \ud134\uc5d0, \uc790\uc2e0\uc740 \ubaac\uc2a4\ud130(\uc5b4\ub460 \uc18d\uc131 / \uac24\ub7ed\uc2dc\uc871)\ub85c\ubc16\uc5d0 \uacf5\uaca9\ud560 \uc218 \uc5c6\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2000,
+  "def": 1300,
+  "passwords": [],
+  "images": [
+    {
+      "id": "8c8bc76a-6ea9-4168-a0ea-d02a9d40d83a",
+      "card": "https://ms.yugipedia.com//6/6c/VoidvelgBeyondProbe-RDKP24-JP-R.png"
+    }
+  ],
+  "sets": [
+    "cd789676-cedd-4bac-9b31-6fe414ff91be"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "r"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Voidvelg Beyond Probe",
+        "id": 1163414
+      }
+    ],
+    "dbID": 22861
+  },
+  "series": [
+    "1a71afb3-d845-4b98-a693-c9d36036fc9c"
+  ]
+}

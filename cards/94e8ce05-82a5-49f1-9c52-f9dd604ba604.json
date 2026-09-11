@@ -1,0 +1,44 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "94e8ce05-82a5-49f1-9c52-f9dd604ba604",
+  "text": {
+    "en": {
+      "name": "JAM:P Catch!",
+      "effect": "Change the attacking monster to face-up Defense Position. Then, if you have a Psychic Type Normal Monster in your Graveyard, you can draw until you have 6 cards in your hand.",
+      "official": false
+    },
+    "ja": {
+      "name": "\uff2a\uff21\uff2d\uff1a\uff30\u30ad\u30e3\u30c3\u30c1\uff01",
+      "effect": "\u653b\u6483\u3057\u3066\u304d\u305f\u30e2\u30f3\u30b9\u30bf\u30fc\u3092\u8868\u5074\u5b88\u5099\u8868\u793a\u306b\u3059\u308b\u3002\u81ea\u5206\u306e\u5893\u5730\u306b\u901a\u5e38\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30b5\u30a4\u30ad\u30c3\u30af\u65cf\uff09\u304c\u3044\u308b\u5834\u5408\u3001\u3055\u3089\u306b\u81ea\u5206\u306f\u624b\u672d\u304c\uff16\u679a\u306b\u306a\u308b\u3088\u3046\u306b\u30c9\u30ed\u30fc\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "JAM:P \uce90\uce58!",
+      "effect": "\uacf5\uaca9\ud574 \uc628 \ubaac\uc2a4\ud130\ub97c \uc55e\uba74 \uc218\ube44 \ud45c\uc2dc\ub85c \ud55c\ub2e4. \uc790\uc2e0 \ubb18\uc9c0\uc5d0 \uc77c\ubc18 \ubaac\uc2a4\ud130(\uc0ac\uc774\ud0a5\uc871)\uac00 \uc788\uc744 \uacbd\uc6b0, \ucd94\uac00\ub85c \uc790\uc2e0\uc740 \ud328\uac00 6\uc7a5\uc774 \ub418\ub3c4\ub85d \ub4dc\ub85c\uc6b0\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "trap",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "579f39e4-c1d4-4d48-bd3d-d0707640ea23",
+      "card": "https://ms.yugipedia.com//4/4b/JAMPCatch-RDKP17-JP-SR.png"
+    },
+    {
+      "id": "c41af7c7-36ed-43b6-9f2d-e430ae8af160",
+      "card": "https://ms.yugipedia.com//6/6f/JAMPCatch-RDKP17-JP-ScR-AA.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "JAM:P Catch!",
+        "id": 1055800
+      }
+    ],
+    "dbID": 20360
+  },
+  "series": []
+}

@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "86ff2f45-9774-44c3-8bc5-fd3f3f020723",
+  "text": {
+    "en": {
+      "name": "Qadi of the Monumenthes",
+      "effect": "During your opponent's next turn, your opponent can only declare up to 2 attacks. Then, you can shuffle 3 Beast-Warrior Type monsters from your Graveyard into the Deck.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u51a5\u8de1\u306e\u30ab\u30fc\u30c7\u30a3\u30fc",
+      "effect": "\u6b21\u306e\u76f8\u624b\u30bf\u30fc\u30f3\u3001\u76f8\u624b\u306f\uff12\u56de\u307e\u3067\u3057\u304b\u653b\u6483\u5ba3\u8a00\u3067\u304d\u306a\u3044\u3002\u3055\u3089\u306b\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u7363\u6226\u58eb\u65cf\uff09\uff13\u4f53\u3092\u9078\u3093\u3067\u30c7\u30c3\u30ad\u306b\u623b\u3059\u4e8b\u304c\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uba85\uc801\uc758 \uce74\ub514",
+      "effect": "\ub2e4\uc74c \uc0c1\ub300 \ud134\uc5d0, \uc0c1\ub300\ub294 2\ud68c\uae4c\uc9c0\ubc16\uc5d0 \uacf5\uaca9 \uc120\uc5b8\ud560 \uc218 \uc5c6\ub2e4. \ucd94\uac00\ub85c, \uc790\uc2e0 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130(\uc57c\uc218\uc804\uc0ac\uc871) 3\uc7a5\uc744 \uace0\ub974\uace0 \ub371\uc73c\ub85c \ub418\ub3cc\ub9b4 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "beastwarrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 1400,
+  "def": 2600,
+  "passwords": [],
+  "images": [
+    {
+      "id": "05f7ff3e-915d-419b-b039-d763f25a427c",
+      "card": "https://ms.yugipedia.com//a/ac/QadioftheMonumenthes-RDKP24-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Qadi of the Monumenthes",
+        "id": 1163431
+      }
+    ],
+    "dbID": 22839
+  },
+  "series": [
+    "97eb63ff-6e37-4cb4-aec9-d4c303cc69da"
+  ]
+}

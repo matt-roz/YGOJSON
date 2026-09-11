@@ -1,0 +1,44 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "a200234a-d2b2-42b7-a9fe-5409011ae840",
+  "text": {
+    "en": {
+      "name": "Stone Dragon (Rush Duel)",
+      "effect": "A dragon formed by huge boulders that are also used to attack the enemy."
+    },
+    "ko": {
+      "name": "\uc2a4\ud1a4 \ub4dc\ub798\uace4",
+      "effect": "\uc804\uc2e0\uc774 \ubc14\uc704\ub85c \ub418\uc5b4\uc788\ub294 \ub4dc\ub798\uace4. \uc554\uc11d\uc758 \uacf5\uaca9\uc740 \uac15\ub825\ud558\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "rock",
+  "classifications": [
+    "normal"
+  ],
+  "level": 7,
+  "atk": 2000,
+  "def": 2300,
+  "passwords": [],
+  "images": [
+    {
+      "id": "b154dbdc-68ef-4a6d-ac39-e60fb8090778",
+      "card": "https://ms.yugipedia.com//d/de/StoneDragon-RDSST1-JP-C.png"
+    }
+  ],
+  "sets": [
+    "f9c6f064-6fdf-412a-a9ff-62631979aa08"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Stone Dragon (Rush Duel)",
+        "id": 712292
+      }
+    ],
+    "dbID": 17484
+  },
+  "series": []
+}

@@ -1,0 +1,53 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "83dbbafc-0ada-4643-9c32-1d5d8832aa4f",
+  "text": {
+    "en": {
+      "name": "Voidvelg Whiterider",
+      "effect": "This turn, this card's name becomes \"Voidvelg Palerider\". Then, excavate 3 cards from the top of your Deck and show them. You can add 1 \"Voidvelg Requiem\" or 1 DARK Attribute Galaxy Type Normal Monster from those cards to your hand. Place the rest of the cards on the bottom of your Deck in any order."
+    },
+    "ja": {
+      "name": "\u30f4\u30a9\u30a4\u30c9\u30f4\u30a7\u30eb\u30b0\u30fb\u30db\u30ef\u30a4\u30c8\u30e9\u30a4\u30c0\u30fc",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u306e\u30ab\u30fc\u30c9\u540d\u306f\u3053\u306e\u30bf\u30fc\u30f3\u3001\u300c\u30f4\u30a9\u30a4\u30c9\u30f4\u30a7\u30eb\u30b0\u30fb\u30da\u30a4\u30eb\u30e9\u30a4\u30c0\u30fc\u300d\u306b\u306a\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u30c7\u30c3\u30ad\u306e\u4e0a\u304b\u3089\u30ab\u30fc\u30c9\u3092\uff13\u679a\u3081\u304f\u308a\u3001\u304a\u4e92\u3044\u306b\u78ba\u8a8d\u3059\u308b\u3002\u81ea\u5206\u306f\u305d\u306e\u4e2d\u304b\u3089\u300c\u30f4\u30a9\u30a4\u30c9\u30f4\u30a7\u30eb\u30b0\u30fb\u30ec\u30af\u30a4\u30a8\u30e0\u300d\u307e\u305f\u306f\u901a\u5e38\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u95c7\u5c5e\u6027\uff0f\u30ae\u30e3\u30e9\u30af\u30b7\u30fc\u65cf\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002\u6b8b\u308a\u306e\u30ab\u30fc\u30c9\u3092\u597d\u304d\u306a\u9806\u756a\u3067\u30c7\u30c3\u30ad\u306e\u4e0b\u306b\u623b\u3059\u3002"
+    },
+    "ko": {
+      "name": "\ubcf4\uc774\ub4dc\ubca0\ub974\uadf8 \ud654\uc774\ud2b8\ub77c\uc774\ub354",
+      "effect": "\uc774 \uce74\ub4dc\uc758 \uce74\ub4dc\uba85\uc740 \uc774 \ud134\uc5d0, \"\ubcf4\uc774\ub4dc\ubca0\ub974\uadf8 \ud398\uc77c\ub77c\uc774\ub354\"\uac00 \ub41c\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0\uc758 \ub371 \uc704\uc5d0\uc11c \uce74\ub4dc\ub97c 3\uc7a5 \ub118\uae30\uace0, \uc11c\ub85c \ud655\uc778\ud55c\ub2e4. \uc790\uc2e0\uc740 \uadf8 \uc911\uc5d0\uc11c \"\ubcf4\uc774\ub4dc\ubca0\ub974\uadf8 \ub808\ud034\uc5e0\" \ub610\ub294 \uc77c\ubc18 \ubaac\uc2a4\ud130(\uc5b4\ub460 \uc18d\uc131 / \uac24\ub7ed\uc2dc\uc871) 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\uc744 \uc218 \uc788\ub2e4. \ub0a8\uc740 \uce74\ub4dc\ub97c \uc88b\uc544\ud558\ub294 \uc21c\uc11c\ub300\ub85c \ub371 \uc544\ub798\ub85c \ub418\ub3cc\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1300,
+  "def": 300,
+  "passwords": [],
+  "images": [
+    {
+      "id": "91a4fa61-324d-4ab7-9e72-acc60f6447c9",
+      "card": "https://ms.yugipedia.com//5/5f/VoidvelgWhiterider-RDSJMP-JP-NPR.png"
+    }
+  ],
+  "sets": [
+    "b254644c-27d2-4111-9a53-3a82de7d4cd5",
+    "cd789676-cedd-4bac-9b31-6fe414ff91be"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Voidvelg Whiterider",
+        "id": 1167396
+      }
+    ],
+    "dbID": 22827
+  },
+  "series": [
+    "1a71afb3-d845-4b98-a693-c9d36036fc9c"
+  ]
+}

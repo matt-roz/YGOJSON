@@ -1,0 +1,73 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "ee4298a6-77fe-4c9b-b248-178f54674e79",
+  "text": {
+    "en": {
+      "name": "Treasure Dragon",
+      "effect": "Draw 1 card."
+    },
+    "fr": {
+      "name": "Dragon Tr\u00e9sor",
+      "effect": "Piochez 1 carte."
+    },
+    "de": {
+      "name": "Schatzdrache",
+      "effect": "Ziehe 1 Karte."
+    },
+    "it": {
+      "name": "Drago del Tesoro",
+      "effect": "Pesca 1 carta."
+    },
+    "es": {
+      "name": "Drag\u00f3n Tesoro",
+      "effect": "Roba 1 carta."
+    },
+    "ja": {
+      "name": "\u30c8\u30ec\u30b8\u30e3\u30fc\u30fb\u30c9\u30e9\u30b4\u30f3",
+      "effect": "\u81ea\u5206\u306f\uff11\u679a\u30c9\u30ed\u30fc\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud2b8\ub808\uc838 \ub4dc\ub798\uace4",
+      "effect": "\uc790\uc2e0\uc740 1\uc7a5 \ub4dc\ub85c\uc6b0\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "dragon",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 1100,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "c09e9d67-ecd6-4f00-8d39-7ff3d8d93403",
+      "card": "https://ms.yugipedia.com//8/8b/TreasureDragon-RDSD0A-JP-C.png"
+    }
+  ],
+  "sets": [
+    "f15281f0-8ea5-4682-b72c-36f0b779a7bc",
+    "b6e8e337-8faf-48be-851d-4ba7298c81d0",
+    "b0d594ec-1f44-402f-a994-a88c19a50a43",
+    "b0d594ec-1f44-402f-a994-a88c19a50a43",
+    "b3912bea-7700-43b3-8e58-def0f757111c",
+    "b3912bea-7700-43b3-8e58-def0f757111c",
+    "11548122-d48e-4313-aff4-6d29bca3f0b0"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "r"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Treasure Dragon",
+        "id": 717220
+      }
+    ],
+    "dbID": 15795
+  },
+  "series": []
+}

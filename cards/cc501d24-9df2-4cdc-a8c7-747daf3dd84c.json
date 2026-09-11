@@ -1,0 +1,38 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "cc501d24-9df2-4cdc-a8c7-747daf3dd84c",
+  "text": {
+    "en": {
+      "name": "The Snake Hair (Rush Duel)",
+      "effect": "A monster with a head of poison snakes. One look from this monster can turn an opponent to stone."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "zombie",
+  "classifications": [
+    "normal"
+  ],
+  "level": 4,
+  "atk": 1500,
+  "def": 1200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "b7bdfd4e-d51f-4fdb-b146-b1322761d945",
+      "card": "https://ms.yugipedia.com//d/d1/TheSnakeHair-RDECG1-JP-NPR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "The Snake Hair (Rush Duel)",
+        "id": 1019005
+      }
+    ],
+    "dbID": 19442
+  },
+  "series": []
+}

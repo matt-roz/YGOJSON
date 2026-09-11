@@ -1,0 +1,38 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "42b7cf7b-8c92-465a-aee4-ec72cec24aa4",
+  "text": {
+    "en": {
+      "name": "Panther Warrior (Rush Duel)",
+      "effect": "Send 1 other monster from your field to the Graveyard.",
+      "official": false
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "beastwarrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 2000,
+  "def": 1600,
+  "passwords": [],
+  "images": [
+    {
+      "id": "f4d9bc36-27f5-4c18-91ea-77fa3403898d",
+      "card": "https://ms.yugipedia.com//c/c2/PantherWarrior-RDLP01-JP-OP.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Panther Warrior (Rush Duel)",
+        "id": 1203682
+      }
+    ]
+  },
+  "series": []
+}

@@ -1,0 +1,54 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "0830d436-df4a-4791-97b5-5b4305a8d4c0",
+  "text": {
+    "en": {
+      "name": "Labyrinth Tank (Rush Duel)",
+      "effect": "\"Giga-Tech Wolf\" + \"Cannon Soldier\""
+    },
+    "fr": {
+      "name": "Char du Labyrinthe"
+    },
+    "de": {
+      "name": "Labyrinthpanzer"
+    },
+    "it": {
+      "name": "Carrarmato-Labirinto"
+    },
+    "es": {
+      "name": "Tanque Laberinto"
+    },
+    "ko": {
+      "name": "\ubbf8\uad81\uc758 \ub9c8\uc804\ucc28",
+      "effect": "\"\uae30\uac00\ud14c\ud06c \uc6b8\ud504\" \uff0b \"\uce90\ub17c \uc194\uc800\""
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "machine",
+  "level": 7,
+  "atk": 2400,
+  "def": 2400,
+  "passwords": [],
+  "images": [
+    {
+      "id": "99e6bd65-680d-4131-a662-d21ae69ee5eb",
+      "card": "https://ms.yugipedia.com//d/d2/LabyrinthTank-RDEXT1-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Labyrinth Tank (Rush Duel)",
+        "id": 715566
+      }
+    ],
+    "dbID": 16924
+  },
+  "series": []
+}

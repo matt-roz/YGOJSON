@@ -1,0 +1,104 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "eeb7dcca-1370-4458-b4a9-6cda9ad03680",
+  "name": {
+    "en": "Yu-Gi-Oh! World Championship 2026 prize cards"
+  },
+  "locales": {
+    "en": {
+      "language": "en",
+      "date": "2026-08-30",
+      "image": "https://ms.yugipedia.com//a/a8/2026-LogoEN.png",
+      "cardImages": {
+        "unlimited": {
+          "03949cf4-3992-4d54-a811-781a28a481be": "https://ms.yugipedia.com//4/42/SilverBelfryBatteryBastion-RD2026-EN-ORR.png",
+          "17dedd80-5cad-47e7-976a-78ae9c9342ea": "https://ms.yugipedia.com//3/35/SilverBelfryBatteryBastion-2026-EN-EScR-UE.png",
+          "7ba428c3-02e1-4d8a-bcd9-c088859067e9": "https://ms.yugipedia.com//5/5b/MoonlightatDawn-2026-EN-EScR-UE.png",
+          "e75573d0-ae71-4fdb-b5fc-99c0a4c5c113": "https://ms.yugipedia.com//5/5f/MoonlightatDawn-RD2026-EN-ORR.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "03949cf4-3992-4d54-a811-781a28a481be": {
+            "image": "https://ms.yugipedia.com//4/42/SilverBelfryBatteryBastion-RD2026-EN-ORR.png"
+          },
+          "17dedd80-5cad-47e7-976a-78ae9c9342ea": {
+            "image": "https://ms.yugipedia.com//3/35/SilverBelfryBatteryBastion-2026-EN-EScR-UE.png"
+          },
+          "7ba428c3-02e1-4d8a-bcd9-c088859067e9": {
+            "image": "https://ms.yugipedia.com//5/5b/MoonlightatDawn-2026-EN-EScR-UE.png"
+          },
+          "e75573d0-ae71-4fdb-b5fc-99c0a4c5c113": {
+            "image": "https://ms.yugipedia.com//5/5f/MoonlightatDawn-RD2026-EN-ORR.png"
+          }
+        }
+      },
+      "formats": [
+        "rushduel"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          2000001674000
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "en"
+      ],
+      "formats": [
+        "rushduel"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//a/a8/2026-LogoEN.png",
+      "cards": [
+        {
+          "id": "7ba428c3-02e1-4d8a-bcd9-c088859067e9",
+          "card": "e08dd52d-0537-42f7-b738-10e3e566a4ba",
+          "suffix": "2026-EN001",
+          "rarity": "extrasecret",
+          "imageID": "918326d2-a9de-4e79-826e-1a5e8aa9f21c",
+          "printStatus": "new"
+        },
+        {
+          "id": "17dedd80-5cad-47e7-976a-78ae9c9342ea",
+          "card": "9306d242-cbbe-47cf-98e2-41d873b07ec7",
+          "suffix": "2026-EN002",
+          "rarity": "extrasecret",
+          "imageID": "1e90e872-c686-4e28-95d9-74e03ee8062c",
+          "printStatus": "new"
+        },
+        {
+          "id": "e75573d0-ae71-4fdb-b5fc-99c0a4c5c113",
+          "card": "3cd97061-e732-4367-bb72-5b2f49d65b5a",
+          "suffix": "RD/2026-EN001",
+          "rarity": "overrush",
+          "imageID": "9d702b63-3ec0-4b54-88a4-d27652e40a5c",
+          "printStatus": "new"
+        },
+        {
+          "id": "03949cf4-3992-4d54-a811-781a28a481be",
+          "card": "8588de62-2f89-4a3a-8319-494eafb57f80",
+          "suffix": "RD/2026-EN002",
+          "rarity": "overrush",
+          "imageID": "5fdff2dc-9a36-47d8-9730-d0680b0c749b",
+          "printStatus": "new"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Yu-Gi-Oh! World Championship 2026 prize cards",
+      "id": 1215375
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "8cadd6b4-703c-45b8-ae7b-8572cdfc8b2a",
+  "text": {
+    "en": {
+      "name": "Red-Eyes Moon Dragon",
+      "effect": "If used as material for a Fusion Summon, this card's name becomes \"Red-Eyes Black Dragon\"."
+    },
+    "ja": {
+      "name": "\u771f\u7d05\u773c\u306e\u6708\u7adc",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u3092\u30d5\u30e5\u30fc\u30b8\u30e7\u30f3\u53ec\u559a\u306e\u7d20\u6750\u3068\u3059\u308b\u5834\u5408\u3001\u3053\u306e\u30ab\u30fc\u30c9\u306e\u30ab\u30fc\u30c9\u540d\u306f\u300c\u771f\u7d05\u773c\u306e\u9ed2\u7adc\u300d\u306b\u306a\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ubd89\uc740 \ub208\uc758 \uc6d4\ub8e1",
+      "effect": "\uc774 \uce74\ub4dc\ub97c \ud4e8\uc804 \uc18c\ud658\uc758 \uc18c\uc7ac\ub85c \ud560 \uacbd\uc6b0, \uc774 \uce74\ub4dc\uc758 \uce74\ub4dc\uba85\uc740 \"\ubd89\uc740 \ub208\uc758 \ud751\ub8e1\"\uc774 \ub41c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "dragon",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1200,
+  "def": 1200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "24509235-d4fc-4f2c-95ce-abedcc004596",
+      "card": "https://ms.yugipedia.com//7/7d/RedEyesMoonDragon-RDTB02-JP-C.png"
+    }
+  ],
+  "sets": [
+    "11548122-d48e-4313-aff4-6d29bca3f0b0"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Red-Eyes Moon Dragon",
+        "id": 1022920
+      }
+    ],
+    "dbID": 19660
+  },
+  "series": [
+    "b8f9793c-0736-4ee4-99be-120c4d70afbc"
+  ]
+}

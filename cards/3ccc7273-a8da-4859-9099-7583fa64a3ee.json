@@ -1,0 +1,50 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "3ccc7273-a8da-4859-9099-7583fa64a3ee",
+  "text": {
+    "en": {
+      "name": "Alpha the Magnet Cavalry",
+      "effect": "Set 1 \"Magnet Twin Saber\" and/or \"Repulsive Force\" from your Graveyard to your Spell & Trap Zone.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u78c1\u77f3\u306e\u9a0e\u58eb\u03b1",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u96fb\u78c1\u53cc\u5263\u300d\u300c\u30ea\u30d1\u30eb\u30b7\u30d6\u30fb\u30d5\u30a9\u30fc\u30b9\u300d\u3092\u305d\u308c\u305e\u308c\uff11\u679a\u307e\u3067\u9078\u3093\u3067\u81ea\u5206\u306e\u9b54\u6cd5\uff06\u7f60\u30be\u30fc\u30f3\u306b\u30bb\u30c3\u30c8\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub9c8\uadf8\ub137 \uce74\ubc1c\ub9ac \u03b1",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \"\ub9c8\uadf8\ub137 \ud2b8\uc708 \uc138\uc774\ubc84\" \"\ub9ac\ud384\uc2dc\ube0c \ud3ec\uc2a4\"\ub97c \uac01\uac01 1\uc7a5\uae4c\uc9c0 \uace0\ub974\uace0 \uc790\uc2e0\uc758 \ub9c8\ubc95 & \ud568\uc815 \uc874\uc5d0 \uc138\ud2b8\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "rock",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 1800,
+  "def": 2100,
+  "passwords": [],
+  "images": [
+    {
+      "id": "cbba0541-1bed-4907-b473-3cd6e36e69be",
+      "card": "https://ms.yugipedia.com//3/30/AlphatheMagnetCavalry-RDORP2-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Alpha the Magnet Cavalry",
+        "id": 1044876
+      }
+    ],
+    "dbID": 20107
+  },
+  "series": []
+}

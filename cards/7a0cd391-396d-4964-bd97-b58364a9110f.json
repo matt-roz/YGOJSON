@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "7a0cd391-396d-4964-bd97-b58364a9110f",
+  "text": {
+    "en": {
+      "name": "Eria the Water Charmer (Rush Duel)",
+      "effect": "Take control of 1 face-up Level 8 or lower WATER Attribute monster on your opponent's field, except a Maximum Monster.",
+      "official": false
+    },
+    "ko": {
+      "name": "\uc218\ub839\uc0ac \uc5d0\ub9ac\uc544",
+      "effect": "\ub9e5\uc2dc\uba48 \ubaac\uc2a4\ud130 \uc774\uc678\uc758 \uc0c1\ub300 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\ub808\ubca8 8 \uc774\ud558 / \ubb3c \uc18d\uc131) 1\uc7a5\uc744 \uace0\ub974\uace0 \uadf8 \ucee8\ud2b8\ub864\uc744 \uc5bb\ub294\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "type": "spellcaster",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 500,
+  "def": 1500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "df949b77-b067-4b8d-b379-2122f58bdec9",
+      "card": "https://ms.yugipedia.com//e/e9/EriatheWaterCharmer-RDORP4-JP-UR.png"
+    },
+    {
+      "id": "ab55398f-a35f-4b18-8639-3049ae79c204",
+      "card": "https://ms.yugipedia.com//6/62/EriatheWaterCharmer-RDORP4-JP-FORR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Eria the Water Charmer (Rush Duel)",
+        "id": 1176300
+      }
+    ],
+    "dbID": 23039
+  },
+  "series": [
+    "788d3d66-cdd1-44f3-b4e8-93528c9b134e"
+  ]
+}

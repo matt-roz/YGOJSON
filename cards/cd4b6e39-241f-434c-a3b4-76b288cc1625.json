@@ -1,0 +1,67 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "cd4b6e39-241f-434c-a3b4-76b288cc1625",
+  "text": {
+    "en": {
+      "name": "Blue-Eyes White Cat",
+      "effect": "A white cat with blue eyes. Said to bring good luck if treated well."
+    },
+    "fr": {
+      "name": "Chat Blanc aux Yeux Bleus",
+      "effect": "Un chat blanc avec des yeux bleus. On dit qu'il porte bonheur quand il est bien trait\u00e9."
+    },
+    "de": {
+      "name": "Blau\u00e4ugige wei\u00dfe Katze",
+      "effect": "Eine wei\u00dfe Katze mit blauen Augen. Es hei\u00dft, sie bringe allen in ihrer Umgebung Gl\u00fcck, wenn man sie gut behandelt."
+    },
+    "it": {
+      "name": "Gatto Bianco Occhi Blu",
+      "effect": "Un gatto bianco con gli occhi blu. Si dice che porti fortuna, se trattato bene."
+    },
+    "es": {
+      "name": "Gato Blanco de Ojos Azules",
+      "effect": "Un gato blanco con ojos azules. Se dice que trae buena suerte a quien lo trata bien."
+    },
+    "ja": {
+      "name": "\u9752\u773c\u306e\u767d\u732b",
+      "effect": "\u9752\u3044\u773c\u3092\u6301\u3064\u767d\u732b\u3002\u5927\u5207\u306b\u3059\u308b\u3068\u5e78\u798f\u3092\u904b\u3093\u3067\u304f\u308c\u308b\u3089\u3057\u3044\u3002"
+    },
+    "ko": {
+      "name": "\ud478\ub978 \ub208\uc758 \ud770 \uace0\uc591\uc774",
+      "effect": "\ud478\ub978 \ub208\uc744 \uac00\uc9c4 \ud770 \uace0\uc591\uc774. \uc18c\uc911\ud558\uac8c \ub300\ud558\uba74 \ud589\ubcf5\uc744 \uac00\uc838\ub2e4\uc900\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "beast",
+  "classifications": [
+    "normal"
+  ],
+  "level": 1,
+  "atk": 600,
+  "def": 200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "6f056934-bbf2-4cea-aee8-f733e4f09712",
+      "card": "https://ms.yugipedia.com//3/3f/BlueEyesWhiteCat-RDMAX1-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Blue-Eyes White Cat",
+        "id": 714030
+      }
+    ],
+    "dbID": 15921
+  },
+  "series": [
+    "79a5d72a-ddca-4158-ae45-bb393d081135"
+  ]
+}

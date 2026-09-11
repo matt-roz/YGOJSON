@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "2371ac76-9295-45df-a33e-7277c2031c8f",
+  "text": {
+    "en": {
+      "name": "Darklord Zerato (Rush Duel)",
+      "effect": "Destroy all monsters on your opponent's field. Destroy this card during the End Phase of this turn.",
+      "official": false
+    },
+    "ko": {
+      "name": "\ud0c0\ub77d\ucc9c\uc0ac \uc81c\ub77c\ud1a0",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \ubaac\uc2a4\ud130\ub97c \uc804\ubd80 \ud30c\uad34\ud55c\ub2e4. \uc774 \ud134\uc758 \uc5d4\ub4dc \ud398\uc774\uc988\uc5d0 \uc774 \uce74\ub4dc\ub294 \ud30c\uad34\ub41c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "fairy",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 2800,
+  "def": 2300,
+  "passwords": [],
+  "images": [
+    {
+      "id": "bb96b311-20fd-4e40-bbf0-8a22b218eb3a",
+      "card": "https://ms.yugipedia.com//f/f2/DarklordZerato-RDB243-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Darklord Zerato (Rush Duel)",
+        "id": 714483
+      }
+    ],
+    "dbID": 18232
+  },
+  "series": [
+    "08f69d43-12a8-4b23-8201-7e6386f1a5ce"
+  ]
+}

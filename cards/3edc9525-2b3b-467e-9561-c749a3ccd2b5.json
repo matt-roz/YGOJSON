@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "3edc9525-2b3b-467e-9561-c749a3ccd2b5",
+  "text": {
+    "en": {
+      "name": "Reliefcar D",
+      "effect": "Draw 1 card. Then, if you have \"Feverous Spirit Stadium\" face-up on your field, you can draw 1 additional card. This turn, you cannot activate the effect of \"Reliefcar D\".",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30ea\u30ea\u30fc\u30d5\u30ab\u30fc\u30fb\uff24",
+      "effect": "\u81ea\u5206\u306f\uff11\u679a\u30c9\u30ed\u30fc\u3059\u308b\u3002\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u8868\u793a\u306e\u300c\u71b1\u8840\u30b9\u30d4\u30ea\u30c3\u30c4\u30fb\u30b9\u30bf\u30b8\u30a2\u30e0\u300d\u304c\u3042\u308b\u5834\u5408\u3001\u3055\u3089\u306b\u81ea\u5206\u306f\uff11\u679a\u30c9\u30ed\u30fc\u3067\u304d\u308b\u3002\u3053\u306e\u30bf\u30fc\u30f3\u3001\u81ea\u5206\u306f\u300c\u30ea\u30ea\u30fc\u30d5\u30ab\u30fc\u30fb\uff24\u300d\u306e\u52b9\u679c\u3092\u767a\u52d5\u3067\u304d\u306a\u3044\u3002"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 2,
+  "atk": 800,
+  "def": 400,
+  "passwords": [],
+  "images": [
+    {
+      "id": "71d29d15-7802-4d96-ad63-f125cd87ef76",
+      "card": "https://ms.yugipedia.com//7/71/ReliefcarD-RDAP03-JP-UR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Reliefcar D",
+        "id": 1201972
+      }
+    ],
+    "dbID": 23460
+  },
+  "series": [
+    "11c88d41-6724-4c42-8912-d77015310efd"
+  ]
+}

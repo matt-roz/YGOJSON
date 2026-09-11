@@ -1,0 +1,372 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "ccc8125c-0182-45df-91a7-57e5e2423dfc",
+  "name": {
+    "en": "Immortal Phoenix",
+    "ja": "\u30a4\u30e2\u30fc\u30bf\u30eb\u30fb\u30d5\u30a7\u30cb\u30c3\u30af\u30b9",
+    "zh-CN": "\u4e0d\u6b7b\u51e4\u51f0"
+  },
+  "locales": {
+    "jp": {
+      "language": "ja",
+      "prefix": "IMPH-JP",
+      "date": "2026-10-31",
+      "image": "https://ms.yugipedia.com//8/8e/IMPH-BoosterJP.png",
+      "cardImages": {
+        "unlimited": {}
+      },
+      "cardInfo": {
+        "unlimited": {}
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {}
+    },
+    "sc": {
+      "language": "zh-CN",
+      "prefix": "IMPH-SC",
+      "date": "2026-11-14",
+      "cardImages": {
+        "unlimited": {}
+      },
+      "cardInfo": {
+        "unlimited": {}
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {}
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//8/8e/IMPH-BoosterJP.png",
+      "cards": [
+        {
+          "id": "f8144edd-09da-45f6-8e48-61178a03660b",
+          "card": "3a15246e-6e73-417c-8050-c75989845210",
+          "suffix": "001",
+          "rarity": "rare"
+        },
+        {
+          "id": "7855b785-dfa1-4da7-a58e-a241fffad7e5",
+          "card": "9014f42c-2dd1-4bb8-876f-dd13a8038e3c",
+          "suffix": "002",
+          "rarity": "super"
+        },
+        {
+          "id": "89b83c3f-b1c4-44ff-8922-7c1f2f8e1408",
+          "card": "9014f42c-2dd1-4bb8-876f-dd13a8038e3c",
+          "suffix": "002",
+          "rarity": "secret"
+        },
+        {
+          "id": "e6f84fd2-8bb4-4c05-b2d0-70669773fc7b",
+          "card": "9014f42c-2dd1-4bb8-876f-dd13a8038e3c",
+          "suffix": "002",
+          "rarity": "prismaticsecret"
+        },
+        {
+          "id": "f0d5b268-13a5-4b06-aebb-1b9ebdd8cfb3",
+          "card": "bc3cb477-8740-4802-ba86-3094f09f7559",
+          "suffix": "003",
+          "rarity": "common"
+        },
+        {
+          "id": "786f806a-2fed-4071-8c74-933579e820cb",
+          "card": "d6b125eb-c23c-4c86-ad53-8f565bfdfc9b",
+          "suffix": "004",
+          "rarity": "common"
+        },
+        {
+          "id": "8bafc0e4-7972-4e1e-93d9-1139e88d8a49",
+          "card": "216d5b05-2f62-42d1-a363-1285aca5aec6",
+          "suffix": "013",
+          "rarity": "rare",
+          "imageID": "2770cb65-8387-4667-bce2-646670207af8"
+        },
+        {
+          "id": "9b59d84f-4056-43f2-b069-753c801a5a75",
+          "card": "ecdb9548-b722-4660-8391-bc769004ec39",
+          "suffix": "024",
+          "rarity": "common",
+          "imageID": "47e0958e-bc45-4427-a88a-2f169e8a0cf8"
+        },
+        {
+          "id": "f5bfc557-6e24-4e7b-990a-51f08a6a88f2",
+          "card": "81c4d4de-2bb6-45e2-b199-de0e1c41f236",
+          "suffix": "025",
+          "rarity": "common",
+          "imageID": "416078cb-a2ea-436d-ae38-4347e6e6df89"
+        },
+        {
+          "id": "7b9dabce-31bf-4845-a3b3-116e4945e24e",
+          "card": "41d0c137-a450-499a-8920-637e81eaaf57",
+          "suffix": "026",
+          "rarity": "common",
+          "imageID": "79b058e2-c99c-4a38-b3de-caa7f581a7fd"
+        },
+        {
+          "id": "49be3418-3289-4ad3-ae86-27958ea46009",
+          "card": "693da2e0-2073-463d-a9bb-97ba3acf93a4",
+          "suffix": "028",
+          "rarity": "ultra",
+          "imageID": "cd1ef5be-039c-436d-bd45-179b199a156a"
+        },
+        {
+          "id": "1cfaa479-ccdb-4760-9ce6-07f20324b6b4",
+          "card": "693da2e0-2073-463d-a9bb-97ba3acf93a4",
+          "suffix": "028",
+          "rarity": "secret",
+          "imageID": "cd1ef5be-039c-436d-bd45-179b199a156a"
+        },
+        {
+          "id": "1b370650-f405-474a-a0e6-66f3e9fe6e41",
+          "card": "693da2e0-2073-463d-a9bb-97ba3acf93a4",
+          "suffix": "028",
+          "rarity": "prismaticsecret",
+          "imageID": "cd1ef5be-039c-436d-bd45-179b199a156a"
+        },
+        {
+          "id": "8813329e-8bec-4085-abd6-f20f1cfbd841",
+          "card": "c425cba4-422e-4e5e-8b35-41f7da28abb8",
+          "suffix": "030",
+          "rarity": "ultra"
+        },
+        {
+          "id": "b0d5ac11-f5a7-4a4e-bdd4-a18131dbcaad",
+          "card": "c425cba4-422e-4e5e-8b35-41f7da28abb8",
+          "suffix": "030",
+          "rarity": "secret"
+        },
+        {
+          "id": "e29e8865-1270-4e82-94b5-9f738cbdcf68",
+          "card": "c425cba4-422e-4e5e-8b35-41f7da28abb8",
+          "suffix": "030",
+          "rarity": "prismaticsecret"
+        },
+        {
+          "id": "3c4f2f42-a882-409e-a71f-3a15872de5a2",
+          "card": "bd34d8d1-1729-45ec-94f7-db0fa76fc67a",
+          "suffix": "031",
+          "rarity": "rare"
+        },
+        {
+          "id": "737939c0-842b-460d-ba3c-a70ca62534c1",
+          "card": "952afe2b-2e57-4d8c-90a3-f1c50a3f539c",
+          "suffix": "048",
+          "rarity": "ultra"
+        },
+        {
+          "id": "d5413d5f-4441-498b-b9af-83a52dbcc698",
+          "card": "952afe2b-2e57-4d8c-90a3-f1c50a3f539c",
+          "suffix": "048",
+          "rarity": "secret"
+        },
+        {
+          "id": "cff73980-5cc4-4e87-8f39-030d41d1f279",
+          "card": "952afe2b-2e57-4d8c-90a3-f1c50a3f539c",
+          "suffix": "048",
+          "rarity": "prismaticsecret"
+        },
+        {
+          "id": "27c91e6f-caa7-47ab-bf92-499c019d827b",
+          "card": "a318e808-b114-4265-92e1-07426941d579",
+          "suffix": "051",
+          "rarity": "ultra"
+        },
+        {
+          "id": "444ac21e-c96e-401f-a160-ba00f5a2a3c9",
+          "card": "a318e808-b114-4265-92e1-07426941d579",
+          "suffix": "051",
+          "rarity": "secret"
+        },
+        {
+          "id": "c8082276-30e1-473b-a314-b676fb6cb253",
+          "card": "a318e808-b114-4265-92e1-07426941d579",
+          "suffix": "051",
+          "rarity": "prismaticsecret"
+        },
+        {
+          "id": "dd7392c1-746e-4daf-9704-159d6520fea8",
+          "card": "12f6908a-7c23-4cfc-8659-271934cc5a81",
+          "suffix": "052",
+          "rarity": "common"
+        },
+        {
+          "id": "b8b6078e-c2a8-462b-89b1-c43f0da65210",
+          "card": "ea2dfffc-2343-48dc-a1b0-2c5b270d786d",
+          "suffix": "055",
+          "rarity": "common",
+          "imageID": "1fdb6003-caf0-4c02-a724-21174a4f717d"
+        },
+        {
+          "id": "f12339c5-36ea-4c0f-b0f4-495573c5acc4",
+          "card": "bd9480b0-c916-4b32-b36b-681aae3e3bff",
+          "suffix": "056",
+          "rarity": "common",
+          "imageID": "9784cb3b-9d1b-4bc6-a729-e62fce4b7276"
+        },
+        {
+          "id": "2fc96d0a-4aba-4452-ac95-229de62e45a9",
+          "card": "860cf9a4-6d64-4801-bcea-8fd101deaf97",
+          "suffix": "062",
+          "rarity": "common",
+          "imageID": "6d4419e3-8b27-4405-8da6-6512eb14e5c0"
+        },
+        {
+          "id": "10ba7c29-9c7c-4735-addf-afa539324458",
+          "card": "2368f7f8-74cc-4e9b-84b9-82f54e5f635a",
+          "suffix": "072",
+          "rarity": "common"
+        },
+        {
+          "id": "44309505-ad57-44dc-9e88-7f8f3f456dfa",
+          "card": "434113a9-ceb3-4ec3-9988-efef7501e29a",
+          "suffix": "073",
+          "rarity": "common"
+        }
+      ],
+      "externalIDs": {}
+    },
+    {
+      "locales": [
+        "sc"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "cards": [
+        {
+          "id": "39508fea-e6bd-4333-8fce-8441f6fd2135",
+          "card": "3a15246e-6e73-417c-8050-c75989845210",
+          "suffix": "001",
+          "rarity": "common"
+        },
+        {
+          "id": "f03de485-2e4a-4295-b254-52b63a92d3e8",
+          "card": "9014f42c-2dd1-4bb8-876f-dd13a8038e3c",
+          "suffix": "002",
+          "rarity": "common"
+        },
+        {
+          "id": "f0d5b268-13a5-4b06-aebb-1b9ebdd8cfb3",
+          "card": "bc3cb477-8740-4802-ba86-3094f09f7559",
+          "suffix": "003",
+          "rarity": "common"
+        },
+        {
+          "id": "786f806a-2fed-4071-8c74-933579e820cb",
+          "card": "d6b125eb-c23c-4c86-ad53-8f565bfdfc9b",
+          "suffix": "004",
+          "rarity": "common"
+        },
+        {
+          "id": "3c2d3667-b753-4cb6-8c6a-a0c25e73e65b",
+          "card": "ecdb9548-b722-4660-8391-bc769004ec39",
+          "suffix": "024",
+          "rarity": "common",
+          "imageID": "47e0958e-bc45-4427-a88a-2f169e8a0cf8"
+        },
+        {
+          "id": "c9e4e9bc-ef5d-498e-aea5-f23e9e35c0b3",
+          "card": "81c4d4de-2bb6-45e2-b199-de0e1c41f236",
+          "suffix": "025",
+          "rarity": "common",
+          "imageID": "416078cb-a2ea-436d-ae38-4347e6e6df89"
+        },
+        {
+          "id": "bd879785-f854-4a4e-9128-4293adaa0b89",
+          "card": "41d0c137-a450-499a-8920-637e81eaaf57",
+          "suffix": "026",
+          "rarity": "common",
+          "imageID": "79b058e2-c99c-4a38-b3de-caa7f581a7fd"
+        },
+        {
+          "id": "92806af0-a583-472b-8740-4cd0e62d7580",
+          "card": "693da2e0-2073-463d-a9bb-97ba3acf93a4",
+          "suffix": "028",
+          "rarity": "common",
+          "imageID": "cd1ef5be-039c-436d-bd45-179b199a156a"
+        },
+        {
+          "id": "cda9ea8c-6083-43cb-ace2-294e8c3cfb06",
+          "card": "c425cba4-422e-4e5e-8b35-41f7da28abb8",
+          "suffix": "030",
+          "rarity": "common",
+          "qty": 2
+        },
+        {
+          "id": "ca3861f3-f673-4f13-a83d-f5d248a4b3b3",
+          "card": "bd34d8d1-1729-45ec-94f7-db0fa76fc67a",
+          "suffix": "031",
+          "rarity": "common"
+        },
+        {
+          "id": "a03f0352-c5d7-429c-9550-35880db4cb54",
+          "card": "a318e808-b114-4265-92e1-07426941d579",
+          "suffix": "051",
+          "rarity": "common"
+        },
+        {
+          "id": "dd7392c1-746e-4daf-9704-159d6520fea8",
+          "card": "12f6908a-7c23-4cfc-8659-271934cc5a81",
+          "suffix": "052",
+          "rarity": "common"
+        },
+        {
+          "id": "4f3f76e6-842b-43f7-8957-b7348708f699",
+          "card": "ea2dfffc-2343-48dc-a1b0-2c5b270d786d",
+          "suffix": "055",
+          "rarity": "common",
+          "imageID": "1fdb6003-caf0-4c02-a724-21174a4f717d"
+        },
+        {
+          "id": "7937920d-0998-44af-a738-0b5436f175bf",
+          "card": "bd9480b0-c916-4b32-b36b-681aae3e3bff",
+          "suffix": "056",
+          "rarity": "common",
+          "imageID": "9784cb3b-9d1b-4bc6-a729-e62fce4b7276"
+        },
+        {
+          "id": "10ba7c29-9c7c-4735-addf-afa539324458",
+          "card": "2368f7f8-74cc-4e9b-84b9-82f54e5f635a",
+          "suffix": "072",
+          "rarity": "common"
+        },
+        {
+          "id": "44309505-ad57-44dc-9e88-7f8f3f456dfa",
+          "card": "434113a9-ceb3-4ec3-9988-efef7501e29a",
+          "suffix": "073",
+          "rarity": "common"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Immortal Phoenix",
+      "id": 1201117
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "8d4df757-55ba-43b4-9e3d-3f1f62fe661f",
+  "text": {
+    "en": {
+      "name": "Supreme Dog Ropero",
+      "effect": "This card cannot be destroyed by battle until the end of your opponent's next turn. Then, you can add 1 Level 10 Maximum Monster, \"Super Electromagnetic Maximum\", or \"B.B.B. - Beast Brave Brandish\" from your Graveyard to your hand.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u8d85\u9b54\u72ac\u30ed\u30da\u30ed",
+      "effect": "\u6b21\u306e\u76f8\u624b\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\u3001\u3053\u306e\u30ab\u30fc\u30c9\u306f\u6226\u95d8\u3067\u306f\u7834\u58ca\u3055\u308c\u306a\u3044\u3002\u3055\u3089\u306b\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u30de\u30ad\u30b7\u30de\u30e0\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff11\uff10\uff09\u3001\u300c\u8d85\u96fb\u78c1\u30de\u30ad\u30b7\u30de\u30e0\u300d\u3001\u300c\uff22\u30fb\uff22\u30fb\uff22\u300d\u306e\u4e2d\u304b\u3089\uff11\u679a\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ucd08\ub9c8\uacac \ub85c\ud398\ub85c",
+      "effect": "\ub2e4\uc74c \uc0c1\ub300 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0, \uc774 \uce74\ub4dc\ub294 \uc804\ud22c\ub85c\ub294 \ud30c\uad34\ub418\uc9c0 \uc54a\ub294\ub2e4. \ucd94\uac00\ub85c, \uc790\uc2e0 \ubb18\uc9c0\uc758 \ub9e5\uc2dc\uba48 \ubaac\uc2a4\ud130(\ub808\ubca8 10), \"\ucd08\uc804\uc790 \ub9e5\uc2dc\uba48\", \"B\u00b7B\u00b7B(\ube44\uc2a4\ud2b8 \ube0c\ub808\uc774\ube0c \ube0c\ub79c\ub514\uc2dc)\" \uc911\uc5d0\uc11c 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\uc744 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 1200,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "3abd28b1-9a0c-4e48-a72c-1630022e09d4",
+      "card": "https://ms.yugipedia.com//7/75/SupremeDogRopero-RDVSP1-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Supreme Dog Ropero",
+        "id": 806129
+      }
+    ],
+    "dbID": 18766
+  },
+  "series": [
+    "46d80e91-99a3-4473-a284-0827b13901e8"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "5ed02967-d198-4dc5-a585-e6583b159bbe",
+  "text": {
+    "en": {
+      "name": "Metarion Geniustar",
+      "effect": "\u25cfDraw 1 card. \u25cfShuffle up to 6 Rock Type monsters from your opponent's Graveyard into the Deck. Then, inflict 1400 damage to your opponent."
+    },
+    "ja": {
+      "name": "\u30e1\u30bf\u30ea\u30aa\u30f3\u30fb\u30b2\u30cb\u30a6\u30b9\u30bf\u30fc",
+      "effect": "\u25cf\u81ea\u5206\u306f\uff11\u679a\u30c9\u30ed\u30fc\u3059\u308b\u3002\u25cf\u76f8\u624b\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u5ca9\u77f3\u65cf\uff09\u3092\uff16\u4f53\u307e\u3067\u9078\u3093\u3067\u30c7\u30c3\u30ad\u306b\u623b\u3059\u3002\u305d\u306e\u5f8c\u3001\u76f8\u624b\u306b\uff11\uff14\uff10\uff10\u30c0\u30e1\u30fc\u30b8\u3092\u4e0e\u3048\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uba54\ud0c0\ub9ac\uc628 \uac8c\ub2c8\uc6b0\uc2a4\ud0c0",
+      "effect": "\u25cf\uc790\uc2e0\uc740 1\uc7a5 \ub4dc\ub85c\uc6b0\ud55c\ub2e4. \u25cf\uc0c1\ub300 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130(\uc554\uc11d\uc871)\ub97c 6\uc7a5\uae4c\uc9c0 \uace0\ub974\uace0 \ub371\uc73c\ub85c \ub418\ub3cc\ub9b0\ub2e4. \uadf8 \ud6c4, \uc0c1\ub300\uc5d0\uac8c 1400 \ub370\ubbf8\uc9c0\ub97c \uc900\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "classifications": [
+    "effect"
+  ],
+  "level": 9,
+  "atk": 2800,
+  "def": 2500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "8ed36734-e86e-4c1a-947c-e4aab4e7f225",
+      "card": "https://ms.yugipedia.com//d/d8/MetarionGeniustar-RDLGP2-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "r"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Metarion Geniustar",
+        "id": 1076811
+      }
+    ],
+    "dbID": 20853
+  },
+  "series": []
+}

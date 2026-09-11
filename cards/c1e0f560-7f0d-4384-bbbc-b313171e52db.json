@@ -1,0 +1,55 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "c1e0f560-7f0d-4384-bbbc-b313171e52db",
+  "text": {
+    "en": {
+      "name": "Armor Wizard Pazoo",
+      "effect": "(This card is always treated as a \"Prophecy\" card.)\nIf this card is in your hand or GY: You can target 1 face-up monster you control; equip this card to it as an Equip Spell with the following effects. You can only use this effect of \"Armor Wizard Pazoo\" once per turn.\n\u25cf The equipped monster gains 2100 ATK/DEF while your LP are 4000 or less.\n\u25cf When a card or effect activated by your opponent resolves, if you control a card with an effect that requires a die roll, you can negate the activated effect, then banish this card.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u88c5\u7532\u9b54\u5c0e\u58eb\u30d1\u30ba\u30fc"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "spellcaster",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 0,
+  "def": 700,
+  "passwords": [],
+  "images": [
+    {
+      "id": "894d9ff0-da52-4c4e-99ad-76316958460c",
+      "card": "https://ms.yugipedia.com//archive/c/c7/20260907030617%21ArmorWizardPazoo-VJMP-JP-OP.png"
+    },
+    {
+      "id": "d18f8234-bd47-44e4-a6f5-ee1d85e354d8",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/100200297.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/100200297.jpg"
+    }
+  ],
+  "sets": [
+    "9af9360d-3df0-4167-836e-58336ad638b2",
+    "3e313b69-fbf7-45c2-9e52-ffe1b45595a5"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Armor Wizard Pazoo",
+        "id": 1211875
+      }
+    ],
+    "ygoprodeck": {
+      "id": 100200297,
+      "name": "armor-wizard-pazoo-15918"
+    }
+  },
+  "series": [
+    "60e0adb6-2544-4d78-8e99-6695d3ca7489"
+  ]
+}

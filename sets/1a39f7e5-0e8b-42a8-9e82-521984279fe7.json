@@ -1,0 +1,66 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "1a39f7e5-0e8b-42a8-9e82-521984279fe7",
+  "name": {
+    "en": "Duelist King Cup July 2026 prize card",
+    "ja": "\uff24\uff35\uff25\uff2c\uff29\uff33\uff34 \uff2b\uff29\uff2e\uff27 \uff23\uff35\uff30 \u4e0a\u4f4d\u8cde \uff12\uff10\uff12\uff16\u5e74\uff17\u6708\uff5e"
+  },
+  "locales": {
+    "jp": {
+      "language": "ja",
+      "prefix": "26YA-JP",
+      "date": "2026-07-04",
+      "image": "https://ms.yugipedia.com//f/fc/DuelistKingCup.png",
+      "cardImages": {
+        "unlimited": {
+          "ba0c5867-d735-4fb6-8d00-f60f3085533b": "https://ms.yugipedia.com//4/49/WitchoftheBlackForest-26YA-JP-PScR.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "ba0c5867-d735-4fb6-8d00-f60f3085533b": {
+            "image": "https://ms.yugipedia.com//4/49/WitchoftheBlackForest-26YA-JP-PScR.png"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {}
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//f/fc/DuelistKingCup.png",
+      "cards": [
+        {
+          "id": "ba0c5867-d735-4fb6-8d00-f60f3085533b",
+          "card": "c68337e1-a9a5-486b-aca5-b7565c571643",
+          "suffix": "002",
+          "rarity": "prismaticsecret",
+          "imageID": "06025134-7d73-4579-a7cd-4ca5fd7bb537",
+          "printStatus": "reprint"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Duelist King Cup July 2026 prize card",
+      "id": 1200571
+    }
+  }
+}

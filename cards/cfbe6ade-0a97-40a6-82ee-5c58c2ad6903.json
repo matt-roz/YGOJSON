@@ -1,0 +1,57 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "cfbe6ade-0a97-40a6-82ee-5c58c2ad6903",
+  "text": {
+    "en": {
+      "name": "Shovel Crusher (Rush Duel)",
+      "effect": "Armed with a pair of shovels, this monster will destroy anything that stands in its way."
+    },
+    "fr": {
+      "name": "Broyo-Pelleteuse"
+    },
+    "de": {
+      "name": "Schaufelbrecher"
+    },
+    "it": {
+      "name": "Annientatore Badile"
+    },
+    "es": {
+      "name": "Trituradora de Pala"
+    },
+    "ko": {
+      "name": "\uc0e4\ubca8 \ud06c\ub7ec\uc154",
+      "effect": "\ubb34\uc5c7\uc774\ub4e0\uc9c0 \ud30c\uad34\ud574\ubc84\ub9ac\ub294, \uc591\uc190\uc758 \ucee4\ub2e4\ub780 \uc0e4\ubca8\uc5d0\ub294 \uc8fc\uc758\ud560 \uac83."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "machine",
+  "classifications": [
+    "normal"
+  ],
+  "level": 3,
+  "atk": 900,
+  "def": 1200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "e08088f4-018a-492c-aabb-658213901e39",
+      "card": "https://ms.yugipedia.com//8/86/ShovelCrusher-RDSBD7-JP-C.png"
+    }
+  ],
+  "sets": [
+    "728adba0-7417-496b-921a-bee0c18a0be2",
+    "728adba0-7417-496b-921a-bee0c18a0be2"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Shovel Crusher (Rush Duel)",
+        "id": 716693
+      }
+    ],
+    "dbID": 16117
+  },
+  "series": []
+}

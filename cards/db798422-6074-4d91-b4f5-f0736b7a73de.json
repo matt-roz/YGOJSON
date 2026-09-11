@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "db798422-6074-4d91-b4f5-f0736b7a73de",
+  "text": {
+    "en": {
+      "name": "Dahlia the Sprouting Shadow Flower",
+      "effect": "A whimsical flower spirit. Her cheers are small, but full of feelings.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u840c\u82b1\u7259\u306e\u30c0\u30ea\u30a2",
+      "effect": "\u6c17\u307e\u3050\u308c\u306a\u82b1\u306e\u7cbe\u3002\u5c0f\u3055\u306a\u5fdc\u63f4\u3060\u3051\u3069\u6c17\u6301\u3061\u306f\u4e00\u676f\u3002"
+    },
+    "ko": {
+      "name": "\ub9f9\ud654\uc544\uc758 \ub2ec\ub9ac\uc544",
+      "effect": "\ubcc0\ub355\uc2a4\ub7ec\uc6b4 \uaf43\uc758 \uc815\ub839. \uc791\uc740 \uc751\uc6d0\uc774\uc9c0\ub9cc \ub9c8\uc74c\uc740 \uac00\ub4dd."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "plant",
+  "classifications": [
+    "normal"
+  ],
+  "level": 2,
+  "atk": 300,
+  "def": 1500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "92681343-10b9-459d-b6f8-d130073b0bff",
+      "card": "https://ms.yugipedia.com//5/5e/DahliatheSproutingShadowFlower-RDB223-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Dahlia the Sprouting Shadow Flower",
+        "id": 714446
+      }
+    ],
+    "dbID": 18302
+  },
+  "series": [
+    "676650a4-b6a3-4ba4-9d96-aebea1e7fca2"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "142526f0-14aa-4956-a47e-122cbae12c8c",
+  "text": {
+    "en": {
+      "name": "Cobalt Cobolt",
+      "effect": "Draw 1 card."
+    },
+    "ja": {
+      "name": "\u30b3\u30d0\u30eb\u30c8\u30fb\u30b3\u30dc\u30eb\u30c8",
+      "effect": "\u81ea\u5206\u306f\uff11\u679a\u30c9\u30ed\u30fc\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ucf54\ubc1c\ud2b8 \ucf54\ubcfc\ud2b8",
+      "effect": "\uc790\uc2e0\uc740 1\uc7a5 \ub4dc\ub85c\uc6b0\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "type": "fiend",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 1000,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "85589776-1d29-42d0-871a-93422dbbbcc4",
+      "card": "https://ms.yugipedia.com//a/a7/CobaltCobolt-RDORP1-JP-C.png"
+    }
+  ],
+  "sets": [
+    "f97239a1-ffdc-49fe-a78c-d89fc57c1403",
+    "9fedf2d0-5ae8-4861-b6f6-654c2d8aefeb",
+    "62f50503-1055-4260-b990-3fb3469154e0",
+    "11548122-d48e-4313-aff4-6d29bca3f0b0",
+    "288f40da-3a58-4353-8951-a8b611718475"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "r"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Cobalt Cobolt",
+        "id": 714303
+      }
+    ],
+    "dbID": 18389
+  },
+  "series": []
+}

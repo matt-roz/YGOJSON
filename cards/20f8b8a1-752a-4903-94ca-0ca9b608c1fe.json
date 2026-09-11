@@ -1,0 +1,42 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "20f8b8a1-752a-4903-94ca-0ca9b608c1fe",
+  "text": {
+    "en": {
+      "name": "Voidvelg Shroud",
+      "effect": "The equipped monster gains ATK equal to [the number of Spell/Trap Cards on your field] x 100. While the equipped monster is face-up on your field, Spell/Trap Cards on your field cannot be destroyed by your opponent's card effects.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30f4\u30a9\u30a4\u30c9\u30f4\u30a7\u30eb\u30b0\u30fb\u30b7\u30e5\u30e9\u30a6\u30c9",
+      "effect": "\u88c5\u5099\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u653b\u6483\u529b\u306f\u3001\uff3b\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u9b54\u6cd5\u30fb\u7f60\u30ab\u30fc\u30c9\u306e\u6570\uff3d\u00d7\uff11\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002\u88c5\u5099\u30e2\u30f3\u30b9\u30bf\u30fc\u304c\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u8868\u793a\u3067\u3044\u308b\u9650\u308a\u3001\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u9b54\u6cd5\u30fb\u7f60\u30ab\u30fc\u30c9\u306f\u76f8\u624b\u306e\u52b9\u679c\u3067\u306f\u7834\u58ca\u3055\u308c\u306a\u3044\u3002"
+    },
+    "ko": {
+      "name": "\ubcf4\uc774\ub4dc\ubca0\ub974\uadf8 \uc288\ub77c\uc6b0\ub4dc",
+      "effect": "\uc7a5\ucc29 \ubaac\uc2a4\ud130\uc758 \uacf5\uaca9\ub825\uc740, [\uc790\uc2e0 \ud544\ub4dc\uc758 \ub9c8\ubc95 / \ud568\uc815 \uce74\ub4dc\uc758 \uc218] \u00d7 100 \uc62c\ub9b0\ub2e4. \uc7a5\ucc29 \ubaac\uc2a4\ud130\uac00 \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \ud45c\uc2dc\uc778 \ud55c, \uc790\uc2e0 \ud544\ub4dc\uc758 \ub9c8\ubc95 / \ud568\uc815 \uce74\ub4dc\ub294 \uc0c1\ub300\uc758 \ud6a8\uacfc\ub85c\ub294 \ud30c\uad34\ub418\uc9c0 \uc54a\ub294\ub2e4."
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "equip",
+  "passwords": [],
+  "images": [
+    {
+      "id": "8dff73a2-fa4b-4087-ae17-f0de3b36f15c",
+      "card": "https://ms.yugipedia.com//3/38/VoidvelgShroud-RDKP13-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Voidvelg Shroud",
+        "id": 934534
+      }
+    ],
+    "dbID": 18980
+  },
+  "series": [
+    "1a71afb3-d845-4b98-a693-c9d36036fc9c"
+  ]
+}

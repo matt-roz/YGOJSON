@@ -1,0 +1,52 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "1fbb7eed-16b3-40e4-8027-afeafaddcfa1",
+  "text": {
+    "en": {
+      "name": "Meteor Black Mars Dragon",
+      "effect": "Until the end of this turn, this card gains ATK equal to [the number of monsters in your Graveyard] x 200, and it inflicts piercing battle damage.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30e1\u30c6\u30aa\u30fb\u30d6\u30e9\u30c3\u30af\u30fb\u30de\u30fc\u30ba\u30c9\u30e9\u30b4\u30f3",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u306e\u653b\u6483\u529b\u306f\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\u3001\uff3b\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u6570\uff3d\u00d7\uff12\uff10\uff10\u30a2\u30c3\u30d7\u3057\u3001\u305d\u306e\u653b\u6483\u306f\u8cab\u901a\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uba54\ud14c\uc624 \ube14\ub799 \ub9c8\ub974\uc2a4\ub4dc\ub798\uace4",
+      "effect": "\uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\ub825\uc740 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0, [\uc790\uc2e0 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130\uc758 \uc218] \u00d7 200 \uc62c\ub9ac\uace0, \uadf8 \uacf5\uaca9\uc740 \uad00\ud1b5\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "dragon",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 3500,
+  "def": 2000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "18b141a9-adce-4798-af29-6a6303e9407d",
+      "card": "https://ms.yugipedia.com//0/03/MeteorBlackMarsDragon-RDTB02-JP-NPR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Meteor Black Mars Dragon",
+        "id": 1004610
+      }
+    ],
+    "dbID": 19683
+  },
+  "series": [
+    "b8f9793c-0736-4ee4-99be-120c4d70afbc"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "1f092418-c958-49a9-a3e8-b1648272abcd",
+  "text": {
+    "en": {
+      "name": "Eternal Galactica Oblivion",
+      "effect": "Send the top 3 cards of your Deck to the Graveyard. This turn, this card cannot be destroyed by your opponent's Trap Card effects. Also, this card gains ATK equal to [the number of monsters in your Graveyard] x 300 until the end of this turn."
+    },
+    "ja": {
+      "name": "\u30a8\u30bf\u30fc\u30ca\u30eb\u30fb\u30ae\u30e3\u30e9\u30af\u30c6\u30a3\u30ab\u30fb\u30aa\u30d6\u30ea\u30d3\u30aa\u30f3",
+      "effect": "\u81ea\u5206\u306e\u30c7\u30c3\u30ad\u306e\u4e0a\u304b\u3089\u30ab\u30fc\u30c9\uff13\u679a\u3092\u5893\u5730\u3078\u9001\u308b\u3002\u3053\u306e\u30bf\u30fc\u30f3\u3001\u3053\u306e\u30ab\u30fc\u30c9\u306f\u76f8\u624b\u306e\u7f60\u30ab\u30fc\u30c9\u306e\u52b9\u679c\u3067\u306f\u7834\u58ca\u3055\u308c\u306a\u3044\u3002\u3055\u3089\u306b\u3001\u3053\u306e\u30ab\u30fc\u30c9\u306e\u653b\u6483\u529b\u3092\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\u3001\uff3b\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u6570\uff3d\u00d7\uff13\uff10\uff10\u30a2\u30c3\u30d7\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc774\ud130\ub110 \uac24\ub7ed\ud2f0\uce74 \uc624\ube14\ub9ac\ube44\uc5b8",
+      "effect": "\uc790\uc2e0\uc758 \ub371 \uc704\uc5d0\uc11c \uce74\ub4dc 3\uc7a5\uc744 \ubb18\uc9c0\ub85c \ubcf4\ub0b8\ub2e4. \uc774 \ud134\uc5d0, \uc774 \uce74\ub4dc\ub294 \uc0c1\ub300\uc758 \ud568\uc815 \uce74\ub4dc\uc758 \ud6a8\uacfc\ub85c\ub294 \ud30c\uad34\ub418\uc9c0 \uc54a\ub294\ub2e4. \ucd94\uac00\ub85c, \uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\ub825\uc744 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0, [\uc790\uc2e0 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130\uc758 \uc218] \u00d7 300 \uc62c\ub9b4 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "classifications": [
+    "effect"
+  ],
+  "level": 9,
+  "atk": 3500,
+  "def": 2500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "05fccdac-17ee-4a18-b7f0-7a2c82ed158b",
+      "card": "https://ms.yugipedia.com//7/78/EternalGalacticaOblivion-RD5TH1-JP-SR.png"
+    },
+    {
+      "id": "a201053f-d567-43a7-ad23-ef7a17662906",
+      "card": "https://ms.yugipedia.com//c/c5/EternalGalacticaOblivion-RDBDGZ-JP-UPR.png"
+    }
+  ],
+  "sets": [
+    "c0287cbc-dc56-47ae-9e89-0af80eb1b3d9",
+    "6a1c4aba-1f6f-4c1a-b249-a48485fbf4d4",
+    "4454e1d2-cecc-444f-ad47-a642c0e93b9b"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Eternal Galactica Oblivion",
+        "id": 806185
+      }
+    ],
+    "dbID": 18964
+  },
+  "series": [
+    "1b8cf43f-f7e3-4109-be3a-7039386667aa"
+  ]
+}

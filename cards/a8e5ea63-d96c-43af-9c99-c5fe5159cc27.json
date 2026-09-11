@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "a8e5ea63-d96c-43af-9c99-c5fe5159cc27",
+  "text": {
+    "en": {
+      "name": "Super Princess of the Flock - Miss Mutton Max",
+      "effect": "Destroy 1 card on your opponent's field.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u5927\u9b54\u6cd5\u7f8a\u5973\u30e1\u30a7\uff5e\u30b0\u3061\u3083\u3093\uff2d\uff21\uff38\u30a6\u30fc\u30eb",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u30ab\u30fc\u30c9\uff11\u679a\u3092\u9078\u3093\u3067\u7834\u58ca\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub300\ub9c8\ubc95\uc591\ub140 \uba54\uc5d0~\uad6c\uc591 MAX \uc6b8",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \uce74\ub4dc 1\uc7a5\uc744 \uace0\ub974\uace0 \ud30c\uad34\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "beast",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2500,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "9d5cd1a3-8819-4357-aea3-5dc47eba935c",
+      "card": "https://ms.yugipedia.com//5/5b/SuperPrincessoftheFlockMissMuttonMax-RDORP3-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Super Princess of the Flock - Max Mutton",
+        "id": 1142432
+      }
+    ],
+    "dbID": 22220
+  },
+  "series": [
+    "354d73b1-0590-498d-8f4c-4095d830bbc1"
+  ]
+}

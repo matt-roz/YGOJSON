@@ -1,0 +1,48 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "a44ba5cd-5993-4511-abc9-c284110b692d",
+  "text": {
+    "en": {
+      "name": "Audhumla, Progenitor of the Frozen Expanse",
+      "effect": "If 4 or more cards are on the field: You can Special Summon this card from your hand. You can send up to 2 Spells/Traps you control to the GY; draw that many cards, then you can Special Summon 1 WATER monster from your hand. When your opponent activates a card or effect (Quick Effect): You can change this card to face-down Defense Position, also for the rest of this turn, all face-down cards you control cannot be destroyed by your opponent's card effects, and your opponent cannot target them with card effects. You can only use each effect of \"Audhumla, Progenitor of the Frozen Expanse\" once per turn."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "type": "aqua",
+  "classifications": [
+    "effect"
+  ],
+  "level": 9,
+  "atk": 2500,
+  "def": 3200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "2529d252-2b1f-4c2f-9697-851804332138",
+      "card": "https://ms.yugipedia.com//0/05/AudhumlaProgenitoroftheFrozenExpanse-BETB-AE-UE-OP.png"
+    },
+    {
+      "id": "f593c1c1-6f97-4899-8db8-3f6129c06597",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/101402101.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/101402101.jpg"
+    }
+  ],
+  "sets": [
+    "e41d4de1-aff5-4e60-af89-26763447bd70"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Audhumla, Progenitor of the Frozen Expanse",
+        "id": 1202146
+      }
+    ],
+    "ygoprodeck": {
+      "id": 101402101,
+      "name": "audhumla-progenitor-of-the-frozen-expanse-15885"
+    }
+  },
+  "series": []
+}

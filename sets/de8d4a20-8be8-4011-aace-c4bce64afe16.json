@@ -1,0 +1,2424 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "de8d4a20-8be8-4011-aace-c4bce64afe16",
+  "name": {
+    "en": "Realm of the Sea Emperor Structure Deck",
+    "fr": "Le Royaume de l'Empereur des Mers Deck de Structure",
+    "de": "Realm of the Sea Emperor Structure Deck",
+    "it": "Regno dell'Imperatore del Mare Structure Deck",
+    "es": "El Reino del Emperador de los Mares Baraja de Estructura"
+  },
+  "locales": {
+    "en": {
+      "language": "en",
+      "prefix": "SDRE-EN",
+      "image": "https://ms.yugipedia.com//6/64/SDRE-DeckEN.png",
+      "cardImages": {
+        "1st": {
+          "0a74b9fa-469a-438e-a544-d74c53cfeb61": "https://ms.yugipedia.com//4/47/SnowmanEater-SDRE-EN-C-1E.png",
+          "1c760ffe-c4cd-496d-b203-7006ef4eed41": "https://ms.yugipedia.com//9/97/Codarus-SDRE-EN-C-1E.jpg",
+          "1f8dcba6-acf9-49b4-b40f-4ba7921f7259": "https://ms.yugipedia.com//5/58/TorrentialTribute-SDRE-EN-C-1E.png",
+          "205c5138-6b02-49f2-a53a-04a71fccb17c": "https://ms.yugipedia.com//7/7b/AbyssSoldier-SDRE-EN-C-1E.png",
+          "219e990e-7ff3-4e2d-a05f-32ecda483289": "https://ms.yugipedia.com//a/a9/LostBlueBreaker-SDRE-EN-C-1E.jpg",
+          "26090894-72a6-43c8-a05c-df320c126fd7": "https://ms.yugipedia.com//e/ee/MotherGrizzly-SDRE-EN-C-1E.png",
+          "26f85708-65be-4814-8856-fda5c76c506b": "https://ms.yugipedia.com//8/88/SpinedGillman-SDRE-EN-C-1E.jpg",
+          "27799705-b440-4829-a2d1-db03c955c029": "https://ms.yugipedia.com//e/e5/DeepSeaDiva-SDRE-EN-C-1E.png",
+          "37c60f25-cb09-4204-bfc3-c9772e653404": "https://ms.yugipedia.com//7/70/AtlanteanDragoons-SDRE-EN-SR-1E.png",
+          "398ebb15-66a6-4967-8bc9-fe10621a7276": "https://ms.yugipedia.com//5/51/DarkHole-SDRE-EN-C-1E.jpg",
+          "446353d7-130f-422a-80ca-34659cdd7645": "https://ms.yugipedia.com//c/c2/Terraforming-SDRE-EN-C-1E.jpg",
+          "4568e295-fac8-4ffd-96e8-70939531f056": "https://ms.yugipedia.com//6/60/Surface-SDRE-EN-C-1E.jpg",
+          "539a4742-9bf5-45a0-b918-5700228a0465": "https://ms.yugipedia.com//9/95/PenguinSoldier-SDRE-EN-C-1E.png",
+          "657482ae-c3cb-498d-bf3f-54eb77298959": "https://ms.yugipedia.com//8/8a/AegisoftheOceanDragonLord-SDRE-EN-C-1E.jpg",
+          "6bb04ad3-2f2d-4222-9272-a6132143bc91": "https://ms.yugipedia.com//0/00/Skreech-SDRE-EN-C-1E.png",
+          "700503f1-6602-459e-acdc-07a663a5400e": "https://ms.yugipedia.com//1/14/Salvage-SDRE-EN-C-1E.jpg",
+          "75d124b3-74fa-4c42-8b0b-baa3c09614c3": "https://ms.yugipedia.com//6/6f/BigWaveSmallWave-SDRE-EN-C-1E.jpg",
+          "7977c9b1-e3a6-4bb5-abe6-497328cfe672": "https://ms.yugipedia.com//3/36/ReesetheIceMistress-SDRE-EN-C-1E.jpg",
+          "8977ca26-6efa-4ca3-891c-acb09aaef23d": "https://ms.yugipedia.com//d/de/MermaidArcher-SDRE-EN-C-1E.jpg",
+          "9d1b1fe0-fbbf-45e8-ad72-21622e5ed22a": "https://ms.yugipedia.com//6/67/ALegendaryOcean-SDRE-EN-C-1E.png",
+          "9d36c90c-0181-4e2e-af95-e36f6a8f16fc": "https://ms.yugipedia.com//a/a9/ForgottenTempleoftheDeep-SDRE-EN-C-1E.png",
+          "a560ae4b-31f7-42b3-962e-ffa1182a9a94": "https://ms.yugipedia.com//0/0b/AtlanteanAttackSquad-SDRE-EN-C-1E.png",
+          "a7c4b69c-1867-4ecb-8b60-621ba84e4186": "https://ms.yugipedia.com//4/4c/FrillerRabca-SDRE-EN-C-1E.jpg",
+          "a867c575-60f1-4925-80a0-b068205234de": "https://ms.yugipedia.com//e/ea/CalloftheAtlanteans-SDRE-EN-SR-1E.png",
+          "ac72c319-7138-43ba-bb28-1aedcd0e444c": "https://ms.yugipedia.com//f/f6/SpiritualWaterArtAoi-SDRE-EN-C-1E.jpg",
+          "ae09ba7b-d5b2-4f01-8351-b20178c504aa": "https://ms.yugipedia.com//3/34/DeepDiver-SDRE-EN-C-1E.jpg",
+          "b214b8f7-5e6d-4426-a1e0-4522b9c28d96": "https://ms.yugipedia.com//d/dd/WaterHazard-SDRE-EN-C-1E.jpg",
+          "b7fb7ee6-9dcf-48de-a8b7-37fc116f3d02": "https://ms.yugipedia.com//0/0b/PoseidonWave-SDRE-EN-C-1E.jpg",
+          "c1aef3dc-4986-49cf-b50d-ac0f8d91135a": "https://ms.yugipedia.com//0/07/GravityBind-SDRE-EN-C-1E.jpg",
+          "c305c075-cf40-435a-b2b2-338c9ff5929c": "https://ms.yugipedia.com//7/71/PoseidratheAtlanteanDragon-SDRE-EN-UR-1E.png",
+          "c5c65a28-0b5c-45e6-944a-abf2aac86960": "https://ms.yugipedia.com//1/15/AtlanteanMarksman-SDRE-EN-C-1E.png",
+          "c9ffdbff-d352-4248-b5fc-9ecb1ed471f8": "https://ms.yugipedia.com//5/57/ArmedSeaHunter-SDRE-EN-C-1E.jpg",
+          "cbe516e6-e081-41a5-b520-4c684ae6a14b": "https://ms.yugipedia.com//d/dd/AtlanteanHeavyInfantry-SDRE-EN-C-1E.png",
+          "ce3445c6-5572-4e3d-8960-6bd7465090c0": "https://ms.yugipedia.com//0/07/AquaJet-SDRE-EN-C-1E.jpg",
+          "cece2c2d-a564-491f-a5cb-a2160ae2a803": "https://ms.yugipedia.com//b/bd/MorayofGreed-SDRE-EN-C-1E.png",
+          "d38e98ef-bcb2-4d80-b118-1234234fe2a0": "https://ms.yugipedia.com//5/5a/WarriorofAtlantis-SDRE-EN-C-1E.jpg",
+          "e226342e-cfdd-4a9c-aba7-e98b8681082d": "https://ms.yugipedia.com//a/a7/NightmarePenguin-SDRE-EN-C-1E.jpg",
+          "e331b0cc-2ecf-41c7-943f-9e4f5d3206c1": "https://ms.yugipedia.com//6/66/AtlanteanPikeman-SDRE-EN-C-1E.png",
+          "f5f125fa-577d-4a20-972e-416f357cb529": "https://ms.yugipedia.com//6/6f/TornadoWall-SDRE-EN-C-1E.jpg"
+        }
+      },
+      "cardInfo": {
+        "1st": {
+          "0a74b9fa-469a-438e-a544-d74c53cfeb61": {
+            "image": "https://ms.yugipedia.com//4/47/SnowmanEater-SDRE-EN-C-1E.png"
+          },
+          "1c760ffe-c4cd-496d-b203-7006ef4eed41": {
+            "image": "https://ms.yugipedia.com//9/97/Codarus-SDRE-EN-C-1E.jpg"
+          },
+          "1f8dcba6-acf9-49b4-b40f-4ba7921f7259": {
+            "image": "https://ms.yugipedia.com//5/58/TorrentialTribute-SDRE-EN-C-1E.png"
+          },
+          "205c5138-6b02-49f2-a53a-04a71fccb17c": {
+            "image": "https://ms.yugipedia.com//7/7b/AbyssSoldier-SDRE-EN-C-1E.png"
+          },
+          "219e990e-7ff3-4e2d-a05f-32ecda483289": {
+            "image": "https://ms.yugipedia.com//a/a9/LostBlueBreaker-SDRE-EN-C-1E.jpg"
+          },
+          "26090894-72a6-43c8-a05c-df320c126fd7": {
+            "image": "https://ms.yugipedia.com//e/ee/MotherGrizzly-SDRE-EN-C-1E.png"
+          },
+          "26f85708-65be-4814-8856-fda5c76c506b": {
+            "image": "https://ms.yugipedia.com//8/88/SpinedGillman-SDRE-EN-C-1E.jpg"
+          },
+          "27799705-b440-4829-a2d1-db03c955c029": {
+            "image": "https://ms.yugipedia.com//e/e5/DeepSeaDiva-SDRE-EN-C-1E.png"
+          },
+          "37c60f25-cb09-4204-bfc3-c9772e653404": {
+            "image": "https://ms.yugipedia.com//7/70/AtlanteanDragoons-SDRE-EN-SR-1E.png"
+          },
+          "398ebb15-66a6-4967-8bc9-fe10621a7276": {
+            "image": "https://ms.yugipedia.com//5/51/DarkHole-SDRE-EN-C-1E.jpg"
+          },
+          "446353d7-130f-422a-80ca-34659cdd7645": {
+            "image": "https://ms.yugipedia.com//c/c2/Terraforming-SDRE-EN-C-1E.jpg"
+          },
+          "4568e295-fac8-4ffd-96e8-70939531f056": {
+            "image": "https://ms.yugipedia.com//6/60/Surface-SDRE-EN-C-1E.jpg"
+          },
+          "539a4742-9bf5-45a0-b918-5700228a0465": {
+            "image": "https://ms.yugipedia.com//9/95/PenguinSoldier-SDRE-EN-C-1E.png"
+          },
+          "657482ae-c3cb-498d-bf3f-54eb77298959": {
+            "image": "https://ms.yugipedia.com//8/8a/AegisoftheOceanDragonLord-SDRE-EN-C-1E.jpg"
+          },
+          "6bb04ad3-2f2d-4222-9272-a6132143bc91": {
+            "image": "https://ms.yugipedia.com//0/00/Skreech-SDRE-EN-C-1E.png"
+          },
+          "700503f1-6602-459e-acdc-07a663a5400e": {
+            "image": "https://ms.yugipedia.com//1/14/Salvage-SDRE-EN-C-1E.jpg"
+          },
+          "75d124b3-74fa-4c42-8b0b-baa3c09614c3": {
+            "image": "https://ms.yugipedia.com//6/6f/BigWaveSmallWave-SDRE-EN-C-1E.jpg"
+          },
+          "7977c9b1-e3a6-4bb5-abe6-497328cfe672": {
+            "image": "https://ms.yugipedia.com//3/36/ReesetheIceMistress-SDRE-EN-C-1E.jpg"
+          },
+          "8977ca26-6efa-4ca3-891c-acb09aaef23d": {
+            "image": "https://ms.yugipedia.com//d/de/MermaidArcher-SDRE-EN-C-1E.jpg"
+          },
+          "9d1b1fe0-fbbf-45e8-ad72-21622e5ed22a": {
+            "image": "https://ms.yugipedia.com//6/67/ALegendaryOcean-SDRE-EN-C-1E.png"
+          },
+          "9d36c90c-0181-4e2e-af95-e36f6a8f16fc": {
+            "image": "https://ms.yugipedia.com//a/a9/ForgottenTempleoftheDeep-SDRE-EN-C-1E.png"
+          },
+          "a560ae4b-31f7-42b3-962e-ffa1182a9a94": {
+            "image": "https://ms.yugipedia.com//0/0b/AtlanteanAttackSquad-SDRE-EN-C-1E.png"
+          },
+          "a7c4b69c-1867-4ecb-8b60-621ba84e4186": {
+            "image": "https://ms.yugipedia.com//4/4c/FrillerRabca-SDRE-EN-C-1E.jpg"
+          },
+          "a867c575-60f1-4925-80a0-b068205234de": {
+            "image": "https://ms.yugipedia.com//e/ea/CalloftheAtlanteans-SDRE-EN-SR-1E.png"
+          },
+          "ac72c319-7138-43ba-bb28-1aedcd0e444c": {
+            "image": "https://ms.yugipedia.com//f/f6/SpiritualWaterArtAoi-SDRE-EN-C-1E.jpg"
+          },
+          "ae09ba7b-d5b2-4f01-8351-b20178c504aa": {
+            "image": "https://ms.yugipedia.com//3/34/DeepDiver-SDRE-EN-C-1E.jpg"
+          },
+          "b214b8f7-5e6d-4426-a1e0-4522b9c28d96": {
+            "image": "https://ms.yugipedia.com//d/dd/WaterHazard-SDRE-EN-C-1E.jpg"
+          },
+          "b7fb7ee6-9dcf-48de-a8b7-37fc116f3d02": {
+            "image": "https://ms.yugipedia.com//0/0b/PoseidonWave-SDRE-EN-C-1E.jpg"
+          },
+          "c1aef3dc-4986-49cf-b50d-ac0f8d91135a": {
+            "image": "https://ms.yugipedia.com//0/07/GravityBind-SDRE-EN-C-1E.jpg"
+          },
+          "c305c075-cf40-435a-b2b2-338c9ff5929c": {
+            "image": "https://ms.yugipedia.com//7/71/PoseidratheAtlanteanDragon-SDRE-EN-UR-1E.png"
+          },
+          "c5c65a28-0b5c-45e6-944a-abf2aac86960": {
+            "image": "https://ms.yugipedia.com//1/15/AtlanteanMarksman-SDRE-EN-C-1E.png"
+          },
+          "c9ffdbff-d352-4248-b5fc-9ecb1ed471f8": {
+            "image": "https://ms.yugipedia.com//5/57/ArmedSeaHunter-SDRE-EN-C-1E.jpg"
+          },
+          "cbe516e6-e081-41a5-b520-4c684ae6a14b": {
+            "image": "https://ms.yugipedia.com//d/dd/AtlanteanHeavyInfantry-SDRE-EN-C-1E.png"
+          },
+          "ce3445c6-5572-4e3d-8960-6bd7465090c0": {
+            "image": "https://ms.yugipedia.com//0/07/AquaJet-SDRE-EN-C-1E.jpg"
+          },
+          "cece2c2d-a564-491f-a5cb-a2160ae2a803": {
+            "image": "https://ms.yugipedia.com//b/bd/MorayofGreed-SDRE-EN-C-1E.png"
+          },
+          "d38e98ef-bcb2-4d80-b118-1234234fe2a0": {
+            "image": "https://ms.yugipedia.com//5/5a/WarriorofAtlantis-SDRE-EN-C-1E.jpg"
+          },
+          "e226342e-cfdd-4a9c-aba7-e98b8681082d": {
+            "image": "https://ms.yugipedia.com//a/a7/NightmarePenguin-SDRE-EN-C-1E.jpg"
+          },
+          "e331b0cc-2ecf-41c7-943f-9e4f5d3206c1": {
+            "image": "https://ms.yugipedia.com//6/66/AtlanteanPikeman-SDRE-EN-C-1E.png"
+          },
+          "f5f125fa-577d-4a20-972e-416f357cb529": {
+            "image": "https://ms.yugipedia.com//6/6f/TornadoWall-SDRE-EN-C-1E.jpg"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "1st"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          14408002
+        ]
+      }
+    },
+    "fr": {
+      "language": "fr",
+      "prefix": "SDRE-FR",
+      "date": "2012-10-10",
+      "image": "https://ms.yugipedia.com//1/1d/SDRE-DeckFR.png",
+      "cardImages": {
+        "1st": {
+          "0a74b9fa-469a-438e-a544-d74c53cfeb61": "https://ms.yugipedia.com//9/9f/SnowmanEater-SDRE-FR-C-1E.png",
+          "1c760ffe-c4cd-496d-b203-7006ef4eed41": "https://ms.yugipedia.com//e/eb/Codarus-SDRE-FR-C-1E.png",
+          "1f8dcba6-acf9-49b4-b40f-4ba7921f7259": "https://ms.yugipedia.com//b/b6/TorrentialTribute-SDRE-FR-C-1E.png",
+          "205c5138-6b02-49f2-a53a-04a71fccb17c": "https://ms.yugipedia.com//a/a2/AbyssSoldier-SDRE-FR-C-1E.png",
+          "219e990e-7ff3-4e2d-a05f-32ecda483289": "https://ms.yugipedia.com//9/93/LostBlueBreaker-SDRE-FR-C-1E.png",
+          "26090894-72a6-43c8-a05c-df320c126fd7": "https://ms.yugipedia.com//b/b5/MotherGrizzly-SDRE-FR-C-1E.png",
+          "26f85708-65be-4814-8856-fda5c76c506b": "https://ms.yugipedia.com//8/8d/SpinedGillman-SDRE-FR-C-1E.png",
+          "27799705-b440-4829-a2d1-db03c955c029": "https://ms.yugipedia.com//2/2a/DeepSeaDiva-SDRE-FR-C-1E.png",
+          "37c60f25-cb09-4204-bfc3-c9772e653404": "https://ms.yugipedia.com//7/71/AtlanteanDragoons-SDRE-FR-SR-1E.png",
+          "398ebb15-66a6-4967-8bc9-fe10621a7276": "https://ms.yugipedia.com//e/e1/DarkHole-SDRE-FR-C-1E.png",
+          "446353d7-130f-422a-80ca-34659cdd7645": "https://ms.yugipedia.com//e/e6/Terraforming-SDRE-FR-C-1E.png",
+          "4568e295-fac8-4ffd-96e8-70939531f056": "https://ms.yugipedia.com//a/a6/Surface-SDRE-FR-C-1E.png",
+          "539a4742-9bf5-45a0-b918-5700228a0465": "https://ms.yugipedia.com//4/4e/PenguinSoldier-SDRE-FR-C-1E.png",
+          "657482ae-c3cb-498d-bf3f-54eb77298959": "https://ms.yugipedia.com//b/b0/AegisoftheOceanDragonLord-SDRE-FR-C-1E.png",
+          "6bb04ad3-2f2d-4222-9272-a6132143bc91": "https://ms.yugipedia.com//3/31/Skreech-SDRE-FR-C-1E.png",
+          "700503f1-6602-459e-acdc-07a663a5400e": "https://ms.yugipedia.com//9/9a/Salvage-SDRE-FR-C-1E.png",
+          "75d124b3-74fa-4c42-8b0b-baa3c09614c3": "https://ms.yugipedia.com//e/e3/BigWaveSmallWave-SDRE-FR-C-1E.png",
+          "7977c9b1-e3a6-4bb5-abe6-497328cfe672": "https://ms.yugipedia.com//5/50/ReesetheIceMistress-SDRE-FR-C-1E.png",
+          "8977ca26-6efa-4ca3-891c-acb09aaef23d": "https://ms.yugipedia.com//d/d0/MermaidArcher-SDRE-FR-C-1E.png",
+          "9d1b1fe0-fbbf-45e8-ad72-21622e5ed22a": "https://ms.yugipedia.com//8/89/ALegendaryOcean-SDRE-FR-C-1E.png",
+          "9d36c90c-0181-4e2e-af95-e36f6a8f16fc": "https://ms.yugipedia.com//6/6d/ForgottenTempleoftheDeep-SDRE-FR-C-1E.png",
+          "a560ae4b-31f7-42b3-962e-ffa1182a9a94": "https://ms.yugipedia.com//c/c2/AtlanteanAttackSquad-SDRE-FR-C-1E.png",
+          "a7c4b69c-1867-4ecb-8b60-621ba84e4186": "https://ms.yugipedia.com//b/b2/FrillerRabca-SDRE-FR-C-1E.png",
+          "a867c575-60f1-4925-80a0-b068205234de": "https://ms.yugipedia.com//b/b7/CalloftheAtlanteans-SDRE-FR-SR-1E.png",
+          "ac72c319-7138-43ba-bb28-1aedcd0e444c": "https://ms.yugipedia.com//3/3b/SpiritualWaterArtAoi-SDRE-FR-C-1E.png",
+          "ae09ba7b-d5b2-4f01-8351-b20178c504aa": "https://ms.yugipedia.com//3/3b/DeepDiver-SDRE-FR-C-1E.png",
+          "b214b8f7-5e6d-4426-a1e0-4522b9c28d96": "https://ms.yugipedia.com//d/d2/WaterHazard-SDRE-FR-C-1E.png",
+          "b7fb7ee6-9dcf-48de-a8b7-37fc116f3d02": "https://ms.yugipedia.com//7/71/PoseidonWave-SDRE-FR-C-1E.png",
+          "c1aef3dc-4986-49cf-b50d-ac0f8d91135a": "https://ms.yugipedia.com//a/ad/GravityBind-SDRE-FR-C-1E.png",
+          "c305c075-cf40-435a-b2b2-338c9ff5929c": "https://ms.yugipedia.com//d/d4/PoseidratheAtlanteanDragon-SDRE-FR-UR-1E.png",
+          "c5c65a28-0b5c-45e6-944a-abf2aac86960": "https://ms.yugipedia.com//7/7f/AtlanteanMarksman-SDRE-FR-C-1E.png",
+          "c9ffdbff-d352-4248-b5fc-9ecb1ed471f8": "https://ms.yugipedia.com//7/7b/ArmedSeaHunter-SDRE-FR-C-1E.png",
+          "cbe516e6-e081-41a5-b520-4c684ae6a14b": "https://ms.yugipedia.com//2/2d/AtlanteanHeavyInfantry-SDRE-FR-C-1E.png",
+          "ce3445c6-5572-4e3d-8960-6bd7465090c0": "https://ms.yugipedia.com//f/f2/AquaJet-SDRE-FR-C-1E.png",
+          "cece2c2d-a564-491f-a5cb-a2160ae2a803": "https://ms.yugipedia.com//1/19/MorayofGreed-SDRE-FR-C-1E.png",
+          "d38e98ef-bcb2-4d80-b118-1234234fe2a0": "https://ms.yugipedia.com//9/9c/WarriorofAtlantis-SDRE-FR-C-1E.png",
+          "e226342e-cfdd-4a9c-aba7-e98b8681082d": "https://ms.yugipedia.com//1/16/NightmarePenguin-SDRE-FR-C-1E.png",
+          "e331b0cc-2ecf-41c7-943f-9e4f5d3206c1": "https://ms.yugipedia.com//4/48/AtlanteanPikeman-SDRE-FR-C-1E.png",
+          "f5f125fa-577d-4a20-972e-416f357cb529": "https://ms.yugipedia.com//1/14/TornadoWall-SDRE-FR-C-1E.png"
+        }
+      },
+      "cardInfo": {
+        "1st": {
+          "0a74b9fa-469a-438e-a544-d74c53cfeb61": {
+            "image": "https://ms.yugipedia.com//9/9f/SnowmanEater-SDRE-FR-C-1E.png"
+          },
+          "1c760ffe-c4cd-496d-b203-7006ef4eed41": {
+            "image": "https://ms.yugipedia.com//e/eb/Codarus-SDRE-FR-C-1E.png"
+          },
+          "1f8dcba6-acf9-49b4-b40f-4ba7921f7259": {
+            "image": "https://ms.yugipedia.com//b/b6/TorrentialTribute-SDRE-FR-C-1E.png"
+          },
+          "205c5138-6b02-49f2-a53a-04a71fccb17c": {
+            "image": "https://ms.yugipedia.com//a/a2/AbyssSoldier-SDRE-FR-C-1E.png"
+          },
+          "219e990e-7ff3-4e2d-a05f-32ecda483289": {
+            "image": "https://ms.yugipedia.com//9/93/LostBlueBreaker-SDRE-FR-C-1E.png"
+          },
+          "26090894-72a6-43c8-a05c-df320c126fd7": {
+            "image": "https://ms.yugipedia.com//b/b5/MotherGrizzly-SDRE-FR-C-1E.png"
+          },
+          "26f85708-65be-4814-8856-fda5c76c506b": {
+            "image": "https://ms.yugipedia.com//8/8d/SpinedGillman-SDRE-FR-C-1E.png"
+          },
+          "27799705-b440-4829-a2d1-db03c955c029": {
+            "image": "https://ms.yugipedia.com//2/2a/DeepSeaDiva-SDRE-FR-C-1E.png"
+          },
+          "37c60f25-cb09-4204-bfc3-c9772e653404": {
+            "image": "https://ms.yugipedia.com//7/71/AtlanteanDragoons-SDRE-FR-SR-1E.png"
+          },
+          "398ebb15-66a6-4967-8bc9-fe10621a7276": {
+            "image": "https://ms.yugipedia.com//e/e1/DarkHole-SDRE-FR-C-1E.png"
+          },
+          "446353d7-130f-422a-80ca-34659cdd7645": {
+            "image": "https://ms.yugipedia.com//e/e6/Terraforming-SDRE-FR-C-1E.png"
+          },
+          "4568e295-fac8-4ffd-96e8-70939531f056": {
+            "image": "https://ms.yugipedia.com//a/a6/Surface-SDRE-FR-C-1E.png"
+          },
+          "539a4742-9bf5-45a0-b918-5700228a0465": {
+            "image": "https://ms.yugipedia.com//4/4e/PenguinSoldier-SDRE-FR-C-1E.png"
+          },
+          "657482ae-c3cb-498d-bf3f-54eb77298959": {
+            "image": "https://ms.yugipedia.com//b/b0/AegisoftheOceanDragonLord-SDRE-FR-C-1E.png"
+          },
+          "6bb04ad3-2f2d-4222-9272-a6132143bc91": {
+            "image": "https://ms.yugipedia.com//3/31/Skreech-SDRE-FR-C-1E.png"
+          },
+          "700503f1-6602-459e-acdc-07a663a5400e": {
+            "image": "https://ms.yugipedia.com//9/9a/Salvage-SDRE-FR-C-1E.png"
+          },
+          "75d124b3-74fa-4c42-8b0b-baa3c09614c3": {
+            "image": "https://ms.yugipedia.com//e/e3/BigWaveSmallWave-SDRE-FR-C-1E.png"
+          },
+          "7977c9b1-e3a6-4bb5-abe6-497328cfe672": {
+            "image": "https://ms.yugipedia.com//5/50/ReesetheIceMistress-SDRE-FR-C-1E.png"
+          },
+          "8977ca26-6efa-4ca3-891c-acb09aaef23d": {
+            "image": "https://ms.yugipedia.com//d/d0/MermaidArcher-SDRE-FR-C-1E.png"
+          },
+          "9d1b1fe0-fbbf-45e8-ad72-21622e5ed22a": {
+            "image": "https://ms.yugipedia.com//8/89/ALegendaryOcean-SDRE-FR-C-1E.png"
+          },
+          "9d36c90c-0181-4e2e-af95-e36f6a8f16fc": {
+            "image": "https://ms.yugipedia.com//6/6d/ForgottenTempleoftheDeep-SDRE-FR-C-1E.png"
+          },
+          "a560ae4b-31f7-42b3-962e-ffa1182a9a94": {
+            "image": "https://ms.yugipedia.com//c/c2/AtlanteanAttackSquad-SDRE-FR-C-1E.png"
+          },
+          "a7c4b69c-1867-4ecb-8b60-621ba84e4186": {
+            "image": "https://ms.yugipedia.com//b/b2/FrillerRabca-SDRE-FR-C-1E.png"
+          },
+          "a867c575-60f1-4925-80a0-b068205234de": {
+            "image": "https://ms.yugipedia.com//b/b7/CalloftheAtlanteans-SDRE-FR-SR-1E.png"
+          },
+          "ac72c319-7138-43ba-bb28-1aedcd0e444c": {
+            "image": "https://ms.yugipedia.com//3/3b/SpiritualWaterArtAoi-SDRE-FR-C-1E.png"
+          },
+          "ae09ba7b-d5b2-4f01-8351-b20178c504aa": {
+            "image": "https://ms.yugipedia.com//3/3b/DeepDiver-SDRE-FR-C-1E.png"
+          },
+          "b214b8f7-5e6d-4426-a1e0-4522b9c28d96": {
+            "image": "https://ms.yugipedia.com//d/d2/WaterHazard-SDRE-FR-C-1E.png"
+          },
+          "b7fb7ee6-9dcf-48de-a8b7-37fc116f3d02": {
+            "image": "https://ms.yugipedia.com//7/71/PoseidonWave-SDRE-FR-C-1E.png"
+          },
+          "c1aef3dc-4986-49cf-b50d-ac0f8d91135a": {
+            "image": "https://ms.yugipedia.com//a/ad/GravityBind-SDRE-FR-C-1E.png"
+          },
+          "c305c075-cf40-435a-b2b2-338c9ff5929c": {
+            "image": "https://ms.yugipedia.com//d/d4/PoseidratheAtlanteanDragon-SDRE-FR-UR-1E.png"
+          },
+          "c5c65a28-0b5c-45e6-944a-abf2aac86960": {
+            "image": "https://ms.yugipedia.com//7/7f/AtlanteanMarksman-SDRE-FR-C-1E.png"
+          },
+          "c9ffdbff-d352-4248-b5fc-9ecb1ed471f8": {
+            "image": "https://ms.yugipedia.com//7/7b/ArmedSeaHunter-SDRE-FR-C-1E.png"
+          },
+          "cbe516e6-e081-41a5-b520-4c684ae6a14b": {
+            "image": "https://ms.yugipedia.com//2/2d/AtlanteanHeavyInfantry-SDRE-FR-C-1E.png"
+          },
+          "ce3445c6-5572-4e3d-8960-6bd7465090c0": {
+            "image": "https://ms.yugipedia.com//f/f2/AquaJet-SDRE-FR-C-1E.png"
+          },
+          "cece2c2d-a564-491f-a5cb-a2160ae2a803": {
+            "image": "https://ms.yugipedia.com//1/19/MorayofGreed-SDRE-FR-C-1E.png"
+          },
+          "d38e98ef-bcb2-4d80-b118-1234234fe2a0": {
+            "image": "https://ms.yugipedia.com//9/9c/WarriorofAtlantis-SDRE-FR-C-1E.png"
+          },
+          "e226342e-cfdd-4a9c-aba7-e98b8681082d": {
+            "image": "https://ms.yugipedia.com//1/16/NightmarePenguin-SDRE-FR-C-1E.png"
+          },
+          "e331b0cc-2ecf-41c7-943f-9e4f5d3206c1": {
+            "image": "https://ms.yugipedia.com//4/48/AtlanteanPikeman-SDRE-FR-C-1E.png"
+          },
+          "f5f125fa-577d-4a20-972e-416f357cb529": {
+            "image": "https://ms.yugipedia.com//1/14/TornadoWall-SDRE-FR-C-1E.png"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "1st"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          34408002
+        ]
+      }
+    },
+    "de": {
+      "language": "de",
+      "prefix": "SDRE-DE",
+      "date": "2012-10-10",
+      "image": "https://ms.yugipedia.com//0/0f/SDRE-DeckDE.png",
+      "cardImages": {
+        "1st": {
+          "0a74b9fa-469a-438e-a544-d74c53cfeb61": "https://ms.yugipedia.com//1/11/SnowmanEater-SDRE-DE-C-1E.png",
+          "1c760ffe-c4cd-496d-b203-7006ef4eed41": "https://ms.yugipedia.com//9/91/Codarus-SDRE-DE-C-1E.jpg",
+          "1f8dcba6-acf9-49b4-b40f-4ba7921f7259": "https://ms.yugipedia.com//0/0b/TorrentialTribute-SDRE-DE-C-1E.png",
+          "205c5138-6b02-49f2-a53a-04a71fccb17c": "https://ms.yugipedia.com//1/15/AbyssSoldier-SDRE-DE-C-1E.png",
+          "219e990e-7ff3-4e2d-a05f-32ecda483289": "https://ms.yugipedia.com//0/07/LostBlueBreaker-SDRE-DE-C-1E.jpg",
+          "26090894-72a6-43c8-a05c-df320c126fd7": "https://ms.yugipedia.com//5/57/MotherGrizzly-SDRE-DE-C-1E.jpg",
+          "26f85708-65be-4814-8856-fda5c76c506b": "https://ms.yugipedia.com//f/fe/SpinedGillman-SDRE-DE-C-1E.jpg",
+          "27799705-b440-4829-a2d1-db03c955c029": "https://ms.yugipedia.com//6/64/DeepSeaDiva-SDRE-DE-C-1E.jpg",
+          "37c60f25-cb09-4204-bfc3-c9772e653404": "https://ms.yugipedia.com//0/0f/AtlanteanDragoons-SDRE-DE-SR-1E.jpg",
+          "398ebb15-66a6-4967-8bc9-fe10621a7276": "https://ms.yugipedia.com//5/5c/DarkHole-SDRE-DE-C-1E.jpg",
+          "446353d7-130f-422a-80ca-34659cdd7645": "https://ms.yugipedia.com//e/e2/Terraforming-SDRE-DE-C-1E.jpg",
+          "4568e295-fac8-4ffd-96e8-70939531f056": "https://ms.yugipedia.com//3/32/Surface-SDRE-DE-C-1E.jpg",
+          "539a4742-9bf5-45a0-b918-5700228a0465": "https://ms.yugipedia.com//6/61/PenguinSoldier-SDRE-DE-C-1E.png",
+          "657482ae-c3cb-498d-bf3f-54eb77298959": "https://ms.yugipedia.com//6/64/AegisoftheOceanDragonLord-SDRE-DE-C-1E.jpg",
+          "6bb04ad3-2f2d-4222-9272-a6132143bc91": "https://ms.yugipedia.com//a/a1/Skreech-SDRE-DE-C-1E.png",
+          "700503f1-6602-459e-acdc-07a663a5400e": "https://ms.yugipedia.com//b/b9/Salvage-SDRE-DE-C-1E.jpg",
+          "75d124b3-74fa-4c42-8b0b-baa3c09614c3": "https://ms.yugipedia.com//a/a0/BigWaveSmallWave-SDRE-DE-C-1E.jpg",
+          "7977c9b1-e3a6-4bb5-abe6-497328cfe672": "https://ms.yugipedia.com//3/3d/ReesetheIceMistress-SDRE-DE-C-1E.jpg",
+          "8977ca26-6efa-4ca3-891c-acb09aaef23d": "https://ms.yugipedia.com//5/57/MermaidArcher-SDRE-DE-C-1E.jpg",
+          "9d1b1fe0-fbbf-45e8-ad72-21622e5ed22a": "https://ms.yugipedia.com//1/16/ALegendaryOcean-SDRE-DE-C-1E.jpg",
+          "9d36c90c-0181-4e2e-af95-e36f6a8f16fc": "https://ms.yugipedia.com//f/f6/ForgottenTempleoftheDeep-SDRE-DE-C-1E.png",
+          "a560ae4b-31f7-42b3-962e-ffa1182a9a94": "https://ms.yugipedia.com//6/66/AtlanteanAttackSquad-SDRE-DE-C-1E.jpg",
+          "a7c4b69c-1867-4ecb-8b60-621ba84e4186": "https://ms.yugipedia.com//8/8f/FrillerRabca-SDRE-DE-C-1E.jpg",
+          "a867c575-60f1-4925-80a0-b068205234de": "https://ms.yugipedia.com//9/97/CalloftheAtlanteans-SDRE-DE-SR-1E.jpg",
+          "ac72c319-7138-43ba-bb28-1aedcd0e444c": "https://ms.yugipedia.com//e/e6/SpiritualWaterArtAoi-SDRE-DE-C-1E.jpg",
+          "ae09ba7b-d5b2-4f01-8351-b20178c504aa": "https://ms.yugipedia.com//5/57/DeepDiver-SDRE-DE-C-1E.jpg",
+          "b214b8f7-5e6d-4426-a1e0-4522b9c28d96": "https://ms.yugipedia.com//d/d9/WaterHazard-SDRE-DE-C-1E.jpg",
+          "b7fb7ee6-9dcf-48de-a8b7-37fc116f3d02": "https://ms.yugipedia.com//6/63/PoseidonWave-SDRE-DE-C-1E.jpg",
+          "c1aef3dc-4986-49cf-b50d-ac0f8d91135a": "https://ms.yugipedia.com//3/31/GravityBind-SDRE-DE-C-1E.jpg",
+          "c305c075-cf40-435a-b2b2-338c9ff5929c": "https://ms.yugipedia.com//e/e2/PoseidratheAtlanteanDragon-SDRE-DE-UR-1E.jpg",
+          "c5c65a28-0b5c-45e6-944a-abf2aac86960": "https://ms.yugipedia.com//4/43/AtlanteanMarksman-SDRE-DE-C-1E.jpg",
+          "c9ffdbff-d352-4248-b5fc-9ecb1ed471f8": "https://ms.yugipedia.com//b/bd/ArmedSeaHunter-SDRE-DE-C-1E.jpg",
+          "cbe516e6-e081-41a5-b520-4c684ae6a14b": "https://ms.yugipedia.com//6/6e/AtlanteanHeavyInfantry-SDRE-DE-C-1E.jpg",
+          "ce3445c6-5572-4e3d-8960-6bd7465090c0": "https://ms.yugipedia.com//8/8e/AquaJet-SDRE-DE-C-1E.jpg",
+          "cece2c2d-a564-491f-a5cb-a2160ae2a803": "https://ms.yugipedia.com//6/69/MorayofGreed-SDRE-DE-C-1E.jpg",
+          "d38e98ef-bcb2-4d80-b118-1234234fe2a0": "https://ms.yugipedia.com//c/c5/WarriorofAtlantis-SDRE-DE-C-1E.jpg",
+          "e226342e-cfdd-4a9c-aba7-e98b8681082d": "https://ms.yugipedia.com//8/81/NightmarePenguin-SDRE-DE-C-1E.jpg",
+          "e331b0cc-2ecf-41c7-943f-9e4f5d3206c1": "https://ms.yugipedia.com//4/49/AtlanteanPikeman-SDRE-DE-C-1E.jpg",
+          "f5f125fa-577d-4a20-972e-416f357cb529": "https://ms.yugipedia.com//9/91/TornadoWall-SDRE-DE-C-1E.jpg"
+        }
+      },
+      "cardInfo": {
+        "1st": {
+          "0a74b9fa-469a-438e-a544-d74c53cfeb61": {
+            "image": "https://ms.yugipedia.com//1/11/SnowmanEater-SDRE-DE-C-1E.png"
+          },
+          "1c760ffe-c4cd-496d-b203-7006ef4eed41": {
+            "image": "https://ms.yugipedia.com//9/91/Codarus-SDRE-DE-C-1E.jpg"
+          },
+          "1f8dcba6-acf9-49b4-b40f-4ba7921f7259": {
+            "image": "https://ms.yugipedia.com//0/0b/TorrentialTribute-SDRE-DE-C-1E.png"
+          },
+          "205c5138-6b02-49f2-a53a-04a71fccb17c": {
+            "image": "https://ms.yugipedia.com//1/15/AbyssSoldier-SDRE-DE-C-1E.png"
+          },
+          "219e990e-7ff3-4e2d-a05f-32ecda483289": {
+            "image": "https://ms.yugipedia.com//0/07/LostBlueBreaker-SDRE-DE-C-1E.jpg"
+          },
+          "26090894-72a6-43c8-a05c-df320c126fd7": {
+            "image": "https://ms.yugipedia.com//5/57/MotherGrizzly-SDRE-DE-C-1E.jpg"
+          },
+          "26f85708-65be-4814-8856-fda5c76c506b": {
+            "image": "https://ms.yugipedia.com//f/fe/SpinedGillman-SDRE-DE-C-1E.jpg"
+          },
+          "27799705-b440-4829-a2d1-db03c955c029": {
+            "image": "https://ms.yugipedia.com//6/64/DeepSeaDiva-SDRE-DE-C-1E.jpg"
+          },
+          "37c60f25-cb09-4204-bfc3-c9772e653404": {
+            "image": "https://ms.yugipedia.com//0/0f/AtlanteanDragoons-SDRE-DE-SR-1E.jpg"
+          },
+          "398ebb15-66a6-4967-8bc9-fe10621a7276": {
+            "image": "https://ms.yugipedia.com//5/5c/DarkHole-SDRE-DE-C-1E.jpg"
+          },
+          "446353d7-130f-422a-80ca-34659cdd7645": {
+            "image": "https://ms.yugipedia.com//e/e2/Terraforming-SDRE-DE-C-1E.jpg"
+          },
+          "4568e295-fac8-4ffd-96e8-70939531f056": {
+            "image": "https://ms.yugipedia.com//3/32/Surface-SDRE-DE-C-1E.jpg"
+          },
+          "539a4742-9bf5-45a0-b918-5700228a0465": {
+            "image": "https://ms.yugipedia.com//6/61/PenguinSoldier-SDRE-DE-C-1E.png"
+          },
+          "657482ae-c3cb-498d-bf3f-54eb77298959": {
+            "image": "https://ms.yugipedia.com//6/64/AegisoftheOceanDragonLord-SDRE-DE-C-1E.jpg"
+          },
+          "6bb04ad3-2f2d-4222-9272-a6132143bc91": {
+            "image": "https://ms.yugipedia.com//a/a1/Skreech-SDRE-DE-C-1E.png"
+          },
+          "700503f1-6602-459e-acdc-07a663a5400e": {
+            "image": "https://ms.yugipedia.com//b/b9/Salvage-SDRE-DE-C-1E.jpg"
+          },
+          "75d124b3-74fa-4c42-8b0b-baa3c09614c3": {
+            "image": "https://ms.yugipedia.com//a/a0/BigWaveSmallWave-SDRE-DE-C-1E.jpg"
+          },
+          "7977c9b1-e3a6-4bb5-abe6-497328cfe672": {
+            "image": "https://ms.yugipedia.com//3/3d/ReesetheIceMistress-SDRE-DE-C-1E.jpg"
+          },
+          "8977ca26-6efa-4ca3-891c-acb09aaef23d": {
+            "image": "https://ms.yugipedia.com//5/57/MermaidArcher-SDRE-DE-C-1E.jpg"
+          },
+          "9d1b1fe0-fbbf-45e8-ad72-21622e5ed22a": {
+            "image": "https://ms.yugipedia.com//1/16/ALegendaryOcean-SDRE-DE-C-1E.jpg"
+          },
+          "9d36c90c-0181-4e2e-af95-e36f6a8f16fc": {
+            "image": "https://ms.yugipedia.com//f/f6/ForgottenTempleoftheDeep-SDRE-DE-C-1E.png"
+          },
+          "a560ae4b-31f7-42b3-962e-ffa1182a9a94": {
+            "image": "https://ms.yugipedia.com//6/66/AtlanteanAttackSquad-SDRE-DE-C-1E.jpg"
+          },
+          "a7c4b69c-1867-4ecb-8b60-621ba84e4186": {
+            "image": "https://ms.yugipedia.com//8/8f/FrillerRabca-SDRE-DE-C-1E.jpg"
+          },
+          "a867c575-60f1-4925-80a0-b068205234de": {
+            "image": "https://ms.yugipedia.com//9/97/CalloftheAtlanteans-SDRE-DE-SR-1E.jpg"
+          },
+          "ac72c319-7138-43ba-bb28-1aedcd0e444c": {
+            "image": "https://ms.yugipedia.com//e/e6/SpiritualWaterArtAoi-SDRE-DE-C-1E.jpg"
+          },
+          "ae09ba7b-d5b2-4f01-8351-b20178c504aa": {
+            "image": "https://ms.yugipedia.com//5/57/DeepDiver-SDRE-DE-C-1E.jpg"
+          },
+          "b214b8f7-5e6d-4426-a1e0-4522b9c28d96": {
+            "image": "https://ms.yugipedia.com//d/d9/WaterHazard-SDRE-DE-C-1E.jpg"
+          },
+          "b7fb7ee6-9dcf-48de-a8b7-37fc116f3d02": {
+            "image": "https://ms.yugipedia.com//6/63/PoseidonWave-SDRE-DE-C-1E.jpg"
+          },
+          "c1aef3dc-4986-49cf-b50d-ac0f8d91135a": {
+            "image": "https://ms.yugipedia.com//3/31/GravityBind-SDRE-DE-C-1E.jpg"
+          },
+          "c305c075-cf40-435a-b2b2-338c9ff5929c": {
+            "image": "https://ms.yugipedia.com//e/e2/PoseidratheAtlanteanDragon-SDRE-DE-UR-1E.jpg"
+          },
+          "c5c65a28-0b5c-45e6-944a-abf2aac86960": {
+            "image": "https://ms.yugipedia.com//4/43/AtlanteanMarksman-SDRE-DE-C-1E.jpg"
+          },
+          "c9ffdbff-d352-4248-b5fc-9ecb1ed471f8": {
+            "image": "https://ms.yugipedia.com//b/bd/ArmedSeaHunter-SDRE-DE-C-1E.jpg"
+          },
+          "cbe516e6-e081-41a5-b520-4c684ae6a14b": {
+            "image": "https://ms.yugipedia.com//6/6e/AtlanteanHeavyInfantry-SDRE-DE-C-1E.jpg"
+          },
+          "ce3445c6-5572-4e3d-8960-6bd7465090c0": {
+            "image": "https://ms.yugipedia.com//8/8e/AquaJet-SDRE-DE-C-1E.jpg"
+          },
+          "cece2c2d-a564-491f-a5cb-a2160ae2a803": {
+            "image": "https://ms.yugipedia.com//6/69/MorayofGreed-SDRE-DE-C-1E.jpg"
+          },
+          "d38e98ef-bcb2-4d80-b118-1234234fe2a0": {
+            "image": "https://ms.yugipedia.com//c/c5/WarriorofAtlantis-SDRE-DE-C-1E.jpg"
+          },
+          "e226342e-cfdd-4a9c-aba7-e98b8681082d": {
+            "image": "https://ms.yugipedia.com//8/81/NightmarePenguin-SDRE-DE-C-1E.jpg"
+          },
+          "e331b0cc-2ecf-41c7-943f-9e4f5d3206c1": {
+            "image": "https://ms.yugipedia.com//4/49/AtlanteanPikeman-SDRE-DE-C-1E.jpg"
+          },
+          "f5f125fa-577d-4a20-972e-416f357cb529": {
+            "image": "https://ms.yugipedia.com//9/91/TornadoWall-SDRE-DE-C-1E.jpg"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "1st"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          24408002
+        ]
+      }
+    },
+    "it": {
+      "language": "it",
+      "prefix": "SDRE-IT",
+      "date": "2012-10-10",
+      "image": "https://ms.yugipedia.com//e/e7/SDRE-DeckIT.png",
+      "cardImages": {
+        "1st": {
+          "0a74b9fa-469a-438e-a544-d74c53cfeb61": "https://ms.yugipedia.com//2/27/SnowmanEater-SDRE-IT-C-1E.png",
+          "1c760ffe-c4cd-496d-b203-7006ef4eed41": "https://ms.yugipedia.com//5/5c/Codarus-SDRE-IT-C-1E.png",
+          "1f8dcba6-acf9-49b4-b40f-4ba7921f7259": "https://ms.yugipedia.com//3/3d/TorrentialTribute-SDRE-IT-C-1E.png",
+          "205c5138-6b02-49f2-a53a-04a71fccb17c": "https://ms.yugipedia.com//b/b0/AbyssSoldier-SDRE-IT-C-1E.png",
+          "219e990e-7ff3-4e2d-a05f-32ecda483289": "https://ms.yugipedia.com//d/d2/LostBlueBreaker-SDRE-IT-C-1E.png",
+          "26090894-72a6-43c8-a05c-df320c126fd7": "https://ms.yugipedia.com//b/b8/MotherGrizzly-SDRE-IT-C-1E.png",
+          "26f85708-65be-4814-8856-fda5c76c506b": "https://ms.yugipedia.com//d/d0/SpinedGillman-SDRE-IT-C-1E.png",
+          "27799705-b440-4829-a2d1-db03c955c029": "https://ms.yugipedia.com//e/e6/DeepSeaDiva-SDRE-IT-C-1E.png",
+          "37c60f25-cb09-4204-bfc3-c9772e653404": "https://ms.yugipedia.com//b/bd/AtlanteanDragoons-SDRE-IT-SR-1E.png",
+          "398ebb15-66a6-4967-8bc9-fe10621a7276": "https://ms.yugipedia.com//f/f9/DarkHole-SDRE-IT-C-1E.png",
+          "446353d7-130f-422a-80ca-34659cdd7645": "https://ms.yugipedia.com//d/d8/Terraforming-SDRE-IT-C-1E.png",
+          "4568e295-fac8-4ffd-96e8-70939531f056": "https://ms.yugipedia.com//8/8b/Surface-SDRE-IT-C-1E.png",
+          "539a4742-9bf5-45a0-b918-5700228a0465": "https://ms.yugipedia.com//8/8e/PenguinSoldier-SDRE-IT-C-1E.png",
+          "657482ae-c3cb-498d-bf3f-54eb77298959": "https://ms.yugipedia.com//2/2a/AegisoftheOceanDragonLord-SDRE-IT-C-1E.png",
+          "6bb04ad3-2f2d-4222-9272-a6132143bc91": "https://ms.yugipedia.com//c/ce/Skreech-SDRE-IT-C-1E.png",
+          "700503f1-6602-459e-acdc-07a663a5400e": "https://ms.yugipedia.com//3/39/Salvage-SDRE-IT-C-1E.png",
+          "75d124b3-74fa-4c42-8b0b-baa3c09614c3": "https://ms.yugipedia.com//7/71/BigWaveSmallWave-SDRE-IT-C-1E.png",
+          "7977c9b1-e3a6-4bb5-abe6-497328cfe672": "https://ms.yugipedia.com//6/6d/ReesetheIceMistress-SDRE-IT-C-1E.png",
+          "8977ca26-6efa-4ca3-891c-acb09aaef23d": "https://ms.yugipedia.com//c/c6/MermaidArcher-SDRE-IT-C-1E.png",
+          "9d1b1fe0-fbbf-45e8-ad72-21622e5ed22a": "https://ms.yugipedia.com//d/d8/ALegendaryOcean-SDRE-IT-C-1E.png",
+          "9d36c90c-0181-4e2e-af95-e36f6a8f16fc": "https://ms.yugipedia.com//d/d9/ForgottenTempleoftheDeep-SDRE-IT-C-1E.png",
+          "a560ae4b-31f7-42b3-962e-ffa1182a9a94": "https://ms.yugipedia.com//3/3b/AtlanteanAttackSquad-SDRE-IT-C-1E.png",
+          "a7c4b69c-1867-4ecb-8b60-621ba84e4186": "https://ms.yugipedia.com//5/57/FrillerRabca-SDRE-IT-C-1E.png",
+          "a867c575-60f1-4925-80a0-b068205234de": "https://ms.yugipedia.com//7/74/CalloftheAtlanteans-SDRE-IT-SR-1E.png",
+          "ac72c319-7138-43ba-bb28-1aedcd0e444c": "https://ms.yugipedia.com//a/a8/SpiritualWaterArtAoi-SDRE-IT-C-1E.png",
+          "ae09ba7b-d5b2-4f01-8351-b20178c504aa": "https://ms.yugipedia.com//2/2f/DeepDiver-SDRE-IT-C-1E.png",
+          "b214b8f7-5e6d-4426-a1e0-4522b9c28d96": "https://ms.yugipedia.com//1/12/WaterHazard-SDRE-IT-C-1E.png",
+          "b7fb7ee6-9dcf-48de-a8b7-37fc116f3d02": "https://ms.yugipedia.com//1/1a/PoseidonWave-SDRE-IT-C-1E.png",
+          "c1aef3dc-4986-49cf-b50d-ac0f8d91135a": "https://ms.yugipedia.com//0/01/GravityBind-SDRE-IT-C-1E.png",
+          "c305c075-cf40-435a-b2b2-338c9ff5929c": "https://ms.yugipedia.com//0/07/PoseidratheAtlanteanDragon-SDRE-IT-UR-1E.png",
+          "c5c65a28-0b5c-45e6-944a-abf2aac86960": "https://ms.yugipedia.com//0/0e/AtlanteanMarksman-SDRE-IT-C-1E.png",
+          "c9ffdbff-d352-4248-b5fc-9ecb1ed471f8": "https://ms.yugipedia.com//d/dc/ArmedSeaHunter-SDRE-IT-C-1E.png",
+          "cbe516e6-e081-41a5-b520-4c684ae6a14b": "https://ms.yugipedia.com//9/9e/AtlanteanHeavyInfantry-SDRE-IT-C-1E.png",
+          "ce3445c6-5572-4e3d-8960-6bd7465090c0": "https://ms.yugipedia.com//4/48/AquaJet-SDRE-IT-C-1E.png",
+          "cece2c2d-a564-491f-a5cb-a2160ae2a803": "https://ms.yugipedia.com//f/fe/MorayofGreed-SDRE-IT-C-1E.png",
+          "d38e98ef-bcb2-4d80-b118-1234234fe2a0": "https://ms.yugipedia.com//7/73/WarriorofAtlantis-SDRE-IT-C-1E.png",
+          "e226342e-cfdd-4a9c-aba7-e98b8681082d": "https://ms.yugipedia.com//7/76/NightmarePenguin-SDRE-IT-C-1E.png",
+          "e331b0cc-2ecf-41c7-943f-9e4f5d3206c1": "https://ms.yugipedia.com//9/9d/AtlanteanPikeman-SDRE-IT-C-1E.png",
+          "f5f125fa-577d-4a20-972e-416f357cb529": "https://ms.yugipedia.com//6/6a/TornadoWall-SDRE-IT-C-1E.png"
+        }
+      },
+      "cardInfo": {
+        "1st": {
+          "0a74b9fa-469a-438e-a544-d74c53cfeb61": {
+            "image": "https://ms.yugipedia.com//2/27/SnowmanEater-SDRE-IT-C-1E.png"
+          },
+          "1c760ffe-c4cd-496d-b203-7006ef4eed41": {
+            "image": "https://ms.yugipedia.com//5/5c/Codarus-SDRE-IT-C-1E.png"
+          },
+          "1f8dcba6-acf9-49b4-b40f-4ba7921f7259": {
+            "image": "https://ms.yugipedia.com//3/3d/TorrentialTribute-SDRE-IT-C-1E.png"
+          },
+          "205c5138-6b02-49f2-a53a-04a71fccb17c": {
+            "image": "https://ms.yugipedia.com//b/b0/AbyssSoldier-SDRE-IT-C-1E.png"
+          },
+          "219e990e-7ff3-4e2d-a05f-32ecda483289": {
+            "image": "https://ms.yugipedia.com//d/d2/LostBlueBreaker-SDRE-IT-C-1E.png"
+          },
+          "26090894-72a6-43c8-a05c-df320c126fd7": {
+            "image": "https://ms.yugipedia.com//b/b8/MotherGrizzly-SDRE-IT-C-1E.png"
+          },
+          "26f85708-65be-4814-8856-fda5c76c506b": {
+            "image": "https://ms.yugipedia.com//d/d0/SpinedGillman-SDRE-IT-C-1E.png"
+          },
+          "27799705-b440-4829-a2d1-db03c955c029": {
+            "image": "https://ms.yugipedia.com//e/e6/DeepSeaDiva-SDRE-IT-C-1E.png"
+          },
+          "37c60f25-cb09-4204-bfc3-c9772e653404": {
+            "image": "https://ms.yugipedia.com//b/bd/AtlanteanDragoons-SDRE-IT-SR-1E.png"
+          },
+          "398ebb15-66a6-4967-8bc9-fe10621a7276": {
+            "image": "https://ms.yugipedia.com//f/f9/DarkHole-SDRE-IT-C-1E.png"
+          },
+          "446353d7-130f-422a-80ca-34659cdd7645": {
+            "image": "https://ms.yugipedia.com//d/d8/Terraforming-SDRE-IT-C-1E.png"
+          },
+          "4568e295-fac8-4ffd-96e8-70939531f056": {
+            "image": "https://ms.yugipedia.com//8/8b/Surface-SDRE-IT-C-1E.png"
+          },
+          "539a4742-9bf5-45a0-b918-5700228a0465": {
+            "image": "https://ms.yugipedia.com//8/8e/PenguinSoldier-SDRE-IT-C-1E.png"
+          },
+          "657482ae-c3cb-498d-bf3f-54eb77298959": {
+            "image": "https://ms.yugipedia.com//2/2a/AegisoftheOceanDragonLord-SDRE-IT-C-1E.png"
+          },
+          "6bb04ad3-2f2d-4222-9272-a6132143bc91": {
+            "image": "https://ms.yugipedia.com//c/ce/Skreech-SDRE-IT-C-1E.png"
+          },
+          "700503f1-6602-459e-acdc-07a663a5400e": {
+            "image": "https://ms.yugipedia.com//3/39/Salvage-SDRE-IT-C-1E.png"
+          },
+          "75d124b3-74fa-4c42-8b0b-baa3c09614c3": {
+            "image": "https://ms.yugipedia.com//7/71/BigWaveSmallWave-SDRE-IT-C-1E.png"
+          },
+          "7977c9b1-e3a6-4bb5-abe6-497328cfe672": {
+            "image": "https://ms.yugipedia.com//6/6d/ReesetheIceMistress-SDRE-IT-C-1E.png"
+          },
+          "8977ca26-6efa-4ca3-891c-acb09aaef23d": {
+            "image": "https://ms.yugipedia.com//c/c6/MermaidArcher-SDRE-IT-C-1E.png"
+          },
+          "9d1b1fe0-fbbf-45e8-ad72-21622e5ed22a": {
+            "image": "https://ms.yugipedia.com//d/d8/ALegendaryOcean-SDRE-IT-C-1E.png"
+          },
+          "9d36c90c-0181-4e2e-af95-e36f6a8f16fc": {
+            "image": "https://ms.yugipedia.com//d/d9/ForgottenTempleoftheDeep-SDRE-IT-C-1E.png"
+          },
+          "a560ae4b-31f7-42b3-962e-ffa1182a9a94": {
+            "image": "https://ms.yugipedia.com//3/3b/AtlanteanAttackSquad-SDRE-IT-C-1E.png"
+          },
+          "a7c4b69c-1867-4ecb-8b60-621ba84e4186": {
+            "image": "https://ms.yugipedia.com//5/57/FrillerRabca-SDRE-IT-C-1E.png"
+          },
+          "a867c575-60f1-4925-80a0-b068205234de": {
+            "image": "https://ms.yugipedia.com//7/74/CalloftheAtlanteans-SDRE-IT-SR-1E.png"
+          },
+          "ac72c319-7138-43ba-bb28-1aedcd0e444c": {
+            "image": "https://ms.yugipedia.com//a/a8/SpiritualWaterArtAoi-SDRE-IT-C-1E.png"
+          },
+          "ae09ba7b-d5b2-4f01-8351-b20178c504aa": {
+            "image": "https://ms.yugipedia.com//2/2f/DeepDiver-SDRE-IT-C-1E.png"
+          },
+          "b214b8f7-5e6d-4426-a1e0-4522b9c28d96": {
+            "image": "https://ms.yugipedia.com//1/12/WaterHazard-SDRE-IT-C-1E.png"
+          },
+          "b7fb7ee6-9dcf-48de-a8b7-37fc116f3d02": {
+            "image": "https://ms.yugipedia.com//1/1a/PoseidonWave-SDRE-IT-C-1E.png"
+          },
+          "c1aef3dc-4986-49cf-b50d-ac0f8d91135a": {
+            "image": "https://ms.yugipedia.com//0/01/GravityBind-SDRE-IT-C-1E.png"
+          },
+          "c305c075-cf40-435a-b2b2-338c9ff5929c": {
+            "image": "https://ms.yugipedia.com//0/07/PoseidratheAtlanteanDragon-SDRE-IT-UR-1E.png"
+          },
+          "c5c65a28-0b5c-45e6-944a-abf2aac86960": {
+            "image": "https://ms.yugipedia.com//0/0e/AtlanteanMarksman-SDRE-IT-C-1E.png"
+          },
+          "c9ffdbff-d352-4248-b5fc-9ecb1ed471f8": {
+            "image": "https://ms.yugipedia.com//d/dc/ArmedSeaHunter-SDRE-IT-C-1E.png"
+          },
+          "cbe516e6-e081-41a5-b520-4c684ae6a14b": {
+            "image": "https://ms.yugipedia.com//9/9e/AtlanteanHeavyInfantry-SDRE-IT-C-1E.png"
+          },
+          "ce3445c6-5572-4e3d-8960-6bd7465090c0": {
+            "image": "https://ms.yugipedia.com//4/48/AquaJet-SDRE-IT-C-1E.png"
+          },
+          "cece2c2d-a564-491f-a5cb-a2160ae2a803": {
+            "image": "https://ms.yugipedia.com//f/fe/MorayofGreed-SDRE-IT-C-1E.png"
+          },
+          "d38e98ef-bcb2-4d80-b118-1234234fe2a0": {
+            "image": "https://ms.yugipedia.com//7/73/WarriorofAtlantis-SDRE-IT-C-1E.png"
+          },
+          "e226342e-cfdd-4a9c-aba7-e98b8681082d": {
+            "image": "https://ms.yugipedia.com//7/76/NightmarePenguin-SDRE-IT-C-1E.png"
+          },
+          "e331b0cc-2ecf-41c7-943f-9e4f5d3206c1": {
+            "image": "https://ms.yugipedia.com//9/9d/AtlanteanPikeman-SDRE-IT-C-1E.png"
+          },
+          "f5f125fa-577d-4a20-972e-416f357cb529": {
+            "image": "https://ms.yugipedia.com//6/6a/TornadoWall-SDRE-IT-C-1E.png"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "1st"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          44408002
+        ]
+      }
+    },
+    "sp": {
+      "language": "es",
+      "prefix": "SDRE-SP",
+      "date": "2012-10-10",
+      "image": "https://ms.yugipedia.com//1/1c/SDRE-DeckSP.png",
+      "cardImages": {
+        "1st": {
+          "0a74b9fa-469a-438e-a544-d74c53cfeb61": "https://ms.yugipedia.com//0/06/SnowmanEater-SDRE-SP-C-1E.png",
+          "1c760ffe-c4cd-496d-b203-7006ef4eed41": "https://ms.yugipedia.com//6/64/Codarus-SDRE-SP-C-1E.png",
+          "1f8dcba6-acf9-49b4-b40f-4ba7921f7259": "https://ms.yugipedia.com//d/d9/TorrentialTribute-SDRE-SP-C-1E.png",
+          "205c5138-6b02-49f2-a53a-04a71fccb17c": "https://ms.yugipedia.com//1/13/AbyssSoldier-SDRE-SP-C-1E.png",
+          "219e990e-7ff3-4e2d-a05f-32ecda483289": "https://ms.yugipedia.com//5/5b/LostBlueBreaker-SDRE-SP-C-1E.png",
+          "26090894-72a6-43c8-a05c-df320c126fd7": "https://ms.yugipedia.com//5/5b/MotherGrizzly-SDRE-SP-C-1E.png",
+          "26f85708-65be-4814-8856-fda5c76c506b": "https://ms.yugipedia.com//b/b0/SpinedGillman-SDRE-SP-C-1E.png",
+          "27799705-b440-4829-a2d1-db03c955c029": "https://ms.yugipedia.com//3/39/DeepSeaDiva-SDRE-SP-C-1E.png",
+          "37c60f25-cb09-4204-bfc3-c9772e653404": "https://ms.yugipedia.com//0/09/AtlanteanDragoons-SDRE-SP-SR-1E.png",
+          "398ebb15-66a6-4967-8bc9-fe10621a7276": "https://ms.yugipedia.com//2/2b/DarkHole-SDRE-SP-C-1E.png",
+          "446353d7-130f-422a-80ca-34659cdd7645": "https://ms.yugipedia.com//f/f3/Terraforming-SDRE-SP-C-1E.png",
+          "4568e295-fac8-4ffd-96e8-70939531f056": "https://ms.yugipedia.com//8/8d/Surface-SDRE-SP-C-1E.png",
+          "539a4742-9bf5-45a0-b918-5700228a0465": "https://ms.yugipedia.com//2/25/PenguinSoldier-SDRE-SP-C-1E.png",
+          "657482ae-c3cb-498d-bf3f-54eb77298959": "https://ms.yugipedia.com//e/ef/AegisoftheOceanDragonLord-SDRE-SP-C-1E.png",
+          "6bb04ad3-2f2d-4222-9272-a6132143bc91": "https://ms.yugipedia.com//f/ff/Skreech-SDRE-SP-C-1E.png",
+          "700503f1-6602-459e-acdc-07a663a5400e": "https://ms.yugipedia.com//8/86/Salvage-SDRE-SP-C-1E.png",
+          "75d124b3-74fa-4c42-8b0b-baa3c09614c3": "https://ms.yugipedia.com//5/5f/BigWaveSmallWave-SDRE-SP-C-1E.png",
+          "7977c9b1-e3a6-4bb5-abe6-497328cfe672": "https://ms.yugipedia.com//8/8d/ReesetheIceMistress-SDRE-SP-C-1E.png",
+          "8977ca26-6efa-4ca3-891c-acb09aaef23d": "https://ms.yugipedia.com//d/da/MermaidArcher-SDRE-SP-C-1E.png",
+          "9d1b1fe0-fbbf-45e8-ad72-21622e5ed22a": "https://ms.yugipedia.com//8/89/ALegendaryOcean-SDRE-SP-C-1E.png",
+          "9d36c90c-0181-4e2e-af95-e36f6a8f16fc": "https://ms.yugipedia.com//c/c2/ForgottenTempleoftheDeep-SDRE-SP-C-1E.png",
+          "a560ae4b-31f7-42b3-962e-ffa1182a9a94": "https://ms.yugipedia.com//1/1e/AtlanteanAttackSquad-SDRE-SP-C-1E.png",
+          "a7c4b69c-1867-4ecb-8b60-621ba84e4186": "https://ms.yugipedia.com//d/df/FrillerRabca-SDRE-SP-C-1E.png",
+          "a867c575-60f1-4925-80a0-b068205234de": "https://ms.yugipedia.com//d/d7/CalloftheAtlanteans-SDRE-SP-SR-1E.png",
+          "ac72c319-7138-43ba-bb28-1aedcd0e444c": "https://ms.yugipedia.com//2/2f/SpiritualWaterArtAoi-SDRE-SP-C-1E.png",
+          "ae09ba7b-d5b2-4f01-8351-b20178c504aa": "https://ms.yugipedia.com//4/43/DeepDiver-SDRE-SP-C-1E.png",
+          "b214b8f7-5e6d-4426-a1e0-4522b9c28d96": "https://ms.yugipedia.com//0/03/WaterHazard-SDRE-SP-C-1E.png",
+          "b7fb7ee6-9dcf-48de-a8b7-37fc116f3d02": "https://ms.yugipedia.com//8/8a/PoseidonWave-SDRE-SP-C-1E.png",
+          "c1aef3dc-4986-49cf-b50d-ac0f8d91135a": "https://ms.yugipedia.com//e/e4/GravityBind-SDRE-SP-C-1E.png",
+          "c305c075-cf40-435a-b2b2-338c9ff5929c": "https://ms.yugipedia.com//f/fd/PoseidratheAtlanteanDragon-SDRE-SP-UR-1E.jpg",
+          "c5c65a28-0b5c-45e6-944a-abf2aac86960": "https://ms.yugipedia.com//5/5f/AtlanteanMarksman-SDRE-SP-C-1E.png",
+          "c9ffdbff-d352-4248-b5fc-9ecb1ed471f8": "https://ms.yugipedia.com//5/50/ArmedSeaHunter-SDRE-SP-C-1E.png",
+          "cbe516e6-e081-41a5-b520-4c684ae6a14b": "https://ms.yugipedia.com//6/66/AtlanteanHeavyInfantry-SDRE-SP-C-1E.png",
+          "ce3445c6-5572-4e3d-8960-6bd7465090c0": "https://ms.yugipedia.com//3/36/AquaJet-SDRE-SP-C-1E.png",
+          "cece2c2d-a564-491f-a5cb-a2160ae2a803": "https://ms.yugipedia.com//7/7a/MorayofGreed-SDRE-SP-C-1E.png",
+          "d38e98ef-bcb2-4d80-b118-1234234fe2a0": "https://ms.yugipedia.com//8/82/WarriorofAtlantis-SDRE-SP-C-1E.png",
+          "e226342e-cfdd-4a9c-aba7-e98b8681082d": "https://ms.yugipedia.com//4/48/NightmarePenguin-SDRE-SP-C-1E.png",
+          "e331b0cc-2ecf-41c7-943f-9e4f5d3206c1": "https://ms.yugipedia.com//8/86/AtlanteanPikeman-SDRE-SP-C-1E.png",
+          "f5f125fa-577d-4a20-972e-416f357cb529": "https://ms.yugipedia.com//1/1c/TornadoWall-SDRE-SP-C-1E.png"
+        }
+      },
+      "cardInfo": {
+        "1st": {
+          "0a74b9fa-469a-438e-a544-d74c53cfeb61": {
+            "image": "https://ms.yugipedia.com//0/06/SnowmanEater-SDRE-SP-C-1E.png"
+          },
+          "1c760ffe-c4cd-496d-b203-7006ef4eed41": {
+            "image": "https://ms.yugipedia.com//6/64/Codarus-SDRE-SP-C-1E.png"
+          },
+          "1f8dcba6-acf9-49b4-b40f-4ba7921f7259": {
+            "image": "https://ms.yugipedia.com//d/d9/TorrentialTribute-SDRE-SP-C-1E.png"
+          },
+          "205c5138-6b02-49f2-a53a-04a71fccb17c": {
+            "image": "https://ms.yugipedia.com//1/13/AbyssSoldier-SDRE-SP-C-1E.png"
+          },
+          "219e990e-7ff3-4e2d-a05f-32ecda483289": {
+            "image": "https://ms.yugipedia.com//5/5b/LostBlueBreaker-SDRE-SP-C-1E.png"
+          },
+          "26090894-72a6-43c8-a05c-df320c126fd7": {
+            "image": "https://ms.yugipedia.com//5/5b/MotherGrizzly-SDRE-SP-C-1E.png"
+          },
+          "26f85708-65be-4814-8856-fda5c76c506b": {
+            "image": "https://ms.yugipedia.com//b/b0/SpinedGillman-SDRE-SP-C-1E.png"
+          },
+          "27799705-b440-4829-a2d1-db03c955c029": {
+            "image": "https://ms.yugipedia.com//3/39/DeepSeaDiva-SDRE-SP-C-1E.png"
+          },
+          "37c60f25-cb09-4204-bfc3-c9772e653404": {
+            "image": "https://ms.yugipedia.com//0/09/AtlanteanDragoons-SDRE-SP-SR-1E.png"
+          },
+          "398ebb15-66a6-4967-8bc9-fe10621a7276": {
+            "image": "https://ms.yugipedia.com//2/2b/DarkHole-SDRE-SP-C-1E.png"
+          },
+          "446353d7-130f-422a-80ca-34659cdd7645": {
+            "image": "https://ms.yugipedia.com//f/f3/Terraforming-SDRE-SP-C-1E.png"
+          },
+          "4568e295-fac8-4ffd-96e8-70939531f056": {
+            "image": "https://ms.yugipedia.com//8/8d/Surface-SDRE-SP-C-1E.png"
+          },
+          "539a4742-9bf5-45a0-b918-5700228a0465": {
+            "image": "https://ms.yugipedia.com//2/25/PenguinSoldier-SDRE-SP-C-1E.png"
+          },
+          "657482ae-c3cb-498d-bf3f-54eb77298959": {
+            "image": "https://ms.yugipedia.com//e/ef/AegisoftheOceanDragonLord-SDRE-SP-C-1E.png"
+          },
+          "6bb04ad3-2f2d-4222-9272-a6132143bc91": {
+            "image": "https://ms.yugipedia.com//f/ff/Skreech-SDRE-SP-C-1E.png"
+          },
+          "700503f1-6602-459e-acdc-07a663a5400e": {
+            "image": "https://ms.yugipedia.com//8/86/Salvage-SDRE-SP-C-1E.png"
+          },
+          "75d124b3-74fa-4c42-8b0b-baa3c09614c3": {
+            "image": "https://ms.yugipedia.com//5/5f/BigWaveSmallWave-SDRE-SP-C-1E.png"
+          },
+          "7977c9b1-e3a6-4bb5-abe6-497328cfe672": {
+            "image": "https://ms.yugipedia.com//8/8d/ReesetheIceMistress-SDRE-SP-C-1E.png"
+          },
+          "8977ca26-6efa-4ca3-891c-acb09aaef23d": {
+            "image": "https://ms.yugipedia.com//d/da/MermaidArcher-SDRE-SP-C-1E.png"
+          },
+          "9d1b1fe0-fbbf-45e8-ad72-21622e5ed22a": {
+            "image": "https://ms.yugipedia.com//8/89/ALegendaryOcean-SDRE-SP-C-1E.png"
+          },
+          "9d36c90c-0181-4e2e-af95-e36f6a8f16fc": {
+            "image": "https://ms.yugipedia.com//c/c2/ForgottenTempleoftheDeep-SDRE-SP-C-1E.png"
+          },
+          "a560ae4b-31f7-42b3-962e-ffa1182a9a94": {
+            "image": "https://ms.yugipedia.com//1/1e/AtlanteanAttackSquad-SDRE-SP-C-1E.png"
+          },
+          "a7c4b69c-1867-4ecb-8b60-621ba84e4186": {
+            "image": "https://ms.yugipedia.com//d/df/FrillerRabca-SDRE-SP-C-1E.png"
+          },
+          "a867c575-60f1-4925-80a0-b068205234de": {
+            "image": "https://ms.yugipedia.com//d/d7/CalloftheAtlanteans-SDRE-SP-SR-1E.png"
+          },
+          "ac72c319-7138-43ba-bb28-1aedcd0e444c": {
+            "image": "https://ms.yugipedia.com//2/2f/SpiritualWaterArtAoi-SDRE-SP-C-1E.png"
+          },
+          "ae09ba7b-d5b2-4f01-8351-b20178c504aa": {
+            "image": "https://ms.yugipedia.com//4/43/DeepDiver-SDRE-SP-C-1E.png"
+          },
+          "b214b8f7-5e6d-4426-a1e0-4522b9c28d96": {
+            "image": "https://ms.yugipedia.com//0/03/WaterHazard-SDRE-SP-C-1E.png"
+          },
+          "b7fb7ee6-9dcf-48de-a8b7-37fc116f3d02": {
+            "image": "https://ms.yugipedia.com//8/8a/PoseidonWave-SDRE-SP-C-1E.png"
+          },
+          "c1aef3dc-4986-49cf-b50d-ac0f8d91135a": {
+            "image": "https://ms.yugipedia.com//e/e4/GravityBind-SDRE-SP-C-1E.png"
+          },
+          "c305c075-cf40-435a-b2b2-338c9ff5929c": {
+            "image": "https://ms.yugipedia.com//f/fd/PoseidratheAtlanteanDragon-SDRE-SP-UR-1E.jpg"
+          },
+          "c5c65a28-0b5c-45e6-944a-abf2aac86960": {
+            "image": "https://ms.yugipedia.com//5/5f/AtlanteanMarksman-SDRE-SP-C-1E.png"
+          },
+          "c9ffdbff-d352-4248-b5fc-9ecb1ed471f8": {
+            "image": "https://ms.yugipedia.com//5/50/ArmedSeaHunter-SDRE-SP-C-1E.png"
+          },
+          "cbe516e6-e081-41a5-b520-4c684ae6a14b": {
+            "image": "https://ms.yugipedia.com//6/66/AtlanteanHeavyInfantry-SDRE-SP-C-1E.png"
+          },
+          "ce3445c6-5572-4e3d-8960-6bd7465090c0": {
+            "image": "https://ms.yugipedia.com//3/36/AquaJet-SDRE-SP-C-1E.png"
+          },
+          "cece2c2d-a564-491f-a5cb-a2160ae2a803": {
+            "image": "https://ms.yugipedia.com//7/7a/MorayofGreed-SDRE-SP-C-1E.png"
+          },
+          "d38e98ef-bcb2-4d80-b118-1234234fe2a0": {
+            "image": "https://ms.yugipedia.com//8/82/WarriorofAtlantis-SDRE-SP-C-1E.png"
+          },
+          "e226342e-cfdd-4a9c-aba7-e98b8681082d": {
+            "image": "https://ms.yugipedia.com//4/48/NightmarePenguin-SDRE-SP-C-1E.png"
+          },
+          "e331b0cc-2ecf-41c7-943f-9e4f5d3206c1": {
+            "image": "https://ms.yugipedia.com//8/86/AtlanteanPikeman-SDRE-SP-C-1E.png"
+          },
+          "f5f125fa-577d-4a20-972e-416f357cb529": {
+            "image": "https://ms.yugipedia.com//1/1c/TornadoWall-SDRE-SP-C-1E.png"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "1st"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          54408002
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "en"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "distrobution": "preconstructed",
+      "editions": [
+        "1st"
+      ],
+      "image": "https://ms.yugipedia.com//6/64/SDRE-DeckEN.png",
+      "cards": [
+        {
+          "id": "c305c075-cf40-435a-b2b2-338c9ff5929c",
+          "card": "750c2943-fcce-47e6-a5d6-34190c0832b4",
+          "suffix": "001",
+          "rarity": "ultra",
+          "imageID": "0d898d2f-dd1c-4a79-9d4c-fb41be900cbe",
+          "printStatus": "new"
+        },
+        {
+          "id": "37c60f25-cb09-4204-bfc3-c9772e653404",
+          "card": "106054c6-ac04-4374-8460-3bcd15a0715c",
+          "suffix": "002",
+          "rarity": "super",
+          "imageID": "8e9f396e-c4af-4c04-92f1-75eaa7958903",
+          "printStatus": "new"
+        },
+        {
+          "id": "c5c65a28-0b5c-45e6-944a-abf2aac86960",
+          "card": "00bf80fd-f43b-4f03-960a-ff3ab97fb7ee",
+          "suffix": "003",
+          "rarity": "common",
+          "imageID": "749be016-ce4e-4280-b53c-9528ba511b7d",
+          "printStatus": "new"
+        },
+        {
+          "id": "cbe516e6-e081-41a5-b520-4c684ae6a14b",
+          "card": "75b9dd1c-e9df-46b0-97f5-34db1b0f4c46",
+          "suffix": "004",
+          "rarity": "common",
+          "imageID": "e3a26c8d-1473-4250-a63c-6038c6c8b02e",
+          "printStatus": "new"
+        },
+        {
+          "id": "e331b0cc-2ecf-41c7-943f-9e4f5d3206c1",
+          "card": "4b55eb49-60ff-4ea9-bfb9-a2ae614427ed",
+          "suffix": "005",
+          "rarity": "common",
+          "imageID": "e5344b56-5c75-4af9-aea4-395322cbbc1c",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "a560ae4b-31f7-42b3-962e-ffa1182a9a94",
+          "card": "2465a9ad-8916-40b3-9612-3e57a1be3571",
+          "suffix": "006",
+          "rarity": "common",
+          "imageID": "4dc692ff-3057-4d1a-bb4f-bdefeaaabb88",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "219e990e-7ff3-4e2d-a05f-32ecda483289",
+          "card": "70913017-f185-4b23-88cf-48beaece1679",
+          "suffix": "007",
+          "rarity": "common",
+          "imageID": "111d212f-018e-4cbc-9491-7b07d1d1a491",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "c9ffdbff-d352-4248-b5fc-9ecb1ed471f8",
+          "card": "786c9522-b83e-4c8d-bad3-68a0f3f22bf5",
+          "suffix": "008",
+          "rarity": "common",
+          "imageID": "9ed94fb7-7e7a-40b5-8860-384e18770a60",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "26f85708-65be-4814-8856-fda5c76c506b",
+          "card": "cd8647fb-902f-491f-8b9c-dac85abfcf7e",
+          "suffix": "009",
+          "rarity": "common",
+          "imageID": "b43ff8ab-081e-4b30-8aef-c4b5799beb44",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "27799705-b440-4829-a2d1-db03c955c029",
+          "card": "b4eb549f-3b1a-4ce7-afab-34d96a387897",
+          "suffix": "010",
+          "rarity": "common",
+          "imageID": "6e74ce13-32e8-41b5-a4fb-0fd2fd98e6aa",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "8977ca26-6efa-4ca3-891c-acb09aaef23d",
+          "card": "d629b09c-6b57-4cda-a1c0-c732951158b5",
+          "suffix": "011",
+          "rarity": "common",
+          "imageID": "15abad01-3b59-4461-af51-7a9049042ffc",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "1c760ffe-c4cd-496d-b203-7006ef4eed41",
+          "card": "f3681231-ce3b-4b22-96b4-c10f18472fcf",
+          "suffix": "012",
+          "rarity": "common",
+          "imageID": "f3949192-c24d-4e97-8483-8c532b111049",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "d38e98ef-bcb2-4d80-b118-1234234fe2a0",
+          "card": "5687b757-4676-4852-92a4-16bf96626833",
+          "suffix": "013",
+          "rarity": "common",
+          "imageID": "5ddc6649-daa3-488c-a72d-f23b1a8df271",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "205c5138-6b02-49f2-a53a-04a71fccb17c",
+          "card": "6b08a6ce-6c71-414f-b942-277b3b802465",
+          "suffix": "014",
+          "rarity": "common",
+          "imageID": "eb0a6e29-f992-4a74-a6a8-b0378d1b8e4b",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "6bb04ad3-2f2d-4222-9272-a6132143bc91",
+          "card": "000e9e13-ba58-46c2-b194-80ab563e5219",
+          "suffix": "015",
+          "rarity": "common",
+          "imageID": "a09a863d-5ee2-4e32-93af-e64caf621ef4",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "0a74b9fa-469a-438e-a544-d74c53cfeb61",
+          "card": "b47f40a9-91f9-4946-ad3d-6ed23d777630",
+          "suffix": "016",
+          "rarity": "common",
+          "imageID": "cb7e5ced-2e40-4e0a-b1d2-95d338dbc689",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "e226342e-cfdd-4a9c-aba7-e98b8681082d",
+          "card": "e68f38dd-bfb3-41d4-9c9b-d21ba7027476",
+          "suffix": "017",
+          "rarity": "common",
+          "imageID": "23117c8d-757b-448b-bfd0-b3894097d1ff",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "539a4742-9bf5-45a0-b918-5700228a0465",
+          "card": "f6eefd0a-c8d3-4e89-8be8-db0c2acc68be",
+          "suffix": "018",
+          "rarity": "common",
+          "imageID": "9064deab-15dd-403a-8bdb-38e1744e3cae",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "ae09ba7b-d5b2-4f01-8351-b20178c504aa",
+          "card": "b9f842c2-8121-445a-86ab-622d7b161764",
+          "suffix": "019",
+          "rarity": "common",
+          "imageID": "d186e964-ad27-402f-aba2-065091ae1033",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "7977c9b1-e3a6-4bb5-abe6-497328cfe672",
+          "card": "175abb93-7fd0-4b4a-8e6a-c58cd509815d",
+          "suffix": "020",
+          "rarity": "common",
+          "imageID": "498f9156-ea15-4d20-9017-9f7e97178d35",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "26090894-72a6-43c8-a05c-df320c126fd7",
+          "card": "b3e95450-c358-42e4-8acd-5bf2de0736ad",
+          "suffix": "021",
+          "rarity": "common",
+          "imageID": "0b2a97f8-0522-42aa-9d9a-a614c512da69",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "a7c4b69c-1867-4ecb-8b60-621ba84e4186",
+          "card": "aceaf3bc-cbf8-41b8-b102-3179934af47d",
+          "suffix": "022",
+          "rarity": "common",
+          "imageID": "92683b38-0c1b-4e25-a9cd-479a54c6893d",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "a867c575-60f1-4925-80a0-b068205234de",
+          "card": "4285fedb-b773-4631-bc19-bb8c6451177c",
+          "suffix": "023",
+          "rarity": "super",
+          "imageID": "46b2fd36-9540-4b40-ba33-b1decece9df4",
+          "printStatus": "new"
+        },
+        {
+          "id": "9d1b1fe0-fbbf-45e8-ad72-21622e5ed22a",
+          "card": "bdfb23a6-3de2-400e-a726-fab4e813749d",
+          "suffix": "024",
+          "rarity": "common",
+          "imageID": "2b046333-ef6a-41c3-91c2-e451c1f5e80f",
+          "qty": 2,
+          "printStatus": "reprint"
+        },
+        {
+          "id": "446353d7-130f-422a-80ca-34659cdd7645",
+          "card": "3d521119-db81-4605-86fe-33cfce4b3aa8",
+          "suffix": "025",
+          "rarity": "common",
+          "imageID": "3cbe0fea-6010-4280-8c7b-8542eb96fb8c",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "b214b8f7-5e6d-4426-a1e0-4522b9c28d96",
+          "card": "b8876bdf-7a5f-4540-b7f3-bf5ce4cff918",
+          "suffix": "026",
+          "rarity": "common",
+          "imageID": "a9adf680-2bc8-4993-a61a-9581cee4f5ae",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "ce3445c6-5572-4e3d-8960-6bd7465090c0",
+          "card": "f553206a-fcd3-44ee-8360-f7d6087cc950",
+          "suffix": "027",
+          "rarity": "common",
+          "imageID": "0c216de8-e379-4fa0-8989-85ed25847470",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "4568e295-fac8-4ffd-96e8-70939531f056",
+          "card": "482dc1a8-71b1-4caf-a620-e84bb0ed7ae0",
+          "suffix": "028",
+          "rarity": "common",
+          "imageID": "9280e594-0111-4bdf-b3a0-f9a3dfaa4621",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "cece2c2d-a564-491f-a5cb-a2160ae2a803",
+          "card": "fc923549-8766-4250-a2c4-01ada437bab1",
+          "suffix": "029",
+          "rarity": "common",
+          "imageID": "c5edb6db-d979-4145-b83b-5f0d11599b71",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "700503f1-6602-459e-acdc-07a663a5400e",
+          "card": "0e7a0529-6115-41ee-811e-5ff9394374d9",
+          "suffix": "030",
+          "rarity": "common",
+          "imageID": "37fd8bbe-7c40-4db2-baf8-9004b6da0cfa",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "398ebb15-66a6-4967-8bc9-fe10621a7276",
+          "card": "0bae3885-838e-4d5d-88ac-108218510d12",
+          "suffix": "031",
+          "rarity": "common",
+          "imageID": "809e89d1-ff4c-4965-b15c-7e6561850001",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "75d124b3-74fa-4c42-8b0b-baa3c09614c3",
+          "card": "c1d20c7f-117e-4658-b598-3445c02bf15b",
+          "suffix": "032",
+          "rarity": "common",
+          "imageID": "81d3417c-267d-4a9f-a60d-a20026bc29a2",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "657482ae-c3cb-498d-bf3f-54eb77298959",
+          "card": "f884a3f7-19bf-49a5-85cb-4fb63dc83df0",
+          "suffix": "033",
+          "rarity": "common",
+          "imageID": "cbac5d75-7d8c-4e1e-89d6-24467909c4ba",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "9d36c90c-0181-4e2e-af95-e36f6a8f16fc",
+          "card": "f4e36761-91e3-49dc-a611-578d6c685f53",
+          "suffix": "034",
+          "rarity": "common",
+          "imageID": "d4cef9aa-7a08-4a53-8ffb-16b78ae837e6",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "f5f125fa-577d-4a20-972e-416f357cb529",
+          "card": "36a457b6-684e-423e-b7ee-f794bc88fa26",
+          "suffix": "035",
+          "rarity": "common",
+          "imageID": "3134d967-87e1-429c-8461-db00f6446420",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "1f8dcba6-acf9-49b4-b40f-4ba7921f7259",
+          "card": "64373eb9-b0d1-4d8b-ac79-3eee973a1de7",
+          "suffix": "036",
+          "rarity": "common",
+          "imageID": "a64fff78-669f-4a16-bb11-48b7e8e6e24e",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "ac72c319-7138-43ba-bb28-1aedcd0e444c",
+          "card": "44ad86ba-615c-4021-96f9-32dd1520be51",
+          "suffix": "037",
+          "rarity": "common",
+          "imageID": "4920c125-9030-47fd-b8bc-37a1e4a7dd9a",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "c1aef3dc-4986-49cf-b50d-ac0f8d91135a",
+          "card": "4888ffce-8eee-4157-ac3a-ccb5de140b12",
+          "suffix": "038",
+          "rarity": "common",
+          "imageID": "1b3c2333-f9ce-447d-bdcc-f3a91a803f8e",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "b7fb7ee6-9dcf-48de-a8b7-37fc116f3d02",
+          "card": "ae502562-9acc-436b-9256-698e9d843052",
+          "suffix": "039",
+          "rarity": "common",
+          "imageID": "8a3d0189-66c6-4681-9113-f0ca8c3c878c",
+          "printStatus": "reprint"
+        }
+      ],
+      "externalIDs": {
+        "ygoprodeck": "Realm of the Sea Emperor Structure Deck"
+      }
+    },
+    {
+      "locales": [
+        "fr"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "distrobution": "preconstructed",
+      "editions": [
+        "1st"
+      ],
+      "image": "https://ms.yugipedia.com//1/1d/SDRE-DeckFR.png",
+      "cards": [
+        {
+          "id": "c305c075-cf40-435a-b2b2-338c9ff5929c",
+          "card": "750c2943-fcce-47e6-a5d6-34190c0832b4",
+          "suffix": "001",
+          "rarity": "ultra",
+          "imageID": "0d898d2f-dd1c-4a79-9d4c-fb41be900cbe"
+        },
+        {
+          "id": "37c60f25-cb09-4204-bfc3-c9772e653404",
+          "card": "106054c6-ac04-4374-8460-3bcd15a0715c",
+          "suffix": "002",
+          "rarity": "super",
+          "imageID": "8e9f396e-c4af-4c04-92f1-75eaa7958903"
+        },
+        {
+          "id": "c5c65a28-0b5c-45e6-944a-abf2aac86960",
+          "card": "00bf80fd-f43b-4f03-960a-ff3ab97fb7ee",
+          "suffix": "003",
+          "rarity": "common",
+          "imageID": "749be016-ce4e-4280-b53c-9528ba511b7d"
+        },
+        {
+          "id": "cbe516e6-e081-41a5-b520-4c684ae6a14b",
+          "card": "75b9dd1c-e9df-46b0-97f5-34db1b0f4c46",
+          "suffix": "004",
+          "rarity": "common",
+          "imageID": "e3a26c8d-1473-4250-a63c-6038c6c8b02e"
+        },
+        {
+          "id": "e331b0cc-2ecf-41c7-943f-9e4f5d3206c1",
+          "card": "4b55eb49-60ff-4ea9-bfb9-a2ae614427ed",
+          "suffix": "005",
+          "rarity": "common",
+          "imageID": "e5344b56-5c75-4af9-aea4-395322cbbc1c"
+        },
+        {
+          "id": "a560ae4b-31f7-42b3-962e-ffa1182a9a94",
+          "card": "2465a9ad-8916-40b3-9612-3e57a1be3571",
+          "suffix": "006",
+          "rarity": "common",
+          "imageID": "4dc692ff-3057-4d1a-bb4f-bdefeaaabb88"
+        },
+        {
+          "id": "219e990e-7ff3-4e2d-a05f-32ecda483289",
+          "card": "70913017-f185-4b23-88cf-48beaece1679",
+          "suffix": "007",
+          "rarity": "common",
+          "imageID": "111d212f-018e-4cbc-9491-7b07d1d1a491"
+        },
+        {
+          "id": "c9ffdbff-d352-4248-b5fc-9ecb1ed471f8",
+          "card": "786c9522-b83e-4c8d-bad3-68a0f3f22bf5",
+          "suffix": "008",
+          "rarity": "common",
+          "imageID": "9ed94fb7-7e7a-40b5-8860-384e18770a60"
+        },
+        {
+          "id": "26f85708-65be-4814-8856-fda5c76c506b",
+          "card": "cd8647fb-902f-491f-8b9c-dac85abfcf7e",
+          "suffix": "009",
+          "rarity": "common",
+          "imageID": "b43ff8ab-081e-4b30-8aef-c4b5799beb44"
+        },
+        {
+          "id": "27799705-b440-4829-a2d1-db03c955c029",
+          "card": "b4eb549f-3b1a-4ce7-afab-34d96a387897",
+          "suffix": "010",
+          "rarity": "common",
+          "imageID": "6e74ce13-32e8-41b5-a4fb-0fd2fd98e6aa"
+        },
+        {
+          "id": "8977ca26-6efa-4ca3-891c-acb09aaef23d",
+          "card": "d629b09c-6b57-4cda-a1c0-c732951158b5",
+          "suffix": "011",
+          "rarity": "common",
+          "imageID": "15abad01-3b59-4461-af51-7a9049042ffc"
+        },
+        {
+          "id": "1c760ffe-c4cd-496d-b203-7006ef4eed41",
+          "card": "f3681231-ce3b-4b22-96b4-c10f18472fcf",
+          "suffix": "012",
+          "rarity": "common",
+          "imageID": "f3949192-c24d-4e97-8483-8c532b111049"
+        },
+        {
+          "id": "d38e98ef-bcb2-4d80-b118-1234234fe2a0",
+          "card": "5687b757-4676-4852-92a4-16bf96626833",
+          "suffix": "013",
+          "rarity": "common",
+          "imageID": "5ddc6649-daa3-488c-a72d-f23b1a8df271"
+        },
+        {
+          "id": "205c5138-6b02-49f2-a53a-04a71fccb17c",
+          "card": "6b08a6ce-6c71-414f-b942-277b3b802465",
+          "suffix": "014",
+          "rarity": "common",
+          "imageID": "eb0a6e29-f992-4a74-a6a8-b0378d1b8e4b"
+        },
+        {
+          "id": "6bb04ad3-2f2d-4222-9272-a6132143bc91",
+          "card": "000e9e13-ba58-46c2-b194-80ab563e5219",
+          "suffix": "015",
+          "rarity": "common",
+          "imageID": "a09a863d-5ee2-4e32-93af-e64caf621ef4"
+        },
+        {
+          "id": "0a74b9fa-469a-438e-a544-d74c53cfeb61",
+          "card": "b47f40a9-91f9-4946-ad3d-6ed23d777630",
+          "suffix": "016",
+          "rarity": "common",
+          "imageID": "cb7e5ced-2e40-4e0a-b1d2-95d338dbc689"
+        },
+        {
+          "id": "e226342e-cfdd-4a9c-aba7-e98b8681082d",
+          "card": "e68f38dd-bfb3-41d4-9c9b-d21ba7027476",
+          "suffix": "017",
+          "rarity": "common",
+          "imageID": "23117c8d-757b-448b-bfd0-b3894097d1ff"
+        },
+        {
+          "id": "539a4742-9bf5-45a0-b918-5700228a0465",
+          "card": "f6eefd0a-c8d3-4e89-8be8-db0c2acc68be",
+          "suffix": "018",
+          "rarity": "common",
+          "imageID": "9064deab-15dd-403a-8bdb-38e1744e3cae"
+        },
+        {
+          "id": "ae09ba7b-d5b2-4f01-8351-b20178c504aa",
+          "card": "b9f842c2-8121-445a-86ab-622d7b161764",
+          "suffix": "019",
+          "rarity": "common",
+          "imageID": "d186e964-ad27-402f-aba2-065091ae1033"
+        },
+        {
+          "id": "7977c9b1-e3a6-4bb5-abe6-497328cfe672",
+          "card": "175abb93-7fd0-4b4a-8e6a-c58cd509815d",
+          "suffix": "020",
+          "rarity": "common",
+          "imageID": "498f9156-ea15-4d20-9017-9f7e97178d35"
+        },
+        {
+          "id": "26090894-72a6-43c8-a05c-df320c126fd7",
+          "card": "b3e95450-c358-42e4-8acd-5bf2de0736ad",
+          "suffix": "021",
+          "rarity": "common",
+          "imageID": "0b2a97f8-0522-42aa-9d9a-a614c512da69"
+        },
+        {
+          "id": "a7c4b69c-1867-4ecb-8b60-621ba84e4186",
+          "card": "aceaf3bc-cbf8-41b8-b102-3179934af47d",
+          "suffix": "022",
+          "rarity": "common",
+          "imageID": "92683b38-0c1b-4e25-a9cd-479a54c6893d"
+        },
+        {
+          "id": "a867c575-60f1-4925-80a0-b068205234de",
+          "card": "4285fedb-b773-4631-bc19-bb8c6451177c",
+          "suffix": "023",
+          "rarity": "super",
+          "imageID": "46b2fd36-9540-4b40-ba33-b1decece9df4"
+        },
+        {
+          "id": "9d1b1fe0-fbbf-45e8-ad72-21622e5ed22a",
+          "card": "bdfb23a6-3de2-400e-a726-fab4e813749d",
+          "suffix": "024",
+          "rarity": "common",
+          "imageID": "2b046333-ef6a-41c3-91c2-e451c1f5e80f",
+          "qty": 2
+        },
+        {
+          "id": "446353d7-130f-422a-80ca-34659cdd7645",
+          "card": "3d521119-db81-4605-86fe-33cfce4b3aa8",
+          "suffix": "025",
+          "rarity": "common",
+          "imageID": "3cbe0fea-6010-4280-8c7b-8542eb96fb8c"
+        },
+        {
+          "id": "b214b8f7-5e6d-4426-a1e0-4522b9c28d96",
+          "card": "b8876bdf-7a5f-4540-b7f3-bf5ce4cff918",
+          "suffix": "026",
+          "rarity": "common",
+          "imageID": "a9adf680-2bc8-4993-a61a-9581cee4f5ae"
+        },
+        {
+          "id": "ce3445c6-5572-4e3d-8960-6bd7465090c0",
+          "card": "f553206a-fcd3-44ee-8360-f7d6087cc950",
+          "suffix": "027",
+          "rarity": "common",
+          "imageID": "0c216de8-e379-4fa0-8989-85ed25847470"
+        },
+        {
+          "id": "4568e295-fac8-4ffd-96e8-70939531f056",
+          "card": "482dc1a8-71b1-4caf-a620-e84bb0ed7ae0",
+          "suffix": "028",
+          "rarity": "common",
+          "imageID": "9280e594-0111-4bdf-b3a0-f9a3dfaa4621"
+        },
+        {
+          "id": "cece2c2d-a564-491f-a5cb-a2160ae2a803",
+          "card": "fc923549-8766-4250-a2c4-01ada437bab1",
+          "suffix": "029",
+          "rarity": "common",
+          "imageID": "c5edb6db-d979-4145-b83b-5f0d11599b71"
+        },
+        {
+          "id": "700503f1-6602-459e-acdc-07a663a5400e",
+          "card": "0e7a0529-6115-41ee-811e-5ff9394374d9",
+          "suffix": "030",
+          "rarity": "common",
+          "imageID": "37fd8bbe-7c40-4db2-baf8-9004b6da0cfa"
+        },
+        {
+          "id": "398ebb15-66a6-4967-8bc9-fe10621a7276",
+          "card": "0bae3885-838e-4d5d-88ac-108218510d12",
+          "suffix": "031",
+          "rarity": "common",
+          "imageID": "809e89d1-ff4c-4965-b15c-7e6561850001"
+        },
+        {
+          "id": "75d124b3-74fa-4c42-8b0b-baa3c09614c3",
+          "card": "c1d20c7f-117e-4658-b598-3445c02bf15b",
+          "suffix": "032",
+          "rarity": "common",
+          "imageID": "81d3417c-267d-4a9f-a60d-a20026bc29a2"
+        },
+        {
+          "id": "657482ae-c3cb-498d-bf3f-54eb77298959",
+          "card": "f884a3f7-19bf-49a5-85cb-4fb63dc83df0",
+          "suffix": "033",
+          "rarity": "common",
+          "imageID": "cbac5d75-7d8c-4e1e-89d6-24467909c4ba"
+        },
+        {
+          "id": "9d36c90c-0181-4e2e-af95-e36f6a8f16fc",
+          "card": "f4e36761-91e3-49dc-a611-578d6c685f53",
+          "suffix": "034",
+          "rarity": "common",
+          "imageID": "d4cef9aa-7a08-4a53-8ffb-16b78ae837e6"
+        },
+        {
+          "id": "f5f125fa-577d-4a20-972e-416f357cb529",
+          "card": "36a457b6-684e-423e-b7ee-f794bc88fa26",
+          "suffix": "035",
+          "rarity": "common",
+          "imageID": "3134d967-87e1-429c-8461-db00f6446420"
+        },
+        {
+          "id": "1f8dcba6-acf9-49b4-b40f-4ba7921f7259",
+          "card": "64373eb9-b0d1-4d8b-ac79-3eee973a1de7",
+          "suffix": "036",
+          "rarity": "common",
+          "imageID": "a64fff78-669f-4a16-bb11-48b7e8e6e24e"
+        },
+        {
+          "id": "ac72c319-7138-43ba-bb28-1aedcd0e444c",
+          "card": "44ad86ba-615c-4021-96f9-32dd1520be51",
+          "suffix": "037",
+          "rarity": "common",
+          "imageID": "4920c125-9030-47fd-b8bc-37a1e4a7dd9a"
+        },
+        {
+          "id": "c1aef3dc-4986-49cf-b50d-ac0f8d91135a",
+          "card": "4888ffce-8eee-4157-ac3a-ccb5de140b12",
+          "suffix": "038",
+          "rarity": "common",
+          "imageID": "1b3c2333-f9ce-447d-bdcc-f3a91a803f8e"
+        },
+        {
+          "id": "b7fb7ee6-9dcf-48de-a8b7-37fc116f3d02",
+          "card": "ae502562-9acc-436b-9256-698e9d843052",
+          "suffix": "039",
+          "rarity": "common",
+          "imageID": "8a3d0189-66c6-4681-9113-f0ca8c3c878c"
+        }
+      ],
+      "externalIDs": {
+        "ygoprodeck": "Realm of the Sea Emperor Structure Deck"
+      }
+    },
+    {
+      "locales": [
+        "de"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "distrobution": "preconstructed",
+      "editions": [
+        "1st"
+      ],
+      "image": "https://ms.yugipedia.com//0/0f/SDRE-DeckDE.png",
+      "cards": [
+        {
+          "id": "c305c075-cf40-435a-b2b2-338c9ff5929c",
+          "card": "750c2943-fcce-47e6-a5d6-34190c0832b4",
+          "suffix": "001",
+          "rarity": "ultra",
+          "imageID": "0d898d2f-dd1c-4a79-9d4c-fb41be900cbe"
+        },
+        {
+          "id": "37c60f25-cb09-4204-bfc3-c9772e653404",
+          "card": "106054c6-ac04-4374-8460-3bcd15a0715c",
+          "suffix": "002",
+          "rarity": "super",
+          "imageID": "8e9f396e-c4af-4c04-92f1-75eaa7958903"
+        },
+        {
+          "id": "c5c65a28-0b5c-45e6-944a-abf2aac86960",
+          "card": "00bf80fd-f43b-4f03-960a-ff3ab97fb7ee",
+          "suffix": "003",
+          "rarity": "common",
+          "imageID": "749be016-ce4e-4280-b53c-9528ba511b7d"
+        },
+        {
+          "id": "cbe516e6-e081-41a5-b520-4c684ae6a14b",
+          "card": "75b9dd1c-e9df-46b0-97f5-34db1b0f4c46",
+          "suffix": "004",
+          "rarity": "common",
+          "imageID": "e3a26c8d-1473-4250-a63c-6038c6c8b02e"
+        },
+        {
+          "id": "e331b0cc-2ecf-41c7-943f-9e4f5d3206c1",
+          "card": "4b55eb49-60ff-4ea9-bfb9-a2ae614427ed",
+          "suffix": "005",
+          "rarity": "common",
+          "imageID": "e5344b56-5c75-4af9-aea4-395322cbbc1c"
+        },
+        {
+          "id": "a560ae4b-31f7-42b3-962e-ffa1182a9a94",
+          "card": "2465a9ad-8916-40b3-9612-3e57a1be3571",
+          "suffix": "006",
+          "rarity": "common",
+          "imageID": "4dc692ff-3057-4d1a-bb4f-bdefeaaabb88"
+        },
+        {
+          "id": "219e990e-7ff3-4e2d-a05f-32ecda483289",
+          "card": "70913017-f185-4b23-88cf-48beaece1679",
+          "suffix": "007",
+          "rarity": "common",
+          "imageID": "111d212f-018e-4cbc-9491-7b07d1d1a491"
+        },
+        {
+          "id": "c9ffdbff-d352-4248-b5fc-9ecb1ed471f8",
+          "card": "786c9522-b83e-4c8d-bad3-68a0f3f22bf5",
+          "suffix": "008",
+          "rarity": "common",
+          "imageID": "9ed94fb7-7e7a-40b5-8860-384e18770a60"
+        },
+        {
+          "id": "26f85708-65be-4814-8856-fda5c76c506b",
+          "card": "cd8647fb-902f-491f-8b9c-dac85abfcf7e",
+          "suffix": "009",
+          "rarity": "common",
+          "imageID": "b43ff8ab-081e-4b30-8aef-c4b5799beb44"
+        },
+        {
+          "id": "27799705-b440-4829-a2d1-db03c955c029",
+          "card": "b4eb549f-3b1a-4ce7-afab-34d96a387897",
+          "suffix": "010",
+          "rarity": "common",
+          "imageID": "6e74ce13-32e8-41b5-a4fb-0fd2fd98e6aa"
+        },
+        {
+          "id": "8977ca26-6efa-4ca3-891c-acb09aaef23d",
+          "card": "d629b09c-6b57-4cda-a1c0-c732951158b5",
+          "suffix": "011",
+          "rarity": "common",
+          "imageID": "15abad01-3b59-4461-af51-7a9049042ffc"
+        },
+        {
+          "id": "1c760ffe-c4cd-496d-b203-7006ef4eed41",
+          "card": "f3681231-ce3b-4b22-96b4-c10f18472fcf",
+          "suffix": "012",
+          "rarity": "common",
+          "imageID": "f3949192-c24d-4e97-8483-8c532b111049"
+        },
+        {
+          "id": "d38e98ef-bcb2-4d80-b118-1234234fe2a0",
+          "card": "5687b757-4676-4852-92a4-16bf96626833",
+          "suffix": "013",
+          "rarity": "common",
+          "imageID": "5ddc6649-daa3-488c-a72d-f23b1a8df271"
+        },
+        {
+          "id": "205c5138-6b02-49f2-a53a-04a71fccb17c",
+          "card": "6b08a6ce-6c71-414f-b942-277b3b802465",
+          "suffix": "014",
+          "rarity": "common",
+          "imageID": "eb0a6e29-f992-4a74-a6a8-b0378d1b8e4b"
+        },
+        {
+          "id": "6bb04ad3-2f2d-4222-9272-a6132143bc91",
+          "card": "000e9e13-ba58-46c2-b194-80ab563e5219",
+          "suffix": "015",
+          "rarity": "common",
+          "imageID": "a09a863d-5ee2-4e32-93af-e64caf621ef4"
+        },
+        {
+          "id": "0a74b9fa-469a-438e-a544-d74c53cfeb61",
+          "card": "b47f40a9-91f9-4946-ad3d-6ed23d777630",
+          "suffix": "016",
+          "rarity": "common",
+          "imageID": "cb7e5ced-2e40-4e0a-b1d2-95d338dbc689"
+        },
+        {
+          "id": "e226342e-cfdd-4a9c-aba7-e98b8681082d",
+          "card": "e68f38dd-bfb3-41d4-9c9b-d21ba7027476",
+          "suffix": "017",
+          "rarity": "common",
+          "imageID": "23117c8d-757b-448b-bfd0-b3894097d1ff"
+        },
+        {
+          "id": "539a4742-9bf5-45a0-b918-5700228a0465",
+          "card": "f6eefd0a-c8d3-4e89-8be8-db0c2acc68be",
+          "suffix": "018",
+          "rarity": "common",
+          "imageID": "9064deab-15dd-403a-8bdb-38e1744e3cae"
+        },
+        {
+          "id": "ae09ba7b-d5b2-4f01-8351-b20178c504aa",
+          "card": "b9f842c2-8121-445a-86ab-622d7b161764",
+          "suffix": "019",
+          "rarity": "common",
+          "imageID": "d186e964-ad27-402f-aba2-065091ae1033"
+        },
+        {
+          "id": "7977c9b1-e3a6-4bb5-abe6-497328cfe672",
+          "card": "175abb93-7fd0-4b4a-8e6a-c58cd509815d",
+          "suffix": "020",
+          "rarity": "common",
+          "imageID": "498f9156-ea15-4d20-9017-9f7e97178d35"
+        },
+        {
+          "id": "26090894-72a6-43c8-a05c-df320c126fd7",
+          "card": "b3e95450-c358-42e4-8acd-5bf2de0736ad",
+          "suffix": "021",
+          "rarity": "common",
+          "imageID": "0b2a97f8-0522-42aa-9d9a-a614c512da69"
+        },
+        {
+          "id": "a7c4b69c-1867-4ecb-8b60-621ba84e4186",
+          "card": "aceaf3bc-cbf8-41b8-b102-3179934af47d",
+          "suffix": "022",
+          "rarity": "common",
+          "imageID": "92683b38-0c1b-4e25-a9cd-479a54c6893d"
+        },
+        {
+          "id": "a867c575-60f1-4925-80a0-b068205234de",
+          "card": "4285fedb-b773-4631-bc19-bb8c6451177c",
+          "suffix": "023",
+          "rarity": "super",
+          "imageID": "46b2fd36-9540-4b40-ba33-b1decece9df4"
+        },
+        {
+          "id": "9d1b1fe0-fbbf-45e8-ad72-21622e5ed22a",
+          "card": "bdfb23a6-3de2-400e-a726-fab4e813749d",
+          "suffix": "024",
+          "rarity": "common",
+          "imageID": "2b046333-ef6a-41c3-91c2-e451c1f5e80f",
+          "qty": 2
+        },
+        {
+          "id": "446353d7-130f-422a-80ca-34659cdd7645",
+          "card": "3d521119-db81-4605-86fe-33cfce4b3aa8",
+          "suffix": "025",
+          "rarity": "common",
+          "imageID": "3cbe0fea-6010-4280-8c7b-8542eb96fb8c"
+        },
+        {
+          "id": "b214b8f7-5e6d-4426-a1e0-4522b9c28d96",
+          "card": "b8876bdf-7a5f-4540-b7f3-bf5ce4cff918",
+          "suffix": "026",
+          "rarity": "common",
+          "imageID": "a9adf680-2bc8-4993-a61a-9581cee4f5ae"
+        },
+        {
+          "id": "ce3445c6-5572-4e3d-8960-6bd7465090c0",
+          "card": "f553206a-fcd3-44ee-8360-f7d6087cc950",
+          "suffix": "027",
+          "rarity": "common",
+          "imageID": "0c216de8-e379-4fa0-8989-85ed25847470"
+        },
+        {
+          "id": "4568e295-fac8-4ffd-96e8-70939531f056",
+          "card": "482dc1a8-71b1-4caf-a620-e84bb0ed7ae0",
+          "suffix": "028",
+          "rarity": "common",
+          "imageID": "9280e594-0111-4bdf-b3a0-f9a3dfaa4621"
+        },
+        {
+          "id": "cece2c2d-a564-491f-a5cb-a2160ae2a803",
+          "card": "fc923549-8766-4250-a2c4-01ada437bab1",
+          "suffix": "029",
+          "rarity": "common",
+          "imageID": "c5edb6db-d979-4145-b83b-5f0d11599b71"
+        },
+        {
+          "id": "700503f1-6602-459e-acdc-07a663a5400e",
+          "card": "0e7a0529-6115-41ee-811e-5ff9394374d9",
+          "suffix": "030",
+          "rarity": "common",
+          "imageID": "37fd8bbe-7c40-4db2-baf8-9004b6da0cfa"
+        },
+        {
+          "id": "398ebb15-66a6-4967-8bc9-fe10621a7276",
+          "card": "0bae3885-838e-4d5d-88ac-108218510d12",
+          "suffix": "031",
+          "rarity": "common",
+          "imageID": "809e89d1-ff4c-4965-b15c-7e6561850001"
+        },
+        {
+          "id": "75d124b3-74fa-4c42-8b0b-baa3c09614c3",
+          "card": "c1d20c7f-117e-4658-b598-3445c02bf15b",
+          "suffix": "032",
+          "rarity": "common",
+          "imageID": "81d3417c-267d-4a9f-a60d-a20026bc29a2"
+        },
+        {
+          "id": "657482ae-c3cb-498d-bf3f-54eb77298959",
+          "card": "f884a3f7-19bf-49a5-85cb-4fb63dc83df0",
+          "suffix": "033",
+          "rarity": "common",
+          "imageID": "cbac5d75-7d8c-4e1e-89d6-24467909c4ba"
+        },
+        {
+          "id": "9d36c90c-0181-4e2e-af95-e36f6a8f16fc",
+          "card": "f4e36761-91e3-49dc-a611-578d6c685f53",
+          "suffix": "034",
+          "rarity": "common",
+          "imageID": "d4cef9aa-7a08-4a53-8ffb-16b78ae837e6"
+        },
+        {
+          "id": "f5f125fa-577d-4a20-972e-416f357cb529",
+          "card": "36a457b6-684e-423e-b7ee-f794bc88fa26",
+          "suffix": "035",
+          "rarity": "common",
+          "imageID": "3134d967-87e1-429c-8461-db00f6446420"
+        },
+        {
+          "id": "1f8dcba6-acf9-49b4-b40f-4ba7921f7259",
+          "card": "64373eb9-b0d1-4d8b-ac79-3eee973a1de7",
+          "suffix": "036",
+          "rarity": "common",
+          "imageID": "a64fff78-669f-4a16-bb11-48b7e8e6e24e"
+        },
+        {
+          "id": "ac72c319-7138-43ba-bb28-1aedcd0e444c",
+          "card": "44ad86ba-615c-4021-96f9-32dd1520be51",
+          "suffix": "037",
+          "rarity": "common",
+          "imageID": "4920c125-9030-47fd-b8bc-37a1e4a7dd9a"
+        },
+        {
+          "id": "c1aef3dc-4986-49cf-b50d-ac0f8d91135a",
+          "card": "4888ffce-8eee-4157-ac3a-ccb5de140b12",
+          "suffix": "038",
+          "rarity": "common",
+          "imageID": "1b3c2333-f9ce-447d-bdcc-f3a91a803f8e"
+        },
+        {
+          "id": "b7fb7ee6-9dcf-48de-a8b7-37fc116f3d02",
+          "card": "ae502562-9acc-436b-9256-698e9d843052",
+          "suffix": "039",
+          "rarity": "common",
+          "imageID": "8a3d0189-66c6-4681-9113-f0ca8c3c878c"
+        }
+      ],
+      "externalIDs": {
+        "ygoprodeck": "Realm of the Sea Emperor Structure Deck"
+      }
+    },
+    {
+      "locales": [
+        "it"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "distrobution": "preconstructed",
+      "editions": [
+        "1st"
+      ],
+      "image": "https://ms.yugipedia.com//e/e7/SDRE-DeckIT.png",
+      "cards": [
+        {
+          "id": "c305c075-cf40-435a-b2b2-338c9ff5929c",
+          "card": "750c2943-fcce-47e6-a5d6-34190c0832b4",
+          "suffix": "001",
+          "rarity": "ultra",
+          "imageID": "0d898d2f-dd1c-4a79-9d4c-fb41be900cbe"
+        },
+        {
+          "id": "37c60f25-cb09-4204-bfc3-c9772e653404",
+          "card": "106054c6-ac04-4374-8460-3bcd15a0715c",
+          "suffix": "002",
+          "rarity": "super",
+          "imageID": "8e9f396e-c4af-4c04-92f1-75eaa7958903"
+        },
+        {
+          "id": "c5c65a28-0b5c-45e6-944a-abf2aac86960",
+          "card": "00bf80fd-f43b-4f03-960a-ff3ab97fb7ee",
+          "suffix": "003",
+          "rarity": "common",
+          "imageID": "749be016-ce4e-4280-b53c-9528ba511b7d"
+        },
+        {
+          "id": "cbe516e6-e081-41a5-b520-4c684ae6a14b",
+          "card": "75b9dd1c-e9df-46b0-97f5-34db1b0f4c46",
+          "suffix": "004",
+          "rarity": "common",
+          "imageID": "e3a26c8d-1473-4250-a63c-6038c6c8b02e"
+        },
+        {
+          "id": "e331b0cc-2ecf-41c7-943f-9e4f5d3206c1",
+          "card": "4b55eb49-60ff-4ea9-bfb9-a2ae614427ed",
+          "suffix": "005",
+          "rarity": "common",
+          "imageID": "e5344b56-5c75-4af9-aea4-395322cbbc1c"
+        },
+        {
+          "id": "a560ae4b-31f7-42b3-962e-ffa1182a9a94",
+          "card": "2465a9ad-8916-40b3-9612-3e57a1be3571",
+          "suffix": "006",
+          "rarity": "common",
+          "imageID": "4dc692ff-3057-4d1a-bb4f-bdefeaaabb88"
+        },
+        {
+          "id": "219e990e-7ff3-4e2d-a05f-32ecda483289",
+          "card": "70913017-f185-4b23-88cf-48beaece1679",
+          "suffix": "007",
+          "rarity": "common",
+          "imageID": "111d212f-018e-4cbc-9491-7b07d1d1a491"
+        },
+        {
+          "id": "c9ffdbff-d352-4248-b5fc-9ecb1ed471f8",
+          "card": "786c9522-b83e-4c8d-bad3-68a0f3f22bf5",
+          "suffix": "008",
+          "rarity": "common",
+          "imageID": "9ed94fb7-7e7a-40b5-8860-384e18770a60"
+        },
+        {
+          "id": "26f85708-65be-4814-8856-fda5c76c506b",
+          "card": "cd8647fb-902f-491f-8b9c-dac85abfcf7e",
+          "suffix": "009",
+          "rarity": "common",
+          "imageID": "b43ff8ab-081e-4b30-8aef-c4b5799beb44"
+        },
+        {
+          "id": "27799705-b440-4829-a2d1-db03c955c029",
+          "card": "b4eb549f-3b1a-4ce7-afab-34d96a387897",
+          "suffix": "010",
+          "rarity": "common",
+          "imageID": "6e74ce13-32e8-41b5-a4fb-0fd2fd98e6aa"
+        },
+        {
+          "id": "8977ca26-6efa-4ca3-891c-acb09aaef23d",
+          "card": "d629b09c-6b57-4cda-a1c0-c732951158b5",
+          "suffix": "011",
+          "rarity": "common",
+          "imageID": "15abad01-3b59-4461-af51-7a9049042ffc"
+        },
+        {
+          "id": "1c760ffe-c4cd-496d-b203-7006ef4eed41",
+          "card": "f3681231-ce3b-4b22-96b4-c10f18472fcf",
+          "suffix": "012",
+          "rarity": "common",
+          "imageID": "f3949192-c24d-4e97-8483-8c532b111049"
+        },
+        {
+          "id": "d38e98ef-bcb2-4d80-b118-1234234fe2a0",
+          "card": "5687b757-4676-4852-92a4-16bf96626833",
+          "suffix": "013",
+          "rarity": "common",
+          "imageID": "5ddc6649-daa3-488c-a72d-f23b1a8df271"
+        },
+        {
+          "id": "205c5138-6b02-49f2-a53a-04a71fccb17c",
+          "card": "6b08a6ce-6c71-414f-b942-277b3b802465",
+          "suffix": "014",
+          "rarity": "common",
+          "imageID": "eb0a6e29-f992-4a74-a6a8-b0378d1b8e4b"
+        },
+        {
+          "id": "6bb04ad3-2f2d-4222-9272-a6132143bc91",
+          "card": "000e9e13-ba58-46c2-b194-80ab563e5219",
+          "suffix": "015",
+          "rarity": "common",
+          "imageID": "a09a863d-5ee2-4e32-93af-e64caf621ef4"
+        },
+        {
+          "id": "0a74b9fa-469a-438e-a544-d74c53cfeb61",
+          "card": "b47f40a9-91f9-4946-ad3d-6ed23d777630",
+          "suffix": "016",
+          "rarity": "common",
+          "imageID": "cb7e5ced-2e40-4e0a-b1d2-95d338dbc689"
+        },
+        {
+          "id": "e226342e-cfdd-4a9c-aba7-e98b8681082d",
+          "card": "e68f38dd-bfb3-41d4-9c9b-d21ba7027476",
+          "suffix": "017",
+          "rarity": "common",
+          "imageID": "23117c8d-757b-448b-bfd0-b3894097d1ff"
+        },
+        {
+          "id": "539a4742-9bf5-45a0-b918-5700228a0465",
+          "card": "f6eefd0a-c8d3-4e89-8be8-db0c2acc68be",
+          "suffix": "018",
+          "rarity": "common",
+          "imageID": "9064deab-15dd-403a-8bdb-38e1744e3cae"
+        },
+        {
+          "id": "ae09ba7b-d5b2-4f01-8351-b20178c504aa",
+          "card": "b9f842c2-8121-445a-86ab-622d7b161764",
+          "suffix": "019",
+          "rarity": "common",
+          "imageID": "d186e964-ad27-402f-aba2-065091ae1033"
+        },
+        {
+          "id": "7977c9b1-e3a6-4bb5-abe6-497328cfe672",
+          "card": "175abb93-7fd0-4b4a-8e6a-c58cd509815d",
+          "suffix": "020",
+          "rarity": "common",
+          "imageID": "498f9156-ea15-4d20-9017-9f7e97178d35"
+        },
+        {
+          "id": "26090894-72a6-43c8-a05c-df320c126fd7",
+          "card": "b3e95450-c358-42e4-8acd-5bf2de0736ad",
+          "suffix": "021",
+          "rarity": "common",
+          "imageID": "0b2a97f8-0522-42aa-9d9a-a614c512da69"
+        },
+        {
+          "id": "a7c4b69c-1867-4ecb-8b60-621ba84e4186",
+          "card": "aceaf3bc-cbf8-41b8-b102-3179934af47d",
+          "suffix": "022",
+          "rarity": "common",
+          "imageID": "92683b38-0c1b-4e25-a9cd-479a54c6893d"
+        },
+        {
+          "id": "a867c575-60f1-4925-80a0-b068205234de",
+          "card": "4285fedb-b773-4631-bc19-bb8c6451177c",
+          "suffix": "023",
+          "rarity": "super",
+          "imageID": "46b2fd36-9540-4b40-ba33-b1decece9df4"
+        },
+        {
+          "id": "9d1b1fe0-fbbf-45e8-ad72-21622e5ed22a",
+          "card": "bdfb23a6-3de2-400e-a726-fab4e813749d",
+          "suffix": "024",
+          "rarity": "common",
+          "imageID": "2b046333-ef6a-41c3-91c2-e451c1f5e80f",
+          "qty": 2
+        },
+        {
+          "id": "446353d7-130f-422a-80ca-34659cdd7645",
+          "card": "3d521119-db81-4605-86fe-33cfce4b3aa8",
+          "suffix": "025",
+          "rarity": "common",
+          "imageID": "3cbe0fea-6010-4280-8c7b-8542eb96fb8c"
+        },
+        {
+          "id": "b214b8f7-5e6d-4426-a1e0-4522b9c28d96",
+          "card": "b8876bdf-7a5f-4540-b7f3-bf5ce4cff918",
+          "suffix": "026",
+          "rarity": "common",
+          "imageID": "a9adf680-2bc8-4993-a61a-9581cee4f5ae"
+        },
+        {
+          "id": "ce3445c6-5572-4e3d-8960-6bd7465090c0",
+          "card": "f553206a-fcd3-44ee-8360-f7d6087cc950",
+          "suffix": "027",
+          "rarity": "common",
+          "imageID": "0c216de8-e379-4fa0-8989-85ed25847470"
+        },
+        {
+          "id": "4568e295-fac8-4ffd-96e8-70939531f056",
+          "card": "482dc1a8-71b1-4caf-a620-e84bb0ed7ae0",
+          "suffix": "028",
+          "rarity": "common",
+          "imageID": "9280e594-0111-4bdf-b3a0-f9a3dfaa4621"
+        },
+        {
+          "id": "cece2c2d-a564-491f-a5cb-a2160ae2a803",
+          "card": "fc923549-8766-4250-a2c4-01ada437bab1",
+          "suffix": "029",
+          "rarity": "common",
+          "imageID": "c5edb6db-d979-4145-b83b-5f0d11599b71"
+        },
+        {
+          "id": "700503f1-6602-459e-acdc-07a663a5400e",
+          "card": "0e7a0529-6115-41ee-811e-5ff9394374d9",
+          "suffix": "030",
+          "rarity": "common",
+          "imageID": "37fd8bbe-7c40-4db2-baf8-9004b6da0cfa"
+        },
+        {
+          "id": "398ebb15-66a6-4967-8bc9-fe10621a7276",
+          "card": "0bae3885-838e-4d5d-88ac-108218510d12",
+          "suffix": "031",
+          "rarity": "common",
+          "imageID": "809e89d1-ff4c-4965-b15c-7e6561850001"
+        },
+        {
+          "id": "75d124b3-74fa-4c42-8b0b-baa3c09614c3",
+          "card": "c1d20c7f-117e-4658-b598-3445c02bf15b",
+          "suffix": "032",
+          "rarity": "common",
+          "imageID": "81d3417c-267d-4a9f-a60d-a20026bc29a2"
+        },
+        {
+          "id": "657482ae-c3cb-498d-bf3f-54eb77298959",
+          "card": "f884a3f7-19bf-49a5-85cb-4fb63dc83df0",
+          "suffix": "033",
+          "rarity": "common",
+          "imageID": "cbac5d75-7d8c-4e1e-89d6-24467909c4ba"
+        },
+        {
+          "id": "9d36c90c-0181-4e2e-af95-e36f6a8f16fc",
+          "card": "f4e36761-91e3-49dc-a611-578d6c685f53",
+          "suffix": "034",
+          "rarity": "common",
+          "imageID": "d4cef9aa-7a08-4a53-8ffb-16b78ae837e6"
+        },
+        {
+          "id": "f5f125fa-577d-4a20-972e-416f357cb529",
+          "card": "36a457b6-684e-423e-b7ee-f794bc88fa26",
+          "suffix": "035",
+          "rarity": "common",
+          "imageID": "3134d967-87e1-429c-8461-db00f6446420"
+        },
+        {
+          "id": "1f8dcba6-acf9-49b4-b40f-4ba7921f7259",
+          "card": "64373eb9-b0d1-4d8b-ac79-3eee973a1de7",
+          "suffix": "036",
+          "rarity": "common",
+          "imageID": "a64fff78-669f-4a16-bb11-48b7e8e6e24e"
+        },
+        {
+          "id": "ac72c319-7138-43ba-bb28-1aedcd0e444c",
+          "card": "44ad86ba-615c-4021-96f9-32dd1520be51",
+          "suffix": "037",
+          "rarity": "common",
+          "imageID": "4920c125-9030-47fd-b8bc-37a1e4a7dd9a"
+        },
+        {
+          "id": "c1aef3dc-4986-49cf-b50d-ac0f8d91135a",
+          "card": "4888ffce-8eee-4157-ac3a-ccb5de140b12",
+          "suffix": "038",
+          "rarity": "common",
+          "imageID": "1b3c2333-f9ce-447d-bdcc-f3a91a803f8e"
+        },
+        {
+          "id": "b7fb7ee6-9dcf-48de-a8b7-37fc116f3d02",
+          "card": "ae502562-9acc-436b-9256-698e9d843052",
+          "suffix": "039",
+          "rarity": "common",
+          "imageID": "8a3d0189-66c6-4681-9113-f0ca8c3c878c"
+        }
+      ],
+      "externalIDs": {
+        "ygoprodeck": "Realm of the Sea Emperor Structure Deck"
+      }
+    },
+    {
+      "locales": [
+        "sp"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "distrobution": "preconstructed",
+      "editions": [
+        "1st"
+      ],
+      "image": "https://ms.yugipedia.com//1/1c/SDRE-DeckSP.png",
+      "cards": [
+        {
+          "id": "c305c075-cf40-435a-b2b2-338c9ff5929c",
+          "card": "750c2943-fcce-47e6-a5d6-34190c0832b4",
+          "suffix": "001",
+          "rarity": "ultra",
+          "imageID": "0d898d2f-dd1c-4a79-9d4c-fb41be900cbe"
+        },
+        {
+          "id": "37c60f25-cb09-4204-bfc3-c9772e653404",
+          "card": "106054c6-ac04-4374-8460-3bcd15a0715c",
+          "suffix": "002",
+          "rarity": "super",
+          "imageID": "8e9f396e-c4af-4c04-92f1-75eaa7958903"
+        },
+        {
+          "id": "c5c65a28-0b5c-45e6-944a-abf2aac86960",
+          "card": "00bf80fd-f43b-4f03-960a-ff3ab97fb7ee",
+          "suffix": "003",
+          "rarity": "common",
+          "imageID": "749be016-ce4e-4280-b53c-9528ba511b7d"
+        },
+        {
+          "id": "cbe516e6-e081-41a5-b520-4c684ae6a14b",
+          "card": "75b9dd1c-e9df-46b0-97f5-34db1b0f4c46",
+          "suffix": "004",
+          "rarity": "common",
+          "imageID": "e3a26c8d-1473-4250-a63c-6038c6c8b02e"
+        },
+        {
+          "id": "e331b0cc-2ecf-41c7-943f-9e4f5d3206c1",
+          "card": "4b55eb49-60ff-4ea9-bfb9-a2ae614427ed",
+          "suffix": "005",
+          "rarity": "common",
+          "imageID": "e5344b56-5c75-4af9-aea4-395322cbbc1c"
+        },
+        {
+          "id": "a560ae4b-31f7-42b3-962e-ffa1182a9a94",
+          "card": "2465a9ad-8916-40b3-9612-3e57a1be3571",
+          "suffix": "006",
+          "rarity": "common",
+          "imageID": "4dc692ff-3057-4d1a-bb4f-bdefeaaabb88"
+        },
+        {
+          "id": "219e990e-7ff3-4e2d-a05f-32ecda483289",
+          "card": "70913017-f185-4b23-88cf-48beaece1679",
+          "suffix": "007",
+          "rarity": "common",
+          "imageID": "111d212f-018e-4cbc-9491-7b07d1d1a491"
+        },
+        {
+          "id": "c9ffdbff-d352-4248-b5fc-9ecb1ed471f8",
+          "card": "786c9522-b83e-4c8d-bad3-68a0f3f22bf5",
+          "suffix": "008",
+          "rarity": "common",
+          "imageID": "9ed94fb7-7e7a-40b5-8860-384e18770a60"
+        },
+        {
+          "id": "26f85708-65be-4814-8856-fda5c76c506b",
+          "card": "cd8647fb-902f-491f-8b9c-dac85abfcf7e",
+          "suffix": "009",
+          "rarity": "common",
+          "imageID": "b43ff8ab-081e-4b30-8aef-c4b5799beb44"
+        },
+        {
+          "id": "27799705-b440-4829-a2d1-db03c955c029",
+          "card": "b4eb549f-3b1a-4ce7-afab-34d96a387897",
+          "suffix": "010",
+          "rarity": "common",
+          "imageID": "6e74ce13-32e8-41b5-a4fb-0fd2fd98e6aa"
+        },
+        {
+          "id": "8977ca26-6efa-4ca3-891c-acb09aaef23d",
+          "card": "d629b09c-6b57-4cda-a1c0-c732951158b5",
+          "suffix": "011",
+          "rarity": "common",
+          "imageID": "15abad01-3b59-4461-af51-7a9049042ffc"
+        },
+        {
+          "id": "1c760ffe-c4cd-496d-b203-7006ef4eed41",
+          "card": "f3681231-ce3b-4b22-96b4-c10f18472fcf",
+          "suffix": "012",
+          "rarity": "common",
+          "imageID": "f3949192-c24d-4e97-8483-8c532b111049"
+        },
+        {
+          "id": "d38e98ef-bcb2-4d80-b118-1234234fe2a0",
+          "card": "5687b757-4676-4852-92a4-16bf96626833",
+          "suffix": "013",
+          "rarity": "common",
+          "imageID": "5ddc6649-daa3-488c-a72d-f23b1a8df271"
+        },
+        {
+          "id": "205c5138-6b02-49f2-a53a-04a71fccb17c",
+          "card": "6b08a6ce-6c71-414f-b942-277b3b802465",
+          "suffix": "014",
+          "rarity": "common",
+          "imageID": "eb0a6e29-f992-4a74-a6a8-b0378d1b8e4b"
+        },
+        {
+          "id": "6bb04ad3-2f2d-4222-9272-a6132143bc91",
+          "card": "000e9e13-ba58-46c2-b194-80ab563e5219",
+          "suffix": "015",
+          "rarity": "common",
+          "imageID": "a09a863d-5ee2-4e32-93af-e64caf621ef4"
+        },
+        {
+          "id": "0a74b9fa-469a-438e-a544-d74c53cfeb61",
+          "card": "b47f40a9-91f9-4946-ad3d-6ed23d777630",
+          "suffix": "016",
+          "rarity": "common",
+          "imageID": "cb7e5ced-2e40-4e0a-b1d2-95d338dbc689"
+        },
+        {
+          "id": "e226342e-cfdd-4a9c-aba7-e98b8681082d",
+          "card": "e68f38dd-bfb3-41d4-9c9b-d21ba7027476",
+          "suffix": "017",
+          "rarity": "common",
+          "imageID": "23117c8d-757b-448b-bfd0-b3894097d1ff"
+        },
+        {
+          "id": "539a4742-9bf5-45a0-b918-5700228a0465",
+          "card": "f6eefd0a-c8d3-4e89-8be8-db0c2acc68be",
+          "suffix": "018",
+          "rarity": "common",
+          "imageID": "9064deab-15dd-403a-8bdb-38e1744e3cae"
+        },
+        {
+          "id": "ae09ba7b-d5b2-4f01-8351-b20178c504aa",
+          "card": "b9f842c2-8121-445a-86ab-622d7b161764",
+          "suffix": "019",
+          "rarity": "common",
+          "imageID": "d186e964-ad27-402f-aba2-065091ae1033"
+        },
+        {
+          "id": "7977c9b1-e3a6-4bb5-abe6-497328cfe672",
+          "card": "175abb93-7fd0-4b4a-8e6a-c58cd509815d",
+          "suffix": "020",
+          "rarity": "common",
+          "imageID": "498f9156-ea15-4d20-9017-9f7e97178d35"
+        },
+        {
+          "id": "26090894-72a6-43c8-a05c-df320c126fd7",
+          "card": "b3e95450-c358-42e4-8acd-5bf2de0736ad",
+          "suffix": "021",
+          "rarity": "common",
+          "imageID": "0b2a97f8-0522-42aa-9d9a-a614c512da69"
+        },
+        {
+          "id": "a7c4b69c-1867-4ecb-8b60-621ba84e4186",
+          "card": "aceaf3bc-cbf8-41b8-b102-3179934af47d",
+          "suffix": "022",
+          "rarity": "common",
+          "imageID": "92683b38-0c1b-4e25-a9cd-479a54c6893d"
+        },
+        {
+          "id": "a867c575-60f1-4925-80a0-b068205234de",
+          "card": "4285fedb-b773-4631-bc19-bb8c6451177c",
+          "suffix": "023",
+          "rarity": "super",
+          "imageID": "46b2fd36-9540-4b40-ba33-b1decece9df4"
+        },
+        {
+          "id": "9d1b1fe0-fbbf-45e8-ad72-21622e5ed22a",
+          "card": "bdfb23a6-3de2-400e-a726-fab4e813749d",
+          "suffix": "024",
+          "rarity": "common",
+          "imageID": "2b046333-ef6a-41c3-91c2-e451c1f5e80f",
+          "qty": 2
+        },
+        {
+          "id": "446353d7-130f-422a-80ca-34659cdd7645",
+          "card": "3d521119-db81-4605-86fe-33cfce4b3aa8",
+          "suffix": "025",
+          "rarity": "common",
+          "imageID": "3cbe0fea-6010-4280-8c7b-8542eb96fb8c"
+        },
+        {
+          "id": "b214b8f7-5e6d-4426-a1e0-4522b9c28d96",
+          "card": "b8876bdf-7a5f-4540-b7f3-bf5ce4cff918",
+          "suffix": "026",
+          "rarity": "common",
+          "imageID": "a9adf680-2bc8-4993-a61a-9581cee4f5ae"
+        },
+        {
+          "id": "ce3445c6-5572-4e3d-8960-6bd7465090c0",
+          "card": "f553206a-fcd3-44ee-8360-f7d6087cc950",
+          "suffix": "027",
+          "rarity": "common",
+          "imageID": "0c216de8-e379-4fa0-8989-85ed25847470"
+        },
+        {
+          "id": "4568e295-fac8-4ffd-96e8-70939531f056",
+          "card": "482dc1a8-71b1-4caf-a620-e84bb0ed7ae0",
+          "suffix": "028",
+          "rarity": "common",
+          "imageID": "9280e594-0111-4bdf-b3a0-f9a3dfaa4621"
+        },
+        {
+          "id": "cece2c2d-a564-491f-a5cb-a2160ae2a803",
+          "card": "fc923549-8766-4250-a2c4-01ada437bab1",
+          "suffix": "029",
+          "rarity": "common",
+          "imageID": "c5edb6db-d979-4145-b83b-5f0d11599b71"
+        },
+        {
+          "id": "700503f1-6602-459e-acdc-07a663a5400e",
+          "card": "0e7a0529-6115-41ee-811e-5ff9394374d9",
+          "suffix": "030",
+          "rarity": "common",
+          "imageID": "37fd8bbe-7c40-4db2-baf8-9004b6da0cfa"
+        },
+        {
+          "id": "398ebb15-66a6-4967-8bc9-fe10621a7276",
+          "card": "0bae3885-838e-4d5d-88ac-108218510d12",
+          "suffix": "031",
+          "rarity": "common",
+          "imageID": "809e89d1-ff4c-4965-b15c-7e6561850001"
+        },
+        {
+          "id": "75d124b3-74fa-4c42-8b0b-baa3c09614c3",
+          "card": "c1d20c7f-117e-4658-b598-3445c02bf15b",
+          "suffix": "032",
+          "rarity": "common",
+          "imageID": "81d3417c-267d-4a9f-a60d-a20026bc29a2"
+        },
+        {
+          "id": "657482ae-c3cb-498d-bf3f-54eb77298959",
+          "card": "f884a3f7-19bf-49a5-85cb-4fb63dc83df0",
+          "suffix": "033",
+          "rarity": "common",
+          "imageID": "cbac5d75-7d8c-4e1e-89d6-24467909c4ba"
+        },
+        {
+          "id": "9d36c90c-0181-4e2e-af95-e36f6a8f16fc",
+          "card": "f4e36761-91e3-49dc-a611-578d6c685f53",
+          "suffix": "034",
+          "rarity": "common",
+          "imageID": "d4cef9aa-7a08-4a53-8ffb-16b78ae837e6"
+        },
+        {
+          "id": "f5f125fa-577d-4a20-972e-416f357cb529",
+          "card": "36a457b6-684e-423e-b7ee-f794bc88fa26",
+          "suffix": "035",
+          "rarity": "common",
+          "imageID": "3134d967-87e1-429c-8461-db00f6446420"
+        },
+        {
+          "id": "1f8dcba6-acf9-49b4-b40f-4ba7921f7259",
+          "card": "64373eb9-b0d1-4d8b-ac79-3eee973a1de7",
+          "suffix": "036",
+          "rarity": "common",
+          "imageID": "a64fff78-669f-4a16-bb11-48b7e8e6e24e"
+        },
+        {
+          "id": "ac72c319-7138-43ba-bb28-1aedcd0e444c",
+          "card": "44ad86ba-615c-4021-96f9-32dd1520be51",
+          "suffix": "037",
+          "rarity": "common",
+          "imageID": "4920c125-9030-47fd-b8bc-37a1e4a7dd9a"
+        },
+        {
+          "id": "c1aef3dc-4986-49cf-b50d-ac0f8d91135a",
+          "card": "4888ffce-8eee-4157-ac3a-ccb5de140b12",
+          "suffix": "038",
+          "rarity": "common",
+          "imageID": "1b3c2333-f9ce-447d-bdcc-f3a91a803f8e"
+        },
+        {
+          "id": "b7fb7ee6-9dcf-48de-a8b7-37fc116f3d02",
+          "card": "ae502562-9acc-436b-9256-698e9d843052",
+          "suffix": "039",
+          "rarity": "common",
+          "imageID": "8a3d0189-66c6-4681-9113-f0ca8c3c878c"
+        }
+      ],
+      "externalIDs": {
+        "ygoprodeck": "Realm of the Sea Emperor Structure Deck"
+      }
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Realm of the Sea Emperor Structure Deck",
+      "id": 248046
+    }
+  }
+}

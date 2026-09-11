@@ -1,0 +1,53 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "136ecf46-eb2b-4695-b1c2-82213a81ce0a",
+  "text": {
+    "en": {
+      "name": "Meteor Dragon's Chick",
+      "effect": "Add 1 EARTH Attribute Dragon Type monster with 1800 ATK from your Graveyard to your hand."
+    },
+    "ja": {
+      "name": "\u9695\u77f3\u7adc\u306e\u96db",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u5730\u5c5e\u6027\uff0f\u30c9\u30e9\u30b4\u30f3\u65cf\uff0f\u653b\u6483\u529b\uff11\uff18\uff10\uff10\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc544\uae30 \uc6b4\uc11d\ub8e1",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130(\ub545 \uc18d\uc131 / \ub4dc\ub798\uace4\uc871 / \uacf5\uaca9\ub825 1800) 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\ub294\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "dragon",
+  "classifications": [
+    "effect"
+  ],
+  "level": 1,
+  "atk": 600,
+  "def": 800,
+  "passwords": [],
+  "images": [
+    {
+      "id": "4c3f5a7f-e601-4d5c-8613-37d5c354a4e3",
+      "card": "https://ms.yugipedia.com//5/59/MeteorDragonsChick-RDTB02-JP-C.png"
+    }
+  ],
+  "sets": [
+    "e123be6e-0424-4ff0-a324-6175fee17d50"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "r"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Meteor Dragon's Chick",
+        "id": 1025108
+      }
+    ],
+    "dbID": 19659
+  },
+  "series": [
+    "b8f9793c-0736-4ee4-99be-120c4d70afbc"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "fc2c4fdf-d75d-4dff-95f9-d3ed1abe4b58",
+  "name": {
+    "en": "Jump Festa Invitational 2010 promotional card",
+    "ko": "JUMP FESTA INVITATIONAL 2010"
+  },
+  "locales": {
+    "kr": {
+      "language": "ko",
+      "prefix": "EV10-KR",
+      "date": "2010-09-12",
+      "image": "https://ms.yugipedia.com//9/9c/EV10-PromoKR-JumpFestaInvitational.png",
+      "cardImages": {
+        "unlimited": {
+          "dbf19fc7-58a1-4006-b0e5-3ed572a6028e": "https://ms.yugipedia.com//5/54/CaiustheShadowMonarch-EV10-KR-ScR-UE.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "dbf19fc7-58a1-4006-b0e5-3ed572a6028e": {
+            "image": "https://ms.yugipedia.com//5/54/CaiustheShadowMonarch-EV10-KR-ScR-UE.png"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          1010000984000
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "kr"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//9/9c/EV10-PromoKR-JumpFestaInvitational.png",
+      "cards": [
+        {
+          "id": "dbf19fc7-58a1-4006-b0e5-3ed572a6028e",
+          "card": "0dad204a-5647-4de8-8253-4294517eab73",
+          "suffix": "012",
+          "rarity": "secret",
+          "imageID": "6a28f268-6e48-47e5-80d1-e1100f3987ed"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Jump Festa Invitational 2010 promotional card",
+      "id": 304768
+    }
+  }
+}

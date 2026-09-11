@@ -1,0 +1,40 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "7899d3f0-b174-43c3-aa48-c75c91ca0c53",
+  "text": {
+    "en": {
+      "name": "Dark Magician Knight (Rush Duel)",
+      "effect": "Destroy 1 card on your opponent's field.",
+      "official": false
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2500,
+  "def": 2100,
+  "passwords": [],
+  "images": [
+    {
+      "id": "4dc9d8e6-8465-4ed0-b994-24d196c5b22a",
+      "card": "https://ms.yugipedia.com//f/f9/DarkMagicianKnight-RDCA01-JP-OP.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Dark Magician Knight (Rush Duel)",
+        "id": 1216433
+      }
+    ]
+  },
+  "series": [
+    "73409add-3e9e-400d-a8b0-ae600de6af69"
+  ]
+}

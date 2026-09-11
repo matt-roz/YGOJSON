@@ -1,0 +1,46 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "d565f6b9-aa17-4060-9c3f-8529033a3a3c",
+  "text": {
+    "en": {
+      "name": "Dark Matter Knight",
+      "effect": "This card gains ATK equal to [the total number of face-up Fusion Monsters and face-down monsters on your field] x 500.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30c0\u30fc\u30af\u30de\u30bf\u30fc\u30fb\u30ca\u30a4\u30c8",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u306e\u653b\u6483\u529b\u306f\u3001\uff3b\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u306e\u30d5\u30e5\u30fc\u30b8\u30e7\u30f3\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u6570\u3068\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u88cf\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u6570\u306e\u5408\u8a08\uff3d\u00d7\uff15\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub2e4\ud06c\ub9e4\ud130 \ub098\uc774\ud2b8",
+      "effect": "\uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\ub825\uc740, [\uc790\uc2e0 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ud4e8\uc804 \ubaac\uc2a4\ud130\uc758 \uc218\uc640 \uc790\uc2e0 \ud544\ub4dc\uc758 \ub4b7\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130\uc758 \uc218\uc758 \ud569\uacc4] \u00d7 500 \uc62c\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "classifications": [
+    "effect"
+  ],
+  "level": 5,
+  "atk": 1800,
+  "def": 1300,
+  "passwords": [],
+  "images": [
+    {
+      "id": "e0a5e93f-faaf-4d18-af89-38bada2cc66a",
+      "card": "https://ms.yugipedia.com//d/dd/DarkMatterKnight-RDKP17-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Dark Matter Knight",
+        "id": 1054599
+      }
+    ],
+    "dbID": 20322
+  },
+  "series": []
+}

@@ -1,0 +1,50 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "a788f17f-8c68-45d9-9112-1ffd79809ba8",
+  "text": {
+    "en": {
+      "name": "Alpiris the Nurturer",
+      "effect": "Gain 600 LP.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u80b2\u307f\u306e\u30a2\u30eb\u30d4\u30ea\u30b9",
+      "effect": "\u81ea\u5206\u306f\uff16\uff10\uff10\uff2c\uff30\u56de\u5fa9\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ubcf4\uc0b4\ud53c\ub294 \uc54c\ud53c\ub9ac\uc2a4",
+      "effect": "\uc790\uc2e0\uc740 600 LP \ud68c\ubcf5\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "plant",
+  "classifications": [
+    "effect"
+  ],
+  "level": 5,
+  "atk": 1500,
+  "def": 2500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "23edf845-6acd-42cc-a689-1c6241a27b68",
+      "card": "https://ms.yugipedia.com//3/31/AlpiristheNurturer-RDKP21-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Alpiris the Nurturer",
+        "id": 1127775
+      }
+    ],
+    "dbID": 21685
+  },
+  "series": []
+}

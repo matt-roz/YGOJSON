@@ -1,0 +1,47 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "c8ebb124-08b8-4e71-bd9d-8501e7a3c4fe",
+  "text": {
+    "en": {
+      "name": "Slot Machine PG-7",
+      "effect": "Add 1 monster that has a coin tossing effect from your Graveyard to your hand.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30b9\u30ed\u30c3\u30c8\u30de\u30b7\u30fc\u30f3 \uff30\uff27\uff0d\uff17",
+      "effect": "\u30b3\u30a4\u30f3\u30c8\u30b9\u3092\u884c\u3046\u52b9\u679c\u3092\u6301\u3064\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc2ac\ub86f\uba38\uc2e0 PG\uff0d7",
+      "effect": "\ucf54\uc778 \ud1a0\uc2a4\ub97c \uc2e4\ud589\ud558\ub294 \ud6a8\uacfc\ub97c \uac00\uc9c0\ub294 \uc790\uc2e0 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\ub294\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 700,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "a0eb3370-38e5-4a1c-821c-f26c9b1e4168",
+      "card": "https://ms.yugipedia.com//6/6c/SlotMachinePG7-RDLGP1-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Slot Machine PG-7",
+        "id": 716733
+      }
+    ],
+    "dbID": 18713
+  },
+  "series": []
+}

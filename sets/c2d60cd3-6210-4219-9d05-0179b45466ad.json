@@ -1,0 +1,63 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "c2d60cd3-6210-4219-9d05-0179b45466ad",
+  "name": {
+    "en": "Asia Tour Invitational 2010 promotional card",
+    "ko": "ASIA TOUR INVITATIONAL 2010"
+  },
+  "locales": {
+    "kr": {
+      "language": "ko",
+      "prefix": "EV09-KR",
+      "date": "2009-11-07",
+      "image": "https://ms.yugipedia.com//6/6c/EV09-PromoKR-AsiaTourInvitational.png",
+      "cardImages": {
+        "unlimited": {}
+      },
+      "cardInfo": {
+        "unlimited": {}
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          7141406000
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "kr"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//6/6c/EV09-PromoKR-AsiaTourInvitational.png",
+      "cards": [
+        {
+          "id": "eebf67b1-7465-42ee-955c-ecdd64761e99",
+          "card": "14c61fdb-d9af-48f2-8daa-de3e10b03c27",
+          "suffix": "006",
+          "rarity": "secret",
+          "imageID": "102559c0-3eb4-4e32-bda8-7473eedb9a20"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Asia Tour Invitational 2010 promotional card",
+      "id": 1175660
+    }
+  }
+}

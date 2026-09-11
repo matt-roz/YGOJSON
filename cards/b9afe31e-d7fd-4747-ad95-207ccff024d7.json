@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "b9afe31e-d7fd-4747-ad95-207ccff024d7",
+  "text": {
+    "en": {
+      "name": "Darkness Transam Craisis",
+      "effect": "Destroy 1 card on your opponent's field. Then, you can make this card gain ATK equal to [the original Level of the monster destroyed by this effect] x 200 until the end of this turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30c0\u30fc\u30af\u30cd\u30b9\u30fb\u30c8\u30e9\u30f3\u30b6\u30e0\u30fb\u30af\u30e9\u30a4\u30b7\u30b9",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u30ab\u30fc\u30c9\uff11\u679a\u3092\u9078\u3093\u3067\u7834\u58ca\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u3053\u306e\u30ab\u30fc\u30c9\u306e\u653b\u6483\u529b\u3092\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\u3001\uff3b\u3053\u306e\u52b9\u679c\u3067\u7834\u58ca\u3057\u305f\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u5143\u3005\u306e\u30ec\u30d9\u30eb\uff3d\u00d7\uff12\uff10\uff10\u30a2\u30c3\u30d7\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub2e4\ud06c\ub2c8\uc2a4 \ud2b8\ub79c\uc7a0 \ud06c\ub77c\uc774\uc2dc\uc2a4",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \uce74\ub4dc 1\uc7a5\uc744 \uace0\ub974\uace0 \ud30c\uad34\ud55c\ub2e4. \uadf8 \ud6c4, \uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\ub825\uc744 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0, [\uc774 \ud6a8\uacfc\ub85c \ud30c\uad34\ud55c \ubaac\uc2a4\ud130\uc758 \uc6d0\ub798 \ub808\ubca8] \u00d7 200 \uc62c\ub9b4 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 2500,
+  "def": 1600,
+  "passwords": [],
+  "images": [
+    {
+      "id": "f89c5b49-d2ca-4355-9694-ed12ae4d5ffb",
+      "card": "https://ms.yugipedia.com//1/1a/DarknessTransamCraisis-RDKP15-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Darkness Transam Craisis",
+        "id": 1020975
+      }
+    ],
+    "dbID": 19639
+  },
+  "series": [
+    "eee6abac-4c42-43e0-8b68-d4c7ca22506e",
+    "4f8c7961-b539-4a86-9476-d0b89bf20e36"
+  ]
+}

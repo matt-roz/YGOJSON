@@ -1,0 +1,38 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "662e8a23-1ccf-4fa5-a10d-bbbc88d28e6c",
+  "text": {
+    "en": {
+      "name": "Penguin Soldier (Rush Duel)",
+      "effect": "Return up to 2 face-up Level 8 or lower monsters from your opponent's field to the owner's hand. This turn, you cannot activate the effect of \"Penguin Soldier\".",
+      "official": false
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "type": "aqua",
+  "classifications": [
+    "effect"
+  ],
+  "level": 2,
+  "atk": 800,
+  "def": 500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "b66f34ef-8643-48a0-b069-5f1f05e58d31",
+      "card": "https://ms.yugipedia.com//3/31/PenguinSoldier-RDLP01-JP-OP.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Penguin Soldier (Rush Duel)",
+        "id": 1203680
+      }
+    ]
+  },
+  "series": []
+}

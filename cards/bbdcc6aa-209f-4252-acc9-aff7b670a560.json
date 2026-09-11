@@ -1,0 +1,42 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "bbdcc6aa-209f-4252-acc9-aff7b670a560",
+  "text": {
+    "en": {
+      "name": "Yaranzo (Rush Duel)",
+      "effect": "A treasure box containing a monster that attacks any unwary bandit."
+    },
+    "ko": {
+      "name": "\uc57c\ub780\uc870",
+      "effect": "\uc0c1\uc790\uc5d0\uc11c \ud280\uc5b4\ub098\uc640 \ubcf4\uc11d\ud568\uc744 \uc5f4\ub824\ub294 \ub3c4\ub451\uc744 \uc2b5\uaca9\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "zombie",
+  "classifications": [
+    "normal"
+  ],
+  "level": 4,
+  "atk": 1300,
+  "def": 1500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "81b679cf-43cc-4e59-b633-c62da97be171",
+      "card": "https://ms.yugipedia.com//3/3a/Yaranzo-RD24PR-JP-NPR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Yaranzo (Rush Duel)",
+        "id": 1034822
+      }
+    ],
+    "dbID": 19236
+  },
+  "series": []
+}

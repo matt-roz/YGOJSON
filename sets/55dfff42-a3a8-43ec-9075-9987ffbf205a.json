@@ -1,0 +1,519 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "55dfff42-a3a8-43ec-9075-9987ffbf205a",
+  "name": {
+    "en": "Premium Pack Vol.11",
+    "ko": "\ud504\ub9ac\ubbf8\uc5c4 \ud329 Vol.11"
+  },
+  "locales": {
+    "kr": {
+      "language": "ko",
+      "prefix": "PP11-KR",
+      "date": "2016-12-23",
+      "image": "https://ms.yugipedia.com//a/a7/PP11-BoosterKR.png",
+      "cardImages": {
+        "1st": {
+          "001975a7-7074-4936-af23-8e3af7c49936": "https://ms.yugipedia.com//e/e4/FrostBlastoftheMonarchs-PP11-KR-SR-1E.png",
+          "0f3cb4e4-580b-4285-b30c-309c8e160b3a": "https://ms.yugipedia.com//9/98/AngmarltheFiendishMonarch-PP11-KR-SR-1E.png",
+          "17d19bc1-f5cf-4f7a-8319-d692ced4ed9c": "https://ms.yugipedia.com//7/73/InfernityPatriarch-PP11-KR-UR-1E.png",
+          "1d2223fd-0024-4ede-8732-4c9b28caad74": "https://ms.yugipedia.com//7/77/DDDRebelKingLeonidas-PP11-KR-SR-1E.png",
+          "1dac51c7-f1c6-4266-bf36-a7637ba57260": "https://ms.yugipedia.com//5/5d/MaskedHEROBlast-PP11-KR-SR-1E.png",
+          "2a5d5427-8575-4339-86ad-44c83b020faa": "https://ms.yugipedia.com//4/4a/JunkChanger-PP11-KR-SR-1E.png",
+          "328992cf-02ba-4a99-8d63-8f3b1b169960": "https://ms.yugipedia.com//1/18/Number38HopeHarbingerDragonTitanicGalaxy-PP11-KR-ScR-1E.png",
+          "331a371a-7119-42b4-b631-04e0aff0af19": "https://ms.yugipedia.com//6/64/ThePhantomKnightsofShadeBrigandine-PP11-KR-SR-1E.png",
+          "393cb85c-9fff-4c6b-b990-141894a72cbc": "https://ms.yugipedia.com//f/f3/MagicalKingMoonstar-PP11-KR-SR-1E.png",
+          "3a93fefc-c6ef-417c-946d-5fbf9d536720": "https://ms.yugipedia.com//5/54/Number84PainGainer-PP11-KR-SR-1E.png",
+          "3cf9291f-9926-4e61-a7d3-ce46715e84e6": "https://ms.yugipedia.com//3/3f/StardustChargeWarrior-PP11-KR-SR-1E.png",
+          "505c9c70-e391-493d-bbfa-b0fdee70b927": "https://ms.yugipedia.com//e/e9/KingsConsonance-PP11-KR-SR-1E.png",
+          "5642e230-b961-4dcf-aa5f-bd3d87934a56": "https://ms.yugipedia.com//8/84/StardustChronicleSparkDragon-PP11-KR-UR-1E.png",
+          "5a8c454a-dfc9-4d2c-a67f-e3201ef93efd": "https://ms.yugipedia.com//d/db/RedSupremacy-PP11-KR-SR-1E.png",
+          "5e28e6cf-7400-4e07-b864-ae6b9582a7b2": "https://ms.yugipedia.com//0/02/ThePhantomKnightsofTombShield-PP11-KR-SR-1E.png",
+          "66b0b6fd-599d-4954-9789-d2707f9148c9": "https://ms.yugipedia.com//a/af/UltimayaTzolkin-PP11-KR-ScR-1E.png",
+          "6a8a2f96-ce66-44d8-9530-2b69232e9816": "https://ms.yugipedia.com//a/af/Number93UtopiaKaiser-PP11-KR-SR-1E.png",
+          "6f674de4-1ffd-4fa0-91ff-0ca1a744d054": "https://ms.yugipedia.com//1/1c/SilentPaladin-PP11-KR-SR-1E.png",
+          "75b13fe1-8527-4bc1-9ee2-4b20ffc5a780": "https://ms.yugipedia.com//5/51/ThePhantomKnightsofDarkGauntlets-PP11-KR-SR-1E.png",
+          "7669685e-079a-4be1-adce-d4c8220842bd": "https://ms.yugipedia.com//e/ec/Relinkuriboh-PP11-KR-SR-1E.png",
+          "7a4bd2c0-a54f-42f8-90ea-ee03ece0654c": "https://ms.yugipedia.com//0/09/DragonKnightofCreation-PP11-KR-SR-1E.png",
+          "7ee9a24c-3ce3-4647-85a3-748ed9bf9946": "https://ms.yugipedia.com//b/bd/JunkBreaker-PP11-KR-SR-1E.png",
+          "96dc37e6-e9ad-432e-bb38-b97533531e2a": "https://ms.yugipedia.com//7/7f/GogogoAristeraDexia-PP11-KR-SR-1E.png",
+          "97e0f66c-fa78-4e08-8948-7201b526d341": "https://ms.yugipedia.com//e/e9/DystopiatheDespondent-PP11-KR-UR-1E.png",
+          "9a298982-740d-4465-8e1c-61127cd66133": "https://ms.yugipedia.com//2/23/DarkAdvance-PP11-KR-SR-1E.png",
+          "9cba8b59-229a-402a-971a-788f3a1e1e50": "https://ms.yugipedia.com//1/1b/Number35RavenousTarantula-PP11-KR-SR-1E.png",
+          "a877cc15-8ba0-43ac-8873-efd0c5aaff77": "https://ms.yugipedia.com//7/71/NumberS0UtopicZEXAL-PP11-KR-SR-1E.png",
+          "aff4a069-3431-497b-a915-06136684f0d2": "https://ms.yugipedia.com//f/f1/Junkuriboh-PP11-KR-SR-1E.png",
+          "b0bf5432-9ca7-4e43-8a14-382c0226ef17": "https://ms.yugipedia.com//8/8a/KaiserSeaSnake-PP11-KR-UR-1E.png",
+          "b25b892f-84d8-4d4e-8c1e-c9a772de7014": "https://ms.yugipedia.com//c/c8/BeatriceLadyoftheEternal-PP11-KR-ScR-1E.png",
+          "bbbd3f41-00ba-4d25-9294-3608b5af32b6": "https://ms.yugipedia.com//e/eb/GalaxyWorm-PP11-KR-UR-1E.png",
+          "bfcd7d34-ab94-410e-ab8a-033f590bf91e": "https://ms.yugipedia.com//c/c7/PhantasmalLordUltimitlBishbaalkin-PP11-KR-SR-1E.png",
+          "c77b8607-1fb2-4007-827f-b224443488f3": "https://ms.yugipedia.com//1/1f/WickedAcolyteChilamSabak-PP11-KR-SR-1E.png",
+          "c841d4c5-7b9a-4d90-bc29-95d71d787f31": "https://ms.yugipedia.com//d/d8/Number77TheSevenSins-PP11-KR-UR-1E.png",
+          "c90e981d-7d7a-4a1d-8555-1948c63e649e": "https://ms.yugipedia.com//9/9c/ShiningHopeRoad-PP11-KR-SR-1E.png",
+          "d0810bb1-3cd7-42bf-96b5-69109c0eb17d": "https://ms.yugipedia.com//b/b2/Number37HopeWovenDragonSpiderShark-PP11-KR-SR-1E.png",
+          "ea2f5ff8-b21a-4d06-aa0b-b7663e236fe9": "https://ms.yugipedia.com//4/4e/TsukumoSlash-PP11-KR-SR-1E.png",
+          "ee424e5b-e31a-4be9-a9bd-0f65975cec10": "https://ms.yugipedia.com//2/21/StardustAssaultWarrior-PP11-KR-UR-1E.png",
+          "f037eb63-03f7-4561-9a93-356eeb9f0639": "https://ms.yugipedia.com//e/e3/GalaxyEyesFullArmorPhotonDragon-PP11-KR-ScR-1E.png",
+          "f6b0f18e-2746-4dd0-a25e-dff48434146f": "https://ms.yugipedia.com//b/b7/DivineSerpentGeh-PP11-KR-ScR-1E.png",
+          "fdbc4e46-2e61-4697-aa7c-3c2a16f42302": "https://ms.yugipedia.com//3/37/OddEyesPersonaDragon-PP11-KR-UR-1E.png"
+        },
+        "unlimited": {
+          "b25b892f-84d8-4d4e-8c1e-c9a772de7014": "https://ms.yugipedia.com//archive/1/14/20250814052049%21BeatriceLadyoftheEternal-PP11-KR-ScR-UE.png"
+        }
+      },
+      "cardInfo": {
+        "1st": {
+          "001975a7-7074-4936-af23-8e3af7c49936": {
+            "image": "https://ms.yugipedia.com//e/e4/FrostBlastoftheMonarchs-PP11-KR-SR-1E.png"
+          },
+          "0f3cb4e4-580b-4285-b30c-309c8e160b3a": {
+            "image": "https://ms.yugipedia.com//9/98/AngmarltheFiendishMonarch-PP11-KR-SR-1E.png"
+          },
+          "17d19bc1-f5cf-4f7a-8319-d692ced4ed9c": {
+            "image": "https://ms.yugipedia.com//7/73/InfernityPatriarch-PP11-KR-UR-1E.png"
+          },
+          "1d2223fd-0024-4ede-8732-4c9b28caad74": {
+            "image": "https://ms.yugipedia.com//7/77/DDDRebelKingLeonidas-PP11-KR-SR-1E.png"
+          },
+          "1dac51c7-f1c6-4266-bf36-a7637ba57260": {
+            "image": "https://ms.yugipedia.com//5/5d/MaskedHEROBlast-PP11-KR-SR-1E.png"
+          },
+          "2a5d5427-8575-4339-86ad-44c83b020faa": {
+            "image": "https://ms.yugipedia.com//4/4a/JunkChanger-PP11-KR-SR-1E.png"
+          },
+          "328992cf-02ba-4a99-8d63-8f3b1b169960": {
+            "image": "https://ms.yugipedia.com//1/18/Number38HopeHarbingerDragonTitanicGalaxy-PP11-KR-ScR-1E.png"
+          },
+          "331a371a-7119-42b4-b631-04e0aff0af19": {
+            "image": "https://ms.yugipedia.com//6/64/ThePhantomKnightsofShadeBrigandine-PP11-KR-SR-1E.png"
+          },
+          "393cb85c-9fff-4c6b-b990-141894a72cbc": {
+            "image": "https://ms.yugipedia.com//f/f3/MagicalKingMoonstar-PP11-KR-SR-1E.png"
+          },
+          "3a93fefc-c6ef-417c-946d-5fbf9d536720": {
+            "image": "https://ms.yugipedia.com//5/54/Number84PainGainer-PP11-KR-SR-1E.png"
+          },
+          "3cf9291f-9926-4e61-a7d3-ce46715e84e6": {
+            "image": "https://ms.yugipedia.com//3/3f/StardustChargeWarrior-PP11-KR-SR-1E.png"
+          },
+          "505c9c70-e391-493d-bbfa-b0fdee70b927": {
+            "image": "https://ms.yugipedia.com//e/e9/KingsConsonance-PP11-KR-SR-1E.png"
+          },
+          "5642e230-b961-4dcf-aa5f-bd3d87934a56": {
+            "image": "https://ms.yugipedia.com//8/84/StardustChronicleSparkDragon-PP11-KR-UR-1E.png"
+          },
+          "5a8c454a-dfc9-4d2c-a67f-e3201ef93efd": {
+            "image": "https://ms.yugipedia.com//d/db/RedSupremacy-PP11-KR-SR-1E.png"
+          },
+          "5e28e6cf-7400-4e07-b864-ae6b9582a7b2": {
+            "image": "https://ms.yugipedia.com//0/02/ThePhantomKnightsofTombShield-PP11-KR-SR-1E.png"
+          },
+          "66b0b6fd-599d-4954-9789-d2707f9148c9": {
+            "image": "https://ms.yugipedia.com//a/af/UltimayaTzolkin-PP11-KR-ScR-1E.png"
+          },
+          "6a8a2f96-ce66-44d8-9530-2b69232e9816": {
+            "image": "https://ms.yugipedia.com//a/af/Number93UtopiaKaiser-PP11-KR-SR-1E.png"
+          },
+          "6f674de4-1ffd-4fa0-91ff-0ca1a744d054": {
+            "image": "https://ms.yugipedia.com//1/1c/SilentPaladin-PP11-KR-SR-1E.png"
+          },
+          "75b13fe1-8527-4bc1-9ee2-4b20ffc5a780": {
+            "image": "https://ms.yugipedia.com//5/51/ThePhantomKnightsofDarkGauntlets-PP11-KR-SR-1E.png"
+          },
+          "7669685e-079a-4be1-adce-d4c8220842bd": {
+            "image": "https://ms.yugipedia.com//e/ec/Relinkuriboh-PP11-KR-SR-1E.png"
+          },
+          "7a4bd2c0-a54f-42f8-90ea-ee03ece0654c": {
+            "image": "https://ms.yugipedia.com//0/09/DragonKnightofCreation-PP11-KR-SR-1E.png"
+          },
+          "7ee9a24c-3ce3-4647-85a3-748ed9bf9946": {
+            "image": "https://ms.yugipedia.com//b/bd/JunkBreaker-PP11-KR-SR-1E.png"
+          },
+          "96dc37e6-e9ad-432e-bb38-b97533531e2a": {
+            "image": "https://ms.yugipedia.com//7/7f/GogogoAristeraDexia-PP11-KR-SR-1E.png"
+          },
+          "97e0f66c-fa78-4e08-8948-7201b526d341": {
+            "image": "https://ms.yugipedia.com//e/e9/DystopiatheDespondent-PP11-KR-UR-1E.png"
+          },
+          "9a298982-740d-4465-8e1c-61127cd66133": {
+            "image": "https://ms.yugipedia.com//2/23/DarkAdvance-PP11-KR-SR-1E.png"
+          },
+          "9cba8b59-229a-402a-971a-788f3a1e1e50": {
+            "image": "https://ms.yugipedia.com//1/1b/Number35RavenousTarantula-PP11-KR-SR-1E.png"
+          },
+          "a877cc15-8ba0-43ac-8873-efd0c5aaff77": {
+            "image": "https://ms.yugipedia.com//7/71/NumberS0UtopicZEXAL-PP11-KR-SR-1E.png"
+          },
+          "aff4a069-3431-497b-a915-06136684f0d2": {
+            "image": "https://ms.yugipedia.com//f/f1/Junkuriboh-PP11-KR-SR-1E.png"
+          },
+          "b0bf5432-9ca7-4e43-8a14-382c0226ef17": {
+            "image": "https://ms.yugipedia.com//8/8a/KaiserSeaSnake-PP11-KR-UR-1E.png"
+          },
+          "b25b892f-84d8-4d4e-8c1e-c9a772de7014": {
+            "image": "https://ms.yugipedia.com//c/c8/BeatriceLadyoftheEternal-PP11-KR-ScR-1E.png"
+          },
+          "bbbd3f41-00ba-4d25-9294-3608b5af32b6": {
+            "image": "https://ms.yugipedia.com//e/eb/GalaxyWorm-PP11-KR-UR-1E.png"
+          },
+          "bfcd7d34-ab94-410e-ab8a-033f590bf91e": {
+            "image": "https://ms.yugipedia.com//c/c7/PhantasmalLordUltimitlBishbaalkin-PP11-KR-SR-1E.png"
+          },
+          "c77b8607-1fb2-4007-827f-b224443488f3": {
+            "image": "https://ms.yugipedia.com//1/1f/WickedAcolyteChilamSabak-PP11-KR-SR-1E.png"
+          },
+          "c841d4c5-7b9a-4d90-bc29-95d71d787f31": {
+            "image": "https://ms.yugipedia.com//d/d8/Number77TheSevenSins-PP11-KR-UR-1E.png"
+          },
+          "c90e981d-7d7a-4a1d-8555-1948c63e649e": {
+            "image": "https://ms.yugipedia.com//9/9c/ShiningHopeRoad-PP11-KR-SR-1E.png"
+          },
+          "d0810bb1-3cd7-42bf-96b5-69109c0eb17d": {
+            "image": "https://ms.yugipedia.com//b/b2/Number37HopeWovenDragonSpiderShark-PP11-KR-SR-1E.png"
+          },
+          "ea2f5ff8-b21a-4d06-aa0b-b7663e236fe9": {
+            "image": "https://ms.yugipedia.com//4/4e/TsukumoSlash-PP11-KR-SR-1E.png"
+          },
+          "ee424e5b-e31a-4be9-a9bd-0f65975cec10": {
+            "image": "https://ms.yugipedia.com//2/21/StardustAssaultWarrior-PP11-KR-UR-1E.png"
+          },
+          "f037eb63-03f7-4561-9a93-356eeb9f0639": {
+            "image": "https://ms.yugipedia.com//e/e3/GalaxyEyesFullArmorPhotonDragon-PP11-KR-ScR-1E.png"
+          },
+          "f6b0f18e-2746-4dd0-a25e-dff48434146f": {
+            "image": "https://ms.yugipedia.com//b/b7/DivineSerpentGeh-PP11-KR-ScR-1E.png"
+          },
+          "fdbc4e46-2e61-4697-aa7c-3c2a16f42302": {
+            "image": "https://ms.yugipedia.com//3/37/OddEyesPersonaDragon-PP11-KR-UR-1E.png"
+          }
+        },
+        "unlimited": {
+          "b25b892f-84d8-4d4e-8c1e-c9a772de7014": {
+            "image": "https://ms.yugipedia.com//archive/1/14/20250814052049%21BeatriceLadyoftheEternal-PP11-KR-ScR-UE.png"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "1st",
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          78811008
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "kr"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "1st",
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//a/a7/PP11-BoosterKR.png",
+      "cards": [
+        {
+          "id": "0f3cb4e4-580b-4285-b30c-309c8e160b3a",
+          "card": "c2080332-9e44-4695-b348-f6521764e031",
+          "suffix": "001",
+          "rarity": "super",
+          "imageID": "fb141153-2879-4567-a3de-d60b34dd5acd"
+        },
+        {
+          "id": "2a5d5427-8575-4339-86ad-44c83b020faa",
+          "card": "3c12e549-2265-4e02-8a4d-5efb0349ed64",
+          "suffix": "002",
+          "rarity": "super",
+          "imageID": "97161e8c-07e6-4539-a633-0bc58f515e85"
+        },
+        {
+          "id": "aff4a069-3431-497b-a915-06136684f0d2",
+          "card": "e26663af-45ca-4a77-ada9-9ad67840b373",
+          "suffix": "003",
+          "rarity": "super",
+          "imageID": "9fe5d2d6-5240-436e-8fab-62eb22a9d704"
+        },
+        {
+          "id": "393cb85c-9fff-4c6b-b990-141894a72cbc",
+          "card": "7041a183-8816-4f51-a75b-96ab34e416bc",
+          "suffix": "004",
+          "rarity": "super",
+          "imageID": "477ea886-0b11-468c-b063-5144dbcb6005"
+        },
+        {
+          "id": "3cf9291f-9926-4e61-a7d3-ce46715e84e6",
+          "card": "56b8c776-01ac-446a-9650-2c7bd9c42a95",
+          "suffix": "005",
+          "rarity": "super",
+          "imageID": "c8469c7d-bdff-4f73-b4db-2d3df3954c83"
+        },
+        {
+          "id": "bfcd7d34-ab94-410e-ab8a-033f590bf91e",
+          "card": "c4aece05-2a28-4f69-be86-d93c1e1639dc",
+          "suffix": "006",
+          "rarity": "super",
+          "imageID": "e14a955d-0e5e-4932-8404-de809bb1d0f2"
+        },
+        {
+          "id": "d0810bb1-3cd7-42bf-96b5-69109c0eb17d",
+          "card": "bcaf22d2-5441-48a7-8fbc-8a93f218da3f",
+          "suffix": "007",
+          "rarity": "super",
+          "imageID": "2aeef81d-b8f4-4e6c-9850-fc0eb9363fd0"
+        },
+        {
+          "id": "328992cf-02ba-4a99-8d63-8f3b1b169960",
+          "card": "587bc1b3-6839-40e7-9ba3-a2e9c2790065",
+          "suffix": "008",
+          "rarity": "secret",
+          "imageID": "61e93ed0-1b5e-40e0-8d11-64c96f715619"
+        },
+        {
+          "id": "9cba8b59-229a-402a-971a-788f3a1e1e50",
+          "card": "25082c8d-c341-4f38-888a-be19da079f7a",
+          "suffix": "009",
+          "rarity": "super",
+          "imageID": "023f6912-8c7e-41db-85e9-99e7205dfbe9"
+        },
+        {
+          "id": "3a93fefc-c6ef-417c-946d-5fbf9d536720",
+          "card": "e6402b56-140e-4b0b-931f-9d1dc1e317ee",
+          "suffix": "010",
+          "rarity": "super",
+          "imageID": "aeaa9052-9cd1-4cbb-8f75-e7b9fcb12c14"
+        },
+        {
+          "id": "c841d4c5-7b9a-4d90-bc29-95d71d787f31",
+          "card": "5cac84e7-d15f-458d-b700-3cff64bcb185",
+          "suffix": "011",
+          "rarity": "ultra",
+          "imageID": "060e4586-bf97-43cd-9f26-1ffb9fca9749"
+        },
+        {
+          "id": "001975a7-7074-4936-af23-8e3af7c49936",
+          "card": "b777e585-d5e4-40b7-ace2-e9d6f4154649",
+          "suffix": "012",
+          "rarity": "super",
+          "imageID": "1697bcf5-0c6e-4fbd-8dc7-80c8da7cefda"
+        },
+        {
+          "id": "ea2f5ff8-b21a-4d06-aa0b-b7663e236fe9",
+          "card": "81933dd2-aa35-4fee-b60e-5c63eeaa7b77",
+          "suffix": "013",
+          "rarity": "super",
+          "imageID": "35fc8fea-490c-455d-9679-5ef1befa3fff"
+        },
+        {
+          "id": "c90e981d-7d7a-4a1d-8555-1948c63e649e",
+          "card": "2305b521-245d-4638-b28b-71ea95e63cc8",
+          "suffix": "014",
+          "rarity": "super",
+          "imageID": "673b3640-1c93-49fe-8d11-a53a5d6ec38d"
+        },
+        {
+          "id": "331a371a-7119-42b4-b631-04e0aff0af19",
+          "card": "d57220b8-6ca4-4e15-ab31-53ae9a72430c",
+          "suffix": "015",
+          "rarity": "super",
+          "imageID": "ef7087f1-6b1c-4e65-b6ca-a517d2eefab6"
+        },
+        {
+          "id": "75b13fe1-8527-4bc1-9ee2-4b20ffc5a780",
+          "card": "9c734c0f-96a9-41db-a3cb-bd04528e8d1f",
+          "suffix": "016",
+          "rarity": "super",
+          "imageID": "786bbad0-af08-41b4-b583-308d4e85038d"
+        },
+        {
+          "id": "5e28e6cf-7400-4e07-b864-ae6b9582a7b2",
+          "card": "424975d7-b0b1-4e85-ae51-97be7edee794",
+          "suffix": "017",
+          "rarity": "super",
+          "imageID": "6d2ef31c-3fc0-4094-869d-1f3eebead1af"
+        },
+        {
+          "id": "9a298982-740d-4465-8e1c-61127cd66133",
+          "card": "387123b4-48dc-4257-90b3-128090032aed",
+          "suffix": "018",
+          "rarity": "super",
+          "imageID": "20f008be-70e1-4576-a8fb-dfd6ceec4388"
+        },
+        {
+          "id": "505c9c70-e391-493d-bbfa-b0fdee70b927",
+          "card": "2789fe17-d016-46f5-a89e-87133ccb75be",
+          "suffix": "019",
+          "rarity": "super",
+          "imageID": "e04958a9-7e2f-4e6b-8a88-5f860756b7bc"
+        },
+        {
+          "id": "5a8c454a-dfc9-4d2c-a67f-e3201ef93efd",
+          "card": "837d546b-8f2c-4ba7-a0af-925d8585e688",
+          "suffix": "020",
+          "rarity": "super",
+          "imageID": "681da6bc-d5aa-4c57-ad5d-b7ec921379fa"
+        },
+        {
+          "id": "1dac51c7-f1c6-4266-bf36-a7637ba57260",
+          "card": "cf16847d-ba46-42f6-b1f1-b19d5af77123",
+          "suffix": "021",
+          "rarity": "super",
+          "imageID": "5272843b-c2e4-4763-86ea-48a87d9bb2b9"
+        },
+        {
+          "id": "a877cc15-8ba0-43ac-8873-efd0c5aaff77",
+          "card": "4e8d8ca9-5aca-4208-b3dd-8c807ac02369",
+          "suffix": "022",
+          "rarity": "super",
+          "imageID": "b8ea0106-f234-42b3-9c25-eae70baae137"
+        },
+        {
+          "id": "66b0b6fd-599d-4954-9789-d2707f9148c9",
+          "card": "025b56f5-3d68-418c-a068-f234709b89cf",
+          "suffix": "023",
+          "rarity": "secret",
+          "imageID": "04628e0c-dbb9-4d60-beac-bc5829068bc3"
+        },
+        {
+          "id": "b0bf5432-9ca7-4e43-8a14-382c0226ef17",
+          "card": "bb91aee2-8613-4042-89ea-c032f454387f",
+          "suffix": "024",
+          "rarity": "ultra",
+          "imageID": "2e83c3ff-fc62-4b6f-bdfa-af45e073adae"
+        },
+        {
+          "id": "7ee9a24c-3ce3-4647-85a3-748ed9bf9946",
+          "card": "34f0e71d-bb5a-4c1a-afea-c781f76e53fc",
+          "suffix": "025",
+          "rarity": "super",
+          "imageID": "bcf52417-6b35-4209-97da-af5a6c381df2"
+        },
+        {
+          "id": "17d19bc1-f5cf-4f7a-8319-d692ced4ed9c",
+          "card": "5221a155-d894-4601-bd6a-b82ececdc8ae",
+          "suffix": "026",
+          "rarity": "ultra",
+          "imageID": "af5e38fe-4927-48c3-b555-3013f535047e"
+        },
+        {
+          "id": "96dc37e6-e9ad-432e-bb38-b97533531e2a",
+          "card": "7b1dcbe8-245d-4d47-b2c9-8e825243a307",
+          "suffix": "027",
+          "rarity": "super",
+          "imageID": "e9648615-11bc-420e-836a-6d87319dd958"
+        },
+        {
+          "id": "c77b8607-1fb2-4007-827f-b224443488f3",
+          "card": "08174fdd-9523-4de3-a51d-5fde03cbe52c",
+          "suffix": "028",
+          "rarity": "super",
+          "imageID": "96306c4f-8600-4c8e-99ee-dc6d351ce0a8"
+        },
+        {
+          "id": "bbbd3f41-00ba-4d25-9294-3608b5af32b6",
+          "card": "bc2c695d-c0a0-479e-b6d9-dfb78e81196e",
+          "suffix": "029",
+          "rarity": "ultra",
+          "imageID": "3f03ff73-b648-41bb-a478-031accc00a6c"
+        },
+        {
+          "id": "97e0f66c-fa78-4e08-8948-7201b526d341",
+          "card": "b667fd52-3147-4fae-9692-3ba932e36cb9",
+          "suffix": "030",
+          "rarity": "ultra",
+          "imageID": "47a0869e-b21d-4c88-94ee-b967b05a3bd1"
+        },
+        {
+          "id": "b25b892f-84d8-4d4e-8c1e-c9a772de7014",
+          "card": "beab7085-4923-4fe2-b8f7-64bc88eef216",
+          "suffix": "031",
+          "rarity": "secret",
+          "imageID": "d0b76cfd-bb7e-464a-9fe4-1ee87e582cfd"
+        },
+        {
+          "id": "7a4bd2c0-a54f-42f8-90ea-ee03ece0654c",
+          "card": "381a2c82-179b-4cbf-bb1b-08bafc76c633",
+          "suffix": "032",
+          "rarity": "super",
+          "imageID": "2b15cf83-fc68-4556-a208-16a087bbe6df"
+        },
+        {
+          "id": "fdbc4e46-2e61-4697-aa7c-3c2a16f42302",
+          "card": "262b761f-2d2f-4b85-a062-de83a409de02",
+          "suffix": "033",
+          "rarity": "ultra",
+          "imageID": "5dc59d59-75c4-43a2-87ee-e259f5bc5850"
+        },
+        {
+          "id": "6f674de4-1ffd-4fa0-91ff-0ca1a744d054",
+          "card": "418db7a3-db97-4746-8bbb-91d39299ea4f",
+          "suffix": "034",
+          "rarity": "super",
+          "imageID": "97513320-b0d3-4d3e-addd-39af4bb6efc2"
+        },
+        {
+          "id": "7669685e-079a-4be1-adce-d4c8220842bd",
+          "card": "f810c096-b774-41a7-b2a7-7283a3d73d1e",
+          "suffix": "035",
+          "rarity": "super",
+          "imageID": "65fa82e4-679a-4e37-aec4-d6768a17d11b"
+        },
+        {
+          "id": "f6b0f18e-2746-4dd0-a25e-dff48434146f",
+          "card": "07368a00-1ceb-4d2a-b227-5fb3b1ba847c",
+          "suffix": "036",
+          "rarity": "secret",
+          "imageID": "7940350f-3d7c-41ca-967b-c48af381d0d7"
+        },
+        {
+          "id": "1d2223fd-0024-4ede-8732-4c9b28caad74",
+          "card": "aab37dde-630d-4662-9484-7388bb2897e0",
+          "suffix": "037",
+          "rarity": "super",
+          "imageID": "d6d5a86b-42f0-4b84-923e-c65d1bba1274"
+        },
+        {
+          "id": "f037eb63-03f7-4561-9a93-356eeb9f0639",
+          "card": "1013f4e0-a7f2-4834-a422-49ea75d2bbff",
+          "suffix": "038",
+          "rarity": "secret",
+          "imageID": "f4241421-cc29-437d-a7a7-58627643cee1"
+        },
+        {
+          "id": "ee424e5b-e31a-4be9-a9bd-0f65975cec10",
+          "card": "60461d4c-ac15-47cf-be71-3ae6202866dc",
+          "suffix": "039",
+          "rarity": "ultra",
+          "imageID": "4edb77d2-35e0-49fc-9d41-b4c3523bcab5"
+        },
+        {
+          "id": "6a8a2f96-ce66-44d8-9530-2b69232e9816",
+          "card": "70ec636a-7565-485b-9948-0a1b028f35d1",
+          "suffix": "040",
+          "rarity": "super",
+          "imageID": "58a070de-891e-4194-8508-82373d4be1ed"
+        },
+        {
+          "id": "5642e230-b961-4dcf-aa5f-bd3d87934a56",
+          "card": "19b092ae-6575-49e0-bb08-9d1933e0bc4f",
+          "suffix": "041",
+          "rarity": "ultra",
+          "imageID": "f2f1d588-fe6c-49a7-a228-585a1b98fd2d"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Premium Pack Vol.11",
+      "id": 413504
+    }
+  }
+}

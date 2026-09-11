@@ -1,0 +1,75 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "b167546a-97a1-4c5f-8f0a-d48328e280f5",
+  "text": {
+    "en": {
+      "name": "Mystic Dealer",
+      "effect": "Draw 1 card."
+    },
+    "fr": {
+      "name": "Donneur Mystique",
+      "effect": "Piochez 1 carte."
+    },
+    "de": {
+      "name": "Mystischer Austeiler",
+      "effect": "Ziehe 1 Karte."
+    },
+    "it": {
+      "name": "Mazziere Mistico",
+      "effect": "Pesca 1 carta."
+    },
+    "es": {
+      "name": "Distribuidor M\u00edstico",
+      "effect": "Roba 1 carta."
+    },
+    "ja": {
+      "name": "\u30df\u30b9\u30c6\u30a3\u30c3\u30af\u30fb\u30c7\u30a3\u30fc\u30e9\u30fc",
+      "effect": "\u81ea\u5206\u306f\uff11\u679a\u30c9\u30ed\u30fc\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ubbf8\uc2a4\ud2f1 \ub51c\ub7ec",
+      "effect": "\uc790\uc2e0\uc740 1\uc7a5 \ub4dc\ub85c\uc6b0\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "type": "spellcaster",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 1000,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "ccbd1253-7c8c-469d-a262-111d2e8f2007",
+      "card": "https://ms.yugipedia.com//1/19/MysticDealer-RDMRP1-JP-C.png"
+    }
+  ],
+  "sets": [
+    "e670ec5c-7fbb-49cd-9899-885731ab9e90",
+    "da224570-b5b4-4e64-a458-7824fbfc1589",
+    "b0f28e3d-b93f-42f7-9518-5a27b9304349",
+    "c0287cbc-dc56-47ae-9e89-0af80eb1b3d9",
+    "b65739b6-1f86-4fbd-8a47-2bfa5b511c44",
+    "b65739b6-1f86-4fbd-8a47-2bfa5b511c44",
+    "b65739b6-1f86-4fbd-8a47-2bfa5b511c44",
+    "b65739b6-1f86-4fbd-8a47-2bfa5b511c44",
+    "288f40da-3a58-4353-8951-a8b611718475"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "r"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Mystic Dealer",
+        "id": 715975
+      }
+    ],
+    "dbID": 15155
+  },
+  "series": []
+}

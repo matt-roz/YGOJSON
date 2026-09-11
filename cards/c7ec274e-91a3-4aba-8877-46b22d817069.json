@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "c7ec274e-91a3-4aba-8877-46b22d817069",
+  "text": {
+    "en": {
+      "name": "Premium Printing Presser",
+      "effect": "Your opponent excavates the top 3 cards of their Deck and places them on top of their Deck in the same order. You can add \"Hot Off the Press\" from your Graveyard to your hand, up to [the number of excavated monsters].",
+      "official": false
+    },
+    "ja": {
+      "name": "\u8d85\u7279\u5831\u30de\u30b7\u30f3\u30fb\u30bf\u30d5\u30ed\u30a4\u30c9\u30d5\u30e9\u30c3\u30b7\u30e5",
+      "effect": "\u76f8\u624b\u306f\u81ea\u8eab\u306e\u30c7\u30c3\u30ad\u306e\u4e0a\u304b\u3089\u30ab\u30fc\u30c9\u3092\uff13\u679a\u3081\u304f\u308a\u3001\u304a\u4e92\u3044\u306b\u78ba\u8a8d\u3057\u3066\u5143\u306b\u623b\u3059\u3002\u81ea\u5206\u306f\uff3b\u305d\u306e\u4e2d\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u6570\uff3d\u307e\u3067\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u74e6\u30d0\u30fc\u30f3\u300d\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 2500,
+  "def": 1600,
+  "passwords": [],
+  "images": [
+    {
+      "id": "034638a7-324c-477b-9da7-c54337fd1fb1",
+      "card": "https://ms.yugipedia.com//2/29/PremiumPrintingPresser-RDKP25-JP-R.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Premium Printing Presser",
+        "id": 1184131
+      }
+    ],
+    "dbID": 23211
+  },
+  "series": [
+    "ccdb0fcd-05c3-4733-ae3f-e235f2553742"
+  ]
+}

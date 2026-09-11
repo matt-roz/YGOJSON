@@ -1,0 +1,71 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "ca954436-fa43-4913-bf0d-d541c98e7fd5",
+  "text": {
+    "en": {
+      "name": "Anmagmabear",
+      "effect": "Add 1 Pyro Type Normal Monster from your Graveyard to your hand."
+    },
+    "fr": {
+      "name": "Anmagmours",
+      "effect": "Ajoutez 1 Monstre Normal de Type Pyro depuis votre Cimeti\u00e8re dans votre main."
+    },
+    "de": {
+      "name": "Anmagmab\u00e4r",
+      "effect": "F\u00fcge 1 Normales Monster des Typs Pyro von deinem Friedhof zu deiner Hand hinzu."
+    },
+    "it": {
+      "name": "Anmagmaorso",
+      "effect": "Aggiungi 1 Mostro Normale di Tipo Pyro dal tuo Cimitero alla tua mano."
+    },
+    "es": {
+      "name": "Anmagmaoso",
+      "effect": "A\u00f1ade 1 Monstruo Normal de Tipo Piro de tu Cementerio a tu mano."
+    },
+    "ja": {
+      "name": "\u30a2\u30f3\u30de\u30b0\u30de",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u901a\u5e38\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u708e\u65cf\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc548\ub9c8\uadf8\ub9c8",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \uc77c\ubc18 \ubaac\uc2a4\ud130(\ud654\uc5fc\uc871) 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\ub294\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "pyro",
+  "classifications": [
+    "effect"
+  ],
+  "level": 1,
+  "atk": 100,
+  "def": 100,
+  "passwords": [],
+  "images": [
+    {
+      "id": "76d4332f-c866-4106-8182-eb662f57c8fb",
+      "card": "https://ms.yugipedia.com//9/9c/Anmagmabear-RDSD04-JP-C.png"
+    }
+  ],
+  "sets": [
+    "cf303586-057a-4e6c-ae2a-65879480865d",
+    "c05d7ca5-5bea-4c0f-884c-dd1ec7f1be77",
+    "c05d7ca5-5bea-4c0f-884c-dd1ec7f1be77"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "r"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Anmagmabear",
+        "id": 712919
+      }
+    ],
+    "dbID": 16155
+  },
+  "series": [
+    "3f71f9ea-ca2c-4aa6-a18f-89871dce96ab"
+  ]
+}

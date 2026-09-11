@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "ec916ed1-2389-4c05-be1d-3da496bc30c0",
+  "text": {
+    "en": {
+      "name": "Legend Saber",
+      "effect": "This card gains 300 ATK until the end of this turn. Then, you can add 1 Warrior Type Legend monster from your Graveyard to your hand. If you do, you can only attack with Celestial Warrior and/or Warrior Type monsters this turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30ec\u30b8\u30a7\u30f3\u30c9\u30fb\u30bb\u30a4\u30d0\u30fc",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u306e\u653b\u6483\u529b\u306f\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\uff13\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u30ec\u30b8\u30a7\u30f3\u30c9\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u6226\u58eb\u65cf\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002\u9078\u3093\u3060\u5834\u5408\u3001\u3053\u306e\u30bf\u30fc\u30f3\u3001\u81ea\u5206\u306f\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u5929\u754c\u6226\u58eb\u65cf\u30fb\u6226\u58eb\u65cf\uff09\u3067\u3057\u304b\u653b\u6483\u3067\u304d\u306a\u3044\u3002"
+    },
+    "ko": {
+      "name": "\ub808\uc804\ub4dc \uc138\uc774\ubc84",
+      "effect": "\uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\ub825\uc740 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0 300 \uc62c\ub9b0\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0 \ubb18\uc9c0\uc758 \ub808\uc804\ub4dc \ubaac\uc2a4\ud130(\uc804\uc0ac\uc871) 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\uc744 \uc218 \uc788\ub2e4. \uace0\ub978 \uacbd\uc6b0, \uc774 \ud134\uc5d0, \uc790\uc2e0\uc740 \ubaac\uc2a4\ud130(\ucc9c\uacc4\uc804\uc0ac\uc871\u30fb\uc804\uc0ac\uc871)\ub85c\ubc16\uc5d0 \uacf5\uaca9\ud560 \uc218 \uc5c6\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 1300,
+  "def": 300,
+  "passwords": [],
+  "images": [
+    {
+      "id": "b45b1a91-9220-4747-be7e-d18e8c5166a9",
+      "card": "https://ms.yugipedia.com//3/32/LegendSaber-RDLGP2-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Legend Saber",
+        "id": 715586
+      }
+    ],
+    "dbID": 18690
+  },
+  "series": [
+    "f942861f-b4f9-4253-baad-a08e2f2c7054"
+  ]
+}

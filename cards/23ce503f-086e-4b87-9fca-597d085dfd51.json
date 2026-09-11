@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "23ce503f-086e-4b87-9fca-597d085dfd51",
+  "text": {
+    "en": {
+      "name": "Card Destruction (Rush Duel)",
+      "effect": "Each player with cards in their hand sends their entire hand to the Graveyard, then draws cards equal to [the number of cards each player sent to the Graveyard by this effect]."
+    },
+    "fr": {
+      "name": "Destruction de Carte",
+      "effect": "Chaque joueur avec des cartes dans sa main envoie toute sa main au Cimeti\u00e8re, puis pioche un nombre de cartes \u00e9gal au [nombre de cartes que chaque joueur a envoy\u00e9es au Cimeti\u00e8re avec cet effet]."
+    },
+    "de": {
+      "name": "Kartenzerst\u00f6rung",
+      "effect": "Jeder Spieler mit Karten auf der Hand legt seine gesamte Hand auf den Friedhof und zieht dann Karten in H\u00f6he [der Anzahl an Karten, die der entsprechende Spieler durch diesen Effekt auf den Friedhof gelegt hat]."
+    },
+    "it": {
+      "name": "Distruggi-Carte",
+      "effect": "Ogni giocatore che ha carte in mano manda la sua intera mano al Cimitero, poi pesca carte pari [al numero di carte che ogni giocatore ha mandato al Cimitero con questo effetto]."
+    },
+    "es": {
+      "name": "Destrucci\u00f3n de la Carta",
+      "effect": "Cada jugador con cartas en la mano manda su mano completa al Cementerio, y despu\u00e9s roba una cantidad de cartas igual [al n\u00famero de cartas que cada jugador ha enviado al Cementerio por este efecto]."
+    },
+    "ko": {
+      "name": "\uce74\ub4dc \ud30c\uad34",
+      "effect": "\ud328\uac00 \uc788\ub294 \ud50c\ub808\uc774\uc5b4\ub294 \ud328\ub97c \uc804\ubd80 \ubb18\uc9c0\ub85c \ubcf4\ub0b8\ub2e4. \uadf8 \ud6c4, \uc591\ucabd \ud50c\ub808\uc774\uc5b4\ub294 [\uc774 \ud6a8\uacfc\ub85c \uc790\uc2e0\uc774 \ubb18\uc9c0\ub85c \ubcf4\ub0b8 \uce74\ub4dc\uc758 \uc218]\ub9cc\ud07c \ub4dc\ub85c\uc6b0\ud55c\ub2e4."
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "1f1f6b71-804b-4473-993f-59bee37610a3",
+      "card": "https://ms.yugipedia.com//4/45/CardDestruction-RDMAX1-JP-ScR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Card Destruction (Rush Duel)",
+        "id": 714217
+      }
+    ],
+    "dbID": 15942
+  },
+  "series": []
+}

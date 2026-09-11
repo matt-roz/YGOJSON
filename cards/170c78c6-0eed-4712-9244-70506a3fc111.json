@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "170c78c6-0eed-4712-9244-70506a3fc111",
+  "text": {
+    "en": {
+      "name": "Dark Matter Enigmight Geodiver",
+      "effect": "Until the end of your opponent's next turn, this card's name becomes \"Dark Matter Enigmata\", and while it is in Attack Position, it cannot be destroyed by battle. Then, if you have 2 face-down monsters on your field, this card can attack twice this turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30c0\u30fc\u30af\u30de\u30bf\u30fc\u30fb\u30a8\u30cb\u30b0\u30de\u30a4\u30c8\u30fb\u30b8\u30aa\u30c0\u30a4\u30d0\u30fc",
+      "effect": "\u6b21\u306e\u76f8\u624b\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\u3001\u3053\u306e\u30ab\u30fc\u30c9\u306e\u30ab\u30fc\u30c9\u540d\u306f\u300c\u30c0\u30fc\u30af\u30de\u30bf\u30fc\u30fb\u30a8\u30cb\u30b0\u30de\u30fc\u30bf\u300d\u306b\u306a\u308a\u3001\u3053\u306e\u30ab\u30fc\u30c9\u306f\u653b\u6483\u8868\u793a\u306e\u9593\u3001\u6226\u95d8\u3067\u306f\u7834\u58ca\u3055\u308c\u306a\u3044\u3002\u3055\u3089\u306b\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u88cf\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\u304c\uff12\u4f53\u306e\u5834\u5408\u3001\u3053\u306e\u30bf\u30fc\u30f3\u3001\u3053\u306e\u30ab\u30fc\u30c9\u306f\uff12\u56de\u653b\u6483\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub2e4\ud06c\ub9e4\ud130 \uc5d0\ub2c8\uadf8\ub9c8\uc774\ud2b8 \uc9c0\uc624\ub2e4\uc774\ubc84",
+      "effect": "\ub2e4\uc74c \uc0c1\ub300 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0, \uc774 \uce74\ub4dc\uc758 \uce74\ub4dc\uba85\uc740 \"\ub2e4\ud06c\ub9e4\ud130 \uc5d0\ub2c8\uadf8\ub9c8\ud0c0\"\uac00 \ub418\uace0, \uc774 \uce74\ub4dc\ub294 \uacf5\uaca9 \ud45c\uc2dc\uc778 \ub3d9\uc548, \uc804\ud22c\ub85c\ub294 \ud30c\uad34\ub418\uc9c0 \uc54a\ub294\ub2e4. \ucd94\uac00\ub85c \uc790\uc2e0 \ud544\ub4dc\uc758 \ub4b7\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130\uac00 2\uc7a5\uc77c \uacbd\uc6b0, \uc774 \ud134\uc5d0, \uc774 \uce74\ub4dc\ub294 2\ud68c \uacf5\uaca9\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "classifications": [
+    "effect"
+  ],
+  "level": 9,
+  "atk": 2700,
+  "def": 1300,
+  "passwords": [],
+  "images": [
+    {
+      "id": "a974ba89-eea4-4cd9-8241-b20a406bbdad",
+      "card": "https://ms.yugipedia.com//b/b4/DarkMatterEnigmightGeodiver-RDKP18-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Dark Matter Enigmight Geodiver",
+        "id": 1074436
+      }
+    ],
+    "dbID": 20650
+  },
+  "series": [
+    "20e1a2b3-4557-4a43-a6e4-4f54272ef025"
+  ]
+}

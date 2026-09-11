@@ -1,0 +1,62 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "49143d59-aabf-4b36-bf59-6f4bda898db3",
+  "text": {
+    "en": {
+      "name": "Tamabot",
+      "effect": "Although it hatched without any exact plan, it's always ready to roll."
+    },
+    "ja": {
+      "name": "\u30bf\u30de\u30dc\u30c3\u30c8",
+      "effect": "\u305f\u307e\u305f\u307e\u53ec\u559a\u3055\u308c\u305f\u30bf\u30de\u30dc\u30c3\u30c8\u3002\u51fa\u305f\u3068\u3053\u52dd\u8ca0\u3060\uff01"
+    },
+    "ko": {
+      "name": "\ud0c0\ub9c8\ubd07",
+      "effect": "\uc5bc\ub5a8\uacb0\uc5d0 \uc18c\ud658\ub41c \ud0c0\ub9c8\ubd07. \uc77c\ub2e8\uc740 \uc2b9\ubd80\ub2e4!"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "machine",
+  "classifications": [
+    "normal"
+  ],
+  "level": 1,
+  "atk": 200,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "ba1fc80e-e11f-46d0-9a11-bebcc5df846b",
+      "card": "https://ms.yugipedia.com//4/4f/Tamabot-RD5TH1-JP-SR.png"
+    },
+    {
+      "id": "1c4d3ee0-875a-409d-ad17-01bacdfe79ae",
+      "card": "https://ms.yugipedia.com//2/24/Tamabot-RDB231-JP-C.png"
+    }
+  ],
+  "sets": [
+    "ec7418c0-cd48-468b-9ef5-a362b2a63198",
+    "31432588-1ddf-4225-8c5e-7dfc48faac1e",
+    "31432588-1ddf-4225-8c5e-7dfc48faac1e",
+    "a5dd7265-59c0-48dc-b924-5def08b05a08",
+    "a5dd7265-59c0-48dc-b924-5def08b05a08",
+    "43d37aa5-d0e5-47b7-ac44-ab3ca95014d3"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "r"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Tamabot",
+        "id": 717000
+      }
+    ],
+    "dbID": 17593
+  },
+  "series": [
+    "c0ff4286-d3ed-483b-ac32-1667318a4e47"
+  ]
+}

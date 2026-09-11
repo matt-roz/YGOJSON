@@ -1,0 +1,44 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "9a3c3512-09d6-4d65-8c00-4ca58cbde733",
+  "text": {
+    "en": {
+      "name": "XYZ-Dragon Cannon (Rush Duel)",
+      "effect": "Destroy 1 card on your opponent's field.",
+      "official": false
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 2800,
+  "def": 2600,
+  "passwords": [],
+  "images": [
+    {
+      "id": "28e7cc0a-7e3b-406d-9d73-1886c2910ba1",
+      "card": "https://ms.yugipedia.com//a/a9/XYZDragonCannon-RDAP03-JP-UR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "XYZ-Dragon Cannon (Rush Duel)",
+        "id": 1196059
+      }
+    ],
+    "dbID": 23434
+  },
+  "series": [
+    "55d07b9d-24c6-4be1-9101-c7e5785a9c49"
+  ]
+}

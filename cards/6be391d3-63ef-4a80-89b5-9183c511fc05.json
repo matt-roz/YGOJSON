@@ -1,0 +1,56 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "6be391d3-63ef-4a80-89b5-9183c511fc05",
+  "text": {
+    "en": {
+      "name": "Metarion Vritrastar",
+      "effect": "\u25cfChoose 1 monster on your opponent's field and change it to face-up Attack Position or face-down Defense Position. \u25cfDestroy Dragon Type monsters on your opponent's field up to [the number of face-up Cyborg Type monsters on your field]."
+    },
+    "ja": {
+      "name": "\u30e1\u30bf\u30ea\u30aa\u30f3\u30fb\u30f4\u30ea\u30c8\u30e9\u30b9\u30bf\u30fc",
+      "effect": "\u25cf\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u3092\u9078\u3093\u3067\u8868\u5074\u653b\u6483\u8868\u793a\u307e\u305f\u306f\u88cf\u5074\u5b88\u5099\u8868\u793a\u306b\u3059\u308b\u3002\u25cf\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30c9\u30e9\u30b4\u30f3\u65cf\uff09\u3092\uff3b\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30b5\u30a4\u30dc\u30fc\u30b0\u65cf\uff09\u306e\u6570\uff3d\u307e\u3067\u9078\u3093\u3067\u7834\u58ca\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uba54\ud0c0\ub9ac\uc628 \ube0c\ub9ac\ud2b8\ub77c\uc2a4\ud0c0",
+      "effect": "\u25cf\uc0c1\ub300 \ud544\ub4dc\uc758 \ubaac\uc2a4\ud130 1\uc7a5\uc744 \uace0\ub974\uace0 \uc55e\uba74 \uacf5\uaca9 \ud45c\uc2dc \ub610\ub294 \ub4b7\uba74 \uc218\ube44 \ud45c\uc2dc\ub85c \ud55c\ub2e4. \u25cf\uc0c1\ub300 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\ub4dc\ub798\uace4\uc871)\ub97c [\uc790\uc2e0 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\uc0ac\uc774\ubcf4\uadf8\uc871)\uc758 \uc218]\uae4c\uc9c0 \uace0\ub974\uace0 \ud30c\uad34\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "classifications": [
+    "effect"
+  ],
+  "level": 9,
+  "atk": 2800,
+  "def": 2500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "cec2277a-b949-4c7c-858d-359975d4ef9d",
+      "card": "https://ms.yugipedia.com//4/4e/MetarionVritrastar-RDLGP2-JP-C.png"
+    }
+  ],
+  "sets": [
+    "f15281f0-8ea5-4682-b72c-36f0b779a7bc",
+    "4758595f-fc6c-4993-9a71-0738f485c6c9"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Metarion Vritrastar",
+        "id": 715890
+      }
+    ],
+    "dbID": 16887
+  },
+  "series": [
+    "bff3c17c-7080-49f0-a844-a0e55c603bae"
+  ]
+}

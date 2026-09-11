@@ -1,0 +1,52 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "47e219f0-1c2a-4a23-a764-b4c04f8ac02f",
+  "text": {
+    "en": {
+      "name": "Tamabot Burst Dragon",
+      "effect": "This card gains 1000 ATK until the end of this turn. Then, if you sent a monster with 1500 or less ATK to the Graveyard to meet the requirement, you can destroy 1 face-up monster with 1500 or more ATK on your opponent's field.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30bf\u30de\u30fc\u30dc\u30c3\u30c8\u30fb\u30d0\u30fc\u30b9\u30c8\u30c9\u30e9\u30b4\u30f3",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u306e\u653b\u6483\u529b\u306f\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\uff11\uff10\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002\u3053\u306e\u52b9\u679c\u306e\u6761\u4ef6\u3067\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u653b\u6483\u529b\uff11\uff15\uff10\uff10\u4ee5\u4e0b\uff09\u304c\u5893\u5730\u3078\u9001\u3089\u308c\u305f\u5834\u5408\u3001\u3055\u3089\u306b\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u653b\u6483\u529b\uff11\uff15\uff10\uff10\u4ee5\u4e0a\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u7834\u58ca\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud0c0\ub9c8\uc544\ubd07 \ubc84\uc2a4\ud2b8\ub4dc\ub798\uace4",
+      "effect": "\uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\ub825\uc740 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0 1000 \uc62c\ub9b0\ub2e4. \uc774 \ud6a8\uacfc\uc758 \uc870\uac74\uc73c\ub85c \ubaac\uc2a4\ud130(\uacf5\uaca9\ub825 1500 \uc774\ud558)\uac00 \ubb18\uc9c0\ub85c \ubcf4\ub0b4\uc84c\uc744 \uacbd\uc6b0, \ucd94\uac00\ub85c \uc0c1\ub300 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\uacf5\uaca9\ub825 1500 \uc774\uc0c1) 1\uc7a5\uc744 \uace0\ub974\uace0 \ud30c\uad34\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "dragon",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2500,
+  "def": 2500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "7ddc6565-ec3a-443b-877e-f64fefe1c6c4",
+      "card": "https://ms.yugipedia.com//9/99/TamabotBurstDragon-RD5TH1-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Tamabot Burst Dragon",
+        "id": 901971
+      }
+    ],
+    "dbID": 18965
+  },
+  "series": [
+    "c0ff4286-d3ed-483b-ac32-1667318a4e47"
+  ]
+}

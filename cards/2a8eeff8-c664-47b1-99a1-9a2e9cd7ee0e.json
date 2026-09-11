@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "2a8eeff8-c664-47b1-99a1-9a2e9cd7ee0e",
+  "text": {
+    "en": {
+      "name": "Prey Dullahan",
+      "effect": "Make 1 face-up monster on your opponent's field lose 600 ATK until the end of this turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30d7\u30ec\u30a4\u30fb\u30c7\u30e5\u30e9\u30cf\u30f3",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u3092\u9078\u3073\u3001\u305d\u306e\u653b\u6483\u529b\u3092\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\uff16\uff10\uff10\u30c0\u30a6\u30f3\u3059\u308b\u3002"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "fiend",
+  "classifications": [
+    "effect"
+  ],
+  "level": 6,
+  "atk": 1800,
+  "def": 2000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "40c54151-b3a0-4ac3-abf8-7d95a8f648d1",
+      "card": "https://ms.yugipedia.com//d/d1/PreyDullahan-RDKP25-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Prey Dullahan",
+        "id": 1188779
+      }
+    ],
+    "dbID": 23232
+  },
+  "series": [
+    "e2ce2f36-2535-4fd8-b4ef-ee8785a7c013"
+  ]
+}

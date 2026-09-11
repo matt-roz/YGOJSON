@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "518742c8-673b-41bb-a676-869ba54ef22f",
+  "text": {
+    "en": {
+      "name": "Pitch-Dark Eradicator Sorcerer",
+      "effect": "Inflict 500 damage to your opponent.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u6f06\u9ed2\u9b54\u5c0e\u306e\u9042\u884c\u8005"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "spellcaster",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2100,
+  "def": 1700,
+  "passwords": [],
+  "images": [
+    {
+      "id": "75ebfc58-143f-4dc3-bdf5-70c366085a20",
+      "card": "https://ms.yugipedia.com//a/a8/PitchDarkEradicatorSorcerer-RDCA01-JP-OP.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Pitch-Dark Eradicator Sorcerer",
+        "id": 1214137
+      }
+    ]
+  },
+  "series": []
+}

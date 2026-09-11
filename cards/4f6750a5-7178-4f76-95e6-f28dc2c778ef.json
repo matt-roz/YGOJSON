@@ -1,0 +1,50 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "4f6750a5-7178-4f76-95e6-f28dc2c778ef",
+  "text": {
+    "en": {
+      "name": "Cyber Dragon Zwei (Rush Duel)",
+      "effect": "This turn, this card's name becomes \"Cyber Dragon\", and it gains 300 ATK.",
+      "official": false
+    },
+    "ko": {
+      "name": "\uc0ac\uc774\ubc84 \ub4dc\ub798\uace4 \uce20\ubc14\uc774",
+      "effect": "\uc774 \ud134\uc5d0, \uc774 \uce74\ub4dc\uc758 \uce74\ub4dc\uba85\uc740 \"\uc0ac\uc774\ubc84 \ub4dc\ub798\uace4\"\uc774 \ub418\uace0, \uacf5\uaca9\ub825\uc740 300 \uc62c\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1500,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "21680197-2945-4762-97d1-094cea4b2815",
+      "card": "https://ms.yugipedia.com//8/8e/CyberDragonZwei-RDSD0C-JP-C.png"
+    }
+  ],
+  "sets": [
+    "918ca201-7f5c-4e30-a6be-9ad1bd9e8458",
+    "918ca201-7f5c-4e30-a6be-9ad1bd9e8458",
+    "918ca201-7f5c-4e30-a6be-9ad1bd9e8458",
+    "918ca201-7f5c-4e30-a6be-9ad1bd9e8458"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Cyber Dragon Zwei (Rush Duel)",
+        "id": 1110421
+      }
+    ],
+    "dbID": 21389
+  },
+  "series": [
+    "86022427-8e1f-4a67-af9d-a38a063a0392"
+  ]
+}

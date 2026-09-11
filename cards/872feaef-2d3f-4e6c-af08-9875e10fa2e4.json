@@ -1,0 +1,55 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "872feaef-2d3f-4e6c-af08-9875e10fa2e4",
+  "text": {
+    "en": {
+      "name": "Specter of Heaven's Beginning",
+      "effect": "Special Summon 1 Zombie Type monster with 1200 ATK and 0 DEF from your Graveyard in face-up Defense Position to your field. If you Special Summoned \"Specter of Heaven's End\" by this effect, you can also shuffle up to 2 cards from your opponent's Graveyard into the Deck."
+    },
+    "ja": {
+      "name": "\u5929\u59cb\u306e\u602a\u4f9d",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30a2\u30f3\u30c7\u30c3\u30c8\u65cf\uff0f\u653b\u6483\u529b\uff11\uff12\uff10\uff10\uff0f\u5b88\u5099\u529b\uff10\uff09\uff11\u4f53\u3092\u9078\u3073\u3001\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u5b88\u5099\u8868\u793a\u3067\u7279\u6b8a\u53ec\u559a\u3059\u308b\u3002\u3053\u306e\u52b9\u679c\u3067\u300c\u5929\u7d42\u306e\u602a\u4f9d\u300d\u3092\u7279\u6b8a\u53ec\u559a\u3057\u305f\u5834\u5408\u3001\u3055\u3089\u306b\u76f8\u624b\u306e\u5893\u5730\u306e\u30ab\u30fc\u30c9\u3092\uff12\u679a\u307e\u3067\u9078\u3093\u3067\u30c7\u30c3\u30ad\u306b\u623b\u3059\u4e8b\u304c\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ucc9c\uc2dc\uc758 \uad34\uc758",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130(\uc5b8\ub370\ub4dc\uc871 / \uacf5\uaca9\ub825 1200 / \uc218\ube44\ub825 0) 1\uc7a5\uc744 \uace0\ub974\uace0, \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \uc218\ube44 \ud45c\uc2dc\ub85c \ud2b9\uc218 \uc18c\ud658\ud55c\ub2e4. \uc774 \ud6a8\uacfc\ub85c \"\ucc9c\uc885\uc758 \uad34\uc758\"\ub97c \ud2b9\uc218 \uc18c\ud658\ud588\uc744 \uacbd\uc6b0, \ucd94\uac00\ub85c \uc0c1\ub300 \ubb18\uc9c0\uc758 \uce74\ub4dc\ub97c 2\uc7a5\uae4c\uc9c0 \uace0\ub974\uace0 \ub371\uc73c\ub85c \ub418\ub3cc\ub9b4 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "zombie",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 1200,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "4f1dd3ec-eb83-47d7-ae9d-6ae2860b45be",
+      "card": "https://ms.yugipedia.com//e/e6/SpecterofHeavensBeginning-RDAP02-JP-C.png"
+    },
+    {
+      "id": "88d86ad6-3359-4b8d-a633-e3adfe30fe5e",
+      "card": "https://ms.yugipedia.com//e/ed/SpecterofHeavensBeginning-RDKP14-JP-ScR-AA.png"
+    }
+  ],
+  "sets": [
+    "4c887f72-12bb-4f1a-80de-38526bb09a9e"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "n"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Specter of Heaven's Beginning",
+        "id": 994744
+      }
+    ],
+    "dbID": 19312
+  },
+  "series": []
+}

@@ -1,0 +1,54 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "ca6810d1-f2a7-4e62-9d3c-8875147e0179",
+  "text": {
+    "en": {
+      "name": "Negatwor Dragon",
+      "effect": "Send the top 2 cards of your Deck to the Graveyard. Then, if you have \"Negate Attack\" in your Graveyard, you can make up to 3 face-up monsters on your opponent's field lose 2000 ATK until the end of your opponent's next turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30cb\u30b2\u30a4\u30bf\u30fc\u30fb\u30c9\u30e9\u30b4\u30f3",
+      "effect": "\u81ea\u5206\u306e\u30c7\u30c3\u30ad\u306e\u4e0a\u304b\u3089\u30ab\u30fc\u30c9\uff12\u679a\u3092\u5893\u5730\u3078\u9001\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u5893\u5730\u306b\u300c\u653b\u6483\u306e\u7121\u529b\u5316\u300d\u304c\u3042\u308b\u5834\u5408\u3001\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\u3092\uff13\u4f53\u307e\u3067\u9078\u3093\u3067\u305d\u306e\u653b\u6483\u529b\u3092\u6b21\u306e\u76f8\u624b\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\uff12\uff10\uff10\uff10\u30c0\u30a6\u30f3\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub2c8\uac8c\uc774\ud130 \ub4dc\ub798\uace4",
+      "effect": "\uc790\uc2e0\uc758 \ub371 \uc704\uc5d0\uc11c \uce74\ub4dc 2\uc7a5\uc744 \ubb18\uc9c0\ub85c \ubcf4\ub0b8\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0 \ubb18\uc9c0\uc5d0 \"\uacf5\uaca9 \ubb34\ub825\ud654\"\uac00 \uc788\uc744 \uacbd\uc6b0, \uc0c1\ub300 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130\ub97c 3\uc7a5\uae4c\uc9c0 \uace0\ub974\uace0 \uadf8 \uacf5\uaca9\ub825\uc744 \ub2e4\uc74c \uc0c1\ub300 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0 2000 \ub0b4\ub9b4 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "dragon",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 900,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "010f0b75-dc15-46f6-beca-eca82f4b47be",
+      "card": "https://ms.yugipedia.com//3/3c/NegatworDragon-RDSD0F-JP-C.png"
+    },
+    {
+      "id": "b35e6c17-3ea0-4994-96a3-202f4e344303",
+      "card": "https://ms.yugipedia.com//c/cd/NegatworDragon-RDS241-JP-UPR.png"
+    }
+  ],
+  "sets": [
+    "e2b816ef-5178-4aa9-b864-7248f545e896",
+    "e2b816ef-5178-4aa9-b864-7248f545e896"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Negatwor Dragon",
+        "id": 994541
+      }
+    ],
+    "dbID": 19311
+  },
+  "series": []
+}

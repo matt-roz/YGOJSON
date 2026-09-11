@@ -1,0 +1,52 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "df8790e2-109b-486a-8a9a-64d1b77814a1",
+  "text": {
+    "en": {
+      "name": "Transam Praime Full Armor Nova",
+      "effect": "This card gains ATK equal to [the number of different Types in both players' Graveyards] x 300. If there are 5 or more different Types in the Graveyards, this card cannot be destroyed by your opponent's card effects, then if there are 10 or more different Types in the Graveyards, this card gains an additional 3000 ATK.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30c8\u30e9\u30f3\u30b6\u30e0\u30fb\u30d7\u30e9\u30a4\u30e0\u30fb\u30d5\u30eb\u30a2\u30fc\u30de\u30fc\u30ce\u30f4\u30a1",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u306e\u653b\u6483\u529b\u306f\u3001\uff3b\u304a\u4e92\u3044\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u7a2e\u65cf\u306e\u7a2e\u985e\uff3d\u00d7\uff13\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002\u304a\u4e92\u3044\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u7a2e\u65cf\u304c\uff15\u7a2e\u985e\u4ee5\u4e0a\u306e\u5834\u5408\u3001\u3053\u306e\u30ab\u30fc\u30c9\u306f\u76f8\u624b\u306e\u52b9\u679c\u3067\u306f\u7834\u58ca\u3055\u308c\u305a\u3001\uff11\uff10\u7a2e\u985e\u4ee5\u4e0a\u306e\u5834\u5408\u3001\u3055\u3089\u306b\u3053\u306e\u30ab\u30fc\u30c9\u306e\u653b\u6483\u529b\u306f\uff13\uff10\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud2b8\ub79c\uc7a0 \ud504\ub77c\uc784 \ud480\uc544\uba38\ub178\ubc14",
+      "effect": "\uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\ub825\uc740, [\uc11c\ub85c\uc758 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130 \uc885\uc871\uc758 \uc885\ub958] \u00d7 300 \uc62c\ub9b0\ub2e4. \uc11c\ub85c\uc758 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130 \uc885\uc871\uc774 5\uc885\ub958 \uc774\uc0c1\uc77c \uacbd\uc6b0, \uc774 \uce74\ub4dc\ub294 \uc0c1\ub300\uc758 \ud6a8\uacfc\ub85c\ub294 \ud30c\uad34\ub418\uc9c0 \uc54a\uc73c\uba70, 10\uc885\ub958 \uc774\uc0c1\uc77c \uacbd\uc6b0, \ucd94\uac00\ub85c \uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\ub825\uc740 3000 \uc62c\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "classifications": [
+    "effect"
+  ],
+  "level": 9,
+  "atk": 3000,
+  "def": 1600,
+  "passwords": [],
+  "images": [
+    {
+      "id": "6505543a-ddc9-49d8-b3cf-e66de54f2cd2",
+      "card": "https://ms.yugipedia.com//2/24/TransamPraimeFullArmorNova-RDKP16-JP-UR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Transam Praime Full Armor Nova",
+        "id": 1036338
+      }
+    ],
+    "dbID": 19987
+  },
+  "series": [
+    "58be21ce-2f8a-4c61-b8e2-5981a4f6a3f5",
+    "4f8c7961-b539-4a86-9476-d0b89bf20e36"
+  ]
+}

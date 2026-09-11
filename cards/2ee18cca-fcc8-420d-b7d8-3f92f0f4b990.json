@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "2ee18cca-fcc8-420d-b7d8-3f92f0f4b990",
+  "text": {
+    "en": {
+      "name": "Sky Emperor Minion",
+      "effect": "Excavate the top 4 cards of your Deck. You can add 1 excavated \"Space Yggdrago\" or 1 Cyberse Type Maximum Monster to your hand. Place the other cards on the top of your Deck in any order.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30b9\u30ab\u30a4\u30a8\u30f3\u30da\u30e9\u30fc\u30fb\u30df\u30cb\u30aa\u30f3",
+      "effect": "\u81ea\u5206\u306e\u30c7\u30c3\u30ad\u306e\u4e0a\u304b\u3089\u30ab\u30fc\u30c9\u3092\uff14\u679a\u3081\u304f\u308a\u3001\u304a\u4e92\u3044\u306b\u78ba\u8a8d\u3059\u308b\u3002\u81ea\u5206\u306f\u305d\u306e\u4e2d\u304b\u3089\u300c\u30b9\u30da\u30fc\u30b9\u30fb\u30e6\u30b0\u30c9\u30e9\u30b4\u300d\u307e\u305f\u306f\u30de\u30ad\u30b7\u30de\u30e0\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30b5\u30a4\u30d0\u30fc\u30b9\u65cf\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002\u6b8b\u308a\u306e\u30ab\u30fc\u30c9\u3092\u597d\u304d\u306a\u9806\u756a\u3067\u30c7\u30c3\u30ad\u306e\u4e0a\u306b\u623b\u3059\u3002"
+    },
+    "ko": {
+      "name": "\uc2a4\uce74\uc774\uc5e0\ud398\ub7ec \ubbf8\ub2c8\uc628",
+      "effect": "\uc790\uc2e0\uc758 \ub371 \uc704\uc5d0\uc11c \uce74\ub4dc\ub97c 4\uc7a5 \ub118\uae30\uace0, \uc11c\ub85c \ud655\uc778\ud55c\ub2e4. \uc790\uc2e0\uc740 \uadf8 \uc911\uc5d0\uc11c \"\uc2a4\ud398\uc774\uc2a4 \uc704\uadf8\ub4dc\ub77c\uace0\" \ub610\ub294 \ub9e5\uc2dc\uba48 \ubaac\uc2a4\ud130(\uc0ac\uc774\ubc84\uc2a4\uc871) 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\uc744 \uc218 \uc788\ub2e4. \ub0a8\uc740 \uce74\ub4dc\ub97c \uc88b\uc544\ud558\ub294 \uc21c\uc11c\ub300\ub85c \ub371 \uc704\ub85c \ub418\ub3cc\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "cyberse",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 1000,
+  "def": 100,
+  "passwords": [],
+  "images": [
+    {
+      "id": "7a58e36c-75d0-4ce0-a951-30e65d09b5f1",
+      "card": "https://ms.yugipedia.com//7/70/SkyEmperorMinion-RD5TH1-JP-SR.png"
+    }
+  ],
+  "sets": [
+    "b254644c-27d2-4111-9a53-3a82de7d4cd5"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Sky Emperor Minion",
+        "id": 1046291
+      }
+    ],
+    "dbID": 20179
+  },
+  "series": [
+    "001759e7-855e-4b0e-b581-199f0c377967"
+  ]
+}

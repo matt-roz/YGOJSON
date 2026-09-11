@@ -1,0 +1,157 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "76318e07-f172-4588-86eb-2ce80a62ebcf",
+  "name": {
+    "en": "Tournament Pack 2026 Vol.2",
+    "ja": "\u30c8\u30fc\u30ca\u30e1\u30f3\u30c8\u30d1\u30c3\u30af \uff12\uff10\uff12\uff16 \uff36\uff4f\uff4c\uff0e\uff12"
+  },
+  "locales": {
+    "jp": {
+      "language": "ja",
+      "prefix": "26TP-JP",
+      "date": "2026-07-01",
+      "image": "https://ms.yugipedia.com//d/db/26TP-BoosterJP-Vol2.png",
+      "cardImages": {
+        "unlimited": {
+          "3a9289c7-e99c-48d3-ae58-e4e8a2b959ff": "https://ms.yugipedia.com//1/1a/OceanDragonLordNeoDaedalus-26TP-JP-NPR.png",
+          "6ffdac7f-c7ee-46b7-8745-2a481c2a5adf": "https://ms.yugipedia.com//c/c8/TheMagicalKingofDimensionZeta-26TP-JP-SPR.png",
+          "b058bbbb-198f-4de3-b290-f82567fee2d3": "https://ms.yugipedia.com//a/a2/DoubleEvolutionPill-26TP-JP-SPR.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "3a9289c7-e99c-48d3-ae58-e4e8a2b959ff": {
+            "image": "https://ms.yugipedia.com//1/1a/OceanDragonLordNeoDaedalus-26TP-JP-NPR.png"
+          },
+          "6ffdac7f-c7ee-46b7-8745-2a481c2a5adf": {
+            "image": "https://ms.yugipedia.com//c/c8/TheMagicalKingofDimensionZeta-26TP-JP-SPR.png"
+          },
+          "b058bbbb-198f-4de3-b290-f82567fee2d3": {
+            "image": "https://ms.yugipedia.com//a/a2/DoubleEvolutionPill-26TP-JP-SPR.png"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          1000009605000
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//d/db/26TP-BoosterJP-Vol2.png",
+      "cards": [
+        {
+          "id": "6ffdac7f-c7ee-46b7-8745-2a481c2a5adf",
+          "card": "b7fd46ad-9ca2-42af-855b-0e908405b2ba",
+          "suffix": "201",
+          "rarity": "superparallel",
+          "printStatus": "new"
+        },
+        {
+          "id": "b058bbbb-198f-4de3-b290-f82567fee2d3",
+          "card": "f61891e4-48ef-4a05-b8bd-86e9fefdc3df",
+          "suffix": "202",
+          "rarity": "superparallel",
+          "imageID": "6d43c731-020d-43f6-86da-b74a6015542c",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "3a9289c7-e99c-48d3-ae58-e4e8a2b959ff",
+          "card": "64b3b37c-6fd5-47b4-bc77-7cb6fcffb9f4",
+          "suffix": "203",
+          "rarity": "commonparallel",
+          "imageID": "d325c8a1-5ac2-41b6-989c-4069979cc243",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "d720fa98-6529-4193-8b43-a6b51894f49b",
+          "card": "6e4e69d4-a0a2-4cb5-9431-8b59647f6b10",
+          "suffix": "204",
+          "rarity": "commonparallel",
+          "imageID": "9c284bd8-7bc1-4a68-b0b0-1d06fdba308c",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "912dec9c-da82-4a6a-9d08-154b9743e044",
+          "card": "7bbabb88-b7ab-4c05-99ed-4111506b7581",
+          "suffix": "205",
+          "rarity": "commonparallel",
+          "imageID": "95e9132c-f62c-473b-ad8f-3673a0a81c47",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "080f3683-09d9-4de5-812c-03a0212076be",
+          "card": "70bc6e52-4436-462e-8202-b11e8c178cb6",
+          "suffix": "206",
+          "rarity": "commonparallel",
+          "imageID": "c9ddf584-6882-4e2b-84e9-c29232225fce",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "7146d5c1-f98d-42a0-85ea-3de1081371c0",
+          "card": "e8fff317-9ddf-4de5-a2a1-39d77513c1c3",
+          "suffix": "207",
+          "rarity": "commonparallel",
+          "imageID": "b624fad5-c852-43d3-858b-60f7527e0369",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "20d961b0-ed60-4eb8-a705-f86b62175a80",
+          "card": "9850b8f1-812d-4da8-ba27-974279c4fb29",
+          "suffix": "208",
+          "rarity": "commonparallel",
+          "imageID": "0179f1c1-5127-482e-bad4-27859eab7cb4",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "cfb87103-9207-4888-ad71-7ae18b9d4280",
+          "card": "6fe50556-6813-4bb7-9d2f-3c77e509284c",
+          "suffix": "209",
+          "rarity": "commonparallel",
+          "imageID": "8a123b09-e82e-43b3-8a9c-1e6020d335a2",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "cedf62c5-5097-4590-832c-23f9d70ca9ee",
+          "card": "6ede053b-64df-48d4-84a8-66d84e8c1a19",
+          "suffix": "210",
+          "rarity": "commonparallel",
+          "imageID": "012bcdd7-9a08-4a7d-ae3f-e9728b715885",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "aaf08226-92f7-4bb7-adfb-be42ec1b0f9d",
+          "card": "c0ca2caa-cd1d-434a-ad1b-b0f46c3b7c7b",
+          "suffix": "211",
+          "rarity": "secret-blue",
+          "imageID": "95acaa87-7a69-4ef1-8ab2-a2569f0bb0d0",
+          "printStatus": "reprint"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Tournament Pack 2026 Vol.2",
+      "id": 1201703
+    }
+  }
+}

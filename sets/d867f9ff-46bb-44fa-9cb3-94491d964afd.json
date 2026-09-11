@@ -1,0 +1,795 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "d867f9ff-46bb-44fa-9cb3-94491d964afd",
+  "name": {
+    "en": "Structure Deck: Harpie Lady Sisters",
+    "ja": "\u30b9\u30c8\u30e9\u30af\u30c1\u30e3\u30fc\u30c7\u30c3\u30ad \u30cf\u30fc\u30d4\u30a3\u30fb\u30ec\u30c7\u30a3\u30fb\u30b7\u30b9\u30bf\u30fc\u30ba",
+    "ko": "\uc2a4\ud2b8\ub7ed\ucc98 \ub371 \ud574\ud53c \ub808\uc774\ub514 \uc2dc\uc2a4\ud130\uc988"
+  },
+  "locales": {
+    "jp": {
+      "language": "ja",
+      "prefix": "RD/SD0D-JP",
+      "date": "2025-03-08",
+      "image": "https://ms.yugipedia.com//f/fa/RDSD0D-DeckJP.png",
+      "cardImages": {
+        "unlimited": {}
+      },
+      "cardInfo": {
+        "unlimited": {}
+      },
+      "formats": [
+        "rushduel"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          1000100126000,
+          1000100127000
+        ]
+      }
+    },
+    "kr": {
+      "language": "ko",
+      "prefix": "RD/SD0D-KR",
+      "date": "2025-06-18",
+      "image": "https://ms.yugipedia.com//0/01/RDSD0D-DeckKR.png",
+      "cardImages": {
+        "unlimited": {}
+      },
+      "cardInfo": {
+        "unlimited": {}
+      },
+      "formats": [
+        "rushduel"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          1010100109000,
+          1010100110000
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "rushduel"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//f/fa/RDSD0D-DeckJP.png",
+      "cards": [
+        {
+          "id": "aa919fa1-53e5-44db-b15b-c4c32deb3bb7",
+          "card": "e9cdcfa9-4921-4a9a-9b62-6f9bc27542d7",
+          "suffix": "S01",
+          "rarity": "overrush",
+          "imageID": "5be09ce5-c6e2-4d0c-bed1-4fdd8fba2de3",
+          "printStatus": "new"
+        },
+        {
+          "id": "5b3da58d-06d7-4540-a391-63eeb75cc689",
+          "card": "dbf0feb4-379a-481a-8427-fd02cb61d933",
+          "suffix": "S02",
+          "rarity": "super",
+          "imageID": "df20a536-2474-4800-83b1-de240f27c0a0",
+          "printStatus": "new"
+        },
+        {
+          "id": "c07aa0f0-43a0-4d9f-9be7-942e83703a08",
+          "card": "d70303cf-e704-4178-bd43-94a90c3a290b",
+          "suffix": "S03",
+          "rarity": "super",
+          "imageID": "d71f6a74-74b9-4aa1-97ea-e65e745b137e",
+          "printStatus": "new"
+        },
+        {
+          "id": "91427ffc-fa9c-403f-a17e-492b321b82b7",
+          "card": "c9eefdb3-07b8-4f99-9b45-3f75c6fef17b",
+          "suffix": "S04",
+          "rarity": "super",
+          "imageID": "c3d82927-b24f-4211-b162-e9be0b7cb382",
+          "printStatus": "new"
+        },
+        {
+          "id": "99e0a9c6-4c4c-4a35-93a9-bf5af4482cd8",
+          "card": "ca6df279-fad2-474e-b909-9a42e9877394",
+          "suffix": "S05",
+          "rarity": "super",
+          "imageID": "c519d36c-ce50-4a43-98c8-36ac5fca8602",
+          "printStatus": "new"
+        },
+        {
+          "id": "c362eee7-51dc-425b-9dd3-20512cbda00b",
+          "card": "3419f828-4a99-450c-a3d0-d6c6499a61af",
+          "suffix": "S06",
+          "rarity": "super",
+          "imageID": "67f4b661-0959-4e69-b173-99ccf3997ad0",
+          "printStatus": "new"
+        },
+        {
+          "id": "06dbae6c-b5b7-44e0-89d1-3b81fc40d885",
+          "card": "548bffad-f2b1-47f5-8097-6cab4f727524",
+          "suffix": "S07",
+          "rarity": "super",
+          "imageID": "afe48544-c303-4a38-b433-4b0517b4fb96",
+          "printStatus": "new"
+        },
+        {
+          "id": "881629f0-fc45-40f4-b711-ad4b581c0c8d",
+          "card": "e9cdcfa9-4921-4a9a-9b62-6f9bc27542d7",
+          "suffix": "001",
+          "rarity": "ultra",
+          "imageID": "5be09ce5-c6e2-4d0c-bed1-4fdd8fba2de3",
+          "printStatus": "new"
+        },
+        {
+          "id": "6d8d5599-2df3-4f98-9cd8-2da2f86b8717",
+          "card": "dbf0feb4-379a-481a-8427-fd02cb61d933",
+          "suffix": "002",
+          "rarity": "common",
+          "imageID": "df20a536-2474-4800-83b1-de240f27c0a0",
+          "printStatus": "new"
+        },
+        {
+          "id": "08999533-4d0d-4e0d-a72f-f57b4643fccb",
+          "card": "d70303cf-e704-4178-bd43-94a90c3a290b",
+          "suffix": "003",
+          "rarity": "common",
+          "imageID": "d71f6a74-74b9-4aa1-97ea-e65e745b137e",
+          "printStatus": "new"
+        },
+        {
+          "id": "0e249d37-4d5f-4596-8ad3-d247d9d90a3a",
+          "card": "c9eefdb3-07b8-4f99-9b45-3f75c6fef17b",
+          "suffix": "004",
+          "rarity": "common",
+          "imageID": "c3d82927-b24f-4211-b162-e9be0b7cb382",
+          "printStatus": "new"
+        },
+        {
+          "id": "4c9bca4a-88a2-4b93-a33d-4849ad17be54",
+          "card": "ca6df279-fad2-474e-b909-9a42e9877394",
+          "suffix": "005",
+          "rarity": "common",
+          "imageID": "c519d36c-ce50-4a43-98c8-36ac5fca8602",
+          "printStatus": "new"
+        },
+        {
+          "id": "befd6b57-7237-4daf-a005-507346361f87",
+          "card": "3372c6ed-a1a2-44ee-a732-662efc4c6859",
+          "suffix": "006",
+          "rarity": "common",
+          "imageID": "65a76afe-9ec4-450a-9987-6bb9a2537435",
+          "printStatus": "new"
+        },
+        {
+          "id": "069eee32-d9fd-4b24-b3b8-080f72b12947",
+          "card": "3419f828-4a99-450c-a3d0-d6c6499a61af",
+          "suffix": "007",
+          "rarity": "common",
+          "imageID": "67f4b661-0959-4e69-b173-99ccf3997ad0",
+          "printStatus": "new"
+        },
+        {
+          "id": "b998f964-68f7-4d71-bc14-b740d78eeafb",
+          "card": "43cce9f7-9038-4fc0-8db1-bc657a45b6e2",
+          "suffix": "008",
+          "rarity": "ultra",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "d03794d7-0070-4723-b3ff-76d1d3b919bf",
+          "card": "43cce9f7-9038-4fc0-8db1-bc657a45b6e2",
+          "suffix": "008",
+          "rarity": "common",
+          "qty": 2,
+          "printStatus": "reprint"
+        },
+        {
+          "id": "cc1e32d3-13ae-41b5-bb98-bb0f03f0a525",
+          "card": "49a6fa4b-a037-447f-8565-fea01516006b",
+          "suffix": "009",
+          "rarity": "common",
+          "qty": 2,
+          "printStatus": "reprint"
+        },
+        {
+          "id": "56f89a02-63f0-431c-b9ad-32745c1b27e1",
+          "card": "7b7a9f67-bfcb-4a05-a306-3a76c219f678",
+          "suffix": "011",
+          "rarity": "commonparallel",
+          "imageID": "76e26b5e-2628-4de8-9684-352b26e9ac51",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "57e05c9b-43d4-4b61-a607-4bbd5a1804fb",
+          "card": "7b7a9f67-bfcb-4a05-a306-3a76c219f678",
+          "suffix": "011",
+          "rarity": "common",
+          "imageID": "76e26b5e-2628-4de8-9684-352b26e9ac51",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "01bc7c79-f82b-4311-b5bb-7296576cff97",
+          "card": "b3a0fcb8-f219-4054-9fb1-b8092dfb0a23",
+          "suffix": "013",
+          "rarity": "common",
+          "imageID": "54304fa5-5923-4ebc-857b-9b56be9d9f3f",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "febdd65e-b6cc-4446-9293-f50840b2b880",
+          "card": "2047a4fe-9d37-4d2d-9085-3aaa147c7be7",
+          "suffix": "014",
+          "rarity": "common",
+          "imageID": "ff25ccfa-d65c-4cc0-b082-4142594012fa",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "a51755c0-ed3f-4ecb-8bfa-ab9c493fd2cd",
+          "card": "51bf434b-7c5c-429d-bf1e-b83770fa2117",
+          "suffix": "015",
+          "rarity": "common",
+          "imageID": "d7e7856b-dfb4-4cc6-ac2c-2118d63019dd",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "d53f8c1c-9ca2-4409-91aa-50ea70c97ac7",
+          "card": "882f349d-d3cb-4047-8410-a0e75fa242ba",
+          "suffix": "016",
+          "rarity": "common",
+          "imageID": "59d00d6d-77bb-4224-979d-b40ca621103e",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "d51054be-707b-4d39-b2fa-f63969fb4fe7",
+          "card": "87c245f3-f2df-4ecc-ad6e-0fd9b17253dd",
+          "suffix": "017",
+          "rarity": "common",
+          "imageID": "ea0ad823-bbad-44ee-a6df-458603ed6ba4",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "1b9df01f-87e3-4a1a-aa35-49457a62460c",
+          "card": "f454e88b-90c8-42a7-9bd9-b8afe94fb4f5",
+          "suffix": "018",
+          "rarity": "common",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "5d817378-edfb-49f6-b5e0-3a6d0c614ec3",
+          "card": "8cd957c7-6860-4d36-a732-e8e043e1e7b8",
+          "suffix": "019",
+          "rarity": "common",
+          "imageID": "ca795368-17af-4a2e-a65f-798825b44733",
+          "qty": 2,
+          "printStatus": "reprint"
+        },
+        {
+          "id": "d9de70ec-709e-489a-8f2a-57ea0f236d4a",
+          "card": "c050ecaf-e7f3-4e92-8fbe-1aa917e5d44c",
+          "suffix": "020",
+          "rarity": "common",
+          "imageID": "df18a373-862c-4b58-9fcb-884625a00ba4",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "5113cb25-a4fd-45d4-b456-b5402d8655bb",
+          "card": "372f8329-c18b-4a61-aabb-f288906eb020",
+          "suffix": "021",
+          "rarity": "common",
+          "imageID": "9a50f21f-d27d-4a0a-8435-6273b32877e4",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "ad203d09-b54d-4567-9485-f01011b8ae85",
+          "card": "e0a86664-df8d-4aea-ba50-389e838264cd",
+          "suffix": "022",
+          "rarity": "common",
+          "imageID": "1624f0b0-5b87-48b8-bee8-d55d09f715c6",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "1223528f-8928-49ff-8de5-217fd92d231d",
+          "card": "d4fcb47f-8816-42a8-913f-8fa9117526a5",
+          "suffix": "023",
+          "rarity": "common",
+          "imageID": "d41d5d23-37d0-4f5c-9272-13aed116949e",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "bf1729bc-3b10-4a80-abf8-7512d88e41c4",
+          "card": "2b61e6eb-2adb-44fd-abce-d88e8bf90600",
+          "suffix": "024",
+          "rarity": "commonparallel",
+          "imageID": "30b62cde-3de9-4aeb-a19b-4302d9b54fc0",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "e51e1282-0d76-4ec4-80c6-7a91f3c601f0",
+          "card": "fe99d0f1-76aa-4ada-b0db-eae4e3b87efd",
+          "suffix": "025",
+          "rarity": "commonparallel",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "53cd37c9-4207-44bc-83ce-f766d00ecc68",
+          "card": "b910ffb1-450b-432e-9058-4a4de8dfb30d",
+          "suffix": "026",
+          "rarity": "common",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "719e11e8-355b-45cb-b4a0-756296206eab",
+          "card": "2cf3859a-06f3-4712-954c-2cfc1e2b4a3d",
+          "suffix": "027",
+          "rarity": "common",
+          "imageID": "1e41626d-e38e-4803-9de3-e39f790dad08",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "236303e1-b808-4799-8572-6237f7a79d02",
+          "card": "e6e3ca11-07a7-4bb0-8bce-850c2b29ac44",
+          "suffix": "028",
+          "rarity": "common",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "912fcc39-3516-4143-99f0-fc819de97118",
+          "card": "79cb753f-293a-46ae-a6ad-455e6882e7e4",
+          "suffix": "029",
+          "rarity": "commonparallel",
+          "imageID": "c00bcd22-a21a-46a8-80c2-2143365bf9d5",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "9e60780e-b721-40f7-9cf4-fb479b02996c",
+          "card": "05d8d6f3-4031-47f7-93c8-28269c75c451",
+          "suffix": "030",
+          "rarity": "common",
+          "imageID": "792532d5-7e62-40d2-97c7-4fb0f4f3d636",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "2aeeb5bc-01a6-4cf9-a64f-2099327bd7f2",
+          "card": "f35e680e-c6c8-495a-b86a-d0400178d2c8",
+          "suffix": "031",
+          "rarity": "common",
+          "imageID": "3a144f0d-e9b8-48cd-b5fa-35ce63b3affc",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "97f35c33-57f7-48aa-8b49-1c0c5bf8bd4f",
+          "card": "6a0c9745-abab-4d42-a527-51f82246d089",
+          "suffix": "032",
+          "rarity": "common",
+          "imageID": "01c7e885-6acd-4e94-ba14-82c83292eabe",
+          "qty": 2,
+          "printStatus": "reprint"
+        },
+        {
+          "id": "0562b8ba-40b8-456b-bdbd-f485dc97bd89",
+          "card": "64f1736d-7c20-4e04-bd8a-70418b098371",
+          "suffix": "033",
+          "rarity": "common",
+          "imageID": "b64c9c8b-d1dd-4e02-a0c0-b50a6b90ea4a",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "7745262b-d55e-4938-9b99-406fb9d6906c",
+          "card": "4615a063-3bc5-45e0-a00e-a10d3fef7686",
+          "suffix": "034",
+          "rarity": "commonparallel",
+          "imageID": "62699d4d-50ce-418c-9480-02410c096cae",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "361a83f8-890f-4dc1-96a9-3105f94d216d",
+          "card": "548bffad-f2b1-47f5-8097-6cab4f727524",
+          "suffix": "035",
+          "rarity": "common",
+          "imageID": "afe48544-c303-4a38-b433-4b0517b4fb96",
+          "printStatus": "new"
+        },
+        {
+          "id": "4eaa34f0-166d-48a2-a8bd-a41e3f1eb29d",
+          "card": "e7ba5222-1773-49b4-8b1a-3ef7c8dcc7f2",
+          "suffix": "036",
+          "rarity": "common",
+          "imageID": "60cc87e8-3443-4ace-8fd9-c93c7f7f4143",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "e278af39-efde-46d1-9117-8d98414503b9",
+          "card": "2e4d2bf2-d4ed-49b9-9e24-7a6944e8ca31",
+          "suffix": "037",
+          "rarity": "common",
+          "imageID": "f886faf8-26b2-415f-a8a1-91f2aba5b152",
+          "printStatus": "reprint"
+        }
+      ],
+      "externalIDs": {}
+    },
+    {
+      "locales": [
+        "kr"
+      ],
+      "formats": [
+        "rushduel"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//0/01/RDSD0D-DeckKR.png",
+      "cards": [
+        {
+          "id": "aa919fa1-53e5-44db-b15b-c4c32deb3bb7",
+          "card": "e9cdcfa9-4921-4a9a-9b62-6f9bc27542d7",
+          "suffix": "S01",
+          "rarity": "overrush",
+          "imageID": "5be09ce5-c6e2-4d0c-bed1-4fdd8fba2de3",
+          "printStatus": "new"
+        },
+        {
+          "id": "5b3da58d-06d7-4540-a391-63eeb75cc689",
+          "card": "dbf0feb4-379a-481a-8427-fd02cb61d933",
+          "suffix": "S02",
+          "rarity": "super",
+          "imageID": "df20a536-2474-4800-83b1-de240f27c0a0",
+          "printStatus": "new"
+        },
+        {
+          "id": "c07aa0f0-43a0-4d9f-9be7-942e83703a08",
+          "card": "d70303cf-e704-4178-bd43-94a90c3a290b",
+          "suffix": "S03",
+          "rarity": "super",
+          "imageID": "d71f6a74-74b9-4aa1-97ea-e65e745b137e",
+          "printStatus": "new"
+        },
+        {
+          "id": "91427ffc-fa9c-403f-a17e-492b321b82b7",
+          "card": "c9eefdb3-07b8-4f99-9b45-3f75c6fef17b",
+          "suffix": "S04",
+          "rarity": "super",
+          "imageID": "c3d82927-b24f-4211-b162-e9be0b7cb382",
+          "printStatus": "new"
+        },
+        {
+          "id": "99e0a9c6-4c4c-4a35-93a9-bf5af4482cd8",
+          "card": "ca6df279-fad2-474e-b909-9a42e9877394",
+          "suffix": "S05",
+          "rarity": "super",
+          "imageID": "c519d36c-ce50-4a43-98c8-36ac5fca8602",
+          "printStatus": "new"
+        },
+        {
+          "id": "c362eee7-51dc-425b-9dd3-20512cbda00b",
+          "card": "3419f828-4a99-450c-a3d0-d6c6499a61af",
+          "suffix": "S06",
+          "rarity": "super",
+          "imageID": "67f4b661-0959-4e69-b173-99ccf3997ad0",
+          "printStatus": "new"
+        },
+        {
+          "id": "06dbae6c-b5b7-44e0-89d1-3b81fc40d885",
+          "card": "548bffad-f2b1-47f5-8097-6cab4f727524",
+          "suffix": "S07",
+          "rarity": "super",
+          "imageID": "afe48544-c303-4a38-b433-4b0517b4fb96",
+          "printStatus": "new"
+        },
+        {
+          "id": "881629f0-fc45-40f4-b711-ad4b581c0c8d",
+          "card": "e9cdcfa9-4921-4a9a-9b62-6f9bc27542d7",
+          "suffix": "001",
+          "rarity": "ultra",
+          "imageID": "5be09ce5-c6e2-4d0c-bed1-4fdd8fba2de3",
+          "printStatus": "new"
+        },
+        {
+          "id": "6d8d5599-2df3-4f98-9cd8-2da2f86b8717",
+          "card": "dbf0feb4-379a-481a-8427-fd02cb61d933",
+          "suffix": "002",
+          "rarity": "common",
+          "imageID": "df20a536-2474-4800-83b1-de240f27c0a0",
+          "printStatus": "new"
+        },
+        {
+          "id": "08999533-4d0d-4e0d-a72f-f57b4643fccb",
+          "card": "d70303cf-e704-4178-bd43-94a90c3a290b",
+          "suffix": "003",
+          "rarity": "common",
+          "imageID": "d71f6a74-74b9-4aa1-97ea-e65e745b137e",
+          "printStatus": "new"
+        },
+        {
+          "id": "0e249d37-4d5f-4596-8ad3-d247d9d90a3a",
+          "card": "c9eefdb3-07b8-4f99-9b45-3f75c6fef17b",
+          "suffix": "004",
+          "rarity": "common",
+          "imageID": "c3d82927-b24f-4211-b162-e9be0b7cb382",
+          "printStatus": "new"
+        },
+        {
+          "id": "4c9bca4a-88a2-4b93-a33d-4849ad17be54",
+          "card": "ca6df279-fad2-474e-b909-9a42e9877394",
+          "suffix": "005",
+          "rarity": "common",
+          "imageID": "c519d36c-ce50-4a43-98c8-36ac5fca8602",
+          "printStatus": "new"
+        },
+        {
+          "id": "befd6b57-7237-4daf-a005-507346361f87",
+          "card": "3372c6ed-a1a2-44ee-a732-662efc4c6859",
+          "suffix": "006",
+          "rarity": "common",
+          "imageID": "65a76afe-9ec4-450a-9987-6bb9a2537435",
+          "printStatus": "new"
+        },
+        {
+          "id": "069eee32-d9fd-4b24-b3b8-080f72b12947",
+          "card": "3419f828-4a99-450c-a3d0-d6c6499a61af",
+          "suffix": "007",
+          "rarity": "common",
+          "imageID": "67f4b661-0959-4e69-b173-99ccf3997ad0",
+          "printStatus": "new"
+        },
+        {
+          "id": "b998f964-68f7-4d71-bc14-b740d78eeafb",
+          "card": "43cce9f7-9038-4fc0-8db1-bc657a45b6e2",
+          "suffix": "008",
+          "rarity": "ultra",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "d03794d7-0070-4723-b3ff-76d1d3b919bf",
+          "card": "43cce9f7-9038-4fc0-8db1-bc657a45b6e2",
+          "suffix": "008",
+          "rarity": "common",
+          "qty": 2,
+          "printStatus": "reprint"
+        },
+        {
+          "id": "cc1e32d3-13ae-41b5-bb98-bb0f03f0a525",
+          "card": "49a6fa4b-a037-447f-8565-fea01516006b",
+          "suffix": "009",
+          "rarity": "common",
+          "qty": 2,
+          "printStatus": "reprint"
+        },
+        {
+          "id": "56f89a02-63f0-431c-b9ad-32745c1b27e1",
+          "card": "7b7a9f67-bfcb-4a05-a306-3a76c219f678",
+          "suffix": "011",
+          "rarity": "commonparallel",
+          "imageID": "76e26b5e-2628-4de8-9684-352b26e9ac51",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "57e05c9b-43d4-4b61-a607-4bbd5a1804fb",
+          "card": "7b7a9f67-bfcb-4a05-a306-3a76c219f678",
+          "suffix": "011",
+          "rarity": "common",
+          "imageID": "76e26b5e-2628-4de8-9684-352b26e9ac51",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "01bc7c79-f82b-4311-b5bb-7296576cff97",
+          "card": "b3a0fcb8-f219-4054-9fb1-b8092dfb0a23",
+          "suffix": "013",
+          "rarity": "common",
+          "imageID": "54304fa5-5923-4ebc-857b-9b56be9d9f3f",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "febdd65e-b6cc-4446-9293-f50840b2b880",
+          "card": "2047a4fe-9d37-4d2d-9085-3aaa147c7be7",
+          "suffix": "014",
+          "rarity": "common",
+          "imageID": "ff25ccfa-d65c-4cc0-b082-4142594012fa",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "a51755c0-ed3f-4ecb-8bfa-ab9c493fd2cd",
+          "card": "51bf434b-7c5c-429d-bf1e-b83770fa2117",
+          "suffix": "015",
+          "rarity": "common",
+          "imageID": "d7e7856b-dfb4-4cc6-ac2c-2118d63019dd",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "d53f8c1c-9ca2-4409-91aa-50ea70c97ac7",
+          "card": "882f349d-d3cb-4047-8410-a0e75fa242ba",
+          "suffix": "016",
+          "rarity": "common",
+          "imageID": "59d00d6d-77bb-4224-979d-b40ca621103e",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "d51054be-707b-4d39-b2fa-f63969fb4fe7",
+          "card": "87c245f3-f2df-4ecc-ad6e-0fd9b17253dd",
+          "suffix": "017",
+          "rarity": "common",
+          "imageID": "ea0ad823-bbad-44ee-a6df-458603ed6ba4",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "1b9df01f-87e3-4a1a-aa35-49457a62460c",
+          "card": "f454e88b-90c8-42a7-9bd9-b8afe94fb4f5",
+          "suffix": "018",
+          "rarity": "common",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "5d817378-edfb-49f6-b5e0-3a6d0c614ec3",
+          "card": "8cd957c7-6860-4d36-a732-e8e043e1e7b8",
+          "suffix": "019",
+          "rarity": "common",
+          "imageID": "ca795368-17af-4a2e-a65f-798825b44733",
+          "qty": 2,
+          "printStatus": "reprint"
+        },
+        {
+          "id": "d9de70ec-709e-489a-8f2a-57ea0f236d4a",
+          "card": "c050ecaf-e7f3-4e92-8fbe-1aa917e5d44c",
+          "suffix": "020",
+          "rarity": "common",
+          "imageID": "df18a373-862c-4b58-9fcb-884625a00ba4",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "5113cb25-a4fd-45d4-b456-b5402d8655bb",
+          "card": "372f8329-c18b-4a61-aabb-f288906eb020",
+          "suffix": "021",
+          "rarity": "common",
+          "imageID": "9a50f21f-d27d-4a0a-8435-6273b32877e4",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "ad203d09-b54d-4567-9485-f01011b8ae85",
+          "card": "e0a86664-df8d-4aea-ba50-389e838264cd",
+          "suffix": "022",
+          "rarity": "common",
+          "imageID": "1624f0b0-5b87-48b8-bee8-d55d09f715c6",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "1223528f-8928-49ff-8de5-217fd92d231d",
+          "card": "d4fcb47f-8816-42a8-913f-8fa9117526a5",
+          "suffix": "023",
+          "rarity": "common",
+          "imageID": "d41d5d23-37d0-4f5c-9272-13aed116949e",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "bf1729bc-3b10-4a80-abf8-7512d88e41c4",
+          "card": "2b61e6eb-2adb-44fd-abce-d88e8bf90600",
+          "suffix": "024",
+          "rarity": "commonparallel",
+          "imageID": "30b62cde-3de9-4aeb-a19b-4302d9b54fc0",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "e51e1282-0d76-4ec4-80c6-7a91f3c601f0",
+          "card": "fe99d0f1-76aa-4ada-b0db-eae4e3b87efd",
+          "suffix": "025",
+          "rarity": "commonparallel",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "53cd37c9-4207-44bc-83ce-f766d00ecc68",
+          "card": "b910ffb1-450b-432e-9058-4a4de8dfb30d",
+          "suffix": "026",
+          "rarity": "common",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "719e11e8-355b-45cb-b4a0-756296206eab",
+          "card": "2cf3859a-06f3-4712-954c-2cfc1e2b4a3d",
+          "suffix": "027",
+          "rarity": "common",
+          "imageID": "1e41626d-e38e-4803-9de3-e39f790dad08",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "236303e1-b808-4799-8572-6237f7a79d02",
+          "card": "e6e3ca11-07a7-4bb0-8bce-850c2b29ac44",
+          "suffix": "028",
+          "rarity": "common",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "912fcc39-3516-4143-99f0-fc819de97118",
+          "card": "79cb753f-293a-46ae-a6ad-455e6882e7e4",
+          "suffix": "029",
+          "rarity": "commonparallel",
+          "imageID": "c00bcd22-a21a-46a8-80c2-2143365bf9d5",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "9e60780e-b721-40f7-9cf4-fb479b02996c",
+          "card": "05d8d6f3-4031-47f7-93c8-28269c75c451",
+          "suffix": "030",
+          "rarity": "common",
+          "imageID": "792532d5-7e62-40d2-97c7-4fb0f4f3d636",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "2aeeb5bc-01a6-4cf9-a64f-2099327bd7f2",
+          "card": "f35e680e-c6c8-495a-b86a-d0400178d2c8",
+          "suffix": "031",
+          "rarity": "common",
+          "imageID": "3a144f0d-e9b8-48cd-b5fa-35ce63b3affc",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "97f35c33-57f7-48aa-8b49-1c0c5bf8bd4f",
+          "card": "6a0c9745-abab-4d42-a527-51f82246d089",
+          "suffix": "032",
+          "rarity": "common",
+          "imageID": "01c7e885-6acd-4e94-ba14-82c83292eabe",
+          "qty": 2,
+          "printStatus": "reprint"
+        },
+        {
+          "id": "0562b8ba-40b8-456b-bdbd-f485dc97bd89",
+          "card": "64f1736d-7c20-4e04-bd8a-70418b098371",
+          "suffix": "033",
+          "rarity": "common",
+          "imageID": "b64c9c8b-d1dd-4e02-a0c0-b50a6b90ea4a",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "7745262b-d55e-4938-9b99-406fb9d6906c",
+          "card": "4615a063-3bc5-45e0-a00e-a10d3fef7686",
+          "suffix": "034",
+          "rarity": "commonparallel",
+          "imageID": "62699d4d-50ce-418c-9480-02410c096cae",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "361a83f8-890f-4dc1-96a9-3105f94d216d",
+          "card": "548bffad-f2b1-47f5-8097-6cab4f727524",
+          "suffix": "035",
+          "rarity": "common",
+          "imageID": "afe48544-c303-4a38-b433-4b0517b4fb96",
+          "printStatus": "new"
+        },
+        {
+          "id": "4eaa34f0-166d-48a2-a8bd-a41e3f1eb29d",
+          "card": "e7ba5222-1773-49b4-8b1a-3ef7c8dcc7f2",
+          "suffix": "036",
+          "rarity": "common",
+          "imageID": "60cc87e8-3443-4ace-8fd9-c93c7f7f4143",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "e278af39-efde-46d1-9117-8d98414503b9",
+          "card": "2e4d2bf2-d4ed-49b9-9e24-7a6944e8ca31",
+          "suffix": "037",
+          "rarity": "common",
+          "imageID": "f886faf8-26b2-415f-a8a1-91f2aba5b152",
+          "printStatus": "reprint"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Structure Deck: Harpie Lady Sisters",
+      "id": 1101143
+    }
+  }
+}

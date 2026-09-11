@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "3b4ce781-45ab-4134-8a12-dac8bc37d785",
+  "name": {
+    "en": "Duelist League Series 3 participation card"
+  },
+  "locales": {
+    "na": {
+      "language": "en",
+      "prefix": "DL3-",
+      "date": "2004-02-01",
+      "cardImages": {},
+      "cardInfo": {},
+      "formats": [
+        "tcg"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          1121202005
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "na"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "distrobution": "preconstructed",
+      "cards": [
+        {
+          "id": "446701ab-4ae3-46cb-85d5-1cedfe7e2e08",
+          "card": "cd414938-4032-4616-9d0f-887f4376b789",
+          "suffix": "001",
+          "rarity": "rare",
+          "imageID": "ce0b67cf-c626-4c34-bc7e-c1efbc8f0d37"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Duelist League Series 3 participation card",
+      "id": 2007
+    }
+  }
+}

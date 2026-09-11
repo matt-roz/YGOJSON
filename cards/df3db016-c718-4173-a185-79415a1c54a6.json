@@ -1,0 +1,71 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "df3db016-c718-4173-a185-79415a1c54a6",
+  "text": {
+    "en": {
+      "name": "Picklon the Constructor Fairy",
+      "effect": "Draw 1 card."
+    },
+    "fr": {
+      "name": "Picklon l'Elfe de Construction",
+      "effect": "Piochez 1 carte."
+    },
+    "de": {
+      "name": "Picklon die Konstruktofee",
+      "effect": "Ziehe 1 Karte."
+    },
+    "it": {
+      "name": "Picklon la Fata Costruttore",
+      "effect": "Pesca 1 carta."
+    },
+    "es": {
+      "name": "Picklon el Hada Constructora",
+      "effect": "Roba 1 carta."
+    },
+    "ja": {
+      "name": "\u5e7b\u5203\u5996\u7cbe\u30d4\u30c3\u30b1\u30ed\u30f3",
+      "effect": "\u81ea\u5206\u306f\uff11\u679a\u30c9\u30ed\u30fc\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud658\uc778\uc694\uc815 \ud53c\ucf00\ub860",
+      "effect": "\uc790\uc2e0\uc740 1\uc7a5 \ub4dc\ub85c\uc6b0\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "wyrm",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 200,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "096be9aa-1c50-40a4-8917-8253f6307ace",
+      "card": "https://ms.yugipedia.com//5/5c/PicklontheConstructorFairy-RDTB01-JP-C.png"
+    }
+  ],
+  "sets": [
+    "ec7418c0-cd48-468b-9ef5-a362b2a63198",
+    "728adba0-7417-496b-921a-bee0c18a0be2",
+    "728adba0-7417-496b-921a-bee0c18a0be2"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Picklon the Constructor Fairy",
+        "id": 716228
+      }
+    ],
+    "dbID": 16186
+  },
+  "series": [
+    "f9467656-3928-4546-ab32-6354fc22eaa0"
+  ]
+}

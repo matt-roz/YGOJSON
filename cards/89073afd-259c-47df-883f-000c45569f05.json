@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "89073afd-259c-47df-883f-000c45569f05",
+  "text": {
+    "en": {
+      "name": "Limlith the Skysavior Princess",
+      "effect": "Add up to 2 \"Soleil, the Fairy of Skysavior\", \"Lua, the Fairy of Skysavior\", and/or \"Fusion\" from your Graveyard to your hand. Then, you can send 1 monster from your field to the Graveyard.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u84bc\u6551\u738b\u59eb \u30ea\u30e0\u30ea\u30b9",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u84bc\u6551\u5929\u4f7f \u30bd\u30ec\u30a4\u30eb\u300d\u300c\u84bc\u6551\u5929\u4f7f \u30eb\u30fc\u30a2\u300d\u300c\u30d5\u30e5\u30fc\u30b8\u30e7\u30f3\u300d\u3092\u5408\u8a08\uff12\u679a\u307e\u3067\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u3092\u9078\u3093\u3067\u5893\u5730\u3078\u9001\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ucc3d\uad6c\uc655\ud76c \ub9ac\ubb34\ub9ac\uc2a4",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \"\ucc3d\uad6c\ucc9c\uc0ac \uc194\ub808\uc77c\" \"\ucc3d\uad6c\ucc9c\uc0ac \ub8e8\uc544\" \"\ud4e8\uc804\"\uc744 \ud569\uacc4 2\uc7a5\uae4c\uc9c0 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\ub294\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0 \ud544\ub4dc\uc758 \ubaac\uc2a4\ud130 1\uc7a5\uc744 \uace0\ub974\uace0 \ubb18\uc9c0\ub85c \ubcf4\ub0bc \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "fairy",
+  "classifications": [
+    "effect"
+  ],
+  "level": 9,
+  "atk": 1800,
+  "def": 2300,
+  "passwords": [],
+  "images": [
+    {
+      "id": "0eb177e6-f32b-41bc-9ae2-7572484db610",
+      "card": "https://ms.yugipedia.com//a/aa/LimliththeSkysaviorPrincess-RDORP4-JP-UR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Limlith the Skysavior Princess",
+        "id": 1176310
+      }
+    ],
+    "dbID": 23071
+  },
+  "series": [
+    "ca246ec0-d926-4a5f-b983-145ffb05a55c"
+  ]
+}

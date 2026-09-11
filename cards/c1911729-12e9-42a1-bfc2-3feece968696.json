@@ -1,0 +1,44 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "c1911729-12e9-42a1-bfc2-3feece968696",
+  "text": {
+    "en": {
+      "name": "Equipment of Ascension",
+      "effect": "The equipped monster's Level increases by 2 and it gains 200 ATK/DEF."
+    },
+    "ja": {
+      "name": "\u6607\u9663\u306e\u88c5\u5099\u54c1",
+      "effect": "\u88c5\u5099\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u30ec\u30d9\u30eb\u306f\uff12\u3064\u4e0a\u304c\u308a\u3001\u653b\u6483\u529b\u30fb\u5b88\u5099\u529b\u306f\uff12\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc2b9\uc9c4\uc758 \uc7a5\ucc29\ub3c4\uad6c",
+      "effect": "\uc7a5\ucc29 \ubaac\uc2a4\ud130\uc758 \ub808\ubca8\uc740 2\uac1c \uc62c\ub77c\uac00\uace0, \uacf5\uaca9\ub825 / \uc218\ube44\ub825\uc740 200 \uc62c\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "equip",
+  "passwords": [],
+  "images": [
+    {
+      "id": "a9708bbf-4f9c-4b88-a901-6d54116ce307",
+      "card": "https://ms.yugipedia.com//d/de/EquipmentofAscension-RDKP11-JP-C.png"
+    }
+  ],
+  "sets": [
+    "cf303586-057a-4e6c-ae2a-65879480865d"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "n"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Equipment of Ascension",
+        "id": 713101
+      }
+    ],
+    "dbID": 18290
+  },
+  "series": []
+}

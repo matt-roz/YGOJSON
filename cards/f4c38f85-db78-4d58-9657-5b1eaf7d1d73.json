@@ -1,0 +1,48 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "f4c38f85-db78-4d58-9657-5b1eaf7d1d73",
+  "text": {
+    "en": {
+      "name": "Fist the Contractor of the Imprisoned Dragon",
+      "effect": "Destroy 1 monster on your opponent's field. Then, you can destroy 1 WATER Attribute Magical Knight or Machine Type monster on your opponent's field.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u7344\u7adc\u306e\u5951\u7d04\u8005 \u30d5\u30a3\u30b9\u30c8",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u3092\u9078\u3093\u3067\u7834\u58ca\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u6c34\u5c5e\u6027\uff0f\u9b54\u5c0e\u9a0e\u58eb\u65cf\u30fb\u6a5f\u68b0\u65cf\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u7834\u58ca\u3067\u304d\u308b\u3002"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "wyrm",
+  "classifications": [
+    "effect"
+  ],
+  "level": 9,
+  "atk": 2800,
+  "def": 2000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "bffaffd1-46bd-438b-8edc-d861e7af305b",
+      "card": "https://ms.yugipedia.com//2/24/FisttheContractoroftheImprisonedDragon-RDKP26-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Fist the Contractor of the Imprisoned Dragon",
+        "id": 1206795
+      }
+    ],
+    "dbID": 23749
+  },
+  "series": [
+    "b5500ee0-0299-4300-b263-6a518ad26652"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "e0baaafe-d5c1-4327-af66-590db2618049",
+  "text": {
+    "en": {
+      "name": "Tribute Impact",
+      "effect": "Send monsters from your hand to the Graveyard whose total Levels equal the Level of 1 face-up monster on your opponent's field. This turn, if you would Tribute Summon a monster, you can Tribute that opponent's face-up monster instead of 1 monster on your field.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30a2\u30c9\u30d0\u30f3\u30b9\u30fb\u30a4\u30f3\u30d1\u30af\u30c8",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u3092\u9078\u3073\u3001\u30ec\u30d9\u30eb\u306e\u5408\u8a08\u304c\u305d\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u30ec\u30d9\u30eb\u3068\u540c\u3058\u306b\u306a\u308b\u3088\u3046\u306b\u81ea\u5206\u306f\u624b\u672d\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u3092\u5893\u5730\u3078\u9001\u308b\u3002\u3053\u306e\u30bf\u30fc\u30f3\u3001\u81ea\u5206\u304c\u30e2\u30f3\u30b9\u30bf\u30fc\u3092\u30a2\u30c9\u30d0\u30f3\u30b9\u53ec\u559a\u3059\u308b\u5834\u5408\u3001\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u306e\u4ee3\u308f\u308a\u306b\u9078\u3093\u3060\u76f8\u624b\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\u3092\u30ea\u30ea\u30fc\u30b9\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc5b4\ub4dc\ubc34\uc2a4 \uc784\ud329\ud2b8",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130 1\uc7a5\uc744 \uace0\ub974\uace0, \ub808\ubca8\uc758 \ud569\uacc4\uac00 \uadf8 \ubaac\uc2a4\ud130\uc758 \ub808\ubca8\uacfc \uac19\uc544\uc9c0\ub3c4\ub85d \uc790\uc2e0\uc740 \ud328\uc758 \ubaac\uc2a4\ud130\ub97c \ubb18\uc9c0\ub85c \ubcf4\ub0b8\ub2e4. \uc774 \ud134\uc5d0, \uc790\uc2e0\uc774 \ubaac\uc2a4\ud130\ub97c \uc5b4\ub4dc\ubc34\uc2a4 \uc18c\ud658\ud560 \uacbd\uc6b0, \uc790\uc2e0 \ud544\ub4dc\uc758 \ubaac\uc2a4\ud130 1\uc7a5 \ub300\uc2e0\uc5d0 \uace0\ub978 \uc0c1\ub300\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130\ub97c \ub9b4\ub9ac\uc2a4\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "dcd2b56c-c077-4c8d-bd02-37466d94695a",
+      "card": "https://ms.yugipedia.com//2/22/TributeImpact-RDSD0F-JP-C.png"
+    }
+  ],
+  "sets": [
+    "e2b816ef-5178-4aa9-b864-7248f545e896",
+    "e2b816ef-5178-4aa9-b864-7248f545e896"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Advance Impact",
+        "id": 934525
+      }
+    ],
+    "dbID": 18975
+  },
+  "series": [
+    "059923a7-4962-4032-a3bb-dab94d3fb38c"
+  ]
+}

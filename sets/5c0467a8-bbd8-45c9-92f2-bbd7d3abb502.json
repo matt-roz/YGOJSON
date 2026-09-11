@@ -1,0 +1,70 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "5c0467a8-bbd8-45c9-92f2-bbd7d3abb502",
+  "name": {
+    "en": "Shadow Samurai Value Box"
+  },
+  "locales": {
+    "en": {
+      "language": "en",
+      "prefix": "SDWA-EN",
+      "image": "https://ms.yugipedia.com//4/41/SDWA-PromoEN.png",
+      "cardImages": {
+        "unlimited": {
+          "76734281-144d-496e-b507-0d1594588dfb": "https://ms.yugipedia.com//0/06/ShadowoftheSixSamuraiShien-SDWA-EN-UR-UE-CT.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "76734281-144d-496e-b507-0d1594588dfb": {
+            "image": "https://ms.yugipedia.com//0/06/ShadowoftheSixSamuraiShien-SDWA-EN-UR-UE-CT.png",
+            "variants": [
+              {
+                "code": "CT",
+                "image": "https://ms.yugipedia.com//0/06/ShadowoftheSixSamuraiShien-SDWA-EN-UR-UE-CT.png"
+              }
+            ]
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {}
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "en"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "distrobution": "preconstructed",
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//4/41/SDWA-PromoEN.png",
+      "cards": [
+        {
+          "id": "76734281-144d-496e-b507-0d1594588dfb",
+          "card": "90e558eb-b4b0-440f-931f-de95b768b4e4",
+          "suffix": "041",
+          "rarity": "ultra",
+          "imageID": "cd80d1d7-767d-4386-8ba5-5c17f4d314ff"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Shadow Samurai Value Box",
+      "id": 312457
+    }
+  }
+}

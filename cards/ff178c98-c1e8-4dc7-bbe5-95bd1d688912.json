@@ -1,0 +1,55 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "ff178c98-c1e8-4dc7-bbe5-95bd1d688912",
+  "text": {
+    "en": {
+      "name": "Endoll",
+      "effect": "Send this card from your field to the Graveyard. Then, you can Set up to 2 \"Climax Finale\" and/or \"Psychic Introduction\" from your Graveyard in your Spell & Trap Zone."
+    },
+    "ja": {
+      "name": "\u30a2\u30f3\u30c9\u30fc\u30eb",
+      "effect": "\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u3053\u306e\u30ab\u30fc\u30c9\u3092\u5893\u5730\u3078\u9001\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u30af\u30e9\u30a4\u30de\u30c3\u30af\u30b9\u30fb\u30d5\u30a3\u30ca\u30fc\u30ec\u300d\u300c\u30b5\u30a4\u30ad\u30c3\u30af\u30fb\u30a4\u30f3\u30c8\u30ed\u30c0\u30af\u30b7\u30e7\u30f3\u300d\u3092\u5408\u8a08\uff12\u679a\u307e\u3067\u9078\u3093\u3067\u81ea\u5206\u306e\u9b54\u6cd5\uff06\u7f60\u30be\u30fc\u30f3\u306b\u30bb\u30c3\u30c8\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc575\ub3cc",
+      "effect": "\uc790\uc2e0 \ud544\ub4dc\uc758 \uc774 \uce74\ub4dc\ub97c \ubb18\uc9c0\ub85c \ubcf4\ub0b8\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0 \ubb18\uc9c0\uc758 \"\ud074\ub77c\uc774\ub9e5\uc2a4 \ud53c\ub0a0\ub808\" \"\uc0ac\uc774\ud0a5 \uc778\ud2b8\ub85c\ub355\uc158\"\uc744 \ud569\uacc4 2\uc7a5\uae4c\uc9c0 \uace0\ub974\uace0 \uc790\uc2e0\uc758 \ub9c8\ubc95 & \ud568\uc815 \uc874\uc5d0 \uc138\ud2b8\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "psychic",
+  "classifications": [
+    "effect"
+  ],
+  "level": 1,
+  "atk": 200,
+  "def": 100,
+  "passwords": [],
+  "images": [
+    {
+      "id": "eae6234a-3224-45dd-aded-b9c9b0fcd9ff",
+      "card": "https://ms.yugipedia.com//3/35/Endoll-RDSBD4-JP-C.png"
+    }
+  ],
+  "sets": [
+    "fa6096f7-75e2-43af-90f5-a5bbc2febd9a",
+    "9f297267-1ebc-44e2-b4a4-d3e5fea47c30",
+    "9f297267-1ebc-44e2-b4a4-d3e5fea47c30"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "r"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Endoll",
+        "id": 714796
+      }
+    ],
+    "dbID": 16325
+  },
+  "series": [
+    "d44dfc09-8d68-4b5a-ad5a-b70e6583268b"
+  ]
+}

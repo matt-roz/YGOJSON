@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "a77d0680-66d9-48e2-89f3-0ff0ee31c401",
+  "text": {
+    "en": {
+      "name": "Crystal Seer (Rush Duel)",
+      "effect": "Excavate the top 2 cards of your Deck. Add 1 excavated card to your hand. Place the other card on the bottom of your Deck. This turn, you cannot activate the effect of \"Crystal Seer\".",
+      "official": false
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "type": "spellcaster",
+  "classifications": [
+    "effect"
+  ],
+  "level": 1,
+  "atk": 100,
+  "def": 100,
+  "passwords": [],
+  "images": [
+    {
+      "id": "3b92c79e-b387-4c04-b6c7-7733e57c968d",
+      "card": "https://ms.yugipedia.com//0/0f/CrystalSeer-RDSJMP-JP-OP.png"
+    }
+  ],
+  "sets": [
+    "b254644c-27d2-4111-9a53-3a82de7d4cd5"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Crystal Seer (Rush Duel)",
+        "id": 1209493
+      }
+    ],
+    "dbID": 23807
+  },
+  "series": []
+}

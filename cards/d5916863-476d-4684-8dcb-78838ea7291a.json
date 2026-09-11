@@ -1,0 +1,44 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "d5916863-476d-4684-8dcb-78838ea7291a",
+  "text": {
+    "en": {
+      "name": "Twilight Companion - Dralia",
+      "effect": "This card gains 600 ATK until the end of this turn. Then, you can place 1 Spell Card from your Graveyard on top of the Deck, except a Normal Spell Card.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u9ec4\u660f\u306e\u53cb\u3060\u3061 \u30c9\u30e9\u30ea\u30a2",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u306e\u653b\u6483\u529b\u306f\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\uff16\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u901a\u5e38\u9b54\u6cd5\u30ab\u30fc\u30c9\u4ee5\u5916\u306e\u81ea\u5206\u306e\u5893\u5730\u306e\u9b54\u6cd5\u30ab\u30fc\u30c9\uff11\u679a\u3092\u9078\u3093\u3067\u30c7\u30c3\u30ad\u306e\u4e0a\u306b\u623b\u3059\u4e8b\u304c\u3067\u304d\u308b\u3002"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "classifications": [
+    "effect"
+  ],
+  "level": 5,
+  "atk": 1900,
+  "def": 1900,
+  "passwords": [],
+  "images": [
+    {
+      "id": "31d6c182-726c-4cca-862f-c6782b39b002",
+      "card": "https://ms.yugipedia.com//e/e3/TwilightCompanionDralia-RDKP25-JP-R.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Twilight Companion - Dralia",
+        "id": 1191100
+      }
+    ],
+    "dbID": 23265
+  },
+  "series": [
+    "1d849c21-e080-46d9-8477-f72044a333e0"
+  ]
+}

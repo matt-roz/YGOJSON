@@ -1,0 +1,53 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "a1ae280d-1265-4a44-946d-98411bedde99",
+  "text": {
+    "en": {
+      "name": "Crusher Drone",
+      "effect": "This card gains 400 ATK until the end of this turn."
+    },
+    "ja": {
+      "name": "\u30af\u30e9\u30c3\u30b7\u30e3\u30fc\u30fb\u30c9\u30ed\u30fc\u30f3",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u306e\u653b\u6483\u529b\u306f\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\uff14\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud06c\ub7ec\uc154 \ub4dc\ub860",
+      "effect": "\uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\ub825\uc740 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0 400 \uc62c\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1200,
+  "def": 200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "2446d532-aca0-40ef-8623-b1155bc06b68",
+      "card": "https://ms.yugipedia.com//f/f7/CrusherDrone-RDSD02-JP-C.png"
+    }
+  ],
+  "sets": [
+    "a3a484b7-43f4-4cde-aa3c-fc8bd9d7f99a",
+    "a5dd7265-59c0-48dc-b924-5def08b05a08",
+    "a5dd7265-59c0-48dc-b924-5def08b05a08"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Crusher Drone",
+        "id": 714377
+      }
+    ],
+    "dbID": 17517
+  },
+  "series": []
+}

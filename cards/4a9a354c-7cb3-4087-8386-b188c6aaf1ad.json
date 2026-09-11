@@ -1,0 +1,42 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "4a9a354c-7cb3-4087-8386-b188c6aaf1ad",
+  "text": {
+    "en": {
+      "name": "Super War-Lion (Rush Duel)"
+    },
+    "ko": {
+      "name": "\uc288\ud37c \uc6cc \ub77c\uc774\uc628"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "monsterCardTypes": [
+    "ritual"
+  ],
+  "type": "beast",
+  "level": 7,
+  "atk": 2300,
+  "def": 2100,
+  "passwords": [],
+  "images": [
+    {
+      "id": "8e439ce6-e7ec-4a94-841f-e2fd7a2a71b5",
+      "card": "https://ms.yugipedia.com//c/cd/SuperWarLion-RDKP23-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Super War-Lion (Rush Duel)",
+        "id": 1145884
+      }
+    ],
+    "dbID": 22471
+  },
+  "series": [
+    "377f5195-a851-455c-848a-4c3de76fe92c"
+  ]
+}

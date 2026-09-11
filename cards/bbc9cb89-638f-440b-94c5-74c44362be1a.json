@@ -1,0 +1,46 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "bbc9cb89-638f-440b-94c5-74c44362be1a",
+  "text": {
+    "en": {
+      "name": "Voidalfr Voyastrider",
+      "effect": "Draw 1 card.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30f4\u30a9\u30a4\u30c9\u30a2\u30eb\u30f4\u30fb\u30a2\u30e1\u30f3\u30dc\u30a4\u30b8\u30e3\u30fc",
+      "effect": "\u81ea\u5206\u306f\uff11\u679a\u30c9\u30ed\u30fc\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ubcf4\uc774\ub4dc\uc54c\ube0c \uc544\uba58\ubcf4\uc774\uc800",
+      "effect": "\uc790\uc2e0\uc740 1\uc7a5 \ub4dc\ub85c\uc6b0\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "classifications": [
+    "effect"
+  ],
+  "level": 1,
+  "atk": 100,
+  "def": 100,
+  "passwords": [],
+  "images": [
+    {
+      "id": "539c0611-e53b-49ae-ba16-8bd7aecb5e56",
+      "card": "https://ms.yugipedia.com//3/31/VoidalfrVoyastrider-RDKP24-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Voidalfr Voyastrider",
+        "id": 1174024
+      }
+    ],
+    "dbID": 22832
+  },
+  "series": []
+}

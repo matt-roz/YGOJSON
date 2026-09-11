@@ -1,0 +1,47 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "6fed7746-006f-47b9-80cb-1e82a9d1fb05",
+  "text": {
+    "en": {
+      "name": "Grace Bird",
+      "effect": "Draw 1 card. Then, you can add 1 \"Grace Princess Kana\" from your Graveyard to your hand.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u3044\u3068\u3092\u304b\u3057\u3068\u308a",
+      "effect": "\u81ea\u5206\u306f\uff11\u679a\u30c9\u30ed\u30fc\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u3044\u3068\u3092\u304b\u3057\u304b\u306a\u3072\u3081\u300d\uff11\u4f53\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc559\uac31\uc9f9\uc9f9\uc774",
+      "effect": "\uc790\uc2e0\uc740 1\uc7a5 \ub4dc\ub85c\uc6b0\ud55c\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0 \ubb18\uc9c0\uc758 \"\uc559\uac31\uacf5\uc8fc\" 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\uc744 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "aqua",
+  "classifications": [
+    "effect"
+  ],
+  "level": 2,
+  "atk": 0,
+  "def": 1400,
+  "passwords": [],
+  "images": [
+    {
+      "id": "88dcb4ff-4e38-4fb1-ab2d-664e7eb7f2d9",
+      "card": "https://ms.yugipedia.com//9/91/GraceBird-RDAP01-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Grace Bird",
+        "id": 1131860
+      }
+    ],
+    "dbID": 21867
+  },
+  "series": []
+}

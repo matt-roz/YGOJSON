@@ -1,0 +1,44 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "58a0099e-89de-4990-97f5-0bbb8dded2a3",
+  "text": {
+    "en": {
+      "name": "Clashing Twin Tides",
+      "effect": "Draw 2 cards."
+    },
+    "ja": {
+      "name": "\u53cc\u6d77\u6f6e\u6d41",
+      "effect": "\u81ea\u5206\u306f\uff12\u679a\u30c9\u30ed\u30fc\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc30d\ud574\uc870\ub958",
+      "effect": "\uc790\uc2e0\uc740 2\uc7a5 \ub4dc\ub85c\uc6b0\ud55c\ub2e4."
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "ce71eb89-4a6d-4145-a0ff-4c49b495f7d3",
+      "card": "https://ms.yugipedia.com//6/6b/ClashingTwinTides-RDKP18-JP-R.png"
+    }
+  ],
+  "sets": [
+    "cf303586-057a-4e6c-ae2a-65879480865d"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Clashing Twin Tides",
+        "id": 1066774
+      }
+    ],
+    "dbID": 20660
+  },
+  "series": []
+}

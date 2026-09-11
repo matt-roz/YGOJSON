@@ -1,0 +1,42 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "715b1359-cb16-4221-96e5-45c8d9a12c0a",
+  "text": {
+    "en": {
+      "name": "Salamangreat Bastella",
+      "effect": "If you control no monsters, or all monsters you control are \"Salamangreat\" monsters: You can Special Summon this card from your hand, then you can increase or decrease the Level of 1 monster on the field by 1. If you Link Summon a Link-3 or higher FIRE Link Monster while this card is in your GY: You can banish this card; Set 1 \"Salamangreat\" Trap from your Deck. You can only use each effect of \"Salamangreat Bastella\" once per turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u8ee2\u751f\u708e\u7363\u30d0\u30b9\u30c6\u30e9"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "type": "cyberse",
+  "classifications": [
+    "effect",
+    "tuner"
+  ],
+  "level": 3,
+  "atk": 1600,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "fd59eb69-f510-462e-9def-47bb9cf91b47",
+      "card": "https://ms.yugipedia.com//f/f3/SalamangreatBastella-IMPH-JP-OP.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Salamangreat Bastella",
+        "id": 1223807
+      }
+    ]
+  },
+  "series": []
+}

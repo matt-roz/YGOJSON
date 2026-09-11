@@ -1,0 +1,57 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "507104ed-be3c-4188-bb41-7389ed6ed96b",
+  "text": {
+    "en": {
+      "name": "Barrel Dragon the Machine Dragon",
+      "effect": "If you control no monsters, you can Normal Summon this card without Tributing. You can only use each of the following effects of \"Barrel Dragon the Machine Dragon\" once per turn. During your Main Phase: You can add 1 DARK Machine monster from your Deck to your hand, except \"Barrel Dragon the Machine Dragon\". During the Battle Phase, if this card is in your GY because it was sent there from the field this turn (Quick Effect): You can Special Summon it, and if you do, toss a coin 3 times, then you can destroy monsters on the field up to the number of heads.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u6a5f\u68b0\u9f8d\uff0d\u30ea\u30dc\u30eb\u30d0\u30fc\u30fb\u30c9\u30e9\u30b4\u30f3"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2600,
+  "def": 2200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "1412bea8-89f6-4e66-9de4-f7f84f389b8b",
+      "card": "https://ms.yugipedia.com//9/9c/BarrelDragontheMachineDragon-YAC1-JP-OP.png"
+    },
+    {
+      "id": "2d788bc1-96e4-4dfc-b25d-0856ac8c7153",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/100459005.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/100459005.jpg"
+    }
+  ],
+  "sets": [
+    "9aefc662-0b55-44d0-85b1-7c92cfe8a78b",
+    "9aefc662-0b55-44d0-85b1-7c92cfe8a78b",
+    "9aefc662-0b55-44d0-85b1-7c92cfe8a78b",
+    "9aefc662-0b55-44d0-85b1-7c92cfe8a78b"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Barrel Dragon the Machine Dragon",
+        "id": 1210807
+      }
+    ],
+    "ygoprodeck": {
+      "id": 100459005,
+      "name": "barrel-dragon-the-machine-dragon-15901"
+    }
+  },
+  "series": [
+    "992195af-9023-42ac-a777-ebafed05eb08"
+  ]
+}

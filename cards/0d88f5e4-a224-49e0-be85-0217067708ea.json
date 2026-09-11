@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "0d88f5e4-a224-49e0-be85-0217067708ea",
+  "text": {
+    "en": {
+      "name": "Thoroughbred Elf",
+      "effect": "During your Main Phase: You can send 1 Equip Spell from your Deck to the GY, then this card gains 500 ATK until the end of your opponent's turn. You can only use this effect of \"Thoroughbred Elf\" once per turn. When this card destroys an opponent's monster by battle: You can add to your hand, or Special Summon, 1 Level 4 or lower LIGHT Spellcaster monster from your Deck, except \"Thoroughbred Elf\".",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30b5\u30e9\u30d6\u30ec\u30c3\u30c9\u30fb\u30a8\u30eb\u30d5"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "spellcaster",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1800,
+  "def": 1500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "7ea772a9-2c68-4f82-9072-65f0d245f526",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/100200292.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/100200292.jpg"
+    }
+  ],
+  "sets": [
+    "9af9360d-3df0-4167-836e-58336ad638b2",
+    "c5b81438-6f5b-428c-810e-dcb18ee8c464"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Thoroughbred Elf",
+        "id": 1187489
+      }
+    ],
+    "ygoprodeck": {
+      "id": 100200292,
+      "name": "thoroughbred-elf-15762"
+    }
+  },
+  "series": []
+}

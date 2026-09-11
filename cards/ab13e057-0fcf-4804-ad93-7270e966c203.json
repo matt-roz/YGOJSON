@@ -1,0 +1,67 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "ab13e057-0fcf-4804-ad93-7270e966c203",
+  "text": {
+    "en": {
+      "name": "Red-Eyes Black Cat",
+      "effect": "A black cat with red eyes. Said to bring bad luck to those around it."
+    },
+    "fr": {
+      "name": "Chat Noir aux Yeux Rouges",
+      "effect": "Un chat noir aux yeux rouges. On dit qu'il porte malheur \u00e0 ceux qui l'entourent."
+    },
+    "de": {
+      "name": "Rot\u00e4ugige schwarze Katze",
+      "effect": "Eine schwarze Katze mit roten Augen. Es hei\u00dft, sie bringe allen in ihrer Umgebung Pech."
+    },
+    "it": {
+      "name": "Gatto Nero Occhi Rossi",
+      "effect": "Un gatto nero con gli occhi rossi. Si dice che porti sfortuna a chi gli sta intorno."
+    },
+    "es": {
+      "name": "Gato Negro de Ojos Rojos",
+      "effect": "Un gato negro con ojos rojos. Se dice que trae mala suerte a quien se acerca a \u00e9l."
+    },
+    "ja": {
+      "name": "\u8d64\u773c\u306e\u9ed2\u732b",
+      "effect": "\u8d64\u3044\u773c\u3092\u6301\u3064\u9ed2\u732b\u3002\u95a2\u308f\u3063\u305f\u8005\u306b\u5e78\u304b\u4e0d\u5e78\u3092\u3082\u305f\u3089\u3059\u3089\u3057\u3044\u3002"
+    },
+    "ko": {
+      "name": "\ubd89\uc740 \ub208\uc758 \uac80\uc740 \uace0\uc591\uc774",
+      "effect": "\ubd89\uc740 \ub208\uc744 \uac00\uc9c4 \uac80\uc740 \uace0\uc591\uc774. \uc774 \uace0\uc591\uc774\uc640 \uc5ee\uc778 \uc790\uc5d0\uac8c\ub294 \ud589\uc6b4\uc774\ub098 \ubd88\ud589\uc774 \ucd08\ub798\ud55c\ub2e4\uace0 \ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "beast",
+  "classifications": [
+    "normal"
+  ],
+  "level": 1,
+  "atk": 500,
+  "def": 200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "f8ae286f-69bb-4b49-a6fa-d705b5b8446b",
+      "card": "https://ms.yugipedia.com//f/fd/RedEyesBlackCat-RDMAX1-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Red-Eyes Black Cat",
+        "id": 716404
+      }
+    ],
+    "dbID": 15920
+  },
+  "series": [
+    "79a5d72a-ddca-4158-ae45-bb393d081135"
+  ]
+}

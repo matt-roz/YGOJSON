@@ -1,0 +1,52 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "585f4ad0-3ea6-4653-8469-2fb1d2eff37d",
+  "text": {
+    "en": {
+      "name": "Transam Ephyrai",
+      "effect": "Make 1 face-up \"Transam Linac\" on your field gain 1000 ATK until the end of this turn."
+    },
+    "ja": {
+      "name": "\u30c8\u30e9\u30f3\u30b6\u30e0\u30fb\u30a8\u30d5\u30a3\u30e9\u30a4",
+      "effect": "\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u306e\u300c\u30c8\u30e9\u30f3\u30b6\u30e0\u30fb\u30e9\u30a4\u30ca\u30c3\u30af\u300d\uff11\u4f53\u3092\u9078\u3073\u3001\u305d\u306e\u653b\u6483\u529b\u3092\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\uff11\uff10\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud2b8\ub79c\uc7a0 \uc5d0\ud53c\ub77c\uc774",
+      "effect": "\uc790\uc2e0 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc\uc758 \"\ud2b8\ub79c\uc7a0 \ub77c\uc774\ub098\ud06c\" 1\uc7a5\uc744 \uace0\ub974\uace0, \uadf8 \uacf5\uaca9\ub825\uc744 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0 1000 \uc62c\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1200,
+  "def": 500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "a16187a1-1177-4a77-8d2d-3389494dd000",
+      "card": "https://ms.yugipedia.com//3/34/TransamEphyrai-RDSD01-JP-C.png"
+    }
+  ],
+  "sets": [
+    "5a8e3bbc-04f9-4c06-a5e4-c47fdaa54a25",
+    "5a8e3bbc-04f9-4c06-a5e4-c47fdaa54a25",
+    "4454e1d2-cecc-444f-ad47-a642c0e93b9b"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Transam Ephyrai",
+        "id": 717187
+      }
+    ],
+    "dbID": 17502
+  },
+  "series": []
+}

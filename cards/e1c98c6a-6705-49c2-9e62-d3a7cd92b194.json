@@ -1,0 +1,50 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "e1c98c6a-6705-49c2-9e62-d3a7cd92b194",
+  "text": {
+    "en": {
+      "name": "Splendid Floor Master",
+      "effect": "Toss a coin. Heads: Draw 2 cards. Tails: Draw 1 card.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30b9\u30d7\u30ec\u30f3\u30c7\u30a3\u30c3\u30c9\u30fb\uff26\u30de\u30b9\u30bf\u30fc",
+      "effect": "\u30b3\u30a4\u30f3\u30c8\u30b9\u3092\uff11\u56de\u884c\u3046\u3002\u8868\u3060\u3063\u305f\u5834\u5408\u3001\u81ea\u5206\u306f\uff12\u679a\u30c9\u30ed\u30fc\u3059\u308b\u3002\u88cf\u3060\u3063\u305f\u5834\u5408\u3001\u81ea\u5206\u306f\uff11\u679a\u30c9\u30ed\u30fc\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc2a4\ud50c\ub80c\ub514\ub4dc F\ub9c8\uc2a4\ud130",
+      "effect": "\ucf54\uc778 \ud1a0\uc2a4\ub97c 1\ud68c \uc2e4\ud589\ud55c\ub2e4. \uc55e\uba74\uc778 \uacbd\uc6b0, \uc790\uc2e0\uc740 2\uc7a5 \ub4dc\ub85c\uc6b0\ud55c\ub2e4. \ub4b7\uba74\uc778 \uacbd\uc6b0, \uc790\uc2e0\uc740 1\uc7a5 \ub4dc\ub85c\uc6b0\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "spellcaster",
+  "classifications": [
+    "effect"
+  ],
+  "level": 6,
+  "atk": 2400,
+  "def": 1200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "73deebd3-4c41-4e6e-b24d-62e80600a497",
+      "card": "https://ms.yugipedia.com//a/af/SplendidFloorMaster-RDKP10-JP-R.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Splendid Floor Master",
+        "id": 716800
+      }
+    ],
+    "dbID": 17892
+  },
+  "series": []
+}

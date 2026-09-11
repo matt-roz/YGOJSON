@@ -1,0 +1,46 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "3d869e4c-40a0-4ccc-9490-f9ba7d32286d",
+  "text": {
+    "en": {
+      "name": "Cyber Shark (Rush Duel)",
+      "effect": "None"
+    },
+    "ko": {
+      "name": "\uc0ac\uc774\ubc84 \uc0e4\ud06c",
+      "effect": "\uc5c6\uc74c"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "type": "fish",
+  "classifications": [
+    "effect"
+  ],
+  "level": 5,
+  "atk": 2100,
+  "def": 2000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "5292427c-d7f0-48e1-b120-7050399e88f2",
+      "card": "https://ms.yugipedia.com//7/7c/CyberShark-RDKP15-JP-SR.png"
+    },
+    {
+      "id": "f79f7cc3-c512-43f9-beef-85f9c3f61158",
+      "card": "https://ms.yugipedia.com//5/53/CyberShark-RDKP15-JP-ScR-AA.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Cyber Shark (Rush Duel)",
+        "id": 1023238
+      }
+    ],
+    "dbID": 19656
+  },
+  "series": []
+}

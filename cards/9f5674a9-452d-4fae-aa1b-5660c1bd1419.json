@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "9f5674a9-452d-4fae-aa1b-5660c1bd1419",
+  "text": {
+    "en": {
+      "name": "Destructor Soldier Plasterer",
+      "effect": "Demolish, construct, demolish, construct... Endeavoring to erect a utopia, this soldier tackles one layer at a time."
+    },
+    "ja": {
+      "name": "\u5e7b\u58ca\u5175\u30b5\u30ab\u30f3\u30fb\u30e4\u30b5\u30f3",
+      "effect": "\u7814\u947d\u3092\u91cd\u306d\u308b\u5e7b\u58ca\u5175\u3002\u7406\u60f3\u90f7\u3092\u7bc9\u304f\u70ba\u3001\u7834\u58ca\u3068\u5275\u9020\u3092\u7e70\u308a\u8fd4\u3059\u3002"
+    },
+    "ko": {
+      "name": "\ud658\uad34\ubcd1 \uc0ac\uce78 \uc57c\uc0b0",
+      "effect": "\uc5f0\uad6c\ub97c \uac70\ub4ed\ud558\ub294 \ud658\uad34\ubcd1. \uc774\uc0c1\ud5a5\uc744 \uad6c\ucd95\ud558\uae30 \uc704\ud574, \ud30c\uad34\uc640 \ucc3d\uc870\ub97c \ubc18\ubcf5\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "type": "wyrm",
+  "classifications": [
+    "normal"
+  ],
+  "level": 4,
+  "atk": 1300,
+  "def": 800,
+  "passwords": [],
+  "images": [
+    {
+      "id": "0e8c907d-eec3-4968-b8ea-e003f4fd0cfd",
+      "card": "https://ms.yugipedia.com//5/5b/DestructorSoldierPlasterer-RDTB01-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "r"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Destructor Soldier Plasterer",
+        "id": 980619
+      }
+    ],
+    "dbID": 19129
+  },
+  "series": [
+    "67b235e9-be91-4647-ac78-b92102a5898b"
+  ]
+}

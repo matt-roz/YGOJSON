@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "7725d76d-dd4e-4819-a05d-83f53ef6c391",
+  "text": {
+    "en": {
+      "name": "Destructor Soldier Haken",
+      "effect": "Send this card from your field to the Graveyard, both players draw 2 cards. For the rest of this turn, you cannot Normal or Special Summon non-Wyrm Type monsters in face-up position, and you can only attack with 1 monster."
+    },
+    "ja": {
+      "name": "\u5e7b\u58ca\u5175\u30cf\u30b1\u30f3\u30fb\u30cf\u30fc\u30b1\u30f3",
+      "effect": "\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u3053\u306e\u30ab\u30fc\u30c9\u3092\u5893\u5730\u3078\u9001\u308a\u3001\u304a\u4e92\u3044\u306f\uff12\u679a\u30c9\u30ed\u30fc\u3059\u308b\u3002\u3053\u306e\u52b9\u679c\u306e\u767a\u52d5\u5f8c\u3001\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\u81ea\u5206\u306f\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u5e7b\u7adc\u65cf\u4ee5\u5916\uff09\u3092\u8868\u5074\u8868\u793a\u3067\u53ec\u559a\u30fb\u7279\u6b8a\u53ec\u559a\u3067\u304d\u305a\u3001\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u3067\u3057\u304b\u653b\u6483\u3067\u304d\u306a\u3044\u3002"
+    },
+    "ko": {
+      "name": "\ud658\uad34\ubcd1 \ud558\uacac \ud558\ucf04",
+      "effect": "\uc790\uc2e0 \ud544\ub4dc\uc758 \uc774 \uce74\ub4dc\ub97c \ubb18\uc9c0\ub85c \ubcf4\ub0b4\uace0, \uc591\ucabd \ud50c\ub808\uc774\uc5b4\ub294 2\uc7a5 \ub4dc\ub85c\uc6b0\ud55c\ub2e4. \uc774 \ud6a8\uacfc\uc758 \ubc1c\ub3d9 \ud6c4, \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0 \uc790\uc2e0\uc740 \ubaac\uc2a4\ud130(\ud658\ub8e1\uc871 \uc774\uc678)\ub97c \uc55e\uba74 \ud45c\uc2dc\ub85c \uc77c\ubc18 \uc18c\ud658 / \ud2b9\uc218 \uc18c\ud658\ud560 \uc218 \uc5c6\uc73c\uba70, \ubaac\uc2a4\ud130 1\uc7a5\uc73c\ub85c\ubc16\uc5d0 \uacf5\uaca9\ud560 \uc218 \uc5c6\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "type": "wyrm",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 800,
+  "def": 800,
+  "passwords": [],
+  "images": [
+    {
+      "id": "253ebd61-3012-41cc-8108-40f447ddae3c",
+      "card": "https://ms.yugipedia.com//d/d3/DestructorSoldierHaken-RDKP18-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Destructor Soldier Haken",
+        "id": 1067970
+      }
+    ],
+    "dbID": 20621
+  },
+  "series": [
+    "67b235e9-be91-4647-ac78-b92102a5898b"
+  ]
+}

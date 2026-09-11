@@ -1,0 +1,78 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "caacb75e-18a6-4d3a-bb92-500e3d3341da",
+  "text": {
+    "en": {
+      "name": "Twin Edge Dragon",
+      "effect": "This card can attack twice during this turn."
+    },
+    "fr": {
+      "name": "Dragon Double Lame",
+      "effect": "Cette carte peut attaquer deux fois durant ce tour."
+    },
+    "de": {
+      "name": "Zwillingskanten-Drache",
+      "effect": "Diese Karte kann in diesem Spielzug zweimal angreifen."
+    },
+    "it": {
+      "name": "Drago Lame Gemelle",
+      "effect": "Questa carta pu\u00f2 attaccare due volte durante questo turno."
+    },
+    "es": {
+      "name": "Drag\u00f3n de Doble Filo",
+      "effect": "Esta carta puede atacar dos veces durante este turno."
+    },
+    "ja": {
+      "name": "\u30c4\u30a4\u30f3\u30a8\u30c3\u30b8\u30fb\u30c9\u30e9\u30b4\u30f3",
+      "effect": "\u3053\u306e\u30bf\u30fc\u30f3\u3001\u3053\u306e\u30ab\u30fc\u30c9\u306f\uff12\u56de\u653b\u6483\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud2b8\uc708\uc5d0\uc9c0 \ub4dc\ub798\uace4",
+      "effect": "\uc774 \ud134\uc5d0, \uc774 \uce74\ub4dc\ub294 2\ud68c \uacf5\uaca9\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "dragon",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 1000,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "8ee27f8f-ebee-4c01-8096-c3ddcbecaa74",
+      "card": "https://ms.yugipedia.com//4/42/TwinEdgeDragon-RDSD03-JP-C.png"
+    }
+  ],
+  "sets": [
+    "e670ec5c-7fbb-49cd-9899-885731ab9e90",
+    "389782ec-2c38-4819-ae84-d3d562b6364c",
+    "3fe0b98a-9822-4fdc-8329-1fdd2fa31e6d",
+    "a08d0d55-5282-4487-b8b3-a190adb90edf",
+    "c0287cbc-dc56-47ae-9e89-0af80eb1b3d9",
+    "b3912bea-7700-43b3-8e58-def0f757111c",
+    "b3912bea-7700-43b3-8e58-def0f757111c",
+    "94cc13bc-8f74-45f7-95b1-a46788eb60dc",
+    "94cc13bc-8f74-45f7-95b1-a46788eb60dc",
+    "94cc13bc-8f74-45f7-95b1-a46788eb60dc",
+    "94cc13bc-8f74-45f7-95b1-a46788eb60dc",
+    "11548122-d48e-4313-aff4-6d29bca3f0b0"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "r"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Twin Edge Dragon",
+        "id": 717272
+      }
+    ],
+    "dbID": 15169
+  },
+  "series": []
+}

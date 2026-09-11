@@ -1,0 +1,54 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "27d891d6-81b5-47e9-bfc2-366bad0a9582",
+  "text": {
+    "en": {
+      "name": "Surge Bolt Lizard",
+      "effect": "Materializes alongside a flash of lightning. This electric creature can zap through machinery to short-circuit their being."
+    },
+    "ja": {
+      "name": "\u30b5\u30fc\u30b8\u30fb\u30dc\u30eb\u30c8\u30fb\u30ea\u30b6\u30fc\u30c9",
+      "effect": "\u843d\u96f7\u3068\u5171\u306b\u73fe\u308c\u308b\u96fb\u6c17\u751f\u7269\u3002\u8eab\u4f53\u3092\u96fb\u6d41\u5316\u3057\u3066\u56de\u8def\u306b\u4fb5\u5165\u3057\u3001\u6a5f\u68b0\u3092\u6545\u969c\u3055\u305b\u3066\u3057\u307e\u3046\u305e\u3002"
+    },
+    "ko": {
+      "name": "\uc11c\uc9c0 \ubcfc\ud2b8 \ub9ac\uc800\ub4dc",
+      "effect": "\ub099\ub8b0\ub97c \ub3d9\ubc18\ud558\uba70 \ub098\ud0c0\ub098\ub294 \uc804\uae30\uc0dd\ubb3c. \uc804\ub958\ud654\ud55c \ubab8\uc73c\ub85c \ud68c\ub85c\uc5d0 \uce68\uc785\ud574, \uae30\uacc4\ub97c \uace0\uc7a5 \ub0b4\ubc84\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "thunder",
+  "classifications": [
+    "normal"
+  ],
+  "level": 4,
+  "atk": 1500,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "8e83d813-b754-48e8-bb44-91b2894daf7b",
+      "card": "https://ms.yugipedia.com//a/a2/SurgeBoltLizard-RDGRD2-JP-C.png"
+    }
+  ],
+  "sets": [
+    "f97239a1-ffdc-49fe-a78c-d89fc57c1403",
+    "31432588-1ddf-4225-8c5e-7dfc48faac1e",
+    "31432588-1ddf-4225-8c5e-7dfc48faac1e",
+    "62f50503-1055-4260-b990-3fb3469154e0"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "n"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Surge Bolt Lizard",
+        "id": 716942
+      }
+    ],
+    "dbID": 16317
+  },
+  "series": []
+}

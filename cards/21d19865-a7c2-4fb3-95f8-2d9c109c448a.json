@@ -1,0 +1,53 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "21d19865-a7c2-4fb3-95f8-2d9c109c448a",
+  "text": {
+    "en": {
+      "name": "Metarion Herculestar",
+      "effect": "\u25cfShuffle up to 3 monsters from your opponent's Graveyard into the Deck. \u25cfShuffle up to 2 face-up Spellcaster Type monsters on your opponent's field into the Deck."
+    },
+    "ja": {
+      "name": "\u30e1\u30bf\u30ea\u30aa\u30f3\u30fb\u30a8\u30fc\u30e9\u30af\u30ec\u30b9\u30bf\u30fc",
+      "effect": "\u25cf\u76f8\u624b\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u3092\uff13\u4f53\u307e\u3067\u9078\u3093\u3067\u30c7\u30c3\u30ad\u306b\u623b\u3059\u3002\u25cf\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u9b54\u6cd5\u4f7f\u3044\u65cf\uff09\u3092\uff12\u4f53\u307e\u3067\u9078\u3093\u3067\u6301\u3061\u4e3b\u306e\u30c7\u30c3\u30ad\u306b\u623b\u3059\u3002"
+    },
+    "ko": {
+      "name": "\uba54\ud0c0\ub9ac\uc628 \uc5d0\ub77c\ud074\ub808\uc2a4\ud0c0",
+      "effect": "\u25cf\uc0c1\ub300 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130\ub97c 3\uc7a5\uae4c\uc9c0 \uace0\ub974\uace0 \ub371\uc73c\ub85c \ub418\ub3cc\ub9b0\ub2e4. \u25cf\uc0c1\ub300 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\ub9c8\ubc95\uc0ac\uc871)\ub97c 2\uc7a5\uae4c\uc9c0 \uace0\ub974\uace0 \uc8fc\uc778\uc758 \ub371\uc73c\ub85c \ub418\ub3cc\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "classifications": [
+    "effect"
+  ],
+  "level": 9,
+  "atk": 2800,
+  "def": 2500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "a5e19226-649e-4817-8349-c197c1eaef5c",
+      "card": "https://ms.yugipedia.com//4/43/MetarionHerculestar-RDLGP2-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Metarion Herculestar",
+        "id": 715887
+      }
+    ],
+    "dbID": 16888
+  },
+  "series": [
+    "bff3c17c-7080-49f0-a844-a0e55c603bae"
+  ]
+}

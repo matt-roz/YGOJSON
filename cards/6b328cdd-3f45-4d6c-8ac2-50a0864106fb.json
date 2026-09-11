@@ -1,0 +1,69 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "6b328cdd-3f45-4d6c-8ac2-50a0864106fb",
+  "text": {
+    "en": {
+      "name": "Umegumi the Ruler's Squad",
+      "effect": "1 face-up monster on your opponent's field loses 500 ATK/DEF until the end of this turn."
+    },
+    "fr": {
+      "name": "Umegumi l'Escouade du Souverain",
+      "effect": "1 monstre face recto sur le Terrain de votre adversaire perd 500 ATK/DEF jusqu'\u00e0 la fin de ce tour."
+    },
+    "de": {
+      "name": "Umegumi, Trupp des Herrschers",
+      "effect": "1 offenes Monster auf dem Spielfeld deines Gegners verliert bis zum Ende dieses Spielzugs 500 ATK/DEF."
+    },
+    "it": {
+      "name": "Umegumi la Squadra del Sovrano",
+      "effect": "1 mostro scoperto sul Terreno del tuo avversario perde 500 ATK/DEF fino alla fine di questo turno."
+    },
+    "es": {
+      "name": "Umegumi el Escuadr\u00f3n del Gobernante",
+      "effect": "1 monstruo boca arriba en el Campo de tu adversario pierde 500 ATK/DEF hasta el final de este turno."
+    },
+    "ja": {
+      "name": "\u9b54\u5c06\u5206\u968a \u57cb\u7d44",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u3092\u9078\u3073\u3001\u305d\u306e\u653b\u6483\u529b\u30fb\u5b88\u5099\u529b\u3092\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\uff15\uff10\uff10\u30c0\u30a6\u30f3\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub9c8\uc7a5\ubd84\ub300 \ub9e4\uc870",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130 1\uc7a5\uc744 \uace0\ub974\uace0, \uadf8 \uacf5\uaca9\ub825 / \uc218\ube44\ub825\uc744 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0 500 \ub0b4\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 6,
+  "atk": 1700,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "15d153b9-ab18-4a77-9d7a-2117c32d5f5c",
+      "card": "https://ms.yugipedia.com//a/a9/UmegumitheRulersSquad-RDSBD3-JP-C.png"
+    }
+  ],
+  "sets": [
+    "e670ec5c-7fbb-49cd-9899-885731ab9e90",
+    "f8e7532a-02f9-4834-aa0e-230e163cf5e4",
+    "f8e7532a-02f9-4834-aa0e-230e163cf5e4"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Umegumi the Ruler's Squad",
+        "id": 717310
+      }
+    ],
+    "dbID": 15650
+  },
+  "series": []
+}

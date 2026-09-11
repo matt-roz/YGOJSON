@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "9306d242-cbbe-47cf-98e2-41d873b07ec7",
+  "text": {
+    "en": {
+      "name": "Silver Belfry Battery Bastion",
+      "effect": "Cannot be Special Summoned. Requires 3 Machine Tributes to Normal Summon (cannot be Normal Set). If this card attacks your opponent directly and reduces their LP to 0, you win the Match."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2500,
+  "def": 2000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "1e90e872-c686-4e28-95d9-74e03ee8062c",
+      "card": "https://ms.yugipedia.com//3/35/SilverBelfryBatteryBastion-2026-EN-EScR-UE.png"
+    }
+  ],
+  "sets": [
+    "eeb7dcca-1370-4458-b4a9-6cda9ad03680"
+  ],
+  "illegal": true,
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Silver Belfry Battery Bastion",
+        "id": 1215390
+      }
+    ],
+    "dbID": 23415
+  },
+  "series": []
+}

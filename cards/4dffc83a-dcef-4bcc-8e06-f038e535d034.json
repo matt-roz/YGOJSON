@@ -1,0 +1,46 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "4dffc83a-dcef-4bcc-8e06-f038e535d034",
+  "text": {
+    "en": {
+      "name": "Attribute Rejection",
+      "effect": "Target 1 face-up monster your opponent controls that was Special Summoned from the Extra Deck; send 1 DARK or Zombie monster from your hand, Deck, or face-up field to the GY, and if you do, the targeted monster loses ATK equal to the sent monster's original ATK, then if the targeted monster is LIGHT, negate its effects. You can only activate 1 \"Attribute Rejection\" per turn. If this card was activated as Chain Link 3 or higher, your opponent cannot activate cards or effects in response to this card's activation.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u5c5e\u6027\u53cd\u767a\u4f5c\u7528"
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "quickplay",
+  "passwords": [],
+  "images": [
+    {
+      "id": "65823b37-deb8-4c50-95cc-04d639166c0f",
+      "card": "https://ms.yugipedia.com//0/09/AttributeRejection-YAC1-JP-OP.png"
+    },
+    {
+      "id": "3c056c55-f15e-459f-9b45-51f51b4045b1",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/100459019.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/100459019.jpg"
+    }
+  ],
+  "sets": [
+    "9aefc662-0b55-44d0-85b1-7c92cfe8a78b",
+    "9aefc662-0b55-44d0-85b1-7c92cfe8a78b"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Attribute Rejection",
+        "id": 1222613
+      }
+    ],
+    "ygoprodeck": {
+      "id": 100459019,
+      "name": "attribute-rejection-15926"
+    }
+  },
+  "series": []
+}

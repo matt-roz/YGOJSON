@@ -1,0 +1,47 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "780f3cf1-1c65-4159-81b6-671a6fbe2607",
+  "text": {
+    "en": {
+      "name": "Grandmaster Bathynomus",
+      "effect": "A mysterious life form from the ocean floor. It is said legendary sea serpents dwell in its habitat.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30b0\u30e9\u30f3\u30c9\u30de\u30b9\u30bf\u30fc\u30fb\u30d0\u30b7\u30ce\u30e2\u30b9",
+      "effect": "\u6d77\u5e95\u306b\u3044\u308b\u8b0e\u306e\u751f\u547d\u4f53\u3002\u305d\u306e\u751f\u606f\u57df\u306b\u306f\u4f1d\u8aac\u306e\u6d77\u7adc\u304c\u4f4f\u307e\u3046\u3068\u3044\u3046\u3002"
+    },
+    "ko": {
+      "name": "\uadf8\ub79c\ub4dc\ub9c8\uc2a4\ud130 \ubc14\uc2dc\ub178\ubaa8\uc2a4",
+      "effect": "\ud574\uc800\uc5d0 \uc788\ub294 \uc218\uc218\uaed8\ub07c\uc758 \uc0dd\uba85\uccb4. \uadf8 \uc11c\uc2dd\uc9c0\uc5d0\ub294 \uc804\uc124\uc758 \ud574\ub8e1\uc774 \uc0b4\uace0 \uc788\ub2e4\uace0 \ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "seaserpent",
+  "classifications": [
+    "normal"
+  ],
+  "level": 1,
+  "atk": 0,
+  "def": 1500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "55d2fee5-2f81-4e9f-b267-fc75d8805b25",
+      "card": "https://ms.yugipedia.com//b/b5/GrandmasterBathynomus-RDVSP1-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Groundmaster Bathynomus",
+        "id": 806126
+      }
+    ],
+    "dbID": 18775
+  },
+  "series": []
+}

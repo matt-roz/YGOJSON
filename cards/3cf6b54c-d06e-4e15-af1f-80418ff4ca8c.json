@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "3cf6b54c-d06e-4e15-af1f-80418ff4ca8c",
+  "text": {
+    "en": {
+      "name": "Hydrangea the Shadow Flower Tea Master",
+      "effect": "Excavate the top 5 cards of your Deck. You can add 1 excavated Level 7 Plant Type monster and/or 1 \"Fusion\" to your hand. Place the other cards on the bottom of your Deck in any order. If you added 2 cards to your hand by this effect, send 1 card from your hand to the Graveyard.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u82b1\u7259\u70b9\u306e\u30a2\u30b8\u30b5\u30a4",
+      "effect": "\u81ea\u5206\u306e\u30c7\u30c3\u30ad\u306e\u4e0a\u304b\u3089\u30ab\u30fc\u30c9\u3092\uff15\u679a\u3081\u304f\u308a\u3001\u304a\u4e92\u3044\u306b\u78ba\u8a8d\u3059\u308b\u3002\u81ea\u5206\u306f\u305d\u306e\u4e2d\u304b\u3089\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff17\uff0f\u690d\u7269\u65cf\uff09\u3068\u300c\u30d5\u30e5\u30fc\u30b8\u30e7\u30f3\u300d\u3092\u305d\u308c\u305e\u308c\uff11\u679a\u307e\u3067\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002\u6b8b\u308a\u306e\u30ab\u30fc\u30c9\u3092\u597d\u304d\u306a\u9806\u756a\u3067\u30c7\u30c3\u30ad\u306e\u4e0b\u306b\u623b\u3059\u3002\u3053\u306e\u52b9\u679c\u3067\uff12\u679a\u3092\u624b\u672d\u306b\u52a0\u3048\u305f\u5834\u5408\u3001\u3055\u3089\u306b\u81ea\u5206\u306e\u624b\u672d\uff11\u679a\u3092\u9078\u3093\u3067\u5893\u5730\u3078\u9001\u308b\u3002"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "plant",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 700,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "9f4d9363-0354-4d4b-88b6-c320096ed61b",
+      "card": "https://ms.yugipedia.com//6/62/HydrangeatheShadowFlowerTeaMaster-RDKP25-JP-SR.png"
+    },
+    {
+      "id": "8b267bcb-1f50-4341-9c64-5c7f7036823e",
+      "card": "https://ms.yugipedia.com//7/7c/HydrangeatheShadowFlowerTeaMaster-RDKP25-JP-ScR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Hydrangea the Shadow Flower Tea Master",
+        "id": 1187790
+      }
+    ],
+    "dbID": 23226
+  },
+  "series": [
+    "676650a4-b6a3-4ba4-9d96-aebea1e7fca2"
+  ]
+}

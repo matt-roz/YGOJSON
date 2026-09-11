@@ -1,0 +1,46 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "86c9b433-ca4b-4c63-bf2b-e39d7c718706",
+  "text": {
+    "en": {
+      "name": "Nekogal #2",
+      "effect": "A fast and lethal creature with very dangerous claws."
+    },
+    "ko": {
+      "name": "\ucea3 \ub808\uc774\ub514",
+      "effect": "\ub0a0\ub835\ud55c \ub3d9\uc791\uc73c\ub85c \uacf5\uaca9\uc744 \uc8fc\uace0\ubc1b\uc73c\uba70, \uc608\ub9ac\ud55c \uac08\uace0\ub9ac \uc190\ud1b1\uc73c\ub85c \ub364\ubcbc\ub4e0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "beastwarrior",
+  "classifications": [
+    "normal"
+  ],
+  "level": 6,
+  "atk": 1900,
+  "def": 2000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "19145054-48e9-40f3-b539-fc7fff94d80a",
+      "card": "https://ms.yugipedia.com//a/a4/Nekogal2-RDKP10-JP-R.png"
+    },
+    {
+      "id": "b7c7e895-6a9f-4c17-a478-367480a3e208",
+      "card": "https://ms.yugipedia.com//8/85/Nekogal2-RDKP10-KR-R.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Nekogal 2 (Rush Duel)",
+        "id": 716014
+      }
+    ],
+    "dbID": 17864
+  },
+  "series": []
+}

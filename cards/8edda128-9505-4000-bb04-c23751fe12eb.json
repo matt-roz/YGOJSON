@@ -1,0 +1,47 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "8edda128-9505-4000-bb04-c23751fe12eb",
+  "text": {
+    "en": {
+      "name": "Rocketortoise Modularchelon",
+      "effect": "This card gains ATK equal to [the number of monsters sent to the Graveyard to meet the requirement] x 700 until the end of this turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30ed\u30b1\u30c3\u30c8\u30fc\u30bf\u30b9\u30fb\u30e2\u30b8\u30e5\u30e9\u30fc\u30b1\u30ed\u30f3",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u306e\u653b\u6483\u529b\u306f\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\u3001\uff3b\u3053\u306e\u52b9\u679c\u306e\u6761\u4ef6\u3067\u5893\u5730\u3078\u9001\u3063\u305f\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u6570\uff3d\u00d7\uff17\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub85c\ucf13\ud1a0\ud130\uc2a4 \ubaa8\ub4c8\ub7ec\ucf08\ub860",
+      "effect": "\uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\ub825\uc740 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0, [\uc774 \ud6a8\uacfc\uc758 \uc870\uac74\uc73c\ub85c \ubb18\uc9c0\ub85c \ubcf4\ub0b8 \ubaac\uc2a4\ud130\uc758 \uc218] \u00d7 700 \uc62c\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "type": "reptile",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 2500,
+  "def": 1600,
+  "passwords": [],
+  "images": [
+    {
+      "id": "50888eda-73fc-48d3-8990-2bdaa1878fb5",
+      "card": "https://ms.yugipedia.com//a/a4/RocketortoiseModularchelon-RDKP08-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Rocketortoise Modularchelon",
+        "id": 711558
+      }
+    ],
+    "dbID": 17300
+  },
+  "series": []
+}

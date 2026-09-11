@@ -1,0 +1,42 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "cf27d5b6-1d8c-4494-a4da-8eded00c486f",
+  "text": {
+    "en": {
+      "name": "Beaver Warrior (Rush Duel)",
+      "effect": "What this creature lacks in size it makes up for in defense when battling in the prairie."
+    },
+    "ko": {
+      "name": "\ub8e8\uc774\uc988",
+      "effect": "\ube44\ub85d \ubab8\uc740 \uc791\uc9c0\ub9cc \ucd08\uc6d0\uc5d0\uc11c\uc758 \uc218\ube44\ub825\uc740 \uc544\uc8fc \ub192\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "beastwarrior",
+  "classifications": [
+    "normal"
+  ],
+  "level": 4,
+  "atk": 1200,
+  "def": 1500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "988bbd3b-48f2-482b-a58b-488f4cbd5fa9",
+      "card": "https://ms.yugipedia.com//3/34/BeaverWarrior-RDGRP1-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Beaver Warrior (Rush Duel)",
+        "id": 713628
+      }
+    ],
+    "dbID": 17219
+  },
+  "series": []
+}

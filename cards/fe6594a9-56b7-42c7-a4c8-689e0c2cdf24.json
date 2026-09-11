@@ -1,0 +1,62 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "fe6594a9-56b7-42c7-a4c8-689e0c2cdf24",
+  "text": {
+    "en": {
+      "name": "LaMoon (Rush Duel)",
+      "effect": "A sorcerer that draws its powers from the lunar landscape."
+    },
+    "fr": {
+      "name": "LaLune",
+      "effect": "Sorci\u00e8re qui tire ses pouvoirs du paysage lunaire."
+    },
+    "de": {
+      "name": "LaMond",
+      "effect": "Ein Zauberer, der seine Kr\u00e4fte von der Mondlandschaft bezieht."
+    },
+    "it": {
+      "name": "LaMoon",
+      "effect": "Questo stregone ottiene i suoi poteri dal paesaggio lunare."
+    },
+    "es": {
+      "name": "LaMoon",
+      "effect": "Un hechicero que saca sus poderes del paisaje lunar."
+    },
+    "ko": {
+      "name": "\ub77c\ubb38",
+      "effect": "\ub2ec\uc5d0 \uc0ac\ub294 \ub9c8\ubc95\uc0ac. \ub2ec\uc774 \uc9c0\ub2cc \ub9c8\ub825\uc73c\ub85c \uc0c1\ub300\ub97c \ub9e4\ub8cc\uc2dc\ud0a8\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "spellcaster",
+  "classifications": [
+    "normal"
+  ],
+  "level": 5,
+  "atk": 1200,
+  "def": 1700,
+  "passwords": [],
+  "images": [
+    {
+      "id": "22ddb167-1f5e-418c-8cb5-d5c4d94a6a7f",
+      "card": "https://ms.yugipedia.com//c/c6/LaMoon-RDKP01-JP-R.png"
+    },
+    {
+      "id": "e06b6283-847e-4f0e-89b1-8653bb6b26ad",
+      "card": "https://ms.yugipedia.com//d/d0/LaMoon-RDKP01-KR-R.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "LaMoon (Rush Duel)",
+        "id": 715555
+      }
+    ],
+    "dbID": 15215
+  },
+  "series": []
+}

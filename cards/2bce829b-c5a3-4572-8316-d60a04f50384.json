@@ -1,0 +1,67 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "2bce829b-c5a3-4572-8316-d60a04f50384",
+  "text": {
+    "en": {
+      "name": "Kesshin the Dark Decimator",
+      "effect": "This card gains ATK equal to [the number of cards sent to the Graveyard to meet the requirement] x 600 until the end of this turn."
+    },
+    "fr": {
+      "name": "Kesshin le D\u00e9cimateur des T\u00e9n\u00e8bres",
+      "effect": "Cette carte gagne une ATK \u00e9gale au [nombre de cartes envoy\u00e9es au Cimeti\u00e8re pour remplir la condition] x 600 jusqu'\u00e0 la fin de ce tour."
+    },
+    "de": {
+      "name": "Kesshin der dunkle Dezimierer",
+      "effect": "Diese Karte erh\u00e4lt bis zum Ende dieses Spielzugs ATK in H\u00f6he [der Anzahl an Karten, die du auf dem Friedhof abgelegt hast, um die Bedingung zu erf\u00fcllen] x 600."
+    },
+    "it": {
+      "name": "Kesshin il Decimatore Oscuro",
+      "effect": "Questa carta guadagna ATK pari [al numero di carte mandate al Cimitero per soddisfare il requisito] x 600 fino alla fine di questo turno."
+    },
+    "es": {
+      "name": "Kesshin el Diezmador Oscuro",
+      "effect": "Esta carta gana ATK igual [al n\u00famero de cartas enviadas al Cementerio para cumplir con el requisito] x 600 hasta el final de este turno."
+    },
+    "ja": {
+      "name": "\u6b7b\u9b54\u5c06\u30b1\u30c3\u30b7\u30f3",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u306e\u653b\u6483\u529b\u306f\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\u3001\uff3b\u3053\u306e\u52b9\u679c\u306e\u6761\u4ef6\u3067\u5893\u5730\u3078\u9001\u3063\u305f\u30ab\u30fc\u30c9\u306e\u6570\uff3d\u00d7\uff16\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc8fd\uc74c\uc758 \ub9c8\uc7a5 \ucf13\uc2e0",
+      "effect": "\uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\ub825\uc740 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0, [\uc774 \ud6a8\uacfc\uc758 \uc870\uac74\uc73c\ub85c \ubb18\uc9c0\ub85c \ubcf4\ub0b8 \uce74\ub4dc\uc758 \uc218] \u00d7 600 \uc62c\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 5,
+  "atk": 0,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "7cbd9478-ba7d-4e70-8a75-fc527e62cab3",
+      "card": "https://ms.yugipedia.com//f/f9/KesshintheDarkDecimator-RDKP03-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Kesshin the Dark Decimator",
+        "id": 715525
+      }
+    ],
+    "dbID": 15801
+  },
+  "series": [
+    "2b04e0f3-925c-4ad0-921d-ed78f5f1c53b"
+  ]
+}

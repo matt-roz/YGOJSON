@@ -1,0 +1,67 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "a8c4e99d-15d0-4ff3-a3cf-ec5c949c8021",
+  "text": {
+    "en": {
+      "name": "Grace Princess Kana",
+      "effect": "Say, \"Ahh!\""
+    },
+    "fr": {
+      "name": "Kana la Princesse Gracieuse",
+      "effect": "\"Go\u00fbtez-moi \u00e7a, vous m'en direz des nouvelles.\""
+    },
+    "de": {
+      "name": "Kana, Prinzessin der Anmut",
+      "effect": "\u201eAaah!\u201c Ist sie nicht wunderbar?"
+    },
+    "it": {
+      "name": "Kana Principessa della Grazia",
+      "effect": "Di' \"Aaah\"!"
+    },
+    "es": {
+      "name": "Kana la Princesa Gr\u00e1cil",
+      "effect": "\u00a1Abre la boquita!"
+    },
+    "ja": {
+      "name": "\u3044\u3068\u3092\u304b\u3057\u304b\u306a\u3072\u3081",
+      "effect": "\u3042\uff5e\u3093\u3002"
+    },
+    "ko": {
+      "name": "\uc559\uac31\uacf5\uc8fc",
+      "effect": "\uc544~\uc559."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "aqua",
+  "classifications": [
+    "normal"
+  ],
+  "level": 2,
+  "atk": 200,
+  "def": 1400,
+  "passwords": [],
+  "images": [
+    {
+      "id": "40d9f8d8-e0be-455d-9061-7c16541ad7d5",
+      "card": "https://ms.yugipedia.com//5/5a/GracePrincessKana-RDAP01-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Grace Princess Kana",
+        "id": 715170
+      }
+    ],
+    "dbID": 16136
+  },
+  "series": [
+    "8f036e0a-dfa6-4363-b89e-1235326a15c3"
+  ]
+}

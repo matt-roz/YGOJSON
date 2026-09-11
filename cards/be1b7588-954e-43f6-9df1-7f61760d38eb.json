@@ -1,0 +1,46 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "be1b7588-954e-43f6-9df1-7f61760d38eb",
+  "text": {
+    "en": {
+      "name": "Barrel Dragon (Rush Duel)",
+      "effect": "Choose 1 monster on your opponent's field, and toss a coin 3 times. Destroy it if at least 2 of the results are heads."
+    },
+    "ko": {
+      "name": "\uc18d\uc0ac\ud3ec \ub4dc\ub798\uace4",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \ubaac\uc2a4\ud130 1\uc7a5\uc744 \uace0\ub974\uace0, \ucf54\uc778 \ud1a0\uc2a4\ub97c 3\ud68c \uc2e4\ud589\ud55c\ub2e4. \uadf8 \uc911 2\ud68c \uc774\uc0c1\uc774 \uc55e\uba74\uc778 \uacbd\uc6b0, \uadf8 \ubaac\uc2a4\ud130\ub97c \ud30c\uad34\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2600,
+  "def": 2200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "9a351b91-f008-483b-aef9-464da3c764de",
+      "card": "https://ms.yugipedia.com//8/8d/BarrelDragon-RDKP09-JP-ScR.png"
+    },
+    {
+      "id": "f38a327d-4a6e-40cf-a178-d0c98c27c842",
+      "card": "https://ms.yugipedia.com//4/4c/BarrelDragon-RDKP09-KR-ScR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Barrel Dragon (Rush Duel)",
+        "id": 713467
+      }
+    ],
+    "dbID": 17486
+  },
+  "series": []
+}

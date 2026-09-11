@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "50ceae81-fa5a-4a95-9fe3-3da106014387",
+  "text": {
+    "en": {
+      "name": "Returnee of the Temple",
+      "effect": "Special Summon 1 Level 7 DARK Attribute Warrior Type Effect Monster with 2100 DEF or 1 Level 7 Normal Monster with 2100 DEF from your Graveyard face-up to your field.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u796d\u6bbf\u306e\u5e30\u9084\u8005"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "spellcaster",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1100,
+  "def": 500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "8b9a7b08-adcc-45f4-91cb-f361018817b7",
+      "card": "https://ms.yugipedia.com//1/1e/ReturneeoftheTemple-RDCA01-JP-OP.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Returnee of the Temple",
+        "id": 1220525
+      }
+    ]
+  },
+  "series": []
+}

@@ -1,0 +1,69 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "3c9b0fa3-2cf8-4b5a-9ab8-740a8b8def7c",
+  "text": {
+    "en": {
+      "name": "Wyrm Excavator the Heavy Cavalry Draco [R]",
+      "effect": "Destroy 1 Spell/Trap Card on either side of the field and draw 1 card. If you destroyed a Field Spell Card by this effect, you can also draw 1 card."
+    },
+    "fr": {
+      "name": "Excavateur Wyrm le Draco de la Cavalerie Lourde [R]",
+      "effect": "D\u00e9truisez 1 Carte Magie/Pi\u00e8ge sur l'un des c\u00f4t\u00e9s du Terrain et piochez 1 carte. Ensuite, si vous avez d\u00e9truit une Carte Magie de Terrain avec cet effet, vous pouvez piocher 1 carte."
+    },
+    "de": {
+      "name": "Wyrmgr\u00e4ber der Schwere-Kavallerie-Draco [R]",
+      "effect": "Zerst\u00f6re 1 Zauber-/Fallenkarte auf beiden Seiten des Spielfelds und ziehe 1 Karte. Anschlie\u00dfend kannst du 1 Karte ziehen, falls du \u00fcber diesen Effekt eine Spielfeldzauberkarte zerst\u00f6rt hast."
+    },
+    "it": {
+      "name": "Wyrm Scavatore il Draco Cavalleria Pesante [R]",
+      "effect": "Distruggi 1 Carta Magia/Trappola sul Terreno di qualsiasi giocatore e pesca 1 carta. Poi, se hai distrutto una Carta Magia Terreno con questo effetto, puoi pescare 1 carta."
+    },
+    "es": {
+      "name": "Excavador Wyrm el Draco de Caballer\u00eda Pesada [R]",
+      "effect": "Destruye 1 Carta M\u00e1gica/de Trampa en cualquier lado del Campo y roba 1 carta. A continuaci\u00f3n, si has destruido una Carta M\u00e1gica de Campo por este efecto, puedes robar 1 carta."
+    },
+    "ja": {
+      "name": "\u5e7b\u7adc\u91cd\u9a0e\u30a6\u30a9\u30fc\u30e0\uff25\uff58\u30ab\u30d9\u30fc\u30bf\u30fc\uff3b\uff32\uff3d",
+      "effect": "\u81ea\u5206\u307e\u305f\u306f\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u9b54\u6cd5\u30fb\u7f60\u30ab\u30fc\u30c9\uff11\u679a\u3092\u9078\u3093\u3067\u7834\u58ca\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306f\uff11\u679a\u30c9\u30ed\u30fc\u3059\u308b\u3002\u3053\u306e\u52b9\u679c\u3067\u30d5\u30a3\u30fc\u30eb\u30c9\u9b54\u6cd5\u30ab\u30fc\u30c9\u3092\u7834\u58ca\u3057\u305f\u5834\u5408\u3001\u3055\u3089\u306b\u81ea\u5206\u306f\uff11\u679a\u30c9\u30ed\u30fc\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud658\ub8e1\uc911\uae30 \uc6dc Ex\ucee4\ubca0\uc774\ud130[R]",
+      "effect": "\uc790\uc2e0 \ub610\ub294 \uc0c1\ub300 \ud544\ub4dc\uc758 \ub9c8\ubc95 / \ud568\uc815 \uce74\ub4dc 1\uc7a5\uc744 \uace8\ub77c \ud30c\uad34\ud55c\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0\uc740 1\uc7a5 \ub4dc\ub85c\uc6b0\ud55c\ub2e4. \uc774 \ud6a8\uacfc\ub85c \ud544\ub4dc \ub9c8\ubc95 \uce74\ub4dc\ub97c \ud30c\uad34\ud588\uc744 \uacbd\uc6b0, \ucd94\uac00\ub85c \uc790\uc2e0\uc740 1\uc7a5 \ub4dc\ub85c\uc6b0\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "wyrm",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 800,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "1c0bf291-239e-48b8-851e-9779db458f7d",
+      "card": "https://ms.yugipedia.com//5/54/WyrmExcavatortheHeavyCavalryDracoR-RD5TH1-JP-ORR.png"
+    }
+  ],
+  "sets": [
+    "22e8bcf0-2b4c-48d0-87e4-2a51d0f0129e"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "r"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Wyrm Excavator the Heavy Cavalry Draco (R)",
+        "id": 717527
+      }
+    ],
+    "dbID": 16146
+  },
+  "series": [
+    "f9467656-3928-4546-ab32-6354fc22eaa0"
+  ]
+}

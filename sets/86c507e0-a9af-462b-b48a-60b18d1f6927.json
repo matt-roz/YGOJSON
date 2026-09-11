@@ -1,0 +1,82 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "86c507e0-a9af-462b-b48a-60b18d1f6927",
+  "name": {
+    "en": "Event Pack 2026 Vol.1",
+    "ja": "\u30a4\u30d9\u30f3\u30c8\u30d1\u30c3\u30af \uff12\uff10\uff12\uff16 \uff36\uff4f\uff4c\uff0e\uff11"
+  },
+  "locales": {
+    "jp": {
+      "language": "ja",
+      "prefix": "26EP-JP",
+      "date": "2026-07-25",
+      "image": "https://ms.yugipedia.com//9/9a/26EP1-BoosterJP.png",
+      "cardImages": {
+        "unlimited": {
+          "c4f31858-f27c-46ad-9fa5-224aa6bbdcbd": "https://ms.yugipedia.com//e/ed/TimeWizard-26EP-JP-PScR.png",
+          "f7841513-e35d-4874-8640-184a983a4542": "https://ms.yugipedia.com//a/a1/AdamancipatorRisenDragite-26EP-JP-PScR.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "c4f31858-f27c-46ad-9fa5-224aa6bbdcbd": {
+            "image": "https://ms.yugipedia.com//e/ed/TimeWizard-26EP-JP-PScR.png"
+          },
+          "f7841513-e35d-4874-8640-184a983a4542": {
+            "image": "https://ms.yugipedia.com//a/a1/AdamancipatorRisenDragite-26EP-JP-PScR.png"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          1000009609000
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//9/9a/26EP1-BoosterJP.png",
+      "cards": [
+        {
+          "id": "c4f31858-f27c-46ad-9fa5-224aa6bbdcbd",
+          "card": "1e483af1-e05f-4698-9ad2-62e5cd7f3b78",
+          "suffix": "001",
+          "rarity": "prismaticsecret",
+          "imageID": "3dda838c-1f76-4c9c-9fac-0dfbf168107f",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "f7841513-e35d-4874-8640-184a983a4542",
+          "card": "99bab227-63f1-42ef-aa6d-076a7c2aa56b",
+          "suffix": "002",
+          "rarity": "prismaticsecret",
+          "imageID": "20fba8f2-28f1-460d-a254-e70f5d478069",
+          "printStatus": "reprint"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Event Pack 2026 Vol.1",
+      "id": 1204387
+    }
+  }
+}

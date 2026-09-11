@@ -1,0 +1,47 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "3a5d1121-f21c-47f7-a5cf-a1891f74cd62",
+  "text": {
+    "en": {
+      "name": "Baron Wight",
+      "effect": "Send the top card of your Deck to the Graveyard. Then, if you have \"Skull Servant\" or \"King of the Skull Servants\" in your Graveyard, you can send the top 2 cards of your Deck to the Graveyard.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30ef\u30a4\u30c8\u7537\u7235",
+      "effect": "\u81ea\u5206\u306f\u30c7\u30c3\u30ad\u306e\u4e00\u756a\u4e0a\u306e\u30ab\u30fc\u30c9\u3092\u5893\u5730\u3078\u9001\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u5893\u5730\u306b\u300c\u30ef\u30a4\u30c8\u300d\u307e\u305f\u306f\u300c\u30ef\u30a4\u30c8\u30ad\u30f3\u30b0\u300d\u304c\u3044\u308b\u5834\u5408\u3001\u3055\u3089\u306b\u81ea\u5206\u306e\u30c7\u30c3\u30ad\u306e\u4e0a\u304b\u3089\u30ab\u30fc\u30c9\uff12\u679a\u3092\u5893\u5730\u3078\u9001\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc800\uc8fc\ubc1b\uc740 \ud558\uc778 \ub0a8\uc791",
+      "effect": "\uc790\uc2e0\uc740 \ub371 \ub9e8 \uc704\uc758 \uce74\ub4dc\ub97c \ubb18\uc9c0\ub85c \ubcf4\ub0b8\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0 \ubb18\uc9c0\uc5d0 \"\uc800\uc8fc\ubc1b\uc740 \ud558\uc778\" \ub610\ub294 \"\uc800\uc8fc\ubc1b\uc740 \ud558\uc778 \ud0b9\"\uc774 \uc788\uc744 \uacbd\uc6b0, \ucd94\uac00\ub85c \uc790\uc2e0\uc758 \ub371 \uc704\uc5d0\uc11c \uce74\ub4dc 2\uc7a5\uc744 \ubb18\uc9c0\ub85c \ubcf4\ub0bc \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "zombie",
+  "classifications": [
+    "effect"
+  ],
+  "level": 1,
+  "atk": 300,
+  "def": 200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "83296e26-b087-48f3-920f-490920e6cba0",
+      "card": "https://ms.yugipedia.com//d/db/BaronWight-RDLGP2-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Baron Wight",
+        "id": 1080088
+      }
+    ],
+    "dbID": 20874
+  },
+  "series": []
+}

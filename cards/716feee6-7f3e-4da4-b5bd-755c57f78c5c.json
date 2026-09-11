@@ -1,0 +1,52 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "716feee6-7f3e-4da4-b5bd-755c57f78c5c",
+  "text": {
+    "en": {
+      "name": "Mezame the Ringing Alarm",
+      "effect": "Add 1 Level 7 or higher Warrior Type monster from your Graveyard to your hand. Your monsters with 1900 or less DEF cannot attack this turn."
+    },
+    "ja": {
+      "name": "\u9b3c\u5c06\u30e1\u30b6\u30e1",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff17\u4ee5\u4e0a\uff0f\u6226\u58eb\u65cf\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u3002\u3053\u306e\u30bf\u30fc\u30f3\u3001\u81ea\u5206\u306f\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u5b88\u5099\u529b\uff11\uff19\uff10\uff10\u4ee5\u4e0b\uff09\u3067\u653b\u6483\u3067\u304d\u306a\u3044\u3002"
+    },
+    "ko": {
+      "name": "\uadc0\uc7a5 \uba54\uc790\uba54",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130(\ub808\ubca8 7 \uc774\uc0c1 / \uc804\uc0ac\uc871) 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\ub294\ub2e4. \uc774 \ud134\uc5d0, \uc790\uc2e0\uc740 \ubaac\uc2a4\ud130(\uc218\ube44\ub825 1900 \uc774\ud558)\ub85c \uacf5\uaca9\ud560 \uc218 \uc5c6\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 1,
+  "atk": 0,
+  "def": 200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "bc9ecd72-4f61-42b9-b490-c0c949467090",
+      "card": "https://ms.yugipedia.com//1/1e/MezametheRingingAlarm-RDSD0B-JP-C.png"
+    }
+  ],
+  "sets": [
+    "fab3640e-34f2-410e-8c1b-6c7386795132",
+    "fab3640e-34f2-410e-8c1b-6c7386795132"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Mezame the Ringing Alarm",
+        "id": 715899
+      }
+    ],
+    "dbID": 16981
+  },
+  "series": []
+}

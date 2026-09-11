@@ -1,0 +1,47 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "d5911849-6cc9-4d4e-a814-1bd45a042983",
+  "text": {
+    "en": {
+      "name": "Ein Sof Ritter",
+      "effect": "Special Summon 1 Level 4 monster from your Graveyard to your field in face-up Defense Position.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30a2\u30a4\u30f3\u30bd\u30d5\u30fb\u30ea\u30c3\u30bf\u30fc",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff14\uff09\uff11\u4f53\u3092\u9078\u3073\u3001\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u5b88\u5099\u8868\u793a\u3067\u7279\u6b8a\u53ec\u559a\u3059\u308b\u3002"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 1200,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "70fffac7-3558-45d8-bfe7-26ed775860a9",
+      "card": "https://ms.yugipedia.com//4/47/EinSofRitter-RDKP26-JP-UR.png"
+    },
+    {
+      "id": "f3ac2cf7-09c3-4136-af7d-2224e2c3e1d4",
+      "card": "https://ms.yugipedia.com//7/78/EinSofRitter-RDKP26-JP-ORR-AA.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Ein Sof Ritter",
+        "id": 1204289
+      }
+    ],
+    "dbID": 23747
+  },
+  "series": []
+}

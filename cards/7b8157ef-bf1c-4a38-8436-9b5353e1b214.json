@@ -1,0 +1,52 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "7b8157ef-bf1c-4a38-8436-9b5353e1b214",
+  "text": {
+    "en": {
+      "name": "Harpie Lady 1 & 2 & 3",
+      "effect": "This card's name becomes \"Harpie Lady\", and it can make up to 3 attacks on monsters per turn. This card cannot attack directly. Face-up Level 12 monsters on your field cannot be used as material for a Fusion Summon.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30cf\u30fc\u30d4\u30a3\u30fb\u30ec\u30c7\u30a3\uff11\u30fb\uff12\u30fb\uff13",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u306e\u30ab\u30fc\u30c9\u540d\u306f\u300c\u30cf\u30fc\u30d4\u30a3\u30fb\u30ec\u30c7\u30a3\u300d\u306b\u306a\u308a\u3001\uff11\u30bf\u30fc\u30f3\u306b\uff13\u56de\u307e\u3067\u30e2\u30f3\u30b9\u30bf\u30fc\u306b\u653b\u6483\u3067\u304d\u308b\u3002\u3053\u306e\u30ab\u30fc\u30c9\u306f\u76f4\u63a5\u653b\u6483\u3067\u304d\u306a\u3044\u3002\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff11\uff12\uff09\u306f\u30d5\u30e5\u30fc\u30b8\u30e7\u30f3\u53ec\u559a\u306e\u7d20\u6750\u306b\u3067\u304d\u306a\u3044\u3002"
+    },
+    "ko": {
+      "name": "\ud574\ud53c \ub808\uc774\ub5141\u00b72\u00b73",
+      "effect": "\uc774 \uce74\ub4dc\uc758 \uce74\ub4dc\uba85\uc740 \"\ud574\ud53c \ub808\uc774\ub514\"\uac00 \ub418\uace0, 1\ud134\uc5d0 3\ud68c\uae4c\uc9c0 \ubaac\uc2a4\ud130\uc5d0 \uacf5\uaca9\ud560 \uc218 \uc788\ub2e4. \uc774 \uce74\ub4dc\ub294 \uc9c1\uc811 \uacf5\uaca9\ud560 \uc218 \uc5c6\ub2e4. \uc790\uc2e0 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\ub808\ubca8 12)\ub294 \ud4e8\uc804 \uc18c\ud658\uc758 \uc18c\uc7ac\ub85c \ud560 \uc218 \uc5c6\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "wind",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "wingedbeast",
+  "classifications": [
+    "effect"
+  ],
+  "level": 12,
+  "atk": 3900,
+  "def": 2100,
+  "passwords": [],
+  "images": [
+    {
+      "id": "ebbc1450-8225-4ae7-8b1a-3b10238140a7",
+      "card": "https://ms.yugipedia.com//a/a1/HarpieLady123-RD5TH1-JP-UR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Harpie Lady 1 & 2 & 3",
+        "id": 1121464
+      }
+    ],
+    "dbID": 21504
+  },
+  "series": [
+    "04dde7f8-0a7d-4b74-b812-f493b9fb1f62"
+  ]
+}

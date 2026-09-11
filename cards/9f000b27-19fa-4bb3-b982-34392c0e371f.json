@@ -1,0 +1,70 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "9f000b27-19fa-4bb3-b982-34392c0e371f",
+  "text": {
+    "en": {
+      "name": "Fire Guardian",
+      "effect": "The gatekeeper standing watch over the path to the Fire Dragon Kingdom. Those who cannot withstand its breath do not have the right to go past it."
+    },
+    "fr": {
+      "name": "Gardien de Feu",
+      "effect": "La sentinelle qui garde le chemin menant au royaume du Dragon de Feu. Seuls ceux qui sont capables de survivre \u00e0 son souffle ont le droit de passer."
+    },
+    "de": {
+      "name": "Feuerw\u00e4chter",
+      "effect": "Dieser Torw\u00e4chter wacht \u00fcber den Pfad zum Feuerdrachenk\u00f6nigreich. Wer seinem Odem nicht widerstehen kann, hat nicht das Recht, an ihm vorbeizugehen."
+    },
+    "it": {
+      "name": "Guardiano di Fuoco",
+      "effect": "Il guardiano si staglia sul sentiero del Regno del Drago di Fuoco. Coloro che non sopportano il suo respiro non hanno il diritto di superarlo."
+    },
+    "es": {
+      "name": "Guardi\u00e1n de Fuego",
+      "effect": "El guardi\u00e1n que vigila la senda al Reino del Drag\u00f3n de Fuego. Aquellos que no resisten su h\u00e1lito no tienen derecho a proseguir su camino."
+    },
+    "ja": {
+      "name": "\u706b\u53e3\u306e\u756a\u7adc",
+      "effect": "\u706b\u7adc\u306e\u738b\u56fd\u3078\u3068\u3064\u306a\u304c\u308b\u9053\u306b\u7acb\u3061\u306f\u3060\u304b\u308b\u9580\u756a\u3002\u305d\u306e\u30d6\u30ec\u30b9\u3092\u8010\u3048\u5207\u308c\u306c\u8005\u306b\u3001\u5148\u3078\u3068\u9032\u3080\u8cc7\u683c\u306f\u306a\u3044\u3002"
+    },
+    "ko": {
+      "name": "\ud30c\uc774\uc5b4 \uac00\ub514\uc5b8",
+      "effect": "\ud654\ub8e1\uc758 \uc655\uad6d\uc73c\ub85c \uc774\uc5b4\uc9c0\ub294 \uae38\uc744 \uac00\ub85c\ub9c9\uace0 \uc11c \uc788\ub294 \ubb38\uc9c0\uae30. \ubfdc\uc5b4\ub0b4\ub294 \uadf8 \uc228\uc744 \uacac\ub38c \ub0bc \uc218 \uc5c6\ub294 \uc790\uc5d0\uac8c \uc55e\uc73c\ub85c \ub098\uc544\uac08 \uc790\uaca9\uc740 \uc5c6\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "type": "dragon",
+  "classifications": [
+    "normal"
+  ],
+  "level": 6,
+  "atk": 2100,
+  "def": 400,
+  "passwords": [],
+  "images": [
+    {
+      "id": "bc35c179-4863-492f-980f-19a677ca05c9",
+      "card": "https://ms.yugipedia.com//d/df/FireGuardian-RDSD03-JP-C.png"
+    }
+  ],
+  "sets": [
+    "b3912bea-7700-43b3-8e58-def0f757111c",
+    "b3912bea-7700-43b3-8e58-def0f757111c",
+    "94cc13bc-8f74-45f7-95b1-a46788eb60dc",
+    "94cc13bc-8f74-45f7-95b1-a46788eb60dc"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Fire Guardian",
+        "id": 714951
+      }
+    ],
+    "dbID": 15166
+  },
+  "series": []
+}

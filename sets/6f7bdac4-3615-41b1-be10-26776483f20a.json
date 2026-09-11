@@ -1,0 +1,64 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "6f7bdac4-3615-41b1-be10-26776483f20a",
+  "name": {
+    "en": "Yu-Gi-Oh! World Championship 2026 attendance cards",
+    "ja": "\uff39\uff55\uff0d\uff27\uff49\uff0d\uff2f\uff48\uff01 \uff37\uff2f\uff32\uff2c\uff24 \uff23\uff28\uff21\uff2d\uff30\uff29\uff2f\uff2e\uff33\uff28\uff29\uff30 \uff12\uff10\uff12\uff16 \u6765\u5834\u8a18\u5ff5\u30ab\u30fc\u30c9"
+  },
+  "locales": {
+    "jp": {
+      "language": "ja",
+      "prefix": "2026-JPP",
+      "date": "2026-08-29",
+      "image": "https://ms.yugipedia.com//archive/0/06/20260824115033%212026-PromoJP.png",
+      "cardImages": {
+        "unlimited": {}
+      },
+      "cardInfo": {
+        "unlimited": {}
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {}
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//archive/0/06/20260824115033%212026-PromoJP.png",
+      "cards": [
+        {
+          "id": "8715f43a-4c55-4d29-a19e-5e80f3e45778",
+          "card": "0405e64c-8e65-4dd9-bbd0-dd11d8fe6f94",
+          "suffix": "01",
+          "rarity": "secret"
+        },
+        {
+          "id": "13d05bd9-8fa7-407a-84f1-4fa3c09a10ec",
+          "card": "6e2e39c1-e5b2-4070-aff4-ee935a14a83e",
+          "suffix": "02",
+          "rarity": "secret"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Yu-Gi-Oh! World Championship 2026 attendance cards",
+      "id": 1201223
+    }
+  }
+}

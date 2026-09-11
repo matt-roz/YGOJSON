@@ -1,0 +1,56 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "28d4e617-024e-4271-b275-c729222804a9",
+  "text": {
+    "en": {
+      "name": "Giga-Tech Wolf (Rush Duel)",
+      "effect": "An iron wolf with razor-sharp fangs that can penetrate any armor."
+    },
+    "fr": {
+      "name": "Loup Giga-Tech"
+    },
+    "de": {
+      "name": "Gigatech-Wolf"
+    },
+    "it": {
+      "name": "Lupo Tecnologico"
+    },
+    "es": {
+      "name": "Lobo Giga-Tecnol\u00f3gico"
+    },
+    "ko": {
+      "name": "\uae30\uac00\ud14c\ud06c \uc6b8\ud504",
+      "effect": "\uc804\uc2e0\uc774 \uac15\ucca0\ub85c \ub418\uc5b4 \uc788\ub294 \ub291\ub300. \ub0a0\uce74\ub85c\uc6b4 \uc1a1\uacf3\ub2c8\ub85c \ub2ec\ub824\ub4e4\uc5b4 \ubb3c\uc5b4\ub72f\ub294\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "type": "machine",
+  "classifications": [
+    "normal"
+  ],
+  "level": 4,
+  "atk": 1200,
+  "def": 1400,
+  "passwords": [],
+  "images": [
+    {
+      "id": "29b9b6a8-1cff-4431-9a3c-968a9cb201ba",
+      "card": "https://ms.yugipedia.com//f/f9/GigaTechWolf-RDSST1-JP-C.png"
+    }
+  ],
+  "sets": [
+    "f9c6f064-6fdf-412a-a9ff-62631979aa08"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Giga-Tech Wolf (Rush Duel)",
+        "id": 715123
+      }
+    ],
+    "dbID": 16926
+  },
+  "series": []
+}

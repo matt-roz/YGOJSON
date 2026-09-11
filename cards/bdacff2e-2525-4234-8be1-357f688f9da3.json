@@ -1,0 +1,68 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "bdacff2e-2525-4234-8be1-357f688f9da3",
+  "text": {
+    "en": {
+      "name": "The Fire Dragon",
+      "effect": "An exquisite dragon covered in fire. It does not like fights, but still has incredibly high attack power."
+    },
+    "fr": {
+      "name": "Le Dragon de Feu"
+    },
+    "de": {
+      "name": "Der Feuerdrache"
+    },
+    "it": {
+      "name": "Il Drago di Fuoco"
+    },
+    "es": {
+      "name": "El Drag\u00f3n de Fuego"
+    },
+    "ja": {
+      "name": "\u30b6\u30fb\u30d5\u30a1\u30a4\u30a2\u30c9\u30e9\u30b4\u30f3",
+      "effect": "\u5168\u8eab\u304c\uff46\uff49\uff52\uff45\u306b\u8986\u308f\u308c\u305f\u3001\u975e\u5e38\u306b\u7f8e\u3057\u3044\u59ff\u3092\u3057\u305f\u30c9\u30e9\u30b4\u30f3\u3002\u4e89\u3044\u306f\u597d\u307e\u306a\u3044\u304c\u3001\u3068\u3066\u3082\u9ad8\u3044\u653b\u6483\u529b\u3092\u5099\u3048\u3066\u3044\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub354 \ud30c\uc774\uc5b4 \ub4dc\ub798\uace4",
+      "effect": "\uc804\uc2e0\uc774 fire\ub85c \ub4a4\ub36e\uc778 \ub108\ubb34\ub098 \uc544\ub984\ub2e4\uc6b4 \ubaa8\uc2b5\uc758 \ub4dc\ub798\uace4. \uc2f8\uc6c0\uc740 \uc88b\uc544\ud558\uc9c0 \uc54a\uc9c0\ub9cc, \uc544\uc8fc \ub192\uc740 \uacf5\uaca9\ub825\uc744 \uac16\uace0 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "type": "dragon",
+  "classifications": [
+    "normal"
+  ],
+  "level": 4,
+  "atk": 1500,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "16f294e2-7b4f-45ac-9a84-b0b47e46fcfe",
+      "card": "https://ms.yugipedia.com//0/08/TheFireDragon-RDSD0A-JP-C.png"
+    }
+  ],
+  "sets": [
+    "c0287cbc-dc56-47ae-9e89-0af80eb1b3d9",
+    "b0d594ec-1f44-402f-a994-a88c19a50a43",
+    "b0d594ec-1f44-402f-a994-a88c19a50a43",
+    "b3912bea-7700-43b3-8e58-def0f757111c",
+    "b3912bea-7700-43b3-8e58-def0f757111c",
+    "11548122-d48e-4313-aff4-6d29bca3f0b0"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "n"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "The Fire Dragon",
+        "id": 717069
+      }
+    ],
+    "dbID": 16308
+  },
+  "series": []
+}

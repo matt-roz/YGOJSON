@@ -1,0 +1,54 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "07b5c54d-8e15-46ba-a405-9ab83ec07e93",
+  "text": {
+    "en": {
+      "name": "Excutie Phermi",
+      "effect": "This card gains 500 ATK until the end of this turn."
+    },
+    "ja": {
+      "name": "\u30a8\u30af\u30b9\u30ad\u30e5\u30fc\u30c6\u30a3\u30fc\u30fb\u30d5\u30a7\u30eb\u30df\u30a3",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u306e\u653b\u6483\u529b\u306f\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\uff15\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc5d1\uc2a4\ud050\ud2f0 \ud398\ub974\ubbf8",
+      "effect": "\uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\ub825\uc740 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0 500 \uc62c\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "classifications": [
+    "effect"
+  ],
+  "level": 6,
+  "atk": 1800,
+  "def": 500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "cacd63b5-2ad1-44be-b6ba-41da7d68382a",
+      "card": "https://ms.yugipedia.com//d/d4/ExcutiePhermi-RDSD01-JP-C.png"
+    }
+  ],
+  "sets": [
+    "a3a484b7-43f4-4cde-aa3c-fc8bd9d7f99a",
+    "5a8e3bbc-04f9-4c06-a5e4-c47fdaa54a25",
+    "5a8e3bbc-04f9-4c06-a5e4-c47fdaa54a25"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "r"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Excutie Phermi",
+        "id": 714865
+      }
+    ],
+    "dbID": 17519
+  },
+  "series": [
+    "dae99f8b-02f7-4a16-9e85-778749af5c40"
+  ]
+}

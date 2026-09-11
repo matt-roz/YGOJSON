@@ -1,0 +1,69 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "2e6873ab-d552-49ef-befc-1edbf4bf6e01",
+  "name": {
+    "en": "V Jump February 2014 promotional card",
+    "ja": "\uff36\u30b8\u30e3\u30f3\u30d7\u3000\uff12\uff10\uff11\uff14\u5e74\u3000\uff12\u6708\u53f7\u3000\u4ed8\u9332\u30ab\u30fc\u30c9"
+  },
+  "locales": {
+    "jp": {
+      "language": "ja",
+      "prefix": "VJMP-JP",
+      "date": "2013-12-21",
+      "image": "https://ms.yugipedia.com//f/f1/VJMP-2014-2-Cover.png",
+      "cardImages": {
+        "unlimited": {
+          "db4a6d30-c681-4518-85ea-8d89a72601c5": "https://ms.yugipedia.com//6/61/FelisLightswornArcher-VJMP-JP-UR.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "db4a6d30-c681-4518-85ea-8d89a72601c5": {
+            "image": "https://ms.yugipedia.com//6/61/FelisLightswornArcher-VJMP-JP-UR.png"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          121215014
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//f/f1/VJMP-2014-2-Cover.png",
+      "cards": [
+        {
+          "id": "db4a6d30-c681-4518-85ea-8d89a72601c5",
+          "card": "e34d8547-6e13-42e8-b1f5-197dcf0c54d0",
+          "suffix": "085",
+          "rarity": "ultra",
+          "imageID": "c01b0b91-9cb2-46b9-81de-c0bc7a0aecd4"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "V Jump February 2014 promotional card",
+      "id": 327016
+    }
+  }
+}

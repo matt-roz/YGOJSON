@@ -1,0 +1,50 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "3bb0b68e-d061-401f-91da-36c4dc72663c",
+  "text": {
+    "en": {
+      "name": "Whispurring Fairy",
+      "effect": "Place 1 Spell/Trap Card from your opponent's field on the bottom of the owner's Deck. Then, you can Special Summon 1 \"Straynge Cat\" from your Graveyard face-up to your field.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30a6\u30a3\u30b9\u30cb\u30e3\u30fc\u30ea\u30f3\u30b0\u30fb\u30d5\u30a7\u30a2\u30ea\u30fc",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u9b54\u6cd5\u30fb\u7f60\u30ab\u30fc\u30c9\uff11\u679a\u3092\u9078\u3093\u3067\u6301\u3061\u4e3b\u306e\u30c7\u30c3\u30ad\u306e\u4e0b\u306b\u623b\u3059\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u306f\u3050\u308c\u4f7f\u3044\u9b54\u300d\uff11\u4f53\u3092\u9078\u3093\u3067\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u8868\u793a\u3067\u7279\u6b8a\u53ec\u559a\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc704\uc2a4\ub0d0\ub9c1 \ud398\uc5b4\ub9ac",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \ub9c8\ubc95 / \ud568\uc815 \uce74\ub4dc 1\uc7a5\uc744 \uace0\ub974\uace0 \uc8fc\uc778\uc758 \ub371 \uc544\ub798\ub85c \ub418\ub3cc\ub9b0\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0 \ubb18\uc9c0\uc758 \"\ub099\uc624\uc790 \uc0ac\uc5ed\ub9c8\" 1\uc7a5\uc744 \uace0\ub974\uace0 \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \ud45c\uc2dc\ub85c \ud2b9\uc218 \uc18c\ud658\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "wind",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "spellcaster",
+  "classifications": [
+    "effect"
+  ],
+  "level": 6,
+  "atk": 2000,
+  "def": 1400,
+  "passwords": [],
+  "images": [
+    {
+      "id": "2900eff4-2ed1-4470-b292-fd47b5255dd1",
+      "card": "https://ms.yugipedia.com//5/57/WhispurringFairy-RDKP20-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Whispurring Fairy",
+        "id": 1100655
+      }
+    ],
+    "dbID": 21298
+  },
+  "series": []
+}

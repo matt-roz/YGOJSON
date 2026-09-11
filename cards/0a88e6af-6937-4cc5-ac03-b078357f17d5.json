@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "0a88e6af-6937-4cc5-ac03-b078357f17d5",
+  "text": {
+    "en": {
+      "name": "Shaman of Chaos",
+      "effect": "This card gains 1000 ATK until the end of your opponent's next turn. Then, you can destroy 1 face-down card in your opponent's Spell & Trap Zone.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u6df7\u6c8c\u306e\u7948\u7977\u5e2b",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u306e\u653b\u6483\u529b\u306f\u6b21\u306e\u76f8\u624b\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\uff11\uff10\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u76f8\u624b\u306e\u9b54\u6cd5\uff06\u7f60\u30be\u30fc\u30f3\u306e\u88cf\u5074\u8868\u793a\u306e\u30ab\u30fc\u30c9\uff11\u679a\u3092\u9078\u3093\u3067\u7834\u58ca\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud63c\ub3c8\uc758 \uae30\ub3c4\uc0ac",
+      "effect": "\uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\ub825\uc740 \ub2e4\uc74c \uc0c1\ub300 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0 1000 \uc62c\ub9b0\ub2e4. \uadf8 \ud6c4, \uc0c1\ub300\uc758 \ub9c8\ubc95 & \ud568\uc815 \uc874\uc758 \ub4b7\uba74 \ud45c\uc2dc\uc778 \uce74\ub4dc 1\uc7a5\uc744 \uace0\ub974\uace0 \ud30c\uad34\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "spellcaster",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 500,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "a999889c-a835-4fa7-9c9c-71d9d64a2924",
+      "card": "https://ms.yugipedia.com//f/f5/ShamanofChaos-RDORP3-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Shaman of Chaos",
+        "id": 1142414
+      }
+    ],
+    "dbID": 22236
+  },
+  "series": [
+    "0dd6e571-f547-4fe6-ae1a-e26395051a81"
+  ]
+}

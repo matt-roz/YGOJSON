@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "087e8ec2-2b2a-4f0f-baf8-f4d953c3d6bf",
+  "text": {
+    "en": {
+      "name": "The Perfect Dragiastar",
+      "effect": "This turn, this card can attack all opponent's monsters once each.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30b6\u2606\u30d1\u30fc\u30d5\u30a7\u30af\u30c8\u30fb\u30c9\u30e9\u30ae\u30a2\u30b9\u30bf\u30fc",
+      "effect": "\u3053\u306e\u30bf\u30fc\u30f3\u3001\u3053\u306e\u30ab\u30fc\u30c9\u306f\u76f8\u624b\u30e2\u30f3\u30b9\u30bf\u30fc\u5168\u3066\u306b\uff11\u56de\u305a\u3064\u653b\u6483\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub354\u2606\ud37c\ud399\ud2b8 \ub4dc\ub77c\uae30\uc544\uc2a4\ud0c0",
+      "effect": "\uc774 \ud134\uc5d0, \uc774 \uce74\ub4dc\ub294 \uc0c1\ub300 \ubaac\uc2a4\ud130 \uc804\ubd80\uc5d0 1\ud68c\uc529 \uacf5\uaca9\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "classifications": [
+    "effect"
+  ],
+  "level": 12,
+  "atk": 4400,
+  "def": 2700,
+  "passwords": [],
+  "images": [
+    {
+      "id": "652111a3-1fae-43a1-80d3-8758e4248114",
+      "card": "https://ms.yugipedia.com//6/6c/ThePerfectDragiastar-RD5TH1-JP-UR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "The Perfect Dragiastar",
+        "id": 1119452
+      }
+    ],
+    "dbID": 21498
+  },
+  "series": [
+    "c47c618f-a8e3-4dbf-b2e2-f893c7428dff"
+  ]
+}

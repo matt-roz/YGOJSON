@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "f5c74279-dcd7-40e2-b617-e7b891a7ad0f",
+  "text": {
+    "en": {
+      "name": "Royal Rebel's Elite Amp",
+      "effect": "Add 1 Level 5 or higher Fiend Type monster with 0 or 2000 DEF from your Graveyard to your hand. This turn, you can only attack with Fiend Type monsters.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30ed\u30a4\u30e4\u30eb\u30c7\u30e2\u30f3\u30ba\u30fb\u30a8\u30ea\u30fc\u30c8\u30a2\u30f3\u30d7",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff15\u4ee5\u4e0a\uff0f\u60aa\u9b54\u65cf\uff0f\u5b88\u5099\u529b\uff10\u30fb\uff12\uff10\uff10\uff10\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u3002\u3053\u306e\u30bf\u30fc\u30f3\u3001\u81ea\u5206\u306f\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u60aa\u9b54\u65cf\u4ee5\u5916\uff09\u3067\u653b\u6483\u3067\u304d\u306a\u3044\u3002"
+    },
+    "ko": {
+      "name": "\ub85c\uc584\ub370\uba3c\uc988 \uc5d8\ub9ac\ud2b8\uc570\ud504",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130(\ub808\ubca8 5 \uc774\uc0c1 / \uc545\ub9c8\uc871 / \uc218\ube44\ub825 0 \ub610\ub294 2000) 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\ub294\ub2e4. \uc774 \ud134\uc5d0, \uc790\uc2e0\uc740 \ubaac\uc2a4\ud130(\uc545\ub9c8\uc871 \uc774\uc678)\ub85c \uacf5\uaca9\ud560 \uc218 \uc5c6\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "fiend",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1200,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "c627bef6-d049-4370-8b84-2a27b205be78",
+      "card": "https://ms.yugipedia.com//d/de/RoyalRebelsEliteAmp-RDAP01-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Royal Rebel's Elite Amp",
+        "id": 1031094
+      }
+    ],
+    "dbID": 19771
+  },
+  "series": [
+    "39eae314-d153-45cf-aa63-9d42b5dc8cf2"
+  ]
+}

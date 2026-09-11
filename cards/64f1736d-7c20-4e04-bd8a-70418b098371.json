@@ -1,0 +1,48 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "64f1736d-7c20-4e04-bd8a-70418b098371",
+  "text": {
+    "en": {
+      "name": "Avian Spell Tactics",
+      "effect": "Destroy 1 Spell/Trap Card on your opponent's field. Then, you can place 1 Level 8 or lower Warrior Type or Winged Beast Type monster from your Graveyard on top of your Deck."
+    },
+    "ja": {
+      "name": "\u9ce5\u546a\u6226\u8853",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u9b54\u6cd5\u30fb\u7f60\u30ab\u30fc\u30c9\uff11\u679a\u3092\u9078\u3093\u3067\u7834\u58ca\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff18\u4ee5\u4e0b\uff0f\u6226\u58eb\u65cf\u30fb\u9ce5\u7363\u65cf\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u30c7\u30c3\u30ad\u306e\u4e0a\u306b\u623b\u3059\u4e8b\u304c\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc870\uc8fc\uc804\uc220",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \ub9c8\ubc95 / \ud568\uc815 \uce74\ub4dc 1\uc7a5\uc744 \uace0\ub974\uace0 \ud30c\uad34\ud55c\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130(\ub808\ubca8 8 \uc774\ud558 / \uc804\uc0ac\uc871\u30fb\ube44\ud589\uc57c\uc218\uc871) 1\uc7a5\uc744 \uace0\ub974\uace0 \ub371 \uc704\ub85c \ub418\ub3cc\ub9b4 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "b64c9c8b-d1dd-4e02-a0c0-b50a6b90ea4a",
+      "card": "https://ms.yugipedia.com//c/ce/AvianSpellTactics-RDSD0D-JP-C.png"
+    }
+  ],
+  "sets": [
+    "5b6d7ab4-987e-4469-89bd-9d9bf3d400c0",
+    "a08d0d55-5282-4487-b8b3-a190adb90edf",
+    "e723d3ef-0d73-4bff-93ce-a7ea1fbf8304",
+    "d867f9ff-46bb-44fa-9cb3-94491d964afd",
+    "d867f9ff-46bb-44fa-9cb3-94491d964afd"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Avian Spell Tactics",
+        "id": 713346
+      }
+    ],
+    "dbID": 16358
+  },
+  "series": []
+}

@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "e057ef26-4276-45a6-b018-fae9ec41e2cb",
+  "text": {
+    "en": {
+      "name": "Grand Cerberus",
+      "effect": "Inflict damage to your opponent equal to [the number of face-up EARTH Attribute Machine Type monsters on your field] x 300."
+    },
+    "ja": {
+      "name": "\u30b0\u30e9\u30f3\u30c9\u30fb\u30b1\u30eb\u30d9\u30ed\u30b9",
+      "effect": "\uff3b\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u5730\u5c5e\u6027\uff0f\u6a5f\u68b0\u65cf\uff09\u306e\u6570\uff3d\u00d7\uff13\uff10\uff10\u30c0\u30e1\u30fc\u30b8\u3092\u76f8\u624b\u306b\u4e0e\u3048\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uadf8\ub79c\ub4dc \ucf00\ub85c\ubca0\ub85c\uc2a4",
+      "effect": "[\uc790\uc2e0 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\ub545 \uc18d\uc131 / \uae30\uacc4\uc871)\uc758 \uc218] \u00d7 300 \ub370\ubbf8\uc9c0\ub97c \uc0c1\ub300\uc5d0\uac8c \uc900\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 2400,
+  "def": 2000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "7c418beb-3e3e-4ab3-87bf-2dc0c6627429",
+      "card": "https://ms.yugipedia.com//6/6c/GrandCerberus-RDKP09-JP-SR.png"
+    }
+  ],
+  "sets": [
+    "f73a3adb-8d11-44cc-be1d-7b4a81bff8d8"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Grand Cerberus",
+        "id": 715202
+      }
+    ],
+    "dbID": 17521
+  },
+  "series": []
+}

@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "6bed5fb2-f3af-4329-bea6-fde454dccdeb",
+  "text": {
+    "en": {
+      "name": "Dragonic Geist",
+      "effect": "Special Summon 1 Level 7 EARTH or DARK Attribute monster with 2500 ATK from your Graveyard face-up to your field."
+    },
+    "ja": {
+      "name": "\u30c9\u30e9\u30b4\u30cb\u30c3\u30af\u30fb\u30ac\u30a4\u30b9\u30c8",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff17\uff0f\u5730\u5c5e\u6027\u30fb\u95c7\u5c5e\u6027\uff0f\u653b\u6483\u529b\uff12\uff15\uff10\uff10\uff09\uff11\u4f53\u3092\u9078\u3073\u3001\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u8868\u793a\u3067\u7279\u6b8a\u53ec\u559a\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub4dc\ub798\uace0\ub2c9 \uac00\uc774\uc2a4\ud2b8",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130(\ub808\ubca8 7 / \ub545 \uc18d\uc131\u30fb\uc5b4\ub460 \uc18d\uc131 / \uacf5\uaca9\ub825 2500) 1\uc7a5\uc744 \uace0\ub974\uace0, \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \ud45c\uc2dc\ub85c \ud2b9\uc218 \uc18c\ud658\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "dragon",
+  "classifications": [
+    "effect"
+  ],
+  "level": 1,
+  "atk": 0,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "dd8bb350-9343-4f97-b0f6-4509ffc44304",
+      "card": "https://ms.yugipedia.com//c/c1/DragonicGeist-RDKP17-JP-C.png"
+    }
+  ],
+  "sets": [
+    "a6b12f39-c8d9-4ead-87f7-7ea71d365768"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Dragonic Geist",
+        "id": 1044914
+      }
+    ],
+    "dbID": 20326
+  },
+  "series": []
+}

@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "a03ad91f-2e23-476b-a33a-e858692fc3e0",
+  "text": {
+    "en": {
+      "name": "Flame Cerebrus (Rush Duel)",
+      "effect": "Known to many as the \"Burning Executioner\", this monster is capable of burning enemies to cinders."
+    },
+    "ko": {
+      "name": "\ud654\uc5fc\uc758 \ucf00\ub85c\ubca0\ub85c\uc2a4",
+      "effect": "\uc804\uc2e0\uc774 \ud654\uc5fc\uc73c\ub85c \ub458\ub7ec\uc2f8\uc778 \ub9c8\uc218. \uc0c1\ub300\ub97c \uc9c0\uc625\uc758 \ud654\uc5fc\uc73c\ub85c \ucc98\ud615\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "type": "pyro",
+  "classifications": [
+    "normal"
+  ],
+  "level": 6,
+  "atk": 2100,
+  "def": 1800,
+  "passwords": [],
+  "images": [
+    {
+      "id": "0e509cee-92c5-47f7-a0c1-b09d9fb1cbbb",
+      "card": "https://ms.yugipedia.com//0/0c/FlameCerebrus-RDSD04-JP-C.png"
+    }
+  ],
+  "sets": [
+    "c05d7ca5-5bea-4c0f-884c-dd1ec7f1be77",
+    "c05d7ca5-5bea-4c0f-884c-dd1ec7f1be77"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Flame Cerebrus (Rush Duel)",
+        "id": 714964
+      }
+    ],
+    "dbID": 17956
+  },
+  "series": []
+}

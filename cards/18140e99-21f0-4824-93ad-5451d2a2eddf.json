@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "18140e99-21f0-4824-93ad-5451d2a2eddf",
+  "text": {
+    "en": {
+      "name": "Abysspiny Turtle",
+      "effect": "Add 1 Sea Serpent Type monster with 800 ATK/0 DEF from your Graveyard to your hand. This turn, you can only attack with Sea Serpent Type monsters.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30a2\u30d3\u30b9\u30d1\u30a4\u30cb\u30fc\u30fb\u30bf\u30fc\u30c8\u30eb",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u6d77\u7adc\u65cf\uff0f\u653b\u6483\u529b\uff18\uff10\uff10\uff0f\u5b88\u5099\u529b\uff10\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u3002\u3053\u306e\u30bf\u30fc\u30f3\u3001\u81ea\u5206\u306f\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u6d77\u7adc\u65cf\u4ee5\u5916\uff09\u3067\u653b\u6483\u3067\u304d\u306a\u3044\u3002"
+    },
+    "ko": {
+      "name": "\uc5b4\ube44\uc2a4\ud30c\uc774\ub2c8 \ud130\ud2c0",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130(\ud574\ub8e1\uc871 / \uacf5\uaca9\ub825 800 / \uc218\ube44\ub825 0) 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\ub294\ub2e4. \uc774 \ud134\uc5d0, \uc790\uc2e0\uc740 \ubaac\uc2a4\ud130(\ud574\ub8e1\uc871 \uc774\uc678)\ub85c \uacf5\uaca9\ud560 \uc218 \uc5c6\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "seaserpent",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 1000,
+  "def": 1100,
+  "passwords": [],
+  "images": [
+    {
+      "id": "9117ee4e-ca7c-4c42-bfdf-bc211f767233",
+      "card": "https://ms.yugipedia.com//f/f6/AbysspinyTurtle-RDHC01-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Abysspiny Turtle",
+        "id": 1030959
+      }
+    ],
+    "dbID": 19797
+  },
+  "series": [
+    "d0d020be-0bd3-47ca-ba46-30a57262ce26"
+  ]
+}

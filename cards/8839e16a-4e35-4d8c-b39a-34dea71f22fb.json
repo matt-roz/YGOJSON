@@ -1,0 +1,53 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "8839e16a-4e35-4d8c-b39a-34dea71f22fb",
+  "text": {
+    "en": {
+      "name": "Anglercoilfish",
+      "effect": "An anglerfish with evolved electric organs. Attacks enemies with sharp fangs and electric shocks."
+    },
+    "ja": {
+      "name": "\u30c1\u30e7\u30a6\u30c1\u30f3\u30a2\u30f3\u30b3\u30a4\u30eb",
+      "effect": "\u767a\u9054\u3057\u305f\u767a\u96fb\u5668\u5b98\u3092\u6301\u3064\u30a2\u30f3\u30b3\u30a6\u3002\u96fb\u6483\u3068\u92ed\u3044\u30ad\u30d0\u3067\u6575\u3092\u653b\u6483\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ucd08\ub871\uc544\uadc0\ucf54\uc77c",
+      "effect": "\ubc1c\ub2ec\ud55c \ubc1c\uc804\uae30\uad00\uc744 \uac00\uc9c4 \uc544\uadc0. \uc804\uaca9\uacfc \ub0a0\uce74\ub85c\uc6b4 \uc774\ube68\ub85c \uacf5\uaca9\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "type": "thunder",
+  "classifications": [
+    "normal"
+  ],
+  "level": 4,
+  "atk": 1500,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "10ad01ec-030b-43b8-8189-f71b5bd1f5fe",
+      "card": "https://ms.yugipedia.com//2/27/Anglercoilfish-RDKP08-JP-R.png"
+    }
+  ],
+  "sets": [
+    "f97239a1-ffdc-49fe-a78c-d89fc57c1403",
+    "3c5cdcc3-aa46-45b2-8558-4ff997e6d6c5",
+    "62f50503-1055-4260-b990-3fb3469154e0"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "n"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Anglercoilfish",
+        "id": 715574
+      }
+    ],
+    "dbID": 17283
+  },
+  "series": []
+}

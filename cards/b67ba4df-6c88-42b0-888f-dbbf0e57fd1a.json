@@ -1,0 +1,56 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "b67ba4df-6c88-42b0-888f-dbbf0e57fd1a",
+  "text": {
+    "en": {
+      "name": "Bean Soldier (Rush Duel)",
+      "effect": "A plant-warrior that attacks with seeds and sword."
+    },
+    "fr": {
+      "name": "Soldat Haricot"
+    },
+    "de": {
+      "name": "Bohnensoldat"
+    },
+    "it": {
+      "name": "Soldato a Fagiolo"
+    },
+    "es": {
+      "name": "Soldado Jud\u00eda"
+    },
+    "ko": {
+      "name": "\ube48 \uc194\uc800",
+      "effect": "\uac80\uc774\ub098 \ucf69\uc744 \uc0ac\uc6a9\ud574\uc11c \uacf5\uaca9\ud574\uc624\ub294 \uc2dd\ubb3c\uc804\uc0ac. \uc758\uc678\ub85c \uac15\ud558\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "plant",
+  "classifications": [
+    "normal"
+  ],
+  "level": 4,
+  "atk": 1400,
+  "def": 1300,
+  "passwords": [],
+  "images": [
+    {
+      "id": "4b642e03-4a57-4bac-b465-d914c9210535",
+      "card": "https://ms.yugipedia.com//1/13/BeanSoldier-RDSST1-JP-C.png"
+    }
+  ],
+  "sets": [
+    "f9c6f064-6fdf-412a-a9ff-62631979aa08"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Bean Soldier (Rush Duel)",
+        "id": 713582
+      }
+    ],
+    "dbID": 16292
+  },
+  "series": []
+}

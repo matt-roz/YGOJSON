@@ -1,0 +1,57 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "777e29f2-8520-4107-9a30-54bb1d8bfed9",
+  "text": {
+    "en": {
+      "name": "Sevens Road Warlock",
+      "effect": "Add 1 Level 7 or higher DARK Attribute Spellcaster Type monster from your Graveyard to your hand. If you added \"Sevens Road Magician\" to your hand by this effect, you can add 1 Level 6 or higher Spellcaster Type monster from your Graveyard to your hand."
+    },
+    "ja": {
+      "name": "\u30bb\u30d6\u30f3\u30b9\u30ed\u30fc\u30c9\u30fb\u30a6\u30a9\u30fc\u30ed\u30c3\u30af",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff17\u4ee5\u4e0a\uff0f\u95c7\u5c5e\u6027\uff0f\u9b54\u6cd5\u4f7f\u3044\u65cf\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u3002\u3053\u306e\u52b9\u679c\u3067\u300c\u30bb\u30d6\u30f3\u30b9\u30ed\u30fc\u30c9\u30fb\u30de\u30b8\u30b7\u30e3\u30f3\u300d\u3092\u624b\u672d\u306b\u52a0\u3048\u305f\u5834\u5408\u3001\u3055\u3089\u306b\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff16\u4ee5\u4e0a\uff0f\u9b54\u6cd5\u4f7f\u3044\u65cf\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc138\ube10\uc988\ub85c\ub4dc \uc6cc\ub85d",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130(\ub808\ubca8 7 \uc774\uc0c1 / \uc5b4\ub460 \uc18d\uc131 / \ub9c8\ubc95\uc0ac\uc871) 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\ub294\ub2e4. \uc774 \ud6a8\uacfc\ub85c \"\uc138\ube10\uc988\ub85c\ub4dc \ub9e4\uc9c0\uc158\"\uc744 \ud328\uc5d0 \ub123\uc5c8\uc744 \uacbd\uc6b0, \ucd94\uac00\ub85c \uc790\uc2e0 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130(\ub808\ubca8 6 \uc774\uc0c1 / \ub9c8\ubc95\uc0ac\uc871) 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\uc744 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "spellcaster",
+  "classifications": [
+    "effect"
+  ],
+  "level": 5,
+  "atk": 1100,
+  "def": 1700,
+  "passwords": [],
+  "images": [
+    {
+      "id": "c35d05cf-32cc-4045-a428-de15aa17a23a",
+      "card": "https://ms.yugipedia.com//6/6a/SevensRoadWarlock-RDMRP1-JP-C.png"
+    },
+    {
+      "id": "ac3dc6f8-3af3-4da0-acfe-1c0f058596d8",
+      "card": "https://ms.yugipedia.com//c/c4/SevensRoadWarlock-RD711A-JP-NPR.png"
+    }
+  ],
+  "sets": [
+    "dd544c08-5223-4f76-9470-5d47aec790d2"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Sevens Road Warlock",
+        "id": 716648
+      }
+    ],
+    "dbID": 16303
+  },
+  "series": [
+    "f5de8f3c-c5c3-423f-94f9-ec723eefc254"
+  ]
+}

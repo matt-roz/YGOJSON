@@ -1,0 +1,70 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "8a233db7-9f7c-4694-8c4f-114fa1025ae3",
+  "text": {
+    "en": {
+      "name": "Attron",
+      "effect": "Send this card from your field to the Graveyard and draw 1 card."
+    },
+    "fr": {
+      "name": "Attron",
+      "effect": "Envoyez cette carte depuis votre Terrain au Cimeti\u00e8re et piochez 1 carte."
+    },
+    "de": {
+      "name": "Attron",
+      "effect": "Lege diese Karte von deiner Spielfeldseite auf den Friedhof und ziehe 1 Karte."
+    },
+    "it": {
+      "name": "Attron",
+      "effect": "Manda questa carta dal tuo Terreno al Cimitero e pesca 1 carta."
+    },
+    "es": {
+      "name": "Attron",
+      "effect": "Manda al Cementerio esta carta en tu Campo y roba 1 carta."
+    },
+    "ja": {
+      "name": "\u30a2\u30c8\u30ed\u30f3",
+      "effect": "\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u3053\u306e\u30ab\u30fc\u30c9\u3092\u5893\u5730\u3078\u9001\u308a\u3001\u81ea\u5206\u306f\uff11\u679a\u30c9\u30ed\u30fc\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc544\ud2b8\ub860",
+      "effect": "\uc790\uc2e0 \ud544\ub4dc\uc758 \uc774 \uce74\ub4dc\ub97c \ubb18\uc9c0\ub85c \ubcf4\ub0b4\uace0, \uc790\uc2e0\uc740 1\uc7a5 \ub4dc\ub85c\uc6b0\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "cyberse",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 1000,
+  "def": 100,
+  "passwords": [],
+  "images": [
+    {
+      "id": "0e4fa82b-d110-4bd4-ade2-6bb20f838340",
+      "card": "https://ms.yugipedia.com//f/fa/Attron-RDB241-JP-SR.png"
+    }
+  ],
+  "sets": [
+    "c4bde57a-4e90-438f-8fe7-4db6de641241",
+    "c4bde57a-4e90-438f-8fe7-4db6de641241"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Attron",
+        "id": 713322
+      }
+    ],
+    "dbID": 15909
+  },
+  "series": [
+    "001759e7-855e-4b0e-b581-199f0c377967"
+  ]
+}

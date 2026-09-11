@@ -1,0 +1,69 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "fcf43770-70d9-4537-b8b2-1e6f2d48a96b",
+  "name": {
+    "en": "Utopia Value Box"
+  },
+  "locales": {
+    "en": {
+      "language": "en",
+      "prefix": "YS11-EN",
+      "image": "https://ms.yugipedia.com//b/b3/UtopiaValueBox.jpg",
+      "cardImages": {
+        "unlimited": {
+          "96550412-40b6-4cc3-9386-1e8aa9d9f530": "https://ms.yugipedia.com//8/8e/Number39Utopia-YS11-EN-UR-UE-CT.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "96550412-40b6-4cc3-9386-1e8aa9d9f530": {
+            "image": "https://ms.yugipedia.com//8/8e/Number39Utopia-YS11-EN-UR-UE-CT.png",
+            "variants": [
+              {
+                "code": "CT",
+                "image": "https://ms.yugipedia.com//8/8e/Number39Utopia-YS11-EN-UR-UE-CT.png"
+              }
+            ]
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {}
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "en"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "distrobution": "preconstructed",
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//b/b3/UtopiaValueBox.jpg",
+      "cards": [
+        {
+          "id": "96550412-40b6-4cc3-9386-1e8aa9d9f530",
+          "card": "c2e1b77c-8a38-4a26-8274-e8d6aea7e776",
+          "suffix": "041",
+          "rarity": "ultra"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Utopia Value Box",
+      "id": 220794
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "34420896-0fc4-4f50-bfca-0c685cd276f1",
+  "text": {
+    "en": {
+      "name": "Lightning Voltcharge",
+      "effect": "Draw 1 card. Then, if your opponent has a face-up LIGHT Attribute monster on their field, you can destroy 1 Spell/Trap Card on their field.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30e9\u30a4\u30c8\u30cb\u30f3\u30b0\u30fb\u30dc\u30eb\u30c1\u30e3\u30fc\u30b8",
+      "effect": "\u81ea\u5206\u306f\uff11\u679a\u30c9\u30ed\u30fc\u3059\u308b\u3002\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u5149\u5c5e\u6027\uff09\u304c\u3044\u308b\u5834\u5408\u3001\u3055\u3089\u306b\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u9b54\u6cd5\u30fb\u7f60\u30ab\u30fc\u30c9\uff11\u679a\u3092\u9078\u3093\u3067\u7834\u58ca\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub77c\uc774\ud2b8\ub2dd \ubcfc\ucc28\uc9c0",
+      "effect": "\uc790\uc2e0\uc740 1\uc7a5 \ub4dc\ub85c\uc6b0\ud55c\ub2e4. \uc0c1\ub300 \ud544\ub4dc\uc5d0 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\ube5b \uc18d\uc131)\uac00 \uc788\uc744 \uacbd\uc6b0, \ucd94\uac00\ub85c \uc0c1\ub300 \ud544\ub4dc\uc758 \ub9c8\ubc95 / \ud568\uc815 \uce74\ub4dc 1\uc7a5\uc744 \uace0\ub974\uace0 \ud30c\uad34\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "d132e396-43e9-4e90-8d46-a51c168af464",
+      "card": "https://ms.yugipedia.com//0/00/LightningVoltcharge-RDMRP2-JP-R.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Lightning Voltcharge",
+        "id": 1018687
+      }
+    ],
+    "dbID": 19555
+  },
+  "series": [
+    "660df425-9497-49b5-9b83-22ebacb1c544"
+  ]
+}

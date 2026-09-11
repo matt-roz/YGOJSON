@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "a7c21125-d920-4998-9bae-aecb29ace405",
+  "text": {
+    "en": {
+      "name": "Assault Lion",
+      "effect": "You can Tribute Summon this card face-up by Tributing 1 Beast-Warrior monster. If this card battles a monster, any battle damage it inflicts to your opponent is doubled. If a Beast-Warrior monster(s) is Normal or Special Summoned to your field while this card is in your GY: You can add this card to your hand, then immediately after this effect resolves, you can Tribute Summon this card face-up, and if you do, it gains 500 ATK, also banish it when it leaves the field. You can only use this effect of \"Assault Lion\" once per turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30a2\u30b5\u30eb\u30c8\u30fb\u30ea\u30aa\u30f3"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "beastwarrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2600,
+  "def": 2500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "6a4828c0-25d1-4bd1-89e5-77e625c09cef",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/100200293.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/100200293.jpg"
+    }
+  ],
+  "sets": [
+    "9af9360d-3df0-4167-836e-58336ad638b2",
+    "c5b81438-6f5b-428c-810e-dcb18ee8c464"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Assault Lion",
+        "id": 1187488
+      }
+    ],
+    "ygoprodeck": {
+      "id": 100200293,
+      "name": "assault-lion-15761"
+    }
+  },
+  "series": []
+}

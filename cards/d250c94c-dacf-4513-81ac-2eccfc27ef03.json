@@ -1,0 +1,47 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "d250c94c-dacf-4513-81ac-2eccfc27ef03",
+  "text": {
+    "en": {
+      "name": "Dolphin King Iruqua",
+      "effect": "A dolphin that has braved the stormy seas and hardships of the world, throwing itself headfirst into learning the ways of royalty.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30a4\u30eb\u30ab\u738b\u30a4\u30eb\u30af\u30a1",
+      "effect": "\u5730\u7403\u306e\u8352\u6ce2\u306b\u63c9\u307e\u308c\u3001\u5e1d\u738b\u5b66\u3092\u53e9\u304d\u8fbc\u307e\u308c\u305f\u30a4\u30eb\u30ab\u3002"
+    },
+    "ko": {
+      "name": "\ub3cc\uace0\ub798\uc655 \uc774\ub8e8\ucf70",
+      "effect": "\uc9c0\uad6c\uc758 \uac70\uc13c \ud48d\ud30c\uc5d0 \ud729\uc4f8\ub824, \uc81c\uc655\ud559\uc744 \uc775\ud788\uac8c \ub41c \ub3cc\uace0\ub798."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "type": "seaserpent",
+  "classifications": [
+    "normal"
+  ],
+  "level": 6,
+  "atk": 2000,
+  "def": 500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "9c4082a7-ac39-438b-98f2-64e43583e8b7",
+      "card": "https://ms.yugipedia.com//e/e1/DolphinKingIruqua-RDKP07-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Dolphin King Iruqua",
+        "id": 714613
+      }
+    ],
+    "dbID": 16969
+  },
+  "series": []
+}

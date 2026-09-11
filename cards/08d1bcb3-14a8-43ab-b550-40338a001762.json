@@ -1,0 +1,60 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "08d1bcb3-14a8-43ab-b550-40338a001762",
+  "text": {
+    "en": {
+      "name": "Gunde of the Monumenthes",
+      "effect": "Send the top 3 cards of your Deck to the Graveyard. Then, if an EARTH Attribute monster(s) is among the cards sent, you can draw 1 card. If you do, place 1 card from your hand on the bottom of the Deck.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u51a5\u8de1\u306e\u30b8\u30e5\u30f3\u30c7\u30a3\u30fc",
+      "effect": "\u81ea\u5206\u306e\u30c7\u30c3\u30ad\u306e\u4e0a\u304b\u3089\u30ab\u30fc\u30c9\uff13\u679a\u3092\u5893\u5730\u3078\u9001\u308b\u3002\u305d\u306e\u4e2d\u306b\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u5730\u5c5e\u6027\uff09\u304c\u3044\u305f\u5834\u5408\u3001\u3055\u3089\u306b\u81ea\u5206\u306f\uff11\u679a\u30c9\u30ed\u30fc\u3067\u304d\u308b\u3002\u30c9\u30ed\u30fc\u3057\u305f\u5834\u5408\u3001\u3055\u3089\u306b\u81ea\u5206\u306e\u624b\u672d\uff11\u679a\u3092\u9078\u3093\u3067\u30c7\u30c3\u30ad\u306e\u4e0b\u306b\u623b\u3059\u3002"
+    },
+    "ko": {
+      "name": "\uba85\uc801\uc758 \uc900\ub514",
+      "effect": "\uc790\uc2e0\uc758 \ub371 \uc704\uc5d0\uc11c \uce74\ub4dc 3\uc7a5\uc744 \ubb18\uc9c0\ub85c \ubcf4\ub0b8\ub2e4. \uadf8 \uc911\uc5d0 \ubaac\uc2a4\ud130(\ub545 \uc18d\uc131)\uac00 \uc788\uc5c8\uc744 \uacbd\uc6b0, \ucd94\uac00\ub85c \uc790\uc2e0\uc740 1\uc7a5 \ub4dc\ub85c\uc6b0\ud560 \uc218 \uc788\ub2e4. \ub4dc\ub85c\uc6b0\ud588\uc744 \uacbd\uc6b0, \ucd94\uac00\ub85c \uc790\uc2e0\uc740 \ud328 1\uc7a5\uc744 \uace0\ub974\uace0 \ub371 \uc544\ub798\ub85c \ub418\ub3cc\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "beastwarrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1000,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "709047fd-4448-4597-9e64-84813e358b40",
+      "card": "https://ms.yugipedia.com//d/d0/GundeoftheMonumenthes-RDDK01-JP-SR.png"
+    },
+    {
+      "id": "a5759ade-a3db-4d9c-baf7-6a7874c5916d",
+      "card": "https://ms.yugipedia.com//f/fb/GundeoftheMonumenthes-RD5TH1-JP-UPR.png"
+    },
+    {
+      "id": "222bd1e2-2d9c-4d1b-8502-222755cdb2cf",
+      "card": "https://ms.yugipedia.com//4/46/GundeoftheMonumenthes-RDS261-JP-OP.png"
+    }
+  ],
+  "sets": [
+    "39d31fc3-f31a-4e4e-8890-07c0643c9fc5",
+    "39d31fc3-f31a-4e4e-8890-07c0643c9fc5"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Gunde of the Monumenthes",
+        "id": 1033308
+      }
+    ],
+    "dbID": 20044
+  },
+  "series": [
+    "97eb63ff-6e37-4cb4-aec9-d4c303cc69da"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "1771cf87-b75c-4885-97f1-6bac4bd51643",
+  "text": {
+    "en": {
+      "name": "Royal Princess of the Wooly Wunderworld - Miss Mutton",
+      "effect": "\"Princess of the Flock - Miss Mutton\" + 2 Beast Type Normal Monsters",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30e1\u30a7\uff5e\u754c\u306e\u738b\u59eb\u30e1\u30a7\uff5e\u30b0\u3061\u3083\u3093",
+      "effect": "\u300c\u9b54\u6cd5\u7f8a\u5973\u30e1\u30a7\uff5e\u30b0\u3061\u3083\u3093\u300d\uff0b\u901a\u5e38\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u7363\u65cf\uff09\u00d7\uff12"
+    },
+    "ko": {
+      "name": "\uba54\uc5d0~\uacc4\uc758 \uc655\ud76c \uba54\uc5d0~\uad6c\uc591",
+      "effect": "\"\ub9c8\ubc95\uc591\ub140 \uba54\uc5d0~\uad6c\uc591\" \uff0b \uc77c\ubc18 \ubaac\uc2a4\ud130(\uc57c\uc218\uc871) \u00d7 2"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "beast",
+  "level": 9,
+  "atk": 3600,
+  "def": 1600,
+  "passwords": [],
+  "images": [
+    {
+      "id": "1e89ffa4-df8c-4efe-bd30-dc456162cdff",
+      "card": "https://ms.yugipedia.com//c/c5/RoyalPrincessoftheWoolyWunderworldMissMutton-RDORP3-JP-UR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Royal Princess of the Wooly Wunderworld - Miss Mutton",
+        "id": 1142403
+      }
+    ],
+    "dbID": 22222
+  },
+  "series": [
+    "354d73b1-0590-498d-8f4c-4095d830bbc1"
+  ]
+}

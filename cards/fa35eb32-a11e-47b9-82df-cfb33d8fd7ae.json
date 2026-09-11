@@ -1,0 +1,43 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "fa35eb32-a11e-47b9-82df-cfb33d8fd7ae",
+  "text": {
+    "en": {
+      "name": "Guardian of Order (Rush Duel)",
+      "effect": "None",
+      "official": false
+    },
+    "ko": {
+      "name": "\uac00\ub514\uc5b8 \uc624\ube0c \uc624\ub354",
+      "effect": "\uc5c6\uc74c"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 2500,
+  "def": 1200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "acb6f917-170c-4d1d-8242-808cf40eacc6",
+      "card": "https://ms.yugipedia.com//d/d6/GuardianofOrder-RDLGP2-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Guardian of Order (Rush Duel)",
+        "id": 1078735
+      }
+    ],
+    "dbID": 20875
+  },
+  "series": []
+}

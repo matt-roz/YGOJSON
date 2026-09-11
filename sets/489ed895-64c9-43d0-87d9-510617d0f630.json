@@ -1,0 +1,1374 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "489ed895-64c9-43d0-87d9-510617d0f630",
+  "name": {
+    "en": "Deck-Build Pack: Glorious Victors",
+    "ja": "\u30c7\u30c3\u30ad\u30d3\u30eb\u30c9\u30d1\u30c3\u30af \uff0d\u30b0\u30ed\u30ea\u30a2\u30b9\u30fb\u30f4\u30a3\u30af\u30bf\u30fc\u30ba\uff0d",
+    "zh-CN": "\u724c\u7ec4\u6784\u7b51\u5305 \u8363\u5149\u80dc\u5229\u8005"
+  },
+  "locales": {
+    "jp": {
+      "language": "ja",
+      "prefix": "DBGV-JP",
+      "date": "2026-09-05",
+      "image": "https://ms.yugipedia.com//3/3b/DBGV-BoosterJP.png",
+      "cardImages": {
+        "unlimited": {
+          "01c028a0-2471-48c4-9a30-15ec65485892": "https://ms.yugipedia.com//b/b3/AJourneyBacktotheLightZenet-DBGV-JP-SR.png",
+          "031bb9f7-d3af-4ec8-af2e-405a09864c2c": "https://ms.yugipedia.com//3/35/RaiseMoonHopeSqueezeJackpot-DBGV-JP-SR.png",
+          "04c57d97-c03a-449b-8617-157f65644828": "https://ms.yugipedia.com//6/65/SmallWorld-DBGV-JP-C.png",
+          "05a262ee-6dfe-4440-ad05-5786ad53ca3f": "https://ms.yugipedia.com//2/25/ZenetCataract-DBGV-JP-NPR.png",
+          "0774d707-37eb-4d6e-bbce-793e2785d85f": "https://ms.yugipedia.com//9/9c/TauzenetWadjet-DBGV-JP-SR.png",
+          "0f338b54-a901-4c33-a2b1-f26f90ca394d": "https://ms.yugipedia.com//1/18/ZenetnakhtSphinx-DBGV-JP-UR.png",
+          "167446df-380c-4cec-bde3-7b6733ed6a4f": "https://ms.yugipedia.com//3/32/CielotheVeilofRaiseMoon-DBGV-JP-UR.png",
+          "1adbb3c9-01b2-49c4-ac5c-f45cea0e5b74": "https://ms.yugipedia.com//a/a6/GizmekOrochitheSerpentronSkySlasher-DBGV-JP-NPR.png",
+          "1eba1492-ef27-4985-ab95-e60324a1d3e2": "https://ms.yugipedia.com//2/26/EaterofMillions-DBGV-JP-C.png",
+          "2b94c856-4a58-4d8c-8f3f-575923d54466": "https://ms.yugipedia.com//f/fb/GizmekOrochitheSerpentronSkySlasher-DBGV-JP-C.png",
+          "323f0d8d-d229-4f3c-b4c1-57cbf6794d34": "https://ms.yugipedia.com//7/7e/RaiseMoonLampCroucier-DBGV-JP-C.png",
+          "37710593-c37c-4015-986c-c84a423d8876": "https://ms.yugipedia.com//8/81/TwinHeadedThunderDragon-DBGV-JP-NPR.png",
+          "3e04ab3d-006d-49c4-8cbd-f35c36c86674": "https://ms.yugipedia.com//9/9f/NumberC6ChronomalyChaosAtlandis-DBGV-JP-NPR.png",
+          "4014c642-7adc-4bb5-97ec-d875c5d77652": "https://ms.yugipedia.com//5/52/RaiseMoonStarterSqueeze-DBGV-JP-C.png",
+          "4571e806-a485-4a1b-8dbd-6e1c3a93e27e": "https://ms.yugipedia.com//7/79/ZenetnakhtSphinx-DBGV-JP-ScR.png",
+          "469fc185-361e-424b-998f-d1b6cb989fd2": "https://ms.yugipedia.com//3/35/RaiseMoonBladeShayna-DBGV-JP-NPR.png",
+          "4780618c-7a6d-443f-b2cc-c98a83266180": "https://ms.yugipedia.com//7/73/SacredSwordofSevenStars-DBGV-JP-C.png",
+          "48340a64-e40b-4e96-a326-b4698adb0601": "https://ms.yugipedia.com//e/ef/AmDuazenet-DBGV-JP-NPR.png",
+          "4f7dc7d3-1423-49b5-a4bc-a5d956ccba86": "https://ms.yugipedia.com//e/e3/TheGlitterofRaiseMoon-DBGV-JP-C.png",
+          "514e383d-d840-4700-8b3e-ad9cbe3bc057": "https://ms.yugipedia.com//1/1c/RaiseMoonLampCroucier-DBGV-JP-NPR.png",
+          "54c6a817-85f0-4b41-bbd6-9f8e19056591": "https://ms.yugipedia.com//d/d3/AmDuazenet-DBGV-JP-C.png",
+          "567dc81d-e00b-4e19-8c40-7e6203f33963": "https://ms.yugipedia.com//4/4a/TauzenetWadjet-DBGV-JP-ScR.png",
+          "58d35ed3-82b6-4f22-9790-af063824ff35": "https://ms.yugipedia.com//1/1c/ZenetThunderfall-DBGV-JP-C.png",
+          "5c8c8dcd-1cba-43b8-a69c-5f058e59ac02": "https://ms.yugipedia.com//e/e0/ZenetProphetNefertari-DBGV-JP-ScR.png",
+          "5e5de5f8-adfa-4cd5-abda-628c3aff4ea0": "https://ms.yugipedia.com//0/09/RaiseMoontheCitythatNeverSleeps-DBGV-JP-NPR.png",
+          "6c754cbc-3202-4e22-9535-9afc81172f18": "https://ms.yugipedia.com//4/4a/ZenetThunderfall-DBGV-JP-NPR.png",
+          "76cb5b77-5966-4286-b158-e107ed244a54": "https://ms.yugipedia.com//a/a6/ZenetProphetAmenhotep-DBGV-JP-NPR.png",
+          "7ca878bd-a35e-4159-bab1-070b4b32d408": "https://ms.yugipedia.com//e/ed/ZenetProphetNefertari-DBGV-JP-UR.png",
+          "7e748cb9-8d18-4a6b-b279-456223c33ef4": "https://ms.yugipedia.com//6/6a/SeaMonsterofTheseus-DBGV-JP-C.png",
+          "8c8068f6-a125-4243-b115-7f3d619b1580": "https://ms.yugipedia.com//b/be/CielotheVeilofRaiseMoon-DBGV-JP-ScR.png",
+          "9034008d-2d5a-4231-a133-ffa9fadede56": "https://ms.yugipedia.com//6/60/TriHornedDragon-DBGV-JP-NPR.png",
+          "90b908fc-c44f-4fd4-9545-d3ec62cf8c02": "https://ms.yugipedia.com//e/ec/SeaMonsterofTheseus-DBGV-JP-NPR.png",
+          "93215c59-d893-43f2-a185-1feaaa9e9f89": "https://ms.yugipedia.com//d/d3/SacredSwordofSevenStars-DBGV-JP-NPR.png",
+          "9359094f-75ec-4e29-a798-e8b6dc4ea26d": "https://ms.yugipedia.com//d/df/ZenetmesNekhbet-DBGV-JP-NPR.png",
+          "9bb246f4-6dc9-4757-a2e0-bc46e6a19c31": "https://ms.yugipedia.com//a/ae/RaiseMoonBladeShayna-DBGV-JP-C.png",
+          "9f3cc6a5-6d77-4700-b3d8-56fd50efd3f2": "https://ms.yugipedia.com//d/d0/ZenetProphetAmenhotep-DBGV-JP-C.png",
+          "9f9f9a09-9490-463f-b009-279fd7fb10b2": "https://ms.yugipedia.com//3/36/TheGlitterofRaiseMoon-DBGV-JP-NPR.png",
+          "a3150ca3-b337-4a32-9864-17f4dac6d024": "https://ms.yugipedia.com//3/39/MagicalMallet-DBGV-JP-NPR.png",
+          "abab9897-2bca-41bb-9bf8-7adae11ac55f": "https://ms.yugipedia.com//a/af/PotofDesires-DBGV-JP-NPR.png",
+          "b0a858d7-fd54-49f4-aa4f-8a5183d103cf": "https://ms.yugipedia.com//6/6d/TwinHeadedThunderDragon-DBGV-JP-C.png",
+          "b1117f55-fc62-477a-ad0a-d2e6fc48c7e0": "https://ms.yugipedia.com//c/cb/CielotheNightSkyofRaiseMoonNoMoreBets-DBGV-JP-PScR.png",
+          "bb6ec6e0-c5fa-4f78-bcfb-829cd860281f": "https://ms.yugipedia.com//5/5b/ZenetmesNekhbet-DBGV-JP-C.png",
+          "bdfeeda8-bc5c-4f64-85ff-01f34d9c0462": "https://ms.yugipedia.com//4/48/PereZenetEmHeru-DBGV-JP-NPR.png",
+          "bf41383d-7bbd-4029-8bac-9feb5eda44dd": "https://ms.yugipedia.com//7/78/RaiseMoonEleganceCarol-DBGV-JP-SR.png",
+          "c25af8f3-ef30-401f-aba9-f82da1c1da21": "https://ms.yugipedia.com//f/f9/TriHornedDragon-DBGV-JP-C.png",
+          "c3343d24-9030-4362-9273-3e16c1c4eccd": "https://ms.yugipedia.com//8/8b/EaterofMillions-DBGV-JP-NPR.png",
+          "c3f34a34-67f9-4c75-81d1-cbf6ecd2253e": "https://ms.yugipedia.com//6/6e/NumberC6ChronomalyChaosAtlandis-DBGV-JP-C.png",
+          "c48fe2cb-3bab-43ab-8620-37693e2064c1": "https://ms.yugipedia.com//7/7a/ZenetPerAkh-DBGV-JP-ScR.png",
+          "c6c0efd0-be1b-4a53-b836-37a7e99b747b": "https://ms.yugipedia.com//a/a8/PotofDesires-DBGV-JP-C.png",
+          "c9b51dca-da0c-491f-81fc-5ea617d8b406": "https://ms.yugipedia.com//7/7e/BlackSkullDragon-DBGV-JP-C.png",
+          "ca118099-fb19-4fcc-865c-d66efcbff8bc": "https://ms.yugipedia.com//1/18/RaiseMoonStarterSqueeze-DBGV-JP-ScR.png",
+          "cee6bb82-c25f-450b-8a44-938e6cb0e916": "https://ms.yugipedia.com//0/05/RaiseMoonWingsRapi-DBGV-JP-SR.png",
+          "cfb55530-cbd2-40f9-9067-6b737183e62c": "https://ms.yugipedia.com//0/08/TheStarsofRaiseMoon-DBGV-JP-ScR.png",
+          "d6430f94-b27d-4a04-8217-99e427ae55ff": "https://ms.yugipedia.com//b/b9/Number76HarmonizerGradielle-DBGV-JP-C.png",
+          "dc179610-5599-4cda-8c4a-0824c5e59a17": "https://ms.yugipedia.com//1/14/ZenetnakhtSphinx-DBGV-JP-PScR.png",
+          "e0323a98-d69a-49ab-af1c-f1a161c32d49": "https://ms.yugipedia.com//9/92/ZenetCataract-DBGV-JP-C.png",
+          "e04b8e00-a9d2-46b4-b2ea-f23b9db6e27c": "https://ms.yugipedia.com//0/05/ZenetPerAkh-DBGV-JP-SR.png",
+          "e369ad96-ba69-4c78-add9-8a8710be48d8": "https://ms.yugipedia.com//d/d1/TrirealmRiftGospel-DBGV-JP-C.png",
+          "e6f25a01-04c6-4c1d-ac8f-68195bb34eff": "https://ms.yugipedia.com//7/76/CielotheNightSkyofRaiseMoonNoMoreBets-DBGV-JP-ScR.png",
+          "e84b0c49-4782-47ec-acdb-59c42ffdfede": "https://ms.yugipedia.com//9/96/PereZenetEmHeru-DBGV-JP-C.png",
+          "e93d0d50-7240-44ef-bc72-741343e32458": "https://ms.yugipedia.com//a/a1/ZenetProphetNefertari-DBGV-JP-PScR.png",
+          "ecc0f7d3-d37f-40ea-9e45-2d132739c71e": "https://ms.yugipedia.com//8/82/SmallWorld-DBGV-JP-NPR.png",
+          "f04acfbc-666f-43e7-863c-fef5825a795a": "https://ms.yugipedia.com//3/3d/TheStarsofRaiseMoon-DBGV-JP-SR.png",
+          "f320a2b4-c4ca-434a-ba73-e74cab910bb9": "https://ms.yugipedia.com//f/fa/RaiseMoontheCitythatNeverSleeps-DBGV-JP-C.png",
+          "f3994d93-18c3-4979-aa40-609b1dc87ece": "https://ms.yugipedia.com//2/25/CielotheNightSkyofRaiseMoonNoMoreBets-DBGV-JP-UR.png",
+          "f8636ce8-bd51-4835-abc2-ecf102430e38": "https://ms.yugipedia.com//c/c0/BlackSkullDragon-DBGV-JP-NPR.png",
+          "f99fce82-67c5-4e83-a768-8fd2c2c8a5e2": "https://ms.yugipedia.com//c/cb/CielotheVeilofRaiseMoon-DBGV-JP-PScR.png",
+          "fc219c64-13e5-4381-99e1-cc506d687cd1": "https://ms.yugipedia.com//e/e5/Number76HarmonizerGradielle-DBGV-JP-NPR.png",
+          "fca47677-7084-4cce-ab98-c412d769cb5f": "https://ms.yugipedia.com//9/9e/MagicalMallet-DBGV-JP-C.png",
+          "fdffbb57-ff9a-4fd6-bce7-48376875d2ae": "https://ms.yugipedia.com//c/c6/RaiseMoonStarterSqueeze-DBGV-JP-NPR.png",
+          "ff2bc6c5-90cd-48f1-a6ba-05e4d45e0b47": "https://ms.yugipedia.com//e/e8/TrirealmRiftGospel-DBGV-JP-NPR.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "01c028a0-2471-48c4-9a30-15ec65485892": {
+            "image": "https://ms.yugipedia.com//b/b3/AJourneyBacktotheLightZenet-DBGV-JP-SR.png"
+          },
+          "031bb9f7-d3af-4ec8-af2e-405a09864c2c": {
+            "image": "https://ms.yugipedia.com//3/35/RaiseMoonHopeSqueezeJackpot-DBGV-JP-SR.png"
+          },
+          "04c57d97-c03a-449b-8617-157f65644828": {
+            "image": "https://ms.yugipedia.com//6/65/SmallWorld-DBGV-JP-C.png"
+          },
+          "05a262ee-6dfe-4440-ad05-5786ad53ca3f": {
+            "image": "https://ms.yugipedia.com//2/25/ZenetCataract-DBGV-JP-NPR.png"
+          },
+          "0774d707-37eb-4d6e-bbce-793e2785d85f": {
+            "image": "https://ms.yugipedia.com//9/9c/TauzenetWadjet-DBGV-JP-SR.png"
+          },
+          "0f338b54-a901-4c33-a2b1-f26f90ca394d": {
+            "image": "https://ms.yugipedia.com//1/18/ZenetnakhtSphinx-DBGV-JP-UR.png"
+          },
+          "167446df-380c-4cec-bde3-7b6733ed6a4f": {
+            "image": "https://ms.yugipedia.com//3/32/CielotheVeilofRaiseMoon-DBGV-JP-UR.png"
+          },
+          "1adbb3c9-01b2-49c4-ac5c-f45cea0e5b74": {
+            "image": "https://ms.yugipedia.com//a/a6/GizmekOrochitheSerpentronSkySlasher-DBGV-JP-NPR.png"
+          },
+          "1eba1492-ef27-4985-ab95-e60324a1d3e2": {
+            "image": "https://ms.yugipedia.com//2/26/EaterofMillions-DBGV-JP-C.png"
+          },
+          "2b94c856-4a58-4d8c-8f3f-575923d54466": {
+            "image": "https://ms.yugipedia.com//f/fb/GizmekOrochitheSerpentronSkySlasher-DBGV-JP-C.png"
+          },
+          "323f0d8d-d229-4f3c-b4c1-57cbf6794d34": {
+            "image": "https://ms.yugipedia.com//7/7e/RaiseMoonLampCroucier-DBGV-JP-C.png"
+          },
+          "37710593-c37c-4015-986c-c84a423d8876": {
+            "image": "https://ms.yugipedia.com//8/81/TwinHeadedThunderDragon-DBGV-JP-NPR.png"
+          },
+          "3e04ab3d-006d-49c4-8cbd-f35c36c86674": {
+            "image": "https://ms.yugipedia.com//9/9f/NumberC6ChronomalyChaosAtlandis-DBGV-JP-NPR.png"
+          },
+          "4014c642-7adc-4bb5-97ec-d875c5d77652": {
+            "image": "https://ms.yugipedia.com//5/52/RaiseMoonStarterSqueeze-DBGV-JP-C.png"
+          },
+          "4571e806-a485-4a1b-8dbd-6e1c3a93e27e": {
+            "image": "https://ms.yugipedia.com//7/79/ZenetnakhtSphinx-DBGV-JP-ScR.png"
+          },
+          "469fc185-361e-424b-998f-d1b6cb989fd2": {
+            "image": "https://ms.yugipedia.com//3/35/RaiseMoonBladeShayna-DBGV-JP-NPR.png"
+          },
+          "4780618c-7a6d-443f-b2cc-c98a83266180": {
+            "image": "https://ms.yugipedia.com//7/73/SacredSwordofSevenStars-DBGV-JP-C.png"
+          },
+          "48340a64-e40b-4e96-a326-b4698adb0601": {
+            "image": "https://ms.yugipedia.com//e/ef/AmDuazenet-DBGV-JP-NPR.png"
+          },
+          "4f7dc7d3-1423-49b5-a4bc-a5d956ccba86": {
+            "image": "https://ms.yugipedia.com//e/e3/TheGlitterofRaiseMoon-DBGV-JP-C.png"
+          },
+          "514e383d-d840-4700-8b3e-ad9cbe3bc057": {
+            "image": "https://ms.yugipedia.com//1/1c/RaiseMoonLampCroucier-DBGV-JP-NPR.png"
+          },
+          "54c6a817-85f0-4b41-bbd6-9f8e19056591": {
+            "image": "https://ms.yugipedia.com//d/d3/AmDuazenet-DBGV-JP-C.png"
+          },
+          "567dc81d-e00b-4e19-8c40-7e6203f33963": {
+            "image": "https://ms.yugipedia.com//4/4a/TauzenetWadjet-DBGV-JP-ScR.png"
+          },
+          "58d35ed3-82b6-4f22-9790-af063824ff35": {
+            "image": "https://ms.yugipedia.com//1/1c/ZenetThunderfall-DBGV-JP-C.png"
+          },
+          "5c8c8dcd-1cba-43b8-a69c-5f058e59ac02": {
+            "image": "https://ms.yugipedia.com//e/e0/ZenetProphetNefertari-DBGV-JP-ScR.png"
+          },
+          "5e5de5f8-adfa-4cd5-abda-628c3aff4ea0": {
+            "image": "https://ms.yugipedia.com//0/09/RaiseMoontheCitythatNeverSleeps-DBGV-JP-NPR.png"
+          },
+          "6c754cbc-3202-4e22-9535-9afc81172f18": {
+            "image": "https://ms.yugipedia.com//4/4a/ZenetThunderfall-DBGV-JP-NPR.png"
+          },
+          "76cb5b77-5966-4286-b158-e107ed244a54": {
+            "image": "https://ms.yugipedia.com//a/a6/ZenetProphetAmenhotep-DBGV-JP-NPR.png"
+          },
+          "7ca878bd-a35e-4159-bab1-070b4b32d408": {
+            "image": "https://ms.yugipedia.com//e/ed/ZenetProphetNefertari-DBGV-JP-UR.png"
+          },
+          "7e748cb9-8d18-4a6b-b279-456223c33ef4": {
+            "image": "https://ms.yugipedia.com//6/6a/SeaMonsterofTheseus-DBGV-JP-C.png"
+          },
+          "8c8068f6-a125-4243-b115-7f3d619b1580": {
+            "image": "https://ms.yugipedia.com//b/be/CielotheVeilofRaiseMoon-DBGV-JP-ScR.png"
+          },
+          "9034008d-2d5a-4231-a133-ffa9fadede56": {
+            "image": "https://ms.yugipedia.com//6/60/TriHornedDragon-DBGV-JP-NPR.png"
+          },
+          "90b908fc-c44f-4fd4-9545-d3ec62cf8c02": {
+            "image": "https://ms.yugipedia.com//e/ec/SeaMonsterofTheseus-DBGV-JP-NPR.png"
+          },
+          "93215c59-d893-43f2-a185-1feaaa9e9f89": {
+            "image": "https://ms.yugipedia.com//d/d3/SacredSwordofSevenStars-DBGV-JP-NPR.png"
+          },
+          "9359094f-75ec-4e29-a798-e8b6dc4ea26d": {
+            "image": "https://ms.yugipedia.com//d/df/ZenetmesNekhbet-DBGV-JP-NPR.png"
+          },
+          "9bb246f4-6dc9-4757-a2e0-bc46e6a19c31": {
+            "image": "https://ms.yugipedia.com//a/ae/RaiseMoonBladeShayna-DBGV-JP-C.png"
+          },
+          "9f3cc6a5-6d77-4700-b3d8-56fd50efd3f2": {
+            "image": "https://ms.yugipedia.com//d/d0/ZenetProphetAmenhotep-DBGV-JP-C.png"
+          },
+          "9f9f9a09-9490-463f-b009-279fd7fb10b2": {
+            "image": "https://ms.yugipedia.com//3/36/TheGlitterofRaiseMoon-DBGV-JP-NPR.png"
+          },
+          "a3150ca3-b337-4a32-9864-17f4dac6d024": {
+            "image": "https://ms.yugipedia.com//3/39/MagicalMallet-DBGV-JP-NPR.png"
+          },
+          "abab9897-2bca-41bb-9bf8-7adae11ac55f": {
+            "image": "https://ms.yugipedia.com//a/af/PotofDesires-DBGV-JP-NPR.png"
+          },
+          "b0a858d7-fd54-49f4-aa4f-8a5183d103cf": {
+            "image": "https://ms.yugipedia.com//6/6d/TwinHeadedThunderDragon-DBGV-JP-C.png"
+          },
+          "b1117f55-fc62-477a-ad0a-d2e6fc48c7e0": {
+            "image": "https://ms.yugipedia.com//c/cb/CielotheNightSkyofRaiseMoonNoMoreBets-DBGV-JP-PScR.png"
+          },
+          "bb6ec6e0-c5fa-4f78-bcfb-829cd860281f": {
+            "image": "https://ms.yugipedia.com//5/5b/ZenetmesNekhbet-DBGV-JP-C.png"
+          },
+          "bdfeeda8-bc5c-4f64-85ff-01f34d9c0462": {
+            "image": "https://ms.yugipedia.com//4/48/PereZenetEmHeru-DBGV-JP-NPR.png"
+          },
+          "bf41383d-7bbd-4029-8bac-9feb5eda44dd": {
+            "image": "https://ms.yugipedia.com//7/78/RaiseMoonEleganceCarol-DBGV-JP-SR.png"
+          },
+          "c25af8f3-ef30-401f-aba9-f82da1c1da21": {
+            "image": "https://ms.yugipedia.com//f/f9/TriHornedDragon-DBGV-JP-C.png"
+          },
+          "c3343d24-9030-4362-9273-3e16c1c4eccd": {
+            "image": "https://ms.yugipedia.com//8/8b/EaterofMillions-DBGV-JP-NPR.png"
+          },
+          "c3f34a34-67f9-4c75-81d1-cbf6ecd2253e": {
+            "image": "https://ms.yugipedia.com//6/6e/NumberC6ChronomalyChaosAtlandis-DBGV-JP-C.png"
+          },
+          "c48fe2cb-3bab-43ab-8620-37693e2064c1": {
+            "image": "https://ms.yugipedia.com//7/7a/ZenetPerAkh-DBGV-JP-ScR.png"
+          },
+          "c6c0efd0-be1b-4a53-b836-37a7e99b747b": {
+            "image": "https://ms.yugipedia.com//a/a8/PotofDesires-DBGV-JP-C.png"
+          },
+          "c9b51dca-da0c-491f-81fc-5ea617d8b406": {
+            "image": "https://ms.yugipedia.com//7/7e/BlackSkullDragon-DBGV-JP-C.png"
+          },
+          "ca118099-fb19-4fcc-865c-d66efcbff8bc": {
+            "image": "https://ms.yugipedia.com//1/18/RaiseMoonStarterSqueeze-DBGV-JP-ScR.png"
+          },
+          "cee6bb82-c25f-450b-8a44-938e6cb0e916": {
+            "image": "https://ms.yugipedia.com//0/05/RaiseMoonWingsRapi-DBGV-JP-SR.png"
+          },
+          "cfb55530-cbd2-40f9-9067-6b737183e62c": {
+            "image": "https://ms.yugipedia.com//0/08/TheStarsofRaiseMoon-DBGV-JP-ScR.png"
+          },
+          "d6430f94-b27d-4a04-8217-99e427ae55ff": {
+            "image": "https://ms.yugipedia.com//b/b9/Number76HarmonizerGradielle-DBGV-JP-C.png"
+          },
+          "dc179610-5599-4cda-8c4a-0824c5e59a17": {
+            "image": "https://ms.yugipedia.com//1/14/ZenetnakhtSphinx-DBGV-JP-PScR.png"
+          },
+          "e0323a98-d69a-49ab-af1c-f1a161c32d49": {
+            "image": "https://ms.yugipedia.com//9/92/ZenetCataract-DBGV-JP-C.png"
+          },
+          "e04b8e00-a9d2-46b4-b2ea-f23b9db6e27c": {
+            "image": "https://ms.yugipedia.com//0/05/ZenetPerAkh-DBGV-JP-SR.png"
+          },
+          "e369ad96-ba69-4c78-add9-8a8710be48d8": {
+            "image": "https://ms.yugipedia.com//d/d1/TrirealmRiftGospel-DBGV-JP-C.png"
+          },
+          "e6f25a01-04c6-4c1d-ac8f-68195bb34eff": {
+            "image": "https://ms.yugipedia.com//7/76/CielotheNightSkyofRaiseMoonNoMoreBets-DBGV-JP-ScR.png"
+          },
+          "e84b0c49-4782-47ec-acdb-59c42ffdfede": {
+            "image": "https://ms.yugipedia.com//9/96/PereZenetEmHeru-DBGV-JP-C.png"
+          },
+          "e93d0d50-7240-44ef-bc72-741343e32458": {
+            "image": "https://ms.yugipedia.com//a/a1/ZenetProphetNefertari-DBGV-JP-PScR.png"
+          },
+          "ecc0f7d3-d37f-40ea-9e45-2d132739c71e": {
+            "image": "https://ms.yugipedia.com//8/82/SmallWorld-DBGV-JP-NPR.png"
+          },
+          "f04acfbc-666f-43e7-863c-fef5825a795a": {
+            "image": "https://ms.yugipedia.com//3/3d/TheStarsofRaiseMoon-DBGV-JP-SR.png"
+          },
+          "f320a2b4-c4ca-434a-ba73-e74cab910bb9": {
+            "image": "https://ms.yugipedia.com//f/fa/RaiseMoontheCitythatNeverSleeps-DBGV-JP-C.png"
+          },
+          "f3994d93-18c3-4979-aa40-609b1dc87ece": {
+            "image": "https://ms.yugipedia.com//2/25/CielotheNightSkyofRaiseMoonNoMoreBets-DBGV-JP-UR.png"
+          },
+          "f8636ce8-bd51-4835-abc2-ecf102430e38": {
+            "image": "https://ms.yugipedia.com//c/c0/BlackSkullDragon-DBGV-JP-NPR.png"
+          },
+          "f99fce82-67c5-4e83-a768-8fd2c2c8a5e2": {
+            "image": "https://ms.yugipedia.com//c/cb/CielotheVeilofRaiseMoon-DBGV-JP-PScR.png"
+          },
+          "fc219c64-13e5-4381-99e1-cc506d687cd1": {
+            "image": "https://ms.yugipedia.com//e/e5/Number76HarmonizerGradielle-DBGV-JP-NPR.png"
+          },
+          "fca47677-7084-4cce-ab98-c412d769cb5f": {
+            "image": "https://ms.yugipedia.com//9/9e/MagicalMallet-DBGV-JP-C.png"
+          },
+          "fdffbb57-ff9a-4fd6-bce7-48376875d2ae": {
+            "image": "https://ms.yugipedia.com//c/c6/RaiseMoonStarterSqueeze-DBGV-JP-NPR.png"
+          },
+          "ff2bc6c5-90cd-48f1-a6ba-05e4d45e0b47": {
+            "image": "https://ms.yugipedia.com//e/e8/TrirealmRiftGospel-DBGV-JP-NPR.png"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          1000009618000
+        ]
+      }
+    },
+    "sc": {
+      "language": "zh-CN",
+      "prefix": "DBGV-SC",
+      "date": "2026-10-03",
+      "cardImages": {
+        "unlimited": {}
+      },
+      "cardInfo": {
+        "unlimited": {}
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {}
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//3/3b/DBGV-BoosterJP.png",
+      "cards": [
+        {
+          "id": "7ca878bd-a35e-4159-bab1-070b4b32d408",
+          "card": "0ad61bd7-98d8-4d41-99ee-2382a246be19",
+          "suffix": "001",
+          "rarity": "ultra",
+          "printStatus": "new"
+        },
+        {
+          "id": "5c8c8dcd-1cba-43b8-a69c-5f058e59ac02",
+          "card": "0ad61bd7-98d8-4d41-99ee-2382a246be19",
+          "suffix": "001",
+          "rarity": "secret",
+          "printStatus": "new"
+        },
+        {
+          "id": "e93d0d50-7240-44ef-bc72-741343e32458",
+          "card": "0ad61bd7-98d8-4d41-99ee-2382a246be19",
+          "suffix": "001",
+          "rarity": "prismaticsecret",
+          "printStatus": "new"
+        },
+        {
+          "id": "9f3cc6a5-6d77-4700-b3d8-56fd50efd3f2",
+          "card": "8c3f7915-53f7-46e0-83d8-d5d1f67341fd",
+          "suffix": "002",
+          "rarity": "common",
+          "printStatus": "new"
+        },
+        {
+          "id": "76cb5b77-5966-4286-b158-e107ed244a54",
+          "card": "8c3f7915-53f7-46e0-83d8-d5d1f67341fd",
+          "suffix": "002",
+          "rarity": "commonparallel",
+          "printStatus": "new"
+        },
+        {
+          "id": "0f338b54-a901-4c33-a2b1-f26f90ca394d",
+          "card": "67a950cc-476c-4610-9722-1c05c52238c6",
+          "suffix": "003",
+          "rarity": "ultra",
+          "printStatus": "new"
+        },
+        {
+          "id": "4571e806-a485-4a1b-8dbd-6e1c3a93e27e",
+          "card": "67a950cc-476c-4610-9722-1c05c52238c6",
+          "suffix": "003",
+          "rarity": "secret",
+          "printStatus": "new"
+        },
+        {
+          "id": "dc179610-5599-4cda-8c4a-0824c5e59a17",
+          "card": "67a950cc-476c-4610-9722-1c05c52238c6",
+          "suffix": "003",
+          "rarity": "prismaticsecret",
+          "printStatus": "new"
+        },
+        {
+          "id": "0774d707-37eb-4d6e-bbce-793e2785d85f",
+          "card": "fc483a15-1cfc-430a-b1ef-3975579ba443",
+          "suffix": "004",
+          "rarity": "super",
+          "printStatus": "new"
+        },
+        {
+          "id": "567dc81d-e00b-4e19-8c40-7e6203f33963",
+          "card": "fc483a15-1cfc-430a-b1ef-3975579ba443",
+          "suffix": "004",
+          "rarity": "secret",
+          "printStatus": "new"
+        },
+        {
+          "id": "bb6ec6e0-c5fa-4f78-bcfb-829cd860281f",
+          "card": "917bc757-3458-4a64-9906-3e369dece4d4",
+          "suffix": "005",
+          "rarity": "common",
+          "printStatus": "new"
+        },
+        {
+          "id": "9359094f-75ec-4e29-a798-e8b6dc4ea26d",
+          "card": "917bc757-3458-4a64-9906-3e369dece4d4",
+          "suffix": "005",
+          "rarity": "commonparallel",
+          "printStatus": "new"
+        },
+        {
+          "id": "e84b0c49-4782-47ec-acdb-59c42ffdfede",
+          "card": "28cf5824-e95e-40b6-9734-47c7a87dc7a4",
+          "suffix": "006",
+          "rarity": "common",
+          "printStatus": "new"
+        },
+        {
+          "id": "bdfeeda8-bc5c-4f64-85ff-01f34d9c0462",
+          "card": "28cf5824-e95e-40b6-9734-47c7a87dc7a4",
+          "suffix": "006",
+          "rarity": "commonparallel",
+          "printStatus": "new"
+        },
+        {
+          "id": "e04b8e00-a9d2-46b4-b2ea-f23b9db6e27c",
+          "card": "145bebed-a5ca-4f2e-bb7d-555b182f4e80",
+          "suffix": "007",
+          "rarity": "super",
+          "printStatus": "new"
+        },
+        {
+          "id": "c48fe2cb-3bab-43ab-8620-37693e2064c1",
+          "card": "145bebed-a5ca-4f2e-bb7d-555b182f4e80",
+          "suffix": "007",
+          "rarity": "secret",
+          "printStatus": "new"
+        },
+        {
+          "id": "01c028a0-2471-48c4-9a30-15ec65485892",
+          "card": "510df8a3-0375-44c0-8c2d-bf37079f7073",
+          "suffix": "008",
+          "rarity": "super",
+          "printStatus": "new"
+        },
+        {
+          "id": "54c6a817-85f0-4b41-bbd6-9f8e19056591",
+          "card": "53ed3c96-1de8-471f-b206-39683c45df7e",
+          "suffix": "009",
+          "rarity": "common",
+          "printStatus": "new"
+        },
+        {
+          "id": "48340a64-e40b-4e96-a326-b4698adb0601",
+          "card": "53ed3c96-1de8-471f-b206-39683c45df7e",
+          "suffix": "009",
+          "rarity": "commonparallel",
+          "printStatus": "new"
+        },
+        {
+          "id": "e0323a98-d69a-49ab-af1c-f1a161c32d49",
+          "card": "d98417bc-702c-4588-b477-a414d589de45",
+          "suffix": "010",
+          "rarity": "common",
+          "printStatus": "new"
+        },
+        {
+          "id": "05a262ee-6dfe-4440-ad05-5786ad53ca3f",
+          "card": "d98417bc-702c-4588-b477-a414d589de45",
+          "suffix": "010",
+          "rarity": "commonparallel",
+          "printStatus": "new"
+        },
+        {
+          "id": "58d35ed3-82b6-4f22-9790-af063824ff35",
+          "card": "40f3130a-8282-4135-8590-ea3c23e5319a",
+          "suffix": "011",
+          "rarity": "common",
+          "printStatus": "new"
+        },
+        {
+          "id": "6c754cbc-3202-4e22-9535-9afc81172f18",
+          "card": "40f3130a-8282-4135-8590-ea3c23e5319a",
+          "suffix": "011",
+          "rarity": "commonparallel",
+          "printStatus": "new"
+        },
+        {
+          "id": "c25af8f3-ef30-401f-aba9-f82da1c1da21",
+          "card": "07509b51-008c-4442-bd86-1ca25e9d97e2",
+          "suffix": "012",
+          "rarity": "common",
+          "imageID": "3218275f-3e78-49b4-b13f-986998238351",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "9034008d-2d5a-4231-a133-ffa9fadede56",
+          "card": "07509b51-008c-4442-bd86-1ca25e9d97e2",
+          "suffix": "012",
+          "rarity": "commonparallel",
+          "imageID": "3218275f-3e78-49b4-b13f-986998238351",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "c9b51dca-da0c-491f-81fc-5ea617d8b406",
+          "card": "f9125560-0cd2-46fc-af31-f39f09f4bd93",
+          "suffix": "013",
+          "rarity": "common",
+          "imageID": "8df10f49-b66c-4810-bc2f-e79b856772ce",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "f8636ce8-bd51-4835-abc2-ecf102430e38",
+          "card": "f9125560-0cd2-46fc-af31-f39f09f4bd93",
+          "suffix": "013",
+          "rarity": "commonparallel",
+          "imageID": "8df10f49-b66c-4810-bc2f-e79b856772ce",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "b0a858d7-fd54-49f4-aa4f-8a5183d103cf",
+          "card": "48351d3c-fc71-474b-9ea2-19c030dfb3a9",
+          "suffix": "014",
+          "rarity": "common",
+          "imageID": "42f3cb96-d3a6-4789-ad0e-289c255ab818",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "37710593-c37c-4015-986c-c84a423d8876",
+          "card": "48351d3c-fc71-474b-9ea2-19c030dfb3a9",
+          "suffix": "014",
+          "rarity": "commonparallel",
+          "imageID": "42f3cb96-d3a6-4789-ad0e-289c255ab818",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "7e748cb9-8d18-4a6b-b279-456223c33ef4",
+          "card": "bc61732a-927e-4586-844c-c8af25c67996",
+          "suffix": "015",
+          "rarity": "common",
+          "imageID": "5c5446fd-4345-4b7f-9714-3721b5449988",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "90b908fc-c44f-4fd4-9545-d3ec62cf8c02",
+          "card": "bc61732a-927e-4586-844c-c8af25c67996",
+          "suffix": "015",
+          "rarity": "commonparallel",
+          "imageID": "5c5446fd-4345-4b7f-9714-3721b5449988",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "167446df-380c-4cec-bde3-7b6733ed6a4f",
+          "card": "c1ac2028-20fe-4a61-889c-ddf1e77b9a89",
+          "suffix": "016",
+          "rarity": "ultra",
+          "printStatus": "new"
+        },
+        {
+          "id": "8c8068f6-a125-4243-b115-7f3d619b1580",
+          "card": "c1ac2028-20fe-4a61-889c-ddf1e77b9a89",
+          "suffix": "016",
+          "rarity": "secret",
+          "printStatus": "new"
+        },
+        {
+          "id": "f99fce82-67c5-4e83-a768-8fd2c2c8a5e2",
+          "card": "c1ac2028-20fe-4a61-889c-ddf1e77b9a89",
+          "suffix": "016",
+          "rarity": "prismaticsecret",
+          "printStatus": "new"
+        },
+        {
+          "id": "bf41383d-7bbd-4029-8bac-9feb5eda44dd",
+          "card": "469c9c69-a7aa-461f-b638-b9bf26f9c464",
+          "suffix": "017",
+          "rarity": "super",
+          "printStatus": "new"
+        },
+        {
+          "id": "cee6bb82-c25f-450b-8a44-938e6cb0e916",
+          "card": "51ba8e50-2fa8-431c-8d57-c0d3980a013d",
+          "suffix": "018",
+          "rarity": "super",
+          "printStatus": "new"
+        },
+        {
+          "id": "9bb246f4-6dc9-4757-a2e0-bc46e6a19c31",
+          "card": "777c16d4-06fa-4ac3-a6f2-a1be7c74a642",
+          "suffix": "019",
+          "rarity": "common",
+          "printStatus": "new"
+        },
+        {
+          "id": "469fc185-361e-424b-998f-d1b6cb989fd2",
+          "card": "777c16d4-06fa-4ac3-a6f2-a1be7c74a642",
+          "suffix": "019",
+          "rarity": "commonparallel",
+          "printStatus": "new"
+        },
+        {
+          "id": "323f0d8d-d229-4f3c-b4c1-57cbf6794d34",
+          "card": "252d0a7b-c149-4ca6-8f5a-b7f81767f6d1",
+          "suffix": "020",
+          "rarity": "common",
+          "printStatus": "new"
+        },
+        {
+          "id": "514e383d-d840-4700-8b3e-ad9cbe3bc057",
+          "card": "252d0a7b-c149-4ca6-8f5a-b7f81767f6d1",
+          "suffix": "020",
+          "rarity": "commonparallel",
+          "printStatus": "new"
+        },
+        {
+          "id": "4014c642-7adc-4bb5-97ec-d875c5d77652",
+          "card": "904da2a4-0095-4f60-b752-863f12e2dad5",
+          "suffix": "021",
+          "rarity": "common",
+          "printStatus": "new"
+        },
+        {
+          "id": "fdffbb57-ff9a-4fd6-bce7-48376875d2ae",
+          "card": "904da2a4-0095-4f60-b752-863f12e2dad5",
+          "suffix": "021",
+          "rarity": "commonparallel",
+          "printStatus": "new"
+        },
+        {
+          "id": "ca118099-fb19-4fcc-865c-d66efcbff8bc",
+          "card": "904da2a4-0095-4f60-b752-863f12e2dad5",
+          "suffix": "021",
+          "rarity": "secret",
+          "printStatus": "new"
+        },
+        {
+          "id": "f3994d93-18c3-4979-aa40-609b1dc87ece",
+          "card": "45097583-9f53-4556-b3b3-47ebc144c7f8",
+          "suffix": "022",
+          "rarity": "ultra",
+          "printStatus": "new"
+        },
+        {
+          "id": "e6f25a01-04c6-4c1d-ac8f-68195bb34eff",
+          "card": "45097583-9f53-4556-b3b3-47ebc144c7f8",
+          "suffix": "022",
+          "rarity": "secret",
+          "printStatus": "new"
+        },
+        {
+          "id": "b1117f55-fc62-477a-ad0a-d2e6fc48c7e0",
+          "card": "45097583-9f53-4556-b3b3-47ebc144c7f8",
+          "suffix": "022",
+          "rarity": "prismaticsecret",
+          "printStatus": "new"
+        },
+        {
+          "id": "031bb9f7-d3af-4ec8-af2e-405a09864c2c",
+          "card": "d15d1ac6-6873-4abe-9a4e-a6ef915cf9bc",
+          "suffix": "023",
+          "rarity": "super",
+          "printStatus": "new"
+        },
+        {
+          "id": "f04acfbc-666f-43e7-863c-fef5825a795a",
+          "card": "f4ad6223-a255-43de-81b4-bd3bb4f1cbcd",
+          "suffix": "024",
+          "rarity": "super",
+          "printStatus": "new"
+        },
+        {
+          "id": "cfb55530-cbd2-40f9-9067-6b737183e62c",
+          "card": "f4ad6223-a255-43de-81b4-bd3bb4f1cbcd",
+          "suffix": "024",
+          "rarity": "secret",
+          "printStatus": "new"
+        },
+        {
+          "id": "f320a2b4-c4ca-434a-ba73-e74cab910bb9",
+          "card": "68994dd4-1c78-4680-a485-c53a18ac7d40",
+          "suffix": "025",
+          "rarity": "common",
+          "printStatus": "new"
+        },
+        {
+          "id": "5e5de5f8-adfa-4cd5-abda-628c3aff4ea0",
+          "card": "68994dd4-1c78-4680-a485-c53a18ac7d40",
+          "suffix": "025",
+          "rarity": "commonparallel",
+          "printStatus": "new"
+        },
+        {
+          "id": "4f7dc7d3-1423-49b5-a4bc-a5d956ccba86",
+          "card": "4bf8c62b-c582-4063-91f2-57bda91cc780",
+          "suffix": "026",
+          "rarity": "common",
+          "printStatus": "new"
+        },
+        {
+          "id": "9f9f9a09-9490-463f-b009-279fd7fb10b2",
+          "card": "4bf8c62b-c582-4063-91f2-57bda91cc780",
+          "suffix": "026",
+          "rarity": "commonparallel",
+          "printStatus": "new"
+        },
+        {
+          "id": "d6430f94-b27d-4a04-8217-99e427ae55ff",
+          "card": "57ddb594-792c-4c64-9c5a-6921f1befb78",
+          "suffix": "027",
+          "rarity": "common",
+          "imageID": "8b8d8f15-47cb-4b8b-95f3-d0859541a5fb",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "fc219c64-13e5-4381-99e1-cc506d687cd1",
+          "card": "57ddb594-792c-4c64-9c5a-6921f1befb78",
+          "suffix": "027",
+          "rarity": "commonparallel",
+          "imageID": "8b8d8f15-47cb-4b8b-95f3-d0859541a5fb",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "c3f34a34-67f9-4c75-81d1-cbf6ecd2253e",
+          "card": "4caa309d-8a1b-4f7d-9c55-6f6da456e14f",
+          "suffix": "028",
+          "rarity": "common",
+          "imageID": "41cd974c-75ff-4093-8521-dafd8f48821c",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "3e04ab3d-006d-49c4-8cbd-f35c36c86674",
+          "card": "4caa309d-8a1b-4f7d-9c55-6f6da456e14f",
+          "suffix": "028",
+          "rarity": "commonparallel",
+          "imageID": "41cd974c-75ff-4093-8521-dafd8f48821c",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "fca47677-7084-4cce-ab98-c412d769cb5f",
+          "card": "82654b75-49fb-478b-b258-32c3873bd36f",
+          "suffix": "029",
+          "rarity": "common",
+          "imageID": "6ae44f3a-ff27-4b7e-9a1b-3158e9d0da47",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "a3150ca3-b337-4a32-9864-17f4dac6d024",
+          "card": "82654b75-49fb-478b-b258-32c3873bd36f",
+          "suffix": "029",
+          "rarity": "commonparallel",
+          "imageID": "6ae44f3a-ff27-4b7e-9a1b-3158e9d0da47",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "4780618c-7a6d-443f-b2cc-c98a83266180",
+          "card": "c9b49866-9259-44b1-bc0e-a062e815d75c",
+          "suffix": "030",
+          "rarity": "common",
+          "imageID": "efd18ce4-afc2-46bc-8de7-f86d2eee0517",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "93215c59-d893-43f2-a185-1feaaa9e9f89",
+          "card": "c9b49866-9259-44b1-bc0e-a062e815d75c",
+          "suffix": "030",
+          "rarity": "commonparallel",
+          "imageID": "efd18ce4-afc2-46bc-8de7-f86d2eee0517",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "0928d929-e192-4131-b4db-b116a649f040",
+          "card": "9bba4993-8db6-430b-93f4-521d8a3a4e5f",
+          "suffix": "031",
+          "rarity": "super",
+          "printStatus": "new"
+        },
+        {
+          "id": "1461f922-afe2-4596-80df-6a098de0208e",
+          "card": "e33676b4-b1e4-4a50-9276-931777b88bf4",
+          "suffix": "032",
+          "rarity": "super",
+          "printStatus": "new"
+        },
+        {
+          "id": "a2d1b471-bace-4128-8b1f-c5a31d70de35",
+          "card": "a8fbc313-c588-4b47-999d-6a76e5143d79",
+          "suffix": "033",
+          "rarity": "common",
+          "printStatus": "new"
+        },
+        {
+          "id": "a42898a7-cfd1-4ac2-8a84-06b9f5fd4124",
+          "card": "a8fbc313-c588-4b47-999d-6a76e5143d79",
+          "suffix": "033",
+          "rarity": "commonparallel",
+          "printStatus": "new"
+        },
+        {
+          "id": "a1c47608-75f3-4b18-b888-cadb2d34aebc",
+          "card": "80d0b59e-8f15-4419-b4d2-22b9b96d03b4",
+          "suffix": "034",
+          "rarity": "common",
+          "printStatus": "new"
+        },
+        {
+          "id": "28e120c0-c583-4f62-ba73-f9246ad44c8f",
+          "card": "80d0b59e-8f15-4419-b4d2-22b9b96d03b4",
+          "suffix": "034",
+          "rarity": "commonparallel",
+          "printStatus": "new"
+        },
+        {
+          "id": "29df4fb4-33c9-49df-b016-b13debe4d6a7",
+          "card": "80d0b59e-8f15-4419-b4d2-22b9b96d03b4",
+          "suffix": "034",
+          "rarity": "secret",
+          "printStatus": "new"
+        },
+        {
+          "id": "bd10f8df-d19c-4472-a837-6cbb624b8bec",
+          "card": "2b2459dc-0479-460f-9166-33c8f16b6c2d",
+          "suffix": "035",
+          "rarity": "super",
+          "printStatus": "new"
+        },
+        {
+          "id": "e7000bd0-9db2-46e0-908b-984e4c034c4d",
+          "card": "f0c703c8-4c51-4e11-9a5e-4261a374f2f2",
+          "suffix": "036",
+          "rarity": "common",
+          "printStatus": "new"
+        },
+        {
+          "id": "087de976-aa49-412a-85c4-6ede32265afa",
+          "card": "f0c703c8-4c51-4e11-9a5e-4261a374f2f2",
+          "suffix": "036",
+          "rarity": "commonparallel",
+          "printStatus": "new"
+        },
+        {
+          "id": "ab766149-0185-4b96-98a8-407a6e94173e",
+          "card": "f0c703c8-4c51-4e11-9a5e-4261a374f2f2",
+          "suffix": "036",
+          "rarity": "secret",
+          "printStatus": "new"
+        },
+        {
+          "id": "592b44c6-b3f2-4ca2-a879-7030c6f9a72d",
+          "card": "6eb74ed9-d8c1-44f3-8c72-e40b57268765",
+          "suffix": "037",
+          "rarity": "ultra",
+          "printStatus": "new"
+        },
+        {
+          "id": "28559799-9a6b-49ef-88fa-2314b805e913",
+          "card": "6eb74ed9-d8c1-44f3-8c72-e40b57268765",
+          "suffix": "037",
+          "rarity": "secret",
+          "printStatus": "new"
+        },
+        {
+          "id": "3eea63b5-e13f-495b-8c96-9f980a1a6a10",
+          "card": "6eb74ed9-d8c1-44f3-8c72-e40b57268765",
+          "suffix": "037",
+          "rarity": "prismaticsecret",
+          "printStatus": "new"
+        },
+        {
+          "id": "be131214-1c43-4e79-a576-bec21b0ab29d",
+          "card": "d570ec70-e0b8-4ba6-adef-4a45667c604e",
+          "suffix": "038",
+          "rarity": "ultra",
+          "imageID": "fccdd619-ebdb-4d5b-ab7d-3b482f6a5226",
+          "printStatus": "new"
+        },
+        {
+          "id": "d19a1f5d-38f6-4bd4-bad8-932375b87b8c",
+          "card": "d570ec70-e0b8-4ba6-adef-4a45667c604e",
+          "suffix": "038",
+          "rarity": "secret",
+          "imageID": "fccdd619-ebdb-4d5b-ab7d-3b482f6a5226",
+          "printStatus": "new"
+        },
+        {
+          "id": "78a704ea-b7be-45c6-9070-a15f5a278628",
+          "card": "d570ec70-e0b8-4ba6-adef-4a45667c604e",
+          "suffix": "038",
+          "rarity": "prismaticsecret",
+          "imageID": "fccdd619-ebdb-4d5b-ab7d-3b482f6a5226",
+          "printStatus": "new"
+        },
+        {
+          "id": "1c5e41eb-3b0d-4f97-8187-09fe407031f0",
+          "card": "5089023c-beb4-4354-988b-ecc325375ff1",
+          "suffix": "039",
+          "rarity": "common",
+          "printStatus": "new"
+        },
+        {
+          "id": "508f762b-8e43-4f00-be7e-ef42738189e3",
+          "card": "5089023c-beb4-4354-988b-ecc325375ff1",
+          "suffix": "039",
+          "rarity": "commonparallel",
+          "printStatus": "new"
+        },
+        {
+          "id": "e369ad96-ba69-4c78-add9-8a8710be48d8",
+          "card": "275061fc-a2b4-4a54-a5ef-980421406f2f",
+          "suffix": "040",
+          "rarity": "common",
+          "printStatus": "new"
+        },
+        {
+          "id": "ff2bc6c5-90cd-48f1-a6ba-05e4d45e0b47",
+          "card": "275061fc-a2b4-4a54-a5ef-980421406f2f",
+          "suffix": "040",
+          "rarity": "commonparallel",
+          "printStatus": "new"
+        },
+        {
+          "id": "883025dc-9e99-4ff5-95fb-28f21de43dcd",
+          "card": "552a8ec9-d63b-4a7f-8231-ccd08ffac1c1",
+          "suffix": "041",
+          "rarity": "common",
+          "printStatus": "new"
+        },
+        {
+          "id": "959c667f-0652-472d-8e04-8c85f19fff55",
+          "card": "552a8ec9-d63b-4a7f-8231-ccd08ffac1c1",
+          "suffix": "041",
+          "rarity": "commonparallel",
+          "printStatus": "new"
+        },
+        {
+          "id": "2b94c856-4a58-4d8c-8f3f-575923d54466",
+          "card": "b4bbcffc-532c-4b56-99e4-d0b33e43ae33",
+          "suffix": "042",
+          "rarity": "common",
+          "imageID": "030820e7-e6f0-459c-ab42-0ebbd3721b86",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "1adbb3c9-01b2-49c4-ac5c-f45cea0e5b74",
+          "card": "b4bbcffc-532c-4b56-99e4-d0b33e43ae33",
+          "suffix": "042",
+          "rarity": "commonparallel",
+          "imageID": "030820e7-e6f0-459c-ab42-0ebbd3721b86",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "1eba1492-ef27-4985-ab95-e60324a1d3e2",
+          "card": "f7b64956-4ebf-49c7-a724-2b6b45ea39b7",
+          "suffix": "043",
+          "rarity": "common",
+          "imageID": "f2403870-9d86-4fad-b47a-8bf0293dd9e4",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "c3343d24-9030-4362-9273-3e16c1c4eccd",
+          "card": "f7b64956-4ebf-49c7-a724-2b6b45ea39b7",
+          "suffix": "043",
+          "rarity": "commonparallel",
+          "imageID": "f2403870-9d86-4fad-b47a-8bf0293dd9e4",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "c6c0efd0-be1b-4a53-b836-37a7e99b747b",
+          "card": "4e6b47a8-3dd2-4249-b185-6f06d2a78960",
+          "suffix": "044",
+          "rarity": "common",
+          "imageID": "65d8acf8-174b-4f7a-be75-92e347d557c3",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "abab9897-2bca-41bb-9bf8-7adae11ac55f",
+          "card": "4e6b47a8-3dd2-4249-b185-6f06d2a78960",
+          "suffix": "044",
+          "rarity": "commonparallel",
+          "imageID": "65d8acf8-174b-4f7a-be75-92e347d557c3",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "04c57d97-c03a-449b-8617-157f65644828",
+          "card": "ad20e1f8-c124-4a09-a4a1-b4bdbe91da91",
+          "suffix": "045",
+          "rarity": "common",
+          "imageID": "ae760099-f493-4b1f-8691-5e5d44de2b82",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "ecc0f7d3-d37f-40ea-9e45-2d132739c71e",
+          "card": "ad20e1f8-c124-4a09-a4a1-b4bdbe91da91",
+          "suffix": "045",
+          "rarity": "commonparallel",
+          "imageID": "ae760099-f493-4b1f-8691-5e5d44de2b82",
+          "printStatus": "reprint"
+        }
+      ],
+      "externalIDs": {}
+    },
+    {
+      "locales": [
+        "sc"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "cards": [
+        {
+          "id": "88a82371-7f31-4257-946f-189976071517",
+          "card": "0ad61bd7-98d8-4d41-99ee-2382a246be19",
+          "suffix": "001",
+          "rarity": "common",
+          "printStatus": "new"
+        },
+        {
+          "id": "9f3cc6a5-6d77-4700-b3d8-56fd50efd3f2",
+          "card": "8c3f7915-53f7-46e0-83d8-d5d1f67341fd",
+          "suffix": "002",
+          "rarity": "common",
+          "printStatus": "new"
+        },
+        {
+          "id": "f49f2ec9-5da0-48dc-9950-bb29203b914b",
+          "card": "67a950cc-476c-4610-9722-1c05c52238c6",
+          "suffix": "003",
+          "rarity": "common",
+          "printStatus": "new"
+        },
+        {
+          "id": "ab6ed316-bd44-421d-80a6-7f8500fc7b51",
+          "card": "fc483a15-1cfc-430a-b1ef-3975579ba443",
+          "suffix": "004",
+          "rarity": "common",
+          "printStatus": "new"
+        },
+        {
+          "id": "bb6ec6e0-c5fa-4f78-bcfb-829cd860281f",
+          "card": "917bc757-3458-4a64-9906-3e369dece4d4",
+          "suffix": "005",
+          "rarity": "common",
+          "printStatus": "new"
+        },
+        {
+          "id": "e84b0c49-4782-47ec-acdb-59c42ffdfede",
+          "card": "28cf5824-e95e-40b6-9734-47c7a87dc7a4",
+          "suffix": "006",
+          "rarity": "common",
+          "printStatus": "new"
+        },
+        {
+          "id": "c8d2d06a-ddf4-40a9-8bd3-7568ff7c2fa0",
+          "card": "145bebed-a5ca-4f2e-bb7d-555b182f4e80",
+          "suffix": "007",
+          "rarity": "common",
+          "printStatus": "new"
+        },
+        {
+          "id": "c74084ab-fe84-4cba-a288-df260f002e7a",
+          "card": "510df8a3-0375-44c0-8c2d-bf37079f7073",
+          "suffix": "008",
+          "rarity": "common",
+          "printStatus": "new"
+        },
+        {
+          "id": "54c6a817-85f0-4b41-bbd6-9f8e19056591",
+          "card": "53ed3c96-1de8-471f-b206-39683c45df7e",
+          "suffix": "009",
+          "rarity": "common",
+          "printStatus": "new"
+        },
+        {
+          "id": "e0323a98-d69a-49ab-af1c-f1a161c32d49",
+          "card": "d98417bc-702c-4588-b477-a414d589de45",
+          "suffix": "010",
+          "rarity": "common",
+          "printStatus": "new"
+        },
+        {
+          "id": "58d35ed3-82b6-4f22-9790-af063824ff35",
+          "card": "40f3130a-8282-4135-8590-ea3c23e5319a",
+          "suffix": "011",
+          "rarity": "common",
+          "printStatus": "new"
+        },
+        {
+          "id": "c25af8f3-ef30-401f-aba9-f82da1c1da21",
+          "card": "07509b51-008c-4442-bd86-1ca25e9d97e2",
+          "suffix": "012",
+          "rarity": "common",
+          "imageID": "3218275f-3e78-49b4-b13f-986998238351",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "c9b51dca-da0c-491f-81fc-5ea617d8b406",
+          "card": "f9125560-0cd2-46fc-af31-f39f09f4bd93",
+          "suffix": "013",
+          "rarity": "common",
+          "imageID": "8df10f49-b66c-4810-bc2f-e79b856772ce",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "b0a858d7-fd54-49f4-aa4f-8a5183d103cf",
+          "card": "48351d3c-fc71-474b-9ea2-19c030dfb3a9",
+          "suffix": "014",
+          "rarity": "common",
+          "imageID": "42f3cb96-d3a6-4789-ad0e-289c255ab818",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "7e748cb9-8d18-4a6b-b279-456223c33ef4",
+          "card": "bc61732a-927e-4586-844c-c8af25c67996",
+          "suffix": "015",
+          "rarity": "common",
+          "imageID": "5c5446fd-4345-4b7f-9714-3721b5449988",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "0644aa60-7ed2-46b6-b0e7-650d0537c84b",
+          "card": "c1ac2028-20fe-4a61-889c-ddf1e77b9a89",
+          "suffix": "016",
+          "rarity": "common",
+          "printStatus": "new"
+        },
+        {
+          "id": "7fc94f03-e417-4b51-9b53-3ce5613e1d22",
+          "card": "469c9c69-a7aa-461f-b638-b9bf26f9c464",
+          "suffix": "017",
+          "rarity": "common",
+          "printStatus": "new"
+        },
+        {
+          "id": "763e676a-5cfe-474d-9626-0526ea66036d",
+          "card": "51ba8e50-2fa8-431c-8d57-c0d3980a013d",
+          "suffix": "018",
+          "rarity": "common",
+          "printStatus": "new"
+        },
+        {
+          "id": "9bb246f4-6dc9-4757-a2e0-bc46e6a19c31",
+          "card": "777c16d4-06fa-4ac3-a6f2-a1be7c74a642",
+          "suffix": "019",
+          "rarity": "common",
+          "printStatus": "new"
+        },
+        {
+          "id": "323f0d8d-d229-4f3c-b4c1-57cbf6794d34",
+          "card": "252d0a7b-c149-4ca6-8f5a-b7f81767f6d1",
+          "suffix": "020",
+          "rarity": "common",
+          "printStatus": "new"
+        },
+        {
+          "id": "4014c642-7adc-4bb5-97ec-d875c5d77652",
+          "card": "904da2a4-0095-4f60-b752-863f12e2dad5",
+          "suffix": "021",
+          "rarity": "common",
+          "printStatus": "new"
+        },
+        {
+          "id": "280ae9dc-4806-468d-8f53-91745c0c6a92",
+          "card": "45097583-9f53-4556-b3b3-47ebc144c7f8",
+          "suffix": "022",
+          "rarity": "common",
+          "printStatus": "new"
+        },
+        {
+          "id": "3d6b1a22-6e8e-4ce2-b258-41efab7f82f1",
+          "card": "d15d1ac6-6873-4abe-9a4e-a6ef915cf9bc",
+          "suffix": "023",
+          "rarity": "common",
+          "printStatus": "new"
+        },
+        {
+          "id": "0e47a73f-2c42-46a5-9c82-fa120df3047f",
+          "card": "f4ad6223-a255-43de-81b4-bd3bb4f1cbcd",
+          "suffix": "024",
+          "rarity": "common",
+          "printStatus": "new"
+        },
+        {
+          "id": "f320a2b4-c4ca-434a-ba73-e74cab910bb9",
+          "card": "68994dd4-1c78-4680-a485-c53a18ac7d40",
+          "suffix": "025",
+          "rarity": "common",
+          "printStatus": "new"
+        },
+        {
+          "id": "4f7dc7d3-1423-49b5-a4bc-a5d956ccba86",
+          "card": "4bf8c62b-c582-4063-91f2-57bda91cc780",
+          "suffix": "026",
+          "rarity": "common",
+          "printStatus": "new"
+        },
+        {
+          "id": "d6430f94-b27d-4a04-8217-99e427ae55ff",
+          "card": "57ddb594-792c-4c64-9c5a-6921f1befb78",
+          "suffix": "027",
+          "rarity": "common",
+          "imageID": "8b8d8f15-47cb-4b8b-95f3-d0859541a5fb",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "c3f34a34-67f9-4c75-81d1-cbf6ecd2253e",
+          "card": "4caa309d-8a1b-4f7d-9c55-6f6da456e14f",
+          "suffix": "028",
+          "rarity": "common",
+          "imageID": "41cd974c-75ff-4093-8521-dafd8f48821c",
+          "printStatus": "new"
+        },
+        {
+          "id": "fca47677-7084-4cce-ab98-c412d769cb5f",
+          "card": "82654b75-49fb-478b-b258-32c3873bd36f",
+          "suffix": "029",
+          "rarity": "common",
+          "imageID": "6ae44f3a-ff27-4b7e-9a1b-3158e9d0da47",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "4780618c-7a6d-443f-b2cc-c98a83266180",
+          "card": "c9b49866-9259-44b1-bc0e-a062e815d75c",
+          "suffix": "030",
+          "rarity": "common",
+          "imageID": "efd18ce4-afc2-46bc-8de7-f86d2eee0517",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "5908ce98-7c02-49f9-9d39-fea16db712dd",
+          "card": "9bba4993-8db6-430b-93f4-521d8a3a4e5f",
+          "suffix": "031",
+          "rarity": "common",
+          "printStatus": "new"
+        },
+        {
+          "id": "21a0a9b0-3aec-436a-9de2-dbcc437b93c4",
+          "card": "e33676b4-b1e4-4a50-9276-931777b88bf4",
+          "suffix": "032",
+          "rarity": "common",
+          "printStatus": "new"
+        },
+        {
+          "id": "a2d1b471-bace-4128-8b1f-c5a31d70de35",
+          "card": "a8fbc313-c588-4b47-999d-6a76e5143d79",
+          "suffix": "033",
+          "rarity": "common",
+          "printStatus": "new"
+        },
+        {
+          "id": "a1c47608-75f3-4b18-b888-cadb2d34aebc",
+          "card": "80d0b59e-8f15-4419-b4d2-22b9b96d03b4",
+          "suffix": "034",
+          "rarity": "common",
+          "printStatus": "new"
+        },
+        {
+          "id": "72209b58-5773-4632-978b-d4eb48123c54",
+          "card": "2b2459dc-0479-460f-9166-33c8f16b6c2d",
+          "suffix": "035",
+          "rarity": "common",
+          "printStatus": "new"
+        },
+        {
+          "id": "e7000bd0-9db2-46e0-908b-984e4c034c4d",
+          "card": "f0c703c8-4c51-4e11-9a5e-4261a374f2f2",
+          "suffix": "036",
+          "rarity": "common",
+          "printStatus": "new"
+        },
+        {
+          "id": "0f3b3aa7-37dc-4ee1-b97e-f071c8a76eb0",
+          "card": "6eb74ed9-d8c1-44f3-8c72-e40b57268765",
+          "suffix": "037",
+          "rarity": "common",
+          "printStatus": "new"
+        },
+        {
+          "id": "2163e3f5-dd9f-4621-92f6-19e2359bdb6d",
+          "card": "d570ec70-e0b8-4ba6-adef-4a45667c604e",
+          "suffix": "038",
+          "rarity": "common",
+          "imageID": "fccdd619-ebdb-4d5b-ab7d-3b482f6a5226",
+          "printStatus": "new"
+        },
+        {
+          "id": "1c5e41eb-3b0d-4f97-8187-09fe407031f0",
+          "card": "5089023c-beb4-4354-988b-ecc325375ff1",
+          "suffix": "039",
+          "rarity": "common",
+          "printStatus": "new"
+        },
+        {
+          "id": "e369ad96-ba69-4c78-add9-8a8710be48d8",
+          "card": "275061fc-a2b4-4a54-a5ef-980421406f2f",
+          "suffix": "040",
+          "rarity": "common",
+          "printStatus": "new"
+        },
+        {
+          "id": "883025dc-9e99-4ff5-95fb-28f21de43dcd",
+          "card": "552a8ec9-d63b-4a7f-8231-ccd08ffac1c1",
+          "suffix": "041",
+          "rarity": "common",
+          "printStatus": "new"
+        },
+        {
+          "id": "2b94c856-4a58-4d8c-8f3f-575923d54466",
+          "card": "b4bbcffc-532c-4b56-99e4-d0b33e43ae33",
+          "suffix": "042",
+          "rarity": "common",
+          "imageID": "030820e7-e6f0-459c-ab42-0ebbd3721b86",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "1eba1492-ef27-4985-ab95-e60324a1d3e2",
+          "card": "f7b64956-4ebf-49c7-a724-2b6b45ea39b7",
+          "suffix": "043",
+          "rarity": "common",
+          "imageID": "f2403870-9d86-4fad-b47a-8bf0293dd9e4",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "c6c0efd0-be1b-4a53-b836-37a7e99b747b",
+          "card": "4e6b47a8-3dd2-4249-b185-6f06d2a78960",
+          "suffix": "044",
+          "rarity": "common",
+          "imageID": "65d8acf8-174b-4f7a-be75-92e347d557c3",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "04c57d97-c03a-449b-8617-157f65644828",
+          "card": "ad20e1f8-c124-4a09-a4a1-b4bdbe91da91",
+          "suffix": "045",
+          "rarity": "common",
+          "imageID": "ae760099-f493-4b1f-8691-5e5d44de2b82",
+          "printStatus": "reprint"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Deck-Build Pack: Glorious Victors",
+      "id": 1189934
+    }
+  }
+}

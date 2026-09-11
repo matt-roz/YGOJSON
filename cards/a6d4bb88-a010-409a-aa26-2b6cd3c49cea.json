@@ -1,0 +1,62 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "a6d4bb88-a010-409a-aa26-2b6cd3c49cea",
+  "text": {
+    "en": {
+      "name": "Pot of Greed (Rush Duel)",
+      "effect": "Draw 2 cards."
+    },
+    "fr": {
+      "name": "Pot de Cupidit\u00e9",
+      "effect": "Piochez 2 cartes."
+    },
+    "de": {
+      "name": "Topf der Gier",
+      "effect": "Ziehe 2 Karten."
+    },
+    "it": {
+      "name": "Anfora dell'Avidit\u00e0",
+      "effect": "Pesca 2 carte."
+    },
+    "es": {
+      "name": "Olla de la Codicia",
+      "effect": "Roba 2 cartas."
+    },
+    "ko": {
+      "name": "\uc695\ub9dd\uc758 \ud56d\uc544\ub9ac",
+      "effect": "\uc790\uc2e0\uc740 2\uc7a5 \ub4dc\ub85c\uc6b0\ud55c\ub2e4."
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "6ae471ab-0e24-4a47-b906-1ac9364b2476",
+      "card": "https://ms.yugipedia.com//8/8e/PotofGreed-RDORP4-JP-C.png"
+    },
+    {
+      "id": "f2128f1f-2910-4c45-b178-d0f7437552b0",
+      "card": "https://ms.yugipedia.com//a/a5/PotofGreed-RDORP4-JP-ORR.png"
+    },
+    {
+      "id": "72f07ca2-4f14-4a0a-92ce-63855b75cc99",
+      "card": "https://ms.yugipedia.com//d/df/PotofGreed-RDLP01-JP-OP.png"
+    }
+  ],
+  "sets": [
+    "fab3640e-34f2-410e-8c1b-6c7386795132",
+    "fab3640e-34f2-410e-8c1b-6c7386795132"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Pot of Greed (Rush Duel)",
+        "id": 716257
+      }
+    ],
+    "dbID": 16372
+  },
+  "series": []
+}

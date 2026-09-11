@@ -1,0 +1,43 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "291e43de-766e-49c6-8295-d1eeeaeda597",
+  "text": {
+    "en": {
+      "name": "Vanity's Fiend (Rush Duel)",
+      "effect": "Neither player can Special Summon monsters.",
+      "official": false
+    },
+    "ko": {
+      "name": "\ubc30\ub108\ud2f0 \ub370\ube14",
+      "effect": "\uc591\ucabd \ud50c\ub808\uc774\uc5b4\ub294 \ubaac\uc2a4\ud130\ub97c \ud2b9\uc218 \uc18c\ud658\ud560 \uc218 \uc5c6\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "fiend",
+  "classifications": [
+    "effect"
+  ],
+  "level": 6,
+  "atk": 2400,
+  "def": 1200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "7f507ca5-0ee6-4fdc-b44c-03b98e0ed2de",
+      "card": "https://ms.yugipedia.com//1/13/VanitysFiend-RDLGP1-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Vanity's Fiend (Rush Duel)",
+        "id": 717360
+      }
+    ],
+    "dbID": 18688
+  },
+  "series": []
+}

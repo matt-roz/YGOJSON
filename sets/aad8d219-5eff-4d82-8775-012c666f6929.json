@@ -1,0 +1,61 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "aad8d219-5eff-4d82-8775-012c666f6929",
+  "name": {
+    "en": "Shonen Jump Vol. 8, Issue 3"
+  },
+  "locales": {
+    "en": {
+      "language": "en",
+      "prefix": "JUMP-EN",
+      "date": "2010-03-01",
+      "cardImages": {
+        "limited": {}
+      },
+      "cardInfo": {
+        "limited": {}
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          1111106002
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "en"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "distrobution": "preconstructed",
+      "editions": [
+        "limited"
+      ],
+      "cards": [
+        {
+          "id": "7100517a-8766-4e89-bc24-6961ce31b791",
+          "card": "10cd1497-c03b-4b4e-b733-f89205d7283f",
+          "suffix": "038",
+          "rarity": "ultra",
+          "imageID": "5c6dba5e-2bf5-4e59-a9bf-d675af1252c4"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Shonen Jump Vol. 8, Issue 3 promotional card",
+      "id": 272036
+    }
+  }
+}

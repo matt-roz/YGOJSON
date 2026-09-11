@@ -1,0 +1,70 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "4e22d87e-a534-448f-a0de-8304a5650040",
+  "name": {
+    "en": "Jump Victory Carnival 2026 promotional cards",
+    "ja": "\u30b8\u30e3\u30f3\u30d7\u30d3\u30af\u30c8\u30ea\u30fc\u30ab\u30fc\u30cb\u30d0\u30eb\uff12\uff10\uff12\uff16 \u7279\u5178\u30ab\u30fc\u30c9"
+  },
+  "locales": {
+    "jp": {
+      "language": "ja",
+      "date": "2026-07-19",
+      "image": "https://ms.yugipedia.com//8/82/RDVC26-PromoJP.png",
+      "cardImages": {
+        "unlimited": {}
+      },
+      "cardInfo": {
+        "unlimited": {}
+      },
+      "formats": [
+        "rushduel"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          1000100665000
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "rushduel"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//8/82/RDVC26-PromoJP.png",
+      "cards": [
+        {
+          "id": "74e9ff67-9e98-42f9-8c7e-89e4a691408e",
+          "card": "f5f72248-8d7c-4613-90b0-8cc7ee3cf615",
+          "suffix": "YCTC-JP004",
+          "rarity": "common",
+          "imageID": "06a4a367-d9f0-4d41-973c-d434e6bcd14a",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "e4806e30-c1f6-4d7b-801d-acac944bc85a",
+          "card": "c434a766-b3f3-4307-8a39-ad2910b99158",
+          "suffix": "RD/VC26-JP001",
+          "rarity": "ultra",
+          "printStatus": "reprint"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Jump Victory Carnival 2026 promotional cards",
+      "id": 1194609
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "f613004a-2e5c-4378-a76e-498cf0d9e7db",
+  "text": {
+    "en": {
+      "name": "Coil Dragon of the Fertile Land",
+      "effect": "Inflict 600 damage to your opponent."
+    },
+    "ja": {
+      "name": "\u8c4a\u6c83\u306e\u87e0\u7adc",
+      "effect": "\u76f8\u624b\u306b\uff16\uff10\uff10\u30c0\u30e1\u30fc\u30b8\u3092\u4e0e\u3048\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud48d\uc625\uc758 \ubc18\ub8e1",
+      "effect": "\uc0c1\ub300\uc5d0\uac8c 600 \ub370\ubbf8\uc9c0\ub97c \uc900\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "wyrm",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1000,
+  "def": 400,
+  "passwords": [],
+  "images": [
+    {
+      "id": "89a201e3-62df-41cd-bb41-49bd58d39ed1",
+      "card": "https://ms.yugipedia.com//c/ca/CoilDragonoftheFertileLand-RDSBD7-JP-C.png"
+    }
+  ],
+  "sets": [
+    "728adba0-7417-496b-921a-bee0c18a0be2",
+    "728adba0-7417-496b-921a-bee0c18a0be2"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Coil Dragon of the Fertile Land",
+        "id": 714309
+      }
+    ],
+    "dbID": 16343
+  },
+  "series": []
+}

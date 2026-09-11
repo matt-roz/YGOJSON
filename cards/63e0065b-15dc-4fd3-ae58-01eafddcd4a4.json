@@ -1,0 +1,55 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "63e0065b-15dc-4fd3-ae58-01eafddcd4a4",
+  "text": {
+    "en": {
+      "name": "Evil Dragon Cards - Earth Dragon",
+      "effect": "Cannot be Normal Summoned/Set. Must first be Special Summoned (from your hand) by revealing 3 EARTH monsters in your hand, including this card. You can reveal this card in your hand; add 1 \"Dragon Card\" card from your Deck to your hand, then discard 1 card. When your opponent activates a monster effect on the field (Quick Effect): You can negate that effect, then if a WATER monster is on the field, this card cannot be destroyed by battle or card effects this turn. You can only use each effect of \"Evil Dragon Cards - Earth Dragon\" once per turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u9b54\u306e\u9f8d\u672d\uff0d\u571f\u9f8d"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "dragon",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1200,
+  "def": 2000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "9f0ccb08-6fb5-4e90-a767-2b903fe9d455",
+      "card": "https://ms.yugipedia.com//8/84/EvilDragonCardsEarthDragon-YAC1-JP-OP.png"
+    },
+    {
+      "id": "7822c0b6-feba-4036-a617-5571824b1b70",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/100459013.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/100459013.jpg"
+    }
+  ],
+  "sets": [
+    "9aefc662-0b55-44d0-85b1-7c92cfe8a78b",
+    "9aefc662-0b55-44d0-85b1-7c92cfe8a78b"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Evil Dragon Cards - Earth Dragon",
+        "id": 1210820
+      }
+    ],
+    "ygoprodeck": {
+      "id": 100459013,
+      "name": "evil-dragon-cards-earth-dragon-15897"
+    }
+  },
+  "series": [
+    "c4a1ff3c-e340-479c-820f-1224029b63ce"
+  ]
+}

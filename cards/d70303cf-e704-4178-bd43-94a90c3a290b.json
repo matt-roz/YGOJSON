@@ -1,0 +1,57 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "d70303cf-e704-4178-bd43-94a90c3a290b",
+  "text": {
+    "en": {
+      "name": "Harpie Lady 2 & 3",
+      "effect": "This card's name becomes \"Harpie Lady\". When you Normal or Special Summon a monster face-up, your opponent cannot activate Trap Cards.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30cf\u30fc\u30d4\u30a3\u30fb\u30ec\u30c7\u30a3\uff12\u30fb\uff13",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u306e\u30ab\u30fc\u30c9\u540d\u306f\u300c\u30cf\u30fc\u30d4\u30a3\u30fb\u30ec\u30c7\u30a3\u300d\u306b\u306a\u308b\u3002\u81ea\u5206\u304c\u30e2\u30f3\u30b9\u30bf\u30fc\u3092\u8868\u5074\u8868\u793a\u3067\u53ec\u559a\u30fb\u7279\u6b8a\u53ec\u559a\u3057\u305f\u6642\u306b\u76f8\u624b\u306f\u7f60\u30ab\u30fc\u30c9\u3092\u767a\u52d5\u3067\u304d\u306a\u3044\u3002"
+    },
+    "ko": {
+      "name": "\ud574\ud53c \ub808\uc774\ub5142\u00b73",
+      "effect": "\uc774 \uce74\ub4dc\uc758 \uce74\ub4dc\uba85\uc740 \"\ud574\ud53c \ub808\uc774\ub514\"\uac00 \ub41c\ub2e4. \uc790\uc2e0\uc774 \ubaac\uc2a4\ud130\ub97c \uc55e\uba74 \ud45c\uc2dc\ub85c \uc77c\ubc18 \uc18c\ud658 / \ud2b9\uc218 \uc18c\ud658\ud588\uc744 \ub54c\uc5d0 \uc0c1\ub300\ub294 \ud568\uc815 \uce74\ub4dc\ub97c \ubc1c\ub3d9\ud560 \uc218 \uc5c6\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "wind",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "wingedbeast",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 2600,
+  "def": 1400,
+  "passwords": [],
+  "images": [
+    {
+      "id": "d71f6a74-74b9-4aa1-97ea-e65e745b137e",
+      "card": "https://ms.yugipedia.com//3/35/HarpieLady23-RDSD0D-JP-C.png"
+    }
+  ],
+  "sets": [
+    "d867f9ff-46bb-44fa-9cb3-94491d964afd",
+    "d867f9ff-46bb-44fa-9cb3-94491d964afd",
+    "d867f9ff-46bb-44fa-9cb3-94491d964afd",
+    "d867f9ff-46bb-44fa-9cb3-94491d964afd"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Harpie Lady 2 & 3",
+        "id": 1110427
+      }
+    ],
+    "dbID": 21397
+  },
+  "series": [
+    "04dde7f8-0a7d-4b74-b812-f493b9fb1f62"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "3719c5bc-7200-441c-8ca5-b3bc4198438f",
+  "text": {
+    "en": {
+      "name": "Swordsman of Roadstar",
+      "effect": "A meteoric swordsman with powers unknown, who paves the way for a miraculous path."
+    },
+    "ja": {
+      "name": "\u30ed\u30fc\u30c9\u30b9\u30bf\u30fc\u306e\u5263\u58eb",
+      "effect": "\u672a\u77e5\u306a\u308b\u529b\u3092\u6301\u3061\u3001\u5947\u8de1\u306e\u9053\u3092\u5207\u308a\u958b\u304f\u6d41\u661f\u306e\u5263\u58eb\u3002"
+    },
+    "ko": {
+      "name": "\ub85c\ub4dc\uc2a4\ud0c0\uc758 \uac80\uc0ac",
+      "effect": "\ubbf8\uc9c0\uc758 \ud798\uc744 \uc9c0\ub2cc, \uae30\uc801\uc758 \uae38\uc744 \uac1c\ucc99\ud558\ub294 \uc720\uc131\uc758 \uac80\uc0ac."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "warrior",
+  "classifications": [
+    "normal"
+  ],
+  "level": 3,
+  "atk": 1200,
+  "def": 500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "77a2fbf7-9846-4e57-9396-316457113130",
+      "card": "https://ms.yugipedia.com//b/b5/SwordsmanofRoadstar-RD5TH1-JP-SPR.png"
+    }
+  ],
+  "sets": [
+    "f15281f0-8ea5-4682-b72c-36f0b779a7bc",
+    "800a7d3b-5bf8-4d9e-b88b-3ec6be2416b7",
+    "dd544c08-5223-4f76-9470-5d47aec790d2",
+    "288f40da-3a58-4353-8951-a8b611718475",
+    "cd789676-cedd-4bac-9b31-6fe414ff91be"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "n"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Swordsman of Roadstar",
+        "id": 716960
+      }
+    ],
+    "dbID": 16905
+  },
+  "series": []
+}

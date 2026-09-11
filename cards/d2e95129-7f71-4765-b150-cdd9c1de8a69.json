@@ -1,0 +1,43 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "d2e95129-7f71-4765-b150-cdd9c1de8a69",
+  "text": {
+    "en": {
+      "name": "Injection Fairy Lily (Rush Duel)",
+      "effect": "This card gains 3000 ATK until the end of this turn.",
+      "official": false
+    },
+    "ko": {
+      "name": "\uc8fc\uc0ac\ucc9c\uc0ac \ub9ac\ub9ac",
+      "effect": "\uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\ub825\uc740 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0 3000 \uc62c\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "spellcaster",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 400,
+  "def": 1500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "c9d7443d-e79e-4c05-a76f-b6de59f26064",
+      "card": "https://ms.yugipedia.com//b/bb/InjectionFairyLily-RDKP19-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Injection Fairy Lily (Rush Duel)",
+        "id": 1085093
+      }
+    ],
+    "dbID": 20951
+  },
+  "series": []
+}

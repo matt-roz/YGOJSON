@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "bbaf4724-8a76-4a11-975e-392d8a806197",
+  "text": {
+    "en": {
+      "name": "Dragonic Demolisher",
+      "effect": "Destroy 1 face-up Level 8 or lower monster on your opponent's field. Then, you can Special Summon 1 \"Dragonic Slayer\" from your Graveyard to your field in face-up Defense Position."
+    },
+    "ja": {
+      "name": "\u30c9\u30e9\u30b4\u30cb\u30c3\u30af\u30fb\u30c7\u30e2\u30ea\u30c3\u30b7\u30e3\u30fc",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff18\u4ee5\u4e0b\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u7834\u58ca\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u30c9\u30e9\u30b4\u30cb\u30c3\u30af\u30fb\u30b9\u30ec\u30a4\u30e4\u30fc\u300d\uff11\u4f53\u3092\u9078\u3093\u3067\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u5b88\u5099\u8868\u793a\u3067\u7279\u6b8a\u53ec\u559a\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub4dc\ub798\uace0\ub2c9 \ub370\ubab0\ub9bf\uc154",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\ub808\ubca8 8 \uc774\ud558) 1\uc7a5\uc744 \uace0\ub974\uace0 \ud30c\uad34\ud55c\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0 \ubb18\uc9c0\uc758 \"\ub4dc\ub798\uace0\ub2c9 \uc2ac\ub808\uc774\uc5b4\" 1\uc7a5\uc744 \uace0\ub974\uace0 \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \uc218\ube44 \ud45c\uc2dc\ub85c \ud2b9\uc218 \uc18c\ud658\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "dragon",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2500,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "4585592e-2f93-4a3c-bc39-190334abcd44",
+      "card": "https://ms.yugipedia.com//3/34/DragonicDemolisher-RDMRP2-JP-UR.png"
+    }
+  ],
+  "sets": [
+    "c0287cbc-dc56-47ae-9e89-0af80eb1b3d9"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Dragonic Demolisher",
+        "id": 1005414
+      }
+    ],
+    "dbID": 19557
+  },
+  "series": []
+}

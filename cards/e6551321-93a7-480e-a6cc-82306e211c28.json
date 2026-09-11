@@ -1,0 +1,42 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "e6551321-93a7-480e-a6cc-82306e211c28",
+  "text": {
+    "en": {
+      "name": "Skysavior Symbol",
+      "effect": "The equipped monster gains ATK equal to [its Level] x 100.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u84bc\u6551\u306e\u8a3c",
+      "effect": "\u88c5\u5099\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u653b\u6483\u529b\u306f\u3001\uff3b\u305d\u306e\u30ec\u30d9\u30eb\uff3d\u00d7\uff11\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ucc3d\uad6c\uc758 \uc99d\ud45c",
+      "effect": "\uc7a5\ucc29 \ubaac\uc2a4\ud130\uc758 \uacf5\uaca9\ub825\uc740 [\uadf8 \ubaac\uc2a4\ud130\uc758 \ub808\ubca8] \u00d7 100 \uc62c\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "equip",
+  "passwords": [],
+  "images": [
+    {
+      "id": "eb7ea8cd-bf85-4600-88c2-81996c12cd73",
+      "card": "https://ms.yugipedia.com//6/60/SkysaviorSymbol-RDB261-JP-NPR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Skysavior Symbol",
+        "id": 716728
+      }
+    ],
+    "dbID": 18636
+  },
+  "series": [
+    "ca246ec0-d926-4a5f-b983-145ffb05a55c"
+  ]
+}

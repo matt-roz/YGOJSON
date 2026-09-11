@@ -1,0 +1,53 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "d75bd37a-2c38-4f56-83d9-f3d5e28de8d3",
+  "text": {
+    "en": {
+      "name": "Aroma Strategy",
+      "effect": "Once per turn: You can declare 1 card name; reveal the top card of your Deck, and if it is the declared card, you can apply this effect based on its card type. If it is not, destroy this card.\n\u25cf Monster: Special Summon it.\n\u25cf Spell/Trap: Set it.\nIf this card is destroyed by card effect: You can Special Summon 1 \"Harpie\" monster from your Deck or GY.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u9999\u6c34\u6226\u8853"
+    }
+  },
+  "cardType": "skill",
+  "character": "Mai Valentine",
+  "passwords": [],
+  "images": [
+    {
+      "id": "520a002e-2fd4-40b7-84e9-6b30fa1baca9",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/300202007.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/300202007.jpg"
+    }
+  ],
+  "sets": [
+    "10d0570c-70cf-4db6-881e-1e217e2e7751",
+    "10d0570c-70cf-4db6-881e-1e217e2e7751",
+    "10d0570c-70cf-4db6-881e-1e217e2e7751",
+    "10d0570c-70cf-4db6-881e-1e217e2e7751",
+    "10d0570c-70cf-4db6-881e-1e217e2e7751",
+    "10d0570c-70cf-4db6-881e-1e217e2e7751",
+    "9aefc662-0b55-44d0-85b1-7c92cfe8a78b",
+    "9aefc662-0b55-44d0-85b1-7c92cfe8a78b"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Aroma Strategy",
+        "id": 585578
+      },
+      {
+        "name": "Aroma Strategy",
+        "id": 1222630
+      }
+    ],
+    "dbID": -2,
+    "ygoprodeck": {
+      "id": 300202007,
+      "name": "aroma-strategy-10091"
+    }
+  },
+  "series": []
+}

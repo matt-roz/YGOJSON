@@ -1,0 +1,42 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "140e3135-9169-4890-bb9a-386a57ed07a1",
+  "text": {
+    "en": {
+      "name": "Worm Drake (Rush Duel)",
+      "effect": "Once this monster wraps itself around a victim, there is no escape."
+    },
+    "ko": {
+      "name": "\uc6dc \ub4dc\ub808\uc774\ud06c",
+      "effect": "\uae34 \ubab8\uccb4\ub85c \ud718\uac10\uc73c\uba74 \ub450 \ubc88 \ub2e4\uc2dc \ube60\uc838\ub098\uac08 \uc218 \uc5c6\uac8c \ub41c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "reptile",
+  "classifications": [
+    "normal"
+  ],
+  "level": 4,
+  "atk": 1400,
+  "def": 1500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "8a19daf3-6050-46c4-9c10-6a3b9737811f",
+      "card": "https://ms.yugipedia.com//8/8c/WormDrake-RDKP14-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Worm Drake (Rush Duel)",
+        "id": 993385
+      }
+    ],
+    "dbID": 19278
+  },
+  "series": []
+}

@@ -1,0 +1,87 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "7fe42e50-c06a-4615-a701-7497cde7aa01",
+  "text": {
+    "en": {
+      "name": "Dark Magician Girl (Rush Duel)",
+      "effect": "This card gains ATK equal to [the number of \"Dark Magician\" in both players' Graveyards] x 500."
+    },
+    "fr": {
+      "name": "Magicienne des T\u00e9n\u00e8bres",
+      "effect": "Cette carte gagne une ATK \u00e9gale au [nombre de \"Magicien Sombre\" dans le Cimeti\u00e8re de chaque joueur] x 500."
+    },
+    "de": {
+      "name": "Dunkles Magier-M\u00e4dchen",
+      "effect": "Diese Karte bringt dir ATK in H\u00f6he [der Anzahl an \u201eDunkler Magier\u201c auf den Friedh\u00f6fen beider Spieler] x 500."
+    },
+    "it": {
+      "name": "Ragazza Maga Nera",
+      "effect": "Questa carta guadagna ATK pari [al numero di \"Mago Nero\" nei Cimiteri di entrambi i giocatori] x 500."
+    },
+    "es": {
+      "name": "Chica Maga Oscura",
+      "effect": "Esta carta gana ATK igual [al n\u00famero de \"Magos Oscuros\" en los Cementerios de ambos jugadores] x 500."
+    },
+    "ko": {
+      "name": "\ube14\ub799 \ub9e4\uc9c0\uc158 \uac78",
+      "effect": "\uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\ub825\uc740, [\uc11c\ub85c\uc758 \ubb18\uc9c0\uc758 \"\ube14\ub799 \ub9e4\uc9c0\uc158\"\uc758 \uc218] \u00d7 500 \uc62c\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "spellcaster",
+  "classifications": [
+    "effect"
+  ],
+  "level": 6,
+  "atk": 2000,
+  "def": 1700,
+  "passwords": [],
+  "images": [
+    {
+      "id": "95bc5bec-945b-4a64-b8a0-376d0d8277ab",
+      "card": "https://ms.yugipedia.com//0/00/DarkMagicianGirl-RDSD0E-JP-NPR.png"
+    },
+    {
+      "id": "58b8e86c-18ee-4541-97c2-9abae4b55b30",
+      "card": "https://ms.yugipedia.com//e/ec/DarkMagicianGirl-RDEV01-KR-ScR.png"
+    },
+    {
+      "id": "31eb9e74-83cf-41ee-9f95-a87cc4c65594",
+      "card": "https://ms.yugipedia.com//3/30/DarkMagicianGirl-RDDD02-JP-ScR.png"
+    },
+    {
+      "id": "b86caa77-9b44-4d31-834b-da174c421f38",
+      "card": "https://ms.yugipedia.com//e/e7/DarkMagicianGirl-RDSR02-KR-SR.png"
+    },
+    {
+      "id": "b66142ce-309d-410f-98ba-72628c6a1287",
+      "card": "https://ms.yugipedia.com//9/91/DarkMagicianGirl-RD5THS-JP-SPR.png"
+    },
+    {
+      "id": "20bc4265-80b8-45c2-9e78-a40c1b004146",
+      "card": "https://ms.yugipedia.com//9/90/DarkMagicianGirl-RDORP2-KR-ORR.png"
+    },
+    {
+      "id": "a40a146c-3697-41cc-93c3-6b650059634a",
+      "card": "https://ms.yugipedia.com//9/90/DarkMagicianGirl-RDLP01-JP-OP.png"
+    }
+  ],
+  "sets": [
+    "baac8391-2c2d-4331-8582-71b7007e0af6",
+    "baac8391-2c2d-4331-8582-71b7007e0af6"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Dark Magician Girl (Rush Duel)",
+        "id": 714468
+      }
+    ],
+    "dbID": 16371
+  },
+  "series": [
+    "73409add-3e9e-400d-a8b0-ae600de6af69"
+  ]
+}

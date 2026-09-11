@@ -1,0 +1,53 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "b629230e-9199-4db6-9fd3-b149cc883f6e",
+  "text": {
+    "en": {
+      "name": "Light Sorcerer of Sanctity",
+      "effect": "1 face-up monster on your opponent's field loses ATK equal to [the number of face-up LIGHT Attribute Spellcaster Type monsters on your field] x 300 until the end of this turn."
+    },
+    "ja": {
+      "name": "\u7c9b\u8056\u306e\u30e9\u30a4\u30c8\u30fb\u30bd\u30fc\u30b5\u30e9\u30fc",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u3092\u9078\u3073\u3001\u305d\u306e\u653b\u6483\u529b\u3092\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\u3001\uff3b\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u5149\u5c5e\u6027\uff0f\u9b54\u6cd5\u4f7f\u3044\u65cf\uff09\u306e\u6570\uff3d\u00d7\uff13\uff10\uff10\u30c0\u30a6\u30f3\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc219\uc131\uc758 \ub77c\uc774\ud2b8 \uc18c\uc11c\ub7ec",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130 1\uc7a5\uc744 \uace0\ub974\uace0, \uadf8 \uacf5\uaca9\ub825\uc744 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0, [\uc790\uc2e0 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\ube5b \uc18d\uc131 / \ub9c8\ubc95\uc0ac\uc871)\uc758 \uc218] \u00d7 300 \ub0b4\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "spellcaster",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1200,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "525d5c7d-3b7b-46d6-ab0e-3027190a5379",
+      "card": "https://ms.yugipedia.com//e/e2/LightSorcererofSanctity-RDSJMP-JP-NPR.png"
+    }
+  ],
+  "sets": [
+    "b254644c-27d2-4111-9a53-3a82de7d4cd5",
+    "73606f93-01a6-44c8-b212-d726baceb4b2",
+    "3fe0b98a-9822-4fdc-8329-1fdd2fa31e6d"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Light Sorcerer of Sanctity",
+        "id": 932073
+      }
+    ],
+    "dbID": 19091
+  },
+  "series": []
+}

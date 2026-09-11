@@ -1,0 +1,52 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "ce3c2adc-ff8f-43db-9925-7d18667ba87f",
+  "text": {
+    "en": {
+      "name": "Dual Space Yggdrago",
+      "effect": "Shuffle monsters from your Graveyard into the Deck equal to [the number of monsters on your opponent's field]. This turn, this card can attack monsters a number of times, up to [the number of monsters shuffled by this effect]. Then, if you shuffled 3 monsters by this effect, this card inflicts piercing battle damage this turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30c7\u30e5\u30a2\u30eb\u30b9\u30da\u30fc\u30b9\u30fb\u30e6\u30b0\u30c9\u30e9\u30b4",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u3092\u3001\uff3b\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u6570\uff3d\u3060\u3051\u9078\u3093\u3067\u30c7\u30c3\u30ad\u306b\u623b\u3059\u3002\u3053\u306e\u30bf\u30fc\u30f3\u3001\u3053\u306e\u30ab\u30fc\u30c9\u306f\uff3b\u3053\u306e\u52b9\u679c\u3067\u623b\u3057\u305f\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u6570\uff3d\u307e\u3067\u30e2\u30f3\u30b9\u30bf\u30fc\u306b\u653b\u6483\u3067\u304d\u308b\u3002\u3053\u306e\u52b9\u679c\u3067\u30e2\u30f3\u30b9\u30bf\u30fc\uff13\u4f53\u3092\u623b\u3057\u305f\u5834\u5408\u3001\u3055\u3089\u306b\u3053\u306e\u30bf\u30fc\u30f3\u3001\u3053\u306e\u30ab\u30fc\u30c9\u306e\u653b\u6483\u306f\u8cab\u901a\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub4c0\uc5bc\uc2a4\ud398\uc774\uc2a4 \uc704\uadf8\ub4dc\ub77c\uace0",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130\ub97c, [\uc0c1\ub300 \ud544\ub4dc\uc758 \ubaac\uc2a4\ud130\uc758 \uc218]\ub9cc\ud07c \uace0\ub974\uace0 \ub371\uc73c\ub85c \ub418\ub3cc\ub9b0\ub2e4. \uc774 \ud134\uc5d0, \uc774 \uce74\ub4dc\ub294 [\uc774 \ud6a8\uacfc\ub85c \ub418\ub3cc\ub9b0 \ubaac\uc2a4\ud130\uc758 \uc218]\uae4c\uc9c0 \ubaac\uc2a4\ud130\uc5d0 \uacf5\uaca9\ud560 \uc218 \uc788\ub2e4. \uc774 \ud6a8\uacfc\ub85c \ubaac\uc2a4\ud130 3\uc7a5\uc744 \ub418\ub3cc\ub838\uc744 \uacbd\uc6b0, \ucd94\uac00\ub85c \uc774 \ud134\uc5d0, \uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\uc740 \uad00\ud1b5\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "cyberse",
+  "classifications": [
+    "effect"
+  ],
+  "level": 9,
+  "atk": 3300,
+  "def": 2400,
+  "passwords": [],
+  "images": [
+    {
+      "id": "742764f0-46df-43a4-baf1-85d602784424",
+      "card": "https://ms.yugipedia.com//5/53/DualSpaceYggdrago-RDORP2-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Dual Space Yggdrago",
+        "id": 1045994
+      }
+    ],
+    "dbID": 20091
+  },
+  "series": [
+    "e9b02953-56e7-46c8-9bc3-70d6a158b8be"
+  ]
+}

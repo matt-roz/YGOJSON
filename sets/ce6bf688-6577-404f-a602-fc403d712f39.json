@@ -1,0 +1,139 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "ce6bf688-6577-404f-a602-fc403d712f39",
+  "name": {
+    "en": "Z-one Boss Duel Deck"
+  },
+  "locales": {
+    "jp": {
+      "language": "ja",
+      "prefix": "BD-JP",
+      "date": "2014-07-19",
+      "cardImages": {
+        "unlimited": {
+          "1fdc9983-8360-47e7-9105-46bd3c07234c": "https://ms.yugipedia.com//8/8e/ZONEMonsterA-BD-JP-C.png",
+          "2fa9ba58-9127-4c1d-b630-65ea8819f95f": "https://ms.yugipedia.com//9/9a/ZONEMonsterE-BD-JP-C.png",
+          "42e0e420-73c4-4545-a0e3-69fb5aac52cc": "https://ms.yugipedia.com//b/b4/ZONEMonsterB-BD-JP-C.png",
+          "65ebf4af-846d-4a2a-92c2-e1c3799cd1cb": "https://ms.yugipedia.com//0/0f/ZONEMonsterC-BD-JP-C.png",
+          "6951326e-5202-441e-b006-6d638c4abd0b": "https://ms.yugipedia.com//1/12/ZONETrapC-BD-JP-C.png",
+          "6eb7ef07-71bc-434b-bae6-8b8ff451e85f": "https://ms.yugipedia.com//9/9d/ZONETrapA-BD-JP-C.png",
+          "806f3a2e-3bb4-49a0-8df5-7f5fd4460d06": "https://ms.yugipedia.com//b/b3/ZONEMonsterD-BD-JP-C.png",
+          "cf780a0e-02c6-4e33-9311-40225b2c98fc": "https://ms.yugipedia.com//b/b6/ZONETrapB-BD-JP-C.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "1fdc9983-8360-47e7-9105-46bd3c07234c": {
+            "image": "https://ms.yugipedia.com//8/8e/ZONEMonsterA-BD-JP-C.png"
+          },
+          "2fa9ba58-9127-4c1d-b630-65ea8819f95f": {
+            "image": "https://ms.yugipedia.com//9/9a/ZONEMonsterE-BD-JP-C.png"
+          },
+          "42e0e420-73c4-4545-a0e3-69fb5aac52cc": {
+            "image": "https://ms.yugipedia.com//b/b4/ZONEMonsterB-BD-JP-C.png"
+          },
+          "65ebf4af-846d-4a2a-92c2-e1c3799cd1cb": {
+            "image": "https://ms.yugipedia.com//0/0f/ZONEMonsterC-BD-JP-C.png"
+          },
+          "6951326e-5202-441e-b006-6d638c4abd0b": {
+            "image": "https://ms.yugipedia.com//1/12/ZONETrapC-BD-JP-C.png"
+          },
+          "6eb7ef07-71bc-434b-bae6-8b8ff451e85f": {
+            "image": "https://ms.yugipedia.com//9/9d/ZONETrapA-BD-JP-C.png"
+          },
+          "806f3a2e-3bb4-49a0-8df5-7f5fd4460d06": {
+            "image": "https://ms.yugipedia.com//b/b3/ZONEMonsterD-BD-JP-C.png"
+          },
+          "cf780a0e-02c6-4e33-9311-40225b2c98fc": {
+            "image": "https://ms.yugipedia.com//b/b6/ZONETrapB-BD-JP-C.png"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {}
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "cards": [
+        {
+          "id": "1fdc9983-8360-47e7-9105-46bd3c07234c",
+          "card": "00775186-8405-4e59-acd3-4161373b2532",
+          "suffix": "025",
+          "rarity": "common",
+          "imageID": "2a520a74-8c80-49f8-8eae-8822922bb2ac"
+        },
+        {
+          "id": "42e0e420-73c4-4545-a0e3-69fb5aac52cc",
+          "card": "f6dfafda-a692-49c0-9aa0-3d7982c71c27",
+          "suffix": "026",
+          "rarity": "common",
+          "imageID": "b9d64b41-6cde-44e0-9c49-17d388ac57de"
+        },
+        {
+          "id": "65ebf4af-846d-4a2a-92c2-e1c3799cd1cb",
+          "card": "22b68859-b124-4169-a498-b608c435ec94",
+          "suffix": "027",
+          "rarity": "common",
+          "imageID": "b97f296a-e008-4b58-8dd4-424eebf71162"
+        },
+        {
+          "id": "806f3a2e-3bb4-49a0-8df5-7f5fd4460d06",
+          "card": "a7bee27a-e2bb-467e-9e9e-5a72e1a9105a",
+          "suffix": "028",
+          "rarity": "common",
+          "imageID": "c08b2fec-b5b1-4530-8b3b-ac7eebf1ffb2"
+        },
+        {
+          "id": "2fa9ba58-9127-4c1d-b630-65ea8819f95f",
+          "card": "3a06cb8c-15f9-4f0a-b82d-f9705f3bbeba",
+          "suffix": "029",
+          "rarity": "common",
+          "imageID": "2fdadf1a-54b1-4bbb-91c0-55a65760abba"
+        },
+        {
+          "id": "6eb7ef07-71bc-434b-bae6-8b8ff451e85f",
+          "card": "4e479dae-9937-41e1-9bb5-2d1c4f9028ab",
+          "suffix": "030",
+          "rarity": "common",
+          "imageID": "67fb970a-3084-4e55-911f-e6e898e73e2b"
+        },
+        {
+          "id": "cf780a0e-02c6-4e33-9311-40225b2c98fc",
+          "card": "124a3143-05a1-4550-99fe-2df4814fefd3",
+          "suffix": "031",
+          "rarity": "common",
+          "imageID": "20df7ccf-d3e4-446c-a354-e52b70fbd32b"
+        },
+        {
+          "id": "6951326e-5202-441e-b006-6d638c4abd0b",
+          "card": "27d241fa-9fc0-411f-bf33-a15fc9e66d4e",
+          "suffix": "032",
+          "rarity": "common",
+          "imageID": "50d631c7-f7fb-4568-a3f8-3631baf095ba"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Z-one Boss Duel Deck",
+      "id": 709528
+    }
+  }
+}

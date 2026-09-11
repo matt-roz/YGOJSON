@@ -1,0 +1,67 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "88c544c4-aa63-4da3-ba65-cb0818132e0d",
+  "text": {
+    "en": {
+      "name": "Gekka the Shadow Flower Beauty",
+      "effect": "Add 1 EARTH Attribute Plant Type Normal Monster from your Graveyard to your hand."
+    },
+    "fr": {
+      "name": "Gekka la Beaut\u00e9 de la Fleur de l'Ombre"
+    },
+    "de": {
+      "name": "Gekka die Schattenblumen-Sch\u00f6nheit"
+    },
+    "it": {
+      "name": "Gekka la Bellezza Fiore dell'Ombra"
+    },
+    "es": {
+      "name": "Gekka la Belleza de Flor Sombra"
+    },
+    "ja": {
+      "name": "\u82b1\u7259\u7f8e\u4eba\u306e\u30b2\u30c3\u30ab",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u901a\u5e38\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u5730\u5c5e\u6027\uff0f\u690d\u7269\u65cf\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud654\uc544\ubbf8\uc778\uc758 \uac9f\uce74",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \uc77c\ubc18 \ubaac\uc2a4\ud130(\ub545 \uc18d\uc131 / \uc2dd\ubb3c\uc871) 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\ub294\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "plant",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 0,
+  "def": 1300,
+  "passwords": [],
+  "images": [
+    {
+      "id": "e9dbfea1-7284-47bc-8909-4a26b4ca73f5",
+      "card": "https://ms.yugipedia.com//9/97/GekkatheShadowFlowerBeauty-RDKP05-JP-C.png"
+    },
+    {
+      "id": "3121f004-4eb8-465a-ad74-c1b98dba208d",
+      "card": "https://ms.yugipedia.com//2/2f/GekkatheShadowFlowerBeauty-RD5THS-JP-SPR.png"
+    }
+  ],
+  "sets": [
+    "22e8bcf0-2b4c-48d0-87e4-2a51d0f0129e"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Gekka the Shadow Flower Beauty",
+        "id": 715087
+      }
+    ],
+    "dbID": 16334
+  },
+  "series": []
+}

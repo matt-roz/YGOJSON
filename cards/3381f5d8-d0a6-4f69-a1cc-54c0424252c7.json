@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "3381f5d8-d0a6-4f69-a1cc-54c0424252c7",
+  "text": {
+    "en": {
+      "name": "Magma Dragon (Rush Duel)",
+      "effect": "Special Summon 1 Wyrm Type monster from your Graveyard to your field in face-up Defense Position. This turn, you cannot activate the effects of the monster Special Summoned by this effect or \"Magma Dragon\".",
+      "official": false
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "type": "wyrm",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1600,
+  "def": 1200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "29a76485-b49c-4c51-98aa-816f4815cc74",
+      "card": "https://ms.yugipedia.com//7/72/MagmaDragon-RDSJMP-JP-NPR.png"
+    }
+  ],
+  "sets": [
+    "b254644c-27d2-4111-9a53-3a82de7d4cd5"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Magma Dragon (Rush Duel)",
+        "id": 1190350
+      }
+    ],
+    "dbID": 23322
+  },
+  "series": []
+}

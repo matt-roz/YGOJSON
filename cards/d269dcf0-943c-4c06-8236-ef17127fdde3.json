@@ -1,0 +1,38 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "d269dcf0-943c-4c06-8236-ef17127fdde3",
+  "text": {
+    "en": {
+      "name": "Rocket Warrior (Rush Duel)",
+      "effect": "Make 1 face-up monster on your opponent's field lose 500 ATK until the end of this turn. Then, this turn, this card cannot be destroyed by battle, and you take no battle damage from battles involving it.",
+      "official": false
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1500,
+  "def": 1300,
+  "passwords": [],
+  "images": [
+    {
+      "id": "216b9810-c17a-4476-b150-b8a1c17ffe82",
+      "card": "https://ms.yugipedia.com//6/68/RocketWarrior-RDLP01-JP-OP.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Rocket Warrior (Rush Duel)",
+        "id": 1203829
+      }
+    ]
+  },
+  "series": []
+}

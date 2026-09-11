@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "d7c10aa8-e4a1-4920-aa27-86a2959e525e",
+  "text": {
+    "en": {
+      "name": "Golden-Eyes Star Cat",
+      "effect": "A star cat with eyes of gold. They're filled with charm.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u91d1\u773c\u306e\u661f\u732b",
+      "effect": "\u91d1\u8272\u306e\u773c\u3092\u6301\u3064\u661f\u732b\u3002\u611b\u5b0c\u305f\u3063\u3077\u308a\u3002"
+    },
+    "ko": {
+      "name": "\uace8\ub4e0\uc544\uc774\uc988 \uc2a4\ud0c0\ucea3",
+      "effect": "\uae08\ube5b\uc758 \ub208\ub3d9\uc790\ub97c \uac00\uc9c4 \ubcc4 \uace0\uc591\uc774. \uc560\uad50\uac00 \uc794\ub729."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "beast",
+  "classifications": [
+    "normal"
+  ],
+  "level": 4,
+  "atk": 1500,
+  "def": 200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "31e85738-b396-4d1f-a857-2f3187d0bfbf",
+      "card": "https://ms.yugipedia.com//6/6c/GoldenEyesStarCat-RDKP12-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Golden-Eyes Star Cat",
+        "id": 715166
+      }
+    ],
+    "dbID": 18587
+  },
+  "series": [
+    "79a5d72a-ddca-4158-ae45-bb393d081135"
+  ]
+}

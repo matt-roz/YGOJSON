@@ -1,0 +1,54 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "bcdeaad6-38c5-4bb3-9ca2-6179bfddf7a1",
+  "text": {
+    "en": {
+      "name": "Destructor Detonator Heavy Contractor",
+      "effect": "Add 1 Level 8 or higher Wyrm Type monster and/or 1 \"Fusion\" from your Graveyard to your hand. Then, destroy 1 card on your field."
+    },
+    "ja": {
+      "name": "\u5e7b\u58ca\u7206\u50da\u30ef\u30fc\u30cb\u30f3\u30b0\u30fb\u30d8\u30d3\u30fc\u30fb\u30b7\u30e7\u30c3\u30af",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff18\u4ee5\u4e0a\uff0f\u5e7b\u7adc\u65cf\uff09\u3068\u300c\u30d5\u30e5\u30fc\u30b8\u30e7\u30f3\u300d\u3092\u305d\u308c\u305e\u308c\uff11\u679a\u307e\u3067\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u30ab\u30fc\u30c9\uff11\u679a\u3092\u9078\u3093\u3067\u7834\u58ca\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud658\uad34\ud3ed\ub8cc \uc6cc\ub2dd \ud5e4\ube44 \uc1fc\ud06c",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130(\ub808\ubca8 8 \uc774\uc0c1 / \ud658\ub8e1\uc871)\uc640 \"\ud4e8\uc804\"\uc744 \uac01\uac01 1\uc7a5\uae4c\uc9c0 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\ub294\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0 \ud544\ub4dc\uc758 \uce74\ub4dc 1\uc7a5\uc744 \uace0\ub974\uace0 \ud30c\uad34\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "wyrm",
+  "classifications": [
+    "effect"
+  ],
+  "level": 9,
+  "atk": 2600,
+  "def": 1700,
+  "passwords": [],
+  "images": [
+    {
+      "id": "a8ae71b9-6ab1-4c22-8ace-7c86f6dea856",
+      "card": "https://ms.yugipedia.com//3/3a/DestructorDetonatorHeavyContractor-RDTB01-JP-NPR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Destructor Detonator Heavy Contractor",
+        "id": 936574
+      }
+    ],
+    "dbID": 19123
+  },
+  "series": [
+    "67b235e9-be91-4647-ac78-b92102a5898b"
+  ]
+}

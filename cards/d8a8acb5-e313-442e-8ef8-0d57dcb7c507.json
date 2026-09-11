@@ -1,0 +1,57 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "d8a8acb5-e313-442e-8ef8-0d57dcb7c507",
+  "text": {
+    "en": {
+      "name": "Elemental HERO Heat Neos",
+      "effect": "This card gains ATK equal to [the number of cards on the field] x 200 until the end of this turn."
+    },
+    "ja": {
+      "name": "\uff25\u30fb\uff28\uff25\uff32\uff2f \u30d2\u30fc\u30c8\u30fb\u30cd\u30aa\u30b9",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u306e\u653b\u6483\u529b\u306f\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\u3001\uff3b\u304a\u4e92\u3044\u306e\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u30ab\u30fc\u30c9\u306e\u6570\uff3d\u00d7\uff12\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc5d8\ub9ac\uba58\ud2c0 \ud788\uc5b4\ub85c \ud788\ud2b8 \ub124\uc624\uc2a4",
+      "effect": "\uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\ub825\uc740 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0, [\uc11c\ub85c\uc758 \ud544\ub4dc\uc758 \uce74\ub4dc\uc758 \uc218] \u00d7 200 \uc62c\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2500,
+  "def": 2000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "8c6cdcbc-4154-47a4-b989-faf3b607f3c3",
+      "card": "https://ms.yugipedia.com//6/63/ElementalHEROHeatNeos-RDKP18-JP-R.png"
+    }
+  ],
+  "sets": [
+    "4c887f72-12bb-4f1a-80de-38526bb09a9e"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Elemental HERO Heat Neos",
+        "id": 1061383
+      }
+    ],
+    "dbID": 20675
+  },
+  "series": [
+    "4e2112ec-34a4-4031-91ad-7dcc3818d4c7",
+    "34c5b22c-a2f7-4b8e-8938-a50b1e41c0d6"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "014275a0-da54-44a9-bd5d-3ab369962be6",
+  "text": {
+    "en": {
+      "name": "Full Meteor Impact",
+      "effect": "Destroy all face-up Level 6 or higher monsters on your opponent's field."
+    },
+    "fr": {
+      "name": "Super Impact M\u00e9t\u00e9ore",
+      "effect": "D\u00e9truisez tous les monstres de min. Niveau 6 face recto sur le Terrain de votre adversaire."
+    },
+    "de": {
+      "name": "Harter Meteoreinschlag",
+      "effect": "Zerst\u00f6re alle offenen Monster der Stufe 6 oder h\u00f6her auf dem Spielfeld deines Gegners."
+    },
+    "it": {
+      "name": "Pieno Impatto Meteora",
+      "effect": "Distruggi tutti i mostri scoperti di Livello 6 o superiore sul Terreno del tuo avversario."
+    },
+    "es": {
+      "name": "Impacto de Meteorito Total",
+      "effect": "Destruye todos los monstruos boca arriba de Nivel 6 o mayor en el Campo de tu adversario."
+    },
+    "ja": {
+      "name": "\u30d5\u30eb\u30e1\u30c6\u30aa\u30fb\u30a4\u30f3\u30d1\u30af\u30c8",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff16\u4ee5\u4e0a\uff09\u3092\u5168\u3066\u7834\u58ca\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud480\uba54\ud14c\uc624 \uc784\ud329\ud2b8",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\ub808\ubca8 6 \uc774\uc0c1)\ub97c \uc804\ubd80 \ud30c\uad34\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "type": "rock",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2500,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "37abc823-f29e-4e5c-80fc-cbfc9693d478",
+      "card": "https://ms.yugipedia.com//f/fd/FullMeteorImpact-RDSBD1-JP-C.png"
+    }
+  ],
+  "sets": [
+    "e670ec5c-7fbb-49cd-9899-885731ab9e90",
+    "29280529-be04-4a88-b2a3-acb63a018731",
+    "29280529-be04-4a88-b2a3-acb63a018731"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Full Meteor Impact",
+        "id": 715027
+      }
+    ],
+    "dbID": 15428
+  },
+  "series": []
+}

@@ -1,0 +1,55 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "b118a339-6598-4a8e-a8f9-58b63ebcd080",
+  "text": {
+    "en": {
+      "name": "Evil Dragon Cards - Metal Dragon",
+      "effect": "Cannot be Normal Summoned/Set. Must first be Special Summoned (from your hand) by revealing 3 LIGHT monsters in your hand, including this card. You can reveal this card in your hand; add 1 \"Dragon Card\" card from your Deck to your hand, then discard 1 card. During the Main Phase (Quick Effect): You can destroy 1 monster your opponent controls, and if you do, send this card to the GY, then if an EARTH monster is on the field, you can draw 1 card. You can only use each effect of \"Evil Dragon Cards - Metal Dragon\" once per turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u9b54\u306e\u9f8d\u672d\uff0d\u91d1\u9f8d"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "dragon",
+  "classifications": [
+    "effect"
+  ],
+  "level": 5,
+  "atk": 2100,
+  "def": 1500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "538a24bf-43b7-4892-a15b-6a184089c5fc",
+      "card": "https://ms.yugipedia.com//f/f4/EvilDragonCardsMetalDragon-YAC1-JP-OP.png"
+    },
+    {
+      "id": "8239b601-809a-49c5-abfc-97f4830c1082",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/100459014.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/100459014.jpg"
+    }
+  ],
+  "sets": [
+    "9aefc662-0b55-44d0-85b1-7c92cfe8a78b",
+    "9aefc662-0b55-44d0-85b1-7c92cfe8a78b"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Evil Dragon Cards - Metal Dragon",
+        "id": 1210825
+      }
+    ],
+    "ygoprodeck": {
+      "id": 100459014,
+      "name": "evil-dragon-cards-metal-dragon-15896"
+    }
+  },
+  "series": [
+    "c4a1ff3c-e340-479c-820f-1224029b63ce"
+  ]
+}

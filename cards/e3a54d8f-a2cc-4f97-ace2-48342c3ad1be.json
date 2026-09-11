@@ -1,0 +1,46 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "e3a54d8f-a2cc-4f97-ace2-48342c3ad1be",
+  "text": {
+    "en": {
+      "name": "Archfiend's Manifestation (Rush Duel)",
+      "effect": "This card's name becomes \"Summoned Skull\". Face-up \"Summoned Skull\" on your field gain 500 ATK.",
+      "official": false
+    },
+    "ko": {
+      "name": "\ub370\ubaac \ud604\ud604",
+      "effect": "\uc774 \uce74\ub4dc\uc758 \uce74\ub4dc\uba85\uc740 \"\ub370\ubaac \uc18c\ud658\"\uc774 \ub41c\ub2e4. \uc790\uc2e0 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc\uc758 \"\ub370\ubaac \uc18c\ud658\"\uc758 \uacf5\uaca9\ub825\uc740 500 \uc62c\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "fiend",
+  "classifications": [
+    "effect"
+  ],
+  "level": 6,
+  "atk": 2500,
+  "def": 1200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "10ea2b26-0e68-4a13-a6a4-b77b201299d4",
+      "card": "https://ms.yugipedia.com//2/25/ArchfiendsManifestation-RDKP20-JP-R.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Archfiend's Manifestation (Rush Duel)",
+        "id": 1100645
+      }
+    ],
+    "dbID": 21299
+  },
+  "series": []
+}

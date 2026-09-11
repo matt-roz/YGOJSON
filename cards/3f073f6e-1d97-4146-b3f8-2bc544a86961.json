@@ -1,0 +1,40 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "3f073f6e-1d97-4146-b3f8-2bc544a86961",
+  "text": {
+    "en": {
+      "name": "Slash Halo",
+      "effect": "The attacking monster loses 1000 ATK until the end of this turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30b9\u30e9\u30c3\u30b7\u30e5\u30fb\u30d8\u30a4\u30ed\u30fc",
+      "effect": "\u653b\u6483\u3057\u3066\u304d\u305f\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u653b\u6483\u529b\u306f\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\uff11\uff10\uff10\uff10\u30c0\u30a6\u30f3\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc2ac\ub798\uc2dc \ud5e4\uc77c\ub85c",
+      "effect": "\uacf5\uaca9\ud574 \uc628 \ubaac\uc2a4\ud130\uc758 \uacf5\uaca9\ub825\uc740 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0 1000 \ub0b4\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "trap",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "e6d383d7-b62d-4eb3-8531-a8dbffbea031",
+      "card": "https://ms.yugipedia.com//e/e2/SlashHalo-RDKP11-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Slash Halo",
+        "id": 716731
+      }
+    ],
+    "dbID": 18292
+  },
+  "series": []
+}

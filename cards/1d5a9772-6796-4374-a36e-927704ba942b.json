@@ -1,0 +1,46 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "1d5a9772-6796-4374-a36e-927704ba942b",
+  "text": {
+    "en": {
+      "name": "Wako Gozen Riletta",
+      "effect": "Destroy 1 card on your opponent's field. Then, if you have 3 or more different Types in your Graveyard, this card gains 600 ATK until the end of this turn. This turn, you can only attack with Cyberse Type monsters, and you cannot activate the effect of \"Wako Gozen Riletta\".",
+      "official": false
+    },
+    "ja": {
+      "name": "\u548c\u7d05\u5fa1\u524d \u30ea\u30ec\u30c3\u30bf"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "monsterCardTypes": [
+    "ritual"
+  ],
+  "type": "cyberse",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 2300,
+  "def": 2000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "f574881c-aa29-4301-8915-84ef55359430",
+      "card": "https://ms.yugipedia.com//b/b1/WakoGozenRiletta-RDCA01-JP-OP.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Wako Gozen Riletta",
+        "id": 1214142
+      }
+    ]
+  },
+  "series": [
+    "d520f873-9bf8-48b7-8e88-f2a40eee7c75"
+  ]
+}

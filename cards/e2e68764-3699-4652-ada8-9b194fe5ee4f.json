@@ -1,0 +1,38 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "e2e68764-3699-4652-ada8-9b194fe5ee4f",
+  "text": {
+    "en": {
+      "name": "The Player Returning Alive",
+      "effect": "Send the top 3 cards of your Deck to the Graveyard. Then, add to your hand 1 card from among the cards sent. Then, if you have \"The Warrior Returning Alive\" in your Graveyard, you can add 1 Level 4 or 8 Warrior Type monster from your Graveyard to your hand.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u9078\u624b\u306e\u751f\u9084",
+      "effect": "\u81ea\u5206\u306e\u30c7\u30c3\u30ad\u306e\u4e0a\u304b\u3089\u30ab\u30fc\u30c9\uff13\u679a\u3092\u5893\u5730\u3078\u9001\u308b\u3002\u305d\u306e\u5f8c\u3001\u305d\u306e\u4e2d\u304b\u3089\uff11\u679a\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u5893\u5730\u306b\u300c\u6226\u58eb\u306e\u751f\u9084\u300d\u304c\u3042\u308b\u5834\u5408\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff14\u30fb\uff18\uff0f\u6226\u58eb\u65cf\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002"
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "77f0f7ac-6dcb-4dd3-9469-b65045f6c23e",
+      "card": "https://ms.yugipedia.com//b/bf/ThePlayerReturningAlive-RDAP03-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "The Player Returning Alive",
+        "id": 1200387
+      }
+    ],
+    "dbID": 23461
+  },
+  "series": [
+    "11c88d41-6724-4c42-8912-d77015310efd"
+  ]
+}

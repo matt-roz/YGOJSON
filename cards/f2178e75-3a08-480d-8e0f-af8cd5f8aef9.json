@@ -1,0 +1,55 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "f2178e75-3a08-480d-8e0f-af8cd5f8aef9",
+  "text": {
+    "en": {
+      "name": "Gilford the Lightning, the Warrior of Thunderbolts",
+      "effect": "You can Special Summon this card (from your hand) by Tributing 3 monsters, and if you Tributed a monster(s) that is owned by your opponent, your opponent cannot activate cards or effects when this card is Special Summoned this way. If Summoned this way: Your opponent must send all monsters they control to the GY. If this card is sent to the GY: You can activate this effect; during the End Phase of this turn, add 1 Warrior monster from your Deck to your hand. You can only use this effect of \"Gilford the Lightning, the Warrior of Thunderbolts\" once per turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u7a32\u59bb\u306e\u6226\u58eb\uff0d\u30ae\u30eb\u30d5\u30a9\u30fc\u30c9\u30fb\u30b6\u30fb\u30e9\u30a4\u30c8\u30cb\u30f3\u30b0"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 2800,
+  "def": 1400,
+  "passwords": [],
+  "images": [
+    {
+      "id": "5fd70fa9-60b3-454b-afc9-6aeb445d6482",
+      "card": "https://ms.yugipedia.com//0/0e/GilfordtheLightningtheWarriorofThunderbolts-YAC1-JP-OP.png"
+    },
+    {
+      "id": "450721db-907f-45b6-a03f-8582536d08ef",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/100459008.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/100459008.jpg"
+    }
+  ],
+  "sets": [
+    "9aefc662-0b55-44d0-85b1-7c92cfe8a78b",
+    "9aefc662-0b55-44d0-85b1-7c92cfe8a78b",
+    "9aefc662-0b55-44d0-85b1-7c92cfe8a78b",
+    "9aefc662-0b55-44d0-85b1-7c92cfe8a78b"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Gilford the Lightning, the Warrior of Thunderbolts",
+        "id": 1210812
+      }
+    ],
+    "ygoprodeck": {
+      "id": 100459008,
+      "name": "gilford-the-lightning-the-warrior-of-thunderbolts-15900"
+    }
+  },
+  "series": []
+}

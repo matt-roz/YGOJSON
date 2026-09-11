@@ -1,0 +1,44 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "63b287eb-841f-4e13-9468-c59f1990a660",
+  "text": {
+    "en": {
+      "name": "Dark Magician of Chaos (Rush Duel)",
+      "effect": "Add 1 non-Legend Spell Card from your Graveyard to your hand. Then, monsters destroyed by battle with this card this turn are placed on the bottom of the owner's Deck instead of being sent to the Graveyard. This turn, you cannot activate the effect of \"Dark Magician of Chaos\".",
+      "official": false
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "spellcaster",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 2800,
+  "def": 2600,
+  "passwords": [],
+  "images": [
+    {
+      "id": "c9f75eb3-a2b3-4247-adf4-8c4c5e8bbe69",
+      "card": "https://ms.yugipedia.com//e/e2/DarkMagicianofChaos-RDLP01-JP-OP.png"
+    },
+    {
+      "id": "158901dc-3f41-4f48-b9c2-9d5d0b1ccaf9",
+      "card": "https://ms.yugipedia.com//4/4a/DarkMagicianofChaos-RDLP01-JP-OP-AA.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Dark Magician of Chaos (Rush Duel)",
+        "id": 1203700
+      }
+    ]
+  },
+  "series": [
+    "73409add-3e9e-400d-a8b0-ae600de6af69"
+  ]
+}

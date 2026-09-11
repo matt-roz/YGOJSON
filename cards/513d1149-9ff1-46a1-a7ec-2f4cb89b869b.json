@@ -1,0 +1,48 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "513d1149-9ff1-46a1-a7ec-2f4cb89b869b",
+  "text": {
+    "en": {
+      "name": "Interstellive",
+      "effect": "Draw 1 card."
+    },
+    "ja": {
+      "name": "\u30a4\u30f3\u30bf\u30fc\u30b9\u30c6\u30e9\u30a4\u30f4",
+      "effect": "\u81ea\u5206\u306f\uff11\u679a\u30c9\u30ed\u30fc\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc778\ud130\uc2a4\ud154\ub77c\uc774\ube0c",
+      "effect": "\uc790\uc2e0\uc740 1\uc7a5 \ub4dc\ub85c\uc6b0\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "classifications": [
+    "effect"
+  ],
+  "level": 1,
+  "atk": 1000,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "df635487-be23-40a9-9283-f1bf6aee53c8",
+      "card": "https://ms.yugipedia.com//3/3c/Interstellive-RD24PR-JP-NPR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Interstellive",
+        "id": 1026309
+      }
+    ],
+    "dbID": 19927
+  },
+  "series": []
+}

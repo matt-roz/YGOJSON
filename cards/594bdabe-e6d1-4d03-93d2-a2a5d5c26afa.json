@@ -1,0 +1,46 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "594bdabe-e6d1-4d03-93d2-a2a5d5c26afa",
+  "text": {
+    "en": {
+      "name": "Alligator's Sword Dragon (Rush Duel)",
+      "effect": "This turn, this card can attack directly.",
+      "official": false
+    },
+    "ko": {
+      "name": "\ub4dc\ub798\uace4\uc744 \ud0c4 \uc640\uc774\ubc18",
+      "effect": "\uc774 \ud134\uc5d0, \uc774 \uce74\ub4dc\ub294 \uc9c1\uc811 \uacf5\uaca9\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "wind",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "dragon",
+  "classifications": [
+    "effect"
+  ],
+  "level": 5,
+  "atk": 1700,
+  "def": 1500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "69a2140b-c67b-4741-8cf1-126d96835578",
+      "card": "https://ms.yugipedia.com//c/cc/AlligatorsSwordDragon-RDB004-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Alligator's Sword Dragon (Rush Duel)",
+        "id": 712619
+      }
+    ],
+    "dbID": 17269
+  },
+  "series": []
+}

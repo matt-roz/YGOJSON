@@ -1,0 +1,47 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "39e8c9db-55ff-41e2-a209-e3ef4417df53",
+  "text": {
+    "en": {
+      "name": "Deep Sea Dragon Bat Eel",
+      "effect": "Draw cards equal to [the number of monsters revealed to meet the requirement]. Then, shuffle cards from your hand into the Deck equal to [the number of cards drawn by this effect].",
+      "official": false
+    },
+    "ja": {
+      "name": "\u6df1\u6d77\u7adc\u30d0\u30c3\u30c8\u30a4\u30fc\u30eb",
+      "effect": "\u81ea\u5206\u306f\uff3b\u3053\u306e\u52b9\u679c\u306e\u6761\u4ef6\u3067\u898b\u305b\u305f\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u6570\uff3d\u3060\u3051\u30c9\u30ed\u30fc\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306f\u624b\u672d\u3092\uff3b\u3053\u306e\u52b9\u679c\u3067\u30c9\u30ed\u30fc\u3057\u305f\u6570\uff3d\u3060\u3051\u9078\u3093\u3067\u30c7\u30c3\u30ad\u306b\u623b\u3059\u3002"
+    },
+    "ko": {
+      "name": "\uc2ec\ud574\ub8e1 \ubc30\ud2b8\uc77c",
+      "effect": "\uc790\uc2e0\uc740 [\uc774 \ud6a8\uacfc\uc758 \uc870\uac74\uc73c\ub85c \ubcf4\uc5ec\uc900 \ubaac\uc2a4\ud130\uc758 \uc218]\ub9cc\ud07c \ub4dc\ub85c\uc6b0\ud55c\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0\uc740 \ud328\ub97c [\uc774 \ud6a8\uacfc\ub85c \ub4dc\ub85c\uc6b0\ud55c \uc218]\ub9cc\ud07c \uace0\ub974\uace0 \ub371\uc73c\ub85c \ub418\ub3cc\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "seaserpent",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 1000,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "7c71a843-6067-44c2-a92d-46ce57236166",
+      "card": "https://ms.yugipedia.com//5/50/DeepSeaDragonBatEel-RDTB02-JP-NPR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Deep Sea Dragon Bat Eel",
+        "id": 714498
+      }
+    ],
+    "dbID": 18779
+  },
+  "series": []
+}

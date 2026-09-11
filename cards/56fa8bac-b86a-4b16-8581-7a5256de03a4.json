@@ -1,0 +1,56 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "56fa8bac-b86a-4b16-8581-7a5256de03a4",
+  "text": {
+    "en": {
+      "name": "Flying Kamakiri #2",
+      "effect": "A flying mantis that feeds primarily on insects."
+    },
+    "fr": {
+      "name": "Kamakiri Volant N\u00b02"
+    },
+    "de": {
+      "name": "Fliegender Kamakiri #2"
+    },
+    "it": {
+      "name": "Kamakiri Volante #2"
+    },
+    "es": {
+      "name": "Kamakiri Volador #2"
+    },
+    "ko": {
+      "name": "\ud50c\ub77c\uc789 \uc0ac\ub9c8\uadc0",
+      "effect": "\ube44\ud589 \ub2a5\ub825\uc744 \uac00\uc9c4 \uc0ac\ub9c8\uadc0. \uace4\ucda9\uc744 \uc544\uc8fc \uc88b\uc544\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "wind",
+  "type": "insect",
+  "classifications": [
+    "normal"
+  ],
+  "level": 4,
+  "atk": 1500,
+  "def": 800,
+  "passwords": [],
+  "images": [
+    {
+      "id": "64d54d92-89a3-4cf6-ba21-9eba6b1dc59e",
+      "card": "https://ms.yugipedia.com//d/dd/FlyingKamakiri2-RDSST1-JP-C.png"
+    }
+  ],
+  "sets": [
+    "f9c6f064-6fdf-412a-a9ff-62631979aa08"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Flying Kamakiri 2 (Rush Duel)",
+        "id": 714992
+      }
+    ],
+    "dbID": 16667
+  },
+  "series": []
+}

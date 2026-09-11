@@ -1,0 +1,39 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "45444063-2eae-44bc-a46f-2382b58d691f",
+  "text": {
+    "en": {
+      "name": "Fiend's Mirror (Rush Duel)"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "monsterCardTypes": [
+    "ritual"
+  ],
+  "type": "fiend",
+  "level": 6,
+  "atk": 2100,
+  "def": 1800,
+  "passwords": [],
+  "images": [
+    {
+      "id": "efd6c988-8d4f-4475-afa4-9f6b16aeb550",
+      "card": "https://ms.yugipedia.com//e/ef/FiendsMirror-RDKP25-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Fiend's Mirror (Rush Duel)",
+        "id": 1191454
+      }
+    ],
+    "dbID": 23266
+  },
+  "series": [
+    "8b554ce1-3b41-45ca-9163-f4982dc040ca"
+  ]
+}

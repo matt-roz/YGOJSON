@@ -1,0 +1,46 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "e1feb704-4dec-4f4f-8a3c-60acb9ad21c5",
+  "text": {
+    "en": {
+      "name": "Protector of the Throne (Rush Duel)",
+      "effect": "While the king is away, this queen protects his throne with a mighty defense."
+    },
+    "ko": {
+      "name": "\uc655\uc88c\uc758 \uc218\ud638\uc790",
+      "effect": "\uc655\uc774 \ucd9c\ud0c0\ud55c \ub3d9\uc548, \uc678\uc801\uc73c\ub85c\ubd80\ud130 \uc655\uc88c\ub97c \uc9c0\ud0a4\ub294 \uc655\ube44. \uc218\ube44\ub825\uc740 \ub192\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "warrior",
+  "classifications": [
+    "normal"
+  ],
+  "level": 4,
+  "atk": 800,
+  "def": 1500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "0b2d2e7e-379d-4aa4-bafb-5b842e812567",
+      "card": "https://ms.yugipedia.com//e/e8/ProtectoroftheThrone-RDKP09-JP-R.png"
+    },
+    {
+      "id": "b61b928e-3c87-4d39-bbb7-67393f18efb3",
+      "card": "https://ms.yugipedia.com//a/a4/ProtectoroftheThrone-RDKP09-KR-R.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Protector of the Throne (Rush Duel)",
+        "id": 716308
+      }
+    ],
+    "dbID": 17497
+  },
+  "series": []
+}

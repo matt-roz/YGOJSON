@@ -1,0 +1,50 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "c5e0411c-5c6d-469a-b43c-810fa649fd31",
+  "text": {
+    "en": {
+      "name": "Royal Wisdom Guards",
+      "effect": "Draw 1 card. Then, increase this card's Level by 2 until the end of this turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u8ce2\u5e1d\u8fd1\u885b\u5175",
+      "effect": "\u81ea\u5206\u306f\uff11\u679a\u30c9\u30ed\u30fc\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u3053\u306e\u30ab\u30fc\u30c9\u306e\u30ec\u30d9\u30eb\u306f\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\uff12\u4e0a\u304c\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud604 \uc81c\uc655 \uadfc\uc704\ubcd1",
+      "effect": "\uc790\uc2e0\uc740 1\uc7a5 \ub4dc\ub85c\uc6b0\ud55c\ub2e4. \uadf8 \ud6c4, \uc774 \uce74\ub4dc\uc758 \ub808\ubca8\uc740 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0 2 \uc62c\ub77c\uac04\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "cyberse",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 1200,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "ad7cf7f8-2de4-4bee-b93b-b92c0d2e723d",
+      "card": "https://ms.yugipedia.com//8/82/RoyalWisdomGuards-RDSD0F-JP-C.png"
+    }
+  ],
+  "sets": [
+    "e2b816ef-5178-4aa9-b864-7248f545e896",
+    "e2b816ef-5178-4aa9-b864-7248f545e896"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Royal Wisdom Guards",
+        "id": 1055262
+      }
+    ],
+    "dbID": 20328
+  },
+  "series": []
+}

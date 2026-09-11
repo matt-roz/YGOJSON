@@ -1,0 +1,80 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "04382114-6125-4366-ae01-00f2fb81d564",
+  "name": {
+    "en": "Card Guide Book promotional cards",
+    "ko": "\uc720\ud76c\uc655 \uc624\ud53c\uc15c \uce74\ub4dc\uac8c\uc784 \uce74\ub4dc \uacf5\ub7b5\uc9d1"
+  },
+  "locales": {
+    "kr": {
+      "language": "ko",
+      "prefix": "YC1-KR",
+      "date": "2004-12-18",
+      "image": "https://ms.yugipedia.com//6/6d/YC1-PromoKR.png",
+      "cardImages": {
+        "limited": {
+          "2395d816-5b95-4fe0-a2ff-9dbba32257ef": "https://ms.yugipedia.com//0/0f/MachineKing-YC1-KR-SR-LE.png",
+          "a9e6d1bb-28a1-46ab-b31b-df7dbb62fdfb": "https://ms.yugipedia.com//3/37/RestructerRevolution-YC1-KR-SR-LE.png"
+        }
+      },
+      "cardInfo": {
+        "limited": {
+          "2395d816-5b95-4fe0-a2ff-9dbba32257ef": {
+            "image": "https://ms.yugipedia.com//0/0f/MachineKing-YC1-KR-SR-LE.png"
+          },
+          "a9e6d1bb-28a1-46ab-b31b-df7dbb62fdfb": {
+            "image": "https://ms.yugipedia.com//3/37/RestructerRevolution-YC1-KR-SR-LE.png"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          1010000999000
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "kr"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "image": "https://ms.yugipedia.com//6/6d/YC1-PromoKR.png",
+      "cards": [
+        {
+          "id": "2395d816-5b95-4fe0-a2ff-9dbba32257ef",
+          "card": "e506ffc4-d759-4e6f-9a4d-bd5a1c825eb4",
+          "suffix": "001",
+          "rarity": "super",
+          "imageID": "fe6a1250-a2b3-41f4-95ce-97c378d433b5"
+        },
+        {
+          "id": "a9e6d1bb-28a1-46ab-b31b-df7dbb62fdfb",
+          "card": "5c8d2c7d-5b0f-4bce-95be-69a8802e7c7e",
+          "suffix": "001",
+          "rarity": "super",
+          "imageID": "8c3c6248-6e50-4055-bbe4-9a6a5ac35597"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Card Guide Book promotional cards",
+      "id": 903322
+    }
+  }
+}

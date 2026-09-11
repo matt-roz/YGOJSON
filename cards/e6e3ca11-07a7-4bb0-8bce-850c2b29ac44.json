@@ -1,0 +1,78 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "e6e3ca11-07a7-4bb0-8bce-850c2b29ac44",
+  "text": {
+    "en": {
+      "name": "Whispering Fairy",
+      "effect": "Shuffle up to 2 monsters from your opponent's Graveyard into the Deck."
+    },
+    "fr": {
+      "name": "F\u00e9e Chuchoteuse",
+      "effect": "M\u00e9langez jusqu'\u00e0 2 monstres depuis le Cimeti\u00e8re de votre adversaire dans le Deck."
+    },
+    "de": {
+      "name": "Fl\u00fcsterfee",
+      "effect": "Mische bis zu 2 Monster vom Friedhof deines Gegners in das Deck."
+    },
+    "it": {
+      "name": "Fata Sussurrante",
+      "effect": "Mischia fino a 2 mostri dal Cimitero del tuo avversario nel Deck."
+    },
+    "es": {
+      "name": "Hada Susurrante",
+      "effect": "Baraja al Deck hasta 2 monstruos del Cementerio de tu adversario."
+    },
+    "ja": {
+      "name": "\u3055\u3055\u3084\u304d\u306e\u5996\u7cbe",
+      "effect": "\u76f8\u624b\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u3092\uff12\u4f53\u307e\u3067\u9078\u3093\u3067\u30c7\u30c3\u30ad\u306b\u623b\u3059\u3002"
+    },
+    "ko": {
+      "name": "\uc18d\ub2e5\uc18d\ub2e5 \uc694\uc815",
+      "effect": "\uc0c1\ub300 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130\ub97c 2\uc7a5\uae4c\uc9c0 \uace0\ub974\uace0 \ub371\uc73c\ub85c \ub418\ub3cc\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "wind",
+  "type": "spellcaster",
+  "classifications": [
+    "effect"
+  ],
+  "level": 2,
+  "atk": 800,
+  "def": 1200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "7e956d62-47de-4b45-bc52-15535dba8261",
+      "card": "https://ms.yugipedia.com//d/d6/WhisperingFairy-RDSD0D-JP-C.png"
+    },
+    {
+      "id": "1c950376-c12c-4a5f-8d95-41ebaa28f5aa",
+      "card": "https://ms.yugipedia.com//e/e2/WhisperingFairy-RDSD0D-KR-C.png"
+    },
+    {
+      "id": "cb23879c-4373-4dea-a185-42b0894e0a05",
+      "card": "https://ms.yugipedia.com//a/ac/WhisperingFairy-RDS244-JP-UPR.png"
+    }
+  ],
+  "sets": [
+    "b6e8e337-8faf-48be-851d-4ba7298c81d0",
+    "f9c6f064-6fdf-412a-a9ff-62631979aa08",
+    "d867f9ff-46bb-44fa-9cb3-94491d964afd",
+    "d867f9ff-46bb-44fa-9cb3-94491d964afd"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Whispering Fairy",
+        "id": 717481
+      }
+    ],
+    "dbID": 15188
+  },
+  "series": []
+}

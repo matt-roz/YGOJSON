@@ -1,0 +1,74 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "c5b81438-6f5b-428c-810e-dcb18ee8c464",
+  "name": {
+    "en": "V Jump Fall 2026 subscription bonus",
+    "ja": "\uff36\u30b8\u30e3\u30f3\u30d7 \u5b9a\u671f\u8cfc\u8aad\u7279\u5178 \uff12\uff10\uff12\uff16\u5e74 \u79cb"
+  },
+  "locales": {
+    "jp": {
+      "language": "ja",
+      "prefix": "VJMP-JP",
+      "date": "2026-09-18",
+      "cardImages": {
+        "unlimited": {}
+      },
+      "cardInfo": {
+        "unlimited": {}
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {}
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "cards": [
+        {
+          "id": "cbea04dc-8cf4-4acf-af2c-9b6b18693bcb",
+          "card": "0d88f5e4-a224-49e0-be85-0217067708ea",
+          "suffix": "292",
+          "rarity": "ultra",
+          "imageID": "7ea772a9-2c68-4f82-9072-65f0d245f526",
+          "printStatus": "new"
+        },
+        {
+          "id": "74987e52-7ba9-4e6a-8694-3ba25a9fbf36",
+          "card": "a7c21125-d920-4998-9bae-aecb29ace405",
+          "suffix": "293",
+          "rarity": "ultra",
+          "imageID": "6a4828c0-25d1-4bd1-89e5-77e625c09cef",
+          "printStatus": "new"
+        },
+        {
+          "id": "2dd130f3-a0c1-4a95-9050-a93b3189f59c",
+          "card": "6bf574a5-dd5e-4350-8c5a-e1b6271efe27",
+          "suffix": "294",
+          "rarity": "ultra",
+          "imageID": "259423b3-8495-4591-9d8f-917402fde1c7",
+          "printStatus": "new"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "V Jump Fall 2026 subscription bonus",
+      "id": 1187486
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "950ece7a-2352-4107-aa41-cb768f8d27c4",
+  "name": {
+    "en": "Silver Dragon Value Box"
+  },
+  "locales": {
+    "en": {
+      "language": "en",
+      "prefix": "SDBE-EN",
+      "cardImages": {
+        "unlimited": {
+          "f02676bd-1c16-4d72-a381-93b0d2787aa5": "https://ms.yugipedia.com//a/a0/AzureEyesSilverDragon-SDBE-EN-UR-UE-CT.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "f02676bd-1c16-4d72-a381-93b0d2787aa5": {
+            "image": "https://ms.yugipedia.com//a/a0/AzureEyesSilverDragon-SDBE-EN-UR-UE-CT.png",
+            "variants": [
+              {
+                "code": "CT",
+                "image": "https://ms.yugipedia.com//a/a0/AzureEyesSilverDragon-SDBE-EN-UR-UE-CT.png"
+              }
+            ]
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {}
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "en"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "cards": [
+        {
+          "id": "f02676bd-1c16-4d72-a381-93b0d2787aa5",
+          "card": "4a38ecaa-d5ec-45a7-bb12-68cde4864d97",
+          "suffix": "040",
+          "rarity": "ultra",
+          "imageID": "e5a3e580-a2be-4dec-9f2f-2670b0041683"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Silver Dragon Value Box",
+      "id": 267935
+    }
+  }
+}

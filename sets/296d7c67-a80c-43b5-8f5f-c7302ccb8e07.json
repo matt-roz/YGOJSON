@@ -1,0 +1,933 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "296d7c67-a80c-43b5-8f5f-c7302ccb8e07",
+  "name": {
+    "en": "Burst Protocol +1 Assist Pack",
+    "ja": "\u30d0\u30fc\u30b9\u30c8\u30fb\u30d7\u30ed\u30c8\u30b3\u30eb\uff0b\uff11\u30a2\u30b7\u30b9\u30c8\u30d1\u30c3\u30af",
+    "ko": "\ubc84\uc2a4\ud2b8 \ud504\ub85c\ud1a0\ucf5c +1 \uc5b4\uc2dc\uc2a4\ud2b8 \ud329",
+    "zh-CN": "\u7206\u8f70\u534f\u8bae +1\u8f85\u52a9\u5305"
+  },
+  "locales": {
+    "jp": {
+      "language": "ja",
+      "prefix": "BPRO-JPS",
+      "date": "2025-10-25",
+      "image": "https://ms.yugipedia.com//4/4f/BPRO-BoosterJP-AssistPack.png",
+      "cardImages": {
+        "unlimited": {
+          "124bad28-2af6-4e26-9035-44917ea34941": "https://ms.yugipedia.com//8/89/DarklordRebellion-BPRO-JP-UR.png",
+          "383ad4f7-5a2a-49db-8a89-b8ecfffb8264": "https://ms.yugipedia.com//e/e0/BESBigCoreMK3-BPRO-JP-UR.png",
+          "39a6cb88-d054-4363-8594-3316ec544021": "https://ms.yugipedia.com//4/49/RookieFurHire-BPRO-JP-UR.png",
+          "41ce5833-ac0f-4793-b3c4-5c3719f67c67": "https://ms.yugipedia.com//9/9d/RexFreightFurHire-BPRO-JP-UR.png",
+          "4b130d95-6806-409b-9aa9-ab1281dd7bf8": "https://ms.yugipedia.com//f/f1/AssaultBeast-BPRO-JP-UR.png",
+          "4f1d7d23-4433-467d-8643-5ebb31c3781c": "https://ms.yugipedia.com//f/f8/DonpaMarksmanFurHire-BPRO-JP-UR.png",
+          "54898f37-4ced-4fad-8f87-e2e757a8c70f": "https://ms.yugipedia.com//d/d2/BossRush-BPRO-JP-UR.png",
+          "5c9fd436-e33b-44f6-9ce1-c278e8bf0ea8": "https://ms.yugipedia.com//7/7d/ArchfiendHeiress-BPRO-JP-UR.png",
+          "85b4a575-38e8-4d39-b00a-d31174dd55ee": "https://ms.yugipedia.com//a/ac/DarklordContact-BPRO-JP-UR.png",
+          "869db57d-852b-4f24-a0b6-f6e289ffd5f7": "https://ms.yugipedia.com//8/87/DarklordNasten-BPRO-JP-UR.png",
+          "8dbc33e7-60a4-44c2-8d35-6a22dfc43a49": "https://ms.yugipedia.com//1/1f/DarklordUprising-BPRO-JP-UR.png",
+          "8df90944-3a0e-4919-b646-c2a7f3f49fd5": "https://ms.yugipedia.com//d/de/BEFZelos-BPRO-JP-UR.png",
+          "91db54bd-7607-46e6-948b-1292c299690d": "https://ms.yugipedia.com//b/bf/PsiReflector-BPRO-JP-UR.png",
+          "b58d237c-abb3-49b3-9da0-c6b69d892e54": "https://ms.yugipedia.com//1/15/StardustDragonAssaultMode-BPRO-JP-PScR.png",
+          "c1e0a992-164f-4237-875f-b8166dd2d303": "https://ms.yugipedia.com//5/54/IndulgedDarklord-BPRO-JP-UR.png",
+          "c1fce18e-4bf8-4fe3-a360-d4b27769147f": "https://ms.yugipedia.com//d/d7/VicViperT301-BPRO-JP-UR.png",
+          "ccc57bb6-15a6-4ac3-8b99-060ee05991d7": "https://ms.yugipedia.com//f/f4/WizSageFurHire-BPRO-JP-UR.png",
+          "d466b403-50dc-4fb3-9563-9c75cd4d5438": "https://ms.yugipedia.com//1/19/StardustDragonAssaultMode-BPRO-JP-UR.png",
+          "dccafa53-c446-49f0-8769-4054a04e9c8f": "https://ms.yugipedia.com//2/2f/AssaultCounter-BPRO-JP-UR.png",
+          "e511f360-be5f-4f45-9d14-1975026e9927": "https://ms.yugipedia.com//1/1f/BESBlasterCannonCore-BPRO-JP-UR.png",
+          "eb3cf276-bb4a-4ca2-921b-728c6ab00f7f": "https://ms.yugipedia.com//1/11/AssaultModeActivate-BPRO-JP-UR.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "124bad28-2af6-4e26-9035-44917ea34941": {
+            "image": "https://ms.yugipedia.com//8/89/DarklordRebellion-BPRO-JP-UR.png"
+          },
+          "383ad4f7-5a2a-49db-8a89-b8ecfffb8264": {
+            "image": "https://ms.yugipedia.com//e/e0/BESBigCoreMK3-BPRO-JP-UR.png"
+          },
+          "39a6cb88-d054-4363-8594-3316ec544021": {
+            "image": "https://ms.yugipedia.com//4/49/RookieFurHire-BPRO-JP-UR.png"
+          },
+          "41ce5833-ac0f-4793-b3c4-5c3719f67c67": {
+            "image": "https://ms.yugipedia.com//9/9d/RexFreightFurHire-BPRO-JP-UR.png"
+          },
+          "4b130d95-6806-409b-9aa9-ab1281dd7bf8": {
+            "image": "https://ms.yugipedia.com//f/f1/AssaultBeast-BPRO-JP-UR.png"
+          },
+          "4f1d7d23-4433-467d-8643-5ebb31c3781c": {
+            "image": "https://ms.yugipedia.com//f/f8/DonpaMarksmanFurHire-BPRO-JP-UR.png"
+          },
+          "54898f37-4ced-4fad-8f87-e2e757a8c70f": {
+            "image": "https://ms.yugipedia.com//d/d2/BossRush-BPRO-JP-UR.png"
+          },
+          "5c9fd436-e33b-44f6-9ce1-c278e8bf0ea8": {
+            "image": "https://ms.yugipedia.com//7/7d/ArchfiendHeiress-BPRO-JP-UR.png"
+          },
+          "85b4a575-38e8-4d39-b00a-d31174dd55ee": {
+            "image": "https://ms.yugipedia.com//a/ac/DarklordContact-BPRO-JP-UR.png"
+          },
+          "869db57d-852b-4f24-a0b6-f6e289ffd5f7": {
+            "image": "https://ms.yugipedia.com//8/87/DarklordNasten-BPRO-JP-UR.png"
+          },
+          "8dbc33e7-60a4-44c2-8d35-6a22dfc43a49": {
+            "image": "https://ms.yugipedia.com//1/1f/DarklordUprising-BPRO-JP-UR.png"
+          },
+          "8df90944-3a0e-4919-b646-c2a7f3f49fd5": {
+            "image": "https://ms.yugipedia.com//d/de/BEFZelos-BPRO-JP-UR.png"
+          },
+          "91db54bd-7607-46e6-948b-1292c299690d": {
+            "image": "https://ms.yugipedia.com//b/bf/PsiReflector-BPRO-JP-UR.png"
+          },
+          "b58d237c-abb3-49b3-9da0-c6b69d892e54": {
+            "image": "https://ms.yugipedia.com//1/15/StardustDragonAssaultMode-BPRO-JP-PScR.png"
+          },
+          "c1e0a992-164f-4237-875f-b8166dd2d303": {
+            "image": "https://ms.yugipedia.com//5/54/IndulgedDarklord-BPRO-JP-UR.png"
+          },
+          "c1fce18e-4bf8-4fe3-a360-d4b27769147f": {
+            "image": "https://ms.yugipedia.com//d/d7/VicViperT301-BPRO-JP-UR.png"
+          },
+          "ccc57bb6-15a6-4ac3-8b99-060ee05991d7": {
+            "image": "https://ms.yugipedia.com//f/f4/WizSageFurHire-BPRO-JP-UR.png"
+          },
+          "d466b403-50dc-4fb3-9563-9c75cd4d5438": {
+            "image": "https://ms.yugipedia.com//1/19/StardustDragonAssaultMode-BPRO-JP-UR.png"
+          },
+          "dccafa53-c446-49f0-8769-4054a04e9c8f": {
+            "image": "https://ms.yugipedia.com//2/2f/AssaultCounter-BPRO-JP-UR.png"
+          },
+          "e511f360-be5f-4f45-9d14-1975026e9927": {
+            "image": "https://ms.yugipedia.com//1/1f/BESBlasterCannonCore-BPRO-JP-UR.png"
+          },
+          "eb3cf276-bb4a-4ca2-921b-728c6ab00f7f": {
+            "image": "https://ms.yugipedia.com//1/11/AssaultModeActivate-BPRO-JP-UR.png"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          1000009536000
+        ]
+      }
+    },
+    "ae": {
+      "language": "ae",
+      "prefix": "BPRO-AES",
+      "date": "2026-03-28",
+      "image": "https://ms.yugipedia.com//d/d1/BPRO-BoosterAE-AssistPack.png",
+      "cardImages": {
+        "unlimited": {}
+      },
+      "cardInfo": {
+        "unlimited": {}
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          5000001608000
+        ]
+      }
+    },
+    "kr": {
+      "language": "ko",
+      "prefix": "BPRO-KRS",
+      "date": "2026-01-07",
+      "image": "https://ms.yugipedia.com//c/c7/AssistPack-BoosterKR.png",
+      "cardImages": {
+        "unlimited": {}
+      },
+      "cardInfo": {
+        "unlimited": {}
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          1010001600000
+        ]
+      }
+    },
+    "sc": {
+      "language": "zh-CN",
+      "prefix": "BPRO-SCS",
+      "date": "2025-11-15",
+      "image": "https://ms.yugipedia.com//7/76/BPRO-BoosterSC-AssistPack.png",
+      "cardImages": {
+        "unlimited": {}
+      },
+      "cardInfo": {
+        "unlimited": {}
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          3000001547000
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//4/4f/BPRO-BoosterJP-AssistPack.png",
+      "cards": [
+        {
+          "id": "4b130d95-6806-409b-9aa9-ab1281dd7bf8",
+          "card": "8f430da1-a56e-4fa5-9a0c-4b55b54633ff",
+          "suffix": "01",
+          "rarity": "ultra",
+          "imageID": "144443e7-073a-4931-9ba3-0e39443ac956",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "d466b403-50dc-4fb3-9563-9c75cd4d5438",
+          "card": "16c603f8-01a9-498c-af62-6c95ee705fbb",
+          "suffix": "02",
+          "rarity": "ultra",
+          "imageID": "f72abc6f-a77f-47a3-954f-329054df8687",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "b58d237c-abb3-49b3-9da0-c6b69d892e54",
+          "card": "16c603f8-01a9-498c-af62-6c95ee705fbb",
+          "suffix": "02",
+          "rarity": "prismaticsecret",
+          "imageID": "f72abc6f-a77f-47a3-954f-329054df8687",
+          "printStatus": "reprint",
+          "printNote": "New art"
+        },
+        {
+          "id": "91db54bd-7607-46e6-948b-1292c299690d",
+          "card": "f307cd4e-a6b9-422f-897f-1f6ac2fc6116",
+          "suffix": "03",
+          "rarity": "ultra",
+          "imageID": "819eac36-ad64-4189-b417-a07f63af61fd",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "eb3cf276-bb4a-4ca2-921b-728c6ab00f7f",
+          "card": "ae572b16-8e80-4b8c-95a9-fc01ee7425f2",
+          "suffix": "04",
+          "rarity": "ultra",
+          "imageID": "e7e1ac74-5430-4aac-8eec-504e814710ea",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "dccafa53-c446-49f0-8769-4054a04e9c8f",
+          "card": "02d77897-0357-46a1-9968-ab30d12199d4",
+          "suffix": "05",
+          "rarity": "ultra",
+          "imageID": "8619c87f-5ce2-4e87-8fd3-d55241f94fbb",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "4f1d7d23-4433-467d-8643-5ebb31c3781c",
+          "card": "bb4dc4ec-50d1-40d9-a9e1-728f1c67ae6f",
+          "suffix": "06",
+          "rarity": "ultra",
+          "imageID": "4a14bedc-f65b-439a-b65a-ff1ff5944d49",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "ccc57bb6-15a6-4ac3-8b99-060ee05991d7",
+          "card": "65e62cff-d1fe-4afa-a2c2-5ab705f46962",
+          "suffix": "07",
+          "rarity": "ultra",
+          "imageID": "830f9374-81ba-41c7-be03-43bbd61658b5",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "41ce5833-ac0f-4793-b3c4-5c3719f67c67",
+          "card": "3bb07dec-239e-4c73-b36d-c1b8a71ccc06",
+          "suffix": "08",
+          "rarity": "ultra",
+          "imageID": "01efeb73-fede-40b7-bca4-33afa529c2d3",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "39a6cb88-d054-4363-8594-3316ec544021",
+          "card": "ec76c802-e155-4847-94c6-4cb0ace674a7",
+          "suffix": "09",
+          "rarity": "ultra",
+          "imageID": "d5c8365a-2fa4-47fb-84b3-f148ccdd1169",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "869db57d-852b-4f24-a0b6-f6e289ffd5f7",
+          "card": "5500281a-6540-4667-8cd1-180dea663c23",
+          "suffix": "10",
+          "rarity": "ultra",
+          "imageID": "9a89967d-3dda-4dc8-8bbe-4753669f0ecc",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "c1e0a992-164f-4237-875f-b8166dd2d303",
+          "card": "635f135b-41e7-4891-b5cb-923faaa171a2",
+          "suffix": "11",
+          "rarity": "ultra",
+          "imageID": "36218d5e-2d4a-4a9b-9a42-2e03793d3819",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "85b4a575-38e8-4d39-b00a-d31174dd55ee",
+          "card": "9e434ce8-cb38-45be-88d5-ea43227df25f",
+          "suffix": "12",
+          "rarity": "ultra",
+          "imageID": "c7b5afbc-d1a3-4f02-8a75-1e9e0b7f135b",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "124bad28-2af6-4e26-9035-44917ea34941",
+          "card": "e7390ce6-10ec-4d4e-837e-0f53850264ad",
+          "suffix": "13",
+          "rarity": "ultra",
+          "imageID": "6cf5c0ca-7b64-4dcd-92e5-bda00f1ce7ff",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "8dbc33e7-60a4-44c2-8d35-6a22dfc43a49",
+          "card": "6e88bdfd-f652-43cc-8fe2-1ca06fc1dae2",
+          "suffix": "14",
+          "rarity": "ultra",
+          "imageID": "38bc8cf3-810e-415f-b1d7-850b10294275",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "383ad4f7-5a2a-49db-8a89-b8ecfffb8264",
+          "card": "4e44b39d-71d7-4a11-adf6-cfc6d5d3cf04",
+          "suffix": "15",
+          "rarity": "ultra",
+          "imageID": "6e45b131-dd2b-4e3c-87b9-f07d72b920dc",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "e511f360-be5f-4f45-9d14-1975026e9927",
+          "card": "7d6b0aca-e8f1-4721-ba47-62a64492b3dc",
+          "suffix": "16",
+          "rarity": "ultra",
+          "imageID": "64931dd9-1d55-4a96-9b08-78aafa86d37b",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "c1fce18e-4bf8-4fe3-a360-d4b27769147f",
+          "card": "2684c8a8-7c3c-499e-8e27-4b8a1c408933",
+          "suffix": "17",
+          "rarity": "ultra",
+          "imageID": "959300fd-8610-4c2f-95b0-cfeeace76d90",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "54898f37-4ced-4fad-8f87-e2e757a8c70f",
+          "card": "e7d866ed-105e-41c5-b079-116e1a0ac61d",
+          "suffix": "18",
+          "rarity": "ultra",
+          "imageID": "51698781-8937-469a-9a3d-ec51c97a0dd8",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "8df90944-3a0e-4919-b646-c2a7f3f49fd5",
+          "card": "0bd1ebe7-cf19-41a8-8f87-e2b0c7b96c99",
+          "suffix": "19",
+          "rarity": "ultra",
+          "imageID": "875ed76b-8986-4810-91cc-e608330897b4",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "5c9fd436-e33b-44f6-9ce1-c278e8bf0ea8",
+          "card": "041d9963-6f59-42b3-a332-99fe1e50aee4",
+          "suffix": "20",
+          "rarity": "ultra",
+          "imageID": "9857006f-0201-4ba9-8338-14ba6ac33d9c",
+          "printStatus": "reprint"
+        }
+      ],
+      "externalIDs": {}
+    },
+    {
+      "locales": [
+        "ae"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//d/d1/BPRO-BoosterAE-AssistPack.png",
+      "cards": [
+        {
+          "id": "90d7c83f-e6b3-4abf-a541-037dfd4dd6f3",
+          "card": "31d1de33-fe3d-4834-9763-e0edf23b9600",
+          "suffix": "01",
+          "rarity": "ultra",
+          "imageID": "eff8f798-d8be-43bc-ba29-35997febb34e",
+          "printStatus": "new"
+        },
+        {
+          "id": "7d5f4435-6706-4e05-a44f-85eecf9f8ca1",
+          "card": "0b0ce4a4-6eea-478c-bcd0-8630879339b1",
+          "suffix": "02",
+          "rarity": "ultra",
+          "imageID": "e28f5463-d7c6-420d-b153-4fd6b650b74d",
+          "printStatus": "new"
+        },
+        {
+          "id": "de29dd07-d133-4ea1-b7dd-10d74d2b2fbc",
+          "card": "0c786d68-9137-4b30-8ab4-fc2683390da3",
+          "suffix": "03",
+          "rarity": "ultra",
+          "imageID": "555021a6-9cc5-47a5-86d0-fd9530dba3a8",
+          "printStatus": "new"
+        },
+        {
+          "id": "e1e5d03a-db48-4d55-9fda-cd5aa41331a1",
+          "card": "e3e7cbd3-60c9-450e-accd-1223375c0ad9",
+          "suffix": "04",
+          "rarity": "ultra",
+          "imageID": "7be5fe5f-35c3-47ba-bb39-be793ba75f40",
+          "printStatus": "new"
+        },
+        {
+          "id": "2d7abbde-c7be-465f-983f-7013c60c596d",
+          "card": "b5f1a538-005c-4720-85b0-1b65514664f6",
+          "suffix": "05",
+          "rarity": "ultra",
+          "imageID": "f67d286f-3588-417a-9b74-bf601cad0f66",
+          "printStatus": "new"
+        },
+        {
+          "id": "d52c8f2e-4a1e-47c8-9d3e-d3c63c756d53",
+          "card": "e58a6c05-76a7-45f9-a019-0dccc3877294",
+          "suffix": "06",
+          "rarity": "ultra",
+          "imageID": "e664abd9-5c8e-48e6-ac36-176e12ae1351",
+          "printStatus": "new"
+        },
+        {
+          "id": "1021ffe8-23cf-4740-b846-57a4c4563080",
+          "card": "62eee5b0-e3cf-4011-b5eb-e7f4f7fd92b1",
+          "suffix": "07",
+          "rarity": "ultra",
+          "imageID": "48f5df78-82a3-4cd4-a199-60f38e439324",
+          "printStatus": "new"
+        },
+        {
+          "id": "72ca3e37-7462-431c-9ad1-0c95b8959bb7",
+          "card": "26cc007b-6ac1-448d-8889-4a584969a501",
+          "suffix": "08",
+          "rarity": "ultra",
+          "imageID": "649f8ce7-29b5-4426-a71f-310f75d8e724",
+          "printStatus": "new"
+        },
+        {
+          "id": "ccda0d5c-f0e9-4b8e-b6d8-d3f208fb3f1d",
+          "card": "4346b814-6f3e-40a2-b8a0-faf13e75f315",
+          "suffix": "09",
+          "rarity": "ultra",
+          "imageID": "395c1448-5b7a-42dd-a663-4f7a954d3d1e",
+          "printStatus": "new"
+        },
+        {
+          "id": "959792ae-6358-459f-baa5-f76317dc9193",
+          "card": "90915894-08aa-4729-9024-6e1171fb0bc8",
+          "suffix": "10",
+          "rarity": "ultra",
+          "imageID": "f9f3a6dd-8de2-44cd-b818-1bcc41924638",
+          "printStatus": "new"
+        },
+        {
+          "id": "c34ae898-a870-48c1-84b0-de09a3bebc79",
+          "card": "8f430da1-a56e-4fa5-9a0c-4b55b54633ff",
+          "suffix": "11",
+          "rarity": "ultra",
+          "imageID": "144443e7-073a-4931-9ba3-0e39443ac956",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "dcb26e36-0106-400c-9366-dd8d66f14868",
+          "card": "16c603f8-01a9-498c-af62-6c95ee705fbb",
+          "suffix": "12",
+          "rarity": "ultra",
+          "imageID": "f72abc6f-a77f-47a3-954f-329054df8687",
+          "printStatus": "new"
+        },
+        {
+          "id": "f97859ec-1e18-453e-b178-b3bdcefd866a",
+          "card": "16c603f8-01a9-498c-af62-6c95ee705fbb",
+          "suffix": "12",
+          "rarity": "prismaticsecret",
+          "imageID": "f72abc6f-a77f-47a3-954f-329054df8687",
+          "printStatus": "new"
+        },
+        {
+          "id": "c23b490f-6f25-4553-83d9-731ef4099d1a",
+          "card": "f307cd4e-a6b9-422f-897f-1f6ac2fc6116",
+          "suffix": "13",
+          "rarity": "ultra",
+          "imageID": "819eac36-ad64-4189-b417-a07f63af61fd",
+          "printStatus": "new"
+        },
+        {
+          "id": "c82311c8-9d21-44e6-b8f4-7e79e2a59556",
+          "card": "a2b37a8d-5b63-4502-86b7-b7ad281c253b",
+          "suffix": "14",
+          "rarity": "ultra",
+          "imageID": "b89db520-750d-4ae4-9931-fc33ada53ef8",
+          "printStatus": "new"
+        },
+        {
+          "id": "97e5d5a6-f782-4540-9e0c-90326bb3bb2d",
+          "card": "dae09435-b2d2-4f0b-a0ba-aa6cdf59025e",
+          "suffix": "15",
+          "rarity": "ultra",
+          "imageID": "3123d64b-d35f-45ef-ab69-eff96188857b",
+          "printStatus": "new"
+        },
+        {
+          "id": "ee6d93ca-b71e-4645-a8d2-0d202a8ac297",
+          "card": "ae572b16-8e80-4b8c-95a9-fc01ee7425f2",
+          "suffix": "16",
+          "rarity": "ultra",
+          "imageID": "e7e1ac74-5430-4aac-8eec-504e814710ea",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "8f9ef422-6b5a-47d2-a94d-6bc1044ecb49",
+          "card": "e9d256a5-1534-49ca-814b-00d94763a1bd",
+          "suffix": "17",
+          "rarity": "ultra",
+          "imageID": "cf9a9124-6410-401d-b15c-21b4fcb1238b",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "ac18ac6d-173c-4057-b486-a61fc8a6d47f",
+          "card": "02d77897-0357-46a1-9968-ab30d12199d4",
+          "suffix": "18",
+          "rarity": "ultra",
+          "imageID": "8619c87f-5ce2-4e87-8fd3-d55241f94fbb",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "020eb431-2490-4734-b138-4e5cf2af7eee",
+          "card": "e7d866ed-105e-41c5-b079-116e1a0ac61d",
+          "suffix": "19",
+          "rarity": "ultra",
+          "imageID": "51698781-8937-469a-9a3d-ec51c97a0dd8",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "829e7574-273c-42a2-918f-61ddc0287b43",
+          "card": "0bd1ebe7-cf19-41a8-8f87-e2b0c7b96c99",
+          "suffix": "20",
+          "rarity": "ultra",
+          "imageID": "875ed76b-8986-4810-91cc-e608330897b4",
+          "printStatus": "new"
+        }
+      ],
+      "externalIDs": {}
+    },
+    {
+      "locales": [
+        "kr"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//c/c7/AssistPack-BoosterKR.png",
+      "cards": [
+        {
+          "id": "4b130d95-6806-409b-9aa9-ab1281dd7bf8",
+          "card": "8f430da1-a56e-4fa5-9a0c-4b55b54633ff",
+          "suffix": "01",
+          "rarity": "ultra",
+          "imageID": "144443e7-073a-4931-9ba3-0e39443ac956",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "d466b403-50dc-4fb3-9563-9c75cd4d5438",
+          "card": "16c603f8-01a9-498c-af62-6c95ee705fbb",
+          "suffix": "02",
+          "rarity": "ultra",
+          "imageID": "f72abc6f-a77f-47a3-954f-329054df8687",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "b58d237c-abb3-49b3-9da0-c6b69d892e54",
+          "card": "16c603f8-01a9-498c-af62-6c95ee705fbb",
+          "suffix": "02",
+          "rarity": "prismaticsecret",
+          "imageID": "f72abc6f-a77f-47a3-954f-329054df8687",
+          "printStatus": "reprint",
+          "printNote": "New art"
+        },
+        {
+          "id": "91db54bd-7607-46e6-948b-1292c299690d",
+          "card": "f307cd4e-a6b9-422f-897f-1f6ac2fc6116",
+          "suffix": "03",
+          "rarity": "ultra",
+          "imageID": "819eac36-ad64-4189-b417-a07f63af61fd",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "eb3cf276-bb4a-4ca2-921b-728c6ab00f7f",
+          "card": "ae572b16-8e80-4b8c-95a9-fc01ee7425f2",
+          "suffix": "04",
+          "rarity": "ultra",
+          "imageID": "e7e1ac74-5430-4aac-8eec-504e814710ea",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "dccafa53-c446-49f0-8769-4054a04e9c8f",
+          "card": "02d77897-0357-46a1-9968-ab30d12199d4",
+          "suffix": "05",
+          "rarity": "ultra",
+          "imageID": "8619c87f-5ce2-4e87-8fd3-d55241f94fbb",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "4f1d7d23-4433-467d-8643-5ebb31c3781c",
+          "card": "bb4dc4ec-50d1-40d9-a9e1-728f1c67ae6f",
+          "suffix": "06",
+          "rarity": "ultra",
+          "imageID": "4a14bedc-f65b-439a-b65a-ff1ff5944d49",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "ccc57bb6-15a6-4ac3-8b99-060ee05991d7",
+          "card": "65e62cff-d1fe-4afa-a2c2-5ab705f46962",
+          "suffix": "07",
+          "rarity": "ultra",
+          "imageID": "830f9374-81ba-41c7-be03-43bbd61658b5",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "41ce5833-ac0f-4793-b3c4-5c3719f67c67",
+          "card": "3bb07dec-239e-4c73-b36d-c1b8a71ccc06",
+          "suffix": "08",
+          "rarity": "ultra",
+          "imageID": "01efeb73-fede-40b7-bca4-33afa529c2d3",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "39a6cb88-d054-4363-8594-3316ec544021",
+          "card": "ec76c802-e155-4847-94c6-4cb0ace674a7",
+          "suffix": "09",
+          "rarity": "ultra",
+          "imageID": "d5c8365a-2fa4-47fb-84b3-f148ccdd1169",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "869db57d-852b-4f24-a0b6-f6e289ffd5f7",
+          "card": "5500281a-6540-4667-8cd1-180dea663c23",
+          "suffix": "10",
+          "rarity": "ultra",
+          "imageID": "9a89967d-3dda-4dc8-8bbe-4753669f0ecc",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "c1e0a992-164f-4237-875f-b8166dd2d303",
+          "card": "635f135b-41e7-4891-b5cb-923faaa171a2",
+          "suffix": "11",
+          "rarity": "ultra",
+          "imageID": "36218d5e-2d4a-4a9b-9a42-2e03793d3819",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "85b4a575-38e8-4d39-b00a-d31174dd55ee",
+          "card": "9e434ce8-cb38-45be-88d5-ea43227df25f",
+          "suffix": "12",
+          "rarity": "ultra",
+          "imageID": "c7b5afbc-d1a3-4f02-8a75-1e9e0b7f135b",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "124bad28-2af6-4e26-9035-44917ea34941",
+          "card": "e7390ce6-10ec-4d4e-837e-0f53850264ad",
+          "suffix": "13",
+          "rarity": "ultra",
+          "imageID": "6cf5c0ca-7b64-4dcd-92e5-bda00f1ce7ff",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "8dbc33e7-60a4-44c2-8d35-6a22dfc43a49",
+          "card": "6e88bdfd-f652-43cc-8fe2-1ca06fc1dae2",
+          "suffix": "14",
+          "rarity": "ultra",
+          "imageID": "38bc8cf3-810e-415f-b1d7-850b10294275",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "383ad4f7-5a2a-49db-8a89-b8ecfffb8264",
+          "card": "4e44b39d-71d7-4a11-adf6-cfc6d5d3cf04",
+          "suffix": "15",
+          "rarity": "ultra",
+          "imageID": "6e45b131-dd2b-4e3c-87b9-f07d72b920dc",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "e511f360-be5f-4f45-9d14-1975026e9927",
+          "card": "7d6b0aca-e8f1-4721-ba47-62a64492b3dc",
+          "suffix": "16",
+          "rarity": "ultra",
+          "imageID": "64931dd9-1d55-4a96-9b08-78aafa86d37b",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "c1fce18e-4bf8-4fe3-a360-d4b27769147f",
+          "card": "2684c8a8-7c3c-499e-8e27-4b8a1c408933",
+          "suffix": "17",
+          "rarity": "ultra",
+          "imageID": "959300fd-8610-4c2f-95b0-cfeeace76d90",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "54898f37-4ced-4fad-8f87-e2e757a8c70f",
+          "card": "e7d866ed-105e-41c5-b079-116e1a0ac61d",
+          "suffix": "18",
+          "rarity": "ultra",
+          "imageID": "51698781-8937-469a-9a3d-ec51c97a0dd8",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "8df90944-3a0e-4919-b646-c2a7f3f49fd5",
+          "card": "0bd1ebe7-cf19-41a8-8f87-e2b0c7b96c99",
+          "suffix": "19",
+          "rarity": "ultra",
+          "imageID": "875ed76b-8986-4810-91cc-e608330897b4",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "5c9fd436-e33b-44f6-9ce1-c278e8bf0ea8",
+          "card": "041d9963-6f59-42b3-a332-99fe1e50aee4",
+          "suffix": "20",
+          "rarity": "ultra",
+          "imageID": "9857006f-0201-4ba9-8338-14ba6ac33d9c",
+          "printStatus": "reprint"
+        }
+      ],
+      "externalIDs": {}
+    },
+    {
+      "locales": [
+        "sc"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//7/76/BPRO-BoosterSC-AssistPack.png",
+      "cards": [
+        {
+          "id": "151b2b89-ae12-4e7e-ab9b-00cbb392d442",
+          "card": "0a2f3762-23ef-4fde-a36b-f1672e13e3d9",
+          "suffix": "01",
+          "rarity": "ultra",
+          "imageID": "2c7c91f2-1ae2-48b5-96ed-1203ac8af73d",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "c5b7277a-cf1f-490a-b25e-46a0b777e2a4",
+          "card": "d5b9201f-7d8c-4b1f-9c65-5c894ece4ecf",
+          "suffix": "02",
+          "rarity": "ultra",
+          "imageID": "dd723b80-ec64-4362-8c48-f464ed6a5e26",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "34e0ff6d-145c-437d-9a70-082560e54ffc",
+          "card": "ac6ed99c-41dc-4a94-8b0f-163ed720439f",
+          "suffix": "03",
+          "rarity": "ultra",
+          "imageID": "2d9c8715-248d-49e9-a088-0a2095a925c6",
+          "printStatus": "new"
+        },
+        {
+          "id": "f01534a3-eaf8-441b-a2e2-9f048d206fcf",
+          "card": "b45afe43-926b-4fad-813a-6cfb68bec26c",
+          "suffix": "04",
+          "rarity": "ultra",
+          "imageID": "d4a041e3-92b5-4396-bd41-1e5d5bf00fef",
+          "printStatus": "new"
+        },
+        {
+          "id": "45b8536c-62cf-4df8-b06f-601fee3cd1a2",
+          "card": "8f430da1-a56e-4fa5-9a0c-4b55b54633ff",
+          "suffix": "05",
+          "rarity": "ultra",
+          "imageID": "144443e7-073a-4931-9ba3-0e39443ac956",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "378e1816-2852-46e7-92c5-bfb6656fec62",
+          "card": "f307cd4e-a6b9-422f-897f-1f6ac2fc6116",
+          "suffix": "06",
+          "rarity": "ultra",
+          "imageID": "819eac36-ad64-4189-b417-a07f63af61fd",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "b392da71-4727-48f8-93f1-f58263caf28d",
+          "card": "ee673406-5149-4d8d-bd49-c731a44700d2",
+          "suffix": "07",
+          "rarity": "ultra",
+          "imageID": "2305c461-aa87-41ad-8b0d-df46011e3f3c",
+          "printStatus": "new"
+        },
+        {
+          "id": "c9bf8ac8-06e3-4bc0-9b7b-8ba93090b430",
+          "card": "16c603f8-01a9-498c-af62-6c95ee705fbb",
+          "suffix": "08",
+          "rarity": "ultra",
+          "imageID": "f72abc6f-a77f-47a3-954f-329054df8687",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "de9acffa-c92b-4855-adc4-6286e0d42f7b",
+          "card": "16c603f8-01a9-498c-af62-6c95ee705fbb",
+          "suffix": "08",
+          "rarity": "prismaticsecret",
+          "imageID": "f72abc6f-a77f-47a3-954f-329054df8687",
+          "printStatus": "reprint",
+          "printNote": "New artwork"
+        },
+        {
+          "id": "ad8902b6-bba3-43a8-9c15-d6b6cbcc4ca3",
+          "card": "fc56a243-79c3-4dba-9413-98b1a830b843",
+          "suffix": "09",
+          "rarity": "ultra",
+          "imageID": "da966b61-db27-4fb8-8ce9-43fb9c962b6d",
+          "printStatus": "new"
+        },
+        {
+          "id": "cd34b00a-8f36-46c1-9114-549fbb1d9bda",
+          "card": "ae572b16-8e80-4b8c-95a9-fc01ee7425f2",
+          "suffix": "10",
+          "rarity": "ultra",
+          "imageID": "e7e1ac74-5430-4aac-8eec-504e814710ea",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "8fc379ad-a3d2-4462-b9d8-16f29f361640",
+          "card": "bb4dc4ec-50d1-40d9-a9e1-728f1c67ae6f",
+          "suffix": "11",
+          "rarity": "ultra",
+          "imageID": "4a14bedc-f65b-439a-b65a-ff1ff5944d49",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "327d7a78-e7da-442f-bd91-7d5533e4848b",
+          "card": "65e62cff-d1fe-4afa-a2c2-5ab705f46962",
+          "suffix": "12",
+          "rarity": "ultra",
+          "imageID": "830f9374-81ba-41c7-be03-43bbd61658b5",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "1e172ec5-2c94-44cd-9ad5-22dd502bea41",
+          "card": "3bb07dec-239e-4c73-b36d-c1b8a71ccc06",
+          "suffix": "13",
+          "rarity": "ultra",
+          "imageID": "01efeb73-fede-40b7-bca4-33afa529c2d3",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "d77e29c0-fe82-4057-ad3b-9f40718b8051",
+          "card": "ec76c802-e155-4847-94c6-4cb0ace674a7",
+          "suffix": "14",
+          "rarity": "ultra",
+          "imageID": "d5c8365a-2fa4-47fb-84b3-f148ccdd1169",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "2eeed102-41b1-4cf8-8d53-5bb1114cbbec",
+          "card": "38b5f35d-3bf4-441b-9e53-bc24467ea403",
+          "suffix": "15",
+          "rarity": "ultra",
+          "imageID": "88afa51c-6887-439c-b786-da9fbcb77bad",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "85436f15-0850-4f80-8476-9d8aa61e043c",
+          "card": "9bb08102-b502-4c0f-83a6-f5ad706d4241",
+          "suffix": "16",
+          "rarity": "ultra",
+          "imageID": "602b99c6-1952-418f-a91b-7f943181c73a",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "f9834696-d202-4120-8582-8b8b6695c14a",
+          "card": "ae1bd96d-34b6-45b2-932a-e252eb11fa20",
+          "suffix": "17",
+          "rarity": "ultra",
+          "imageID": "a5ca2d31-98f3-476b-ba82-a9c18a9bf0da",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "b9679c28-ad99-4ff4-9aae-87eed5bde99a",
+          "card": "95bef28d-afc8-48ed-8444-4da9c7d50f6a",
+          "suffix": "18",
+          "rarity": "ultra",
+          "imageID": "900ce243-9b72-4986-a620-4fcc64c2974b",
+          "printStatus": "new"
+        },
+        {
+          "id": "b72fb1f0-ef18-409d-8409-e89793cccb0d",
+          "card": "f6eefd0a-c8d3-4e89-8be8-db0c2acc68be",
+          "suffix": "19",
+          "rarity": "ultra",
+          "imageID": "9064deab-15dd-403a-8bdb-38e1744e3cae",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "9795f089-b063-4ab0-8a61-42d96ba33cf6",
+          "card": "e3cf82f2-85b0-4de3-b607-d8c607ce19bd",
+          "suffix": "20",
+          "rarity": "ultra",
+          "imageID": "1c7232db-e5df-4675-852c-29463bf94e53",
+          "printStatus": "new"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Burst Protocol +1 Assist Pack",
+      "id": 1153184
+    }
+  }
+}

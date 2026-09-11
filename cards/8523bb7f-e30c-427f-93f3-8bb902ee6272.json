@@ -1,0 +1,53 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "8523bb7f-e30c-427f-93f3-8bb902ee6272",
+  "text": {
+    "en": {
+      "name": "Deity of Seven Treasures - Ryozai",
+      "effect": "Face-up Level 7 monsters and face-down Spell/Trap Cards on your field cannot be destroyed by your opponent's card effects.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u4e03\u5b9d\u795e\uff0d\u826f\u8ca1",
+      "effect": "\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff17\uff09\u3068\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u88cf\u5074\u8868\u793a\u306e\u9b54\u6cd5\u30fb\u7f60\u30ab\u30fc\u30c9\u306f\u76f8\u624b\u306e\u52b9\u679c\u3067\u306f\u7834\u58ca\u3055\u308c\u306a\u3044\u3002"
+    },
+    "ko": {
+      "name": "\uce60\ubcf4\uc2e0\uff0d\uc591\uc7ac",
+      "effect": "\uc790\uc2e0 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\ub808\ubca8 7)\uc640 \uc790\uc2e0 \ud544\ub4dc\uc758 \ub4b7\uba74 \ud45c\uc2dc\uc758 \ub9c8\ubc95 / \ud568\uc815 \uce74\ub4dc\ub294 \uc0c1\ub300\uc758 \ud6a8\uacfc\ub85c\ub294 \ud30c\uad34\ub418\uc9c0 \uc54a\ub294\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "fairy",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 1700,
+  "def": 2700,
+  "passwords": [],
+  "images": [
+    {
+      "id": "78c3ac2f-70a8-477b-8f11-74d8ebf5c168",
+      "card": "https://ms.yugipedia.com//e/ec/DeityofSevenTreasuresRyozai-RDKP16-JP-UR.png"
+    },
+    {
+      "id": "838a20d2-1d97-4128-86e1-cbbe3acecd95",
+      "card": "https://ms.yugipedia.com//6/6b/DeityofSevenTreasuresRyozai-RDS244-JP-UPR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Deity of Seven Treasures - Ryozai",
+        "id": 1038383
+      }
+    ],
+    "dbID": 19984
+  },
+  "series": [
+    "e19a64b9-74f9-4fc9-a84d-ce2d526eb852"
+  ]
+}

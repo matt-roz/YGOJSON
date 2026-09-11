@@ -1,0 +1,42 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "56b8ff5f-cf65-4906-ad0d-37352129acce",
+  "text": {
+    "en": {
+      "name": "Doitsu (Rush Duel)",
+      "effect": "Equip this card to 1 face-up \"Soitsu\" on your field that is not equipped with a Union Monster Card as an Equip Spell Card with the following effect. \u25cfThe equipped monster gains 2500 ATK.",
+      "official": false
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "fairy",
+  "classifications": [
+    "effect"
+  ],
+  "abilities": [
+    "union"
+  ],
+  "level": 4,
+  "atk": 100,
+  "def": 200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "b9704d0e-3986-4e0a-bfd5-fc5663be3297",
+      "card": "https://ms.yugipedia.com//b/b8/Doitsu-RDAP03-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Doitsu (Rush Duel)",
+        "id": 1201871
+      }
+    ],
+    "dbID": 23465
+  },
+  "series": []
+}

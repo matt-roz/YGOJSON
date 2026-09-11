@@ -1,0 +1,43 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "851feed3-9c0c-49dd-b1fe-6bf86d341b11",
+  "text": {
+    "en": {
+      "name": "Beast King Barbaros (Rush Duel)",
+      "effect": "Destroy all face-up cards on your opponent's field.",
+      "official": false
+    },
+    "ko": {
+      "name": "\uc2e0\uc218\uc655 \ubc14\ub974\ubc14\ub85c\uc2a4",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc\uc778 \uce74\ub4dc\ub97c \uc804\ubd80 \ud30c\uad34\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "beastwarrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 3000,
+  "def": 1200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "3de0e9d0-98dd-4232-8697-35e465f9524e",
+      "card": "https://ms.yugipedia.com//4/47/BeastKingBarbaros-RDKP24-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Beast King Barbaros (Rush Duel)",
+        "id": 1169445
+      }
+    ],
+    "dbID": 22830
+  },
+  "series": []
+}

@@ -1,0 +1,47 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "33f43991-1263-439d-8ac4-545512ca5efe",
+  "text": {
+    "en": {
+      "name": "The Twin Dragons of the Heavens",
+      "effect": "Noble and majestic lights that pervade the heavens and earth throughout all eternity. They move based on the logic of the divine, calmly wielding majesty and authority.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u5929\u4e0a\u4e4b\u53cc\u8f2a\u9f8d",
+      "effect": "\u4e07\u4e16\u306b\u5929\u5730\u5efb\u308b\u6c17\u9ad8\u304d\u5149\u3002\u5a01\u3092\u4ee5\u3066\u5e73\u304b\u306b\u3057\u3001\u795e\u306e\u7406\u3092\u3082\u52d5\u304b\u3055\u3093\u3002"
+    },
+    "ko": {
+      "name": "\ucc9c\uc0c1\uc9c0\uc30d\ub95c\ub8e1",
+      "effect": "\ub05d\uc5c6\uc774 \ucc9c\uc9c0\ub97c \uc21c\ud68c\ud558\ub294 \uace0\uacb0\ud55c \ube5b. \uadf8 \uc704\uc5c4\uc73c\ub85c \ub9cc\uc138\ub97c \ud3c9\uc815\ud558\ub2c8, \uc2e0\uc758 \uc12d\ub9ac\ub9c8\uc800 \uc6c0\uc9c1\uc778\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "dragon",
+  "classifications": [
+    "normal"
+  ],
+  "level": 8,
+  "atk": 2500,
+  "def": 2000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "92c45bed-b2f4-4c83-8406-af1a327a9be1",
+      "card": "https://ms.yugipedia.com//f/f8/TheTwinDragonsoftheHeavens-RDGC24-JP-NPR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "The Twin Dragons of the Heavens",
+        "id": 1052181
+      }
+    ],
+    "dbID": 20384
+  },
+  "series": []
+}

@@ -1,0 +1,59 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "d6b125eb-c23c-4c86-ad53-8f565bfdfc9b",
+  "text": {
+    "en": {
+      "name": "The Sun God's Torture Device - Viser Des Shock",
+      "effect": "Cannot be destroyed by battle. You can only use each of the following effects of \"The Sun God's Torture Device - Viser Des Shock\" once per turn. If a monster(s) is sent to your opponent's GY and you control a \"Sun God\" card, even during the Damage Step: You can Special Summon this card from your hand, and if you do, return 1 other card on the field to the hand/Extra Deck, and if you do that, inflict 800 damage to your opponent. During the End Phase, if \"The Immortal Sun God\" was sent to your GY this turn: You can add this card from your GY to your hand.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u592a\u967d\u795e\u306e\u62f7\u554f\u5177\uff0d\u30d0\u30a4\u30b5\u30fc\u30fb\u30c7\u30b9\u30fb\u30b7\u30e7\u30c3\u30af"
+    },
+    "zh-CN": {
+      "name": "\u592a\u9633\u795e\u7684\u62f7\u95ee\u5177\uff0d\u6b7b\u4ea1\u9707\u64bc\u5211\u5177",
+      "effect": "\u6b64\u5361\u540d\u7684\u2460\u2462\u6548\u679c1\u56de\u5408\u4ec5\u53ef\u5404\u4f7f\u75281\u6b21\u3002\u2460\uff1a\u6709\u602a\u517d\u88ab\u9001\u81f3\u5bf9\u624b\u5893\u5730\u7684\u60c5\u51b5\u4e0b\uff0c\u5982\u679c\u81ea\u5df1\u573a\u4e0a\u5b58\u5728\u201c\u592a\u9633\u795e\u201d\u5361\u5219\u53ef\u4ee5\u53d1\u52a8\uff08\u4f24\u5bb3\u6b65\u9aa4\u4e5f\u53ef\u4ee5\u53d1\u52a8\uff09\u3002\u4ece\u624b\u724c\u5c06\u6b64\u5361\u7279\u6b8a\u53ec\u5524\uff0c\u5c06\u573a\u4e0a\u76841\u5f20\u5176\u4ed6\u5361\u653e\u56de\u624b\u724c\u30fb\u989d\u5916\u724c\u7ec4\uff0c\u7ed9\u4e88\u5bf9\u624b800\u4f24\u5bb3\u3002\u2461\uff1a\u6b64\u5361\u4e0d\u4f1a\u56e0\u6218\u6597\u88ab\u7834\u574f\u3002\u2462\uff1a\u6b64\u56de\u5408\u6709\u201c\u4e0d\u6b7b\u4e4b\u592a\u9633\u795e\u201d\u88ab\u9001\u81f3\u81ea\u5df1\u5893\u5730\u7684\u60c5\u51b5\u4e0b\uff0c\u5728\u7ed3\u675f\u9636\u6bb5\u53ef\u4ee5\u53d1\u52a8\u3002\u5c06\u5893\u5730\u7684\u6b64\u5361\u52a0\u5165\u624b\u724c\u3002"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "fiend",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 800,
+  "def": 1200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "c1bbcffc-fcb9-4e69-87b8-b78b44cadfbe",
+      "card": "https://ms.yugipedia.com//3/3c/TheSunGodsTortureDeviceViserDesShock-IMPH-JP-OP.png"
+    },
+    {
+      "id": "dc552503-4037-4c80-81e0-46a886f011bc",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/101403004.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/101403004.jpg"
+    }
+  ],
+  "sets": [
+    "ccc8125c-0182-45df-91a7-57e5e2423dfc",
+    "ccc8125c-0182-45df-91a7-57e5e2423dfc"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "The Sun God's Torture Device - Viser Des Shock",
+        "id": 1210961
+      }
+    ],
+    "ygoprodeck": {
+      "id": 101403004,
+      "name": "the-sun-god-s-torture-device-viser-des-shock-15906"
+    }
+  },
+  "series": [
+    "3b0eaf12-c2db-4323-bd23-08c247d04643"
+  ]
+}

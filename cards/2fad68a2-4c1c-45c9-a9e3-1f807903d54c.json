@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "2fad68a2-4c1c-45c9-a9e3-1f807903d54c",
+  "text": {
+    "en": {
+      "name": "Lightning Voltkite",
+      "effect": "Draw 1 card.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30e9\u30a4\u30c8\u30cb\u30f3\u30b0\u30fb\u30dc\u30eb\u30ab\u30a4\u30c8",
+      "effect": "\u81ea\u5206\u306f\uff11\u679a\u30c9\u30ed\u30fc\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub77c\uc774\ud2b8\ub2dd \ubcfc\uce74\uc774\ud2b8",
+      "effect": "\uc790\uc2e0\uc740 1\uc7a5 \ub4dc\ub85c\uc6b0\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "wingedbeast",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2300,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "b7856617-9b71-4a21-8435-5281b6c92933",
+      "card": "https://ms.yugipedia.com//e/e2/LightningVoltkite-RDMRP2-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Lightning Voltkite",
+        "id": 1018684
+      }
+    ],
+    "dbID": 19545
+  },
+  "series": [
+    "660df425-9497-49b5-9b83-22ebacb1c544"
+  ]
+}

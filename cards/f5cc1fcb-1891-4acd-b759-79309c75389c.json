@@ -1,0 +1,52 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "f5cc1fcb-1891-4acd-b759-79309c75389c",
+  "text": {
+    "en": {
+      "name": "Beginning Hiyashi the Sonic Noodle Ninja",
+      "effect": "This turn, this card can attack directly. Then, you can change 1 Attack Position monster on your opponent's field to face-down Defense Position.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u706b\u9eba\u901f\u5fcd\u30d3\u30ae\u30cb\u30f3\u30b0\u30fb\u30d2\u30e4\u30b7",
+      "effect": "\u3053\u306e\u30bf\u30fc\u30f3\u3001\u3053\u306e\u30ab\u30fc\u30c9\u306f\u76f4\u63a5\u653b\u6483\u3067\u304d\u308b\u3002\u3055\u3089\u306b\u3001\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u653b\u6483\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u3092\u9078\u3093\u3067\u88cf\u5074\u5b88\u5099\u8868\u793a\u306b\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud654\uba74\uc18d\uc778 \ube44\uae30\ub2dd \ud788\uc57c\uc2dc",
+      "effect": "\uc774 \ud134\uc5d0, \uc774 \uce74\ub4dc\ub294 \uc9c1\uc811 \uacf5\uaca9\ud560 \uc218 \uc788\ub2e4. \ucd94\uac00\ub85c, \uc0c1\ub300 \ud544\ub4dc\uc758 \uacf5\uaca9 \ud45c\uc2dc \ubaac\uc2a4\ud130 1\uc7a5\uc744 \uace0\ub974\uace0 \ub4b7\uba74 \uc218\ube44 \ud45c\uc2dc\ub85c \ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "pyro",
+  "classifications": [
+    "effect"
+  ],
+  "level": 9,
+  "atk": 2900,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "35b0b82c-8490-4af0-9dc0-855c534fb0d6",
+      "card": "https://ms.yugipedia.com//9/9b/BeginningHiyashitheSonicNoodleNinja-RDKP24-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Beginning Hiyashi the Sonic Noodle Ninja",
+        "id": 1171442
+      }
+    ],
+    "dbID": 22865
+  },
+  "series": [
+    "bd5b6883-ed3e-4c72-940a-583182e2f9ab"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "0e46ced4-7a25-4c80-9b63-b7af0db822b6",
+  "text": {
+    "en": {
+      "name": "Ominous Ogre of Yamimakai",
+      "effect": "Send 1 card from your hand to the Graveyard. Then, you can Special Summon 1 \"Wanderer of Zera\" from your Graveyard to your field in face-up Defense Position.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u95c7\u9b54\u754c\u306e\u51f6\u9b3c",
+      "effect": "\u81ea\u5206\u306e\u624b\u672d\uff11\u679a\u3092\u9078\u3093\u3067\u5893\u5730\u3078\u9001\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u30bc\u30e9\u306e\u653e\u6d6a\u8005\u300d\uff11\u4f53\u3092\u9078\u3093\u3067\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u5b88\u5099\u8868\u793a\u3067\u7279\u6b8a\u53ec\u559a\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc554\ud751 \ub9c8\uacc4\uc758 \ud749\uadc0",
+      "effect": "\uc790\uc2e0\uc758 \ud328 1\uc7a5\uc744 \uace0\ub974\uace0 \ubb18\uc9c0\ub85c \ubcf4\ub0b8\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0 \ubb18\uc9c0\uc758 \"\uc81c\ub77c\uc758 \ubc29\ub791\uc790\" 1\uc7a5\uc744 \uace0\ub974\uace0 \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \uc218\ube44 \ud45c\uc2dc\ub85c \ud2b9\uc218 \uc18c\ud658\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "fiend",
+  "classifications": [
+    "effect"
+  ],
+  "level": 5,
+  "atk": 1600,
+  "def": 1300,
+  "passwords": [],
+  "images": [
+    {
+      "id": "c485374c-e567-4f86-9aa6-76c407b2fb1c",
+      "card": "https://ms.yugipedia.com//e/e8/OminousOgreofYamimakai-RDAP01-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Ominous Ogre of Yamimakai",
+        "id": 1131116
+      }
+    ],
+    "dbID": 21853
+  },
+  "series": []
+}

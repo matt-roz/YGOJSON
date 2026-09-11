@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "b8e8cd03-14cc-4ed2-8e02-82d327aade4e",
+  "text": {
+    "en": {
+      "name": "Hungry Nuggets",
+      "effect": "Set 1 \"Hamburger Recipe\" or \"Hamburger Fast Recipe\" from your Graveyard to your Spell & Trap Zone.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30cf\u30f3\u30b0\u30ea\u30fc\u30ca\u30b2\u30c3\u30c8",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u30cf\u30f3\u30d0\u30fc\u30ac\u30fc\u306e\u30ec\u30b7\u30d4\u300d\u307e\u305f\u306f\u300c\u30cf\u30f3\u30d0\u30fc\u30ac\u30fc\u306e\u30d5\u30a1\u30b9\u30c8\u30ec\u30b7\u30d4\u300d\uff11\u679a\u3092\u9078\u3093\u3067\u81ea\u5206\u306e\u9b54\u6cd5\uff06\u7f60\u30be\u30fc\u30f3\u306b\u30bb\u30c3\u30c8\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud5dd\uadf8\ub9ac \ub108\uac9f",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \"\ud584\ubc84\uac70 \uc694\ub9ac\ubc95\" \ub610\ub294 \"\ud584\ubc84\uac70 \ud328\uc2a4\ud2b8\uc694\ub9ac\ubc95\" 1\uc7a5\uc744 \uace0\ub974\uace0 \uc790\uc2e0\uc758 \ub9c8\ubc95 & \ud568\uc815 \uc874\uc5d0 \uc138\ud2b8\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 6,
+  "atk": 1700,
+  "def": 1900,
+  "passwords": [],
+  "images": [
+    {
+      "id": "188af304-f45a-4895-9460-20ef141ebf44",
+      "card": "https://ms.yugipedia.com//a/ab/HungryNuggets-RDKP22-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Hungry Nuggets",
+        "id": 1136558
+      }
+    ],
+    "dbID": 21997
+  },
+  "series": [
+    "e2d2c5fa-6cb7-405e-84d8-889b5da6d817"
+  ]
+}

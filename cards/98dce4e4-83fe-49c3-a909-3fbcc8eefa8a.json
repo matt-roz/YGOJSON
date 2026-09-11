@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "98dce4e4-83fe-49c3-a909-3fbcc8eefa8a",
+  "text": {
+    "en": {
+      "name": "Oh'en the Molten Martial Machine",
+      "effect": "Add 1 Level 7 or higher FIRE Attribute Machine Type Effect Monster with 800 DEF from your Graveyard to your hand.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u6e67\u8ecd\u6a5f\u5fdc\u708e",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u52b9\u679c\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff17\u4ee5\u4e0a\uff0f\u708e\u5c5e\u6027\uff0f\u6a5f\u68b0\u65cf\uff0f\u5b88\u5099\u529b\uff18\uff10\uff10\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc6a9\uad70\uae30 \uc624\uc5d4",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \ud6a8\uacfc \ubaac\uc2a4\ud130(\ub808\ubca8 7 \uc774\uc0c1 / \ud654\uc5fc \uc18d\uc131 / \uae30\uacc4\uc871 / \uc218\ube44\ub825 800) 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\ub294\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1200,
+  "def": 800,
+  "passwords": [],
+  "images": [
+    {
+      "id": "b926e8da-1e8a-4d3a-a2ec-aeaaf225be13",
+      "card": "https://ms.yugipedia.com//6/63/OhentheMoltenMartialMachine-RDKP23-JP-R.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Oh'en the Molten Martial Machine",
+        "id": 1153680
+      }
+    ],
+    "dbID": 22436
+  },
+  "series": [
+    "8d4402eb-f16c-4730-9d07-5f7c5e230e36"
+  ]
+}

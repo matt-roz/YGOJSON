@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "98810e43-03af-48ed-816a-8423e35711af",
+  "text": {
+    "en": {
+      "name": "Maximum Gadget the Moving Fortress [R]",
+      "effect": "This card gains 400 ATK until the end of this turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u6a5f\u52d5\u7826 \u30de\u30ad\u30b7\u30de\u30e0\u30fb\u30ac\u30b8\u30a7\u30c3\u30c8\uff3b\uff32\uff3d",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u306e\u653b\u6483\u529b\u306f\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\uff14\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uae30\ub3d9\uc694\uc0c8 \ub9e5\uc2dc\uba48 \uac00\uc81c\ud2b8[R]",
+      "effect": "\uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\ub825\uc740 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0 400 \uc62c\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1300,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "dca43a7d-afce-4fcd-90d6-720057fa38a8",
+      "card": "https://ms.yugipedia.com//7/75/MaximumGadgettheMovingFortressR-RDKP19-JP-R.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Maximum Gadget the Moving Fortress (R)",
+        "id": 1077162
+      }
+    ],
+    "dbID": 20968
+  },
+  "series": [
+    "26b65846-11eb-4f74-8d8a-f2329a6d0eb8"
+  ]
+}

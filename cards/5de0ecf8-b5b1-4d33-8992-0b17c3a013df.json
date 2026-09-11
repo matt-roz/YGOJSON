@@ -1,0 +1,101 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "5de0ecf8-b5b1-4d33-8992-0b17c3a013df",
+  "text": {
+    "en": {
+      "name": "Sevens Road Magician",
+      "effect": "This card gains ATK equal to [the number of different Attributes in your Graveyard] x 300, until the end of this turn."
+    },
+    "fr": {
+      "name": "Magicien de la Route Sevens",
+      "effect": "Jusqu'\u00e0 la fin de ce tour, cette carte gagne une ATK \u00e9gale au [nombre d'Attributs diff\u00e9rents pr\u00e9sents dans votre Cimeti\u00e8re] x 300."
+    },
+    "de": {
+      "name": "Sevens-Stra\u00dfenmagier",
+      "effect": "Diese Karte erh\u00e4lt bis zum Ende dieses Spielzugs ATK in H\u00f6he [der Anzahl der unterschiedlichen Eigenschaften auf deinem Friedhof] x 300."
+    },
+    "it": {
+      "name": "Mago di Strada Sevens",
+      "effect": "Questa carta guadagna ATK pari [al numero di Attributi diversi nel tuo Cimitero] x 300, fino alla fine di questo turno."
+    },
+    "es": {
+      "name": "Mago del Camino Sevens",
+      "effect": "Esta carta gana ATK igual [al n\u00famero de Atributos diferentes en tu Cementerio] x 300 hasta el final de este turno."
+    },
+    "ja": {
+      "name": "\u30bb\u30d6\u30f3\u30b9\u30ed\u30fc\u30c9\u30fb\u30de\u30b8\u30b7\u30e3\u30f3",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u306e\u653b\u6483\u529b\u306f\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\u3001\uff3b\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u5c5e\u6027\u306e\u7a2e\u985e\uff3d\u00d7\uff13\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc138\ube10\uc988\ub85c\ub4dc \ub9e4\uc9c0\uc158",
+      "effect": "\uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\ub825\uc740 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0, [\uc790\uc2e0 \ubb18\uc9c0 \ubaac\uc2a4\ud130\uc758 \uc18d\uc131\uc758 \uc885\ub958] \u00d7 300 \uc62c\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "spellcaster",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2100,
+  "def": 1500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "d73bb502-774e-460c-a6e0-14ef1d19d012",
+      "card": "https://ms.yugipedia.com//4/4e/SevensRoadMagician-RDSD0E-JP-C.png"
+    },
+    {
+      "id": "197beea3-bfd3-482b-89c7-69384a65c97c",
+      "card": "https://ms.yugipedia.com//4/4b/SevensRoadMagician-RDAKG1-JP-UR.png"
+    },
+    {
+      "id": "d4ce86b6-a1c4-494e-92c9-ea7b66cff923",
+      "card": "https://ms.yugipedia.com//e/eb/SevensRoadMagician-RD711A-JP-NPR.png"
+    },
+    {
+      "id": "e467d719-3a81-4c78-89df-5f247a1406c3",
+      "card": "https://ms.yugipedia.com//2/25/SevensRoadMagician-RDMRP1-JP-R.png"
+    },
+    {
+      "id": "f839fea2-7519-4d0a-92e7-a3a7f66ca4b8",
+      "card": "https://ms.yugipedia.com//6/6a/SevensRoadMagician-RD5TH1-JP-UPR.png"
+    },
+    {
+      "id": "15544acb-1e89-4baa-8dc8-8e69802b5e37",
+      "card": "https://ms.yugipedia.com//5/59/SevensRoadMagician-RDCCC1-JP-NPR.png"
+    },
+    {
+      "id": "f9a4ce2b-0607-40b5-a283-325034917508",
+      "card": "https://ms.yugipedia.com//9/9e/SevensRoadMagician-RDECG1-JP-NPR.png"
+    }
+  ],
+  "sets": [
+    "dba2c2c7-1304-41ac-b160-9e2879620d6c",
+    "e670ec5c-7fbb-49cd-9899-885731ab9e90",
+    "b0f28e3d-b93f-42f7-9518-5a27b9304349",
+    "dd544c08-5223-4f76-9470-5d47aec790d2",
+    "baac8391-2c2d-4331-8582-71b7007e0af6",
+    "baac8391-2c2d-4331-8582-71b7007e0af6",
+    "f9c6f064-6fdf-412a-a9ff-62631979aa08",
+    "b65739b6-1f86-4fbd-8a47-2bfa5b511c44",
+    "b65739b6-1f86-4fbd-8a47-2bfa5b511c44"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Sevens Road Magician",
+        "id": 707848
+      }
+    ],
+    "dbID": 15150
+  },
+  "series": [
+    "f5de8f3c-c5c3-423f-94f9-ec723eefc254"
+  ]
+}

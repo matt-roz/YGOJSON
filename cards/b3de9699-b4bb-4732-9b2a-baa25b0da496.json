@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "b3de9699-b4bb-4732-9b2a-baa25b0da496",
+  "text": {
+    "en": {
+      "name": "Yellow Gadget (Rush Duel)",
+      "effect": "Add 1 \"Green Gadget\" from your Graveyard to your hand. This turn, you cannot activate the effect of \"Yellow Gadget\".",
+      "official": false
+    },
+    "ko": {
+      "name": "\uc610\ub85c \uac00\uc81c\ud2b8",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \"\uadf8\ub9b0 \uac00\uc81c\ud2b8\" 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\ub294\ub2e4. \uc774 \ud134\uc5d0, \uc790\uc2e0\uc740 \"\uc610\ub85c \uac00\uc81c\ud2b8\"\uc758 \ud6a8\uacfc\ub97c \ubc1c\ub3d9\ud560 \uc218 \uc5c6\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1200,
+  "def": 1200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "cc1addfc-d561-4859-8770-b87a7122a6e7",
+      "card": "https://ms.yugipedia.com//f/f0/YellowGadget-RDKP19-JP-R.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Yellow Gadget (Rush Duel)",
+        "id": 1077150
+      }
+    ],
+    "dbID": 20963
+  },
+  "series": [
+    "26b65846-11eb-4f74-8d8a-f2329a6d0eb8"
+  ]
+}

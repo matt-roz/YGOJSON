@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "536237f6-68ba-47ef-bfc6-46e1786e78c9",
+  "text": {
+    "en": {
+      "name": "Cross Lostream Melutine",
+      "effect": "Choose 1 face-up WIND Attribute Sea Serpent Type monster on your field. This turn, that monster can attack monsters a number of times, up to [the number of face-up Union Monster Cards on your field].",
+      "official": false
+    },
+    "ja": {
+      "name": "\u96f2\u6d77\u7fd4\u7adc \u30e1\u30eb\u30c6\u30a3\u30fc\u30cc"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "wind",
+  "type": "seaserpent",
+  "classifications": [
+    "effect"
+  ],
+  "level": 9,
+  "atk": 1500,
+  "def": 2500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "4a7f643d-cd10-4a3a-aee4-f961c6ae24f9",
+      "card": "https://ms.yugipedia.com//b/bb/CrossLostreamMelutine-RDCA01-JP-OP.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Cross Lostream Melutine",
+        "id": 1221858
+      }
+    ]
+  },
+  "series": []
+}

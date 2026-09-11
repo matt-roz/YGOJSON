@@ -1,0 +1,70 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "093248a6-6b73-48a1-b522-183b3ac4d1a3",
+  "text": {
+    "en": {
+      "name": "Zeptron",
+      "effect": "Send this card from your field to the Graveyard and draw 2 cards. Then, place 2 cards from your hand on the bottom of your Deck in any order."
+    },
+    "fr": {
+      "name": "Zeptron",
+      "effect": "Envoyez cette carte depuis votre Terrain au Cimeti\u00e8re et piochez 2 cartes. Ensuite, placez 2 cartes depuis votre main au-dessous de votre Deck dans l'ordre de votre choix."
+    },
+    "de": {
+      "name": "Zeptron",
+      "effect": "Lege diese Karte von deiner Spielfeldseite auf den Friedhof und ziehe 2 Karten. Lege dann 2 Karten deiner Hand in beliebiger Reihenfolge unter dein Deck."
+    },
+    "it": {
+      "name": "Zeptron",
+      "effect": "Manda questa carta dal tuo Terreno al Cimitero e pesca 2 carte. Poi, metti 2 carte dalla tua mano nel fondo del tuo Deck in qualsiasi ordine."
+    },
+    "es": {
+      "name": "Zeptron",
+      "effect": "Manda al Cementerio esta carta en tu Campo y roba 2 cartas. A continuaci\u00f3n, pon 2 cartas de tu mano en la parte inferior de tu Deck, en cualquier orden."
+    },
+    "ja": {
+      "name": "\u30bc\u30d7\u30c8\u30ed\u30f3",
+      "effect": "\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u3053\u306e\u30ab\u30fc\u30c9\u3092\u5893\u5730\u3078\u9001\u308a\u3001\u81ea\u5206\u306f\uff12\u679a\u30c9\u30ed\u30fc\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306f\u624b\u672d\uff12\u679a\u3092\u9078\u3073\u3001\u597d\u304d\u306a\u9806\u756a\u3067\u30c7\u30c3\u30ad\u306e\u4e0b\u306b\u623b\u3059\u3002"
+    },
+    "ko": {
+      "name": "\uc82d\ud2b8\ub860",
+      "effect": "\uc790\uc2e0 \ud544\ub4dc\uc758 \uc774 \uce74\ub4dc\ub97c \ubb18\uc9c0\ub85c \ubcf4\ub0b4\uace0, \uc790\uc2e0\uc740 2\uc7a5 \ub4dc\ub85c\uc6b0\ud55c\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0\uc740 \ud328 2\uc7a5\uc744 \uace0\ub974\uace0, \uc88b\uc544\ud558\ub294 \uc21c\uc11c\ub300\ub85c \ub371 \uc544\ub798\ub85c \ub418\ub3cc\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "cyberse",
+  "classifications": [
+    "effect"
+  ],
+  "level": 2,
+  "atk": 500,
+  "def": 100,
+  "passwords": [],
+  "images": [
+    {
+      "id": "b2857d28-29bc-4dc4-ac11-d5b775765662",
+      "card": "https://ms.yugipedia.com//0/01/Zeptron-RDSBD6-JP-C.png"
+    }
+  ],
+  "sets": [
+    "c4bde57a-4e90-438f-8fe7-4db6de641241",
+    "c4bde57a-4e90-438f-8fe7-4db6de641241"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Zeptron",
+        "id": 717580
+      }
+    ],
+    "dbID": 15910
+  },
+  "series": [
+    "001759e7-855e-4b0e-b581-199f0c377967"
+  ]
+}

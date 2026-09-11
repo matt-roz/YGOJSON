@@ -1,0 +1,53 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "9453a44f-860a-42d7-9044-dfa81fa7256a",
+  "text": {
+    "en": {
+      "name": "Carpendra",
+      "effect": "A mass-produced mobile dismantler that's furnished with a multipurpose set of tools. Its limbs and wings are loosely fixed, so it often loses them."
+    },
+    "ja": {
+      "name": "\u30ab\u30fc\u30da\u30f3\u30c9\u30e9",
+      "effect": "\u6a5f\u52d5\u6027\u3068\u6a5f\u80fd\u6027\u306b\u512a\u308c\u305f\u91cf\u7523\u578b\u306e\u89e3\u4f53\u30de\u30b7\u30fc\u30f3\u3002\u7d50\u5408\u90e8\u304c\u975e\u5e38\u306b\u8106\u304f\u3001\u8155\u3084\u7ffc\u304c\u3088\u304f\u843d\u3061\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uce74\ud39c\ub4dc\ub77c",
+      "effect": "\uae30\ub3d9\uc131\uacfc \uae30\ub2a5\uc131\uc774 \ub6f0\uc5b4\ub09c \uc591\uc0b0\ud615 \ud574\uccb4 \uba38\uc2e0. \uacb0\ud569\ubd80\uac00 \uc218\uc0c1\ud560 \uc815\ub3c4\ub85c \uc57d\ud558\uba70, \ud314\uc774\ub098 \ub0a0\uac1c\uac00 \uc790\uc8fc \ub5a8\uc5b4\uc9c4\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "machine",
+  "classifications": [
+    "normal"
+  ],
+  "level": 4,
+  "atk": 1400,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "a7455592-1f7a-4296-a8e9-3ca7e4ead976",
+      "card": "https://ms.yugipedia.com//7/75/Carpendra-RDSD02-JP-C.png"
+    }
+  ],
+  "sets": [
+    "a3a484b7-43f4-4cde-aa3c-fc8bd9d7f99a",
+    "a5dd7265-59c0-48dc-b924-5def08b05a08",
+    "a5dd7265-59c0-48dc-b924-5def08b05a08"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "n"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Carpendra",
+        "id": 714221
+      }
+    ],
+    "dbID": 17940
+  },
+  "series": []
+}

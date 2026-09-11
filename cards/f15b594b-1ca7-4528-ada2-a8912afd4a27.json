@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "f15b594b-1ca7-4528-ada2-a8912afd4a27",
+  "text": {
+    "en": {
+      "name": "Scarechair Code",
+      "effect": "Add up to 2 Cyberse Type Maximum Monsters and/or DARK Attribute Fiend Type monsters with 0 ATK/2400 or more DEF from your Graveyard to your hand.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30c9\u30a6\u30a7\u30eb\u30c1\u30a7\u30a2\u30fb\u30b3\u30fc\u30c9",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u30de\u30ad\u30b7\u30de\u30e0\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30b5\u30a4\u30d0\u30fc\u30b9\u65cf\uff09\u307e\u305f\u306f\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u95c7\u5c5e\u6027\uff0f\u60aa\u9b54\u65cf\uff0f\u653b\u6483\u529b\uff10\uff0f\u5b88\u5099\u529b\uff12\uff14\uff10\uff10\u4ee5\u4e0a\uff09\u3092\u5408\u8a08\uff12\u4f53\u307e\u3067\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub4dc\uc6f0\uccb4\uc5b4 \ucf54\ub4dc",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \ub9e5\uc2dc\uba48 \ubaac\uc2a4\ud130(\uc0ac\uc774\ubc84\uc2a4\uc871) \ub610\ub294 \ubaac\uc2a4\ud130(\uc5b4\ub460 \uc18d\uc131 / \uc545\ub9c8\uc871 / \uacf5\uaca9\ub825 0 / \uc218\ube44\ub825 2400 \uc774\uc0c1)\ub97c \ud569\uacc4 2\uc7a5\uae4c\uc9c0 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\ub294\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "cyberse",
+  "classifications": [
+    "effect"
+  ],
+  "level": 1,
+  "atk": 0,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "a1a87131-dd5e-493f-a3db-2664da154ef2",
+      "card": "https://ms.yugipedia.com//1/16/ScarechairCode-RDORP2-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Scarechair Code",
+        "id": 1046004
+      }
+    ],
+    "dbID": 20145
+  },
+  "series": [
+    "5bdd580a-b735-4812-a4da-4902b46e79a4"
+  ]
+}

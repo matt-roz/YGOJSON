@@ -1,0 +1,54 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "6f998552-a070-46f4-9c04-48bffb310c48",
+  "text": {
+    "en": {
+      "name": "Cyber Gryphon",
+      "effect": "Choose 1 face-up Level 5 or higher Machine Type monster on your field. This turn, that monster cannot be destroyed by your opponent's Trap Card effects. If that monster is LIGHT Attribute, you can also draw 1 card."
+    },
+    "ja": {
+      "name": "\u30b5\u30a4\u30d0\u30fc\u30fb\u30b0\u30ea\u30d5\u30a9\u30f3",
+      "effect": "\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff15\u4ee5\u4e0a\uff0f\u6a5f\u68b0\u65cf\uff09\uff11\u4f53\u3092\u9078\u3076\u3002\u3053\u306e\u30bf\u30fc\u30f3\u3001\u305d\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u306f\u76f8\u624b\u306e\u7f60\u30ab\u30fc\u30c9\u306e\u52b9\u679c\u3067\u306f\u7834\u58ca\u3055\u308c\u306a\u3044\u3002\u305d\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u304c\u5149\u5c5e\u6027\u306e\u5834\u5408\u3001\u3055\u3089\u306b\u81ea\u5206\u306f\uff11\u679a\u30c9\u30ed\u30fc\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc0ac\uc774\ubc84 \uadf8\ub9ac\ud3f0",
+      "effect": "\uc790\uc2e0 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\ub808\ubca8 5 \uc774\uc0c1 / \uae30\uacc4\uc871) 1\uc7a5\uc744 \uace0\ub978\ub2e4. \uc774 \ud134\uc5d0, \uadf8 \ubaac\uc2a4\ud130\ub294 \uc0c1\ub300\uc758 \ud568\uc815 \uce74\ub4dc\uc758 \ud6a8\uacfc\ub85c\ub294 \ud30c\uad34\ub418\uc9c0 \uc54a\ub294\ub2e4. \uadf8 \ubaac\uc2a4\ud130\uac00 \ube5b \uc18d\uc131\uc77c \uacbd\uc6b0, \ucd94\uac00\ub85c \uc790\uc2e0\uc740 1\uc7a5 \ub4dc\ub85c\uc6b0\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1200,
+  "def": 1300,
+  "passwords": [],
+  "images": [
+    {
+      "id": "f02b58fe-5e12-44e7-9372-6058eb2d1b23",
+      "card": "https://ms.yugipedia.com//c/c2/CyberGryphon-RDSD0C-JP-C.png"
+    }
+  ],
+  "sets": [
+    "918ca201-7f5c-4e30-a6be-9ad1bd9e8458",
+    "918ca201-7f5c-4e30-a6be-9ad1bd9e8458"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Cyber Gryphon",
+        "id": 714413
+      }
+    ],
+    "dbID": 18354
+  },
+  "series": [
+    "86022427-8e1f-4a67-af9d-a38a063a0392"
+  ]
+}

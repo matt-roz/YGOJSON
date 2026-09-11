@@ -1,0 +1,58 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "39ab90bd-3926-43e7-bfc6-e05a31e315c4",
+  "text": {
+    "en": {
+      "name": "Light-Calling Griffore",
+      "effect": "Set 1 Ritual Spell Card that mentions the monster revealed to meet the requirement from your Graveyard to your Spell & Trap Zone.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u5149\u3092\u8a98\u3046\u30b0\u30ea\u30d5\u30a9\u30fc\u30eb",
+      "effect": "\u3053\u306e\u52b9\u679c\u306e\u6761\u4ef6\u3067\u898b\u305b\u305f\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u30ab\u30fc\u30c9\u540d\u304c\u8a18\u3055\u308c\u305f\u81ea\u5206\u306e\u5893\u5730\u306e\u30ea\u30c1\u30e5\u30a2\u30eb\u9b54\u6cd5\u30ab\u30fc\u30c9\uff11\u679a\u3092\u9078\u3093\u3067\u81ea\u5206\u306e\u9b54\u6cd5\uff06\u7f60\u30be\u30fc\u30f3\u306b\u30bb\u30c3\u30c8\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ube5b\uc744 \uc720\ud639\ud558\ub294 \uadf8\ub9ac\ud3f4",
+      "effect": "\uc774 \ud6a8\uacfc\uc758 \uc870\uac74\uc73c\ub85c \ubcf4\uc5ec\uc900 \ubaac\uc2a4\ud130\uc758 \uce74\ub4dc\uba85\uc774 \uc4f0\uc5ec\uc9c4 \uc790\uc2e0 \ubb18\uc9c0\uc758 \ub9ac\ucd94\uc5bc \ub9c8\ubc95 \uce74\ub4dc 1\uc7a5\uc744 \uace0\ub974\uace0 \uc790\uc2e0\uc758 \ub9c8\ubc95 & \ud568\uc815 \uc874\uc5d0 \uc138\ud2b8\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "beast",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1200,
+  "def": 1500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "1c194895-9c71-499b-b315-1338e702fd60",
+      "card": "https://ms.yugipedia.com//4/42/LightCallingGriffore-RDSD0E-JP-C.png"
+    },
+    {
+      "id": "f27b2109-c1ea-4143-b0b3-46f444d292fc",
+      "card": "https://ms.yugipedia.com//f/fc/LightCallingGriffore-RDS254-JP-OP.png"
+    }
+  ],
+  "sets": [
+    "baac8391-2c2d-4331-8582-71b7007e0af6",
+    "baac8391-2c2d-4331-8582-71b7007e0af6",
+    "baac8391-2c2d-4331-8582-71b7007e0af6",
+    "baac8391-2c2d-4331-8582-71b7007e0af6"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Light-Calling Griffore",
+        "id": 1117377
+      }
+    ],
+    "dbID": 21593
+  },
+  "series": [
+    "0dd6e571-f547-4fe6-ae1a-e26395051a81"
+  ]
+}

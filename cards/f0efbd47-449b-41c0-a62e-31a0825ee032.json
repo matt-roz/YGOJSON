@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "f0efbd47-449b-41c0-a62e-31a0825ee032",
+  "text": {
+    "en": {
+      "name": "Atlas Combat Beetle",
+      "effect": "An unfathomably strong beetle species. They often lock horns with others, competing for dark sap."
+    },
+    "ja": {
+      "name": "\u30a2\u30c8\u30e9\u30b9\u30fb\u30b3\u30f3\u30d0\u30c3\u30c8\u30fb\u30d3\u30fc\u30c8\u30eb",
+      "effect": "\u95c7\u306e\u6a39\u6db2\u3092\u5de1\u308a\u4e89\u3046\u7532\u866b\u306e\u4e00\u7a2e\u3002\u60f3\u50cf\u4ee5\u4e0a\u306e\u529b\u3092\u79d8\u3081\u3066\u3044\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc544\ud2b8\ub77c\uc2a4 \ucef4\ubc30\ud2b8 \ube44\ud2c0",
+      "effect": "\uc5b4\ub460\uc758 \uc218\uc561\uc744 \ub193\uace0 \uc2f8\uc6b0\ub294 \uac11\ucda9\uc758 \ud55c \uc885\ub958. \uc0c1\uc0c1 \uc774\uc0c1\uc758 \ud798\uc744 \uc228\uae30\uace0 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "insect",
+  "classifications": [
+    "normal"
+  ],
+  "level": 4,
+  "atk": 1500,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "c82ea7f1-51bb-4e32-8fae-b84f797d7400",
+      "card": "https://ms.yugipedia.com//e/ef/AtlasCombatBeetle-RDKP09-JP-R.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "r"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Atlas Combat Beetle",
+        "id": 713300
+      }
+    ],
+    "dbID": 17496
+  },
+  "series": []
+}

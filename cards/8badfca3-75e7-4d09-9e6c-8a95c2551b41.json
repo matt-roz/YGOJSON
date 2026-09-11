@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "8badfca3-75e7-4d09-9e6c-8a95c2551b41",
+  "text": {
+    "en": {
+      "name": "Mordorne the Skullcrag Knight",
+      "effect": "Make 1 face-up WIND Attribute Zombie Type monster on your field gain ATK equal to [the number of face-up Zombie Type monsters on your field] x 400 until the end of this turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u9ad1\u5dcc\u9a0e\u58eb\u30e2\u30eb\u30c9\u30eb\u30cd",
+      "effect": "\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u98a8\u5c5e\u6027\uff0f\u30a2\u30f3\u30c7\u30c3\u30c8\u65cf\uff09\uff11\u4f53\u3092\u9078\u3073\u3001\u305d\u306e\u653b\u6483\u529b\u3092\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\u3001\uff3b\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30a2\u30f3\u30c7\u30c3\u30c8\u65cf\uff09\u306e\u6570\uff3d\u00d7\uff14\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ucd09\uc554\uae30\uc0ac \ubab0\ub4dc\ub974\ub124",
+      "effect": "\uc790\uc2e0 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\ubc14\ub78c \uc18d\uc131 / \uc5b8\ub370\ub4dc\uc871) 1\uc7a5\uc744 \uace0\ub974\uace0, \uadf8 \uacf5\uaca9\ub825\uc744 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0, [\uc790\uc2e0 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\uc5b8\ub370\ub4dc\uc871)\uc758 \uc218] \u00d7 400 \uc62c\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "wind",
+  "type": "zombie",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2000,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "852334ce-3d16-4488-bc0f-e32583a952ca",
+      "card": "https://ms.yugipedia.com//0/09/MordornetheSkullcragKnight-RDAP02-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Mordorne the Skullcrag Knight",
+        "id": 1159907
+      }
+    ],
+    "dbID": 22624
+  },
+  "series": [
+    "546de7f7-fc9a-469b-a090-f706882731e2"
+  ]
+}

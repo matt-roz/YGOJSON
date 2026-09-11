@@ -1,0 +1,53 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "5adf0a77-b76a-4102-92aa-3098a44106e8",
+  "text": {
+    "en": {
+      "name": "Meteor Skull Archfiend",
+      "effect": "During your opponent's turn, monsters on your field cannot be returned to the hand/Deck/Extra Deck by card effects.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30e1\u30c6\u30aa\u30fb\u30b9\u30ab\u30eb\u30fb\u30c7\u30fc\u30e2\u30f3",
+      "effect": "\u76f8\u624b\u30bf\u30fc\u30f3\u306e\u9593\u3001\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u306f\u52b9\u679c\u3067\u306f\u624b\u672d\u30fb\u30c7\u30c3\u30ad\u30fb\uff25\uff38\u30c7\u30c3\u30ad\u306b\u623b\u3055\u308c\u306a\u3044\u3002"
+    },
+    "ko": {
+      "name": "\uba54\ud14c\uc624 \uc2a4\uceec \ub370\ubaac",
+      "effect": "\uc0c1\ub300 \ud134 \ub3d9\uc548, \uc790\uc2e0 \ud544\ub4dc\uc758 \ubaac\uc2a4\ud130\ub294 \ud6a8\uacfc\ub85c\ub294 \ud328 / \ub371 / \uc5d1\uc2a4\ud2b8\ub77c \ub371\uc73c\ub85c \ub418\ub3cc\ub824\uc9c0\uc9c0 \uc54a\ub294\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "fiend",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 3600,
+  "def": 2000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "44de9a1d-03c0-4900-af2f-ffd4c1022c18",
+      "card": "https://ms.yugipedia.com//d/d2/MeteorSkullArchfiend-RDTB02-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Meteor Skull Archfiend",
+        "id": 1100390
+      }
+    ],
+    "dbID": 21082
+  },
+  "series": [
+    "b8f9793c-0736-4ee4-99be-120c4d70afbc",
+    "30da8fac-ccef-4d93-8d83-2d10afec9c87"
+  ]
+}

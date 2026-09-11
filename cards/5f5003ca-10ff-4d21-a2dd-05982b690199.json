@@ -1,0 +1,52 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "5f5003ca-10ff-4d21-a2dd-05982b690199",
+  "text": {
+    "en": {
+      "name": "Elemental HERO Flame Wingman (Rush Duel)",
+      "effect": "If this card destroys a monster by battle and sends it to the Graveyard, inflict damage to your opponent equal to [that monster's original ATK]."
+    },
+    "ko": {
+      "name": "\uc5d8\ub9ac\uba58\ud2c0 \ud788\uc5b4\ub85c \ud504\ub808\uc784 \uc719\ub9e8",
+      "effect": "\uc774 \uce74\ub4dc\uac00 \uc804\ud22c\ub85c \ubaac\uc2a4\ud130\ub97c \ud30c\uad34\ud558\uace0 \ubb18\uc9c0\ub85c \ubcf4\ub0c8\uc744 \ub54c, [\uadf8 \ubaac\uc2a4\ud130\uc758 \uc6d0\ub798 \uacf5\uaca9\ub825]\ub9cc\ud07c \uc0c1\ub300\uc5d0\uac8c \ub370\ubbf8\uc9c0\ub97c \uc900\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "wind",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 6,
+  "atk": 2100,
+  "def": 1200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "58da1334-2db2-4b69-9f72-de31928d906f",
+      "card": "https://ms.yugipedia.com//6/62/ElementalHEROFlameWingman-RDAP01-JP-ScR.png"
+    }
+  ],
+  "sets": [
+    "fab3640e-34f2-410e-8c1b-6c7386795132",
+    "fab3640e-34f2-410e-8c1b-6c7386795132",
+    "fab3640e-34f2-410e-8c1b-6c7386795132",
+    "fab3640e-34f2-410e-8c1b-6c7386795132"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Elemental HERO Flame Wingman (Rush Duel)",
+        "id": 1059076
+      }
+    ],
+    "dbID": 20453
+  },
+  "series": [
+    "4e2112ec-34a4-4031-91ad-7dcc3818d4c7"
+  ]
+}

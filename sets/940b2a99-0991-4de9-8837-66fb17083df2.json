@@ -1,0 +1,962 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "940b2a99-0991-4de9-8837-66fb17083df2",
+  "name": {
+    "en": "Duelist Set: Version Lightsworn Judgment",
+    "ja": "\u30c7\u30e5\u30a8\u30ea\u30b9\u30c8\u30bb\u30c3\u30c8 \uff36\uff45\uff52\uff0e\u30e9\u30a4\u30c8\u30ed\u30fc\u30c9\u30fb\u30b8\u30e3\u30c3\u30b8\u30e1\u30f3\u30c8",
+    "ko": "\ub4c0\uc5bc\ub9ac\uc2a4\ud2b8\uc138\ud2b8Ver.\ub77c\uc774\ud2b8\ub85c\ub4dc\uc800\uc9c0\uba3c\ud2b8"
+  },
+  "locales": {
+    "jp": {
+      "language": "ja",
+      "prefix": "DS14-JPL",
+      "date": "2013-11-23",
+      "image": "https://ms.yugipedia.com//8/88/DS14-DeckJP-VerA.png",
+      "cardImages": {
+        "unlimited": {
+          "0489971b-d375-4d05-97e2-20a512c9f584": "https://ms.yugipedia.com//5/52/GragonithLightswornDragon-DS14-JP-UR.png",
+          "0809e25b-0599-41b5-b5d6-9b7e9e710518": "https://ms.yugipedia.com//f/f7/EhrenLightswornMonk-DS14-JP-UR.png",
+          "0c5865ac-75a6-4bd0-b6c9-be408bbaeb9f": "https://ms.yugipedia.com//7/73/GloriousIllusion-DS14-JP-UR.png",
+          "10fcc652-32aa-4f3e-9a59-8b23569b14be": "https://ms.yugipedia.com//f/f9/LylaLightswornSorceress-DS14-JP-UR.png",
+          "257a20a5-0456-4fbd-b561-7628183e2771": "https://ms.yugipedia.com//1/18/BeckoningLight-DS14-JP-UR.png",
+          "2783ea57-7fb2-4a95-94ad-b5193340738f": "https://ms.yugipedia.com//b/b6/LightEndDragon-DS14-JP-UR.png",
+          "35845c24-8ed9-4fe7-9277-038ee20e5c02": "https://ms.yugipedia.com//0/08/LightrayDiabolos-DS14-JP-UR.png",
+          "3be6af51-3443-4e7b-8680-247e455e2078": "https://ms.yugipedia.com//7/70/MagicalMerchant-DS14-JP-UR.png",
+          "487de82a-61d7-4f15-9f64-1b47994e5c6c": "https://ms.yugipedia.com//f/fb/LightrayDaedalus-DS14-JP-UR.png",
+          "54d03b72-7249-4c7f-ba4f-23d93b60d3c0": "https://ms.yugipedia.com//e/ee/ConstellarBelt-DS14-JP-UR.png",
+          "56830f7e-350c-4317-8635-7f923f61c0df": "https://ms.yugipedia.com//5/54/NeedlebugNest-DS14-JP-UR.png",
+          "6762cfdd-48c6-43c1-9e71-d5959c9a9fa9": "https://ms.yugipedia.com//d/d3/RaidenHandoftheLightsworn-DS14-JP-UR.png",
+          "6a047475-901c-4cff-bb9e-99e81436f630": "https://ms.yugipedia.com//0/0c/TasukeKnight-DS14-JP-UR.png",
+          "70cc66fc-0a84-405c-a744-d41f7ac12d9c": "https://ms.yugipedia.com//2/2a/VanquishingLight-DS14-JP-UR.png",
+          "7123c442-e8aa-48ec-be5d-1b5d1a57823b": "https://ms.yugipedia.com//3/37/Honest-DS14-JP-UR.png",
+          "71d695f4-1b2c-4176-bdbe-85cb4384dd8a": "https://ms.yugipedia.com//8/88/VylonPrism-DS14-JP-UR.png",
+          "7d153691-d43a-43be-9620-cb6e5003097b": "https://ms.yugipedia.com//9/99/Terraforming-DS14-JP-UR.png",
+          "7e4a02a9-f2a6-4d18-81ab-0b94f24d9da1": "https://ms.yugipedia.com//3/3d/EffectVeiler-DS14-JP-UR.png",
+          "82ac3108-5760-46a9-a32f-c904f5f6f242": "https://ms.yugipedia.com//7/73/WulfLightswornBeast-DS14-JP-UR.png",
+          "9baf8802-4c66-4eb8-8560-259da0561ee3": "https://ms.yugipedia.com//4/4d/LightswornBarrier-DS14-JP-UR.png",
+          "a3d0c540-50ea-427a-8722-802a4a6bb1a0": "https://ms.yugipedia.com//8/82/ChargeoftheLightBrigade-DS14-JP-UR.png",
+          "a5f49ef8-65cc-4835-9d80-0507efefb4a5": "https://ms.yugipedia.com//a/a0/MinervaLightswornMaiden-DS14-JP-UR.png",
+          "a8d8365b-bc35-4609-a825-a2b18eaff590": "https://ms.yugipedia.com//8/8a/MichaeltheArchLightsworn-DS14-JP-EScR.png",
+          "aa9ac1e0-aa69-445d-8106-e7f0e07c42fa": "https://ms.yugipedia.com//d/db/RaiJin-DS14-JP-UR.png",
+          "b3cd7747-4504-4a10-8010-98b8a508af58": "https://ms.yugipedia.com//8/84/LightrayGrepher-DS14-JP-UR.png",
+          "b92e2471-704e-4818-9914-10769e9538e7": "https://ms.yugipedia.com//1/17/RaiMei-DS14-JP-UR.png",
+          "c0938eb5-ce5c-496c-a347-53fba39fb114": "https://ms.yugipedia.com//4/4b/RykoLightswornHunter-DS14-JP-UR.png",
+          "c904616b-7ea2-467a-b636-3bdfcd216d11": "https://ms.yugipedia.com//a/a7/RealmofLight-DS14-JP-UR.png",
+          "cc9d6e96-6829-4f3e-bd1c-85cc109c2385": "https://ms.yugipedia.com//1/10/LuminaLightswornSummoner-DS14-JP-UR.png",
+          "ce7aa09f-0a05-4f7f-92f0-03cc29de5e88": "https://ms.yugipedia.com//d/d1/ZONE-DS14-JP-UR.png",
+          "d7471779-a607-4ebc-a535-c449c2166e5e": "https://ms.yugipedia.com//1/11/GarothLightswornWarrior-DS14-JP-UR.png",
+          "d75bb53a-b85f-423b-a3c5-4c5c6da71ca1": "https://ms.yugipedia.com//9/95/JainLightswornPaladin-DS14-JP-UR.png",
+          "daa9ef2c-38a7-4fa8-9b84-332500f4f3ea": "https://ms.yugipedia.com//a/a9/CelestiaLightswornAngel-DS14-JP-UR.png",
+          "e7631de1-5ac0-408e-b4bd-8596d32a02c9": "https://ms.yugipedia.com//5/5c/JudgmentDragon-DS14-JP-UR.png",
+          "fbfc7194-0a4a-4f1d-bce9-a8740628daa5": "https://ms.yugipedia.com//e/e5/SolarRecharge-DS14-JP-UR.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "0489971b-d375-4d05-97e2-20a512c9f584": {
+            "image": "https://ms.yugipedia.com//5/52/GragonithLightswornDragon-DS14-JP-UR.png"
+          },
+          "0809e25b-0599-41b5-b5d6-9b7e9e710518": {
+            "image": "https://ms.yugipedia.com//f/f7/EhrenLightswornMonk-DS14-JP-UR.png"
+          },
+          "0c5865ac-75a6-4bd0-b6c9-be408bbaeb9f": {
+            "image": "https://ms.yugipedia.com//7/73/GloriousIllusion-DS14-JP-UR.png"
+          },
+          "10fcc652-32aa-4f3e-9a59-8b23569b14be": {
+            "image": "https://ms.yugipedia.com//f/f9/LylaLightswornSorceress-DS14-JP-UR.png"
+          },
+          "257a20a5-0456-4fbd-b561-7628183e2771": {
+            "image": "https://ms.yugipedia.com//1/18/BeckoningLight-DS14-JP-UR.png"
+          },
+          "2783ea57-7fb2-4a95-94ad-b5193340738f": {
+            "image": "https://ms.yugipedia.com//b/b6/LightEndDragon-DS14-JP-UR.png"
+          },
+          "35845c24-8ed9-4fe7-9277-038ee20e5c02": {
+            "image": "https://ms.yugipedia.com//0/08/LightrayDiabolos-DS14-JP-UR.png"
+          },
+          "3be6af51-3443-4e7b-8680-247e455e2078": {
+            "image": "https://ms.yugipedia.com//7/70/MagicalMerchant-DS14-JP-UR.png"
+          },
+          "487de82a-61d7-4f15-9f64-1b47994e5c6c": {
+            "image": "https://ms.yugipedia.com//f/fb/LightrayDaedalus-DS14-JP-UR.png"
+          },
+          "54d03b72-7249-4c7f-ba4f-23d93b60d3c0": {
+            "image": "https://ms.yugipedia.com//e/ee/ConstellarBelt-DS14-JP-UR.png"
+          },
+          "56830f7e-350c-4317-8635-7f923f61c0df": {
+            "image": "https://ms.yugipedia.com//5/54/NeedlebugNest-DS14-JP-UR.png"
+          },
+          "6762cfdd-48c6-43c1-9e71-d5959c9a9fa9": {
+            "image": "https://ms.yugipedia.com//d/d3/RaidenHandoftheLightsworn-DS14-JP-UR.png"
+          },
+          "6a047475-901c-4cff-bb9e-99e81436f630": {
+            "image": "https://ms.yugipedia.com//0/0c/TasukeKnight-DS14-JP-UR.png"
+          },
+          "70cc66fc-0a84-405c-a744-d41f7ac12d9c": {
+            "image": "https://ms.yugipedia.com//2/2a/VanquishingLight-DS14-JP-UR.png"
+          },
+          "7123c442-e8aa-48ec-be5d-1b5d1a57823b": {
+            "image": "https://ms.yugipedia.com//3/37/Honest-DS14-JP-UR.png"
+          },
+          "71d695f4-1b2c-4176-bdbe-85cb4384dd8a": {
+            "image": "https://ms.yugipedia.com//8/88/VylonPrism-DS14-JP-UR.png"
+          },
+          "7d153691-d43a-43be-9620-cb6e5003097b": {
+            "image": "https://ms.yugipedia.com//9/99/Terraforming-DS14-JP-UR.png"
+          },
+          "7e4a02a9-f2a6-4d18-81ab-0b94f24d9da1": {
+            "image": "https://ms.yugipedia.com//3/3d/EffectVeiler-DS14-JP-UR.png"
+          },
+          "82ac3108-5760-46a9-a32f-c904f5f6f242": {
+            "image": "https://ms.yugipedia.com//7/73/WulfLightswornBeast-DS14-JP-UR.png"
+          },
+          "9baf8802-4c66-4eb8-8560-259da0561ee3": {
+            "image": "https://ms.yugipedia.com//4/4d/LightswornBarrier-DS14-JP-UR.png"
+          },
+          "a3d0c540-50ea-427a-8722-802a4a6bb1a0": {
+            "image": "https://ms.yugipedia.com//8/82/ChargeoftheLightBrigade-DS14-JP-UR.png"
+          },
+          "a5f49ef8-65cc-4835-9d80-0507efefb4a5": {
+            "image": "https://ms.yugipedia.com//a/a0/MinervaLightswornMaiden-DS14-JP-UR.png"
+          },
+          "a8d8365b-bc35-4609-a825-a2b18eaff590": {
+            "image": "https://ms.yugipedia.com//8/8a/MichaeltheArchLightsworn-DS14-JP-EScR.png"
+          },
+          "aa9ac1e0-aa69-445d-8106-e7f0e07c42fa": {
+            "image": "https://ms.yugipedia.com//d/db/RaiJin-DS14-JP-UR.png"
+          },
+          "b3cd7747-4504-4a10-8010-98b8a508af58": {
+            "image": "https://ms.yugipedia.com//8/84/LightrayGrepher-DS14-JP-UR.png"
+          },
+          "b92e2471-704e-4818-9914-10769e9538e7": {
+            "image": "https://ms.yugipedia.com//1/17/RaiMei-DS14-JP-UR.png"
+          },
+          "c0938eb5-ce5c-496c-a347-53fba39fb114": {
+            "image": "https://ms.yugipedia.com//4/4b/RykoLightswornHunter-DS14-JP-UR.png"
+          },
+          "c904616b-7ea2-467a-b636-3bdfcd216d11": {
+            "image": "https://ms.yugipedia.com//a/a7/RealmofLight-DS14-JP-UR.png"
+          },
+          "cc9d6e96-6829-4f3e-bd1c-85cc109c2385": {
+            "image": "https://ms.yugipedia.com//1/10/LuminaLightswornSummoner-DS14-JP-UR.png"
+          },
+          "ce7aa09f-0a05-4f7f-92f0-03cc29de5e88": {
+            "image": "https://ms.yugipedia.com//d/d1/ZONE-DS14-JP-UR.png"
+          },
+          "d7471779-a607-4ebc-a535-c449c2166e5e": {
+            "image": "https://ms.yugipedia.com//1/11/GarothLightswornWarrior-DS14-JP-UR.png"
+          },
+          "d75bb53a-b85f-423b-a3c5-4c5c6da71ca1": {
+            "image": "https://ms.yugipedia.com//9/95/JainLightswornPaladin-DS14-JP-UR.png"
+          },
+          "daa9ef2c-38a7-4fa8-9b84-332500f4f3ea": {
+            "image": "https://ms.yugipedia.com//a/a9/CelestiaLightswornAngel-DS14-JP-UR.png"
+          },
+          "e7631de1-5ac0-408e-b4bd-8596d32a02c9": {
+            "image": "https://ms.yugipedia.com//5/5c/JudgmentDragon-DS14-JP-UR.png"
+          },
+          "fbfc7194-0a4a-4f1d-bce9-a8740628daa5": {
+            "image": "https://ms.yugipedia.com//e/e5/SolarRecharge-DS14-JP-UR.png"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          111114002
+        ]
+      }
+    },
+    "kr": {
+      "language": "ko",
+      "prefix": "DS14-KRL",
+      "date": "2013-12-20",
+      "image": "https://ms.yugipedia.com//8/82/DS14-DeckKR-VerA.png",
+      "cardImages": {
+        "1st": {
+          "02d2485f-4e55-4524-830c-0780bb208b64": "https://ms.yugipedia.com//8/87/GloriousIllusion-DS14-KR-UR-1E.png",
+          "03f95f01-ac54-43b0-b782-aa1f8a39b719": "https://ms.yugipedia.com//e/e7/BeckoningLight-DS14-KR-UR-1E.png",
+          "0489971b-d375-4d05-97e2-20a512c9f584": "https://ms.yugipedia.com//9/92/GragonithLightswornDragon-DS14-KR-UR-1E.png",
+          "0809e25b-0599-41b5-b5d6-9b7e9e710518": "https://ms.yugipedia.com//e/e0/EhrenLightswornMonk-DS14-KR-UR-1E.png",
+          "10fcc652-32aa-4f3e-9a59-8b23569b14be": "https://ms.yugipedia.com//2/21/LylaLightswornSorceress-DS14-KR-UR-1E.png",
+          "14aca02c-4b3a-423e-ac8a-1013c998ca08": "https://ms.yugipedia.com//9/96/VanquishingLight-DS14-KR-UR-1E.png",
+          "1a954563-fc37-45dd-8a8f-ec8950eb9ac0": "https://ms.yugipedia.com//2/23/ZONE-DS14-KR-UR-1E.png",
+          "35845c24-8ed9-4fe7-9277-038ee20e5c02": "https://ms.yugipedia.com//5/5f/LightrayDiabolos-DS14-KR-UR-1E.png",
+          "3be6af51-3443-4e7b-8680-247e455e2078": "https://ms.yugipedia.com//2/28/MagicalMerchant-DS14-KR-UR-1E.png",
+          "3d61f00a-1ea6-4223-8a6e-d8d2dfa53dbc": "https://ms.yugipedia.com//f/fe/FabledRaven-DS14-KR-UR-1E.png",
+          "487de82a-61d7-4f15-9f64-1b47994e5c6c": "https://ms.yugipedia.com//c/cc/LightrayDaedalus-DS14-KR-UR-1E.png",
+          "55da602f-c9d8-4d07-a2c7-0e81749ae4a9": "https://ms.yugipedia.com//d/df/NecroGardna-DS14-KR-UR-1E.png",
+          "5e574d2c-9a87-4a2c-b39a-a8edf61492d8": "https://ms.yugipedia.com//3/34/RealmofLight-DS14-KR-UR-1E.png",
+          "5fb3d09f-f587-4a11-af22-74270d8d05ed": "https://ms.yugipedia.com//4/40/Terraforming-DS14-KR-UR-1E.png",
+          "6a047475-901c-4cff-bb9e-99e81436f630": "https://ms.yugipedia.com//c/cc/TasukeKnight-DS14-KR-UR-1E.png",
+          "7123c442-e8aa-48ec-be5d-1b5d1a57823b": "https://ms.yugipedia.com//6/65/Honest-DS14-KR-UR-1E.png",
+          "71d695f4-1b2c-4176-bdbe-85cb4384dd8a": "https://ms.yugipedia.com//c/ca/VylonPrism-DS14-KR-UR-1E.png",
+          "7e4a02a9-f2a6-4d18-81ab-0b94f24d9da1": "https://ms.yugipedia.com//1/18/EffectVeiler-DS14-KR-UR-1E.png",
+          "7e89c592-104b-4773-88ea-4838df48c427": "https://ms.yugipedia.com//a/ac/SolarRecharge-DS14-KR-UR-1E.png",
+          "82ac3108-5760-46a9-a32f-c904f5f6f242": "https://ms.yugipedia.com//7/7f/WulfLightswornBeast-DS14-KR-UR-1E.png",
+          "88f85839-a5fb-4902-bb4b-1a09aa64f322": "https://ms.yugipedia.com//c/cd/ChargeoftheLightBrigade-DS14-KR-UR-1E.png",
+          "a5a8cb9a-dd0e-4f3d-9345-fcf60aa4657a": "https://ms.yugipedia.com//0/00/ConstellarBelt-DS14-KR-UR-1E.png",
+          "aa9ac1e0-aa69-445d-8106-e7f0e07c42fa": "https://ms.yugipedia.com//d/d1/RaiJin-DS14-KR-UR-1E.png",
+          "adf6905e-5143-4563-8afa-7b1d8436cb0d": "https://ms.yugipedia.com//6/62/NeedlebugNest-DS14-KR-UR-1E.png",
+          "b3cd7747-4504-4a10-8010-98b8a508af58": "https://ms.yugipedia.com//e/e6/LightrayGrepher-DS14-KR-UR-1E.png",
+          "b5057288-e533-487b-98db-e12d92e205ef": "https://ms.yugipedia.com//0/03/MonsterReincarnation-DS14-KR-UR-1E.png",
+          "b92e2471-704e-4818-9914-10769e9538e7": "https://ms.yugipedia.com//6/67/RaiMei-DS14-KR-UR-1E.png",
+          "bef953d8-02d2-48f3-85b7-0f4cbb77866f": "https://ms.yugipedia.com//d/dc/LightswornBarrier-DS14-KR-UR-1E.png",
+          "c08e9826-bf3c-4464-903b-1144eb0716d1": "https://ms.yugipedia.com//3/3f/FoolishBurial-DS14-KR-UR-1E.png",
+          "c0938eb5-ce5c-496c-a347-53fba39fb114": "https://ms.yugipedia.com//4/4c/RykoLightswornHunter-DS14-KR-UR-1E.png",
+          "cc9d6e96-6829-4f3e-bd1c-85cc109c2385": "https://ms.yugipedia.com//b/bb/LuminaLightswornSummoner-DS14-KR-UR-1E.png",
+          "d7471779-a607-4ebc-a535-c449c2166e5e": "https://ms.yugipedia.com//4/4e/GarothLightswornWarrior-DS14-KR-UR-1E.png",
+          "d75bb53a-b85f-423b-a3c5-4c5c6da71ca1": "https://ms.yugipedia.com//3/36/JainLightswornPaladin-DS14-KR-UR-1E.png",
+          "daa9ef2c-38a7-4fa8-9b84-332500f4f3ea": "https://ms.yugipedia.com//0/0c/CelestiaLightswornAngel-DS14-KR-UR-1E.png",
+          "dd688f90-bfed-47ed-a906-02ac31e1d3ee": "https://ms.yugipedia.com//6/66/LightEndDragon-DS14-KR-UR-1E.png",
+          "e7631de1-5ac0-408e-b4bd-8596d32a02c9": "https://ms.yugipedia.com//2/28/JudgmentDragon-DS14-KR-UR-1E.png"
+        },
+        "limited": {
+          "6762cfdd-48c6-43c1-9e71-d5959c9a9fa9": "https://ms.yugipedia.com//6/67/RaidenHandoftheLightsworn-DS14-KR-UR-LE.png",
+          "a5f49ef8-65cc-4835-9d80-0507efefb4a5": "https://ms.yugipedia.com//2/23/MinervaLightswornMaiden-DS14-KR-UR-LE.png",
+          "a8d8365b-bc35-4609-a825-a2b18eaff590": "https://ms.yugipedia.com//2/2f/MichaeltheArchLightsworn-DS14-KR-EScR-LE.png"
+        }
+      },
+      "cardInfo": {
+        "1st": {
+          "02d2485f-4e55-4524-830c-0780bb208b64": {
+            "image": "https://ms.yugipedia.com//8/87/GloriousIllusion-DS14-KR-UR-1E.png"
+          },
+          "03f95f01-ac54-43b0-b782-aa1f8a39b719": {
+            "image": "https://ms.yugipedia.com//e/e7/BeckoningLight-DS14-KR-UR-1E.png"
+          },
+          "0489971b-d375-4d05-97e2-20a512c9f584": {
+            "image": "https://ms.yugipedia.com//9/92/GragonithLightswornDragon-DS14-KR-UR-1E.png"
+          },
+          "0809e25b-0599-41b5-b5d6-9b7e9e710518": {
+            "image": "https://ms.yugipedia.com//e/e0/EhrenLightswornMonk-DS14-KR-UR-1E.png"
+          },
+          "10fcc652-32aa-4f3e-9a59-8b23569b14be": {
+            "image": "https://ms.yugipedia.com//2/21/LylaLightswornSorceress-DS14-KR-UR-1E.png"
+          },
+          "14aca02c-4b3a-423e-ac8a-1013c998ca08": {
+            "image": "https://ms.yugipedia.com//9/96/VanquishingLight-DS14-KR-UR-1E.png"
+          },
+          "1a954563-fc37-45dd-8a8f-ec8950eb9ac0": {
+            "image": "https://ms.yugipedia.com//2/23/ZONE-DS14-KR-UR-1E.png"
+          },
+          "35845c24-8ed9-4fe7-9277-038ee20e5c02": {
+            "image": "https://ms.yugipedia.com//5/5f/LightrayDiabolos-DS14-KR-UR-1E.png"
+          },
+          "3be6af51-3443-4e7b-8680-247e455e2078": {
+            "image": "https://ms.yugipedia.com//2/28/MagicalMerchant-DS14-KR-UR-1E.png"
+          },
+          "3d61f00a-1ea6-4223-8a6e-d8d2dfa53dbc": {
+            "image": "https://ms.yugipedia.com//f/fe/FabledRaven-DS14-KR-UR-1E.png"
+          },
+          "487de82a-61d7-4f15-9f64-1b47994e5c6c": {
+            "image": "https://ms.yugipedia.com//c/cc/LightrayDaedalus-DS14-KR-UR-1E.png"
+          },
+          "55da602f-c9d8-4d07-a2c7-0e81749ae4a9": {
+            "image": "https://ms.yugipedia.com//d/df/NecroGardna-DS14-KR-UR-1E.png"
+          },
+          "5e574d2c-9a87-4a2c-b39a-a8edf61492d8": {
+            "image": "https://ms.yugipedia.com//3/34/RealmofLight-DS14-KR-UR-1E.png"
+          },
+          "5fb3d09f-f587-4a11-af22-74270d8d05ed": {
+            "image": "https://ms.yugipedia.com//4/40/Terraforming-DS14-KR-UR-1E.png"
+          },
+          "6a047475-901c-4cff-bb9e-99e81436f630": {
+            "image": "https://ms.yugipedia.com//c/cc/TasukeKnight-DS14-KR-UR-1E.png"
+          },
+          "7123c442-e8aa-48ec-be5d-1b5d1a57823b": {
+            "image": "https://ms.yugipedia.com//6/65/Honest-DS14-KR-UR-1E.png"
+          },
+          "71d695f4-1b2c-4176-bdbe-85cb4384dd8a": {
+            "image": "https://ms.yugipedia.com//c/ca/VylonPrism-DS14-KR-UR-1E.png"
+          },
+          "7e4a02a9-f2a6-4d18-81ab-0b94f24d9da1": {
+            "image": "https://ms.yugipedia.com//1/18/EffectVeiler-DS14-KR-UR-1E.png"
+          },
+          "7e89c592-104b-4773-88ea-4838df48c427": {
+            "image": "https://ms.yugipedia.com//a/ac/SolarRecharge-DS14-KR-UR-1E.png"
+          },
+          "82ac3108-5760-46a9-a32f-c904f5f6f242": {
+            "image": "https://ms.yugipedia.com//7/7f/WulfLightswornBeast-DS14-KR-UR-1E.png"
+          },
+          "88f85839-a5fb-4902-bb4b-1a09aa64f322": {
+            "image": "https://ms.yugipedia.com//c/cd/ChargeoftheLightBrigade-DS14-KR-UR-1E.png"
+          },
+          "a5a8cb9a-dd0e-4f3d-9345-fcf60aa4657a": {
+            "image": "https://ms.yugipedia.com//0/00/ConstellarBelt-DS14-KR-UR-1E.png"
+          },
+          "aa9ac1e0-aa69-445d-8106-e7f0e07c42fa": {
+            "image": "https://ms.yugipedia.com//d/d1/RaiJin-DS14-KR-UR-1E.png"
+          },
+          "adf6905e-5143-4563-8afa-7b1d8436cb0d": {
+            "image": "https://ms.yugipedia.com//6/62/NeedlebugNest-DS14-KR-UR-1E.png"
+          },
+          "b3cd7747-4504-4a10-8010-98b8a508af58": {
+            "image": "https://ms.yugipedia.com//e/e6/LightrayGrepher-DS14-KR-UR-1E.png"
+          },
+          "b5057288-e533-487b-98db-e12d92e205ef": {
+            "image": "https://ms.yugipedia.com//0/03/MonsterReincarnation-DS14-KR-UR-1E.png"
+          },
+          "b92e2471-704e-4818-9914-10769e9538e7": {
+            "image": "https://ms.yugipedia.com//6/67/RaiMei-DS14-KR-UR-1E.png"
+          },
+          "bef953d8-02d2-48f3-85b7-0f4cbb77866f": {
+            "image": "https://ms.yugipedia.com//d/dc/LightswornBarrier-DS14-KR-UR-1E.png"
+          },
+          "c08e9826-bf3c-4464-903b-1144eb0716d1": {
+            "image": "https://ms.yugipedia.com//3/3f/FoolishBurial-DS14-KR-UR-1E.png"
+          },
+          "c0938eb5-ce5c-496c-a347-53fba39fb114": {
+            "image": "https://ms.yugipedia.com//4/4c/RykoLightswornHunter-DS14-KR-UR-1E.png"
+          },
+          "cc9d6e96-6829-4f3e-bd1c-85cc109c2385": {
+            "image": "https://ms.yugipedia.com//b/bb/LuminaLightswornSummoner-DS14-KR-UR-1E.png"
+          },
+          "d7471779-a607-4ebc-a535-c449c2166e5e": {
+            "image": "https://ms.yugipedia.com//4/4e/GarothLightswornWarrior-DS14-KR-UR-1E.png"
+          },
+          "d75bb53a-b85f-423b-a3c5-4c5c6da71ca1": {
+            "image": "https://ms.yugipedia.com//3/36/JainLightswornPaladin-DS14-KR-UR-1E.png"
+          },
+          "daa9ef2c-38a7-4fa8-9b84-332500f4f3ea": {
+            "image": "https://ms.yugipedia.com//0/0c/CelestiaLightswornAngel-DS14-KR-UR-1E.png"
+          },
+          "dd688f90-bfed-47ed-a906-02ac31e1d3ee": {
+            "image": "https://ms.yugipedia.com//6/66/LightEndDragon-DS14-KR-UR-1E.png"
+          },
+          "e7631de1-5ac0-408e-b4bd-8596d32a02c9": {
+            "image": "https://ms.yugipedia.com//2/28/JudgmentDragon-DS14-KR-UR-1E.png"
+          }
+        },
+        "limited": {
+          "6762cfdd-48c6-43c1-9e71-d5959c9a9fa9": {
+            "image": "https://ms.yugipedia.com//6/67/RaidenHandoftheLightsworn-DS14-KR-UR-LE.png"
+          },
+          "a5f49ef8-65cc-4835-9d80-0507efefb4a5": {
+            "image": "https://ms.yugipedia.com//2/23/MinervaLightswornMaiden-DS14-KR-UR-LE.png"
+          },
+          "a8d8365b-bc35-4609-a825-a2b18eaff590": {
+            "image": "https://ms.yugipedia.com//2/2f/MichaeltheArchLightsworn-DS14-KR-EScR-LE.png"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "1st",
+        "limited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          74408003,
+          7111103005
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//8/88/DS14-DeckJP-VerA.png",
+      "cards": [
+        {
+          "id": "a8d8365b-bc35-4609-a825-a2b18eaff590",
+          "card": "274cdf2f-bc2a-4c63-8ff0-bed14684bbda",
+          "suffix": "S1",
+          "rarity": "extrasecret",
+          "imageID": "b2d03b19-aa34-4302-8aa6-04f0554208f2",
+          "printStatus": "new"
+        },
+        {
+          "id": "a5f49ef8-65cc-4835-9d80-0507efefb4a5",
+          "card": "5dc94614-1ef4-4b67-90f2-a2490e07b9ee",
+          "suffix": "S2",
+          "rarity": "ultra",
+          "imageID": "312e2d94-fab0-4d68-aef8-477181ea3dd4",
+          "printStatus": "new"
+        },
+        {
+          "id": "6762cfdd-48c6-43c1-9e71-d5959c9a9fa9",
+          "card": "ed2fac70-fbef-4860-9ae0-7bdf8b18195e",
+          "suffix": "S3",
+          "rarity": "ultra",
+          "imageID": "3bde55a4-8454-4a0b-9932-97263ee658ff",
+          "printStatus": "new"
+        },
+        {
+          "id": "e7631de1-5ac0-408e-b4bd-8596d32a02c9",
+          "card": "0f6d3392-7455-4008-8dfd-c41e8d40b9fe",
+          "suffix": "01",
+          "rarity": "ultra",
+          "imageID": "08ca6e16-fcea-48ad-b032-edbd2fded8b6",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "0489971b-d375-4d05-97e2-20a512c9f584",
+          "card": "0e74f016-73ac-4260-ad5e-0f408b986d2a",
+          "suffix": "02",
+          "rarity": "ultra",
+          "imageID": "54c9b80f-907c-44aa-a3b0-aa0d0eb6bea6",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "daa9ef2c-38a7-4fa8-9b84-332500f4f3ea",
+          "card": "123b14ed-e7ff-4cb7-a9b2-c4d88e6ce9ca",
+          "suffix": "03",
+          "rarity": "ultra",
+          "imageID": "ce345dbf-e6c1-41dc-8f9c-97e28ad8506b",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "d75bb53a-b85f-423b-a3c5-4c5c6da71ca1",
+          "card": "dd07e77d-87c2-434f-9b38-85c8baa41eed",
+          "suffix": "04",
+          "rarity": "ultra",
+          "imageID": "a0b24cc2-152d-40de-ab06-4ce008c14fec",
+          "qty": 2,
+          "printStatus": "reprint"
+        },
+        {
+          "id": "10fcc652-32aa-4f3e-9a59-8b23569b14be",
+          "card": "408b4ae5-2d46-4c55-af62-d0367546992e",
+          "suffix": "05",
+          "rarity": "ultra",
+          "imageID": "9683bd49-9dc2-45b1-a7c6-43627ac800c7",
+          "qty": 2,
+          "printStatus": "reprint"
+        },
+        {
+          "id": "d7471779-a607-4ebc-a535-c449c2166e5e",
+          "card": "99746f36-3828-4605-8034-cdc4ded782aa",
+          "suffix": "06",
+          "rarity": "ultra",
+          "imageID": "dfbebc50-461c-41c3-8e3a-bb347a14e14a",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "82ac3108-5760-46a9-a32f-c904f5f6f242",
+          "card": "65528612-941b-4ab9-b989-b4436b163f2c",
+          "suffix": "07",
+          "rarity": "ultra",
+          "imageID": "7eac54b6-6f7d-46f5-8fe6-ec9827148770",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "0809e25b-0599-41b5-b5d6-9b7e9e710518",
+          "card": "1afd41c2-9507-4df7-8051-4f4f0cc5d19a",
+          "suffix": "08",
+          "rarity": "ultra",
+          "imageID": "940a235b-18bb-438d-bcbc-807799cec0c0",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "cc9d6e96-6829-4f3e-bd1c-85cc109c2385",
+          "card": "ab802e8f-544c-4ee6-8d43-f3f7276df328",
+          "suffix": "09",
+          "rarity": "ultra",
+          "imageID": "fd6fb228-406e-4ac9-9318-70f6f536528c",
+          "qty": 2,
+          "printStatus": "reprint"
+        },
+        {
+          "id": "c0938eb5-ce5c-496c-a347-53fba39fb114",
+          "card": "786344f5-f616-4abd-868c-62ef0fad821c",
+          "suffix": "10",
+          "rarity": "ultra",
+          "imageID": "682175d1-f163-4593-8dd7-5ee155af10c2",
+          "qty": 2,
+          "printStatus": "reprint"
+        },
+        {
+          "id": "7123c442-e8aa-48ec-be5d-1b5d1a57823b",
+          "card": "a07fd96a-dac9-41f1-8da5-e453f9654cb7",
+          "suffix": "11",
+          "rarity": "ultra",
+          "imageID": "211ae949-ea29-4c03-97b7-1d93196cf13a",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "35845c24-8ed9-4fe7-9277-038ee20e5c02",
+          "card": "3ce204c0-f190-4ed3-98e9-964f62548b63",
+          "suffix": "12",
+          "rarity": "ultra",
+          "imageID": "bbd855bc-ffc0-4c69-9fc0-18b2ffea8eb7",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "487de82a-61d7-4f15-9f64-1b47994e5c6c",
+          "card": "4890b925-9e09-4548-b65c-232d789dc487",
+          "suffix": "13",
+          "rarity": "ultra",
+          "imageID": "cd4ddf29-7b8b-4530-80a5-5da52a03d632",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "b3cd7747-4504-4a10-8010-98b8a508af58",
+          "card": "f14a47d8-21cb-404a-b0e8-298b3716b0bf",
+          "suffix": "14",
+          "rarity": "ultra",
+          "imageID": "bee75877-9c92-4897-b963-1e3ed4feeb97",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "aa9ac1e0-aa69-445d-8106-e7f0e07c42fa",
+          "card": "2c537412-2f36-4d65-a0a5-c2a68ea1ce53",
+          "suffix": "15",
+          "rarity": "ultra",
+          "imageID": "c00b8e67-f7d8-44f7-a578-0b6778609fa0",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "b92e2471-704e-4818-9914-10769e9538e7",
+          "card": "139ca055-d776-460b-941b-5a17dc01161e",
+          "suffix": "16",
+          "rarity": "ultra",
+          "imageID": "ac88d77e-fab4-4cf4-a566-026acc2e191c",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "6a047475-901c-4cff-bb9e-99e81436f630",
+          "card": "2166886f-ddd7-483b-8404-88bf64df656d",
+          "suffix": "17",
+          "rarity": "ultra",
+          "imageID": "1f25bf6d-b585-413d-8926-1864c72ea4c7",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "3be6af51-3443-4e7b-8680-247e455e2078",
+          "card": "6c7b9a7f-2b46-4916-867b-0948c6557b29",
+          "suffix": "18",
+          "rarity": "ultra",
+          "imageID": "653a14a8-ea11-4ac3-85a6-20c74912add8",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "71d695f4-1b2c-4176-bdbe-85cb4384dd8a",
+          "card": "0ce373d5-5ca1-4fef-9d86-17072f2cc9c8",
+          "suffix": "19",
+          "rarity": "ultra",
+          "imageID": "ea951b8d-cd0c-412d-8fa0-cc7f6e2b3f53",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "7e4a02a9-f2a6-4d18-81ab-0b94f24d9da1",
+          "card": "6c8c49a6-f514-4b0f-844b-ffc3832f1481",
+          "suffix": "20",
+          "rarity": "ultra",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "c904616b-7ea2-467a-b636-3bdfcd216d11",
+          "card": "0f94eba3-5e01-4cd0-a609-7be400972d92",
+          "suffix": "21",
+          "rarity": "ultra",
+          "imageID": "8b73ab59-464c-4dd9-8a7c-8db270e996dd",
+          "qty": 2,
+          "printStatus": "reprint"
+        },
+        {
+          "id": "fbfc7194-0a4a-4f1d-bce9-a8740628daa5",
+          "card": "b8de8039-d3c9-474c-8fa3-2a51a158abb8",
+          "suffix": "22",
+          "rarity": "ultra",
+          "imageID": "782547df-db34-4190-ae4b-f044e7d51c51",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "a3d0c540-50ea-427a-8722-802a4a6bb1a0",
+          "card": "b3483033-fc12-42ec-86b5-9743379b3445",
+          "suffix": "23",
+          "rarity": "ultra",
+          "imageID": "be5dfd42-8eea-4309-9667-1d10e699eb76",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "54d03b72-7249-4c7f-ba4f-23d93b60d3c0",
+          "card": "64360544-a424-443f-97ed-415c133e6230",
+          "suffix": "24",
+          "rarity": "ultra",
+          "imageID": "f38af54b-3985-4642-ab03-7c59398d360b",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "ce7aa09f-0a05-4f7f-92f0-03cc29de5e88",
+          "card": "dabf8abb-28f0-41df-b7ef-2239e59e92d0",
+          "suffix": "25",
+          "rarity": "ultra",
+          "imageID": "c3653d48-61ca-4e63-bbfd-cdcf32b0f4d6",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "7d153691-d43a-43be-9620-cb6e5003097b",
+          "card": "3d521119-db81-4605-86fe-33cfce4b3aa8",
+          "suffix": "26",
+          "rarity": "ultra",
+          "imageID": "3cbe0fea-6010-4280-8c7b-8542eb96fb8c",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "0c5865ac-75a6-4bd0-b6c9-be408bbaeb9f",
+          "card": "3f19c715-9899-4524-82da-28e2061341b4",
+          "suffix": "27",
+          "rarity": "ultra",
+          "imageID": "70fee88b-f7fd-4d4e-aa3f-a9b7560f101c",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "9baf8802-4c66-4eb8-8560-259da0561ee3",
+          "card": "e9178d97-afb6-4e57-9eec-b329ffd2e708",
+          "suffix": "28",
+          "rarity": "ultra",
+          "imageID": "725aa18a-75b5-4837-b2cd-631fd58c5db4",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "70cc66fc-0a84-405c-a744-d41f7ac12d9c",
+          "card": "7cf74e42-4243-4cf2-ba2e-b8aa46cfd660",
+          "suffix": "29",
+          "rarity": "ultra",
+          "imageID": "251a84e7-910d-4a2a-903b-8730edeb292a",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "257a20a5-0456-4fbd-b561-7628183e2771",
+          "card": "ccb38bc3-891d-4c2e-86b5-ab71822ed473",
+          "suffix": "30",
+          "rarity": "ultra",
+          "imageID": "f06d5f72-3ece-47f6-819b-2aae162b97ff",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "56830f7e-350c-4317-8635-7f923f61c0df",
+          "card": "528077b7-9159-40e5-8c99-2bb5604fd939",
+          "suffix": "31",
+          "rarity": "ultra",
+          "imageID": "a61d7b45-e4ab-4067-8044-f139af941c90",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "2783ea57-7fb2-4a95-94ad-b5193340738f",
+          "card": "daa4f9af-2dac-48ea-9c62-1575c12dc3c4",
+          "suffix": "32",
+          "rarity": "ultra",
+          "imageID": "6419d743-4d0c-4504-9874-9d12e88237ca",
+          "printStatus": "reprint"
+        }
+      ],
+      "externalIDs": {}
+    },
+    {
+      "locales": [
+        "kr"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "1st",
+        "limited"
+      ],
+      "image": "https://ms.yugipedia.com//8/82/DS14-DeckKR-VerA.png",
+      "cards": [
+        {
+          "id": "a8d8365b-bc35-4609-a825-a2b18eaff590",
+          "card": "274cdf2f-bc2a-4c63-8ff0-bed14684bbda",
+          "suffix": "S1",
+          "rarity": "extrasecret",
+          "imageID": "b2d03b19-aa34-4302-8aa6-04f0554208f2"
+        },
+        {
+          "id": "a5f49ef8-65cc-4835-9d80-0507efefb4a5",
+          "card": "5dc94614-1ef4-4b67-90f2-a2490e07b9ee",
+          "suffix": "S2",
+          "rarity": "ultra",
+          "imageID": "312e2d94-fab0-4d68-aef8-477181ea3dd4"
+        },
+        {
+          "id": "6762cfdd-48c6-43c1-9e71-d5959c9a9fa9",
+          "card": "ed2fac70-fbef-4860-9ae0-7bdf8b18195e",
+          "suffix": "S3",
+          "rarity": "ultra",
+          "imageID": "3bde55a4-8454-4a0b-9932-97263ee658ff"
+        },
+        {
+          "id": "e7631de1-5ac0-408e-b4bd-8596d32a02c9",
+          "card": "0f6d3392-7455-4008-8dfd-c41e8d40b9fe",
+          "suffix": "01",
+          "rarity": "ultra",
+          "imageID": "08ca6e16-fcea-48ad-b032-edbd2fded8b6"
+        },
+        {
+          "id": "0489971b-d375-4d05-97e2-20a512c9f584",
+          "card": "0e74f016-73ac-4260-ad5e-0f408b986d2a",
+          "suffix": "02",
+          "rarity": "ultra",
+          "imageID": "54c9b80f-907c-44aa-a3b0-aa0d0eb6bea6"
+        },
+        {
+          "id": "daa9ef2c-38a7-4fa8-9b84-332500f4f3ea",
+          "card": "123b14ed-e7ff-4cb7-a9b2-c4d88e6ce9ca",
+          "suffix": "03",
+          "rarity": "ultra",
+          "imageID": "ce345dbf-e6c1-41dc-8f9c-97e28ad8506b"
+        },
+        {
+          "id": "d75bb53a-b85f-423b-a3c5-4c5c6da71ca1",
+          "card": "dd07e77d-87c2-434f-9b38-85c8baa41eed",
+          "suffix": "04",
+          "rarity": "ultra",
+          "imageID": "a0b24cc2-152d-40de-ab06-4ce008c14fec",
+          "qty": 2
+        },
+        {
+          "id": "10fcc652-32aa-4f3e-9a59-8b23569b14be",
+          "card": "408b4ae5-2d46-4c55-af62-d0367546992e",
+          "suffix": "05",
+          "rarity": "ultra",
+          "imageID": "9683bd49-9dc2-45b1-a7c6-43627ac800c7",
+          "qty": 2
+        },
+        {
+          "id": "d7471779-a607-4ebc-a535-c449c2166e5e",
+          "card": "99746f36-3828-4605-8034-cdc4ded782aa",
+          "suffix": "06",
+          "rarity": "ultra",
+          "imageID": "dfbebc50-461c-41c3-8e3a-bb347a14e14a"
+        },
+        {
+          "id": "82ac3108-5760-46a9-a32f-c904f5f6f242",
+          "card": "65528612-941b-4ab9-b989-b4436b163f2c",
+          "suffix": "07",
+          "rarity": "ultra",
+          "imageID": "7eac54b6-6f7d-46f5-8fe6-ec9827148770"
+        },
+        {
+          "id": "0809e25b-0599-41b5-b5d6-9b7e9e710518",
+          "card": "1afd41c2-9507-4df7-8051-4f4f0cc5d19a",
+          "suffix": "08",
+          "rarity": "ultra",
+          "imageID": "940a235b-18bb-438d-bcbc-807799cec0c0"
+        },
+        {
+          "id": "cc9d6e96-6829-4f3e-bd1c-85cc109c2385",
+          "card": "ab802e8f-544c-4ee6-8d43-f3f7276df328",
+          "suffix": "09",
+          "rarity": "ultra",
+          "imageID": "fd6fb228-406e-4ac9-9318-70f6f536528c",
+          "qty": 2
+        },
+        {
+          "id": "c0938eb5-ce5c-496c-a347-53fba39fb114",
+          "card": "786344f5-f616-4abd-868c-62ef0fad821c",
+          "suffix": "10",
+          "rarity": "ultra",
+          "imageID": "682175d1-f163-4593-8dd7-5ee155af10c2",
+          "qty": 2
+        },
+        {
+          "id": "7123c442-e8aa-48ec-be5d-1b5d1a57823b",
+          "card": "a07fd96a-dac9-41f1-8da5-e453f9654cb7",
+          "suffix": "11",
+          "rarity": "ultra",
+          "imageID": "211ae949-ea29-4c03-97b7-1d93196cf13a"
+        },
+        {
+          "id": "35845c24-8ed9-4fe7-9277-038ee20e5c02",
+          "card": "3ce204c0-f190-4ed3-98e9-964f62548b63",
+          "suffix": "12",
+          "rarity": "ultra",
+          "imageID": "bbd855bc-ffc0-4c69-9fc0-18b2ffea8eb7"
+        },
+        {
+          "id": "487de82a-61d7-4f15-9f64-1b47994e5c6c",
+          "card": "4890b925-9e09-4548-b65c-232d789dc487",
+          "suffix": "13",
+          "rarity": "ultra",
+          "imageID": "cd4ddf29-7b8b-4530-80a5-5da52a03d632"
+        },
+        {
+          "id": "b3cd7747-4504-4a10-8010-98b8a508af58",
+          "card": "f14a47d8-21cb-404a-b0e8-298b3716b0bf",
+          "suffix": "14",
+          "rarity": "ultra",
+          "imageID": "bee75877-9c92-4897-b963-1e3ed4feeb97"
+        },
+        {
+          "id": "aa9ac1e0-aa69-445d-8106-e7f0e07c42fa",
+          "card": "2c537412-2f36-4d65-a0a5-c2a68ea1ce53",
+          "suffix": "15",
+          "rarity": "ultra",
+          "imageID": "c00b8e67-f7d8-44f7-a578-0b6778609fa0"
+        },
+        {
+          "id": "b92e2471-704e-4818-9914-10769e9538e7",
+          "card": "139ca055-d776-460b-941b-5a17dc01161e",
+          "suffix": "16",
+          "rarity": "ultra",
+          "imageID": "ac88d77e-fab4-4cf4-a566-026acc2e191c"
+        },
+        {
+          "id": "6a047475-901c-4cff-bb9e-99e81436f630",
+          "card": "2166886f-ddd7-483b-8404-88bf64df656d",
+          "suffix": "17",
+          "rarity": "ultra",
+          "imageID": "1f25bf6d-b585-413d-8926-1864c72ea4c7"
+        },
+        {
+          "id": "3be6af51-3443-4e7b-8680-247e455e2078",
+          "card": "6c7b9a7f-2b46-4916-867b-0948c6557b29",
+          "suffix": "18",
+          "rarity": "ultra",
+          "imageID": "653a14a8-ea11-4ac3-85a6-20c74912add8"
+        },
+        {
+          "id": "71d695f4-1b2c-4176-bdbe-85cb4384dd8a",
+          "card": "0ce373d5-5ca1-4fef-9d86-17072f2cc9c8",
+          "suffix": "19",
+          "rarity": "ultra",
+          "imageID": "ea951b8d-cd0c-412d-8fa0-cc7f6e2b3f53"
+        },
+        {
+          "id": "7e4a02a9-f2a6-4d18-81ab-0b94f24d9da1",
+          "card": "6c8c49a6-f514-4b0f-844b-ffc3832f1481",
+          "suffix": "20",
+          "rarity": "ultra"
+        },
+        {
+          "id": "3d61f00a-1ea6-4223-8a6e-d8d2dfa53dbc",
+          "card": "1e366e8d-8fda-4f56-978f-91a008d22dbe",
+          "suffix": "21",
+          "rarity": "ultra",
+          "imageID": "ed732bed-c00f-465d-9eaf-ea1e54f89d7c"
+        },
+        {
+          "id": "55da602f-c9d8-4d07-a2c7-0e81749ae4a9",
+          "card": "391c58ba-0a3d-45e0-8313-a8a90adc0923",
+          "suffix": "22",
+          "rarity": "ultra",
+          "imageID": "e8632461-b50b-4171-84c8-40d9b41eb831"
+        },
+        {
+          "id": "5e574d2c-9a87-4a2c-b39a-a8edf61492d8",
+          "card": "0f94eba3-5e01-4cd0-a609-7be400972d92",
+          "suffix": "23",
+          "rarity": "ultra",
+          "imageID": "8b73ab59-464c-4dd9-8a7c-8db270e996dd",
+          "qty": 2
+        },
+        {
+          "id": "7e89c592-104b-4773-88ea-4838df48c427",
+          "card": "b8de8039-d3c9-474c-8fa3-2a51a158abb8",
+          "suffix": "24",
+          "rarity": "ultra",
+          "imageID": "782547df-db34-4190-ae4b-f044e7d51c51"
+        },
+        {
+          "id": "88f85839-a5fb-4902-bb4b-1a09aa64f322",
+          "card": "b3483033-fc12-42ec-86b5-9743379b3445",
+          "suffix": "25",
+          "rarity": "ultra",
+          "imageID": "be5dfd42-8eea-4309-9667-1d10e699eb76"
+        },
+        {
+          "id": "a5a8cb9a-dd0e-4f3d-9345-fcf60aa4657a",
+          "card": "64360544-a424-443f-97ed-415c133e6230",
+          "suffix": "26",
+          "rarity": "ultra",
+          "imageID": "f38af54b-3985-4642-ab03-7c59398d360b"
+        },
+        {
+          "id": "1a954563-fc37-45dd-8a8f-ec8950eb9ac0",
+          "card": "dabf8abb-28f0-41df-b7ef-2239e59e92d0",
+          "suffix": "27",
+          "rarity": "ultra",
+          "imageID": "c3653d48-61ca-4e63-bbfd-cdcf32b0f4d6"
+        },
+        {
+          "id": "5fb3d09f-f587-4a11-af22-74270d8d05ed",
+          "card": "3d521119-db81-4605-86fe-33cfce4b3aa8",
+          "suffix": "28",
+          "rarity": "ultra",
+          "imageID": "3cbe0fea-6010-4280-8c7b-8542eb96fb8c"
+        },
+        {
+          "id": "b5057288-e533-487b-98db-e12d92e205ef",
+          "card": "d5b9b8ed-be79-4b8b-b975-ab3fc9f8de9f",
+          "suffix": "29",
+          "rarity": "ultra",
+          "imageID": "4c82815f-8191-4fdc-83ca-123469fd584d"
+        },
+        {
+          "id": "c08e9826-bf3c-4464-903b-1144eb0716d1",
+          "card": "f2fdc396-fb8d-4899-80a1-1d7907648ab4",
+          "suffix": "30",
+          "rarity": "ultra"
+        },
+        {
+          "id": "02d2485f-4e55-4524-830c-0780bb208b64",
+          "card": "3f19c715-9899-4524-82da-28e2061341b4",
+          "suffix": "31",
+          "rarity": "ultra",
+          "imageID": "70fee88b-f7fd-4d4e-aa3f-a9b7560f101c"
+        },
+        {
+          "id": "bef953d8-02d2-48f3-85b7-0f4cbb77866f",
+          "card": "e9178d97-afb6-4e57-9eec-b329ffd2e708",
+          "suffix": "32",
+          "rarity": "ultra",
+          "imageID": "725aa18a-75b5-4837-b2cd-631fd58c5db4"
+        },
+        {
+          "id": "14aca02c-4b3a-423e-ac8a-1013c998ca08",
+          "card": "7cf74e42-4243-4cf2-ba2e-b8aa46cfd660",
+          "suffix": "33",
+          "rarity": "ultra",
+          "imageID": "251a84e7-910d-4a2a-903b-8730edeb292a"
+        },
+        {
+          "id": "03f95f01-ac54-43b0-b782-aa1f8a39b719",
+          "card": "ccb38bc3-891d-4c2e-86b5-ab71822ed473",
+          "suffix": "34",
+          "rarity": "ultra",
+          "imageID": "f06d5f72-3ece-47f6-819b-2aae162b97ff"
+        },
+        {
+          "id": "adf6905e-5143-4563-8afa-7b1d8436cb0d",
+          "card": "528077b7-9159-40e5-8c99-2bb5604fd939",
+          "suffix": "35",
+          "rarity": "ultra",
+          "imageID": "a61d7b45-e4ab-4067-8044-f139af941c90"
+        },
+        {
+          "id": "dd688f90-bfed-47ed-a906-02ac31e1d3ee",
+          "card": "daa4f9af-2dac-48ea-9c62-1575c12dc3c4",
+          "suffix": "36",
+          "rarity": "ultra",
+          "imageID": "6419d743-4d0c-4504-9874-9d12e88237ca"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Duelist Set: Version Lightsworn Judgment",
+      "id": 286314
+    }
+  }
+}

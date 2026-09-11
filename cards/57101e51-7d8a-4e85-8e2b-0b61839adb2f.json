@@ -1,0 +1,53 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "57101e51-7d8a-4e85-8e2b-0b61839adb2f",
+  "text": {
+    "en": {
+      "name": "Zombyra",
+      "effect": "When this card declares an attack: You lose 500 LP, and if you do, this card gains 500 ATK. When a monster is destroyed by battle: You can equip this card from your GY to the monster that destroyed that monster, then you can destroy the 1 monster your opponent controls with the highest ATK (your choice, if tied). The equipped monster's name becomes \"Zombyra\", also its effects are negated. When the equipped monster declares an attack: Its controller loses 500 LP, and if they do, the equipped monster gains 500 ATK.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30be\u30f3\u30d0\u30a4\u30a2"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 2100,
+  "def": 500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "4f54780e-3f48-494b-8971-598b79f60963",
+      "card": "https://ms.yugipedia.com//a/a9/Zombyra-YAC1-JP-OP.png"
+    },
+    {
+      "id": "848c1408-9532-493b-a90b-ebb27f38882e",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/100459012.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/100459012.jpg"
+    }
+  ],
+  "sets": [
+    "9aefc662-0b55-44d0-85b1-7c92cfe8a78b",
+    "9aefc662-0b55-44d0-85b1-7c92cfe8a78b"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Zombyra",
+        "id": 1210817
+      }
+    ],
+    "ygoprodeck": {
+      "id": 100459012,
+      "name": "zombyra-15894"
+    }
+  },
+  "series": []
+}

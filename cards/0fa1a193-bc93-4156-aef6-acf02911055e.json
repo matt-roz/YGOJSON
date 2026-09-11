@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "0fa1a193-bc93-4156-aef6-acf02911055e",
+  "text": {
+    "en": {
+      "name": "Special Operative Flavor Inspector",
+      "effect": "This card's name becomes \"Flavor Inspector\" this turn. Then, you can add 1 \"Fusion\" from your Graveyard to your hand."
+    },
+    "ja": {
+      "name": "\u7279\u52d9\u4e07\u80fd\u8abf\u5473\u67fb\u5bdf\u5b98",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u306e\u30ab\u30fc\u30c9\u540d\u306f\u3053\u306e\u30bf\u30fc\u30f3\u3001\u300c\u4e07\u80fd\u8abf\u5473\u67fb\u5bdf\u5b98\u300d\u306b\u306a\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u30d5\u30e5\u30fc\u30b8\u30e7\u30f3\u300d\uff11\u679a\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc2a4\ud398\uc15c \ud14c\uc774\uc2a4\ud2b8 \uc778\uc2a4\ud399\ud130",
+      "effect": "\uc774 \uce74\ub4dc\uc758 \uce74\ub4dc\uba85\uc740 \uc774 \ud134\uc5d0, \"\ud14c\uc774\uc2a4\ud2b8 \uc778\uc2a4\ud399\ud130\"\uac00 \ub41c\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0 \ubb18\uc9c0\uc758 \"\ud4e8\uc804\" 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\uc744 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "type": "pyro",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 1600,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "792ad520-735a-49fd-9f97-087653aae2ba",
+      "card": "https://ms.yugipedia.com//3/37/SpecialOperativeFlavorInspector-RDKP24-JP-C.png"
+    }
+  ],
+  "sets": [
+    "e123be6e-0424-4ff0-a324-6175fee17d50"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Special Operative Flavor Inspector",
+        "id": 1171433
+      }
+    ],
+    "dbID": 22847
+  },
+  "series": []
+}

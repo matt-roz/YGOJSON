@@ -1,0 +1,42 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "6bf574a5-dd5e-4350-8c5a-e1b6271efe27",
+  "text": {
+    "en": {
+      "name": "Power Connection",
+      "effect": "Target any number of face-up monsters you control (if you target 2 or more monsters, they must have the same Type); they gain 500 ATK for each monster targeted, until the end of this turn. If you activated \"Armament Reincarnation\" this turn: You can add this card from your GY to your hand. You can only use each effect of \"Power Connection\" once per turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30d1\u30ef\u30fc\u30b3\u30cd\u30af\u30b7\u30e7\u30f3"
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "259423b3-8495-4591-9d8f-917402fde1c7",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/100200294.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/100200294.jpg"
+    }
+  ],
+  "sets": [
+    "9af9360d-3df0-4167-836e-58336ad638b2",
+    "c5b81438-6f5b-428c-810e-dcb18ee8c464"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Power Connection",
+        "id": 1187490
+      }
+    ],
+    "ygoprodeck": {
+      "id": 100200294,
+      "name": "power-connection-15760"
+    }
+  },
+  "series": []
+}

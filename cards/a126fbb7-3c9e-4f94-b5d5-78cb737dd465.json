@@ -1,0 +1,48 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "a126fbb7-3c9e-4f94-b5d5-78cb737dd465",
+  "text": {
+    "en": {
+      "name": "Over Rush Storm",
+      "effect": "Place 1 Spell/Trap Card from your opponent's field on the bottom of the owner's Deck."
+    },
+    "ja": {
+      "name": "\u30aa\u30fc\u30d0\u30fc\u30e9\u30c3\u30b7\u30e5\u30fb\u30b9\u30c8\u30fc\u30e0",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u9b54\u6cd5\u30fb\u7f60\u30ab\u30fc\u30c9\uff11\u679a\u3092\u9078\u3093\u3067\u6301\u3061\u4e3b\u306e\u30c7\u30c3\u30ad\u306e\u4e0b\u306b\u623b\u3059\u3002"
+    },
+    "ko": {
+      "name": "\uc624\ubc84\ub7ec\uc2dc \uc2a4\ud1b0",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \ub9c8\ubc95 / \ud568\uc815 \uce74\ub4dc 1\uc7a5\uc744 \uace0\ub974\uace0 \uc8fc\uc778\uc758 \ub371 \uc544\ub798\ub85c \ub418\ub3cc\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "f8c07407-89e4-42ff-8442-9e3eac76f54b",
+      "card": "https://ms.yugipedia.com//e/e7/OverRushStorm-RDORP2-JP-UR.png"
+    },
+    {
+      "id": "d65d4839-f93f-434d-9846-a16d91941ca8",
+      "card": "https://ms.yugipedia.com//1/16/OverRushStorm-RD5TH1-JP-UPR.png"
+    }
+  ],
+  "sets": [
+    "4c887f72-12bb-4f1a-80de-38526bb09a9e"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Over Rush Storm",
+        "id": 1052174
+      }
+    ],
+    "dbID": 20150
+  },
+  "series": []
+}

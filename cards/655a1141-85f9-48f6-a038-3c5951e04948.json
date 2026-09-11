@@ -1,0 +1,43 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "655a1141-85f9-48f6-a038-3c5951e04948",
+  "text": {
+    "en": {
+      "name": "The Creator (Rush Duel)",
+      "effect": "Special Summon 1 monster from your Graveyard face-up to your field. Then, send 1 card from your hand to the Graveyard.",
+      "official": false
+    },
+    "ko": {
+      "name": "\ucc3d\uc138\uc2e0",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130 1\uc7a5\uc744 \uace0\ub974\uace0, \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \ud45c\uc2dc\ub85c \ud2b9\uc218 \uc18c\ud658\ud55c\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0\uc740 \ud328 1\uc7a5\uc744 \uace0\ub974\uace0 \ubb18\uc9c0\ub85c \ubcf4\ub0b8\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "thunder",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 2300,
+  "def": 3000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "a3da8f89-3a25-4978-b5d1-ebb306cd476d",
+      "card": "https://ms.yugipedia.com//2/28/TheCreator-RDHC01-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "The Creator (Rush Duel)",
+        "id": 717056
+      }
+    ],
+    "dbID": 17276
+  },
+  "series": []
+}

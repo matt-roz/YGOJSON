@@ -1,0 +1,36 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "dd113233-be5c-4d88-a64f-40c31a2a1961",
+  "text": {
+    "en": {
+      "name": "Beacon of the Dark Titan",
+      "effect": "Look at 1 face-down monster on your opponent's field. Then, if you have a face-up monster with ATK greater than or equal to [that monster's original ATK] on your field, you can destroy the monster you looked at.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u6697\u9ed2\u9b54\u795e\u306e\u5c0e\u304d",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u88cf\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u3092\u9078\u3093\u3067\u78ba\u8a8d\u3059\u308b\u3002\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\uff3b\u305d\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u5143\u3005\u306e\u653b\u6483\u529b\uff3d\u4ee5\u4e0a\u306e\u653b\u6483\u529b\u3092\u6301\u3064\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\u304c\u3044\u308b\u5834\u5408\u3001\u3055\u3089\u306b\u78ba\u8a8d\u3057\u305f\u30e2\u30f3\u30b9\u30bf\u30fc\u3092\u7834\u58ca\u3067\u304d\u308b\u3002"
+    }
+  },
+  "cardType": "trap",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "de2268bd-0eeb-4a77-b7de-ea6daba09559",
+      "card": "https://ms.yugipedia.com//2/20/BeaconoftheDarkTitan-RDKP25-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Beacon of the Dark Titan",
+        "id": 1190302
+      }
+    ],
+    "dbID": 23262
+  },
+  "series": []
+}

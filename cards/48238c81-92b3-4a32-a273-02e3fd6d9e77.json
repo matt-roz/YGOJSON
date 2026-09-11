@@ -1,0 +1,38 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "48238c81-92b3-4a32-a273-02e3fd6d9e77",
+  "text": {
+    "en": {
+      "name": "Breaker the Magical Warrior (Rush Duel)",
+      "effect": "\u25cfSend the top card of your Deck to the Graveyard. Then, while this card is face-up, it gains 300 ATK. \u25cfDestroy 1 Spell/Trap Card on the field.",
+      "official": false
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "spellcaster",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1600,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "2e31ba39-cbd4-47c9-b391-c19040362ccd",
+      "card": "https://ms.yugipedia.com//3/3e/BreakertheMagicalWarrior-RDLP01-JP-OP.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Breaker the Magical Warrior (Rush Duel)",
+        "id": 1203694
+      }
+    ]
+  },
+  "series": []
+}

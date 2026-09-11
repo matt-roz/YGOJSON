@@ -1,0 +1,54 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "8017a124-063d-4daf-beed-1179e791823c",
+  "text": {
+    "en": {
+      "name": "Ultimate Flag Mech Gold Rush",
+      "effect": "Add 1 Machine Type Normal Monster from your Graveyard to your hand. If your opponent has 3 Attack Position monsters on their field, you can also Special Summon 1 Normal Monster from your hand face-up to your field."
+    },
+    "ja": {
+      "name": "\u6700\u5f37\u6226\u65d7\u30b4\u30fc\u30eb\u30c9\u30e9\u30c3\u30b7\u30e5",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u901a\u5e38\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u6a5f\u68b0\u65cf\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u3002\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u653b\u6483\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\u304c\uff13\u4f53\u306e\u5834\u5408\u3001\u3055\u3089\u306b\u624b\u672d\u306e\u901a\u5e38\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u3092\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u8868\u793a\u3067\u7279\u6b8a\u53ec\u559a\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ucd5c\uac15\uc804\uae30 \uace8\ub4dc\ub7ec\uc2dc",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \uc77c\ubc18 \ubaac\uc2a4\ud130(\uae30\uacc4\uc871) 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\ub294\ub2e4. \uc0c1\ub300 \ud544\ub4dc\uc758 \uacf5\uaca9 \ud45c\uc2dc \ubaac\uc2a4\ud130\uac00 3\uc7a5\uc77c \uacbd\uc6b0, \ucd94\uac00\ub85c \ud328\uc758 \uc77c\ubc18 \ubaac\uc2a4\ud130 1\uc7a5\uc744 \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \ud45c\uc2dc\ub85c \ud2b9\uc218 \uc18c\ud658\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2500,
+  "def": 1600,
+  "passwords": [],
+  "images": [
+    {
+      "id": "0ad1d5fd-b82d-4dd4-a624-24e740e2194c",
+      "card": "https://ms.yugipedia.com//a/a3/UltimateFlagMechGoldRush-RDGRP1-JP-UR.png"
+    }
+  ],
+  "sets": [
+    "b0f28e3d-b93f-42f7-9518-5a27b9304349",
+    "800a7d3b-5bf8-4d9e-b88b-3ec6be2416b7"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Ultimate Flag Mech Gold Rush",
+        "id": 717300
+      }
+    ],
+    "dbID": 17197
+  },
+  "series": [
+    "1869401c-4fa5-40a6-8cbc-a60caea6b54b"
+  ]
+}

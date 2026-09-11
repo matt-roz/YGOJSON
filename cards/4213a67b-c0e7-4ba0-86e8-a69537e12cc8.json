@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "4213a67b-c0e7-4ba0-86e8-a69537e12cc8",
+  "text": {
+    "en": {
+      "name": "Beast Gear Emperor Glider Fox",
+      "effect": "Destroy 1 face-up Level 8 or lower monster on your opponent's field. You can only attack with Beast-Warrior Type monsters this turn."
+    },
+    "ja": {
+      "name": "\u7363\u6a5f\u754c\u738b\u30b0\u30e9\u30a4\u30c0\u30fc\u30fb\u30d5\u30a9\u30c3\u30af\u30b9",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff18\u4ee5\u4e0b\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u7834\u58ca\u3059\u308b\u3002\u3053\u306e\u30bf\u30fc\u30f3\u3001\u81ea\u5206\u306f\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u7363\u6226\u58eb\u65cf\u4ee5\u5916\uff09\u3067\u653b\u6483\u3067\u304d\u306a\u3044\u3002"
+    },
+    "ko": {
+      "name": "\uc218\uae30\uacc4\uc758 \uc655 \uae00\ub77c\uc774\ub354 \ud3ed\uc2a4",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\ub808\ubca8 8 \uc774\ud558) 1\uc7a5\uc744 \uace0\ub974\uace0 \ud30c\uad34\ud55c\ub2e4. \uc774 \ud134\uc5d0, \uc790\uc2e0\uc740 \ubaac\uc2a4\ud130(\uc57c\uc218\uc804\uc0ac\uc871 \uc774\uc678)\ub85c \uacf5\uaca9\ud560 \uc218 \uc5c6\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "beastwarrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2400,
+  "def": 1500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "79faa237-25a7-40fa-b8c1-b3c55b4ca168",
+      "card": "https://ms.yugipedia.com//2/25/BeastGearEmperorGliderFox-RDORP1-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Beast Gear Emperor Glider Fox",
+        "id": 713594
+      }
+    ],
+    "dbID": 18384
+  },
+  "series": [
+    "77bb707e-bd94-46d7-b928-6df38334e40c"
+  ]
+}

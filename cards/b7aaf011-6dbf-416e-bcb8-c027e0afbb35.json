@@ -1,0 +1,55 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "b7aaf011-6dbf-416e-bcb8-c027e0afbb35",
+  "text": {
+    "en": {
+      "name": "SSD Drake",
+      "effect": "Special Summon 2 Level 4 Dragon Type Normal Monsters from your Graveyard to your field in face-up Defense Position."
+    },
+    "ja": {
+      "name": "\uff33\uff33\uff24\u30c9\u30ec\u30a4\u30af",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u901a\u5e38\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff14\u4ee5\u4e0b\uff0f\u30c9\u30e9\u30b4\u30f3\u65cf\uff09\uff12\u4f53\u3092\u9078\u3073\u3001\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u5b88\u5099\u8868\u793a\u3067\u7279\u6b8a\u53ec\u559a\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "SSD \ub4dc\ub808\uc774\ud06c",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \uc77c\ubc18 \ubaac\uc2a4\ud130(\ub808\ubca8 4 \uc774\ud558 / \ub4dc\ub798\uace4\uc871) 2\uc7a5\uc744 \uace0\ub974\uace0, \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \uc218\ube44 \ud45c\uc2dc\ub85c \ud2b9\uc218 \uc18c\ud658\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "dragon",
+  "classifications": [
+    "effect"
+  ],
+  "level": 2,
+  "atk": 700,
+  "def": 300,
+  "passwords": [],
+  "images": [
+    {
+      "id": "99ae7a71-3ace-4ae7-ba10-5cd1d9dc62ff",
+      "card": "https://ms.yugipedia.com//3/3b/SSDDrake-RDSD03-JP-C.png"
+    }
+  ],
+  "sets": [
+    "15adab2a-8746-40d3-a545-bbb610076d23",
+    "b3912bea-7700-43b3-8e58-def0f757111c",
+    "b3912bea-7700-43b3-8e58-def0f757111c"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "r"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "SSD Drake",
+        "id": 716560
+      }
+    ],
+    "dbID": 17950
+  },
+  "series": [
+    "769c25f7-ecce-4241-b6fc-026abf19ab65"
+  ]
+}

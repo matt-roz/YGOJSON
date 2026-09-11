@@ -1,0 +1,42 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "4f03ef8d-d277-4124-ae59-5f262894986a",
+  "text": {
+    "en": {
+      "name": "Pinch Hopper (Rush Duel)",
+      "effect": "Special Summon 1 Insect Type monster from your hand face-up to your field."
+    },
+    "ko": {
+      "name": "\ub300\ud0c0 \uba54\ub69c\uae30",
+      "effect": "\ud328\uc758 \ubaac\uc2a4\ud130(\uace4\ucda9\uc871) 1\uc7a5\uc744 \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \ud45c\uc2dc\ub85c \ud2b9\uc218 \uc18c\ud658\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "insect",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1000,
+  "def": 1200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "ceac1c42-cb0a-46f9-a10c-2c3f5fb64c35",
+      "card": "https://ms.yugipedia.com//1/10/PinchHopper-RDTB02-JP-NPR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Pinch Hopper (Rush Duel)",
+        "id": 1103503
+      }
+    ],
+    "dbID": 21109
+  },
+  "series": []
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "35f21fce-9f70-4453-8688-d3f9d79af713",
+  "text": {
+    "en": {
+      "name": "Maju Garzett (Rush Duel)",
+      "effect": "This card gains ATK equal to [the total original ATK of the 2 monsters Tributed when Tribute Summoning this card in Attack Position].",
+      "official": false
+    },
+    "ko": {
+      "name": "\ud569\uc131\ub9c8\uc218 \uac00\uc82f\ud2b8",
+      "effect": "\uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\ub825\uc740, [\uc774 \uce74\ub4dc\ub97c \uacf5\uaca9 \ud45c\uc2dc\ub85c \uc5b4\ub4dc\ubc34\uc2a4 \uc18c\ud658\ud560 \ub54c\uc5d0 \ub9b4\ub9ac\uc2a4\ud55c \ubaac\uc2a4\ud130 2\uc7a5\uc758 \uc6d0\ub798 \uacf5\uaca9\ub825\uc758 \ud569\uacc4]\ub9cc\ud07c \uc62c\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "fiend",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 0,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "6b27a017-8786-42db-a9e9-79a78d164aee",
+      "card": "https://ms.yugipedia.com//f/f4/MajuGarzett-RDLGP1-JP-UR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Maju Garzett (Rush Duel)",
+        "id": 715767
+      }
+    ],
+    "dbID": 18684
+  },
+  "series": []
+}

@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "15cba616-f512-4aa1-af6b-e93f2fe93be7",
+  "text": {
+    "en": {
+      "name": "Chemipet Chirp",
+      "effect": "Send the top 3 cards of your Deck to the Graveyard. Then, you can add 1 Pyro, Aqua, or Thunder Type monster that has the same Level as [the monster revealed to meet the requirement] from the Graveyard to your hand."
+    },
+    "ja": {
+      "name": "\u30b1\u30df\u30b9\u30da\u30c3\u30c8\u30fb\u30a4\u30f3\u30b3",
+      "effect": "\u81ea\u5206\u306e\u30c7\u30c3\u30ad\u306e\u4e0a\u304b\u3089\u30ab\u30fc\u30c9\uff13\u679a\u3092\u5893\u5730\u3078\u9001\u308b\u3002\u305d\u306e\u5f8c\u3001\u305d\u306e\u4e2d\u304b\u3089\uff3b\u3053\u306e\u52b9\u679c\u306e\u6761\u4ef6\u3067\u898b\u305b\u305f\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u30ec\u30d9\u30eb\uff3d\u3068\u540c\u3058\u30ec\u30d9\u30eb\u3092\u6301\u3064\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u708e\u65cf\u30fb\u6c34\u65cf\u30fb\u96f7\u65cf\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ucf00\ubbf8\uc2a4\ud3ab \uc789\uaf2c",
+      "effect": "\uc790\uc2e0\uc758 \ub371 \uc704\uc5d0\uc11c \uce74\ub4dc 3\uc7a5\uc744 \ubb18\uc9c0\ub85c \ubcf4\ub0b8\ub2e4. \uadf8 \ud6c4, \uadf8 \uc911\uc5d0\uc11c [\uc774 \ud6a8\uacfc\uc758 \uc870\uac74\uc73c\ub85c \ubcf4\uc5ec\uc900 \ubaac\uc2a4\ud130\uc758 \ub808\ubca8]\uacfc \uac19\uc740 \ub808\ubca8\uc744 \uac00\uc9c0\ub294 \ubaac\uc2a4\ud130(\ud654\uc5fc\uc871\u30fb\ubb3c\uc871\u30fb\ubc88\uac1c\uc871) 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\uc744 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "type": "pyro",
+  "classifications": [
+    "effect"
+  ],
+  "level": 1,
+  "atk": 600,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "5996c364-e802-4248-b526-7b36baae884a",
+      "card": "https://ms.yugipedia.com//a/a5/ChemipetChirp-RDB244-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Chemipet Chirp",
+        "id": 1044912
+      }
+    ],
+    "dbID": 20306
+  },
+  "series": [
+    "0d251edd-435a-4124-a397-93aa376c601d"
+  ]
+}

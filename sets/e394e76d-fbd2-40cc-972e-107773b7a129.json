@@ -1,0 +1,496 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "e394e76d-fbd2-40cc-972e-107773b7a129",
+  "name": {
+    "en": "Deluxe Duel Set: Sky Striker Ace",
+    "ja": "\u30c7\u30e9\u30c3\u30af\u30b9\u30c7\u30e5\u30a8\u30eb\u30bb\u30c3\u30c8 \u9583\u5200\u59eb"
+  },
+  "locales": {
+    "jp": {
+      "language": "ja",
+      "prefix": "DDS2-JP",
+      "date": "2026-08-22",
+      "image": "https://ms.yugipedia.com//7/7d/DDS2-PromoJP.png",
+      "cardImages": {
+        "unlimited": {
+          "07d14204-51dc-475d-9937-831a58709b9a": "https://ms.yugipedia.com//b/b2/SkyStrikerAceKagari-DDS2-JP-UR.png",
+          "0c668cdd-fa29-4fd0-b442-0802fa4601e3": "https://ms.yugipedia.com//d/d2/SkyStrikerSpecialManeuverLemnisgate-DDS2-JP-UR.png",
+          "0ee074b3-f8d4-4ac1-89af-2ec5d5420e2d": "https://ms.yugipedia.com//7/70/SkyStrikerMechaEagleBooster-DDS2-JP-UR.png",
+          "1814c198-8821-4d9b-bbbb-0597884cd54f": "https://ms.yugipedia.com//f/f3/SkyStrikerAceShizuku-DDS2-JP-UR.png",
+          "2032f20f-78e0-4ac2-9eaa-b1a4aeb01972": "https://ms.yugipedia.com//a/ab/SurgicalStrikerSPECTRA-DDS2-JP-UR.png",
+          "3ae0e0b6-f449-4cfd-b59a-fab6c6f43033": "https://ms.yugipedia.com//6/63/SkyStrikerMechaSharkCannon-DDS2-JP-UR.png",
+          "4ae61a2c-bbac-4c9d-ae4f-e1101fdd9c66": "https://ms.yugipedia.com//b/b7/SkyStrikerAceHayate-DDS2-JP-UR.png",
+          "5216a058-84a8-480b-97fa-18d134fb1225": "https://ms.yugipedia.com//9/98/SkyStrikerManeuverScissorsCross-DDS2-JP-UR.png",
+          "5b379ba5-68ac-4367-afb3-4ea45bb714f7": "https://ms.yugipedia.com//1/18/SkyStrikerAceAzaleaTemperance-DDS2-JP-UR.png",
+          "7070e93d-dc5b-44dc-83e7-e3d91600f872": "https://ms.yugipedia.com//f/f8/SkyStrikerMechaAdilSaber-DDS2-JP-UR.png",
+          "7119bf40-3a07-4258-858a-b30cba1af260": "https://ms.yugipedia.com//d/db/SageofWisdomHimmel-DDS2-JP-UR.png",
+          "77e4edf3-70ab-42fa-9df3-3274c3ba3105": "https://ms.yugipedia.com//1/16/SkyStrikerMobilizeLinkage-DDS2-JP-UR.png",
+          "8cbe6ec1-2d36-46e7-86cf-98846c459de5": "https://ms.yugipedia.com//4/4f/SkyStrikerMechaWidowAnchor-DDS2-JP-UR.png",
+          "8eaf17a4-7083-483c-b543-6861e3166376": "https://ms.yugipedia.com//8/82/SkyStrikerMecharmoryHerculesBase-DDS2-JP-UR.png",
+          "940dae9d-c97b-4a1c-9a2b-46092e4ef20d": "https://ms.yugipedia.com//e/ef/SkyStrikerAceRoze-DDS2-JP-UR.png",
+          "954d8911-8a60-4dce-9c19-7a5b92e493f1": "https://ms.yugipedia.com//b/b8/RedArrows-DDS2-JP-UR.png",
+          "a14556e6-9106-4080-afbd-84326549de8e": "https://ms.yugipedia.com//0/02/SkyStrikerMobilizeEngage-DDS2-JP-UR.png",
+          "a1f50a90-b808-4380-b725-80c7399edd7d": "https://ms.yugipedia.com//6/6b/PillaroftheFutureCyanos-DDS2-JP-UR.png",
+          "a30e31d2-ed35-4cf8-a592-c586d5e570f3": "https://ms.yugipedia.com//c/c3/SkyStrikerManeuverVectorBlast-DDS2-JP-UR.png",
+          "a736e891-03e3-4a03-8e2b-b52385328ce1": "https://ms.yugipedia.com//1/18/SkyStrikerAirspaceAreaZero-DDS2-JP-UR.png",
+          "a9f855e9-7b7f-4cc7-a8b7-e5afe010c644": "https://ms.yugipedia.com//d/db/Aileron-DDS2-JP-UR.png",
+          "aa499c44-cf5b-4356-abd2-c790045c9c5d": "https://ms.yugipedia.com//8/86/SurgicalStrikerHAMP-DDS2-JP-UR.png",
+          "ab3913df-077f-4ff7-bdad-704ce8613437": "https://ms.yugipedia.com//f/f5/SkyStrikerManeuverAfterburners-DDS2-JP-UR.png",
+          "bf0758df-c299-4893-a476-27806e6d964a": "https://ms.yugipedia.com//3/37/SkyStrikerMechaModulesMultirole-DDS2-JP-UR.png",
+          "c89d35bf-0da3-43be-bcb8-dbdc9034d8c5": "https://ms.yugipedia.com//c/c8/SkyStrikerMechaWidowAnchor-DDS2-JP-PScR.png",
+          "cc631b6b-6020-400b-b844-f597470ebe7a": "https://ms.yugipedia.com//b/b4/SkyStrikerAceRaye-DDS2-JP-UR.png",
+          "ced8f7c8-b30d-4427-9b4f-6de93921b169": "https://ms.yugipedia.com//2/25/SkyStrikerMechaHornetDrones-DDS2-JP-UR.png",
+          "cf0bd992-5733-41f2-91a2-69a8ddb5421f": "https://ms.yugipedia.com//0/01/SkyStrikerAceZeke-DDS2-JP-UR.png",
+          "d61a1ba4-e35c-4787-aca5-efbc1101016e": "https://ms.yugipedia.com//d/d2/SkyStrikerAceKaina-DDS2-JP-UR.png",
+          "dcd43320-1f5a-47eb-a3b5-79b25b522c3e": "https://ms.yugipedia.com//a/a6/SkyStrikerAceAzalea-DDS2-JP-UR.png",
+          "de3778b5-cc39-4023-baa1-88d6dc3997ac": "https://ms.yugipedia.com//5/51/SkyStrikerAceZero-DDS2-JP-UR.png",
+          "e005aacb-9510-4db0-9cbd-7a19940607b1": "https://ms.yugipedia.com//e/e1/SkyStrikerAceToken-DDS2-JP-UR.png",
+          "e1b1e431-8d1f-46e5-9e57-aed74890f5bf": "https://ms.yugipedia.com//1/1a/SkyStrikerMobilizeLinkage-DDS2-JP-PScR.png",
+          "eed9ed6b-3616-4c4c-a7cd-a9ee735ff142": "https://ms.yugipedia.com//1/17/SageofStrengthAkash-DDS2-JP-UR.png",
+          "f492100c-59bc-4fcf-aa7b-3b34c3d876d9": "https://ms.yugipedia.com//8/8d/SkyStrikerManeuverJammingWaves-DDS2-JP-UR.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "07d14204-51dc-475d-9937-831a58709b9a": {
+            "image": "https://ms.yugipedia.com//b/b2/SkyStrikerAceKagari-DDS2-JP-UR.png",
+            "variants": [
+              {
+                "code": "AA",
+                "image": "https://ms.yugipedia.com//9/98/SkyStrikerAceKagari-DDS2-JP-UR-AA.png",
+                "variant": "alternate-art",
+                "imageID": "283373b1-0bd2-49ba-a7f3-680ce29a94ef"
+              }
+            ]
+          },
+          "0c668cdd-fa29-4fd0-b442-0802fa4601e3": {
+            "image": "https://ms.yugipedia.com//d/d2/SkyStrikerSpecialManeuverLemnisgate-DDS2-JP-UR.png"
+          },
+          "0ee074b3-f8d4-4ac1-89af-2ec5d5420e2d": {
+            "image": "https://ms.yugipedia.com//7/70/SkyStrikerMechaEagleBooster-DDS2-JP-UR.png"
+          },
+          "1814c198-8821-4d9b-bbbb-0597884cd54f": {
+            "image": "https://ms.yugipedia.com//f/f3/SkyStrikerAceShizuku-DDS2-JP-UR.png",
+            "variants": [
+              {
+                "code": "AA",
+                "image": "https://ms.yugipedia.com//0/07/SkyStrikerAceShizuku-DDS2-JP-UR-AA.png",
+                "variant": "alternate-art",
+                "imageID": "aba71ddc-74c4-4c78-8840-b4915bdc43d6"
+              }
+            ]
+          },
+          "2032f20f-78e0-4ac2-9eaa-b1a4aeb01972": {
+            "image": "https://ms.yugipedia.com//a/ab/SurgicalStrikerSPECTRA-DDS2-JP-UR.png"
+          },
+          "3ae0e0b6-f449-4cfd-b59a-fab6c6f43033": {
+            "image": "https://ms.yugipedia.com//6/63/SkyStrikerMechaSharkCannon-DDS2-JP-UR.png"
+          },
+          "4ae61a2c-bbac-4c9d-ae4f-e1101fdd9c66": {
+            "image": "https://ms.yugipedia.com//b/b7/SkyStrikerAceHayate-DDS2-JP-UR.png",
+            "variants": [
+              {
+                "code": "AA",
+                "image": "https://ms.yugipedia.com//3/37/SkyStrikerAceHayate-DDS2-JP-UR-AA.png",
+                "variant": "alternate-art",
+                "imageID": "62435873-fa22-4c6e-948e-faedd15cc0b4"
+              }
+            ]
+          },
+          "5216a058-84a8-480b-97fa-18d134fb1225": {
+            "image": "https://ms.yugipedia.com//9/98/SkyStrikerManeuverScissorsCross-DDS2-JP-UR.png"
+          },
+          "5b379ba5-68ac-4367-afb3-4ea45bb714f7": {
+            "image": "https://ms.yugipedia.com//1/18/SkyStrikerAceAzaleaTemperance-DDS2-JP-UR.png"
+          },
+          "7070e93d-dc5b-44dc-83e7-e3d91600f872": {
+            "image": "https://ms.yugipedia.com//f/f8/SkyStrikerMechaAdilSaber-DDS2-JP-UR.png"
+          },
+          "7119bf40-3a07-4258-858a-b30cba1af260": {
+            "image": "https://ms.yugipedia.com//d/db/SageofWisdomHimmel-DDS2-JP-UR.png"
+          },
+          "77e4edf3-70ab-42fa-9df3-3274c3ba3105": {
+            "image": "https://ms.yugipedia.com//1/16/SkyStrikerMobilizeLinkage-DDS2-JP-UR.png"
+          },
+          "8cbe6ec1-2d36-46e7-86cf-98846c459de5": {
+            "image": "https://ms.yugipedia.com//4/4f/SkyStrikerMechaWidowAnchor-DDS2-JP-UR.png"
+          },
+          "8eaf17a4-7083-483c-b543-6861e3166376": {
+            "image": "https://ms.yugipedia.com//8/82/SkyStrikerMecharmoryHerculesBase-DDS2-JP-UR.png"
+          },
+          "940dae9d-c97b-4a1c-9a2b-46092e4ef20d": {
+            "image": "https://ms.yugipedia.com//e/ef/SkyStrikerAceRoze-DDS2-JP-UR.png",
+            "variants": [
+              {
+                "code": "AA",
+                "image": "https://ms.yugipedia.com//4/47/SkyStrikerAceRoze-DDS2-JP-UR-AA.png",
+                "variant": "alternate-art",
+                "imageID": "f9f38644-9094-44ef-899e-9d5fca4f3db6"
+              }
+            ]
+          },
+          "954d8911-8a60-4dce-9c19-7a5b92e493f1": {
+            "image": "https://ms.yugipedia.com//b/b8/RedArrows-DDS2-JP-UR.png"
+          },
+          "a14556e6-9106-4080-afbd-84326549de8e": {
+            "image": "https://ms.yugipedia.com//0/02/SkyStrikerMobilizeEngage-DDS2-JP-UR.png",
+            "variants": [
+              {
+                "code": "AA",
+                "image": "https://ms.yugipedia.com//5/58/SkyStrikerMobilizeEngage-DDS2-JP-UR-AA.png",
+                "variant": "alternate-art",
+                "imageID": "9973b5d0-98b0-437e-a985-58eaa5f2a25a"
+              }
+            ]
+          },
+          "a1f50a90-b808-4380-b725-80c7399edd7d": {
+            "image": "https://ms.yugipedia.com//6/6b/PillaroftheFutureCyanos-DDS2-JP-UR.png"
+          },
+          "a30e31d2-ed35-4cf8-a592-c586d5e570f3": {
+            "image": "https://ms.yugipedia.com//c/c3/SkyStrikerManeuverVectorBlast-DDS2-JP-UR.png"
+          },
+          "a736e891-03e3-4a03-8e2b-b52385328ce1": {
+            "image": "https://ms.yugipedia.com//1/18/SkyStrikerAirspaceAreaZero-DDS2-JP-UR.png"
+          },
+          "a9f855e9-7b7f-4cc7-a8b7-e5afe010c644": {
+            "image": "https://ms.yugipedia.com//d/db/Aileron-DDS2-JP-UR.png"
+          },
+          "aa499c44-cf5b-4356-abd2-c790045c9c5d": {
+            "image": "https://ms.yugipedia.com//8/86/SurgicalStrikerHAMP-DDS2-JP-UR.png"
+          },
+          "ab3913df-077f-4ff7-bdad-704ce8613437": {
+            "image": "https://ms.yugipedia.com//f/f5/SkyStrikerManeuverAfterburners-DDS2-JP-UR.png"
+          },
+          "bf0758df-c299-4893-a476-27806e6d964a": {
+            "image": "https://ms.yugipedia.com//3/37/SkyStrikerMechaModulesMultirole-DDS2-JP-UR.png"
+          },
+          "c89d35bf-0da3-43be-bcb8-dbdc9034d8c5": {
+            "image": "https://ms.yugipedia.com//c/c8/SkyStrikerMechaWidowAnchor-DDS2-JP-PScR.png"
+          },
+          "cc631b6b-6020-400b-b844-f597470ebe7a": {
+            "image": "https://ms.yugipedia.com//b/b4/SkyStrikerAceRaye-DDS2-JP-UR.png",
+            "variants": [
+              {
+                "code": "AA",
+                "image": "https://ms.yugipedia.com//5/5b/SkyStrikerAceRaye-DDS2-JP-UR-AA.png",
+                "variant": "alternate-art",
+                "imageID": "44114b43-1bf5-4b3d-a6e1-907280c7046d"
+              },
+              {
+                "code": "AA2",
+                "image": "https://ms.yugipedia.com//1/17/SkyStrikerAceRaye-DDS2-JP-UR-AA2.png",
+                "variant": "alternate-art",
+                "imageID": "608df49e-b62a-407d-afeb-b75ad624e19a"
+              }
+            ]
+          },
+          "ced8f7c8-b30d-4427-9b4f-6de93921b169": {
+            "image": "https://ms.yugipedia.com//2/25/SkyStrikerMechaHornetDrones-DDS2-JP-UR.png"
+          },
+          "cf0bd992-5733-41f2-91a2-69a8ddb5421f": {
+            "image": "https://ms.yugipedia.com//0/01/SkyStrikerAceZeke-DDS2-JP-UR.png"
+          },
+          "d61a1ba4-e35c-4787-aca5-efbc1101016e": {
+            "image": "https://ms.yugipedia.com//d/d2/SkyStrikerAceKaina-DDS2-JP-UR.png"
+          },
+          "dcd43320-1f5a-47eb-a3b5-79b25b522c3e": {
+            "image": "https://ms.yugipedia.com//a/a6/SkyStrikerAceAzalea-DDS2-JP-UR.png"
+          },
+          "de3778b5-cc39-4023-baa1-88d6dc3997ac": {
+            "image": "https://ms.yugipedia.com//5/51/SkyStrikerAceZero-DDS2-JP-UR.png"
+          },
+          "e005aacb-9510-4db0-9cbd-7a19940607b1": {
+            "image": "https://ms.yugipedia.com//e/e1/SkyStrikerAceToken-DDS2-JP-UR.png"
+          },
+          "e1b1e431-8d1f-46e5-9e57-aed74890f5bf": {
+            "image": "https://ms.yugipedia.com//1/1a/SkyStrikerMobilizeLinkage-DDS2-JP-PScR.png"
+          },
+          "eed9ed6b-3616-4c4c-a7cd-a9ee735ff142": {
+            "image": "https://ms.yugipedia.com//1/17/SageofStrengthAkash-DDS2-JP-UR.png"
+          },
+          "f492100c-59bc-4fcf-aa7b-3b34c3d876d9": {
+            "image": "https://ms.yugipedia.com//8/8d/SkyStrikerManeuverJammingWaves-DDS2-JP-UR.png"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {}
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//7/7d/DDS2-PromoJP.png",
+      "cards": [
+        {
+          "id": "c89d35bf-0da3-43be-bcb8-dbdc9034d8c5",
+          "card": "d9c7563b-e9f3-4fb5-a15a-284c0b017abf",
+          "suffix": "S01",
+          "rarity": "prismaticsecret",
+          "imageID": "c29db077-29f5-42e4-a8f5-60c08dc4b42e"
+        },
+        {
+          "id": "e1b1e431-8d1f-46e5-9e57-aed74890f5bf",
+          "card": "4a1b6408-04d5-4971-b589-2276b6548568",
+          "suffix": "S02",
+          "rarity": "prismaticsecret",
+          "imageID": "ea47a6e5-81d3-4e40-ab3b-9623a5e847ce"
+        },
+        {
+          "id": "cc631b6b-6020-400b-b844-f597470ebe7a",
+          "card": "6e922ffd-271c-42f6-a924-985fdb761495",
+          "suffix": "001",
+          "rarity": "ultra",
+          "imageID": "44114b43-1bf5-4b3d-a6e1-907280c7046d",
+          "qty": 3
+        },
+        {
+          "id": "940dae9d-c97b-4a1c-9a2b-46092e4ef20d",
+          "card": "2245ba0c-1967-4317-80cf-7cd88f76aebd",
+          "suffix": "002",
+          "rarity": "ultra",
+          "imageID": "f9f38644-9094-44ef-899e-9d5fca4f3db6",
+          "qty": 2
+        },
+        {
+          "id": "aa499c44-cf5b-4356-abd2-c790045c9c5d",
+          "card": "31e2ed36-ae7d-4bfb-8770-f6fbd47cdcf1",
+          "suffix": "003",
+          "rarity": "ultra",
+          "imageID": "b9c569f3-2b1b-4fdd-b30e-bcc73cb3ef1d"
+        },
+        {
+          "id": "a9f855e9-7b7f-4cc7-a8b7-e5afe010c644",
+          "card": "fb6a663d-ae02-4aa9-bb54-9337342556e3",
+          "suffix": "004",
+          "rarity": "ultra",
+          "imageID": "9f0216ce-0788-4ebf-a704-5248b4293538"
+        },
+        {
+          "id": "eed9ed6b-3616-4c4c-a7cd-a9ee735ff142",
+          "card": "c09feca2-9761-4610-b456-eb2b1957e60c",
+          "suffix": "005",
+          "rarity": "ultra",
+          "imageID": "604b6c19-a60a-4a33-9112-2c253ff935b7"
+        },
+        {
+          "id": "7119bf40-3a07-4258-858a-b30cba1af260",
+          "card": "4b761a94-05ed-4c6e-b0ce-c3d4337d1ba2",
+          "suffix": "006",
+          "rarity": "ultra",
+          "imageID": "9f3f8ab2-f0a4-47e4-9516-c10ad5fa0800"
+        },
+        {
+          "id": "a1f50a90-b808-4380-b725-80c7399edd7d",
+          "card": "0b6e8d04-c397-4913-8ecb-2d96dcc47dfa",
+          "suffix": "007",
+          "rarity": "ultra",
+          "imageID": "3194df93-94a8-42af-a8cf-2f48e83d869d"
+        },
+        {
+          "id": "7070e93d-dc5b-44dc-83e7-e3d91600f872",
+          "card": "6f46e809-1a58-4247-b319-eb03d6f5a8e6",
+          "suffix": "008",
+          "rarity": "ultra"
+        },
+        {
+          "id": "07d14204-51dc-475d-9937-831a58709b9a",
+          "card": "5c2217d2-5f69-4acb-a631-65ca216135b6",
+          "suffix": "009",
+          "rarity": "ultra",
+          "imageID": "283373b1-0bd2-49ba-a7f3-680ce29a94ef",
+          "qty": 2
+        },
+        {
+          "id": "1814c198-8821-4d9b-bbbb-0597884cd54f",
+          "card": "57455972-2632-40f8-93f8-c5fcfaf8b1ba",
+          "suffix": "010",
+          "rarity": "ultra",
+          "imageID": "aba71ddc-74c4-4c78-8840-b4915bdc43d6",
+          "qty": 2
+        },
+        {
+          "id": "4ae61a2c-bbac-4c9d-ae4f-e1101fdd9c66",
+          "card": "8f87bda9-9dfd-4ea2-a5d8-46c68f250c19",
+          "suffix": "011",
+          "rarity": "ultra",
+          "imageID": "62435873-fa22-4c6e-948e-faedd15cc0b4",
+          "qty": 2
+        },
+        {
+          "id": "d61a1ba4-e35c-4787-aca5-efbc1101016e",
+          "card": "93a77141-a258-45e6-9953-6cdd0e2570fe",
+          "suffix": "012",
+          "rarity": "ultra",
+          "imageID": "9a798d95-48e9-45b5-85a9-cd552350846f"
+        },
+        {
+          "id": "cf0bd992-5733-41f2-91a2-69a8ddb5421f",
+          "card": "032fcbb2-d867-49c8-b806-92528e1c1c13",
+          "suffix": "013",
+          "rarity": "ultra",
+          "imageID": "321964ca-0580-409b-8b62-38cd3f9d3b5a"
+        },
+        {
+          "id": "de3778b5-cc39-4023-baa1-88d6dc3997ac",
+          "card": "02277e4a-2d5e-48c7-af02-aca91fef3a3f",
+          "suffix": "014",
+          "rarity": "ultra"
+        },
+        {
+          "id": "dcd43320-1f5a-47eb-a3b5-79b25b522c3e",
+          "card": "05ff7c07-e115-435c-8314-c404a3eb2f19",
+          "suffix": "015",
+          "rarity": "ultra",
+          "imageID": "e0f66762-f6a1-4785-87d2-983979d27c4c"
+        },
+        {
+          "id": "5b379ba5-68ac-4367-afb3-4ea45bb714f7",
+          "card": "c1023c7c-7b96-4f4e-bb38-8c7f1c253a2b",
+          "suffix": "016",
+          "rarity": "ultra",
+          "imageID": "d4456204-f4cd-45c3-a876-2af245378d44"
+        },
+        {
+          "id": "2032f20f-78e0-4ac2-9eaa-b1a4aeb01972",
+          "card": "0ec7218f-1997-4ba2-bbd4-f1d821923dbd",
+          "suffix": "017",
+          "rarity": "ultra",
+          "imageID": "df810899-92e7-4a48-ace1-0605d49048c0"
+        },
+        {
+          "id": "a14556e6-9106-4080-afbd-84326549de8e",
+          "card": "6bab424c-6e6f-462a-b92e-41f329a6def9",
+          "suffix": "018",
+          "rarity": "ultra",
+          "imageID": "9973b5d0-98b0-437e-a985-58eaa5f2a25a",
+          "qty": 2
+        },
+        {
+          "id": "ab3913df-077f-4ff7-bdad-704ce8613437",
+          "card": "3eeac981-edc3-4b8f-b9dc-38852c406f41",
+          "suffix": "019",
+          "rarity": "ultra",
+          "imageID": "2a4389cb-db2c-4566-99af-bc2604210cd6"
+        },
+        {
+          "id": "f492100c-59bc-4fcf-aa7b-3b34c3d876d9",
+          "card": "d39e816f-dcfa-4b21-9114-80f6605eca22",
+          "suffix": "020",
+          "rarity": "ultra",
+          "imageID": "a3fbf7ea-232d-4fc8-bb8e-7e1610c235f7"
+        },
+        {
+          "id": "ced8f7c8-b30d-4427-9b4f-6de93921b169",
+          "card": "1739608b-0489-4640-8c96-81625fe04f21",
+          "suffix": "021",
+          "rarity": "ultra",
+          "imageID": "3426bba3-3a06-49e2-9491-3ffd663feb07"
+        },
+        {
+          "id": "8cbe6ec1-2d36-46e7-86cf-98846c459de5",
+          "card": "d9c7563b-e9f3-4fb5-a15a-284c0b017abf",
+          "suffix": "022",
+          "rarity": "ultra",
+          "imageID": "c29db077-29f5-42e4-a8f5-60c08dc4b42e"
+        },
+        {
+          "id": "0ee074b3-f8d4-4ac1-89af-2ec5d5420e2d",
+          "card": "169340fb-1882-458b-9bf1-85d2d50ed9e9",
+          "suffix": "023",
+          "rarity": "ultra",
+          "imageID": "6411de77-2d5a-46f8-9fea-e03b0d6f7b7d"
+        },
+        {
+          "id": "3ae0e0b6-f449-4cfd-b59a-fab6c6f43033",
+          "card": "b1a05276-d3bf-46a1-8e92-b10874675d20",
+          "suffix": "024",
+          "rarity": "ultra",
+          "imageID": "2b7d732d-7864-4143-b833-46008033dd86"
+        },
+        {
+          "id": "8eaf17a4-7083-483c-b543-6861e3166376",
+          "card": "424ea929-167d-46ab-81bd-e15186f6bf2c",
+          "suffix": "025",
+          "rarity": "ultra",
+          "imageID": "e78f4fbc-ed9c-40ef-8e1a-e5f441d7c8de"
+        },
+        {
+          "id": "bf0758df-c299-4893-a476-27806e6d964a",
+          "card": "d66d1961-cef8-4bfa-b35d-0a295cced503",
+          "suffix": "026",
+          "rarity": "ultra",
+          "imageID": "17975a9a-5b37-432b-8b02-612060b40760"
+        },
+        {
+          "id": "a736e891-03e3-4a03-8e2b-b52385328ce1",
+          "card": "6f68bf68-73e3-4538-80b5-427d4e3ef338",
+          "suffix": "027",
+          "rarity": "ultra",
+          "imageID": "f0d0f1bf-16e0-4ab9-a4b4-080362e8927e"
+        },
+        {
+          "id": "a30e31d2-ed35-4cf8-a592-c586d5e570f3",
+          "card": "2fb18113-534b-4a2f-bc55-cf56feb3c24a",
+          "suffix": "028",
+          "rarity": "ultra",
+          "imageID": "de2af36b-bdb7-4004-a81e-2f2a5e2e1ff1"
+        },
+        {
+          "id": "5216a058-84a8-480b-97fa-18d134fb1225",
+          "card": "387ffd13-d9bf-40e0-89f4-b7f0463d37e3",
+          "suffix": "029",
+          "rarity": "ultra",
+          "imageID": "81be0c4b-2bb5-4169-bfe8-2cfbb07e667a"
+        },
+        {
+          "id": "77e4edf3-70ab-42fa-9df3-3274c3ba3105",
+          "card": "4a1b6408-04d5-4971-b589-2276b6548568",
+          "suffix": "030",
+          "rarity": "ultra",
+          "imageID": "ea47a6e5-81d3-4e40-ab3b-9623a5e847ce"
+        },
+        {
+          "id": "0c668cdd-fa29-4fd0-b442-0802fa4601e3",
+          "card": "849c059f-e177-4f91-a1db-222f95a6f9ae",
+          "suffix": "031",
+          "rarity": "ultra"
+        },
+        {
+          "id": "954d8911-8a60-4dce-9c19-7a5b92e493f1",
+          "card": "7e0afc6f-d57f-4980-b587-bb992d8f898b",
+          "suffix": "032",
+          "rarity": "ultra",
+          "imageID": "81f60a55-e158-481e-ab59-86b8aa754b49"
+        },
+        {
+          "id": "e005aacb-9510-4db0-9cbd-7a19940607b1",
+          "card": "e393b454-0d0f-47d1-8f85-a637791e0d81",
+          "suffix": "033",
+          "rarity": "ultra",
+          "imageID": "64458b0f-eb83-4200-800f-8d33de42cbc2"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Deluxe Duel Set: Sky Striker Ace",
+      "id": 1177931
+    }
+  }
+}

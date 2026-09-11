@@ -1,0 +1,52 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "ac31e289-0824-4559-9021-fa018b18fba9",
+  "text": {
+    "en": {
+      "name": "Chemical Cure Red",
+      "effect": "Gain 500 LP. Then, if you gained LP by this effect, you can add any number of \"Red Medicine\" from your Graveyard to your hand."
+    },
+    "ja": {
+      "name": "\u30b1\u30df\u30ab\u30eb\u30ad\u30e5\u30a2\u30fb\u30ec\u30c3\u30c9",
+      "effect": "\u81ea\u5206\u306f\uff15\uff10\uff10\uff2c\uff30\u56de\u5fa9\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u30ec\u30c3\u30c9\u30fb\u30dd\u30fc\u30b7\u30e7\u30f3\u300d\u3092\u597d\u304d\u306a\u6570\u3060\u3051\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ucf00\ubbf8\uce7c\ud050\uc5b4 \ub808\ub4dc",
+      "effect": "\uc790\uc2e0\uc740 500 LP \ud68c\ubcf5\ud55c\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0 \ubb18\uc9c0\uc758 \"\ub808\ub4dc \ud3ec\uc158\"\uc744 \uc88b\uc544\ud558\ub294 \uc218\ub9cc\ud07c \uace0\ub974\uace0 \ud328\uc5d0 \ub123\uc744 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "type": "psychic",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1300,
+  "def": 500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "be4fbbff-472e-4ebc-8f6b-29743078193c",
+      "card": "https://ms.yugipedia.com//6/6c/ChemicalCureRed-RDSD04-JP-C.png"
+    }
+  ],
+  "sets": [
+    "c05d7ca5-5bea-4c0f-884c-dd1ec7f1be77",
+    "c05d7ca5-5bea-4c0f-884c-dd1ec7f1be77"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Chemical Cure Red",
+        "id": 714266
+      }
+    ],
+    "dbID": 16915
+  },
+  "series": []
+}

@@ -1,0 +1,71 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "cc7c20ca-92fc-4b47-868c-f07a0a2047d1",
+  "text": {
+    "en": {
+      "name": "Defender of Dragon Sorcerers",
+      "effect": "1 monster on your field cannot be destroyed by an opponent's card effect this turn."
+    },
+    "fr": {
+      "name": "D\u00e9fenseur des Sorciers du Dragon",
+      "effect": "1 monstre sur votre Terrain ne peut \u00eatre d\u00e9truit par un effet de carte de l'adversaire ce tour."
+    },
+    "de": {
+      "name": "Verteidiger der Drachenzauberer",
+      "effect": "1 Monster auf deiner Spielfeldseite kann in diesem Spielzug nicht durch einen Karteneffekt eines Gegners zerst\u00f6rt werden."
+    },
+    "it": {
+      "name": "Difensore degli Stregoni Drago",
+      "effect": "1 mostro sul tuo Terreno non pu\u00f2 essere distrutto dall'effetto di una carta dell'avversario in questo turno."
+    },
+    "es": {
+      "name": "Defensor de Hechiceros Drag\u00f3n",
+      "effect": "1 monstruo en tu Campo no puede ser destruido por el efecto de una carta del adversario este turno."
+    },
+    "ja": {
+      "name": "\u5b88\u8b77\u306e\u7adc\u9b54\u5c0e\u58eb",
+      "effect": "\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u3092\u9078\u3076\u3002\u3053\u306e\u30bf\u30fc\u30f3\u3001\u305d\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u306f\u76f8\u624b\u306e\u52b9\u679c\u3067\u306f\u7834\u58ca\u3055\u308c\u306a\u3044\u3002"
+    },
+    "ko": {
+      "name": "\uc218\ud638\uc758 \uc6a9\ub9c8\ub3c4\uc0ac",
+      "effect": "\uc790\uc2e0 \ud544\ub4dc\uc758 \ubaac\uc2a4\ud130 1\uc7a5\uc744 \uace0\ub978\ub2e4. \uc774 \ud134\uc5d0, \uadf8 \ubaac\uc2a4\ud130\ub294 \uc0c1\ub300 \ud6a8\uacfc\ub85c\ub294 \ud30c\uad34\ub418\uc9c0 \uc54a\ub294\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "spellcaster",
+  "classifications": [
+    "effect"
+  ],
+  "level": 2,
+  "atk": 500,
+  "def": 500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "c86d173c-b112-4b45-a9ce-ecfd9d3f1a02",
+      "card": "https://ms.yugipedia.com//2/20/DefenderofDragonSorcerers-RDSD0A-JP-C.png"
+    }
+  ],
+  "sets": [
+    "c0287cbc-dc56-47ae-9e89-0af80eb1b3d9",
+    "b0d594ec-1f44-402f-a994-a88c19a50a43",
+    "b0d594ec-1f44-402f-a994-a88c19a50a43",
+    "11548122-d48e-4313-aff4-6d29bca3f0b0",
+    "cd789676-cedd-4bac-9b31-6fe414ff91be"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "r"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Defender of Dragon Sorcerers",
+        "id": 714501
+      }
+    ],
+    "dbID": 15203
+  },
+  "series": []
+}

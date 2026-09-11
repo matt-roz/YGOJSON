@@ -1,0 +1,42 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "8912a801-6347-4a87-9945-09060a2427ed",
+  "text": {
+    "en": {
+      "name": "Hyosube (Rush Duel)",
+      "effect": "This amphibian is strong on the attack, but leaves much to be desired when defending."
+    },
+    "ko": {
+      "name": "\ud6a8\uc2a4\ubca0",
+      "effect": "\ubb3c\uc18d\uc5d0 \uc0ac\ub294 \uc694\uad34 \ub300\uc7a5. \uacf5\uaca9\ub825\uc740 \uc758\uc678\ub85c \ub192\uc73c\ub098, \uc218\ube44\ub825\uc740 \ub0ae\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "type": "aqua",
+  "classifications": [
+    "normal"
+  ],
+  "level": 4,
+  "atk": 1500,
+  "def": 900,
+  "passwords": [],
+  "images": [
+    {
+      "id": "f6ee5f08-3e3a-4d7d-b9f8-2ca5cbdeb56b",
+      "card": "https://ms.yugipedia.com//6/6b/Hyosube-RDKP10-JP-R.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Hyosube (Rush Duel)",
+        "id": 715347
+      }
+    ],
+    "dbID": 17852
+  },
+  "series": []
+}

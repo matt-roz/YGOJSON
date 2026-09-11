@@ -1,0 +1,55 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "7232b5c2-10b7-498d-9530-ddc086768028",
+  "text": {
+    "en": {
+      "name": "The Dragon",
+      "effect": "A dragon of justice that makes you envision a supernova clash! The name is, The Dragon!"
+    },
+    "ja": {
+      "name": "\u30b6\u2606\u30c9\u30e9\u30b4\u30f3",
+      "effect": "\u8d85\u65b0\u661f\u6fc0\u7a81\u3092\u4e88\u671f\u3055\u305b\u308b\u6b63\u7fa9\u306e\u30c9\u30e9\u30b4\u30f3\uff01\u305d\u306e\u540d\u3082\u3001\u30b6\u2606\u30c9\u30e9\u30b4\u30f3\uff01"
+    },
+    "ko": {
+      "name": "\ub354\u2606\ub4dc\ub798\uace4",
+      "effect": "\ucd08\uc2e0\uc131 \uaca9\ub3cc\uc774 \uc608\uc0c1\ub418\ub294 \uc815\uc758\uc758 \ub4dc\ub798\uace4! \uadf8 \uc774\ub984\uc740, \ub354\u2606\ub4dc\ub798\uace4!"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "dragon",
+  "classifications": [
+    "normal"
+  ],
+  "level": 1,
+  "atk": 0,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "c7a6fd9a-3e8c-43b1-af70-eddfa8751a30",
+      "card": "https://ms.yugipedia.com//8/8c/TheDragon-RDGRC1-JP-SR.png"
+    }
+  ],
+  "sets": [
+    "f15281f0-8ea5-4682-b72c-36f0b779a7bc",
+    "b6e8e337-8faf-48be-851d-4ba7298c81d0",
+    "fa6096f7-75e2-43af-90f5-a5bbc2febd9a"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "n"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "The Dragon",
+        "id": 717064
+      }
+    ],
+    "dbID": 16910
+  },
+  "series": [
+    "c47c618f-a8e3-4dbf-b2e2-f893c7428dff"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "3372c6ed-a1a2-44ee-a732-662efc4c6859",
+  "text": {
+    "en": {
+      "name": "Harpie Signora",
+      "effect": "Send the top 2 cards of your Deck to the Graveyard. If a \"Harpie Lady\" or \"Harpie Lady Sisters\" is among the cards sent, you can also draw 1 card."
+    },
+    "ja": {
+      "name": "\u30cf\u30fc\u30d4\u30a3\u30fb\u30b7\u30cb\u30e7\u30fc\u30e9",
+      "effect": "\u81ea\u5206\u306e\u30c7\u30c3\u30ad\u306e\u4e0a\u304b\u3089\u30ab\u30fc\u30c9\uff12\u679a\u3092\u5893\u5730\u3078\u9001\u308b\u3002\u305d\u306e\u4e2d\u306b\u300c\u30cf\u30fc\u30d4\u30a3\u30fb\u30ec\u30c7\u30a3\u300d\u307e\u305f\u306f\u300c\u30cf\u30fc\u30d4\u30a3\u4e09\u59c9\u59b9\u300d\u304c\u3044\u305f\u5834\u5408\u3001\u3055\u3089\u306b\u81ea\u5206\u306f\uff11\u679a\u30c9\u30ed\u30fc\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud574\ud53c \uc2dc\ub1e8\ub77c",
+      "effect": "\uc790\uc2e0\uc758 \ub371 \uc704\uc5d0\uc11c \uce74\ub4dc 2\uc7a5\uc744 \ubb18\uc9c0\ub85c \ubcf4\ub0b8\ub2e4. \uadf8 \uc911\uc5d0 \"\ud574\ud53c \ub808\uc774\ub514\" \ub610\ub294 \"\ud574\ud53c\ub808\uc774\ub514\uc988\"\uac00 \uc788\uc5c8\uc744 \uacbd\uc6b0, \ucd94\uac00\ub85c \uc790\uc2e0\uc740 1\uc7a5 \ub4dc\ub85c\uc6b0\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "wind",
+  "type": "wingedbeast",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1000,
+  "def": 300,
+  "passwords": [],
+  "images": [
+    {
+      "id": "65a76afe-9ec4-450a-9987-6bb9a2537435",
+      "card": "https://ms.yugipedia.com//1/15/HarpieSignora-RDB252-JP-SR.png"
+    }
+  ],
+  "sets": [
+    "d867f9ff-46bb-44fa-9cb3-94491d964afd",
+    "d867f9ff-46bb-44fa-9cb3-94491d964afd"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Harpie Signora",
+        "id": 1114456
+      }
+    ],
+    "dbID": 21400
+  },
+  "series": [
+    "04dde7f8-0a7d-4b74-b812-f493b9fb1f62"
+  ]
+}

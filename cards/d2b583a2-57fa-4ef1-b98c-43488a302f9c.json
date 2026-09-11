@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "d2b583a2-57fa-4ef1-b98c-43488a302f9c",
+  "text": {
+    "en": {
+      "name": "Emir of the Monumenthes",
+      "effect": "This card and Spell/Trap Cards on your field cannot be destroyed by your opponent's card effects. Face-up EARTH Attribute Beast-Warrior Type monsters on your field gain 500 ATK.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u51a5\u8de1\u306e\u30a2\u30df\u30fc\u30eb",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u3068\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u9b54\u6cd5\u30fb\u7f60\u30ab\u30fc\u30c9\u306f\u76f8\u624b\u306e\u52b9\u679c\u3067\u306f\u7834\u58ca\u3055\u308c\u306a\u3044\u3002\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u5730\u5c5e\u6027\uff0f\u7363\u6226\u58eb\u65cf\uff09\u306e\u653b\u6483\u529b\u306f\uff15\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uba85\uc801\uc758 \uc544\ubbf8\ub974",
+      "effect": "\uc774 \uce74\ub4dc\uc640 \uc790\uc2e0 \ud544\ub4dc\uc758 \ub9c8\ubc95 / \ud568\uc815 \uce74\ub4dc\ub294 \uc0c1\ub300\uc758 \ud6a8\uacfc\ub85c\ub294 \ud30c\uad34\ub418\uc9c0 \uc54a\ub294\ub2e4. \uc790\uc2e0 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\ub545 \uc18d\uc131 / \uc57c\uc218\uc804\uc0ac\uc871)\uc758 \uacf5\uaca9\ub825\uc740 500 \uc62c\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "beastwarrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2000,
+  "def": 2000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "ca3f5893-ef1b-4a74-ab5d-3418ea8557fb",
+      "card": "https://ms.yugipedia.com//8/85/EmiroftheMonumenthes-RDKP24-JP-UR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Emir of the Monumenthes",
+        "id": 1163434
+      }
+    ],
+    "dbID": 22840
+  },
+  "series": [
+    "97eb63ff-6e37-4cb4-aec9-d4c303cc69da"
+  ]
+}

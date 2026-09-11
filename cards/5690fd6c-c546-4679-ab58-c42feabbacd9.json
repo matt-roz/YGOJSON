@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "5690fd6c-c546-4679-ab58-c42feabbacd9",
+  "text": {
+    "en": {
+      "name": "Royal Rebel's Babybass",
+      "effect": "A bass fiend that coolly supports Beginitar and Kidrum.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30ed\u30a4\u30e4\u30eb\u30c7\u30e2\u30f3\u30ba\u30fb\u30d9\u30d3\u30fc\u30b9",
+      "effect": "\u30d3\u30ae\u30bf\u30fc\u3084\u30ad\u30c3\u30c9\u30e9\u30e0\u3092\u30af\u30fc\u30eb\u306b\u652f\u3048\u3066\u3044\u308b\u30d9\u30fc\u30b9\u306e\u60aa\u9b54\u3002"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "fiend",
+  "classifications": [
+    "normal"
+  ],
+  "level": 1,
+  "atk": 200,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "323dd7e4-7d26-4c14-ac29-4e834333e0ab",
+      "card": "https://ms.yugipedia.com//e/e1/RoyalRebelsBabybass-RDB233-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Royal Rebel's Babybass",
+        "id": 1017932
+      }
+    ],
+    "dbID": 19539
+  },
+  "series": [
+    "39eae314-d153-45cf-aa63-9d42b5dc8cf2"
+  ]
+}

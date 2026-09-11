@@ -1,0 +1,60 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "580ea4e8-2e08-40b3-8e19-0140d7ba6c4f",
+  "text": {
+    "en": {
+      "name": "V Umbral Horror",
+      "effect": "If this card is Normal or Special Summoned: You can add 1 \"Umbral Horror\" monster from your Deck to your hand, except \"V Umbral Horror\". You can banish this card from your GY, then target 1 \"Masquerade\" Xyz Monster you control; Special Summon from your Extra Deck, 1 \"Number\" monster that is 1 Rank higher than that monster you control, by using it as material (this is treated as an Xyz Summon, transfer its materials). You can only use each effect of \"V Umbral Horror\" once per turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\uff36\u30a2\u30f3\u30d6\u30e9\u30eb",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u540d\u306e\u2460\u2461\u306e\u52b9\u679c\u306f\u305d\u308c\u305e\u308c\uff11\u30bf\u30fc\u30f3\u306b\uff11\u5ea6\u3057\u304b\u4f7f\u7528\u3067\u304d\u306a\u3044\u3002\u2460\uff1a\u3053\u306e\u30ab\u30fc\u30c9\u304c\u53ec\u559a\u30fb\u7279\u6b8a\u53ec\u559a\u3057\u305f\u5834\u5408\u306b\u767a\u52d5\u3067\u304d\u308b\u3002\u30c7\u30c3\u30ad\u304b\u3089\u300c\uff36\u30a2\u30f3\u30d6\u30e9\u30eb\u300d\u4ee5\u5916\u306e\u300c\u30a2\u30f3\u30d6\u30e9\u30eb\u300d\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u3092\u624b\u672d\u306b\u52a0\u3048\u308b\u3002\u2461\uff1a\u5893\u5730\u306e\u3053\u306e\u30ab\u30fc\u30c9\u3092\u9664\u5916\u3057\u3001\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u300c\u4eee\u9762\u9b54\u8e0f\u58eb\u300d\uff38\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u3092\u5bfe\u8c61\u3068\u3057\u3066\u767a\u52d5\u3067\u304d\u308b\u3002\u305d\u306e\u81ea\u5206\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u3088\u308a\u30e9\u30f3\u30af\u304c\uff11\u3064\u9ad8\u3044\u300c\uff2e\uff4f\uff0e\u300d\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u3092\u3001\u5bfe\u8c61\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u4e0a\u306b\u91cd\u306d\u3066\uff38\u53ec\u559a\u6271\u3044\u3067\uff25\uff38\u30c7\u30c3\u30ad\u304b\u3089\u7279\u6b8a\u53ec\u559a\u3059\u308b\u3002"
+    },
+    "zh-CN": {
+      "name": "V\u9ed1\u5f71",
+      "effect": "\u6b64\u5361\u540d\u7684\u2460\u2461\u6548\u679c1\u56de\u5408\u4ec5\u53ef\u5404\u4f7f\u75281\u6b21\u3002\u2460\uff1a\u6b64\u5361\u53ec\u5524\u30fb\u7279\u6b8a\u53ec\u5524\u7684\u60c5\u51b5\u4e0b\u53ef\u4ee5\u53d1\u52a8\u3002\u4ece\u724c\u7ec4\u5c06\u201cV\u9ed1\u5f71\u201d\u4ee5\u5916\u76841\u53ea\u201c\u9ed1\u5f71\u201d\u602a\u517d\u52a0\u5165\u624b\u724c\u3002\u2461\uff1a\u5c06\u5893\u5730\u7684\u6b64\u5361\u9664\u5916\uff0c\u4ee5\u81ea\u5df1\u573a\u4e0a\u76841\u53ea\u201c\u5047\u9762\u9b54\u8e48\u58eb\u201d\u8d85\u91cf\u602a\u517d\u4e3a\u5bf9\u8c61\u53ef\u4ee5\u53d1\u52a8\u3002\u4ece\u989d\u5916\u724c\u7ec4\u5c061\u53ea\u9636\u7ea7\u6bd4\u8be5\u81ea\u5df1\u7684\u602a\u517d\u9ad81\u7684\u201c\u7f16\u53f7\u201d\u602a\u517d\u91cd\u53e0\u5728\u5bf9\u8c61\u602a\u517d\u4e0a\u9762\uff0c\u89c6\u4e3a\u8d85\u91cf\u53ec\u5524\u7279\u6b8a\u53ec\u5524\u3002"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "spellcaster",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 500,
+  "def": 1500,
+  "passwords": [
+    "39053882"
+  ],
+  "images": [
+    {
+      "id": "5e0c6610-5126-486e-afac-464dea705abc",
+      "password": "39053882",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/39053882.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/39053882.jpg"
+    }
+  ],
+  "sets": [
+    "e41d4de1-aff5-4e60-af89-26763447bd70",
+    "e41d4de1-aff5-4e60-af89-26763447bd70"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "V Umbral Horror",
+        "id": 1205791
+      }
+    ],
+    "dbID": 23328,
+    "ygoprodeck": {
+      "id": 39053882,
+      "name": "v-umbral-horror-15848"
+    }
+  },
+  "series": [
+    "d0d3a361-d802-4080-a078-010516789365"
+  ]
+}

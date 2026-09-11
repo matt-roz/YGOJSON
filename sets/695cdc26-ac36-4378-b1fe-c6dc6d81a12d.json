@@ -1,0 +1,91 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "695cdc26-ac36-4378-b1fe-c6dc6d81a12d",
+  "name": {
+    "en": "Jump Festa Invitational 2011 promotional cards",
+    "ko": "JUMP FESTA INVITATIONAL 2011"
+  },
+  "locales": {
+    "kr": {
+      "language": "ko",
+      "prefix": "EV11-KR",
+      "date": "2011-09-27",
+      "image": "https://ms.yugipedia.com//d/d5/EV11-PromoKR-JumpFestaInvitational.png",
+      "cardImages": {
+        "unlimited": {
+          "582a5314-05aa-4d2a-bbec-10d988dfb8b1": "https://ms.yugipedia.com//2/2b/CardsfromtheSky-EV11-KR-ScR-UE.png",
+          "8d5f0f32-e569-415c-9232-362c1e916ed8": "https://ms.yugipedia.com//4/47/ChainDisappearance-EV11-KR-ScR-UE.png",
+          "b12fa2e8-4db9-4766-bead-44ab0dfd13db": "https://ms.yugipedia.com//2/2f/CipherSoldier-EV11-KR-ScR-UE.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "582a5314-05aa-4d2a-bbec-10d988dfb8b1": {
+            "image": "https://ms.yugipedia.com//2/2b/CardsfromtheSky-EV11-KR-ScR-UE.png"
+          },
+          "8d5f0f32-e569-415c-9232-362c1e916ed8": {
+            "image": "https://ms.yugipedia.com//4/47/ChainDisappearance-EV11-KR-ScR-UE.png"
+          },
+          "b12fa2e8-4db9-4766-bead-44ab0dfd13db": {
+            "image": "https://ms.yugipedia.com//2/2f/CipherSoldier-EV11-KR-ScR-UE.png"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          1010000989000
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "kr"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//d/d5/EV11-PromoKR-JumpFestaInvitational.png",
+      "cards": [
+        {
+          "id": "582a5314-05aa-4d2a-bbec-10d988dfb8b1",
+          "card": "1f2deedd-e1f8-485c-9299-1bcc18daa0be",
+          "suffix": "008",
+          "rarity": "secret",
+          "imageID": "5b29b4ae-fa5a-4ff2-894c-a6ee3d197940"
+        },
+        {
+          "id": "b12fa2e8-4db9-4766-bead-44ab0dfd13db",
+          "card": "3d23e250-de07-4704-879b-72d25201e5ae",
+          "suffix": "009",
+          "rarity": "secret",
+          "imageID": "e5794f69-022b-4605-965d-0c92e3a4c6b2"
+        },
+        {
+          "id": "8d5f0f32-e569-415c-9232-362c1e916ed8",
+          "card": "6fea99f8-e194-4811-bb6d-a63abc3cd057",
+          "suffix": "010",
+          "rarity": "secret",
+          "imageID": "8dc69683-f28b-4239-bfb2-0b6b632a5837"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Jump Festa Invitational 2011 promotional cards",
+      "id": 394330
+    }
+  }
+}

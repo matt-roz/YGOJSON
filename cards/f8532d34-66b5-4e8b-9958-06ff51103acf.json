@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "f8532d34-66b5-4e8b-9958-06ff51103acf",
+  "text": {
+    "en": {
+      "name": "Wooly Wonderland Shadow Merry",
+      "effect": "Send the top 3 cards of your Deck to the Graveyard. Then, you can add 1 \"Gateway to the Wooly Wunderworld\" from your Graveyard to your hand.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u7f8a\u754c\u30b7\u30e3\u30c9\u30a6\u30e1\u30ea\u30fc",
+      "effect": "\u81ea\u5206\u306e\u30c7\u30c3\u30ad\u306e\u4e0a\u304b\u3089\u30ab\u30fc\u30c9\uff13\u679a\u3092\u5893\u5730\u3078\u9001\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u30e1\u30a7\uff5e\u754c\u306e\u5165\u308a\u53e3\u300d\uff11\u679a\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc591\uacc4 \uc100\ub3c4\uc6b0\uba54\ub9ac",
+      "effect": "\uc790\uc2e0\uc758 \ub371 \uc704\uc5d0\uc11c \uce74\ub4dc 3\uc7a5\uc744 \ubb18\uc9c0\ub85c \ubcf4\ub0b8\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0 \ubb18\uc9c0\uc758 \"\uba54\uc5d0~\uacc4\uc758 \uc785\uad6c\" 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\uc744 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "beast",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1300,
+  "def": 100,
+  "passwords": [],
+  "images": [
+    {
+      "id": "03cceef2-7c2f-4ea1-b748-48c2d60b9bf3",
+      "card": "https://ms.yugipedia.com//a/ac/WoolyWonderlandShadowMerry-RDORP3-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Wooly Wonderland Shadow Merry",
+        "id": 1146723
+      }
+    ],
+    "dbID": 22227
+  },
+  "series": [
+    "354d73b1-0590-498d-8f4c-4095d830bbc1"
+  ]
+}

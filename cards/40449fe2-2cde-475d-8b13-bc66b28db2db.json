@@ -1,0 +1,66 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "40449fe2-2cde-475d-8b13-bc66b28db2db",
+  "text": {
+    "en": {
+      "name": "King's Reward",
+      "effect": "Destroy 1 face-up Level 6 or lower monster on your opponent's field. If you do, your opponent draws 1 card. You cannot attack directly this turn."
+    },
+    "fr": {
+      "name": "R\u00e9compense du Roi",
+      "effect": "D\u00e9truisez 1 monstre de max. Niveau 6 face recto sur le Terrain de votre adversaire. Si vous le faites, votre adversaire pioche 1 carte. Vous ne pouvez pas attaquer directement ce tour."
+    },
+    "de": {
+      "name": "Belohnung des K\u00f6nigs",
+      "effect": "Zerst\u00f6re 1 offenes Monster der Stufe 6 oder niedriger auf dem Spielfeld deines Gegners. Falls du dies tust, zieht dein Gegner 1 Karte. Du kannst in diesem Spielzug nicht direkt angreifen."
+    },
+    "it": {
+      "name": "Ricompensa del Re",
+      "effect": "Distruggi 1 mostro scoperto di Livello 6 o inferiore sul Terreno del tuo avversario. Se lo fai, il tuo avversario pesca 1 carta. Non puoi attaccare direttamente in questo turno."
+    },
+    "es": {
+      "name": "Recompensa del Rey",
+      "effect": "Destruye 1 monstruo boca arriba de Nivel 6 o menor en el Campo de tu adversario. Si lo haces, tu adversario roba 1 carta. No puedes atacar directamente este turno."
+    },
+    "ja": {
+      "name": "\u30ad\u30f3\u30b0\u30b9\u30fb\u30ea\u30ef\u30fc\u30c9",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff16\u4ee5\u4e0b\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u7834\u58ca\u3059\u308b\u3002\u3053\u306e\u52b9\u679c\u3067\u30e2\u30f3\u30b9\u30bf\u30fc\u3092\u7834\u58ca\u3057\u305f\u5834\u5408\u3001\u76f8\u624b\u306f\uff11\u679a\u30c9\u30ed\u30fc\u3059\u308b\u3002\u3053\u306e\u30bf\u30fc\u30f3\u3001\u81ea\u5206\u306f\u76f4\u63a5\u653b\u6483\u3067\u304d\u306a\u3044\u3002"
+    },
+    "ko": {
+      "name": "\ud0b9\uc2a4 \ub9ac\uc6cc\ub4dc",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\ub808\ubca8 6 \uc774\ud558) 1\uc7a5\uc744 \uace0\ub974\uace0 \ud30c\uad34\ud55c\ub2e4. \uc774 \ud6a8\uacfc\ub85c \ubaac\uc2a4\ud130\ub97c \ud30c\uad34\ud588\uc744 \uacbd\uc6b0, \uc0c1\ub300\ub294 1\uc7a5 \ub4dc\ub85c\uc6b0\ud55c\ub2e4. \uc774 \ud134\uc5d0, \uc790\uc2e0\uc740 \uc9c1\uc811 \uacf5\uaca9\ud560 \uc218 \uc5c6\ub2e4."
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "d808786c-7b1a-42bd-8bce-199b4aa200f2",
+      "card": "https://ms.yugipedia.com//f/ff/KingsReward-RDSBD5-JP-C.png"
+    }
+  ],
+  "sets": [
+    "e1cd0077-0760-46c2-8cff-9fd1ac443780",
+    "9fedf2d0-5ae8-4861-b6f6-654c2d8aefeb",
+    "24efaeb8-31d0-4d9b-b5b6-db394582c1f3",
+    "24efaeb8-31d0-4d9b-b5b6-db394582c1f3",
+    "62f50503-1055-4260-b990-3fb3469154e0"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "n"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "King's Reward",
+        "id": 715532
+      }
+    ],
+    "dbID": 15672
+  },
+  "series": [
+    "77d2b450-6fcc-4acb-8900-f7dd8c36c9f7"
+  ]
+}

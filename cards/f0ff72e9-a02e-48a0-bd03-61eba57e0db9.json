@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "f0ff72e9-a02e-48a0-bd03-61eba57e0db9",
+  "text": {
+    "en": {
+      "name": "Chaoskampf Beast Leviatriton",
+      "effect": "Increase this card's Level by 4 until the end of this turn. This turn, this face-up card can be treated as 2 Tributes for the Tribute Summon of a Level 7 or 8 Fiend Type monster in Attack Position.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u5275\u4e89\u7363\u30ec\u30f4\u30a3\u30a2\u30c8\u30ea\u30c8\u30f3",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u306e\u30ec\u30d9\u30eb\u306f\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\uff14\u4e0a\u304c\u308b\u3002\u3053\u306e\u30bf\u30fc\u30f3\u3001\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff17\u30fb\uff18\uff0f\u60aa\u9b54\u65cf\uff09\u3092\u653b\u6483\u8868\u793a\u3067\u30a2\u30c9\u30d0\u30f3\u30b9\u53ec\u559a\u3059\u308b\u5834\u5408\u3001\u8868\u5074\u8868\u793a\u306e\u3053\u306e\u30ab\u30fc\u30c9\u306f\uff12\u4f53\u5206\u306e\u30ea\u30ea\u30fc\u30b9\u306b\u3067\u304d\u308b\u3002"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "fiend",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 1200,
+  "def": 1200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "c779a879-bc70-464d-86c3-fb80c7090458",
+      "card": "https://ms.yugipedia.com//archive/b/bf/20260810111247%21ChaoskampfBeastLeviatriton-RDSJMP-JP-NPR.png"
+    }
+  ],
+  "sets": [
+    "b254644c-27d2-4111-9a53-3a82de7d4cd5"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Chaoskampf Beast Leviatriton",
+        "id": 1204868
+      }
+    ],
+    "dbID": 23530
+  },
+  "series": []
+}

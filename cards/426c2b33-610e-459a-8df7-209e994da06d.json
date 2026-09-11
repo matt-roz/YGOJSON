@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "426c2b33-610e-459a-8df7-209e994da06d",
+  "text": {
+    "en": {
+      "name": "Elemental HERO Mudballman (Rush Duel)",
+      "effect": "None"
+    },
+    "ko": {
+      "name": "\uc5d8\ub9ac\uba58\ud2c0 \ud788\uc5b4\ub85c \ub9e4\ub4dc\ubcfc\ub9e8",
+      "effect": "\uc5c6\uc74c"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 6,
+  "atk": 1900,
+  "def": 3000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "c3ca6678-e08b-4911-b9f0-dfbe96d95d6d",
+      "card": "https://ms.yugipedia.com//b/ba/ElementalHEROMudballman-RDSJMP-JP-NPR.png"
+    }
+  ],
+  "sets": [
+    "b254644c-27d2-4111-9a53-3a82de7d4cd5"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Elemental HERO Mudballman (Rush Duel)",
+        "id": 1068412
+      }
+    ],
+    "dbID": 20472
+  },
+  "series": [
+    "4e2112ec-34a4-4031-91ad-7dcc3818d4c7"
+  ]
+}

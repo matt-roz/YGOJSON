@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "13f6890c-446f-4201-9c6a-12445dc4c293",
+  "text": {
+    "en": {
+      "name": "Blue-Eyed Silver Zombie (Rush Duel)",
+      "effect": "The beams from the eyes of this creature are said to turn enemies into zombies."
+    },
+    "ko": {
+      "name": "\ube14\ub8e8\uc544\uc774\ub4dc \uc2e4\ubc84 \uc880\ube44",
+      "effect": "\ub208\uc5d0\uc11c \ub098\uc624\ub294 \uad34\uc0c1\ud55c \uad11\uc120\uc73c\ub85c \uc0c1\ub300\ub97c \uc880\ube44\ub85c \ubc14\uafd4\ubc84\ub9b0\ub2e4\uace0 \ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "zombie",
+  "classifications": [
+    "normal"
+  ],
+  "level": 3,
+  "atk": 900,
+  "def": 700,
+  "passwords": [],
+  "images": [
+    {
+      "id": "f3052b6b-a9b5-4af2-a300-21a2292ddc0f",
+      "card": "https://ms.yugipedia.com//7/7b/BlueEyedSilverZombie-RDSD05-JP-C.png"
+    }
+  ],
+  "sets": [
+    "cd441253-4a09-47d0-a87e-c4896ae59e5a",
+    "cd441253-4a09-47d0-a87e-c4896ae59e5a"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Blue-Eyed Silver Zombie (Rush Duel)",
+        "id": 714011
+      }
+    ],
+    "dbID": 17271
+  },
+  "series": []
+}

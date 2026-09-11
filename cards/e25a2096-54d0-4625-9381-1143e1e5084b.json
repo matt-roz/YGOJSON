@@ -1,0 +1,48 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "e25a2096-54d0-4625-9381-1143e1e5084b",
+  "text": {
+    "en": {
+      "name": "Dark Matter Lockdoll",
+      "effect": "This turn, this card's name becomes \"Dark Matter Mist\". Then, you can draw 1 card.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30c0\u30fc\u30af\u30de\u30bf\u30fc\u30fb\u30ed\u30c3\u30af\u30c9\u30fc\u30eb",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u306e\u30ab\u30fc\u30c9\u540d\u306f\u3053\u306e\u30bf\u30fc\u30f3\u3001\u300c\u30c0\u30fc\u30af\u30de\u30bf\u30fc\u30fb\u30df\u30b9\u30c8\u300d\u306b\u306a\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306f\uff11\u679a\u30c9\u30ed\u30fc\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub2e4\ud06c\ub9e4\ud130 \ub85d\ub3cc",
+      "effect": "\uc774 \uce74\ub4dc\uc758 \uce74\ub4dc\uba85\uc740 \uc774 \ud134\uc5d0, \"\ub2e4\ud06c\ub9e4\ud130 \ubbf8\uc2a4\ud2b8\"\uac00 \ub41c\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0\uc740 1\uc7a5 \ub4dc\ub85c\uc6b0\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 800,
+  "def": 1300,
+  "passwords": [],
+  "images": [
+    {
+      "id": "8f5ae41d-6892-456a-9daa-0c9c448e2959",
+      "card": "https://ms.yugipedia.com//1/16/DarkMatterLockdoll-RDKP17-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Dark Matter Lockdoll",
+        "id": 1044909
+      }
+    ],
+    "dbID": 20318
+  },
+  "series": [
+    "20e1a2b3-4557-4a43-a6e4-4f54272ef025"
+  ]
+}

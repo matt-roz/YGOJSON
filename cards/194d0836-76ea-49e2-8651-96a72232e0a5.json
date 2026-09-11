@@ -1,0 +1,55 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "194d0836-76ea-49e2-8651-96a72232e0a5",
+  "text": {
+    "en": {
+      "name": "The Wyvern",
+      "effect": "Special Summon 1 Level 6 or lower Dragon Type Normal Monster from your Graveyard face-up to your field."
+    },
+    "ja": {
+      "name": "\u30b6\u2606\u30ef\u30a4\u30d0\u30fc\u30f3",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u901a\u5e38\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff16\u4ee5\u4e0b\uff0f\u30c9\u30e9\u30b4\u30f3\u65cf\uff09\uff11\u4f53\u3092\u9078\u3073\u3001\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u8868\u793a\u3067\u7279\u6b8a\u53ec\u559a\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub354\u2606\uc640\uc774\ubc18",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \uc77c\ubc18 \ubaac\uc2a4\ud130(\ub808\ubca8 6 \uc774\ud558 / \ub4dc\ub798\uace4\uc871) 1\uc7a5\uc744 \uace0\ub974\uace0, \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \ud45c\uc2dc\ub85c \ud2b9\uc218 \uc18c\ud658\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "dragon",
+  "classifications": [
+    "effect"
+  ],
+  "level": 5,
+  "atk": 500,
+  "def": 1500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "42d21925-5b9b-423e-8a27-dd245371e212",
+      "card": "https://ms.yugipedia.com//2/23/TheWyvern-RDEXT1-JP-SR.png"
+    }
+  ],
+  "sets": [
+    "f15281f0-8ea5-4682-b72c-36f0b779a7bc",
+    "b6e8e337-8faf-48be-851d-4ba7298c81d0",
+    "fa6096f7-75e2-43af-90f5-a5bbc2febd9a"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "n"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "The Wyvern",
+        "id": 717110
+      }
+    ],
+    "dbID": 16909
+  },
+  "series": [
+    "c47c618f-a8e3-4dbf-b2e2-f893c7428dff"
+  ]
+}

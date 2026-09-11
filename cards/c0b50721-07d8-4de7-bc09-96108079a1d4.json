@@ -1,0 +1,56 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "c0b50721-07d8-4de7-bc09-96108079a1d4",
+  "text": {
+    "en": {
+      "name": "Flame Seeker",
+      "effect": "The subleader of Max Firepower. His beloved super-high-powered flamethrower, obtained recently, came at the cost of his life savings. Let it burn!"
+    },
+    "ja": {
+      "name": "\u30d5\u30ec\u30a4\u30e0\u30b7\u30fc\u30ab\u30fc",
+      "effect": "\u30c1\u30fc\u30e0\u300c\u706b\u529b\u30de\u30c3\u30af\u30b9\u300d\u306e\u30b5\u30d6\u30ea\u30fc\u30c0\u30fc\u3002\u6700\u8fd1\u306f\u5168\u8ca1\u7523\u3092\u4f7f\u3063\u3066\u843d\u672d\u3057\u305f\u8d85\u9ad8\u706b\u529b\u30d0\u30fc\u30ca\u30fc\u3092\u611b\u7528\u4e2d\u3002\u30ec\u30c3\u30c4\u30d5\u30a1\u30a4\u30e4\u30fc\uff01"
+    },
+    "ko": {
+      "name": "\ud50c\ub808\uc784\uc2dc\ucee4",
+      "effect": "\ud300 \"\ud654\ub825\ub9e5\uc2a4\"\uc758 \uc11c\ube0c \ub9ac\ub354. \ucd5c\uadfc \uc804 \uc7ac\uc0b0\uc744 \uc368\uc11c \ub099\ucc30\ubc1b\uc740 \ucd08\uace0\ud654\ub825 \ubc84\ub108\ub97c \uc560\uc6a9 \uc911\uc774\ub2e4. \ub81b\uce20 \ud30c\uc774\uc5b4!"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "type": "pyro",
+  "classifications": [
+    "normal"
+  ],
+  "level": 4,
+  "atk": 1400,
+  "def": 400,
+  "passwords": [],
+  "images": [
+    {
+      "id": "50f7497d-a584-4aa8-9a3f-69c26fe82520",
+      "card": "https://ms.yugipedia.com//5/5b/FlameSeeker-RDSD04-JP-C.png"
+    }
+  ],
+  "sets": [
+    "cf303586-057a-4e6c-ae2a-65879480865d",
+    "c05d7ca5-5bea-4c0f-884c-dd1ec7f1be77",
+    "c05d7ca5-5bea-4c0f-884c-dd1ec7f1be77",
+    "84ce4071-599b-4169-8b5c-6d4c252c2a67"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "n"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Flame Seeker",
+        "id": 714968
+      }
+    ],
+    "dbID": 17960
+  },
+  "series": [
+    "0d251edd-435a-4124-a397-93aa376c601d"
+  ]
+}

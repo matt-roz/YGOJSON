@@ -1,0 +1,56 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "07db4cf1-ee97-4c07-95e6-f957540e0008",
+  "text": {
+    "en": {
+      "name": "Reset Runner",
+      "effect": "Shuffle your Deck."
+    },
+    "ja": {
+      "name": "\u30ea\u30bb\u30c3\u30c8\u30e9\u30f3\u30ca\u30fc",
+      "effect": "\u81ea\u5206\u306e\u30c7\u30c3\u30ad\u3092\u30b7\u30e3\u30c3\u30d5\u30eb\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub9ac\uc14b\ub7ec\ub108",
+      "effect": "\uc790\uc2e0\uc758 \ub371\uc744 \uc154\ud50c\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "cyberse",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1000,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "4616a702-a9e5-45b7-9064-446edebaa4ae",
+      "card": "https://ms.yugipedia.com//0/03/ResetRunner-RDSBD6-JP-C.png"
+    }
+  ],
+  "sets": [
+    "f97239a1-ffdc-49fe-a78c-d89fc57c1403",
+    "a08d0d55-5282-4487-b8b3-a190adb90edf",
+    "800a7d3b-5bf8-4d9e-b88b-3ec6be2416b7",
+    "c4bde57a-4e90-438f-8fe7-4db6de641241",
+    "c4bde57a-4e90-438f-8fe7-4db6de641241",
+    "11548122-d48e-4313-aff4-6d29bca3f0b0"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "n"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Reset Runner",
+        "id": 716439
+      }
+    ],
+    "dbID": 16689
+  },
+  "series": []
+}

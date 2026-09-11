@@ -1,0 +1,54 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "0d842d33-70bd-4c99-a6a8-7bbe63de9993",
+  "text": {
+    "en": {
+      "name": "Flare Sorcerer",
+      "effect": "A magician with a flaring passion. A passion that will eventually turn his heart into ash."
+    },
+    "ja": {
+      "name": "\u30d5\u30a1\u30a4\u30a2\u30fb\u30bd\u30fc\u30b5\u30e9\u30fc",
+      "effect": "\u71b1\u304d\u60c5\u71b1\u3092\u6301\u3063\u305f\u9b54\u8853\u5e2b\u3002\u305d\u306e\u60f3\u3044\u306f\u3084\u304c\u3066\u5f7c\u81ea\u8eab\u306e\u5fc3\u3092\u3082\u71c3\u3084\u3057\u5c3d\u304f\u3057\u305f\u3002"
+    },
+    "ko": {
+      "name": "\ud30c\uc774\uc5b4 \uc18c\uc11c\ub7ec",
+      "effect": "\ub728\uac70\uc6b4 \uc815\uc5f4\uc744 \uc9c0\ub2cc \ub9c8\uc220\uc0ac. \uadf8 \ub9c8\uc74c\uc740 \uc774\uc73d\uace0 \uc790\uc2e0\uc758 \uac00\uc2b4\uc18d\uae4c\uc9c0 \ubd88\ud0dc\uc6cc\ubc84\ub838\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "type": "spellcaster",
+  "classifications": [
+    "normal"
+  ],
+  "level": 4,
+  "atk": 1500,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "8f0a2a69-7e48-45f0-ad3f-264ec731a184",
+      "card": "https://ms.yugipedia.com//4/49/FlareSorcerer-RDGRD2-JP-C.png"
+    }
+  ],
+  "sets": [
+    "b6e8e337-8faf-48be-851d-4ba7298c81d0",
+    "dd544c08-5223-4f76-9470-5d47aec790d2",
+    "31432588-1ddf-4225-8c5e-7dfc48faac1e",
+    "31432588-1ddf-4225-8c5e-7dfc48faac1e"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "n"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Flare Sorcerer",
+        "id": 714971
+      }
+    ],
+    "dbID": 17590
+  },
+  "series": []
+}

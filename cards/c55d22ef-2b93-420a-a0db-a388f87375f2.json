@@ -1,0 +1,57 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "c55d22ef-2b93-420a-a0db-a388f87375f2",
+  "text": {
+    "en": {
+      "name": "Spatial Trunade",
+      "effect": "Return up to 2 cards on the field to the hand, then each player places cards from their hand on the bottom of the Deck in any order equal to the number returned to their hand. You can only activate 1 \"Spatial Trunade\" per turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u5b87\u5b99\u7684\u30cf\u30ea\u30b1\u30fc\u30f3",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u540d\u306e\u30ab\u30fc\u30c9\u306f\uff11\u30bf\u30fc\u30f3\u306b\uff11\u679a\u3057\u304b\u767a\u52d5\u3067\u304d\u306a\u3044\u3002\u2460\uff1a\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u30ab\u30fc\u30c9\u3092\uff12\u679a\u307e\u3067\u624b\u672d\u306b\u623b\u3059\u3002\u305d\u306e\u5f8c\u3001\u304a\u4e92\u3044\u306f\u305d\u308c\u305e\u308c\u3001\u81ea\u8eab\u306e\u624b\u672d\u306b\u623b\u3063\u305f\u6570\u3060\u3051\u81ea\u8eab\u306e\u624b\u672d\u3092\u9078\u3073\u3001\u597d\u304d\u306a\u9806\u756a\u3067\u30c7\u30c3\u30ad\u306e\u4e0b\u306b\u623b\u3059\u3002"
+    },
+    "zh-CN": {
+      "name": "\u5b87\u5b99\u6027\u98d3\u98ce",
+      "effect": "\u6b64\u5361\u540d\u7684\u53611\u56de\u5408\u4ec5\u53ef\u53d1\u52a81\u5f20\u3002\u2460\uff1a\u5c06\u573a\u4e0a\u7684\u6700\u591a2\u5f20\u5361\u653e\u56de\u624b\u724c\u3002\u7136\u540e\uff0c\u53cc\u65b9\u5404\u81ea\u4f9d\u56de\u5230\u4e86\u81ea\u8eab\u624b\u724c\u7684\u6570\u91cf\uff0c\u6311\u9009\u81ea\u8eab\u624b\u724c\u4ee5\u559c\u6b22\u7684\u987a\u5e8f\u653e\u56de\u724c\u7ec4\u4e0b\u9762\u3002"
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "normal",
+  "passwords": [
+    "02729965"
+  ],
+  "images": [
+    {
+      "id": "8228daa5-2433-423f-9690-c8c07371b690",
+      "password": "02729965",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/2729965.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/2729965.jpg"
+    }
+  ],
+  "sets": [
+    "e41d4de1-aff5-4e60-af89-26763447bd70",
+    "e41d4de1-aff5-4e60-af89-26763447bd70",
+    "e41d4de1-aff5-4e60-af89-26763447bd70",
+    "e41d4de1-aff5-4e60-af89-26763447bd70",
+    "e41d4de1-aff5-4e60-af89-26763447bd70",
+    "e41d4de1-aff5-4e60-af89-26763447bd70"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Spatial Trunade",
+        "id": 1201974
+      }
+    ],
+    "dbID": 23390,
+    "ygoprodeck": {
+      "id": 2729965,
+      "name": "spatial-trunade-15782"
+    }
+  },
+  "series": [
+    "9eb6f3f1-1b2b-406f-98d2-e27483ca2799"
+  ]
+}

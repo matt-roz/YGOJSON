@@ -1,0 +1,126 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "1421fe78-60f6-4f36-a339-cc50ccf7bcc6",
+  "name": {
+    "en": "Tournament Pack 2008 Vol.1",
+    "ko": "\ud1a0\ub108\uba3c\ud2b8 \ud329 2008 Vol.1"
+  },
+  "locales": {
+    "kr": {
+      "language": "ko",
+      "prefix": "TP01-KR",
+      "date": "2008-03-15",
+      "image": "https://ms.yugipedia.com//8/8f/TP01-BoosterKR.png",
+      "cardImages": {
+        "unlimited": {}
+      },
+      "cardInfo": {
+        "unlimited": {}
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          7141401000
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "kr"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//8/8f/TP01-BoosterKR.png",
+      "cards": [
+        {
+          "id": "8b95ec20-129a-459d-ad46-98a3d4244e60",
+          "card": "0616ad66-1b02-4d5f-8f63-11672f8e0a13",
+          "suffix": "001",
+          "rarity": "super",
+          "imageID": "c9d48dcf-607f-4b82-892e-a509392ef830"
+        },
+        {
+          "id": "14227495-5595-4762-9cac-2995b4ad85a6",
+          "card": "7a4184d5-4f80-49df-85c0-7c6790075be4",
+          "suffix": "002",
+          "rarity": "super",
+          "imageID": "58e03370-d179-4410-ac75-5b93aec10a4a"
+        },
+        {
+          "id": "ec0fee77-607b-453a-9abb-0c75320f70eb",
+          "card": "e069339f-dc78-4260-affa-ca97e9d9538d",
+          "suffix": "003",
+          "rarity": "common",
+          "imageID": "7eedfb27-85cc-4852-be38-2fd13d5832f7"
+        },
+        {
+          "id": "2a1854db-7a3c-4406-8896-34a239f86ecc",
+          "card": "675efd40-9724-4d84-893a-8a1a2009866a",
+          "suffix": "004",
+          "rarity": "common",
+          "imageID": "14edb208-8a5f-49fb-9434-9d1bcf39fa8e"
+        },
+        {
+          "id": "50f0b781-a18f-42ad-93e8-3d94a18af919",
+          "card": "59deb9d2-6069-478e-bc45-f235a5149a5d",
+          "suffix": "005",
+          "rarity": "common",
+          "imageID": "6d456521-2ebd-4e7e-ae2d-a7022dfe9a18"
+        },
+        {
+          "id": "29f5796b-5572-4ffe-8973-98b203be4f07",
+          "card": "5adb5759-6f1c-44bb-8859-74214d9288c3",
+          "suffix": "006",
+          "rarity": "common",
+          "imageID": "8db89205-1362-413f-b282-1dec2cd60cdc"
+        },
+        {
+          "id": "fcb5491b-caf1-4cfe-8a58-ee562499408b",
+          "card": "5d946ff1-853c-4989-abde-1e2abab50dc4",
+          "suffix": "007",
+          "rarity": "common",
+          "imageID": "fed5dee8-9cac-4491-91bf-c8fb91b0b467"
+        },
+        {
+          "id": "0fd8b082-62d4-4e0d-b10f-d4a7119a7159",
+          "card": "31a0a974-b9a0-438d-a9d6-22604ddc5a14",
+          "suffix": "009",
+          "rarity": "common",
+          "imageID": "80d38db7-86cf-4bea-b7cd-8242ae547a10"
+        },
+        {
+          "id": "fe390e60-7d04-4b73-8c5f-6a5f42d62896",
+          "card": "7dce5f1a-39c9-4a85-a8e4-0fe1c2781c40",
+          "suffix": "011",
+          "rarity": "common",
+          "imageID": "87c9be51-661d-40f6-b78d-1febab42e649"
+        },
+        {
+          "id": "3b268475-440d-4b8c-86e0-24627f974e29",
+          "card": "5738ade2-339a-4422-9d4e-97e5f2270622",
+          "suffix": "012",
+          "rarity": "common",
+          "imageID": "e39ce22a-c8c2-43b9-be2a-8a10623866e2"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Tournament Pack 2008 Vol.1 (Korean)",
+      "id": 399416
+    }
+  }
+}

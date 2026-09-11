@@ -1,0 +1,44 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "5a70b901-37aa-45ff-b338-c4a7e629cb5d",
+  "text": {
+    "en": {
+      "name": "Warrior of Zera (Rush Duel)",
+      "effect": "A wandering warrior who seeks the sanctuary where he can gain the power of the Archlords. To escape the temptation of evil fiends, he fights solo day by day."
+    },
+    "ko": {
+      "name": "\uc81c\ub77c\uc758 \uc804\uc0ac",
+      "effect": "\ub300\ucc9c\uc0ac\uc758 \ud798\uc744 \uc190\uc5d0 \ub123\uc744 \uc218 \uc788\ub2e4\uace0 \ud558\ub294 \uc131\uc5ed\uc744 \ucc3e\ub294 \uc804\uc0ac. \uc0ac\uc545\ud55c \ub9c8\uc871\uc73c\ub85c\ubd80\ud130\uc758 \uc720\ud639\uc5d0\uc11c \ube60\uc838\ub098\uc624\uae30 \uc704\ud574, \uace0\ub3c5\ud55c \ud22c\uc7c1\uc758 \ub098\ub0a0\uc744 \ubcf4\ub0b4\uace0 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "warrior",
+  "classifications": [
+    "normal"
+  ],
+  "level": 4,
+  "atk": 1600,
+  "def": 1600,
+  "passwords": [],
+  "images": [
+    {
+      "id": "4d435ea8-eca8-46df-8aeb-6c0b6cda7e6e",
+      "card": "https://ms.yugipedia.com//3/37/WarriorofZera-RDAP01-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Warrior of Zera (Rush Duel)",
+        "id": 1128650
+      }
+    ],
+    "dbID": 21850
+  },
+  "series": [
+    "08f69d43-12a8-4b23-8201-7e6386f1a5ce"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "4841ac0c-7d66-4305-b153-741503eba1ca",
+  "text": {
+    "en": {
+      "name": "Cat's Eye",
+      "effect": "Your opponent declares 1 card type (Monster, Spell, or Trap) and sends the top card of their Deck to the Graveyard. If it was not the declared card type, all face-up monsters on your field can attack directly this turn."
+    },
+    "fr": {
+      "name": "\u0152il-de-Chat",
+      "effect": "Votre adversaire d\u00e9clare 1 type de carte (Monstre, Magie ou Pi\u00e8ge) et envoie la carte du dessus de son Deck au Cimeti\u00e8re. Si ce n'\u00e9tait pas le type de carte d\u00e9clar\u00e9, tous les monstres face recto sur votre Terrain peuvent attaquer directement ce tour."
+    },
+    "de": {
+      "name": "Katzenauge",
+      "effect": "Dein Gegner deklariert 1 Kartentyp (Monster, Zauber oder Falle) und legt die oberste Karte seines Decks auf den Friedhof. Falls es sich dabei nicht um den deklarierten Kartentyp handelt, k\u00f6nnen in diesem Spielzug alle offenen Monster auf deiner Spielfeldseite direkt angreifen."
+    },
+    "it": {
+      "name": "Occhio di Gatto",
+      "effect": "Il tuo avversario dichiara 1 tipo di carta (Mostro, Magia o Trappola) e manda la prima carta del suo Deck al Cimitero. Se non \u00e8 il tipo di carta che ha dichiarato, tutti i mostri scoperti sul tuo Terreno possono attaccare direttamente in questo turno."
+    },
+    "es": {
+      "name": "Ojo de Gato",
+      "effect": "Tu adversario declara 1 tipo de carta (Monstruo, M\u00e1gica o Trampa) y manda la carta de la parte superior de su Deck al Cementerio. Si no era el tipo de carta declarado, todos los monstruos boca arriba en tu Campo pueden atacar directamente este turno."
+    },
+    "ja": {
+      "name": "\u732b\u306e\u76ee",
+      "effect": "\u76f8\u624b\u306f\u30ab\u30fc\u30c9\u306e\u7a2e\u985e\uff08\u30e2\u30f3\u30b9\u30bf\u30fc\u30fb\u9b54\u6cd5\u30fb\u7f60\uff09\u3092\u5ba3\u8a00\u3057\u3001\u81ea\u8eab\u306e\u30c7\u30c3\u30ad\u306e\u4e00\u756a\u4e0a\u306e\u30ab\u30fc\u30c9\u3092\u5893\u5730\u3078\u9001\u308b\u3002\u305d\u306e\u30ab\u30fc\u30c9\u304c\u5ba3\u8a00\u3057\u305f\u7a2e\u985e\u306e\u30ab\u30fc\u30c9\u3067\u306f\u306a\u304b\u3063\u305f\u5834\u5408\u3001\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u5168\u3066\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\u306f\u3053\u306e\u30bf\u30fc\u30f3\u76f4\u63a5\u653b\u6483\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uace0\uc591\uc774\uc758 \ub208",
+      "effect": "\uc0c1\ub300\ub294 \uce74\ub4dc\uc758 \uc885\ub958(\ubaac\uc2a4\ud130 / \ub9c8\ubc95 / \ud568\uc815)\ub97c \uc120\uc5b8\ud558\uace0, \uc790\uc2e0\uc758 \ub371 \ub9e8 \uc704\uc758 \uce74\ub4dc\ub97c \ubb18\uc9c0\ub85c \ubcf4\ub0b8\ub2e4. \uadf8 \uce74\ub4dc\uac00 \uc120\uc5b8\ud55c \uc885\ub958\uc758 \uce74\ub4dc\uac00 \uc544\ub2c8\uc5c8\uc744 \uacbd\uc6b0, \uc790\uc2e0 \ud544\ub4dc\uc758 \ubaa8\ub4e0 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130\ub294 \uc774 \ud134\uc5d0 \uc9c1\uc811 \uacf5\uaca9\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "966e24a4-f51a-48ff-9c76-d844f1e8fd88",
+      "card": "https://ms.yugipedia.com//7/75/CatsEye-RDMAX1-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Cat's Eye",
+        "id": 714226
+      }
+    ],
+    "dbID": 15922
+  },
+  "series": [
+    "79a5d72a-ddca-4158-ae45-bb393d081135"
+  ]
+}

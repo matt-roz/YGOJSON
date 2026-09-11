@@ -1,0 +1,152 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "ca0cf880-a88d-45eb-bb84-b594dee91a1d",
+  "name": {
+    "en": "Yu-Gi-Oh! Day April 2019 promotional card",
+    "es": "Carta promocional del Yu-Gi-Oh! Day de Abril del 2019"
+  },
+  "locales": {
+    "en": {
+      "language": "en",
+      "prefix": "YDPR-ENS",
+      "image": "https://ms.yugipedia.com//6/62/YuGiOhDayLogo.png",
+      "cardImages": {
+        "unlimited": {
+          "812ae23b-1cb3-417e-bddf-0beb31837b8d": "https://ms.yugipedia.com//archive/a/a2/20190520154442%21DestinyDraw-YDPR-EN-UR-UE.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "812ae23b-1cb3-417e-bddf-0beb31837b8d": {
+            "image": "https://ms.yugipedia.com//archive/a/a2/20190520154442%21DestinyDraw-YDPR-EN-UR-UE.png"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {}
+    },
+    "pt": {
+      "language": "pt",
+      "prefix": "YDPR-PTS",
+      "date": "2019-04-06",
+      "image": "https://ms.yugipedia.com//6/62/YuGiOhDayLogo.png",
+      "cardImages": {
+        "unlimited": {}
+      },
+      "cardInfo": {
+        "unlimited": {}
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {}
+    },
+    "sp": {
+      "language": "es",
+      "prefix": "YDPR-SPS",
+      "image": "https://ms.yugipedia.com//6/62/YuGiOhDayLogo.png",
+      "cardImages": {
+        "unlimited": {
+          "812ae23b-1cb3-417e-bddf-0beb31837b8d": "https://ms.yugipedia.com//archive/e/ee/20230511222757%21DestinyDraw-YDPR-SP-UR-UE.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "812ae23b-1cb3-417e-bddf-0beb31837b8d": {
+            "image": "https://ms.yugipedia.com//archive/e/ee/20230511222757%21DestinyDraw-YDPR-SP-UR-UE.png"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {}
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "en"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//6/62/YuGiOhDayLogo.png",
+      "cards": [
+        {
+          "id": "812ae23b-1cb3-417e-bddf-0beb31837b8d",
+          "card": "b1044735-7760-473d-b7a1-efbd5a1cdbda",
+          "suffix": "01",
+          "rarity": "ultra",
+          "imageID": "7007f00b-b8fc-4c1e-a49e-c8547dd242de",
+          "printStatus": "reprint"
+        }
+      ],
+      "externalIDs": {}
+    },
+    {
+      "locales": [
+        "pt"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//6/62/YuGiOhDayLogo.png",
+      "cards": [
+        {
+          "id": "812ae23b-1cb3-417e-bddf-0beb31837b8d",
+          "card": "b1044735-7760-473d-b7a1-efbd5a1cdbda",
+          "suffix": "01",
+          "rarity": "ultra",
+          "imageID": "7007f00b-b8fc-4c1e-a49e-c8547dd242de"
+        }
+      ],
+      "externalIDs": {}
+    },
+    {
+      "locales": [
+        "sp"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//6/62/YuGiOhDayLogo.png",
+      "cards": [
+        {
+          "id": "812ae23b-1cb3-417e-bddf-0beb31837b8d",
+          "card": "b1044735-7760-473d-b7a1-efbd5a1cdbda",
+          "suffix": "01",
+          "rarity": "ultra",
+          "imageID": "7007f00b-b8fc-4c1e-a49e-c8547dd242de"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Yu-Gi-Oh! Day April 2019 promotional card",
+      "id": 596719
+    }
+  }
+}

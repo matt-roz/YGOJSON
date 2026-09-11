@@ -1,0 +1,42 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "35230a63-4dc5-471f-8445-5086be04959e",
+  "text": {
+    "en": {
+      "name": "Leng Ling (Rush Duel)",
+      "effect": "Equip this card to 1 face-up Level 8 or lower monster on your field as an Equip Spell Card with the following effect. \u25cfThe equipped monster loses 1000 ATK, but can attack twice per turn.",
+      "official": false
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "dragon",
+  "classifications": [
+    "effect"
+  ],
+  "abilities": [
+    "union"
+  ],
+  "level": 3,
+  "atk": 1500,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "6b654fd3-370f-4385-9841-8e46ea5fe038",
+      "card": "https://ms.yugipedia.com//5/57/LengLing-RD26S1-JP-OP.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Leng Ling (Rush Duel)",
+        "id": 1204507
+      }
+    ],
+    "dbID": 23429
+  },
+  "series": []
+}

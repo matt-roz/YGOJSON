@@ -1,0 +1,48 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "6e542426-9306-4259-a4ed-20907ae7cf0f",
+  "text": {
+    "en": {
+      "name": "Goe Goe the Rumored Kabuki Lion",
+      "effect": "This card gains ATK equal to [the number of \"Helpful Items\" in your Graveyard] x 300 until the end of this turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u5642\u306e\u50be\u5947\u7345\u5b50\u30b4\u30a8\u30b4\u30a8",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u306e\u653b\u6483\u529b\u306f\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\u3001\uff3b\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u304a\u52a9\u3051\u9053\u5177\u300d\u306e\u6570\uff3d\u00d7\uff13\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "wind",
+  "monsterCardTypes": [
+    "ritual"
+  ],
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 2500,
+  "def": 1500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "bcec0698-6ce1-451a-8cfd-548262373681",
+      "card": "https://ms.yugipedia.com//e/e0/GoeGoetheRumoredKabukiLion-RDKP26-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Goe Goe the Rumored Kabuki Lion",
+        "id": 1207755
+      }
+    ],
+    "dbID": 23756
+  },
+  "series": [
+    "163676dd-6925-4184-b8a7-bb7e7c8b6431"
+  ]
+}

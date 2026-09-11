@@ -1,0 +1,66 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "f608fc72-9382-4734-817f-1126e23c5dc4",
+  "text": {
+    "en": {
+      "name": "Triad Drago",
+      "effect": "Draw 1 card."
+    },
+    "fr": {
+      "name": "Triad Drago"
+    },
+    "de": {
+      "name": "Triaden-Drago"
+    },
+    "it": {
+      "name": "Drago Triade"
+    },
+    "es": {
+      "name": "Triad Drago"
+    },
+    "ja": {
+      "name": "\u30c8\u30e9\u30a4\u30a2\u30c9\u30fb\u30c9\u30e9\u30b4",
+      "effect": "\u81ea\u5206\u306f\uff11\u679a\u30c9\u30ed\u30fc\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud2b8\ub77c\uc774\uc5b4\ub4dc \ub4dc\ub77c\uace0",
+      "effect": "\uc790\uc2e0\uc740 1\uc7a5 \ub4dc\ub85c\uc6b0\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "dragon",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 300,
+  "def": 1300,
+  "passwords": [],
+  "images": [
+    {
+      "id": "9d874223-1947-4fae-bcf7-27899515a58a",
+      "card": "https://ms.yugipedia.com//6/60/TriadDrago-RDSD0A-JP-C.png"
+    }
+  ],
+  "sets": [
+    "b0d594ec-1f44-402f-a994-a88c19a50a43",
+    "b0d594ec-1f44-402f-a994-a88c19a50a43",
+    "b3912bea-7700-43b3-8e58-def0f757111c",
+    "b3912bea-7700-43b3-8e58-def0f757111c"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Triad Drago",
+        "id": 717239
+      }
+    ],
+    "dbID": 16304
+  },
+  "series": []
+}

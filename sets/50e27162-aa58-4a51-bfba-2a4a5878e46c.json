@@ -1,0 +1,424 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "50e27162-aa58-4a51-bfba-2a4a5878e46c",
+  "name": {
+    "en": "Starter Deck 2013 Enhancement Pack",
+    "ja": "\u30b9\u30bf\u30fc\u30bf\u30fc\u30c7\u30c3\u30ad\u5f37\u5316\u30d1\u30c3\u30af",
+    "ko": "\uc2a4\ud0c0\ud130 \ub371 \uac15\ud654 \ud329"
+  },
+  "locales": {
+    "jp": {
+      "language": "ja",
+      "prefix": "ST13-JPV",
+      "date": "2013-03-16",
+      "image": "https://ms.yugipedia.com//3/37/ST13-PromoJP.png",
+      "cardImages": {
+        "unlimited": {
+          "048989f9-03c9-4f00-beeb-feb517dd2a9f": "https://ms.yugipedia.com//d/de/Grenosaurus-ST13-JP-C.png",
+          "0e84a12a-d983-417f-8118-55658f558099": "https://ms.yugipedia.com//4/49/NumberC39UtopiaRayV-ST13-JP-UR.png",
+          "1253e10e-83d2-4799-857d-b68e2630f961": "https://ms.yugipedia.com//a/a6/BiteBug-ST13-JP-C.png",
+          "233d3756-c61f-4b2e-917b-45a1f0fa4628": "https://ms.yugipedia.com//c/c8/GanbaraLancer-ST13-JP-C.png",
+          "39db5161-843c-432f-b85f-c0e31b43da92": "https://ms.yugipedia.com//6/60/MagicCylinder-ST13-JP-SR.png",
+          "3a891807-694b-402d-b752-5a9771e320e3": "https://ms.yugipedia.com//b/bb/MysticalSpaceTyphoon-ST13-JP-SR.png",
+          "3e7ae9e1-bbbb-43f1-a37e-db92f4cb8475": "https://ms.yugipedia.com//3/30/Number6ChronomalyAtlandis-ST13-JP-C.png",
+          "5dd0114a-beae-43a9-80a8-a5a5c152eed1": "https://ms.yugipedia.com//b/b0/MirrorForce-ST13-JP-SR.png",
+          "6524083a-f8ae-45db-82ef-2b74081f87ac": "https://ms.yugipedia.com//e/e0/SwordsofRevealingLight-ST13-JP-SR.png",
+          "66d8acd5-5ba4-4076-a355-41a6e9fd71a9": "https://ms.yugipedia.com//5/5a/Number30AcidGolemofDestruction-ST13-JP-C.png",
+          "6ef78e43-5b86-4e5c-a3f7-a72a7c2d52d9": "https://ms.yugipedia.com//a/a3/ShiningElf-ST13-JP-C.png",
+          "c28075ad-5e1d-4a7e-9c6d-f6856e1d5bf2": "https://ms.yugipedia.com//f/ff/CraneCrane-ST13-JP-C.png",
+          "cd45e3a0-bce0-42ad-bb07-27bc3bba1238": "https://ms.yugipedia.com//7/71/RankUpMagicLimitedBariansForce-ST13-JP-UR.png",
+          "d708355b-3b07-434a-829a-d05f5632fc5a": "https://ms.yugipedia.com//0/0e/ZWEagleClaw-ST13-JP-C.png",
+          "fc5fb181-aff5-4c45-87ad-c3b68f825e25": "https://ms.yugipedia.com//5/5c/Gentlemander-ST13-JP-C.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "048989f9-03c9-4f00-beeb-feb517dd2a9f": {
+            "image": "https://ms.yugipedia.com//d/de/Grenosaurus-ST13-JP-C.png"
+          },
+          "0e84a12a-d983-417f-8118-55658f558099": {
+            "image": "https://ms.yugipedia.com//4/49/NumberC39UtopiaRayV-ST13-JP-UR.png"
+          },
+          "1253e10e-83d2-4799-857d-b68e2630f961": {
+            "image": "https://ms.yugipedia.com//a/a6/BiteBug-ST13-JP-C.png"
+          },
+          "233d3756-c61f-4b2e-917b-45a1f0fa4628": {
+            "image": "https://ms.yugipedia.com//c/c8/GanbaraLancer-ST13-JP-C.png"
+          },
+          "39db5161-843c-432f-b85f-c0e31b43da92": {
+            "image": "https://ms.yugipedia.com//6/60/MagicCylinder-ST13-JP-SR.png"
+          },
+          "3a891807-694b-402d-b752-5a9771e320e3": {
+            "image": "https://ms.yugipedia.com//b/bb/MysticalSpaceTyphoon-ST13-JP-SR.png"
+          },
+          "3e7ae9e1-bbbb-43f1-a37e-db92f4cb8475": {
+            "image": "https://ms.yugipedia.com//3/30/Number6ChronomalyAtlandis-ST13-JP-C.png"
+          },
+          "5dd0114a-beae-43a9-80a8-a5a5c152eed1": {
+            "image": "https://ms.yugipedia.com//b/b0/MirrorForce-ST13-JP-SR.png"
+          },
+          "6524083a-f8ae-45db-82ef-2b74081f87ac": {
+            "image": "https://ms.yugipedia.com//e/e0/SwordsofRevealingLight-ST13-JP-SR.png"
+          },
+          "66d8acd5-5ba4-4076-a355-41a6e9fd71a9": {
+            "image": "https://ms.yugipedia.com//5/5a/Number30AcidGolemofDestruction-ST13-JP-C.png"
+          },
+          "6ef78e43-5b86-4e5c-a3f7-a72a7c2d52d9": {
+            "image": "https://ms.yugipedia.com//a/a3/ShiningElf-ST13-JP-C.png"
+          },
+          "c28075ad-5e1d-4a7e-9c6d-f6856e1d5bf2": {
+            "image": "https://ms.yugipedia.com//f/ff/CraneCrane-ST13-JP-C.png"
+          },
+          "cd45e3a0-bce0-42ad-bb07-27bc3bba1238": {
+            "image": "https://ms.yugipedia.com//7/71/RankUpMagicLimitedBariansForce-ST13-JP-UR.png"
+          },
+          "d708355b-3b07-434a-829a-d05f5632fc5a": {
+            "image": "https://ms.yugipedia.com//0/0e/ZWEagleClaw-ST13-JP-C.png"
+          },
+          "fc5fb181-aff5-4c45-87ad-c3b68f825e25": {
+            "image": "https://ms.yugipedia.com//5/5c/Gentlemander-ST13-JP-C.png"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          111113004
+        ]
+      }
+    },
+    "kr": {
+      "language": "ko",
+      "prefix": "ST13-KRV",
+      "date": "2013-07-05",
+      "image": "https://ms.yugipedia.com//a/af/ST13-PromoKR.png",
+      "cardImages": {
+        "1st": {
+          "0e84a12a-d983-417f-8118-55658f558099": "https://ms.yugipedia.com//7/79/NumberC39UtopiaRayV-ST13-KR-UR-1E.png",
+          "233d3756-c61f-4b2e-917b-45a1f0fa4628": "https://ms.yugipedia.com//0/08/GanbaraLancer-ST13-KR-C-1E.png",
+          "3a891807-694b-402d-b752-5a9771e320e3": "https://ms.yugipedia.com//2/24/MysticalSpaceTyphoon-ST13-KR-SR-1E.png",
+          "3e7ae9e1-bbbb-43f1-a37e-db92f4cb8475": "https://ms.yugipedia.com//1/1e/Number6ChronomalyAtlandis-ST13-KR-C-1E.png",
+          "5dd0114a-beae-43a9-80a8-a5a5c152eed1": "https://ms.yugipedia.com//e/e5/MirrorForce-ST13-KR-SR-1E.png",
+          "6524083a-f8ae-45db-82ef-2b74081f87ac": "https://ms.yugipedia.com//4/49/SwordsofRevealingLight-ST13-KR-SR-1E.png",
+          "66d8acd5-5ba4-4076-a355-41a6e9fd71a9": "https://ms.yugipedia.com//9/9e/Number30AcidGolemofDestruction-ST13-KR-C-1E.png",
+          "6ef78e43-5b86-4e5c-a3f7-a72a7c2d52d9": "https://ms.yugipedia.com//4/41/ShiningElf-ST13-KR-C-1E.png",
+          "c28075ad-5e1d-4a7e-9c6d-f6856e1d5bf2": "https://ms.yugipedia.com//a/a1/CraneCrane-ST13-KR-C-1E.png",
+          "cd45e3a0-bce0-42ad-bb07-27bc3bba1238": "https://ms.yugipedia.com//b/b9/RankUpMagicLimitedBariansForce-ST13-KR-UR-1E.png"
+        }
+      },
+      "cardInfo": {
+        "1st": {
+          "0e84a12a-d983-417f-8118-55658f558099": {
+            "image": "https://ms.yugipedia.com//7/79/NumberC39UtopiaRayV-ST13-KR-UR-1E.png"
+          },
+          "233d3756-c61f-4b2e-917b-45a1f0fa4628": {
+            "image": "https://ms.yugipedia.com//0/08/GanbaraLancer-ST13-KR-C-1E.png"
+          },
+          "3a891807-694b-402d-b752-5a9771e320e3": {
+            "image": "https://ms.yugipedia.com//2/24/MysticalSpaceTyphoon-ST13-KR-SR-1E.png"
+          },
+          "3e7ae9e1-bbbb-43f1-a37e-db92f4cb8475": {
+            "image": "https://ms.yugipedia.com//1/1e/Number6ChronomalyAtlandis-ST13-KR-C-1E.png"
+          },
+          "5dd0114a-beae-43a9-80a8-a5a5c152eed1": {
+            "image": "https://ms.yugipedia.com//e/e5/MirrorForce-ST13-KR-SR-1E.png"
+          },
+          "6524083a-f8ae-45db-82ef-2b74081f87ac": {
+            "image": "https://ms.yugipedia.com//4/49/SwordsofRevealingLight-ST13-KR-SR-1E.png"
+          },
+          "66d8acd5-5ba4-4076-a355-41a6e9fd71a9": {
+            "image": "https://ms.yugipedia.com//9/9e/Number30AcidGolemofDestruction-ST13-KR-C-1E.png"
+          },
+          "6ef78e43-5b86-4e5c-a3f7-a72a7c2d52d9": {
+            "image": "https://ms.yugipedia.com//4/41/ShiningElf-ST13-KR-C-1E.png"
+          },
+          "c28075ad-5e1d-4a7e-9c6d-f6856e1d5bf2": {
+            "image": "https://ms.yugipedia.com//a/a1/CraneCrane-ST13-KR-C-1E.png"
+          },
+          "cd45e3a0-bce0-42ad-bb07-27bc3bba1238": {
+            "image": "https://ms.yugipedia.com//b/b9/RankUpMagicLimitedBariansForce-ST13-KR-UR-1E.png"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "1st"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          72211001
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//3/37/ST13-PromoJP.png",
+      "cards": [
+        {
+          "id": "0e84a12a-d983-417f-8118-55658f558099",
+          "card": "25c91bcc-46ca-4fb7-9188-319bc0ada3e4",
+          "suffix": "01",
+          "rarity": "ultra",
+          "imageID": "da4fc877-cd26-4648-b9aa-f3751626d574",
+          "printStatus": "new"
+        },
+        {
+          "id": "cd45e3a0-bce0-42ad-bb07-27bc3bba1238",
+          "card": "afdc49e1-c4da-4e97-801c-7085d5edcd47",
+          "suffix": "02",
+          "rarity": "ultra",
+          "imageID": "c032bb4b-3b54-4b75-ac01-57ca2f69feca",
+          "printStatus": "new"
+        },
+        {
+          "id": "d708355b-3b07-434a-829a-d05f5632fc5a",
+          "card": "af2f9082-7ffb-4fe1-b83e-581168b60e4e",
+          "suffix": "03",
+          "rarity": "common",
+          "imageID": "b4513a98-4189-4e0c-bf09-6a6bed0245d9",
+          "printStatus": "new"
+        },
+        {
+          "id": "233d3756-c61f-4b2e-917b-45a1f0fa4628",
+          "card": "61413e0f-9a26-46c1-bd8c-1c103227fb8c",
+          "suffix": "04",
+          "rarity": "common",
+          "imageID": "b6859536-b44a-4157-94e8-ba553f27ad8d",
+          "printStatus": "new"
+        },
+        {
+          "id": "1253e10e-83d2-4799-857d-b68e2630f961",
+          "card": "4058acbd-c477-4a22-9648-043efdc06bf7",
+          "suffix": "05",
+          "rarity": "common",
+          "imageID": "5989b61c-8795-4076-ae30-394df05c6a06",
+          "printStatus": "new"
+        },
+        {
+          "id": "c28075ad-5e1d-4a7e-9c6d-f6856e1d5bf2",
+          "card": "46763e7a-bf29-4c8a-8fd2-c86e56cf1a76",
+          "suffix": "06",
+          "rarity": "common",
+          "imageID": "2287db70-fcff-4b7b-b244-f72c0e57b921",
+          "printStatus": "new"
+        },
+        {
+          "id": "fc5fb181-aff5-4c45-87ad-c3b68f825e25",
+          "card": "29c8cf61-005c-4b5d-903c-40e3f77c375f",
+          "suffix": "07",
+          "rarity": "common",
+          "imageID": "c2a166a6-8c95-4fac-b9fb-4acfcfa50627",
+          "printStatus": "new"
+        },
+        {
+          "id": "048989f9-03c9-4f00-beeb-feb517dd2a9f",
+          "card": "d29fbfc5-8525-4a87-b995-8245a07845cc",
+          "suffix": "08",
+          "rarity": "common",
+          "imageID": "a378adad-0cc4-4a5b-aba3-7dbab74e30bd",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "66d8acd5-5ba4-4076-a355-41a6e9fd71a9",
+          "card": "baac37de-b41d-4247-b293-799df5bb212c",
+          "suffix": "09",
+          "rarity": "common",
+          "imageID": "064a0fcb-a7d7-4439-8c1f-130005d407d0",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "6ef78e43-5b86-4e5c-a3f7-a72a7c2d52d9",
+          "card": "8105f57a-c749-4d51-995c-330be85a9bbb",
+          "suffix": "10",
+          "rarity": "common",
+          "imageID": "8abb1e78-c998-43f2-adce-c15d35fe5d34",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "3e7ae9e1-bbbb-43f1-a37e-db92f4cb8475",
+          "card": "895c098c-f75b-45d7-816f-1ec0587cd37c",
+          "suffix": "11",
+          "rarity": "common",
+          "imageID": "68a8b9c2-da58-40fd-8983-5cf32dede6d7",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "3a891807-694b-402d-b752-5a9771e320e3",
+          "card": "d15ea879-903e-481a-9ad1-774823a8518b",
+          "suffix": "12",
+          "rarity": "super",
+          "imageID": "f7eb3c46-62df-45ec-9be3-877f11a4a522",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "6524083a-f8ae-45db-82ef-2b74081f87ac",
+          "card": "e1a7a928-8fa0-4ab1-bade-66c0258a0d0c",
+          "suffix": "13",
+          "rarity": "super",
+          "imageID": "f6499bac-ab74-45a2-8052-33de9994ae1a",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "5dd0114a-beae-43a9-80a8-a5a5c152eed1",
+          "card": "0bfcc499-7a45-452e-ad36-d2e2026ad580",
+          "suffix": "14",
+          "rarity": "super",
+          "imageID": "296b1a74-41ac-46bf-87af-b0b1820162ec",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "39db5161-843c-432f-b85f-c0e31b43da92",
+          "card": "97b90b58-0d63-491b-b7e8-6448d6eb1ee9",
+          "suffix": "15",
+          "rarity": "super",
+          "imageID": "a6757ca4-c049-496e-9295-bfdcd64c6c55",
+          "printStatus": "reprint"
+        }
+      ],
+      "externalIDs": {}
+    },
+    {
+      "locales": [
+        "kr"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "1st"
+      ],
+      "image": "https://ms.yugipedia.com//a/af/ST13-PromoKR.png",
+      "cards": [
+        {
+          "id": "0e84a12a-d983-417f-8118-55658f558099",
+          "card": "25c91bcc-46ca-4fb7-9188-319bc0ada3e4",
+          "suffix": "01",
+          "rarity": "ultra",
+          "imageID": "da4fc877-cd26-4648-b9aa-f3751626d574"
+        },
+        {
+          "id": "cd45e3a0-bce0-42ad-bb07-27bc3bba1238",
+          "card": "afdc49e1-c4da-4e97-801c-7085d5edcd47",
+          "suffix": "02",
+          "rarity": "ultra",
+          "imageID": "c032bb4b-3b54-4b75-ac01-57ca2f69feca"
+        },
+        {
+          "id": "d708355b-3b07-434a-829a-d05f5632fc5a",
+          "card": "af2f9082-7ffb-4fe1-b83e-581168b60e4e",
+          "suffix": "03",
+          "rarity": "common",
+          "imageID": "b4513a98-4189-4e0c-bf09-6a6bed0245d9"
+        },
+        {
+          "id": "233d3756-c61f-4b2e-917b-45a1f0fa4628",
+          "card": "61413e0f-9a26-46c1-bd8c-1c103227fb8c",
+          "suffix": "04",
+          "rarity": "common",
+          "imageID": "b6859536-b44a-4157-94e8-ba553f27ad8d"
+        },
+        {
+          "id": "1253e10e-83d2-4799-857d-b68e2630f961",
+          "card": "4058acbd-c477-4a22-9648-043efdc06bf7",
+          "suffix": "05",
+          "rarity": "common",
+          "imageID": "5989b61c-8795-4076-ae30-394df05c6a06"
+        },
+        {
+          "id": "c28075ad-5e1d-4a7e-9c6d-f6856e1d5bf2",
+          "card": "46763e7a-bf29-4c8a-8fd2-c86e56cf1a76",
+          "suffix": "06",
+          "rarity": "common",
+          "imageID": "2287db70-fcff-4b7b-b244-f72c0e57b921"
+        },
+        {
+          "id": "fc5fb181-aff5-4c45-87ad-c3b68f825e25",
+          "card": "29c8cf61-005c-4b5d-903c-40e3f77c375f",
+          "suffix": "07",
+          "rarity": "common",
+          "imageID": "c2a166a6-8c95-4fac-b9fb-4acfcfa50627"
+        },
+        {
+          "id": "048989f9-03c9-4f00-beeb-feb517dd2a9f",
+          "card": "d29fbfc5-8525-4a87-b995-8245a07845cc",
+          "suffix": "08",
+          "rarity": "common",
+          "imageID": "a378adad-0cc4-4a5b-aba3-7dbab74e30bd"
+        },
+        {
+          "id": "66d8acd5-5ba4-4076-a355-41a6e9fd71a9",
+          "card": "baac37de-b41d-4247-b293-799df5bb212c",
+          "suffix": "09",
+          "rarity": "common",
+          "imageID": "064a0fcb-a7d7-4439-8c1f-130005d407d0"
+        },
+        {
+          "id": "6ef78e43-5b86-4e5c-a3f7-a72a7c2d52d9",
+          "card": "8105f57a-c749-4d51-995c-330be85a9bbb",
+          "suffix": "10",
+          "rarity": "common",
+          "imageID": "8abb1e78-c998-43f2-adce-c15d35fe5d34"
+        },
+        {
+          "id": "3e7ae9e1-bbbb-43f1-a37e-db92f4cb8475",
+          "card": "895c098c-f75b-45d7-816f-1ec0587cd37c",
+          "suffix": "11",
+          "rarity": "common",
+          "imageID": "68a8b9c2-da58-40fd-8983-5cf32dede6d7"
+        },
+        {
+          "id": "3a891807-694b-402d-b752-5a9771e320e3",
+          "card": "d15ea879-903e-481a-9ad1-774823a8518b",
+          "suffix": "12",
+          "rarity": "super",
+          "imageID": "f7eb3c46-62df-45ec-9be3-877f11a4a522"
+        },
+        {
+          "id": "6524083a-f8ae-45db-82ef-2b74081f87ac",
+          "card": "e1a7a928-8fa0-4ab1-bade-66c0258a0d0c",
+          "suffix": "13",
+          "rarity": "super",
+          "imageID": "f6499bac-ab74-45a2-8052-33de9994ae1a"
+        },
+        {
+          "id": "5dd0114a-beae-43a9-80a8-a5a5c152eed1",
+          "card": "0bfcc499-7a45-452e-ad36-d2e2026ad580",
+          "suffix": "14",
+          "rarity": "super",
+          "imageID": "296b1a74-41ac-46bf-87af-b0b1820162ec"
+        },
+        {
+          "id": "39db5161-843c-432f-b85f-c0e31b43da92",
+          "card": "97b90b58-0d63-491b-b7e8-6448d6eb1ee9",
+          "suffix": "15",
+          "rarity": "super",
+          "imageID": "a6757ca4-c049-496e-9295-bfdcd64c6c55"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Starter Deck 2013 Enhancement Pack",
+      "id": 257132
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "f374d0c2-0335-4b3f-862e-4bc7000ce3ab",
+  "text": {
+    "en": {
+      "name": "Rescue Cat (Rush Duel)",
+      "effect": "Special Summon 2 Level 3 or lower Beast Type monsters from your Graveyard face-up to your field. Destroy the monsters Special Summoned by this effect during the End Phase of this turn. This turn, you cannot activate the effect of \"Rescue Cat\".",
+      "official": false
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "beast",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 300,
+  "def": 100,
+  "passwords": [],
+  "images": [
+    {
+      "id": "83e8fb67-c859-4d96-a5c5-2408d17dd0c4",
+      "card": "https://ms.yugipedia.com//7/77/RescueCat-RDLP01-JP-OP.png"
+    },
+    {
+      "id": "1265b893-399a-48a9-87bb-859b4da2cafd",
+      "card": "https://ms.yugipedia.com//d/d2/RescueCat-RDLP01-JP-OP-AA.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Rescue Cat (Rush Duel)",
+        "id": 1203688
+      }
+    ]
+  },
+  "series": []
+}

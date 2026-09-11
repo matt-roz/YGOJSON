@@ -1,0 +1,50 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "2aa70345-5189-45eb-ba78-899bdaca9d53",
+  "text": {
+    "en": {
+      "name": "Dark Prophet",
+      "effect": "Add 1 \"Fusion\" from your Graveyard to your hand."
+    },
+    "ja": {
+      "name": "\u30c0\u30fc\u30af\u30fb\u30d7\u30ed\u30d5\u30a7\u30c3\u30c8",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u30d5\u30e5\u30fc\u30b8\u30e7\u30f3\u300d\uff11\u679a\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub2e4\ud06c \ud504\ub85c\ud398\ud2b8",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \"\ud4e8\uc804\" 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\ub294\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "classifications": [
+    "effect"
+  ],
+  "level": 1,
+  "atk": 0,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "8a7af5c2-b98e-4e2e-8eea-f7cd9c39c9fa",
+      "card": "https://ms.yugipedia.com//9/9b/DarkProphet-RDORP1-JP-C.png"
+    }
+  ],
+  "sets": [
+    "c0287cbc-dc56-47ae-9e89-0af80eb1b3d9"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Dark Prophet",
+        "id": 714472
+      }
+    ],
+    "dbID": 18377
+  },
+  "series": []
+}

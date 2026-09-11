@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "ab63365f-d2c1-4c9f-8937-e2baa4f7e2ab",
+  "text": {
+    "en": {
+      "name": "Destructor Soldier Helmet",
+      "effect": "Add 1 \"Fusion\" from your Graveyard to your hand. Then, you can add 1 Field Spell Card from your Graveyard to your hand."
+    },
+    "ja": {
+      "name": "\u5e7b\u58ca\u5175\u30d8\u30eb\u30fb\u30e1\u30c3\u30c8",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u30d5\u30e5\u30fc\u30b8\u30e7\u30f3\u300d\uff11\u679a\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u30d5\u30a3\u30fc\u30eb\u30c9\u9b54\u6cd5\u30ab\u30fc\u30c9\uff11\u679a\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud658\uad34\ubcd1 \ud5ec \uba67",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \"\ud4e8\uc804\" 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\ub294\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0 \ubb18\uc9c0\uc758 \ud544\ub4dc \ub9c8\ubc95 \uce74\ub4dc 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\uc744 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "type": "wyrm",
+  "classifications": [
+    "effect"
+  ],
+  "level": 1,
+  "atk": 400,
+  "def": 400,
+  "passwords": [],
+  "images": [
+    {
+      "id": "f49b4390-a1b7-4f0c-971b-ebc27d8d56dd",
+      "card": "https://ms.yugipedia.com//3/3a/DestructorSoldierHelmet-RDB242-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "r"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Destructor Soldier Helmet",
+        "id": 936571
+      }
+    ],
+    "dbID": 19127
+  },
+  "series": [
+    "67b235e9-be91-4647-ac78-b92102a5898b"
+  ]
+}

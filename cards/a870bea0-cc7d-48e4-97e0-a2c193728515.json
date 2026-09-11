@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "a870bea0-cc7d-48e4-97e0-a2c193728515",
+  "text": {
+    "en": {
+      "name": "Soul of the Skysavior Angel",
+      "effect": "Send the top card of your Deck to the Graveyard. Then, you can add 1 \"Soleil, the Fairy of Skysavior\" or \"Lua, the Fairy of Skysavior\" from your Graveyard to your hand. If you do, you can send 1 monster from your field to the Graveyard.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u84bc\u6551\u5929\u4f7f\u306e\u9b42",
+      "effect": "\u81ea\u5206\u306e\u30c7\u30c3\u30ad\u306e\u4e00\u756a\u4e0a\u306e\u30ab\u30fc\u30c9\u3092\u5893\u5730\u3078\u9001\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u84bc\u6551\u5929\u4f7f \u30bd\u30ec\u30a4\u30eb\u300d\u307e\u305f\u306f\u300c\u84bc\u6551\u5929\u4f7f \u30eb\u30fc\u30a2\u300d\uff11\u4f53\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002\u52a0\u3048\u305f\u5834\u5408\u3001\u3055\u3089\u306b\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u3092\u9078\u3093\u3067\u5893\u5730\u3078\u9001\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ucc3d\uad6c\ucc9c\uc0ac\uc758 \ud63c",
+      "effect": "\uc790\uc2e0 \ub371 \ub9e8 \uc704\uc758 \uce74\ub4dc\ub97c \ubb18\uc9c0\ub85c \ubcf4\ub0b8\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0 \ubb18\uc9c0\uc758 \"\ucc3d\uad6c\ucc9c\uc0ac \uc194\ub808\uc77c\" \ub610\ub294 \"\ucc3d\uad6c\ucc9c\uc0ac \ub8e8\uc544\" 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\uc744 \uc218 \uc788\ub2e4. \ub123\uc5c8\uc744 \uacbd\uc6b0, \ucd94\uac00\ub85c \uc790\uc2e0 \ud544\ub4dc\uc758 \ubaac\uc2a4\ud130 1\uc7a5\uc744 \uace0\ub974\uace0 \ubb18\uc9c0\ub85c \ubcf4\ub0bc \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "type": "fairy",
+  "classifications": [
+    "effect"
+  ],
+  "level": 1,
+  "atk": 500,
+  "def": 500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "29686972-4aa8-4268-988b-20083f6d3a53",
+      "card": "https://ms.yugipedia.com//d/d9/SouloftheSkysaviorAngel-RDORP4-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Soul of the Skysavior Angel",
+        "id": 1178951
+      }
+    ],
+    "dbID": 23073
+  },
+  "series": [
+    "ca246ec0-d926-4a5f-b983-145ffb05a55c"
+  ]
+}

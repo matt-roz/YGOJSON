@@ -1,0 +1,283 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "63837256-9c38-44c5-b510-b45a938a5ea1",
+  "name": {
+    "en": "Duelist Entry Deck VS: Saber Force",
+    "ko": "\ub4c0\uc5bc\ub9ac\uc2a4\ud2b8 \uc5d4\ud2b8\ub9ac\ub371 -\uc138\uc774\ubc84 \ud3ec\uc2a4-"
+  },
+  "locales": {
+    "kr": {
+      "language": "ko",
+      "prefix": "VS15-KRS",
+      "date": "2015-07-11",
+      "image": "https://ms.yugipedia.com//5/53/VS15S-DeckKR.png",
+      "cardImages": {
+        "1st": {
+          "1e2ab397-6251-4b8e-a53d-ffb7c5dde174": "https://ms.yugipedia.com//f/f7/MysticalSpaceTyphoon-VS15-KR-C-1E.png",
+          "60922c4e-e84b-498e-912f-7657537e23fe": "https://ms.yugipedia.com//d/de/OddEyesDragon-VS15-KR-NPR-1E.png"
+        },
+        "limited": {
+          "cebbec10-5caa-4afa-9a3a-3041dd9f3ce3": "https://ms.yugipedia.com//b/b8/OddEyesSaberDragon-VS15-KR-EScR-LE.png"
+        }
+      },
+      "cardInfo": {
+        "1st": {
+          "1e2ab397-6251-4b8e-a53d-ffb7c5dde174": {
+            "image": "https://ms.yugipedia.com//f/f7/MysticalSpaceTyphoon-VS15-KR-C-1E.png"
+          },
+          "60922c4e-e84b-498e-912f-7657537e23fe": {
+            "image": "https://ms.yugipedia.com//d/de/OddEyesDragon-VS15-KR-NPR-1E.png"
+          }
+        },
+        "limited": {
+          "cebbec10-5caa-4afa-9a3a-3041dd9f3ce3": {
+            "image": "https://ms.yugipedia.com//b/b8/OddEyesSaberDragon-VS15-KR-EScR-LE.png"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "1st",
+        "limited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          72213001
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "kr"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "1st",
+        "limited"
+      ],
+      "image": "https://ms.yugipedia.com//5/53/VS15S-DeckKR.png",
+      "cards": [
+        {
+          "id": "cebbec10-5caa-4afa-9a3a-3041dd9f3ce3",
+          "card": "94e8833e-f457-4190-8650-927be01d6c62",
+          "suffix": "00",
+          "rarity": "extrasecret",
+          "imageID": "a3b92936-fae4-4fbd-9ad9-b9ef86ab4feb"
+        },
+        {
+          "id": "e65b4a2c-ad23-47d4-ac97-51ddb4e64b3d",
+          "card": "490460a1-def1-402d-97a0-2b0e44c9f210",
+          "suffix": "01",
+          "rarity": "common",
+          "imageID": "3418deb9-02d8-43bc-a09a-bbcd5279f2ce",
+          "qty": 2
+        },
+        {
+          "id": "ef1584b7-6cb7-4986-90f4-1c9838b5c819",
+          "card": "e8b3499e-9370-43a1-aa44-a9d4eaed4e8e",
+          "suffix": "02",
+          "rarity": "common",
+          "imageID": "f9c3f90f-37ea-41a9-be71-f3ca569a9c2c",
+          "qty": 2
+        },
+        {
+          "id": "60922c4e-e84b-498e-912f-7657537e23fe",
+          "card": "70dfbd57-ed56-48db-9277-1fab23ff24df",
+          "suffix": "03",
+          "rarity": "commonparallel",
+          "imageID": "6bf5bed8-e25e-428a-9bee-80fac03b5e03"
+        },
+        {
+          "id": "65c4ee7e-e513-48a5-a3ee-ccd0214f12c8",
+          "card": "f0fa7447-c0bb-4a08-baef-da687d73524e",
+          "suffix": "04",
+          "rarity": "commonparallel",
+          "imageID": "a0458671-b065-4d6e-8b6a-9eb0a9d374ce"
+        },
+        {
+          "id": "a36ad3a8-2d90-4df8-ae58-43d4b56220f3",
+          "card": "77bc0807-d7fc-461d-98dc-ea23a2acc6fa",
+          "suffix": "05",
+          "rarity": "common",
+          "qty": 2
+        },
+        {
+          "id": "6d066a44-fb86-43c0-a7ad-96ed2112dbf1",
+          "card": "9cbda603-cdc2-4d97-bcd8-175ac3911dd1",
+          "suffix": "06",
+          "rarity": "common",
+          "imageID": "29bcbc29-d6c3-4dc2-bb53-19a38c00bdef",
+          "qty": 2
+        },
+        {
+          "id": "79c98d3c-e84b-45fe-bc51-e046b38bd49f",
+          "card": "1f305341-f893-4e2d-b768-d3ad3404efbc",
+          "suffix": "07",
+          "rarity": "common",
+          "imageID": "b52ef177-ca7e-4c80-91c0-73b6910fd2a1",
+          "qty": 2
+        },
+        {
+          "id": "bf20f904-c5ac-463b-9712-8cec26756418",
+          "card": "19e37dd8-cb93-4707-b5c6-aebe868a67a2",
+          "suffix": "08",
+          "rarity": "common",
+          "imageID": "4515836f-0d0e-4071-a2e4-6bb9933a00ac",
+          "qty": 2
+        },
+        {
+          "id": "395a8926-b631-4ad2-bd1a-2776b77b6f1f",
+          "card": "d979497d-2762-41db-ad51-c79c14e99f4c",
+          "suffix": "09",
+          "rarity": "common",
+          "imageID": "0b7cd0a4-66d4-4428-ad92-5f72a5cbdfac",
+          "qty": 2
+        },
+        {
+          "id": "9fd6ccab-a231-4192-9072-f17cb22947be",
+          "card": "ef12df21-1675-40ac-b935-7630e2e06f74",
+          "suffix": "10",
+          "rarity": "common",
+          "imageID": "963d0347-aedd-481e-8c7e-6088442cc321",
+          "qty": 2
+        },
+        {
+          "id": "d046aefe-08fb-4219-b384-cefb933aa263",
+          "card": "6f70e655-5157-499d-abf9-69d0026a9de1",
+          "suffix": "11",
+          "rarity": "common",
+          "imageID": "9f6a51f4-e0c1-4e18-88b1-31791152daef",
+          "qty": 2
+        },
+        {
+          "id": "80ba2f58-c656-4ae0-b386-9b596550335a",
+          "card": "23aff984-eeea-490d-b9e3-6e0ea42855e0",
+          "suffix": "12",
+          "rarity": "common",
+          "imageID": "7877fc24-becc-4465-89c5-5be11bd18607"
+        },
+        {
+          "id": "2a7c9ab5-367c-4e1a-acf9-95d089725b74",
+          "card": "08a59d85-df4c-4a8d-a9f6-b07dc21f58b0",
+          "suffix": "13",
+          "rarity": "commonparallel"
+        },
+        {
+          "id": "3f45d5f1-784e-4b84-92af-fefd6d568e39",
+          "card": "0bae3885-838e-4d5d-88ac-108218510d12",
+          "suffix": "14",
+          "rarity": "commonparallel",
+          "imageID": "809e89d1-ff4c-4965-b15c-7e6561850001"
+        },
+        {
+          "id": "f00356fc-5abf-41a3-999e-a8aafe2d8882",
+          "card": "fbe477fc-d4ec-458c-9228-364776217ef2",
+          "suffix": "15",
+          "rarity": "commonparallel",
+          "imageID": "2ef83a0f-3eb1-409b-9569-8a9179cff76c"
+        },
+        {
+          "id": "1e2ab397-6251-4b8e-a53d-ffb7c5dde174",
+          "card": "d15ea879-903e-481a-9ad1-774823a8518b",
+          "suffix": "16",
+          "rarity": "common",
+          "imageID": "f7eb3c46-62df-45ec-9be3-877f11a4a522",
+          "qty": 2
+        },
+        {
+          "id": "4fccc5ed-cc92-4741-83fa-c5ed0434a7b7",
+          "card": "0e0a131d-bc45-4bd7-a018-512733ebc1b6",
+          "suffix": "17",
+          "rarity": "common",
+          "imageID": "1202fec8-edc0-46b8-808d-73cc037dd938",
+          "qty": 2
+        },
+        {
+          "id": "8b18b28a-77e8-447b-86a0-5eefc9742091",
+          "card": "d895d4d9-f3dd-465b-969c-036f341e5b48",
+          "suffix": "18",
+          "rarity": "common",
+          "imageID": "05902f73-1918-46ac-96df-0da2a69610cd"
+        },
+        {
+          "id": "d2c90317-ed09-495c-b79e-3362ba7140e9",
+          "card": "db99e06c-6217-457c-bd47-bc66d537eb04",
+          "suffix": "19",
+          "rarity": "common",
+          "imageID": "b0f43849-ffa2-4aad-869f-1272b8f70f14"
+        },
+        {
+          "id": "763b0cf7-41dd-4eed-b97d-cfb13532903f",
+          "card": "a0d031f5-1b62-4e7d-b510-d5c6d601e6d4",
+          "suffix": "20",
+          "rarity": "common",
+          "imageID": "d4b3e6b6-c131-4170-9b87-0960237f9f79"
+        },
+        {
+          "id": "49eab159-a629-4a68-8a4b-9025bdd37c3b",
+          "card": "0bfcc499-7a45-452e-ad36-d2e2026ad580",
+          "suffix": "21",
+          "rarity": "commonparallel",
+          "imageID": "296b1a74-41ac-46bf-87af-b0b1820162ec"
+        },
+        {
+          "id": "09be8f1d-e395-4d08-af56-4867b5b638e2",
+          "card": "97b90b58-0d63-491b-b7e8-6448d6eb1ee9",
+          "suffix": "22",
+          "rarity": "commonparallel",
+          "imageID": "a6757ca4-c049-496e-9295-bfdcd64c6c55"
+        },
+        {
+          "id": "9ec6f28e-16c6-4f1e-a21b-6520e8c92b6f",
+          "card": "37bca14b-fe1a-4018-ae53-bf9a58e7d02c",
+          "suffix": "23",
+          "rarity": "common",
+          "imageID": "ad389a91-0a80-4d17-b660-91a95ff380db"
+        },
+        {
+          "id": "55a7f7a7-487e-435d-a746-7904a326f904",
+          "card": "255cb7b7-8539-43ff-954f-a69945d4b565",
+          "suffix": "24",
+          "rarity": "common",
+          "imageID": "23b0902e-508c-4425-850a-1f3d0bea4180",
+          "qty": 2
+        },
+        {
+          "id": "94f96eb6-1766-44c6-a8e9-c32bbdda8507",
+          "card": "53208628-8beb-4fd1-ba63-275c2177df54",
+          "suffix": "25",
+          "rarity": "common",
+          "imageID": "e7b2539c-5114-48cd-a2bb-bb19094057da"
+        },
+        {
+          "id": "eca76b73-a06d-41e6-9d17-b826e42ed8bd",
+          "card": "07240dec-046f-4b64-a5ab-9fe3508dda64",
+          "suffix": "26",
+          "rarity": "common",
+          "imageID": "bfe0f624-b178-4a80-be19-a0bf2577c989",
+          "qty": 2
+        },
+        {
+          "id": "fc021ab0-4e53-4757-b204-3a16aaf80acc",
+          "card": "13881104-18a3-4b8f-860a-4581510d9b39",
+          "suffix": "27",
+          "rarity": "common",
+          "imageID": "acc561f5-a001-47e8-988d-b8568cd04ab5"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Duelist Entry Deck VS: Saber Force",
+      "id": 403469
+    }
+  }
+}

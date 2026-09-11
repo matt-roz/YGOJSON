@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "b7f35a1f-29f7-4ac4-84dc-0a218db234a9",
+  "text": {
+    "en": {
+      "name": "Hydra Viper (Rush Duel)",
+      "effect": "This turn, this card can make up to 3 attacks.",
+      "official": false
+    },
+    "ko": {
+      "name": "\ud2b8\ub9ac\ud50c \ubc14\uc774\ud37c",
+      "effect": "\uc774 \ud134\uc5d0, \uc774 \uce74\ub4dc\ub294 3\ud68c \uacf5\uaca9\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "type": "reptile",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1800,
+  "def": 400,
+  "passwords": [],
+  "images": [
+    {
+      "id": "0c2724a5-1085-4c95-bff3-20cf5c08d615",
+      "card": "https://ms.yugipedia.com//f/f2/HydraViper-RDSJMP-JP-NPR.png"
+    }
+  ],
+  "sets": [
+    "b254644c-27d2-4111-9a53-3a82de7d4cd5"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Hydra Viper (Rush Duel)",
+        "id": 1101798
+      }
+    ],
+    "dbID": 21222
+  },
+  "series": []
+}

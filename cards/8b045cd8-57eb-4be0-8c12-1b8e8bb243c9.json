@@ -1,0 +1,38 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "8b045cd8-57eb-4be0-8c12-1b8e8bb243c9",
+  "text": {
+    "en": {
+      "name": "Graceful Dice (Rush Duel)",
+      "effect": "Roll a six-sided die. All face-up monsters on your field gain ATK/DEF equal to [the result] x 100 until the end of this turn.",
+      "official": false
+    },
+    "ko": {
+      "name": "\ucc9c\uc0ac\uc758 \uc8fc\uc0ac\uc704",
+      "effect": "\uc8fc\uc0ac\uc704\ub97c 1\ud68c \ub358\uc9c4\ub2e4. \uc790\uc2e0 \ud544\ub4dc\uc758 \ubaa8\ub4e0 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130\uc758 \uacf5\uaca9\ub825 / \uc218\ube44\ub825\uc740 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0, [\ub098\uc628 \ub208\uc758 \uc218] \u00d7 100 \uc62c\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "703e4499-c0fc-4cc4-bf63-5ab06143509a",
+      "card": "https://ms.yugipedia.com//5/53/GracefulDice-RDKP16-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Graceful Dice (Rush Duel)",
+        "id": 1038467
+      }
+    ],
+    "dbID": 19997
+  },
+  "series": [
+    "412aee39-bef5-4897-a53b-e1d36fcffdd2"
+  ]
+}

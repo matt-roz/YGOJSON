@@ -1,0 +1,40 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "e6ba0f6a-c9e0-4a5f-86aa-5a4c6a877317",
+  "text": {
+    "en": {
+      "name": "Luster Dragon #2",
+      "effect": "This dragon feeds on emerald. Enchanted by this monster even when attacked, few people live to tell of its beauty."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "wind",
+  "type": "dragon",
+  "classifications": [
+    "normal"
+  ],
+  "level": 6,
+  "atk": 2400,
+  "def": 1400,
+  "passwords": [],
+  "images": [
+    {
+      "id": "c2fca68c-f564-4608-bdc1-6b34a0eebe76",
+      "card": "https://ms.yugipedia.com//a/ab/LusterDragon2-RDVC24-JP-UR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Luster Dragon 2 (Rush Duel)",
+        "id": 1060953
+      }
+    ],
+    "dbID": 20443
+  },
+  "series": [
+    "ebbdc065-8b50-4170-b9ca-cbe4f46068a5"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "c3f147b1-2aac-4918-ab40-847e49ebdea8",
+  "text": {
+    "en": {
+      "name": "Necromaid Lantern",
+      "effect": "Set 1 \"Necromaid Stitch\" or \"Necromaid Resize\" from your Graveyard to your Spell & Trap Zone.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30cd\u30af\u30e1\u30a4\u30c9\u30fb\u30e9\u30a4\u30bf\u30fc",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u30cd\u30af\u30e1\u30a4\u30c9\u30fb\u30b9\u30c6\u30a3\u30c3\u30c1\u300d\u307e\u305f\u306f\u300c\u30cd\u30af\u30e1\u30a4\u30c9\u30fb\u30ea\u30b5\u30a4\u30ba\u300d\uff11\u679a\u3092\u9078\u3093\u3067\u81ea\u5206\u306e\u9b54\u6cd5\uff06\u7f60\u30be\u30fc\u30f3\u306b\u30bb\u30c3\u30c8\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub124\ud06c\uba54\uc774\ub4dc \ub77c\uc774\ud130",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \"\ub124\ud06c\uba54\uc774\ub4dc \uc2a4\ud2f0\uce58\" \ub610\ub294 \"\ub124\ud06c\uba54\uc774\ub4dc \ub9ac\uc0ac\uc774\uc988\" 1\uc7a5\uc744 \uace0\ub974\uace0 \uc790\uc2e0\uc758 \ub9c8\ubc95 & \ud568\uc815 \uc874\uc5d0 \uc138\ud2b8\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "zombie",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1000,
+  "def": 700,
+  "passwords": [],
+  "images": [
+    {
+      "id": "692e2ed4-643e-4372-9847-d8deed1b0118",
+      "card": "https://ms.yugipedia.com//6/6f/NecromaidLantern-RDKP23-JP-R.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Necromaid Lantern",
+        "id": 1153663
+      }
+    ],
+    "dbID": 22418
+  },
+  "series": [
+    "15739dea-0414-41f3-ab94-5d27e0578485"
+  ]
+}

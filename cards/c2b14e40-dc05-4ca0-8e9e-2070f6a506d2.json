@@ -1,0 +1,44 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "c2b14e40-dc05-4ca0-8e9e-2070f6a506d2",
+  "text": {
+    "en": {
+      "name": "Back Beat",
+      "effect": "Shuffle 2 to 7 monsters with the same Type from your opponent's Graveyard into the Deck. Then, if you shuffled 4 or more monsters by this effect, you can draw 1 card.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30d0\u30c3\u30af\u30d3\u30fc\u30c8",
+      "effect": "\u76f8\u624b\u306e\u5893\u5730\u306e\u540c\u3058\u7a2e\u65cf\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff12\uff5e\uff17\u4f53\u3092\u9078\u3093\u3067\u30c7\u30c3\u30ad\u306b\u623b\u3059\u3002\u3053\u306e\u52b9\u679c\u3067\u30e2\u30f3\u30b9\u30bf\u30fc\u3092\uff14\u4f53\u4ee5\u4e0a\u623b\u3057\u305f\u5834\u5408\u3001\u3055\u3089\u306b\u81ea\u5206\u306f\uff11\u679a\u30c9\u30ed\u30fc\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ubc31\ube44\ud2b8",
+      "effect": "\uc0c1\ub300 \ubb18\uc9c0\uc758 \uac19\uc740 \uc885\uc871\uc758 \ubaac\uc2a4\ud130 2~7\uc7a5\uc744 \uace0\ub974\uace0 \ub371\uc73c\ub85c \ub418\ub3cc\ub9b0\ub2e4. \uc774 \ud6a8\uacfc\ub85c \ubaac\uc2a4\ud130\ub97c 4\uc7a5 \uc774\uc0c1 \ub418\ub3cc\ub838\uc744 \uacbd\uc6b0, \ucd94\uac00\ub85c \uc790\uc2e0\uc740 1\uc7a5 \ub4dc\ub85c\uc6b0\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "e72a631b-043f-470b-8a5f-3003e93a7e6e",
+      "card": "https://ms.yugipedia.com//8/84/BackBeat-RDHC01-JP-SR.png"
+    },
+    {
+      "id": "14937763-24df-47f4-a14b-9a1594d6333b",
+      "card": "https://ms.yugipedia.com//d/d3/BackBeat-RD5TH1-JP-UPR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Back Beat",
+        "id": 713399
+      }
+    ],
+    "dbID": 17018
+  },
+  "series": []
+}

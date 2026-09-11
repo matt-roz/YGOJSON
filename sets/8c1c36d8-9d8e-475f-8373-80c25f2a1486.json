@@ -1,0 +1,275 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "8c1c36d8-9d8e-475f-8373-80c25f2a1486",
+  "name": {
+    "en": "Rise of the Duelist Premiere!",
+    "fr": "l'Ascension du Duelliste Premiere!",
+    "de": "Rise of the Duelist Premiere!",
+    "it": "Ascesa del Duellante Premiere!",
+    "pt": "Ascens\u00e3o do Duelista Premiere!",
+    "es": "Alzamiento del Duelista Premiere!"
+  },
+  "locales": {
+    "en": {
+      "language": "en",
+      "prefix": "ROTD-ENSP",
+      "image": "https://ms.yugipedia.com//9/90/ROTD-LogoEN.png",
+      "cardImages": {
+        "limited": {
+          "fc5d67a5-da62-4002-b485-99cca08b8672": "https://ms.yugipedia.com//7/7a/GaiatheFierceKnightOrigin-ROTD-EN-UR-LE.png"
+        }
+      },
+      "cardInfo": {
+        "limited": {
+          "fc5d67a5-da62-4002-b485-99cca08b8672": {
+            "image": "https://ms.yugipedia.com//7/7a/GaiatheFierceKnightOrigin-ROTD-EN-UR-LE.png"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          2000001183000
+        ]
+      }
+    },
+    "fr": {
+      "language": "fr",
+      "prefix": "ROTD-FRSP",
+      "date": "2020-08-01",
+      "image": "https://ms.yugipedia.com//c/c3/ROTD-LogoFR.png",
+      "cardImages": {
+        "limited": {}
+      },
+      "cardInfo": {
+        "limited": {}
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "externalIDs": {}
+    },
+    "de": {
+      "language": "de",
+      "prefix": "ROTD-DESP",
+      "date": "2020-08-01",
+      "image": "https://ms.yugipedia.com//9/90/ROTD-LogoEN.png",
+      "cardImages": {
+        "limited": {}
+      },
+      "cardInfo": {
+        "limited": {}
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "externalIDs": {}
+    },
+    "it": {
+      "language": "it",
+      "prefix": "ROTD-ITSP",
+      "date": "2020-08-01",
+      "image": "https://ms.yugipedia.com//4/44/ROTD-LogoIT.png",
+      "cardImages": {
+        "limited": {}
+      },
+      "cardInfo": {
+        "limited": {}
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "externalIDs": {}
+    },
+    "pt": {
+      "language": "pt",
+      "prefix": "ROTD-PTSP",
+      "date": "2020-08-01",
+      "cardImages": {
+        "limited": {}
+      },
+      "cardInfo": {
+        "limited": {}
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "externalIDs": {}
+    },
+    "sp": {
+      "language": "es",
+      "prefix": "ROTD-SPSP",
+      "date": "2020-08-01",
+      "image": "https://ms.yugipedia.com//b/bf/ROTD-LogoSP.png",
+      "cardImages": {
+        "limited": {}
+      },
+      "cardInfo": {
+        "limited": {}
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "externalIDs": {}
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "en"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "image": "https://ms.yugipedia.com//9/90/ROTD-LogoEN.png",
+      "cards": [
+        {
+          "id": "fc5d67a5-da62-4002-b485-99cca08b8672",
+          "card": "6edc4333-78f1-4445-89e3-f0fa7127f802",
+          "suffix": "1",
+          "rarity": "ultra",
+          "imageID": "89fac601-e8d6-459b-88c7-f5a2d5ca796d"
+        }
+      ],
+      "externalIDs": {}
+    },
+    {
+      "locales": [
+        "fr"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "image": "https://ms.yugipedia.com//c/c3/ROTD-LogoFR.png",
+      "cards": [
+        {
+          "id": "fc5d67a5-da62-4002-b485-99cca08b8672",
+          "card": "6edc4333-78f1-4445-89e3-f0fa7127f802",
+          "suffix": "1",
+          "rarity": "ultra",
+          "imageID": "89fac601-e8d6-459b-88c7-f5a2d5ca796d"
+        }
+      ],
+      "externalIDs": {}
+    },
+    {
+      "locales": [
+        "de"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "image": "https://ms.yugipedia.com//9/90/ROTD-LogoEN.png",
+      "cards": [
+        {
+          "id": "fc5d67a5-da62-4002-b485-99cca08b8672",
+          "card": "6edc4333-78f1-4445-89e3-f0fa7127f802",
+          "suffix": "1",
+          "rarity": "ultra",
+          "imageID": "89fac601-e8d6-459b-88c7-f5a2d5ca796d"
+        }
+      ],
+      "externalIDs": {}
+    },
+    {
+      "locales": [
+        "it"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "image": "https://ms.yugipedia.com//4/44/ROTD-LogoIT.png",
+      "cards": [
+        {
+          "id": "fc5d67a5-da62-4002-b485-99cca08b8672",
+          "card": "6edc4333-78f1-4445-89e3-f0fa7127f802",
+          "suffix": "1",
+          "rarity": "ultra",
+          "imageID": "89fac601-e8d6-459b-88c7-f5a2d5ca796d"
+        }
+      ],
+      "externalIDs": {}
+    },
+    {
+      "locales": [
+        "pt"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "cards": [
+        {
+          "id": "fc5d67a5-da62-4002-b485-99cca08b8672",
+          "card": "6edc4333-78f1-4445-89e3-f0fa7127f802",
+          "suffix": "1",
+          "rarity": "ultra",
+          "imageID": "89fac601-e8d6-459b-88c7-f5a2d5ca796d"
+        }
+      ],
+      "externalIDs": {}
+    },
+    {
+      "locales": [
+        "sp"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "image": "https://ms.yugipedia.com//b/bf/ROTD-LogoSP.png",
+      "cards": [
+        {
+          "id": "fc5d67a5-da62-4002-b485-99cca08b8672",
+          "card": "6edc4333-78f1-4445-89e3-f0fa7127f802",
+          "suffix": "1",
+          "rarity": "ultra",
+          "imageID": "89fac601-e8d6-459b-88c7-f5a2d5ca796d"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Rise of the Duelist Premiere! promotional card",
+      "id": 734699
+    }
+  }
+}

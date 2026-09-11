@@ -1,0 +1,44 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "6f9bf54c-85f2-4a90-8640-6673306721ce",
+  "text": {
+    "en": {
+      "name": "Meteor Dragon (Rush Duel)",
+      "effect": "This dragon appeared from the sky and crashed to the earth."
+    },
+    "ko": {
+      "name": "\uba54\ud14c\uc624 \ub4dc\ub798\uace4",
+      "effect": "\uc6b0\uc8fc\uc758 \ub05d\uc5d0\uc11c \uc9c0\uad6c\uc5d0 \ub5a8\uc5b4\uc9c4 \uc720\uc131 \ub4dc\ub798\uace4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "dragon",
+  "classifications": [
+    "normal"
+  ],
+  "level": 6,
+  "atk": 1800,
+  "def": 2000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "5caeb617-3d4b-4742-8638-0fe35f79a19f",
+      "card": "https://ms.yugipedia.com//d/df/MeteorDragon-RDTB02-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Meteor Dragon (Rush Duel)",
+        "id": 715894
+      }
+    ],
+    "dbID": 18705
+  },
+  "series": [
+    "b8f9793c-0736-4ee4-99be-120c4d70afbc"
+  ]
+}

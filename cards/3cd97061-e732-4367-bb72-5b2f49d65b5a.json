@@ -1,0 +1,43 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "3cd97061-e732-4367-bb72-5b2f49d65b5a",
+  "text": {
+    "en": {
+      "name": "Moonlight at Dawn (Rush Duel)",
+      "effect": "If this card attacks your opponent directly and reduces their LP to 0, you win the Match."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 3000,
+  "def": 2500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "9d702b63-3ec0-4b54-88a4-d27652e40a5c",
+      "card": "https://ms.yugipedia.com//5/5f/MoonlightatDawn-RD2026-EN-ORR.png"
+    }
+  ],
+  "sets": [
+    "eeb7dcca-1370-4458-b4a9-6cda9ad03680"
+  ],
+  "illegal": true,
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Moonlight at Dawn (Rush Duel)",
+        "id": 1215394
+      }
+    ],
+    "dbID": 23417
+  },
+  "series": [
+    "2572d2bf-aa08-42a8-81df-a074cca75fd6"
+  ]
+}

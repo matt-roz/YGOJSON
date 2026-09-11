@@ -1,0 +1,47 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "882f349d-d3cb-4047-8410-a0e75fa242ba",
+  "text": {
+    "en": {
+      "name": "Harpie's Pet Dragon (Rush Duel)",
+      "effect": "This card gains ATK equal to [the number of face-up \"Harpie Lady\" on the field] x 300 and [the number of face-up \"Harpie Lady Sisters\" on the field] x 900."
+    },
+    "ko": {
+      "name": "\ud574\ud53c\uc758 \uc560\uc644 \ub4dc\ub798\uace4",
+      "effect": "\uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\ub825\uc740, [\uc11c\ub85c\uc758 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc\uc778 \"\ud574\ud53c \ub808\uc774\ub514\"\uc758 \uc218] \u00d7 300 \uc62c\ub9b0\ub2e4. \uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\ub825\uc740, [\uc11c\ub85c\uc758 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc\uc778 \"\ud574\ud53c\ub808\uc774\ub514\uc988\"\uc758 \uc218] \u00d7 900 \uc62c\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "wind",
+  "type": "dragon",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2000,
+  "def": 2500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "59d00d6d-77bb-4224-979d-b40ca621103e",
+      "card": "https://ms.yugipedia.com//2/20/HarpiesPetDragon-RDSD0D-JP-C.png"
+    }
+  ],
+  "sets": [
+    "d867f9ff-46bb-44fa-9cb3-94491d964afd",
+    "d867f9ff-46bb-44fa-9cb3-94491d964afd"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Harpie's Pet Dragon (Rush Duel)",
+        "id": 972992
+      }
+    ],
+    "dbID": 19104
+  },
+  "series": [
+    "04dde7f8-0a7d-4b74-b812-f493b9fb1f62"
+  ]
+}

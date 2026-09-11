@@ -1,0 +1,143 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "414a4b7c-2ea2-44c5-8b73-4b9c45a6833b",
+  "name": {
+    "en": "Yu-Gi-Oh! Early Days Collection promotional cards",
+    "ja": "\u904a\u622f\u738b \u30a2\u30fc\u30ea\u30fc\u30c7\u30a4\u30ba\u30b3\u30ec\u30af\u30b7\u30e7\u30f3 \u540c\u68b1\u30ab\u30fc\u30c9"
+  },
+  "locales": {
+    "en": {
+      "language": "en",
+      "prefix": "EDC1-EN",
+      "date": "2025-02-27",
+      "image": "https://ms.yugipedia.com//3/31/EDC1-VideoGameNA.png",
+      "cardImages": {
+        "unlimited": {
+          "b8085b8b-f5cc-48bb-8ae9-5bd35281a8ca": "https://ms.yugipedia.com//6/68/HarpiesFeatherDuster-EDC1-EN-QCScR-UE.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "b8085b8b-f5cc-48bb-8ae9-5bd35281a8ca": {
+            "image": "https://ms.yugipedia.com//6/68/HarpiesFeatherDuster-EDC1-EN-QCScR-UE.png",
+            "variants": [
+              {
+                "code": "AA",
+                "image": "https://ms.yugipedia.com//9/98/HarpiesFeatherDuster-EDC1-EN-QCScR-UE-AA.png",
+                "variant": "alternate-art",
+                "imageID": "64573b9f-d742-4695-8a45-dd6ea8bb03b4"
+              }
+            ]
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          2000001450000
+        ]
+      }
+    },
+    "jp": {
+      "language": "ja",
+      "prefix": "EDC1-JP",
+      "date": "2025-02-27",
+      "image": "https://ms.yugipedia.com//8/8d/EDC1-VideoGameJP.png",
+      "cardImages": {
+        "unlimited": {
+          "e60d6ddf-5273-4c7a-ae34-54d2b1115d64": "https://ms.yugipedia.com//3/38/Seiyaryu-EDC1-JP-QCScR.png",
+          "e97fc170-16ae-4633-b542-6e64f4d8bc2a": "https://ms.yugipedia.com//b/bc/PerfectlyUltimateGreatMoth-EDC1-JP-QCScR.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "e60d6ddf-5273-4c7a-ae34-54d2b1115d64": {
+            "image": "https://ms.yugipedia.com//3/38/Seiyaryu-EDC1-JP-QCScR.png"
+          },
+          "e97fc170-16ae-4633-b542-6e64f4d8bc2a": {
+            "image": "https://ms.yugipedia.com//b/bc/PerfectlyUltimateGreatMoth-EDC1-JP-QCScR.png"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          1000008002000
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "en"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//3/31/EDC1-VideoGameNA.png",
+      "cards": [
+        {
+          "id": "b8085b8b-f5cc-48bb-8ae9-5bd35281a8ca",
+          "card": "4567872b-5f20-4aa2-8167-b7ca0c691552",
+          "suffix": "001",
+          "rarity": "25thsecret",
+          "imageID": "64573b9f-d742-4695-8a45-dd6ea8bb03b4",
+          "qty": 2,
+          "printStatus": "reprint"
+        }
+      ],
+      "externalIDs": {}
+    },
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//8/8d/EDC1-VideoGameJP.png",
+      "cards": [
+        {
+          "id": "e97fc170-16ae-4633-b542-6e64f4d8bc2a",
+          "card": "09b2d57a-4024-459f-9084-32cceb8a6f06",
+          "suffix": "001",
+          "rarity": "25thsecret",
+          "imageID": "92f45d5d-0afe-4709-acd4-ee3ace8dba4e",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "e60d6ddf-5273-4c7a-ae34-54d2b1115d64",
+          "card": "726afb12-a6d5-4d24-b2ed-f830d5e3761b",
+          "suffix": "002",
+          "rarity": "25thsecret",
+          "imageID": "c8e665b0-92b5-413b-b0ef-5b6356f677a2",
+          "printStatus": "reprint"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Yu-Gi-Oh! Early Days Collection promotional cards",
+      "id": 1088402
+    }
+  }
+}

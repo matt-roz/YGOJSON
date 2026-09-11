@@ -1,0 +1,47 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "a75bdf9a-7ff4-498b-bc33-d1d4f86ac841",
+  "text": {
+    "en": {
+      "name": "Master Craftsman Kotetsu",
+      "effect": "Place 1 Level 4 or lower Normal Monster or 1 Equip Spell Card from your Graveyard on top of the Deck. Then, if you placed a Legend monster or \"Helmet of the Master Craftsman\" by this effect, you can draw 1 card.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u540d\u5320 \u864e\u9244",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u901a\u5e38\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff14\u4ee5\u4e0b\uff09\uff11\u4f53\u307e\u305f\u306f\u88c5\u5099\u9b54\u6cd5\u30ab\u30fc\u30c9\uff11\u679a\u3092\u9078\u3093\u3067\u30c7\u30c3\u30ad\u306e\u4e0a\u306b\u623b\u3059\u3002\u3053\u306e\u52b9\u679c\u3067\u30ec\u30b8\u30a7\u30f3\u30c9\u30e2\u30f3\u30b9\u30bf\u30fc\u307e\u305f\u306f\u300c\u540d\u5320\u306e\u515c\u300d\u3092\u623b\u3057\u305f\u5834\u5408\u3001\u3055\u3089\u306b\u81ea\u5206\u306f\uff11\u679a\u30c9\u30ed\u30fc\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uba85\uc7a5 \ud638\ucca0",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \uc77c\ubc18 \ubaac\uc2a4\ud130(\ub808\ubca8 4 \uc774\ud558) 1\uc7a5 \ub610\ub294 \uc7a5\ucc29 \ub9c8\ubc95 \uce74\ub4dc 1\uc7a5\uc744 \uace0\ub974\uace0 \ub371 \uc704\ub85c \ub418\ub3cc\ub9b0\ub2e4. \uc774 \ud6a8\uacfc\ub85c \ub808\uc804\ub4dc \ubaac\uc2a4\ud130 \ub610\ub294 \"\uba85\uc7a5\uc758 \ud22c\uad6c\"\ub97c \ub418\ub3cc\ub838\uc744 \uacbd\uc6b0, \ucd94\uac00\ub85c \uc790\uc2e0\uc740 1\uc7a5 \ub4dc\ub85c\uc6b0\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "type": "beastwarrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 1000,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "485670ae-806c-40af-b577-171ef800a3f7",
+      "card": "https://ms.yugipedia.com//8/8c/MasterCraftsmanKotetsu-RDLGP1-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Master Craftsman Kotetsu",
+        "id": 715815
+      }
+    ],
+    "dbID": 18711
+  },
+  "series": []
+}

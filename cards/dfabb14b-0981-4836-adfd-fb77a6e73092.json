@@ -1,0 +1,46 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "dfabb14b-0981-4836-adfd-fb77a6e73092",
+  "text": {
+    "en": {
+      "name": "Super Critical",
+      "effect": "When this card is activated: You can add 1 card with an effect that requires a die roll from your Deck to your hand. Once per Chain per player, if either player rolls a 1 for a card effect's die roll: They can activate 1 of these effects;\n\u25cf They destroy up to 3 monsters their opponent controls.\n\u25cf They destroy 1 monster their opponent controls, and if they do, they negate the effects of 1 monster their opponent controls.\n\u25cf They Special Summon 1 monster from their GY.\nYou can only activate 1 \"Super Critical\" per turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30b9\u30fc\u30d1\u30fc\u30af\u30ea\u30c6\u30a3\u30ab\u30eb"
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "continuous",
+  "passwords": [],
+  "images": [
+    {
+      "id": "c1d90ab4-bb92-4670-8a3c-df0c7b0cb5e1",
+      "card": "https://ms.yugipedia.com//8/87/SuperCritical-YAC1-JP-OP.png"
+    },
+    {
+      "id": "b4cbfbc3-dda7-455a-b0ae-ee73eb52ab81",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/100459015.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/100459015.jpg"
+    }
+  ],
+  "sets": [
+    "9aefc662-0b55-44d0-85b1-7c92cfe8a78b",
+    "9aefc662-0b55-44d0-85b1-7c92cfe8a78b"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Super Critical",
+        "id": 1210827
+      }
+    ],
+    "ygoprodeck": {
+      "id": 100459015,
+      "name": "super-critical-15895"
+    }
+  },
+  "series": []
+}

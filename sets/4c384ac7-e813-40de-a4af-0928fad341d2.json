@@ -1,0 +1,84 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "4c384ac7-e813-40de-a4af-0928fad341d2",
+  "name": {
+    "en": "Yu-Gi-Oh! Day November 2014 promotional cards",
+    "ja": "\u904a\u2606\u622f\u2606\u738b\u306e\u65e5 \uff12\uff10\uff11\uff14\u5e74\uff11\uff11\u6708"
+  },
+  "locales": {
+    "jp": {
+      "language": "ja",
+      "prefix": "PREV-JP",
+      "date": "2014-11-23",
+      "image": "https://ms.yugipedia.com//3/31/PREV-PromoJP-YGODay.png",
+      "cardImages": {
+        "unlimited": {
+          "0c37b64b-e0bf-4be9-837b-2527cade7079": "https://ms.yugipedia.com//1/11/Token-PREV-JP-C-JackAtlasRedDragonArchfiend.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "0c37b64b-e0bf-4be9-837b-2527cade7079": {
+            "image": "https://ms.yugipedia.com//1/11/Token-PREV-JP-C-JackAtlasRedDragonArchfiend.png",
+            "variants": [
+              {
+                "code": "JackAtlasRedDragonArchfiend",
+                "image": "https://ms.yugipedia.com//1/11/Token-PREV-JP-C-JackAtlasRedDragonArchfiend.png"
+              }
+            ]
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {}
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//3/31/PREV-PromoJP-YGODay.png",
+      "cards": [
+        {
+          "id": "fb688ecd-f1d6-48ac-bbe1-bde6bd832aae",
+          "card": "afe1d78f-8d0c-4632-9b41-196b11ff9c20",
+          "suffix": "007",
+          "rarity": "common",
+          "imageID": "68eb31cf-01a2-44f6-997a-84bbae989ac5"
+        },
+        {
+          "id": "a38bcd3c-8a55-4fa9-9e70-f1acbaea970e",
+          "card": "e45693fd-ce28-456a-98c9-e5ef0bb70b67",
+          "suffix": "008",
+          "rarity": "common",
+          "imageID": "6a3510d0-6cd5-4a81-aa79-4ebe287e545f"
+        },
+        {
+          "id": "0c37b64b-e0bf-4be9-837b-2527cade7079",
+          "card": "3d4d07dd-a4d6-4735-bb59-829dbbba3be6",
+          "suffix": "009",
+          "rarity": "common"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Yu-Gi-Oh! Day November 2014 promotional cards",
+      "id": 492269
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "a13af70d-ee9e-42c6-b033-2fac1dc79472",
+  "text": {
+    "en": {
+      "name": "Plaster Scout",
+      "effect": "During your opponent's Main Phase, you take no effect damage from your opponent."
+    },
+    "ja": {
+      "name": "\u77f3\u818f\u306e\u65a5\u5019",
+      "effect": "\u76f8\u624b\u30e1\u30a4\u30f3\u30d5\u30a7\u30a4\u30ba\u306e\u9593\u3001\u81ea\u5206\u306f\u76f8\u624b\u306e\u52b9\u679c\u3067\u306f\u30c0\u30e1\u30fc\u30b8\u3092\u53d7\u3051\u306a\u3044\u3002"
+    },
+    "ko": {
+      "name": "\ud50c\ub77c\uc2a4\ud130 \uc2a4\uce74\uc6b0\ud2b8",
+      "effect": "\uc0c1\ub300 \uba54\uc778 \ud398\uc774\uc988 \ub3d9\uc548, \uc790\uc2e0\uc740 \uc0c1\ub300\uc758 \ud6a8\uacfc\ub85c\ub294 \ub370\ubbf8\uc9c0\ub97c \ubc1b\uc9c0 \uc54a\ub294\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1300,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "45961011-e891-4b5c-9838-deffc1fd33e6",
+      "card": "https://ms.yugipedia.com//f/fa/PlasterScout-RDSD0F-JP-C.png"
+    }
+  ],
+  "sets": [
+    "f97239a1-ffdc-49fe-a78c-d89fc57c1403",
+    "f2a822fb-30a4-4e51-bd28-f909ecc826ff",
+    "22e8bcf0-2b4c-48d0-87e4-2a51d0f0129e",
+    "236e70bf-ca1c-4270-aabb-5afa47fdc1e2",
+    "800a7d3b-5bf8-4d9e-b88b-3ec6be2416b7",
+    "836547cc-b1e4-4942-85e9-b165101b9463",
+    "4758595f-fc6c-4993-9a71-0738f485c6c9",
+    "e2b816ef-5178-4aa9-b864-7248f545e896",
+    "e2b816ef-5178-4aa9-b864-7248f545e896",
+    "84ce4071-599b-4169-8b5c-6d4c252c2a67"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "r"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Plaster Scout",
+        "id": 932086
+      }
+    ],
+    "dbID": 18958
+  },
+  "series": []
+}

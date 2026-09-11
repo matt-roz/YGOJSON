@@ -1,0 +1,40 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "6447fa37-4b3f-43c3-b771-43d63f1b2e7c",
+  "text": {
+    "en": {
+      "name": "Evolved Daneen",
+      "effect": "\"Returned Dino Daneen\" + 1 Dinosaur monster\r\nIf this card is Special Summoned: You can add 1 \"GMX\" card from your Deck to your hand. You can only use this effect of \"Evolved Daneen\" once per turn. If you excavate a card(s) by a \"GMX\" card effect: You can activate the following effect, based on where this card is at activation (but you can only use each effect of \"Evolved Daneen\" once per turn);\r\n\u25cf Field: Gain 1500 LP.\r\n\u25cf GY: Special Summon this card."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "dinosaur",
+  "level": 6,
+  "atk": 2400,
+  "def": 1200,
+  "passwords": [
+    "01595137"
+  ],
+  "images": [
+    {
+      "id": "bbeb3601-76f9-4d2b-a498-bcaee365bad4",
+      "password": "01595137",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/1595137.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/1595137.jpg"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "dbID": 22935,
+    "ygoprodeck": {
+      "id": 1595137,
+      "name": "evolved-daneen-15720"
+    }
+  },
+  "series": []
+}

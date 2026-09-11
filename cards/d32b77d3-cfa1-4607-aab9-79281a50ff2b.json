@@ -1,0 +1,57 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "d32b77d3-cfa1-4607-aab9-79281a50ff2b",
+  "text": {
+    "en": {
+      "name": "Sky Dragon (Rush Duel)",
+      "effect": "A flying dragon with four wings housing some very dangerous blades."
+    },
+    "fr": {
+      "name": "Dragon C\u00e9leste"
+    },
+    "de": {
+      "name": "Himmelsdrache"
+    },
+    "it": {
+      "name": "Drago Cielo"
+    },
+    "es": {
+      "name": "Drag\u00f3n de cielo"
+    },
+    "ko": {
+      "name": "\ucc9c\uacf5\ub8e1",
+      "effect": "2\uc30d\uc758 \ub0a0\uac1c\ub97c \uac00\uc9c4 \uc0c8 \ubaa8\uc2b5\uc758 \ub4dc\ub798\uace4. \uce7c\ub0a0 \uae43\ud138\ub85c \uacf5\uaca9."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "wind",
+  "type": "dragon",
+  "classifications": [
+    "normal"
+  ],
+  "level": 6,
+  "atk": 1900,
+  "def": 1800,
+  "passwords": [],
+  "images": [
+    {
+      "id": "3c24ce69-6bfb-4946-b82f-43b054bb9297",
+      "card": "https://ms.yugipedia.com//3/3a/SkyDragon-RDSBD2-JP-C.png"
+    }
+  ],
+  "sets": [
+    "630a6319-4798-42e5-b872-a4ae8d828ad2",
+    "630a6319-4798-42e5-b872-a4ae8d828ad2"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Sky Dragon (Rush Duel)",
+        "id": 716723
+      }
+    ],
+    "dbID": 16119
+  },
+  "series": []
+}

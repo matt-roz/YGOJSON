@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "28180d25-158c-465d-aa6c-0c3f0eb528be",
+  "text": {
+    "en": {
+      "name": "Bean Soljersey",
+      "effect": "A jersey-warrior that attacks with seeds and sword.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30d3\u30fc\u30f3\u30fb\u30bd\u30eb\u30b8\u30e3\u30fc\u30b8",
+      "effect": "\u5263\u3084\u30de\u30e1\u3092\u4f7f\u3063\u3066\u653b\u6483\u3057\u3066\u304f\u308b\u30b8\u30e3\u30fc\u30b8\u6226\u58eb\u3002\u610f\u5916\u3068\u5f37\u3044\u305e\u3002"
+    },
+    "ko": {
+      "name": "\ube48 \uc194\uc800\uc9c0",
+      "effect": "\uac80\uc774\ub098 \ucf69\uc744 \uc0ac\uc6a9\ud574 \uacf5\uaca9\ud574\uc624\ub294 \uc800\uc9c0 \uc804\uc0ac. \uc758\uc678\ub85c \uac15\ud558\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "plant",
+  "classifications": [
+    "normal"
+  ],
+  "level": 4,
+  "atk": 1500,
+  "def": 500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "c7aaf597-2733-42e4-a868-8654ab3f37fc",
+      "card": "https://ms.yugipedia.com//6/64/BeanSoljersey-RDKP11-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Bean Soljersey",
+        "id": 713583
+      }
+    ],
+    "dbID": 18237
+  },
+  "series": [
+    "957c8903-5f6c-4dad-9726-71d109c1c996"
+  ]
+}

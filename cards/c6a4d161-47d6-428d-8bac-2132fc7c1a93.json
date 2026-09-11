@@ -1,0 +1,53 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "c6a4d161-47d6-428d-8bac-2132fc7c1a93",
+  "text": {
+    "en": {
+      "name": "Rising HERO Manaccaniter",
+      "effect": "Add 1 \"Rising HERO Argent\" or \"Rising HERO Tantalum\" from your Graveyard to your hand."
+    },
+    "ja": {
+      "name": "\uff32\u30fb\uff28\uff25\uff32\uff2f \u30e1\u30ca\u30ab\u30a4\u30bf\u30fc",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\uff32\u30fb\uff28\uff25\uff32\uff2f \u30a2\u30eb\u30b8\u30a7\u30f3\u30c8\u300d\u307e\u305f\u306f\u300c\uff32\u30fb\uff28\uff25\uff32\uff2f \u30bf\u30f3\u30bf\u30eb\u30e0\u300d\uff11\u4f53\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub77c\uc774\uc9d5 \ud788\uc5b4\ub85c \uba54\ub098\uce74\uc774\ud130",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \"\ub77c\uc774\uc9d5 \ud788\uc5b4\ub85c \uc544\ub974\uc820\ud1a0\" \ub610\ub294 \"\ub77c\uc774\uc9d5 \ud788\uc5b4\ub85c \ud0c4\ud0c8\ub8f8\" 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\ub294\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 900,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "e37877c4-c096-4d1f-925f-23e85ed8edb9",
+      "card": "https://ms.yugipedia.com//7/7a/RisingHEROManaccaniter-RDKP18-JP-C.png"
+    }
+  ],
+  "sets": [
+    "cf303586-057a-4e6c-ae2a-65879480865d"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Rising HERO Manaccaniter",
+        "id": 1063022
+      }
+    ],
+    "dbID": 20629
+  },
+  "series": [
+    "4639ddb4-0c81-4fac-b38d-bfac9d55eedb"
+  ]
+}

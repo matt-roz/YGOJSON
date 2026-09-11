@@ -1,0 +1,141 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "43ebf6dd-724e-4604-80bb-1c0a6f03fa11",
+  "name": {
+    "en": "Legendary Collection: Gameboard Edition",
+    "de": "Legendary Collection: Gameboard Edition"
+  },
+  "locales": {
+    "en": {
+      "language": "en",
+      "prefix": "LC01-EN",
+      "cardImages": {},
+      "cardInfo": {},
+      "formats": [
+        "tcg"
+      ],
+      "externalIDs": {}
+    },
+    "de": {
+      "language": "de",
+      "prefix": "LC01-DE",
+      "date": "2018-09-27",
+      "cardImages": {},
+      "cardInfo": {},
+      "formats": [
+        "tcg"
+      ],
+      "externalIDs": {}
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "en"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "distrobution": "preconstructed",
+      "cards": [
+        {
+          "id": "395b8aef-c5ea-4a43-a0b4-96d74fc908f3",
+          "card": "b67e0407-e194-4829-a277-24f0fba6d847",
+          "suffix": "001",
+          "rarity": "ultra",
+          "imageID": "504597b6-75f0-4d1f-8bf4-89b842082783"
+        },
+        {
+          "id": "c9addd3a-917d-4268-be9d-00ef7f25944d",
+          "card": "d440ca13-e0e4-4954-acb4-7777af33ff09",
+          "suffix": "002",
+          "rarity": "ultra",
+          "imageID": "427459b3-c358-49a5-8ee8-5d6394b179b0"
+        },
+        {
+          "id": "c3ab828d-446d-46a1-a975-09b130ff012b",
+          "card": "0cb67fa7-2e55-454a-be1b-c00b715691ce",
+          "suffix": "003",
+          "rarity": "ultra",
+          "imageID": "2520da63-3cb3-4ce1-975d-1efbd8d474dd"
+        },
+        {
+          "id": "46d6420b-22ca-45b2-9382-78efd20e83b5",
+          "card": "e0404755-1ade-4c7c-9a2a-b29b7755d860",
+          "suffix": "004",
+          "rarity": "ultra"
+        },
+        {
+          "id": "f6228230-11ea-4e7f-a69e-bcb388b3f4a1",
+          "card": "c0285d04-cadd-402d-a865-799a182d7510",
+          "suffix": "005",
+          "rarity": "ultra"
+        },
+        {
+          "id": "8bb5a7d6-33e3-4bb5-b716-6759f57d4c08",
+          "card": "bc4ce584-7451-4d5b-8d25-2557632e4be5",
+          "suffix": "006",
+          "rarity": "ultra"
+        }
+      ],
+      "externalIDs": {}
+    },
+    {
+      "locales": [
+        "de"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "distrobution": "preconstructed",
+      "cards": [
+        {
+          "id": "395b8aef-c5ea-4a43-a0b4-96d74fc908f3",
+          "card": "b67e0407-e194-4829-a277-24f0fba6d847",
+          "suffix": "001",
+          "rarity": "ultra",
+          "imageID": "504597b6-75f0-4d1f-8bf4-89b842082783"
+        },
+        {
+          "id": "c9addd3a-917d-4268-be9d-00ef7f25944d",
+          "card": "d440ca13-e0e4-4954-acb4-7777af33ff09",
+          "suffix": "002",
+          "rarity": "ultra",
+          "imageID": "427459b3-c358-49a5-8ee8-5d6394b179b0"
+        },
+        {
+          "id": "c3ab828d-446d-46a1-a975-09b130ff012b",
+          "card": "0cb67fa7-2e55-454a-be1b-c00b715691ce",
+          "suffix": "003",
+          "rarity": "ultra",
+          "imageID": "2520da63-3cb3-4ce1-975d-1efbd8d474dd"
+        },
+        {
+          "id": "46d6420b-22ca-45b2-9382-78efd20e83b5",
+          "card": "e0404755-1ade-4c7c-9a2a-b29b7755d860",
+          "suffix": "004",
+          "rarity": "ultra"
+        },
+        {
+          "id": "f6228230-11ea-4e7f-a69e-bcb388b3f4a1",
+          "card": "c0285d04-cadd-402d-a865-799a182d7510",
+          "suffix": "005",
+          "rarity": "ultra"
+        },
+        {
+          "id": "8bb5a7d6-33e3-4bb5-b716-6759f57d4c08",
+          "card": "bc4ce584-7451-4d5b-8d25-2557632e4be5",
+          "suffix": "006",
+          "rarity": "ultra"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Legendary Collection: Gameboard Edition",
+      "id": 301543
+    }
+  }
+}

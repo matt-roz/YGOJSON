@@ -1,0 +1,58 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "712bb3a5-93b0-48d4-803c-354f7e95e683",
+  "text": {
+    "en": {
+      "name": "Dragon Roll the Sushi Fairy",
+      "effect": "Draw 1 card. Your Level 6 or lower monsters cannot attack this turn."
+    },
+    "fr": {
+      "name": "Rouleau de Dragon la F\u00e9e Sushi"
+    },
+    "de": {
+      "name": "Dragon-Rolle die Sushi-Fee"
+    },
+    "it": {
+      "name": "Roll Drago la Fata Sushi"
+    },
+    "es": {
+      "name": "Rollo de Drag\u00f3n el Hada Sushi"
+    },
+    "ja": {
+      "name": "\u5bff\u53f8\u5929\u4f7f\u30c9\u30e9\u30b4\u30f3\u30ed\u30fc\u30eb",
+      "effect": "\u81ea\u5206\u306f\uff11\u679a\u30c9\u30ed\u30fc\u3059\u308b\u3002\u3053\u306e\u30bf\u30fc\u30f3\u3001\u81ea\u5206\u306f\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff16\u4ee5\u4e0b\uff09\u3067\u653b\u6483\u3067\u304d\u306a\u3044\u3002"
+    },
+    "ko": {
+      "name": "\ucd08\ubc25\ucc9c\uc0ac \ub4dc\ub798\uace4\ub864",
+      "effect": "\uc790\uc2e0\uc740 1\uc7a5 \ub4dc\ub85c\uc6b0\ud55c\ub2e4. \uc774 \ud134\uc5d0, \uc790\uc2e0\uc740 \ubaac\uc2a4\ud130(\ub808\ubca8 6 \uc774\ud558)\ub85c \uacf5\uaca9\ud560 \uc218 \uc5c6\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "wind",
+  "type": "fairy",
+  "classifications": [
+    "effect"
+  ],
+  "level": 6,
+  "atk": 1500,
+  "def": 500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "bfbc7b8e-a501-4252-94e5-2e16bd6b665e",
+      "card": "https://ms.yugipedia.com//9/9f/DragonRolltheSushiFairy-RD5TH1-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Dragon Roll the Sushi Fairy",
+        "id": 714648
+      }
+    ],
+    "dbID": 16607
+  },
+  "series": []
+}

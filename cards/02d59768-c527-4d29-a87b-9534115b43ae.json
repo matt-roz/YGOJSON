@@ -1,0 +1,96 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "02d59768-c527-4d29-a87b-9534115b43ae",
+  "text": {
+    "en": {
+      "name": "Speedroid Darumaknocker",
+      "effect": "If this card is in your hand: You can send 1 \"Speedroid\" card from your Deck to the GY, except \"Speedroid Darumaknocker\"; Special Summon this card, also you cannot Special Summon for the rest of this turn, except WIND monsters. If this card is sent from the field to the GY: You can add 1 \"Speedroid\" Spell/Trap from your Deck to your hand, then if you control a \"Clear Wing\" monster, you can destroy 1 monster on the field. You can only use each effect of \"Speedroid Darumaknocker\" once per turn."
+    },
+    "fr": {
+      "name": "Frappeur de Daruma Vitesseroid",
+      "effect": "Si cette carte est dans votre main : vous pouvez envoyer 1 carte \"Vitesseroid\" (\"Frappeur de Daruma Vitesseroid\" exclu) depuis votre Deck au Cimeti\u00e8re ; Invoquez Sp\u00e9cialement cette carte, et aussi, vous ne pouvez pas Invoquer Sp\u00e9cialement (monstres VENT exclus) le reste de ce tour. Si cette carte est envoy\u00e9e depuis le Terrain au Cimeti\u00e8re : vous pouvez ajouter 1 Magie/Pi\u00e8ge \"Vitesseroid\" depuis votre Deck \u00e0 votre main, puis si vous contr\u00f4lez un monstre \"Aile Claire\", vous pouvez d\u00e9truire 1 monstre sur le Terrain. Vous ne pouvez utiliser chaque effet de \"Frappeur de Daruma Vitesseroid\" qu'une fois par tour."
+    },
+    "de": {
+      "name": "Geschwindigkeitsroid Daruma-Klopfer",
+      "effect": "Falls sich diese Karte in deiner Hand befindet: Du kannst 1 \u201eGeschwindigkeitsroid\u201c-Karte von deinem Deck auf den Friedhof legen, au\u00dfer \u201eGeschwindigkeitsroid Daruma-Klopfer\u201c; beschw\u00f6re diese Karte als Spezialbeschw\u00f6rung, zus\u00e4tzlich kannst du f\u00fcr den Rest dieses Spielzugs keine Spezialbeschw\u00f6rungen durchf\u00fchren, au\u00dfer von WIND Monstern. Falls diese Karte vom Spielfeld auf den Friedhof gelegt wird: Du kannst deiner Hand 1 \u201eGeschwindigkeitsroid\u201c-Zauber/Falle von deinem Deck hinzuf\u00fcgen, dann, falls du ein \u201eGlasfl\u00fcgel\u201c-Monster kontrollierst, kannst du 1 Monster auf dem Spielfeld zerst\u00f6ren. Du kannst jeden Effekt von \u201eGeschwindigkeitsroid Daruma-Klopfer\u201c nur einmal pro Spielzug verwenden."
+    },
+    "it": {
+      "name": "Velociroid Darumabbattitore",
+      "effect": "Se questa carta \u00e8 nella tua mano: puoi mandare 1 carta \"Velociroid\" dal tuo Deck al Cimitero, eccetto \"Velociroid Darumabbattitore\"; Evoca Specialmente questa carta, inoltre non puoi Evocare Specialmente per il resto di questo turno, eccetto mostri VENTO. Se questa carta viene mandata dal Terreno al Cimitero: puoi aggiungere 1 Magia/Trappola \"Velociroid\" dal tuo Deck alla tua mano, poi se controlli un mostro \"Ala Chiara\", puoi distruggere 1 mostro sul Terreno. Puoi utilizzare ogni effetto di \"Velociroid Darumabbattitore\" una sola volta per turno."
+    },
+    "pt": {
+      "name": "Velocidaroide Batedaruma",
+      "effect": "Se este card estiver na sua m\u00e3o: voc\u00ea pode enviar 1 card \"Velocidaroide\" do seu Deck para o Cemit\u00e9rio, exceto \"Velocidaroide Batedaruma\"; Invoque este card por Invoca\u00e7\u00e3o-Especial e, al\u00e9m disso, voc\u00ea n\u00e3o pode Invocar por Invoca\u00e7\u00e3o-Especial pelo resto deste turno, exceto monstros de VENTO. Se este card for enviado do campo para o Cemit\u00e9rio: voc\u00ea pode adicionar 1 Magia/Armadilha \"Velocidaroide\" do seu Deck \u00e0 sua m\u00e3o e, depois, se voc\u00ea controlar um monstro \"Asas Transparentes\", voc\u00ea pode destruir 1 monstro no campo. Voc\u00ea s\u00f3 pode usar cada efeito de \"Velocidaroide Batedaruma\" uma vez por turno."
+    },
+    "es": {
+      "name": "Velociroid Llamadaruma",
+      "effect": "Si esta carta est\u00e1 en tu mano: puedes mandar al Cementerio 1 carta \"Velociroid\" en tu Deck, excepto \"Velociroid Llamadaruma\"; Invoca esta carta de Modo Especial, y adem\u00e1s no puedes Invocar de Modo Especial por el resto de este turno, excepto monstruos de VIENTO. Si esta carta es mandada del Campo al Cementerio: puedes a\u00f1adir a tu mano 1 M\u00e1gica/Trampa \"Velociroid\" en tu Deck, y despu\u00e9s si controlas un monstruo \"Ala Transparente\", puedes destruir 1 monstruo en el Campo. S\u00f3lo puedes usar cada efecto de \"Velociroid Llamadaruma\" una vez por turno."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "wind",
+  "type": "machine",
+  "classifications": [
+    "tuner",
+    "effect"
+  ],
+  "level": 4,
+  "atk": 200,
+  "def": 1600,
+  "passwords": [
+    "85482105"
+  ],
+  "images": [
+    {
+      "id": "9aa9456b-627e-4192-9e5b-fb3b797de99e",
+      "password": "85482105",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/85482105.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/85482105.jpg"
+    }
+  ],
+  "sets": [
+    "6f431cb6-a4d4-4695-94e1-6a922b30c361",
+    "6f431cb6-a4d4-4695-94e1-6a922b30c361",
+    "6f431cb6-a4d4-4695-94e1-6a922b30c361",
+    "6f431cb6-a4d4-4695-94e1-6a922b30c361",
+    "6f431cb6-a4d4-4695-94e1-6a922b30c361",
+    "6f431cb6-a4d4-4695-94e1-6a922b30c361",
+    "6f431cb6-a4d4-4695-94e1-6a922b30c361",
+    "6f431cb6-a4d4-4695-94e1-6a922b30c361",
+    "6f431cb6-a4d4-4695-94e1-6a922b30c361",
+    "6f431cb6-a4d4-4695-94e1-6a922b30c361",
+    "6f431cb6-a4d4-4695-94e1-6a922b30c361",
+    "6f431cb6-a4d4-4695-94e1-6a922b30c361",
+    "6f431cb6-a4d4-4695-94e1-6a922b30c361",
+    "6f431cb6-a4d4-4695-94e1-6a922b30c361",
+    "6f431cb6-a4d4-4695-94e1-6a922b30c361",
+    "6f431cb6-a4d4-4695-94e1-6a922b30c361",
+    "6f431cb6-a4d4-4695-94e1-6a922b30c361",
+    "6f431cb6-a4d4-4695-94e1-6a922b30c361",
+    "6f431cb6-a4d4-4695-94e1-6a922b30c361",
+    "6f431cb6-a4d4-4695-94e1-6a922b30c361",
+    "6f431cb6-a4d4-4695-94e1-6a922b30c361",
+    "6f431cb6-a4d4-4695-94e1-6a922b30c361",
+    "6f431cb6-a4d4-4695-94e1-6a922b30c361",
+    "6f431cb6-a4d4-4695-94e1-6a922b30c361",
+    "6f431cb6-a4d4-4695-94e1-6a922b30c361"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Speedroid Darumaknocker",
+        "id": 1207797
+      }
+    ],
+    "dbID": 23420,
+    "ygoprodeck": {
+      "id": 85482105,
+      "name": "speedroid-darumaknocker-15868"
+    }
+  },
+  "series": [
+    "0b16e960-f5ea-4fb4-99a0-13b0d8b0514a",
+    "fd3368f6-4743-4342-b677-824a746322c4"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "44a6e262-1e9b-4bda-a09a-41ea12ea2452",
+  "text": {
+    "en": {
+      "name": "Dispell Archer",
+      "effect": "This turn, this card's name becomes \"Spell Archer\". Then, if you have a Spellcaster Type Normal Monster in your Graveyard, you can change the battle position of 1 monster on your opponent's field.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30c7\u30a3\u30b9\u30da\u30eb\u30fb\u30a2\u30fc\u30c1\u30e3\u30fc",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u306e\u30ab\u30fc\u30c9\u540d\u306f\u3053\u306e\u30bf\u30fc\u30f3\u3001\u300c\u30b9\u30da\u30eb\u30fb\u30a2\u30fc\u30c1\u30e3\u30fc\u300d\u306b\u306a\u308b\u3002\u81ea\u5206\u306e\u5893\u5730\u306b\u901a\u5e38\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u9b54\u6cd5\u4f7f\u3044\u65cf\uff09\u304c\u3044\u308b\u5834\u5408\u3001\u3055\u3089\u306b\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u3092\u9078\u3093\u3067\u8868\u793a\u5f62\u5f0f\u3092\u5909\u66f4\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub514\uc2a4\ud3a0 \uc544\ucc98",
+      "effect": "\uc774 \uce74\ub4dc\uc758 \uce74\ub4dc\uba85\uc740 \uc774 \ud134\uc5d0, \"\uc2a4\ud3a0 \uc544\ucc98\"\uac00 \ub41c\ub2e4. \uc790\uc2e0 \ubb18\uc9c0\uc5d0 \uc77c\ubc18 \ubaac\uc2a4\ud130(\ub9c8\ubc95\uc0ac\uc871)\uac00 \uc788\uc744 \uacbd\uc6b0, \ucd94\uac00\ub85c \uc0c1\ub300 \ud544\ub4dc\uc758 \ubaac\uc2a4\ud130 1\uc7a5\uc744 \uace0\ub974\uace0 \ud45c\uc2dc \ud615\uc2dd\uc744 \ubcc0\uacbd\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "spellcaster",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 1000,
+  "def": 400,
+  "passwords": [],
+  "images": [
+    {
+      "id": "d0665243-60be-478d-becf-0532bf7035a7",
+      "card": "https://ms.yugipedia.com//c/c9/DispellArcher-RDKP21-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Dispell Archer",
+        "id": 1117500
+      }
+    ],
+    "dbID": 21647
+  },
+  "series": []
+}

@@ -1,0 +1,50 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "a8eaaa83-bf33-4585-a4cf-d52d85785504",
+  "text": {
+    "en": {
+      "name": "Winged Celestial Dragon of Weal and Woe",
+      "effect": "Send the top 3 cards of your Deck to the Graveyard. Then, if you sent a Spell Card to the Graveyard by this effect, you can add up to 2 Field Spell Cards from your Graveyard to your hand.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u798d\u798f\u306e\u7fd4\u5929\u7adc",
+      "effect": "\u81ea\u5206\u306e\u30c7\u30c3\u30ad\u306e\u4e0a\u304b\u3089\u30ab\u30fc\u30c9\uff13\u679a\u3092\u5893\u5730\u3078\u9001\u308b\u3002\u3053\u306e\u52b9\u679c\u3067\u9b54\u6cd5\u30ab\u30fc\u30c9\u304c\u5893\u5730\u3078\u9001\u3089\u308c\u305f\u5834\u5408\u3001\u3055\u3089\u306b\u81ea\u5206\u306e\u5893\u5730\u306e\u30d5\u30a3\u30fc\u30eb\u30c9\u9b54\u6cd5\u30ab\u30fc\u30c9\u3092\uff12\u679a\u307e\u3067\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud654\ubcf5\uc758 \uc0c1\ucc9c\ub8e1",
+      "effect": "\uc790\uc2e0\uc758 \ub371 \uc704\uc5d0\uc11c \uce74\ub4dc 3\uc7a5\uc744 \ubb18\uc9c0\ub85c \ubcf4\ub0b8\ub2e4. \uc774 \ud6a8\uacfc\ub85c \ub9c8\ubc95 \uce74\ub4dc\uac00 \ubb18\uc9c0\ub85c \ubcf4\ub0b4\uc84c\uc744 \uacbd\uc6b0, \ucd94\uac00\ub85c \uc790\uc2e0 \ubb18\uc9c0\uc758 \ud544\ub4dc \ub9c8\ubc95 \uce74\ub4dc\ub97c 2\uc7a5\uae4c\uc9c0 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\uc744 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "wyrm",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2300,
+  "def": 1300,
+  "passwords": [],
+  "images": [
+    {
+      "id": "a8627ee0-f380-44e4-a7df-0fbe4a32580e",
+      "card": "https://ms.yugipedia.com//3/30/WingedCelestialDragonofWealandWoe-RDEXT1-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Winged Celestial Dragon of Weal and Woe",
+        "id": 717499
+      }
+    ],
+    "dbID": 16920
+  },
+  "series": []
+}

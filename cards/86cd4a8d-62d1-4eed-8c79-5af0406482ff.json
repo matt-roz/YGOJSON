@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "86cd4a8d-62d1-4eed-8c79-5af0406482ff",
+  "text": {
+    "en": {
+      "name": "Worker Warrior - Multitasking Manager",
+      "effect": "Place this card from your field on top of the owner's Deck. Then, if you have a face-up monster whose original name is \"Worker Warrior - Sinister Chairman\" on your field, you can draw 1 card.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u4e2d\u9593\u7ba1\u7406\u30b7\u30e3\u30a4\u30f3\u30fb\u30de\u30cd\u30fc\u30b8\u30e3\u30fc",
+      "effect": "\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u3053\u306e\u30ab\u30fc\u30c9\u3092\u6301\u3061\u4e3b\u306e\u30c7\u30c3\u30ad\u306e\u4e0a\u306b\u623b\u3059\u3002\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u5143\u3005\u306e\u30ab\u30fc\u30c9\u540d\u304c\u300c\u6f06\u9ed2\u30b7\u30e3\u30a4\u30f3\u738b\uff27\u30a2\u30fc\u30af\u30c8\u30fc\u30af\u300d\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\u304c\u3044\u308b\u5834\u5408\u3001\u3055\u3089\u306b\u81ea\u5206\u306f\uff11\u679a\u30c9\u30ed\u30fc\u3067\u304d\u308b\u3002"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1500,
+  "def": 600,
+  "passwords": [],
+  "images": [
+    {
+      "id": "ba8a8d1c-39c3-48e0-b636-5b8cfd1c9513",
+      "card": "https://ms.yugipedia.com//4/40/WorkerWarriorMultitaskingManager-RDKP25-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Worker Warrior - Multitasking Manager",
+        "id": 1193150
+      }
+    ],
+    "dbID": 23225
+  },
+  "series": [
+    "20ff6f42-dacc-4386-9945-3b0110386c78"
+  ]
+}

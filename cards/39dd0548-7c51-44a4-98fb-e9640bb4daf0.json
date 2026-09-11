@@ -1,0 +1,43 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "39dd0548-7c51-44a4-98fb-e9640bb4daf0",
+  "text": {
+    "en": {
+      "name": "Cross Lostream Verdias",
+      "effect": "During the Battle Phase, this card gains ATK equal to [the number of face-up Union Monster Cards on your field] x 400. If you have 3 or more face-up Union Monster Cards on your field, this card cannot be destroyed by card effects. During the End Phase of the turn this card attacked, if you do not have \"Cross Lostream Melutine\" face-up on your field, change this card to face-up Defense Position.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u96f2\u6d77\u7fd4\u7adc \u30f4\u30a7\u30eb\u30c7\u30a3\u30a2\u30b9"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "wind",
+  "type": "seaserpent",
+  "classifications": [
+    "effect"
+  ],
+  "level": 9,
+  "atk": 2500,
+  "def": 1500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "7c7d7f02-c743-4a24-b7e4-a03a71e88ea9",
+      "card": "https://ms.yugipedia.com//4/42/CrossLostreamVerdias-RDCA01-JP-OP.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Cross Lostream Verdias",
+        "id": 1221857
+      }
+    ]
+  },
+  "series": [
+    "8c7214b9-1442-4735-8c5e-bf1949656f9c"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "786eaa8c-2bdf-43e7-9410-b46e3fb8f4b2",
+  "text": {
+    "en": {
+      "name": "Infernal Flame Emperor (Rush Duel)",
+      "effect": "Destroy Spell/Trap Cards on the field equal to [the number of monsters placed to meet the requirement].",
+      "official": false
+    },
+    "ko": {
+      "name": "\ud5ec\ud504\ub808\uc784 \uc5e0\ud398\ub7ec",
+      "effect": "\uc11c\ub85c\uc758 \ud544\ub4dc\uc758 \ub9c8\ubc95 / \ud568\uc815 \uce74\ub4dc \uc911\uc5d0\uc11c, [\uc774 \ud6a8\uacfc\uc758 \uc870\uac74\uc73c\ub85c \ub418\ub3cc\ub9b0 \ubaac\uc2a4\ud130\uc758 \uc218]\ub9cc\ud07c \uace0\ub974\uace0 \ud30c\uad34\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "type": "pyro",
+  "classifications": [
+    "effect"
+  ],
+  "level": 9,
+  "atk": 2700,
+  "def": 1600,
+  "passwords": [],
+  "images": [
+    {
+      "id": "dc91df41-3506-4520-a977-734c47209eda",
+      "card": "https://ms.yugipedia.com//d/df/InfernalFlameEmperor-RDSJMP-JP-NPR.png"
+    }
+  ],
+  "sets": [
+    "b254644c-27d2-4111-9a53-3a82de7d4cd5"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Infernal Flame Emperor (Rush Duel)",
+        "id": 1085027
+      }
+    ],
+    "dbID": 20950
+  },
+  "series": []
+}

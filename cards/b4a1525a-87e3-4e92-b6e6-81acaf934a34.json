@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "b4a1525a-87e3-4e92-b6e6-81acaf934a34",
+  "text": {
+    "en": {
+      "name": "Dynamic Dino Dynatyranno",
+      "effect": "Destroy 1 Spell/Trap Card on your opponent's field.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u6050\u7adc\u99d5\u30c0\u30a4\u30ca\uff0d\u30c6\u30a3\u30e9\u30ce",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u9b54\u6cd5\u30fb\u7f60\u30ab\u30fc\u30c9\uff11\u679a\u3092\u9078\u3093\u3067\u7834\u58ca\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uacf5\ub8e1\uac00 \ub2e4\uc774\ub108\uff0d\ud2f0\ub77c\ub178",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \ub9c8\ubc95 / \ud568\uc815 \uce74\ub4dc 1\uc7a5\uc744 \uace0\ub974\uace0 \ud30c\uad34\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "dinosaur",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 1000,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "50276b48-9365-41a9-9af6-b05752df0c8a",
+      "card": "https://ms.yugipedia.com//f/f3/DynamicDinoDynatyranno-RDTB02-JP-NPR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Dynamic Dino Dynatyranno",
+        "id": 1101979
+      }
+    ],
+    "dbID": 21091
+  },
+  "series": [
+    "34abd7ad-23eb-4078-a140-43c367297c26"
+  ]
+}

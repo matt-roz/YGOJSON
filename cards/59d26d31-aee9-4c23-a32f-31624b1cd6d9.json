@@ -1,0 +1,54 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "59d26d31-aee9-4c23-a32f-31624b1cd6d9",
+  "text": {
+    "en": {
+      "name": "The Thing In the Purple Mirror",
+      "effect": "Folks...do you know the term \"purple mirror\"? If you know, be careful. If you remember it passed 20 years, then you..."
+    },
+    "ja": {
+      "name": "\u7d2b\u93e1\u306b\u6f5c\u3080\u8005",
+      "effect": "\u307f\u306a\u3055\u3093\u30fb\u30fb\u30fb\u7d2b\u306e\u93e1\u3068\u3044\u3046\u8a00\u8449\u3001\u77e5\u3063\u3066\u307e\u3059\uff1f\u3082\u3057\u3001\u77e5\u3063\u3066\u3044\u308b\u306a\u3089\u6c17\u3092\u4ed8\u3051\u3066\u304f\u3060\u3055\u3044\u3002\u4e8c\u5341\u6b73\u3092\u904e\u304e\u308b\u307e\u3067\u305d\u308c\u3092\u5fd8\u308c\u305a\u306b\u899a\u3048\u3066\u3044\u305f\u3089\u30fb\u30fb\u30fb\u3002"
+    },
+    "ko": {
+      "name": "\ubcf4\ub77c\uc0c9 \uac70\uc6b8\uc5d0 \uc228\uc740 \uc790",
+      "effect": "\uc5ec\ub7ec\ubd84\u2026 \ubcf4\ub77c\uc0c9 \uac70\uc6b8\uc774\ub77c\ub294 \ub9d0, \uc54c\uace0 \uacc4\uc2dc\ub098\uc694? \ub9cc\uc57d, \uc54c\uace0 \uacc4\uc2dc\ub2e4\uba74 \uc870\uc2ec\ud558\uc138\uc694. 20\uc0b4\uc774 \ub420 \ub54c\uae4c\uc9c0 \uadf8\uac83\uc744 \uc78a\uc9c0 \uc54a\uace0 \uae30\uc5b5\ud558\ub2e4\uac00\ub294\u2026"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "zombie",
+  "classifications": [
+    "normal"
+  ],
+  "level": 1,
+  "atk": 0,
+  "def": 300,
+  "passwords": [],
+  "images": [
+    {
+      "id": "f9a0d8b3-f2e7-4db9-ab06-199c45dbd6a5",
+      "card": "https://ms.yugipedia.com//0/09/TheThingInthePurpleMirror-RDMRP1-JP-C.png"
+    }
+  ],
+  "sets": [
+    "a08d0d55-5282-4487-b8b3-a190adb90edf",
+    "62f50503-1055-4260-b990-3fb3469154e0"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "n"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "The Thing In the Purple Mirror",
+        "id": 717100
+      }
+    ],
+    "dbID": 17702
+  },
+  "series": [
+    "0f2d4ea0-f393-4696-9048-3b455a7ae19a"
+  ]
+}

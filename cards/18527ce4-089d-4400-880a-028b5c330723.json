@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "18527ce4-089d-4400-880a-028b5c330723",
+  "text": {
+    "en": {
+      "name": "Headhunters' Digmole",
+      "effect": "Make 1 face-up monster on your opponent's field lose 800 ATK until the end of this turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u5c16\u982d\u72e9\u731f\u30c7\u30a3\u30b0\u30e2\u30fc\u30eb",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u3092\u9078\u3073\u3001\u305d\u306e\u653b\u6483\u529b\u3092\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\uff18\uff10\uff10\u30c0\u30a6\u30f3\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud5e4\ub4dc\ud5cc\ud130\uc988 \ub514\uadf8\ubab0",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130 1\uc7a5\uc744 \uace0\ub974\uace0, \uadf8 \uacf5\uaca9\ub825\uc744 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0 800 \ub0b4\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "beastwarrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1200,
+  "def": 700,
+  "passwords": [],
+  "images": [
+    {
+      "id": "74163ecb-f6d5-4c87-b740-8612caa1cf7f",
+      "card": "https://ms.yugipedia.com//e/e1/HeadhuntersDigmole-RDKP10-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Headhunters' Digmole",
+        "id": 715255
+      }
+    ],
+    "dbID": 17887
+  },
+  "series": [
+    "165b078e-5742-4e96-a11e-3c7ce106efa7"
+  ]
+}

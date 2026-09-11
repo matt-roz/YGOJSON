@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "ebd454aa-8e64-43d8-8aae-b1e27ddd7445",
+  "text": {
+    "en": {
+      "name": "Dosodon",
+      "effect": "Draw 1 card."
+    },
+    "ja": {
+      "name": "\u30c9\u30b9\u30aa\u30c9\u30f3",
+      "effect": "\u81ea\u5206\u306f\uff11\u679a\u30c9\u30ed\u30fc\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub3c4\uc2a4\uc624\ub3c8",
+      "effect": "\uc790\uc2e0\uc740 1\uc7a5 \ub4dc\ub85c\uc6b0\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "type": "dinosaur",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1100,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "7560b0c2-c079-4a8a-80e4-14abd22bdfe0",
+      "card": "https://ms.yugipedia.com//2/2b/Dosodon-RDSST1-JP-C.png"
+    }
+  ],
+  "sets": [
+    "f9c6f064-6fdf-412a-a9ff-62631979aa08"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Dosodon",
+        "id": 714626
+      }
+    ],
+    "dbID": 16999
+  },
+  "series": []
+}

@@ -1,0 +1,63 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "c96e8a4a-da75-439d-b3c3-f6d361149478",
+  "text": {
+    "en": {
+      "name": "Jinzo (Rush Duel)",
+      "effect": "Neither player can activate Trap Cards, and all Trap Card effects are negated."
+    },
+    "fr": {
+      "name": "Jinzo",
+      "effect": "Aucun joueur ne peut activer de Cartes Pi\u00e8ge, et tous les effets des Cartes Pi\u00e8ge sont annul\u00e9s."
+    },
+    "de": {
+      "name": "Jinzo",
+      "effect": "Keiner der Spieler kann Fallenkarten aktivieren, und alle Effekte von Fallenkarten werden annulliert."
+    },
+    "it": {
+      "name": "Jinzo",
+      "effect": "Nessun giocatore pu\u00f2 attivare Carte Trappola e tutti gli effetti delle Carte Trappola sono annullati."
+    },
+    "es": {
+      "name": "Jinzo",
+      "effect": "Ninguno de los jugadores puede activar las Cartas de Trampa y se niegan todos los efectos de las Cartas de Trampa."
+    },
+    "ko": {
+      "name": "\uc778\uc870\uc778\uac04 \uff0d\uc0ac\uc774\ucf54 \uc1fc\ucee4\uff0d",
+      "effect": "\uc591\ucabd \ud50c\ub808\uc774\uc5b4\ub294 \ud568\uc815 \uce74\ub4dc\ub97c \ubc1c\ub3d9\ud560 \uc218 \uc5c6\uc73c\uba70, \uc11c\ub85c\uc758 \ud568\uc815 \uce74\ub4dc\uc758 \ud6a8\uacfc\ub294 \ubb34\ud6a8\ud654\ub41c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 6,
+  "atk": 2400,
+  "def": 1500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "4e755f69-416e-480a-88c8-02a52ac9bce7",
+      "card": "https://ms.yugipedia.com//a/a8/Jinzo-RDSD0C-JP-NPR.png"
+    }
+  ],
+  "sets": [
+    "918ca201-7f5c-4e30-a6be-9ad1bd9e8458",
+    "918ca201-7f5c-4e30-a6be-9ad1bd9e8458"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Jinzo (Rush Duel)",
+        "id": 715464
+      }
+    ],
+    "dbID": 16123
+  },
+  "series": [
+    "a68ee320-b4c4-4ddd-bb01-9826ab4cdfef"
+  ]
+}
