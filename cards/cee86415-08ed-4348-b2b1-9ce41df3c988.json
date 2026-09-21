@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "cee86415-08ed-4348-b2b1-9ce41df3c988",
+  "text": {
+    "en": {
+      "name": "Healthie Lamilla",
+      "effect": "Face-up Pyro Type monsters with 1300 original DEF on your field cannot be destroyed by your opponent's card effects.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30d8\u30eb\u30b7\u30a3\u30fb\u30e9\u30df\u30e9",
+      "effect": "\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u5143\u3005\u306e\u5b88\u5099\u529b\u304c\uff11\uff13\uff10\uff10\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u708e\u65cf\uff09\u306f\u76f8\u624b\u306e\u52b9\u679c\u3067\u306f\u7834\u58ca\u3055\u308c\u306a\u3044\u3002"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "pyro",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 1700,
+  "def": 1300,
+  "passwords": [],
+  "images": [
+    {
+      "id": "e74a1831-f4ac-4822-a158-16bfe5f1aa1d",
+      "card": "https://ms.yugipedia.com//5/5c/HealthieLamilla-RDKP26-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Healthie Lamilla",
+        "id": 1207698
+      }
+    ],
+    "dbID": 23733
+  },
+  "series": [
+    "fa13c05e-752a-441d-bd0a-02d6954bf3f0"
+  ]
+}

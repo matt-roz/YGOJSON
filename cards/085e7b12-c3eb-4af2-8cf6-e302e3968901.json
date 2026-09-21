@@ -1,0 +1,53 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "085e7b12-c3eb-4af2-8cf6-e302e3968901",
+  "text": {
+    "en": {
+      "name": "Dian Keto the Cure Prodigy",
+      "effect": "Draw 1 card and show it to your opponent. If it was a Field Spell Card, you also gain 1000 LP."
+    },
+    "ja": {
+      "name": "\u6cbb\u7642\u306e\u795e\u7ae5 \u30c7\u30a3\u30a2\u30f3\u30fb\u30b1\u30c8",
+      "effect": "\u81ea\u5206\u306f\uff11\u679a\u30c9\u30ed\u30fc\u3057\u3001\u304a\u4e92\u3044\u306b\u78ba\u8a8d\u3059\u308b\u3002\u305d\u306e\u30ab\u30fc\u30c9\u304c\u30d5\u30a3\u30fc\u30eb\u30c9\u9b54\u6cd5\u30ab\u30fc\u30c9\u3060\u3063\u305f\u5834\u5408\u3001\u3055\u3089\u306b\u81ea\u5206\u306f\uff11\uff10\uff10\uff10\uff2c\uff30\u56de\u5fa9\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uce58\ub8cc\uc758 \uc2e0\ub3d9 \ub2e4\uc774\uc548 \ucf13",
+      "effect": "\uc790\uc2e0\uc740 1\uc7a5 \ub4dc\ub85c\uc6b0\ud558\uace0, \uc11c\ub85c \ud655\uc778\ud55c\ub2e4. \uadf8 \uce74\ub4dc\uac00 \ud544\ub4dc \ub9c8\ubc95 \uce74\ub4dc\uc600\uc744 \uacbd\uc6b0, \ucd94\uac00\ub85c \uc790\uc2e0\uc740 1000 LP \ud68c\ubcf5\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "type": "aqua",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 2500,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "df92e86f-149c-4e7b-9676-a7eb1482fa15",
+      "card": "https://ms.yugipedia.com//e/e9/DianKetotheCureProdigy-RDKP10-JP-SR.png"
+    }
+  ],
+  "sets": [
+    "4c887f72-12bb-4f1a-80de-38526bb09a9e"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Dian Keto the Cure Prodigy",
+        "id": 714543
+      }
+    ],
+    "dbID": 17878
+  },
+  "series": [
+    "280a9d17-e91f-4b1a-a8c8-d76977cd2cdd"
+  ]
+}

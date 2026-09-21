@@ -1,0 +1,113 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "67072278-6efa-45d0-b886-79cb03f2a11c",
+  "name": {
+    "en": "V Jump Edition",
+    "ja": "\uff36 \uff2a\uff35\uff2d\uff30 \uff25\uff24\uff29\uff34\uff29\uff2f\uff2e"
+  },
+  "locales": {
+    "jp": {
+      "language": "ja",
+      "prefix": "VE01-JP",
+      "date": "2010-05-21",
+      "image": "https://ms.yugipedia.com//8/83/VE01-BoosterJP.jpg",
+      "cardImages": {
+        "unlimited": {
+          "0a026def-6b57-4300-8116-335b3793d587": "https://ms.yugipedia.com//8/87/Troposphere-VE01-JP-UR.png",
+          "3d3f96a6-1d38-40fb-92c9-e200fd738cd7": "https://ms.yugipedia.com//3/30/SevenSwordsWarrior-VE01-JP-UR.png",
+          "95f8ecc2-e4f4-4b7d-bb8a-5c67ff84e786": "https://ms.yugipedia.com//d/d9/IgnitionBeastVolcannon-VE01-JP-UR.png",
+          "bd7b3877-6694-4a83-adc6-de55c4124d19": "https://ms.yugipedia.com//b/bd/QueenAngelofRoses-VE01-JP-UR.png",
+          "cce0d5bc-5b25-41ce-ae8f-66ca240121c9": "https://ms.yugipedia.com//3/30/VisionHEROTrinity-VE01-JP-UR.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "0a026def-6b57-4300-8116-335b3793d587": {
+            "image": "https://ms.yugipedia.com//8/87/Troposphere-VE01-JP-UR.png"
+          },
+          "3d3f96a6-1d38-40fb-92c9-e200fd738cd7": {
+            "image": "https://ms.yugipedia.com//3/30/SevenSwordsWarrior-VE01-JP-UR.png"
+          },
+          "95f8ecc2-e4f4-4b7d-bb8a-5c67ff84e786": {
+            "image": "https://ms.yugipedia.com//d/d9/IgnitionBeastVolcannon-VE01-JP-UR.png"
+          },
+          "bd7b3877-6694-4a83-adc6-de55c4124d19": {
+            "image": "https://ms.yugipedia.com//b/bd/QueenAngelofRoses-VE01-JP-UR.png"
+          },
+          "cce0d5bc-5b25-41ce-ae8f-66ca240121c9": {
+            "image": "https://ms.yugipedia.com//3/30/VisionHEROTrinity-VE01-JP-UR.png"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          121212003
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//8/83/VE01-BoosterJP.jpg",
+      "cards": [
+        {
+          "id": "0a026def-6b57-4300-8116-335b3793d587",
+          "card": "8a3531bd-42da-47cb-b950-ced690e7c91c",
+          "suffix": "001",
+          "rarity": "ultra",
+          "imageID": "8baa4902-c403-49e3-9c95-6074ca1ab340"
+        },
+        {
+          "id": "bd7b3877-6694-4a83-adc6-de55c4124d19",
+          "card": "fc86aea9-8cf9-468a-af91-acce403f2035",
+          "suffix": "002",
+          "rarity": "ultra",
+          "imageID": "435a0fb1-44b1-49c8-9dc3-1f8ad54ed683"
+        },
+        {
+          "id": "cce0d5bc-5b25-41ce-ae8f-66ca240121c9",
+          "card": "ad7ff455-c334-4595-bfbc-9186f31e164d",
+          "suffix": "003",
+          "rarity": "ultra",
+          "imageID": "b31d7dcc-cd23-46ea-8838-9351f5851b89"
+        },
+        {
+          "id": "95f8ecc2-e4f4-4b7d-bb8a-5c67ff84e786",
+          "card": "ab12c6c8-a975-4f9f-aa53-27304615fef9",
+          "suffix": "004",
+          "rarity": "ultra",
+          "imageID": "23b810f4-4ca7-4c56-ad7a-d8f065de4dd1"
+        },
+        {
+          "id": "3d3f96a6-1d38-40fb-92c9-e200fd738cd7",
+          "card": "9bd7a515-30e0-4dc8-8506-64b8345ca751",
+          "suffix": "005",
+          "rarity": "ultra",
+          "imageID": "a075392d-f31a-4845-98d9-08d05b81770f"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "V Jump Edition",
+      "id": 130882
+    }
+  }
+}

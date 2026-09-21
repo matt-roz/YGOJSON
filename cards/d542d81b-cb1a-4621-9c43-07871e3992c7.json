@@ -1,0 +1,40 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "d542d81b-cb1a-4621-9c43-07871e3992c7",
+  "text": {
+    "en": {
+      "name": "Jurassic Oasis",
+      "effect": "While this card is face-up in the Field Zone, face-up Dinosaur Type monsters on the field cannot be destroyed by monster effects.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30b8\u30e5\u30e9\u30b7\u30c3\u30af\u30fb\u30aa\u30a2\u30b7\u30b9",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u304c\u30d5\u30a3\u30fc\u30eb\u30c9\u30be\u30fc\u30f3\u306b\u8868\u5074\u8868\u793a\u3067\u3042\u308b\u9650\u308a\u3001\u304a\u4e92\u3044\u306e\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u6050\u7adc\u65cf\uff09\u306f\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u52b9\u679c\u3067\u306f\u7834\u58ca\u3055\u308c\u306a\u3044\u3002"
+    },
+    "ko": {
+      "name": "\uc950\ub77c\uae30 \uc624\uc544\uc2dc\uc2a4",
+      "effect": "\uc774 \uce74\ub4dc\uac00 \ud544\ub4dc \uc874\uc5d0 \uc55e\uba74 \ud45c\uc2dc\uc778 \ud55c, \uc11c\ub85c\uc758 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\uacf5\ub8e1\uc871)\ub294 \ubaac\uc2a4\ud130\uc758 \ud6a8\uacfc\ub85c\ub294 \ud30c\uad34\ub418\uc9c0 \uc54a\ub294\ub2e4."
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "field",
+  "passwords": [],
+  "images": [
+    {
+      "id": "feb825ba-761d-47e8-9b94-322f73e39ac1",
+      "card": "https://ms.yugipedia.com//8/8b/JurassicOasis-RDKP08-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Jurassic Oasis",
+        "id": 715489
+      }
+    ],
+    "dbID": 17335
+  },
+  "series": []
+}

@@ -1,0 +1,44 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "0bbf7429-d191-456a-a1e4-d7e2f9a631a2",
+  "text": {
+    "en": {
+      "name": "Frightening Fan Mail",
+      "effect": "Send random cards from your opponent's hand to the Graveyard up to [the number of face-up Defense Position Zombie Type monsters on your field]. Then, inflict damage to your opponent equal to [the number of cards sent to the Graveyard by this effect] x 300."
+    },
+    "ja": {
+      "name": "\u546a\u3044\u306e\u30d5\u30a1\u30f3\u30ec\u30bf\u30fc",
+      "effect": "\u76f8\u624b\u306e\u624b\u672d\u3092\uff3b\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u5b88\u5099\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30a2\u30f3\u30c7\u30c3\u30c8\u65cf\uff09\u306e\u6570\uff3d\u307e\u3067\u30e9\u30f3\u30c0\u30e0\u306b\u9078\u3093\u3067\u5893\u5730\u3078\u9001\u308b\u3002\u305d\u306e\u5f8c\u3001\uff3b\u3053\u306e\u52b9\u679c\u3067\u5893\u5730\u3078\u9001\u3063\u305f\u30ab\u30fc\u30c9\u306e\u6570\uff3d\u00d7\uff13\uff10\uff10\u30c0\u30e1\u30fc\u30b8\u3092\u76f8\u624b\u306b\u4e0e\u3048\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc800\uc8fc\uc758 \ud32c\ub808\ud130",
+      "effect": "\uc0c1\ub300\uc758 \ud328\ub97c [\uc790\uc2e0 \ud544\ub4dc\uc758 \uc55e\uba74 \uc218\ube44 \ud45c\uc2dc \ubaac\uc2a4\ud130(\uc5b8\ub370\ub4dc\uc871)\uc758 \uc218]\uae4c\uc9c0 \ubb34\uc791\uc704\ub85c \uace0\ub974\uace0 \ubb18\uc9c0\ub85c \ubcf4\ub0b8\ub2e4. \uadf8 \ud6c4, [\uc774 \ud6a8\uacfc\ub85c \ubb18\uc9c0\ub85c \ubcf4\ub0b8 \uce74\ub4dc\uc758 \uc218] \u00d7 300 \ub370\ubbf8\uc9c0\ub97c \uc0c1\ub300\uc5d0\uac8c \uc900\ub2e4."
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "cd681958-060c-4704-8b43-6a633b55fd88",
+      "card": "https://ms.yugipedia.com//d/d0/FrighteningFanMail-RDMRP1-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Frightening Fan Mail",
+        "id": 715018
+      }
+    ],
+    "dbID": 17706
+  },
+  "series": [
+    "0f2d4ea0-f393-4696-9048-3b455a7ae19a"
+  ]
+}

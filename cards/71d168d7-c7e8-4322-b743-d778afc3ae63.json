@@ -1,0 +1,74 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "71d168d7-c7e8-4322-b743-d778afc3ae63",
+  "text": {
+    "en": {
+      "name": "Romanpick",
+      "effect": "Send the top 3 cards of your Deck to the Graveyard. If a Psychic Type monster(s) is among the cards sent, add 1 Psychic Type monster from the Graveyard to your hand."
+    },
+    "fr": {
+      "name": "M\u00e9diatomance",
+      "effect": "Envoyez les 3 cartes du dessus de votre Deck au Cimeti\u00e8re. Si un ou plusieurs monstres de Type Psychique se trouvent parmi les cartes envoy\u00e9es, ajoutez 1 monstre de Type Psychique depuis le Cimeti\u00e8re dans votre main."
+    },
+    "de": {
+      "name": "Romanpick",
+      "effect": "Lege die obersten 3 Karten deines Decks auf den Friedhof. Falls sich ein oder mehr Monster des Typs Psi unter den abgelegten Karten befinden, f\u00fcge deiner Hand 1 Monster des Typs Psi vom Friedhof hinzu."
+    },
+    "it": {
+      "name": "Romanplettra",
+      "effect": "Manda le prime 3 carte del tuo Deck al Cimitero. Se uno o pi\u00f9 mostri di Tipo Psichico si trovano tra le carte mandate, aggiungi 1 mostro di Tipo Psichico dal Cimitero alla tua mano."
+    },
+    "es": {
+      "name": "Romanp\u00faa",
+      "effect": "Manda al Cementerio las 3 cartas de la parte superior de tu Deck. Si entre las cartas hay uno o m\u00e1s monstruos de Tipo Ps\u00edquico, a\u00f1ade 1 monstruo de Tipo Ps\u00edquico del Cementerio a tu mano."
+    },
+    "ja": {
+      "name": "\u30ed\u30de\u30f3\u30b9\u30fb\u30d4\u30c3\u30af",
+      "effect": "\u81ea\u5206\u306e\u30c7\u30c3\u30ad\u306e\u4e0a\u304b\u3089\u30ab\u30fc\u30c9\uff13\u679a\u3092\u5893\u5730\u3078\u9001\u308b\u3002\u305d\u306e\u4e2d\u306b\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30b5\u30a4\u30ad\u30c3\u30af\u65cf\uff09\u304c\u3044\u305f\u5834\u5408\u3001\u3055\u3089\u306b\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30b5\u30a4\u30ad\u30c3\u30af\u65cf\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub85c\ub9e8\uc2a4 \ud53d",
+      "effect": "\uc790\uc2e0\uc758 \ub371 \uc704\uc5d0\uc11c \uce74\ub4dc 3\uc7a5\uc744 \ubb18\uc9c0\ub85c \ubcf4\ub0b8\ub2e4. \uadf8 \uc911\uc5d0 \ubaac\uc2a4\ud130(\uc0ac\uc774\ud0a5\uc871)\uac00 \uc788\uc5c8\uc744 \uacbd\uc6b0, \ucd94\uac00\ub85c \uc790\uc2e0 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130(\uc0ac\uc774\ud0a5\uc871) 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\ub294\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "psychic",
+  "classifications": [
+    "effect"
+  ],
+  "level": 1,
+  "atk": 500,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "3d8d1809-f464-4946-948a-13808b533991",
+      "card": "https://ms.yugipedia.com//c/c7/Romanpick-RDMRP2-JP-ScR.png"
+    },
+    {
+      "id": "d8f16528-c43a-408e-91ba-fac515c89cbe",
+      "card": "https://ms.yugipedia.com//5/51/Romanpick-RD5TH1-JP-UPR.png"
+    }
+  ],
+  "sets": [
+    "9f297267-1ebc-44e2-b4a4-d3e5fea47c30",
+    "9f297267-1ebc-44e2-b4a4-d3e5fea47c30"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Romanpick",
+        "id": 709635
+      }
+    ],
+    "dbID": 15433
+  },
+  "series": [
+    "d44dfc09-8d68-4b5a-ad5a-b70e6583268b"
+  ]
+}

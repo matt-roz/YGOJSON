@@ -1,0 +1,67 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "ba9c8203-9c9d-40b7-ac7a-be3d294d3bdd",
+  "text": {
+    "en": {
+      "name": "Beast Summoner",
+      "effect": "Special Summon 1 Level 7 or lower Beast, Beast-Warrior, or Winged Beast Type monster from your hand to your field, face-up."
+    },
+    "fr": {
+      "name": "Invocateur de B\u00eates",
+      "effect": "Invoquez Sp\u00e9cialement 1 monstre de Type B\u00eate, B\u00eate-Guerrier ou B\u00eate Ail\u00e9e de max. Niveau 7 depuis votre main sur votre Terrain, face recto."
+    },
+    "de": {
+      "name": "Ungeheuerbeschw\u00f6rer",
+      "effect": "Beschw\u00f6re 1 Monster des Typs Ungeheuer, Ungeheuer-Krieger oder Gefl\u00fcgeltes Ungeheuer der Stufe 7 oder niedriger als Spezialbeschw\u00f6rung offen von deiner Hand auf deiner Spielfeldseite."
+    },
+    "it": {
+      "name": "Evocatore di Bestie",
+      "effect": "Evoca Specialmente 1 mostro di Tipo Bestia, Guerriero-Bestia o Bestia Alata di Livello 7 o inferiore dalla tua mano al tuo Terreno, scoperto."
+    },
+    "es": {
+      "name": "Invocador de Bestias",
+      "effect": "Invoca de Modo Especial, desde tu mano, 1 monstruo de Tipo Bestia, Guerrero-Bestia o Bestia Alada de Nivel 7 o menor boca arriba en tu Campo."
+    },
+    "ja": {
+      "name": "\u30d3\u30fc\u30b9\u30c8\u30fb\u30b5\u30e2\u30ca\u30fc",
+      "effect": "\u624b\u672d\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff17\u4ee5\u4e0b\uff0f\u7363\u65cf\u30fb\u7363\u6226\u58eb\u65cf\u30fb\u9ce5\u7363\u65cf\uff09\uff11\u4f53\u3092\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u8868\u793a\u3067\u7279\u6b8a\u53ec\u559a\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ube44\uc2a4\ud2b8 \uc11c\uba38\ub108",
+      "effect": "\ud328\uc758 \ubaac\uc2a4\ud130(\ub808\ubca8 7 \uc774\ud558\uc758 \uc57c\uc218\uc871 / \uc57c\uc218\uc804\uc0ac\uc871 / \ube44\ud589\uc57c\uc218\uc871) 1\uc7a5\uc744 \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \ud45c\uc2dc\ub85c \ud2b9\uc218 \uc18c\ud658\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "spellcaster",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 900,
+  "def": 700,
+  "passwords": [],
+  "images": [
+    {
+      "id": "ef6bae46-d117-4e15-a868-76c67558254f",
+      "card": "https://ms.yugipedia.com//0/04/BeastSummoner-RDMRP1-JP-C.png"
+    }
+  ],
+  "sets": [
+    "e1cd0077-0760-46c2-8cff-9fd1ac443780"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Beast Summoner",
+        "id": 713608
+      }
+    ],
+    "dbID": 15603
+  },
+  "series": []
+}

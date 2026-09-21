@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "11b0c2d5-432d-404c-bf80-6cebe67ac495",
+  "text": {
+    "en": {
+      "name": "Plasmatic Model Tool Ceto",
+      "effect": "Special Summon 2 Level 4 or lower Thunder Type monsters with 800 DEF from your Graveyard to your field in face-up Defense Position. Then, you can add 1 \"Plasmatic Model Open\" from your Graveyard to your hand.",
+      "official": false
+    },
+    "ja": {
+      "name": "\uff30\u30fb\uff2d \u30c4\u30fc\u30eb\u30ad\u30fc\u30c8",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff14\u4ee5\u4e0b\uff0f\u96f7\u65cf\uff0f\u5b88\u5099\u529b\uff18\uff10\uff10\uff09\uff12\u4f53\u3092\u9078\u3073\u3001\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u5b88\u5099\u8868\u793a\u3067\u7279\u6b8a\u53ec\u559a\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\uff30\u30fb\uff2d \u30aa\u30fc\u30d7\u30f3\u300d\uff11\u679a\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "P\u00b7M \ud234\ud0a4\ud2b8",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130(\ub808\ubca8 4 \uc774\ud558 / \ubc88\uac1c\uc871 / \uc218\ube44\ub825 800) 2\uc7a5\uc744 \uace0\ub974\uace0, \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \uc218\ube44 \ud45c\uc2dc\ub85c \ud2b9\uc218 \uc18c\ud658\ud55c\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0 \ubb18\uc9c0\uc758 \"P\u00b7M(\ud50c\ub77c\uc988\ub9c8\ud2f1\ubaa8\ub378) \uc624\ud508\" 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\uc744 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "thunder",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 2400,
+  "def": 800,
+  "passwords": [],
+  "images": [
+    {
+      "id": "1c05cc80-4bd0-4497-a298-6bca8d88a4c0",
+      "card": "https://ms.yugipedia.com//9/97/PlasmaticModelToolCeto-RDORP4-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Plasmatic Model Tool Ceto",
+        "id": 1177421
+      }
+    ],
+    "dbID": 23091
+  },
+  "series": [
+    "86b45a3e-9540-4650-af4a-ed6c9b66f3c2"
+  ]
+}

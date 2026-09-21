@@ -1,0 +1,47 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "8185b76e-2de0-4231-9b9f-f0c848ab895b",
+  "text": {
+    "en": {
+      "name": "Skull Flower",
+      "effect": "Special Summon 1 Level 1 Zombie Type monster from your Graveyard face-up to your field.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30b9\u30ab\u30eb\u30d5\u30e9\u30ef\u30fc",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff11\uff0f\u30a2\u30f3\u30c7\u30c3\u30c8\u65cf\uff09\uff11\u4f53\u3092\u9078\u3073\u3001\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u8868\u793a\u3067\u7279\u6b8a\u53ec\u559a\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc2a4\uceec\ud50c\ub77c\uc6cc",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130(\ub808\ubca8 1 / \uc5b8\ub370\ub4dc\uc871) 1\uc7a5\uc744 \uace0\ub974\uace0, \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \ud45c\uc2dc\ub85c \ud2b9\uc218 \uc18c\ud658\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "zombie",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1200,
+  "def": 900,
+  "passwords": [],
+  "images": [
+    {
+      "id": "8e4d51d2-69cd-4ea4-96db-d159faf20cfe",
+      "card": "https://ms.yugipedia.com//6/6c/SkullFlower-RDKP19-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Skull Flower",
+        "id": 1093218
+      }
+    ],
+    "dbID": 20981
+  },
+  "series": []
+}

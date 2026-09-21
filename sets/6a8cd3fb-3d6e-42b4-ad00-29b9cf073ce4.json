@@ -1,0 +1,78 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "6a8cd3fb-3d6e-42b4-ad00-29b9cf073ce4",
+  "name": {
+    "en": "The Dinosaur Expo 2023 Promotion Pack",
+    "ja": "\u6050\u7adc\u535a\uff12\uff10\uff12\uff13 \u30d7\u30ed\u30e2\u30fc\u30b7\u30e7\u30f3\u30d1\u30c3\u30af"
+  },
+  "locales": {
+    "jp": {
+      "language": "ja",
+      "date": "2023-04-03",
+      "image": "https://ms.yugipedia.com//3/32/DEC1-BoosterJP.png",
+      "cardImages": {
+        "unlimited": {
+          "ea046f25-171f-40fc-8454-d85d89653ff1": "https://ms.yugipedia.com//7/70/AbsoluteKingMegaplunder-DEC1-JP-NPR.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "ea046f25-171f-40fc-8454-d85d89653ff1": {
+            "image": "https://ms.yugipedia.com//7/70/AbsoluteKingMegaplunder-DEC1-JP-NPR.png"
+          }
+        }
+      },
+      "formats": [
+        "rushduel"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          1000008170000,
+          1000100449000
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "rushduel"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//3/32/DEC1-BoosterJP.png",
+      "cards": [
+        {
+          "id": "ea046f25-171f-40fc-8454-d85d89653ff1",
+          "card": "a99530ba-0a65-49f5-978e-97145257ca80",
+          "suffix": "DEC1-JP001",
+          "rarity": "commonparallel",
+          "imageID": "752e6c2b-fa53-4da0-a080-f5258513185c",
+          "printStatus": "new"
+        },
+        {
+          "id": "271ed111-e351-4ba6-8ea7-e71cc8f6b97d",
+          "card": "05c76e0e-f5f8-4d03-90b6-a0e08f3e4dbb",
+          "suffix": "RD/DEC1-JP001",
+          "rarity": "commonparallel",
+          "imageID": "87f6f9c4-4261-4377-8929-982bdd92a7a7",
+          "printStatus": "new"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "The Dinosaur Expo 2023 Promotion Pack",
+      "id": 903377
+    }
+  }
+}

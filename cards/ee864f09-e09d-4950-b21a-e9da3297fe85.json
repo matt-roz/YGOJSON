@@ -1,0 +1,52 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "ee864f09-e09d-4950-b21a-e9da3297fe85",
+  "text": {
+    "en": {
+      "name": "Dark Magician the Dragon Knight (Rush Duel)",
+      "effect": "This card's name becomes \"Dark Magician\". Spell/Trap Cards on your field cannot be destroyed by your opponent's card effects.",
+      "official": false
+    },
+    "ko": {
+      "name": "\uc6a9\uae30\uc0ac \ube14\ub799 \ub9e4\uc9c0\uc158",
+      "effect": "\uc774 \uce74\ub4dc\uc758 \uce74\ub4dc\uba85\uc740 \"\ube14\ub799 \ub9e4\uc9c0\uc158\"\uc774 \ub41c\ub2e4. \uc790\uc2e0 \ud544\ub4dc\uc758 \ub9c8\ubc95 / \ud568\uc815 \uce74\ub4dc\ub294 \uc0c1\ub300\uc758 \ud6a8\uacfc\ub85c\ub294 \ud30c\uad34\ub418\uc9c0 \uc54a\ub294\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "dragon",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 3000,
+  "def": 2500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "d62ca786-b156-485e-a26f-43bf68720e53",
+      "card": "https://ms.yugipedia.com//a/ad/DarkMagiciantheDragonKnight-RDKP21-JP-SR.png"
+    },
+    {
+      "id": "78f5007c-2dfe-4472-adde-94c64ab1cac2",
+      "card": "https://ms.yugipedia.com//3/3b/DarkMagiciantheDragonKnight-RDCA01-JP-OP-AA.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Dark Magician the Dragon Knight (Rush Duel)",
+        "id": 1124589
+      }
+    ],
+    "dbID": 21644
+  },
+  "series": [
+    "73409add-3e9e-400d-a8b0-ae600de6af69"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "77962704-27fb-4e7e-8a92-d12517f2dd08",
+  "text": {
+    "en": {
+      "name": "Maha Vailo (Rush Duel)",
+      "effect": "This card gains ATK equal to [the number of Equip Cards equipped to this card] x 500.",
+      "official": false
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "spellcaster",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1600,
+  "def": 1400,
+  "passwords": [],
+  "images": [
+    {
+      "id": "4effcb80-c0f9-4920-a992-ef4216119896",
+      "card": "https://ms.yugipedia.com//8/89/MahaVailo-RDLP01-JP-OP.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Maha Vailo (Rush Duel)",
+        "id": 1203684
+      }
+    ]
+  },
+  "series": []
+}

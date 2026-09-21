@@ -1,0 +1,59 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "72cb0600-dc1d-4d6c-b04f-a25250545d0f",
+  "text": {
+    "en": {
+      "name": "Hero of the Yeast",
+      "effect": "A samurai who claims to be from the far east. The bread knife in his hand cuts well."
+    },
+    "ja": {
+      "name": "\u5f53\u65b9\u306f\u82f1\u96c4",
+      "effect": "\u9065\u304b\u6771\u306e\u56fd\u304b\u3089\u6765\u305f\u3068\u8a00\u3063\u3066\u3044\u308b\u30b5\u30e0\u30e9\u30a4\u3002\u624b\u306b\u3059\u308b\u30d1\u30f3\u5207\u308a\u5305\u4e01\u306f\u826f\u304f\u5207\u308c\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud1b5\ube75\uc758 \uc601\uc6c5",
+      "effect": "\uba3c \ub3d9\ucabd \ub098\ub77c\uc5d0\uc11c \uc654\ub2e4\uace0 \ud558\ub294 \uc0ac\ubb34\ub77c\uc774. \uc190\uc5d0 \uc954 \ube75\uce7c\uc740 \uc798 \ub4e0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "warrior",
+  "classifications": [
+    "normal"
+  ],
+  "level": 4,
+  "atk": 1500,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "2d4d44cb-845a-4802-91e6-acaaae968438",
+      "card": "https://ms.yugipedia.com//1/1d/HerooftheYeast-RDSBD3-JP-C.png"
+    }
+  ],
+  "sets": [
+    "5b6d7ab4-987e-4469-89bd-9d9bf3d400c0",
+    "236e70bf-ca1c-4270-aabb-5afa47fdc1e2",
+    "f15281f0-8ea5-4682-b72c-36f0b779a7bc",
+    "a5eedf36-311c-4849-a732-d96430b8e8cc",
+    "b6e8e337-8faf-48be-851d-4ba7298c81d0",
+    "800a7d3b-5bf8-4d9e-b88b-3ec6be2416b7",
+    "4758595f-fc6c-4993-9a71-0738f485c6c9",
+    "f8e7532a-02f9-4834-aa0e-230e163cf5e4",
+    "f8e7532a-02f9-4834-aa0e-230e163cf5e4"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "n"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Hero of the Yeast",
+        "id": 715297
+      }
+    ],
+    "dbID": 16780
+  },
+  "series": []
+}

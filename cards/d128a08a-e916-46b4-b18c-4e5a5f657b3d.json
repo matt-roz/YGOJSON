@@ -1,0 +1,46 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "d128a08a-e916-46b4-b18c-4e5a5f657b3d",
+  "text": {
+    "en": {
+      "name": "New Start",
+      "effect": "Destroy that Normal Summoned monster. Then, you can draw until you have 5 cards in your hand.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u4efb\u52d9\u5b8c\u4e86",
+      "effect": "\u305d\u306e\u53ec\u559a\u3055\u308c\u305f\u30e2\u30f3\u30b9\u30bf\u30fc\u3092\u7834\u58ca\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306f\u624b\u672d\u304c\uff15\u679a\u306b\u306a\u308b\u3088\u3046\u306b\u30c9\u30ed\u30fc\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub274\uc2a4\ud0c0\ud2b8",
+      "effect": "\uadf8 \uc77c\ubc18 \uc18c\ud658\ub41c \ubaac\uc2a4\ud130\ub97c \ud30c\uad34\ud55c\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0\uc740 \ud328\uac00 5\uc7a5\uc774 \ub418\ub3c4\ub85d \ub4dc\ub85c\uc6b0\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "trap",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "a67e5630-f3aa-4797-a5bc-94c92eae6869",
+      "card": "https://ms.yugipedia.com//b/be/NewStart-RDKP20-JP-UR.png"
+    },
+    {
+      "id": "1af471f7-9e13-47c1-ba9f-b71c85af65fc",
+      "card": "https://ms.yugipedia.com//d/d7/NewStart-RDKP20-JP-ORR-AA.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "New Start",
+        "id": 1105541
+      }
+    ],
+    "dbID": 21312
+  },
+  "series": [
+    "46f86d76-02e4-4a41-b731-96af4f504c77"
+  ]
+}

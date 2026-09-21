@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "284864a1-28d1-476f-a530-77d76c425532",
+  "text": {
+    "en": {
+      "name": "Jinzo the Machine Menace (Rush Duel)",
+      "effect": "Special Summon 1 \"Jinzo\" from your Graveyard face-up to your field. Then, you can look at all face-down cards in your opponent's Spell & Trap Zone. Destroy all Trap Cards among them.",
+      "official": false
+    },
+    "ko": {
+      "name": "\uc704\ud611\uc758 \uc778\uc870\uc778\uac04 \uff0d\uc0ac\uc774\ucf54 \uc1fc\ucee4\uff0d",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \"\uc778\uc870\uc778\uac04 \uff0d\uc0ac\uc774\ucf54 \uc1fc\ucee4\uff0d\" 1\uc7a5\uc744 \uace0\ub974\uace0, \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \ud45c\uc2dc\ub85c \ud2b9\uc218 \uc18c\ud658\ud55c\ub2e4. \uadf8 \ud6c4, \uc0c1\ub300\uc758 \ub9c8\ubc95 & \ud568\uc815 \uc874\uc758 \ub4b7\uba74 \ud45c\uc2dc\uc758 \uce74\ub4dc\ub97c \uc804\ubd80 \ud655\uc778\ud560 \uc218 \uc788\ub2e4. \ud655\uc778\ud588\uc744 \uacbd\uc6b0, \ucd94\uac00\ub85c \uadf8 \uc911\uc758 \ud568\uc815 \uce74\ub4dc\ub97c \uc804\ubd80 \ud30c\uad34\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2400,
+  "def": 1500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "fc9d559f-d071-4ecd-961b-742e45dfe35e",
+      "card": "https://ms.yugipedia.com//8/8d/JinzotheMachineMenace-RDKP16-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Jinzo the Machine Menace (Rush Duel)",
+        "id": 1035182
+      }
+    ],
+    "dbID": 19976
+  },
+  "series": [
+    "a68ee320-b4c4-4ddd-bb01-9826ab4cdfef"
+  ]
+}

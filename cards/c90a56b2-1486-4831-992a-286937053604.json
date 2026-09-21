@@ -1,0 +1,72 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "c90a56b2-1486-4831-992a-286937053604",
+  "text": {
+    "en": {
+      "name": "Bull Breaker",
+      "effect": "Incredibly useful on site, but the lease is exorbitant. Planning is the biggest part of the job."
+    },
+    "fr": {
+      "name": "Taureau Briseur",
+      "effect": "Extr\u00eamement utile in situ, mais la location est exorbitante. La planification repr\u00e9sente l'essentiel du travail."
+    },
+    "de": {
+      "name": "Bullenbrecher",
+      "effect": "Ein \u00fcberaus hilfreicher Partner vor Ort, der allerdings hohe Kosten verursacht. Hier kommt es auf die richtige Planung an."
+    },
+    "it": {
+      "name": "Distruttore Toro",
+      "effect": "Incredibilmente utile in cantiere, ma il costo del noleggio \u00e8 esorbitante. La pianificazione \u00e8 la parte pi\u00f9 importante del lavoro."
+    },
+    "es": {
+      "name": "Toro Rompedor",
+      "effect": "Es muy \u00fatil en el terreno, pero su contrato es car\u00edsimo. La planificaci\u00f3n es la parte m\u00e1s importante del trabajo."
+    },
+    "ja": {
+      "name": "\u30d6\u30eb\u30fb\u30d6\u30ec\u30a4\u30ab\u30fc",
+      "effect": "\u9ad8\u3044\u5de5\u4e8b\u6027\u80fd\u3068\u3001\u9ad8\u3059\u304e\u308b\u30ea\u30fc\u30b9\u4ee3\u3002\u6bb5\u53d6\u308a\u516b\u5206\u306e\u898b\u305b\u6240\u3002"
+    },
+    "ko": {
+      "name": "\ubd88 \ube0c\ub808\uc774\ucee4",
+      "effect": "\uc6b0\uc218\ud55c \uacf5\uc0ac\uc131\ub2a5\uacfc \uac12\ube44\uc2fc \uc784\ub300\ub8cc. \uc900\ube44\ub41c \uc131\ub2a5\uc744 \ubcf4\uc5ec\uc918\uc57c \ud560 \ub54c."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "machine",
+  "classifications": [
+    "normal"
+  ],
+  "level": 4,
+  "atk": 1200,
+  "def": 800,
+  "passwords": [],
+  "images": [
+    {
+      "id": "21f00cc3-f97d-4f8d-9321-937269583210",
+      "card": "https://ms.yugipedia.com//7/76/BullBreaker-RDGRD2-JP-C.png"
+    }
+  ],
+  "sets": [
+    "22e8bcf0-2b4c-48d0-87e4-2a51d0f0129e",
+    "f73a3adb-8d11-44cc-be1d-7b4a81bff8d8",
+    "728adba0-7417-496b-921a-bee0c18a0be2",
+    "728adba0-7417-496b-921a-bee0c18a0be2",
+    "31432588-1ddf-4225-8c5e-7dfc48faac1e",
+    "31432588-1ddf-4225-8c5e-7dfc48faac1e"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "n"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Bull Breaker",
+        "id": 714183
+      }
+    ],
+    "dbID": 16129
+  },
+  "series": []
+}

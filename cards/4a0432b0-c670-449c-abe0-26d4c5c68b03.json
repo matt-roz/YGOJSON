@@ -1,0 +1,52 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "4a0432b0-c670-449c-abe0-26d4c5c68b03",
+  "text": {
+    "en": {
+      "name": "The End the Mad Fiend Deity of Despair",
+      "effect": "Destroy up to 2 cards on your opponent's field. Then, you can Special Summon 1 monster from your opponent's Graveyard face-up to your field.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u7d76\u671b\u72c2\u9b54\u795e\u30b8\u30fb\u30a8\u30f3\u30c9",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u30ab\u30fc\u30c9\u3092\uff12\u679a\u307e\u3067\u9078\u3093\u3067\u7834\u58ca\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u76f8\u624b\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u3092\u9078\u3093\u3067\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u8868\u793a\u3067\u7279\u6b8a\u53ec\u559a\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc808\ub9dd\uad11\ub9c8\uc2e0 \ub514 \uc5d4\ub4dc",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \uce74\ub4dc\ub97c 2\uc7a5\uae4c\uc9c0 \uace0\ub974\uace0 \ud30c\uad34\ud55c\ub2e4. \uadf8 \ud6c4, \uc0c1\ub300 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130 1\uc7a5\uc744 \uace0\ub974\uace0 \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \ud45c\uc2dc\ub85c \ud2b9\uc218 \uc18c\ud658\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "fiend",
+  "classifications": [
+    "effect"
+  ],
+  "level": 11,
+  "atk": 3500,
+  "def": 2400,
+  "passwords": [],
+  "images": [
+    {
+      "id": "2968c3aa-8eef-4837-9842-baadcd8ea689",
+      "card": "https://ms.yugipedia.com//4/4e/TheEndtheMadFiendDeityofDespair-RDORP4-JP-UR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "The End the Mad Fiend Deity of Despair",
+        "id": 1176312
+      }
+    ],
+    "dbID": 23055
+  },
+  "series": [
+    "182ca87e-912e-486d-8df2-dae67ce3bffd"
+  ]
+}

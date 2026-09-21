@@ -1,0 +1,98 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "f14a5c89-d4f8-4e47-ad9c-4aaac332adcc",
+  "name": {
+    "en": "Event Pack: Terminal World Awakening!!",
+    "ja": "\u30a4\u30d9\u30f3\u30c8\u30d1\u30c3\u30af \uff0d\u30bf\u30fc\u30df\u30ca\u30eb\u30ef\u30fc\u30eb\u30c9\u899a\u9192\uff01\uff01\uff0d"
+  },
+  "locales": {
+    "jp": {
+      "language": "ja",
+      "prefix": "PREV-JP",
+      "date": "2025-11-29",
+      "image": "https://ms.yugipedia.com//e/e4/EventPackTerminalWorldAwakening-BoosterJP.png",
+      "cardImages": {
+        "unlimited": {
+          "6ec5386e-7464-4be4-8af0-a8b1430d4dff": "https://ms.yugipedia.com//2/22/ConstellarPtolemyM7-PREV-JP-PScR.png",
+          "d8e104b9-1f2e-4b79-98f0-f3f9b9bdc955": "https://ms.yugipedia.com//3/38/MXSaberInvoker-PREV-JP-PScR.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "6ec5386e-7464-4be4-8af0-a8b1430d4dff": {
+            "image": "https://ms.yugipedia.com//2/22/ConstellarPtolemyM7-PREV-JP-PScR.png"
+          },
+          "d8e104b9-1f2e-4b79-98f0-f3f9b9bdc955": {
+            "image": "https://ms.yugipedia.com//3/38/MXSaberInvoker-PREV-JP-PScR.png"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          1000009543000
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//e/e4/EventPackTerminalWorldAwakening-BoosterJP.png",
+      "cards": [
+        {
+          "id": "d8e104b9-1f2e-4b79-98f0-f3f9b9bdc955",
+          "card": "ef03be89-023d-412d-a810-c7526b6a0ccf",
+          "suffix": "018",
+          "rarity": "prismaticsecret",
+          "imageID": "7e5a197d-4f38-4ac8-b9e4-fde4a33e8f07",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "3b194d67-a6a4-49ce-9d8c-2d30ef86cd99",
+          "card": "cc6dd7e5-666f-4a34-b510-e199cf3336df",
+          "suffix": "019",
+          "rarity": "prismaticsecret",
+          "imageID": "e0de26ba-88d7-48b2-83b4-d98b4f9cf878",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "6ec5386e-7464-4be4-8af0-a8b1430d4dff",
+          "card": "48ab201c-9aba-4084-a436-6f12bb17e943",
+          "suffix": "020",
+          "rarity": "prismaticsecret",
+          "imageID": "2462fa68-bffb-46fc-abfc-0072803fe0cd",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "2470c8bf-6fc3-4669-b4a2-d3c8214cc57e",
+          "card": "647dba63-76cc-43f3-8c15-92e948ef4a09",
+          "suffix": "021",
+          "rarity": "prismaticsecret",
+          "imageID": "a1cee176-f18e-42f4-a0e6-c95a9f99fe1e",
+          "printStatus": "reprint"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Event Pack: Terminal World Awakening!!",
+      "id": 1157200
+    }
+  }
+}

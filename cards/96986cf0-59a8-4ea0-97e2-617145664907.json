@@ -1,0 +1,43 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "96986cf0-59a8-4ea0-97e2-617145664907",
+  "text": {
+    "en": {
+      "name": "Light Leading the Valiant (Rush Duel)",
+      "effect": "If this card attacks your opponent directly and reduces their LP to 0, you win the Match."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "fairy",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 3000,
+  "def": 2500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "f836db6d-74e5-4923-848f-9130ac29d787",
+      "card": "https://ms.yugipedia.com//7/7a/LightLeadingtheValiant-RD2025-EN-ORR.png"
+    }
+  ],
+  "sets": [
+    "c6f99ccf-8665-4f42-b502-8cf890a570b6"
+  ],
+  "illegal": true,
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Light Leading the Valiant (Rush Duel)",
+        "id": 1143998
+      }
+    ],
+    "dbID": 21969
+  },
+  "series": [
+    "2572d2bf-aa08-42a8-81df-a074cca75fd6"
+  ]
+}

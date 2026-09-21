@@ -1,0 +1,52 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "dddd8704-3cd7-4811-952f-d673ec12b99e",
+  "text": {
+    "en": {
+      "name": "Doki Doki Hexenhaus",
+      "effect": "Special Summon 1 Pyro Type Normal Monster from your Graveyard face-up to your field."
+    },
+    "ja": {
+      "name": "\u30c9\u30ad\u30c9\u30ad\u30fb\u30d8\u30af\u30bb\u30f3\u30cf\u30a6\u30b9",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u901a\u5e38\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u708e\u65cf\uff09\uff11\u4f53\u3092\u9078\u3073\u3001\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u8868\u793a\u3067\u7279\u6b8a\u53ec\u559a\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ucf69\ub2e5\ucf69\ub2e5 \ud5e5\uc13c\ud558\uc6b0\uc2a4",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \uc77c\ubc18 \ubaac\uc2a4\ud130(\ud654\uc5fc\uc871) 1\uc7a5\uc744 \uace0\ub974\uace0, \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \ud45c\uc2dc\ub85c \ud2b9\uc218 \uc18c\ud658\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "pyro",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2300,
+  "def": 2100,
+  "passwords": [],
+  "images": [
+    {
+      "id": "59e980ae-47b1-4292-9158-36a441b4520c",
+      "card": "https://ms.yugipedia.com//b/b3/DokiDokiHexenhaus-RDSD04-JP-C.png"
+    }
+  ],
+  "sets": [
+    "c05d7ca5-5bea-4c0f-884c-dd1ec7f1be77",
+    "c05d7ca5-5bea-4c0f-884c-dd1ec7f1be77"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Doki Doki Hexenhaus",
+        "id": 714608
+      }
+    ],
+    "dbID": 16685
+  },
+  "series": []
+}

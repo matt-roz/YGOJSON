@@ -1,0 +1,43 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "1e2ac371-c754-46c8-8eea-7b38e4dbdd96",
+  "text": {
+    "en": {
+      "name": "Elttaes, the Master of Duels (Rush Duel)",
+      "effect": "If this card attacks your opponent directly and reduces their LP to 0, you win the Match."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "cyberse",
+  "classifications": [
+    "effect"
+  ],
+  "level": 6,
+  "atk": 2400,
+  "def": 2200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "ce7d7669-acb7-48c3-a0d3-8de888b7922e",
+      "card": "https://ms.yugipedia.com//9/9b/ElttaestheMasterofDuels-RD2024-EN-ORR.png"
+    }
+  ],
+  "sets": [
+    "01d56450-d102-4337-bfac-7127365b2be6"
+  ],
+  "illegal": true,
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Elttaes, the Master of Duels (Rush Duel)",
+        "id": 1079020
+      }
+    ],
+    "dbID": 20703
+  },
+  "series": [
+    "2572d2bf-aa08-42a8-81df-a074cca75fd6"
+  ]
+}

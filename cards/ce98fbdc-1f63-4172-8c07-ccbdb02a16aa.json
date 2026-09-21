@@ -1,0 +1,52 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "ce98fbdc-1f63-4172-8c07-ccbdb02a16aa",
+  "text": {
+    "en": {
+      "name": "Bikuribot",
+      "effect": "Special Summon 1 Level 7 monster from your Graveyard face-up to your field. Then, this turn, this face-up card can be treated as 2 Tributes for the Tribute Summon of a monster in Attack Position.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30d0\u30a4\u30af\u30ea\u30dc\u30c3\u30c8",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff17\uff09\uff11\u4f53\u3092\u9078\u3073\u3001\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u8868\u793a\u3067\u7279\u6b8a\u53ec\u559a\u3059\u308b\u3002\u3055\u3089\u306b\u3053\u306e\u30bf\u30fc\u30f3\u3001\u30e2\u30f3\u30b9\u30bf\u30fc\u3092\u653b\u6483\u8868\u793a\u3067\u30a2\u30c9\u30d0\u30f3\u30b9\u53ec\u559a\u3059\u308b\u5834\u5408\u3001\u8868\u5074\u8868\u793a\u306e\u3053\u306e\u30ab\u30fc\u30c9\u306f\uff12\u4f53\u5206\u306e\u30ea\u30ea\u30fc\u30b9\u306b\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ubc14\uc774\ud06c\ub9ac\ubd07",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130(\ub808\ubca8 7) 1\uc7a5\uc744 \uace0\ub974\uace0, \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \ud45c\uc2dc\ub85c \ud2b9\uc218 \uc18c\ud658\ud55c\ub2e4. \ucd94\uac00\ub85c \uc774 \ud134\uc5d0, \ubaac\uc2a4\ud130\ub97c \uacf5\uaca9 \ud45c\uc2dc\ub85c \uc5b4\ub4dc\ubc34\uc2a4 \uc18c\ud658\ud560 \uacbd\uc6b0, \uc55e\uba74 \ud45c\uc2dc\uc758 \uc774 \uce74\ub4dc\ub294 2\uc7a5\ub9cc\ud07c\uc758 \ub9b4\ub9ac\uc2a4\ub85c \ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "fiend",
+  "classifications": [
+    "effect"
+  ],
+  "level": 2,
+  "atk": 300,
+  "def": 200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "577c3410-3a94-4622-88fd-51296f35005e",
+      "card": "https://ms.yugipedia.com//0/00/Bikuribot-RD5TH1-JP-ScR.png"
+    }
+  ],
+  "sets": [
+    "b254644c-27d2-4111-9a53-3a82de7d4cd5"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Bikuribot",
+        "id": 1074441
+      }
+    ],
+    "dbID": 20731
+  },
+  "series": []
+}

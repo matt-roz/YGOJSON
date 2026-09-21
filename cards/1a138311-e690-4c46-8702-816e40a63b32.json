@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "1a138311-e690-4c46-8702-816e40a63b32",
+  "text": {
+    "en": {
+      "name": "Gaigust the Defiant Soul",
+      "effect": "Destroy 1 face-up Level 8 or lower monster on your opponent's field. You cannot Tribute this face-up card for a Tribute Summon this turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u53db\u9aa8\u306e\u30ac\u30a4\u30ac\u30b9\u30c8",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff18\u4ee5\u4e0b\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u7834\u58ca\u3059\u308b\u3002\u3053\u306e\u30bf\u30fc\u30f3\u3001\u81ea\u5206\u306f\u8868\u5074\u8868\u793a\u306e\u3053\u306e\u30ab\u30fc\u30c9\u3092\u30a2\u30c9\u30d0\u30f3\u30b9\u53ec\u559a\u306e\u305f\u3081\u306b\u306f\u30ea\u30ea\u30fc\u30b9\u3067\u304d\u306a\u3044\u3002"
+    },
+    "ko": {
+      "name": "\ubc18\uace8\uc758 \uac00\uc774\uac00\uc2a4\ud2b8",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\ub808\ubca8 8 \uc774\ud558) 1\uc7a5\uc744 \uace0\ub974\uace0 \ud30c\uad34\ud55c\ub2e4. \uc774 \ud134\uc5d0, \uc790\uc2e0\uc740 \uc55e\uba74 \ud45c\uc2dc\uc778 \uc774 \uce74\ub4dc\ub97c \uc5b4\ub4dc\ubc34\uc2a4 \uc18c\ud658\uc744 \uc704\ud574\uc11c\ub294 \ub9b4\ub9ac\uc2a4\ud560 \uc218 \uc5c6\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "wind",
+  "type": "zombie",
+  "classifications": [
+    "effect"
+  ],
+  "level": 5,
+  "atk": 1800,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "429be9b0-1e76-4e8f-81e1-d7afc4835c75",
+      "card": "https://ms.yugipedia.com//4/4c/GaigusttheDefiantSoul-RDAP02-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Gaigust the Defiant Soul",
+        "id": 1072049
+      }
+    ],
+    "dbID": 20640
+  },
+  "series": [
+    "546de7f7-fc9a-469b-a090-f706882731e2"
+  ]
+}

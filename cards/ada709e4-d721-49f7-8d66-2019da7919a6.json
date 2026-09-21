@@ -1,0 +1,64 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "ada709e4-d721-49f7-8d66-2019da7919a6",
+  "text": {
+    "en": {
+      "name": "Bombing Bird",
+      "effect": "A bird that releases bombs. There may be little people inside."
+    },
+    "fr": {
+      "name": "Oiseau Bombardeur"
+    },
+    "de": {
+      "name": "Bombardiervogel"
+    },
+    "it": {
+      "name": "Uccello Bombardatore"
+    },
+    "es": {
+      "name": "P\u00e1jaro Bombardero"
+    },
+    "ja": {
+      "name": "\u30dc\u30f3\u30d0\u30fc\u30c9",
+      "effect": "\u30dc\u30e0\u3092\u6295\u4e0b\u3059\u308b\u9ce5\u3002\u4e2d\u306b\u306f\u5c0f\u3055\u3044\u4eba\u304c\u5165\u3063\u3066\u3044\u308b\u304b\u3082\u3057\u308c\u306a\u3044\u3002"
+    },
+    "ko": {
+      "name": "\ubd04\ubc84\ub4dc",
+      "effect": "\ud3ed\ud0c4\uc744 \ud22c\ud558\ud558\ub294 \uc0c8. \uc548\uc5d0\ub294 \uc791\uc740 \uc0ac\ub78c\uc774 \ub4e4\uc5b4\uac00 \uc788\uc744\uc9c0\ub3c4 \ubaa8\ub978\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "type": "wingedbeast",
+  "classifications": [
+    "normal"
+  ],
+  "level": 4,
+  "atk": 1300,
+  "def": 1200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "be123337-9acc-4fdb-a8ed-6eba06187924",
+      "card": "https://ms.yugipedia.com//1/1f/BombingBird-RDSBD7-JP-C.png"
+    }
+  ],
+  "sets": [
+    "728adba0-7417-496b-921a-bee0c18a0be2",
+    "728adba0-7417-496b-921a-bee0c18a0be2"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Bombing Bird",
+        "id": 709554
+      }
+    ],
+    "dbID": 16315
+  },
+  "series": []
+}

@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "154da037-8759-4c46-b503-5221a4d0154c",
+  "text": {
+    "en": {
+      "name": "Frenzied Panda Cotta",
+      "effect": "A ferocious panda chef. Gets quite upset when you order Panna Cotta."
+    },
+    "ja": {
+      "name": "\u30ad\u30e9\u30fc\u30d1\u30f3\u30ca\u30b3\u30c3\u30bf",
+      "effect": "\u51f6\u66b4\u306a\u30d1\u30f3\u30c0\u306e\u5e97\u54e1\u3002\u30d1\u30f3\u30ca\u30b3\u30c3\u30bf\u3092\u6ce8\u6587\u3059\u308b\u3068\u30ad\u30ec\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud0ac\ub7ec \ud310\ub098\ucf54\ud0c0",
+      "effect": "\ud749\uc545\ud55c \ud310\ub2e4 \uc810\uc6d0. \ud310\ub098\ucf54\ud0c0\ub97c \uc8fc\ubb38\ud558\uba74 \uc5f4\ubc1b\ub294\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "type": "aqua",
+  "classifications": [
+    "normal"
+  ],
+  "level": 3,
+  "atk": 1200,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "bfc28899-e492-4f85-a141-4db6405235d2",
+      "card": "https://ms.yugipedia.com//c/c4/FrenziedPandaCotta-RDMRP1-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Frenzied Panda Cotta",
+        "id": 715016
+      }
+    ],
+    "dbID": 17692
+  },
+  "series": [
+    "6f8aa798-c2c6-4701-9182-9b51b9d11c7c"
+  ]
+}

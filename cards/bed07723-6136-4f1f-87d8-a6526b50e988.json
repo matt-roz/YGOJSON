@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "bed07723-6136-4f1f-87d8-a6526b50e988",
+  "text": {
+    "en": {
+      "name": "Legend Shooter",
+      "effect": "Change the battle position of up to 2 monsters on your opponent's field. Then, if this card is in Attack Position, you can Special Summon 1 \"Legend Hunter\" from your Graveyard to your field in face-up Defense Position.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30ec\u30b8\u30a7\u30f3\u30c9\u30fb\u30b7\u30e5\u30fc\u30bf\u30fc",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u3092\uff12\u4f53\u307e\u3067\u9078\u3093\u3067\u8868\u793a\u5f62\u5f0f\u3092\u5909\u66f4\u3059\u308b\u3002\u3053\u306e\u30ab\u30fc\u30c9\u304c\u653b\u6483\u8868\u793a\u306e\u5834\u5408\u3001\u3055\u3089\u306b\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u30ec\u30b8\u30a7\u30f3\u30c9\u30fb\u30cf\u30f3\u30bf\u30fc\u300d\uff11\u4f53\u3092\u9078\u3093\u3067\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u5b88\u5099\u8868\u793a\u3067\u7279\u6b8a\u53ec\u559a\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub808\uc804\ub4dc \uc288\ud130",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \ubaac\uc2a4\ud130\ub97c 2\uc7a5\uae4c\uc9c0 \uace0\ub974\uace0 \ud45c\uc2dc \ud615\uc2dd\uc744 \ubcc0\uacbd\ud55c\ub2e4. \uc774 \uce74\ub4dc\uac00 \uacf5\uaca9 \ud45c\uc2dc\uc77c \uacbd\uc6b0, \ucd94\uac00\ub85c \uc790\uc2e0 \ubb18\uc9c0\uc758 \"\ub808\uc804\ub4dc \ud5cc\ud130\" 1\uc7a5\uc744 \uace0\ub974\uace0 \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \uc218\ube44 \ud45c\uc2dc\ub85c \ud2b9\uc218 \uc18c\ud658\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "wingedbeast",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1200,
+  "def": 300,
+  "passwords": [],
+  "images": [
+    {
+      "id": "7e95bd8b-8ef1-4f59-980f-70d2a56e1343",
+      "card": "https://ms.yugipedia.com//6/66/LegendShooter-RDLGP2-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Legend Shooter",
+        "id": 1079873
+      }
+    ],
+    "dbID": 20866
+  },
+  "series": [
+    "f942861f-b4f9-4253-baad-a08e2f2c7054"
+  ]
+}

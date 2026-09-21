@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "54930a6a-e7fd-4be7-ada6-c2db9c229dd0",
+  "text": {
+    "en": {
+      "name": "Grace Princess Mai",
+      "effect": "The eldest Grace Princess sister. She adores Kana.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u3044\u3068\u3092\u304b\u3057\u307e\u3044\u3072\u3081",
+      "effect": "\u3044\u3068\u3092\u304b\u3057\u3057\u307e\u3044\u306e\u3061\u3087\u3046\u3058\u3087\u3002\u304b\u306a\u3072\u3081\u306e\u3053\u3068\u304c\u3060\u3044\u3059\u304d\u3002"
+    },
+    "ko": {
+      "name": "\uc559\uac31\ubb34\ud76c",
+      "effect": "\uc559\uac31 \uc790\ub9e4\uc758 \uc7a5\ub140. \uc559\uac31\uacf5\uc8fc\uac00 \ub108\ubb34 \uc88b\uc544."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "aqua",
+  "classifications": [
+    "normal"
+  ],
+  "level": 7,
+  "atk": 2500,
+  "def": 1400,
+  "passwords": [],
+  "images": [
+    {
+      "id": "bd1231bc-007a-4c9e-8eb8-c957766413ec",
+      "card": "https://ms.yugipedia.com//8/87/GracePrincessMai-RDAP01-JP-UR.png"
+    },
+    {
+      "id": "58698a1c-238b-479d-9fe8-c44c173071b0",
+      "card": "https://ms.yugipedia.com//6/60/GracePrincessMai-RDAP01-JP-ScR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Grace Princess Mai",
+        "id": 1128663
+      }
+    ],
+    "dbID": 21863
+  },
+  "series": []
+}

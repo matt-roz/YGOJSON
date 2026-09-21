@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "ea80f842-02bc-435b-bab5-ff6de67cc1ed",
+  "text": {
+    "en": {
+      "name": "Porcupine Dragon",
+      "effect": "Send the top card of your Deck to the Graveyard. Then, you can add 1 \"Mountain\" from your Graveyard to your hand."
+    },
+    "ja": {
+      "name": "\u5c71\u5d50\u7adc",
+      "effect": "\u81ea\u5206\u306e\u30c7\u30c3\u30ad\u306e\u4e00\u756a\u4e0a\u306e\u30ab\u30fc\u30c9\u3092\u5893\u5730\u3078\u9001\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u5c71\u300d\uff11\u679a\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc0b0\ub78c\ub8e1",
+      "effect": "\uc790\uc2e0\uc758 \ub371 \ub9e8 \uc704\uc758 \uce74\ub4dc\ub97c \ubb18\uc9c0\ub85c \ubcf4\ub0b8\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0 \ubb18\uc9c0\uc758 \"\uc0b0\" 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\uc744 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "dragon",
+  "classifications": [
+    "effect"
+  ],
+  "level": 5,
+  "atk": 1600,
+  "def": 1600,
+  "passwords": [],
+  "images": [
+    {
+      "id": "4f9af1b3-c579-4675-b75d-124c5b4cc817",
+      "card": "https://ms.yugipedia.com//4/49/PorcupineDragon-RDSD03-JP-C.png"
+    }
+  ],
+  "sets": [
+    "b3912bea-7700-43b3-8e58-def0f757111c",
+    "b3912bea-7700-43b3-8e58-def0f757111c"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Porcupine Dragon",
+        "id": 716251
+      }
+    ],
+    "dbID": 16979
+  },
+  "series": []
+}

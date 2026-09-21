@@ -1,0 +1,48 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "f30f6635-6ef8-45fb-b16c-d342c3610591",
+  "text": {
+    "en": {
+      "name": "Ancient Gear Megaton Golem (Rush Duel)",
+      "effect": "Your opponent cannot activate Trap Cards when this card declares an attack. If this card was Fusion Summoned using 2 or more monsters whose original Levels are 8 as material, it can attack twice per turn.",
+      "official": false
+    },
+    "ko": {
+      "name": "\uc564\ud2f1 \uae30\uc5b4 \uba54\uac00\ud1a4 \uace8\ub818",
+      "effect": "\uc774 \uce74\ub4dc\uc758 \uacf5\uaca9 \uc120\uc5b8\uc2dc\uc5d0 \uc0c1\ub300\ub294 \ud568\uc815 \uce74\ub4dc\ub97c \ubc1c\ub3d9\ud560 \uc218 \uc5c6\ub2e4. \uc6d0\ub798 \ub808\ubca8\uc774 8 \uc778 \ubaac\uc2a4\ud130 2\uc7a5 \uc774\uc0c1\uc744 \uc18c\uc7ac\ub85c\uc11c \ud4e8\uc804 \uc18c\ud658\ud55c \uc774 \uce74\ub4dc\ub294 1\ud134\uc5d0 2\ud68c \uacf5\uaca9\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 9,
+  "atk": 3300,
+  "def": 3300,
+  "passwords": [],
+  "images": [
+    {
+      "id": "a2785699-f510-40a6-8006-2c023d3ad9fc",
+      "card": "https://ms.yugipedia.com//f/f7/AncientGearMegatonGolem-RD5TH1-JP-UR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Ancient Gear Megaton Golem (Rush Duel)",
+        "id": 1115305
+      }
+    ],
+    "dbID": 21502
+  },
+  "series": [
+    "449d0f52-746a-4aa8-a6d7-09fdf3b20d76"
+  ]
+}

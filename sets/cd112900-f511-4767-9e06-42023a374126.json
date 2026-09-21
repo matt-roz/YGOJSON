@@ -1,0 +1,69 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "cd112900-f511-4767-9e06-42023a374126",
+  "name": {
+    "en": "Yu-Gi-Oh! World Championship Qualifier 2026 Asia Finals prize card"
+  },
+  "locales": {
+    "ae": {
+      "language": "ae",
+      "prefix": "26YC-AE",
+      "date": "2026-06-27",
+      "image": "https://ms.yugipedia.com//d/df/WCQ2026Asia.png",
+      "cardImages": {
+        "unlimited": {}
+      },
+      "cardInfo": {
+        "unlimited": {}
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {}
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "ae"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//d/df/WCQ2026Asia.png",
+      "cards": [
+        {
+          "id": "07f5db56-66e0-4abe-b5e7-9a1d8940b9ad",
+          "card": "0626cd7e-9544-4a18-8625-85b0ac76bb54",
+          "suffix": "001",
+          "rarity": "super",
+          "imageID": "de3328cf-a5fb-417a-8648-c518c10f8327",
+          "printStatus": "reprint",
+          "printNote": "New artwork"
+        },
+        {
+          "id": "c07a107b-e820-4bc9-9cf6-59629d1f7967",
+          "card": "0626cd7e-9544-4a18-8625-85b0ac76bb54",
+          "suffix": "001",
+          "rarity": "ultra",
+          "imageID": "de3328cf-a5fb-417a-8648-c518c10f8327",
+          "printStatus": "reprint",
+          "printNote": "New artwork"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Yu-Gi-Oh! World Championship Qualifier 2026 Asia Finals prize card",
+      "id": 1204178
+    }
+  }
+}

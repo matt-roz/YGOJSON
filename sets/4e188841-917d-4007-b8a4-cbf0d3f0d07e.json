@@ -1,0 +1,52 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "4e188841-917d-4007-b8a4-cbf0d3f0d07e",
+  "name": {
+    "en": "Duelist League Series 4 participation card"
+  },
+  "locales": {
+    "na": {
+      "language": "en",
+      "prefix": "DL4-",
+      "date": "2004-01-01",
+      "cardImages": {},
+      "cardInfo": {},
+      "formats": [
+        "tcg"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          1121203000
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "na"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "distrobution": "preconstructed",
+      "cards": [
+        {
+          "id": "5158d71f-425c-46c1-a9dc-bedef1e02217",
+          "card": "e506ffc4-d759-4e6f-9a4d-bd5a1c825eb4",
+          "suffix": "001",
+          "rarity": "super",
+          "imageID": "fe6a1250-a2b3-41f4-95ce-97c378d433b5",
+          "printStatus": "new"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Duelist League Series 4 participation card",
+      "id": 2008
+    }
+  }
+}

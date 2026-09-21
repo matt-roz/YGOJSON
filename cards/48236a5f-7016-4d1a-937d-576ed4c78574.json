@@ -1,0 +1,50 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "48236a5f-7016-4d1a-937d-576ed4c78574",
+  "text": {
+    "en": {
+      "name": "Jointech Nesstrydar Tank",
+      "effect": "Special Summon 1 Level 7 or 8 DARK Attribute monster from your Graveyard face-up to your field. Until the end of this turn, you can only Special Summon \"Jointech Tridynabase\", and cannot activate the effects of DARK Attribute monsters.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30b8\u30e7\u30a4\u30f3\u30c6\u30c3\u30af\u30fb\u30cd\u30b9\u30c8\u30e9\u30a4\u30c0\u30fc\u30fb\u30bf\u30f3\u30af",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff17\u30fb\uff18\uff0f\u95c7\u5c5e\u6027\uff09\uff11\u4f53\u3092\u9078\u3073\u3001\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u8868\u793a\u3067\u7279\u6b8a\u53ec\u559a\u3059\u308b\u3002\u3053\u306e\u52b9\u679c\u306e\u767a\u52d5\u5f8c\u3001\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\u81ea\u5206\u306f\u300c\u30b8\u30e7\u30a4\u30f3\u30c6\u30c3\u30af\u30fb\u30c8\u30e9\u30a4\u30fb\u30c0\u30a4\u30ca\u30d9\u30fc\u30b9\u300d\u3057\u304b\u7279\u6b8a\u53ec\u559a\u3067\u304d\u305a\u3001\u81ea\u5206\u306f\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u95c7\u5c5e\u6027\uff09\u306e\u52b9\u679c\u3092\u767a\u52d5\u3067\u304d\u306a\u3044\u3002"
+    },
+    "ko": {
+      "name": "\uc870\uc778\ud14c\ud06c \ub124\uc2a4\ud2b8\ub77c\uc774\ub354 \ud0f1\ud06c",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130(\ub808\ubca8 7\u30fb8 / \uc5b4\ub460 \uc18d\uc131) 1\uc7a5\uc744 \uace0\ub974\uace0, \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \ud45c\uc2dc\ub85c \ud2b9\uc218 \uc18c\ud658\ud55c\ub2e4. \uc774 \ud6a8\uacfc\uc758 \ubc1c\ub3d9 \ud6c4, \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0 \uc790\uc2e0\uc740 \"\uc870\uc778\ud14c\ud06c \ud2b8\ub77c\uc774 \ub2e4\uc774\ub108\ubca0\uc774\uc2a4\"\ubc16\uc5d0 \ud2b9\uc218 \uc18c\ud658\ud560 \uc218 \uc5c6\uc73c\uba70, \uc790\uc2e0\uc740 \ubaac\uc2a4\ud130(\uc5b4\ub460 \uc18d\uc131)\uc758 \ud6a8\uacfc\ub97c \ubc1c\ub3d9\ud560 \uc218 \uc5c6\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2500,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "e60605ed-743f-43ea-a0d7-b6e3800c709f",
+      "card": "https://ms.yugipedia.com//c/c0/JointechNesstrydarTank-RDKP16-JP-R.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Jointech Nesstrydar Tank",
+        "id": 1040572
+      }
+    ],
+    "dbID": 19965
+  },
+  "series": [
+    "eee6abac-4c42-43e0-8b68-d4c7ca22506e",
+    "5d5055d0-52c0-457f-8fcf-f097bd9b9f9e"
+  ]
+}

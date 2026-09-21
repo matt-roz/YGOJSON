@@ -1,0 +1,59 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "b7fd46ad-9ca2-42af-855b-0e908405b2ba",
+  "text": {
+    "en": {
+      "name": "The Magical King of Dimension Zeta",
+      "effect": "The observer of the void. Through every rift and distortion in spacetime, it contemplates all things in existence. Take heed. Whenever you peek through a door, Zeta peeks into your world in return.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30bc\u30fc\u30bf\u6b21\u5143\u306e\u9b54\u8853\u738b",
+      "effect": "\u865a\u308d\u306a\u308b\u4e16\u754c\u306e\u89b3\u6e2c\u8005\u3002\u3042\u3089\u3086\u308b\u6642\u7a7a\u306e\u6b6a\u307f\u3092\u901a\u3057\u3066\u68ee\u7f85\u4e07\u8c61\u3092\u89b3\u7167\u3059\u308b\u3002\u5fc3\u305b\u3088\u3002\u3042\u306a\u305f\u304c\u6249\u3092\u8997\u304f\u3068\u304d\u3001\u30bc\u30fc\u30bf\u3082\u307e\u305f\u3053\u306e\u4e16\u754c\u3092\u8997\u304d\u898b\u3066\u3044\u308b\u3068\u3002"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "spellcaster",
+  "classifications": [
+    "normal",
+    "tuner"
+  ],
+  "level": 4,
+  "atk": 1600,
+  "def": 1600,
+  "passwords": [
+    "42026772"
+  ],
+  "images": [
+    {
+      "id": "6ddb164d-b4d3-48c6-aff6-43c09237b553",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/100350262.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/100350262.jpg"
+    },
+    {
+      "id": "543077b0-84e6-4aeb-81b7-f05192ae14e6",
+      "password": "42026772",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/42026772.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/42026772.jpg"
+    }
+  ],
+  "sets": [
+    "76318e07-f172-4588-86eb-2ce80a62ebcf"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "The Magical King of Dimension Zeta",
+        "id": 1203743
+      }
+    ],
+    "dbID": 23428,
+    "ygoprodeck": {
+      "id": 42026772,
+      "name": "the-magical-king-of-dimension-zeta-15815"
+    }
+  },
+  "series": []
+}

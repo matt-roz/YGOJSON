@@ -1,0 +1,38 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "1234b3b0-8f4b-4054-a703-8beedccbb7fd",
+  "text": {
+    "en": {
+      "name": "Mask of Darkness (Rush Duel)",
+      "effect": "Add 1 non-Legend Trap Card from your Graveyard to your hand. This turn, you cannot activate the effect of \"Mask of Darkness\".",
+      "official": false
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "fiend",
+  "classifications": [
+    "effect"
+  ],
+  "level": 2,
+  "atk": 900,
+  "def": 400,
+  "passwords": [],
+  "images": [
+    {
+      "id": "4b807a13-e49b-41a1-9f22-f1d09164f67e",
+      "card": "https://ms.yugipedia.com//a/ae/MaskofDarkness-RDLP01-JP-OP.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Mask of Darkness (Rush Duel)",
+        "id": 1203690
+      }
+    ]
+  },
+  "series": []
+}

@@ -1,0 +1,67 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "adcd29da-816f-4833-b564-977893b2503f",
+  "text": {
+    "en": {
+      "name": "Seahorse Carrier",
+      "effect": "Add 1 LIGHT Attribute Aqua Type Normal Monster from your Graveyard to your hand."
+    },
+    "fr": {
+      "name": "Porteur Hippocampe",
+      "effect": "Ajoutez 1 Monstre Normal de Type Aqua poss\u00e9dant l'Attribut LUMI\u00c8RE depuis votre Cimeti\u00e8re dans votre main."
+    },
+    "de": {
+      "name": "Seepferdchen-Transport",
+      "effect": "F\u00fcge deiner Hand 1 Normales Monster des Typs Aqua mit der Eigenschaft LICHT von deinem Friedhof hinzu."
+    },
+    "it": {
+      "name": "Cavalluccio Marino Trasportatore",
+      "effect": "Aggiungi 1 Mostro Normale di Tipo Acqua con Attributo LUCE dal tuo Cimitero alla tua mano."
+    },
+    "es": {
+      "name": "Conductor Caballito de Mar",
+      "effect": "A\u00f1ade 1 Monstruo Normal de Tipo Aqua con el Atributo LUZ de tu Cementerio a tu mano."
+    },
+    "ja": {
+      "name": "\u30a2\u30c3\u30b7\u30fc\u30db\u30fc\u30b9",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u901a\u5e38\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u5149\u5c5e\u6027\uff0f\u6c34\u65cf\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc557\uc528\ud638\uc2a4",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \uc77c\ubc18 \ubaac\uc2a4\ud130(\ube5b \uc18d\uc131 / \ubb3c\uc871) 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\ub294\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "aqua",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 700,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "6a566410-c5c2-4ed5-8213-bbaff5599511",
+      "card": "https://ms.yugipedia.com//1/17/SeahorseCarrier-RDB253-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Seahorse Carrier",
+        "id": 716623
+      }
+    ],
+    "dbID": 15803
+  },
+  "series": [
+    "6f8aa798-c2c6-4701-9182-9b51b9d11c7c"
+  ]
+}

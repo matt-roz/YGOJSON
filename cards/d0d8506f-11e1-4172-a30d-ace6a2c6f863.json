@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "d0d8506f-11e1-4172-a30d-ace6a2c6f863",
+  "text": {
+    "en": {
+      "name": "Goblin Digging Captain",
+      "effect": "1 face-up monster on your opponent's field loses ATK equal to [the number of \"The Warrior Returning Alive\" and \"Trap Hole\" in your Graveyard] x 1000 until the end of this turn."
+    },
+    "ja": {
+      "name": "\u30b4\u30d6\u30ea\u30f3\u7a74\u6398\u308a\u968a\u9577",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u3092\u9078\u3073\u3001\u305d\u306e\u653b\u6483\u529b\u3092\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\u3001\uff3b\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u6226\u58eb\u306e\u751f\u9084\u300d\u300c\u843d\u3068\u3057\u7a74\u300d\u306e\u6570\u306e\u5408\u8a08\uff3d\u00d7\uff11\uff10\uff10\uff10\u30c0\u30a6\u30f3\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uace0\ube14\ub9b0\uc758 \ud568\uc815\ub300\uc7a5",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130 1\uc7a5\uc744 \uace0\ub974\uace0, \uadf8 \uacf5\uaca9\ub825\uc744 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0, [\uc790\uc2e0 \ubb18\uc9c0\uc758 \"\uc804\uc0ac\uc758 \uc0dd\ud658\" \"\ud568\uc815 \uc18d\uc73c\ub85c\"\uc758 \uc218\uc758 \ud569\uacc4] \u00d7 1000 \ub0b4\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 900,
+  "def": 400,
+  "passwords": [],
+  "images": [
+    {
+      "id": "408b9986-7716-47d4-9663-95f5341b7578",
+      "card": "https://ms.yugipedia.com//b/b3/GoblinDiggingCaptain-RDLGP1-JP-C.png"
+    }
+  ],
+  "sets": [
+    "15adab2a-8746-40d3-a545-bbb610076d23"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Goblin Digging Captain",
+        "id": 715150
+      }
+    ],
+    "dbID": 18708
+  },
+  "series": []
+}

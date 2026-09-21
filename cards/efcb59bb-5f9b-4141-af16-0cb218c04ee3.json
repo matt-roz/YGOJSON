@@ -1,0 +1,48 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "efcb59bb-5f9b-4141-af16-0cb218c04ee3",
+  "text": {
+    "en": {
+      "name": "Rising HERO Argent F",
+      "effect": "Shuffle 1 card from your opponent's field into the owner's Deck. Then, this card gains 500 ATK until the end of this turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\uff32\u30fb\uff28\uff25\uff32\uff2f \u30a2\u30eb\u30b8\u30a7\u30f3\u30c8\uff26",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u30ab\u30fc\u30c9\uff11\u679a\u3092\u9078\u3093\u3067\u6301\u3061\u4e3b\u306e\u30c7\u30c3\u30ad\u306b\u623b\u3059\u3002\u305d\u306e\u5f8c\u3001\u3053\u306e\u30ab\u30fc\u30c9\u306e\u653b\u6483\u529b\u306f\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\uff15\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 9,
+  "atk": 2700,
+  "def": 2000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "26991d93-2bd5-42cf-8879-fe03bfe65661",
+      "card": "https://ms.yugipedia.com//e/ec/RisingHEROArgentF-RDKP25-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Rising HERO Argent F",
+        "id": 1190512
+      }
+    ],
+    "dbID": 23240
+  },
+  "series": [
+    "4639ddb4-0c81-4fac-b38d-bfac9d55eedb"
+  ]
+}

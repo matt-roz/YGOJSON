@@ -1,0 +1,54 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "8bece525-ff5b-4fb6-abef-ecf1612e70f1",
+  "text": {
+    "en": {
+      "name": "Constructor Sapper Draftannin",
+      "effect": "Excavate the top card of your Deck and place it on either the top or bottom of your Deck."
+    },
+    "ja": {
+      "name": "\u5e7b\u5203\u5de5\u5175\u30c9\u30e9\u30d5\u30bf\u30f3\u30cb\u30e0",
+      "effect": "\u81ea\u5206\u306e\u30c7\u30c3\u30ad\u306e\u4e00\u756a\u4e0a\u306e\u30ab\u30fc\u30c9\u3092\u3081\u304f\u308a\u3001\u304a\u4e92\u3044\u306b\u78ba\u8a8d\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306f\u3081\u304f\u3063\u305f\u30ab\u30fc\u30c9\u3092\u30c7\u30c3\u30ad\u306e\u4e0a\u304b\u4e0b\u306b\u623b\u3059\u3002"
+    },
+    "ko": {
+      "name": "\ud658\uc778\uacf5\ubcd1 \ub4dc\ub798\ud504\ud134\ub2d8",
+      "effect": "\uc790\uc2e0\uc758 \ub371 \ub9e8 \uc704\uc758 \uce74\ub4dc\ub97c \ub118\uae30\uace0, \uc11c\ub85c \ud655\uc778\ud55c\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0\uc740 \ub118\uae34 \uce74\ub4dc\ub97c \ub371 \uc704\ub098 \uc544\ub798\ub85c \ub418\ub3cc\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "wyrm",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 500,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "bc313d41-cce4-4fce-b650-faee60df8fa7",
+      "card": "https://ms.yugipedia.com//3/35/ConstructorSapperDraftannin-RDSBD7-JP-C.png"
+    }
+  ],
+  "sets": [
+    "728adba0-7417-496b-921a-bee0c18a0be2",
+    "728adba0-7417-496b-921a-bee0c18a0be2"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Constructor Sapper Draftannin",
+        "id": 714326
+      }
+    ],
+    "dbID": 16797
+  },
+  "series": [
+    "f9467656-3928-4546-ab32-6354fc22eaa0"
+  ]
+}

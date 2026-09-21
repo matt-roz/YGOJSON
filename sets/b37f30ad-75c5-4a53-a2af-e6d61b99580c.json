@@ -1,0 +1,69 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "b37f30ad-75c5-4a53-a2af-e6d61b99580c",
+  "name": {
+    "en": "EX.Premium Pack Kit Vol.2",
+    "ko": "EX.\ud504\ub9ac\ubbf8\uc5c4 \ud329 \ud0a4\ud2b8 Vol.2"
+  },
+  "locales": {
+    "kr": {
+      "language": "ko",
+      "prefix": "EPK2-KR",
+      "date": "2009-06-26",
+      "image": "https://ms.yugipedia.com//3/33/EPK2-PromoKR.png",
+      "cardImages": {
+        "limited": {
+          "d1aed161-3dc6-4ae0-8954-52084c98228e": "https://ms.yugipedia.com//3/35/GoblinZombie-EPK2-KR-ScR-LE.png"
+        }
+      },
+      "cardInfo": {
+        "limited": {
+          "d1aed161-3dc6-4ae0-8954-52084c98228e": {
+            "image": "https://ms.yugipedia.com//3/35/GoblinZombie-EPK2-KR-ScR-LE.png"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          74404001
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "kr"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "image": "https://ms.yugipedia.com//3/33/EPK2-PromoKR.png",
+      "cards": [
+        {
+          "id": "d1aed161-3dc6-4ae0-8954-52084c98228e",
+          "card": "fa92a0bb-a6b2-4f03-ad01-f0a04483bd43",
+          "suffix": "001",
+          "rarity": "secret",
+          "imageID": "2e6f0e81-93b6-4182-b961-5fb528d89b69"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "EX.Premium Pack Kit Vol.2",
+      "id": 99600
+    }
+  }
+}

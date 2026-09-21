@@ -1,0 +1,160 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "34691e34-f534-4ac2-817a-66df16b17c6f",
+  "name": {
+    "en": "Tournament Pack 2026 Vol.1",
+    "ja": "\u30c8\u30fc\u30ca\u30e1\u30f3\u30c8\u30d1\u30c3\u30af \uff12\uff10\uff12\uff16 \uff36\uff4f\uff4c\uff0e\uff11"
+  },
+  "locales": {
+    "jp": {
+      "language": "ja",
+      "prefix": "26TP-JP",
+      "date": "2026-04-01",
+      "image": "https://ms.yugipedia.com//e/e5/26TP-BoosterJP-Vol1.png",
+      "cardImages": {
+        "unlimited": {
+          "41cab9c2-28e3-4f31-9681-71e2a437e54b": "https://ms.yugipedia.com//4/4f/BreezetheElectrovoreofRkunas-26TP-JP-SPR.png",
+          "445a258a-6d8a-45fd-b66b-88e02ae24f2b": "https://ms.yugipedia.com//8/8a/SteamSynchron-26TP-JP-NPR.png",
+          "8853a1f9-c8f8-4765-93a6-cd3eae9e7e91": "https://ms.yugipedia.com//d/d4/SpellPowerMastery-26TP-JP-NPR.png",
+          "d2b8711f-c6a5-435e-9343-a0f4d9c959a5": "https://ms.yugipedia.com//d/d5/ThunderclapMonk-26TP-JP-NPR.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "41cab9c2-28e3-4f31-9681-71e2a437e54b": {
+            "image": "https://ms.yugipedia.com//4/4f/BreezetheElectrovoreofRkunas-26TP-JP-SPR.png"
+          },
+          "445a258a-6d8a-45fd-b66b-88e02ae24f2b": {
+            "image": "https://ms.yugipedia.com//8/8a/SteamSynchron-26TP-JP-NPR.png"
+          },
+          "8853a1f9-c8f8-4765-93a6-cd3eae9e7e91": {
+            "image": "https://ms.yugipedia.com//d/d4/SpellPowerMastery-26TP-JP-NPR.png"
+          },
+          "d2b8711f-c6a5-435e-9343-a0f4d9c959a5": {
+            "image": "https://ms.yugipedia.com//d/d5/ThunderclapMonk-26TP-JP-NPR.png"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          1000009578000
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//e/e5/26TP-BoosterJP-Vol1.png",
+      "cards": [
+        {
+          "id": "41cab9c2-28e3-4f31-9681-71e2a437e54b",
+          "card": "4cec811d-751c-46ec-8fce-1bea00e34ed3",
+          "suffix": "101",
+          "rarity": "superparallel",
+          "printStatus": "new"
+        },
+        {
+          "id": "c7906ddb-e4a7-4dc6-8524-d066e0c57a7a",
+          "card": "3c5fb5c4-975c-4e8c-b1e7-db81bac266d3",
+          "suffix": "102",
+          "rarity": "superparallel",
+          "imageID": "5672f23c-6292-4b8c-a6fb-aca4cb4e4bbc",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "d2b8711f-c6a5-435e-9343-a0f4d9c959a5",
+          "card": "126ef9ee-79ba-4ffd-acc0-396f79c5cc93",
+          "suffix": "103",
+          "rarity": "commonparallel",
+          "imageID": "c7d20bcc-8f0f-4365-b82a-00fccd940665",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "022cab69-53b4-4b5e-9137-e156beca10a4",
+          "card": "79a5f4be-4471-43ff-9253-606daad4f236",
+          "suffix": "104",
+          "rarity": "commonparallel",
+          "imageID": "2c5b66c0-1f12-4d4c-89ea-7595fc6fdaf9",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "445a258a-6d8a-45fd-b66b-88e02ae24f2b",
+          "card": "256cd73b-09f2-4653-b1b0-0942468b50aa",
+          "suffix": "105",
+          "rarity": "commonparallel",
+          "imageID": "507af444-9dcb-44a4-8ea8-e65810a011d8",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "b3d6039b-e73d-40e8-80a8-57e9a6af3499",
+          "card": "b6e9cf5a-a68f-4253-8b76-fea36566caa1",
+          "suffix": "106",
+          "rarity": "commonparallel",
+          "imageID": "4d961a69-3101-4732-b3ca-528e3910ca6a",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "5bddaf27-5123-45a9-bae7-965004eef417",
+          "card": "84690775-963d-4d2d-951f-23a0e98b0db9",
+          "suffix": "107",
+          "rarity": "commonparallel",
+          "imageID": "8bf2f785-6f07-445a-9a8f-209fd3e3d34b",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "8853a1f9-c8f8-4765-93a6-cd3eae9e7e91",
+          "card": "27f41432-9bae-4744-9493-d4ec3e5b6d77",
+          "suffix": "108",
+          "rarity": "commonparallel",
+          "imageID": "bed9e6ec-cf18-4111-be8b-1c7d194b3cf0",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "d292c66f-e05a-4aba-ad41-30c13e626b66",
+          "card": "b41fb414-0d3a-4593-8a72-b36a43f1f5a1",
+          "suffix": "109",
+          "rarity": "commonparallel",
+          "imageID": "2f4b0477-10b3-4394-997b-3ead3e96ca32",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "a1ada135-fece-4ee1-ba93-cc107b9ce3b8",
+          "card": "86db7594-e2e8-4ecc-abc3-9821e104f255",
+          "suffix": "110",
+          "rarity": "commonparallel",
+          "imageID": "017ccfa7-1acf-454d-8cab-e0b8917809ba",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "22962657-d244-453a-b46f-1df19376ab92",
+          "card": "eab751f9-c908-4492-87a5-6f7ff5ecfcba",
+          "suffix": "111",
+          "rarity": "secret-blue",
+          "printStatus": "reprint"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Tournament Pack 2026 Vol.1",
+      "id": 1179635
+    }
+  }
+}

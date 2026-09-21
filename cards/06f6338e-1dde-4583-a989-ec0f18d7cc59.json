@@ -1,0 +1,40 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "06f6338e-1dde-4583-a989-ec0f18d7cc59",
+  "text": {
+    "en": {
+      "name": "Undulating Barrier",
+      "effect": "Send the top 5 cards of your Deck to the Graveyard. Then, if a monster(s) is among the cards sent, the attacking monster loses ATK equal to [the total Levels of the monsters sent to the Graveyard by this effect] x 100 until the end of this turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u6ce2\u72b6\u9632\u58c1",
+      "effect": "\u81ea\u5206\u306e\u30c7\u30c3\u30ad\u306e\u4e0a\u304b\u3089\u30ab\u30fc\u30c9\uff15\u679a\u3092\u5893\u5730\u3078\u9001\u308b\u3002\u305d\u306e\u4e2d\u306b\u30e2\u30f3\u30b9\u30bf\u30fc\u304c\u3044\u305f\u5834\u5408\u3001\u3055\u3089\u306b\u653b\u6483\u3057\u3066\u304d\u305f\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u653b\u6483\u529b\u306f\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\u3001\uff3b\u3053\u306e\u52b9\u679c\u3067\u5893\u5730\u3078\u9001\u3089\u308c\u305f\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u30ec\u30d9\u30eb\u306e\u5408\u8a08\uff3d\u00d7\uff11\uff10\uff10\u30c0\u30a6\u30f3\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud30c\uc0c1\ubc29\ubcbd",
+      "effect": "\uc790\uc2e0\uc758 \ub371 \uc704\uc5d0\uc11c \uce74\ub4dc 5\uc7a5\uc744 \ubb18\uc9c0\ub85c \ubcf4\ub0b8\ub2e4. \uadf8 \uc911\uc5d0 \ubaac\uc2a4\ud130\uac00 \uc788\uc5c8\uc744 \uacbd\uc6b0, \ucd94\uac00\ub85c \uacf5\uaca9\ud574 \uc628 \ubaac\uc2a4\ud130\uc758 \uacf5\uaca9\ub825\uc740 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0, [\uc774 \ud6a8\uacfc\ub85c \ubb18\uc9c0\ub85c \ubcf4\ub0b4\uc9c4 \ubaac\uc2a4\ud130\uc758 \ub808\ubca8\uc758 \ud569\uacc4] \u00d7 100 \ub0b4\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "trap",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "d2d16d48-9e07-42a2-bfcd-18dbc155f029",
+      "card": "https://ms.yugipedia.com//e/e8/UndulatingBarrier-RDMRP2-JP-R.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Undulating Barrier",
+        "id": 1006320
+      }
+    ],
+    "dbID": 19566
+  },
+  "series": []
+}

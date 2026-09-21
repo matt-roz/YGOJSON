@@ -1,0 +1,61 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "ae71031f-19fb-46b7-bba8-970562af20d3",
+  "text": {
+    "en": {
+      "name": "Feral Imp (Rush Duel)",
+      "effect": "A playful little fiend that lurks in the dark, waiting to attack an unwary enemy."
+    },
+    "fr": {
+      "name": "Lutin Sauvage",
+      "effect": "Petit d\u00e9mon joueur qui se tapit dans la p\u00e9nombre, attendant d'attaquer un ennemi imprudent."
+    },
+    "de": {
+      "name": "Wilder Kobold",
+      "effect": "Ein verspielter kleiner Unterweltler, der in der Dunkelheit lauert, um einen ahnungslosen Feind anzugreifen."
+    },
+    "it": {
+      "name": "Demone Selvaggio",
+      "effect": "Vivace demonietto che si nasconde nell'oscurit\u00e0, pronto ad attaccare nemici ignari."
+    },
+    "es": {
+      "name": "Diablillo Salvaje",
+      "effect": "Un peque\u00f1o demonio juguet\u00f3n que acecha en la oscuridad, esperando para atacar a un enemigo desprevenido."
+    },
+    "ko": {
+      "name": "\uadf8\ub818\ub9b0",
+      "effect": "\uc7a5\ub09c\uc744 \uc88b\uc544\ud558\ub294 \uc791\uc740 \uc545\ub9c8. \uc5b4\ub460 \uc18d\uc5d0\uc11c \uae30\uc2b5\ud574 \uc624\ubbc0\ub85c \uc8fc\uc758\ud574\uc57c \ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "fiend",
+  "classifications": [
+    "normal"
+  ],
+  "level": 4,
+  "atk": 1300,
+  "def": 1400,
+  "passwords": [],
+  "images": [
+    {
+      "id": "18496a86-c5b9-4224-beb9-20505ac961de",
+      "card": "https://ms.yugipedia.com//3/37/FeralImp-RDSBD5-JP-C.png"
+    }
+  ],
+  "sets": [
+    "24efaeb8-31d0-4d9b-b5b6-db394582c1f3",
+    "24efaeb8-31d0-4d9b-b5b6-db394582c1f3"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Feral Imp (Rush Duel)",
+        "id": 714936
+      }
+    ],
+    "dbID": 15217
+  },
+  "series": []
+}

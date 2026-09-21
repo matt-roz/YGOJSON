@@ -1,0 +1,70 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "31484324-d45c-48b8-8b5c-44addbd9c7b2",
+  "name": {
+    "en": "Dragunity Blast"
+  },
+  "locales": {
+    "en": {
+      "language": "en",
+      "prefix": "SDDL-EN",
+      "image": "https://ms.yugipedia.com//5/5c/SDDL-PromoEN.jpg",
+      "cardImages": {
+        "unlimited": {
+          "b4ad6116-f7e0-4866-beb1-bb75534a0640": "https://ms.yugipedia.com//a/af/DragunityArmaLeyvaten-SDDL-EN-UR-UE-CT.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "b4ad6116-f7e0-4866-beb1-bb75534a0640": {
+            "image": "https://ms.yugipedia.com//a/af/DragunityArmaLeyvaten-SDDL-EN-UR-UE-CT.png",
+            "variants": [
+              {
+                "code": "CT",
+                "image": "https://ms.yugipedia.com//a/af/DragunityArmaLeyvaten-SDDL-EN-UR-UE-CT.png"
+              }
+            ]
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {}
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "en"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "distrobution": "preconstructed",
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//5/5c/SDDL-PromoEN.jpg",
+      "cards": [
+        {
+          "id": "b4ad6116-f7e0-4866-beb1-bb75534a0640",
+          "card": "b57c5db1-bc1e-435f-a387-302eac425f0e",
+          "suffix": "001",
+          "rarity": "ultra",
+          "imageID": "33165504-369a-40a2-a29d-61bc6357943d"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Dragunity Blast",
+      "id": 220820
+    }
+  }
+}

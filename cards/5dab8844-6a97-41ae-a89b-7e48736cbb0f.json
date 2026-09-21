@@ -1,0 +1,57 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "5dab8844-6a97-41ae-a89b-7e48736cbb0f",
+  "text": {
+    "en": {
+      "name": "Dark Magic Attack (Rush Duel)",
+      "effect": "Destroy all Spell/Trap Cards on your opponent's field."
+    },
+    "fr": {
+      "name": "Attaque de Magie Noire",
+      "effect": "D\u00e9truisez toutes les Cartes Magie/Pi\u00e8ge sur le Terrain de votre adversaire."
+    },
+    "de": {
+      "name": "Angriff mit Dunkler Magie",
+      "effect": "Zerst\u00f6re alle Zauber-/Fallenkarten auf dem Spielfeld deines Gegners."
+    },
+    "it": {
+      "name": "Attacco Mago Nero",
+      "effect": "Distruggi tutte le Carte Magia/Trappola sul Terreno del tuo avversario."
+    },
+    "es": {
+      "name": "Ataque M\u00e1gico Oscuro",
+      "effect": "Destruye todas las Cartas M\u00e1gicas/de Trampa en el Campo de tu adversario."
+    },
+    "ko": {
+      "name": "\ud751\u00b7\ub9c8\u00b7\ub3c4",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \ub9c8\ubc95 / \ud568\uc815 \uce74\ub4dc\ub97c \uc804\ubd80 \ud30c\uad34\ud55c\ub2e4."
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "82d169da-dc6e-438f-92d3-f5bbdf2004ef",
+      "card": "https://ms.yugipedia.com//c/c1/DarkMagicAttack-RDSD0E-JP-C.png"
+    }
+  ],
+  "sets": [
+    "baac8391-2c2d-4331-8582-71b7007e0af6",
+    "baac8391-2c2d-4331-8582-71b7007e0af6"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Dark Magic Attack (Rush Duel)",
+        "id": 714465
+      }
+    ],
+    "dbID": 15451
+  },
+  "series": [
+    "73409add-3e9e-400d-a8b0-ae600de6af69",
+    "51d2ebfe-c242-45db-ae6d-d5c6bdc38cb5"
+  ]
+}

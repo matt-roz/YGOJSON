@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "5b9717e2-9f0e-47ed-801c-f4eb4af73062",
+  "text": {
+    "en": {
+      "name": "Ravenous Matiless",
+      "effect": "1 face-up Insect Type monster on your opponent's field loses 800 ATK/DEF until the end of this turn."
+    },
+    "ja": {
+      "name": "\u72c2\u98df\u87f2\u30de\u30c6\u30a3\u30ec\u30b9",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u6606\u866b\u65cf\uff09\uff11\u4f53\u3092\u9078\u3073\u3001\u305d\u306e\u653b\u6483\u529b\u30fb\u5b88\u5099\u529b\u3092\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\uff18\uff10\uff10\u30c0\u30a6\u30f3\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uad11\uc2dd\ucda9 \ub9c8\ud2f0\ub808\uc2a4",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\uace4\ucda9\uc871) 1\uc7a5\uc744 \uace0\ub974\uace0, \uadf8 \uacf5\uaca9\ub825 / \uc218\ube44\ub825\uc744 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0 800 \ub0b4\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "insect",
+  "classifications": [
+    "effect"
+  ],
+  "level": 6,
+  "atk": 1700,
+  "def": 1400,
+  "passwords": [],
+  "images": [
+    {
+      "id": "a38fcef3-26fc-4abf-af11-a2b6a7e5e170",
+      "card": "https://ms.yugipedia.com//1/15/RavenousMatiless-RDKP09-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Ravenous Matiless",
+        "id": 716378
+      }
+    ],
+    "dbID": 17518
+  },
+  "series": []
+}

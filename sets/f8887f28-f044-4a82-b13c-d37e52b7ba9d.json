@@ -1,0 +1,226 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "f8887f28-f044-4a82-b13c-d37e52b7ba9d",
+  "name": {
+    "en": "Advanced Event Pack 2026 Vol.1 Version 2",
+    "ko": "\uc5b4\ub4dc\ubc34\uc2a4\ub4dc \uc774\ubca4\ud2b8 \ud329 2026 Vol.1 Version2"
+  },
+  "locales": {
+    "kr": {
+      "language": "ko",
+      "prefix": "AE24-KRS",
+      "date": "2026-06-06",
+      "image": "https://ms.yugipedia.com//c/cf/AE24S-BoosterKR.png",
+      "cardImages": {
+        "unlimited": {}
+      },
+      "cardInfo": {
+        "unlimited": {}
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          1010001622000
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "kr"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//c/cf/AE24S-BoosterKR.png",
+      "cards": [
+        {
+          "id": "eb6a0e8b-c008-48c0-99e0-86e0c06eb0a9",
+          "card": "431b2bf0-cb93-40b1-862a-568295c7b377",
+          "suffix": "01",
+          "rarity": "secret",
+          "imageID": "071dac49-6038-423b-af69-1fb35c56d70a"
+        },
+        {
+          "id": "6af9b605-3859-448d-8c23-e8c0c079362f",
+          "card": "895b2ec5-7c3a-4970-9170-d174e25b38a0",
+          "suffix": "02",
+          "rarity": "secret"
+        },
+        {
+          "id": "a750b9b2-403e-4b0d-ad86-6f302ae08a8f",
+          "card": "ee45f4a7-0d05-4ce2-bb65-77aee0b90aa3",
+          "suffix": "03",
+          "rarity": "secret",
+          "imageID": "c7b41ab9-8a6c-4eb5-b0ec-7991b16b5093"
+        },
+        {
+          "id": "c3fceb39-16ac-4525-8702-bb13ef63a181",
+          "card": "6dd8467d-872a-47b1-a125-ee07a2671565",
+          "suffix": "04",
+          "rarity": "super",
+          "imageID": "b4c393c8-4ba4-46d0-9191-508d432bfa9f"
+        },
+        {
+          "id": "50b926da-940d-4e49-97d5-87d687b36e9b",
+          "card": "fa1b3d1a-bacc-4934-8189-22199754bac8",
+          "suffix": "05",
+          "rarity": "super",
+          "imageID": "2ce71cba-cc8d-4922-b3c6-995702a8fa04"
+        },
+        {
+          "id": "710041f1-73e4-4cb6-bbdf-5e3946b5c496",
+          "card": "fe5637d6-8106-4562-bc1a-82a84c312ff4",
+          "suffix": "06",
+          "rarity": "super",
+          "imageID": "6ce5e59f-fd3a-4c4a-b8e6-1fcc86c3ca74"
+        },
+        {
+          "id": "30cc86f1-e283-4ecc-9a62-7e04fb87bd41",
+          "card": "6a2f1db8-26ee-458e-8cb6-fa12faf56e8c",
+          "suffix": "07",
+          "rarity": "super",
+          "imageID": "e9e130cd-ed3d-48f1-9518-9f74a659a0bb"
+        },
+        {
+          "id": "074e17a9-9877-49e4-8a35-1fa64ac8a13e",
+          "card": "90915894-08aa-4729-9024-6e1171fb0bc8",
+          "suffix": "08",
+          "rarity": "super",
+          "imageID": "f9f3a6dd-8de2-44cd-b818-1bcc41924638"
+        },
+        {
+          "id": "2930acee-b806-4378-b2e1-3186a563da26",
+          "card": "c025eab4-0cf8-4a32-bf0e-a7402499e6ea",
+          "suffix": "09",
+          "rarity": "super",
+          "imageID": "93d6430f-b07e-49d9-81cc-ecd4cbfa1c43"
+        },
+        {
+          "id": "b3dc8340-0c5c-4a6e-99be-80aa6d538192",
+          "card": "9aeb6aec-4499-46f9-a709-f075d2ffc7bc",
+          "suffix": "10",
+          "rarity": "super",
+          "imageID": "15b9cb06-b553-42d6-b305-626fdd1e7978"
+        },
+        {
+          "id": "deebeba9-528b-4f83-862e-10256decfb0e",
+          "card": "e7875e16-2782-4f1a-b8c6-5fed3dbbaf66",
+          "suffix": "11",
+          "rarity": "super",
+          "imageID": "b9b99998-d039-4918-a47f-9499d2bd59fe"
+        },
+        {
+          "id": "4c5a9c81-498a-44cf-b8a1-9ba4ba5ca9fc",
+          "card": "b8e692c0-e3ad-4dfe-bb61-44430c232997",
+          "suffix": "12",
+          "rarity": "super",
+          "imageID": "f10293b5-69cb-44db-a5cc-45b34977fd64"
+        },
+        {
+          "id": "cd8e5db3-bf36-411c-8220-3fbc1984b56c",
+          "card": "9d609d9b-8bbc-43e4-9f42-f1b2e5af2be1",
+          "suffix": "13",
+          "rarity": "common"
+        },
+        {
+          "id": "b38e06e2-bfcf-4add-9602-1a1ebaad1c3c",
+          "card": "405afade-6877-4e2d-ae3f-c9de04d6ae53",
+          "suffix": "14",
+          "rarity": "common",
+          "imageID": "297980a7-ce8b-4128-b66e-9d32c7c1b7fe"
+        },
+        {
+          "id": "c5ca71c4-6a4c-4df9-89fc-ddba6009e5fc",
+          "card": "4f83fef2-b949-48ca-b95f-e1161c7bd9c5",
+          "suffix": "15",
+          "rarity": "common",
+          "imageID": "4ae4da6e-da16-4854-81dd-3ddff3728f89"
+        },
+        {
+          "id": "644b5788-b04a-4e3e-87c7-543f5602699a",
+          "card": "7b540ed1-ad98-4f90-b667-2292eecb2e34",
+          "suffix": "16",
+          "rarity": "common",
+          "imageID": "4fdff0a4-cdff-4bf6-aad0-7a618a736a7c"
+        },
+        {
+          "id": "a78f6482-8041-4406-b037-9f7ee2960e30",
+          "card": "29335e6c-ea71-4d14-99c2-525a4665de2b",
+          "suffix": "17",
+          "rarity": "common"
+        },
+        {
+          "id": "89fb17f0-b2d7-4313-9184-19cab81370dd",
+          "card": "4de65d4e-debb-49d2-8f75-71df581b87d7",
+          "suffix": "18",
+          "rarity": "common",
+          "imageID": "afc2db43-ee6b-4fe5-ac41-3fcc0f79478d"
+        },
+        {
+          "id": "3d2e1690-3409-4a9e-8e98-b7682e8b2714",
+          "card": "84690775-963d-4d2d-951f-23a0e98b0db9",
+          "suffix": "19",
+          "rarity": "common",
+          "imageID": "8bf2f785-6f07-445a-9a8f-209fd3e3d34b"
+        },
+        {
+          "id": "724ba571-1e7d-4fc7-bbef-65bedb99b93f",
+          "card": "2f160f42-8b00-440b-a504-e80cbaa711e4",
+          "suffix": "20",
+          "rarity": "common"
+        },
+        {
+          "id": "a47a06c4-ebb3-41d3-b2c1-2b62e9cc6887",
+          "card": "463c3ef6-6565-435a-a18b-9d1b6c5cc61c",
+          "suffix": "21",
+          "rarity": "common",
+          "imageID": "f44dc135-16de-479c-98ce-313fa053107d"
+        },
+        {
+          "id": "aa5bd872-611b-482d-bee7-156658f2ad9d",
+          "card": "be2183e4-5683-453a-8eb1-071bbf22f07b",
+          "suffix": "22",
+          "rarity": "common",
+          "imageID": "e3f663f9-13c3-4720-9ebe-6f22fc0fde9a"
+        },
+        {
+          "id": "82cceff7-a5ad-4f5b-a6e9-e748b54270fb",
+          "card": "ec01293d-3039-47ea-aedf-183bf9720b63",
+          "suffix": "23",
+          "rarity": "common",
+          "imageID": "ff76b2ba-9e42-418c-badf-b910c3673800"
+        },
+        {
+          "id": "67627852-ef0a-410b-a164-8443ade602a0",
+          "card": "63c89c49-0255-46a0-9565-051dfc5f61c2",
+          "suffix": "24",
+          "rarity": "common"
+        },
+        {
+          "id": "e6c4eb46-baeb-489c-9ddc-5924cd2004fd",
+          "card": "d15ea879-903e-481a-9ad1-774823a8518b",
+          "suffix": "25",
+          "rarity": "secret-blue",
+          "imageID": "f7eb3c46-62df-45ec-9be3-877f11a4a522"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Advanced Event Pack 2026 Vol.1 Version 2",
+      "id": 1198076
+    }
+  }
+}

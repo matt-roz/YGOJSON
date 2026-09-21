@@ -1,0 +1,72 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "58987801-1a51-49a0-a9a8-564693a357bf",
+  "text": {
+    "en": {
+      "name": "Archfiend's Summoning Flute",
+      "effect": "Send this card from your field to the Graveyard, then Special Summon 1 Normal Monster from your Graveyard to your field in face-up Defense Position."
+    },
+    "fr": {
+      "name": "Fl\u00fbte d'Invocation de l'Archd\u00e9mon",
+      "effect": "Envoyez cette carte depuis votre Terrain au Cimeti\u00e8re, puis Invoquez Sp\u00e9cialement 1 Monstre Normal depuis votre Cimeti\u00e8re sur votre Terrain en Position de D\u00e9fense face recto."
+    },
+    "de": {
+      "name": "Erzunterweltler-Ruffl\u00f6te",
+      "effect": "Lege diese Karte von deiner Spielfeldseite auf den Friedhof, dann beschw\u00f6re 1 Normales Monster als Spezialbeschw\u00f6rung in offener Verteidigungsposition von deinem Friedhof auf deiner Spielfeldseite."
+    },
+    "it": {
+      "name": "Flauto Arcidemone Evocatore",
+      "effect": "Manda questa carta dal tuo Terreno al Cimitero, poi Evoca Specialmente 1 Mostro Normale dal tuo Cimitero al tuo Terreno scoperto in Posizione di Difesa."
+    },
+    "es": {
+      "name": "Flauta Convocadora de Archidemonio",
+      "effect": "Manda al Cementerio esta carta en tu Campo y despu\u00e9s Invoca de Modo Especial, desde tu Cementerio, 1 Monstruo Normal en Posici\u00f3n de Defensa boca arriba en tu Campo."
+    },
+    "ja": {
+      "name": "\u30c7\u30fc\u30e2\u30f3\u306e\u547c\u3073\u7b1b",
+      "effect": "\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u3053\u306e\u30ab\u30fc\u30c9\u3092\u5893\u5730\u3078\u9001\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u901a\u5e38\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u3092\u9078\u3073\u3001\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u5b88\u5099\u8868\u793a\u3067\u7279\u6b8a\u53ec\u559a\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub370\ubaac\uc758 \ud638\ub8e8\ub77c\uae30",
+      "effect": "\uc790\uc2e0 \ud544\ub4dc\uc758 \uc774 \uce74\ub4dc\ub97c \ubb18\uc9c0\ub85c \ubcf4\ub0b8\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0 \ubb18\uc9c0\uc758 \uc77c\ubc18 \ubaac\uc2a4\ud130 1\uc7a5\uc744 \uace0\ub974\uace0, \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \uc218\ube44 \ud45c\uc2dc\ub85c \ud2b9\uc218 \uc18c\ud658\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "fiend",
+  "classifications": [
+    "effect"
+  ],
+  "level": 1,
+  "atk": 0,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "d60a4a87-79c4-471b-8d4e-b99e179b1fd4",
+      "card": "https://ms.yugipedia.com//6/6c/ArchfiendsSummoningFlute-RDSBD5-JP-C.png"
+    }
+  ],
+  "sets": [
+    "389782ec-2c38-4819-ae84-d3d562b6364c",
+    "e1cd0077-0760-46c2-8cff-9fd1ac443780",
+    "3fe0b98a-9822-4fdc-8329-1fdd2fa31e6d",
+    "e723d3ef-0d73-4bff-93ce-a7ea1fbf8304",
+    "24efaeb8-31d0-4d9b-b5b6-db394582c1f3",
+    "24efaeb8-31d0-4d9b-b5b6-db394582c1f3"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "r"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Archfiend's Summoning Flute",
+        "id": 713072
+      }
+    ],
+    "dbID": 15443
+  },
+  "series": []
+}

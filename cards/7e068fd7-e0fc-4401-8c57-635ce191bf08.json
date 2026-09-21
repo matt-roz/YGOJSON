@@ -1,0 +1,50 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "7e068fd7-e0fc-4401-8c57-635ce191bf08",
+  "text": {
+    "en": {
+      "name": "Galacterial Ore",
+      "effect": "Add 1 \"Galactica Xiphos\" from your Graveyard to your hand."
+    },
+    "ja": {
+      "name": "\u30ae\u30e3\u30e9\u30af\u30c6\u30ea\u30a2\u30eb\u30fb\u30aa\u30fc\u30a2",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u30ae\u30e3\u30e9\u30af\u30c6\u30a3\u30ab\u30fb\u30b5\u30a4\u30d5\u30a9\u30b9\u300d\uff11\u679a\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uac24\ub7ed\ud14c\ub9ac\uc5bc \uc624\uc544",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \"\uac24\ub7ed\ud2f0\uce74 \uc0ac\uc774\ud3ec\uc2a4\" 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\ub294\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1000,
+  "def": 1300,
+  "passwords": [],
+  "images": [
+    {
+      "id": "d1a795da-531a-4eae-95b0-0cf93afcb195",
+      "card": "https://ms.yugipedia.com//3/38/GalacterialOre-RDKP14-JP-C.png"
+    }
+  ],
+  "sets": [
+    "cf303586-057a-4e6c-ae2a-65879480865d"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Galacterial Ore",
+        "id": 992642
+      }
+    ],
+    "dbID": 19315
+  },
+  "series": []
+}

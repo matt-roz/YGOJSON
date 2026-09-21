@@ -1,0 +1,40 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "69c5bc71-1106-4c00-bdef-a45194892758",
+  "text": {
+    "en": {
+      "name": "Skeletal Swarm",
+      "effect": "That monster loses ATK equal to [the number of \"Skull Servant\" in your Graveyard] x 1000 until the end of this turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u9ab8\u306e\u7fa4\u308c",
+      "effect": "\u305d\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u653b\u6483\u529b\u306f\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\u3001\uff3b\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u30ef\u30a4\u30c8\u300d\u306e\u6570\uff3d\u00d7\uff11\uff10\uff10\uff10\u30c0\u30a6\u30f3\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ubc31\uace8\uc758 \ubb34\ub9ac",
+      "effect": "\uadf8 \ubaac\uc2a4\ud130\uc758 \uacf5\uaca9\ub825\uc740 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0, [\uc790\uc2e0 \ubb18\uc9c0\uc758 \"\uc800\uc8fc\ubc1b\uc740 \ud558\uc778\"\uc758 \uc218] \u00d7 1000 \ub0b4\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "trap",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "7a65b344-9ff2-470b-a858-370eed6df90e",
+      "card": "https://ms.yugipedia.com//9/93/SkeletalSwarm-RDKP19-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Skeletal Swarm",
+        "id": 1092728
+      }
+    ],
+    "dbID": 21013
+  },
+  "series": []
+}

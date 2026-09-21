@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "aaf6f00d-4dda-47c2-933a-ed5651b79e97",
+  "text": {
+    "en": {
+      "name": "Lightning Volteagle",
+      "effect": "This turn, this card can attack twice.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30e9\u30a4\u30c8\u30cb\u30f3\u30b0\u30fb\u30dc\u30eb\u30a4\u30fc\u30b0\u30eb",
+      "effect": "\u3053\u306e\u30bf\u30fc\u30f3\u3001\u3053\u306e\u30ab\u30fc\u30c9\u306f\uff12\u56de\u653b\u6483\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub77c\uc774\ud2b8\ub2dd \ubcfc\uc774\uae00",
+      "effect": "\uc774 \ud134\uc5d0, \uc774 \uce74\ub4dc\ub294 2\ud68c \uacf5\uaca9\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "wingedbeast",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2500,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "d71daff2-3469-4f58-b5f9-4c5038537529",
+      "card": "https://ms.yugipedia.com//6/64/LightningVolteagle-RDMRP2-JP-UR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Lightning Volteagle",
+        "id": 1018682
+      }
+    ],
+    "dbID": 19543
+  },
+  "series": [
+    "660df425-9497-49b5-9b83-22ebacb1c544"
+  ]
+}

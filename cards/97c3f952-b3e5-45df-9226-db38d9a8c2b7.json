@@ -1,0 +1,57 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "97c3f952-b3e5-45df-9226-db38d9a8c2b7",
+  "text": {
+    "en": {
+      "name": "Ultimate Flag Beast Avant Wolf",
+      "effect": "A gear beast designed for combat. Its doggedness awakens the ultimate fighting bravery."
+    },
+    "ja": {
+      "name": "\u6700\u5f37\u65d7\u7363\u30a2\u30d0\u30f3\u30a6\u30eb\u30d5",
+      "effect": "\u6226\u95d8\u7528\u306b\u958b\u767a\u3055\u308c\u305f\u30ae\u30a2\u30d3\u30fc\u30b9\u30c8\u3002\u305d\u306e\u96c4\u59ff\u304c\u6700\u5f37\u95d8\u5fd7\u3092\u547c\u3073\u899a\u307e\u3059\u3002"
+    },
+    "ko": {
+      "name": "\ucd5c\uac15\uae30\uc218 \uc544\ubc29\uc6b8\ud504",
+      "effect": "\uc804\ud22c\uc6a9\uc73c\ub85c \uac1c\ubc1c\ub41c \uae30\uc5b4\ube44\uc2a4\ud2b8. \uadf8 \ubaa8\uc2b5\uc740 \ucd5c\uac15\ud22c\uc9c0\ub97c \ubd88\ub7ec\uc77c\uc73c\ud0a8\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "machine",
+  "classifications": [
+    "normal"
+  ],
+  "level": 4,
+  "atk": 1500,
+  "def": 200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "a8455b57-eafb-4c7e-83be-fbc588e35657",
+      "card": "https://ms.yugipedia.com//4/4f/UltimateFlagBeastAvantWolf-RDGRD2-JP-C.png"
+    }
+  ],
+  "sets": [
+    "1a7009d0-df34-47a5-aa3a-c1c21f8220aa",
+    "f73a3adb-8d11-44cc-be1d-7b4a81bff8d8",
+    "31432588-1ddf-4225-8c5e-7dfc48faac1e",
+    "31432588-1ddf-4225-8c5e-7dfc48faac1e",
+    "62f50503-1055-4260-b990-3fb3469154e0"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "r"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Ultimate Flag Beast Avant Wolf",
+        "id": 717295
+      }
+    ],
+    "dbID": 16762
+  },
+  "series": [
+    "1869401c-4fa5-40a6-8cbc-a60caea6b54b"
+  ]
+}

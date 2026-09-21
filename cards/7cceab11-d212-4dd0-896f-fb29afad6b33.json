@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "7cceab11-d212-4dd0-896f-fb29afad6b33",
+  "text": {
+    "en": {
+      "name": "Player #C39: Home Run Smasher V",
+      "effect": "Destroy 1 monster on your opponent's field. Then, inflict 500 damage to your opponent.",
+      "official": false
+    },
+    "ja": {
+      "name": "\uff23\u80cc\u756a\u53f7\uff13\uff19 \u7403\u5150\u7687\u30db\u30fc\u30e0\u30d7\u30ec\u30fc\u30c8\uff36",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u3092\u9078\u3093\u3067\u7834\u58ca\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u76f8\u624b\u306b\uff15\uff10\uff10\u30c0\u30e1\u30fc\u30b8\u3092\u4e0e\u3048\u308b\u3002"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 2600,
+  "def": 2000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "70e300cb-8533-4afc-baac-d72769964558",
+      "card": "https://ms.yugipedia.com//7/7c/PlayerC39HomeRunSmasherV-RDAP03-JP-UR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Player C39: Home Run Smasher V",
+        "id": 1196053
+      }
+    ],
+    "dbID": 23456
+  },
+  "series": [
+    "11c88d41-6724-4c42-8912-d77015310efd"
+  ]
+}

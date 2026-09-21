@@ -1,0 +1,42 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "aaceae8b-1dc3-462c-b46a-051bbabd9724",
+  "text": {
+    "en": {
+      "name": "Hero of the East (Rush Duel)",
+      "effect": "Feel da strength ah dis sword-swingin' samurai from da Far East."
+    },
+    "ko": {
+      "name": "\ub3d9\ubc29\uc758 \uc601\uc6c5",
+      "effect": "\uba3c \ub3d9\ucabd \ub098\ub77c\uc5d0\uc11c \uc654\ub2e4\uace0 \uc804\ud574\uc9c0\ub294 \uc0ac\ubb34\ub77c\uc774. \uc190\uc5d0 \uc954 \uce7c\uc740 \uc798 \ub4e0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "warrior",
+  "classifications": [
+    "normal"
+  ],
+  "level": 3,
+  "atk": 1100,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "bc9428a7-88f4-495d-88da-a1c38bdfb181",
+      "card": "https://ms.yugipedia.com//c/cd/HerooftheEast-RDB221-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Hero of the East (Rush Duel)",
+        "id": 715295
+      }
+    ],
+    "dbID": 17558
+  },
+  "series": []
+}

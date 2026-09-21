@@ -1,0 +1,50 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "427ad350-e090-43da-ac4f-9d735582de5e",
+  "text": {
+    "en": {
+      "name": "Cyber Twin Dragon (Rush Duel)",
+      "effect": "This card can attack twice per turn."
+    },
+    "ko": {
+      "name": "\uc0ac\uc774\ubc84 \ud2b8\uc708 \ub4dc\ub798\uace4",
+      "effect": "\uc774 \uce74\ub4dc\ub294 1\ud134\uc5d0 2\ud68c \uacf5\uaca9\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 2800,
+  "def": 2100,
+  "passwords": [],
+  "images": [
+    {
+      "id": "bedb1d2f-497c-4af4-b4ff-a1feb767af51",
+      "card": "https://ms.yugipedia.com//a/ac/CyberTwinDragon-RDSD0C-JP-NPR.png"
+    }
+  ],
+  "sets": [
+    "918ca201-7f5c-4e30-a6be-9ad1bd9e8458",
+    "918ca201-7f5c-4e30-a6be-9ad1bd9e8458"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Cyber Twin Dragon (Rush Duel)",
+        "id": 714421
+      }
+    ],
+    "dbID": 18349
+  },
+  "series": [
+    "86022427-8e1f-4a67-af9d-a38a063a0392"
+  ]
+}

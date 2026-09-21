@@ -1,0 +1,43 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "e12f3da4-7e9c-4bfe-9fc4-09abf640c853",
+  "text": {
+    "en": {
+      "name": "Penumbral Soldier Lady (Rush Duel)",
+      "effect": "During the Battle Phase, if your opponent has a face-up LIGHT Attribute monster on their field, this card gains 1000 ATK.",
+      "official": false
+    },
+    "ko": {
+      "name": "\ub2ec\uc758 \uc5ec\uc804\uc0ac",
+      "effect": "\uc11c\ub85c\uc758 \ubc30\ud2c0 \ud398\uc774\uc988 \uc911, \uc0c1\ub300 \ud544\ub4dc\uc5d0 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\ube5b \uc18d\uc131)\uac00 \uc788\uc744 \uacbd\uc6b0, \uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\ub825\uc740 1000 \uc62c\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 6,
+  "atk": 2100,
+  "def": 1400,
+  "passwords": [],
+  "images": [
+    {
+      "id": "e0e992fa-ad20-4ba9-bf6c-0c6382ed142b",
+      "card": "https://ms.yugipedia.com//c/cd/PenumbralSoldierLady-RDKP19-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Penumbral Soldier Lady (Rush Duel)",
+        "id": 1098647
+      }
+    ],
+    "dbID": 20985
+  },
+  "series": []
+}

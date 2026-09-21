@@ -1,0 +1,42 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "9c39c136-b994-41a2-aa46-f28be67c5b06",
+  "text": {
+    "en": {
+      "name": "Accelerator",
+      "effect": "The equipped monster gains 300 ATK. If the original name of the equipped monster is \"Jinzo\", its Continuous Effect becomes \"Your opponent cannot activate Trap Cards, and their Trap Card effects are negated\".",
+      "official": false
+    },
+    "ja": {
+      "name": "\u96fb\u8133\u52a0\u901f\u5668",
+      "effect": "\u88c5\u5099\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u653b\u6483\u529b\u306f\uff13\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002\u88c5\u5099\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u5143\u3005\u306e\u30ab\u30fc\u30c9\u540d\u304c\u300c\u4eba\u9020\u4eba\u9593\uff0d\u30b5\u30a4\u30b3\u30fb\u30b7\u30e7\u30c3\u30ab\u30fc\u300d\u306e\u5834\u5408\u3001\u305d\u306e\u6c38\u7d9a\u52b9\u679c\u306f\u300c\u76f8\u624b\u306f\u7f60\u30ab\u30fc\u30c9\u3092\u767a\u52d5\u3067\u304d\u305a\u3001\u76f8\u624b\u306e\u7f60\u30ab\u30fc\u30c9\u306e\u52b9\u679c\u306f\u7121\u52b9\u5316\u3055\u308c\u308b\u300d\u3068\u3057\u3066\u9069\u7528\u3055\u308c\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc804\ub1cc\uac00\uc18d\uae30",
+      "effect": "\uc7a5\ucc29 \ubaac\uc2a4\ud130\uc758 \uacf5\uaca9\ub825\uc740 300 \uc62c\ub9b0\ub2e4. \uc7a5\ucc29 \ubaac\uc2a4\ud130\uc758 \uc6d0\ub798\uc758 \uce74\ub4dc\uba85\uc774 \"\uc778\uc870\uc778\uac04 \uff0d\uc0ac\uc774\ucf54 \uc1fc\ucee4\uff0d\"\uc77c \uacbd\uc6b0, \uadf8 \uc9c0\uc18d \ud6a8\uacfc\ub294 \"\uc0c1\ub300\ub294 \ud568\uc815 \uce74\ub4dc\ub97c \ubc1c\ub3d9\ud560 \uc218 \uc5c6\uc73c\uba70, \uc0c1\ub300\uc758 \ud568\uc815 \uce74\ub4dc\uc758 \ud6a8\uacfc\ub294 \ubb34\ud6a8\ud654\ub41c\ub2e4\"\ub85c\uc11c \uc801\uc6a9\ub41c\ub2e4."
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "equip",
+  "passwords": [],
+  "images": [
+    {
+      "id": "e0bb0de7-a66e-4854-963f-15be3121342f",
+      "card": "https://ms.yugipedia.com//d/d8/Accelerator-RDKP16-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Accelerator",
+        "id": 1035217
+      }
+    ],
+    "dbID": 20004
+  },
+  "series": [
+    "a68ee320-b4c4-4ddd-bb01-9826ab4cdfef"
+  ]
+}

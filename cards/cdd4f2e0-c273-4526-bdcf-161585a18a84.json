@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "cdd4f2e0-c273-4526-bdcf-161585a18a84",
+  "text": {
+    "en": {
+      "name": "Hungry Fries",
+      "effect": "Add 1 DARK Attribute Warrior Type monster with 1200 ATK/900 DEF from your Graveyard to your hand.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30cf\u30f3\u30b0\u30ea\u30fc\u30dd\u30c6\u30c8",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u95c7\u5c5e\u6027\uff0f\u6226\u58eb\u65cf\uff0f\u653b\u6483\u529b\uff11\uff12\uff10\uff10\uff0f\u5b88\u5099\u529b\uff19\uff10\uff10\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud5dd\uadf8\ub9ac \ud3ec\ud14c\uc774\ud1a0",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130(\uc5b4\ub460 \uc18d\uc131 / \uc804\uc0ac\uc871 / \uacf5\uaca9\ub825 1200 / \uc218\ube44\ub825 900) 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\ub294\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 6,
+  "atk": 1800,
+  "def": 1900,
+  "passwords": [],
+  "images": [
+    {
+      "id": "60606bff-f980-4525-a43d-7ec663933038",
+      "card": "https://ms.yugipedia.com//3/36/HungryFries-RDKP22-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Hungry Fries",
+        "id": 1136559
+      }
+    ],
+    "dbID": 21998
+  },
+  "series": [
+    "e2d2c5fa-6cb7-405e-84d8-889b5da6d817"
+  ]
+}

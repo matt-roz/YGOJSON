@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "a3103041-8729-4c43-9c13-b6c716283da5",
+  "text": {
+    "en": {
+      "name": "Plasmatic Model Universe Glider",
+      "effect": "Send the top 2 cards of your Deck to the Graveyard. Then, you can Set 1 \"Plasmatic Model Play\" from your Graveyard to your Spell & Trap Zone.",
+      "official": false
+    },
+    "ja": {
+      "name": "\uff30\u30fb\uff2d \u30e6\u30cb\u30d0\u30fc\u30b9\u30b0\u30e9\u30a4\u30c0\u30fc",
+      "effect": "\u81ea\u5206\u306e\u30c7\u30c3\u30ad\u306e\u4e0a\u304b\u3089\u30ab\u30fc\u30c9\uff12\u679a\u3092\u5893\u5730\u3078\u9001\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\uff30\u30fb\uff2d \u30d7\u30ec\u30a4\u300d\uff11\u679a\u3092\u9078\u3093\u3067\u81ea\u5206\u306e\u9b54\u6cd5\uff06\u7f60\u30be\u30fc\u30f3\u306b\u30bb\u30c3\u30c8\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "P\u00b7M \uc720\ub2c8\ubc84\uc2a4\uae00\ub77c\uc774\ub354",
+      "effect": "\uc790\uc2e0\uc758 \ub371 \uc704\uc5d0\uc11c \uce74\ub4dc 2\uc7a5\uc744 \ubb18\uc9c0\ub85c \ubcf4\ub0b8\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0 \ubb18\uc9c0\uc758 \"P\u00b7M(\ud50c\ub77c\uc988\ub9c8\ud2f1\ubaa8\ub378) \ud50c\ub808\uc774\" 1\uc7a5\uc744 \uace0\ub974\uace0 \uc790\uc2e0\uc758 \ub9c8\ubc95 & \ud568\uc815 \uc874\uc5d0 \uc138\ud2b8\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "thunder",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1000,
+  "def": 800,
+  "passwords": [],
+  "images": [
+    {
+      "id": "817419a8-7c2e-4749-ac12-723a88ba0441",
+      "card": "https://ms.yugipedia.com//7/7c/PlasmaticModelUniverseGlider-RDKP21-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Plasmatic Model Universe Glider",
+        "id": 1125580
+      }
+    ],
+    "dbID": 21664
+  },
+  "series": [
+    "86b45a3e-9540-4650-af4a-ed6c9b66f3c2"
+  ]
+}

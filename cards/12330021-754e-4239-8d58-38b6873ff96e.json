@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "12330021-754e-4239-8d58-38b6873ff96e",
+  "text": {
+    "en": {
+      "name": "Drahe the Wyrm Vassal",
+      "effect": "Increase this card's Level by 2 until the end of this turn. If you haven't Special Summoned a monster this turn, you can also add 1 \"Lindwurm the Mega Monarch\" or \"Lindwurm the Wyrm Monarch\" from your Graveyard to your hand."
+    },
+    "ja": {
+      "name": "\u7adc\u5e1d\u5bb6\u81e3\u30c9\u30e9\u30fc\u30d8",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u306e\u30ec\u30d9\u30eb\u306f\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\uff12\u4e0a\u304c\u308b\u3002\u3053\u306e\u30bf\u30fc\u30f3\u306b\u81ea\u5206\u304c\u30e2\u30f3\u30b9\u30bf\u30fc\u3092\u7279\u6b8a\u53ec\u559a\u3057\u3066\u3044\u306a\u3044\u5834\u5408\u3001\u3055\u3089\u306b\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u5e7b\u7adc\u5e1d\u30ea\u30f3\u30c9\u30eb\u30e0\u300d\u307e\u305f\u306f\u300c\u7adc\u5e1d\u30ea\u30f3\u30c9\u30eb\u30e0\u300d\uff11\u4f53\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub8e1 \uc81c\uc655\uac00\uc2e0 \ub4dc\ub77c\ud5e4",
+      "effect": "\uc774 \uce74\ub4dc\uc758 \ub808\ubca8\uc740 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0 2 \uc62c\ub77c\uac04\ub2e4. \uc774 \ud134\uc5d0 \uc790\uc2e0\uc774 \ubaac\uc2a4\ud130\ub97c \ud2b9\uc218 \uc18c\ud658\ud558\uace0 \uc788\uc9c0 \uc54a\uc744 \uacbd\uc6b0, \ucd94\uac00\ub85c \uc790\uc2e0 \ubb18\uc9c0\uc758 \"\ud658\ub8e1 \uc81c\uc655 \ub9b0\ub4dc\ub8f8\" \ub610\ub294 \"\ub8e1 \uc81c\uc655 \ub9b0\ub4dc\ub8f8\" 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\uc744 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "type": "wyrm",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 800,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "102c4824-449b-4bfe-9ed2-7bfe8a7d8f72",
+      "card": "https://ms.yugipedia.com//f/f5/DrahetheWyrmVassal-RDSD0F-JP-C.png"
+    }
+  ],
+  "sets": [
+    "e2b816ef-5178-4aa9-b864-7248f545e896",
+    "e2b816ef-5178-4aa9-b864-7248f545e896",
+    "e2b816ef-5178-4aa9-b864-7248f545e896",
+    "e2b816ef-5178-4aa9-b864-7248f545e896"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Drahe the Wyrm Vassal",
+        "id": 1144273
+      }
+    ],
+    "dbID": 22095
+  },
+  "series": []
+}

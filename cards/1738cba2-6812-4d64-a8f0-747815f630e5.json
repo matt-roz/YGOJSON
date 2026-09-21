@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "1738cba2-6812-4d64-a8f0-747815f630e5",
+  "text": {
+    "en": {
+      "name": "Legendary Party",
+      "effect": "Face-up LIGHT Attribute monsters with 300 original DEF on your field gain 400 ATK. If you have a face-up Level 10 LIGHT Attribute monster on your field, this card gains 1000 ATK, and Spell/Trap Cards on your field cannot be destroyed by card effects.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30ec\u30b8\u30a7\u30f3\u30c9\u30fb\u30d1\u30fc\u30c6\u30a3"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "fairy",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1000,
+  "def": 300,
+  "passwords": [],
+  "images": [
+    {
+      "id": "12674bbb-67b0-4f49-baa2-f1755d9d4f2f",
+      "card": "https://ms.yugipedia.com//5/58/LegendaryParty-RDCA01-JP-OP.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Legendary Party",
+        "id": 1225504
+      }
+    ]
+  },
+  "series": []
+}

@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "80da683e-38a4-42fd-b32f-737891c93736",
+  "text": {
+    "en": {
+      "name": "Neo-Spacian Grand Mole (Rush Duel)",
+      "effect": "Choose 1 face-up monster on your opponent's field with higher ATK than this card, and you take damage equal to [the difference in ATK]. Then, return this card and that monster to the owner's hand. End this Main Phase.",
+      "official": false
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "rock",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 900,
+  "def": 300,
+  "passwords": [],
+  "images": [
+    {
+      "id": "345a0fe6-a6c8-42c7-a2b4-a2049cde327d",
+      "card": "https://ms.yugipedia.com//3/3f/NeoSpacianGrandMole-RDKP26-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Neo-Spacian Grand Mole (Rush Duel)",
+        "id": 1206950
+      }
+    ],
+    "dbID": 23779
+  },
+  "series": [
+    "34c5b22c-a2f7-4b8e-8938-a50b1e41c0d6"
+  ]
+}

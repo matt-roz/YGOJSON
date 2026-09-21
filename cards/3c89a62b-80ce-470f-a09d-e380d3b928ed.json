@@ -1,0 +1,44 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "3c89a62b-80ce-470f-a09d-e380d3b928ed",
+  "text": {
+    "en": {
+      "name": "Swift Gaia the Fierce Knight (Rush Duel)",
+      "effect": "None"
+    },
+    "ko": {
+      "name": "\uc9c8\ud48d\uc758 \uc554\ud751 \uae30\uc0ac \uac00\uc774\uc544",
+      "effect": "\uc5c6\uc74c"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2300,
+  "def": 2100,
+  "passwords": [],
+  "images": [
+    {
+      "id": "db55dd96-d0d1-4837-a356-9dd4e87605ac",
+      "card": "https://ms.yugipedia.com//0/0e/SwiftGaiatheFierceKnight-RD5TH1-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Swift Gaia the Fierce Knight (Rush Duel)",
+        "id": 1004796
+      }
+    ],
+    "dbID": 19439
+  },
+  "series": [
+    "a3e27cb2-0372-4fe5-a8ad-8ca351ad48d4"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "1c4582cb-084d-49f4-9891-0b87164c4f98",
+  "text": {
+    "en": {
+      "name": "Red-Reboot Enhanced Boost Dragon",
+      "effect": "Choose up to 3 DARK Attribute monsters in your Graveyard. Inflict damage to your opponent equal to [the total Levels of the monsters chosen] x 100, and this card gains ATK equal to [the total Levels of the monsters chosen] x 100 until the end of this turn. Then, shuffle the chosen monsters into the Deck.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u91cd\u7d05\u52d5\u306e\u8d85\u8d8a\u6483\u901f\u7adc",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u95c7\u5c5e\u6027\uff09\u3092\uff13\u4f53\u307e\u3067\u9078\u3076\u3002\uff3b\u9078\u3093\u3060\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u30ec\u30d9\u30eb\u306e\u5408\u8a08\uff3d\u00d7\uff11\uff10\uff10\u30c0\u30e1\u30fc\u30b8\u3092\u76f8\u624b\u306b\u4e0e\u3048\u3001\u3053\u306e\u30ab\u30fc\u30c9\u306e\u653b\u6483\u529b\u306f\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\u3001\uff3b\u9078\u3093\u3060\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u30ec\u30d9\u30eb\u306e\u5408\u8a08\uff3d\u00d7\uff11\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u9078\u3093\u3060\u30e2\u30f3\u30b9\u30bf\u30fc\u3092\u30c7\u30c3\u30ad\u306b\u623b\u3059\u3002"
+    },
+    "ko": {
+      "name": "\ub808\ub4dc\ub9ac\ubd80\ud2b8 \uc778\ud578\uc2a4\ub4dc \ubd80\uc2a4\ud2b8\ub4dc\ub798\uace4",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130(\uc5b4\ub460 \uc18d\uc131)\ub97c 3\uc7a5\uae4c\uc9c0 \uace0\ub978\ub2e4. [\uace0\ub978 \ubaac\uc2a4\ud130\uc758 \ub808\ubca8\uc758 \ud569\uacc4] \u00d7 100 \ub370\ubbf8\uc9c0\ub97c \uc0c1\ub300\uc5d0\uac8c \uc8fc\uace0, \uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\ub825\uc740 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0, [\uace0\ub978 \ubaac\uc2a4\ud130\uc758 \ub808\ubca8\uc758 \ud569\uacc4] \u00d7 100 \uc62c\ub9b0\ub2e4. \uadf8 \ud6c4, \uace0\ub978 \ubaac\uc2a4\ud130\ub97c \ub371\uc73c\ub85c \ub418\ub3cc\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "dragon",
+  "classifications": [
+    "effect"
+  ],
+  "level": 9,
+  "atk": 2800,
+  "def": 2500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "10904ad0-a670-401d-9311-42c3d3f420ec",
+      "card": "https://ms.yugipedia.com//1/1a/RedRebootEnhancedBoostDragon-RDKP15-JP-UR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Red-Reboot Enhanced Boost Dragon",
+        "id": 1004631
+      }
+    ],
+    "dbID": 19672
+  },
+  "series": [
+    "769c25f7-ecce-4241-b6fc-026abf19ab65"
+  ]
+}

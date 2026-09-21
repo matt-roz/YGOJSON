@@ -1,0 +1,73 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "4dc2540f-cba7-46d7-9bd7-6f255b388189",
+  "name": {
+    "en": "\"Amabie-San\" Present Campaign",
+    "ja": "\u300c\u3042\u307e\u3073\u3048\u3055\u3093\u300d\u30d7\u30ec\u30bc\u30f3\u30c8\u30ad\u30e3\u30f3\u30da\u30fc\u30f3"
+  },
+  "locales": {
+    "jp": {
+      "language": "ja",
+      "date": "2021-02-20",
+      "image": "https://ms.yugipedia.com//5/5c/21CC-PromoJP.png",
+      "cardImages": {
+        "unlimited": {
+          "334d210d-d47b-413d-bd2a-bf5c27f8d761": "https://ms.yugipedia.com//4/4e/Amabie-21CC-JP-C.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "334d210d-d47b-413d-bd2a-bf5c27f8d761": {
+            "image": "https://ms.yugipedia.com//4/4e/Amabie-21CC-JP-C.png"
+          }
+        }
+      },
+      "formats": [
+        "rushduel"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {}
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "rushduel"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//5/5c/21CC-PromoJP.png",
+      "cards": [
+        {
+          "id": "334d210d-d47b-413d-bd2a-bf5c27f8d761",
+          "card": "5fa44115-bffc-4396-b64b-0983a5dcf657",
+          "suffix": "21CC-JP001",
+          "rarity": "common",
+          "imageID": "9a2d5ddc-efb5-4462-b3be-658d8a7d545c",
+          "printStatus": "new"
+        },
+        {
+          "id": "01a16f02-45e9-494d-8320-6944076fdcb2",
+          "card": "aae938fc-4cf2-41ad-b73f-87b901c4d538",
+          "suffix": "RD/21CC-JP001",
+          "rarity": "common",
+          "imageID": "892fa10e-5788-44eb-8c6a-8cd4b1d0eac6",
+          "printStatus": "new"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "\"Amabie-San\" Present Campaign",
+      "id": 901986
+    }
+  }
+}

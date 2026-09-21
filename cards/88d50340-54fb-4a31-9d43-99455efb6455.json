@@ -1,0 +1,43 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "88d50340-54fb-4a31-9d43-99455efb6455",
+  "text": {
+    "en": {
+      "name": "Dragon of Illumination, Sanctuary's Shield (Rush Duel)",
+      "effect": "If this card attacks your opponent directly and reduces their LP to 0, you win the Match."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "dragon",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 3000,
+  "def": 2500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "1bcc408b-e328-480e-b4bb-53952906d61e",
+      "card": "https://ms.yugipedia.com//1/10/DragonofIlluminationSanctuarysShield-RD2024-EN-ORR.png"
+    }
+  ],
+  "sets": [
+    "01d56450-d102-4337-bfac-7127365b2be6"
+  ],
+  "illegal": true,
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Dragon of Illumination, Sanctuary's Shield (Rush Duel)",
+        "id": 1078921
+      }
+    ],
+    "dbID": 20702
+  },
+  "series": [
+    "2572d2bf-aa08-42a8-81df-a074cca75fd6"
+  ]
+}

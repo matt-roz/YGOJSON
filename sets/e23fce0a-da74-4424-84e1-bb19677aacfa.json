@@ -1,0 +1,70 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "e23fce0a-da74-4424-84e1-bb19677aacfa",
+  "name": {
+    "en": "Yu-Gi-Oh! Duel Monsters Animation Complete Guide Millennium Memory promotional card",
+    "ja": "\u904a\u622f\u738b\u30c7\u30e5\u30a8\u30eb\u30e2\u30f3\u30ba\u30bf\u30fc\u30ba \u30a2\u30cb\u30e1\u30b3\u30f3\u30d7\u30ea\u30fc\u30c8\u30ac\u30a4\u30c9 \u5343\u5e74\u306e\u8a18\u61b6 \u540c\u68b1\u30ab\u30fc\u30c9"
+  },
+  "locales": {
+    "jp": {
+      "language": "ja",
+      "prefix": "AGMM-JP",
+      "date": "2016-06-24",
+      "image": "https://ms.yugipedia.com//e/eb/AGMM-PromoJP.png",
+      "cardImages": {
+        "unlimited": {
+          "6fd50190-54a1-4069-bb48-2f8b9f2bc75b": "https://ms.yugipedia.com//d/d5/DivineSerpentGeh-AGMM-JP-UR.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "6fd50190-54a1-4069-bb48-2f8b9f2bc75b": {
+            "image": "https://ms.yugipedia.com//d/d5/DivineSerpentGeh-AGMM-JP-UR.png"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          121218008
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//e/eb/AGMM-PromoJP.png",
+      "cards": [
+        {
+          "id": "6fd50190-54a1-4069-bb48-2f8b9f2bc75b",
+          "card": "07368a00-1ceb-4d2a-b227-5fb3b1ba847c",
+          "suffix": "001",
+          "rarity": "ultra",
+          "imageID": "7940350f-3d7c-41ca-967b-c48af381d0d7",
+          "printStatus": "new"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Yu-Gi-Oh! Duel Monsters Animation Complete Guide Millennium Memory promotional card",
+      "id": 472627
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "0707bd51-a9ca-4775-bc3e-ff47f2b3f9e1",
+  "text": {
+    "en": {
+      "name": "Reporter Recorder",
+      "effect": "Add 1 \"Reporter Raccoon\" or 1 \"Fusion\" from your Graveyard to your hand. Then, you can place 1 card from your opponent's Graveyard on top of the Deck.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u5831\u9053\u8a18\u4eba\u30c6\u30ec\u30b3\u30ed\u30a4\u30c9",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u5831\u9053\u72f8\u30de\u30a4\u30af\u30bf\u30f3\u300d\uff11\u4f53\u307e\u305f\u306f\u300c\u30d5\u30e5\u30fc\u30b8\u30e7\u30f3\u300d\uff11\u679a\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u3002\u305d\u306e\u5f8c\u3001\u76f8\u624b\u306e\u5893\u5730\u306e\u30ab\u30fc\u30c9\uff11\u679a\u3092\u9078\u3093\u3067\u30c7\u30c3\u30ad\u306e\u4e0a\u306b\u623b\u3059\u4e8b\u304c\u3067\u304d\u308b\u3002"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1300,
+  "def": 200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "b9ff2989-31f1-452e-8ce9-9521fc1cfef1",
+      "card": "https://ms.yugipedia.com//3/31/ReporterRecorder-RDKP25-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Reporter Recorder",
+        "id": 1184137
+      }
+    ],
+    "dbID": 23207
+  },
+  "series": [
+    "ccdb0fcd-05c3-4733-ae3f-e235f2553742"
+  ]
+}

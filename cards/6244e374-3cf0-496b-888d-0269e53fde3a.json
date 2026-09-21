@@ -1,0 +1,40 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "6244e374-3cf0-496b-888d-0269e53fde3a",
+  "text": {
+    "en": {
+      "name": "The Magical Grace Spear",
+      "effect": "The equipped monster gains 200 ATK, and it inflicts piercing battle damage. If the equipped monster is Magical Knight Type, it gains additional ATK equal to [its Level] x 200.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u9b54\u5c0e\u69cd\u30b0\u30ec\u30a4\u30b9\u30fb\u30b9\u30d4\u30a2",
+      "effect": "\u88c5\u5099\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u653b\u6483\u529b\u306f\uff12\uff10\uff10\u30a2\u30c3\u30d7\u3057\u3001\u305d\u306e\u653b\u6483\u306f\u8cab\u901a\u3059\u308b\u3002\u88c5\u5099\u30e2\u30f3\u30b9\u30bf\u30fc\u304c\u9b54\u5c0e\u9a0e\u58eb\u65cf\u306e\u5834\u5408\u3001\u305d\u306e\u653b\u6483\u529b\u306f\uff3b\u88c5\u5099\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u30ec\u30d9\u30eb\uff3d\u00d7\uff12\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub9c8\ub3c4\ucc3d \uadf8\ub808\uc774\uc2a4 \uc2a4\ud53c\uc5b4",
+      "effect": "\uc7a5\ucc29 \ubaac\uc2a4\ud130\uc758 \uacf5\uaca9\ub825\uc740 200 \uc62c\ub9ac\uace0, \uadf8 \uacf5\uaca9\uc740 \uad00\ud1b5\ud55c\ub2e4. \uc7a5\ucc29 \ubaac\uc2a4\ud130\uac00 \ub9c8\ub3c4 \uae30\uc0ac\uc871\uc77c \uacbd\uc6b0, \uadf8 \uacf5\uaca9\ub825\uc740 [\uc7a5\ucc29 \ubaac\uc2a4\ud130\uc758 \ub808\ubca8] \u00d7 200 \uc62c\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "equip",
+  "passwords": [],
+  "images": [
+    {
+      "id": "cc79e873-7ba5-4a24-b556-8a38b4947352",
+      "card": "https://ms.yugipedia.com//2/2f/TheMagicalGraceSpear-RD5TH1-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Magical Lance - Grace Spear",
+        "id": 932337
+      }
+    ],
+    "dbID": 18984
+  },
+  "series": []
+}

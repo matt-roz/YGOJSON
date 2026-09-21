@@ -1,0 +1,134 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "1d36ae57-29c5-4638-89f5-ea9f8d3e8f71",
+  "name": {
+    "en": "Tournament Pack 2012 Vol.13",
+    "ko": "\ud1a0\ub108\uba3c\ud2b8 \ud329 2012 Vol.13"
+  },
+  "locales": {
+    "kr": {
+      "language": "ko",
+      "prefix": "TP13-KR",
+      "date": "2012-05-02",
+      "cardImages": {
+        "unlimited": {
+          "cfc27d89-0af2-4de6-9599-46b41b4e1de8": "https://ms.yugipedia.com//3/3e/Kuwagata%CE%B1-TP13-KR-C-UE.png",
+          "ee2ab7c4-d668-4938-b51b-b90ee956482e": "https://ms.yugipedia.com//2/2b/DiabolosKingoftheAbyss-TP13-KR-SR-UE.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "cfc27d89-0af2-4de6-9599-46b41b4e1de8": {
+            "image": "https://ms.yugipedia.com//3/3e/Kuwagata%CE%B1-TP13-KR-C-UE.png"
+          },
+          "ee2ab7c4-d668-4938-b51b-b90ee956482e": {
+            "image": "https://ms.yugipedia.com//2/2b/DiabolosKingoftheAbyss-TP13-KR-SR-UE.png"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          7141409003
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "kr"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "cards": [
+        {
+          "id": "ee2ab7c4-d668-4938-b51b-b90ee956482e",
+          "card": "e1677c6b-e097-4281-b5e7-7c7170d72047",
+          "suffix": "001",
+          "rarity": "super",
+          "imageID": "9f6e87b4-5015-498c-ac73-439ff54dbea0"
+        },
+        {
+          "id": "bde25370-3724-4d51-9b06-7e27093adb65",
+          "card": "8946de76-5fe8-45ed-bda6-8c5051bb3de3",
+          "suffix": "002",
+          "rarity": "super",
+          "imageID": "4ab3bffe-ab5c-4387-a0a3-6ec7b329b05d"
+        },
+        {
+          "id": "69b6ce17-f91f-46da-9a9d-198a6e2d87d4",
+          "card": "e7b55d3c-4e40-4dcc-9014-9d5e25fb4c1d",
+          "suffix": "003",
+          "rarity": "common",
+          "imageID": "f6ca4e84-eb14-415f-ab91-5021ffe2aec1"
+        },
+        {
+          "id": "816d7715-e88b-4e02-9a54-e4f3333c7be1",
+          "card": "edf07358-1d11-4b20-a334-a63f2b1af3b1",
+          "suffix": "004",
+          "rarity": "common",
+          "imageID": "fb57718d-8acd-496b-815a-595f4929e3d5"
+        },
+        {
+          "id": "cfc27d89-0af2-4de6-9599-46b41b4e1de8",
+          "card": "4907eb27-4507-4834-a2d6-2a00053b70be",
+          "suffix": "005",
+          "rarity": "common",
+          "imageID": "2645b98c-1e6e-4c90-8fef-89eb747fae1b"
+        },
+        {
+          "id": "6a0c2426-8082-4bf7-9d35-e0e8426c6305",
+          "card": "1c004abb-fa7a-41f6-8492-42222d3d38dc",
+          "suffix": "006",
+          "rarity": "common",
+          "imageID": "a25a93b9-2f35-47f4-ae23-197ab5212d22"
+        },
+        {
+          "id": "e7b124b9-973a-4dde-9578-2b6e721a4c6c",
+          "card": "8b2b7ea5-d078-415c-8d25-d418bd6a4d1e",
+          "suffix": "007",
+          "rarity": "common",
+          "imageID": "b54b5d7f-6b0a-4f00-8aae-aa6b20c24f42"
+        },
+        {
+          "id": "3a6ff3cf-a597-4a2b-a1ef-d987be6207ba",
+          "card": "db65fddc-3880-4653-b871-8658b7bed36a",
+          "suffix": "008",
+          "rarity": "common",
+          "imageID": "90f98291-a818-481b-85bc-a0650cea6420"
+        },
+        {
+          "id": "f4b4dc72-3a09-471c-9acf-92e1ab0d5ebe",
+          "card": "ad389ff8-b20e-4938-a973-be02f70c932b",
+          "suffix": "009",
+          "rarity": "common",
+          "imageID": "a5bf666e-ab05-499c-903c-9122f9ded152"
+        },
+        {
+          "id": "7d01577e-837d-40e5-a959-6017d0ebdab5",
+          "card": "09c3936e-4674-4708-beb0-9b0bc95a9fec",
+          "suffix": "010",
+          "rarity": "common",
+          "imageID": "8688c76a-4a87-496b-9647-5969b6e73cd2"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Tournament Pack 2012 Vol.13",
+      "id": 400172
+    }
+  }
+}

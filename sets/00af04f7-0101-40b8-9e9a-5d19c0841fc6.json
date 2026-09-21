@@ -1,0 +1,70 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "00af04f7-0101-40b8-9e9a-5d19c0841fc6",
+  "name": {
+    "en": "V Jump July 2026",
+    "ja": "\uff36\u30b8\u30e3\u30f3\u30d7 \uff12\uff10\uff12\uff16\u5e74 \uff17\u6708\u53f7 \u4ed8\u9332\u30ab\u30fc\u30c9"
+  },
+  "locales": {
+    "jp": {
+      "language": "ja",
+      "prefix": "VJMP-JP",
+      "date": "2026-05-21",
+      "image": "https://ms.yugipedia.com//a/a3/VJMP-2026-7-Cover.png",
+      "cardImages": {
+        "unlimited": {
+          "67599066-4c99-4ca3-81e9-7dca9ef57d3a": "https://ms.yugipedia.com//2/2d/StageofDestiny-VJMP-JP-UR.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "67599066-4c99-4ca3-81e9-7dca9ef57d3a": {
+            "image": "https://ms.yugipedia.com//2/2d/StageofDestiny-VJMP-JP-UR.png"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          1000009596000
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//a/a3/VJMP-2026-7-Cover.png",
+      "cards": [
+        {
+          "id": "67599066-4c99-4ca3-81e9-7dca9ef57d3a",
+          "card": "2cb71114-4d9a-4c66-86f9-371932c378d8",
+          "suffix": "290",
+          "rarity": "ultra",
+          "imageID": "bccbf353-ba7a-4f1b-aadd-112cc4a42ebc",
+          "printStatus": "new"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "V Jump July 2026 promotional card",
+      "id": 1188011
+    }
+  }
+}

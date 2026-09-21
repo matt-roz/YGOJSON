@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "2d6f7f05-e676-4f7c-8436-e9301d19541c",
+  "text": {
+    "en": {
+      "name": "Resurrection Heliacal Riser",
+      "effect": "This turn, this card's name becomes \"Vanishing Heliacal Riser\". Then, you can Special Summon 1 Level 7 Galaxy Type monster from your Graveyard face-up to your field. This turn, you cannot activate the effect of \"Resurrection Heliacal Riser\".",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30ea\u30b6\u30ec\u30af\u30b7\u30e7\u30f3\u30fb\u30d8\u30ea\u30a2\u30ab\u30eb\u30e9\u30a4\u30b6\u30fc",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u306e\u30ab\u30fc\u30c9\u540d\u306f\u3053\u306e\u30bf\u30fc\u30f3\u3001\u300c\u30d0\u30cb\u30b7\u30f3\u30b0\u30fb\u30d8\u30ea\u30a2\u30ab\u30eb\u30e9\u30a4\u30b6\u30fc\u300d\u306b\u306a\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff17\uff0f\u30ae\u30e3\u30e9\u30af\u30b7\u30fc\u65cf\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u8868\u793a\u3067\u7279\u6b8a\u53ec\u559a\u3067\u304d\u308b\u3002\u3053\u306e\u30bf\u30fc\u30f3\u3001\u81ea\u5206\u306f\u300c\u30ea\u30b6\u30ec\u30af\u30b7\u30e7\u30f3\u30fb\u30d8\u30ea\u30a2\u30ab\u30eb\u30e9\u30a4\u30b6\u30fc\u300d\u306e\u52b9\u679c\u3092\u767a\u52d5\u3067\u304d\u306a\u3044\u3002"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 2700,
+  "def": 2000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "d87965ff-0050-4342-8edd-3a5a6b99ceed",
+      "card": "https://ms.yugipedia.com//a/a1/ResurrectionHeliacalRiser-RDKP25-JP-R.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Resurrection Heliacal Riser",
+        "id": 1184153
+      }
+    ],
+    "dbID": 23236
+  },
+  "series": []
+}

@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "4f743ef3-f09e-4f41-96eb-bf6a44c6389a",
+  "text": {
+    "en": {
+      "name": "Silver-Eyes Star Cat",
+      "effect": "A star cat with eyes of silver. They're filled with wonder.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u9280\u773c\u306e\u661f\u732b",
+      "effect": "\u9280\u8272\u306e\u773c\u3092\u6301\u3064\u661f\u732b\u3002\u4e0d\u601d\u8b70\u304c\u3044\u3063\u3071\u3044\u3002"
+    },
+    "ko": {
+      "name": "\uc2e4\ubc84\uc544\uc774\uc988 \uc2a4\ud0c0\ucea3",
+      "effect": "\uc740\ube5b\uc758 \ub208\ub3d9\uc790\ub97c \uac00\uc9c4 \ubcc4 \uace0\uc591\uc774. \uc2e0\ube44\ud568\uc774 \uac00\ub4dd."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "beast",
+  "classifications": [
+    "normal"
+  ],
+  "level": 4,
+  "atk": 1400,
+  "def": 200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "a978b395-a818-49d3-9ea1-0f8233ea3b56",
+      "card": "https://ms.yugipedia.com//0/07/SilverEyesStarCat-RDKP12-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Silver-Eyes Star Cat",
+        "id": 716713
+      }
+    ],
+    "dbID": 18586
+  },
+  "series": [
+    "79a5d72a-ddca-4158-ae45-bb393d081135"
+  ]
+}

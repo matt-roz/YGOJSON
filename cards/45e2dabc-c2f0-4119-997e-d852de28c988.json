@@ -1,0 +1,46 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "45e2dabc-c2f0-4119-997e-d852de28c988",
+  "text": {
+    "en": {
+      "name": "Therappi",
+      "effect": "Gain 500 LP."
+    },
+    "ja": {
+      "name": "\u30bb\u30e9\u30c3\u30d4",
+      "effect": "\u81ea\u5206\u306f\uff15\uff10\uff10\uff2c\uff30\u56de\u5fa9\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc138\ub78f\ud53c",
+      "effect": "\uc790\uc2e0\uc740 500 LP \ud68c\ubcf5\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "reptile",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 200,
+  "def": 1200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "e1b59814-9c0b-45e2-a5f7-4336edefeb8f",
+      "card": "https://ms.yugipedia.com//0/06/Therappi-RDKP09-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Therappi",
+        "id": 717112
+      }
+    ],
+    "dbID": 17512
+  },
+  "series": []
+}

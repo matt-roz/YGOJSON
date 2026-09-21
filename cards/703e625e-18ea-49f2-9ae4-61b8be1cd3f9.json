@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "703e625e-18ea-49f2-9ae4-61b8be1cd3f9",
+  "text": {
+    "en": {
+      "name": "Ultima Stallion of the Blaze Fiends",
+      "effect": "Add 1 Level 10 FIRE Attribute Fiend Type monster or 2 FIRE Attribute Fiend Type Maximum Monsters from your Graveyard to your hand.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u7114\u9b54\u306e\u6975\u99b3",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff11\uff10\uff0f\u708e\u5c5e\u6027\uff0f\u60aa\u9b54\u65cf\uff09\uff11\u4f53\u307e\u305f\u306f\u30de\u30ad\u30b7\u30de\u30e0\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u708e\u5c5e\u6027\uff0f\u60aa\u9b54\u65cf\uff09\uff12\u4f53\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc5fc \ub9c8\uc758 \uadf9\uce58",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130(\ub808\ubca8 10 / \ud654\uc5fc \uc18d\uc131 / \uc545\ub9c8\uc871) 1\uc7a5 \ub610\ub294 \ub9e5\uc2dc\uba48 \ubaac\uc2a4\ud130(\ud654\uc5fc \uc18d\uc131 / \uc545\ub9c8\uc871) 2\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\ub294\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "type": "fiend",
+  "classifications": [
+    "effect"
+  ],
+  "level": 6,
+  "atk": 1600,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "648c88c8-6ef0-47b4-b13e-b2ed114c617a",
+      "card": "https://ms.yugipedia.com//d/d8/UltimaStallionoftheBlazeFiends-RDSJMP-JP-NPR.png"
+    }
+  ],
+  "sets": [
+    "b254644c-27d2-4111-9a53-3a82de7d4cd5"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Ultima Stallion of the Blaze Fiends",
+        "id": 1135254
+      }
+    ],
+    "dbID": 21976
+  },
+  "series": [
+    "f5c3efea-440e-4585-aa6a-b79d87599d7c"
+  ]
+}

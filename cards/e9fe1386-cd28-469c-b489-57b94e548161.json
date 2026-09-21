@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "e9fe1386-cd28-469c-b489-57b94e548161",
+  "text": {
+    "en": {
+      "name": "Rainbow-Eyes Star Cat",
+      "effect": "Send cards from the top of your Deck to the Graveyard equal to [the number of face-up Level 7 or higher monsters on the field]. Then, if a monster(s) is among the cards sent, you can add up to 2 Level 7 monsters with 200 DEF from your Graveyard to your hand.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u8679\u773c\u306e\u661f\u732b",
+      "effect": "\u81ea\u5206\u306e\u30c7\u30c3\u30ad\u306e\u4e0a\u304b\u3089\uff3b\u304a\u4e92\u3044\u306e\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff17\u4ee5\u4e0a\uff09\u306e\u6570\uff3d\u3060\u3051\u30ab\u30fc\u30c9\u3092\u5893\u5730\u3078\u9001\u308b\u3002\u305d\u306e\u4e2d\u306b\u30e2\u30f3\u30b9\u30bf\u30fc\u304c\u3044\u305f\u5834\u5408\u3001\u3055\u3089\u306b\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff17\uff0f\u5b88\u5099\u529b\uff12\uff10\uff10\uff09\u3092\uff12\u4f53\u307e\u3067\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub808\uc778\ubcf4\uc6b0\uc544\uc774\uc988 \uc2a4\ud0c0\ucea3",
+      "effect": "\uc790\uc2e0\uc758 \ub371 \uc704\uc5d0\uc11c [\uc11c\ub85c\uc758 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\ub808\ubca8 7 \uc774\uc0c1)\uc758 \uc218]\ub9cc\ud07c \uce74\ub4dc\ub97c \ubb18\uc9c0\ub85c \ubcf4\ub0b8\ub2e4. \uadf8 \uc911\uc5d0 \ubaac\uc2a4\ud130\uac00 \uc788\uc5c8\uc744 \uacbd\uc6b0, \ucd94\uac00\ub85c \uc790\uc2e0 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130(\ub808\ubca8 7 / \uc218\ube44\ub825 200)\ub97c 2\uc7a5\uae4c\uc9c0 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\uc744 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "beast",
+  "classifications": [
+    "effect"
+  ],
+  "level": 2,
+  "atk": 700,
+  "def": 200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "a6883667-8870-464c-b39a-6eb5ffde2700",
+      "card": "https://ms.yugipedia.com//e/e8/RainbowEyesStarCat-RDKP18-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Rainbow-Eyes Star Cat",
+        "id": 1072986
+      }
+    ],
+    "dbID": 20619
+  },
+  "series": [
+    "79a5d72a-ddca-4158-ae45-bb393d081135"
+  ]
+}

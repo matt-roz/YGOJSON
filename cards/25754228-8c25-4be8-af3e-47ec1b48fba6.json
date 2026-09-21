@@ -1,0 +1,42 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "25754228-8c25-4be8-af3e-47ec1b48fba6",
+  "text": {
+    "en": {
+      "name": "Koitsu (Rush Duel)",
+      "effect": "Equip this card to 1 face-up \"Aitsu\" on your field that is not equipped with a Union Monster Card as an Equip Spell Card with the following effect. \u25cfThe equipped monster gains 3000 ATK, and it inflicts piercing battle damage.",
+      "official": false
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "type": "fairy",
+  "classifications": [
+    "effect"
+  ],
+  "abilities": [
+    "union"
+  ],
+  "level": 10,
+  "atk": 200,
+  "def": 100,
+  "passwords": [],
+  "images": [
+    {
+      "id": "6f59f48f-e6d5-457d-9dd4-a8128328f4ee",
+      "card": "https://ms.yugipedia.com//0/09/Koitsu-RDAP03-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Koitsu (Rush Duel)",
+        "id": 1201870
+      }
+    ],
+    "dbID": 23464
+  },
+  "series": []
+}

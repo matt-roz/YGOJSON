@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "1841aac1-f520-4395-9692-4adb547cfcef",
+  "text": {
+    "en": {
+      "name": "Yorishiro of the Lion",
+      "effect": "Excavate the top 4 cards of your Deck. You can add 1 excavated \"War-Lion Ritual\" and/or \"War-Lion Assault\" to your hand. Place the other cards on the bottom of your Deck in any order.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u7345\u5b50\u306e\u4f9d\u4ee3",
+      "effect": "\u81ea\u5206\u306e\u30c7\u30c3\u30ad\u306e\u4e0a\u304b\u3089\u30ab\u30fc\u30c9\u3092\uff14\u679a\u3081\u304f\u308a\u3001\u304a\u4e92\u3044\u306b\u78ba\u8a8d\u3059\u308b\u3002\u81ea\u5206\u306f\u305d\u306e\u4e2d\u304b\u3089\u300c\u30e9\u30a4\u30aa\u30f3\u306e\u5100\u5f0f\u300d\u300c\u30e9\u30a4\u30aa\u30f3\u306e\u5f37\u8972\u300d\u3092\u305d\u308c\u305e\u308c\uff11\u679a\u307e\u3067\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002\u6b8b\u308a\u306e\u30ab\u30fc\u30c9\u3092\u597d\u304d\u306a\u9806\u756a\u3067\u30c7\u30c3\u30ad\u306e\u4e0b\u306b\u623b\u3059\u3002"
+    },
+    "ko": {
+      "name": "\uc0ac\uc790\uc758 \uc758\ub300",
+      "effect": "\uc790\uc2e0\uc758 \ub371 \uc704\uc5d0\uc11c \uce74\ub4dc\ub97c 4\uc7a5 \ub118\uae30\uace0, \uc11c\ub85c \ud655\uc778\ud55c\ub2e4. \uc790\uc2e0\uc740 \uadf8 \uc911\uc5d0\uc11c \"\ub77c\uc774\uc628\uc758 \uc758\uc2dd\" \"\ub77c\uc774\uc628\uc758 \uac15\uc2b5\"\uc744 \uac01\uac01 1\uc7a5\uae4c\uc9c0 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\uc744 \uc218 \uc788\ub2e4. \ub0a8\uc740 \uce74\ub4dc\ub97c \uc88b\uc544\ud558\ub294 \uc21c\uc11c\ub300\ub85c \ub371 \uc544\ub798\ub85c \ub418\ub3cc\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "beast",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1200,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "006d1bf3-c122-45d9-8acf-2f16853e7ea2",
+      "card": "https://ms.yugipedia.com//f/f1/YorishirooftheLion-RDKP23-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Yorishiro of the Lion",
+        "id": 1159428
+      }
+    ],
+    "dbID": 22432
+  },
+  "series": [
+    "377f5195-a851-455c-848a-4c3de76fe92c"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "8ec87a96-ad1b-4d5a-8154-eddb81a96bd6",
+  "text": {
+    "en": {
+      "name": "De-Spell (Rush Duel)",
+      "effect": "Choose 1 face-up Spell Card or 1 face-down Spell/Trap Card on your opponent's field. If that card is face-up, destroy it. If that card is face-down, look at it. Then, if that card is a Spell Card, destroy it.",
+      "official": false
+    },
+    "ko": {
+      "name": "\ub9c8\ubc95 \uc81c\uac70",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc\uc758 \ub9c8\ubc95 \uce74\ub4dc \ub610\ub294 \ub4b7\uba74 \ud45c\uc2dc\uc758 \ub9c8\ubc95 / \ud568\uc815 \uce74\ub4dc 1\uc7a5\uc744 \uace0\ub978\ub2e4. \uace0\ub978 \uce74\ub4dc\uac00 \uc55e\uba74 \ud45c\uc2dc\uc77c \uacbd\uc6b0, \uadf8 \uce74\ub4dc\ub97c \ud30c\uad34\ud55c\ub2e4. \uace0\ub978 \uce74\ub4dc\uac00 \ub4b7\uba74 \ud45c\uc2dc\uc77c \uacbd\uc6b0, \uadf8 \uce74\ub4dc\ub97c \ud655\uc778\ud55c\ub2e4. \ub9c8\ubc95 \uce74\ub4dc\uc600\uc744 \uacbd\uc6b0, \ucd94\uac00\ub85c \uadf8 \uce74\ub4dc\ub97c \ud30c\uad34\ud55c\ub2e4."
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "3d3f90a3-908a-44d8-a861-3416a23b0e2b",
+      "card": "https://ms.yugipedia.com//9/9d/DeSpell-RDKP16-JP-R.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "De-Spell (Rush Duel)",
+        "id": 1040913
+      }
+    ],
+    "dbID": 20008
+  },
+  "series": []
+}

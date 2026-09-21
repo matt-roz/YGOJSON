@@ -1,0 +1,53 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "b3ea1241-1b58-4903-a70d-07ccdb3983d9",
+  "text": {
+    "en": {
+      "name": "Animagica Sorcerer",
+      "effect": "Face-up Beast Type monsters on your field gain 400 ATK/DEF, and they inflict piercing battle damage. Increase the Level of face-up LIGHT Attribute Beast Type monsters on your field by 2.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30a2\u30cb\u30de\u30b8\u30ab\u30fb\u30bd\u30fc\u30b5\u30e9\u30fc",
+      "effect": "\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u7363\u65cf\uff09\u306e\u653b\u6483\u529b\u30fb\u5b88\u5099\u529b\u306f\uff14\uff10\uff10\u30a2\u30c3\u30d7\u3057\u3001\u305d\u306e\u653b\u6483\u306f\u8cab\u901a\u3059\u308b\u3002\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u5149\u5c5e\u6027\uff0f\u7363\u65cf\uff09\u306e\u30ec\u30d9\u30eb\u306f\uff12\u4e0a\u304c\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc560\ub2c8\ub9e4\uc9c0\uce74 \uc18c\uc11c\ub7ec",
+      "effect": "\uc790\uc2e0 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\uc57c\uc218\uc871)\uc758 \uacf5\uaca9\ub825 / \uc218\ube44\ub825\uc740 400 \uc62c\ub9ac\uace0, \uadf8 \uacf5\uaca9\uc740 \uad00\ud1b5\ud55c\ub2e4. \uc790\uc2e0 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\ube5b \uc18d\uc131 / \uc57c\uc218\uc871)\uc758 \ub808\ubca8\uc740 2 \uc62c\ub77c\uac04\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "beast",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1000,
+  "def": 900,
+  "passwords": [],
+  "images": [
+    {
+      "id": "1b630e0e-f7e3-4c37-a7cf-07bf513acd5f",
+      "card": "https://ms.yugipedia.com//f/f1/AnimagicaSorcerer-RDKP20-JP-SR.png"
+    },
+    {
+      "id": "e09346d3-9ece-434a-bad6-cb7fd32febf4",
+      "card": "https://ms.yugipedia.com//7/7f/AnimagicaSorcerer-RDKP20-JP-ScR-AA.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Animagica Sorcerer",
+        "id": 1100647
+      }
+    ],
+    "dbID": 21279
+  },
+  "series": [
+    "c1142f56-ae39-40b3-a589-264afc07aa82"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "79f31cb4-e5c1-40db-9735-3d009bf65da1",
+  "text": {
+    "en": {
+      "name": "Ceremonial Sorcerer",
+      "effect": "Destroy 1 card on your opponent's field.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30bb\u30ec\u30e2\u30cb\u30a2\u30eb\u30fb\u30bd\u30fc\u30b5\u30e9\u30fc",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u30ab\u30fc\u30c9\uff11\u679a\u3092\u9078\u3093\u3067\u7834\u58ca\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc138\ub808\ubaa8\ub2c8\uc5bc \uc18c\uc11c\ub7ec",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \uce74\ub4dc 1\uc7a5\uc744 \uace0\ub974\uace0 \ud30c\uad34\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "monsterCardTypes": [
+    "ritual"
+  ],
+  "type": "spellcaster",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2300,
+  "def": 2500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "d8847313-ef9f-43d9-80e8-cee716010cc9",
+      "card": "https://ms.yugipedia.com//6/64/CeremonialSorcerer-RDSD0E-JP-C.png"
+    },
+    {
+      "id": "21baa6bf-3e64-4e50-98a7-7c5e2991ccb6",
+      "card": "https://ms.yugipedia.com//8/82/CeremonialSorcerer-RDS254-JP-OP.png"
+    }
+  ],
+  "sets": [
+    "baac8391-2c2d-4331-8582-71b7007e0af6",
+    "baac8391-2c2d-4331-8582-71b7007e0af6",
+    "baac8391-2c2d-4331-8582-71b7007e0af6",
+    "baac8391-2c2d-4331-8582-71b7007e0af6"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Ceremonial Sorcerer",
+        "id": 1122605
+      }
+    ],
+    "dbID": 21589
+  },
+  "series": [
+    "73409add-3e9e-400d-a8b0-ae600de6af69"
+  ]
+}

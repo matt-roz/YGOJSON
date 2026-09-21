@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "adbf980d-5ed4-48a6-bda8-04212c494792",
+  "text": {
+    "en": {
+      "name": "Dark Matter Emperor Dragon",
+      "effect": "Destroy 2 face-down cards on the field. This turn, this card gains 2000 ATK.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30c0\u30fc\u30af\u30de\u30bf\u30fc\u30fb\u30a8\u30f3\u30da\u30e9\u30fc\u30fb\u30c9\u30e9\u30b4\u30f3",
+      "effect": "\u81ea\u5206\u307e\u305f\u306f\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u88cf\u5074\u8868\u793a\u306e\u30ab\u30fc\u30c9\u3092\u5408\u8a08\uff12\u679a\u9078\u3093\u3067\u7834\u58ca\u3059\u308b\u3002\u3053\u306e\u30bf\u30fc\u30f3\u3001\u3053\u306e\u30ab\u30fc\u30c9\u306e\u653b\u6483\u529b\u306f\uff12\uff10\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub2e4\ud06c\ub9e4\ud130 \uc5e0\ud398\ub7ec \ub4dc\ub798\uace4",
+      "effect": "\uc790\uc2e0 \ub610\ub294 \uc0c1\ub300 \ud544\ub4dc\uc758 \ub4b7\uba74 \ud45c\uc2dc\uc758 \uce74\ub4dc\ub97c \ud569\uacc4 2\uc7a5 \uace0\ub974\uace0 \ud30c\uad34\ud55c\ub2e4. \uc774 \ud134\uc5d0, \uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\ub825\uc740 2000 \uc62c\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 3000,
+  "def": 2500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "9b4d648c-d451-4a8f-9e11-2349b52ecb85",
+      "card": "https://ms.yugipedia.com//8/8f/DarkMatterEmperorDragon-RDKP18-JP-UR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Dark Matter Emperor Dragon",
+        "id": 1059491
+      }
+    ],
+    "dbID": 20647
+  },
+  "series": [
+    "20e1a2b3-4557-4a43-a6e4-4f54272ef025"
+  ]
+}

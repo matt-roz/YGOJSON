@@ -1,0 +1,44 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "130183eb-c340-4445-8f87-1bea5dfaff18",
+  "text": {
+    "en": {
+      "name": "Lostream Myura",
+      "effect": "Equip this card to 1 face-up WIND Attribute Sea Serpent Type monster on your field as an Equip Spell Card with the following effect. Then, you can Special Summon 1 WIND Attribute Sea Serpent Type monster from your hand face-up to your field. \u25cfThe equipped monster cannot be returned to the hand/Deck/Extra Deck by card effects.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u96f2\u6d77\u7adc \u30df\u30e5\u30fc\u30e9"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "wind",
+  "type": "seaserpent",
+  "classifications": [
+    "effect"
+  ],
+  "abilities": [
+    "union"
+  ],
+  "level": 4,
+  "atk": 800,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "b141baa3-f97d-4c47-9536-e8c13ba062b2",
+      "card": "https://ms.yugipedia.com//e/ed/LostreamMyura-RDCA01-JP-OP.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Lostream Myura",
+        "id": 1225507
+      }
+    ]
+  },
+  "series": []
+}

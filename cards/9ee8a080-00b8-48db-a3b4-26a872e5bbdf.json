@@ -1,0 +1,56 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "9ee8a080-00b8-48db-a3b4-26a872e5bbdf",
+  "text": {
+    "en": {
+      "name": "Ann the White Crow Knight",
+      "effect": "You can reveal this card in your hand; Special Summon 1 \"White Crow\" monster from your hand, except \"Ann the White Crow Knight\". During the Main Phase (Quick Effect): You can target 1 \"White Crow\" monster you control; place it face-up in its owner's Spell & Trap Zone as a Continuous Spell, and if you do, Special Summon 1 \"White Crow\" monster from your hand or GY, except \"Ann the White Crow Knight\". You can only use each effect of \"Ann the White Crow Knight\" once per turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u767d\u9d09\u306e\u9a0e\u58eb\u30a2\u30f3"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "illusion",
+  "classifications": [
+    "tuner",
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1400,
+  "def": 900,
+  "passwords": [],
+  "images": [
+    {
+      "id": "7f9d69f2-c7c1-4f3d-8fa4-1d03905c3505",
+      "card": "https://ms.yugipedia.com//3/38/AnntheWhiteCrowKnight-IMPH-JP-OP.png"
+    },
+    {
+      "id": "9dc36b01-911a-4a02-a4a8-242e536357ce",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/101403011.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/101403011.jpg"
+    }
+  ],
+  "sets": [
+    "ccc8125c-0182-45df-91a7-57e5e2423dfc",
+    "ccc8125c-0182-45df-91a7-57e5e2423dfc"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Ann the White Crow Knight",
+        "id": 1224547
+      }
+    ],
+    "ygoprodeck": {
+      "id": 101403011,
+      "name": "ann-the-white-crow-knight-15951"
+    }
+  },
+  "series": [
+    "44479bee-2678-4dcd-859e-43a2597c1ef2"
+  ]
+}

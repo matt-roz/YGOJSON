@@ -1,0 +1,52 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "e3307215-f049-4af3-a997-9d2d00ceaf16",
+  "text": {
+    "en": {
+      "name": "Bandiva the Ballistic Battle Ballad",
+      "effect": "Draw 1 card. Then, this card gains ATK equal to [the total number of cards in both players' hands] x 500 until the end of your opponent's next turn. Then, if you only have 1 card in your hand, you can destroy 1 card on your opponent's field.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u77ac\u82db\u95d8\u594f\u306e\u30d0\u30f3\u30c7\u30a3\u30fc\u30f4\u30a1",
+      "effect": "\u81ea\u5206\u306f\uff11\u679a\u30c9\u30ed\u30fc\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u3053\u306e\u30ab\u30fc\u30c9\u306e\u653b\u6483\u529b\u306f\u6b21\u306e\u76f8\u624b\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\u3001\uff3b\u304a\u4e92\u3044\u306e\u624b\u672d\u306e\u6570\u306e\u5408\u8a08\uff3d\u00d7\uff15\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002\u81ea\u5206\u306e\u624b\u672d\u304c\uff11\u679a\u306e\u5834\u5408\u3001\u3055\u3089\u306b\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u30ab\u30fc\u30c9\uff11\u679a\u3092\u9078\u3093\u3067\u7834\u58ca\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc21c\uac00\ud22c\uc8fc\uc758 \ubc34\ub514\ubc14",
+      "effect": "\uc790\uc2e0\uc740 1\uc7a5 \ub4dc\ub85c\uc6b0\ud55c\ub2e4. \uadf8 \ud6c4, \uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\ub825\uc740 \ub2e4\uc74c \uc0c1\ub300 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0, [\uc11c\ub85c\uc758 \ud328 \uc218\uc758 \ud569\uacc4] \u00d7 500 \uc62c\ub9b0\ub2e4. \uc790\uc2e0\uc758 \ud328\uac00 1\uc7a5\uc77c \uacbd\uc6b0, \ucd94\uac00\ub85c \uc0c1\ub300 \ud544\ub4dc\uc758 \uce74\ub4dc 1\uc7a5\uc744 \uace0\ub974\uace0 \ud30c\uad34\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "wind",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "psychic",
+  "classifications": [
+    "effect"
+  ],
+  "level": 9,
+  "atk": 3000,
+  "def": 2100,
+  "passwords": [],
+  "images": [
+    {
+      "id": "c3b1e885-bc63-4251-ab30-d843f3bc12f6",
+      "card": "https://ms.yugipedia.com//3/34/BandivatheBallisticBattleBallad-RDKP15-JP-R.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Bandiva the Ballistic Battle Ballad",
+        "id": 1022691
+      }
+    ],
+    "dbID": 19677
+  },
+  "series": [
+    "e2451a40-fb70-4685-998f-4eb578b9eb8a"
+  ]
+}

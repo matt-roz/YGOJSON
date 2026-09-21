@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "067de5ce-eda1-469b-981d-e2c7a6c119d2",
+  "text": {
+    "en": {
+      "name": "Leogun the Golden-Haired Magical Beast",
+      "effect": "Add 1 \"War-Lion Ritual\" or \"War-Lion Assault\" from your Graveyard to your hand.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u91d1\u6bdb\u306e\u9b54\u7363\u30ec\u30aa\u30b0\u30f3",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u30e9\u30a4\u30aa\u30f3\u306e\u5100\u5f0f\u300d\u307e\u305f\u306f\u300c\u30e9\u30a4\u30aa\u30f3\u306e\u5f37\u8972\u300d\uff11\u679a\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uae08\ubaa8\uc758 \ub9c8\uc218 \ub808\uc624\uad70",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \"\ub77c\uc774\uc628\uc758 \uc758\uc2dd\" \ub610\ub294 \"\ub77c\uc774\uc628\uc758 \uac15\uc2b5\" 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\ub294\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "beast",
+  "classifications": [
+    "effect"
+  ],
+  "level": 5,
+  "atk": 1800,
+  "def": 1600,
+  "passwords": [],
+  "images": [
+    {
+      "id": "4eb22798-7ea5-4787-811d-c2cde542c385",
+      "card": "https://ms.yugipedia.com//8/87/LeoguntheGoldenHairedMagicalBeast-RDKP23-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Leogun the Golden-Haired Magical Beast",
+        "id": 1159430
+      }
+    ],
+    "dbID": 22434
+  },
+  "series": [
+    "377f5195-a851-455c-848a-4c3de76fe92c"
+  ]
+}

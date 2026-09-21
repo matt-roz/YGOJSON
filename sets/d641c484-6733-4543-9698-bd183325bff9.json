@@ -1,0 +1,92 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "d641c484-6733-4543-9698-bd183325bff9",
+  "name": {
+    "en": "Winner's Pack 2026 Vol.3",
+    "ja": "\u30a6\u30a3\u30ca\u30fc\u30ba\u30d1\u30c3\u30af \uff12\uff10\uff12\uff16 \uff36\uff4f\uff4c\uff0e\uff13"
+  },
+  "locales": {
+    "jp": {
+      "language": "ja",
+      "prefix": "26WP-JP",
+      "date": "2026-10-01",
+      "image": "https://ms.yugipedia.com//6/68/26WP-BoosterJP-Vol3.png",
+      "cardImages": {
+        "unlimited": {}
+      },
+      "cardInfo": {
+        "unlimited": {}
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {}
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//6/68/26WP-BoosterJP-Vol3.png",
+      "cards": [
+        {
+          "id": "fc8b00ec-dc73-4c6e-b6f6-777c549dfd75",
+          "card": "47a2ad70-324d-4074-847b-3cd18bdd72dd",
+          "suffix": "301",
+          "rarity": "ultraparallel",
+          "imageID": "246173c6-c510-4866-b1ae-4c4d81cdeda6",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "77c5efe0-590e-40f8-ac88-c32f82ceeb65",
+          "card": "37275b2f-8785-4c3f-9bee-6fac928af3c8",
+          "suffix": "302",
+          "rarity": "ultraparallel",
+          "imageID": "9b5eb484-2362-4cfe-9dd7-24af50e07ae6",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "783fc666-0b68-47ef-a96d-c23ac413ae63",
+          "card": "44f8ab5a-eaea-4048-bf57-5913c2544ec4",
+          "suffix": "303",
+          "rarity": "ultraparallel",
+          "imageID": "972fa2d2-ce9d-4911-9663-080249beb776",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "f989b869-a924-4da3-a0b0-68126a9cdbbf",
+          "card": "d05a1bfb-60a3-4e89-9784-c3e82ae19eeb",
+          "suffix": "304",
+          "rarity": "ultraparallel",
+          "imageID": "da73a64b-9044-499f-9e42-7b33c34f386a",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "4a402706-3545-42f1-a035-59e8061c03c1",
+          "card": "f67f5693-7ae2-4e4e-aef3-785392234847",
+          "suffix": "305",
+          "rarity": "ultraparallel",
+          "imageID": "3fa0e200-3300-4ddb-9d50-4ea97cb50010",
+          "printStatus": "reprint"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Winner's Pack 2026 Vol.3",
+      "id": 1228324
+    }
+  }
+}

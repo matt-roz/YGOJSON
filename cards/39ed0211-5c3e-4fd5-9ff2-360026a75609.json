@@ -1,0 +1,55 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "39ed0211-5c3e-4fd5-9ff2-360026a75609",
+  "text": {
+    "en": {
+      "name": "Alpha Burn Drake",
+      "effect": "A dragon child with hidden potential. It dreams of those goggles that show a vast virtual world."
+    },
+    "ja": {
+      "name": "\u03b1\u30d0\u30fc\u30f3\u30fb\u30c9\u30ec\u30a4\u30af",
+      "effect": "\u69d8\u3005\u306a\u53ef\u80fd\u6027\u3092\u79d8\u3081\u305f\u30c9\u30e9\u30b4\u30f3\u306e\u5b50\u4f9b\u3002\u30b4\u30fc\u30b0\u30eb\u304c\u751f\u307f\u51fa\u3059\u5e83\u5927\u306aVR\u4e16\u754c\u306b\u61a7\u308c\u3092\u62b1\u304f\u3002"
+    },
+    "ko": {
+      "name": "\u03b1\ubc88 \ub4dc\ub808\uc774\ud06c",
+      "effect": "\ub2e4\uc591\ud55c \uac00\ub2a5\uc131\uc744 \ud488\uc740 \uc5b4\ub9b0 \ub4dc\ub798\uace4. \uace0\uae00\uc744 \ud1b5\ud574 \ubcf4\uc5ec\uc9c0\ub294 \uad11\ub300\ud55c VR \uc138\uacc4\ub97c \ub3d9\uacbd\ud558\uace0 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "dragon",
+  "classifications": [
+    "normal"
+  ],
+  "level": 1,
+  "atk": 600,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "45423bb9-d9bb-48c0-8a43-b5d36897aa39",
+      "card": "https://ms.yugipedia.com//8/83/AlphaBurnDrake-RDSD03-JP-C.png"
+    }
+  ],
+  "sets": [
+    "ec7418c0-cd48-468b-9ef5-a362b2a63198",
+    "b3912bea-7700-43b3-8e58-def0f757111c",
+    "b3912bea-7700-43b3-8e58-def0f757111c"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "r"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Alpha Burn Drake",
+        "id": 712658
+      }
+    ],
+    "dbID": 17952
+  },
+  "series": [
+    "769c25f7-ecce-4241-b6fc-026abf19ab65"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "745d11b6-78fe-41b9-929f-870b779243cc",
+  "text": {
+    "en": {
+      "name": "Mighty Gaze of the Sky Emperor",
+      "effect": "Change the battle position of 1 monster on your opponent's field (Attack Position becomes face-up Defense Position, Defense Position becomes face-up Attack Position). Then, if you have a face-up Level 10 monster on your field, you can draw 1 card."
+    },
+    "ja": {
+      "name": "\u5929\u5e1d\u306e\u5a01\u773c",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u3092\u9078\u3093\u3067\u8868\u793a\u5f62\u5f0f\u3092\u5909\u66f4\u3059\u308b\uff08\u653b\u6483\u8868\u793a\u306f\u8868\u5074\u5b88\u5099\u8868\u793a\u306b\u3001\u5b88\u5099\u8868\u793a\u306f\u8868\u5074\u653b\u6483\u8868\u793a\u306b\u3059\u308b\uff09\u3002\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff11\uff10\uff09\u304c\u3044\u308b\u5834\u5408\u3001\u3055\u3089\u306b\u81ea\u5206\u306f\uff11\u679a\u30c9\u30ed\u30fc\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ucc9c \uc81c\uc655\uc758 \uc704\uc548",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \ubaac\uc2a4\ud130 1\uc7a5\uc744 \uace0\ub974\uace0 \ud45c\uc2dc \ud615\uc2dd\uc744 \ubcc0\uacbd\ud55c\ub2e4(\uacf5\uaca9 \ud45c\uc2dc\ub294 \uc55e\uba74 \uc218\ube44 \ud45c\uc2dc\ub85c, \uc218\ube44 \ud45c\uc2dc\ub294 \uc55e\uba74 \uacf5\uaca9 \ud45c\uc2dc\ub85c \ud55c\ub2e4). \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\ub808\ubca8 10)\uac00 \uc788\uc744 \uacbd\uc6b0, \ucd94\uac00\ub85c \uc790\uc2e0\uc740 1\uc7a5 \ub4dc\ub85c\uc6b0\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "60e0b747-8a59-484d-bfd7-1a27981ec32f",
+      "card": "https://ms.yugipedia.com//7/7b/MightyGazeoftheSkyEmperor-RDKP05-JP-SR.png"
+    }
+  ],
+  "sets": [
+    "5b6d7ab4-987e-4469-89bd-9d9bf3d400c0",
+    "a08d0d55-5282-4487-b8b3-a190adb90edf"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Mighty Gaze of the Sky Emperor",
+        "id": 717077
+      }
+    ],
+    "dbID": 16350
+  },
+  "series": []
+}

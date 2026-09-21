@@ -1,0 +1,388 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "40f01512-2cbe-4f38-9458-34934f901275",
+  "name": {
+    "en": "Duelist Pack: Yugi",
+    "ko": "\ub4c0\uc5bc\ub9ac\uc2a4\ud2b8 \ud329 \u2014\uc720\ud76c \ud3b8\u2014"
+  },
+  "locales": {
+    "kr": {
+      "language": "ko",
+      "prefix": "DP00-KR",
+      "date": "2009-09-29",
+      "image": "https://ms.yugipedia.com//d/db/DP00-BoosterKR.jpg",
+      "cardImages": {
+        "unlimited": {
+          "0116559e-706c-43ee-9384-0690f98f9f4e": "https://ms.yugipedia.com//5/57/SkilledDarkMagician-DP00-KR-C-UE.jpg",
+          "0310b329-7d5d-4559-a291-a2d58c4ef3fd": "https://ms.yugipedia.com//7/7f/GoldSarcophagus-DP00-KR-SR-UE.png",
+          "03670731-eac7-48e6-b4a0-7abdcd7682d0": "https://ms.yugipedia.com//1/11/MagicalHats-DP00-KR-C-UE.jpg",
+          "126a6210-68f1-49f2-a15e-cb9dddadc4e3": "https://ms.yugipedia.com//1/1d/DarkMagicCurtain-DP00-KR-C-UE.jpg",
+          "129e6a07-8023-4f42-81ea-01eb13e5df9d": "https://ms.yugipedia.com//4/48/StrongholdtheMovingFortress-DP00-KR-C-UE.jpg",
+          "1d0e2395-2121-4cf2-8353-bcec51f1e7f0": "https://ms.yugipedia.com//c/c1/BigShieldGardna-DP00-KR-C-UE.jpg",
+          "316c04ad-33e5-4314-b0c8-83d2b1e31f64": "https://ms.yugipedia.com//3/33/BlackLusterRitual-DP00-KR-C-UE.jpg",
+          "317026cc-94e5-409c-98c7-5ab4e029c6a3": "https://ms.yugipedia.com//f/f3/DarkMagician-DP00-KR-SR-UE.jpg",
+          "4a4034b6-6762-4b15-afa5-41ef59ac12a5": "https://ms.yugipedia.com//a/af/SagesStone-DP00-KR-R-UE.jpg",
+          "53a62890-37d2-42d3-8cf2-f01375f13313": "https://ms.yugipedia.com//1/1f/LightforceSword-DP00-KR-C-UE.jpg",
+          "623c0cc7-2999-4070-b1de-5936d3b7faa7": "https://ms.yugipedia.com//e/ea/MirrorForce-DP00-KR-R-UE.jpg",
+          "64e9d72c-6215-418e-b046-9d451fc1e226": "https://ms.yugipedia.com//c/cf/BusterBlader-DP00-KR-C-UE.jpg",
+          "6ba8eee5-ec0e-493f-a493-3039ef6bf712": "https://ms.yugipedia.com//1/1d/SpellbindingCircle-DP00-KR-C-UE.jpg",
+          "75ee216b-b614-4b50-8a7f-a8a294c6cdfc": "https://ms.yugipedia.com//e/eb/AlphaTheMagnetWarrior-DP00-KR-R-UE.jpg",
+          "781dcbd7-2c8c-486d-9dc6-0ac54923ad55": "https://ms.yugipedia.com//d/d9/BreakertheMagicalWarrior-DP00-KR-R-UE.jpg",
+          "7c66bc2f-8036-4de2-8d9c-f40a18ad41bc": "https://ms.yugipedia.com//1/19/BetaTheMagnetWarrior-DP00-KR-R-UE.jpg",
+          "87f6866d-ac12-43d8-94fe-2d46dccaaa8d": "https://ms.yugipedia.com//0/05/DarkMagicianGirl-DP00-KR-SR-UE.png",
+          "a0ac557b-ce75-4188-a877-93e36a9eb1e0": "https://ms.yugipedia.com//e/e3/Kuriboh-DP00-KR-C-UE.jpg",
+          "ae636a64-41c9-4305-a0eb-ba09399777ae": "https://ms.yugipedia.com//8/8f/ValkyriontheMagnaWarrior-DP00-KR-SR-UE.jpg",
+          "b161385a-1095-441c-b9df-8754e84957fe": "https://ms.yugipedia.com//e/ee/DarkPaladin-DP00-KR-UR-UE.jpg",
+          "b8c0ad65-f303-48e5-a0f8-083a5f026cab": "https://ms.yugipedia.com//c/c9/MagicCylinder-DP00-KR-C-UE.png",
+          "b95b0521-3924-49e2-b68e-34a7913315ed": "https://ms.yugipedia.com//1/16/BrainControl-DP00-KR-R-UE.jpg",
+          "bb0a49a4-e346-4262-b1a9-27efbfce99e1": "https://ms.yugipedia.com//3/3c/Multiply-DP00-KR-UR-UE.jpg",
+          "bdc4b178-19fb-4f34-9b7a-760895e18c18": "https://ms.yugipedia.com//c/c2/Polymerization-DP00-KR-C-UE.jpg",
+          "c0d0b1d3-04e3-4878-a191-63bdef6febbe": "https://ms.yugipedia.com//b/b3/Exchange-DP00-KR-C-UE.jpg",
+          "cb5a477d-5fba-4488-92be-1087a6c29f62": "https://ms.yugipedia.com//4/48/GorztheEmissaryofDarkness-DP00-KR-ScR-UE.png",
+          "d81140d2-d375-4213-b96b-6e065fe6c78f": "https://ms.yugipedia.com//0/05/GammaTheMagnetWarrior-DP00-KR-R-UE.jpg",
+          "dce54a83-5de9-4529-80d1-c573767cfd5a": "https://ms.yugipedia.com//a/a8/CardofSanctity-DP00-KR-C-UE.jpg",
+          "f6e6a49d-48de-4cd5-8edb-ecd2f5e4b52e": "https://ms.yugipedia.com//f/f3/SwordsofRevealingLight-DP00-KR-C-UE.jpg",
+          "f893dc70-4c6e-440d-b27d-e232aa16e740": "https://ms.yugipedia.com//9/9f/SorcererofDarkMagic-DP00-KR-C-UE.jpg"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "0116559e-706c-43ee-9384-0690f98f9f4e": {
+            "image": "https://ms.yugipedia.com//5/57/SkilledDarkMagician-DP00-KR-C-UE.jpg"
+          },
+          "0310b329-7d5d-4559-a291-a2d58c4ef3fd": {
+            "image": "https://ms.yugipedia.com//7/7f/GoldSarcophagus-DP00-KR-SR-UE.png"
+          },
+          "03670731-eac7-48e6-b4a0-7abdcd7682d0": {
+            "image": "https://ms.yugipedia.com//1/11/MagicalHats-DP00-KR-C-UE.jpg"
+          },
+          "126a6210-68f1-49f2-a15e-cb9dddadc4e3": {
+            "image": "https://ms.yugipedia.com//1/1d/DarkMagicCurtain-DP00-KR-C-UE.jpg"
+          },
+          "129e6a07-8023-4f42-81ea-01eb13e5df9d": {
+            "image": "https://ms.yugipedia.com//4/48/StrongholdtheMovingFortress-DP00-KR-C-UE.jpg"
+          },
+          "1d0e2395-2121-4cf2-8353-bcec51f1e7f0": {
+            "image": "https://ms.yugipedia.com//c/c1/BigShieldGardna-DP00-KR-C-UE.jpg"
+          },
+          "316c04ad-33e5-4314-b0c8-83d2b1e31f64": {
+            "image": "https://ms.yugipedia.com//3/33/BlackLusterRitual-DP00-KR-C-UE.jpg"
+          },
+          "317026cc-94e5-409c-98c7-5ab4e029c6a3": {
+            "image": "https://ms.yugipedia.com//f/f3/DarkMagician-DP00-KR-SR-UE.jpg"
+          },
+          "4a4034b6-6762-4b15-afa5-41ef59ac12a5": {
+            "image": "https://ms.yugipedia.com//a/af/SagesStone-DP00-KR-R-UE.jpg"
+          },
+          "53a62890-37d2-42d3-8cf2-f01375f13313": {
+            "image": "https://ms.yugipedia.com//1/1f/LightforceSword-DP00-KR-C-UE.jpg"
+          },
+          "623c0cc7-2999-4070-b1de-5936d3b7faa7": {
+            "image": "https://ms.yugipedia.com//e/ea/MirrorForce-DP00-KR-R-UE.jpg"
+          },
+          "64e9d72c-6215-418e-b046-9d451fc1e226": {
+            "image": "https://ms.yugipedia.com//c/cf/BusterBlader-DP00-KR-C-UE.jpg"
+          },
+          "6ba8eee5-ec0e-493f-a493-3039ef6bf712": {
+            "image": "https://ms.yugipedia.com//1/1d/SpellbindingCircle-DP00-KR-C-UE.jpg"
+          },
+          "75ee216b-b614-4b50-8a7f-a8a294c6cdfc": {
+            "image": "https://ms.yugipedia.com//e/eb/AlphaTheMagnetWarrior-DP00-KR-R-UE.jpg"
+          },
+          "781dcbd7-2c8c-486d-9dc6-0ac54923ad55": {
+            "image": "https://ms.yugipedia.com//d/d9/BreakertheMagicalWarrior-DP00-KR-R-UE.jpg"
+          },
+          "7c66bc2f-8036-4de2-8d9c-f40a18ad41bc": {
+            "image": "https://ms.yugipedia.com//1/19/BetaTheMagnetWarrior-DP00-KR-R-UE.jpg"
+          },
+          "87f6866d-ac12-43d8-94fe-2d46dccaaa8d": {
+            "image": "https://ms.yugipedia.com//0/05/DarkMagicianGirl-DP00-KR-SR-UE.png"
+          },
+          "a0ac557b-ce75-4188-a877-93e36a9eb1e0": {
+            "image": "https://ms.yugipedia.com//e/e3/Kuriboh-DP00-KR-C-UE.jpg"
+          },
+          "ae636a64-41c9-4305-a0eb-ba09399777ae": {
+            "image": "https://ms.yugipedia.com//8/8f/ValkyriontheMagnaWarrior-DP00-KR-SR-UE.jpg"
+          },
+          "b161385a-1095-441c-b9df-8754e84957fe": {
+            "image": "https://ms.yugipedia.com//e/ee/DarkPaladin-DP00-KR-UR-UE.jpg"
+          },
+          "b8c0ad65-f303-48e5-a0f8-083a5f026cab": {
+            "image": "https://ms.yugipedia.com//c/c9/MagicCylinder-DP00-KR-C-UE.png"
+          },
+          "b95b0521-3924-49e2-b68e-34a7913315ed": {
+            "image": "https://ms.yugipedia.com//1/16/BrainControl-DP00-KR-R-UE.jpg"
+          },
+          "bb0a49a4-e346-4262-b1a9-27efbfce99e1": {
+            "image": "https://ms.yugipedia.com//3/3c/Multiply-DP00-KR-UR-UE.jpg"
+          },
+          "bdc4b178-19fb-4f34-9b7a-760895e18c18": {
+            "image": "https://ms.yugipedia.com//c/c2/Polymerization-DP00-KR-C-UE.jpg"
+          },
+          "c0d0b1d3-04e3-4878-a191-63bdef6febbe": {
+            "image": "https://ms.yugipedia.com//b/b3/Exchange-DP00-KR-C-UE.jpg"
+          },
+          "cb5a477d-5fba-4488-92be-1087a6c29f62": {
+            "image": "https://ms.yugipedia.com//4/48/GorztheEmissaryofDarkness-DP00-KR-ScR-UE.png"
+          },
+          "d81140d2-d375-4213-b96b-6e065fe6c78f": {
+            "image": "https://ms.yugipedia.com//0/05/GammaTheMagnetWarrior-DP00-KR-R-UE.jpg"
+          },
+          "dce54a83-5de9-4529-80d1-c573767cfd5a": {
+            "image": "https://ms.yugipedia.com//a/a8/CardofSanctity-DP00-KR-C-UE.jpg"
+          },
+          "f6e6a49d-48de-4cd5-8edb-ecd2f5e4b52e": {
+            "image": "https://ms.yugipedia.com//f/f3/SwordsofRevealingLight-DP00-KR-C-UE.jpg"
+          },
+          "f893dc70-4c6e-440d-b27d-e232aa16e740": {
+            "image": "https://ms.yugipedia.com//9/9f/SorcererofDarkMagic-DP00-KR-C-UE.jpg"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          78804003
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "kr"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//d/db/DP00-BoosterKR.jpg",
+      "cards": [
+        {
+          "id": "cb5a477d-5fba-4488-92be-1087a6c29f62",
+          "card": "1bad35dc-8170-45bd-a93a-a7c8afea71ce",
+          "suffix": "000",
+          "rarity": "secret",
+          "imageID": "0e1ba733-f5eb-4975-b4e8-1041223a4c0e"
+        },
+        {
+          "id": "317026cc-94e5-409c-98c7-5ab4e029c6a3",
+          "card": "c0285d04-cadd-402d-a865-799a182d7510",
+          "suffix": "001",
+          "rarity": "super"
+        },
+        {
+          "id": "75ee216b-b614-4b50-8a7f-a8a294c6cdfc",
+          "card": "192fc3d1-2fc5-447d-8f76-63342d62a2fa",
+          "suffix": "002",
+          "rarity": "rare",
+          "imageID": "68ab73e8-4394-4fd3-8b9f-3958f7ef7677"
+        },
+        {
+          "id": "7c66bc2f-8036-4de2-8d9c-f40a18ad41bc",
+          "card": "aa7a4690-beea-45cd-83d8-02aacd3a8951",
+          "suffix": "003",
+          "rarity": "rare",
+          "imageID": "cf012846-5e48-497a-8b0c-686dd82aa3a6"
+        },
+        {
+          "id": "d81140d2-d375-4213-b96b-6e065fe6c78f",
+          "card": "2699e5b4-96a3-48b8-a266-6887812ba0ce",
+          "suffix": "004",
+          "rarity": "rare",
+          "imageID": "05799f5e-72dc-4318-aec4-057fed205540"
+        },
+        {
+          "id": "87f6866d-ac12-43d8-94fe-2d46dccaaa8d",
+          "card": "6cb08e9f-e85c-464b-b3ec-71fe7790ceb7",
+          "suffix": "005",
+          "rarity": "super"
+        },
+        {
+          "id": "781dcbd7-2c8c-486d-9dc6-0ac54923ad55",
+          "card": "ef9de57c-cc45-4a66-938c-e0f831baae09",
+          "suffix": "006",
+          "rarity": "rare",
+          "imageID": "2a581f45-3835-4563-8b52-452c2fe3bea6"
+        },
+        {
+          "id": "f893dc70-4c6e-440d-b27d-e232aa16e740",
+          "card": "47154de6-20d3-4e82-beed-f906a554e253",
+          "suffix": "007",
+          "rarity": "common",
+          "imageID": "52fd1c61-71cb-432c-8783-504c26b14b7a"
+        },
+        {
+          "id": "a0ac557b-ce75-4188-a877-93e36a9eb1e0",
+          "card": "3313ba06-0fbd-49cd-bc18-62c8d8890c86",
+          "suffix": "008",
+          "rarity": "common"
+        },
+        {
+          "id": "ae636a64-41c9-4305-a0eb-ba09399777ae",
+          "card": "0b0ce4a4-6eea-478c-bcd0-8630879339b1",
+          "suffix": "009",
+          "rarity": "super",
+          "imageID": "e28f5463-d7c6-420d-b153-4fd6b650b74d"
+        },
+        {
+          "id": "b8c0ad65-f303-48e5-a0f8-083a5f026cab",
+          "card": "97b90b58-0d63-491b-b7e8-6448d6eb1ee9",
+          "suffix": "010",
+          "rarity": "common",
+          "imageID": "a6757ca4-c049-496e-9295-bfdcd64c6c55"
+        },
+        {
+          "id": "1d0e2395-2121-4cf2-8353-bcec51f1e7f0",
+          "card": "08745df0-e964-43c2-9b3e-7614087f2780",
+          "suffix": "011",
+          "rarity": "common",
+          "imageID": "fcfd17a6-4f68-4d8c-9c67-25daa455749e"
+        },
+        {
+          "id": "64e9d72c-6215-418e-b046-9d451fc1e226",
+          "card": "6e09fe41-b80c-41a3-a0cb-1f858b7bcd3d",
+          "suffix": "012",
+          "rarity": "common"
+        },
+        {
+          "id": "0116559e-706c-43ee-9384-0690f98f9f4e",
+          "card": "80c1dbe5-5f9c-4ba1-aac5-98e5215295be",
+          "suffix": "013",
+          "rarity": "common",
+          "imageID": "f9b789ab-ec0e-49e2-9a9b-15dc3fb64acc"
+        },
+        {
+          "id": "854d268a-a2a3-4d83-8129-c2df976991bd",
+          "card": "1c35a99c-265e-4db2-9e37-60fb4ec92eb7",
+          "suffix": "014",
+          "rarity": "common",
+          "imageID": "e86cd329-534d-472b-ae77-fc68f62cafe9"
+        },
+        {
+          "id": "b161385a-1095-441c-b9df-8754e84957fe",
+          "card": "e2336361-5c2f-494d-a008-0b0cbc155d7a",
+          "suffix": "015",
+          "rarity": "ultra"
+        },
+        {
+          "id": "bdc4b178-19fb-4f34-9b7a-760895e18c18",
+          "card": "6e2e39c1-e5b2-4070-aff4-ee935a14a83e",
+          "suffix": "016",
+          "rarity": "common"
+        },
+        {
+          "id": "4a4034b6-6762-4b15-afa5-41ef59ac12a5",
+          "card": "20005dc5-854a-4be3-944b-c3b884c9842e",
+          "suffix": "017",
+          "rarity": "rare",
+          "imageID": "7b1368aa-a5a3-405c-b1da-e47fd56c2b63"
+        },
+        {
+          "id": "0310b329-7d5d-4559-a291-a2d58c4ef3fd",
+          "card": "846ce79f-da67-4824-b2d4-a5220aec067b",
+          "suffix": "018",
+          "rarity": "super",
+          "imageID": "cc91b07e-909a-4c8f-bc5f-8d7c1ba39082"
+        },
+        {
+          "id": "f6e6a49d-48de-4cd5-8edb-ecd2f5e4b52e",
+          "card": "e1a7a928-8fa0-4ab1-bade-66c0258a0d0c",
+          "suffix": "019",
+          "rarity": "common",
+          "imageID": "f6499bac-ab74-45a2-8052-33de9994ae1a"
+        },
+        {
+          "id": "b95b0521-3924-49e2-b68e-34a7913315ed",
+          "card": "cf604010-e44d-4841-9212-38cf82221be3",
+          "suffix": "020",
+          "rarity": "rare",
+          "imageID": "ca80e7b8-681b-4833-9dcd-d763054cda77"
+        },
+        {
+          "id": "316c04ad-33e5-4314-b0c8-83d2b1e31f64",
+          "card": "64e4d89f-bcd6-4039-bd5e-df67e02d93d4",
+          "suffix": "021",
+          "rarity": "common",
+          "imageID": "ea12809e-163d-4894-8ecb-87e631f30ef9"
+        },
+        {
+          "id": "c0d0b1d3-04e3-4878-a191-63bdef6febbe",
+          "card": "f3ce6c9d-d001-40b0-af2e-17531efa6892",
+          "suffix": "022",
+          "rarity": "common",
+          "imageID": "f5bb97db-4462-4d2a-8dce-7fd6c2919abf"
+        },
+        {
+          "id": "bb0a49a4-e346-4262-b1a9-27efbfce99e1",
+          "card": "2159fbf0-a74f-4c08-93fc-8c2fc96920e3",
+          "suffix": "023",
+          "rarity": "ultra",
+          "imageID": "6bae2928-d6a5-47f5-a135-503f2b67402c"
+        },
+        {
+          "id": "126a6210-68f1-49f2-a15e-cb9dddadc4e3",
+          "card": "5e07ceab-8f84-4d9e-85f3-5d684186c23f",
+          "suffix": "024",
+          "rarity": "common",
+          "imageID": "6fac10c2-1d7a-4b33-ae95-be8d71432766"
+        },
+        {
+          "id": "dce54a83-5de9-4529-80d1-c573767cfd5a",
+          "card": "be36d5c4-ec45-429e-9325-798cb37bed61",
+          "suffix": "025",
+          "rarity": "common",
+          "imageID": "008fcd3e-9463-44e1-8b5d-b8c634bfc9ce"
+        },
+        {
+          "id": "03670731-eac7-48e6-b4a0-7abdcd7682d0",
+          "card": "eb34614c-4494-4df7-a7b5-e239dc3713b8",
+          "suffix": "026",
+          "rarity": "common",
+          "imageID": "c998b48b-f062-416c-a76a-2b74138b9618"
+        },
+        {
+          "id": "53a62890-37d2-42d3-8cf2-f01375f13313",
+          "card": "e78c49cf-6666-43da-b77e-46f75bcaf2be",
+          "suffix": "027",
+          "rarity": "common",
+          "imageID": "7d9e2ef8-f262-4d35-be07-b9ca1df94566"
+        },
+        {
+          "id": "6ba8eee5-ec0e-493f-a493-3039ef6bf712",
+          "card": "5f3abdc4-cae4-403a-83ea-5d626acb81f1",
+          "suffix": "028",
+          "rarity": "common"
+        },
+        {
+          "id": "129e6a07-8023-4f42-81ea-01eb13e5df9d",
+          "card": "08e89ce8-3a6a-4c48-97da-1f5984ee0145",
+          "suffix": "029",
+          "rarity": "common",
+          "imageID": "a8b3ecf9-37d4-4f8a-808c-78cfe2cf38b4"
+        },
+        {
+          "id": "623c0cc7-2999-4070-b1de-5936d3b7faa7",
+          "card": "0bfcc499-7a45-452e-ad36-d2e2026ad580",
+          "suffix": "030",
+          "rarity": "rare",
+          "imageID": "296b1a74-41ac-46bf-87af-b0b1820162ec"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Duelist Pack: Yugi (OCG)",
+      "id": 244637
+    }
+  }
+}

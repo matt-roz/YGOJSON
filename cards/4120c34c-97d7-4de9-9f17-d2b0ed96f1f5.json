@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "4120c34c-97d7-4de9-9f17-d2b0ed96f1f5",
+  "text": {
+    "en": {
+      "name": "Plectcrime of the Deadly Dirge",
+      "effect": "Add 1 Equip Spell Card from your Graveyard to your hand. Then, this card gains 400 ATK until the end of this turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u65ac\u594f\u306e\u30d7\u30ec\u30af\u30c8\u30af\u30e9\u30a4\u30e0",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u88c5\u5099\u9b54\u6cd5\u30ab\u30fc\u30c9\uff11\u679a\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u3002\u305d\u306e\u5f8c\u3001\u3053\u306e\u30ab\u30fc\u30c9\u306e\u653b\u6483\u529b\u306f\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\uff14\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ucc38\uc8fc\uc758 \ud504\ub799\ud2b8\ud06c\ub77c\uc784",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \uc7a5\ucc29 \ub9c8\ubc95 \uce74\ub4dc 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\ub294\ub2e4. \uadf8 \ud6c4, \uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\ub825\uc740 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0 400 \uc62c\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "wind",
+  "type": "psychic",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2500,
+  "def": 1500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "ea5ef19e-af1f-44cf-b70b-635f4b1495db",
+      "card": "https://ms.yugipedia.com//e/ee/PlectcrimeoftheDeadlyDirge-RDHC01-JP-SR.png"
+    }
+  ],
+  "sets": [
+    "b254644c-27d2-4111-9a53-3a82de7d4cd5"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Plectcrime of the Deadly Dirge",
+        "id": 716239
+      }
+    ],
+    "dbID": 18678
+  },
+  "series": [
+    "e2451a40-fb70-4685-998f-4eb578b9eb8a"
+  ]
+}

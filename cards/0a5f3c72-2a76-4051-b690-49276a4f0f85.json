@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "0a5f3c72-2a76-4051-b690-49276a4f0f85",
+  "text": {
+    "en": {
+      "name": "Delirium Silbyx",
+      "effect": "Fusion Summon a LIGHT Attribute Insect Type monster by sending monsters from your hand or field to the Graveyard as material.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u5922\u4e2d\u306e\u30b7\u30eb\u30d3\u30af\u30b9",
+      "effect": "\u81ea\u5206\u306e\u624b\u672d\u30fb\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u3092\u7d20\u6750\u3068\u3057\u3066\u5893\u5730\u3078\u9001\u308a\u3001\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u5149\u5c5e\u6027\uff0f\u6606\u866b\u65cf\uff09\u3092\u30d5\u30e5\u30fc\u30b8\u30e7\u30f3\u53ec\u559a\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ubabd\uc911\uc758 \uc2e4\ube45\uc2a4",
+      "effect": "\uc790\uc2e0\uc758 \ud328 / \ud544\ub4dc\uc758 \ubaac\uc2a4\ud130\ub97c \uc18c\uc7ac\ub85c\uc11c \ubb18\uc9c0\ub85c \ubcf4\ub0b4\uace0, \ubaac\uc2a4\ud130(\ube5b \uc18d\uc131 / \uace4\ucda9\uc871)\ub97c \ud4e8\uc804 \uc18c\ud658\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "insect",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 2400,
+  "def": 1200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "dcafa934-3a48-4e6a-a47a-18f63cd6d201",
+      "card": "https://ms.yugipedia.com//9/9e/DeliriumSilbyx-RDTB02-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Delirium Silbyx",
+        "id": 1090459
+      }
+    ],
+    "dbID": 21104
+  },
+  "series": [
+    "e0a3c6d6-a40a-45db-b38a-b801fce5ca5e"
+  ]
+}

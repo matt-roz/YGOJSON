@@ -1,0 +1,42 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "f6a9bd35-3b31-404f-a0ae-3d8abaa3b602",
+  "text": {
+    "en": {
+      "name": "Gyakutenno Megami (Rush Duel)",
+      "effect": "This fairy uses her mystical power to protect the weak and provide spiritual support."
+    },
+    "ko": {
+      "name": "\uc5ed\uc804\uc758 \uc5ec\uc2e0",
+      "effect": "\uc131\uc2a4\ub7ec\uc6b4 \ud798\uc73c\ub85c \uc57d\ud55c \uc790\ub97c \uc9c0\ucf1c\uc8fc\uba70, \uc5ed\uc804\uc758 \ud798\uc744 \ubd81\ub3cb\uc544 \uc8fc\ub294 \uc5ec\uc2e0."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "fairy",
+  "classifications": [
+    "normal"
+  ],
+  "level": 6,
+  "atk": 1800,
+  "def": 2000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "b205bd40-344a-4bc5-8e22-fafff7f6fae1",
+      "card": "https://ms.yugipedia.com//e/e1/GyakutennoMegami-RDGRP1-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Gyakutenno Megami (Rush Duel)",
+        "id": 715229
+      }
+    ],
+    "dbID": 17216
+  },
+  "series": []
+}

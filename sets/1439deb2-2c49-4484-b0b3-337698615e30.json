@@ -1,0 +1,70 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "1439deb2-2c49-4484-b0b3-337698615e30",
+  "name": {
+    "en": "Perfect Rulebook 2020 promotional card",
+    "ja": "\uff36\u30b8\u30e3\u30f3\u30d7\u30d6\u30c3\u30af\u30b9 \u904a\u622f\u738b\u30aa\u30d5\u30a3\u30b7\u30e3\u30eb\u30ab\u30fc\u30c9\u30b2\u30fc\u30e0 \u30d1\u30fc\u30d5\u30a7\u30af\u30c8\u30eb\u30fc\u30eb\u30d6\u30c3\u30af\uff12\uff10\uff12\uff10 \u4ed8\u9332\u30ab\u30fc\u30c9"
+  },
+  "locales": {
+    "jp": {
+      "language": "ja",
+      "prefix": "RB06-JP",
+      "date": "2020-03-27",
+      "image": "https://ms.yugipedia.com//5/58/RB06-PromoJP.png",
+      "cardImages": {
+        "unlimited": {
+          "af124688-7825-4fdd-bf47-44a0c47a0fbf": "https://ms.yugipedia.com//3/33/RedEyesDarknessMetalDragon-RB06-JP-NPR.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "af124688-7825-4fdd-bf47-44a0c47a0fbf": {
+            "image": "https://ms.yugipedia.com//3/33/RedEyesDarknessMetalDragon-RB06-JP-NPR.png"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          121221024
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//5/58/RB06-PromoJP.png",
+      "cards": [
+        {
+          "id": "af124688-7825-4fdd-bf47-44a0c47a0fbf",
+          "card": "d89c9acc-0513-4d05-9d4c-3f59a29aed88",
+          "suffix": "001",
+          "rarity": "commonparallel",
+          "printStatus": "reprint",
+          "printNote": "Functional errata"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Perfect Rulebook 2020 promotional card",
+      "id": 720251
+    }
+  }
+}

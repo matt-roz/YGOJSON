@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "67bcc068-35cb-48f7-9ba1-52bda0f103aa",
+  "text": {
+    "en": {
+      "name": "Healthie Rem",
+      "effect": "Make 1 face-up monster on your opponent's field lose 500 ATK until the end of this turn. Then, if you have \"Staaart Boasting About Your Health!\" in your Graveyard, you can make 1 face-up monster on your opponent's field lose 500 ATK until the end of this turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30d8\u30eb\u30b7\u30a3\u30fb\u30ec\u30e0",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u3092\u9078\u3073\u3001\u305d\u306e\u653b\u6483\u529b\u3092\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\uff15\uff10\uff10\u30c0\u30a6\u30f3\u3059\u308b\u3002\u81ea\u5206\u306e\u5893\u5730\u306b\u300c\u5065\u5eb7\u81ea\u6162\u3001\u306f\u3058\u3081\u3063\uff01\u300d\u304c\u3042\u308b\u5834\u5408\u3001\u3055\u3089\u306b\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u3092\u9078\u3093\u3067\u305d\u306e\u653b\u6483\u529b\u3092\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\uff15\uff10\uff10\u30c0\u30a6\u30f3\u3067\u304d\u308b\u3002"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "pyro",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 1700,
+  "def": 1300,
+  "passwords": [],
+  "images": [
+    {
+      "id": "9ee39d8f-667d-4350-89cb-157139cf92e8",
+      "card": "https://ms.yugipedia.com//7/79/HealthieRem-RDKP26-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Healthie Rem",
+        "id": 1204300
+      }
+    ],
+    "dbID": 23734
+  },
+  "series": [
+    "fa13c05e-752a-441d-bd0a-02d6954bf3f0"
+  ]
+}

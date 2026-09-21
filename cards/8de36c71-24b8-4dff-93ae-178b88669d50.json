@@ -1,0 +1,53 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "8de36c71-24b8-4dff-93ae-178b88669d50",
+  "text": {
+    "en": {
+      "name": "Star's Hand Illuminator",
+      "effect": "Send the top 2 cards of your Deck to the Graveyard. Then, if you have \"Vi-FRND\" face-up on your field, you can look at up to 2 face-down cards on your opponent's field."
+    },
+    "ja": {
+      "name": "\u30b9\u30bf\u30fc\u30ba\u30cf\u30f3\u30c9\u30fb\u30a4\u30eb\u30df\u30cd\u30fc\u30bf\u30fc",
+      "effect": "\u81ea\u5206\u306e\u30c7\u30c3\u30ad\u306e\u4e0a\u304b\u3089\u30ab\u30fc\u30c9\uff12\u679a\u3092\u5893\u5730\u3078\u9001\u308b\u3002\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u8868\u793a\u306e\u300c\uff36\uff49\uff0d\uff26\uff32\uff2e\uff24\u300d\u304c\u3044\u308b\u5834\u5408\u3001\u3055\u3089\u306b\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u88cf\u5074\u8868\u793a\u306e\u30ab\u30fc\u30c9\u3092\uff12\u679a\u307e\u3067\u9078\u3093\u3067\u78ba\u8a8d\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc2a4\ud0c0\uc988\ud578\ub4dc \uc77c\ub8e8\ubbf8\ub124\uc774\ud130",
+      "effect": "\uc790\uc2e0\uc758 \ub371 \uc704\uc5d0\uc11c \uce74\ub4dc 2\uc7a5\uc744 \ubb18\uc9c0\ub85c \ubcf4\ub0b8\ub2e4. \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \ud45c\uc2dc\uc758 \"Vi\uff0dFRND(\ube44\uff0d\ud504\ub80c\ub4dc)\"\uac00 \uc788\uc744 \uacbd\uc6b0, \ucd94\uac00\ub85c \uc0c1\ub300 \ud544\ub4dc\uc758 \ub4b7\uba74 \ud45c\uc2dc\uc758 \uce74\ub4dc\ub97c 2\uc7a5\uae4c\uc9c0 \uace0\ub974\uace0 \ud655\uc778\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "psychic",
+  "classifications": [
+    "effect"
+  ],
+  "level": 2,
+  "atk": 500,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "7ec076d2-da81-478a-af99-92aa1ed96a4b",
+      "card": "https://ms.yugipedia.com//0/02/StarsHandIlluminator-RDMRP2-JP-C.png"
+    }
+  ],
+  "sets": [
+    "a6b12f39-c8d9-4ead-87f7-7ea71d365768"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "n"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Star's Hand Illuminator",
+        "id": 1018691
+      }
+    ],
+    "dbID": 19582
+  },
+  "series": [
+    "d44dfc09-8d68-4b5a-ad5a-b70e6583268b"
+  ]
+}

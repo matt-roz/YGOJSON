@@ -1,0 +1,44 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "2231f738-a8e7-41e2-9b84-7393c08aacfa",
+  "text": {
+    "en": {
+      "name": "Luster Dragon (Rush Duel)",
+      "effect": "A very beautiful dragon covered with sapphire. It does not like fights, but has incredibly high attack power."
+    },
+    "ko": {
+      "name": "\uc0ac\ud30c\uc774\uc5b4 \ub4dc\ub798\uace4",
+      "effect": "\uc804\uc2e0\uc774 \uc0ac\ud30c\uc774\uc5b4\ub85c \ub4a4\ub36e\uc778 \ub108\ubb34\ub098 \uc544\ub984\ub2e4\uc6b4 \ubaa8\uc2b5\uc758 \ub4dc\ub798\uace4. \uc2f8\uc6c0\uc740 \uc88b\uc544\ud558\uc9c0 \uc54a\uc9c0\ub9cc, \uc544\uc8fc \ub192\uc740 \uacf5\uaca9\ub825\uc744 \uac16\uace0 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "wind",
+  "type": "dragon",
+  "classifications": [
+    "normal"
+  ],
+  "level": 4,
+  "atk": 1900,
+  "def": 1600,
+  "passwords": [],
+  "images": [
+    {
+      "id": "841ee334-9143-4f3a-9280-5f184019b5ef",
+      "card": "https://ms.yugipedia.com//b/b1/LusterDragon-RDVC22-JP-UR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Luster Dragon (Rush Duel)",
+        "id": 715663
+      }
+    ],
+    "dbID": 17847
+  },
+  "series": [
+    "ebbdc065-8b50-4170-b9ca-cbe4f46068a5"
+  ]
+}

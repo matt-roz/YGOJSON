@@ -1,0 +1,53 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "07c068a9-c926-4205-a317-6dce93770e0b",
+  "text": {
+    "en": {
+      "name": "Cyber Dragon (Rush Duel)",
+      "effect": "None"
+    },
+    "ko": {
+      "name": "\uc0ac\uc774\ubc84 \ub4dc\ub798\uace4",
+      "effect": "\uc5c6\uc74c"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 5,
+  "atk": 2100,
+  "def": 1600,
+  "passwords": [],
+  "images": [
+    {
+      "id": "d32b9123-93e0-4a41-a131-9db4f99a63cf",
+      "card": "https://ms.yugipedia.com//2/27/CyberDragon-RDSD0C-JP-C.png"
+    },
+    {
+      "id": "9aff5c4d-4e45-44d5-b1dd-3646f58c45a0",
+      "card": "https://ms.yugipedia.com//9/9a/CyberDragon-RDLP01-JP-OP.png"
+    }
+  ],
+  "sets": [
+    "918ca201-7f5c-4e30-a6be-9ad1bd9e8458",
+    "918ca201-7f5c-4e30-a6be-9ad1bd9e8458",
+    "918ca201-7f5c-4e30-a6be-9ad1bd9e8458",
+    "918ca201-7f5c-4e30-a6be-9ad1bd9e8458"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Cyber Dragon (Rush Duel)",
+        "id": 714405
+      }
+    ],
+    "dbID": 18353
+  },
+  "series": [
+    "86022427-8e1f-4a67-af9d-a38a063a0392"
+  ]
+}

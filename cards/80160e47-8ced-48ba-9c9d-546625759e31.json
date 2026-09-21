@@ -1,0 +1,62 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "80160e47-8ced-48ba-9c9d-546625759e31",
+  "text": {
+    "en": {
+      "name": "Galaxy Topping Troll",
+      "effect": "This card gains 600 ATK until the end of this turn."
+    },
+    "fr": {
+      "name": "Troll de Garniture Galactique",
+      "effect": "Cette carte gagne 600 ATK jusqu'\u00e0 la fin de ce tour."
+    },
+    "de": {
+      "name": "Galaxie-Garniertroll",
+      "effect": "Diese Karte erh\u00e4lt bis zum Ende dieses Spielzugs 600 ATK."
+    },
+    "it": {
+      "name": "Troll Guarnizione Galattica",
+      "effect": "Questa carta guadagna 600 ATK fino alla fine di questo turno."
+    },
+    "es": {
+      "name": "Trol Topping Gal\u00e1ctico",
+      "effect": "Esta carta gana 600 ATK hasta el final de este turno."
+    },
+    "ja": {
+      "name": "\u30ae\u30e3\u30e9\u30af\u30b7\u30fc\u30fb\u30ca\u30eb\u30c8\u30ed\u30fc\u30e9",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u306e\u653b\u6483\u529b\u306f\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\uff16\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uac24\ub7ed\uc2dc \ub098\ub8e8\ud1a0\ub864\ub7ec",
+      "effect": "\uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\ub825\uc740 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0 600 \uc62c\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "pyro",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1200,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "4dd0dff4-74e3-40e5-b4d1-1a6325c13234",
+      "card": "https://ms.yugipedia.com//8/86/GalaxyToppingTroll-RDMAX1-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Galaxy Topping Troll",
+        "id": 715071
+      }
+    ],
+    "dbID": 15937
+  },
+  "series": []
+}

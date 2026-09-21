@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "31d7321d-43aa-4163-9053-6f476b1ba6a3",
+  "text": {
+    "en": {
+      "name": "Grand Legend Priest",
+      "effect": "Destroy 1 face-up Level 10 or lower monster on your opponent's field. Then, you can add 1 \"Legend Priest\" from your Graveyard to your hand.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30b0\u30e9\u30f3\u30c9\u30fb\u30ec\u30b8\u30a7\u30f3\u30c9\u30fb\u30d7\u30ea\u30fc\u30b9\u30c8",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff11\uff10\u4ee5\u4e0b\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u7834\u58ca\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u30ec\u30b8\u30a7\u30f3\u30c9\u30fb\u30d7\u30ea\u30fc\u30b9\u30c8\u300d\uff11\u4f53\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uadf8\ub79c\ub4dc \ub808\uc804\ub4dc \ud504\ub9ac\uc2a4\ud2b8",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\ub808\ubca8 10 \uc774\ud558) 1\uc7a5\uc744 \uace0\ub974\uace0 \ud30c\uad34\ud55c\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0 \ubb18\uc9c0\uc758 \"\ub808\uc804\ub4dc \ud504\ub9ac\uc2a4\ud2b8\" 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\uc744 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "fairy",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2500,
+  "def": 300,
+  "passwords": [],
+  "images": [
+    {
+      "id": "ea8c349e-6de7-4dd7-9142-92105a7e23ce",
+      "card": "https://ms.yugipedia.com//a/a5/GrandLegendPriest-RDLGP2-JP-UR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Grand Legend Priest",
+        "id": 1076928
+      }
+    ],
+    "dbID": 20864
+  },
+  "series": [
+    "f942861f-b4f9-4253-baad-a08e2f2c7054"
+  ]
+}

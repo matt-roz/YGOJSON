@@ -1,0 +1,70 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "f49e94fc-62e8-4e99-9bec-2602910404dd",
+  "name": {
+    "en": "2015 Value Box"
+  },
+  "locales": {
+    "en": {
+      "language": "en",
+      "prefix": "LTGY-EN",
+      "image": "https://ms.yugipedia.com//7/7e/2015ValueBox-PromoEN.png",
+      "cardImages": {
+        "unlimited": {
+          "94642d43-58db-4a40-95c9-9db46eb69248": "https://ms.yugipedia.com//e/ec/MechaPhantomBeastDracossack-LTGY-EN-ScR-UE-CT.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "94642d43-58db-4a40-95c9-9db46eb69248": {
+            "image": "https://ms.yugipedia.com//e/ec/MechaPhantomBeastDracossack-LTGY-EN-ScR-UE-CT.png",
+            "variants": [
+              {
+                "code": "CT",
+                "image": "https://ms.yugipedia.com//e/ec/MechaPhantomBeastDracossack-LTGY-EN-ScR-UE-CT.png"
+              }
+            ]
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {}
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "en"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "distrobution": "preconstructed",
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//7/7e/2015ValueBox-PromoEN.png",
+      "cards": [
+        {
+          "id": "94642d43-58db-4a40-95c9-9db46eb69248",
+          "card": "5d865145-5558-4d1e-bd95-872cfb3e4755",
+          "suffix": "053",
+          "rarity": "secret",
+          "imageID": "2d497a93-74e3-4c47-b566-316e7f8996f8"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "2015 Value Box",
+      "id": 362263
+    }
+  }
+}

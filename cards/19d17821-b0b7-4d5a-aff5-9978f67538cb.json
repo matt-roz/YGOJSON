@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "19d17821-b0b7-4d5a-aff5-9978f67538cb",
+  "text": {
+    "en": {
+      "name": "Mecha Umbretta",
+      "effect": "Add 1 \"Following World\" from your Graveyard to your hand."
+    },
+    "ja": {
+      "name": "\u30e1\u30ab\u30a2\u30f3\u30d6\u30ec\u30fc\u30bf",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u30d5\u30a9\u30ed\u30fc\u30a6\u30a3\u30f3\u30b0\u30fb\u30ef\u30fc\u30eb\u30c9\u300d\uff11\u679a\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uba54\uce74\uc570\ubdf8\ub808\uc774\ud130",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \"\ud314\ub85c\uc6b0\uc719 \uc6d4\ub4dc\" 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\ub294\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "wind",
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 1200,
+  "def": 400,
+  "passwords": [],
+  "images": [
+    {
+      "id": "0fc675a9-4cd0-43b6-8407-e2a1348acf54",
+      "card": "https://ms.yugipedia.com//a/a2/MechaUmbretta-RDKP08-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Mecha Umbretta",
+        "id": 715841
+      }
+    ],
+    "dbID": 17291
+  },
+  "series": []
+}

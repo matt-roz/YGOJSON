@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "a48a5c5f-a387-46dc-828b-7f41248f2f87",
+  "text": {
+    "en": {
+      "name": "Delirium Polynea",
+      "effect": "Reduce the Level of 1 face-up Level 3 or higher monster on your opponent's field by 2 until the end of this turn. Then, you can make 1 face-up monster on your opponent's field become Insect Type until the end of your opponent's next turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u5922\u4e2d\u306e\u30dd\u30ea\u30cb\u30a2",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff13\u4ee5\u4e0a\uff09\uff11\u4f53\u3092\u9078\u3073\u3001\u305d\u306e\u30ec\u30d9\u30eb\u3092\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\uff12\u4e0b\u3052\u308b\u3002\u305d\u306e\u5f8c\u3001\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u3092\u9078\u3093\u3067\u305d\u306e\u7a2e\u65cf\u3092\u6b21\u306e\u76f8\u624b\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\u6606\u866b\u65cf\u306b\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ubabd\uc911\uc758 \ud3f4\ub9ac\ub2c8\uc544",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\ub808\ubca8 3 \uc774\uc0c1) 1\uc7a5\uc744 \uace0\ub974\uace0, \uadf8 \ub808\ubca8\uc744 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0 2 \ub0b4\ub9b0\ub2e4. \uadf8 \ud6c4, \uc0c1\ub300 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130 1\uc7a5\uc744 \uace0\ub974\uace0 \uadf8 \uc885\uc871\uc744 \ub2e4\uc74c \uc0c1\ub300 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0 \uace4\ucda9\uc871\uc73c\ub85c \ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "insect",
+  "classifications": [
+    "effect"
+  ],
+  "level": 2,
+  "atk": 800,
+  "def": 1200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "343bece6-3509-4536-b6c1-a324cd362506",
+      "card": "https://ms.yugipedia.com//d/d1/DeliriumPolynea-RDKP20-JP-R.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Delirium Polynea",
+        "id": 1109356
+      }
+    ],
+    "dbID": 21284
+  },
+  "series": [
+    "e0a3c6d6-a40a-45db-b38a-b801fce5ca5e"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "7c80c31d-34bf-44fc-8816-5135b8d5d3dd",
+  "text": {
+    "en": {
+      "name": "Eldign Patrol Ship",
+      "effect": "Look at 1 face-down card on your opponent's field, then return it to its original position."
+    },
+    "fr": {
+      "name": "Navire de Patrouille Eldign",
+      "effect": "Regardez 1 carte face verso sur le Terrain de votre adversaire, puis renvoyez-la dans sa position d'origine."
+    },
+    "de": {
+      "name": "Eldign-Patrouillenschiff",
+      "effect": "Sieh dir 1 verdeckte Karte auf dem Spielfeld deines Gegners an und lege sie dann in ihre urspr\u00fcngliche Position zur\u00fcck."
+    },
+    "it": {
+      "name": "Nave Pattuglia Eldign",
+      "effect": "Guarda 1 carta coperta sul Terreno del tuo avversario, poi falla ritornare nella sua posizione originale."
+    },
+    "es": {
+      "name": "Barco Patrulla Eldign",
+      "effect": "Mira 1 carta boca abajo en el Campo de tu adversario y despu\u00e9s la devuelve a su posici\u00f3n original."
+    },
+    "ja": {
+      "name": "\u54e8\u8247\u30a8\u30eb\u30c0\u30a4\u30f3",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u88cf\u5074\u8868\u793a\u306e\u30ab\u30fc\u30c9\uff11\u679a\u3092\u9078\u3093\u3067\u78ba\u8a8d\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ucd08\uc815 \uc5d8\ub2e4\uc778",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \ub4b7\uba74 \ud45c\uc2dc\uc758 \uce74\ub4dc 1\uc7a5\uc744 \uace0\ub974\uace0 \ud655\uc778\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 6,
+  "atk": 1700,
+  "def": 700,
+  "passwords": [],
+  "images": [
+    {
+      "id": "1aa18566-56ce-41aa-8d5e-5e7ee3549f86",
+      "card": "https://ms.yugipedia.com//d/de/EldignPatrolShip-RDKP03-JP-R.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Eldign Patrol Ship",
+        "id": 714763
+      }
+    ],
+    "dbID": 15605
+  },
+  "series": []
+}

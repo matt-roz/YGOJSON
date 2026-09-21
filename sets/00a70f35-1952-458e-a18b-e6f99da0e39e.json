@@ -1,0 +1,67 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "00a70f35-1952-458e-a18b-e6f99da0e39e",
+  "name": {
+    "en": "WSJ Jump Pack Spring 2017 promotional card"
+  },
+  "locales": {
+    "en": {
+      "language": "en",
+      "prefix": "JMPS-EN",
+      "image": "https://ms.yugipedia.com//f/fb/WSJJumpPack-Spring2017.png",
+      "cardImages": {
+        "limited": {
+          "d7f526e2-b554-4a1d-a49f-15bb4fca815a": "https://ms.yugipedia.com//d/dc/ObelisktheTormentor-JMPS-EN-UR-LE.png"
+        }
+      },
+      "cardInfo": {
+        "limited": {
+          "d7f526e2-b554-4a1d-a49f-15bb4fca815a": {
+            "image": "https://ms.yugipedia.com//d/dc/ObelisktheTormentor-JMPS-EN-UR-LE.png"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          1111113000
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "en"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "distrobution": "preconstructed",
+      "editions": [
+        "limited"
+      ],
+      "image": "https://ms.yugipedia.com//f/fb/WSJJumpPack-Spring2017.png",
+      "cards": [
+        {
+          "id": "d7f526e2-b554-4a1d-a49f-15bb4fca815a",
+          "card": "3cf961c0-f21b-4c8a-a2c6-89063ca3d2e8",
+          "suffix": "004",
+          "rarity": "ultra"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "WSJ Jump Pack Spring 2017 promotional card",
+      "id": 437490
+    }
+  }
+}

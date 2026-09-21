@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "0541062c-64ee-4a81-ae48-3f8cf005c0a1",
+  "text": {
+    "en": {
+      "name": "Wooly Wunderworld Pyro Wool",
+      "effect": "\"Wooly Wonderland Pyro Wool\" + \"Wooly Wonderland Pyro Wool\"",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30e1\u30a7\uff5e\u754c\u30d1\u30a4\u30ed\u30a6\u30fc\u30eb",
+      "effect": "\u300c\u7f8a\u754c\u30d1\u30a4\u30ed\u30a6\u30fc\u30eb\u300d\uff0b\u300c\u7f8a\u754c\u30d1\u30a4\u30ed\u30a6\u30fc\u30eb\u300d"
+    },
+    "ko": {
+      "name": "\uba54\uc5d0~\uacc4 \ud30c\uc774\ub85c\uc6b8",
+      "effect": "\"\uc591\uacc4 \ud30c\uc774\ub85c\uc6b8\" \uff0b \"\uc591\uacc4 \ud30c\uc774\ub85c\uc6b8\""
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "beast",
+  "level": 7,
+  "atk": 3000,
+  "def": 1600,
+  "passwords": [],
+  "images": [
+    {
+      "id": "37b3f492-cc86-4d59-a9a5-acf9eaff2c9c",
+      "card": "https://ms.yugipedia.com//d/d7/WoolyWunderworldPyroWool-RDORP3-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Wooly Wunderworld Pyro Wool",
+        "id": 1142401
+      }
+    ],
+    "dbID": 22223
+  },
+  "series": [
+    "354d73b1-0590-498d-8f4c-4095d830bbc1"
+  ]
+}

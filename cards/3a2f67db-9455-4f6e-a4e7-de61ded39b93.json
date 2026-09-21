@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "3a2f67db-9455-4f6e-a4e7-de61ded39b93",
+  "text": {
+    "en": {
+      "name": "Ground Attacker Bugroth (Rush Duel)",
+      "effect": "A surface battle robot that was once used for sea warfare."
+    },
+    "ko": {
+      "name": "\uc9c0\uc0c1\uc804\ud22c\ud615 \ubc84\uadf8\ub85c\uc2a4",
+      "effect": "\uc721\uc0c1 \uc804\ud22c \ub85c\ubd07. \uc624\ub798\uc804 \ubc14\ub2e4\uc5d0\uc11c\ub3c4 \uac00\ub3d9\ud588\ub358 \ud754\uc801\uc774 \uc5ff\ubcf4\uc778\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "machine",
+  "classifications": [
+    "normal"
+  ],
+  "level": 4,
+  "atk": 1500,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "c651aded-b18c-4a14-b7db-2ded0f7c6a21",
+      "card": "https://ms.yugipedia.com//8/83/GroundAttackerBugroth-RDSD02-JP-C.png"
+    }
+  ],
+  "sets": [
+    "a5dd7265-59c0-48dc-b924-5def08b05a08",
+    "a5dd7265-59c0-48dc-b924-5def08b05a08"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Ground Attacker Bugroth (Rush Duel)",
+        "id": 715201
+      }
+    ],
+    "dbID": 17218
+  },
+  "series": []
+}

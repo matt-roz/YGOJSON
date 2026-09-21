@@ -1,0 +1,44 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "ee3a8391-a7e9-4510-aba0-dd329ae5bf73",
+  "text": {
+    "en": {
+      "name": "Familiar-Possessed - Eria (Rush Duel)",
+      "effect": "This card cannot be used as material for the Fusion Summon of \"Familiar-Possessed - Eria\". Your WATER Attribute monsters inflict piercing battle damage.",
+      "official": false
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "spellcaster",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1900,
+  "def": 1500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "a4aec536-c37b-4f20-9bca-f32a7c1f783f",
+      "card": "https://ms.yugipedia.com//9/93/FamiliarPossessedEria-RDKP26-JP-UR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Familiar-Possessed - Eria (Rush Duel)",
+        "id": 1206780
+      }
+    ],
+    "dbID": 23751
+  },
+  "series": [
+    "788d3d66-cdd1-44f3-b4e8-93528c9b134e"
+  ]
+}

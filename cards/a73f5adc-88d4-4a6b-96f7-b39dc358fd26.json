@@ -1,0 +1,40 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "a73f5adc-88d4-4a6b-96f7-b39dc358fd26",
+  "text": {
+    "en": {
+      "name": "Black Luster Soldier (Rush Duel)"
+    },
+    "ko": {
+      "name": "\uce74\uc624\uc2a4 \uc194\uc800"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "monsterCardTypes": [
+    "ritual"
+  ],
+  "type": "warrior",
+  "level": 8,
+  "atk": 3000,
+  "def": 2500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "c94669a9-8746-43bd-9a91-b44329369685",
+      "card": "https://ms.yugipedia.com//5/55/BlackLusterSoldier-RDORP3-JP-UR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Black Luster Soldier (Rush Duel)",
+        "id": 1142381
+      }
+    ],
+    "dbID": 22218
+  },
+  "series": []
+}

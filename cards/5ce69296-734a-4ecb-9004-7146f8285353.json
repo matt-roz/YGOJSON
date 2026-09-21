@@ -1,0 +1,48 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "5ce69296-734a-4ecb-9004-7146f8285353",
+  "text": {
+    "en": {
+      "name": "Crocodile",
+      "effect": "Thirteen stripes on its belly. Thirteen holes on its feet. Wherever people express themselves without hesitation, the crocodile is said to appear with a quiet grin."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "reptile",
+  "classifications": [
+    "normal"
+  ],
+  "level": 3,
+  "atk": 1300,
+  "def": 1300,
+  "passwords": [
+    "77699839"
+  ],
+  "images": [
+    {
+      "id": "5d120f6d-e5ed-4d3d-a577-b091ebc4c3fe",
+      "password": "77699839",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/77699839.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/77699839.jpg"
+    }
+  ],
+  "sets": [
+    "532da5af-539d-4105-8ead-6c87f198413c"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Crocodile",
+        "id": 1214517
+      }
+    ],
+    "dbID": 23432,
+    "ygoprodeck": {
+      "id": 77699839,
+      "name": "crocodile-15914"
+    }
+  },
+  "series": []
+}

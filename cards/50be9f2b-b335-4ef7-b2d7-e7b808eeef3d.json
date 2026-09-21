@@ -1,0 +1,72 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "50be9f2b-b335-4ef7-b2d7-e7b808eeef3d",
+  "text": {
+    "en": {
+      "name": "Necromaid Nana",
+      "effect": "Place 1 Level 7 monster from your Graveyard on the bottom of your Deck, and draw 2 cards."
+    },
+    "fr": {
+      "name": "Nana N\u00e9cromestique"
+    },
+    "de": {
+      "name": "Nekrom\u00e4dchen Nana"
+    },
+    "it": {
+      "name": "Necrodomestica Nana"
+    },
+    "es": {
+      "name": "Necroncella Nana"
+    },
+    "ja": {
+      "name": "\u30cd\u30af\u30e1\u30a4\u30c9\u30fb\u30ca\u30ca",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff17\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u30c7\u30c3\u30ad\u306e\u4e0b\u306b\u623b\u3057\u3001\u81ea\u5206\u306f\uff12\u679a\u30c9\u30ed\u30fc\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub124\ud06c\uba54\uc774\ub4dc \ub098\ub098",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130(\ub808\ubca8 7) 1\uc7a5\uc744 \uace8\ub77c \ub371 \uc544\ub798\ub85c \ub418\ub3cc\ub9ac\uace0, \uc790\uc2e0\uc740 2\uc7a5 \ub4dc\ub85c\uc6b0\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "zombie",
+  "classifications": [
+    "effect"
+  ],
+  "level": 5,
+  "atk": 1100,
+  "def": 700,
+  "passwords": [],
+  "images": [
+    {
+      "id": "b462003f-aa48-47a5-af74-34d25cc40841",
+      "card": "https://ms.yugipedia.com//5/52/NecromaidNana-RD5TH1-JP-SPR.png"
+    },
+    {
+      "id": "82ce4772-e6ed-4f43-ae68-b6608fbd6e22",
+      "card": "https://ms.yugipedia.com//9/94/NecromaidNana-RDS243-JP-UPR.png"
+    }
+  ],
+  "sets": [
+    "539832b2-9b51-4743-a71f-881a26a5f349",
+    "539832b2-9b51-4743-a71f-881a26a5f349",
+    "29280529-be04-4a88-b2a3-acb63a018731",
+    "29280529-be04-4a88-b2a3-acb63a018731"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Necromaid Nana",
+        "id": 716007
+      }
+    ],
+    "dbID": 16113
+  },
+  "series": [
+    "15739dea-0414-41f3-ab94-5d27e0578485"
+  ]
+}

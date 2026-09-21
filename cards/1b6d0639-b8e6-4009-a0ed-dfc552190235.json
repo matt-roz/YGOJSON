@@ -1,0 +1,58 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "1b6d0639-b8e6-4009-a0ed-dfc552190235",
+  "text": {
+    "en": {
+      "name": "Magic Juggler",
+      "effect": "An enigmatic man who never speaks of his past. His baton wielding shakes the crowd wild, as if it were magic."
+    },
+    "ja": {
+      "name": "\u30de\u30b8\u30c3\u30af\u30fb\u30b8\u30e3\u30b0\u30e9\u30fc",
+      "effect": "\u904e\u53bb\u3092\u8a9e\u3089\u306a\u3044\u8b0e\u591a\u304d\u7537\u3002\u9b54\u6cd5\u306e\u5982\u304d\u30d0\u30c8\u30f3\u634c\u304d\u3067\u89b3\u5ba2\u3092\u865c\u306b\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub9e4\uc9c1 \uc800\uae00\ub7ec",
+      "effect": "\uacfc\uac70\uc5d0 \ub300\ud574 \uc774\uc57c\uae30\ud558\uc9c0 \uc54a\ub294 \uc758\ubb38\uc758 \ub0a8\uc790. \ub9c8\ubc95\uacfc\ub3c4 \uac19\uc740 \ubc30\ud134 \uc800\uae00\ub9c1\uc73c\ub85c \uad00\uac1d\uc744 \uc0ac\ub85c\uc7a1\ub294\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "spellcaster",
+  "classifications": [
+    "normal"
+  ],
+  "level": 4,
+  "atk": 1400,
+  "def": 500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "bdf0a654-6f10-49ac-8f47-39a88aac030a",
+      "card": "https://ms.yugipedia.com//e/e6/MagicJuggler-RDLGP2-JP-C.png"
+    }
+  ],
+  "sets": [
+    "f2a822fb-30a4-4e51-bd28-f909ecc826ff",
+    "1a7009d0-df34-47a5-aa3a-c1c21f8220aa",
+    "73606f93-01a6-44c8-b212-d726baceb4b2",
+    "836547cc-b1e4-4942-85e9-b165101b9463",
+    "4758595f-fc6c-4993-9a71-0738f485c6c9",
+    "288f40da-3a58-4353-8951-a8b611718475"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "n"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Magic Juggler",
+        "id": 715698
+      }
+    ],
+    "dbID": 16895
+  },
+  "series": [
+    "bff3c17c-7080-49f0-a844-a0e55c603bae"
+  ]
+}

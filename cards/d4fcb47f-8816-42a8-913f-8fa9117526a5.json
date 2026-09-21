@@ -1,0 +1,54 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "d4fcb47f-8816-42a8-913f-8fa9117526a5",
+  "text": {
+    "en": {
+      "name": "Elegant Firebird Harpyia",
+      "effect": "Draw 1 card. Then, send 1 card from your hand to the Graveyard."
+    },
+    "ja": {
+      "name": "\u706b\u9e97\u9ce5\u30cf\u30eb\u30d4\u30e5\u30a4\u30a2",
+      "effect": "\u81ea\u5206\u306f\uff11\u679a\u30c9\u30ed\u30fc\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306f\u624b\u672d\uff11\u679a\u3092\u9078\u3093\u3067\u5893\u5730\u3078\u9001\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud654\ub824\uc870 \ud560\ud4e8\uc774\uc5b4",
+      "effect": "\uc790\uc2e0\uc740 1\uc7a5 \ub4dc\ub85c\uc6b0\ud55c\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0\uc740 \ud328 1\uc7a5\uc744 \uace0\ub974\uace0 \ubb18\uc9c0\ub85c \ubcf4\ub0b8\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "type": "wingedbeast",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2500,
+  "def": 1500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "d41d5d23-37d0-4f5c-9272-13aed116949e",
+      "card": "https://ms.yugipedia.com//6/67/ElegantFirebirdHarpyia-RDSD0D-JP-C.png"
+    }
+  ],
+  "sets": [
+    "a08d0d55-5282-4487-b8b3-a190adb90edf",
+    "4758595f-fc6c-4993-9a71-0738f485c6c9",
+    "d867f9ff-46bb-44fa-9cb3-94491d964afd",
+    "d867f9ff-46bb-44fa-9cb3-94491d964afd"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Elegant Firebird Harpyia",
+        "id": 714772
+      }
+    ],
+    "dbID": 17205
+  },
+  "series": []
+}

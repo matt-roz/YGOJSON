@@ -1,0 +1,46 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "869f08c8-20fd-4c11-8bfa-1431052d6ccd",
+  "text": {
+    "en": {
+      "name": "Lostream Polka",
+      "effect": "Equip this card to 1 face-up WIND Attribute Sea Serpent Type monster on your field as an Equip Spell Card with the following effect. Then, you can add 1 Level 5 or higher WIND Attribute Sea Serpent Type monster from your Graveyard to your hand. \u25cfWhile the equipped monster is face-up on your field, your opponent cannot declare an attack on monsters that are not equipped with an Equip Spell Card.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u96f2\u6d77\u7adc \u30dd\u30eb\u30ab"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "wind",
+  "type": "seaserpent",
+  "classifications": [
+    "effect"
+  ],
+  "abilities": [
+    "union"
+  ],
+  "level": 4,
+  "atk": 1000,
+  "def": 600,
+  "passwords": [],
+  "images": [
+    {
+      "id": "849e17a6-9256-4abe-bc16-dcadc0d3158e",
+      "card": "https://ms.yugipedia.com//1/15/LostreamPolka-RDCA01-JP-OP.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Lostream Polka",
+        "id": 1221851
+      }
+    ]
+  },
+  "series": [
+    "8c7214b9-1442-4735-8c5e-bf1949656f9c"
+  ]
+}

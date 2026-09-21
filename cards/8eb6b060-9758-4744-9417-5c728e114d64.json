@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "8eb6b060-9758-4744-9417-5c728e114d64",
+  "text": {
+    "en": {
+      "name": "Destroyer Golem (Rush Duel)",
+      "effect": "A golem with a massive right hand for crushing its victims."
+    },
+    "ko": {
+      "name": "\ud30c\uad34\uc790 \uace8\ub818",
+      "effect": "\uac70\ub300\ud55c \uc624\ub978\uc190\uc774 \ud2b9\uc9d5\uc778 \uace8\ub818. \uc624\ub978\uc190\uc73c\ub85c \ub0b4\ub9ac\uccd0 \uacf5\uaca9\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "rock",
+  "classifications": [
+    "normal"
+  ],
+  "level": 4,
+  "atk": 1500,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "f719380b-14e8-4011-a6dc-7eff4acb526d",
+      "card": "https://ms.yugipedia.com//f/ff/DestroyerGolem-RDSD0F-JP-C.png"
+    }
+  ],
+  "sets": [
+    "e2b816ef-5178-4aa9-b864-7248f545e896",
+    "e2b816ef-5178-4aa9-b864-7248f545e896"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Destroyer Golem (Rush Duel)",
+        "id": 1019003
+      }
+    ],
+    "dbID": 19441
+  },
+  "series": []
+}

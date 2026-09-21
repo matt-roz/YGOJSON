@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "7d9ac123-201d-4327-9350-7363166d5e0b",
+  "text": {
+    "en": {
+      "name": "Verdantclad Dragon - Greeray",
+      "effect": "This card gains 800 ATK until the end of this turn. Then, if your opponent has no face-up monsters on their field, you can shuffle 1 face-down card from their field into the owner's Deck.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u7dd1\u7e8f\u7adc\uff0d\u30b0\u30ea\u30fc\u30ec\u30a4",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u306e\u653b\u6483\u529b\u306f\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\uff18\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\u304c\u3044\u306a\u3044\u5834\u5408\u3001\u3055\u3089\u306b\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u88cf\u5074\u8868\u793a\u306e\u30ab\u30fc\u30c9\uff11\u679a\u3092\u9078\u3093\u3067\u6301\u3061\u4e3b\u306e\u30c7\u30c3\u30ad\u306b\u623b\u3059\u4e8b\u304c\u3067\u304d\u308b\u3002"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "wyrm",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 2400,
+  "def": 2400,
+  "passwords": [],
+  "images": [
+    {
+      "id": "412c5bbf-6da6-4463-9562-7108bdb8eaa7",
+      "card": "https://ms.yugipedia.com//2/2c/VerdantcladDragonGreeray-RDKP25-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Verdantclad Dragon - Greeray",
+        "id": 1185723
+      }
+    ],
+    "dbID": 23217
+  },
+  "series": [
+    "be769ed3-b6ac-4c49-838e-4e0e05d7320a"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "9f4b695e-e525-44f3-a832-689ff776f424",
+  "text": {
+    "en": {
+      "name": "Intentional Draw",
+      "effect": "Return the attack target and the attacking monster to the owner's hand.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u4ed5\u7d44\u307e\u308c\u305f\u76f8\u6253\u3061",
+      "effect": "\u653b\u6483\u3092\u53d7\u3051\u308b\u30e2\u30f3\u30b9\u30bf\u30fc\u3068\u653b\u6483\u3057\u3066\u304d\u305f\u30e2\u30f3\u30b9\u30bf\u30fc\u3092\u6301\u3061\u4e3b\u306e\u624b\u672d\u306b\u623b\u3059\u3002"
+    },
+    "ko": {
+      "name": "\uc758\ub3c4\ub41c \ubb34\uc2b9\ubd80",
+      "effect": "\uacf5\uaca9\uc744 \ubc1b\ub294 \ubaac\uc2a4\ud130\uc640 \uacf5\uaca9\ud574 \uc628 \ubaac\uc2a4\ud130\ub97c \uc8fc\uc778\uc758 \ud328\ub85c \ub418\ub3cc\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "trap",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "c078ed95-1ecb-4d01-808f-b76f25e6ff33",
+      "card": "https://ms.yugipedia.com//1/11/IntentionalDraw-RDKP18-JP-UR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Intentional Draw",
+        "id": 1069535
+      }
+    ],
+    "dbID": 20673
+  },
+  "series": []
+}

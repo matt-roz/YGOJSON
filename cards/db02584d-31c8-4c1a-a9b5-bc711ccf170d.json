@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "db02584d-31c8-4c1a-a9b5-bc711ccf170d",
+  "text": {
+    "en": {
+      "name": "Magic Mirror Youth",
+      "effect": "Add 1 Level 4 Spellcaster Type monster from your Graveyard to your hand."
+    },
+    "ja": {
+      "name": "\u30de\u30b8\u30c3\u30af\u30df\u30e9\u30fc\u30fb\u30e6\u30fc\u30b9",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff14\uff0f\u9b54\u6cd5\u4f7f\u3044\u65cf\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub9e4\uc9c1\ubbf8\ub7ec \uc720\uc2a4",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130(\ub808\ubca8 4 / \ub9c8\ubc95\uc0ac\uc871) 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\ub294\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "spellcaster",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1000,
+  "def": 800,
+  "passwords": [],
+  "images": [
+    {
+      "id": "78d3eeda-acfc-4c93-9bb2-3e95b377ae21",
+      "card": "https://ms.yugipedia.com//c/cd/MagicMirrorYouth-RDORP1-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Magic Mirror Youth",
+        "id": 715699
+      }
+    ],
+    "dbID": 18387
+  },
+  "series": []
+}

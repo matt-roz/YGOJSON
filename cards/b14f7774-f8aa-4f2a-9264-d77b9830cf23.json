@@ -1,0 +1,58 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "b14f7774-f8aa-4f2a-9264-d77b9830cf23",
+  "text": {
+    "en": {
+      "name": "Siesta Torero",
+      "effect": "Change 1 Attack Position Level 8 or lower monster on your opponent's field to face-down Defense Position. Then, you can add 1 \"Siesta Hold\" from your Graveyard to your hand."
+    },
+    "ja": {
+      "name": "\u30b7\u30a8\u30b9\u30bf\u30c8\u30ec\u30fc\u30ed",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u653b\u6483\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff18\u4ee5\u4e0b\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u88cf\u5074\u5b88\u5099\u8868\u793a\u306b\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u30b7\u30a8\u30b9\u30bf\u30db\u30fc\u30eb\u30c9\u300d\uff11\u679a\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc2dc\uc5d0\uc2a4\ud0c0\ud1a0\ub808\ub85c",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \uacf5\uaca9 \ud45c\uc2dc \ubaac\uc2a4\ud130(\ub808\ubca8 8 \uc774\ud558) 1\uc7a5\uc744 \uace0\ub974\uace0 \ub4b7\uba74 \uc218\ube44 \ud45c\uc2dc\ub85c \ud55c\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0 \ubb18\uc9c0\uc758 \"\uc2dc\uc5d0\uc2a4\ud0c0\ud640\ub4dc\" 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\uc744 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 1200,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "0b2c06a2-d9fa-4875-bcd6-ab0d6aea3c63",
+      "card": "https://ms.yugipedia.com//3/36/SiestaTorero-RDSD0B-JP-C.png"
+    }
+  ],
+  "sets": [
+    "b0f28e3d-b93f-42f7-9518-5a27b9304349",
+    "800a7d3b-5bf8-4d9e-b88b-3ec6be2416b7",
+    "539832b2-9b51-4743-a71f-881a26a5f349",
+    "539832b2-9b51-4743-a71f-881a26a5f349",
+    "b0d594ec-1f44-402f-a994-a88c19a50a43",
+    "b0d594ec-1f44-402f-a994-a88c19a50a43",
+    "fab3640e-34f2-410e-8c1b-6c7386795132",
+    "fab3640e-34f2-410e-8c1b-6c7386795132"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Siesta Torero",
+        "id": 716699
+      }
+    ],
+    "dbID": 16341
+  },
+  "series": []
+}

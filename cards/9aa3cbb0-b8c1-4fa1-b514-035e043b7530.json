@@ -1,0 +1,56 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "9aa3cbb0-b8c1-4fa1-b514-035e043b7530",
+  "text": {
+    "en": {
+      "name": "Zaltys the White Crow Knight",
+      "effect": "1 Illusion Tuner + 1+ non-Tuners\nIf this card is Special Summoned: You can target up to 2 Spells/Traps on the field; return them to the hand. If this card is sent to the GY: You can activate this effect based on where it was sent from;\n\u25cf Field: Set 1 \"White Crow\" Trap from your Deck.\n\u25cf Extra Deck: Add 1 \"White Crow\" card from your GY to your hand.\nYou can only use each effect of \"Zaltys the White Crow Knight\" once per turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u767d\u9d09\u306e\u9a0e\u58eb\u30b6\u30eb\u30c6\u30a3\u30b9"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "monsterCardTypes": [
+    "synchro"
+  ],
+  "type": "illusion",
+  "classifications": [
+    "effect"
+  ],
+  "level": 5,
+  "atk": 2600,
+  "def": 1700,
+  "passwords": [],
+  "images": [
+    {
+      "id": "2bd20bd9-ba4e-40c0-9547-8f4dafc9e413",
+      "card": "https://ms.yugipedia.com//c/c7/ZaltystheWhiteCrowKnight-IMPH-JP-OP.png"
+    },
+    {
+      "id": "ec5b377d-1bd4-4b35-a9f4-6a50faef860c",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/101403037.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/101403037.jpg"
+    }
+  ],
+  "sets": [
+    "ccc8125c-0182-45df-91a7-57e5e2423dfc",
+    "ccc8125c-0182-45df-91a7-57e5e2423dfc"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Zaltys the White Crow Knight",
+        "id": 1224565
+      }
+    ],
+    "ygoprodeck": {
+      "id": 101403037,
+      "name": "zaltys-the-white-crow-knight-15950"
+    }
+  },
+  "series": []
+}

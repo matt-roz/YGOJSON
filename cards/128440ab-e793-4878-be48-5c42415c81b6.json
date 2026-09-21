@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "128440ab-e793-4878-be48-5c42415c81b6",
+  "text": {
+    "en": {
+      "name": "Cybersepice Garam Masala",
+      "effect": "Your opponent excavates the top 3 cards of their Deck. Make 1 face-up monster on your opponent's field lose ATK equal to [the total Levels of the excavated monsters] x 300 until the end of this turn. Your opponent places the excavated cards on the top of their Deck in any order.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30b5\u30a4\u30d0\u30fc\u30b9\u30d1\u30a4\u30b9\u30fb\u30ac\u30e9\u30e0\u30de\u30b5\u30e9",
+      "effect": "\u76f8\u624b\u306f\u81ea\u8eab\u306e\u30c7\u30c3\u30ad\u306e\u4e0a\u304b\u3089\u30ab\u30fc\u30c9\u3092\uff13\u679a\u3081\u304f\u308a\u3001\u304a\u4e92\u3044\u306b\u78ba\u8a8d\u3059\u308b\u3002\u81ea\u5206\u306f\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u3092\u9078\u3073\u3001\u305d\u306e\u653b\u6483\u529b\u3092\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\u3001\uff3b\u3081\u304f\u3063\u305f\u30ab\u30fc\u30c9\u306e\u4e2d\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u30ec\u30d9\u30eb\u306e\u5408\u8a08\uff3d\u00d7\uff13\uff10\uff10\u30c0\u30a6\u30f3\u3059\u308b\u3002\u76f8\u624b\u306f\u3081\u304f\u3063\u305f\u30ab\u30fc\u30c9\u3092\u597d\u304d\u306a\u9806\u756a\u3067\u30c7\u30c3\u30ad\u306e\u4e0a\u306b\u623b\u3059\u3002"
+    },
+    "ko": {
+      "name": "\uc0ac\uc774\ubc84\uc2a4\ud30c\uc774\uc2a4 \uac00\ub78c\ub9c8\uc0b4\ub77c",
+      "effect": "\uc0c1\ub300\ub294 \uc790\uc2e0\uc758 \ub371 \uc704\uc5d0\uc11c \uce74\ub4dc\ub97c 3\uc7a5 \ub118\uae30\uace0, \uc11c\ub85c \ud655\uc778\ud55c\ub2e4. \uc790\uc2e0\uc740 \uc0c1\ub300 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130 1\uc7a5\uc744 \uace0\ub974\uace0, \uadf8 \uacf5\uaca9\ub825\uc744 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0, [\ub118\uae34 \uce74\ub4dc \uc911\uc758 \ubaac\uc2a4\ud130 \ub808\ubca8\uc758 \ud569\uacc4] \u00d7 300 \ub0b4\ub9b0\ub2e4. \uc0c1\ub300\ub294 \ub118\uae34 \uce74\ub4dc\ub97c \uc88b\uc544\ud558\ub294 \uc21c\uc11c\ub300\ub85c \ub371 \uc704\ub85c \ub418\ub3cc\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "type": "cyberse",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2400,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "2dbbf699-9e83-4786-8b58-ece5d07e79ac",
+      "card": "https://ms.yugipedia.com//6/65/CybersepiceGaramMasala-RDKP17-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Cybersepice Garam Masala",
+        "id": 1053225
+      }
+    ],
+    "dbID": 20316
+  },
+  "series": [
+    "77a03aa6-7e6b-4da3-9919-c02287f58091"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "b9470ef2-50b1-41e6-ad84-8b97552033fa",
+  "text": {
+    "en": {
+      "name": "Mean Mutt Bullblade",
+      "effect": "A Mean Mutt who threatens with a throaty deep voice. His ability to intimidate others is... so-so.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u90aa\u72ac\u629c\u5200\u30d6\u30eb\u30c9\u30c3\u30b9",
+      "effect": "\u91ce\u592a\u3044\u58f0\u3067\u51c4\u307f\u3092\u5229\u304b\u305b\u308b\u90aa\u72ac\u3002\u5a01\u5687\u306e\u52b9\u679c\u306f\u30dc\u30c1\u30dc\u30c1\u3002"
+    },
+    "ko": {
+      "name": "\uc0ac\uacac\ubc1c\ub3c4 \ubd88\ub3c4\uc2a4",
+      "effect": "\uad75\uc740 \ubaa9\uc18c\ub9ac\ub85c \uc704\ud611\uc744 \uac00\ud558\ub294 \uc0ac\uacac. \uc704\ud611\uc758 \ud6a8\uacfc\ub294 \uadf8\ub7ed\uc800\ub7ed."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "beastwarrior",
+  "classifications": [
+    "normal"
+  ],
+  "level": 4,
+  "atk": 1400,
+  "def": 400,
+  "passwords": [],
+  "images": [
+    {
+      "id": "32c4faec-2baf-4c7b-93ef-2e8738d1841e",
+      "card": "https://ms.yugipedia.com//d/d4/MeanMuttBullblade-RDKP10-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Mean Mutt Bullblade",
+        "id": 715260
+      }
+    ],
+    "dbID": 17855
+  },
+  "series": [
+    "6752ccdf-b033-4f96-b45f-b240e4f77a6d"
+  ]
+}

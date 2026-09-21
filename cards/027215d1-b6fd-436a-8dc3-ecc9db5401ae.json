@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "027215d1-b6fd-436a-8dc3-ecc9db5401ae",
+  "text": {
+    "en": {
+      "name": "Transam Praime Armor Nova",
+      "effect": "This card that was Normal Summoned by Tributing 3 monsters gains ATK equal to [the total original Levels of the monsters Tributed when Normal Summoning this card] x 100.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30c8\u30e9\u30f3\u30b6\u30e0\u30fb\u30d7\u30e9\u30a4\u30e0\u30fb\u30a2\u30fc\u30de\u30fc\u30ce\u30f4\u30a1",
+      "effect": "\u30e2\u30f3\u30b9\u30bf\u30fc\uff13\u4f53\u3092\u30ea\u30ea\u30fc\u30b9\u3057\u3066\u53ec\u559a\u3057\u305f\u3053\u306e\u30ab\u30fc\u30c9\u306e\u653b\u6483\u529b\u306f\u3001\uff3b\u3053\u306e\u30ab\u30fc\u30c9\u3092\u53ec\u559a\u3059\u308b\u6642\u306b\u30ea\u30ea\u30fc\u30b9\u3057\u305f\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u5143\u3005\u306e\u30ec\u30d9\u30eb\u306e\u5408\u8a08\uff3d\u00d7\uff11\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud2b8\ub79c\uc7a0 \ud504\ub77c\uc784 \uc544\uba38\ub178\ubc14",
+      "effect": "\ubaac\uc2a4\ud130 3\uc7a5\uc744 \ub9b4\ub9ac\uc2a4\ud558\uace0 \uc77c\ubc18 \uc18c\ud658\ud55c \uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\ub825\uc740, [\uc774 \uce74\ub4dc\ub97c \uc77c\ubc18 \uc18c\ud658\ud560 \ub54c\uc5d0 \ub9b4\ub9ac\uc2a4\ud55c \ubaac\uc2a4\ud130\uc758 \uc6d0\ub798 \ub808\ubca8\uc758 \ud569\uacc4] \u00d7 100 \uc62c\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 2500,
+  "def": 1600,
+  "passwords": [],
+  "images": [
+    {
+      "id": "c0f610c7-5ad1-4b5c-b064-44f0a50a7deb",
+      "card": "https://ms.yugipedia.com//f/fd/TransamPraimeArmorNova-RDKP16-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Transam Praime Armor Nova",
+        "id": 1035059
+      }
+    ],
+    "dbID": 19956
+  },
+  "series": [
+    "58be21ce-2f8a-4c61-b8e2-5981a4f6a3f5",
+    "4f8c7961-b539-4a86-9476-d0b89bf20e36"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "e1544c92-ac2c-444f-b57b-ebb93d9a0b1c",
+  "text": {
+    "en": {
+      "name": "Goblin Attack Force (Rush Duel)",
+      "effect": "If this card destroys an opponent's monster by battle and sends it to the Graveyard, change it to face-up Defense Position.",
+      "official": false
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 2300,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "49851bf6-91aa-4a84-a3eb-b9aec40e6704",
+      "card": "https://ms.yugipedia.com//c/ca/GoblinAttackForce-RDLP01-JP-OP.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Goblin Attack Force (Rush Duel)",
+        "id": 1203831
+      }
+    ]
+  },
+  "series": []
+}

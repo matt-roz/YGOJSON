@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "39a424a4-81b0-41b8-8184-3d8d25a25d19",
+  "text": {
+    "en": {
+      "name": "Wicked Dragon with the Ominous Head",
+      "effect": "Send the top 2 cards of your Deck to the Graveyard. Then, you can add 1 \"Ominous Ogre of Yamimakai\" or 1 \"The Sword of Zera\" from your Graveyard to your hand.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u51f6\u982d\u3092\u6301\u3064\u90aa\u7adc",
+      "effect": "\u81ea\u5206\u306e\u30c7\u30c3\u30ad\u306e\u4e0a\u304b\u3089\u30ab\u30fc\u30c9\uff12\u679a\u3092\u5893\u5730\u3078\u9001\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u95c7\u9b54\u754c\u306e\u51f6\u9b3c\u300d\uff11\u4f53\u307e\u305f\u306f\u300c\u30bc\u30e9\u306e\u5263\u300d\uff11\u679a\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud749\ub450\ub97c \uac00\uc9c4 \uc0ac\ub8e1",
+      "effect": "\uc790\uc2e0\uc758 \ub371 \uc704\uc5d0\uc11c \uce74\ub4dc 2\uc7a5\uc744 \ubb18\uc9c0\ub85c \ubcf4\ub0b8\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0 \ubb18\uc9c0\uc758 \"\uc554\ud751 \ub9c8\uacc4\uc758 \ud749\uadc0\" 1\uc7a5 \ub610\ub294 \"\uc81c\ub77c\uc758 \uac80\" 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\uc744 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "wind",
+  "type": "dragon",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 900,
+  "def": 900,
+  "passwords": [],
+  "images": [
+    {
+      "id": "9274654b-5808-4ba0-90f1-29d0250080cf",
+      "card": "https://ms.yugipedia.com//e/ef/WickedDragonwiththeOminousHead-RDAP01-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Wicked Dragon with the Ominous Head",
+        "id": 1131307
+      }
+    ],
+    "dbID": 21854
+  },
+  "series": [
+    "08f69d43-12a8-4b23-8201-7e6386f1a5ce"
+  ]
+}

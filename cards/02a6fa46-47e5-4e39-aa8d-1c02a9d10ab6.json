@@ -1,0 +1,54 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "02a6fa46-47e5-4e39-aa8d-1c02a9d10ab6",
+  "text": {
+    "en": {
+      "name": "Elemental HERO Avian (Rush Duel)",
+      "effect": "A winged Elemental HERO who wheels through the sky and manipulates the wind. His signature move, Featherbreak, gives villainy a blow from sky-high."
+    },
+    "ko": {
+      "name": "\uc5d8\ub9ac\uba58\ud2c0 \ud788\uc5b4\ub85c \ud398\ub354\ub9e8",
+      "effect": "\ubc14\ub78c\uc744 \uc870\uc885\ud558\uba70 \ud558\ub298\uc744 \ub098\ub294 \ub0a0\uac1c\ub97c \uac00\uc9c4 \uc5d8\ub9ac\uba58\ud2c0 \ud788\uc5b4\ub85c. \ucc9c\uacf5\uc5d0\uc11c\uc758 \uc77c\uaca9, \ud398\ub354 \ube0c\ub808\uc774\ud06c\ub85c \uc545\uc744 \uc2ec\ud310\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "wind",
+  "type": "warrior",
+  "classifications": [
+    "normal"
+  ],
+  "level": 3,
+  "atk": 1000,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "5d638c2a-5c76-4bd8-8194-e82db53fbeed",
+      "card": "https://ms.yugipedia.com//6/62/ElementalHEROAvian-RDP005-JP-ScRRed.png"
+    },
+    {
+      "id": "32654103-190c-409a-a0bf-05dd28590f40",
+      "card": "https://ms.yugipedia.com//c/c3/ElementalHEROAvian-RD711D-JP-NPR.png"
+    }
+  ],
+  "sets": [
+    "8f9b8437-ca62-4bdc-a9d7-5f2c5ff25567",
+    "fab3640e-34f2-410e-8c1b-6c7386795132",
+    "fab3640e-34f2-410e-8c1b-6c7386795132",
+    "fab3640e-34f2-410e-8c1b-6c7386795132",
+    "fab3640e-34f2-410e-8c1b-6c7386795132"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Elemental HERO Avian (Rush Duel)",
+        "id": 1059070
+      }
+    ],
+    "dbID": 20460
+  },
+  "series": [
+    "4e2112ec-34a4-4031-91ad-7dcc3818d4c7"
+  ]
+}

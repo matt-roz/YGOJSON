@@ -1,0 +1,70 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "0e837afa-ba90-4974-b45e-8cd3405b38a0",
+  "text": {
+    "en": {
+      "name": "Peacock Picotron",
+      "effect": "Send this card from your field to the Graveyard and draw 2 cards. Then, send the top 2 cards of your Deck to the Graveyard."
+    },
+    "fr": {
+      "name": "Paon Picotron",
+      "effect": "Envoyez cette carte depuis votre Terrain au Cimeti\u00e8re et piochez 2 cartes. Ensuite, envoyez les 2 cartes du dessus de votre Deck au Cimeti\u00e8re."
+    },
+    "de": {
+      "name": "Pfau Picotron",
+      "effect": "Lege diese Karte von deiner Spielfeldseite auf den Friedhof und ziehe 2 Karten. Dann lege die obersten 2 Karten deines Decks auf den Friedhof."
+    },
+    "it": {
+      "name": "Pavone Picotron",
+      "effect": "Manda questa carta dal tuo Terreno al Cimitero e pesca 2 carte. Poi, manda le prime 2 carte del tuo Deck al Cimitero."
+    },
+    "es": {
+      "name": "Picotron Pavo Real",
+      "effect": "Manda al Cementerio esta carta en tu Campo y roba 2 cartas. A continuaci\u00f3n, manda al Cementerio las 2 cartas de la parte superior de tu Deck."
+    },
+    "ja": {
+      "name": "\u30d4\u30fc\u30b3\u30c3\u30af\u30fb\u30cf\u30a4\u30c8\u30ed\u30f3",
+      "effect": "\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u3053\u306e\u30ab\u30fc\u30c9\u3092\u5893\u5730\u3078\u9001\u308a\u3001\u81ea\u5206\u306f\uff12\u679a\u30c9\u30ed\u30fc\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u30c7\u30c3\u30ad\u306e\u4e0a\u304b\u3089\u30ab\u30fc\u30c9\uff12\u679a\u3092\u5893\u5730\u3078\u9001\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud53c\ucf55 \ud558\uc774\ud2b8\ub860",
+      "effect": "\uc790\uc2e0 \ud544\ub4dc\uc758 \uc774 \uce74\ub4dc\ub97c \ubb18\uc9c0\ub85c \ubcf4\ub0b4\uace0, \uc790\uc2e0\uc740 2\uc7a5 \ub4dc\ub85c\uc6b0\ud55c\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0\uc758 \ub371 \uc704\uc5d0\uc11c \uce74\ub4dc 2\uc7a5\uc744 \ubb18\uc9c0\ub85c \ubcf4\ub0b8\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "cyberse",
+  "classifications": [
+    "effect"
+  ],
+  "level": 5,
+  "atk": 1600,
+  "def": 100,
+  "passwords": [],
+  "images": [
+    {
+      "id": "208dc3ef-bd39-4353-8e11-bb9891a2cd9b",
+      "card": "https://ms.yugipedia.com//a/a9/PeacockPicotron-RDORP2-JP-C.png"
+    }
+  ],
+  "sets": [
+    "c4bde57a-4e90-438f-8fe7-4db6de641241",
+    "c4bde57a-4e90-438f-8fe7-4db6de641241"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Peacock Picotron",
+        "id": 716178
+      }
+    ],
+    "dbID": 15907
+  },
+  "series": [
+    "001759e7-855e-4b0e-b581-199f0c377967"
+  ]
+}

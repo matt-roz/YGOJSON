@@ -1,0 +1,53 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "985bbd85-8a87-4a15-b544-1ee47afd0d80",
+  "text": {
+    "en": {
+      "name": "Dedicated Protorion",
+      "effect": "Send the top 2 cards of your Deck to the Graveyard. Then, you can Set 1 Ritual Spell Card from your Graveyard to your Spell & Trap Zone.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u6d17\u793c\u306e\u30d7\u30ed\u30c8\u30ea\u30aa\u30f3",
+      "effect": "\u81ea\u5206\u306e\u30c7\u30c3\u30ad\u306e\u4e0a\u304b\u3089\u30ab\u30fc\u30c9\uff12\u679a\u3092\u5893\u5730\u3078\u9001\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u30ea\u30c1\u30e5\u30a2\u30eb\u9b54\u6cd5\u30ab\u30fc\u30c9\uff11\u679a\u3092\u9078\u3093\u3067\u81ea\u5206\u306e\u9b54\u6cd5\uff06\u7f60\u30be\u30fc\u30f3\u306b\u30bb\u30c3\u30c8\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc138\ub840\uc758 \ud504\ub85c\ud1a0\ub9ac\uc628",
+      "effect": "\uc790\uc2e0\uc758 \ub371 \uc704\uc5d0\uc11c \uce74\ub4dc 2\uc7a5\uc744 \ubb18\uc9c0\ub85c \ubcf4\ub0b8\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0 \ubb18\uc9c0\uc758 \ub9ac\ucd94\uc5bc \ub9c8\ubc95 \uce74\ub4dc 1\uc7a5\uc744 \uace0\ub974\uace0 \uc790\uc2e0\uc758 \ub9c8\ubc95 & \ud568\uc815 \uc874\uc5d0 \uc138\ud2b8\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "rock",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 2500,
+  "def": 2100,
+  "passwords": [],
+  "images": [
+    {
+      "id": "f4d74fc4-c5a2-43a5-a940-9ccb5691bbb7",
+      "card": "https://ms.yugipedia.com//f/fb/DedicatedProtorion-RDKP21-JP-SR.png"
+    },
+    {
+      "id": "6a9bb6cf-dc04-467a-bf20-b4f66d340472",
+      "card": "https://ms.yugipedia.com//5/5f/DedicatedProtorion-RDKP21-JP-ScR-AA.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Dedicated Protorion",
+        "id": 1124588
+      }
+    ],
+    "dbID": 21670
+  },
+  "series": [
+    "73409add-3e9e-400d-a8b0-ae600de6af69"
+  ]
+}

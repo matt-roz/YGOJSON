@@ -1,0 +1,54 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "dc52136a-862f-4e14-b8ae-4788ca99b5e3",
+  "text": {
+    "en": {
+      "name": "Sora Puyo",
+      "effect": "Draw 1 card. Send 1 card from your hand to the Graveyard."
+    },
+    "ja": {
+      "name": "\u30bd\u30e9\u30d7\u30e8",
+      "effect": "\u81ea\u5206\u306f\uff11\u679a\u30c9\u30ed\u30fc\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306f\u624b\u672d\uff11\u679a\u3092\u9078\u3093\u3067\u5893\u5730\u3078\u9001\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc18c\ub77c\ubfcc\uc694",
+      "effect": "\uc790\uc2e0\uc740 1\uc7a5 \ub4dc\ub85c\uc6b0\ud55c\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0\uc740 \ud328 1\uc7a5\uc744 \uace0\ub974\uace0 \ubb18\uc9c0\ub85c \ubcf4\ub0b8\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "classifications": [
+    "effect"
+  ],
+  "level": 2,
+  "atk": 1000,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "507cf273-a924-4162-a1bf-5bf8dc03bb5d",
+      "card": "https://ms.yugipedia.com//1/11/SoraPuyo-RDGRD1-JP-C.png"
+    }
+  ],
+  "sets": [
+    "e919bb19-cbca-4aae-ba1c-d55336255523",
+    "a3a484b7-43f4-4cde-aa3c-fc8bd9d7f99a",
+    "455fb71f-f387-4d39-bc3d-659e45da6de8",
+    "455fb71f-f387-4d39-bc3d-659e45da6de8",
+    "84ce4071-599b-4169-8b5c-6d4c252c2a67"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "r"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Sora Puyo",
+        "id": 716763
+      }
+    ],
+    "dbID": 17579
+  },
+  "series": []
+}

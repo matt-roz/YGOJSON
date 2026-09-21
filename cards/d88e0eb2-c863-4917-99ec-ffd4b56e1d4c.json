@@ -1,0 +1,53 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "d88e0eb2-c863-4917-99ec-ffd4b56e1d4c",
+  "text": {
+    "en": {
+      "name": "Peace Holder",
+      "effect": "A young investigator who protects the peace in the city. She is struggling to solve a certain disappearance case."
+    },
+    "ja": {
+      "name": "\u30d4\u30fc\u30b9\u30fb\u30db\u30fc\u30eb\u30c0\u30fc",
+      "effect": "\u8857\u306e\u5e73\u548c\u3092\u5b88\u308b\u82e5\u304d\u635c\u67fb\u5b98\u3002\u3068\u3042\u308b\u5931\u8e2a\u4e8b\u4ef6\u3092\u89e3\u6c7a\u3059\u3079\u304f\u596e\u95d8\u3057\u3066\u3044\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud53c\uc2a4 \ud640\ub354",
+      "effect": "\ub9c8\uc744\uc758 \ud3c9\ud654\ub97c \uc9c0\ud0a4\ub294 \uc80a\uc740 \uc218\uc0ac\uad00. \uc5b4\ub5a4 \uc2e4\uc885\uc0ac\uac74\uc744 \ud574\uacb0\ud558\uae30 \uc704\ud574 \ubd84\ud22c\ud558\uace0 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "psychic",
+  "classifications": [
+    "normal"
+  ],
+  "level": 4,
+  "atk": 1500,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "b761426a-b600-4c4a-8de0-893ae8f195db",
+      "card": "https://ms.yugipedia.com//f/f6/PeaceHolder-RDMRP1-JP-C.png"
+    }
+  ],
+  "sets": [
+    "fa6096f7-75e2-43af-90f5-a5bbc2febd9a",
+    "9f297267-1ebc-44e2-b4a4-d3e5fea47c30",
+    "9f297267-1ebc-44e2-b4a4-d3e5fea47c30"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "r"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Peace Holder",
+        "id": 711190
+      }
+    ],
+    "dbID": 16784
+  },
+  "series": []
+}

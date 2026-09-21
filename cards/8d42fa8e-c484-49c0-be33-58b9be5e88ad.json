@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "8d42fa8e-c484-49c0-be33-58b9be5e88ad",
+  "text": {
+    "en": {
+      "name": "Command Knight (Rush Duel)",
+      "effect": "Face-up Warrior Type monsters on your field gain 400 ATK. If you have another face-up Warrior Type monster on your field, your opponent cannot attack this card.",
+      "official": false
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1200,
+  "def": 1900,
+  "passwords": [],
+  "images": [
+    {
+      "id": "a183adb1-0817-43d6-b1d3-134d91a891cc",
+      "card": "https://ms.yugipedia.com//8/86/CommandKnight-RDSJMP-JP-NPR.png"
+    }
+  ],
+  "sets": [
+    "b254644c-27d2-4111-9a53-3a82de7d4cd5"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Command Knight (Rush Duel)",
+        "id": 1199615
+      }
+    ],
+    "dbID": 23422
+  },
+  "series": []
+}

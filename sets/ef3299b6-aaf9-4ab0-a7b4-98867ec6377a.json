@@ -1,0 +1,67 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "ef3299b6-aaf9-4ab0-a7b4-98867ec6377a",
+  "name": {
+    "en": "WSJ Jump Pack Fall 2016 promotional card"
+  },
+  "locales": {
+    "en": {
+      "language": "en",
+      "prefix": "JMPS-EN",
+      "image": "https://ms.yugipedia.com//7/7b/WSJJumpPack-Fall2016.png",
+      "cardImages": {
+        "limited": {
+          "a6ba4774-243a-4f53-9116-7713b192b9d2": "https://ms.yugipedia.com//c/cb/DarkMagician-JMPS-EN-UR-LE.png"
+        }
+      },
+      "cardInfo": {
+        "limited": {
+          "a6ba4774-243a-4f53-9116-7713b192b9d2": {
+            "image": "https://ms.yugipedia.com//c/cb/DarkMagician-JMPS-EN-UR-LE.png"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          1111112005
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "en"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "distrobution": "preconstructed",
+      "editions": [
+        "limited"
+      ],
+      "image": "https://ms.yugipedia.com//7/7b/WSJJumpPack-Fall2016.png",
+      "cards": [
+        {
+          "id": "a6ba4774-243a-4f53-9116-7713b192b9d2",
+          "card": "c0285d04-cadd-402d-a865-799a182d7510",
+          "suffix": "003",
+          "rarity": "ultra"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "WSJ Jump Pack Fall 2016 promotional card",
+      "id": 401958
+    }
+  }
+}

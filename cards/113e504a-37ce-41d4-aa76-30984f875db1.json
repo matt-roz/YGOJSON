@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "113e504a-37ce-41d4-aa76-30984f875db1",
+  "text": {
+    "en": {
+      "name": "Green-Eyes Star Cat",
+      "effect": "Draw 1 card. Then, if you sent a Normal Monster to the Graveyard to meet the requirement, this turn, this face-up card can be treated as 2 Tributes for the Tribute Summon of a monster with 200 DEF in Attack Position.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u7dd1\u773c\u306e\u661f\u732b",
+      "effect": "\u81ea\u5206\u306f\uff11\u679a\u30c9\u30ed\u30fc\u3059\u308b\u3002\u3053\u306e\u52b9\u679c\u306e\u6761\u4ef6\u3067\u901a\u5e38\u30e2\u30f3\u30b9\u30bf\u30fc\u3092\u5893\u5730\u3078\u9001\u3063\u305f\u5834\u5408\u3001\u3055\u3089\u306b\u3053\u306e\u30bf\u30fc\u30f3\u3001\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u5b88\u5099\u529b\uff12\uff10\uff10\uff09\u3092\u653b\u6483\u8868\u793a\u3067\u30a2\u30c9\u30d0\u30f3\u30b9\u53ec\u559a\u3059\u308b\u5834\u5408\u3001\u8868\u5074\u8868\u793a\u306e\u3053\u306e\u30ab\u30fc\u30c9\u306f\uff12\u4f53\u5206\u306e\u30ea\u30ea\u30fc\u30b9\u306b\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uadf8\ub9b0\uc544\uc774\uc988 \uc2a4\ud0c0\ucea3",
+      "effect": "\uc790\uc2e0\uc740 1\uc7a5 \ub4dc\ub85c\uc6b0\ud55c\ub2e4. \uc774 \ud6a8\uacfc\uc758 \uc870\uac74\uc73c\ub85c \uc77c\ubc18 \ubaac\uc2a4\ud130\ub97c \ubb18\uc9c0\ub85c \ubcf4\ub0c8\uc744 \uacbd\uc6b0, \ucd94\uac00\ub85c \uc774 \ud134\uc5d0, \ubaac\uc2a4\ud130(\uc218\ube44\ub825 200)\ub97c \uacf5\uaca9 \ud45c\uc2dc\ub85c \uc5b4\ub4dc\ubc34\uc2a4 \uc18c\ud658\ud560 \uacbd\uc6b0, \uc55e\uba74 \ud45c\uc2dc\uc758 \uc774 \uce74\ub4dc\ub294 2\uc7a5\ub9cc\ud07c\uc758 \ub9b4\ub9ac\uc2a4\ub85c \ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "beast",
+  "classifications": [
+    "effect"
+  ],
+  "level": 1,
+  "atk": 400,
+  "def": 200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "d3b61b36-b8d6-4dc5-b710-fc54b83adb1b",
+      "card": "https://ms.yugipedia.com//1/19/GreenEyesStarCat-RDKP12-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Green-Eyes Star Cat",
+        "id": 715197
+      }
+    ],
+    "dbID": 18597
+  },
+  "series": [
+    "79a5d72a-ddca-4158-ae45-bb393d081135"
+  ]
+}

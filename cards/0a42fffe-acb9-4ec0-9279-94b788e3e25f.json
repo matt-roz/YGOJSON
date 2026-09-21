@@ -1,0 +1,38 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "0a42fffe-acb9-4ec0-9279-94b788e3e25f",
+  "text": {
+    "en": {
+      "name": "Mad Reloader (Rush Duel)",
+      "effect": "Send 2 cards from your hand to the Graveyard. Then, draw 2 cards.",
+      "official": false
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "fiend",
+  "classifications": [
+    "effect"
+  ],
+  "level": 1,
+  "atk": 0,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "66257294-08a3-490b-b3f2-5518b5987751",
+      "card": "https://ms.yugipedia.com//4/41/MadReloader-RDLP01-JP-OP.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Mad Reloader (Rush Duel)",
+        "id": 1203820
+      }
+    ]
+  },
+  "series": []
+}

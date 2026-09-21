@@ -1,0 +1,53 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "2f0d0bfe-e270-48e3-90ee-eb26073fe142",
+  "text": {
+    "en": {
+      "name": "Platnidon",
+      "effect": "A pterodactyl that loves to collect shiny objects. The shell atop of its head, is its favorite."
+    },
+    "ja": {
+      "name": "\u30d7\u30e9\u30c1\u30ca\u30c9\u30f3",
+      "effect": "\u5149\u308a\u7269\u96c6\u3081\u304c\u5927\u597d\u304d\u306a\u30d7\u30c6\u30e9\u30ce\u30c9\u30f3\u3002\u982d\u306e\u6bbb\u304c\u4e00\u756a\u306e\u304a\u6c17\u306b\u5165\u308a\u3002"
+    },
+    "ko": {
+      "name": "\ud50c\ub77c\ud2f0\ub098\ub3c8",
+      "effect": "\ubc18\uc9dd\uc774\ub294 \ubb3c\uac74 \ubaa8\uc73c\uae30\ub97c \uc88b\uc544\ud558\ub294 \ud504\ub808\ud0c0\ub178\ub3c8. \uba38\ub9ac\uc5d0 \uc4f4 \uaecd\uc9c8\uc774 \ucd5c\uc560 \uc544\uc774\ud15c."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "dinosaur",
+  "classifications": [
+    "normal"
+  ],
+  "level": 1,
+  "atk": 0,
+  "def": 1400,
+  "passwords": [],
+  "images": [
+    {
+      "id": "f359679f-421e-4e13-8414-efa4cd9eb12f",
+      "card": "https://ms.yugipedia.com//0/07/Platnidon-RDMAX2-JP-C.png"
+    }
+  ],
+  "sets": [
+    "5b6d7ab4-987e-4469-89bd-9d9bf3d400c0"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "n"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Platnidon",
+        "id": 716236
+      }
+    ],
+    "dbID": 16582
+  },
+  "series": [
+    "34abd7ad-23eb-4078-a140-43c367297c26"
+  ]
+}

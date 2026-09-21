@@ -1,0 +1,56 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "7b4f712e-a546-418a-ac56-a6d412c74be5",
+  "text": {
+    "en": {
+      "name": "Aitvaras the White Crow Knight",
+      "effect": "1 Illusion Tuner + 1+ non-Tuners\nIf this card is Special Summoned: You can target 1 card you control and 1 card your opponent controls; return them to the hand. If this card is sent to the GY: You can activate this effect based on where it was sent from;\n\u25cf Field: Target 1 card on the field; shuffle it into the Deck.\n\u25cf Extra Deck: Special Summon 1 \"White Crow\" monster from your GY.\nYou can only use each effect of \"Aitvaras the White Crow Knight\" once per turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u767d\u9d09\u306e\u9a0e\u58eb\u30a2\u30a4\u30c8\u30ef\u30e9\u30b9"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "monsterCardTypes": [
+    "synchro"
+  ],
+  "type": "illusion",
+  "classifications": [
+    "effect"
+  ],
+  "level": 5,
+  "atk": 900,
+  "def": 2600,
+  "passwords": [],
+  "images": [
+    {
+      "id": "092e298b-9c02-4410-9944-6e21710cbf59",
+      "card": "https://ms.yugipedia.com//6/6c/AitvarastheWhiteCrowKnight-IMPH-JP-OP.png"
+    },
+    {
+      "id": "73d3a0ad-ce67-4c65-809c-c5c5b3c322bd",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/101403038.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/101403038.jpg"
+    }
+  ],
+  "sets": [
+    "ccc8125c-0182-45df-91a7-57e5e2423dfc",
+    "ccc8125c-0182-45df-91a7-57e5e2423dfc"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Aitvaras the White Crow Knight",
+        "id": 1224568
+      }
+    ],
+    "ygoprodeck": {
+      "id": 101403038,
+      "name": "aitvaras-the-white-crow-knight-15947"
+    }
+  },
+  "series": []
+}

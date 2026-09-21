@@ -1,0 +1,54 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "5eed4a11-01b9-41a2-9662-b66c3060497a",
+  "text": {
+    "en": {
+      "name": "Change Slime - Skull Dragon Mode",
+      "effect": "Fusion Summon a monster that mentions \"Summoned Skull\" or \"Red-Eyes Black Dragon\" as material by sending monsters from your hand or field to the Graveyard as material."
+    },
+    "ja": {
+      "name": "\u30c1\u30a7\u30f3\u30b8\u30fb\u30b9\u30e9\u30a4\u30e0\uff0d\u60aa\u9b54\u7adc\u5f62\u614b",
+      "effect": "\u81ea\u5206\u306e\u624b\u672d\u30fb\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u3092\u7d20\u6750\u3068\u3057\u3066\u5893\u5730\u3078\u9001\u308a\u3001\u300c\u30c7\u30fc\u30e2\u30f3\u306e\u53ec\u559a\u300d\u307e\u305f\u306f\u300c\u771f\u7d05\u773c\u306e\u9ed2\u7adc\u300d\u306e\u30ab\u30fc\u30c9\u540d\u304c\u7d20\u6750\u3068\u3057\u3066\u8a18\u3055\u308c\u305f\u30e2\u30f3\u30b9\u30bf\u30fc\u3092\u30d5\u30e5\u30fc\u30b8\u30e7\u30f3\u53ec\u559a\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uccb4\uc778\uc9c0 \uc2ac\ub77c\uc784\uff0d\uc545\ub9c8\ub8e1\ubaa8\ub4dc",
+      "effect": "\uc790\uc2e0\uc758 \ud328 / \ud544\ub4dc\uc758 \ubaac\uc2a4\ud130\ub97c \uc18c\uc7ac\ub85c\uc11c \ubb18\uc9c0\ub85c \ubcf4\ub0b4\uace0, \"\ub370\ubaac \uc18c\ud658\" \ub610\ub294 \"\ubd89\uc740 \ub208\uc758 \ud751\ub8e1\"\uc758 \uce74\ub4dc\uba85\uc774 \uc18c\uc7ac\ub85c\uc11c \uc4f0\uc5ec\uc9c4 \ubaac\uc2a4\ud130\ub97c \ud4e8\uc804 \uc18c\ud658\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "type": "aqua",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1200,
+  "def": 500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "e2e8eb9e-b63d-4ba8-a7ac-f094959dc854",
+      "card": "https://ms.yugipedia.com//6/6c/ChangeSlimeSkullDragonMode-RDTB02-JP-C.png"
+    }
+  ],
+  "sets": [
+    "11548122-d48e-4313-aff4-6d29bca3f0b0"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Change Slime - Skull Dragon Mode",
+        "id": 1103843
+      }
+    ],
+    "dbID": 21085
+  },
+  "series": [
+    "b8f9793c-0736-4ee4-99be-120c4d70afbc",
+    "30da8fac-ccef-4d93-8d83-2d10afec9c87"
+  ]
+}

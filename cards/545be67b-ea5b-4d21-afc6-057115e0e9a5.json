@@ -1,0 +1,52 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "545be67b-ea5b-4d21-afc6-057115e0e9a5",
+  "text": {
+    "en": {
+      "name": "Prime Roast Beef Horseman",
+      "effect": "Add 1 \"Best Bite\", \"B\u30fbB\u30fbQ\", and/or \"Wild Kitchen\" from your Graveyard to your hand.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30b8\u30e7\u30fc\u30df\u30ce\u30b1\u30f3\u30bf\u30a6\u30ed\u30fc\u30b9",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u30b8\u30e3\u30b9\u30c8\u30fb\u30df\u30fc\u30c8\u300d\u300c\uff22\u30fb\uff22\u30fb\uff31\u300d\u300c\u30ef\u30a4\u30eb\u30c9\u30fb\u30ad\u30c3\u30c1\u30f3\u300d\u3092\u305d\u308c\u305e\u308c\uff11\u679a\u307e\u3067\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc8e0\ubbf8\ub178\ucf04\ud0c0\uc6b0\ub85c\uc624\uc2a4",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \"\uc800\uc2a4\ud2b8 \ubbf8\ud2b8\" \"B\u30fbB\u30fbQ(\ubc84\ub2dd \ube44\uc2a4\ud2b8 \ud004\ub9ac\ud2f0)\" \"\uc640\uc77c\ub4dc \ud0a4\uce5c\"\uc744 \uac01\uac01 1\uc7a5\uae4c\uc9c0 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\ub294\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "beast",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2400,
+  "def": 1800,
+  "passwords": [],
+  "images": [
+    {
+      "id": "6a726715-18a7-43f7-94e5-682c1c53e85f",
+      "card": "https://ms.yugipedia.com//1/12/PrimeRoastBeefHorseman-RDKP08-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Prime Roast Beef Horseman",
+        "id": 716293
+      }
+    ],
+    "dbID": 17318
+  },
+  "series": [
+    "d28a8aab-c48f-47c4-9f16-08ed97f3ae09"
+  ]
+}

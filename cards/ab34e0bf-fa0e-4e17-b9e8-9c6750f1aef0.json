@@ -1,0 +1,54 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "ab34e0bf-fa0e-4e17-b9e8-9c6750f1aef0",
+  "text": {
+    "en": {
+      "name": "Ultimate Flag Beast Boltricorn",
+      "effect": "1 face-down Spell/Trap Card on your opponent's field cannot be activated until the end of their next turn."
+    },
+    "ja": {
+      "name": "\u6700\u5f37\u65d7\u7363\u30dc\u30eb\u30c8\u30e9\u30a4\u30b3\u30fc\u30f3",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u88cf\u5074\u8868\u793a\u306e\u9b54\u6cd5\u30fb\u7f60\u30ab\u30fc\u30c9\uff11\u679a\u3092\u9078\u3076\u3002\u305d\u306e\u30ab\u30fc\u30c9\u306f\u6b21\u306e\u76f8\u624b\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\u767a\u52d5\u3067\u304d\u306a\u3044\u3002"
+    },
+    "ko": {
+      "name": "\ucd5c\uac15\uae30\uc218 \ubcfc\ud2b8\ub77c\uc774\ucf58",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \ub4b7\uba74 \ud45c\uc2dc\uc758 \ub9c8\ubc95 / \ud568\uc815 \uce74\ub4dc 1\uc7a5\uc744 \uace0\ub978\ub2e4. \uadf8 \uce74\ub4dc\ub294 \ub2e4\uc74c \uc0c1\ub300 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0 \ubc1c\ub3d9\ud560 \uc218 \uc5c6\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 1200,
+  "def": 200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "d53bffd4-d09b-4f01-a672-3d46fb64451b",
+      "card": "https://ms.yugipedia.com//2/2d/UltimateFlagBeastBoltricorn-RDSD0C-JP-NPR.png"
+    }
+  ],
+  "sets": [
+    "918ca201-7f5c-4e30-a6be-9ad1bd9e8458",
+    "918ca201-7f5c-4e30-a6be-9ad1bd9e8458"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Ultimate Flag Beast Boltricorn",
+        "id": 1012486
+      }
+    ],
+    "dbID": 19549
+  },
+  "series": [
+    "1869401c-4fa5-40a6-8cbc-a60caea6b54b"
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "7f8261b8-3373-40de-a9d6-4301268dc839",
+  "name": {
+    "en": "Duelist Land Special Tournament participation cards",
+    "zh-CN": "\u51b3\u6597\u8005\u5927\u9646\u7279\u522b\u5927\u4f1a"
+  },
+  "locales": {
+    "sc": {
+      "language": "zh-CN",
+      "prefix": "FSTK-SC",
+      "date": "2024-07-20",
+      "image": "https://ms.yugipedia.com//f/f6/FSTK-PromoSC.png",
+      "cardImages": {
+        "unlimited": {}
+      },
+      "cardInfo": {
+        "unlimited": {}
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {}
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "sc"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//f/f6/FSTK-PromoSC.png",
+      "cards": [
+        {
+          "id": "e60bac21-3250-4d1c-8176-e385bba97b1f",
+          "card": "0616ad66-1b02-4d5f-8f63-11672f8e0a13",
+          "suffix": "001",
+          "rarity": "super",
+          "imageID": "c9d48dcf-607f-4b82-892e-a509392ef830"
+        },
+        {
+          "id": "f7a9ea4b-8f1e-42f6-b9a9-dca27afb663f",
+          "card": "0616ad66-1b02-4d5f-8f63-11672f8e0a13",
+          "suffix": "002",
+          "rarity": "super",
+          "imageID": "c9d48dcf-607f-4b82-892e-a509392ef830"
+        },
+        {
+          "id": "7b187d77-8790-4cb5-91fa-36ea4a1e0d54",
+          "card": "0616ad66-1b02-4d5f-8f63-11672f8e0a13",
+          "suffix": "003",
+          "rarity": "commonparallel",
+          "imageID": "c9d48dcf-607f-4b82-892e-a509392ef830"
+        },
+        {
+          "id": "f4423031-76d6-405e-958e-f3008262755e",
+          "card": "0616ad66-1b02-4d5f-8f63-11672f8e0a13",
+          "suffix": "004",
+          "rarity": "commonparallel",
+          "imageID": "c9d48dcf-607f-4b82-892e-a509392ef830"
+        },
+        {
+          "id": "9d84f3c9-f100-4595-995f-626f53b85d49",
+          "card": "0616ad66-1b02-4d5f-8f63-11672f8e0a13",
+          "suffix": "005",
+          "rarity": "commonparallel",
+          "imageID": "c9d48dcf-607f-4b82-892e-a509392ef830"
+        },
+        {
+          "id": "ef1b4e95-60e4-4474-b83a-ab3fad52bf0d",
+          "card": "0616ad66-1b02-4d5f-8f63-11672f8e0a13",
+          "suffix": "006",
+          "rarity": "commonparallel",
+          "imageID": "c9d48dcf-607f-4b82-892e-a509392ef830"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Duelist Land Special Tournament participation cards",
+      "id": 1098751
+    }
+  }
+}

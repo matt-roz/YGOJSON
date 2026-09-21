@@ -1,0 +1,52 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "2632bc19-bfaf-438b-9d55-8a5889ba9985",
+  "text": {
+    "en": {
+      "name": "Handy Partners",
+      "effect": "Send the top 2 cards of your Deck to the Graveyard. Then, you can Set 1 Trap Card from among the cards sent, or 1 \"Secret Order\" or \"New Start\" from your Graveyard, to your Spell & Trap Zone.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30cf\u30f3\u30c7\u30a3\u30fc\u30d1\u30fc\u30c8\u30ca\u30fc\u30ba",
+      "effect": "\u81ea\u5206\u306e\u30c7\u30c3\u30ad\u306e\u4e0a\u304b\u3089\u30ab\u30fc\u30c9\uff12\u679a\u3092\u5893\u5730\u3078\u9001\u308b\u3002\u305d\u306e\u5f8c\u3001\u305d\u306e\u4e2d\u306e\u7f60\u30ab\u30fc\u30c9\uff11\u679a\u3001\u307e\u305f\u306f\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u6f5c\u5165\u958b\u59cb\u300d\u300c\u4efb\u52d9\u5b8c\u4e86\u300d\u306e\u3044\u305a\u308c\u304b\uff11\u679a\u3092\u9078\u3093\u3067\u81ea\u5206\u306e\u9b54\u6cd5\uff06\u7f60\u30be\u30fc\u30f3\u306b\u30bb\u30c3\u30c8\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud578\ub514\ud30c\ud2b8\ub108\uc988",
+      "effect": "\uc790\uc2e0\uc758 \ub371 \uc704\uc5d0\uc11c \uce74\ub4dc 2\uc7a5\uc744 \ubb18\uc9c0\ub85c \ubcf4\ub0b8\ub2e4. \uadf8 \ud6c4, \uadf8 \uc911\uc758 \ud568\uc815 \uce74\ub4dc 1\uc7a5, \ub610\ub294 \uc790\uc2e0 \ubb18\uc9c0\uc758 \"\uc2dc\ud06c\ub9bf\uc624\ub354\" \"\ub274\uc2a4\ud0c0\ud2b8\" \uc911 \uc5b4\ub290 1\uc7a5\uc744 \uace0\ub974\uace0 \uc790\uc2e0\uc758 \ub9c8\ubc95 & \ud568\uc815 \uc874\uc5d0 \uc138\ud2b8\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "wind",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "psychic",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 2800,
+  "def": 1200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "62b0073a-6146-4a20-b0d7-6398c2989a93",
+      "card": "https://ms.yugipedia.com//8/83/HandyPartners-RDKP22-JP-UR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Handy Partners",
+        "id": 1131733
+      }
+    ],
+    "dbID": 22008
+  },
+  "series": [
+    "46f86d76-02e4-4a41-b731-96af4f504c77"
+  ]
+}

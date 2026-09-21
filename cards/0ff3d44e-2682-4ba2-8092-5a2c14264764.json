@@ -1,0 +1,44 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "0ff3d44e-2682-4ba2-8092-5a2c14264764",
+  "text": {
+    "en": {
+      "name": "Emperor of the Land and Sea (Rush Duel)",
+      "effect": "A reptilian monster that sprays fire in every direction."
+    },
+    "ko": {
+      "name": "\uc218\ub959\uc758 \uc81c\uc655",
+      "effect": "\ucee4\ub2e4\ub780 \uc785\uc5d0\uc11c \uc0ac\ubc29\ud314\ubc29\uc73c\ub85c \ud654\uc5fc\uc744 \ubfdc\uc5b4\ub0b4\ub294 \ud30c\ucda9\ub958 \uad34\ubb3c."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "type": "reptile",
+  "classifications": [
+    "normal"
+  ],
+  "level": 5,
+  "atk": 1800,
+  "def": 1500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "25f50596-b5dc-476a-bb48-7026ecc2a4ed",
+      "card": "https://ms.yugipedia.com//c/c4/EmperoroftheLandandSea-RDSST1-JP-C.png"
+    }
+  ],
+  "sets": [
+    "f9c6f064-6fdf-412a-a9ff-62631979aa08"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Emperor of the Land and Sea (Rush Duel)",
+        "id": 714788
+      }
+    ],
+    "dbID": 17273
+  },
+  "series": []
+}

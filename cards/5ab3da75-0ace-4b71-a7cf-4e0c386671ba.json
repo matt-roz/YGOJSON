@@ -1,0 +1,55 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "5ab3da75-0ace-4b71-a7cf-4e0c386671ba",
+  "text": {
+    "en": {
+      "name": "Archfiend of Gilfer - Flame Attack",
+      "effect": "During the Main Phase (Quick Effect): You can send this card from your hand to the GY; draw 1 card, then discard 1 card, also all monsters your opponent controls lose 500 ATK this turn. When a monster is destroyed by battle involving your Fiend monster, while this card is in your GY: You can Special Summon this card, but banish it when it leaves the field. You can only use each effect of \"Archfiend of Gilfer - Flame Attack\" once per turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u6697\u9ed2\u9b54\u65cf\u30ae\u30eb\u30d5\u30a1\u30fc\u30fb\u30c7\u30fc\u30e2\u30f3\uff0d\u6697\u9ed2\u9b54\u708e\u846c"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "fiend",
+  "classifications": [
+    "effect"
+  ],
+  "level": 6,
+  "atk": 2200,
+  "def": 2500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "0f668d7e-63b7-4617-9078-19aa80b4be67",
+      "card": "https://ms.yugipedia.com//f/f3/ArchfiendofGilferFlameAttack-YAC1-JP-OP.png"
+    },
+    {
+      "id": "c7818d71-ec06-4265-8b47-9e0d5bd2b6aa",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/100459022.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/100459022.jpg"
+    }
+  ],
+  "sets": [
+    "9aefc662-0b55-44d0-85b1-7c92cfe8a78b",
+    "9aefc662-0b55-44d0-85b1-7c92cfe8a78b"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Archfiend of Gilfer - Flame Attack",
+        "id": 1222618
+      }
+    ],
+    "ygoprodeck": {
+      "id": 100459022,
+      "name": "archfiend-of-gilfer-flame-attack-15920"
+    }
+  },
+  "series": [
+    "17de2117-f3cd-4363-a800-50af7d2fa039"
+  ]
+}

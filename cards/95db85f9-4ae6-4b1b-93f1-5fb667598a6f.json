@@ -1,0 +1,48 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "95db85f9-4ae6-4b1b-93f1-5fb667598a6f",
+  "text": {
+    "en": {
+      "name": "Hydro Sword Tanegashima Tuna",
+      "effect": "Add 1 Level 7 Fish Type monster, \"Fusion\", or \"Wave Fusion\" from your Graveyard to your hand."
+    },
+    "ja": {
+      "name": "\u6ce2\u5c0e\u5200\u30bf\u30cd\u30ac\u30b7\u30de\u30b0\u30ed",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff17\uff0f\u9b5a\u65cf\uff09\u3001\u300c\u30d5\u30e5\u30fc\u30b8\u30e7\u30f3\u300d\u3001\u300c\u6ce2\u6d9b\u878d\u5408\u300d\u306e\u4e2d\u304b\u3089\uff11\u679a\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud30c\ub791\ub3c4 \ud0c0\ub124\uac00\uc2dc\ub9c8\uad6c\ub85c",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130(\ub808\ubca8 7 / \uc5b4\ub958\uc871), \"\ud4e8\uc804\", \"\ud30c\uc8fc\uc735\ud569\" \uc911\uc5d0\uc11c 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\ub294\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "type": "fish",
+  "classifications": [
+    "effect"
+  ],
+  "level": 1,
+  "atk": 0,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "e8d66ac1-4bb8-4ff4-933a-8e3e9980b3b6",
+      "card": "https://ms.yugipedia.com//6/6f/HydroSwordTanegashimaTuna-RDKP15-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Hydro Sword Tanegashima Tuna",
+        "id": 1023245
+      }
+    ],
+    "dbID": 19651
+  },
+  "series": [
+    "ad3a5db5-d1a2-4932-b767-9b65a9490700"
+  ]
+}

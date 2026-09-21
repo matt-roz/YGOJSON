@@ -1,0 +1,47 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "040b2e0a-3671-4705-ab20-e3836101e983",
+  "text": {
+    "en": {
+      "name": "Proto-Cyber Dragon (Rush Duel)",
+      "effect": "This card's name becomes \"Cyber Dragon\"."
+    },
+    "ko": {
+      "name": "\ud504\ub85c\ud1a0 \uc0ac\uc774\ubc84 \ub4dc\ub798\uace4",
+      "effect": "\uc774 \uce74\ub4dc\uc758 \uce74\ub4dc\uba85\uc740 \"\uc0ac\uc774\ubc84 \ub4dc\ub798\uace4\"\uc774 \ub41c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 1100,
+  "def": 600,
+  "passwords": [],
+  "images": [
+    {
+      "id": "189b2fc8-ae9b-43fc-a680-7ed9e0389661",
+      "card": "https://ms.yugipedia.com//7/77/ProtoCyberDragon-RDSD0C-JP-C.png"
+    }
+  ],
+  "sets": [
+    "918ca201-7f5c-4e30-a6be-9ad1bd9e8458",
+    "918ca201-7f5c-4e30-a6be-9ad1bd9e8458"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Proto-Cyber Dragon (Rush Duel)",
+        "id": 716309
+      }
+    ],
+    "dbID": 18355
+  },
+  "series": [
+    "86022427-8e1f-4a67-af9d-a38a063a0392"
+  ]
+}

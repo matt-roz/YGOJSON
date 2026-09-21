@@ -1,0 +1,113 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "8bfd0d02-f4a3-49ed-bfb2-ad0546658bfb",
+  "name": {
+    "en": "The Hyundai Seoul Pop-Up Special Pack A",
+    "ko": "THE HYUNDAI SEOUL POP-UP \ud2b9\ubcc4 \ud329 A"
+  },
+  "locales": {
+    "kr": {
+      "language": "ko",
+      "prefix": "25HY-KRA",
+      "date": "2025-07-18",
+      "image": "https://ms.yugipedia.com//1/1f/25HYA-BoosterKR.png",
+      "cardImages": {
+        "unlimited": {
+          "431a6d60-7a68-4df9-b018-57567792ffb0": "https://ms.yugipedia.com//4/41/SuperStarslayerTYPHONSkyCrisis-25HY-KR-UR-UE.png",
+          "a9e8fc5c-cfb6-4e1e-bff6-da953cb72f0d": "https://ms.yugipedia.com//d/d0/SilvyoftheWhiteForest-25HY-KR-UR-UE.png",
+          "dae4d0a7-de46-4004-a9e9-29a5dc9b6340": "https://ms.yugipedia.com//3/34/StardustSparkDragon-25HY-KR-UR-UE.png",
+          "dba202e5-68e1-4b61-8d11-f5419580e434": "https://ms.yugipedia.com//e/e6/CyberJar-25HY-KR-UR-UE.png",
+          "f670c458-ab5c-457b-bec5-2608c32d6895": "https://ms.yugipedia.com//5/55/MulcharmyPurulia-25HY-KR-UR-UE.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "431a6d60-7a68-4df9-b018-57567792ffb0": {
+            "image": "https://ms.yugipedia.com//4/41/SuperStarslayerTYPHONSkyCrisis-25HY-KR-UR-UE.png"
+          },
+          "a9e8fc5c-cfb6-4e1e-bff6-da953cb72f0d": {
+            "image": "https://ms.yugipedia.com//d/d0/SilvyoftheWhiteForest-25HY-KR-UR-UE.png"
+          },
+          "dae4d0a7-de46-4004-a9e9-29a5dc9b6340": {
+            "image": "https://ms.yugipedia.com//3/34/StardustSparkDragon-25HY-KR-UR-UE.png"
+          },
+          "dba202e5-68e1-4b61-8d11-f5419580e434": {
+            "image": "https://ms.yugipedia.com//e/e6/CyberJar-25HY-KR-UR-UE.png"
+          },
+          "f670c458-ab5c-457b-bec5-2608c32d6895": {
+            "image": "https://ms.yugipedia.com//5/55/MulcharmyPurulia-25HY-KR-UR-UE.png"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          1010001520000
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "kr"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//1/1f/25HYA-BoosterKR.png",
+      "cards": [
+        {
+          "id": "a9e8fc5c-cfb6-4e1e-bff6-da953cb72f0d",
+          "card": "7c2b845b-412b-4826-aa8f-bd74fb8eddfa",
+          "suffix": "01",
+          "rarity": "ultra",
+          "imageID": "5f108023-58cb-4492-af51-2de79cccf4e9"
+        },
+        {
+          "id": "dba202e5-68e1-4b61-8d11-f5419580e434",
+          "card": "ef7683fe-c963-4586-bfa7-f4129b2c846a",
+          "suffix": "02",
+          "rarity": "ultra",
+          "imageID": "5fe26870-2308-43df-ad4d-75350adc5190"
+        },
+        {
+          "id": "f670c458-ab5c-457b-bec5-2608c32d6895",
+          "card": "6380cba0-8e26-4cef-b7a3-548e6f29580d",
+          "suffix": "03",
+          "rarity": "ultra",
+          "imageID": "df5dc41f-551a-4a79-ab5a-fb174664eb1a"
+        },
+        {
+          "id": "dae4d0a7-de46-4004-a9e9-29a5dc9b6340",
+          "card": "2531e10f-b4dc-4b07-8d45-51a6024398db",
+          "suffix": "04",
+          "rarity": "ultra",
+          "imageID": "38a92dca-e562-40b8-97f4-9c419f4f4fc1"
+        },
+        {
+          "id": "431a6d60-7a68-4df9-b018-57567792ffb0",
+          "card": "56c3cc00-226b-41aa-ab27-924b328d4c1b",
+          "suffix": "05",
+          "rarity": "ultra",
+          "imageID": "1bb4411c-203e-4aa3-8622-97ea0a48b072"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "The Hyundai Seoul Pop-Up Special Pack A",
+      "id": 1134474
+    }
+  }
+}

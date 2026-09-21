@@ -1,0 +1,46 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "7fec7a0a-6f12-4f25-9824-03a0788e5217",
+  "text": {
+    "en": {
+      "name": "Waso Gozen Linker",
+      "effect": "This card gains ATK equal to [the number of different Types in your Graveyard] x 100. If you have 3 or more different Types in your Graveyard, this card cannot be destroyed by card effects.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u548c\u84bc\u5fa1\u524d \u30ea\u30f3\u30ab\u30fc"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "monsterCardTypes": [
+    "ritual"
+  ],
+  "type": "cyberse",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 2600,
+  "def": 2000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "47277a08-dff9-4ff4-9383-825a5862ecf5",
+      "card": "https://ms.yugipedia.com//1/1a/WasoGozenLinker-RDCA01-JP-OP.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Wasougozen Linker",
+        "id": 1206976
+      }
+    ]
+  },
+  "series": [
+    "d520f873-9bf8-48b7-8e88-f2a40eee7c75"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "a17c9e91-26df-4661-b370-b2788693997b",
+  "text": {
+    "en": {
+      "name": "Lovely Million",
+      "effect": "The attacking monster loses 1,000,000 ATK until the end of this turn. Then, if you have a face-up monster with 0 DEF on your field, the attack target gains 100 ATK until the end of this turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30e9\u30f4\u30fb\u30df\u30ea\u30aa\u30f3",
+      "effect": "\u653b\u6483\u3057\u3066\u304d\u305f\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u653b\u6483\u529b\u306f\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\uff11\uff10\uff10\u4e07\u30c0\u30a6\u30f3\u3059\u308b\u3002\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u5b88\u5099\u529b\uff10\uff09\u304c\u3044\u308b\u5834\u5408\u3001\u3055\u3089\u306b\u653b\u6483\u3092\u53d7\u3051\u308b\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u653b\u6483\u529b\u306f\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\uff11\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub77c\ube0c \ubc00\ub9ac\uc5b8",
+      "effect": "\uacf5\uaca9\ud574 \uc628 \ubaac\uc2a4\ud130\uc758 \uacf5\uaca9\ub825\uc740 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0 1000000 \ub0b4\ub9b0\ub2e4. \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\uc218\ube44\ub825 0)\uac00 \uc788\uc744 \uacbd\uc6b0, \ucd94\uac00\ub85c \uacf5\uaca9\uc744 \ubc1b\ub294 \ubaac\uc2a4\ud130\uc758 \uacf5\uaca9\ub825\uc740 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0 100 \uc62c\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "trap",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "1212cb6b-0a9c-4854-8042-b3539c16fa49",
+      "card": "https://ms.yugipedia.com//f/f9/LovelyMillion-RDORP2-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Lovely Million",
+        "id": 1052172
+      }
+    ],
+    "dbID": 20132
+  },
+  "series": [
+    "3e05c54a-8e27-41d6-b076-ee4fab2d19bc"
+  ]
+}

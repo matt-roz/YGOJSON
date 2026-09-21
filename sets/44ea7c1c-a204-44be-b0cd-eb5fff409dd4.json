@@ -1,0 +1,148 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "44ea7c1c-a204-44be-b0cd-eb5fff409dd4",
+  "name": {
+    "en": "Promotion Pack 2013 Vol.4",
+    "ko": "\ud504\ub85c\ubaa8\uc158 \ud329 2013 Vol.4"
+  },
+  "locales": {
+    "kr": {
+      "language": "ko",
+      "prefix": "PR04-KR",
+      "date": "2013-05-20",
+      "image": "https://ms.yugipedia.com//4/48/PR04-PromoKR.png",
+      "cardImages": {
+        "unlimited": {
+          "1c9dce62-2026-4d35-bed7-af2813e3237e": "https://ms.yugipedia.com//7/7d/MadolcheChickolates-PR04-KR-SR-UE.png",
+          "54198321-39d7-4535-9011-709dcdecf83f": "https://ms.yugipedia.com//1/10/BlackDragonCollapserpent-PR04-KR-SR-UE.png",
+          "5bbd06e6-5052-4fb7-b578-93dc24f0636a": "https://ms.yugipedia.com//b/b4/BurnerDragonRulerofSparks-PR04-KR-SR-UE.png",
+          "70123ef6-8c34-4140-ad7d-16162652bcd0": "https://ms.yugipedia.com//f/f2/VividKnight-PR04-KR-SR-UE.png",
+          "778c3915-edc5-47ae-ad43-87df29ac53a7": "https://ms.yugipedia.com//a/a2/LightningDragonRulerofDrafts-PR04-KR-SR-UE.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "1c9dce62-2026-4d35-bed7-af2813e3237e": {
+            "image": "https://ms.yugipedia.com//7/7d/MadolcheChickolates-PR04-KR-SR-UE.png"
+          },
+          "54198321-39d7-4535-9011-709dcdecf83f": {
+            "image": "https://ms.yugipedia.com//1/10/BlackDragonCollapserpent-PR04-KR-SR-UE.png"
+          },
+          "5bbd06e6-5052-4fb7-b578-93dc24f0636a": {
+            "image": "https://ms.yugipedia.com//b/b4/BurnerDragonRulerofSparks-PR04-KR-SR-UE.png"
+          },
+          "70123ef6-8c34-4140-ad7d-16162652bcd0": {
+            "image": "https://ms.yugipedia.com//f/f2/VividKnight-PR04-KR-SR-UE.png"
+          },
+          "778c3915-edc5-47ae-ad43-87df29ac53a7": {
+            "image": "https://ms.yugipedia.com//a/a2/LightningDragonRulerofDrafts-PR04-KR-SR-UE.png"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          7141410003
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "kr"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//4/48/PR04-PromoKR.png",
+      "cards": [
+        {
+          "id": "5bbd06e6-5052-4fb7-b578-93dc24f0636a",
+          "card": "855ca691-a69f-4ed9-bb07-703f931baefa",
+          "suffix": "001",
+          "rarity": "super",
+          "imageID": "50cc6051-b3ac-46d6-b0d8-c6e7b6f5d4e4"
+        },
+        {
+          "id": "778c3915-edc5-47ae-ad43-87df29ac53a7",
+          "card": "07f721ba-75ed-4447-a255-96b9f87c7c53",
+          "suffix": "002",
+          "rarity": "super",
+          "imageID": "2d0da827-053b-42ad-b2a1-6f7b22eb7287"
+        },
+        {
+          "id": "1c9dce62-2026-4d35-bed7-af2813e3237e",
+          "card": "0deaea4f-9d07-4916-af95-0188075b9af1",
+          "suffix": "003",
+          "rarity": "super",
+          "imageID": "7d3570e7-6606-40da-86cf-4beedf9f7bc3"
+        },
+        {
+          "id": "70123ef6-8c34-4140-ad7d-16162652bcd0",
+          "card": "6e4e6aec-e01f-44c3-92a5-f6f4252e671c",
+          "suffix": "004",
+          "rarity": "super",
+          "imageID": "fc7adfc6-3898-4d47-b327-c6d6fbeebee6"
+        },
+        {
+          "id": "54198321-39d7-4535-9011-709dcdecf83f",
+          "card": "df889801-559e-4f8a-a1fc-c2a77549d5af",
+          "suffix": "005",
+          "rarity": "super",
+          "imageID": "f4aa81e4-238c-4f32-8ae7-66345c2b2318"
+        },
+        {
+          "id": "b6677428-9005-40b9-aa40-b860f603c7d6",
+          "card": "6e96b794-d129-4a1f-ae16-cc48b40aada9",
+          "suffix": "006",
+          "rarity": "common",
+          "imageID": "c8a33a1f-1af3-4bfc-887b-4672afc686da"
+        },
+        {
+          "id": "783194fd-92e0-47d9-96d7-2a68a8cbf0a4",
+          "card": "8520b6b4-1634-4ec7-aa48-61490d6c26ef",
+          "suffix": "007",
+          "rarity": "common",
+          "imageID": "8f9c24fc-4111-4641-bac7-ec8cce1a0a6c"
+        },
+        {
+          "id": "667364a3-41e4-4c20-8bf3-dbaef137c233",
+          "card": "f6ed3e52-2764-4b8b-a15c-79036a0b2526",
+          "suffix": "008",
+          "rarity": "common",
+          "imageID": "604705c2-2258-4e38-b64f-a67407faa463"
+        },
+        {
+          "id": "e56e6829-6912-44cb-a166-30d1db64dc9c",
+          "card": "bac9a111-0a67-4a33-9bb8-44820fb51083",
+          "suffix": "009",
+          "rarity": "common",
+          "imageID": "c68b07d9-d375-4280-af2f-06aeb9b3397d"
+        },
+        {
+          "id": "452fb9ab-7de5-410e-b28f-a81acd2ace41",
+          "card": "7a9be7ce-9204-4292-9808-b7c03cf565df",
+          "suffix": "010",
+          "rarity": "common",
+          "imageID": "806994fc-02dc-4bdd-89d1-36b3110beacb"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Promotion Pack 2013 Vol.4",
+      "id": 292860
+    }
+  }
+}

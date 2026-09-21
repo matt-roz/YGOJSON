@@ -1,0 +1,48 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "a2aa3922-80cf-40dc-8ac6-e5d7d03ccad6",
+  "text": {
+    "en": {
+      "name": "Contact Dark Matter Wyvern",
+      "effect": "Send 1 card from your hand to the Graveyard. Then, you can Special Summon 1 \"Dark Matter Dragon\" from your Graveyard face-up to your field.",
+      "official": false
+    },
+    "ja": {
+      "name": "\uff23\u30fb\u30c0\u30fc\u30af\u30de\u30bf\u30fc\u30fb\u30ef\u30a4\u30d0\u30fc\u30f3",
+      "effect": "\u81ea\u5206\u306e\u624b\u672d\uff11\u679a\u3092\u9078\u3093\u3067\u5893\u5730\u3078\u9001\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u30c0\u30fc\u30af\u30de\u30bf\u30fc\u30fb\u30c9\u30e9\u30b4\u30f3\u300d\uff11\u4f53\u3092\u9078\u3093\u3067\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u8868\u793a\u3067\u7279\u6b8a\u53ec\u559a\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "C\u00b7\ub2e4\ud06c\ub9e4\ud130 \uc640\uc774\ubc18",
+      "effect": "\uc790\uc2e0\uc758 \ud328 1\uc7a5\uc744 \uace0\ub974\uace0 \ubb18\uc9c0\ub85c \ubcf4\ub0b8\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0 \ubb18\uc9c0\uc758 \"\ub2e4\ud06c\ub9e4\ud130 \ub4dc\ub798\uace4\" 1\uc7a5\uc744 \uace0\ub974\uace0 \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \ud45c\uc2dc\ub85c \ud2b9\uc218 \uc18c\ud658\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "classifications": [
+    "effect"
+  ],
+  "level": 5,
+  "atk": 1500,
+  "def": 1300,
+  "passwords": [],
+  "images": [
+    {
+      "id": "0a9d2fdb-6716-4c01-b340-42919e5e355f",
+      "card": "https://ms.yugipedia.com//3/3c/ContactDarkMatterWyvern-RDB243-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Contact Dark Matter Wyvern",
+        "id": 1065462
+      }
+    ],
+    "dbID": 20613
+  },
+  "series": [
+    "20e1a2b3-4557-4a43-a6e4-4f54272ef025"
+  ]
+}

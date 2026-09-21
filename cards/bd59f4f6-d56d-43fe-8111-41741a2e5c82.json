@@ -1,0 +1,38 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "bd59f4f6-d56d-43fe-8111-41741a2e5c82",
+  "text": {
+    "en": {
+      "name": "Magician of Faith (Rush Duel)",
+      "effect": "Add 1 non-Legend Spell Card from your Graveyard to your hand. This turn, you cannot activate the effect of \"Magician of Faith\".",
+      "official": false
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "spellcaster",
+  "classifications": [
+    "effect"
+  ],
+  "level": 1,
+  "atk": 300,
+  "def": 400,
+  "passwords": [],
+  "images": [
+    {
+      "id": "a1e18393-a6e5-4da7-8e6b-e340f30c3c4d",
+      "card": "https://ms.yugipedia.com//0/06/MagicianofFaith-RDLP01-JP-OP.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Magician of Faith (Rush Duel)",
+        "id": 1203692
+      }
+    ]
+  },
+  "series": []
+}

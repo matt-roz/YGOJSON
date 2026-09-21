@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "f8738abc-eb19-42f3-a48d-970a5c270287",
+  "text": {
+    "en": {
+      "name": "Jointech Arcscorpio",
+      "effect": "Add 1 \"Fusion\" or \"Power Bond\" from your Graveyard to your hand. Then, you can Special Summon 1 \"Jointech Spike Centipede\" from your Graveyard face-up to your field.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30b8\u30e7\u30a4\u30f3\u30c6\u30c3\u30af\u30fb\u30a2\u30fc\u30af\u30b9\u30b3\u30fc\u30d4\u30aa",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u30d5\u30e5\u30fc\u30b8\u30e7\u30f3\u300d\u307e\u305f\u306f\u300c\u30d1\u30ef\u30fc\u30fb\u30dc\u30f3\u30c9\u300d\uff11\u679a\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u30b8\u30e7\u30a4\u30f3\u30c6\u30c3\u30af\u30fb\u30b9\u30d1\u30a4\u30af\u30bb\u30f3\u30c1\u30d4\u30fc\u30c9\u300d\uff11\u4f53\u3092\u9078\u3093\u3067\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u8868\u793a\u3067\u7279\u6b8a\u53ec\u559a\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc870\uc778\ud14c\ud06c \uc544\ud06c\uc2a4\ucf5c\ud53c\uc624",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \"\ud4e8\uc804\" \ub610\ub294 \"\ud30c\uc6cc \ubcf8\ub4dc\" 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\ub294\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0 \ubb18\uc9c0\uc758 \"\uc870\uc778\ud14c\ud06c \uc2a4\ud30c\uc774\ud06c\uc13c\ud2f0\ud53c\ub4dc\" 1\uc7a5\uc744 \uace0\ub974\uace0 \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \ud45c\uc2dc\ub85c \ud2b9\uc218 \uc18c\ud658\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2200,
+  "def": 1600,
+  "passwords": [],
+  "images": [
+    {
+      "id": "a47ae850-42b9-43cc-bdad-a352ed49ede8",
+      "card": "https://ms.yugipedia.com//1/1c/JointechArcscorpio-RDKP14-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Jointech Arcscorpio",
+        "id": 994922
+      }
+    ],
+    "dbID": 19283
+  },
+  "series": [
+    "5d5055d0-52c0-457f-8fcf-f097bd9b9f9e"
+  ]
+}

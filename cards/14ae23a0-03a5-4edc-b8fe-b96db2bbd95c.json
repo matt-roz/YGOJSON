@@ -1,0 +1,57 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "14ae23a0-03a5-4edc-b8fe-b96db2bbd95c",
+  "text": {
+    "en": {
+      "name": "Cyber Serpent",
+      "effect": "Send the top 3 cards of your Deck to the Graveyard. If 2 or more LIGHT Attribute Machine Type monsters were sent to the Graveyard by this effect, you can also draw 1 card."
+    },
+    "ja": {
+      "name": "\u30b5\u30a4\u30d0\u30fc\u30fb\u30b5\u30fc\u30da\u30f3\u30c8",
+      "effect": "\u81ea\u5206\u306e\u30c7\u30c3\u30ad\u306e\u4e0a\u304b\u3089\u30ab\u30fc\u30c9\uff13\u679a\u3092\u5893\u5730\u3078\u9001\u308b\u3002\u305d\u306e\u4e2d\u306b\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u5149\u5c5e\u6027\uff0f\u6a5f\u68b0\u65cf\uff09\u304c\uff12\u4f53\u4ee5\u4e0a\u3044\u305f\u5834\u5408\u3001\u3055\u3089\u306b\u81ea\u5206\u306f\uff11\u679a\u30c9\u30ed\u30fc\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc0ac\uc774\ubc84 \uc11c\ud39c\ud2b8",
+      "effect": "\uc790\uc2e0\uc758 \ub371 \uc704\uc5d0\uc11c \uce74\ub4dc 3\uc7a5\uc744 \ubb18\uc9c0\ub85c \ubcf4\ub0b8\ub2e4. \uadf8 \uc911\uc5d0 \ubaac\uc2a4\ud130(\ube5b \uc18d\uc131 / \uae30\uacc4\uc871)\uac00 2\uc7a5 \uc774\uc0c1 \uc788\uc5c8\uc744 \uacbd\uc6b0, \ucd94\uac00\ub85c \uc790\uc2e0\uc740 1\uc7a5 \ub4dc\ub85c\uc6b0\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 1,
+  "atk": 0,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "084aaa4f-4782-4197-8301-c4a26fdd1c3f",
+      "card": "https://ms.yugipedia.com//a/a8/CyberSerpent-RDAP01-JP-ScR.png"
+    }
+  ],
+  "sets": [
+    "a6b12f39-c8d9-4ead-87f7-7ea71d365768",
+    "918ca201-7f5c-4e30-a6be-9ad1bd9e8458",
+    "918ca201-7f5c-4e30-a6be-9ad1bd9e8458",
+    "918ca201-7f5c-4e30-a6be-9ad1bd9e8458",
+    "918ca201-7f5c-4e30-a6be-9ad1bd9e8458"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Cyber Serpent",
+        "id": 714415
+      }
+    ],
+    "dbID": 18356
+  },
+  "series": [
+    "86022427-8e1f-4a67-af9d-a38a063a0392"
+  ]
+}

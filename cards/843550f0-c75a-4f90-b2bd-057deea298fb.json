@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "843550f0-c75a-4f90-b2bd-057deea298fb",
+  "text": {
+    "en": {
+      "name": "Reviver of Chaos",
+      "effect": "This card gains 1000 ATK until the end of your opponent's next turn. Then, you can Special Summon 1 Level 8 non-Effect Warrior Type Ritual Monster from your Graveyard face-up to your field.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u6df7\u6c8c\u306e\u8607\u751f\u8005",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u306e\u653b\u6483\u529b\u306f\u6b21\u306e\u76f8\u624b\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\uff11\uff10\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u52b9\u679c\u30e2\u30f3\u30b9\u30bf\u30fc\u4ee5\u5916\u306e\u81ea\u5206\u306e\u5893\u5730\u306e\u30ea\u30c1\u30e5\u30a2\u30eb\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff18\uff0f\u6226\u58eb\u65cf\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u8868\u793a\u3067\u7279\u6b8a\u53ec\u559a\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud63c\ub3c8\uc758 \uc18c\uc0dd\uc790",
+      "effect": "\uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\ub825\uc740 \ub2e4\uc74c \uc0c1\ub300 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0 1000 \uc62c\ub9b0\ub2e4. \uadf8 \ud6c4, \ud6a8\uacfc \ubaac\uc2a4\ud130 \uc774\uc678\uc758 \uc790\uc2e0 \ubb18\uc9c0\uc758 \ub9ac\ucd94\uc5bc \ubaac\uc2a4\ud130(\ub808\ubca8 8 / \uc804\uc0ac\uc871) 1\uc7a5\uc744 \uace0\ub974\uace0 \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \ud45c\uc2dc\ub85c \ud2b9\uc218 \uc18c\ud658\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "zombie",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 500,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "0f1fc4a0-898e-43ca-a4eb-e0d0fa2ca874",
+      "card": "https://ms.yugipedia.com//7/76/ReviverofChaos-RDORP3-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Reviver of Chaos",
+        "id": 1152346
+      }
+    ],
+    "dbID": 22237
+  },
+  "series": [
+    "0dd6e571-f547-4fe6-ae1a-e26395051a81"
+  ]
+}

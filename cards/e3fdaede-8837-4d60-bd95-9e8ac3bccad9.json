@@ -1,0 +1,48 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "e3fdaede-8837-4d60-bd95-9e8ac3bccad9",
+  "text": {
+    "en": {
+      "name": "Lauan Mapper Ivy",
+      "effect": "Equip this card to 1 face-up WIND Attribute Plant Type monster on your field as an Equip Spell Card with the following effect. \u25cfThe equipped monster inflicts piercing battle damage. If you have 2 or more \"Lauan Adventurers\" in your Graveyard, your opponent cannot activate Trap Cards.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30e9\u30ef\u30f3\u30de\u30c3\u30d1\u30fc\u30fb\u30a2\u30a4\u30f4\u30a3",
+      "effect": "\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u98a8\u5c5e\u6027\uff0f\u690d\u7269\u65cf\uff09\uff11\u4f53\u3092\u9078\u3073\u3001\u3053\u306e\u30ab\u30fc\u30c9\u3092\u4ee5\u4e0b\u306e\u52b9\u679c\u3092\u6301\u3064\u88c5\u5099\u9b54\u6cd5\u30ab\u30fc\u30c9\u6271\u3044\u3067\u88c5\u5099\u3059\u308b\u3002\u25cf\u88c5\u5099\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u653b\u6483\u306f\u8cab\u901a\u3059\u308b\u3002\u81ea\u5206\u306e\u5893\u5730\u306b\u300c\u30e9\u30ef\u30f3\u5192\u967a\u968a\u300d\u304c\uff12\u4f53\u4ee5\u4e0a\u3044\u308b\u5834\u5408\u3001\u76f8\u624b\u306f\u7f60\u30ab\u30fc\u30c9\u3092\u767a\u52d5\u3067\u304d\u306a\u3044\u3002"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "wind",
+  "type": "plant",
+  "classifications": [
+    "effect"
+  ],
+  "abilities": [
+    "union"
+  ],
+  "level": 1,
+  "atk": 800,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "380dfd6a-8e6c-41a7-a9bd-1899dfab3370",
+      "card": "https://ms.yugipedia.com//e/e0/LauanMapperIvy-RDKP26-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Lauan Mapper Ivy",
+        "id": 1209457
+      }
+    ],
+    "dbID": 23725
+  },
+  "series": [
+    "dcb5814a-02a8-4cb5-8dbb-174d3c0203fb"
+  ]
+}

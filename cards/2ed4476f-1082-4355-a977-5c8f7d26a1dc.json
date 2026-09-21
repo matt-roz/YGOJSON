@@ -1,0 +1,48 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "2ed4476f-1082-4355-a977-5c8f7d26a1dc",
+  "text": {
+    "en": {
+      "name": "Excutie Lilius",
+      "effect": "You cannot attack with Level 7 or higher monsters."
+    },
+    "ja": {
+      "name": "\u30a8\u30af\u30b9\u30ad\u30e5\u30fc\u30c6\u30a3\u30fc\u30fb\u30ea\u30ea\u30a6\u30b9",
+      "effect": "\u81ea\u5206\u306f\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff17\u4ee5\u4e0a\uff09\u3067\u653b\u6483\u3067\u304d\u306a\u3044\u3002"
+    },
+    "ko": {
+      "name": "\uc5d1\uc2a4\ud050\ud2f0 \ub9b4\ub9ac\uc6b0\uc2a4",
+      "effect": "\uc790\uc2e0\uc740 \ubaac\uc2a4\ud130(\ub808\ubca8 7 \uc774\uc0c1)\ub85c \uacf5\uaca9\ud560 \uc218 \uc5c6\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "fiend",
+  "classifications": [
+    "effect"
+  ],
+  "level": 6,
+  "atk": 2500,
+  "def": 500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "02c0209f-5f40-402d-9af5-465f28931179",
+      "card": "https://ms.yugipedia.com//0/07/ExcutieLilius-RD5TH1-JP-SPR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Excutie Lilius",
+        "id": 714869
+      }
+    ],
+    "dbID": 18363
+  },
+  "series": [
+    "dae99f8b-02f7-4a16-9e85-778749af5c40"
+  ]
+}

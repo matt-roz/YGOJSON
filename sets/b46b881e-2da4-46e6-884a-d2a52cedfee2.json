@@ -1,0 +1,73 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "b46b881e-2da4-46e6-884a-d2a52cedfee2",
+  "name": {
+    "en": "Tokyo Game Show 2026 promotional cards",
+    "ja": "\uff34\uff2f\uff2b\uff39\uff2f \uff27\uff21\uff2d\uff25 \uff33\uff28\uff2f\uff37 \uff12\uff10\uff12\uff16"
+  },
+  "locales": {
+    "jp": {
+      "language": "ja",
+      "prefix": "TFGX-JP",
+      "date": "2026-09-17",
+      "image": "https://ms.yugipedia.com//f/f2/TokyoGameShow2026-PromoJP.png",
+      "cardImages": {
+        "unlimited": {}
+      },
+      "cardInfo": {
+        "unlimited": {}
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {}
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//f/f2/TokyoGameShow2026-PromoJP.png",
+      "cards": [
+        {
+          "id": "15828514-35b5-4377-afd4-ac7f8221bcf7",
+          "card": "9c117df7-c9d7-48b6-ac60-4af70e81165b",
+          "suffix": "004",
+          "rarity": "commonparallel",
+          "imageID": "61c24844-4fd4-450b-a512-a1aefd9082e6"
+        },
+        {
+          "id": "1b27675b-47a8-4205-8cac-5aa4594b0f59",
+          "card": "478a2051-56d3-4e95-80cc-b361192b8fe8",
+          "suffix": "005",
+          "rarity": "commonparallel",
+          "imageID": "34883192-baa2-4804-9238-87f29cfed584"
+        },
+        {
+          "id": "e12f0459-e5ca-42f0-876f-c8c2dbdbacc6",
+          "card": "38440d4d-8f69-463e-a3ca-5c770ecd2244",
+          "suffix": "007",
+          "rarity": "commonparallel",
+          "imageID": "4a3a041c-4643-4b48-8472-ef2047915a6e"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Tokyo Game Show 2026 promotional cards",
+      "id": 1225576
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "69d23ed5-d951-43a9-993a-f593527c4aca",
+  "text": {
+    "en": {
+      "name": "Digger Skipper",
+      "effect": "A civil engineering machine specializing in excavation. It bounces up and down as it plows the earth."
+    },
+    "ja": {
+      "name": "\u30c7\u30a3\u30ac\u30fc\u30fb\u30b9\u30ad\u30c3\u30d1\u30fc",
+      "effect": "\u6398\u524a\u80fd\u529b\u306b\u9577\u3051\u305f\u571f\u6728\u30de\u30b7\u30f3\u3002\u8df3\u306d\u308b\u3088\u3046\u306b\u79fb\u52d5\u3057\u3066\u5927\u5730\u3092\u92e4\u304d\u8fbc\u3080\u3002"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "machine",
+  "classifications": [
+    "normal"
+  ],
+  "level": 1,
+  "atk": 0,
+  "def": 1400,
+  "passwords": [],
+  "images": [
+    {
+      "id": "247a9855-0dc8-4680-b512-7332428cab7a",
+      "card": "https://ms.yugipedia.com//7/79/DiggerSkipper-RDB224-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Digger Skipper",
+        "id": 714550
+      }
+    ],
+    "dbID": 18649
+  },
+  "series": []
+}

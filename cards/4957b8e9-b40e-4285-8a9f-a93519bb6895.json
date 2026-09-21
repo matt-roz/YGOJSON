@@ -1,0 +1,42 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "4957b8e9-b40e-4285-8a9f-a93519bb6895",
+  "text": {
+    "en": {
+      "name": "Kaiser Dragon (Rush Duel)",
+      "effect": "\"Winged Dragon, Guardian of the Fortress #1\" + \"Fairy Dragon\""
+    },
+    "ko": {
+      "name": "\uce74\uc774\uc800 \ub4dc\ub798\uace4",
+      "effect": "\"\uc694\uc0c8\ub97c \uc9c0\ud0a4\ub294 \uc775\ub8e1\" \uff0b \"\uc694\uc815 \ub4dc\ub798\uace4\""
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "dragon",
+  "level": 7,
+  "atk": 2300,
+  "def": 2000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "8362165a-5b32-4830-890f-3ca890b8e75f",
+      "card": "https://ms.yugipedia.com//8/81/KaiserDragon-RD24PR-JP-NPR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Kaiser Dragon (Rush Duel)",
+        "id": 1026307
+      }
+    ],
+    "dbID": 19929
+  },
+  "series": []
+}

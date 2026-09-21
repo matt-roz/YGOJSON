@@ -1,0 +1,54 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "ade7cda1-081b-446e-8880-44f82fbc4421",
+  "text": {
+    "en": {
+      "name": "Flame Swordsman (Rush Duel)",
+      "effect": "\"Flame Manipulator\" + \"Masaki the Legendary Swordsman\""
+    },
+    "fr": {
+      "name": "Spadassin des Flammes"
+    },
+    "de": {
+      "name": "Flammen-Schwertk\u00e4mpfer"
+    },
+    "it": {
+      "name": "Spadaccino di Fuoco"
+    },
+    "es": {
+      "name": "Espadach\u00edn de la Llama"
+    },
+    "ko": {
+      "name": "\ud654\uc5fc\uc758 \uac80\uc0ac",
+      "effect": "\"\ud654\uc5fc\uc758 \uc870\uc885\uc790\" \uff0b \"\uc804\uc124\uc758 \uac80\uac1d \ub9c8\uc0ac\ud0a4\""
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "warrior",
+  "level": 5,
+  "atk": 1800,
+  "def": 1600,
+  "passwords": [],
+  "images": [
+    {
+      "id": "d213ab97-1c5a-4592-9b96-d654f062c952",
+      "card": "https://ms.yugipedia.com//0/0f/FlameSwordsman-RDB003-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Flame Swordsman (Rush Duel)",
+        "id": 714969
+      }
+    ],
+    "dbID": 16956
+  },
+  "series": []
+}

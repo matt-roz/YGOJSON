@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "2f4d6802-ac6d-4ba1-9671-1cddea6fe1f1",
+  "text": {
+    "en": {
+      "name": "Vibra Brigand",
+      "effect": "Send the top 2 cards of your Deck to the Graveyard. Then, if an Equip Spell Card(s) is among the cards sent, you can draw 1 card.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30f4\u30a3\u30d6\u30e9\u30fb\u30d6\u30ea\u30ac\u30f3\u30c9",
+      "effect": "\u81ea\u5206\u306e\u30c7\u30c3\u30ad\u306e\u4e0a\u304b\u3089\u30ab\u30fc\u30c9\uff12\u679a\u3092\u5893\u5730\u3078\u9001\u308b\u3002\u305d\u306e\u4e2d\u306b\u88c5\u5099\u9b54\u6cd5\u30ab\u30fc\u30c9\u304c\u3042\u3063\u305f\u5834\u5408\u3001\u3055\u3089\u306b\u81ea\u5206\u306f\uff11\u679a\u30c9\u30ed\u30fc\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ube44\ube0c\ub77c \ube0c\ub9ac\uac04\ub4dc",
+      "effect": "\uc790\uc2e0\uc758 \ub371 \uc704\uc5d0\uc11c \uce74\ub4dc 2\uc7a5\uc744 \ubb18\uc9c0\ub85c \ubcf4\ub0b8\ub2e4. \uadf8 \uc911\uc5d0 \uc7a5\ucc29 \ub9c8\ubc95 \uce74\ub4dc\uac00 \uc788\uc5c8\uc744 \uacbd\uc6b0, \ucd94\uac00\ub85c \uc790\uc2e0\uc740 1\uc7a5 \ub4dc\ub85c\uc6b0\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "wind",
+  "type": "psychic",
+  "classifications": [
+    "effect"
+  ],
+  "level": 2,
+  "atk": 200,
+  "def": 200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "770eb149-521e-4417-84a6-57344275d52c",
+      "card": "https://ms.yugipedia.com//8/8c/VibraBrigand-RDKP15-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Vibra Brigand",
+        "id": 1022686
+      }
+    ],
+    "dbID": 19648
+  },
+  "series": [
+    "e2451a40-fb70-4685-998f-4eb578b9eb8a"
+  ]
+}

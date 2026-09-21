@@ -1,0 +1,138 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "14c05e96-20d6-4a05-97c1-6a532176d682",
+  "name": {
+    "en": "Tournament Pack 2008 Vol.2",
+    "ko": "\ud1a0\ub108\uba3c\ud2b8 \ud329 2008 Vol.2"
+  },
+  "locales": {
+    "kr": {
+      "language": "ko",
+      "prefix": "TP02-KR",
+      "date": "2008-09-04",
+      "image": "https://ms.yugipedia.com//4/43/TP02-BoosterKR.png",
+      "cardImages": {
+        "unlimited": {
+          "eb1d7626-47df-4990-994a-d44c092bd3f8": "https://ms.yugipedia.com//5/56/BotanicalLion-TP02-KR-SR-UE.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "eb1d7626-47df-4990-994a-d44c092bd3f8": {
+            "image": "https://ms.yugipedia.com//5/56/BotanicalLion-TP02-KR-SR-UE.png"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          7141401001
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "kr"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//4/43/TP02-BoosterKR.png",
+      "cards": [
+        {
+          "id": "31aeb9d1-02fe-4b55-b0a4-2f4bdf8fcd17",
+          "card": "0616ad66-1b02-4d5f-8f63-11672f8e0a13",
+          "suffix": "001",
+          "rarity": "super",
+          "imageID": "c9d48dcf-607f-4b82-892e-a509392ef830"
+        },
+        {
+          "id": "eb1d7626-47df-4990-994a-d44c092bd3f8",
+          "card": "115d38c1-9135-4ab7-aa35-5e9f166f6691",
+          "suffix": "002",
+          "rarity": "super",
+          "imageID": "3ea50f0c-35d9-442a-a0b5-b7a28d43bdb1"
+        },
+        {
+          "id": "d82f0f03-5e65-45c0-b80e-2542c09c3c3c",
+          "card": "d64dcd13-9a3a-403b-abc3-c63123a4980d",
+          "suffix": "003",
+          "rarity": "common",
+          "imageID": "1dca71a0-3adf-4cc2-bdf8-526f8dfa5fdb"
+        },
+        {
+          "id": "7d97ce7d-ff5d-4f43-9640-36f4114c42d4",
+          "card": "e174d49e-0be4-4dcd-972e-807ffc43064f",
+          "suffix": "004",
+          "rarity": "common",
+          "imageID": "821eddc2-9ef4-406c-a341-c5bb511e9446"
+        },
+        {
+          "id": "e386aba8-c08e-4f27-bc14-90d102e69016",
+          "card": "d9d0377c-182f-4d10-a02e-c1d5eb703a40",
+          "suffix": "005",
+          "rarity": "common",
+          "imageID": "0c2f62f7-956f-49a9-9320-c2835ce3a588"
+        },
+        {
+          "id": "3f22f103-ed53-4032-aec4-bf32b894db96",
+          "card": "0ab1ba34-1801-478e-b256-9ab125048a0e",
+          "suffix": "006",
+          "rarity": "common",
+          "imageID": "ffaf1f27-b43a-4cc0-8b68-19a9d32e1c85"
+        },
+        {
+          "id": "914706de-627d-4ec8-8b43-0c3144916210",
+          "card": "28d22633-9107-4667-a33d-45a39db44b8b",
+          "suffix": "007",
+          "rarity": "common",
+          "imageID": "577551b2-31d8-4e73-9c4d-8712878b09a1"
+        },
+        {
+          "id": "3b17ceda-853a-43b2-be26-a535f5e6b1fd",
+          "card": "7959c83c-3d43-4ec4-9998-f1338b9c923a",
+          "suffix": "009",
+          "rarity": "common",
+          "imageID": "833c3dd3-ac43-4178-98d7-908d889123ad"
+        },
+        {
+          "id": "f625cbb5-7010-4972-a4de-063de5ef90cf",
+          "card": "93dad907-3cc6-4f94-ac12-ad5be0c76bac",
+          "suffix": "010",
+          "rarity": "common",
+          "imageID": "8894c413-03f5-4460-a44d-ea9ce16de0c5"
+        },
+        {
+          "id": "517a5487-3ad4-47c0-b1eb-63836356eff5",
+          "card": "23f66e79-a971-44c7-8a33-69a13bc26091",
+          "suffix": "011",
+          "rarity": "common"
+        },
+        {
+          "id": "a743ce6e-8027-4aaa-a8e0-33a1d2e60c5a",
+          "card": "c20eda92-f1ef-4270-a8d8-fb54ea07bb8e",
+          "suffix": "012",
+          "rarity": "common",
+          "imageID": "c54a8835-475c-4cbd-aa52-d91c0925a959"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Tournament Pack 2008 Vol.2 (Korean)",
+      "id": 399431
+    }
+  }
+}

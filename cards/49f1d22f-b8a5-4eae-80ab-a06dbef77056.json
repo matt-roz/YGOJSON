@@ -1,0 +1,42 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "49f1d22f-b8a5-4eae-80ab-a06dbef77056",
+  "text": {
+    "en": {
+      "name": "Civil Twirider",
+      "effect": "This turn, this face-up card can be treated as 2 Tributes for the Tribute Summon of a LIGHT Attribute Galaxy Type monster in Attack Position. Then, you can add 1 \"Galactica Oblivion\" or \"Vanishing Heliacal Riser\" from your Graveyard to your hand.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30b7\u30d3\u30eb\u30fb\u30c8\u30ef\u30a4\u30e9\u30a4\u30c0\u30fc",
+      "effect": "\u3053\u306e\u30bf\u30fc\u30f3\u3001\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u5149\u5c5e\u6027\uff0f\u30ae\u30e3\u30e9\u30af\u30b7\u30fc\u65cf\uff09\u3092\u653b\u6483\u8868\u793a\u3067\u30a2\u30c9\u30d0\u30f3\u30b9\u53ec\u559a\u3059\u308b\u5834\u5408\u3001\u8868\u5074\u8868\u793a\u306e\u3053\u306e\u30ab\u30fc\u30c9\u306f\uff12\u4f53\u5206\u306e\u30ea\u30ea\u30fc\u30b9\u306b\u3067\u304d\u308b\u3002\u3055\u3089\u306b\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u30ae\u30e3\u30e9\u30af\u30c6\u30a3\u30ab\u30fb\u30aa\u30d6\u30ea\u30d3\u30aa\u30f3\u300d\u307e\u305f\u306f\u300c\u30d0\u30cb\u30b7\u30f3\u30b0\u30fb\u30d8\u30ea\u30a2\u30ab\u30eb\u30e9\u30a4\u30b6\u30fc\u300d\uff11\u4f53\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 900,
+  "def": 1200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "f09c13b4-c83e-402c-bb30-8fb6aecc6f34",
+      "card": "https://ms.yugipedia.com//1/1f/CivilTwirider-RDKP25-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Civil Twirider",
+        "id": 1185734
+      }
+    ],
+    "dbID": 23201
+  },
+  "series": []
+}

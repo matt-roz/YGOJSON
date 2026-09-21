@@ -1,0 +1,42 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "2a17a302-c05d-4388-bf55-a63ae35b8b77",
+  "text": {
+    "en": {
+      "name": "Zera the Mant (Rush Duel)"
+    },
+    "ko": {
+      "name": "\uc81c\ub77c"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "monsterCardTypes": [
+    "ritual"
+  ],
+  "type": "fiend",
+  "level": 8,
+  "atk": 2800,
+  "def": 2300,
+  "passwords": [],
+  "images": [
+    {
+      "id": "e4f14767-cde7-4ad9-a4bd-e719f352fdd5",
+      "card": "https://ms.yugipedia.com//e/e8/ZeratheMant-RDAP01-JP-UR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Zera the Mant (Rush Duel)",
+        "id": 1128644
+      }
+    ],
+    "dbID": 21848
+  },
+  "series": [
+    "08f69d43-12a8-4b23-8201-7e6386f1a5ce"
+  ]
+}

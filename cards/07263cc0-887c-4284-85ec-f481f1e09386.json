@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "07263cc0-887c-4284-85ec-f481f1e09386",
+  "text": {
+    "en": {
+      "name": "Flame Champion (Rush Duel)",
+      "effect": "A warrior protected by a flaming shield that nullifies any attack."
+    },
+    "ko": {
+      "name": "\ud654\uc5fc\uc758 \ud0ac\ub7ec",
+      "effect": "\ud654\uc5fc\uc758 \ubc29\ud328\ub97c \uc0ac\uc6a9\ud558\ub294 \uac80\uc0ac. \uc774 \ubc29\ud328\ub294 \uc5b4\ub5a0\ud55c \uacf5\uaca9\ub3c4 \ubb34\ud6a8\ud654\uc2dc\ucf1c \ubc84\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "type": "pyro",
+  "classifications": [
+    "normal"
+  ],
+  "level": 5,
+  "atk": 1900,
+  "def": 1300,
+  "passwords": [],
+  "images": [
+    {
+      "id": "38ec6f97-7fb7-4ae3-a329-a6ccd366b54a",
+      "card": "https://ms.yugipedia.com//5/5e/FlameChampion-RDSD04-JP-C.png"
+    }
+  ],
+  "sets": [
+    "c05d7ca5-5bea-4c0f-884c-dd1ec7f1be77",
+    "c05d7ca5-5bea-4c0f-884c-dd1ec7f1be77"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Flame Champion (Rush Duel)",
+        "id": 714965
+      }
+    ],
+    "dbID": 17957
+  },
+  "series": []
+}

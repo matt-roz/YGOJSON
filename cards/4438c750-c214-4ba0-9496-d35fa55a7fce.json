@@ -1,0 +1,43 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "4438c750-c214-4ba0-9496-d35fa55a7fce",
+  "text": {
+    "en": {
+      "name": "Blackland Magic Dragon",
+      "effect": "Destroy 1 Spell/Trap Card on your opponent's field. This turn, you can only attack with DARK Attribute monsters.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u6697\u9ed2\u306e\u9b54\u7adc\u738b"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "dragon",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1500,
+  "def": 800,
+  "passwords": [],
+  "images": [
+    {
+      "id": "845a09bf-ac76-4048-ae43-666d071b68f2",
+      "card": "https://ms.yugipedia.com//a/ae/BlacklandMagicDragon-RDCA01-JP-OP.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Blackland Magic Dragon",
+        "id": 1224614
+      }
+    ]
+  },
+  "series": [
+    "73409add-3e9e-400d-a8b0-ae600de6af69"
+  ]
+}

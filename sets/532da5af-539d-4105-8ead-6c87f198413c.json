@@ -1,0 +1,67 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "532da5af-539d-4105-8ead-6c87f198413c",
+  "name": {
+    "en": "Crocs collaboration card",
+    "ja": "\uff23\uff32\uff2f\uff23\uff33 \u30b3\u30e9\u30dc\u8a18\u5ff5\u30ab\u30fc\u30c9"
+  },
+  "locales": {
+    "en": {
+      "language": "en",
+      "prefix": "CRC1-EN",
+      "date": "2026-09-09",
+      "cardImages": {
+        "limited": {
+          "a095001d-1312-4fe7-8b9a-f940395d73c2": "https://ms.yugipedia.com//c/c3/Crocodile-CRC1-EN-NPR-LE.png"
+        }
+      },
+      "cardInfo": {
+        "limited": {
+          "a095001d-1312-4fe7-8b9a-f940395d73c2": {
+            "image": "https://ms.yugipedia.com//c/c3/Crocodile-CRC1-EN-NPR-LE.png"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          2000001705000
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "en"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "cards": [
+        {
+          "id": "a095001d-1312-4fe7-8b9a-f940395d73c2",
+          "card": "5ce69296-734a-4ecb-9004-7146f8285353",
+          "suffix": "001",
+          "rarity": "commonparallel",
+          "imageID": "5d120f6d-e5ed-4d3d-a577-b091ebc4c3fe"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Crocs collaboration card",
+      "id": 1215448
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "b1115272-33c1-4c62-ab65-cce98e3fe4d6",
+  "text": {
+    "en": {
+      "name": "Obnoxious Celtic Guard (Rush Duel)",
+      "effect": "This card cannot be destroyed by battle with a monster that has 1900 or more ATK.",
+      "official": false
+    },
+    "ko": {
+      "name": "\ubc88\ub871\ud558\ub294 \uc5d8\ud504 \uac80\uc0ac",
+      "effect": "\uc774 \uce74\ub4dc\ub294 \ubaac\uc2a4\ud130(\uacf5\uaca9\ub825 1900 \uc774\uc0c1)\uc640\uc758 \uc804\ud22c\ub85c\ub294 \ud30c\uad34\ub418\uc9c0 \uc54a\ub294\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1400,
+  "def": 1200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "1b606f6c-1a47-465a-bfdd-5be90ca6ba5f",
+      "card": "https://ms.yugipedia.com//1/17/ObnoxiousCelticGuard-RDSD0E-JP-C.png"
+    },
+    {
+      "id": "9ae42190-6b13-43ae-8c2f-f87f0d5520a6",
+      "card": "https://ms.yugipedia.com//4/45/ObnoxiousCelticGuard-RDLP01-JP-OP.png"
+    }
+  ],
+  "sets": [
+    "baac8391-2c2d-4331-8582-71b7007e0af6",
+    "baac8391-2c2d-4331-8582-71b7007e0af6"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Obnoxious Celtic Guard (Rush Duel)",
+        "id": 1040911
+      }
+    ],
+    "dbID": 19980
+  },
+  "series": []
+}

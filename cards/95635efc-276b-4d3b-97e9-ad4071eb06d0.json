@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "95635efc-276b-4d3b-97e9-ad4071eb06d0",
+  "text": {
+    "en": {
+      "name": "Chartres the Skysavior Shining Light",
+      "effect": "\u25cfUntil the end of your opponent's next turn, while this card is face-up, neither player can Special Summon Level 8 or lower Effect Monsters in face-up Attack Position. \u25cfUntil the end of your opponent's next turn, while this card is face-up, your opponent cannot Set monsters from the hand.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u84bc\u6551\u306e\u5149\u660e \u30b7\u30e3\u30eb\u30c8\u30eb",
+      "effect": "\u25cf\u6b21\u306e\u76f8\u624b\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\u3001\u3053\u306e\u30ab\u30fc\u30c9\u304c\u8868\u5074\u8868\u793a\u306e\u9593\u3001\u304a\u4e92\u3044\u306f\u52b9\u679c\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff18\u4ee5\u4e0b\uff09\u3092\u8868\u5074\u653b\u6483\u8868\u793a\u3067\u7279\u6b8a\u53ec\u559a\u3067\u304d\u306a\u3044\u3002\u25cf\u6b21\u306e\u76f8\u624b\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\u3001\u3053\u306e\u30ab\u30fc\u30c9\u304c\u8868\u5074\u8868\u793a\u306e\u9593\u3001\u76f8\u624b\u306f\u624b\u672d\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u3092\u30bb\u30c3\u30c8\u3067\u304d\u306a\u3044\u3002"
+    },
+    "ko": {
+      "name": "\ucc3d\uad6c\uc758 \uad11\uba85 \uc0e4\ub974\ud1a0\ub974",
+      "effect": "\u25cf\ub2e4\uc74c \uc0c1\ub300 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0, \uc774 \uce74\ub4dc\uac00 \uc55e\uba74 \ud45c\uc2dc\uc778 \ub3d9\uc548, \uc591\ucabd \ud50c\ub808\uc774\uc5b4\ub294 \ud6a8\uacfc \ubaac\uc2a4\ud130(\ub808\ubca8 8 \uc774\ud558)\ub97c \uc55e\uba74 \uacf5\uaca9 \ud45c\uc2dc\ub85c \ud2b9\uc218 \uc18c\ud658\ud560 \uc218 \uc5c6\ub2e4. \u25cf\ub2e4\uc74c \uc0c1\ub300 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0, \uc774 \uce74\ub4dc\uac00 \uc55e\uba74 \ud45c\uc2dc\uc778 \ub3d9\uc548, \uc0c1\ub300\ub294 \ud328\uc758 \ubaac\uc2a4\ud130\ub97c \uc138\ud2b8\ud560 \uc218 \uc5c6\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "classifications": [
+    "effect"
+  ],
+  "level": 9,
+  "atk": 2400,
+  "def": 2200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "f4a38321-7242-46e1-bc7d-00c31973bb3c",
+      "card": "https://ms.yugipedia.com//5/55/ChartrestheSkysaviorShiningLight-RDORP4-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Chartres the Skysavior Shining Light",
+        "id": 1178948
+      }
+    ],
+    "dbID": 23068
+  },
+  "series": [
+    "ca246ec0-d926-4a5f-b983-145ffb05a55c"
+  ]
+}

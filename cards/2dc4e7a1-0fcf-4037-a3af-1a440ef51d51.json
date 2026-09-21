@@ -1,0 +1,52 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "2dc4e7a1-0fcf-4037-a3af-1a440ef51d51",
+  "text": {
+    "en": {
+      "name": "Cybersepice Queen Turmeric",
+      "effect": "Your opponent excavates the top 3 cards of their Deck. If 2 or more monsters are among the excavated cards, this card can attack twice this turn. Your opponent places the excavated cards on the top of their Deck in any order.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30b5\u30a4\u30d0\u30fc\u30b9\u30d1\u30a4\u30b9\u30fb\u30af\u30a4\u30fc\u30f3\u30bf\u30fc\u30e1\u30ea\u30c3\u30af",
+      "effect": "\u76f8\u624b\u306f\u81ea\u8eab\u306e\u30c7\u30c3\u30ad\u306e\u4e0a\u304b\u3089\u30ab\u30fc\u30c9\u3092\uff13\u679a\u3081\u304f\u308a\u3001\u304a\u4e92\u3044\u306b\u78ba\u8a8d\u3059\u308b\u3002\u305d\u306e\u4e2d\u306b\u30e2\u30f3\u30b9\u30bf\u30fc\u304c\uff12\u4f53\u4ee5\u4e0a\u3044\u305f\u5834\u5408\u3001\u3053\u306e\u30bf\u30fc\u30f3\u3001\u3053\u306e\u30ab\u30fc\u30c9\u306f\uff12\u56de\u653b\u6483\u3067\u304d\u308b\u3002\u76f8\u624b\u306f\u3081\u304f\u3063\u305f\u30ab\u30fc\u30c9\u3092\u597d\u304d\u306a\u9806\u756a\u3067\u30c7\u30c3\u30ad\u306e\u4e0a\u306b\u623b\u3059\u3002"
+    },
+    "ko": {
+      "name": "\uc0ac\uc774\ubc84\uc2a4\ud30c\uc774\uc2a4 \ud038\ud130\uba54\ub9ad",
+      "effect": "\uc0c1\ub300\ub294 \uc790\uc2e0\uc758 \ub371 \uc704\uc5d0\uc11c \uce74\ub4dc\ub97c 3\uc7a5 \ub118\uae30\uace0, \uc11c\ub85c \ud655\uc778\ud55c\ub2e4. \uadf8 \uc911\uc5d0 \ubaac\uc2a4\ud130\uac00 2\uc7a5 \uc774\uc0c1 \uc788\uc5c8\uc744 \uacbd\uc6b0, \uc774 \ud134\uc5d0, \uc774 \uce74\ub4dc\ub294 2\ud68c \uacf5\uaca9\ud560 \uc218 \uc788\ub2e4. \uc0c1\ub300\ub294 \ub118\uae34 \uce74\ub4dc\ub97c \uc88b\uc544\ud558\ub294 \uc21c\uc11c\ub300\ub85c \ub371 \uc704\ub85c \ub418\ub3cc\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "cyberse",
+  "classifications": [
+    "effect"
+  ],
+  "level": 9,
+  "atk": 2900,
+  "def": 2500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "504085cc-61c9-4273-8bd8-859d081358e8",
+      "card": "https://ms.yugipedia.com//c/ca/CybersepiceQueenTurmeric-RDKP18-JP-R.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Cybersepice Queen Turmeric",
+        "id": 1071288
+      }
+    ],
+    "dbID": 20653
+  },
+  "series": [
+    "77a03aa6-7e6b-4da3-9919-c02287f58091"
+  ]
+}

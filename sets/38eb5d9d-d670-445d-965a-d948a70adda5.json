@@ -1,0 +1,94 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "38eb5d9d-d670-445d-965a-d948a70adda5",
+  "name": {
+    "en": "30th Anniversary Demon's Pack",
+    "ja": "\uff13\uff10\uff54\uff48 \uff21\uff2e\uff2e\uff29\uff36\uff25\uff32\uff33\uff21\uff32\uff39 \uff24\uff25\uff2d\uff2f\uff2e\uff07\uff33 \uff30\uff21\uff23\uff2b"
+  },
+  "locales": {
+    "jp": {
+      "language": "ja",
+      "prefix": "VP26-JP",
+      "date": "2026-05-28",
+      "image": "https://ms.yugipedia.com//archive/c/c6/20260507092647%21VP26-BoosterJP.png",
+      "cardImages": {
+        "unlimited": {
+          "a243e2f4-d758-4374-8c07-b2f84e9ac501": "https://ms.yugipedia.com//0/0c/ArchfiendsOrigin-VP26-JP-UR.png",
+          "df4376dc-e2af-4f05-8462-75092a4b019a": "https://ms.yugipedia.com//e/e5/MakouraitheLightningStrike-VP26-JP-UR.png",
+          "e84e27eb-e3d5-40aa-bb16-a358f2b47366": "https://ms.yugipedia.com//c/c0/SummonedSkull-VP26-JP-PScR.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "a243e2f4-d758-4374-8c07-b2f84e9ac501": {
+            "image": "https://ms.yugipedia.com//0/0c/ArchfiendsOrigin-VP26-JP-UR.png"
+          },
+          "df4376dc-e2af-4f05-8462-75092a4b019a": {
+            "image": "https://ms.yugipedia.com//e/e5/MakouraitheLightningStrike-VP26-JP-UR.png"
+          },
+          "e84e27eb-e3d5-40aa-bb16-a358f2b47366": {
+            "image": "https://ms.yugipedia.com//c/c0/SummonedSkull-VP26-JP-PScR.png"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          1000009597000
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//archive/c/c6/20260507092647%21VP26-BoosterJP.png",
+      "cards": [
+        {
+          "id": "e84e27eb-e3d5-40aa-bb16-a358f2b47366",
+          "card": "a0265517-063f-4ffa-8b4e-31acd1512992",
+          "suffix": "001",
+          "rarity": "prismaticsecret",
+          "printStatus": "reprint",
+          "printNote": "New artwork"
+        },
+        {
+          "id": "a243e2f4-d758-4374-8c07-b2f84e9ac501",
+          "card": "9b22b776-bf6f-4825-9383-e6ac00b23397",
+          "suffix": "002",
+          "rarity": "ultra",
+          "imageID": "2ee5504a-b92d-4759-9d60-2050ba036cdd",
+          "printStatus": "new"
+        },
+        {
+          "id": "df4376dc-e2af-4f05-8462-75092a4b019a",
+          "card": "463355ad-9ae8-4828-9ff3-a9a08f95d427",
+          "suffix": "003",
+          "rarity": "ultra",
+          "imageID": "b5aa5474-6df4-4e4a-ad81-9edbfd600331",
+          "printStatus": "new"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "30th Anniversary Demon's Pack",
+      "id": 1188015
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "52473ef4-7779-473a-a529-47d16872acc0",
+  "text": {
+    "en": {
+      "name": "Road Arms - Sword Breaker",
+      "effect": "The equipped monster gains ATK equal to [the number of equipped Equip Spell Cards on the field] x 1000, and it cannot be destroyed by your opponent's Trap Card effects.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30ed\u30fc\u30c9\u30a2\u30fc\u30e0\u30ba\uff0d\u30bd\u30fc\u30c9\u30d6\u30ec\u30a4\u30ab\u30fc",
+      "effect": "\u88c5\u5099\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u653b\u6483\u529b\u306f\uff3b\u304a\u4e92\u3044\u306e\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u88c5\u5099\u3055\u308c\u3066\u3044\u308b\u88c5\u5099\u9b54\u6cd5\u30ab\u30fc\u30c9\u306e\u6570\uff3d\u00d7\uff11\uff10\uff10\uff10\u30a2\u30c3\u30d7\u3057\u3001\u305d\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u306f\u76f8\u624b\u306e\u7f60\u30ab\u30fc\u30c9\u306e\u52b9\u679c\u3067\u306f\u7834\u58ca\u3055\u308c\u306a\u3044\u3002"
+    },
+    "ko": {
+      "name": "\ub85c\ub4dc\uc554\uc988\uff0d\uc2a4\uc6cc\ub4dc \ube0c\ub808\uc774\ucee4",
+      "effect": "\uc7a5\ucc29 \ubaac\uc2a4\ud130\uc758 \uacf5\uaca9\ub825\uc740 [\uc11c\ub85c\uc758 \ud544\ub4dc\uc758 \uc7a5\ucc29\ub418\uc5b4 \uc788\ub294 \uc7a5\ucc29 \ub9c8\ubc95 \uce74\ub4dc\uc758 \uc218] \u00d7 1000 \uc62c\ub9ac\uace0, \uadf8 \ubaac\uc2a4\ud130\ub294 \uc0c1\ub300\uc758 \ud568\uc815 \uce74\ub4dc\uc758 \ud6a8\uacfc\ub85c\ub294 \ud30c\uad34\ub418\uc9c0 \uc54a\ub294\ub2e4."
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "equip",
+  "passwords": [],
+  "images": [
+    {
+      "id": "d5d76f4b-e216-4280-a318-ef01e967049e",
+      "card": "https://ms.yugipedia.com//f/ff/RoadArmsSwordBreaker-RDKP12-JP-R.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Road Arms - Sword Breaker",
+        "id": 716487
+      }
+    ],
+    "dbID": 18627
+  },
+  "series": []
+}

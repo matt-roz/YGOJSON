@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "48d3a556-8ae6-4980-ad19-e8abe8ad937f",
+  "text": {
+    "en": {
+      "name": "The Flame Dragon Haunting the Temple",
+      "effect": "This card gains 500 ATK until the end of this turn. Then, you can Special Summon 1 face-up Monster Card from either player's Spell & Trap Zone to your field in face-up Defense Position.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u795e\u6bbf\u306b\u5de3\u98df\u3046\u708e\u9f8d"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "type": "dragon",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 2500,
+  "def": 2500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "468b3c0d-4274-4cec-ac27-81e5d85dec8b",
+      "card": "https://ms.yugipedia.com//5/51/TheFlameDragonHauntingtheTemple-RDCA01-JP-OP.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "The Flame Dragon Haunting the Temple",
+        "id": 1225513
+      }
+    ]
+  },
+  "series": []
+}

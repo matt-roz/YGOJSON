@@ -1,0 +1,70 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "c5d6c4c3-9c18-4812-8a34-b97527720ad4",
+  "name": {
+    "en": "Yu-Gi-Oh! OCG Stories Volume 7 promotional card",
+    "ja": "\u904a\u622f\u738b\uff2f\uff23\uff27\u30b9\u30c8\u30fc\u30ea\u30fc\u30ba \u7b2c\uff17\u5dfb \u4ed8\u9332\u30ab\u30fc\u30c9"
+  },
+  "locales": {
+    "jp": {
+      "language": "ja",
+      "prefix": "YOS3-JP",
+      "date": "2026-07-03",
+      "image": "https://ms.yugipedia.com//c/cc/YOS3-PromoJP-Volume7.png",
+      "cardImages": {
+        "unlimited": {
+          "bd692219-789c-44ba-b582-5bd4f8510161": "https://ms.yugipedia.com//4/4c/WitchcrafterSeed-YOS3-JP-UR.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "bd692219-789c-44ba-b582-5bd4f8510161": {
+            "image": "https://ms.yugipedia.com//4/4c/WitchcrafterSeed-YOS3-JP-UR.png"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          1000009607000
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//c/cc/YOS3-PromoJP-Volume7.png",
+      "cards": [
+        {
+          "id": "bd692219-789c-44ba-b582-5bd4f8510161",
+          "card": "dd6897cf-4c71-4b16-bcba-2dede0a51f30",
+          "suffix": "002",
+          "rarity": "ultra",
+          "imageID": "70cda4bd-04f3-4e8c-be3e-7cdefa464668",
+          "printStatus": "new"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Yu-Gi-Oh! OCG Stories Volume 7 promotional card",
+      "id": 1192503
+    }
+  }
+}

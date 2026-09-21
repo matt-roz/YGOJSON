@@ -1,0 +1,56 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "b5f55bc0-e732-4dad-a274-ca98db1c5442",
+  "text": {
+    "en": {
+      "name": "Elemental HERO Voltic Wingman",
+      "effect": "Fusion Summon a Level 6-8 Warrior Type monster that can only be Fusion Summoned, by shuffling monsters from your Graveyard into the Deck as material."
+    },
+    "ja": {
+      "name": "\uff25\u30fb\uff28\uff25\uff32\uff2f \u30dc\u30eb\u30c6\u30c3\u30af\u30fb\u30a6\u30a3\u30f3\u30b0\u30de\u30f3",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u3092\u7d20\u6750\u3068\u3057\u3066\u30c7\u30c3\u30ad\u306b\u623b\u3057\u3001\u30d5\u30e5\u30fc\u30b8\u30e7\u30f3\u53ec\u559a\u3067\u3057\u304b\u7279\u6b8a\u53ec\u559a\u3067\u304d\u306a\u3044\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff16\uff5e\uff18\uff0f\u6226\u58eb\u65cf\uff09\u3092\u30d5\u30e5\u30fc\u30b8\u30e7\u30f3\u53ec\u559a\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc5d8\ub9ac\uba58\ud2c0 \ud788\uc5b4\ub85c \ubcfc\ud14c\ud06c \uc719\ub9e8",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130\ub97c \uc18c\uc7ac\ub85c\uc11c \ub371\uc73c\ub85c \ub418\ub3cc\ub9ac\uace0, \ud4e8\uc804 \uc18c\ud658\uc73c\ub85c\ubc16\uc5d0 \ud2b9\uc218 \uc18c\ud658\ud560 \uc218 \uc5c6\ub294 \ubaac\uc2a4\ud130(\ub808\ubca8 6~8 / \uc804\uc0ac\uc871)\ub97c \ud4e8\uc804 \uc18c\ud658\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 5,
+  "atk": 2000,
+  "def": 1600,
+  "passwords": [],
+  "images": [
+    {
+      "id": "3cd0afa5-f82e-4e70-a2f3-31598899d745",
+      "card": "https://ms.yugipedia.com//d/da/ElementalHEROVolticWingman-RDKP20-JP-SR.png"
+    }
+  ],
+  "sets": [
+    "15adab2a-8746-40d3-a545-bbb610076d23"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Elemental HERO Voltic Wingman",
+        "id": 1103866
+      }
+    ],
+    "dbID": 21316
+  },
+  "series": [
+    "4e2112ec-34a4-4031-91ad-7dcc3818d4c7"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "f2bbbdf5-bfde-4d49-b2d5-36f650f4a562",
+  "name": {
+    "en": "V Jump August 2026",
+    "ja": "\uff36\u30b8\u30e3\u30f3\u30d7 \uff12\uff10\uff12\uff16\u5e74 \uff18\u6708\u53f7 \u4ed8\u9332\u30ab\u30fc\u30c9"
+  },
+  "locales": {
+    "jp": {
+      "language": "ja",
+      "prefix": "VJMP-JP",
+      "date": "2026-06-19",
+      "image": "https://ms.yugipedia.com//a/ac/VJMP-2026-8-Cover.png",
+      "cardImages": {
+        "unlimited": {}
+      },
+      "cardInfo": {
+        "unlimited": {}
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          1000009599000
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//a/ac/VJMP-2026-8-Cover.png",
+      "cards": [
+        {
+          "id": "60a1e99f-59da-47ee-a640-44147c4b26f7",
+          "card": "cf9bf5b4-3f27-4dbd-a019-ed4dbf158f0d",
+          "suffix": "291",
+          "rarity": "ultra",
+          "imageID": "9f92c400-dc04-412c-812d-78dd65a6b1d7",
+          "printStatus": "new"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "V Jump August 2026 promotional card",
+      "id": 1194770
+    }
+  }
+}

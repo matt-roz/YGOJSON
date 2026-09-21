@@ -1,0 +1,55 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "aaebde84-2ead-49c6-8bc2-0a56c7e49895",
+  "text": {
+    "en": {
+      "name": "Divine Anima Infinity the Creation Cubic Overlord",
+      "effect": "4 \"Cubic\" monsters\nMust be Fusion Summoned. Gains 1500 ATK for each \"Vijam the Cubic Seed\" in your GY, also unaffected by the activated effects of monsters with ATK less than this card. Once per turn (Quick Effect): You can shuffle all your banished \"Cubic\" cards into the Deck, and if you do, destroy 1 card your opponent controls. If this face-up card in its owner's control leaves the field by an opponent's card: You can Special Summon up to 3 \"Vijam the Cubic Seed\" from your GY.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u5275\u4e16\u65b9\u754c\u8d85\u795e\u30c7\u30a3\u30f4\u30a1\u30a4\u30f3\u30fb\u30a2\u30cb\u30de\u30fb\u30a4\u30f3\u30d5\u30a3\u30cb\u30c6\u30a3"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "fiend",
+  "classifications": [
+    "effect"
+  ],
+  "level": 10,
+  "atk": 0,
+  "def": 3000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "122baf59-3369-4a39-a4fa-855a7b42c94d",
+      "card": "https://ms.yugipedia.com//2/2d/DivineAnimaInfinitytheCreationCubicOverlord-RV02-JP-OP.png"
+    },
+    {
+      "id": "d1ead7c0-c77d-450f-a656-76506da39610",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/100460004.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/100460004.jpg"
+    }
+  ],
+  "sets": [
+    "a2b9546b-1f13-4956-8066-3103aaea48d7"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Divine Anima Infinity the Creation Cubic Overlord",
+        "id": 1226091
+      }
+    ],
+    "ygoprodeck": {
+      "id": 100460004,
+      "name": "divine-anima-infinity-the-creation-cubic-overlord-15958"
+    }
+  },
+  "series": []
+}

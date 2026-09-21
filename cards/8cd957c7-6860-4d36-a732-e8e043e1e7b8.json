@@ -1,0 +1,52 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "8cd957c7-6860-4d36-a732-e8e043e1e7b8",
+  "text": {
+    "en": {
+      "name": "Harpie Regina",
+      "effect": "Draw 1 card. Then, if you have a face-up Normal Monster on your field, you can add 1 \"Harpie Lady\" or \"Harpie Lady Sisters\" from your Graveyard to your hand.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30cf\u30fc\u30d4\u30a3\u30fb\u30ec\u30b8\u30fc\u30ca",
+      "effect": "\u81ea\u5206\u306f\uff11\u679a\u30c9\u30ed\u30fc\u3059\u308b\u3002\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u8868\u793a\u306e\u901a\u5e38\u30e2\u30f3\u30b9\u30bf\u30fc\u304c\u3044\u308b\u5834\u5408\u3001\u3055\u3089\u306b\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u30cf\u30fc\u30d4\u30a3\u30fb\u30ec\u30c7\u30a3\u300d\u307e\u305f\u306f\u300c\u30cf\u30fc\u30d4\u30a3\u4e09\u59c9\u59b9\u300d\uff11\u4f53\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud574\ud53c \ub808\uc9c0\ub098",
+      "effect": "\uc790\uc2e0\uc740 1\uc7a5 \ub4dc\ub85c\uc6b0\ud55c\ub2e4. \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \ud45c\uc2dc\uc758 \uc77c\ubc18 \ubaac\uc2a4\ud130\uac00 \uc788\uc744 \uacbd\uc6b0, \ucd94\uac00\ub85c \uc790\uc2e0 \ubb18\uc9c0\uc758 \"\ud574\ud53c \ub808\uc774\ub514\" \ub610\ub294 \"\ud574\ud53c\ub808\uc774\ub514\uc988\" 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\uc744 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "wind",
+  "type": "wingedbeast",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1000,
+  "def": 300,
+  "passwords": [],
+  "images": [
+    {
+      "id": "ca795368-17af-4a2e-a65f-798825b44733",
+      "card": "https://ms.yugipedia.com//a/a2/HarpieRegina-RDSD0D-JP-C.png"
+    }
+  ],
+  "sets": [
+    "d867f9ff-46bb-44fa-9cb3-94491d964afd",
+    "d867f9ff-46bb-44fa-9cb3-94491d964afd"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Harpie Regina",
+        "id": 936314
+      }
+    ],
+    "dbID": 19102
+  },
+  "series": [
+    "04dde7f8-0a7d-4b74-b812-f493b9fb1f62"
+  ]
+}

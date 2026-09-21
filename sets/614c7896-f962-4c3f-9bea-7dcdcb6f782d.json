@@ -1,0 +1,139 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "614c7896-f962-4c3f-9bea-7dcdcb6f782d",
+  "name": {
+    "en": "Pegasus Boss Duel Deck"
+  },
+  "locales": {
+    "jp": {
+      "language": "ja",
+      "prefix": "BD-JP",
+      "date": "2014-05-25",
+      "cardImages": {
+        "unlimited": {
+          "4a83c0ab-37b8-4c8e-a10a-76c65cb214d1": "https://ms.yugipedia.com//b/bc/PegasusMonsterC-BD-JP-C.png",
+          "4ac7e1f8-aed6-41dd-864c-8003b27cd53a": "https://ms.yugipedia.com//1/17/PegasusMonsterD-BD-JP-C.png",
+          "525296df-09dc-4ff9-b417-6714cfb73dde": "https://ms.yugipedia.com//c/ce/PegasusMonsterB-BD-JP-C.png",
+          "cb26f299-749b-4abe-8ce1-83d329f0b113": "https://ms.yugipedia.com//5/5b/PegasusSpellC-BD-JP-C.png",
+          "d0322a5a-44b5-416c-a340-857bfe65bf60": "https://ms.yugipedia.com//9/95/PegasusSpellA-BD-JP-C.png",
+          "d7c60d3e-4b8a-42d3-b66b-3bcb68bd4517": "https://ms.yugipedia.com//c/c9/PegasusSpellB-BD-JP-C.png",
+          "f884178f-761b-4972-933f-0d44a5693577": "https://ms.yugipedia.com//1/1e/PegasusTrapA-BD-JP-C.png",
+          "fd22adda-e41b-4e2d-a97b-25a05ea5e930": "https://ms.yugipedia.com//5/58/PegasusMonsterA-BD-JP-C.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "4a83c0ab-37b8-4c8e-a10a-76c65cb214d1": {
+            "image": "https://ms.yugipedia.com//b/bc/PegasusMonsterC-BD-JP-C.png"
+          },
+          "4ac7e1f8-aed6-41dd-864c-8003b27cd53a": {
+            "image": "https://ms.yugipedia.com//1/17/PegasusMonsterD-BD-JP-C.png"
+          },
+          "525296df-09dc-4ff9-b417-6714cfb73dde": {
+            "image": "https://ms.yugipedia.com//c/ce/PegasusMonsterB-BD-JP-C.png"
+          },
+          "cb26f299-749b-4abe-8ce1-83d329f0b113": {
+            "image": "https://ms.yugipedia.com//5/5b/PegasusSpellC-BD-JP-C.png"
+          },
+          "d0322a5a-44b5-416c-a340-857bfe65bf60": {
+            "image": "https://ms.yugipedia.com//9/95/PegasusSpellA-BD-JP-C.png"
+          },
+          "d7c60d3e-4b8a-42d3-b66b-3bcb68bd4517": {
+            "image": "https://ms.yugipedia.com//c/c9/PegasusSpellB-BD-JP-C.png"
+          },
+          "f884178f-761b-4972-933f-0d44a5693577": {
+            "image": "https://ms.yugipedia.com//1/1e/PegasusTrapA-BD-JP-C.png"
+          },
+          "fd22adda-e41b-4e2d-a97b-25a05ea5e930": {
+            "image": "https://ms.yugipedia.com//5/58/PegasusMonsterA-BD-JP-C.png"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {}
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "cards": [
+        {
+          "id": "fd22adda-e41b-4e2d-a97b-25a05ea5e930",
+          "card": "e08a0e05-9fb0-4f4b-b32f-b47b4f8af753",
+          "suffix": "001",
+          "rarity": "common",
+          "imageID": "c87a8637-4407-4960-967b-691a35eac4a0"
+        },
+        {
+          "id": "525296df-09dc-4ff9-b417-6714cfb73dde",
+          "card": "b6e9dea2-99bb-4e53-8674-5778f9bfa5b5",
+          "suffix": "002",
+          "rarity": "common",
+          "imageID": "73b8c4cb-51eb-47fc-b896-fc2e3d87226a"
+        },
+        {
+          "id": "4a83c0ab-37b8-4c8e-a10a-76c65cb214d1",
+          "card": "eec4e8a8-2d4a-49ba-b17e-60b977c44d55",
+          "suffix": "003",
+          "rarity": "common",
+          "imageID": "33436a27-980b-45bf-a82a-7b8e23edc775"
+        },
+        {
+          "id": "4ac7e1f8-aed6-41dd-864c-8003b27cd53a",
+          "card": "5500226a-ce0d-49b1-b9a9-c639b5464579",
+          "suffix": "004",
+          "rarity": "common",
+          "imageID": "e7fd0179-f0d1-41e1-8186-de4e67506a00"
+        },
+        {
+          "id": "d0322a5a-44b5-416c-a340-857bfe65bf60",
+          "card": "0e61fbda-0bc4-4d43-b21f-3ef979c686d6",
+          "suffix": "005",
+          "rarity": "common",
+          "imageID": "5914e47f-cea6-4b5f-b8ea-f25a3ddebfe1"
+        },
+        {
+          "id": "d7c60d3e-4b8a-42d3-b66b-3bcb68bd4517",
+          "card": "2923dcd4-585c-4800-8bf2-e129439df75f",
+          "suffix": "006",
+          "rarity": "common",
+          "imageID": "54e4d70e-0c6f-4178-a5e5-25c81a6e668e"
+        },
+        {
+          "id": "cb26f299-749b-4abe-8ce1-83d329f0b113",
+          "card": "92432ba6-ec7b-40dc-978e-9a37ceb60ca7",
+          "suffix": "007",
+          "rarity": "common",
+          "imageID": "a084b180-8d5f-4e47-9f11-25ba32950e0d"
+        },
+        {
+          "id": "f884178f-761b-4972-933f-0d44a5693577",
+          "card": "8515a7ac-26dd-4bb5-b53e-1a0f122802d6",
+          "suffix": "008",
+          "rarity": "common",
+          "imageID": "6f7c3664-3c1c-472f-83da-f4fdbbcd0cd8"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Pegasus Boss Duel Deck",
+      "id": 720250
+    }
+  }
+}

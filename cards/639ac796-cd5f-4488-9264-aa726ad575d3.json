@@ -1,0 +1,37 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "639ac796-cd5f-4488-9264-aa726ad575d3",
+  "text": {
+    "en": {
+      "name": "Field Power Bonus (card)",
+      "effect": "If a monster(s) is Normal or Special Summoned and there is another monster(s) on the field with the same Type: That Summoned monster(s) gains 1000 ATK/DEF. If this card is destroyed: Negate the effects of all face-up monsters currently on the field, also their ATK/DEF become their original ATK/DEF. Once per turn, during the Standby Phase, if this card is in your GY and there are no cards in the Field Zones: You can place this card face-up on your field.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u74b0\u5883\u9069\u5fdc\u529b"
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "field",
+  "passwords": [],
+  "images": [
+    {
+      "id": "9b97bfe8-0d2b-49d1-b617-7e4a658bc5e0",
+      "card": "https://ms.yugipedia.com//8/8f/FieldPowerBonus-YAC1-JP-OP.png"
+    }
+  ],
+  "sets": [
+    "9aefc662-0b55-44d0-85b1-7c92cfe8a78b",
+    "9aefc662-0b55-44d0-85b1-7c92cfe8a78b"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Field Power Bonus (card)",
+        "id": 1222642
+      }
+    ]
+  },
+  "series": []
+}

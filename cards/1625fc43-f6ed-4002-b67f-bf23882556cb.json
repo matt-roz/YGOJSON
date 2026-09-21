@@ -1,0 +1,72 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "1625fc43-f6ed-4002-b67f-bf23882556cb",
+  "text": {
+    "en": {
+      "name": "Dragon Knight of Darkness",
+      "effect": "A dragon knight leading a dark army. His merciless attacks have unparalleled strength, and the cursed sword he wields devours the souls of his foes and makes him stronger."
+    },
+    "fr": {
+      "name": "Chevalier Dragon des T\u00e9n\u00e8bres",
+      "effect": "Un chevalier dragon qui commande une arm\u00e9e des t\u00e9n\u00e8bres. Ses attaques sont aussi impitoyables que d\u00e9vastatrices, et son \u00e9p\u00e9e maudite d\u00e9vore les \u00e2mes de ses ennemis pour le rendre plus puissant encore."
+    },
+    "de": {
+      "name": "Drachenritter der Finsternis",
+      "effect": "Ein Drachenritter, der eine finstere Armee anf\u00fchrt. Seine gnadenlosen Angriffe sind unvergleichlich stark und sein verfluchtes Schwert verschlingt die Seelen seiner Gegner und st\u00e4rkt ihn."
+    },
+    "it": {
+      "name": "Cavaliere Drago dell'Oscurit\u00e0",
+      "effect": "Un cavaliere drago a capo di un esercito oscuro. I suoi attacchi spietati hanno una forza senza pari, e la spada maledetta che brandisce divora le anime dei suoi nemici e lo rende pi\u00f9 forte."
+    },
+    "es": {
+      "name": "Caballero Drag\u00f3n de la Oscuridad",
+      "effect": "Un caballero drag\u00f3n al frente de un ej\u00e9rcito oscuro. Sus despiadados ataques no tienen parang\u00f3n, y la espada maldita que porta devora las almas de sus enemigos y lo fortalece."
+    },
+    "ja": {
+      "name": "\u6697\u9ed2\u306e\u7adc\u9a0e\u58eb",
+      "effect": "\u9ed2\u304d\u8ecd\u52e2\u3092\u7387\u3044\u308b\u7adc\u9a0e\u58eb\u3002\u6148\u60b2\u306a\u304d\u4e00\u6483\u306f\u5f37\u529b\u7121\u6bd4\u3002\u624b\u306b\u3059\u308b\u90aa\u5263\u306f\u6575\u306e\u9b42\u3092\u55b0\u3089\u3044\u6210\u9577\u3092\u7d9a\u3051\u3066\u3044\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc554\ud751\uc758 \uc6a9\uae30\uc0ac",
+      "effect": "\uac80\uc740 \uad70\ub300\ub97c \uc774\ub044\ub294 \uc6a9\uae30\uc0ac. \uc790\ube44 \uc5c6\ub294 \uc77c\uaca9\uc740 \ucd5c\uace0\ub85c \uac15\ub825\ud558\ub2e4. \uc190\uc5d0 \ub4e0 \ub9c8\uac80\uc740 \uc801\uc758 \ud63c\uc744 \uc9d1\uc5b4 \uc0bc\ud0a4\uba70 \uacc4\uc18d \uc131\uc7a5\ud558\uace0 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "dragon",
+  "classifications": [
+    "normal"
+  ],
+  "level": 5,
+  "atk": 1600,
+  "def": 1100,
+  "passwords": [],
+  "images": [
+    {
+      "id": "46ee283e-2270-461b-8c27-43273f0faa5c",
+      "card": "https://ms.yugipedia.com//4/4a/DragonKnightofDarkness-RDST02-JP-C.png"
+    },
+    {
+      "id": "207e11a1-b8ed-412e-b2a9-997f01e037da",
+      "card": "https://ms.yugipedia.com//2/20/DragonKnightofDarkness-RDS251-JP-UPR.png"
+    }
+  ],
+  "sets": [
+    "94cc13bc-8f74-45f7-95b1-a46788eb60dc",
+    "94cc13bc-8f74-45f7-95b1-a46788eb60dc"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Dragon Knight of Darkness",
+        "id": 714646
+      }
+    ],
+    "dbID": 15167
+  },
+  "series": []
+}

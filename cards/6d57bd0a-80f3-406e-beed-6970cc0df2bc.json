@@ -1,0 +1,55 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "6d57bd0a-80f3-406e-beed-6970cc0df2bc",
+  "text": {
+    "en": {
+      "name": "Sword Dancer",
+      "effect": "A skilled swordsmen that had once served a powerful nation. His sword flies through with unrivaled precision as the crowd holds their breath."
+    },
+    "ja": {
+      "name": "\u30bd\u30fc\u30c9\u30fb\u30c0\u30f3\u30b5\u30fc",
+      "effect": "\u304b\u3064\u3066\u5927\u56fd\u306b\u4ed5\u3048\u3066\u3044\u305f\u51c4\u8155\u306e\u5263\u58eb\u3002\u89b3\u5ba2\u304c\u898b\u5b88\u308b\u306a\u304b\u6b63\u78ba\u7121\u6bd4\u306e\u30b3\u30f3\u30c8\u30ed\u30fc\u30eb\u3067\u5263\u3092\u98db\u3070\u3059\u3002"
+    },
+    "ko": {
+      "name": "\uc2a4\uc6cc\ub4dc \ub304\uc11c",
+      "effect": "\ud55c\ub54c \ub300\uad6d\uc744 \uc12c\uae30\uace0 \uc788\ub358 \uc2e4\ub825 \uc788\ub294 \uac80\uc0ac. \uad00\uac1d\ub4e4\uc774 \uc9c0\ucf1c\ubcf4\ub294 \uac00\uc6b4\ub370 \uc815\ud655\ud558\uace0\ub3c4 \ubb34\uc790\ube44\ud55c \ucee8\ud2b8\ub864\ub85c \uce7c\uc744 \ub0a0\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "warrior",
+  "classifications": [
+    "normal"
+  ],
+  "level": 4,
+  "atk": 1400,
+  "def": 500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "f5d33b51-81d3-42a9-9713-c6c629d57e46",
+      "card": "https://ms.yugipedia.com//3/37/SwordDancer-RDLGP2-JP-C.png"
+    }
+  ],
+  "sets": [
+    "f15281f0-8ea5-4682-b72c-36f0b779a7bc",
+    "800a7d3b-5bf8-4d9e-b88b-3ec6be2416b7",
+    "4758595f-fc6c-4993-9a71-0738f485c6c9"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "n"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Sword Dancer",
+        "id": 716956
+      }
+    ],
+    "dbID": 16894
+  },
+  "series": [
+    "bff3c17c-7080-49f0-a844-a0e55c603bae"
+  ]
+}

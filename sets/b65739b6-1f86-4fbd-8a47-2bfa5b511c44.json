@@ -1,0 +1,387 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "b65739b6-1f86-4fbd-8a47-2bfa5b511c44",
+  "name": {
+    "en": "Starter Deck Yuga - Cut Through! Sevens Road!!",
+    "ja": "\u30b9\u30bf\u30fc\u30bf\u30fc\u30c7\u30c3\u30ad \u904a\u6211 \uff0d\u5207\u308a\u958b\u3051\uff01 \u30bb\u30d6\u30f3\u30b9\u30ed\u30fc\u30c9\uff01\uff01\uff0d",
+    "ko": "\uc2a4\ud0c0\ud130 \ub371 \uc720\uac00 \u2013\uac1c\ucc99\ud558\ub77c! \uc138\ube10\uc988 \ub85c\ub4dc!!\u2013"
+  },
+  "locales": {
+    "jp": {
+      "language": "ja",
+      "prefix": "RD/ST01-JP",
+      "date": "2020-04-04",
+      "image": "https://ms.yugipedia.com//3/31/RDST01-DeckJP.png",
+      "cardImages": {
+        "unlimited": {}
+      },
+      "cardInfo": {
+        "unlimited": {}
+      },
+      "formats": [
+        "rushduel"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          1000100100000
+        ]
+      }
+    },
+    "kr": {
+      "language": "ko",
+      "prefix": "RD/ST01-KR",
+      "date": "2020-12-02",
+      "image": "https://ms.yugipedia.com//d/da/RDST01-DeckKR.png",
+      "cardImages": {
+        "unlimited": {}
+      },
+      "cardInfo": {
+        "unlimited": {}
+      },
+      "formats": [
+        "rushduel"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          1010100001000
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "rushduel"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//3/31/RDST01-DeckJP.png",
+      "cards": [
+        {
+          "id": "2f25e0ec-267b-4b09-951a-c2c05b4cd66d",
+          "card": "5de0ecf8-b5b1-4d33-8992-0b17c3a013df",
+          "suffix": "001",
+          "rarity": "superparallel",
+          "printStatus": "new"
+        },
+        {
+          "id": "b29a299b-8efb-4aea-af4d-d7e73d8220c8",
+          "card": "fd55e8c4-e5d2-4c05-b1e9-d8c9ad5616e4",
+          "suffix": "002",
+          "rarity": "rare",
+          "imageID": "f390fa82-3239-411c-bd14-807cfb7964d1",
+          "printStatus": "new"
+        },
+        {
+          "id": "eaa753c8-b7aa-4b5c-a411-529dce5dcc96",
+          "card": "fd55e8c4-e5d2-4c05-b1e9-d8c9ad5616e4",
+          "suffix": "002",
+          "rarity": "common",
+          "imageID": "f390fa82-3239-411c-bd14-807cfb7964d1",
+          "qty": 2,
+          "printStatus": "new"
+        },
+        {
+          "id": "7dd11080-cb9b-436b-9013-ff50a4835af6",
+          "card": "48e133cd-27f0-4e0b-ad94-6f5ede0fc8e8",
+          "suffix": "003",
+          "rarity": "common",
+          "imageID": "290c14f4-dfe0-45fe-acab-dac08ab9b0cc",
+          "qty": 3,
+          "printStatus": "new"
+        },
+        {
+          "id": "650185a2-b0eb-4227-8702-56a3c2d81726",
+          "card": "3e8ba97e-1021-4177-aa7b-037af56d15e4",
+          "suffix": "004",
+          "rarity": "common",
+          "imageID": "3d2ce57a-cf69-467d-a6bf-7ebf77371271",
+          "qty": 3,
+          "printStatus": "new"
+        },
+        {
+          "id": "4fd4f467-a28b-4aba-b0f5-b10b54016a0f",
+          "card": "d5721b9d-5938-4edd-9f23-5b959f7cabc6",
+          "suffix": "005",
+          "rarity": "common",
+          "imageID": "b71d2e18-3e15-4511-beb1-dcbe67628022",
+          "qty": 3,
+          "printStatus": "new"
+        },
+        {
+          "id": "9bb6c068-7d8c-46d7-9f5b-b8bdec6ac049",
+          "card": "b167546a-97a1-4c5f-8f0a-d48328e280f5",
+          "suffix": "006",
+          "rarity": "rare",
+          "imageID": "ccbd1253-7c8c-469d-a262-111d2e8f2007",
+          "printStatus": "new"
+        },
+        {
+          "id": "e3d27bce-ffb5-4406-b434-a4636a7e4a0e",
+          "card": "b167546a-97a1-4c5f-8f0a-d48328e280f5",
+          "suffix": "006",
+          "rarity": "common",
+          "imageID": "ccbd1253-7c8c-469d-a262-111d2e8f2007",
+          "qty": 2,
+          "printStatus": "new"
+        },
+        {
+          "id": "5cb8e141-0bc2-45e1-a818-1aa75dd28001",
+          "card": "9a0214b2-a809-4d7b-9a42-aa143e3bd08f",
+          "suffix": "007",
+          "rarity": "common",
+          "imageID": "8612d395-78ad-43f8-a100-548f6ea42bfb",
+          "qty": 3,
+          "printStatus": "new"
+        },
+        {
+          "id": "025b9bf7-7ce5-4bb1-9743-07dc52e02e1a",
+          "card": "b8ff68a6-a7ca-47fe-b135-e8b102ce4464",
+          "suffix": "008",
+          "rarity": "common",
+          "imageID": "03a8ad65-db1e-430c-9305-81d119873b78",
+          "qty": 3,
+          "printStatus": "new"
+        },
+        {
+          "id": "4e193dad-afa3-4d14-9bd7-db4bbb3d1212",
+          "card": "49a73ae7-71d0-4939-ba6c-66689a3f3fcf",
+          "suffix": "009",
+          "rarity": "common",
+          "imageID": "a3c8a613-1502-4c7f-bb79-da18abf2e56b",
+          "qty": 3,
+          "printStatus": "new"
+        },
+        {
+          "id": "ebb697af-49c9-4954-ba95-409448134c6d",
+          "card": "dcd5bf8a-65d4-46d3-ad3c-8fb0a2bfe76e",
+          "suffix": "010",
+          "rarity": "common",
+          "qty": 3,
+          "printStatus": "new"
+        },
+        {
+          "id": "cd8c5d0c-f298-4d97-957a-6c2b6a1b7b3d",
+          "card": "f500463a-373e-4a71-94cb-c47a6efb8ae0",
+          "suffix": "011",
+          "rarity": "common",
+          "imageID": "3210dfc1-a166-434f-ac80-ad476d5764a7",
+          "qty": 3,
+          "printStatus": "new"
+        },
+        {
+          "id": "2dcb041c-0965-4633-ab38-2daf4d33f2bb",
+          "card": "fc306cbf-08ab-4f2f-80cb-f0098b07600f",
+          "suffix": "012",
+          "rarity": "common",
+          "imageID": "cacbddc3-e68d-43bb-8de5-400022a5a979",
+          "qty": 3,
+          "printStatus": "new"
+        },
+        {
+          "id": "2f56c458-852d-429e-bb95-e994410aec2d",
+          "card": "caa59c7e-9e49-4b11-bb6c-d007c1b5f58c",
+          "suffix": "013",
+          "rarity": "rare",
+          "imageID": "b4d81ba2-a991-4c8e-92a0-e527d120a036",
+          "printStatus": "new"
+        },
+        {
+          "id": "e37a33d9-f4cd-4a97-b8f5-c0f69a517032",
+          "card": "caa59c7e-9e49-4b11-bb6c-d007c1b5f58c",
+          "suffix": "013",
+          "rarity": "common",
+          "imageID": "b4d81ba2-a991-4c8e-92a0-e527d120a036",
+          "qty": 2,
+          "printStatus": "new"
+        },
+        {
+          "id": "312ae750-fa17-435e-93e4-1699296594f2",
+          "card": "14b7882f-79c6-45bd-be62-5bda943016ee",
+          "suffix": "014",
+          "rarity": "common",
+          "qty": 3,
+          "printStatus": "new"
+        }
+      ],
+      "externalIDs": {}
+    },
+    {
+      "locales": [
+        "kr"
+      ],
+      "formats": [
+        "rushduel"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//d/da/RDST01-DeckKR.png",
+      "cards": [
+        {
+          "id": "2f25e0ec-267b-4b09-951a-c2c05b4cd66d",
+          "card": "5de0ecf8-b5b1-4d33-8992-0b17c3a013df",
+          "suffix": "001",
+          "rarity": "superparallel",
+          "printStatus": "new"
+        },
+        {
+          "id": "b29a299b-8efb-4aea-af4d-d7e73d8220c8",
+          "card": "fd55e8c4-e5d2-4c05-b1e9-d8c9ad5616e4",
+          "suffix": "002",
+          "rarity": "rare",
+          "imageID": "f390fa82-3239-411c-bd14-807cfb7964d1",
+          "printStatus": "new"
+        },
+        {
+          "id": "eaa753c8-b7aa-4b5c-a411-529dce5dcc96",
+          "card": "fd55e8c4-e5d2-4c05-b1e9-d8c9ad5616e4",
+          "suffix": "002",
+          "rarity": "common",
+          "imageID": "f390fa82-3239-411c-bd14-807cfb7964d1",
+          "qty": 2,
+          "printStatus": "new"
+        },
+        {
+          "id": "7dd11080-cb9b-436b-9013-ff50a4835af6",
+          "card": "48e133cd-27f0-4e0b-ad94-6f5ede0fc8e8",
+          "suffix": "003",
+          "rarity": "common",
+          "imageID": "290c14f4-dfe0-45fe-acab-dac08ab9b0cc",
+          "qty": 3,
+          "printStatus": "new"
+        },
+        {
+          "id": "650185a2-b0eb-4227-8702-56a3c2d81726",
+          "card": "3e8ba97e-1021-4177-aa7b-037af56d15e4",
+          "suffix": "004",
+          "rarity": "common",
+          "imageID": "3d2ce57a-cf69-467d-a6bf-7ebf77371271",
+          "qty": 3,
+          "printStatus": "new"
+        },
+        {
+          "id": "4fd4f467-a28b-4aba-b0f5-b10b54016a0f",
+          "card": "d5721b9d-5938-4edd-9f23-5b959f7cabc6",
+          "suffix": "005",
+          "rarity": "common",
+          "imageID": "b71d2e18-3e15-4511-beb1-dcbe67628022",
+          "qty": 3,
+          "printStatus": "new"
+        },
+        {
+          "id": "9bb6c068-7d8c-46d7-9f5b-b8bdec6ac049",
+          "card": "b167546a-97a1-4c5f-8f0a-d48328e280f5",
+          "suffix": "006",
+          "rarity": "rare",
+          "imageID": "ccbd1253-7c8c-469d-a262-111d2e8f2007",
+          "printStatus": "new"
+        },
+        {
+          "id": "e3d27bce-ffb5-4406-b434-a4636a7e4a0e",
+          "card": "b167546a-97a1-4c5f-8f0a-d48328e280f5",
+          "suffix": "006",
+          "rarity": "common",
+          "imageID": "ccbd1253-7c8c-469d-a262-111d2e8f2007",
+          "qty": 2,
+          "printStatus": "new"
+        },
+        {
+          "id": "5cb8e141-0bc2-45e1-a818-1aa75dd28001",
+          "card": "9a0214b2-a809-4d7b-9a42-aa143e3bd08f",
+          "suffix": "007",
+          "rarity": "common",
+          "imageID": "8612d395-78ad-43f8-a100-548f6ea42bfb",
+          "qty": 3,
+          "printStatus": "new"
+        },
+        {
+          "id": "025b9bf7-7ce5-4bb1-9743-07dc52e02e1a",
+          "card": "b8ff68a6-a7ca-47fe-b135-e8b102ce4464",
+          "suffix": "008",
+          "rarity": "common",
+          "imageID": "03a8ad65-db1e-430c-9305-81d119873b78",
+          "qty": 3,
+          "printStatus": "new"
+        },
+        {
+          "id": "4e193dad-afa3-4d14-9bd7-db4bbb3d1212",
+          "card": "49a73ae7-71d0-4939-ba6c-66689a3f3fcf",
+          "suffix": "009",
+          "rarity": "common",
+          "imageID": "a3c8a613-1502-4c7f-bb79-da18abf2e56b",
+          "qty": 3,
+          "printStatus": "new"
+        },
+        {
+          "id": "ebb697af-49c9-4954-ba95-409448134c6d",
+          "card": "dcd5bf8a-65d4-46d3-ad3c-8fb0a2bfe76e",
+          "suffix": "010",
+          "rarity": "common",
+          "qty": 3,
+          "printStatus": "new"
+        },
+        {
+          "id": "cd8c5d0c-f298-4d97-957a-6c2b6a1b7b3d",
+          "card": "f500463a-373e-4a71-94cb-c47a6efb8ae0",
+          "suffix": "011",
+          "rarity": "common",
+          "imageID": "3210dfc1-a166-434f-ac80-ad476d5764a7",
+          "qty": 3,
+          "printStatus": "new"
+        },
+        {
+          "id": "2dcb041c-0965-4633-ab38-2daf4d33f2bb",
+          "card": "fc306cbf-08ab-4f2f-80cb-f0098b07600f",
+          "suffix": "012",
+          "rarity": "common",
+          "imageID": "cacbddc3-e68d-43bb-8de5-400022a5a979",
+          "qty": 3,
+          "printStatus": "new"
+        },
+        {
+          "id": "2f56c458-852d-429e-bb95-e994410aec2d",
+          "card": "caa59c7e-9e49-4b11-bb6c-d007c1b5f58c",
+          "suffix": "013",
+          "rarity": "rare",
+          "imageID": "b4d81ba2-a991-4c8e-92a0-e527d120a036",
+          "printStatus": "new"
+        },
+        {
+          "id": "e37a33d9-f4cd-4a97-b8f5-c0f69a517032",
+          "card": "caa59c7e-9e49-4b11-bb6c-d007c1b5f58c",
+          "suffix": "013",
+          "rarity": "common",
+          "imageID": "b4d81ba2-a991-4c8e-92a0-e527d120a036",
+          "qty": 2,
+          "printStatus": "new"
+        },
+        {
+          "id": "312ae750-fa17-435e-93e4-1699296594f2",
+          "card": "14b7882f-79c6-45bd-be62-5bda943016ee",
+          "suffix": "014",
+          "rarity": "common",
+          "qty": 3,
+          "printStatus": "new"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Starter Deck Yuga - Cut Through! Sevens Road!!",
+      "id": 720279
+    }
+  }
+}

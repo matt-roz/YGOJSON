@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "015612a2-f250-4157-8dcc-b0c519b4eb9a",
+  "text": {
+    "en": {
+      "name": "Heat Hyena",
+      "effect": "Send cards  equal to [the number of monsters on your opponent's field] from the top of your Deck to the Graveyard."
+    },
+    "ja": {
+      "name": "\u30d2\u30fc\u30c8\u30fb\u30cf\u30a4\u30fc\u30ca",
+      "effect": "\u81ea\u5206\u306e\u30c7\u30c3\u30ad\u306e\u4e0a\u304b\u3089\uff3b\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u6570\uff3d\u3060\u3051\u30ab\u30fc\u30c9\u3092\u5893\u5730\u3078\u9001\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud788\ud2b8 \ud558\uc774\ub098",
+      "effect": "\uc790\uc2e0\uc758 \ub371 \uc704\uc5d0\uc11c [\uc0c1\ub300 \ud544\ub4dc\uc758 \ubaac\uc2a4\ud130\uc758 \uc218]\ub9cc\ud07c \uce74\ub4dc\ub97c \ubb18\uc9c0\ub85c \ubcf4\ub0b8\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "type": "beast",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1000,
+  "def": 800,
+  "passwords": [],
+  "images": [
+    {
+      "id": "932b2ec1-e369-4a1e-a71c-78656f4ba8a5",
+      "card": "https://ms.yugipedia.com//d/df/HeatHyena-RDKP06-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Heat Hyena",
+        "id": 715266
+      }
+    ],
+    "dbID": 16688
+  },
+  "series": []
+}

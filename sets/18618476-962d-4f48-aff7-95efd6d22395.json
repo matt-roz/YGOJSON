@@ -1,0 +1,69 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "18618476-962d-4f48-aff7-95efd6d22395",
+  "name": {
+    "en": "EX.Premium Pack Kit Vol.3",
+    "ko": "EX.\ud504\ub9ac\ubbf8\uc5c4 \ud329 \ud0a4\ud2b8 Vol.3"
+  },
+  "locales": {
+    "kr": {
+      "language": "ko",
+      "prefix": "EPK3-KR",
+      "date": "2009-06-26",
+      "image": "https://ms.yugipedia.com//7/7b/EPK3-PromoKR.png",
+      "cardImages": {
+        "limited": {
+          "1f5ff3a7-540c-4dd7-a1c2-aec39615dacb": "https://ms.yugipedia.com//5/5a/ElementalHEROAbsoluteZero-EPK3-KR-ScR-LE.png"
+        }
+      },
+      "cardInfo": {
+        "limited": {
+          "1f5ff3a7-540c-4dd7-a1c2-aec39615dacb": {
+            "image": "https://ms.yugipedia.com//5/5a/ElementalHEROAbsoluteZero-EPK3-KR-ScR-LE.png"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          74404002
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "kr"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "image": "https://ms.yugipedia.com//7/7b/EPK3-PromoKR.png",
+      "cards": [
+        {
+          "id": "1f5ff3a7-540c-4dd7-a1c2-aec39615dacb",
+          "card": "d277c047-d4da-45de-8c98-ef928a75a837",
+          "suffix": "001",
+          "rarity": "secret",
+          "imageID": "655183df-2c87-4f0a-a52a-b8b4312c4b51"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "EX.Premium Pack Kit Vol.3",
+      "id": 99603
+    }
+  }
+}

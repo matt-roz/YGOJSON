@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "ae410cb8-247a-47e1-8aa5-c9eedea9486f",
+  "text": {
+    "en": {
+      "name": "Elemental HERO Earth Neos",
+      "effect": "Return 1 card from your opponent's field to the owner's hand.",
+      "official": false
+    },
+    "ja": {
+      "name": "\uff25\u30fb\uff28\uff25\uff32\uff2f \u30a2\u30fc\u30b9\u30fb\u30cd\u30aa\u30b9",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u30ab\u30fc\u30c9\uff11\u679a\u3092\u9078\u3093\u3067\u6301\u3061\u4e3b\u306e\u624b\u672d\u306b\u623b\u3059\u3002"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2500,
+  "def": 2000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "3f62b550-8793-4af7-9def-ffe5407529c0",
+      "card": "https://ms.yugipedia.com//7/7d/ElementalHEROEarthNeos-RDKP26-JP-R.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Elemental HERO Earth Neos",
+        "id": 1207098
+      }
+    ],
+    "dbID": 23780
+  },
+  "series": [
+    "4e2112ec-34a4-4031-91ad-7dcc3818d4c7",
+    "34c5b22c-a2f7-4b8e-8938-a50b1e41c0d6"
+  ]
+}

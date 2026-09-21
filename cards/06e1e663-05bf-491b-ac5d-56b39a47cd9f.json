@@ -1,0 +1,64 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "06e1e663-05bf-491b-ac5d-56b39a47cd9f",
+  "text": {
+    "en": {
+      "name": "Icezark the Unequaled",
+      "effect": "Special Summon 1 Level 7 or higher Warrior Type monster from your Graveyard face-up to your field."
+    },
+    "fr": {
+      "name": "Icezark le Sans \u00c9gal"
+    },
+    "de": {
+      "name": "Icezark der Unvergleichliche"
+    },
+    "it": {
+      "name": "Icezark l'Ineguagliabile"
+    },
+    "es": {
+      "name": "Icezark el Inigualable"
+    },
+    "ja": {
+      "name": "\u9b54\u4ed9\u6597\u30a2\u30a4\u30b9\u30b6\u30fc\u30af",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff17\u4ee5\u4e0a\uff0f\u6226\u58eb\u65cf\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u8868\u793a\u3067\u7279\u6b8a\u53ec\u559a\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub9c8\uc120\ub450 \uc544\uc774\uc2a4\uc790\ud06c",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130(\ub808\ubca8 7 \uc774\uc0c1 / \uc804\uc0ac\uc871) 1\uc7a5\uc744 \uace0\ub974\uace0 \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \ud45c\uc2dc\ub85c \ud2b9\uc218 \uc18c\ud658\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "type": "wingedbeast",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2000,
+  "def": 2000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "7431f7bb-1354-4da6-a76a-561ce620d0c8",
+      "card": "https://ms.yugipedia.com//0/0d/IcezarktheUnequaled-RDKP05-JP-R.png"
+    }
+  ],
+  "sets": [
+    "5b6d7ab4-987e-4469-89bd-9d9bf3d400c0",
+    "a08d0d55-5282-4487-b8b3-a190adb90edf"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Icezark the Unequaled",
+        "id": 715385
+      }
+    ],
+    "dbID": 16329
+  },
+  "series": []
+}

@@ -1,0 +1,52 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "ee3aac5b-7243-4ef5-b8c1-e0a46b2fc2df",
+  "text": {
+    "en": {
+      "name": "Elemental HERO Thunder Giant (Rush Duel)",
+      "effect": "Destroy 1 face-up monster with a lower original ATK than this card on either field."
+    },
+    "ko": {
+      "name": "\uc5d8\ub9ac\uba58\ud2c0 \ud788\uc5b4\ub85c \uc36c\ub354 \uc790\uc774\uc5b8\ud2b8",
+      "effect": "\uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\ub825\ubcf4\ub2e4 \ub0ae\uc740 \uc6d0\ub798\uc758 \uacf5\uaca9\ub825\uc744 \uac00\uc9c0\ub294, \uc790\uc2e0 \ub610\ub294 \uc0c1\ub300 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130 1\uc7a5\uc744 \uace0\ub974\uace0 \ud30c\uad34\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 6,
+  "atk": 2400,
+  "def": 1500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "2676ebd2-1c12-4507-b223-a64819512296",
+      "card": "https://ms.yugipedia.com//b/bd/ElementalHEROThunderGiant-RDSD0B-JP-C.png"
+    }
+  ],
+  "sets": [
+    "fab3640e-34f2-410e-8c1b-6c7386795132",
+    "fab3640e-34f2-410e-8c1b-6c7386795132",
+    "fab3640e-34f2-410e-8c1b-6c7386795132",
+    "fab3640e-34f2-410e-8c1b-6c7386795132"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Elemental HERO Thunder Giant (Rush Duel)",
+        "id": 1062790
+      }
+    ],
+    "dbID": 20455
+  },
+  "series": [
+    "4e2112ec-34a4-4031-91ad-7dcc3818d4c7"
+  ]
+}

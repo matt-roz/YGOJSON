@@ -1,0 +1,92 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "7b2ff130-83b2-46b5-87ce-fdda933f38b6",
+  "name": {
+    "en": "Yu-Gi-Oh! Duel Terminal Master Guide",
+    "ja": "\uff39\uff55\uff0d\uff27\uff49\uff0d\uff2f\uff48\uff01 \uff24\uff35\uff25\uff2c \uff34\uff25\uff32\uff2d\uff29\uff2e\uff21\uff2c \uff2d\uff21\uff33\uff34\uff25\uff32 \uff27\uff35\uff29\uff24\uff25 \u4ed8\u9332\u30ab\u30fc\u30c9"
+  },
+  "locales": {
+    "jp": {
+      "language": "ja",
+      "prefix": "DTC4-JPB",
+      "date": "2013-02-26",
+      "image": "https://ms.yugipedia.com//9/9d/DuelTerminalMasterGuide-JP.jpg",
+      "cardImages": {
+        "unlimited": {
+          "2032b517-ae64-4250-b9bc-6a38a1384a94": "https://ms.yugipedia.com//c/c1/GemKnightPearl-DTC4-JP-DUPR-DT.png",
+          "85509244-81bd-4108-a0f8-ac5abc225285": "https://ms.yugipedia.com//b/b2/DaigustoEmeral-DTC4-JP-DUPR-DT.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "2032b517-ae64-4250-b9bc-6a38a1384a94": {
+            "image": "https://ms.yugipedia.com//c/c1/GemKnightPearl-DTC4-JP-DUPR-DT.png",
+            "variants": [
+              {
+                "code": "DT",
+                "image": "https://ms.yugipedia.com//c/c1/GemKnightPearl-DTC4-JP-DUPR-DT.png"
+              }
+            ]
+          },
+          "85509244-81bd-4108-a0f8-ac5abc225285": {
+            "image": "https://ms.yugipedia.com//b/b2/DaigustoEmeral-DTC4-JP-DUPR-DT.png",
+            "variants": [
+              {
+                "code": "DT",
+                "image": "https://ms.yugipedia.com//b/b2/DaigustoEmeral-DTC4-JP-DUPR-DT.png"
+              }
+            ]
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          121214018
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//9/9d/DuelTerminalMasterGuide-JP.jpg",
+      "cards": [
+        {
+          "id": "2032b517-ae64-4250-b9bc-6a38a1384a94",
+          "card": "e9362002-d181-4397-a80b-313b29f13295",
+          "suffix": "01",
+          "rarity": "dtupr",
+          "imageID": "cbfe0437-2444-4ec2-a12c-26d32de2104c"
+        },
+        {
+          "id": "85509244-81bd-4108-a0f8-ac5abc225285",
+          "card": "c988db9f-ddc0-4bba-a996-48e43e61d86c",
+          "suffix": "02",
+          "rarity": "dtupr",
+          "imageID": "103e9b61-4af3-4c38-9210-dadf8d618a83"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Yu-Gi-Oh! Duel Terminal Master Guide promotional cards",
+      "id": 275461
+    }
+  }
+}

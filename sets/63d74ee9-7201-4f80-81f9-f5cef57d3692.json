@@ -1,0 +1,68 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "63d74ee9-7201-4f80-81f9-f5cef57d3692",
+  "name": {
+    "en": "Duel Set World Championship 2026",
+    "ja": "\u30c7\u30e5\u30a8\u30eb\u30bb\u30c3\u30c8 \uff37\uff23\uff33\uff12\uff10\uff12\uff16"
+  },
+  "locales": {
+    "jp": {
+      "language": "ja",
+      "prefix": "2026-JPD",
+      "date": "2026-08-29",
+      "image": "https://ms.yugipedia.com//6/6a/DuelSetWCS2026-PromoJP.png",
+      "cardImages": {
+        "unlimited": {}
+      },
+      "cardInfo": {
+        "unlimited": {}
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          1000009604000
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//6/6a/DuelSetWCS2026-PromoJP.png",
+      "cards": [
+        {
+          "id": "d7ba10bc-2f84-4e4d-b98f-0c02daef5d8d",
+          "card": "c0285d04-cadd-402d-a865-799a182d7510",
+          "suffix": "01",
+          "rarity": "ultra"
+        },
+        {
+          "id": "a7fec28e-d4e5-49ef-9c04-6b5b554e184b",
+          "card": "6cb08e9f-e85c-464b-b3ec-71fe7790ceb7",
+          "suffix": "02",
+          "rarity": "ultra"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Duel Set World Championship 2026",
+      "id": 1201326
+    }
+  }
+}

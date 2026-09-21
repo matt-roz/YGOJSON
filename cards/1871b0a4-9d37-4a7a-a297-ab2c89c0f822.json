@@ -1,0 +1,50 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "1871b0a4-9d37-4a7a-a297-ab2c89c0f822",
+  "text": {
+    "en": {
+      "name": "Curse of Dragon (Rush Duel)",
+      "effect": "A wicked dragon that taps into dark forces to execute a powerful attack."
+    },
+    "ko": {
+      "name": "\ucee4\uc2a4 \uc624\ube0c \ub4dc\ub798\uace4",
+      "effect": "\uc0ac\uc545\ud55c \ub4dc\ub798\uace4. \uc5b4\ub460\uc758 \ud798\uc744 \uc0ac\uc6a9\ud55c \uacf5\uaca9\uc740 \uac15\ub825\ud558\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "dragon",
+  "classifications": [
+    "normal"
+  ],
+  "level": 5,
+  "atk": 2000,
+  "def": 1500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "8dd64b9f-fe44-4e04-b991-11fed7e8ecb2",
+      "card": "https://ms.yugipedia.com//2/2c/CurseofDragon-RDHC01-JP-SR.png"
+    },
+    {
+      "id": "b5064c07-e1e0-4978-b6eb-18e2e092b8af",
+      "card": "https://ms.yugipedia.com//2/2a/CurseofDragon-RD711C-JP-NPR.png"
+    }
+  ],
+  "sets": [
+    "4307c2d4-8bec-4544-8549-d6fac1f69f00"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Curse of Dragon (Rush Duel)",
+        "id": 714394
+      }
+    ],
+    "dbID": 17838
+  },
+  "series": [
+    "a3e27cb2-0372-4fe5-a8ad-8ca351ad48d4"
+  ]
+}

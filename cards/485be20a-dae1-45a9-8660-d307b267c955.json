@@ -1,0 +1,54 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "485be20a-dae1-45a9-8660-d307b267c955",
+  "text": {
+    "en": {
+      "name": "Light Dolphin",
+      "effect": "Draw 1 card."
+    },
+    "ja": {
+      "name": "\u30ab\u30eb\u30a4\u30eb\u30ab",
+      "effect": "\u81ea\u5206\u306f\uff11\u679a\u30c9\u30ed\u30fc\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub798\uace0\ub3cc\uace0\ub798",
+      "effect": "\uc790\uc2e0\uc740 1\uc7a5 \ub4dc\ub85c\uc6b0\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "type": "seaserpent",
+  "classifications": [
+    "effect"
+  ],
+  "level": 2,
+  "atk": 500,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "f0699677-583d-4acb-ab41-904f3f93d6cd",
+      "card": "https://ms.yugipedia.com//7/7e/LightDolphin-RDKP07-JP-C.png"
+    }
+  ],
+  "sets": [
+    "cf303586-057a-4e6c-ae2a-65879480865d",
+    "288f40da-3a58-4353-8951-a8b611718475"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "r"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Light Dolphin",
+        "id": 715621
+      }
+    ],
+    "dbID": 16987
+  },
+  "series": [
+    "d69ee92f-440a-4a05-bafc-2fb5ac4896b3"
+  ]
+}

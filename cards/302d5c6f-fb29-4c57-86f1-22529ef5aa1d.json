@@ -1,0 +1,38 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "302d5c6f-fb29-4c57-86f1-22529ef5aa1d",
+  "text": {
+    "en": {
+      "name": "Searching Union",
+      "effect": "Take the bottom 5 cards of your Deck and show them. You can add up to 2 \"X-Head Cannon\", \"Y-Dragon Head\", and/or \"Z-Metal Tank\" from among the shown cards to your hand. Shuffle the other cards into the Deck.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30b5\u30fc\u30c1\u30f3\u30b0\u30fb\u30e6\u30cb\u30aa\u30f3",
+      "effect": "\u81ea\u5206\u306e\u30c7\u30c3\u30ad\u306e\u4e0b\u304b\u3089\u30ab\u30fc\u30c9\uff15\u679a\u3092\u53d6\u308a\u51fa\u3057\u3001\u304a\u4e92\u3044\u306b\u78ba\u8a8d\u3059\u308b\u3002\u81ea\u5206\u306f\u305d\u306e\u4e2d\u304b\u3089\u300c\uff38\uff0d\u30d8\u30c3\u30c9\u30fb\u30ad\u30e3\u30ce\u30f3\u300d\u300c\uff39\uff0d\u30c9\u30e9\u30b4\u30f3\u30fb\u30d8\u30c3\u30c9\u300d\u300c\uff3a\uff0d\u30e1\u30bf\u30eb\u30fb\u30ad\u30e3\u30bf\u30d4\u30e9\u30fc\u300d\u3092\u5408\u8a08\uff12\u4f53\u307e\u3067\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002\u6b8b\u308a\u306e\u30ab\u30fc\u30c9\u3092\u30c7\u30c3\u30ad\u306b\u623b\u3059\u3002"
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "a902e775-4d2b-4904-95de-de956af36e93",
+      "card": "https://ms.yugipedia.com//1/13/SearchingUnion-RDAP03-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Searching Union",
+        "id": 1196066
+      }
+    ],
+    "dbID": 23443
+  },
+  "series": [
+    "55d07b9d-24c6-4be1-9101-c7e5785a9c49"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "ed2f8313-57b0-4280-8403-69a20a7a639a",
+  "text": {
+    "en": {
+      "name": "An Epic Tale of Recollected Memories",
+      "effect": "Send the top 4 cards of your Deck to the Graveyard. Then, you can add to your hand 1 Legend monster and/or 1 Legend Trap Card from among the cards sent.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u8a9e\u308a\u7d99\u304c\u308c\u3057\u82f1\u96c4\u8b5a",
+      "effect": "\u81ea\u5206\u306e\u30c7\u30c3\u30ad\u306e\u4e0a\u304b\u3089\u30ab\u30fc\u30c9\uff14\u679a\u3092\u5893\u5730\u3078\u9001\u308b\u3002\u305d\u306e\u5f8c\u3001\u305d\u306e\u4e2d\u304b\u3089\u30ec\u30b8\u30a7\u30f3\u30c9\u30e2\u30f3\u30b9\u30bf\u30fc\u3068\u30ec\u30b8\u30a7\u30f3\u30c9\u7f60\u30ab\u30fc\u30c9\u3092\u305d\u308c\u305e\u308c\uff11\u679a\u307e\u3067\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc804\ud574 \ub0b4\ub824\uc624\ub294 \uc601\uc6c5\ub2f4",
+      "effect": "\uc790\uc2e0\uc758 \ub371 \uc704\uc5d0\uc11c \uce74\ub4dc 4\uc7a5\uc744 \ubb18\uc9c0\ub85c \ubcf4\ub0b8\ub2e4. \uadf8 \ud6c4, \uadf8 \uc911\uc5d0\uc11c \ub808\uc804\ub4dc \ubaac\uc2a4\ud130\uc640 \ub808\uc804\ub4dc \ud568\uc815 \uce74\ub4dc\ub97c \uac01\uac01 1\uc7a5\uae4c\uc9c0 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\uc744 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "678b8572-671f-4f94-912a-7437636cdb54",
+      "card": "https://ms.yugipedia.com//a/a0/AnEpicTaleofRecollectedMemories-RDKP19-JP-SR.png"
+    },
+    {
+      "id": "d741fade-94c2-4e6f-9cea-7abe68c76f17",
+      "card": "https://ms.yugipedia.com//7/7d/AnEpicTaleofRecollectedMemories-RDKP19-JP-ScR-AA.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "An Epic Tale of Recollected Memories",
+        "id": 1090595
+      }
+    ],
+    "dbID": 21005
+  },
+  "series": [
+    "f942861f-b4f9-4253-baad-a08e2f2c7054"
+  ]
+}

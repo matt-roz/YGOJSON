@@ -1,0 +1,34 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "c4a1ad5c-8f1b-41c1-80d5-6c1eae3d1e5c",
+  "text": {
+    "en": {
+      "name": "Painful Choice (Rush Duel)",
+      "effect": "Excavate the top 5 cards of your Deck. Your opponent chooses 1 excavated card, and you add it to your hand. Send the other cards to the Graveyard.",
+      "official": false
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "175369b5-88d2-4c25-82fe-8502002f7704",
+      "card": "https://ms.yugipedia.com//0/04/PainfulChoice-RDSJMP-JP-NPR.png"
+    }
+  ],
+  "sets": [
+    "b254644c-27d2-4111-9a53-3a82de7d4cd5"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Painful Choice (Rush Duel)",
+        "id": 1178100
+      }
+    ],
+    "dbID": 23037
+  },
+  "series": []
+}

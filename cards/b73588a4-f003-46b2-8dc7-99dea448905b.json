@@ -1,0 +1,48 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "b73588a4-f003-46b2-8dc7-99dea448905b",
+  "text": {
+    "en": {
+      "name": "Dark Matter Deadcheer",
+      "effect": "Send 1 monster from your field to the Graveyard. Then, you can Special Summon 1 Level 5 Galaxy Type monster with 1300 DEF from your Graveyard to your field in face-up Attack Position.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30c0\u30fc\u30af\u30de\u30bf\u30fc\u30fb\u30c7\u30c3\u30c9\u30a8\u30fc\u30eb",
+      "effect": "\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u3092\u9078\u3093\u3067\u5893\u5730\u3078\u9001\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff15\uff0f\u30ae\u30e3\u30e9\u30af\u30b7\u30fc\u65cf\uff0f\u5b88\u5099\u529b\uff11\uff13\uff10\uff10\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u653b\u6483\u8868\u793a\u3067\u7279\u6b8a\u53ec\u559a\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub2e4\ud06c\ub9e4\ud130 \ub370\ub4dc\uc5d8",
+      "effect": "\uc790\uc2e0 \ud544\ub4dc\uc758 \ubaac\uc2a4\ud130 1\uc7a5\uc744 \uace0\ub974\uace0 \ubb18\uc9c0\ub85c \ubcf4\ub0b8\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130(\ub808\ubca8 5 / \uac24\ub7ed\uc2dc\uc871 / \uc218\ube44\ub825 1300) 1\uc7a5\uc744 \uace0\ub974\uace0 \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \uacf5\uaca9 \ud45c\uc2dc\ub85c \ud2b9\uc218 \uc18c\ud658\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "classifications": [
+    "effect"
+  ],
+  "level": 2,
+  "atk": 400,
+  "def": 1300,
+  "passwords": [],
+  "images": [
+    {
+      "id": "debf4f50-d568-4272-b0cb-3e27de0f735a",
+      "card": "https://ms.yugipedia.com//e/e1/DarkMatterDeadcheer-RD5TH1-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Dark Matter Deadcheer",
+        "id": 1054594
+      }
+    ],
+    "dbID": 20317
+  },
+  "series": [
+    "20e1a2b3-4557-4a43-a6e4-4f54272ef025"
+  ]
+}

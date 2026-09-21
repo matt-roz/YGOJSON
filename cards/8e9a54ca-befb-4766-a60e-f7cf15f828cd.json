@@ -1,0 +1,40 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "8e9a54ca-befb-4766-a60e-f7cf15f828cd",
+  "text": {
+    "en": {
+      "name": "Psychic Kappa (Rush Duel)",
+      "effect": "An amphibian with a myriad of powers to shield it from enemy attacks."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "type": "aqua",
+  "classifications": [
+    "normal"
+  ],
+  "level": 2,
+  "atk": 400,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "357dacfb-9f53-4483-83a0-d10004ee9bd4",
+      "card": "https://ms.yugipedia.com//0/02/PsychicKappa-RDB222-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Psychic Kappa (Rush Duel)",
+        "id": 716319
+      }
+    ],
+    "dbID": 17843
+  },
+  "series": [
+    "0997b6d0-bdc2-4eb1-9535-88d8cdeeab1c"
+  ]
+}

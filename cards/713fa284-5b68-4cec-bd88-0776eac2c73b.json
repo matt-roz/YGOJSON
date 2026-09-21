@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "713fa284-5b68-4cec-bd88-0776eac2c73b",
+  "text": {
+    "en": {
+      "name": "Hungry Onion Rings",
+      "effect": "Add 1 \"Takeout Attack\" from your Graveyard to your hand.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30cf\u30f3\u30b0\u30ea\u30fc\u30aa\u30cb\u30aa\u30f3",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u30c6\u30a4\u30af\u30fb\u30a2\u30bf\u30c3\u30af\u300d\uff11\u679a\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud5dd\uadf8\ub9ac \uc5b4\ub2c8\uc5b8",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \"\ud14c\uc774\ud06c \uc5b4\ud0dd\" 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\ub294\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 1200,
+  "def": 900,
+  "passwords": [],
+  "images": [
+    {
+      "id": "a9c52ef9-afbc-44d4-9870-7abfeed8a75c",
+      "card": "https://ms.yugipedia.com//7/7b/HungryOnionRings-RDKP24-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Hungry Onion Rings",
+        "id": 1171431
+      }
+    ],
+    "dbID": 22852
+  },
+  "series": [
+    "e2d2c5fa-6cb7-405e-84d8-889b5da6d817"
+  ]
+}

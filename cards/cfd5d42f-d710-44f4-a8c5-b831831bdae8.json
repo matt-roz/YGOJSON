@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "cfd5d42f-d710-44f4-a8c5-b831831bdae8",
+  "text": {
+    "en": {
+      "name": "Wynn the Wind Spiritualist",
+      "effect": "Place 1 face-up Effect Monster from your opponent's field on the bottom of the owner's Deck, except a Maximum Monster. This turn, you cannot activate the effect of \"Wynn the Wind Spiritualist\".",
+      "official": false
+    },
+    "ja": {
+      "name": "\u98a8\u970a\u8853\u5e2b\u30a6\u30a3\u30f3",
+      "effect": "\u30de\u30ad\u30b7\u30de\u30e0\u30e2\u30f3\u30b9\u30bf\u30fc\u4ee5\u5916\u306e\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u306e\u52b9\u679c\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u3092\u9078\u3093\u3067\u6301\u3061\u4e3b\u306e\u30c7\u30c3\u30ad\u306e\u4e0b\u306b\u623b\u3059\u3002\u3053\u306e\u30bf\u30fc\u30f3\u3001\u81ea\u5206\u306f\u300c\u98a8\u970a\u8853\u5e2b\u30a6\u30a3\u30f3\u300d\u306e\u52b9\u679c\u3092\u767a\u52d5\u3067\u304d\u306a\u3044\u3002"
+    },
+    "ko": {
+      "name": "\ud48d\ub839\uc220\uc0ac \uc708",
+      "effect": "\ub9e5\uc2dc\uba48 \ubaac\uc2a4\ud130 \uc774\uc678\uc758 \uc0c1\ub300 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc\uc778 \ud6a8\uacfc \ubaac\uc2a4\ud130 1\uc7a5\uc744 \uace0\ub974\uace0 \uc8fc\uc778\uc758 \ub371 \uc544\ub798\ub85c \ub418\ub3cc\ub9b0\ub2e4. \uc774 \ud134\uc5d0, \uc790\uc2e0\uc740 \"\ud48d\ub839\uc220\uc0ac \uc708\"\uc758 \ud6a8\uacfc\ub97c \ubc1c\ub3d9\ud560 \uc218 \uc5c6\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "wind",
+  "type": "spellcaster",
+  "classifications": [
+    "effect"
+  ],
+  "level": 5,
+  "atk": 1900,
+  "def": 1500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "04234e2b-19ac-42a1-8b42-e02cc17e1dcb",
+      "card": "https://ms.yugipedia.com//6/6e/WynntheWindSpiritualist-RDORP4-JP-UR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Wynn the Wind Spiritualist",
+        "id": 1176307
+      }
+    ],
+    "dbID": 23045
+  },
+  "series": [
+    "788d3d66-cdd1-44f3-b4e8-93528c9b134e"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "abcefcfe-9e40-480d-bf73-a9b642e377f0",
+  "text": {
+    "en": {
+      "name": "Pitch-Black Warwolf (Rush Duel)",
+      "effect": "Your opponent cannot activate Trap Cards during the Battle Phase.",
+      "official": false
+    },
+    "ko": {
+      "name": "\uce60\ud751\uc758 \uc804\uc0ac \uc6cc\uc6b8\ud504",
+      "effect": "\uc0c1\ub300\ub294 \uc11c\ub85c\uc758 \ubc30\ud2c0 \ud398\uc774\uc988 \uc911\uc5d0 \ud568\uc815 \uce74\ub4dc\ub97c \ubc1c\ub3d9\ud560 \uc218 \uc5c6\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "beastwarrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1600,
+  "def": 600,
+  "passwords": [],
+  "images": [
+    {
+      "id": "85bbc3ae-80da-472b-8b15-dc98a8128afa",
+      "card": "https://ms.yugipedia.com//8/80/PitchBlackWarwolf-RDGRD0-JP-NPR.png"
+    }
+  ],
+  "sets": [
+    "539832b2-9b51-4743-a71f-881a26a5f349",
+    "539832b2-9b51-4743-a71f-881a26a5f349"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Pitch-Black Warwolf (Rush Duel)",
+        "id": 716233
+      }
+    ],
+    "dbID": 17561
+  },
+  "series": []
+}

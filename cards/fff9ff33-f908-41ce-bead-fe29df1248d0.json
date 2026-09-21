@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "fff9ff33-f908-41ce-bead-fe29df1248d0",
+  "text": {
+    "en": {
+      "name": "Emptiness Devouring Xenovader\u25b3 Jahannam",
+      "effect": "If this card is Normal or Special Summoned: Banish (face-down) the top 8 cards of your Deck. Gains these effects based on the total number of face-down banished cards.\r\n\u25cf 10+: Cannot be destroyed by battle.\r\n\u25cf 20+: Once per turn (Quick Effect): You can target 1 card on the field; destroy it.\r\n\u25cf 30+: Once per turn, during your opponent's End Phase: You can add 1 of your face-down banished cards to your hand.\r\n\u25cf 40+: Skip both players' Draw Phases."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "psychic",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 3000,
+  "def": 2400,
+  "passwords": [
+    "60811211"
+  ],
+  "images": [
+    {
+      "id": "a1a07733-909e-4126-afc7-2e65234bdaa5",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/100458038.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/100458038.jpg"
+    },
+    {
+      "id": "b6d4ade5-6012-4ed0-9e9a-6fc391d0a477",
+      "password": "60811211",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/60811211.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/60811211.jpg"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "dbID": 23561,
+    "ygoprodeck": {
+      "id": 60811211,
+      "name": "emptiness-devouring-xenovader\u7b06\uff73-jahannam-15882"
+    }
+  },
+  "series": []
+}

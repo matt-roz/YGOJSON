@@ -1,0 +1,54 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "a61189d1-fe9f-4882-b897-9dee5e0c59f4",
+  "text": {
+    "en": {
+      "name": "Flame Manipulator (Rush Duel)",
+      "effect": "This Spellcaster attacks enemies with fire-related spells such as \"Sea of Flames\" and \"Wall of Fire\"."
+    },
+    "fr": {
+      "name": "Manipulateur de Flammes"
+    },
+    "de": {
+      "name": "Flammen-Manipulator"
+    },
+    "it": {
+      "name": "Signore delle Fiamme"
+    },
+    "es": {
+      "name": "Manipulador de la Llama"
+    },
+    "ko": {
+      "name": "\ud654\uc5fc\uc758 \uc870\uc885\uc790",
+      "effect": "\ud654\uc5fc\uc758 \ubc14\ub2e4\uc640 \ud654\uc5fc\uc758 \ubcbd\uc744 \uc790\uc720\uc790\uc7ac\ub85c \ub9cc\ub4e4\uc5b4 \ub0b4\uc5b4 \uacf5\uaca9\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "type": "spellcaster",
+  "classifications": [
+    "normal"
+  ],
+  "level": 3,
+  "atk": 900,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "34c58791-5882-41b8-b464-c51b114b4dfc",
+      "card": "https://ms.yugipedia.com//5/5b/FlameManipulator-RDB003-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Flame Manipulator (Rush Duel)",
+        "id": 714966
+      }
+    ],
+    "dbID": 16960
+  },
+  "series": []
+}

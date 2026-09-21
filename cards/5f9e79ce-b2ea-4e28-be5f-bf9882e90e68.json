@@ -1,0 +1,42 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "5f9e79ce-b2ea-4e28-be5f-bf9882e90e68",
+  "text": {
+    "en": {
+      "name": "Reshef the Dark Being (Rush Duel)",
+      "effect": "Take control of 1 face-up Level 8 or lower monster on your opponent's field that is not in Maximum Mode until the End Phase. This turn, you cannot activate that monster's effects.",
+      "official": false
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "monsterCardTypes": [
+    "ritual"
+  ],
+  "type": "fiend",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 2500,
+  "def": 1500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "274e8e51-4624-4610-aea1-b7c18e88018d",
+      "card": "https://ms.yugipedia.com//e/ec/ResheftheDarkBeing-RDKP26-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Reshef the Dark Being (Rush Duel)",
+        "id": 1211254
+      }
+    ],
+    "dbID": 23781
+  },
+  "series": []
+}

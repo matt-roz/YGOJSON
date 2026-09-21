@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "b6b20eed-2681-4ef8-9565-84c8b1915aff",
+  "text": {
+    "en": {
+      "name": "Rock Tank Jariot",
+      "effect": "An ancient tank that drives with incredible balance. It shatters the balance of the enemy forces by penetrating a single point.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u5ca9\u77f3\u6226\u8eca\u30b8\u30e3\u30ea\u30aa\u30c3\u30c8",
+      "effect": "\u898b\u4e8b\u306a\u30d0\u30e9\u30f3\u30b9\u3067\u9032\u884c\u3059\u308b\u53e4\u3044\u6226\u8eca\u3002\u4e00\u70b9\u7a81\u7834\u3067\u6575\u9663\u306e\u30d0\u30e9\u30f3\u30b9\u3092\u5d29\u3059\u3002"
+    },
+    "ko": {
+      "name": "\uc554\uc11d\uc804\ucc28 \uc7c8\ub9ac\uc5b4\ud2b8",
+      "effect": "\ud6cc\ub96d\ud55c \ubc38\ub7f0\uc2a4\ub85c \ub098\uc544\uac00\ub294 \uc624\ub798\ub41c \uc804\ucc28. \ud30c\uc8fd\uc9c0\uc138\ub85c \uc801\uc9c4\uc758 \ubc38\ub7f0\uc2a4\ub97c \ubb34\ub108\ub728\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "rock",
+  "classifications": [
+    "normal"
+  ],
+  "level": 6,
+  "atk": 1800,
+  "def": 2000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "c36bb92c-9a0e-4763-8911-2216ae1c3bcf",
+      "card": "https://ms.yugipedia.com//8/8e/RockTankJariot-RDKP17-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Rock Tank Jariot",
+        "id": 1057087
+      }
+    ],
+    "dbID": 20298
+  },
+  "series": [
+    "7e60be49-6d21-4672-982e-0e4e8145c4bd"
+  ]
+}

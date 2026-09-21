@@ -1,0 +1,2670 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "0d403f3f-4108-4f82-a0b2-f06393a2f98c",
+  "name": {
+    "en": "Duelist Pack: Crow",
+    "fr": "Pack du Duelliste: Crow",
+    "de": "Duelist Pack: Crow",
+    "it": "Duelist Pack: Crow",
+    "es": "Sobre de Duelista: Crow",
+    "ja": "\u30c7\u30e5\u30a8\u30ea\u30b9\u30c8\u30d1\u30c3\u30af \uff0d\u30af\u30ed\u30a6\u7de8\uff0d",
+    "ko": "\uff24\uff35\uff25\uff2c\uff29\uff33\uff34 \uff30\uff21\uff23\uff2b \u2014\ud06c\ub85c\uc6b0 \ud3b8\u2014"
+  },
+  "locales": {
+    "en": {
+      "language": "en",
+      "prefix": "DP11-EN",
+      "image": "https://ms.yugipedia.com//9/9f/DP11-BoosterEN.png",
+      "cardImages": {
+        "1st": {
+          "0667a7b2-595c-4ea8-afd6-e0ecabd054f9": "https://ms.yugipedia.com//f/f8/BlackwingZephyrostheElite-DP11-EN-UR-1E.jpg",
+          "09cfd914-a087-4ce0-a02d-126f92ae12f7": "https://ms.yugipedia.com//9/9c/BlackWingedStrafe-DP11-EN-C-1E.jpg",
+          "115dd924-10c7-4907-b346-80bef164f0f9": "https://ms.yugipedia.com//7/73/BlackwingGusttheBackblast-DP11-EN-C-1E.jpg",
+          "1451ab44-c967-4235-bcc1-b9470356abcf": "https://ms.yugipedia.com//a/a6/BlackwingFanetheSteelChain-DP11-EN-C-1E.jpg",
+          "1861b477-aacb-426f-99fa-341165e336a2": "https://ms.yugipedia.com//7/75/BlackwingArmedWing-DP11-EN-R-1E.jpg",
+          "213fecc5-27e5-4ea3-b6eb-1af6222dfb69": "https://ms.yugipedia.com//0/06/CardsforBlackFeathers-DP11-EN-C-1E.jpg",
+          "23b1287e-8a51-4732-9557-4b92d3f35680": "https://ms.yugipedia.com//d/d7/BlackwingBlizzardtheFarNorth-DP11-EN-C-1E.jpg",
+          "298d8231-e6b8-4b73-b3e0-f9e8e9ab2cb1": "https://ms.yugipedia.com//2/21/BlackFeatherBeacon-DP11-EN-SR-1E.jpg",
+          "2b8fce05-784f-434a-a296-32c5ce0ee5c4": "https://ms.yugipedia.com//0/0d/GuardMines-DP11-EN-C-1E.jpg",
+          "2cd80cda-2891-4e6c-aae2-bf6b4dcd5b75": "https://ms.yugipedia.com//6/6d/BlackThunder-DP11-EN-C-1E.jpg",
+          "5c0f3545-67b2-42f5-8e02-e6ddd701ca24": "https://ms.yugipedia.com//2/2d/BlackwingSilverwindtheAscendant-DP11-EN-R-1E.jpg",
+          "5f858293-7d63-49ba-8cfe-f2119aa68f3c": "https://ms.yugipedia.com//a/a0/BlackwingElphintheRaven-DP11-EN-R-1E.jpg",
+          "64f4c843-3296-4c0d-8cf0-bed674352785": "https://ms.yugipedia.com//a/a1/LevelRetuner-DP11-EN-C-1E.jpg",
+          "81765d10-37e0-48fb-a862-24af34e9a30a": "https://ms.yugipedia.com//b/b7/BlackwingGaletheWhirlwind-DP11-EN-R-1E.jpg",
+          "8a42247b-57af-4319-a4ee-72ef8e4afaf4": "https://ms.yugipedia.com//7/73/BlackWingedDragon-DP11-EN-SR-1E.jpg",
+          "8ab653d3-9476-43cc-bbff-d575250bdebc": "https://ms.yugipedia.com//5/50/BlackwingBoratheSpear-DP11-EN-R-1E.jpg",
+          "93f1abdf-71c2-43a7-9a33-7816aea7de92": "https://ms.yugipedia.com//d/da/BlackwingJetstreamtheBlueSky-DP11-EN-UR-1E.jpg",
+          "95b7272b-7eb3-478e-8bb7-42dd88762573": "https://ms.yugipedia.com//b/b8/DeltaCrowAntiReverse-DP11-EN-C-1E.jpg",
+          "a89fcee5-c8ae-4935-990b-3aebb2dc6377": "https://ms.yugipedia.com//d/d3/BlackwingBacklash-DP11-EN-C-1E.jpg",
+          "ab302952-577b-4c92-8042-e2692349fc2e": "https://ms.yugipedia.com//0/07/BlackwingBombardment-DP11-EN-C-1E.jpg",
+          "ac34c8eb-e60f-4aea-9671-6f80c59dd734": "https://ms.yugipedia.com//e/ec/BlackwingKochitheDaybreak-DP11-EN-R-1E.png",
+          "cea12db1-6ecd-4726-841f-cf12e398752f": "https://ms.yugipedia.com//4/4f/AgainsttheWind-DP11-EN-C-1E.png",
+          "db845471-c8dc-4bc5-9fe4-3038cb755d85": "https://ms.yugipedia.com//0/0b/RaptorWingStrike-DP11-EN-C-1E.jpg",
+          "e138bcf9-0e8e-46ca-9bec-0e0fcb7b753e": "https://ms.yugipedia.com//b/b8/BlackwingArmorMaster-DP11-EN-SR-1E.jpg",
+          "e1f37ae0-68c1-4d84-b193-21033b568ef2": "https://ms.yugipedia.com//7/77/BlackwingMistraltheSilverShield-DP11-EN-C-1E.jpg",
+          "e3b6b20c-8909-4b95-bc04-a632c82329b8": "https://ms.yugipedia.com//1/17/FakeFeather-DP11-EN-C-1E.jpg",
+          "e6316c6c-f64f-49ac-86ef-c6a09ec85dc8": "https://ms.yugipedia.com//2/23/BlackReturn-DP11-EN-SR-1E.jpg",
+          "ea7a34cb-9cef-4914-bc8e-62346e7cbe5c": "https://ms.yugipedia.com//a/aa/EbonArrow-DP11-EN-C-1E.jpg",
+          "ef4f33dc-33b6-4196-a781-ae3ad68731d3": "https://ms.yugipedia.com//0/09/BlackwingShuratheBlueFlame-DP11-EN-R-1E.jpg",
+          "fed6ba5d-2bed-490f-add5-37444d8fe027": "https://ms.yugipedia.com//3/3c/BlackwingGhiblitheSearingWind-DP11-EN-C-1E.jpg"
+        }
+      },
+      "cardInfo": {
+        "1st": {
+          "0667a7b2-595c-4ea8-afd6-e0ecabd054f9": {
+            "image": "https://ms.yugipedia.com//f/f8/BlackwingZephyrostheElite-DP11-EN-UR-1E.jpg"
+          },
+          "09cfd914-a087-4ce0-a02d-126f92ae12f7": {
+            "image": "https://ms.yugipedia.com//9/9c/BlackWingedStrafe-DP11-EN-C-1E.jpg"
+          },
+          "115dd924-10c7-4907-b346-80bef164f0f9": {
+            "image": "https://ms.yugipedia.com//7/73/BlackwingGusttheBackblast-DP11-EN-C-1E.jpg"
+          },
+          "1451ab44-c967-4235-bcc1-b9470356abcf": {
+            "image": "https://ms.yugipedia.com//a/a6/BlackwingFanetheSteelChain-DP11-EN-C-1E.jpg"
+          },
+          "1861b477-aacb-426f-99fa-341165e336a2": {
+            "image": "https://ms.yugipedia.com//7/75/BlackwingArmedWing-DP11-EN-R-1E.jpg"
+          },
+          "213fecc5-27e5-4ea3-b6eb-1af6222dfb69": {
+            "image": "https://ms.yugipedia.com//0/06/CardsforBlackFeathers-DP11-EN-C-1E.jpg"
+          },
+          "23b1287e-8a51-4732-9557-4b92d3f35680": {
+            "image": "https://ms.yugipedia.com//d/d7/BlackwingBlizzardtheFarNorth-DP11-EN-C-1E.jpg"
+          },
+          "298d8231-e6b8-4b73-b3e0-f9e8e9ab2cb1": {
+            "image": "https://ms.yugipedia.com//2/21/BlackFeatherBeacon-DP11-EN-SR-1E.jpg"
+          },
+          "2b8fce05-784f-434a-a296-32c5ce0ee5c4": {
+            "image": "https://ms.yugipedia.com//0/0d/GuardMines-DP11-EN-C-1E.jpg"
+          },
+          "2cd80cda-2891-4e6c-aae2-bf6b4dcd5b75": {
+            "image": "https://ms.yugipedia.com//6/6d/BlackThunder-DP11-EN-C-1E.jpg"
+          },
+          "5c0f3545-67b2-42f5-8e02-e6ddd701ca24": {
+            "image": "https://ms.yugipedia.com//2/2d/BlackwingSilverwindtheAscendant-DP11-EN-R-1E.jpg"
+          },
+          "5f858293-7d63-49ba-8cfe-f2119aa68f3c": {
+            "image": "https://ms.yugipedia.com//a/a0/BlackwingElphintheRaven-DP11-EN-R-1E.jpg"
+          },
+          "64f4c843-3296-4c0d-8cf0-bed674352785": {
+            "image": "https://ms.yugipedia.com//a/a1/LevelRetuner-DP11-EN-C-1E.jpg"
+          },
+          "81765d10-37e0-48fb-a862-24af34e9a30a": {
+            "image": "https://ms.yugipedia.com//b/b7/BlackwingGaletheWhirlwind-DP11-EN-R-1E.jpg"
+          },
+          "8a42247b-57af-4319-a4ee-72ef8e4afaf4": {
+            "image": "https://ms.yugipedia.com//7/73/BlackWingedDragon-DP11-EN-SR-1E.jpg"
+          },
+          "8ab653d3-9476-43cc-bbff-d575250bdebc": {
+            "image": "https://ms.yugipedia.com//5/50/BlackwingBoratheSpear-DP11-EN-R-1E.jpg"
+          },
+          "93f1abdf-71c2-43a7-9a33-7816aea7de92": {
+            "image": "https://ms.yugipedia.com//d/da/BlackwingJetstreamtheBlueSky-DP11-EN-UR-1E.jpg"
+          },
+          "95b7272b-7eb3-478e-8bb7-42dd88762573": {
+            "image": "https://ms.yugipedia.com//b/b8/DeltaCrowAntiReverse-DP11-EN-C-1E.jpg"
+          },
+          "a89fcee5-c8ae-4935-990b-3aebb2dc6377": {
+            "image": "https://ms.yugipedia.com//d/d3/BlackwingBacklash-DP11-EN-C-1E.jpg"
+          },
+          "ab302952-577b-4c92-8042-e2692349fc2e": {
+            "image": "https://ms.yugipedia.com//0/07/BlackwingBombardment-DP11-EN-C-1E.jpg"
+          },
+          "ac34c8eb-e60f-4aea-9671-6f80c59dd734": {
+            "image": "https://ms.yugipedia.com//e/ec/BlackwingKochitheDaybreak-DP11-EN-R-1E.png"
+          },
+          "cea12db1-6ecd-4726-841f-cf12e398752f": {
+            "image": "https://ms.yugipedia.com//4/4f/AgainsttheWind-DP11-EN-C-1E.png"
+          },
+          "db845471-c8dc-4bc5-9fe4-3038cb755d85": {
+            "image": "https://ms.yugipedia.com//0/0b/RaptorWingStrike-DP11-EN-C-1E.jpg"
+          },
+          "e138bcf9-0e8e-46ca-9bec-0e0fcb7b753e": {
+            "image": "https://ms.yugipedia.com//b/b8/BlackwingArmorMaster-DP11-EN-SR-1E.jpg"
+          },
+          "e1f37ae0-68c1-4d84-b193-21033b568ef2": {
+            "image": "https://ms.yugipedia.com//7/77/BlackwingMistraltheSilverShield-DP11-EN-C-1E.jpg"
+          },
+          "e3b6b20c-8909-4b95-bc04-a632c82329b8": {
+            "image": "https://ms.yugipedia.com//1/17/FakeFeather-DP11-EN-C-1E.jpg"
+          },
+          "e6316c6c-f64f-49ac-86ef-c6a09ec85dc8": {
+            "image": "https://ms.yugipedia.com//2/23/BlackReturn-DP11-EN-SR-1E.jpg"
+          },
+          "ea7a34cb-9cef-4914-bc8e-62346e7cbe5c": {
+            "image": "https://ms.yugipedia.com//a/aa/EbonArrow-DP11-EN-C-1E.jpg"
+          },
+          "ef4f33dc-33b6-4196-a781-ae3ad68731d3": {
+            "image": "https://ms.yugipedia.com//0/09/BlackwingShuratheBlueFlame-DP11-EN-R-1E.jpg"
+          },
+          "fed6ba5d-2bed-490f-add5-37444d8fe027": {
+            "image": "https://ms.yugipedia.com//3/3c/BlackwingGhiblitheSearingWind-DP11-EN-C-1E.jpg"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "1st"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          16606001
+        ]
+      }
+    },
+    "fr": {
+      "language": "fr",
+      "prefix": "DP11-FR",
+      "date": "2011-05-26",
+      "image": "https://ms.yugipedia.com//7/71/DP11-BoosterFR.png",
+      "cardImages": {
+        "1st": {
+          "0667a7b2-595c-4ea8-afd6-e0ecabd054f9": "https://ms.yugipedia.com//7/7b/BlackwingZephyrostheElite-DP11-FR-UR-1E.jpg",
+          "09cfd914-a087-4ce0-a02d-126f92ae12f7": "https://ms.yugipedia.com//c/c8/BlackWingedStrafe-DP11-FR-C-1E.jpg",
+          "115dd924-10c7-4907-b346-80bef164f0f9": "https://ms.yugipedia.com//3/3e/BlackwingGusttheBackblast-DP11-FR-C-1E.jpg",
+          "1451ab44-c967-4235-bcc1-b9470356abcf": "https://ms.yugipedia.com//7/7a/BlackwingFanetheSteelChain-DP11-FR-C-1E.jpg",
+          "1861b477-aacb-426f-99fa-341165e336a2": "https://ms.yugipedia.com//a/af/BlackwingArmedWing-DP11-FR-R-1E.jpg",
+          "213fecc5-27e5-4ea3-b6eb-1af6222dfb69": "https://ms.yugipedia.com//f/f4/CardsforBlackFeathers-DP11-FR-C-1E.jpg",
+          "23b1287e-8a51-4732-9557-4b92d3f35680": "https://ms.yugipedia.com//1/16/BlackwingBlizzardtheFarNorth-DP11-FR-C-1E.jpg",
+          "298d8231-e6b8-4b73-b3e0-f9e8e9ab2cb1": "https://ms.yugipedia.com//6/65/BlackFeatherBeacon-DP11-FR-SR-1E.jpg",
+          "2b8fce05-784f-434a-a296-32c5ce0ee5c4": "https://ms.yugipedia.com//e/e0/GuardMines-DP11-FR-C-1E.jpg",
+          "2cd80cda-2891-4e6c-aae2-bf6b4dcd5b75": "https://ms.yugipedia.com//9/9d/BlackThunder-DP11-FR-C-1E.jpg",
+          "5c0f3545-67b2-42f5-8e02-e6ddd701ca24": "https://ms.yugipedia.com//6/65/BlackwingSilverwindtheAscendant-DP11-FR-R-1E.jpg",
+          "5f858293-7d63-49ba-8cfe-f2119aa68f3c": "https://ms.yugipedia.com//9/94/BlackwingElphintheRaven-DP11-FR-R-1E.jpg",
+          "64f4c843-3296-4c0d-8cf0-bed674352785": "https://ms.yugipedia.com//2/2a/LevelRetuner-DP11-FR-C-1E.jpg",
+          "81765d10-37e0-48fb-a862-24af34e9a30a": "https://ms.yugipedia.com//8/80/BlackwingGaletheWhirlwind-DP11-FR-R-1E.jpg",
+          "8a42247b-57af-4319-a4ee-72ef8e4afaf4": "https://ms.yugipedia.com//d/de/BlackWingedDragon-DP11-FR-SR-1E.jpg",
+          "8ab653d3-9476-43cc-bbff-d575250bdebc": "https://ms.yugipedia.com//f/fb/BlackwingBoratheSpear-DP11-FR-R-1E.jpg",
+          "93f1abdf-71c2-43a7-9a33-7816aea7de92": "https://ms.yugipedia.com//5/54/BlackwingJetstreamtheBlueSky-DP11-FR-UR-1E.jpg",
+          "95b7272b-7eb3-478e-8bb7-42dd88762573": "https://ms.yugipedia.com//e/e2/DeltaCrowAntiReverse-DP11-FR-C-1E.jpg",
+          "a89fcee5-c8ae-4935-990b-3aebb2dc6377": "https://ms.yugipedia.com//0/06/BlackwingBacklash-DP11-FR-C-1E.jpg",
+          "ab302952-577b-4c92-8042-e2692349fc2e": "https://ms.yugipedia.com//9/9a/BlackwingBombardment-DP11-FR-C-1E.jpg",
+          "ac34c8eb-e60f-4aea-9671-6f80c59dd734": "https://ms.yugipedia.com//a/a9/BlackwingKochitheDaybreak-DP11-FR-R-1E.png",
+          "cea12db1-6ecd-4726-841f-cf12e398752f": "https://ms.yugipedia.com//e/e7/AgainsttheWind-DP11-FR-C-1E.jpg",
+          "db845471-c8dc-4bc5-9fe4-3038cb755d85": "https://ms.yugipedia.com//e/ec/RaptorWingStrike-DP11-FR-C-1E.jpg",
+          "e138bcf9-0e8e-46ca-9bec-0e0fcb7b753e": "https://ms.yugipedia.com//9/9a/BlackwingArmorMaster-DP11-FR-SR-1E.jpg",
+          "e1f37ae0-68c1-4d84-b193-21033b568ef2": "https://ms.yugipedia.com//b/b8/BlackwingMistraltheSilverShield-DP11-FR-C-1E.jpg",
+          "e3b6b20c-8909-4b95-bc04-a632c82329b8": "https://ms.yugipedia.com//f/f8/FakeFeather-DP11-FR-C-1E.jpg",
+          "e6316c6c-f64f-49ac-86ef-c6a09ec85dc8": "https://ms.yugipedia.com//7/7e/BlackReturn-DP11-FR-SR-1E.jpg",
+          "ea7a34cb-9cef-4914-bc8e-62346e7cbe5c": "https://ms.yugipedia.com//2/26/EbonArrow-DP11-FR-C-1E.jpg",
+          "ef4f33dc-33b6-4196-a781-ae3ad68731d3": "https://ms.yugipedia.com//7/75/BlackwingShuratheBlueFlame-DP11-FR-R-1E.jpg",
+          "fed6ba5d-2bed-490f-add5-37444d8fe027": "https://ms.yugipedia.com//1/1f/BlackwingGhiblitheSearingWind-DP11-FR-C-1E.jpg"
+        }
+      },
+      "cardInfo": {
+        "1st": {
+          "0667a7b2-595c-4ea8-afd6-e0ecabd054f9": {
+            "image": "https://ms.yugipedia.com//7/7b/BlackwingZephyrostheElite-DP11-FR-UR-1E.jpg"
+          },
+          "09cfd914-a087-4ce0-a02d-126f92ae12f7": {
+            "image": "https://ms.yugipedia.com//c/c8/BlackWingedStrafe-DP11-FR-C-1E.jpg"
+          },
+          "115dd924-10c7-4907-b346-80bef164f0f9": {
+            "image": "https://ms.yugipedia.com//3/3e/BlackwingGusttheBackblast-DP11-FR-C-1E.jpg"
+          },
+          "1451ab44-c967-4235-bcc1-b9470356abcf": {
+            "image": "https://ms.yugipedia.com//7/7a/BlackwingFanetheSteelChain-DP11-FR-C-1E.jpg"
+          },
+          "1861b477-aacb-426f-99fa-341165e336a2": {
+            "image": "https://ms.yugipedia.com//a/af/BlackwingArmedWing-DP11-FR-R-1E.jpg"
+          },
+          "213fecc5-27e5-4ea3-b6eb-1af6222dfb69": {
+            "image": "https://ms.yugipedia.com//f/f4/CardsforBlackFeathers-DP11-FR-C-1E.jpg"
+          },
+          "23b1287e-8a51-4732-9557-4b92d3f35680": {
+            "image": "https://ms.yugipedia.com//1/16/BlackwingBlizzardtheFarNorth-DP11-FR-C-1E.jpg"
+          },
+          "298d8231-e6b8-4b73-b3e0-f9e8e9ab2cb1": {
+            "image": "https://ms.yugipedia.com//6/65/BlackFeatherBeacon-DP11-FR-SR-1E.jpg"
+          },
+          "2b8fce05-784f-434a-a296-32c5ce0ee5c4": {
+            "image": "https://ms.yugipedia.com//e/e0/GuardMines-DP11-FR-C-1E.jpg"
+          },
+          "2cd80cda-2891-4e6c-aae2-bf6b4dcd5b75": {
+            "image": "https://ms.yugipedia.com//9/9d/BlackThunder-DP11-FR-C-1E.jpg"
+          },
+          "5c0f3545-67b2-42f5-8e02-e6ddd701ca24": {
+            "image": "https://ms.yugipedia.com//6/65/BlackwingSilverwindtheAscendant-DP11-FR-R-1E.jpg"
+          },
+          "5f858293-7d63-49ba-8cfe-f2119aa68f3c": {
+            "image": "https://ms.yugipedia.com//9/94/BlackwingElphintheRaven-DP11-FR-R-1E.jpg"
+          },
+          "64f4c843-3296-4c0d-8cf0-bed674352785": {
+            "image": "https://ms.yugipedia.com//2/2a/LevelRetuner-DP11-FR-C-1E.jpg"
+          },
+          "81765d10-37e0-48fb-a862-24af34e9a30a": {
+            "image": "https://ms.yugipedia.com//8/80/BlackwingGaletheWhirlwind-DP11-FR-R-1E.jpg"
+          },
+          "8a42247b-57af-4319-a4ee-72ef8e4afaf4": {
+            "image": "https://ms.yugipedia.com//d/de/BlackWingedDragon-DP11-FR-SR-1E.jpg"
+          },
+          "8ab653d3-9476-43cc-bbff-d575250bdebc": {
+            "image": "https://ms.yugipedia.com//f/fb/BlackwingBoratheSpear-DP11-FR-R-1E.jpg"
+          },
+          "93f1abdf-71c2-43a7-9a33-7816aea7de92": {
+            "image": "https://ms.yugipedia.com//5/54/BlackwingJetstreamtheBlueSky-DP11-FR-UR-1E.jpg"
+          },
+          "95b7272b-7eb3-478e-8bb7-42dd88762573": {
+            "image": "https://ms.yugipedia.com//e/e2/DeltaCrowAntiReverse-DP11-FR-C-1E.jpg"
+          },
+          "a89fcee5-c8ae-4935-990b-3aebb2dc6377": {
+            "image": "https://ms.yugipedia.com//0/06/BlackwingBacklash-DP11-FR-C-1E.jpg"
+          },
+          "ab302952-577b-4c92-8042-e2692349fc2e": {
+            "image": "https://ms.yugipedia.com//9/9a/BlackwingBombardment-DP11-FR-C-1E.jpg"
+          },
+          "ac34c8eb-e60f-4aea-9671-6f80c59dd734": {
+            "image": "https://ms.yugipedia.com//a/a9/BlackwingKochitheDaybreak-DP11-FR-R-1E.png"
+          },
+          "cea12db1-6ecd-4726-841f-cf12e398752f": {
+            "image": "https://ms.yugipedia.com//e/e7/AgainsttheWind-DP11-FR-C-1E.jpg"
+          },
+          "db845471-c8dc-4bc5-9fe4-3038cb755d85": {
+            "image": "https://ms.yugipedia.com//e/ec/RaptorWingStrike-DP11-FR-C-1E.jpg"
+          },
+          "e138bcf9-0e8e-46ca-9bec-0e0fcb7b753e": {
+            "image": "https://ms.yugipedia.com//9/9a/BlackwingArmorMaster-DP11-FR-SR-1E.jpg"
+          },
+          "e1f37ae0-68c1-4d84-b193-21033b568ef2": {
+            "image": "https://ms.yugipedia.com//b/b8/BlackwingMistraltheSilverShield-DP11-FR-C-1E.jpg"
+          },
+          "e3b6b20c-8909-4b95-bc04-a632c82329b8": {
+            "image": "https://ms.yugipedia.com//f/f8/FakeFeather-DP11-FR-C-1E.jpg"
+          },
+          "e6316c6c-f64f-49ac-86ef-c6a09ec85dc8": {
+            "image": "https://ms.yugipedia.com//7/7e/BlackReturn-DP11-FR-SR-1E.jpg"
+          },
+          "ea7a34cb-9cef-4914-bc8e-62346e7cbe5c": {
+            "image": "https://ms.yugipedia.com//2/26/EbonArrow-DP11-FR-C-1E.jpg"
+          },
+          "ef4f33dc-33b6-4196-a781-ae3ad68731d3": {
+            "image": "https://ms.yugipedia.com//7/75/BlackwingShuratheBlueFlame-DP11-FR-R-1E.jpg"
+          },
+          "fed6ba5d-2bed-490f-add5-37444d8fe027": {
+            "image": "https://ms.yugipedia.com//1/1f/BlackwingGhiblitheSearingWind-DP11-FR-C-1E.jpg"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "1st"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          36606001
+        ]
+      }
+    },
+    "de": {
+      "language": "de",
+      "prefix": "DP11-DE",
+      "date": "2011-05-26",
+      "image": "https://ms.yugipedia.com//9/99/DP11-BoosterDE.png",
+      "cardImages": {
+        "1st": {
+          "0667a7b2-595c-4ea8-afd6-e0ecabd054f9": "https://ms.yugipedia.com//a/a0/BlackwingZephyrostheElite-DP11-DE-UR-1E.jpg",
+          "09cfd914-a087-4ce0-a02d-126f92ae12f7": "https://ms.yugipedia.com//c/c7/BlackWingedStrafe-DP11-DE-C-1E.jpg",
+          "115dd924-10c7-4907-b346-80bef164f0f9": "https://ms.yugipedia.com//2/2d/BlackwingGusttheBackblast-DP11-DE-C-1E.jpg",
+          "1451ab44-c967-4235-bcc1-b9470356abcf": "https://ms.yugipedia.com//1/12/BlackwingFanetheSteelChain-DP11-DE-C-1E.jpg",
+          "1861b477-aacb-426f-99fa-341165e336a2": "https://ms.yugipedia.com//d/d5/BlackwingArmedWing-DP11-DE-R-1E.jpg",
+          "213fecc5-27e5-4ea3-b6eb-1af6222dfb69": "https://ms.yugipedia.com//f/f5/CardsforBlackFeathers-DP11-DE-C-1E.jpg",
+          "23b1287e-8a51-4732-9557-4b92d3f35680": "https://ms.yugipedia.com//d/d8/BlackwingBlizzardtheFarNorth-DP11-DE-C-1E.jpg",
+          "298d8231-e6b8-4b73-b3e0-f9e8e9ab2cb1": "https://ms.yugipedia.com//d/d5/BlackFeatherBeacon-DP11-DE-SR-1E.jpg",
+          "2b8fce05-784f-434a-a296-32c5ce0ee5c4": "https://ms.yugipedia.com//6/69/GuardMines-DP11-DE-C-1E.jpg",
+          "2cd80cda-2891-4e6c-aae2-bf6b4dcd5b75": "https://ms.yugipedia.com//f/f2/BlackThunder-DP11-DE-C-1E.jpg",
+          "5c0f3545-67b2-42f5-8e02-e6ddd701ca24": "https://ms.yugipedia.com//d/d0/BlackwingSilverwindtheAscendant-DP11-DE-R-1E.jpg",
+          "5f858293-7d63-49ba-8cfe-f2119aa68f3c": "https://ms.yugipedia.com//1/19/BlackwingElphintheRaven-DP11-DE-R-1E.jpg",
+          "64f4c843-3296-4c0d-8cf0-bed674352785": "https://ms.yugipedia.com//5/51/LevelRetuner-DP11-DE-C-1E.jpg",
+          "81765d10-37e0-48fb-a862-24af34e9a30a": "https://ms.yugipedia.com//4/44/BlackwingGaletheWhirlwind-DP11-DE-R-1E.jpg",
+          "8a42247b-57af-4319-a4ee-72ef8e4afaf4": "https://ms.yugipedia.com//e/ee/BlackWingedDragon-DP11-DE-SR-1E.jpg",
+          "8ab653d3-9476-43cc-bbff-d575250bdebc": "https://ms.yugipedia.com//c/c5/BlackwingBoratheSpear-DP11-DE-R-1E.jpg",
+          "93f1abdf-71c2-43a7-9a33-7816aea7de92": "https://ms.yugipedia.com//e/e8/BlackwingJetstreamtheBlueSky-DP11-DE-UR-1E.jpg",
+          "95b7272b-7eb3-478e-8bb7-42dd88762573": "https://ms.yugipedia.com//9/9a/DeltaCrowAntiReverse-DP11-DE-C-1E.jpg",
+          "a89fcee5-c8ae-4935-990b-3aebb2dc6377": "https://ms.yugipedia.com//c/cf/BlackwingBacklash-DP11-DE-C-1E.jpg",
+          "ab302952-577b-4c92-8042-e2692349fc2e": "https://ms.yugipedia.com//3/39/BlackwingBombardment-DP11-DE-C-1E.png",
+          "ac34c8eb-e60f-4aea-9671-6f80c59dd734": "https://ms.yugipedia.com//b/b4/BlackwingKochitheDaybreak-DP11-DE-R-1E.jpg",
+          "cea12db1-6ecd-4726-841f-cf12e398752f": "https://ms.yugipedia.com//2/20/AgainsttheWind-DP11-DE-C-1E.jpg",
+          "db845471-c8dc-4bc5-9fe4-3038cb755d85": "https://ms.yugipedia.com//8/89/RaptorWingStrike-DP11-DE-C-1E.jpg",
+          "e138bcf9-0e8e-46ca-9bec-0e0fcb7b753e": "https://ms.yugipedia.com//6/6c/BlackwingArmorMaster-DP11-DE-SR-1E.jpg",
+          "e1f37ae0-68c1-4d84-b193-21033b568ef2": "https://ms.yugipedia.com//1/18/BlackwingMistraltheSilverShield-DP11-DE-C-1E.jpg",
+          "e3b6b20c-8909-4b95-bc04-a632c82329b8": "https://ms.yugipedia.com//b/b2/FakeFeather-DP11-DE-C-1E.jpg",
+          "e6316c6c-f64f-49ac-86ef-c6a09ec85dc8": "https://ms.yugipedia.com//a/aa/BlackReturn-DP11-DE-SR-1E.jpg",
+          "ea7a34cb-9cef-4914-bc8e-62346e7cbe5c": "https://ms.yugipedia.com//6/65/EbonArrow-DP11-DE-C-1E.jpg",
+          "ef4f33dc-33b6-4196-a781-ae3ad68731d3": "https://ms.yugipedia.com//1/12/BlackwingShuratheBlueFlame-DP11-DE-R-1E.jpg",
+          "fed6ba5d-2bed-490f-add5-37444d8fe027": "https://ms.yugipedia.com//1/1d/BlackwingGhiblitheSearingWind-DP11-DE-C-1E.jpg"
+        }
+      },
+      "cardInfo": {
+        "1st": {
+          "0667a7b2-595c-4ea8-afd6-e0ecabd054f9": {
+            "image": "https://ms.yugipedia.com//a/a0/BlackwingZephyrostheElite-DP11-DE-UR-1E.jpg"
+          },
+          "09cfd914-a087-4ce0-a02d-126f92ae12f7": {
+            "image": "https://ms.yugipedia.com//c/c7/BlackWingedStrafe-DP11-DE-C-1E.jpg"
+          },
+          "115dd924-10c7-4907-b346-80bef164f0f9": {
+            "image": "https://ms.yugipedia.com//2/2d/BlackwingGusttheBackblast-DP11-DE-C-1E.jpg"
+          },
+          "1451ab44-c967-4235-bcc1-b9470356abcf": {
+            "image": "https://ms.yugipedia.com//1/12/BlackwingFanetheSteelChain-DP11-DE-C-1E.jpg"
+          },
+          "1861b477-aacb-426f-99fa-341165e336a2": {
+            "image": "https://ms.yugipedia.com//d/d5/BlackwingArmedWing-DP11-DE-R-1E.jpg"
+          },
+          "213fecc5-27e5-4ea3-b6eb-1af6222dfb69": {
+            "image": "https://ms.yugipedia.com//f/f5/CardsforBlackFeathers-DP11-DE-C-1E.jpg"
+          },
+          "23b1287e-8a51-4732-9557-4b92d3f35680": {
+            "image": "https://ms.yugipedia.com//d/d8/BlackwingBlizzardtheFarNorth-DP11-DE-C-1E.jpg"
+          },
+          "298d8231-e6b8-4b73-b3e0-f9e8e9ab2cb1": {
+            "image": "https://ms.yugipedia.com//d/d5/BlackFeatherBeacon-DP11-DE-SR-1E.jpg"
+          },
+          "2b8fce05-784f-434a-a296-32c5ce0ee5c4": {
+            "image": "https://ms.yugipedia.com//6/69/GuardMines-DP11-DE-C-1E.jpg"
+          },
+          "2cd80cda-2891-4e6c-aae2-bf6b4dcd5b75": {
+            "image": "https://ms.yugipedia.com//f/f2/BlackThunder-DP11-DE-C-1E.jpg"
+          },
+          "5c0f3545-67b2-42f5-8e02-e6ddd701ca24": {
+            "image": "https://ms.yugipedia.com//d/d0/BlackwingSilverwindtheAscendant-DP11-DE-R-1E.jpg"
+          },
+          "5f858293-7d63-49ba-8cfe-f2119aa68f3c": {
+            "image": "https://ms.yugipedia.com//1/19/BlackwingElphintheRaven-DP11-DE-R-1E.jpg"
+          },
+          "64f4c843-3296-4c0d-8cf0-bed674352785": {
+            "image": "https://ms.yugipedia.com//5/51/LevelRetuner-DP11-DE-C-1E.jpg"
+          },
+          "81765d10-37e0-48fb-a862-24af34e9a30a": {
+            "image": "https://ms.yugipedia.com//4/44/BlackwingGaletheWhirlwind-DP11-DE-R-1E.jpg"
+          },
+          "8a42247b-57af-4319-a4ee-72ef8e4afaf4": {
+            "image": "https://ms.yugipedia.com//e/ee/BlackWingedDragon-DP11-DE-SR-1E.jpg"
+          },
+          "8ab653d3-9476-43cc-bbff-d575250bdebc": {
+            "image": "https://ms.yugipedia.com//c/c5/BlackwingBoratheSpear-DP11-DE-R-1E.jpg"
+          },
+          "93f1abdf-71c2-43a7-9a33-7816aea7de92": {
+            "image": "https://ms.yugipedia.com//e/e8/BlackwingJetstreamtheBlueSky-DP11-DE-UR-1E.jpg"
+          },
+          "95b7272b-7eb3-478e-8bb7-42dd88762573": {
+            "image": "https://ms.yugipedia.com//9/9a/DeltaCrowAntiReverse-DP11-DE-C-1E.jpg"
+          },
+          "a89fcee5-c8ae-4935-990b-3aebb2dc6377": {
+            "image": "https://ms.yugipedia.com//c/cf/BlackwingBacklash-DP11-DE-C-1E.jpg"
+          },
+          "ab302952-577b-4c92-8042-e2692349fc2e": {
+            "image": "https://ms.yugipedia.com//3/39/BlackwingBombardment-DP11-DE-C-1E.png"
+          },
+          "ac34c8eb-e60f-4aea-9671-6f80c59dd734": {
+            "image": "https://ms.yugipedia.com//b/b4/BlackwingKochitheDaybreak-DP11-DE-R-1E.jpg"
+          },
+          "cea12db1-6ecd-4726-841f-cf12e398752f": {
+            "image": "https://ms.yugipedia.com//2/20/AgainsttheWind-DP11-DE-C-1E.jpg"
+          },
+          "db845471-c8dc-4bc5-9fe4-3038cb755d85": {
+            "image": "https://ms.yugipedia.com//8/89/RaptorWingStrike-DP11-DE-C-1E.jpg"
+          },
+          "e138bcf9-0e8e-46ca-9bec-0e0fcb7b753e": {
+            "image": "https://ms.yugipedia.com//6/6c/BlackwingArmorMaster-DP11-DE-SR-1E.jpg"
+          },
+          "e1f37ae0-68c1-4d84-b193-21033b568ef2": {
+            "image": "https://ms.yugipedia.com//1/18/BlackwingMistraltheSilverShield-DP11-DE-C-1E.jpg"
+          },
+          "e3b6b20c-8909-4b95-bc04-a632c82329b8": {
+            "image": "https://ms.yugipedia.com//b/b2/FakeFeather-DP11-DE-C-1E.jpg"
+          },
+          "e6316c6c-f64f-49ac-86ef-c6a09ec85dc8": {
+            "image": "https://ms.yugipedia.com//a/aa/BlackReturn-DP11-DE-SR-1E.jpg"
+          },
+          "ea7a34cb-9cef-4914-bc8e-62346e7cbe5c": {
+            "image": "https://ms.yugipedia.com//6/65/EbonArrow-DP11-DE-C-1E.jpg"
+          },
+          "ef4f33dc-33b6-4196-a781-ae3ad68731d3": {
+            "image": "https://ms.yugipedia.com//1/12/BlackwingShuratheBlueFlame-DP11-DE-R-1E.jpg"
+          },
+          "fed6ba5d-2bed-490f-add5-37444d8fe027": {
+            "image": "https://ms.yugipedia.com//1/1d/BlackwingGhiblitheSearingWind-DP11-DE-C-1E.jpg"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "1st"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          26606001
+        ]
+      }
+    },
+    "it": {
+      "language": "it",
+      "prefix": "DP11-IT",
+      "date": "2011-05-26",
+      "image": "https://ms.yugipedia.com//9/99/DP11-BoosterIT.png",
+      "cardImages": {
+        "1st": {
+          "0667a7b2-595c-4ea8-afd6-e0ecabd054f9": "https://ms.yugipedia.com//a/a5/BlackwingZephyrostheElite-DP11-IT-UR-1E.jpg",
+          "09cfd914-a087-4ce0-a02d-126f92ae12f7": "https://ms.yugipedia.com//1/11/BlackWingedStrafe-DP11-IT-C-1E.jpg",
+          "115dd924-10c7-4907-b346-80bef164f0f9": "https://ms.yugipedia.com//8/83/BlackwingGusttheBackblast-DP11-IT-C-1E.jpg",
+          "1451ab44-c967-4235-bcc1-b9470356abcf": "https://ms.yugipedia.com//9/96/BlackwingFanetheSteelChain-DP11-IT-C-1E.jpg",
+          "1861b477-aacb-426f-99fa-341165e336a2": "https://ms.yugipedia.com//7/79/BlackwingArmedWing-DP11-IT-R-1E.jpg",
+          "213fecc5-27e5-4ea3-b6eb-1af6222dfb69": "https://ms.yugipedia.com//3/3b/CardsforBlackFeathers-DP11-IT-C-1E.jpg",
+          "23b1287e-8a51-4732-9557-4b92d3f35680": "https://ms.yugipedia.com//2/2b/BlackwingBlizzardtheFarNorth-DP11-IT-C-1E.jpg",
+          "298d8231-e6b8-4b73-b3e0-f9e8e9ab2cb1": "https://ms.yugipedia.com//2/23/BlackFeatherBeacon-DP11-IT-SR-1E.jpg",
+          "2b8fce05-784f-434a-a296-32c5ce0ee5c4": "https://ms.yugipedia.com//1/1e/GuardMines-DP11-IT-C-1E.jpg",
+          "2cd80cda-2891-4e6c-aae2-bf6b4dcd5b75": "https://ms.yugipedia.com//a/ab/BlackThunder-DP11-IT-C-1E.jpg",
+          "5c0f3545-67b2-42f5-8e02-e6ddd701ca24": "https://ms.yugipedia.com//b/b3/BlackwingSilverwindtheAscendant-DP11-IT-R-1E.jpg",
+          "5f858293-7d63-49ba-8cfe-f2119aa68f3c": "https://ms.yugipedia.com//1/1a/BlackwingElphintheRaven-DP11-IT-R-1E.jpg",
+          "64f4c843-3296-4c0d-8cf0-bed674352785": "https://ms.yugipedia.com//7/75/LevelRetuner-DP11-IT-C-1E.jpg",
+          "81765d10-37e0-48fb-a862-24af34e9a30a": "https://ms.yugipedia.com//7/7d/BlackwingGaletheWhirlwind-DP11-IT-R-1E.jpg",
+          "8a42247b-57af-4319-a4ee-72ef8e4afaf4": "https://ms.yugipedia.com//d/d7/BlackWingedDragon-DP11-IT-SR-1E.jpg",
+          "8ab653d3-9476-43cc-bbff-d575250bdebc": "https://ms.yugipedia.com//4/42/BlackwingBoratheSpear-DP11-IT-R-1E.jpg",
+          "93f1abdf-71c2-43a7-9a33-7816aea7de92": "https://ms.yugipedia.com//f/f3/BlackwingJetstreamtheBlueSky-DP11-IT-UR-1E.jpg",
+          "95b7272b-7eb3-478e-8bb7-42dd88762573": "https://ms.yugipedia.com//7/79/DeltaCrowAntiReverse-DP11-IT-C-1E.jpg",
+          "a89fcee5-c8ae-4935-990b-3aebb2dc6377": "https://ms.yugipedia.com//2/2a/BlackwingBacklash-DP11-IT-C-1E.jpg",
+          "ab302952-577b-4c92-8042-e2692349fc2e": "https://ms.yugipedia.com//1/1a/BlackwingBombardment-DP11-IT-C-1E.jpg",
+          "ac34c8eb-e60f-4aea-9671-6f80c59dd734": "https://ms.yugipedia.com//c/c9/BlackwingKochitheDaybreak-DP11-IT-R-1E.jpg",
+          "cea12db1-6ecd-4726-841f-cf12e398752f": "https://ms.yugipedia.com//3/3b/AgainsttheWind-DP11-IT-C-1E.jpg",
+          "db845471-c8dc-4bc5-9fe4-3038cb755d85": "https://ms.yugipedia.com//3/36/RaptorWingStrike-DP11-IT-C-1E.jpg",
+          "e138bcf9-0e8e-46ca-9bec-0e0fcb7b753e": "https://ms.yugipedia.com//e/ed/BlackwingArmorMaster-DP11-IT-SR-1E.jpg",
+          "e1f37ae0-68c1-4d84-b193-21033b568ef2": "https://ms.yugipedia.com//9/9a/BlackwingMistraltheSilverShield-DP11-IT-C-1E.jpg",
+          "e3b6b20c-8909-4b95-bc04-a632c82329b8": "https://ms.yugipedia.com//d/d6/FakeFeather-DP11-IT-C-1E.jpg",
+          "e6316c6c-f64f-49ac-86ef-c6a09ec85dc8": "https://ms.yugipedia.com//f/f8/BlackReturn-DP11-IT-SR-1E.jpg",
+          "ea7a34cb-9cef-4914-bc8e-62346e7cbe5c": "https://ms.yugipedia.com//0/0c/EbonArrow-DP11-IT-C-1E.jpg",
+          "ef4f33dc-33b6-4196-a781-ae3ad68731d3": "https://ms.yugipedia.com//4/43/BlackwingShuratheBlueFlame-DP11-IT-R-1E.jpg",
+          "fed6ba5d-2bed-490f-add5-37444d8fe027": "https://ms.yugipedia.com//b/b3/BlackwingGhiblitheSearingWind-DP11-IT-C-1E.jpg"
+        }
+      },
+      "cardInfo": {
+        "1st": {
+          "0667a7b2-595c-4ea8-afd6-e0ecabd054f9": {
+            "image": "https://ms.yugipedia.com//a/a5/BlackwingZephyrostheElite-DP11-IT-UR-1E.jpg"
+          },
+          "09cfd914-a087-4ce0-a02d-126f92ae12f7": {
+            "image": "https://ms.yugipedia.com//1/11/BlackWingedStrafe-DP11-IT-C-1E.jpg"
+          },
+          "115dd924-10c7-4907-b346-80bef164f0f9": {
+            "image": "https://ms.yugipedia.com//8/83/BlackwingGusttheBackblast-DP11-IT-C-1E.jpg"
+          },
+          "1451ab44-c967-4235-bcc1-b9470356abcf": {
+            "image": "https://ms.yugipedia.com//9/96/BlackwingFanetheSteelChain-DP11-IT-C-1E.jpg"
+          },
+          "1861b477-aacb-426f-99fa-341165e336a2": {
+            "image": "https://ms.yugipedia.com//7/79/BlackwingArmedWing-DP11-IT-R-1E.jpg"
+          },
+          "213fecc5-27e5-4ea3-b6eb-1af6222dfb69": {
+            "image": "https://ms.yugipedia.com//3/3b/CardsforBlackFeathers-DP11-IT-C-1E.jpg"
+          },
+          "23b1287e-8a51-4732-9557-4b92d3f35680": {
+            "image": "https://ms.yugipedia.com//2/2b/BlackwingBlizzardtheFarNorth-DP11-IT-C-1E.jpg"
+          },
+          "298d8231-e6b8-4b73-b3e0-f9e8e9ab2cb1": {
+            "image": "https://ms.yugipedia.com//2/23/BlackFeatherBeacon-DP11-IT-SR-1E.jpg"
+          },
+          "2b8fce05-784f-434a-a296-32c5ce0ee5c4": {
+            "image": "https://ms.yugipedia.com//1/1e/GuardMines-DP11-IT-C-1E.jpg"
+          },
+          "2cd80cda-2891-4e6c-aae2-bf6b4dcd5b75": {
+            "image": "https://ms.yugipedia.com//a/ab/BlackThunder-DP11-IT-C-1E.jpg"
+          },
+          "5c0f3545-67b2-42f5-8e02-e6ddd701ca24": {
+            "image": "https://ms.yugipedia.com//b/b3/BlackwingSilverwindtheAscendant-DP11-IT-R-1E.jpg"
+          },
+          "5f858293-7d63-49ba-8cfe-f2119aa68f3c": {
+            "image": "https://ms.yugipedia.com//1/1a/BlackwingElphintheRaven-DP11-IT-R-1E.jpg"
+          },
+          "64f4c843-3296-4c0d-8cf0-bed674352785": {
+            "image": "https://ms.yugipedia.com//7/75/LevelRetuner-DP11-IT-C-1E.jpg"
+          },
+          "81765d10-37e0-48fb-a862-24af34e9a30a": {
+            "image": "https://ms.yugipedia.com//7/7d/BlackwingGaletheWhirlwind-DP11-IT-R-1E.jpg"
+          },
+          "8a42247b-57af-4319-a4ee-72ef8e4afaf4": {
+            "image": "https://ms.yugipedia.com//d/d7/BlackWingedDragon-DP11-IT-SR-1E.jpg"
+          },
+          "8ab653d3-9476-43cc-bbff-d575250bdebc": {
+            "image": "https://ms.yugipedia.com//4/42/BlackwingBoratheSpear-DP11-IT-R-1E.jpg"
+          },
+          "93f1abdf-71c2-43a7-9a33-7816aea7de92": {
+            "image": "https://ms.yugipedia.com//f/f3/BlackwingJetstreamtheBlueSky-DP11-IT-UR-1E.jpg"
+          },
+          "95b7272b-7eb3-478e-8bb7-42dd88762573": {
+            "image": "https://ms.yugipedia.com//7/79/DeltaCrowAntiReverse-DP11-IT-C-1E.jpg"
+          },
+          "a89fcee5-c8ae-4935-990b-3aebb2dc6377": {
+            "image": "https://ms.yugipedia.com//2/2a/BlackwingBacklash-DP11-IT-C-1E.jpg"
+          },
+          "ab302952-577b-4c92-8042-e2692349fc2e": {
+            "image": "https://ms.yugipedia.com//1/1a/BlackwingBombardment-DP11-IT-C-1E.jpg"
+          },
+          "ac34c8eb-e60f-4aea-9671-6f80c59dd734": {
+            "image": "https://ms.yugipedia.com//c/c9/BlackwingKochitheDaybreak-DP11-IT-R-1E.jpg"
+          },
+          "cea12db1-6ecd-4726-841f-cf12e398752f": {
+            "image": "https://ms.yugipedia.com//3/3b/AgainsttheWind-DP11-IT-C-1E.jpg"
+          },
+          "db845471-c8dc-4bc5-9fe4-3038cb755d85": {
+            "image": "https://ms.yugipedia.com//3/36/RaptorWingStrike-DP11-IT-C-1E.jpg"
+          },
+          "e138bcf9-0e8e-46ca-9bec-0e0fcb7b753e": {
+            "image": "https://ms.yugipedia.com//e/ed/BlackwingArmorMaster-DP11-IT-SR-1E.jpg"
+          },
+          "e1f37ae0-68c1-4d84-b193-21033b568ef2": {
+            "image": "https://ms.yugipedia.com//9/9a/BlackwingMistraltheSilverShield-DP11-IT-C-1E.jpg"
+          },
+          "e3b6b20c-8909-4b95-bc04-a632c82329b8": {
+            "image": "https://ms.yugipedia.com//d/d6/FakeFeather-DP11-IT-C-1E.jpg"
+          },
+          "e6316c6c-f64f-49ac-86ef-c6a09ec85dc8": {
+            "image": "https://ms.yugipedia.com//f/f8/BlackReturn-DP11-IT-SR-1E.jpg"
+          },
+          "ea7a34cb-9cef-4914-bc8e-62346e7cbe5c": {
+            "image": "https://ms.yugipedia.com//0/0c/EbonArrow-DP11-IT-C-1E.jpg"
+          },
+          "ef4f33dc-33b6-4196-a781-ae3ad68731d3": {
+            "image": "https://ms.yugipedia.com//4/43/BlackwingShuratheBlueFlame-DP11-IT-R-1E.jpg"
+          },
+          "fed6ba5d-2bed-490f-add5-37444d8fe027": {
+            "image": "https://ms.yugipedia.com//b/b3/BlackwingGhiblitheSearingWind-DP11-IT-C-1E.jpg"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "1st"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          46607001
+        ]
+      }
+    },
+    "sp": {
+      "language": "es",
+      "prefix": "DP11-SP",
+      "date": "2011-05-26",
+      "image": "https://ms.yugipedia.com//5/59/DP11-BoosterSP.png",
+      "cardImages": {
+        "1st": {
+          "0667a7b2-595c-4ea8-afd6-e0ecabd054f9": "https://ms.yugipedia.com//5/53/BlackwingZephyrostheElite-DP11-SP-UR-1E.jpg",
+          "09cfd914-a087-4ce0-a02d-126f92ae12f7": "https://ms.yugipedia.com//e/e0/BlackWingedStrafe-DP11-SP-C-1E.jpg",
+          "115dd924-10c7-4907-b346-80bef164f0f9": "https://ms.yugipedia.com//5/56/BlackwingGusttheBackblast-DP11-SP-C-1E.jpg",
+          "1451ab44-c967-4235-bcc1-b9470356abcf": "https://ms.yugipedia.com//e/e6/BlackwingFanetheSteelChain-DP11-SP-C-1E.jpg",
+          "1861b477-aacb-426f-99fa-341165e336a2": "https://ms.yugipedia.com//2/2c/BlackwingArmedWing-DP11-SP-R-1E.jpg",
+          "213fecc5-27e5-4ea3-b6eb-1af6222dfb69": "https://ms.yugipedia.com//3/36/CardsforBlackFeathers-DP11-SP-C-1E.jpg",
+          "23b1287e-8a51-4732-9557-4b92d3f35680": "https://ms.yugipedia.com//b/bf/BlackwingBlizzardtheFarNorth-DP11-SP-C-1E.jpg",
+          "298d8231-e6b8-4b73-b3e0-f9e8e9ab2cb1": "https://ms.yugipedia.com//1/1f/BlackFeatherBeacon-DP11-SP-SR-1E.jpg",
+          "2b8fce05-784f-434a-a296-32c5ce0ee5c4": "https://ms.yugipedia.com//3/3c/GuardMines-DP11-SP-C-1E.jpg",
+          "2cd80cda-2891-4e6c-aae2-bf6b4dcd5b75": "https://ms.yugipedia.com//8/82/BlackThunder-DP11-SP-C-1E.jpg",
+          "5c0f3545-67b2-42f5-8e02-e6ddd701ca24": "https://ms.yugipedia.com//8/84/BlackwingSilverwindtheAscendant-DP11-SP-R-1E.jpg",
+          "5f858293-7d63-49ba-8cfe-f2119aa68f3c": "https://ms.yugipedia.com//7/70/BlackwingElphintheRaven-DP11-SP-R-1E.jpg",
+          "64f4c843-3296-4c0d-8cf0-bed674352785": "https://ms.yugipedia.com//8/82/LevelRetuner-DP11-SP-C-1E.jpg",
+          "81765d10-37e0-48fb-a862-24af34e9a30a": "https://ms.yugipedia.com//0/0b/BlackwingGaletheWhirlwind-DP11-SP-R-1E.jpg",
+          "8a42247b-57af-4319-a4ee-72ef8e4afaf4": "https://ms.yugipedia.com//2/2c/BlackWingedDragon-DP11-SP-SR-1E.jpg",
+          "8ab653d3-9476-43cc-bbff-d575250bdebc": "https://ms.yugipedia.com//e/e0/BlackwingBoratheSpear-DP11-SP-R-1E.jpg",
+          "93f1abdf-71c2-43a7-9a33-7816aea7de92": "https://ms.yugipedia.com//0/0d/BlackwingJetstreamtheBlueSky-DP11-SP-UR-1E.jpg",
+          "95b7272b-7eb3-478e-8bb7-42dd88762573": "https://ms.yugipedia.com//e/e0/DeltaCrowAntiReverse-DP11-SP-C-1E.jpg",
+          "a89fcee5-c8ae-4935-990b-3aebb2dc6377": "https://ms.yugipedia.com//6/68/BlackwingBacklash-DP11-SP-C-1E.jpg",
+          "ab302952-577b-4c92-8042-e2692349fc2e": "https://ms.yugipedia.com//b/b8/BlackwingBombardment-DP11-SP-C-1E.jpg",
+          "ac34c8eb-e60f-4aea-9671-6f80c59dd734": "https://ms.yugipedia.com//1/11/BlackwingKochitheDaybreak-DP11-SP-R-1E.jpg",
+          "cea12db1-6ecd-4726-841f-cf12e398752f": "https://ms.yugipedia.com//1/1d/AgainsttheWind-DP11-SP-C-1E.jpg",
+          "db845471-c8dc-4bc5-9fe4-3038cb755d85": "https://ms.yugipedia.com//2/26/RaptorWingStrike-DP11-SP-C-1E.jpg",
+          "e138bcf9-0e8e-46ca-9bec-0e0fcb7b753e": "https://ms.yugipedia.com//b/bf/BlackwingArmorMaster-DP11-SP-SR-1E.jpg",
+          "e1f37ae0-68c1-4d84-b193-21033b568ef2": "https://ms.yugipedia.com//5/59/BlackwingMistraltheSilverShield-DP11-SP-C-1E.jpg",
+          "e3b6b20c-8909-4b95-bc04-a632c82329b8": "https://ms.yugipedia.com//5/5b/FakeFeather-DP11-SP-C-1E.jpg",
+          "e6316c6c-f64f-49ac-86ef-c6a09ec85dc8": "https://ms.yugipedia.com//f/f3/BlackReturn-DP11-SP-SR-1E.jpg",
+          "ea7a34cb-9cef-4914-bc8e-62346e7cbe5c": "https://ms.yugipedia.com//b/be/EbonArrow-DP11-SP-C-1E.jpg",
+          "ef4f33dc-33b6-4196-a781-ae3ad68731d3": "https://ms.yugipedia.com//e/ea/BlackwingShuratheBlueFlame-DP11-SP-R-1E.jpg",
+          "fed6ba5d-2bed-490f-add5-37444d8fe027": "https://ms.yugipedia.com//d/de/BlackwingGhiblitheSearingWind-DP11-SP-C-1E.jpg"
+        }
+      },
+      "cardInfo": {
+        "1st": {
+          "0667a7b2-595c-4ea8-afd6-e0ecabd054f9": {
+            "image": "https://ms.yugipedia.com//5/53/BlackwingZephyrostheElite-DP11-SP-UR-1E.jpg"
+          },
+          "09cfd914-a087-4ce0-a02d-126f92ae12f7": {
+            "image": "https://ms.yugipedia.com//e/e0/BlackWingedStrafe-DP11-SP-C-1E.jpg"
+          },
+          "115dd924-10c7-4907-b346-80bef164f0f9": {
+            "image": "https://ms.yugipedia.com//5/56/BlackwingGusttheBackblast-DP11-SP-C-1E.jpg"
+          },
+          "1451ab44-c967-4235-bcc1-b9470356abcf": {
+            "image": "https://ms.yugipedia.com//e/e6/BlackwingFanetheSteelChain-DP11-SP-C-1E.jpg"
+          },
+          "1861b477-aacb-426f-99fa-341165e336a2": {
+            "image": "https://ms.yugipedia.com//2/2c/BlackwingArmedWing-DP11-SP-R-1E.jpg"
+          },
+          "213fecc5-27e5-4ea3-b6eb-1af6222dfb69": {
+            "image": "https://ms.yugipedia.com//3/36/CardsforBlackFeathers-DP11-SP-C-1E.jpg"
+          },
+          "23b1287e-8a51-4732-9557-4b92d3f35680": {
+            "image": "https://ms.yugipedia.com//b/bf/BlackwingBlizzardtheFarNorth-DP11-SP-C-1E.jpg"
+          },
+          "298d8231-e6b8-4b73-b3e0-f9e8e9ab2cb1": {
+            "image": "https://ms.yugipedia.com//1/1f/BlackFeatherBeacon-DP11-SP-SR-1E.jpg"
+          },
+          "2b8fce05-784f-434a-a296-32c5ce0ee5c4": {
+            "image": "https://ms.yugipedia.com//3/3c/GuardMines-DP11-SP-C-1E.jpg"
+          },
+          "2cd80cda-2891-4e6c-aae2-bf6b4dcd5b75": {
+            "image": "https://ms.yugipedia.com//8/82/BlackThunder-DP11-SP-C-1E.jpg"
+          },
+          "5c0f3545-67b2-42f5-8e02-e6ddd701ca24": {
+            "image": "https://ms.yugipedia.com//8/84/BlackwingSilverwindtheAscendant-DP11-SP-R-1E.jpg"
+          },
+          "5f858293-7d63-49ba-8cfe-f2119aa68f3c": {
+            "image": "https://ms.yugipedia.com//7/70/BlackwingElphintheRaven-DP11-SP-R-1E.jpg"
+          },
+          "64f4c843-3296-4c0d-8cf0-bed674352785": {
+            "image": "https://ms.yugipedia.com//8/82/LevelRetuner-DP11-SP-C-1E.jpg"
+          },
+          "81765d10-37e0-48fb-a862-24af34e9a30a": {
+            "image": "https://ms.yugipedia.com//0/0b/BlackwingGaletheWhirlwind-DP11-SP-R-1E.jpg"
+          },
+          "8a42247b-57af-4319-a4ee-72ef8e4afaf4": {
+            "image": "https://ms.yugipedia.com//2/2c/BlackWingedDragon-DP11-SP-SR-1E.jpg"
+          },
+          "8ab653d3-9476-43cc-bbff-d575250bdebc": {
+            "image": "https://ms.yugipedia.com//e/e0/BlackwingBoratheSpear-DP11-SP-R-1E.jpg"
+          },
+          "93f1abdf-71c2-43a7-9a33-7816aea7de92": {
+            "image": "https://ms.yugipedia.com//0/0d/BlackwingJetstreamtheBlueSky-DP11-SP-UR-1E.jpg"
+          },
+          "95b7272b-7eb3-478e-8bb7-42dd88762573": {
+            "image": "https://ms.yugipedia.com//e/e0/DeltaCrowAntiReverse-DP11-SP-C-1E.jpg"
+          },
+          "a89fcee5-c8ae-4935-990b-3aebb2dc6377": {
+            "image": "https://ms.yugipedia.com//6/68/BlackwingBacklash-DP11-SP-C-1E.jpg"
+          },
+          "ab302952-577b-4c92-8042-e2692349fc2e": {
+            "image": "https://ms.yugipedia.com//b/b8/BlackwingBombardment-DP11-SP-C-1E.jpg"
+          },
+          "ac34c8eb-e60f-4aea-9671-6f80c59dd734": {
+            "image": "https://ms.yugipedia.com//1/11/BlackwingKochitheDaybreak-DP11-SP-R-1E.jpg"
+          },
+          "cea12db1-6ecd-4726-841f-cf12e398752f": {
+            "image": "https://ms.yugipedia.com//1/1d/AgainsttheWind-DP11-SP-C-1E.jpg"
+          },
+          "db845471-c8dc-4bc5-9fe4-3038cb755d85": {
+            "image": "https://ms.yugipedia.com//2/26/RaptorWingStrike-DP11-SP-C-1E.jpg"
+          },
+          "e138bcf9-0e8e-46ca-9bec-0e0fcb7b753e": {
+            "image": "https://ms.yugipedia.com//b/bf/BlackwingArmorMaster-DP11-SP-SR-1E.jpg"
+          },
+          "e1f37ae0-68c1-4d84-b193-21033b568ef2": {
+            "image": "https://ms.yugipedia.com//5/59/BlackwingMistraltheSilverShield-DP11-SP-C-1E.jpg"
+          },
+          "e3b6b20c-8909-4b95-bc04-a632c82329b8": {
+            "image": "https://ms.yugipedia.com//5/5b/FakeFeather-DP11-SP-C-1E.jpg"
+          },
+          "e6316c6c-f64f-49ac-86ef-c6a09ec85dc8": {
+            "image": "https://ms.yugipedia.com//f/f3/BlackReturn-DP11-SP-SR-1E.jpg"
+          },
+          "ea7a34cb-9cef-4914-bc8e-62346e7cbe5c": {
+            "image": "https://ms.yugipedia.com//b/be/EbonArrow-DP11-SP-C-1E.jpg"
+          },
+          "ef4f33dc-33b6-4196-a781-ae3ad68731d3": {
+            "image": "https://ms.yugipedia.com//e/ea/BlackwingShuratheBlueFlame-DP11-SP-R-1E.jpg"
+          },
+          "fed6ba5d-2bed-490f-add5-37444d8fe027": {
+            "image": "https://ms.yugipedia.com//d/de/BlackwingGhiblitheSearingWind-DP11-SP-C-1E.jpg"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "1st"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          56606001
+        ]
+      }
+    },
+    "jp": {
+      "language": "ja",
+      "prefix": "DP11-JP",
+      "date": "2010-10-16",
+      "image": "https://ms.yugipedia.com//9/93/DP11-BoosterJP.png",
+      "cardImages": {
+        "unlimited": {
+          "0667a7b2-595c-4ea8-afd6-e0ecabd054f9": "https://ms.yugipedia.com//d/d5/BlackwingZephyrostheElite-DP11-JP-UR.jpg",
+          "09cfd914-a087-4ce0-a02d-126f92ae12f7": "https://ms.yugipedia.com//f/f1/BlackWingedStrafe-DP11-JP-C.jpg",
+          "115dd924-10c7-4907-b346-80bef164f0f9": "https://ms.yugipedia.com//8/83/BlackwingGusttheBackblast-DP11-JP-C.jpg",
+          "1451ab44-c967-4235-bcc1-b9470356abcf": "https://ms.yugipedia.com//a/a1/BlackwingFanetheSteelChain-DP11-JP-C.jpg",
+          "1861b477-aacb-426f-99fa-341165e336a2": "https://ms.yugipedia.com//5/51/BlackwingArmedWing-DP11-JP-R.jpg",
+          "213fecc5-27e5-4ea3-b6eb-1af6222dfb69": "https://ms.yugipedia.com//9/90/CardsforBlackFeathers-DP11-JP-C.jpg",
+          "23b1287e-8a51-4732-9557-4b92d3f35680": "https://ms.yugipedia.com//2/24/BlackwingBlizzardtheFarNorth-DP11-JP-C.jpg",
+          "298d8231-e6b8-4b73-b3e0-f9e8e9ab2cb1": "https://ms.yugipedia.com//2/26/BlackFeatherBeacon-DP11-JP-SR.jpg",
+          "2b8fce05-784f-434a-a296-32c5ce0ee5c4": "https://ms.yugipedia.com//c/c9/GuardMines-DP11-JP-C.jpg",
+          "2cd80cda-2891-4e6c-aae2-bf6b4dcd5b75": "https://ms.yugipedia.com//e/e2/BlackThunder-DP11-JP-C.jpg",
+          "5c0f3545-67b2-42f5-8e02-e6ddd701ca24": "https://ms.yugipedia.com//1/15/BlackwingSilverwindtheAscendant-DP11-JP-R.jpg",
+          "5f858293-7d63-49ba-8cfe-f2119aa68f3c": "https://ms.yugipedia.com//e/eb/BlackwingElphintheRaven-DP11-JP-R.jpg",
+          "64f4c843-3296-4c0d-8cf0-bed674352785": "https://ms.yugipedia.com//1/1d/LevelRetuner-DP11-JP-C.jpg",
+          "81765d10-37e0-48fb-a862-24af34e9a30a": "https://ms.yugipedia.com//d/dc/BlackwingGaletheWhirlwind-DP11-JP-R.jpg",
+          "8a42247b-57af-4319-a4ee-72ef8e4afaf4": "https://ms.yugipedia.com//e/e4/BlackWingedDragon-DP11-JP-SR.jpg",
+          "8ab653d3-9476-43cc-bbff-d575250bdebc": "https://ms.yugipedia.com//0/0f/BlackwingBoratheSpear-DP11-JP-R.jpg",
+          "93f1abdf-71c2-43a7-9a33-7816aea7de92": "https://ms.yugipedia.com//e/e0/BlackwingJetstreamtheBlueSky-DP11-JP-UR.jpg",
+          "95b7272b-7eb3-478e-8bb7-42dd88762573": "https://ms.yugipedia.com//9/96/DeltaCrowAntiReverse-DP11-JP-C.jpg",
+          "a89fcee5-c8ae-4935-990b-3aebb2dc6377": "https://ms.yugipedia.com//8/86/BlackwingBacklash-DP11-JP-C.jpg",
+          "ab302952-577b-4c92-8042-e2692349fc2e": "https://ms.yugipedia.com//1/11/BlackwingBombardment-DP11-JP-C.jpg",
+          "ac34c8eb-e60f-4aea-9671-6f80c59dd734": "https://ms.yugipedia.com//4/46/BlackwingKochitheDaybreak-DP11-JP-R.jpg",
+          "cea12db1-6ecd-4726-841f-cf12e398752f": "https://ms.yugipedia.com//3/3c/AgainsttheWind-DP11-JP-C.jpg",
+          "db845471-c8dc-4bc5-9fe4-3038cb755d85": "https://ms.yugipedia.com//a/a0/RaptorWingStrike-DP11-JP-C.jpg",
+          "e138bcf9-0e8e-46ca-9bec-0e0fcb7b753e": "https://ms.yugipedia.com//7/76/BlackwingArmorMaster-DP11-JP-SR.jpg",
+          "e1f37ae0-68c1-4d84-b193-21033b568ef2": "https://ms.yugipedia.com//b/b2/BlackwingMistraltheSilverShield-DP11-JP-C.jpg",
+          "e3b6b20c-8909-4b95-bc04-a632c82329b8": "https://ms.yugipedia.com//5/52/FakeFeather-DP11-JP-C.jpg",
+          "e6316c6c-f64f-49ac-86ef-c6a09ec85dc8": "https://ms.yugipedia.com//6/6d/BlackReturn-DP11-JP-SR.jpg",
+          "ea7a34cb-9cef-4914-bc8e-62346e7cbe5c": "https://ms.yugipedia.com//5/5d/EbonArrow-DP11-JP-C.jpg",
+          "ef4f33dc-33b6-4196-a781-ae3ad68731d3": "https://ms.yugipedia.com//b/b2/BlackwingShuratheBlueFlame-DP11-JP-R.jpg",
+          "fed6ba5d-2bed-490f-add5-37444d8fe027": "https://ms.yugipedia.com//7/73/BlackwingGhiblitheSearingWind-DP11-JP-C.jpg"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "0667a7b2-595c-4ea8-afd6-e0ecabd054f9": {
+            "image": "https://ms.yugipedia.com//d/d5/BlackwingZephyrostheElite-DP11-JP-UR.jpg"
+          },
+          "09cfd914-a087-4ce0-a02d-126f92ae12f7": {
+            "image": "https://ms.yugipedia.com//f/f1/BlackWingedStrafe-DP11-JP-C.jpg"
+          },
+          "115dd924-10c7-4907-b346-80bef164f0f9": {
+            "image": "https://ms.yugipedia.com//8/83/BlackwingGusttheBackblast-DP11-JP-C.jpg"
+          },
+          "1451ab44-c967-4235-bcc1-b9470356abcf": {
+            "image": "https://ms.yugipedia.com//a/a1/BlackwingFanetheSteelChain-DP11-JP-C.jpg"
+          },
+          "1861b477-aacb-426f-99fa-341165e336a2": {
+            "image": "https://ms.yugipedia.com//5/51/BlackwingArmedWing-DP11-JP-R.jpg"
+          },
+          "213fecc5-27e5-4ea3-b6eb-1af6222dfb69": {
+            "image": "https://ms.yugipedia.com//9/90/CardsforBlackFeathers-DP11-JP-C.jpg"
+          },
+          "23b1287e-8a51-4732-9557-4b92d3f35680": {
+            "image": "https://ms.yugipedia.com//2/24/BlackwingBlizzardtheFarNorth-DP11-JP-C.jpg"
+          },
+          "298d8231-e6b8-4b73-b3e0-f9e8e9ab2cb1": {
+            "image": "https://ms.yugipedia.com//2/26/BlackFeatherBeacon-DP11-JP-SR.jpg"
+          },
+          "2b8fce05-784f-434a-a296-32c5ce0ee5c4": {
+            "image": "https://ms.yugipedia.com//c/c9/GuardMines-DP11-JP-C.jpg"
+          },
+          "2cd80cda-2891-4e6c-aae2-bf6b4dcd5b75": {
+            "image": "https://ms.yugipedia.com//e/e2/BlackThunder-DP11-JP-C.jpg"
+          },
+          "5c0f3545-67b2-42f5-8e02-e6ddd701ca24": {
+            "image": "https://ms.yugipedia.com//1/15/BlackwingSilverwindtheAscendant-DP11-JP-R.jpg"
+          },
+          "5f858293-7d63-49ba-8cfe-f2119aa68f3c": {
+            "image": "https://ms.yugipedia.com//e/eb/BlackwingElphintheRaven-DP11-JP-R.jpg"
+          },
+          "64f4c843-3296-4c0d-8cf0-bed674352785": {
+            "image": "https://ms.yugipedia.com//1/1d/LevelRetuner-DP11-JP-C.jpg"
+          },
+          "81765d10-37e0-48fb-a862-24af34e9a30a": {
+            "image": "https://ms.yugipedia.com//d/dc/BlackwingGaletheWhirlwind-DP11-JP-R.jpg"
+          },
+          "8a42247b-57af-4319-a4ee-72ef8e4afaf4": {
+            "image": "https://ms.yugipedia.com//e/e4/BlackWingedDragon-DP11-JP-SR.jpg"
+          },
+          "8ab653d3-9476-43cc-bbff-d575250bdebc": {
+            "image": "https://ms.yugipedia.com//0/0f/BlackwingBoratheSpear-DP11-JP-R.jpg"
+          },
+          "93f1abdf-71c2-43a7-9a33-7816aea7de92": {
+            "image": "https://ms.yugipedia.com//e/e0/BlackwingJetstreamtheBlueSky-DP11-JP-UR.jpg"
+          },
+          "95b7272b-7eb3-478e-8bb7-42dd88762573": {
+            "image": "https://ms.yugipedia.com//9/96/DeltaCrowAntiReverse-DP11-JP-C.jpg"
+          },
+          "a89fcee5-c8ae-4935-990b-3aebb2dc6377": {
+            "image": "https://ms.yugipedia.com//8/86/BlackwingBacklash-DP11-JP-C.jpg"
+          },
+          "ab302952-577b-4c92-8042-e2692349fc2e": {
+            "image": "https://ms.yugipedia.com//1/11/BlackwingBombardment-DP11-JP-C.jpg"
+          },
+          "ac34c8eb-e60f-4aea-9671-6f80c59dd734": {
+            "image": "https://ms.yugipedia.com//4/46/BlackwingKochitheDaybreak-DP11-JP-R.jpg"
+          },
+          "cea12db1-6ecd-4726-841f-cf12e398752f": {
+            "image": "https://ms.yugipedia.com//3/3c/AgainsttheWind-DP11-JP-C.jpg"
+          },
+          "db845471-c8dc-4bc5-9fe4-3038cb755d85": {
+            "image": "https://ms.yugipedia.com//a/a0/RaptorWingStrike-DP11-JP-C.jpg"
+          },
+          "e138bcf9-0e8e-46ca-9bec-0e0fcb7b753e": {
+            "image": "https://ms.yugipedia.com//7/76/BlackwingArmorMaster-DP11-JP-SR.jpg"
+          },
+          "e1f37ae0-68c1-4d84-b193-21033b568ef2": {
+            "image": "https://ms.yugipedia.com//b/b2/BlackwingMistraltheSilverShield-DP11-JP-C.jpg"
+          },
+          "e3b6b20c-8909-4b95-bc04-a632c82329b8": {
+            "image": "https://ms.yugipedia.com//5/52/FakeFeather-DP11-JP-C.jpg"
+          },
+          "e6316c6c-f64f-49ac-86ef-c6a09ec85dc8": {
+            "image": "https://ms.yugipedia.com//6/6d/BlackReturn-DP11-JP-SR.jpg"
+          },
+          "ea7a34cb-9cef-4914-bc8e-62346e7cbe5c": {
+            "image": "https://ms.yugipedia.com//5/5d/EbonArrow-DP11-JP-C.jpg"
+          },
+          "ef4f33dc-33b6-4196-a781-ae3ad68731d3": {
+            "image": "https://ms.yugipedia.com//b/b2/BlackwingShuratheBlueFlame-DP11-JP-R.jpg"
+          },
+          "fed6ba5d-2bed-490f-add5-37444d8fe027": {
+            "image": "https://ms.yugipedia.com//7/73/BlackwingGhiblitheSearingWind-DP11-JP-C.jpg"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          3309010
+        ]
+      }
+    },
+    "kr": {
+      "language": "ko",
+      "prefix": "DP11-KR",
+      "date": "2011-03-21",
+      "image": "https://ms.yugipedia.com//0/09/DP11-BoosterKR.png",
+      "cardImages": {
+        "unlimited": {
+          "0667a7b2-595c-4ea8-afd6-e0ecabd054f9": "https://ms.yugipedia.com//a/a2/BlackwingZephyrostheElite-DP11-KR-UR-UE.png",
+          "09cfd914-a087-4ce0-a02d-126f92ae12f7": "https://ms.yugipedia.com//3/33/BlackWingedStrafe-DP11-KR-C-UE.png",
+          "115dd924-10c7-4907-b346-80bef164f0f9": "https://ms.yugipedia.com//3/39/BlackwingGusttheBackblast-DP11-KR-C-UE.png",
+          "1451ab44-c967-4235-bcc1-b9470356abcf": "https://ms.yugipedia.com//c/ce/BlackwingFanetheSteelChain-DP11-KR-C-UE.png",
+          "1861b477-aacb-426f-99fa-341165e336a2": "https://ms.yugipedia.com//f/f9/BlackwingArmedWing-DP11-KR-R-UE.png",
+          "213fecc5-27e5-4ea3-b6eb-1af6222dfb69": "https://ms.yugipedia.com//6/6a/CardsforBlackFeathers-DP11-KR-C-UE.png",
+          "23b1287e-8a51-4732-9557-4b92d3f35680": "https://ms.yugipedia.com//b/b5/BlackwingBlizzardtheFarNorth-DP11-KR-C-UE.png",
+          "298d8231-e6b8-4b73-b3e0-f9e8e9ab2cb1": "https://ms.yugipedia.com//c/cd/BlackFeatherBeacon-DP11-KR-SR-UE.png",
+          "2b8fce05-784f-434a-a296-32c5ce0ee5c4": "https://ms.yugipedia.com//d/de/GuardMines-DP11-KR-C-UE.png",
+          "2cd80cda-2891-4e6c-aae2-bf6b4dcd5b75": "https://ms.yugipedia.com//2/22/BlackThunder-DP11-KR-C-UE.png",
+          "5c0f3545-67b2-42f5-8e02-e6ddd701ca24": "https://ms.yugipedia.com//9/9d/BlackwingSilverwindtheAscendant-DP11-KR-R-UE.png",
+          "5f858293-7d63-49ba-8cfe-f2119aa68f3c": "https://ms.yugipedia.com//a/a9/BlackwingElphintheRaven-DP11-KR-R-UE.png",
+          "64f4c843-3296-4c0d-8cf0-bed674352785": "https://ms.yugipedia.com//9/95/LevelRetuner-DP11-KR-C-UE.png",
+          "81765d10-37e0-48fb-a862-24af34e9a30a": "https://ms.yugipedia.com//3/3b/BlackwingGaletheWhirlwind-DP11-KR-R-UE.png",
+          "8a42247b-57af-4319-a4ee-72ef8e4afaf4": "https://ms.yugipedia.com//a/a9/BlackWingedDragon-DP11-KR-SR-UE.png",
+          "8ab653d3-9476-43cc-bbff-d575250bdebc": "https://ms.yugipedia.com//8/8c/BlackwingBoratheSpear-DP11-KR-R-UE.png",
+          "93f1abdf-71c2-43a7-9a33-7816aea7de92": "https://ms.yugipedia.com//e/ee/BlackwingJetstreamtheBlueSky-DP11-KR-UR-UE.png",
+          "95b7272b-7eb3-478e-8bb7-42dd88762573": "https://ms.yugipedia.com//e/eb/DeltaCrowAntiReverse-DP11-KR-C-UE.png",
+          "a89fcee5-c8ae-4935-990b-3aebb2dc6377": "https://ms.yugipedia.com//5/58/BlackwingBacklash-DP11-KR-C-UE.png",
+          "ab302952-577b-4c92-8042-e2692349fc2e": "https://ms.yugipedia.com//0/0a/BlackwingBombardment-DP11-KR-C-UE.png",
+          "ac34c8eb-e60f-4aea-9671-6f80c59dd734": "https://ms.yugipedia.com//2/23/BlackwingKochitheDaybreak-DP11-KR-R-UE.png",
+          "cea12db1-6ecd-4726-841f-cf12e398752f": "https://ms.yugipedia.com//d/d3/AgainsttheWind-DP11-KR-C-UE.png",
+          "db845471-c8dc-4bc5-9fe4-3038cb755d85": "https://ms.yugipedia.com//7/7c/RaptorWingStrike-DP11-KR-C-UE.png",
+          "e138bcf9-0e8e-46ca-9bec-0e0fcb7b753e": "https://ms.yugipedia.com//6/65/BlackwingArmorMaster-DP11-KR-SR-UE.png",
+          "e1f37ae0-68c1-4d84-b193-21033b568ef2": "https://ms.yugipedia.com//a/a7/BlackwingMistraltheSilverShield-DP11-KR-C-UE.png",
+          "e3b6b20c-8909-4b95-bc04-a632c82329b8": "https://ms.yugipedia.com//e/ea/FakeFeather-DP11-KR-C-UE.png",
+          "e6316c6c-f64f-49ac-86ef-c6a09ec85dc8": "https://ms.yugipedia.com//b/b8/BlackReturn-DP11-KR-SR-UE.png",
+          "ea7a34cb-9cef-4914-bc8e-62346e7cbe5c": "https://ms.yugipedia.com//6/62/EbonArrow-DP11-KR-C-UE.png",
+          "ef4f33dc-33b6-4196-a781-ae3ad68731d3": "https://ms.yugipedia.com//d/d7/BlackwingShuratheBlueFlame-DP11-KR-R-UE.png",
+          "fed6ba5d-2bed-490f-add5-37444d8fe027": "https://ms.yugipedia.com//c/c2/BlackwingGhiblitheSearingWind-DP11-KR-C-UE.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "0667a7b2-595c-4ea8-afd6-e0ecabd054f9": {
+            "image": "https://ms.yugipedia.com//a/a2/BlackwingZephyrostheElite-DP11-KR-UR-UE.png"
+          },
+          "09cfd914-a087-4ce0-a02d-126f92ae12f7": {
+            "image": "https://ms.yugipedia.com//3/33/BlackWingedStrafe-DP11-KR-C-UE.png"
+          },
+          "115dd924-10c7-4907-b346-80bef164f0f9": {
+            "image": "https://ms.yugipedia.com//3/39/BlackwingGusttheBackblast-DP11-KR-C-UE.png"
+          },
+          "1451ab44-c967-4235-bcc1-b9470356abcf": {
+            "image": "https://ms.yugipedia.com//c/ce/BlackwingFanetheSteelChain-DP11-KR-C-UE.png"
+          },
+          "1861b477-aacb-426f-99fa-341165e336a2": {
+            "image": "https://ms.yugipedia.com//f/f9/BlackwingArmedWing-DP11-KR-R-UE.png"
+          },
+          "213fecc5-27e5-4ea3-b6eb-1af6222dfb69": {
+            "image": "https://ms.yugipedia.com//6/6a/CardsforBlackFeathers-DP11-KR-C-UE.png"
+          },
+          "23b1287e-8a51-4732-9557-4b92d3f35680": {
+            "image": "https://ms.yugipedia.com//b/b5/BlackwingBlizzardtheFarNorth-DP11-KR-C-UE.png"
+          },
+          "298d8231-e6b8-4b73-b3e0-f9e8e9ab2cb1": {
+            "image": "https://ms.yugipedia.com//c/cd/BlackFeatherBeacon-DP11-KR-SR-UE.png"
+          },
+          "2b8fce05-784f-434a-a296-32c5ce0ee5c4": {
+            "image": "https://ms.yugipedia.com//d/de/GuardMines-DP11-KR-C-UE.png"
+          },
+          "2cd80cda-2891-4e6c-aae2-bf6b4dcd5b75": {
+            "image": "https://ms.yugipedia.com//2/22/BlackThunder-DP11-KR-C-UE.png"
+          },
+          "5c0f3545-67b2-42f5-8e02-e6ddd701ca24": {
+            "image": "https://ms.yugipedia.com//9/9d/BlackwingSilverwindtheAscendant-DP11-KR-R-UE.png"
+          },
+          "5f858293-7d63-49ba-8cfe-f2119aa68f3c": {
+            "image": "https://ms.yugipedia.com//a/a9/BlackwingElphintheRaven-DP11-KR-R-UE.png"
+          },
+          "64f4c843-3296-4c0d-8cf0-bed674352785": {
+            "image": "https://ms.yugipedia.com//9/95/LevelRetuner-DP11-KR-C-UE.png"
+          },
+          "81765d10-37e0-48fb-a862-24af34e9a30a": {
+            "image": "https://ms.yugipedia.com//3/3b/BlackwingGaletheWhirlwind-DP11-KR-R-UE.png"
+          },
+          "8a42247b-57af-4319-a4ee-72ef8e4afaf4": {
+            "image": "https://ms.yugipedia.com//a/a9/BlackWingedDragon-DP11-KR-SR-UE.png"
+          },
+          "8ab653d3-9476-43cc-bbff-d575250bdebc": {
+            "image": "https://ms.yugipedia.com//8/8c/BlackwingBoratheSpear-DP11-KR-R-UE.png"
+          },
+          "93f1abdf-71c2-43a7-9a33-7816aea7de92": {
+            "image": "https://ms.yugipedia.com//e/ee/BlackwingJetstreamtheBlueSky-DP11-KR-UR-UE.png"
+          },
+          "95b7272b-7eb3-478e-8bb7-42dd88762573": {
+            "image": "https://ms.yugipedia.com//e/eb/DeltaCrowAntiReverse-DP11-KR-C-UE.png"
+          },
+          "a89fcee5-c8ae-4935-990b-3aebb2dc6377": {
+            "image": "https://ms.yugipedia.com//5/58/BlackwingBacklash-DP11-KR-C-UE.png"
+          },
+          "ab302952-577b-4c92-8042-e2692349fc2e": {
+            "image": "https://ms.yugipedia.com//0/0a/BlackwingBombardment-DP11-KR-C-UE.png"
+          },
+          "ac34c8eb-e60f-4aea-9671-6f80c59dd734": {
+            "image": "https://ms.yugipedia.com//2/23/BlackwingKochitheDaybreak-DP11-KR-R-UE.png"
+          },
+          "cea12db1-6ecd-4726-841f-cf12e398752f": {
+            "image": "https://ms.yugipedia.com//d/d3/AgainsttheWind-DP11-KR-C-UE.png"
+          },
+          "db845471-c8dc-4bc5-9fe4-3038cb755d85": {
+            "image": "https://ms.yugipedia.com//7/7c/RaptorWingStrike-DP11-KR-C-UE.png"
+          },
+          "e138bcf9-0e8e-46ca-9bec-0e0fcb7b753e": {
+            "image": "https://ms.yugipedia.com//6/65/BlackwingArmorMaster-DP11-KR-SR-UE.png"
+          },
+          "e1f37ae0-68c1-4d84-b193-21033b568ef2": {
+            "image": "https://ms.yugipedia.com//a/a7/BlackwingMistraltheSilverShield-DP11-KR-C-UE.png"
+          },
+          "e3b6b20c-8909-4b95-bc04-a632c82329b8": {
+            "image": "https://ms.yugipedia.com//e/ea/FakeFeather-DP11-KR-C-UE.png"
+          },
+          "e6316c6c-f64f-49ac-86ef-c6a09ec85dc8": {
+            "image": "https://ms.yugipedia.com//b/b8/BlackReturn-DP11-KR-SR-UE.png"
+          },
+          "ea7a34cb-9cef-4914-bc8e-62346e7cbe5c": {
+            "image": "https://ms.yugipedia.com//6/62/EbonArrow-DP11-KR-C-UE.png"
+          },
+          "ef4f33dc-33b6-4196-a781-ae3ad68731d3": {
+            "image": "https://ms.yugipedia.com//d/d7/BlackwingShuratheBlueFlame-DP11-KR-R-UE.png"
+          },
+          "fed6ba5d-2bed-490f-add5-37444d8fe027": {
+            "image": "https://ms.yugipedia.com//c/c2/BlackwingGhiblitheSearingWind-DP11-KR-C-UE.png"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          78806004
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "en"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "distrobution": "73af5c41-dac3-42eb-ac3d-7d6fd726703f",
+      "packsPerBox": 36,
+      "editions": [
+        "1st"
+      ],
+      "image": "https://ms.yugipedia.com//9/9f/DP11-BoosterEN.png",
+      "cards": [
+        {
+          "id": "81765d10-37e0-48fb-a862-24af34e9a30a",
+          "card": "d34fca2d-efb2-4661-8022-580f07de6fc6",
+          "suffix": "001",
+          "rarity": "rare",
+          "imageID": "3df1c291-8eb4-4fbf-9e7f-d1b7a11ace37"
+        },
+        {
+          "id": "8ab653d3-9476-43cc-bbff-d575250bdebc",
+          "card": "b47eaa07-6fc3-4eed-a1fa-77bc30a3571a",
+          "suffix": "002",
+          "rarity": "rare",
+          "imageID": "1432a417-a003-4ed7-ae25-409dfcb8d9ae"
+        },
+        {
+          "id": "23b1287e-8a51-4732-9557-4b92d3f35680",
+          "card": "27379139-5f06-4257-b726-ce896f52f125",
+          "suffix": "003",
+          "rarity": "common",
+          "imageID": "7f892718-17c6-4262-9e6a-3c745c62a75c"
+        },
+        {
+          "id": "ef4f33dc-33b6-4196-a781-ae3ad68731d3",
+          "card": "e0a0701a-cd9e-4f90-9bcc-6d6d4f8e007d",
+          "suffix": "004",
+          "rarity": "rare",
+          "imageID": "35c26c19-ac6e-45dd-82f6-776d8385f42c"
+        },
+        {
+          "id": "5f858293-7d63-49ba-8cfe-f2119aa68f3c",
+          "card": "0e9f1d6a-fc00-4c5a-876c-562436987e24",
+          "suffix": "005",
+          "rarity": "rare",
+          "imageID": "7a39360f-b6a6-4a07-af0b-c781c7b8ef80"
+        },
+        {
+          "id": "e1f37ae0-68c1-4d84-b193-21033b568ef2",
+          "card": "84a41095-f530-4793-9b33-6bfc2c9a6df3",
+          "suffix": "006",
+          "rarity": "common",
+          "imageID": "a252fc90-4926-4f90-8129-07a5a5a463a2"
+        },
+        {
+          "id": "1451ab44-c967-4235-bcc1-b9470356abcf",
+          "card": "645e3e38-e76d-42bc-b53b-cf7d228ddf93",
+          "suffix": "007",
+          "rarity": "common",
+          "imageID": "f9cb5ecd-f8be-4570-8088-6dfc7f9d9f45"
+        },
+        {
+          "id": "fed6ba5d-2bed-490f-add5-37444d8fe027",
+          "card": "a050a740-1ffd-4089-aa4d-9efb2dec9ddc",
+          "suffix": "008",
+          "rarity": "common",
+          "imageID": "4420ffd7-2ace-4111-b5e4-275d4d7b2b34"
+        },
+        {
+          "id": "115dd924-10c7-4907-b346-80bef164f0f9",
+          "card": "643d4498-d45e-43f3-8979-e51a699b8117",
+          "suffix": "009",
+          "rarity": "common",
+          "imageID": "c9cd0a2f-0ef3-4cf0-97c7-f1f0a404cc1c"
+        },
+        {
+          "id": "ac34c8eb-e60f-4aea-9671-6f80c59dd734",
+          "card": "90ca0368-07f1-4c56-8a97-e7564246af43",
+          "suffix": "010",
+          "rarity": "rare",
+          "imageID": "61abc816-bbed-45de-ba7e-f301db13855d"
+        },
+        {
+          "id": "93f1abdf-71c2-43a7-9a33-7816aea7de92",
+          "card": "6f8af483-b26d-49e1-81b0-e9d079474d2a",
+          "suffix": "011",
+          "rarity": "ultra",
+          "imageID": "b89db9ff-beae-448d-82f6-5a74fce52a79"
+        },
+        {
+          "id": "0667a7b2-595c-4ea8-afd6-e0ecabd054f9",
+          "card": "eaa3291e-c784-4867-bda5-2cb9d19d187c",
+          "suffix": "012",
+          "rarity": "ultra",
+          "imageID": "6ecc4851-5f85-481f-8c2f-12b11ebdbec2"
+        },
+        {
+          "id": "e138bcf9-0e8e-46ca-9bec-0e0fcb7b753e",
+          "card": "56827c20-6762-4e70-8ea5-373df05685be",
+          "suffix": "013",
+          "rarity": "super",
+          "imageID": "850277f8-7aa7-430f-bb12-be73cd3bad02"
+        },
+        {
+          "id": "1861b477-aacb-426f-99fa-341165e336a2",
+          "card": "eb350ace-50b9-4b3b-9296-884f21fc213b",
+          "suffix": "014",
+          "rarity": "rare",
+          "imageID": "4fb2345c-574f-4385-a092-f8b04e11a2ed"
+        },
+        {
+          "id": "5c0f3545-67b2-42f5-8e02-e6ddd701ca24",
+          "card": "5c1bde5d-ded6-4f8e-b44b-42914e756b9b",
+          "suffix": "015",
+          "rarity": "rare",
+          "imageID": "633cf536-376b-40d4-9803-659088dcf53b"
+        },
+        {
+          "id": "8a42247b-57af-4319-a4ee-72ef8e4afaf4",
+          "card": "5322c423-3f7b-4703-becd-45edb59d42ad",
+          "suffix": "016",
+          "rarity": "super",
+          "imageID": "73c99191-6947-4d76-ac95-a47334302508"
+        },
+        {
+          "id": "db845471-c8dc-4bc5-9fe4-3038cb755d85",
+          "card": "a4705712-48cb-4b55-9224-ccc7f2ac8b44",
+          "suffix": "017",
+          "rarity": "common",
+          "imageID": "f809eb19-6e91-4ca4-9181-df7d881fc944"
+        },
+        {
+          "id": "cea12db1-6ecd-4726-841f-cf12e398752f",
+          "card": "bb73d277-f736-474a-a4f9-fa06a069e39b",
+          "suffix": "018",
+          "rarity": "common",
+          "imageID": "f225ecf1-f20d-43a0-a6c1-1987cecc8999"
+        },
+        {
+          "id": "09cfd914-a087-4ce0-a02d-126f92ae12f7",
+          "card": "732a8c7f-1724-4ec0-be97-d8879f631181",
+          "suffix": "019",
+          "rarity": "common",
+          "imageID": "6e1cf71e-f114-4025-88bb-e3f95bff0cc3"
+        },
+        {
+          "id": "213fecc5-27e5-4ea3-b6eb-1af6222dfb69",
+          "card": "92e38fd7-47fa-4181-9fa9-4798e2780a9c",
+          "suffix": "020",
+          "rarity": "common",
+          "imageID": "b9600ea8-cbe9-4b45-b94e-ccf0c022742e"
+        },
+        {
+          "id": "ea7a34cb-9cef-4914-bc8e-62346e7cbe5c",
+          "card": "c79db775-528b-44b2-8db1-451a97d01a06",
+          "suffix": "021",
+          "rarity": "common",
+          "imageID": "febcdb69-6c78-443c-a1c1-e9e396c95dca"
+        },
+        {
+          "id": "95b7272b-7eb3-478e-8bb7-42dd88762573",
+          "card": "7c348b07-03cc-4102-bebf-02c856972d47",
+          "suffix": "022",
+          "rarity": "common",
+          "imageID": "e983b476-b67b-420e-9b72-02fdbdbc37e3"
+        },
+        {
+          "id": "64f4c843-3296-4c0d-8cf0-bed674352785",
+          "card": "82024e4e-a6bb-4665-a913-588e5e2b38b3",
+          "suffix": "023",
+          "rarity": "common",
+          "imageID": "a5f1a9a3-6b40-4d5c-ac50-9968696bcafe"
+        },
+        {
+          "id": "e3b6b20c-8909-4b95-bc04-a632c82329b8",
+          "card": "adf2f261-b39d-4958-901e-4b78fbe675c5",
+          "suffix": "024",
+          "rarity": "common",
+          "imageID": "e7e7fbf1-c0e7-4e78-87f7-536fec866b04"
+        },
+        {
+          "id": "a89fcee5-c8ae-4935-990b-3aebb2dc6377",
+          "card": "d5692b8d-be25-4ecb-92d9-8e9cd3eb0262",
+          "suffix": "025",
+          "rarity": "common",
+          "imageID": "a286e604-a5cc-4109-9f2c-75834ab00b3e"
+        },
+        {
+          "id": "ab302952-577b-4c92-8042-e2692349fc2e",
+          "card": "c19823bb-31f1-4129-b7b0-a5f305135ccd",
+          "suffix": "026",
+          "rarity": "common",
+          "imageID": "2a6aa79e-a0eb-49b9-aaa4-b26ae3b6be57"
+        },
+        {
+          "id": "2cd80cda-2891-4e6c-aae2-bf6b4dcd5b75",
+          "card": "cc45efdd-cca9-472d-9fb0-ae55871e57d3",
+          "suffix": "027",
+          "rarity": "common",
+          "imageID": "2895b539-467c-48a8-8868-d9e5550f5672"
+        },
+        {
+          "id": "2b8fce05-784f-434a-a296-32c5ce0ee5c4",
+          "card": "a4ee854c-bd71-4788-aa1d-4da78174194b",
+          "suffix": "028",
+          "rarity": "common",
+          "imageID": "0cc58627-5cba-404c-a73a-9671274cd90c"
+        },
+        {
+          "id": "298d8231-e6b8-4b73-b3e0-f9e8e9ab2cb1",
+          "card": "ab6e6cce-9e4f-4d0e-94e4-e08e7c5d1733",
+          "suffix": "029",
+          "rarity": "super",
+          "imageID": "ece610d2-3b0d-4072-8572-790de8758ef3"
+        },
+        {
+          "id": "e6316c6c-f64f-49ac-86ef-c6a09ec85dc8",
+          "card": "0e080c8c-681f-4390-8670-4c6f65e85a3a",
+          "suffix": "030",
+          "rarity": "super",
+          "imageID": "27716359-7e7d-462b-ab92-9a13d63abdc4"
+        }
+      ],
+      "externalIDs": {
+        "ygoprodeck": "Duelist Pack: Crow"
+      }
+    },
+    {
+      "locales": [
+        "fr"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "distrobution": "73af5c41-dac3-42eb-ac3d-7d6fd726703f",
+      "packsPerBox": 36,
+      "editions": [
+        "1st"
+      ],
+      "image": "https://ms.yugipedia.com//7/71/DP11-BoosterFR.png",
+      "cards": [
+        {
+          "id": "81765d10-37e0-48fb-a862-24af34e9a30a",
+          "card": "d34fca2d-efb2-4661-8022-580f07de6fc6",
+          "suffix": "001",
+          "rarity": "rare",
+          "imageID": "3df1c291-8eb4-4fbf-9e7f-d1b7a11ace37"
+        },
+        {
+          "id": "8ab653d3-9476-43cc-bbff-d575250bdebc",
+          "card": "b47eaa07-6fc3-4eed-a1fa-77bc30a3571a",
+          "suffix": "002",
+          "rarity": "rare",
+          "imageID": "1432a417-a003-4ed7-ae25-409dfcb8d9ae"
+        },
+        {
+          "id": "23b1287e-8a51-4732-9557-4b92d3f35680",
+          "card": "27379139-5f06-4257-b726-ce896f52f125",
+          "suffix": "003",
+          "rarity": "common",
+          "imageID": "7f892718-17c6-4262-9e6a-3c745c62a75c"
+        },
+        {
+          "id": "ef4f33dc-33b6-4196-a781-ae3ad68731d3",
+          "card": "e0a0701a-cd9e-4f90-9bcc-6d6d4f8e007d",
+          "suffix": "004",
+          "rarity": "rare",
+          "imageID": "35c26c19-ac6e-45dd-82f6-776d8385f42c"
+        },
+        {
+          "id": "5f858293-7d63-49ba-8cfe-f2119aa68f3c",
+          "card": "0e9f1d6a-fc00-4c5a-876c-562436987e24",
+          "suffix": "005",
+          "rarity": "rare",
+          "imageID": "7a39360f-b6a6-4a07-af0b-c781c7b8ef80"
+        },
+        {
+          "id": "e1f37ae0-68c1-4d84-b193-21033b568ef2",
+          "card": "84a41095-f530-4793-9b33-6bfc2c9a6df3",
+          "suffix": "006",
+          "rarity": "common",
+          "imageID": "a252fc90-4926-4f90-8129-07a5a5a463a2"
+        },
+        {
+          "id": "1451ab44-c967-4235-bcc1-b9470356abcf",
+          "card": "645e3e38-e76d-42bc-b53b-cf7d228ddf93",
+          "suffix": "007",
+          "rarity": "common",
+          "imageID": "f9cb5ecd-f8be-4570-8088-6dfc7f9d9f45"
+        },
+        {
+          "id": "fed6ba5d-2bed-490f-add5-37444d8fe027",
+          "card": "a050a740-1ffd-4089-aa4d-9efb2dec9ddc",
+          "suffix": "008",
+          "rarity": "common",
+          "imageID": "4420ffd7-2ace-4111-b5e4-275d4d7b2b34"
+        },
+        {
+          "id": "115dd924-10c7-4907-b346-80bef164f0f9",
+          "card": "643d4498-d45e-43f3-8979-e51a699b8117",
+          "suffix": "009",
+          "rarity": "common",
+          "imageID": "c9cd0a2f-0ef3-4cf0-97c7-f1f0a404cc1c"
+        },
+        {
+          "id": "ac34c8eb-e60f-4aea-9671-6f80c59dd734",
+          "card": "90ca0368-07f1-4c56-8a97-e7564246af43",
+          "suffix": "010",
+          "rarity": "rare",
+          "imageID": "61abc816-bbed-45de-ba7e-f301db13855d"
+        },
+        {
+          "id": "93f1abdf-71c2-43a7-9a33-7816aea7de92",
+          "card": "6f8af483-b26d-49e1-81b0-e9d079474d2a",
+          "suffix": "011",
+          "rarity": "ultra",
+          "imageID": "b89db9ff-beae-448d-82f6-5a74fce52a79"
+        },
+        {
+          "id": "0667a7b2-595c-4ea8-afd6-e0ecabd054f9",
+          "card": "eaa3291e-c784-4867-bda5-2cb9d19d187c",
+          "suffix": "012",
+          "rarity": "ultra",
+          "imageID": "6ecc4851-5f85-481f-8c2f-12b11ebdbec2"
+        },
+        {
+          "id": "e138bcf9-0e8e-46ca-9bec-0e0fcb7b753e",
+          "card": "56827c20-6762-4e70-8ea5-373df05685be",
+          "suffix": "013",
+          "rarity": "super",
+          "imageID": "850277f8-7aa7-430f-bb12-be73cd3bad02"
+        },
+        {
+          "id": "1861b477-aacb-426f-99fa-341165e336a2",
+          "card": "eb350ace-50b9-4b3b-9296-884f21fc213b",
+          "suffix": "014",
+          "rarity": "rare",
+          "imageID": "4fb2345c-574f-4385-a092-f8b04e11a2ed"
+        },
+        {
+          "id": "5c0f3545-67b2-42f5-8e02-e6ddd701ca24",
+          "card": "5c1bde5d-ded6-4f8e-b44b-42914e756b9b",
+          "suffix": "015",
+          "rarity": "rare",
+          "imageID": "633cf536-376b-40d4-9803-659088dcf53b"
+        },
+        {
+          "id": "8a42247b-57af-4319-a4ee-72ef8e4afaf4",
+          "card": "5322c423-3f7b-4703-becd-45edb59d42ad",
+          "suffix": "016",
+          "rarity": "super",
+          "imageID": "73c99191-6947-4d76-ac95-a47334302508"
+        },
+        {
+          "id": "db845471-c8dc-4bc5-9fe4-3038cb755d85",
+          "card": "a4705712-48cb-4b55-9224-ccc7f2ac8b44",
+          "suffix": "017",
+          "rarity": "common",
+          "imageID": "f809eb19-6e91-4ca4-9181-df7d881fc944"
+        },
+        {
+          "id": "cea12db1-6ecd-4726-841f-cf12e398752f",
+          "card": "bb73d277-f736-474a-a4f9-fa06a069e39b",
+          "suffix": "018",
+          "rarity": "common",
+          "imageID": "f225ecf1-f20d-43a0-a6c1-1987cecc8999"
+        },
+        {
+          "id": "09cfd914-a087-4ce0-a02d-126f92ae12f7",
+          "card": "732a8c7f-1724-4ec0-be97-d8879f631181",
+          "suffix": "019",
+          "rarity": "common",
+          "imageID": "6e1cf71e-f114-4025-88bb-e3f95bff0cc3"
+        },
+        {
+          "id": "213fecc5-27e5-4ea3-b6eb-1af6222dfb69",
+          "card": "92e38fd7-47fa-4181-9fa9-4798e2780a9c",
+          "suffix": "020",
+          "rarity": "common",
+          "imageID": "b9600ea8-cbe9-4b45-b94e-ccf0c022742e"
+        },
+        {
+          "id": "ea7a34cb-9cef-4914-bc8e-62346e7cbe5c",
+          "card": "c79db775-528b-44b2-8db1-451a97d01a06",
+          "suffix": "021",
+          "rarity": "common",
+          "imageID": "febcdb69-6c78-443c-a1c1-e9e396c95dca"
+        },
+        {
+          "id": "95b7272b-7eb3-478e-8bb7-42dd88762573",
+          "card": "7c348b07-03cc-4102-bebf-02c856972d47",
+          "suffix": "022",
+          "rarity": "common",
+          "imageID": "e983b476-b67b-420e-9b72-02fdbdbc37e3"
+        },
+        {
+          "id": "64f4c843-3296-4c0d-8cf0-bed674352785",
+          "card": "82024e4e-a6bb-4665-a913-588e5e2b38b3",
+          "suffix": "023",
+          "rarity": "common",
+          "imageID": "a5f1a9a3-6b40-4d5c-ac50-9968696bcafe"
+        },
+        {
+          "id": "e3b6b20c-8909-4b95-bc04-a632c82329b8",
+          "card": "adf2f261-b39d-4958-901e-4b78fbe675c5",
+          "suffix": "024",
+          "rarity": "common",
+          "imageID": "e7e7fbf1-c0e7-4e78-87f7-536fec866b04"
+        },
+        {
+          "id": "a89fcee5-c8ae-4935-990b-3aebb2dc6377",
+          "card": "d5692b8d-be25-4ecb-92d9-8e9cd3eb0262",
+          "suffix": "025",
+          "rarity": "common",
+          "imageID": "a286e604-a5cc-4109-9f2c-75834ab00b3e"
+        },
+        {
+          "id": "ab302952-577b-4c92-8042-e2692349fc2e",
+          "card": "c19823bb-31f1-4129-b7b0-a5f305135ccd",
+          "suffix": "026",
+          "rarity": "common",
+          "imageID": "2a6aa79e-a0eb-49b9-aaa4-b26ae3b6be57"
+        },
+        {
+          "id": "2cd80cda-2891-4e6c-aae2-bf6b4dcd5b75",
+          "card": "cc45efdd-cca9-472d-9fb0-ae55871e57d3",
+          "suffix": "027",
+          "rarity": "common",
+          "imageID": "2895b539-467c-48a8-8868-d9e5550f5672"
+        },
+        {
+          "id": "2b8fce05-784f-434a-a296-32c5ce0ee5c4",
+          "card": "a4ee854c-bd71-4788-aa1d-4da78174194b",
+          "suffix": "028",
+          "rarity": "common",
+          "imageID": "0cc58627-5cba-404c-a73a-9671274cd90c"
+        },
+        {
+          "id": "298d8231-e6b8-4b73-b3e0-f9e8e9ab2cb1",
+          "card": "ab6e6cce-9e4f-4d0e-94e4-e08e7c5d1733",
+          "suffix": "029",
+          "rarity": "super",
+          "imageID": "ece610d2-3b0d-4072-8572-790de8758ef3"
+        },
+        {
+          "id": "e6316c6c-f64f-49ac-86ef-c6a09ec85dc8",
+          "card": "0e080c8c-681f-4390-8670-4c6f65e85a3a",
+          "suffix": "030",
+          "rarity": "super",
+          "imageID": "27716359-7e7d-462b-ab92-9a13d63abdc4"
+        }
+      ],
+      "externalIDs": {
+        "ygoprodeck": "Duelist Pack: Crow"
+      }
+    },
+    {
+      "locales": [
+        "de"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "distrobution": "73af5c41-dac3-42eb-ac3d-7d6fd726703f",
+      "packsPerBox": 36,
+      "editions": [
+        "1st"
+      ],
+      "image": "https://ms.yugipedia.com//9/99/DP11-BoosterDE.png",
+      "cards": [
+        {
+          "id": "81765d10-37e0-48fb-a862-24af34e9a30a",
+          "card": "d34fca2d-efb2-4661-8022-580f07de6fc6",
+          "suffix": "001",
+          "rarity": "rare",
+          "imageID": "3df1c291-8eb4-4fbf-9e7f-d1b7a11ace37"
+        },
+        {
+          "id": "8ab653d3-9476-43cc-bbff-d575250bdebc",
+          "card": "b47eaa07-6fc3-4eed-a1fa-77bc30a3571a",
+          "suffix": "002",
+          "rarity": "rare",
+          "imageID": "1432a417-a003-4ed7-ae25-409dfcb8d9ae"
+        },
+        {
+          "id": "23b1287e-8a51-4732-9557-4b92d3f35680",
+          "card": "27379139-5f06-4257-b726-ce896f52f125",
+          "suffix": "003",
+          "rarity": "common",
+          "imageID": "7f892718-17c6-4262-9e6a-3c745c62a75c"
+        },
+        {
+          "id": "ef4f33dc-33b6-4196-a781-ae3ad68731d3",
+          "card": "e0a0701a-cd9e-4f90-9bcc-6d6d4f8e007d",
+          "suffix": "004",
+          "rarity": "rare",
+          "imageID": "35c26c19-ac6e-45dd-82f6-776d8385f42c"
+        },
+        {
+          "id": "5f858293-7d63-49ba-8cfe-f2119aa68f3c",
+          "card": "0e9f1d6a-fc00-4c5a-876c-562436987e24",
+          "suffix": "005",
+          "rarity": "rare",
+          "imageID": "7a39360f-b6a6-4a07-af0b-c781c7b8ef80"
+        },
+        {
+          "id": "e1f37ae0-68c1-4d84-b193-21033b568ef2",
+          "card": "84a41095-f530-4793-9b33-6bfc2c9a6df3",
+          "suffix": "006",
+          "rarity": "common",
+          "imageID": "a252fc90-4926-4f90-8129-07a5a5a463a2"
+        },
+        {
+          "id": "1451ab44-c967-4235-bcc1-b9470356abcf",
+          "card": "645e3e38-e76d-42bc-b53b-cf7d228ddf93",
+          "suffix": "007",
+          "rarity": "common",
+          "imageID": "f9cb5ecd-f8be-4570-8088-6dfc7f9d9f45"
+        },
+        {
+          "id": "fed6ba5d-2bed-490f-add5-37444d8fe027",
+          "card": "a050a740-1ffd-4089-aa4d-9efb2dec9ddc",
+          "suffix": "008",
+          "rarity": "common",
+          "imageID": "4420ffd7-2ace-4111-b5e4-275d4d7b2b34"
+        },
+        {
+          "id": "115dd924-10c7-4907-b346-80bef164f0f9",
+          "card": "643d4498-d45e-43f3-8979-e51a699b8117",
+          "suffix": "009",
+          "rarity": "common",
+          "imageID": "c9cd0a2f-0ef3-4cf0-97c7-f1f0a404cc1c"
+        },
+        {
+          "id": "ac34c8eb-e60f-4aea-9671-6f80c59dd734",
+          "card": "90ca0368-07f1-4c56-8a97-e7564246af43",
+          "suffix": "010",
+          "rarity": "rare",
+          "imageID": "61abc816-bbed-45de-ba7e-f301db13855d"
+        },
+        {
+          "id": "93f1abdf-71c2-43a7-9a33-7816aea7de92",
+          "card": "6f8af483-b26d-49e1-81b0-e9d079474d2a",
+          "suffix": "011",
+          "rarity": "ultra",
+          "imageID": "b89db9ff-beae-448d-82f6-5a74fce52a79"
+        },
+        {
+          "id": "0667a7b2-595c-4ea8-afd6-e0ecabd054f9",
+          "card": "eaa3291e-c784-4867-bda5-2cb9d19d187c",
+          "suffix": "012",
+          "rarity": "ultra",
+          "imageID": "6ecc4851-5f85-481f-8c2f-12b11ebdbec2"
+        },
+        {
+          "id": "e138bcf9-0e8e-46ca-9bec-0e0fcb7b753e",
+          "card": "56827c20-6762-4e70-8ea5-373df05685be",
+          "suffix": "013",
+          "rarity": "super",
+          "imageID": "850277f8-7aa7-430f-bb12-be73cd3bad02"
+        },
+        {
+          "id": "1861b477-aacb-426f-99fa-341165e336a2",
+          "card": "eb350ace-50b9-4b3b-9296-884f21fc213b",
+          "suffix": "014",
+          "rarity": "rare",
+          "imageID": "4fb2345c-574f-4385-a092-f8b04e11a2ed"
+        },
+        {
+          "id": "5c0f3545-67b2-42f5-8e02-e6ddd701ca24",
+          "card": "5c1bde5d-ded6-4f8e-b44b-42914e756b9b",
+          "suffix": "015",
+          "rarity": "rare",
+          "imageID": "633cf536-376b-40d4-9803-659088dcf53b"
+        },
+        {
+          "id": "8a42247b-57af-4319-a4ee-72ef8e4afaf4",
+          "card": "5322c423-3f7b-4703-becd-45edb59d42ad",
+          "suffix": "016",
+          "rarity": "super",
+          "imageID": "73c99191-6947-4d76-ac95-a47334302508"
+        },
+        {
+          "id": "db845471-c8dc-4bc5-9fe4-3038cb755d85",
+          "card": "a4705712-48cb-4b55-9224-ccc7f2ac8b44",
+          "suffix": "017",
+          "rarity": "common",
+          "imageID": "f809eb19-6e91-4ca4-9181-df7d881fc944"
+        },
+        {
+          "id": "cea12db1-6ecd-4726-841f-cf12e398752f",
+          "card": "bb73d277-f736-474a-a4f9-fa06a069e39b",
+          "suffix": "018",
+          "rarity": "common",
+          "imageID": "f225ecf1-f20d-43a0-a6c1-1987cecc8999"
+        },
+        {
+          "id": "09cfd914-a087-4ce0-a02d-126f92ae12f7",
+          "card": "732a8c7f-1724-4ec0-be97-d8879f631181",
+          "suffix": "019",
+          "rarity": "common",
+          "imageID": "6e1cf71e-f114-4025-88bb-e3f95bff0cc3"
+        },
+        {
+          "id": "213fecc5-27e5-4ea3-b6eb-1af6222dfb69",
+          "card": "92e38fd7-47fa-4181-9fa9-4798e2780a9c",
+          "suffix": "020",
+          "rarity": "common",
+          "imageID": "b9600ea8-cbe9-4b45-b94e-ccf0c022742e"
+        },
+        {
+          "id": "ea7a34cb-9cef-4914-bc8e-62346e7cbe5c",
+          "card": "c79db775-528b-44b2-8db1-451a97d01a06",
+          "suffix": "021",
+          "rarity": "common",
+          "imageID": "febcdb69-6c78-443c-a1c1-e9e396c95dca"
+        },
+        {
+          "id": "95b7272b-7eb3-478e-8bb7-42dd88762573",
+          "card": "7c348b07-03cc-4102-bebf-02c856972d47",
+          "suffix": "022",
+          "rarity": "common",
+          "imageID": "e983b476-b67b-420e-9b72-02fdbdbc37e3"
+        },
+        {
+          "id": "64f4c843-3296-4c0d-8cf0-bed674352785",
+          "card": "82024e4e-a6bb-4665-a913-588e5e2b38b3",
+          "suffix": "023",
+          "rarity": "common",
+          "imageID": "a5f1a9a3-6b40-4d5c-ac50-9968696bcafe"
+        },
+        {
+          "id": "e3b6b20c-8909-4b95-bc04-a632c82329b8",
+          "card": "adf2f261-b39d-4958-901e-4b78fbe675c5",
+          "suffix": "024",
+          "rarity": "common",
+          "imageID": "e7e7fbf1-c0e7-4e78-87f7-536fec866b04"
+        },
+        {
+          "id": "a89fcee5-c8ae-4935-990b-3aebb2dc6377",
+          "card": "d5692b8d-be25-4ecb-92d9-8e9cd3eb0262",
+          "suffix": "025",
+          "rarity": "common",
+          "imageID": "a286e604-a5cc-4109-9f2c-75834ab00b3e"
+        },
+        {
+          "id": "ab302952-577b-4c92-8042-e2692349fc2e",
+          "card": "c19823bb-31f1-4129-b7b0-a5f305135ccd",
+          "suffix": "026",
+          "rarity": "common",
+          "imageID": "2a6aa79e-a0eb-49b9-aaa4-b26ae3b6be57"
+        },
+        {
+          "id": "2cd80cda-2891-4e6c-aae2-bf6b4dcd5b75",
+          "card": "cc45efdd-cca9-472d-9fb0-ae55871e57d3",
+          "suffix": "027",
+          "rarity": "common",
+          "imageID": "2895b539-467c-48a8-8868-d9e5550f5672"
+        },
+        {
+          "id": "2b8fce05-784f-434a-a296-32c5ce0ee5c4",
+          "card": "a4ee854c-bd71-4788-aa1d-4da78174194b",
+          "suffix": "028",
+          "rarity": "common",
+          "imageID": "0cc58627-5cba-404c-a73a-9671274cd90c"
+        },
+        {
+          "id": "298d8231-e6b8-4b73-b3e0-f9e8e9ab2cb1",
+          "card": "ab6e6cce-9e4f-4d0e-94e4-e08e7c5d1733",
+          "suffix": "029",
+          "rarity": "super",
+          "imageID": "ece610d2-3b0d-4072-8572-790de8758ef3"
+        },
+        {
+          "id": "e6316c6c-f64f-49ac-86ef-c6a09ec85dc8",
+          "card": "0e080c8c-681f-4390-8670-4c6f65e85a3a",
+          "suffix": "030",
+          "rarity": "super",
+          "imageID": "27716359-7e7d-462b-ab92-9a13d63abdc4"
+        }
+      ],
+      "externalIDs": {
+        "ygoprodeck": "Duelist Pack: Crow"
+      }
+    },
+    {
+      "locales": [
+        "it"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "distrobution": "73af5c41-dac3-42eb-ac3d-7d6fd726703f",
+      "packsPerBox": 36,
+      "editions": [
+        "1st"
+      ],
+      "image": "https://ms.yugipedia.com//9/99/DP11-BoosterIT.png",
+      "cards": [
+        {
+          "id": "81765d10-37e0-48fb-a862-24af34e9a30a",
+          "card": "d34fca2d-efb2-4661-8022-580f07de6fc6",
+          "suffix": "001",
+          "rarity": "rare",
+          "imageID": "3df1c291-8eb4-4fbf-9e7f-d1b7a11ace37"
+        },
+        {
+          "id": "8ab653d3-9476-43cc-bbff-d575250bdebc",
+          "card": "b47eaa07-6fc3-4eed-a1fa-77bc30a3571a",
+          "suffix": "002",
+          "rarity": "rare",
+          "imageID": "1432a417-a003-4ed7-ae25-409dfcb8d9ae"
+        },
+        {
+          "id": "23b1287e-8a51-4732-9557-4b92d3f35680",
+          "card": "27379139-5f06-4257-b726-ce896f52f125",
+          "suffix": "003",
+          "rarity": "common",
+          "imageID": "7f892718-17c6-4262-9e6a-3c745c62a75c"
+        },
+        {
+          "id": "ef4f33dc-33b6-4196-a781-ae3ad68731d3",
+          "card": "e0a0701a-cd9e-4f90-9bcc-6d6d4f8e007d",
+          "suffix": "004",
+          "rarity": "rare",
+          "imageID": "35c26c19-ac6e-45dd-82f6-776d8385f42c"
+        },
+        {
+          "id": "5f858293-7d63-49ba-8cfe-f2119aa68f3c",
+          "card": "0e9f1d6a-fc00-4c5a-876c-562436987e24",
+          "suffix": "005",
+          "rarity": "rare",
+          "imageID": "7a39360f-b6a6-4a07-af0b-c781c7b8ef80"
+        },
+        {
+          "id": "e1f37ae0-68c1-4d84-b193-21033b568ef2",
+          "card": "84a41095-f530-4793-9b33-6bfc2c9a6df3",
+          "suffix": "006",
+          "rarity": "common",
+          "imageID": "a252fc90-4926-4f90-8129-07a5a5a463a2"
+        },
+        {
+          "id": "1451ab44-c967-4235-bcc1-b9470356abcf",
+          "card": "645e3e38-e76d-42bc-b53b-cf7d228ddf93",
+          "suffix": "007",
+          "rarity": "common",
+          "imageID": "f9cb5ecd-f8be-4570-8088-6dfc7f9d9f45"
+        },
+        {
+          "id": "fed6ba5d-2bed-490f-add5-37444d8fe027",
+          "card": "a050a740-1ffd-4089-aa4d-9efb2dec9ddc",
+          "suffix": "008",
+          "rarity": "common",
+          "imageID": "4420ffd7-2ace-4111-b5e4-275d4d7b2b34"
+        },
+        {
+          "id": "115dd924-10c7-4907-b346-80bef164f0f9",
+          "card": "643d4498-d45e-43f3-8979-e51a699b8117",
+          "suffix": "009",
+          "rarity": "common",
+          "imageID": "c9cd0a2f-0ef3-4cf0-97c7-f1f0a404cc1c"
+        },
+        {
+          "id": "ac34c8eb-e60f-4aea-9671-6f80c59dd734",
+          "card": "90ca0368-07f1-4c56-8a97-e7564246af43",
+          "suffix": "010",
+          "rarity": "rare",
+          "imageID": "61abc816-bbed-45de-ba7e-f301db13855d"
+        },
+        {
+          "id": "93f1abdf-71c2-43a7-9a33-7816aea7de92",
+          "card": "6f8af483-b26d-49e1-81b0-e9d079474d2a",
+          "suffix": "011",
+          "rarity": "ultra",
+          "imageID": "b89db9ff-beae-448d-82f6-5a74fce52a79"
+        },
+        {
+          "id": "0667a7b2-595c-4ea8-afd6-e0ecabd054f9",
+          "card": "eaa3291e-c784-4867-bda5-2cb9d19d187c",
+          "suffix": "012",
+          "rarity": "ultra",
+          "imageID": "6ecc4851-5f85-481f-8c2f-12b11ebdbec2"
+        },
+        {
+          "id": "e138bcf9-0e8e-46ca-9bec-0e0fcb7b753e",
+          "card": "56827c20-6762-4e70-8ea5-373df05685be",
+          "suffix": "013",
+          "rarity": "super",
+          "imageID": "850277f8-7aa7-430f-bb12-be73cd3bad02"
+        },
+        {
+          "id": "1861b477-aacb-426f-99fa-341165e336a2",
+          "card": "eb350ace-50b9-4b3b-9296-884f21fc213b",
+          "suffix": "014",
+          "rarity": "rare",
+          "imageID": "4fb2345c-574f-4385-a092-f8b04e11a2ed"
+        },
+        {
+          "id": "5c0f3545-67b2-42f5-8e02-e6ddd701ca24",
+          "card": "5c1bde5d-ded6-4f8e-b44b-42914e756b9b",
+          "suffix": "015",
+          "rarity": "rare",
+          "imageID": "633cf536-376b-40d4-9803-659088dcf53b"
+        },
+        {
+          "id": "8a42247b-57af-4319-a4ee-72ef8e4afaf4",
+          "card": "5322c423-3f7b-4703-becd-45edb59d42ad",
+          "suffix": "016",
+          "rarity": "super",
+          "imageID": "73c99191-6947-4d76-ac95-a47334302508"
+        },
+        {
+          "id": "db845471-c8dc-4bc5-9fe4-3038cb755d85",
+          "card": "a4705712-48cb-4b55-9224-ccc7f2ac8b44",
+          "suffix": "017",
+          "rarity": "common",
+          "imageID": "f809eb19-6e91-4ca4-9181-df7d881fc944"
+        },
+        {
+          "id": "cea12db1-6ecd-4726-841f-cf12e398752f",
+          "card": "bb73d277-f736-474a-a4f9-fa06a069e39b",
+          "suffix": "018",
+          "rarity": "common",
+          "imageID": "f225ecf1-f20d-43a0-a6c1-1987cecc8999"
+        },
+        {
+          "id": "09cfd914-a087-4ce0-a02d-126f92ae12f7",
+          "card": "732a8c7f-1724-4ec0-be97-d8879f631181",
+          "suffix": "019",
+          "rarity": "common",
+          "imageID": "6e1cf71e-f114-4025-88bb-e3f95bff0cc3"
+        },
+        {
+          "id": "213fecc5-27e5-4ea3-b6eb-1af6222dfb69",
+          "card": "92e38fd7-47fa-4181-9fa9-4798e2780a9c",
+          "suffix": "020",
+          "rarity": "common",
+          "imageID": "b9600ea8-cbe9-4b45-b94e-ccf0c022742e"
+        },
+        {
+          "id": "ea7a34cb-9cef-4914-bc8e-62346e7cbe5c",
+          "card": "c79db775-528b-44b2-8db1-451a97d01a06",
+          "suffix": "021",
+          "rarity": "common",
+          "imageID": "febcdb69-6c78-443c-a1c1-e9e396c95dca"
+        },
+        {
+          "id": "95b7272b-7eb3-478e-8bb7-42dd88762573",
+          "card": "7c348b07-03cc-4102-bebf-02c856972d47",
+          "suffix": "022",
+          "rarity": "common",
+          "imageID": "e983b476-b67b-420e-9b72-02fdbdbc37e3"
+        },
+        {
+          "id": "64f4c843-3296-4c0d-8cf0-bed674352785",
+          "card": "82024e4e-a6bb-4665-a913-588e5e2b38b3",
+          "suffix": "023",
+          "rarity": "common",
+          "imageID": "a5f1a9a3-6b40-4d5c-ac50-9968696bcafe"
+        },
+        {
+          "id": "e3b6b20c-8909-4b95-bc04-a632c82329b8",
+          "card": "adf2f261-b39d-4958-901e-4b78fbe675c5",
+          "suffix": "024",
+          "rarity": "common",
+          "imageID": "e7e7fbf1-c0e7-4e78-87f7-536fec866b04"
+        },
+        {
+          "id": "a89fcee5-c8ae-4935-990b-3aebb2dc6377",
+          "card": "d5692b8d-be25-4ecb-92d9-8e9cd3eb0262",
+          "suffix": "025",
+          "rarity": "common",
+          "imageID": "a286e604-a5cc-4109-9f2c-75834ab00b3e"
+        },
+        {
+          "id": "ab302952-577b-4c92-8042-e2692349fc2e",
+          "card": "c19823bb-31f1-4129-b7b0-a5f305135ccd",
+          "suffix": "026",
+          "rarity": "common",
+          "imageID": "2a6aa79e-a0eb-49b9-aaa4-b26ae3b6be57"
+        },
+        {
+          "id": "2cd80cda-2891-4e6c-aae2-bf6b4dcd5b75",
+          "card": "cc45efdd-cca9-472d-9fb0-ae55871e57d3",
+          "suffix": "027",
+          "rarity": "common",
+          "imageID": "2895b539-467c-48a8-8868-d9e5550f5672"
+        },
+        {
+          "id": "2b8fce05-784f-434a-a296-32c5ce0ee5c4",
+          "card": "a4ee854c-bd71-4788-aa1d-4da78174194b",
+          "suffix": "028",
+          "rarity": "common",
+          "imageID": "0cc58627-5cba-404c-a73a-9671274cd90c"
+        },
+        {
+          "id": "298d8231-e6b8-4b73-b3e0-f9e8e9ab2cb1",
+          "card": "ab6e6cce-9e4f-4d0e-94e4-e08e7c5d1733",
+          "suffix": "029",
+          "rarity": "super",
+          "imageID": "ece610d2-3b0d-4072-8572-790de8758ef3"
+        },
+        {
+          "id": "e6316c6c-f64f-49ac-86ef-c6a09ec85dc8",
+          "card": "0e080c8c-681f-4390-8670-4c6f65e85a3a",
+          "suffix": "030",
+          "rarity": "super",
+          "imageID": "27716359-7e7d-462b-ab92-9a13d63abdc4"
+        }
+      ],
+      "externalIDs": {
+        "ygoprodeck": "Duelist Pack: Crow"
+      }
+    },
+    {
+      "locales": [
+        "sp"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "distrobution": "73af5c41-dac3-42eb-ac3d-7d6fd726703f",
+      "packsPerBox": 36,
+      "editions": [
+        "1st"
+      ],
+      "image": "https://ms.yugipedia.com//5/59/DP11-BoosterSP.png",
+      "cards": [
+        {
+          "id": "81765d10-37e0-48fb-a862-24af34e9a30a",
+          "card": "d34fca2d-efb2-4661-8022-580f07de6fc6",
+          "suffix": "001",
+          "rarity": "rare",
+          "imageID": "3df1c291-8eb4-4fbf-9e7f-d1b7a11ace37"
+        },
+        {
+          "id": "8ab653d3-9476-43cc-bbff-d575250bdebc",
+          "card": "b47eaa07-6fc3-4eed-a1fa-77bc30a3571a",
+          "suffix": "002",
+          "rarity": "rare",
+          "imageID": "1432a417-a003-4ed7-ae25-409dfcb8d9ae"
+        },
+        {
+          "id": "23b1287e-8a51-4732-9557-4b92d3f35680",
+          "card": "27379139-5f06-4257-b726-ce896f52f125",
+          "suffix": "003",
+          "rarity": "common",
+          "imageID": "7f892718-17c6-4262-9e6a-3c745c62a75c"
+        },
+        {
+          "id": "ef4f33dc-33b6-4196-a781-ae3ad68731d3",
+          "card": "e0a0701a-cd9e-4f90-9bcc-6d6d4f8e007d",
+          "suffix": "004",
+          "rarity": "rare",
+          "imageID": "35c26c19-ac6e-45dd-82f6-776d8385f42c"
+        },
+        {
+          "id": "5f858293-7d63-49ba-8cfe-f2119aa68f3c",
+          "card": "0e9f1d6a-fc00-4c5a-876c-562436987e24",
+          "suffix": "005",
+          "rarity": "rare",
+          "imageID": "7a39360f-b6a6-4a07-af0b-c781c7b8ef80"
+        },
+        {
+          "id": "e1f37ae0-68c1-4d84-b193-21033b568ef2",
+          "card": "84a41095-f530-4793-9b33-6bfc2c9a6df3",
+          "suffix": "006",
+          "rarity": "common",
+          "imageID": "a252fc90-4926-4f90-8129-07a5a5a463a2"
+        },
+        {
+          "id": "1451ab44-c967-4235-bcc1-b9470356abcf",
+          "card": "645e3e38-e76d-42bc-b53b-cf7d228ddf93",
+          "suffix": "007",
+          "rarity": "common",
+          "imageID": "f9cb5ecd-f8be-4570-8088-6dfc7f9d9f45"
+        },
+        {
+          "id": "fed6ba5d-2bed-490f-add5-37444d8fe027",
+          "card": "a050a740-1ffd-4089-aa4d-9efb2dec9ddc",
+          "suffix": "008",
+          "rarity": "common",
+          "imageID": "4420ffd7-2ace-4111-b5e4-275d4d7b2b34"
+        },
+        {
+          "id": "115dd924-10c7-4907-b346-80bef164f0f9",
+          "card": "643d4498-d45e-43f3-8979-e51a699b8117",
+          "suffix": "009",
+          "rarity": "common",
+          "imageID": "c9cd0a2f-0ef3-4cf0-97c7-f1f0a404cc1c"
+        },
+        {
+          "id": "ac34c8eb-e60f-4aea-9671-6f80c59dd734",
+          "card": "90ca0368-07f1-4c56-8a97-e7564246af43",
+          "suffix": "010",
+          "rarity": "rare",
+          "imageID": "61abc816-bbed-45de-ba7e-f301db13855d"
+        },
+        {
+          "id": "93f1abdf-71c2-43a7-9a33-7816aea7de92",
+          "card": "6f8af483-b26d-49e1-81b0-e9d079474d2a",
+          "suffix": "011",
+          "rarity": "ultra",
+          "imageID": "b89db9ff-beae-448d-82f6-5a74fce52a79"
+        },
+        {
+          "id": "0667a7b2-595c-4ea8-afd6-e0ecabd054f9",
+          "card": "eaa3291e-c784-4867-bda5-2cb9d19d187c",
+          "suffix": "012",
+          "rarity": "ultra",
+          "imageID": "6ecc4851-5f85-481f-8c2f-12b11ebdbec2"
+        },
+        {
+          "id": "e138bcf9-0e8e-46ca-9bec-0e0fcb7b753e",
+          "card": "56827c20-6762-4e70-8ea5-373df05685be",
+          "suffix": "013",
+          "rarity": "super",
+          "imageID": "850277f8-7aa7-430f-bb12-be73cd3bad02"
+        },
+        {
+          "id": "1861b477-aacb-426f-99fa-341165e336a2",
+          "card": "eb350ace-50b9-4b3b-9296-884f21fc213b",
+          "suffix": "014",
+          "rarity": "rare",
+          "imageID": "4fb2345c-574f-4385-a092-f8b04e11a2ed"
+        },
+        {
+          "id": "5c0f3545-67b2-42f5-8e02-e6ddd701ca24",
+          "card": "5c1bde5d-ded6-4f8e-b44b-42914e756b9b",
+          "suffix": "015",
+          "rarity": "rare",
+          "imageID": "633cf536-376b-40d4-9803-659088dcf53b"
+        },
+        {
+          "id": "8a42247b-57af-4319-a4ee-72ef8e4afaf4",
+          "card": "5322c423-3f7b-4703-becd-45edb59d42ad",
+          "suffix": "016",
+          "rarity": "super",
+          "imageID": "73c99191-6947-4d76-ac95-a47334302508"
+        },
+        {
+          "id": "db845471-c8dc-4bc5-9fe4-3038cb755d85",
+          "card": "a4705712-48cb-4b55-9224-ccc7f2ac8b44",
+          "suffix": "017",
+          "rarity": "common",
+          "imageID": "f809eb19-6e91-4ca4-9181-df7d881fc944"
+        },
+        {
+          "id": "cea12db1-6ecd-4726-841f-cf12e398752f",
+          "card": "bb73d277-f736-474a-a4f9-fa06a069e39b",
+          "suffix": "018",
+          "rarity": "common",
+          "imageID": "f225ecf1-f20d-43a0-a6c1-1987cecc8999"
+        },
+        {
+          "id": "09cfd914-a087-4ce0-a02d-126f92ae12f7",
+          "card": "732a8c7f-1724-4ec0-be97-d8879f631181",
+          "suffix": "019",
+          "rarity": "common",
+          "imageID": "6e1cf71e-f114-4025-88bb-e3f95bff0cc3"
+        },
+        {
+          "id": "213fecc5-27e5-4ea3-b6eb-1af6222dfb69",
+          "card": "92e38fd7-47fa-4181-9fa9-4798e2780a9c",
+          "suffix": "020",
+          "rarity": "common",
+          "imageID": "b9600ea8-cbe9-4b45-b94e-ccf0c022742e"
+        },
+        {
+          "id": "ea7a34cb-9cef-4914-bc8e-62346e7cbe5c",
+          "card": "c79db775-528b-44b2-8db1-451a97d01a06",
+          "suffix": "021",
+          "rarity": "common",
+          "imageID": "febcdb69-6c78-443c-a1c1-e9e396c95dca"
+        },
+        {
+          "id": "95b7272b-7eb3-478e-8bb7-42dd88762573",
+          "card": "7c348b07-03cc-4102-bebf-02c856972d47",
+          "suffix": "022",
+          "rarity": "common",
+          "imageID": "e983b476-b67b-420e-9b72-02fdbdbc37e3"
+        },
+        {
+          "id": "64f4c843-3296-4c0d-8cf0-bed674352785",
+          "card": "82024e4e-a6bb-4665-a913-588e5e2b38b3",
+          "suffix": "023",
+          "rarity": "common",
+          "imageID": "a5f1a9a3-6b40-4d5c-ac50-9968696bcafe"
+        },
+        {
+          "id": "e3b6b20c-8909-4b95-bc04-a632c82329b8",
+          "card": "adf2f261-b39d-4958-901e-4b78fbe675c5",
+          "suffix": "024",
+          "rarity": "common",
+          "imageID": "e7e7fbf1-c0e7-4e78-87f7-536fec866b04"
+        },
+        {
+          "id": "a89fcee5-c8ae-4935-990b-3aebb2dc6377",
+          "card": "d5692b8d-be25-4ecb-92d9-8e9cd3eb0262",
+          "suffix": "025",
+          "rarity": "common",
+          "imageID": "a286e604-a5cc-4109-9f2c-75834ab00b3e"
+        },
+        {
+          "id": "ab302952-577b-4c92-8042-e2692349fc2e",
+          "card": "c19823bb-31f1-4129-b7b0-a5f305135ccd",
+          "suffix": "026",
+          "rarity": "common",
+          "imageID": "2a6aa79e-a0eb-49b9-aaa4-b26ae3b6be57"
+        },
+        {
+          "id": "2cd80cda-2891-4e6c-aae2-bf6b4dcd5b75",
+          "card": "cc45efdd-cca9-472d-9fb0-ae55871e57d3",
+          "suffix": "027",
+          "rarity": "common",
+          "imageID": "2895b539-467c-48a8-8868-d9e5550f5672"
+        },
+        {
+          "id": "2b8fce05-784f-434a-a296-32c5ce0ee5c4",
+          "card": "a4ee854c-bd71-4788-aa1d-4da78174194b",
+          "suffix": "028",
+          "rarity": "common",
+          "imageID": "0cc58627-5cba-404c-a73a-9671274cd90c"
+        },
+        {
+          "id": "298d8231-e6b8-4b73-b3e0-f9e8e9ab2cb1",
+          "card": "ab6e6cce-9e4f-4d0e-94e4-e08e7c5d1733",
+          "suffix": "029",
+          "rarity": "super",
+          "imageID": "ece610d2-3b0d-4072-8572-790de8758ef3"
+        },
+        {
+          "id": "e6316c6c-f64f-49ac-86ef-c6a09ec85dc8",
+          "card": "0e080c8c-681f-4390-8670-4c6f65e85a3a",
+          "suffix": "030",
+          "rarity": "super",
+          "imageID": "27716359-7e7d-462b-ab92-9a13d63abdc4"
+        }
+      ],
+      "externalIDs": {
+        "ygoprodeck": "Duelist Pack: Crow"
+      }
+    },
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "distrobution": "73af5c41-dac3-42eb-ac3d-7d6fd726703f",
+      "packsPerBox": 15,
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//9/93/DP11-BoosterJP.png",
+      "cards": [
+        {
+          "id": "81765d10-37e0-48fb-a862-24af34e9a30a",
+          "card": "d34fca2d-efb2-4661-8022-580f07de6fc6",
+          "suffix": "001",
+          "rarity": "rare",
+          "imageID": "3df1c291-8eb4-4fbf-9e7f-d1b7a11ace37",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "8ab653d3-9476-43cc-bbff-d575250bdebc",
+          "card": "b47eaa07-6fc3-4eed-a1fa-77bc30a3571a",
+          "suffix": "002",
+          "rarity": "rare",
+          "imageID": "1432a417-a003-4ed7-ae25-409dfcb8d9ae",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "23b1287e-8a51-4732-9557-4b92d3f35680",
+          "card": "27379139-5f06-4257-b726-ce896f52f125",
+          "suffix": "003",
+          "rarity": "common",
+          "imageID": "7f892718-17c6-4262-9e6a-3c745c62a75c",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "ef4f33dc-33b6-4196-a781-ae3ad68731d3",
+          "card": "e0a0701a-cd9e-4f90-9bcc-6d6d4f8e007d",
+          "suffix": "004",
+          "rarity": "rare",
+          "imageID": "35c26c19-ac6e-45dd-82f6-776d8385f42c",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "5f858293-7d63-49ba-8cfe-f2119aa68f3c",
+          "card": "0e9f1d6a-fc00-4c5a-876c-562436987e24",
+          "suffix": "005",
+          "rarity": "rare",
+          "imageID": "7a39360f-b6a6-4a07-af0b-c781c7b8ef80",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "e1f37ae0-68c1-4d84-b193-21033b568ef2",
+          "card": "84a41095-f530-4793-9b33-6bfc2c9a6df3",
+          "suffix": "006",
+          "rarity": "common",
+          "imageID": "a252fc90-4926-4f90-8129-07a5a5a463a2",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "1451ab44-c967-4235-bcc1-b9470356abcf",
+          "card": "645e3e38-e76d-42bc-b53b-cf7d228ddf93",
+          "suffix": "007",
+          "rarity": "common",
+          "imageID": "f9cb5ecd-f8be-4570-8088-6dfc7f9d9f45",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "fed6ba5d-2bed-490f-add5-37444d8fe027",
+          "card": "a050a740-1ffd-4089-aa4d-9efb2dec9ddc",
+          "suffix": "008",
+          "rarity": "common",
+          "imageID": "4420ffd7-2ace-4111-b5e4-275d4d7b2b34",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "115dd924-10c7-4907-b346-80bef164f0f9",
+          "card": "643d4498-d45e-43f3-8979-e51a699b8117",
+          "suffix": "009",
+          "rarity": "common",
+          "imageID": "c9cd0a2f-0ef3-4cf0-97c7-f1f0a404cc1c",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "ac34c8eb-e60f-4aea-9671-6f80c59dd734",
+          "card": "90ca0368-07f1-4c56-8a97-e7564246af43",
+          "suffix": "010",
+          "rarity": "rare",
+          "imageID": "61abc816-bbed-45de-ba7e-f301db13855d",
+          "printStatus": "new"
+        },
+        {
+          "id": "93f1abdf-71c2-43a7-9a33-7816aea7de92",
+          "card": "6f8af483-b26d-49e1-81b0-e9d079474d2a",
+          "suffix": "011",
+          "rarity": "ultra",
+          "imageID": "b89db9ff-beae-448d-82f6-5a74fce52a79",
+          "printStatus": "new"
+        },
+        {
+          "id": "0667a7b2-595c-4ea8-afd6-e0ecabd054f9",
+          "card": "eaa3291e-c784-4867-bda5-2cb9d19d187c",
+          "suffix": "012",
+          "rarity": "ultra",
+          "imageID": "6ecc4851-5f85-481f-8c2f-12b11ebdbec2",
+          "printStatus": "new"
+        },
+        {
+          "id": "e138bcf9-0e8e-46ca-9bec-0e0fcb7b753e",
+          "card": "56827c20-6762-4e70-8ea5-373df05685be",
+          "suffix": "013",
+          "rarity": "super",
+          "imageID": "850277f8-7aa7-430f-bb12-be73cd3bad02",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "1861b477-aacb-426f-99fa-341165e336a2",
+          "card": "eb350ace-50b9-4b3b-9296-884f21fc213b",
+          "suffix": "014",
+          "rarity": "rare",
+          "imageID": "4fb2345c-574f-4385-a092-f8b04e11a2ed",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "5c0f3545-67b2-42f5-8e02-e6ddd701ca24",
+          "card": "5c1bde5d-ded6-4f8e-b44b-42914e756b9b",
+          "suffix": "015",
+          "rarity": "rare",
+          "imageID": "633cf536-376b-40d4-9803-659088dcf53b",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "8a42247b-57af-4319-a4ee-72ef8e4afaf4",
+          "card": "5322c423-3f7b-4703-becd-45edb59d42ad",
+          "suffix": "016",
+          "rarity": "super",
+          "imageID": "73c99191-6947-4d76-ac95-a47334302508",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "db845471-c8dc-4bc5-9fe4-3038cb755d85",
+          "card": "a4705712-48cb-4b55-9224-ccc7f2ac8b44",
+          "suffix": "017",
+          "rarity": "common",
+          "imageID": "f809eb19-6e91-4ca4-9181-df7d881fc944",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "cea12db1-6ecd-4726-841f-cf12e398752f",
+          "card": "bb73d277-f736-474a-a4f9-fa06a069e39b",
+          "suffix": "018",
+          "rarity": "common",
+          "imageID": "f225ecf1-f20d-43a0-a6c1-1987cecc8999",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "09cfd914-a087-4ce0-a02d-126f92ae12f7",
+          "card": "732a8c7f-1724-4ec0-be97-d8879f631181",
+          "suffix": "019",
+          "rarity": "common",
+          "imageID": "6e1cf71e-f114-4025-88bb-e3f95bff0cc3",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "213fecc5-27e5-4ea3-b6eb-1af6222dfb69",
+          "card": "92e38fd7-47fa-4181-9fa9-4798e2780a9c",
+          "suffix": "020",
+          "rarity": "common",
+          "imageID": "b9600ea8-cbe9-4b45-b94e-ccf0c022742e",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "ea7a34cb-9cef-4914-bc8e-62346e7cbe5c",
+          "card": "c79db775-528b-44b2-8db1-451a97d01a06",
+          "suffix": "021",
+          "rarity": "common",
+          "imageID": "febcdb69-6c78-443c-a1c1-e9e396c95dca",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "95b7272b-7eb3-478e-8bb7-42dd88762573",
+          "card": "7c348b07-03cc-4102-bebf-02c856972d47",
+          "suffix": "022",
+          "rarity": "common",
+          "imageID": "e983b476-b67b-420e-9b72-02fdbdbc37e3",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "64f4c843-3296-4c0d-8cf0-bed674352785",
+          "card": "82024e4e-a6bb-4665-a913-588e5e2b38b3",
+          "suffix": "023",
+          "rarity": "common",
+          "imageID": "a5f1a9a3-6b40-4d5c-ac50-9968696bcafe",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "e3b6b20c-8909-4b95-bc04-a632c82329b8",
+          "card": "adf2f261-b39d-4958-901e-4b78fbe675c5",
+          "suffix": "024",
+          "rarity": "common",
+          "imageID": "e7e7fbf1-c0e7-4e78-87f7-536fec866b04",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "a89fcee5-c8ae-4935-990b-3aebb2dc6377",
+          "card": "d5692b8d-be25-4ecb-92d9-8e9cd3eb0262",
+          "suffix": "025",
+          "rarity": "common",
+          "imageID": "a286e604-a5cc-4109-9f2c-75834ab00b3e",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "ab302952-577b-4c92-8042-e2692349fc2e",
+          "card": "c19823bb-31f1-4129-b7b0-a5f305135ccd",
+          "suffix": "026",
+          "rarity": "common",
+          "imageID": "2a6aa79e-a0eb-49b9-aaa4-b26ae3b6be57",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "2cd80cda-2891-4e6c-aae2-bf6b4dcd5b75",
+          "card": "cc45efdd-cca9-472d-9fb0-ae55871e57d3",
+          "suffix": "027",
+          "rarity": "common",
+          "imageID": "2895b539-467c-48a8-8868-d9e5550f5672",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "2b8fce05-784f-434a-a296-32c5ce0ee5c4",
+          "card": "a4ee854c-bd71-4788-aa1d-4da78174194b",
+          "suffix": "028",
+          "rarity": "common",
+          "imageID": "0cc58627-5cba-404c-a73a-9671274cd90c",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "298d8231-e6b8-4b73-b3e0-f9e8e9ab2cb1",
+          "card": "ab6e6cce-9e4f-4d0e-94e4-e08e7c5d1733",
+          "suffix": "029",
+          "rarity": "super",
+          "imageID": "ece610d2-3b0d-4072-8572-790de8758ef3",
+          "printStatus": "new"
+        },
+        {
+          "id": "e6316c6c-f64f-49ac-86ef-c6a09ec85dc8",
+          "card": "0e080c8c-681f-4390-8670-4c6f65e85a3a",
+          "suffix": "030",
+          "rarity": "super",
+          "imageID": "27716359-7e7d-462b-ab92-9a13d63abdc4",
+          "printStatus": "new"
+        }
+      ],
+      "externalIDs": {
+        "ygoprodeck": "Duelist Pack: Crow"
+      }
+    },
+    {
+      "locales": [
+        "kr"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "distrobution": "73af5c41-dac3-42eb-ac3d-7d6fd726703f",
+      "packsPerBox": 15,
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//0/09/DP11-BoosterKR.png",
+      "cards": [
+        {
+          "id": "81765d10-37e0-48fb-a862-24af34e9a30a",
+          "card": "d34fca2d-efb2-4661-8022-580f07de6fc6",
+          "suffix": "001",
+          "rarity": "rare",
+          "imageID": "3df1c291-8eb4-4fbf-9e7f-d1b7a11ace37"
+        },
+        {
+          "id": "8ab653d3-9476-43cc-bbff-d575250bdebc",
+          "card": "b47eaa07-6fc3-4eed-a1fa-77bc30a3571a",
+          "suffix": "002",
+          "rarity": "rare",
+          "imageID": "1432a417-a003-4ed7-ae25-409dfcb8d9ae"
+        },
+        {
+          "id": "23b1287e-8a51-4732-9557-4b92d3f35680",
+          "card": "27379139-5f06-4257-b726-ce896f52f125",
+          "suffix": "003",
+          "rarity": "common",
+          "imageID": "7f892718-17c6-4262-9e6a-3c745c62a75c"
+        },
+        {
+          "id": "ef4f33dc-33b6-4196-a781-ae3ad68731d3",
+          "card": "e0a0701a-cd9e-4f90-9bcc-6d6d4f8e007d",
+          "suffix": "004",
+          "rarity": "rare",
+          "imageID": "35c26c19-ac6e-45dd-82f6-776d8385f42c"
+        },
+        {
+          "id": "5f858293-7d63-49ba-8cfe-f2119aa68f3c",
+          "card": "0e9f1d6a-fc00-4c5a-876c-562436987e24",
+          "suffix": "005",
+          "rarity": "rare",
+          "imageID": "7a39360f-b6a6-4a07-af0b-c781c7b8ef80"
+        },
+        {
+          "id": "e1f37ae0-68c1-4d84-b193-21033b568ef2",
+          "card": "84a41095-f530-4793-9b33-6bfc2c9a6df3",
+          "suffix": "006",
+          "rarity": "common",
+          "imageID": "a252fc90-4926-4f90-8129-07a5a5a463a2"
+        },
+        {
+          "id": "1451ab44-c967-4235-bcc1-b9470356abcf",
+          "card": "645e3e38-e76d-42bc-b53b-cf7d228ddf93",
+          "suffix": "007",
+          "rarity": "common",
+          "imageID": "f9cb5ecd-f8be-4570-8088-6dfc7f9d9f45"
+        },
+        {
+          "id": "fed6ba5d-2bed-490f-add5-37444d8fe027",
+          "card": "a050a740-1ffd-4089-aa4d-9efb2dec9ddc",
+          "suffix": "008",
+          "rarity": "common",
+          "imageID": "4420ffd7-2ace-4111-b5e4-275d4d7b2b34"
+        },
+        {
+          "id": "115dd924-10c7-4907-b346-80bef164f0f9",
+          "card": "643d4498-d45e-43f3-8979-e51a699b8117",
+          "suffix": "009",
+          "rarity": "common",
+          "imageID": "c9cd0a2f-0ef3-4cf0-97c7-f1f0a404cc1c"
+        },
+        {
+          "id": "ac34c8eb-e60f-4aea-9671-6f80c59dd734",
+          "card": "90ca0368-07f1-4c56-8a97-e7564246af43",
+          "suffix": "010",
+          "rarity": "rare",
+          "imageID": "61abc816-bbed-45de-ba7e-f301db13855d"
+        },
+        {
+          "id": "93f1abdf-71c2-43a7-9a33-7816aea7de92",
+          "card": "6f8af483-b26d-49e1-81b0-e9d079474d2a",
+          "suffix": "011",
+          "rarity": "ultra",
+          "imageID": "b89db9ff-beae-448d-82f6-5a74fce52a79"
+        },
+        {
+          "id": "0667a7b2-595c-4ea8-afd6-e0ecabd054f9",
+          "card": "eaa3291e-c784-4867-bda5-2cb9d19d187c",
+          "suffix": "012",
+          "rarity": "ultra",
+          "imageID": "6ecc4851-5f85-481f-8c2f-12b11ebdbec2"
+        },
+        {
+          "id": "e138bcf9-0e8e-46ca-9bec-0e0fcb7b753e",
+          "card": "56827c20-6762-4e70-8ea5-373df05685be",
+          "suffix": "013",
+          "rarity": "super",
+          "imageID": "850277f8-7aa7-430f-bb12-be73cd3bad02"
+        },
+        {
+          "id": "1861b477-aacb-426f-99fa-341165e336a2",
+          "card": "eb350ace-50b9-4b3b-9296-884f21fc213b",
+          "suffix": "014",
+          "rarity": "rare",
+          "imageID": "4fb2345c-574f-4385-a092-f8b04e11a2ed"
+        },
+        {
+          "id": "5c0f3545-67b2-42f5-8e02-e6ddd701ca24",
+          "card": "5c1bde5d-ded6-4f8e-b44b-42914e756b9b",
+          "suffix": "015",
+          "rarity": "rare",
+          "imageID": "633cf536-376b-40d4-9803-659088dcf53b"
+        },
+        {
+          "id": "8a42247b-57af-4319-a4ee-72ef8e4afaf4",
+          "card": "5322c423-3f7b-4703-becd-45edb59d42ad",
+          "suffix": "016",
+          "rarity": "super",
+          "imageID": "73c99191-6947-4d76-ac95-a47334302508"
+        },
+        {
+          "id": "db845471-c8dc-4bc5-9fe4-3038cb755d85",
+          "card": "a4705712-48cb-4b55-9224-ccc7f2ac8b44",
+          "suffix": "017",
+          "rarity": "common",
+          "imageID": "f809eb19-6e91-4ca4-9181-df7d881fc944"
+        },
+        {
+          "id": "cea12db1-6ecd-4726-841f-cf12e398752f",
+          "card": "bb73d277-f736-474a-a4f9-fa06a069e39b",
+          "suffix": "018",
+          "rarity": "common",
+          "imageID": "f225ecf1-f20d-43a0-a6c1-1987cecc8999"
+        },
+        {
+          "id": "09cfd914-a087-4ce0-a02d-126f92ae12f7",
+          "card": "732a8c7f-1724-4ec0-be97-d8879f631181",
+          "suffix": "019",
+          "rarity": "common",
+          "imageID": "6e1cf71e-f114-4025-88bb-e3f95bff0cc3"
+        },
+        {
+          "id": "213fecc5-27e5-4ea3-b6eb-1af6222dfb69",
+          "card": "92e38fd7-47fa-4181-9fa9-4798e2780a9c",
+          "suffix": "020",
+          "rarity": "common",
+          "imageID": "b9600ea8-cbe9-4b45-b94e-ccf0c022742e"
+        },
+        {
+          "id": "ea7a34cb-9cef-4914-bc8e-62346e7cbe5c",
+          "card": "c79db775-528b-44b2-8db1-451a97d01a06",
+          "suffix": "021",
+          "rarity": "common",
+          "imageID": "febcdb69-6c78-443c-a1c1-e9e396c95dca"
+        },
+        {
+          "id": "95b7272b-7eb3-478e-8bb7-42dd88762573",
+          "card": "7c348b07-03cc-4102-bebf-02c856972d47",
+          "suffix": "022",
+          "rarity": "common",
+          "imageID": "e983b476-b67b-420e-9b72-02fdbdbc37e3"
+        },
+        {
+          "id": "64f4c843-3296-4c0d-8cf0-bed674352785",
+          "card": "82024e4e-a6bb-4665-a913-588e5e2b38b3",
+          "suffix": "023",
+          "rarity": "common",
+          "imageID": "a5f1a9a3-6b40-4d5c-ac50-9968696bcafe"
+        },
+        {
+          "id": "e3b6b20c-8909-4b95-bc04-a632c82329b8",
+          "card": "adf2f261-b39d-4958-901e-4b78fbe675c5",
+          "suffix": "024",
+          "rarity": "common",
+          "imageID": "e7e7fbf1-c0e7-4e78-87f7-536fec866b04"
+        },
+        {
+          "id": "a89fcee5-c8ae-4935-990b-3aebb2dc6377",
+          "card": "d5692b8d-be25-4ecb-92d9-8e9cd3eb0262",
+          "suffix": "025",
+          "rarity": "common",
+          "imageID": "a286e604-a5cc-4109-9f2c-75834ab00b3e"
+        },
+        {
+          "id": "ab302952-577b-4c92-8042-e2692349fc2e",
+          "card": "c19823bb-31f1-4129-b7b0-a5f305135ccd",
+          "suffix": "026",
+          "rarity": "common",
+          "imageID": "2a6aa79e-a0eb-49b9-aaa4-b26ae3b6be57"
+        },
+        {
+          "id": "2cd80cda-2891-4e6c-aae2-bf6b4dcd5b75",
+          "card": "cc45efdd-cca9-472d-9fb0-ae55871e57d3",
+          "suffix": "027",
+          "rarity": "common",
+          "imageID": "2895b539-467c-48a8-8868-d9e5550f5672"
+        },
+        {
+          "id": "2b8fce05-784f-434a-a296-32c5ce0ee5c4",
+          "card": "a4ee854c-bd71-4788-aa1d-4da78174194b",
+          "suffix": "028",
+          "rarity": "common",
+          "imageID": "0cc58627-5cba-404c-a73a-9671274cd90c"
+        },
+        {
+          "id": "298d8231-e6b8-4b73-b3e0-f9e8e9ab2cb1",
+          "card": "ab6e6cce-9e4f-4d0e-94e4-e08e7c5d1733",
+          "suffix": "029",
+          "rarity": "super",
+          "imageID": "ece610d2-3b0d-4072-8572-790de8758ef3"
+        },
+        {
+          "id": "e6316c6c-f64f-49ac-86ef-c6a09ec85dc8",
+          "card": "0e080c8c-681f-4390-8670-4c6f65e85a3a",
+          "suffix": "030",
+          "rarity": "super",
+          "imageID": "27716359-7e7d-462b-ab92-9a13d63abdc4"
+        }
+      ],
+      "externalIDs": {
+        "ygoprodeck": "Duelist Pack: Crow"
+      }
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Duelist Pack: Crow",
+      "id": 139611
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "20220af9-0f5a-464f-931a-3400dae4baa3",
+  "text": {
+    "en": {
+      "name": "Tamatank Mk-II",
+      "effect": "Destroy 1 face-up card on your opponent's field. Then, you can destroy 1 face-down card on your opponent's field.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30bf\u30de\u30bf\u30f3\u30af\uff2d\uff4b\uff0d\u2161",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u306e\u30ab\u30fc\u30c9\uff11\u679a\u3092\u9078\u3093\u3067\u7834\u58ca\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u88cf\u5074\u8868\u793a\u306e\u30ab\u30fc\u30c9\uff11\u679a\u3092\u9078\u3093\u3067\u7834\u58ca\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud0c0\ub9c8\ud0f1\ud06c Mk\uff0d\u2161",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc\uc778 \uce74\ub4dc 1\uc7a5\uc744 \uace0\ub974\uace0 \ud30c\uad34\ud55c\ub2e4. \uadf8 \ud6c4, \uc0c1\ub300 \ud544\ub4dc\uc758 \ub4b7\uba74 \ud45c\uc2dc\uc778 \uce74\ub4dc 1\uc7a5\uc744 \uace0\ub974\uace0 \ud30c\uad34\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2500,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "57ba61f7-3b88-4ccf-bcf2-6803f00fa27d",
+      "card": "https://ms.yugipedia.com//0/02/TamatankMkII-RDKP21-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Tamatank Mk-II",
+        "id": 1127810
+      }
+    ],
+    "dbID": 21655
+  },
+  "series": [
+    "c0ff4286-d3ed-483b-ac32-1667318a4e47"
+  ]
+}

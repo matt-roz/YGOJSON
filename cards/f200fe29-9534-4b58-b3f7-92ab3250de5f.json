@@ -1,0 +1,40 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "f200fe29-9534-4b58-b3f7-92ab3250de5f",
+  "text": {
+    "en": {
+      "name": "Pair Collision",
+      "effect": "Monsters cannot be destroyed by that battle.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u5bfe\u885d\u7a81",
+      "effect": "\u304a\u4e92\u3044\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u306f\u305d\u306e\u6226\u95d8\u3067\u7834\u58ca\u3055\u308c\u306a\u3044\u3002"
+    },
+    "ko": {
+      "name": "\uc30d\ucda9\ub3cc",
+      "effect": "\uc11c\ub85c\uc758 \ubaac\uc2a4\ud130\ub294 \uadf8 \uc804\ud22c\ub85c \ud30c\uad34\ub418\uc9c0 \uc54a\ub294\ub2e4."
+    }
+  },
+  "cardType": "trap",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "c6df4ee5-d215-427f-81cd-3517a8f8b103",
+      "card": "https://ms.yugipedia.com//f/f5/PairCollision-RDKP07-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Pair Collision",
+        "id": 716150
+      }
+    ],
+    "dbID": 17022
+  },
+  "series": []
+}

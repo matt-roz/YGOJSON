@@ -1,0 +1,68 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "dc77aa83-cedd-457b-aa1e-ce9c8758eadd",
+  "text": {
+    "en": {
+      "name": "Amazing Dealer",
+      "effect": "Send 3 cards from your hand to the Graveyard. Then, draw 3 cards."
+    },
+    "fr": {
+      "name": "Donneur Impressionnant"
+    },
+    "de": {
+      "name": "Erstaunlicher Austeiler"
+    },
+    "it": {
+      "name": "Mazziere Incredibile"
+    },
+    "es": {
+      "name": "Distribuidor Maravilloso"
+    },
+    "ja": {
+      "name": "\u30a2\u30e1\u30a4\u30b8\u30f3\u30b0\u30fb\u30c7\u30a3\u30fc\u30e9\u30fc",
+      "effect": "\u81ea\u5206\u306e\u624b\u672d\uff13\u679a\u3092\u9078\u3093\u3067\u5893\u5730\u3078\u9001\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306f\uff13\u679a\u30c9\u30ed\u30fc\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc5b4\uba54\uc774\uc9d5 \ub51c\ub7ec",
+      "effect": "\uc790\uc2e0\uc758 \ud328 3\uc7a5\uc744 \uace0\ub974\uace0 \ubb18\uc9c0\ub85c \ubcf4\ub0b8\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0\uc740 3\uc7a5 \ub4dc\ub85c\uc6b0\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "type": "spellcaster",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 0,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "b3f8b179-a4e4-4319-8152-6376c923bc8c",
+      "card": "https://ms.yugipedia.com//a/a9/AmazingDealer-RD5TH1-JP-SPR.png"
+    }
+  ],
+  "sets": [
+    "9fedf2d0-5ae8-4861-b6f6-654c2d8aefeb",
+    "fa6096f7-75e2-43af-90f5-a5bbc2febd9a",
+    "539832b2-9b51-4743-a71f-881a26a5f349",
+    "539832b2-9b51-4743-a71f-881a26a5f349",
+    "29280529-be04-4a88-b2a3-acb63a018731",
+    "29280529-be04-4a88-b2a3-acb63a018731"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Amazing Dealer",
+        "id": 712735
+      }
+    ],
+    "dbID": 16772
+  },
+  "series": []
+}

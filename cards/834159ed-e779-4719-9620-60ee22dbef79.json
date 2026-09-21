@@ -1,0 +1,82 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "834159ed-e779-4719-9620-60ee22dbef79",
+  "text": {
+    "en": {
+      "name": "Esperade the Smashing Superstar",
+      "effect": "Destroy up to 2 monsters on your opponent's field."
+    },
+    "fr": {
+      "name": "Esp\u00e9rade la Superstar Fracassante",
+      "effect": "D\u00e9truisez max. 2 monstres sur le Terrain de votre adversaire."
+    },
+    "de": {
+      "name": "Esperade der zerst\u00f6rerische Superstar",
+      "effect": "Zerst\u00f6re bis zu 2 Monster auf dem Spielfeld deines Gegners."
+    },
+    "it": {
+      "name": "Esperade la Polverizzante Superstar",
+      "effect": "Distruggi fino a 2 mostri sul Terreno del tuo avversario."
+    },
+    "es": {
+      "name": "Esperade la Superestrella Aplastante",
+      "effect": "Destruye hasta 2 monstruos en el Campo de tu adversario."
+    },
+    "ja": {
+      "name": "\u7815\u5149\u306e\u30a8\u30b9\u30d1\u30ec\u30a4\u30c9",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u3092\uff12\u4f53\u307e\u3067\u9078\u3093\u3067\u7834\u58ca\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc1c4\uad11\uc758 \uc5d0\uc2a4\ud30c\ub808\uc774\ub4dc",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \ubaac\uc2a4\ud130\ub97c 2\uc7a5\uae4c\uc9c0 \uace0\ub974\uace0 \ud30c\uad34\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "psychic",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2500,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "5fb74ec0-5bd9-40ca-b627-e07695bb3fb5",
+      "card": "https://ms.yugipedia.com//5/57/EsperadetheSmashingSuperstar-RDSBD4-JP-C.png"
+    },
+    {
+      "id": "43b22ee4-743e-47b3-a871-36fcc5e5e306",
+      "card": "https://ms.yugipedia.com//c/c1/EsperadetheSmashingSuperstar-RDSBD4-KR-C.png"
+    },
+    {
+      "id": "e9322cc9-848f-4e66-84a1-6ae0e3f5f4b4",
+      "card": "https://ms.yugipedia.com//2/2b/EsperadetheSmashingSuperstar-RDKP15-JP-ORR.png"
+    },
+    {
+      "id": "67051841-c553-4b38-9c4d-07ff8fbe7c0e",
+      "card": "https://ms.yugipedia.com//d/de/EsperadetheSmashingSuperstar-RDKP15-KR-ORR.png"
+    }
+  ],
+  "sets": [
+    "9f297267-1ebc-44e2-b4a4-d3e5fea47c30",
+    "9f297267-1ebc-44e2-b4a4-d3e5fea47c30"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Esperade the Smashing Superstar",
+        "id": 714812
+      }
+    ],
+    "dbID": 15435
+  },
+  "series": [
+    "d44dfc09-8d68-4b5a-ad5a-b70e6583268b"
+  ]
+}

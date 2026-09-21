@@ -1,0 +1,42 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "52cd039c-9209-4509-8135-78121a33bd25",
+  "text": {
+    "en": {
+      "name": "Bracchio-raidus (Rush Duel)",
+      "effect": "\"Two-Headed King Rex\" + \"Crawling Dragon #2\""
+    },
+    "ko": {
+      "name": "\ube0c\ub77c\ud0a4\uc624 \ub808\uc774\ub354\uc2a4",
+      "effect": "\"\ub450 \uba38\ub9ac\uc758 \ud0b9\ub809\uc2a4\" \uff0b \"\uc2dc\uccb4\ub97c \uba39\ub294 \uc6a9\""
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "dinosaur",
+  "level": 6,
+  "atk": 2200,
+  "def": 2000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "054077c7-87ee-4866-9e26-55d454cf1c2a",
+      "card": "https://ms.yugipedia.com//1/1a/Bracchioraidus-RDTB02-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Bracchio-raidus (Rush Duel)",
+        "id": 1101516
+      }
+    ],
+    "dbID": 21118
+  },
+  "series": []
+}

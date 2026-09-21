@@ -1,0 +1,46 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "ce777907-c3fc-416b-b6b5-0824bf54a01f",
+  "text": {
+    "en": {
+      "name": "Cornful Charity",
+      "effect": "Draw 2 cards. Then, place 1 card from your hand on the bottom of the Deck."
+    },
+    "ja": {
+      "name": "\u5929\u4f7f\u306e\u3082\u308d\u3053\u3057",
+      "effect": "\u81ea\u5206\u306f\uff12\u679a\u30c9\u30ed\u30fc\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306f\u624b\u672d\uff11\u679a\u3092\u9078\u3093\u3067\u30c7\u30c3\u30ad\u306e\u4e0b\u306b\u623b\u3059\u3002"
+    },
+    "ko": {
+      "name": "\ucc9c\uc0ac\uc758 \uc625\uc218\uc218",
+      "effect": "\uc790\uc2e0\uc740 2\uc7a5 \ub4dc\ub85c\uc6b0\ud55c\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0\uc740 \ud328 1\uc7a5\uc744 \uace0\ub974\uace0 \ub371 \uc544\ub798\ub85c \ub418\ub3cc\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "ec0d8acc-d3e9-4554-b6cf-5f4086e15758",
+      "card": "https://ms.yugipedia.com//6/67/CornfulCharity-RDAP01-JP-C.png"
+    }
+  ],
+  "sets": [
+    "4c887f72-12bb-4f1a-80de-38526bb09a9e"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Cornful Charity",
+        "id": 1052574
+      }
+    ],
+    "dbID": 20149
+  },
+  "series": [
+    "280a9d17-e91f-4b1a-a8c8-d76977cd2cdd"
+  ]
+}

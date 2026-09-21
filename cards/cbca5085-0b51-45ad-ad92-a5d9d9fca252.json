@@ -1,0 +1,40 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "cbca5085-0b51-45ad-ad92-a5d9d9fca252",
+  "text": {
+    "en": {
+      "name": "Sakuretsu Force",
+      "effect": "The attacking monster loses 500 ATK until the end of this turn. Then, if you have \"Sakuretsu Armor\" in your Graveyard, you can destroy up to 2 Attack Position monsters on your opponent's field.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u8056\u306a\u308b\u88c5\u7532 \uff0d\u70b8\u88c2\u30d5\u30a9\u30fc\u30b9\uff0d",
+      "effect": "\u653b\u6483\u3057\u3066\u304d\u305f\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u653b\u6483\u529b\u306f\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\uff15\uff10\uff10\u30c0\u30a6\u30f3\u3059\u308b\u3002\u81ea\u5206\u306e\u5893\u5730\u306b\u300c\u70b8\u88c2\u88c5\u7532\u300d\u304c\u3042\u308b\u5834\u5408\u3001\u3055\u3089\u306b\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u653b\u6483\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\u3092\uff12\u4f53\u307e\u3067\u9078\u3093\u3067\u7834\u58ca\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc131\uc2a4\ub7ec\uc6b4 \uc7a5\uac11 \uff0d\uc791\ub82c \ud3ec\uc2a4\uff0d",
+      "effect": "\uacf5\uaca9\ud574 \uc628 \ubaac\uc2a4\ud130\uc758 \uacf5\uaca9\ub825\uc740 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0 500 \ub0b4\ub9b0\ub2e4. \uc790\uc2e0 \ubb18\uc9c0\uc5d0 \"\uc791\ub82c \uc7a5\uac11\"\uc774 \uc788\uc744 \uacbd\uc6b0, \ucd94\uac00\ub85c \uc0c1\ub300 \ud544\ub4dc\uc758 \uacf5\uaca9 \ud45c\uc2dc \ubaac\uc2a4\ud130\ub97c 2\uc7a5\uae4c\uc9c0 \uace0\ub974\uace0 \ud30c\uad34\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "trap",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "35f406d8-fa2b-430f-b1e3-1acdc2a70d28",
+      "card": "https://ms.yugipedia.com//1/18/SakuretsuForce-RDKP08-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Sakuretsu Force",
+        "id": 716573
+      }
+    ],
+    "dbID": 17339
+  },
+  "series": []
+}

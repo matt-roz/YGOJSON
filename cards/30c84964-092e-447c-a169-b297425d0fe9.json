@@ -1,0 +1,54 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "30c84964-092e-447c-a169-b297425d0fe9",
+  "text": {
+    "en": {
+      "name": "All-Seeing Harvey",
+      "effect": "Look at 1 face-down card on your opponent's field. If that card is a Monster Card with 1500 or more DEF, you can also destroy it."
+    },
+    "ja": {
+      "name": "\u898b\u5207\u308a\u306e\u30cf\u30fc\u30f4\u30a7\u30a4",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u88cf\u5074\u8868\u793a\u306e\u30ab\u30fc\u30c9\uff11\u679a\u3092\u9078\u3093\u3067\u78ba\u8a8d\u3059\u308b\u3002\u305d\u306e\u30ab\u30fc\u30c9\u304c\u30e2\u30f3\u30b9\u30bf\u30fc\u30ab\u30fc\u30c9\uff08\u5b88\u5099\u529b\uff11\uff15\uff10\uff10\u4ee5\u4e0a\uff09\u3060\u3063\u305f\u5834\u5408\u3001\u3055\u3089\u306b\u305d\u306e\u30ab\u30fc\u30c9\u3092\u7834\u58ca\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uac04\ud30c\uc758 \ud558\ubca0\uc774",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \ub4b7\uba74 \ud45c\uc2dc\uc778 \uce74\ub4dc 1\uc7a5\uc744 \uace0\ub974\uace0 \ud655\uc778\ud55c\ub2e4. \uadf8 \uce74\ub4dc\uac00 \ubaac\uc2a4\ud130 \uce74\ub4dc(\uc218\ube44\ub825 1500 \uc774\uc0c1)\uc600\uc744 \uacbd\uc6b0, \ucd94\uac00\ub85c \uadf8 \uce74\ub4dc\ub97c \ud30c\uad34\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1300,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "db15356f-796f-4a21-9117-f2d46a0f4274",
+      "card": "https://ms.yugipedia.com//7/7d/AllSeeingHarvey-RDSD0F-JP-C.png"
+    }
+  ],
+  "sets": [
+    "a08d0d55-5282-4487-b8b3-a190adb90edf",
+    "a6b12f39-c8d9-4ead-87f7-7ea71d365768",
+    "e2b816ef-5178-4aa9-b864-7248f545e896",
+    "e2b816ef-5178-4aa9-b864-7248f545e896"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "All-Seeing Harvey",
+        "id": 1001559
+      }
+    ],
+    "dbID": 19317
+  },
+  "series": []
+}

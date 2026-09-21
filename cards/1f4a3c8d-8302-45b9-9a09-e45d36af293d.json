@@ -1,0 +1,50 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "1f4a3c8d-8302-45b9-9a09-e45d36af293d",
+  "text": {
+    "en": {
+      "name": "Lastcal Chainverse",
+      "effect": "Draw 3 cards. Then, place 2 cards from your hand on the bottom of the Deck in any order. This turn, you cannot activate the effect of \"Lastcal Chainverse\".",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30e9\u30b9\u30c8\u30ab\u30eb\u30fb\u30c1\u30a7\u30a4\u30f3\u30d0\u30fc\u30b9",
+      "effect": "\u81ea\u5206\u306f\uff13\u679a\u30c9\u30ed\u30fc\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u624b\u672d\uff12\u679a\u3092\u9078\u3093\u3067\u597d\u304d\u306a\u9806\u756a\u3067\u30c7\u30c3\u30ad\u306e\u4e0b\u306b\u623b\u3059\u3002\u3053\u306e\u30bf\u30fc\u30f3\u3001\u81ea\u5206\u306f\u300c\u30e9\u30b9\u30c8\u30ab\u30eb\u30fb\u30c1\u30a7\u30a4\u30f3\u30d0\u30fc\u30b9\u300d\u306e\u52b9\u679c\u3092\u767a\u52d5\u3067\u304d\u306a\u3044\u3002"
+    },
+    "ko": {
+      "name": "\ub77c\uc2a4\ud2b8\uceec \uccb4\uc778\ubc84\uc2a4",
+      "effect": "\uc790\uc2e0\uc740 3\uc7a5 \ub4dc\ub85c\uc6b0\ud55c\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0\uc758 \ud328 2\uc7a5\uc744 \uace0\ub974\uace0 \uc88b\uc544\ud558\ub294 \uc21c\uc11c\ub300\ub85c \ub371 \uc544\ub798\ub85c \ub418\ub3cc\ub9b0\ub2e4. \uc774 \ud134\uc5d0, \uc790\uc2e0\uc740 \"\ub77c\uc2a4\ud2b8\uceec \uccb4\uc778\ubc84\uc2a4\"\uc758 \ud6a8\uacfc\ub97c \ubc1c\ub3d9\ud560 \uc218 \uc5c6\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "wind",
+  "classifications": [
+    "effect"
+  ],
+  "level": 9,
+  "atk": 1500,
+  "def": 1500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "4885e953-2363-410f-9baa-6a0f3d9ecf55",
+      "card": "https://ms.yugipedia.com//7/74/LastcalChainverse-RDKP24-JP-SR.png"
+    },
+    {
+      "id": "287a8745-c4b8-438d-b48b-f9a1211cf657",
+      "card": "https://ms.yugipedia.com//c/c1/LastcalChainverse-RDKP24-JP-ORRBlack.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Lastcal Chainverse",
+        "id": 1170246
+      }
+    ],
+    "dbID": 22897
+  },
+  "series": []
+}

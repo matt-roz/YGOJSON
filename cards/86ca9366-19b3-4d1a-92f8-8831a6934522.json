@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "86ca9366-19b3-4d1a-92f8-8831a6934522",
+  "text": {
+    "en": {
+      "name": "Interscrime",
+      "effect": "Fusion Summon a LIGHT Attribute Galaxy Type monster by sending monsters from your hand or field to the Graveyard as material, including this card.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30a4\u30f3\u30bf\u30fc\u30b9\u30af\u30e9\u30a4\u30e0",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u3092\u542b\u3080\u81ea\u5206\u306e\u624b\u672d\u30fb\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u3092\u7d20\u6750\u3068\u3057\u3066\u5893\u5730\u3078\u9001\u308a\u3001\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u5149\u5c5e\u6027\uff0f\u30ae\u30e3\u30e9\u30af\u30b7\u30fc\u65cf\uff09\u3092\u30d5\u30e5\u30fc\u30b8\u30e7\u30f3\u53ec\u559a\u3059\u308b\u3002"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 2000,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "28451e1a-7031-4822-827b-024a93976cf2",
+      "card": "https://ms.yugipedia.com//b/b1/Interscrime-RDKP25-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Interscrime",
+        "id": 1185737
+      }
+    ],
+    "dbID": 23237
+  },
+  "series": []
+}

@@ -1,0 +1,54 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "a7330944-9761-4dd7-93fb-dff122c35d94",
+  "text": {
+    "en": {
+      "name": "Omega Guitarna the Shining Megastar",
+      "effect": "\u25cfThis card gains ATK equal to [the number of monsters on your opponent's field] x 1000 until the end of this turn. This turn, this card cannot be destroyed by your opponent's Trap Card effects. \u25cfDestroy 1 Spell/Trap Card on your opponent's field."
+    },
+    "ja": {
+      "name": "\u5f69\u5149\u8d85\u30aa\u30e1\u30ac\u30ae\u30bf\u30fc\u30ca",
+      "effect": "\u25cf\u3053\u306e\u30ab\u30fc\u30c9\u306e\u653b\u6483\u529b\u306f\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\u3001\uff3b\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u6570\uff3d\u00d7\uff11\uff10\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002\u3053\u306e\u30bf\u30fc\u30f3\u3001\u3053\u306e\u30ab\u30fc\u30c9\u306f\u76f8\u624b\u306e\u7f60\u30ab\u30fc\u30c9\u306e\u52b9\u679c\u3067\u306f\u7834\u58ca\u3055\u308c\u306a\u3044\u3002\u25cf\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u9b54\u6cd5\u30fb\u7f60\u30ab\u30fc\u30c9\uff11\u679a\u3092\u9078\u3093\u3067\u7834\u58ca\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ucc44\uad11\ucd08 \uc624\uba54\uac00\uae30\ud0c0\ub098",
+      "effect": "\u25cf\uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\ub825\uc740 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0, [\uc0c1\ub300 \ud544\ub4dc\uc758 \ubaac\uc2a4\ud130\uc758 \uc218] \u00d7 1000 \uc62c\ub9b0\ub2e4. \uc774 \ud134\uc5d0, \uc774 \uce74\ub4dc\ub294 \uc0c1\ub300 \ud568\uc815 \uce74\ub4dc\uc758 \ud6a8\uacfc\ub85c\ub294 \ud30c\uad34\ub418\uc9c0 \uc54a\ub294\ub2e4. \u25cf\uc0c1\ub300 \ud544\ub4dc\uc758 \ub9c8\ubc95 / \ud568\uc815 \uce74\ub4dc 1\uc7a5\uc744 \uace0\ub974\uace0 \ud30c\uad34\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "classifications": [
+    "effect"
+  ],
+  "level": 9,
+  "atk": 2900,
+  "def": 2000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "e52b8c9c-ef73-4de3-9482-2bde2b33d7ca",
+      "card": "https://ms.yugipedia.com//6/6f/OmegaGuitarnatheShiningMegastar-RDMRP1-JP-SR.png"
+    },
+    {
+      "id": "f54edf49-76cd-4785-8d23-b4dfe681541a",
+      "card": "https://ms.yugipedia.com//9/94/OmegaGuitarnatheShiningMegastar-RDMRP1-KR-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Omega Guitarna the Shining Megastar",
+        "id": 716104
+      }
+    ],
+    "dbID": 17678
+  },
+  "series": [
+    "d44dfc09-8d68-4b5a-ad5a-b70e6583268b"
+  ]
+}

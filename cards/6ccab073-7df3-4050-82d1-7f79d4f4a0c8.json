@@ -1,0 +1,39 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "6ccab073-7df3-4050-82d1-7f79d4f4a0c8",
+  "text": {
+    "en": {
+      "name": "Tour Guide From the Underworld (Rush Duel)",
+      "effect": "Special Summon 1 Level 3 Fiend Type monster from your Graveyard face-up to your field.",
+      "official": false
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "fiend",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 1000,
+  "def": 600,
+  "passwords": [],
+  "images": [
+    {
+      "id": "54e38138-2920-42d4-aaf3-6767d1fbc988",
+      "card": "https://ms.yugipedia.com//2/27/TourGuideFromtheUnderworld-RDKP25-JP-UR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Tour Guide From the Underworld (Rush Duel)",
+        "id": 1184129
+      }
+    ],
+    "dbID": 23227
+  },
+  "series": []
+}

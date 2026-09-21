@@ -1,0 +1,1142 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "98d4450e-88bb-4db3-9083-589a41ce5ddc",
+  "name": {
+    "en": "Premium Pack",
+    "fr": "Paquet Premium",
+    "de": "Premium Pack",
+    "it": "Pack Premium"
+  },
+  "locales": {
+    "en": {
+      "language": "en",
+      "prefix": "PP01-EN",
+      "date": "2007-07-26",
+      "image": "https://ms.yugipedia.com//c/c0/PP01-BoosterEN.jpg",
+      "cardImages": {
+        "unlimited": {
+          "05c56bdf-01fc-44ea-ac5d-5f03f8794526": "https://ms.yugipedia.com//d/d5/ZeraRitual-PP01-EN-SR-UE.jpg",
+          "1056dfc3-c6fe-4706-bcf5-d48705ee57d5": "https://ms.yugipedia.com//9/97/JavelinBeetlePact-PP01-EN-SR-UE.jpg",
+          "232e01b9-5dec-46c1-93ab-386f2268f855": "https://ms.yugipedia.com//1/19/BlackMagicRitual-PP01-EN-ScR-UE.jpg",
+          "3661ca38-901d-4923-88f8-f8b113ac12e5": "https://ms.yugipedia.com//c/c4/LegacyofYataGarasu-PP01-EN-ScR-UE.jpg",
+          "4179f00c-cd5f-44bf-9222-c965d0c70fb4": "https://ms.yugipedia.com//9/9a/Metalmorph-PP01-EN-ScR-UE.png",
+          "425e4ae2-4fd4-4134-96f0-268c4b7ad275": "https://ms.yugipedia.com//e/ea/LegacyofYataGarasu-PP01-EN-SR-UE.jpg",
+          "5ff5a180-cb4b-4e00-a2f4-544a28ef8c5c": "https://ms.yugipedia.com//9/9b/ZeratheMant-PP01-EN-ScR-UE.jpg",
+          "68a979e5-1178-422f-9af5-f4b394f7ff48": "https://ms.yugipedia.com//5/5e/GeminiImps-PP01-EN-ScR-UE.jpg",
+          "6b300495-d934-4227-95d6-7c108c1d4b60": "https://ms.yugipedia.com//f/fa/JavelinBeetle-PP01-EN-SR-UE.jpg",
+          "715c8ae6-b56b-4cb6-93c7-feee41f27edc": "https://ms.yugipedia.com//9/9c/ZeraRitual-PP01-EN-ScR-UE.jpg",
+          "8689d59d-719e-45ca-a911-a7d2f6233ae0": "https://ms.yugipedia.com//c/ca/JavelinBeetlePact-PP01-EN-ScR-UE.jpg",
+          "90da52ae-0cda-481c-9619-2ed63e3f2be3": "https://ms.yugipedia.com//6/66/MarshmallonGlasses-PP01-EN-ScR-UE.jpg",
+          "90f0049b-d606-447f-b525-db1043adea3c": "https://ms.yugipedia.com//5/5b/DarkMagicCurtain-PP01-EN-ScR-UE.jpg",
+          "983d9d4f-a4c4-4d61-b791-d53b6c2e85f5": "https://ms.yugipedia.com//e/ef/RedEyesBlackMetalDragon-PP01-EN-ScR-UE.jpg",
+          "a38c7b7e-9a19-455a-bd79-c6573509bd2b": "https://ms.yugipedia.com//e/ef/JavelinBeetle-PP01-EN-ScR-UE.jpg",
+          "a49f4fdf-41a3-4bc4-aa9d-d4567532ddc4": "https://ms.yugipedia.com//d/d3/MagicianofBlackChaos-PP01-EN-ScR-UE.png",
+          "b29515bd-f7e6-48ef-b0ea-00ef4d41743b": "https://ms.yugipedia.com//b/b3/ShieldCrush-PP01-EN-ScR-UE.jpg",
+          "bc61b6b4-b149-4897-b844-ba3fc54aae10": "https://ms.yugipedia.com//e/e9/Marshmallon-PP01-EN-ScR-UE.jpg",
+          "d7dc1fd1-1823-4bcd-a208-0c8f0799e52f": "https://ms.yugipedia.com//d/d3/ZeratheMant-PP01-EN-SR-UE.png",
+          "e1d1435e-3692-407b-b062-953eec639469": "https://ms.yugipedia.com//4/49/RedEyesBlackMetalDragon-PP01-EN-SR-UE.png",
+          "e3a168b2-ef46-4768-b15a-4d84df539d51": "https://ms.yugipedia.com//a/a4/Metalmorph-PP01-EN-SR-UE.png",
+          "f990334f-fd39-4a55-841a-6088dd5e5855": "https://ms.yugipedia.com//b/bd/ReturnZombie-PP01-EN-ScR-UE.jpg"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "05c56bdf-01fc-44ea-ac5d-5f03f8794526": {
+            "image": "https://ms.yugipedia.com//d/d5/ZeraRitual-PP01-EN-SR-UE.jpg"
+          },
+          "1056dfc3-c6fe-4706-bcf5-d48705ee57d5": {
+            "image": "https://ms.yugipedia.com//9/97/JavelinBeetlePact-PP01-EN-SR-UE.jpg"
+          },
+          "232e01b9-5dec-46c1-93ab-386f2268f855": {
+            "image": "https://ms.yugipedia.com//1/19/BlackMagicRitual-PP01-EN-ScR-UE.jpg"
+          },
+          "3661ca38-901d-4923-88f8-f8b113ac12e5": {
+            "image": "https://ms.yugipedia.com//c/c4/LegacyofYataGarasu-PP01-EN-ScR-UE.jpg"
+          },
+          "4179f00c-cd5f-44bf-9222-c965d0c70fb4": {
+            "image": "https://ms.yugipedia.com//9/9a/Metalmorph-PP01-EN-ScR-UE.png"
+          },
+          "425e4ae2-4fd4-4134-96f0-268c4b7ad275": {
+            "image": "https://ms.yugipedia.com//e/ea/LegacyofYataGarasu-PP01-EN-SR-UE.jpg"
+          },
+          "5ff5a180-cb4b-4e00-a2f4-544a28ef8c5c": {
+            "image": "https://ms.yugipedia.com//9/9b/ZeratheMant-PP01-EN-ScR-UE.jpg"
+          },
+          "68a979e5-1178-422f-9af5-f4b394f7ff48": {
+            "image": "https://ms.yugipedia.com//5/5e/GeminiImps-PP01-EN-ScR-UE.jpg"
+          },
+          "6b300495-d934-4227-95d6-7c108c1d4b60": {
+            "image": "https://ms.yugipedia.com//f/fa/JavelinBeetle-PP01-EN-SR-UE.jpg"
+          },
+          "715c8ae6-b56b-4cb6-93c7-feee41f27edc": {
+            "image": "https://ms.yugipedia.com//9/9c/ZeraRitual-PP01-EN-ScR-UE.jpg"
+          },
+          "8689d59d-719e-45ca-a911-a7d2f6233ae0": {
+            "image": "https://ms.yugipedia.com//c/ca/JavelinBeetlePact-PP01-EN-ScR-UE.jpg"
+          },
+          "90da52ae-0cda-481c-9619-2ed63e3f2be3": {
+            "image": "https://ms.yugipedia.com//6/66/MarshmallonGlasses-PP01-EN-ScR-UE.jpg"
+          },
+          "90f0049b-d606-447f-b525-db1043adea3c": {
+            "image": "https://ms.yugipedia.com//5/5b/DarkMagicCurtain-PP01-EN-ScR-UE.jpg"
+          },
+          "983d9d4f-a4c4-4d61-b791-d53b6c2e85f5": {
+            "image": "https://ms.yugipedia.com//e/ef/RedEyesBlackMetalDragon-PP01-EN-ScR-UE.jpg"
+          },
+          "a38c7b7e-9a19-455a-bd79-c6573509bd2b": {
+            "image": "https://ms.yugipedia.com//e/ef/JavelinBeetle-PP01-EN-ScR-UE.jpg"
+          },
+          "a49f4fdf-41a3-4bc4-aa9d-d4567532ddc4": {
+            "image": "https://ms.yugipedia.com//d/d3/MagicianofBlackChaos-PP01-EN-ScR-UE.png"
+          },
+          "b29515bd-f7e6-48ef-b0ea-00ef4d41743b": {
+            "image": "https://ms.yugipedia.com//b/b3/ShieldCrush-PP01-EN-ScR-UE.jpg"
+          },
+          "bc61b6b4-b149-4897-b844-ba3fc54aae10": {
+            "image": "https://ms.yugipedia.com//e/e9/Marshmallon-PP01-EN-ScR-UE.jpg"
+          },
+          "d7dc1fd1-1823-4bcd-a208-0c8f0799e52f": {
+            "image": "https://ms.yugipedia.com//d/d3/ZeratheMant-PP01-EN-SR-UE.png"
+          },
+          "e1d1435e-3692-407b-b062-953eec639469": {
+            "image": "https://ms.yugipedia.com//4/49/RedEyesBlackMetalDragon-PP01-EN-SR-UE.png"
+          },
+          "e3a168b2-ef46-4768-b15a-4d84df539d51": {
+            "image": "https://ms.yugipedia.com//a/a4/Metalmorph-PP01-EN-SR-UE.png"
+          },
+          "f990334f-fd39-4a55-841a-6088dd5e5855": {
+            "image": "https://ms.yugipedia.com//b/bd/ReturnZombie-PP01-EN-ScR-UE.jpg"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          11106002
+        ]
+      }
+    },
+    "fr": {
+      "language": "fr",
+      "prefix": "PP01-FR",
+      "date": "2007-10-08",
+      "cardImages": {
+        "unlimited": {
+          "05c56bdf-01fc-44ea-ac5d-5f03f8794526": "https://ms.yugipedia.com//b/b7/ZeraRitual-PP01-FR-SR-UE.jpg",
+          "1056dfc3-c6fe-4706-bcf5-d48705ee57d5": "https://ms.yugipedia.com//1/15/JavelinBeetlePact-PP01-FR-SR-UE.jpg",
+          "232e01b9-5dec-46c1-93ab-386f2268f855": "https://ms.yugipedia.com//0/0b/BlackMagicRitual-PP01-FR-ScR-UE.jpg",
+          "3661ca38-901d-4923-88f8-f8b113ac12e5": "https://ms.yugipedia.com//8/82/LegacyofYataGarasu-PP01-FR-ScR-UE.jpg",
+          "4179f00c-cd5f-44bf-9222-c965d0c70fb4": "https://ms.yugipedia.com//7/78/Metalmorph-PP01-FR-ScR-UE.png",
+          "425e4ae2-4fd4-4134-96f0-268c4b7ad275": "https://ms.yugipedia.com//5/51/LegacyofYataGarasu-PP01-FR-SR-UE.jpg",
+          "68a979e5-1178-422f-9af5-f4b394f7ff48": "https://ms.yugipedia.com//8/87/GeminiImps-PP01-FR-ScR-UE.jpg",
+          "6b300495-d934-4227-95d6-7c108c1d4b60": "https://ms.yugipedia.com//e/ec/JavelinBeetle-PP01-FR-SR-UE.jpg",
+          "715c8ae6-b56b-4cb6-93c7-feee41f27edc": "https://ms.yugipedia.com//8/8b/ZeraRitual-PP01-FR-ScR-UE.jpg",
+          "8689d59d-719e-45ca-a911-a7d2f6233ae0": "https://ms.yugipedia.com//0/04/JavelinBeetlePact-PP01-FR-ScR-UE.jpg",
+          "90da52ae-0cda-481c-9619-2ed63e3f2be3": "https://ms.yugipedia.com//6/63/MarshmallonGlasses-PP01-FR-ScR-UE.jpg",
+          "90f0049b-d606-447f-b525-db1043adea3c": "https://ms.yugipedia.com//2/28/DarkMagicCurtain-PP01-FR-ScR-UE.jpg",
+          "983d9d4f-a4c4-4d61-b791-d53b6c2e85f5": "https://ms.yugipedia.com//2/26/RedEyesBlackMetalDragon-PP01-FR-ScR-UE.jpg",
+          "a38c7b7e-9a19-455a-bd79-c6573509bd2b": "https://ms.yugipedia.com//5/55/JavelinBeetle-PP01-FR-ScR-UE.jpg",
+          "a49f4fdf-41a3-4bc4-aa9d-d4567532ddc4": "https://ms.yugipedia.com//6/61/MagicianofBlackChaos-PP01-FR-ScR-UE.jpg",
+          "b29515bd-f7e6-48ef-b0ea-00ef4d41743b": "https://ms.yugipedia.com//1/11/ShieldCrush-PP01-FR-ScR-UE.jpg",
+          "bc61b6b4-b149-4897-b844-ba3fc54aae10": "https://ms.yugipedia.com//5/56/Marshmallon-PP01-FR-ScR-UE.jpg",
+          "d7dc1fd1-1823-4bcd-a208-0c8f0799e52f": "https://ms.yugipedia.com//4/4d/ZeratheMant-PP01-FR-SR-UE.jpg",
+          "e1d1435e-3692-407b-b062-953eec639469": "https://ms.yugipedia.com//5/58/RedEyesBlackMetalDragon-PP01-FR-SR-UE.jpg",
+          "e3a168b2-ef46-4768-b15a-4d84df539d51": "https://ms.yugipedia.com//2/20/Metalmorph-PP01-FR-SR-UE.png",
+          "f990334f-fd39-4a55-841a-6088dd5e5855": "https://ms.yugipedia.com//0/0a/ReturnZombie-PP01-FR-ScR-UE.jpg"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "05c56bdf-01fc-44ea-ac5d-5f03f8794526": {
+            "image": "https://ms.yugipedia.com//b/b7/ZeraRitual-PP01-FR-SR-UE.jpg"
+          },
+          "1056dfc3-c6fe-4706-bcf5-d48705ee57d5": {
+            "image": "https://ms.yugipedia.com//1/15/JavelinBeetlePact-PP01-FR-SR-UE.jpg"
+          },
+          "232e01b9-5dec-46c1-93ab-386f2268f855": {
+            "image": "https://ms.yugipedia.com//0/0b/BlackMagicRitual-PP01-FR-ScR-UE.jpg"
+          },
+          "3661ca38-901d-4923-88f8-f8b113ac12e5": {
+            "image": "https://ms.yugipedia.com//8/82/LegacyofYataGarasu-PP01-FR-ScR-UE.jpg"
+          },
+          "4179f00c-cd5f-44bf-9222-c965d0c70fb4": {
+            "image": "https://ms.yugipedia.com//7/78/Metalmorph-PP01-FR-ScR-UE.png"
+          },
+          "425e4ae2-4fd4-4134-96f0-268c4b7ad275": {
+            "image": "https://ms.yugipedia.com//5/51/LegacyofYataGarasu-PP01-FR-SR-UE.jpg"
+          },
+          "68a979e5-1178-422f-9af5-f4b394f7ff48": {
+            "image": "https://ms.yugipedia.com//8/87/GeminiImps-PP01-FR-ScR-UE.jpg"
+          },
+          "6b300495-d934-4227-95d6-7c108c1d4b60": {
+            "image": "https://ms.yugipedia.com//e/ec/JavelinBeetle-PP01-FR-SR-UE.jpg"
+          },
+          "715c8ae6-b56b-4cb6-93c7-feee41f27edc": {
+            "image": "https://ms.yugipedia.com//8/8b/ZeraRitual-PP01-FR-ScR-UE.jpg"
+          },
+          "8689d59d-719e-45ca-a911-a7d2f6233ae0": {
+            "image": "https://ms.yugipedia.com//0/04/JavelinBeetlePact-PP01-FR-ScR-UE.jpg"
+          },
+          "90da52ae-0cda-481c-9619-2ed63e3f2be3": {
+            "image": "https://ms.yugipedia.com//6/63/MarshmallonGlasses-PP01-FR-ScR-UE.jpg"
+          },
+          "90f0049b-d606-447f-b525-db1043adea3c": {
+            "image": "https://ms.yugipedia.com//2/28/DarkMagicCurtain-PP01-FR-ScR-UE.jpg"
+          },
+          "983d9d4f-a4c4-4d61-b791-d53b6c2e85f5": {
+            "image": "https://ms.yugipedia.com//2/26/RedEyesBlackMetalDragon-PP01-FR-ScR-UE.jpg"
+          },
+          "a38c7b7e-9a19-455a-bd79-c6573509bd2b": {
+            "image": "https://ms.yugipedia.com//5/55/JavelinBeetle-PP01-FR-ScR-UE.jpg"
+          },
+          "a49f4fdf-41a3-4bc4-aa9d-d4567532ddc4": {
+            "image": "https://ms.yugipedia.com//6/61/MagicianofBlackChaos-PP01-FR-ScR-UE.jpg"
+          },
+          "b29515bd-f7e6-48ef-b0ea-00ef4d41743b": {
+            "image": "https://ms.yugipedia.com//1/11/ShieldCrush-PP01-FR-ScR-UE.jpg"
+          },
+          "bc61b6b4-b149-4897-b844-ba3fc54aae10": {
+            "image": "https://ms.yugipedia.com//5/56/Marshmallon-PP01-FR-ScR-UE.jpg"
+          },
+          "d7dc1fd1-1823-4bcd-a208-0c8f0799e52f": {
+            "image": "https://ms.yugipedia.com//4/4d/ZeratheMant-PP01-FR-SR-UE.jpg"
+          },
+          "e1d1435e-3692-407b-b062-953eec639469": {
+            "image": "https://ms.yugipedia.com//5/58/RedEyesBlackMetalDragon-PP01-FR-SR-UE.jpg"
+          },
+          "e3a168b2-ef46-4768-b15a-4d84df539d51": {
+            "image": "https://ms.yugipedia.com//2/20/Metalmorph-PP01-FR-SR-UE.png"
+          },
+          "f990334f-fd39-4a55-841a-6088dd5e5855": {
+            "image": "https://ms.yugipedia.com//0/0a/ReturnZombie-PP01-FR-ScR-UE.jpg"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          31106003
+        ]
+      }
+    },
+    "de": {
+      "language": "de",
+      "prefix": "PP01-DE",
+      "date": "2007-10-08",
+      "image": "https://ms.yugipedia.com//3/33/PP01-BoosterDE.jpg",
+      "cardImages": {
+        "unlimited": {
+          "05c56bdf-01fc-44ea-ac5d-5f03f8794526": "https://ms.yugipedia.com//4/4c/ZeraRitual-PP01-DE-SR-UE.jpg",
+          "1056dfc3-c6fe-4706-bcf5-d48705ee57d5": "https://ms.yugipedia.com//d/d2/JavelinBeetlePact-PP01-DE-SR-UE.jpg",
+          "232e01b9-5dec-46c1-93ab-386f2268f855": "https://ms.yugipedia.com//8/8a/BlackMagicRitual-PP01-DE-ScR-UE.jpg",
+          "3661ca38-901d-4923-88f8-f8b113ac12e5": "https://ms.yugipedia.com//b/bd/LegacyofYataGarasu-PP01-DE-ScR-UE.jpg",
+          "4179f00c-cd5f-44bf-9222-c965d0c70fb4": "https://ms.yugipedia.com//1/15/Metalmorph-PP01-DE-ScR-UE.png",
+          "425e4ae2-4fd4-4134-96f0-268c4b7ad275": "https://ms.yugipedia.com//4/48/LegacyofYataGarasu-PP01-DE-SR-UE.jpg",
+          "5ff5a180-cb4b-4e00-a2f4-544a28ef8c5c": "https://ms.yugipedia.com//d/d1/ZeratheMant-PP01-DE-ScR-UE.jpg",
+          "68a979e5-1178-422f-9af5-f4b394f7ff48": "https://ms.yugipedia.com//2/28/GeminiImps-PP01-DE-ScR-UE.jpg",
+          "6b300495-d934-4227-95d6-7c108c1d4b60": "https://ms.yugipedia.com//f/f6/JavelinBeetle-PP01-DE-SR-UE.jpg",
+          "715c8ae6-b56b-4cb6-93c7-feee41f27edc": "https://ms.yugipedia.com//1/15/ZeraRitual-PP01-DE-ScR-UE.jpg",
+          "8689d59d-719e-45ca-a911-a7d2f6233ae0": "https://ms.yugipedia.com//6/6f/JavelinBeetlePact-PP01-DE-ScR-UE.jpg",
+          "90da52ae-0cda-481c-9619-2ed63e3f2be3": "https://ms.yugipedia.com//2/24/MarshmallonGlasses-PP01-DE-ScR-UE.jpg",
+          "90f0049b-d606-447f-b525-db1043adea3c": "https://ms.yugipedia.com//b/b3/DarkMagicCurtain-PP01-DE-ScR-UE.jpg",
+          "983d9d4f-a4c4-4d61-b791-d53b6c2e85f5": "https://ms.yugipedia.com//1/1b/RedEyesBlackMetalDragon-PP01-DE-ScR-UE.jpg",
+          "a38c7b7e-9a19-455a-bd79-c6573509bd2b": "https://ms.yugipedia.com//6/6e/JavelinBeetle-PP01-DE-ScR-UE.jpg",
+          "a49f4fdf-41a3-4bc4-aa9d-d4567532ddc4": "https://ms.yugipedia.com//6/68/MagicianofBlackChaos-PP01-DE-ScR-UE.jpg",
+          "b29515bd-f7e6-48ef-b0ea-00ef4d41743b": "https://ms.yugipedia.com//6/67/ShieldCrush-PP01-DE-ScR-UE.jpg",
+          "bc61b6b4-b149-4897-b844-ba3fc54aae10": "https://ms.yugipedia.com//9/96/Marshmallon-PP01-DE-ScR-UE.jpg",
+          "d7dc1fd1-1823-4bcd-a208-0c8f0799e52f": "https://ms.yugipedia.com//b/b1/ZeratheMant-PP01-DE-SR-UE.jpg",
+          "e1d1435e-3692-407b-b062-953eec639469": "https://ms.yugipedia.com//5/5d/RedEyesBlackMetalDragon-PP01-DE-SR-UE.jpg",
+          "e3a168b2-ef46-4768-b15a-4d84df539d51": "https://ms.yugipedia.com//1/15/Metalmorph-PP01-DE-SR-UE.png",
+          "f990334f-fd39-4a55-841a-6088dd5e5855": "https://ms.yugipedia.com//0/02/ReturnZombie-PP01-DE-ScR-UE.jpg"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "05c56bdf-01fc-44ea-ac5d-5f03f8794526": {
+            "image": "https://ms.yugipedia.com//4/4c/ZeraRitual-PP01-DE-SR-UE.jpg"
+          },
+          "1056dfc3-c6fe-4706-bcf5-d48705ee57d5": {
+            "image": "https://ms.yugipedia.com//d/d2/JavelinBeetlePact-PP01-DE-SR-UE.jpg"
+          },
+          "232e01b9-5dec-46c1-93ab-386f2268f855": {
+            "image": "https://ms.yugipedia.com//8/8a/BlackMagicRitual-PP01-DE-ScR-UE.jpg"
+          },
+          "3661ca38-901d-4923-88f8-f8b113ac12e5": {
+            "image": "https://ms.yugipedia.com//b/bd/LegacyofYataGarasu-PP01-DE-ScR-UE.jpg"
+          },
+          "4179f00c-cd5f-44bf-9222-c965d0c70fb4": {
+            "image": "https://ms.yugipedia.com//1/15/Metalmorph-PP01-DE-ScR-UE.png"
+          },
+          "425e4ae2-4fd4-4134-96f0-268c4b7ad275": {
+            "image": "https://ms.yugipedia.com//4/48/LegacyofYataGarasu-PP01-DE-SR-UE.jpg"
+          },
+          "5ff5a180-cb4b-4e00-a2f4-544a28ef8c5c": {
+            "image": "https://ms.yugipedia.com//d/d1/ZeratheMant-PP01-DE-ScR-UE.jpg"
+          },
+          "68a979e5-1178-422f-9af5-f4b394f7ff48": {
+            "image": "https://ms.yugipedia.com//2/28/GeminiImps-PP01-DE-ScR-UE.jpg"
+          },
+          "6b300495-d934-4227-95d6-7c108c1d4b60": {
+            "image": "https://ms.yugipedia.com//f/f6/JavelinBeetle-PP01-DE-SR-UE.jpg"
+          },
+          "715c8ae6-b56b-4cb6-93c7-feee41f27edc": {
+            "image": "https://ms.yugipedia.com//1/15/ZeraRitual-PP01-DE-ScR-UE.jpg"
+          },
+          "8689d59d-719e-45ca-a911-a7d2f6233ae0": {
+            "image": "https://ms.yugipedia.com//6/6f/JavelinBeetlePact-PP01-DE-ScR-UE.jpg"
+          },
+          "90da52ae-0cda-481c-9619-2ed63e3f2be3": {
+            "image": "https://ms.yugipedia.com//2/24/MarshmallonGlasses-PP01-DE-ScR-UE.jpg"
+          },
+          "90f0049b-d606-447f-b525-db1043adea3c": {
+            "image": "https://ms.yugipedia.com//b/b3/DarkMagicCurtain-PP01-DE-ScR-UE.jpg"
+          },
+          "983d9d4f-a4c4-4d61-b791-d53b6c2e85f5": {
+            "image": "https://ms.yugipedia.com//1/1b/RedEyesBlackMetalDragon-PP01-DE-ScR-UE.jpg"
+          },
+          "a38c7b7e-9a19-455a-bd79-c6573509bd2b": {
+            "image": "https://ms.yugipedia.com//6/6e/JavelinBeetle-PP01-DE-ScR-UE.jpg"
+          },
+          "a49f4fdf-41a3-4bc4-aa9d-d4567532ddc4": {
+            "image": "https://ms.yugipedia.com//6/68/MagicianofBlackChaos-PP01-DE-ScR-UE.jpg"
+          },
+          "b29515bd-f7e6-48ef-b0ea-00ef4d41743b": {
+            "image": "https://ms.yugipedia.com//6/67/ShieldCrush-PP01-DE-ScR-UE.jpg"
+          },
+          "bc61b6b4-b149-4897-b844-ba3fc54aae10": {
+            "image": "https://ms.yugipedia.com//9/96/Marshmallon-PP01-DE-ScR-UE.jpg"
+          },
+          "d7dc1fd1-1823-4bcd-a208-0c8f0799e52f": {
+            "image": "https://ms.yugipedia.com//b/b1/ZeratheMant-PP01-DE-SR-UE.jpg"
+          },
+          "e1d1435e-3692-407b-b062-953eec639469": {
+            "image": "https://ms.yugipedia.com//5/5d/RedEyesBlackMetalDragon-PP01-DE-SR-UE.jpg"
+          },
+          "e3a168b2-ef46-4768-b15a-4d84df539d51": {
+            "image": "https://ms.yugipedia.com//1/15/Metalmorph-PP01-DE-SR-UE.png"
+          },
+          "f990334f-fd39-4a55-841a-6088dd5e5855": {
+            "image": "https://ms.yugipedia.com//0/02/ReturnZombie-PP01-DE-ScR-UE.jpg"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          21106004
+        ]
+      }
+    },
+    "it": {
+      "language": "it",
+      "prefix": "PP01-IT",
+      "date": "2007-10-08",
+      "image": "https://ms.yugipedia.com//b/ba/PP01-BoosterIT.jpg",
+      "cardImages": {
+        "unlimited": {
+          "05c56bdf-01fc-44ea-ac5d-5f03f8794526": "https://ms.yugipedia.com//f/f9/ZeraRitual-PP01-IT-SR-UE.jpg",
+          "1056dfc3-c6fe-4706-bcf5-d48705ee57d5": "https://ms.yugipedia.com//c/c3/JavelinBeetlePact-PP01-IT-SR-UE.jpg",
+          "232e01b9-5dec-46c1-93ab-386f2268f855": "https://ms.yugipedia.com//f/fa/BlackMagicRitual-PP01-IT-ScR-UE.jpg",
+          "3661ca38-901d-4923-88f8-f8b113ac12e5": "https://ms.yugipedia.com//c/ce/LegacyofYataGarasu-PP01-IT-ScR-UE.jpg",
+          "4179f00c-cd5f-44bf-9222-c965d0c70fb4": "https://ms.yugipedia.com//a/af/Metalmorph-PP01-IT-ScR-UE.png",
+          "425e4ae2-4fd4-4134-96f0-268c4b7ad275": "https://ms.yugipedia.com//6/6b/LegacyofYataGarasu-PP01-IT-SR-UE.jpg",
+          "5ff5a180-cb4b-4e00-a2f4-544a28ef8c5c": "https://ms.yugipedia.com//2/24/ZeratheMant-PP01-IT-ScR-UE.png",
+          "68a979e5-1178-422f-9af5-f4b394f7ff48": "https://ms.yugipedia.com//c/c8/GeminiImps-PP01-IT-ScR-UE.jpg",
+          "6b300495-d934-4227-95d6-7c108c1d4b60": "https://ms.yugipedia.com//5/5c/JavelinBeetle-PP01-IT-SR-UE.jpg",
+          "715c8ae6-b56b-4cb6-93c7-feee41f27edc": "https://ms.yugipedia.com//0/01/ZeraRitual-PP01-IT-ScR-UE.jpg",
+          "8689d59d-719e-45ca-a911-a7d2f6233ae0": "https://ms.yugipedia.com//1/16/JavelinBeetlePact-PP01-IT-ScR-UE.jpg",
+          "90da52ae-0cda-481c-9619-2ed63e3f2be3": "https://ms.yugipedia.com//8/8b/MarshmallonGlasses-PP01-IT-ScR-UE.jpg",
+          "90f0049b-d606-447f-b525-db1043adea3c": "https://ms.yugipedia.com//c/c9/DarkMagicCurtain-PP01-IT-ScR-UE.jpg",
+          "983d9d4f-a4c4-4d61-b791-d53b6c2e85f5": "https://ms.yugipedia.com//f/fd/RedEyesBlackMetalDragon-PP01-IT-ScR-UE.jpg",
+          "a38c7b7e-9a19-455a-bd79-c6573509bd2b": "https://ms.yugipedia.com//4/45/JavelinBeetle-PP01-IT-ScR-UE.jpg",
+          "a49f4fdf-41a3-4bc4-aa9d-d4567532ddc4": "https://ms.yugipedia.com//2/23/MagicianofBlackChaos-PP01-IT-ScR-UE.png",
+          "b29515bd-f7e6-48ef-b0ea-00ef4d41743b": "https://ms.yugipedia.com//d/dc/ShieldCrush-PP01-IT-ScR-UE.jpg",
+          "bc61b6b4-b149-4897-b844-ba3fc54aae10": "https://ms.yugipedia.com//8/8c/Marshmallon-PP01-IT-ScR-UE.jpg",
+          "d7dc1fd1-1823-4bcd-a208-0c8f0799e52f": "https://ms.yugipedia.com//f/fb/ZeratheMant-PP01-IT-SR-UE.png",
+          "e1d1435e-3692-407b-b062-953eec639469": "https://ms.yugipedia.com//e/e6/RedEyesBlackMetalDragon-PP01-IT-SR-UE.jpg",
+          "e3a168b2-ef46-4768-b15a-4d84df539d51": "https://ms.yugipedia.com//9/9f/Metalmorph-PP01-IT-SR-UE.png",
+          "f990334f-fd39-4a55-841a-6088dd5e5855": "https://ms.yugipedia.com//1/11/ReturnZombie-PP01-IT-ScR-UE.jpg"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "05c56bdf-01fc-44ea-ac5d-5f03f8794526": {
+            "image": "https://ms.yugipedia.com//f/f9/ZeraRitual-PP01-IT-SR-UE.jpg"
+          },
+          "1056dfc3-c6fe-4706-bcf5-d48705ee57d5": {
+            "image": "https://ms.yugipedia.com//c/c3/JavelinBeetlePact-PP01-IT-SR-UE.jpg"
+          },
+          "232e01b9-5dec-46c1-93ab-386f2268f855": {
+            "image": "https://ms.yugipedia.com//f/fa/BlackMagicRitual-PP01-IT-ScR-UE.jpg"
+          },
+          "3661ca38-901d-4923-88f8-f8b113ac12e5": {
+            "image": "https://ms.yugipedia.com//c/ce/LegacyofYataGarasu-PP01-IT-ScR-UE.jpg"
+          },
+          "4179f00c-cd5f-44bf-9222-c965d0c70fb4": {
+            "image": "https://ms.yugipedia.com//a/af/Metalmorph-PP01-IT-ScR-UE.png"
+          },
+          "425e4ae2-4fd4-4134-96f0-268c4b7ad275": {
+            "image": "https://ms.yugipedia.com//6/6b/LegacyofYataGarasu-PP01-IT-SR-UE.jpg"
+          },
+          "5ff5a180-cb4b-4e00-a2f4-544a28ef8c5c": {
+            "image": "https://ms.yugipedia.com//2/24/ZeratheMant-PP01-IT-ScR-UE.png"
+          },
+          "68a979e5-1178-422f-9af5-f4b394f7ff48": {
+            "image": "https://ms.yugipedia.com//c/c8/GeminiImps-PP01-IT-ScR-UE.jpg"
+          },
+          "6b300495-d934-4227-95d6-7c108c1d4b60": {
+            "image": "https://ms.yugipedia.com//5/5c/JavelinBeetle-PP01-IT-SR-UE.jpg"
+          },
+          "715c8ae6-b56b-4cb6-93c7-feee41f27edc": {
+            "image": "https://ms.yugipedia.com//0/01/ZeraRitual-PP01-IT-ScR-UE.jpg"
+          },
+          "8689d59d-719e-45ca-a911-a7d2f6233ae0": {
+            "image": "https://ms.yugipedia.com//1/16/JavelinBeetlePact-PP01-IT-ScR-UE.jpg"
+          },
+          "90da52ae-0cda-481c-9619-2ed63e3f2be3": {
+            "image": "https://ms.yugipedia.com//8/8b/MarshmallonGlasses-PP01-IT-ScR-UE.jpg"
+          },
+          "90f0049b-d606-447f-b525-db1043adea3c": {
+            "image": "https://ms.yugipedia.com//c/c9/DarkMagicCurtain-PP01-IT-ScR-UE.jpg"
+          },
+          "983d9d4f-a4c4-4d61-b791-d53b6c2e85f5": {
+            "image": "https://ms.yugipedia.com//f/fd/RedEyesBlackMetalDragon-PP01-IT-ScR-UE.jpg"
+          },
+          "a38c7b7e-9a19-455a-bd79-c6573509bd2b": {
+            "image": "https://ms.yugipedia.com//4/45/JavelinBeetle-PP01-IT-ScR-UE.jpg"
+          },
+          "a49f4fdf-41a3-4bc4-aa9d-d4567532ddc4": {
+            "image": "https://ms.yugipedia.com//2/23/MagicianofBlackChaos-PP01-IT-ScR-UE.png"
+          },
+          "b29515bd-f7e6-48ef-b0ea-00ef4d41743b": {
+            "image": "https://ms.yugipedia.com//d/dc/ShieldCrush-PP01-IT-ScR-UE.jpg"
+          },
+          "bc61b6b4-b149-4897-b844-ba3fc54aae10": {
+            "image": "https://ms.yugipedia.com//8/8c/Marshmallon-PP01-IT-ScR-UE.jpg"
+          },
+          "d7dc1fd1-1823-4bcd-a208-0c8f0799e52f": {
+            "image": "https://ms.yugipedia.com//f/fb/ZeratheMant-PP01-IT-SR-UE.png"
+          },
+          "e1d1435e-3692-407b-b062-953eec639469": {
+            "image": "https://ms.yugipedia.com//e/e6/RedEyesBlackMetalDragon-PP01-IT-SR-UE.jpg"
+          },
+          "e3a168b2-ef46-4768-b15a-4d84df539d51": {
+            "image": "https://ms.yugipedia.com//9/9f/Metalmorph-PP01-IT-SR-UE.png"
+          },
+          "f990334f-fd39-4a55-841a-6088dd5e5855": {
+            "image": "https://ms.yugipedia.com//1/11/ReturnZombie-PP01-IT-ScR-UE.jpg"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          41106004
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "en"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "distrobution": "7a25141a-3b6f-4ecd-b763-63b4efb45a86",
+      "packsPerBox": 20,
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//c/c0/PP01-BoosterEN.jpg",
+      "cards": [
+        {
+          "id": "a49f4fdf-41a3-4bc4-aa9d-d4567532ddc4",
+          "card": "3ae0131e-6896-4176-894a-78659b2f4751",
+          "suffix": "001",
+          "rarity": "secret",
+          "imageID": "1e2123d3-fa11-4d24-a706-08430e175d51"
+        },
+        {
+          "id": "232e01b9-5dec-46c1-93ab-386f2268f855",
+          "card": "3625b745-fa82-4faa-8469-0c479162bc35",
+          "suffix": "002",
+          "rarity": "secret",
+          "imageID": "4df1ac0a-fdcc-41d7-b214-13fe969d8156"
+        },
+        {
+          "id": "bc61b6b4-b149-4897-b844-ba3fc54aae10",
+          "card": "1ed9c6e9-8008-47b2-9f51-3d42bbbc05ac",
+          "suffix": "003",
+          "rarity": "secret",
+          "imageID": "34ec8e22-664b-4605-a994-bd13e148fb96"
+        },
+        {
+          "id": "90da52ae-0cda-481c-9619-2ed63e3f2be3",
+          "card": "77de33e9-9ade-4b9f-95bf-0280ef514327",
+          "suffix": "004",
+          "rarity": "secret",
+          "imageID": "d8306691-d045-4335-b2cf-de42672781f2"
+        },
+        {
+          "id": "68a979e5-1178-422f-9af5-f4b394f7ff48",
+          "card": "0ab1ba34-1801-478e-b256-9ab125048a0e",
+          "suffix": "005",
+          "rarity": "secret",
+          "imageID": "ffaf1f27-b43a-4cc0-8b68-19a9d32e1c85"
+        },
+        {
+          "id": "f990334f-fd39-4a55-841a-6088dd5e5855",
+          "card": "ceb73c7a-d58d-4434-b306-36fd1f7bf2df",
+          "suffix": "006",
+          "rarity": "secret",
+          "imageID": "1a751bf4-caba-4737-83dd-04552bea1540"
+        },
+        {
+          "id": "b29515bd-f7e6-48ef-b0ea-00ef4d41743b",
+          "card": "13858743-be05-4fb7-a777-d46fc6fc7cf1",
+          "suffix": "007",
+          "rarity": "secret",
+          "imageID": "24c3d874-8876-4c93-9fc5-23221136297b"
+        },
+        {
+          "id": "90f0049b-d606-447f-b525-db1043adea3c",
+          "card": "5e07ceab-8f84-4d9e-85f3-5d684186c23f",
+          "suffix": "008",
+          "rarity": "secret",
+          "imageID": "6fac10c2-1d7a-4b33-ae95-be8d71432766"
+        },
+        {
+          "id": "425e4ae2-4fd4-4134-96f0-268c4b7ad275",
+          "card": "5259232b-e47d-4632-ba4f-257f7559ca10",
+          "suffix": "009",
+          "rarity": "super",
+          "imageID": "bb893524-0584-4f67-a926-cef6d74d7791"
+        },
+        {
+          "id": "3661ca38-901d-4923-88f8-f8b113ac12e5",
+          "card": "5259232b-e47d-4632-ba4f-257f7559ca10",
+          "suffix": "009",
+          "rarity": "secret",
+          "imageID": "bb893524-0584-4f67-a926-cef6d74d7791"
+        },
+        {
+          "id": "05c56bdf-01fc-44ea-ac5d-5f03f8794526",
+          "card": "6be15bad-eabb-4eb3-b0f5-46e9cea84ff4",
+          "suffix": "010",
+          "rarity": "super",
+          "imageID": "cded5e14-c9e2-4395-bc48-e9cadbd4ee74"
+        },
+        {
+          "id": "715c8ae6-b56b-4cb6-93c7-feee41f27edc",
+          "card": "6be15bad-eabb-4eb3-b0f5-46e9cea84ff4",
+          "suffix": "010",
+          "rarity": "secret",
+          "imageID": "cded5e14-c9e2-4395-bc48-e9cadbd4ee74"
+        },
+        {
+          "id": "d7dc1fd1-1823-4bcd-a208-0c8f0799e52f",
+          "card": "618c41f5-6ecf-4b0e-97f7-0ae4a0251e64",
+          "suffix": "011",
+          "rarity": "super",
+          "imageID": "daa4fdfa-9901-4912-966b-c4f74c72dcce"
+        },
+        {
+          "id": "5ff5a180-cb4b-4e00-a2f4-544a28ef8c5c",
+          "card": "618c41f5-6ecf-4b0e-97f7-0ae4a0251e64",
+          "suffix": "011",
+          "rarity": "secret",
+          "imageID": "daa4fdfa-9901-4912-966b-c4f74c72dcce"
+        },
+        {
+          "id": "1056dfc3-c6fe-4706-bcf5-d48705ee57d5",
+          "card": "c8f2c48c-db33-4f0c-8a1f-ba73b656fefb",
+          "suffix": "012",
+          "rarity": "super",
+          "imageID": "94851c5a-ba65-4f78-a2d2-7df2b8daa591"
+        },
+        {
+          "id": "8689d59d-719e-45ca-a911-a7d2f6233ae0",
+          "card": "c8f2c48c-db33-4f0c-8a1f-ba73b656fefb",
+          "suffix": "012",
+          "rarity": "secret",
+          "imageID": "94851c5a-ba65-4f78-a2d2-7df2b8daa591"
+        },
+        {
+          "id": "6b300495-d934-4227-95d6-7c108c1d4b60",
+          "card": "de350237-87f7-4326-a983-c71de43946c1",
+          "suffix": "013",
+          "rarity": "super",
+          "imageID": "754fa18a-041e-432c-9d63-bab668877984"
+        },
+        {
+          "id": "a38c7b7e-9a19-455a-bd79-c6573509bd2b",
+          "card": "de350237-87f7-4326-a983-c71de43946c1",
+          "suffix": "013",
+          "rarity": "secret",
+          "imageID": "754fa18a-041e-432c-9d63-bab668877984"
+        },
+        {
+          "id": "e3a168b2-ef46-4768-b15a-4d84df539d51",
+          "card": "23f66e79-a971-44c7-8a33-69a13bc26091",
+          "suffix": "014",
+          "rarity": "super"
+        },
+        {
+          "id": "4179f00c-cd5f-44bf-9222-c965d0c70fb4",
+          "card": "23f66e79-a971-44c7-8a33-69a13bc26091",
+          "suffix": "014",
+          "rarity": "secret"
+        },
+        {
+          "id": "e1d1435e-3692-407b-b062-953eec639469",
+          "card": "f56f3658-4ab5-47f1-8959-a90b359bc596",
+          "suffix": "015",
+          "rarity": "super"
+        },
+        {
+          "id": "983d9d4f-a4c4-4d61-b791-d53b6c2e85f5",
+          "card": "f56f3658-4ab5-47f1-8959-a90b359bc596",
+          "suffix": "015",
+          "rarity": "secret"
+        }
+      ],
+      "externalIDs": {
+        "ygoprodeck": "Premium Pack (TCG)"
+      }
+    },
+    {
+      "locales": [
+        "fr"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "distrobution": "7a25141a-3b6f-4ecd-b763-63b4efb45a86",
+      "packsPerBox": 20,
+      "editions": [
+        "unlimited"
+      ],
+      "cards": [
+        {
+          "id": "a49f4fdf-41a3-4bc4-aa9d-d4567532ddc4",
+          "card": "3ae0131e-6896-4176-894a-78659b2f4751",
+          "suffix": "001",
+          "rarity": "secret",
+          "imageID": "1e2123d3-fa11-4d24-a706-08430e175d51"
+        },
+        {
+          "id": "232e01b9-5dec-46c1-93ab-386f2268f855",
+          "card": "3625b745-fa82-4faa-8469-0c479162bc35",
+          "suffix": "002",
+          "rarity": "secret",
+          "imageID": "4df1ac0a-fdcc-41d7-b214-13fe969d8156"
+        },
+        {
+          "id": "bc61b6b4-b149-4897-b844-ba3fc54aae10",
+          "card": "1ed9c6e9-8008-47b2-9f51-3d42bbbc05ac",
+          "suffix": "003",
+          "rarity": "secret",
+          "imageID": "34ec8e22-664b-4605-a994-bd13e148fb96"
+        },
+        {
+          "id": "90da52ae-0cda-481c-9619-2ed63e3f2be3",
+          "card": "77de33e9-9ade-4b9f-95bf-0280ef514327",
+          "suffix": "004",
+          "rarity": "secret",
+          "imageID": "d8306691-d045-4335-b2cf-de42672781f2"
+        },
+        {
+          "id": "68a979e5-1178-422f-9af5-f4b394f7ff48",
+          "card": "0ab1ba34-1801-478e-b256-9ab125048a0e",
+          "suffix": "005",
+          "rarity": "secret",
+          "imageID": "ffaf1f27-b43a-4cc0-8b68-19a9d32e1c85"
+        },
+        {
+          "id": "f990334f-fd39-4a55-841a-6088dd5e5855",
+          "card": "ceb73c7a-d58d-4434-b306-36fd1f7bf2df",
+          "suffix": "006",
+          "rarity": "secret",
+          "imageID": "1a751bf4-caba-4737-83dd-04552bea1540"
+        },
+        {
+          "id": "b29515bd-f7e6-48ef-b0ea-00ef4d41743b",
+          "card": "13858743-be05-4fb7-a777-d46fc6fc7cf1",
+          "suffix": "007",
+          "rarity": "secret",
+          "imageID": "24c3d874-8876-4c93-9fc5-23221136297b"
+        },
+        {
+          "id": "90f0049b-d606-447f-b525-db1043adea3c",
+          "card": "5e07ceab-8f84-4d9e-85f3-5d684186c23f",
+          "suffix": "008",
+          "rarity": "secret",
+          "imageID": "6fac10c2-1d7a-4b33-ae95-be8d71432766"
+        },
+        {
+          "id": "425e4ae2-4fd4-4134-96f0-268c4b7ad275",
+          "card": "5259232b-e47d-4632-ba4f-257f7559ca10",
+          "suffix": "009",
+          "rarity": "super",
+          "imageID": "bb893524-0584-4f67-a926-cef6d74d7791"
+        },
+        {
+          "id": "3661ca38-901d-4923-88f8-f8b113ac12e5",
+          "card": "5259232b-e47d-4632-ba4f-257f7559ca10",
+          "suffix": "009",
+          "rarity": "secret",
+          "imageID": "bb893524-0584-4f67-a926-cef6d74d7791"
+        },
+        {
+          "id": "05c56bdf-01fc-44ea-ac5d-5f03f8794526",
+          "card": "6be15bad-eabb-4eb3-b0f5-46e9cea84ff4",
+          "suffix": "010",
+          "rarity": "super",
+          "imageID": "cded5e14-c9e2-4395-bc48-e9cadbd4ee74"
+        },
+        {
+          "id": "715c8ae6-b56b-4cb6-93c7-feee41f27edc",
+          "card": "6be15bad-eabb-4eb3-b0f5-46e9cea84ff4",
+          "suffix": "010",
+          "rarity": "secret",
+          "imageID": "cded5e14-c9e2-4395-bc48-e9cadbd4ee74"
+        },
+        {
+          "id": "d7dc1fd1-1823-4bcd-a208-0c8f0799e52f",
+          "card": "618c41f5-6ecf-4b0e-97f7-0ae4a0251e64",
+          "suffix": "011",
+          "rarity": "super",
+          "imageID": "daa4fdfa-9901-4912-966b-c4f74c72dcce"
+        },
+        {
+          "id": "5ff5a180-cb4b-4e00-a2f4-544a28ef8c5c",
+          "card": "618c41f5-6ecf-4b0e-97f7-0ae4a0251e64",
+          "suffix": "011",
+          "rarity": "secret",
+          "imageID": "daa4fdfa-9901-4912-966b-c4f74c72dcce"
+        },
+        {
+          "id": "1056dfc3-c6fe-4706-bcf5-d48705ee57d5",
+          "card": "c8f2c48c-db33-4f0c-8a1f-ba73b656fefb",
+          "suffix": "012",
+          "rarity": "super",
+          "imageID": "94851c5a-ba65-4f78-a2d2-7df2b8daa591"
+        },
+        {
+          "id": "8689d59d-719e-45ca-a911-a7d2f6233ae0",
+          "card": "c8f2c48c-db33-4f0c-8a1f-ba73b656fefb",
+          "suffix": "012",
+          "rarity": "secret",
+          "imageID": "94851c5a-ba65-4f78-a2d2-7df2b8daa591"
+        },
+        {
+          "id": "6b300495-d934-4227-95d6-7c108c1d4b60",
+          "card": "de350237-87f7-4326-a983-c71de43946c1",
+          "suffix": "013",
+          "rarity": "super",
+          "imageID": "754fa18a-041e-432c-9d63-bab668877984"
+        },
+        {
+          "id": "a38c7b7e-9a19-455a-bd79-c6573509bd2b",
+          "card": "de350237-87f7-4326-a983-c71de43946c1",
+          "suffix": "013",
+          "rarity": "secret",
+          "imageID": "754fa18a-041e-432c-9d63-bab668877984"
+        },
+        {
+          "id": "e3a168b2-ef46-4768-b15a-4d84df539d51",
+          "card": "23f66e79-a971-44c7-8a33-69a13bc26091",
+          "suffix": "014",
+          "rarity": "super"
+        },
+        {
+          "id": "4179f00c-cd5f-44bf-9222-c965d0c70fb4",
+          "card": "23f66e79-a971-44c7-8a33-69a13bc26091",
+          "suffix": "014",
+          "rarity": "secret"
+        },
+        {
+          "id": "e1d1435e-3692-407b-b062-953eec639469",
+          "card": "f56f3658-4ab5-47f1-8959-a90b359bc596",
+          "suffix": "015",
+          "rarity": "super"
+        },
+        {
+          "id": "983d9d4f-a4c4-4d61-b791-d53b6c2e85f5",
+          "card": "f56f3658-4ab5-47f1-8959-a90b359bc596",
+          "suffix": "015",
+          "rarity": "secret"
+        }
+      ],
+      "externalIDs": {
+        "ygoprodeck": "Premium Pack (TCG)"
+      }
+    },
+    {
+      "locales": [
+        "de"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "distrobution": "7a25141a-3b6f-4ecd-b763-63b4efb45a86",
+      "packsPerBox": 20,
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//3/33/PP01-BoosterDE.jpg",
+      "cards": [
+        {
+          "id": "a49f4fdf-41a3-4bc4-aa9d-d4567532ddc4",
+          "card": "3ae0131e-6896-4176-894a-78659b2f4751",
+          "suffix": "001",
+          "rarity": "secret",
+          "imageID": "1e2123d3-fa11-4d24-a706-08430e175d51"
+        },
+        {
+          "id": "232e01b9-5dec-46c1-93ab-386f2268f855",
+          "card": "3625b745-fa82-4faa-8469-0c479162bc35",
+          "suffix": "002",
+          "rarity": "secret",
+          "imageID": "4df1ac0a-fdcc-41d7-b214-13fe969d8156"
+        },
+        {
+          "id": "bc61b6b4-b149-4897-b844-ba3fc54aae10",
+          "card": "1ed9c6e9-8008-47b2-9f51-3d42bbbc05ac",
+          "suffix": "003",
+          "rarity": "secret",
+          "imageID": "34ec8e22-664b-4605-a994-bd13e148fb96"
+        },
+        {
+          "id": "90da52ae-0cda-481c-9619-2ed63e3f2be3",
+          "card": "77de33e9-9ade-4b9f-95bf-0280ef514327",
+          "suffix": "004",
+          "rarity": "secret",
+          "imageID": "d8306691-d045-4335-b2cf-de42672781f2"
+        },
+        {
+          "id": "68a979e5-1178-422f-9af5-f4b394f7ff48",
+          "card": "0ab1ba34-1801-478e-b256-9ab125048a0e",
+          "suffix": "005",
+          "rarity": "secret",
+          "imageID": "ffaf1f27-b43a-4cc0-8b68-19a9d32e1c85"
+        },
+        {
+          "id": "f990334f-fd39-4a55-841a-6088dd5e5855",
+          "card": "ceb73c7a-d58d-4434-b306-36fd1f7bf2df",
+          "suffix": "006",
+          "rarity": "secret",
+          "imageID": "1a751bf4-caba-4737-83dd-04552bea1540"
+        },
+        {
+          "id": "b29515bd-f7e6-48ef-b0ea-00ef4d41743b",
+          "card": "13858743-be05-4fb7-a777-d46fc6fc7cf1",
+          "suffix": "007",
+          "rarity": "secret",
+          "imageID": "24c3d874-8876-4c93-9fc5-23221136297b"
+        },
+        {
+          "id": "90f0049b-d606-447f-b525-db1043adea3c",
+          "card": "5e07ceab-8f84-4d9e-85f3-5d684186c23f",
+          "suffix": "008",
+          "rarity": "secret",
+          "imageID": "6fac10c2-1d7a-4b33-ae95-be8d71432766"
+        },
+        {
+          "id": "425e4ae2-4fd4-4134-96f0-268c4b7ad275",
+          "card": "5259232b-e47d-4632-ba4f-257f7559ca10",
+          "suffix": "009",
+          "rarity": "super",
+          "imageID": "bb893524-0584-4f67-a926-cef6d74d7791"
+        },
+        {
+          "id": "3661ca38-901d-4923-88f8-f8b113ac12e5",
+          "card": "5259232b-e47d-4632-ba4f-257f7559ca10",
+          "suffix": "009",
+          "rarity": "secret",
+          "imageID": "bb893524-0584-4f67-a926-cef6d74d7791"
+        },
+        {
+          "id": "05c56bdf-01fc-44ea-ac5d-5f03f8794526",
+          "card": "6be15bad-eabb-4eb3-b0f5-46e9cea84ff4",
+          "suffix": "010",
+          "rarity": "super",
+          "imageID": "cded5e14-c9e2-4395-bc48-e9cadbd4ee74"
+        },
+        {
+          "id": "715c8ae6-b56b-4cb6-93c7-feee41f27edc",
+          "card": "6be15bad-eabb-4eb3-b0f5-46e9cea84ff4",
+          "suffix": "010",
+          "rarity": "secret",
+          "imageID": "cded5e14-c9e2-4395-bc48-e9cadbd4ee74"
+        },
+        {
+          "id": "d7dc1fd1-1823-4bcd-a208-0c8f0799e52f",
+          "card": "618c41f5-6ecf-4b0e-97f7-0ae4a0251e64",
+          "suffix": "011",
+          "rarity": "super",
+          "imageID": "daa4fdfa-9901-4912-966b-c4f74c72dcce"
+        },
+        {
+          "id": "5ff5a180-cb4b-4e00-a2f4-544a28ef8c5c",
+          "card": "618c41f5-6ecf-4b0e-97f7-0ae4a0251e64",
+          "suffix": "011",
+          "rarity": "secret",
+          "imageID": "daa4fdfa-9901-4912-966b-c4f74c72dcce"
+        },
+        {
+          "id": "1056dfc3-c6fe-4706-bcf5-d48705ee57d5",
+          "card": "c8f2c48c-db33-4f0c-8a1f-ba73b656fefb",
+          "suffix": "012",
+          "rarity": "super",
+          "imageID": "94851c5a-ba65-4f78-a2d2-7df2b8daa591"
+        },
+        {
+          "id": "8689d59d-719e-45ca-a911-a7d2f6233ae0",
+          "card": "c8f2c48c-db33-4f0c-8a1f-ba73b656fefb",
+          "suffix": "012",
+          "rarity": "secret",
+          "imageID": "94851c5a-ba65-4f78-a2d2-7df2b8daa591"
+        },
+        {
+          "id": "6b300495-d934-4227-95d6-7c108c1d4b60",
+          "card": "de350237-87f7-4326-a983-c71de43946c1",
+          "suffix": "013",
+          "rarity": "super",
+          "imageID": "754fa18a-041e-432c-9d63-bab668877984"
+        },
+        {
+          "id": "a38c7b7e-9a19-455a-bd79-c6573509bd2b",
+          "card": "de350237-87f7-4326-a983-c71de43946c1",
+          "suffix": "013",
+          "rarity": "secret",
+          "imageID": "754fa18a-041e-432c-9d63-bab668877984"
+        },
+        {
+          "id": "e3a168b2-ef46-4768-b15a-4d84df539d51",
+          "card": "23f66e79-a971-44c7-8a33-69a13bc26091",
+          "suffix": "014",
+          "rarity": "super"
+        },
+        {
+          "id": "4179f00c-cd5f-44bf-9222-c965d0c70fb4",
+          "card": "23f66e79-a971-44c7-8a33-69a13bc26091",
+          "suffix": "014",
+          "rarity": "secret"
+        },
+        {
+          "id": "e1d1435e-3692-407b-b062-953eec639469",
+          "card": "f56f3658-4ab5-47f1-8959-a90b359bc596",
+          "suffix": "015",
+          "rarity": "super"
+        },
+        {
+          "id": "983d9d4f-a4c4-4d61-b791-d53b6c2e85f5",
+          "card": "f56f3658-4ab5-47f1-8959-a90b359bc596",
+          "suffix": "015",
+          "rarity": "secret"
+        }
+      ],
+      "externalIDs": {
+        "ygoprodeck": "Premium Pack (TCG)"
+      }
+    },
+    {
+      "locales": [
+        "it"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "distrobution": "7a25141a-3b6f-4ecd-b763-63b4efb45a86",
+      "packsPerBox": 20,
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//b/ba/PP01-BoosterIT.jpg",
+      "cards": [
+        {
+          "id": "a49f4fdf-41a3-4bc4-aa9d-d4567532ddc4",
+          "card": "3ae0131e-6896-4176-894a-78659b2f4751",
+          "suffix": "001",
+          "rarity": "secret",
+          "imageID": "1e2123d3-fa11-4d24-a706-08430e175d51"
+        },
+        {
+          "id": "232e01b9-5dec-46c1-93ab-386f2268f855",
+          "card": "3625b745-fa82-4faa-8469-0c479162bc35",
+          "suffix": "002",
+          "rarity": "secret",
+          "imageID": "4df1ac0a-fdcc-41d7-b214-13fe969d8156"
+        },
+        {
+          "id": "bc61b6b4-b149-4897-b844-ba3fc54aae10",
+          "card": "1ed9c6e9-8008-47b2-9f51-3d42bbbc05ac",
+          "suffix": "003",
+          "rarity": "secret",
+          "imageID": "34ec8e22-664b-4605-a994-bd13e148fb96"
+        },
+        {
+          "id": "90da52ae-0cda-481c-9619-2ed63e3f2be3",
+          "card": "77de33e9-9ade-4b9f-95bf-0280ef514327",
+          "suffix": "004",
+          "rarity": "secret",
+          "imageID": "d8306691-d045-4335-b2cf-de42672781f2"
+        },
+        {
+          "id": "68a979e5-1178-422f-9af5-f4b394f7ff48",
+          "card": "0ab1ba34-1801-478e-b256-9ab125048a0e",
+          "suffix": "005",
+          "rarity": "secret",
+          "imageID": "ffaf1f27-b43a-4cc0-8b68-19a9d32e1c85"
+        },
+        {
+          "id": "f990334f-fd39-4a55-841a-6088dd5e5855",
+          "card": "ceb73c7a-d58d-4434-b306-36fd1f7bf2df",
+          "suffix": "006",
+          "rarity": "secret",
+          "imageID": "1a751bf4-caba-4737-83dd-04552bea1540"
+        },
+        {
+          "id": "b29515bd-f7e6-48ef-b0ea-00ef4d41743b",
+          "card": "13858743-be05-4fb7-a777-d46fc6fc7cf1",
+          "suffix": "007",
+          "rarity": "secret",
+          "imageID": "24c3d874-8876-4c93-9fc5-23221136297b"
+        },
+        {
+          "id": "90f0049b-d606-447f-b525-db1043adea3c",
+          "card": "5e07ceab-8f84-4d9e-85f3-5d684186c23f",
+          "suffix": "008",
+          "rarity": "secret",
+          "imageID": "6fac10c2-1d7a-4b33-ae95-be8d71432766"
+        },
+        {
+          "id": "425e4ae2-4fd4-4134-96f0-268c4b7ad275",
+          "card": "5259232b-e47d-4632-ba4f-257f7559ca10",
+          "suffix": "009",
+          "rarity": "super",
+          "imageID": "bb893524-0584-4f67-a926-cef6d74d7791"
+        },
+        {
+          "id": "3661ca38-901d-4923-88f8-f8b113ac12e5",
+          "card": "5259232b-e47d-4632-ba4f-257f7559ca10",
+          "suffix": "009",
+          "rarity": "secret",
+          "imageID": "bb893524-0584-4f67-a926-cef6d74d7791"
+        },
+        {
+          "id": "05c56bdf-01fc-44ea-ac5d-5f03f8794526",
+          "card": "6be15bad-eabb-4eb3-b0f5-46e9cea84ff4",
+          "suffix": "010",
+          "rarity": "super",
+          "imageID": "cded5e14-c9e2-4395-bc48-e9cadbd4ee74"
+        },
+        {
+          "id": "715c8ae6-b56b-4cb6-93c7-feee41f27edc",
+          "card": "6be15bad-eabb-4eb3-b0f5-46e9cea84ff4",
+          "suffix": "010",
+          "rarity": "secret",
+          "imageID": "cded5e14-c9e2-4395-bc48-e9cadbd4ee74"
+        },
+        {
+          "id": "d7dc1fd1-1823-4bcd-a208-0c8f0799e52f",
+          "card": "618c41f5-6ecf-4b0e-97f7-0ae4a0251e64",
+          "suffix": "011",
+          "rarity": "super",
+          "imageID": "daa4fdfa-9901-4912-966b-c4f74c72dcce"
+        },
+        {
+          "id": "5ff5a180-cb4b-4e00-a2f4-544a28ef8c5c",
+          "card": "618c41f5-6ecf-4b0e-97f7-0ae4a0251e64",
+          "suffix": "011",
+          "rarity": "secret",
+          "imageID": "daa4fdfa-9901-4912-966b-c4f74c72dcce"
+        },
+        {
+          "id": "1056dfc3-c6fe-4706-bcf5-d48705ee57d5",
+          "card": "c8f2c48c-db33-4f0c-8a1f-ba73b656fefb",
+          "suffix": "012",
+          "rarity": "super",
+          "imageID": "94851c5a-ba65-4f78-a2d2-7df2b8daa591"
+        },
+        {
+          "id": "8689d59d-719e-45ca-a911-a7d2f6233ae0",
+          "card": "c8f2c48c-db33-4f0c-8a1f-ba73b656fefb",
+          "suffix": "012",
+          "rarity": "secret",
+          "imageID": "94851c5a-ba65-4f78-a2d2-7df2b8daa591"
+        },
+        {
+          "id": "6b300495-d934-4227-95d6-7c108c1d4b60",
+          "card": "de350237-87f7-4326-a983-c71de43946c1",
+          "suffix": "013",
+          "rarity": "super",
+          "imageID": "754fa18a-041e-432c-9d63-bab668877984"
+        },
+        {
+          "id": "a38c7b7e-9a19-455a-bd79-c6573509bd2b",
+          "card": "de350237-87f7-4326-a983-c71de43946c1",
+          "suffix": "013",
+          "rarity": "secret",
+          "imageID": "754fa18a-041e-432c-9d63-bab668877984"
+        },
+        {
+          "id": "e3a168b2-ef46-4768-b15a-4d84df539d51",
+          "card": "23f66e79-a971-44c7-8a33-69a13bc26091",
+          "suffix": "014",
+          "rarity": "super"
+        },
+        {
+          "id": "4179f00c-cd5f-44bf-9222-c965d0c70fb4",
+          "card": "23f66e79-a971-44c7-8a33-69a13bc26091",
+          "suffix": "014",
+          "rarity": "secret"
+        },
+        {
+          "id": "e1d1435e-3692-407b-b062-953eec639469",
+          "card": "f56f3658-4ab5-47f1-8959-a90b359bc596",
+          "suffix": "015",
+          "rarity": "super"
+        },
+        {
+          "id": "983d9d4f-a4c4-4d61-b791-d53b6c2e85f5",
+          "card": "f56f3658-4ab5-47f1-8959-a90b359bc596",
+          "suffix": "015",
+          "rarity": "secret"
+        }
+      ],
+      "externalIDs": {
+        "ygoprodeck": "Premium Pack (TCG)"
+      }
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Premium Pack (TCG)",
+      "id": 48942
+    }
+  }
+}

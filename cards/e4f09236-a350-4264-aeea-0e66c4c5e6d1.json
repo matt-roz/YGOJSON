@@ -1,0 +1,54 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "e4f09236-a350-4264-aeea-0e66c4c5e6d1",
+  "text": {
+    "en": {
+      "name": "Miginagi the Talismanic Warrior",
+      "effect": "Add 1 Level 8 monster with 2500 ATK from your Graveyard to your hand."
+    },
+    "ja": {
+      "name": "\u9670\u967d\u58eb\u30df\u30ae\u30ca\u30ae",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff18\uff0f\u653b\u6483\u529b\uff12\uff15\uff10\uff10\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc74c\uc591\uc0ac \ubbf8\uae30\ub098\uae30",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130(\ub808\ubca8 8 / \uacf5\uaca9\ub825 2500) 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\ub294\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 1000,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "2abdc095-b1a1-46b7-abc4-9132842c53dd",
+      "card": "https://ms.yugipedia.com//b/ba/MiginagitheTalismanicWarrior-RDSD0B-JP-C.png"
+    }
+  ],
+  "sets": [
+    "fab3640e-34f2-410e-8c1b-6c7386795132",
+    "fab3640e-34f2-410e-8c1b-6c7386795132"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Miginagi the Talismanic Warrior",
+        "id": 715905
+      }
+    ],
+    "dbID": 17885
+  },
+  "series": [
+    "65fb4e35-34c4-47d9-a51a-a27792be1dde"
+  ]
+}

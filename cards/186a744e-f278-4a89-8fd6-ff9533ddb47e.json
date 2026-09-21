@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "186a744e-f278-4a89-8fd6-ff9533ddb47e",
+  "text": {
+    "en": {
+      "name": "Cosmo Predictor",
+      "effect": "Add 1 Level 8 Galaxy Type monster from your Graveyard to your hand. This turn, this face-up card can be treated as 2 Tributes for the Tribute Summon of \"Gray Storm Reverie\" in Attack Position."
+    },
+    "ja": {
+      "name": "\u30b3\u30b9\u30e2\u30fb\u30d7\u30ec\u30c7\u30af\u30bf\u30fc",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff18\uff0f\u30ae\u30e3\u30e9\u30af\u30b7\u30fc\u65cf\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u3002\u3053\u306e\u30bf\u30fc\u30f3\u3001\u300c\u30b0\u30ec\u30a4\u30b9\u30c8\u30fc\u30e0\u30fb\u30ec\u30f4\u30a7\u30ea\u30fc\u300d\u3092\u653b\u6483\u8868\u793a\u3067\u30a2\u30c9\u30d0\u30f3\u30b9\u53ec\u559a\u3059\u308b\u5834\u5408\u3001\u8868\u5074\u8868\u793a\u306e\u3053\u306e\u30ab\u30fc\u30c9\u306f\uff12\u4f53\u5206\u306e\u30ea\u30ea\u30fc\u30b9\u306b\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ucf54\uc2a4\ubaa8 \ud504\ub808\ub371\ud130",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130(\ub808\ubca8 8 / \uac24\ub7ed\uc2dc\uc871) 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\ub294\ub2e4. \uc774 \ud134\uc5d0, \"\uadf8\ub808\uc774\uc2a4\ud1b0 \ub808\ubc84\ub9ac\"\ub97c \uacf5\uaca9 \ud45c\uc2dc\ub85c \uc5b4\ub4dc\ubc34\uc2a4 \uc18c\ud658\ud560 \uacbd\uc6b0, \uc55e\uba74 \ud45c\uc2dc\uc758 \uc774 \uce74\ub4dc\ub294 2\uc7a5\ub9cc\ud07c\uc758 \ub9b4\ub9ac\uc2a4\ub85c \ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "classifications": [
+    "effect"
+  ],
+  "level": 2,
+  "atk": 600,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "5e02b014-4464-4815-b97b-ff83b1830650",
+      "card": "https://ms.yugipedia.com//2/22/CosmoPredictor-RDG002-JP-NPR.png"
+    }
+  ],
+  "sets": [
+    "43140a29-1a92-4eb8-a3f0-a2691ab249d6",
+    "e919bb19-cbca-4aae-ba1c-d55336255523"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Cosmo Predictor",
+        "id": 714349
+      }
+    ],
+    "dbID": 17981
+  },
+  "series": []
+}

@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "5d18e5dd-765f-4d13-ad15-859f45a17c79",
+  "text": {
+    "en": {
+      "name": "Demolition Soldier Ashiba Bikke",
+      "effect": "Send cards from the top of your Deck to the Graveyard equal to [the number of face-up Wyrm Type monsters on your field] x 2. Then, if 2 or more monsters are among the cards sent, this turn, this face-up card can be treated as 2 Tributes for the Tribute Summon of a Wyrm Type monster in Attack Position.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u5e7b\u58ca\u5175\u30a2\u30b7\u30d0\u30fb\u30d3\u30c3\u30b1",
+      "effect": "\u81ea\u5206\u306e\u30c7\u30c3\u30ad\u306e\u4e0a\u304b\u3089\u30ab\u30fc\u30c9\u3092\uff3b\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u5e7b\u7adc\u65cf\uff09\u306e\u6570\uff3d\u00d7\uff12\u679a\u5893\u5730\u3078\u9001\u308b\u3002\u305d\u306e\u4e2d\u306b\u30e2\u30f3\u30b9\u30bf\u30fc\u304c\uff12\u4f53\u4ee5\u4e0a\u3044\u305f\u5834\u5408\u3001\u3055\u3089\u306b\u3053\u306e\u30bf\u30fc\u30f3\u3001\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u5e7b\u7adc\u65cf\uff09\u3092\u653b\u6483\u8868\u793a\u3067\u30a2\u30c9\u30d0\u30f3\u30b9\u53ec\u559a\u3059\u308b\u5834\u5408\u3001\u8868\u5074\u8868\u793a\u306e\u3053\u306e\u30ab\u30fc\u30c9\u306f\uff12\u4f53\u5206\u306e\u30ea\u30ea\u30fc\u30b9\u306b\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud658\uad34\ubcd1 \uc544\uc2dc\ubc14 \ube57\ucf00",
+      "effect": "\uc790\uc2e0\uc758 \ub371 \uc704\uc5d0\uc11c \uce74\ub4dc\ub97c [\uc790\uc2e0 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\ud658\ub8e1\uc871)\uc758 \uc218] \u00d7 2\uc7a5 \ubb18\uc9c0\ub85c \ubcf4\ub0b8\ub2e4. \uadf8 \uc911\uc5d0 \ubaac\uc2a4\ud130\uac00 2\uc7a5 \uc774\uc0c1 \uc788\uc5c8\uc744 \uacbd\uc6b0, \ucd94\uac00\ub85c \uc774 \ud134\uc5d0, \ubaac\uc2a4\ud130(\ud658\ub8e1\uc871)\ub97c \uacf5\uaca9 \ud45c\uc2dc\ub85c \uc5b4\ub4dc\ubc34\uc2a4 \uc18c\ud658\ud560 \uacbd\uc6b0, \uc55e\uba74 \ud45c\uc2dc\uc758 \uc774 \uce74\ub4dc\ub294 2\uc7a5\ub9cc\ud07c\uc758 \ub9b4\ub9ac\uc2a4\ub85c \ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "type": "wyrm",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 100,
+  "def": 1100,
+  "passwords": [],
+  "images": [
+    {
+      "id": "2a998ec7-dba5-4031-b1f2-a3457fd8ea30",
+      "card": "https://ms.yugipedia.com//6/67/DemolitionSoldierAshibaBikke-RDKP15-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Demolition Soldier Ashiba Bikke",
+        "id": 1025190
+      }
+    ],
+    "dbID": 19646
+  },
+  "series": [
+    "67b235e9-be91-4647-ac78-b92102a5898b"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "1a4eb1c3-bc88-4941-a6b7-713879c26ff0",
+  "name": {
+    "en": "Duelist League Series 10 participation card"
+  },
+  "locales": {
+    "en": {
+      "language": "en",
+      "prefix": "DL10-EN",
+      "cardImages": {},
+      "cardInfo": {},
+      "formats": [
+        "tcg"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          1121205004
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "en"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "distrobution": "preconstructed",
+      "cards": [
+        {
+          "id": "b47e0030-88d9-4408-add3-65ea49348fb0",
+          "card": "629463d3-f248-4437-9e6e-2cdd79d0236d",
+          "suffix": "001",
+          "rarity": "super",
+          "imageID": "93472163-5321-4cdf-9c92-b0b26776960a"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Duelist League Series 10 participation card",
+      "id": 1806
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "61030922-cc8f-497b-8a82-f5ffc9115f6f",
+  "text": {
+    "en": {
+      "name": "Dragon's Fortitude",
+      "effect": "The attacking monster loses ATK equal to [the Level of 1 Dragon Type monster in your Graveyard] x 100 until the end of this turn. Then, shuffle that monster from your Graveyard into the Deck."
+    },
+    "fr": {
+      "name": "Courage du Dragon",
+      "effect": "Le monstre attaquant perd une ATK \u00e9gale au [Niveau d'1 monstre de Type Dragon dans votre Cimeti\u00e8re] x 100 jusqu'\u00e0 la fin de ce tour. Ensuite, m\u00e9langez ce monstre depuis votre Cimeti\u00e8re dans le Deck."
+    },
+    "de": {
+      "name": "Tapferkeit des Drachen",
+      "effect": "Das angreifende Monster verliert bis zum Ende dieses Spielzugs ATK in H\u00f6he [der Stufe von 1 Monster des Typs Drache auf deinem Friedhof] x 100. Mische dann dieses Monster von deinem Friedhof in das Deck."
+    },
+    "it": {
+      "name": "Fortitudine del Drago",
+      "effect": "Il mostro attaccante perde ATK pari [al Livello di 1 mostro di Tipo Drago nel tuo Cimitero] x 100 fino alla fine di questo turno. Poi, mischia quel mostro dal tuo Cimitero nel Deck."
+    },
+    "es": {
+      "name": "Fortaleza de Drag\u00f3n",
+      "effect": "El monstruo atacante pierde ATK igual [al Nivel de 1 monstruo de Tipo Drag\u00f3n en tu Cementerio] x 100 hasta el final de este turno. A continuaci\u00f3n, baraja el monstruo de tu Cementerio al Deck."
+    },
+    "ja": {
+      "name": "\u7adc\u306e\u57f7\u5ff5",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30c9\u30e9\u30b4\u30f3\u65cf\uff09\uff11\u4f53\u3092\u9078\u3073\u3001\u653b\u6483\u3057\u3066\u304d\u305f\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u653b\u6483\u529b\u3092\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\u3001\uff3b\u9078\u3093\u3060\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u30ec\u30d9\u30eb\uff3d\u00d7\uff11\uff10\uff10\u30c0\u30a6\u30f3\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u9078\u3093\u3060\u30e2\u30f3\u30b9\u30bf\u30fc\u3092\u30c7\u30c3\u30ad\u306b\u623b\u3059\u3002"
+    },
+    "ko": {
+      "name": "\uc6a9\uc758 \uc9d1\ub150",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130(\ub4dc\ub798\uace4\uc871) 1\uc7a5\uc744 \uace0\ub974\uace0, \uacf5\uaca9\ud574 \uc628 \ubaac\uc2a4\ud130\uc758 \uacf5\uaca9\ub825\uc744 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0, [\uace0\ub978 \ubaac\uc2a4\ud130\uc758 \ub808\ubca8] \u00d7 100 \ub0b4\ub9b0\ub2e4. \uadf8 \ud6c4, \uace0\ub978 \ubaac\uc2a4\ud130\ub97c \ub371\uc73c\ub85c \ub418\ub3cc\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "trap",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "e043c78e-e4ff-4237-8480-6f2bf34e8c7b",
+      "card": "https://ms.yugipedia.com//6/6a/DragonsFortitude-RDJB01-JP-NPR.png"
+    }
+  ],
+  "sets": [
+    "f15281f0-8ea5-4682-b72c-36f0b779a7bc",
+    "a08d0d55-5282-4487-b8b3-a190adb90edf",
+    "b6e8e337-8faf-48be-851d-4ba7298c81d0",
+    "c0287cbc-dc56-47ae-9e89-0af80eb1b3d9",
+    "11548122-d48e-4313-aff4-6d29bca3f0b0",
+    "e123be6e-0424-4ff0-a324-6175fee17d50",
+    "cd789676-cedd-4bac-9b31-6fe414ff91be"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "r"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Dragon's Fortitude",
+        "id": 714650
+      }
+    ],
+    "dbID": 15583
+  },
+  "series": []
+}

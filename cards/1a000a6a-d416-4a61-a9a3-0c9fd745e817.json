@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "1a000a6a-d416-4a61-a9a3-0c9fd745e817",
+  "text": {
+    "en": {
+      "name": "Grand Legendary Party",
+      "effect": "Special Summon 1 Legend monster from either Graveyard face-up to your field. This turn, you cannot activate the effect of \"Grand Legendary Party\".",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30b0\u30e9\u30f3\u30c9\u30fb\u30ec\u30b8\u30a7\u30f3\u30c9\u30fb\u30d1\u30fc\u30c6\u30a3"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "fairy",
+  "classifications": [
+    "effect"
+  ],
+  "level": 10,
+  "atk": 2500,
+  "def": 300,
+  "passwords": [],
+  "images": [
+    {
+      "id": "da4133e3-4f22-490b-9811-da113e895788",
+      "card": "https://ms.yugipedia.com//8/83/GrandLegendaryParty-RDCA01-JP-OP.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Grand Legendary Party",
+        "id": 1225502
+      }
+    ]
+  },
+  "series": []
+}

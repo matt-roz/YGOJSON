@@ -1,0 +1,39 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "f2b4bd4c-a252-48aa-a60a-375b21f4c8b0",
+  "text": {
+    "en": {
+      "name": "Power Bond (Rush Duel)",
+      "effect": "Fusion Summon a Machine Type monster by sending monsters from your hand or field to the Graveyard as material. That monster gains ATK equal to [its original ATK]. Take damage equal to [the amount of ATK gained from this effect] during the End Phase of this turn.",
+      "official": false
+    },
+    "ko": {
+      "name": "\ud30c\uc6cc \ubcf8\ub4dc",
+      "effect": "\uc790\uc2e0\uc758 \ud328 / \ud544\ub4dc\uc758 \ubaac\uc2a4\ud130\ub97c \uc18c\uc7ac\ub85c\uc11c \ubb18\uc9c0\ub85c \ubcf4\ub0b4\uace0, \ubaac\uc2a4\ud130(\uae30\uacc4\uc871)\ub97c \ud4e8\uc804 \uc18c\ud658\ud55c\ub2e4. \uadf8 \ubaac\uc2a4\ud130\uc758 \uacf5\uaca9\ub825\uc740, [\uadf8 \uc6d0\ub798 \uacf5\uaca9\ub825]\ub9cc\ud07c \uc62c\ub9b0\ub2e4. \uc774 \ud134\uc758 \uc5d4\ub4dc \ud398\uc774\uc988\uc5d0 \uc790\uc2e0\uc740 [\uc774 \ud6a8\uacfc\ub85c \uc62c\ub9b0 \uc218\uce58]\ub9cc\ud07c \ub370\ubbf8\uc9c0\ub97c \ubc1b\ub294\ub2e4."
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "2611a22b-337d-4595-91f1-05492a9e522f",
+      "card": "https://ms.yugipedia.com//5/5c/PowerBond-RDSD0C-JP-NPR.png"
+    }
+  ],
+  "sets": [
+    "918ca201-7f5c-4e30-a6be-9ad1bd9e8458",
+    "918ca201-7f5c-4e30-a6be-9ad1bd9e8458"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Power Bond (Rush Duel)",
+        "id": 716261
+      }
+    ],
+    "dbID": 18399
+  },
+  "series": []
+}

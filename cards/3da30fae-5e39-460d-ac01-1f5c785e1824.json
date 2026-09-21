@@ -1,0 +1,38 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "3da30fae-5e39-460d-ac01-1f5c785e1824",
+  "text": {
+    "en": {
+      "name": "Fireyarou (Rush Duel)",
+      "effect": "A malevolent creature wrapped in flames that attacks enemies with intense fire."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "type": "pyro",
+  "classifications": [
+    "normal"
+  ],
+  "level": 4,
+  "atk": 1300,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "7eeed839-8fc5-431a-b52a-9c738479417e",
+      "card": "https://ms.yugipedia.com//8/83/Fireyarou-RDB232-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Fireyarou (Rush Duel)",
+        "id": 990305
+      }
+    ],
+    "dbID": 19267
+  },
+  "series": []
+}

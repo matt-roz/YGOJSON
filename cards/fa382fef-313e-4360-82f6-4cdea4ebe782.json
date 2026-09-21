@@ -1,0 +1,47 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "fa382fef-313e-4360-82f6-4cdea4ebe782",
+  "text": {
+    "en": {
+      "name": "Cyc the Child of Wind",
+      "effect": "Add 1 Level 4 or lower Spellcaster Type monster from your Graveyard to your hand.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u98a8\u306e\u5b50\u30b5\u30a4\u30af",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff14\u4ee5\u4e0b\uff0f\u9b54\u6cd5\u4f7f\u3044\u65cf\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ubc14\ub78c\uc758 \uc544\uc774 \uc0ac\uc774\ud06c",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130(\ub808\ubca8 4 \uc774\ud558 / \ub9c8\ubc95\uc0ac\uc871) 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\ub294\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "wind",
+  "type": "spellcaster",
+  "classifications": [
+    "effect"
+  ],
+  "level": 2,
+  "atk": 400,
+  "def": 600,
+  "passwords": [],
+  "images": [
+    {
+      "id": "102c931b-a760-4de3-a5fa-2cca4a2b1812",
+      "card": "https://ms.yugipedia.com//9/96/CyctheChildofWind-RDMRP2-JP-R.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Cyc the Child of Wind",
+        "id": 1005416
+      }
+    ],
+    "dbID": 19550
+  },
+  "series": []
+}

@@ -1,0 +1,44 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "d064e0c9-bed2-4ea3-9b1f-373407c74a18",
+  "text": {
+    "en": {
+      "name": "Gradius' Option (Rush Duel)",
+      "effect": "Choose 1 face-up Level 4 LIGHT Attribute Machine Type monster with 800 original DEF on your field, and this card gains ATK equal to [the chosen monster's original ATK] until the end of your opponent's next turn."
+    },
+    "ko": {
+      "name": "\uc635\uc158",
+      "effect": "\uc790\uc2e0 \ud544\ub4dc\uc758 \uc6d0\ub798 \uc218\ube44\ub825\uc774 800 \uc778 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\ub808\ubca8 4 / \ube5b \uc18d\uc131 / \uae30\uacc4\uc871) 1\uc7a5\uc744 \uace0\ub974\uace0, \uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\ub825\uc740 \ub2e4\uc74c \uc0c1\ub300 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0, [\uace0\ub978 \ubaac\uc2a4\ud130\uc758 \uc6d0\ub798 \uacf5\uaca9\ub825]\ub9cc\ud07c \uc62c\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 1,
+  "atk": 0,
+  "def": 800,
+  "passwords": [],
+  "images": [
+    {
+      "id": "6422958c-74f0-430a-8799-54259e357204",
+      "card": "https://ms.yugipedia.com//1/16/GradiusOption-RDKP23-JP-R.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Gradius' Option (Rush Duel)",
+        "id": 1157185
+      }
+    ],
+    "dbID": 22428
+  },
+  "series": [
+    "129bf619-8fb9-4bb6-b73a-bab85c3f0376"
+  ]
+}

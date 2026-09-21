@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "56881f7a-3d33-41fa-a557-97b7d42a6ab4",
+  "text": {
+    "en": {
+      "name": "Red-Eyes Pluto Dragon",
+      "effect": "Fusion Summon a DARK or FIRE Attribute non-Effect Monster by shuffling monsters from your field or Graveyard into the owner's Deck as material.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u771f\u7d05\u773c\u306e\u51a5\u7adc",
+      "effect": "\u81ea\u5206\u306e\u30d5\u30a3\u30fc\u30eb\u30c9\u30fb\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u3092\u7d20\u6750\u3068\u3057\u3066\u6301\u3061\u4e3b\u306e\u30c7\u30c3\u30ad\u306b\u623b\u3057\u3001\u52b9\u679c\u30e2\u30f3\u30b9\u30bf\u30fc\u4ee5\u5916\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u95c7\u5c5e\u6027\u30fb\u708e\u5c5e\u6027\uff09\u3092\u30d5\u30e5\u30fc\u30b8\u30e7\u30f3\u53ec\u559a\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ubd89\uc740 \ub208\uc758 \uba85\ub8e1",
+      "effect": "\uc790\uc2e0\uc758 \ud544\ub4dc / \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130\ub97c \uc18c\uc7ac\ub85c\uc11c \uc8fc\uc778\uc758 \ub371\uc73c\ub85c \ub418\ub3cc\ub9ac\uace0, \ud6a8\uacfc \ubaac\uc2a4\ud130 \uc774\uc678\uc758 \ubaac\uc2a4\ud130(\uc5b4\ub460 \uc18d\uc131\u30fb\ud654\uc5fc \uc18d\uc131)\ub97c \ud4e8\uc804 \uc18c\ud658\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "dragon",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2000,
+  "def": 1200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "7084f002-9705-4f81-84e5-ec111b3eddb4",
+      "card": "https://ms.yugipedia.com//5/50/RedEyesPlutoDragon-RDTB02-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Red-Eyes Pluto Dragon",
+        "id": 1103507
+      }
+    ],
+    "dbID": 21083
+  },
+  "series": [
+    "b8f9793c-0736-4ee4-99be-120c4d70afbc"
+  ]
+}

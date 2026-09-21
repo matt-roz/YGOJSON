@@ -1,0 +1,77 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "40546fff-d3ef-4327-af87-d6167b405812",
+  "text": {
+    "en": {
+      "name": "Steel Mech Lord Mirror Innovator",
+      "effect": "Choose up to 3 monsters in your Graveyard with the same Type as this card. This card gains ATK equal to [the total Levels of the chosen monsters] x 100 until the end of this turn. Then, shuffle those monsters into the Deck. If you shuffled exactly 1 monster into the Deck by this effect, this card inflicts piercing battle damage this turn."
+    },
+    "fr": {
+      "name": "Innovateur du Miroir le Seigneur M\u00e9ca en Acier",
+      "effect": "Choisissez max. 3 monstres dans votre Cimeti\u00e8re du m\u00eame Type que cette carte. Cette carte gagne une ATK \u00e9gale \u00e0 [la somme des Niveaux de ces monstres] x 100 jusqu'\u00e0 la fin de ce tour. Ensuite, m\u00e9langez ces monstres dans le Deck. Si vous avez m\u00e9lang\u00e9 exactement 1 monstre avec cet effet, cette carte inflige des dommages de combat per\u00e7ants (si l'ATK du monstre attaquant est sup\u00e9rieure \u00e0 la DEF de la cible, infligez la diff\u00e9rence) si elle attaque un monstre en Position de D\u00e9fense ce tour."
+    },
+    "de": {
+      "name": "Stahlmech-Lord Spiegelinnovator",
+      "effect": "Bestimme bis zu 3 Monster auf deinem Friedhof, die dem Typ dieser Karte entsprechen. Diese Karte erh\u00e4lt bis zum Ende dieses Spielzugs einen ATK in H\u00f6he [der Gesamt-Stufe der betreffenden Monster] x 100. Mische diese Monster anschlie\u00dfend mit ins Deck. Falls du \u00fcber diesen Effekt genau 1 Monster mit hineingemischt hast, verursacht diese Karte einen durchschlagenden Kampfschaden (falls der ATK des angreifenden Monsters die DEF des Angriffsziels \u00fcbersteigt, f\u00fcgst du die Differenz an Schaden zu), falls sie in diesem Spielzug ein Monster in Verteidigungsposition angreift."
+    },
+    "it": {
+      "name": "Specchio Innovatore Signore Mech d'Acciaio",
+      "effect": "Seleziona fino a 3 mostri nel tuo Cimitero con lo stesso Tipo di questa carta. Questa carta guadagna ATK pari [alla somma dei Livelli di quei mostri] x 100 fino alla fine di questo turno. Poi, mischia quei mostri nel Deck. Se hai mischiato esattamente 1 mostro grazie a questo effetto, questa carta infligge danno da combattimento perforante (se l'ATK del mostro attaccante supera la DEF del bersaglio attaccato, infliggi la differenza), se attacca un mostro in Posizione di Difesa in questo turno."
+    },
+    "es": {
+      "name": "Se\u00f1or Mecha de Acero Espejo Innovador",
+      "effect": "Elige hasta 3 monstruos en tu Cementerio con el mismo Tipo que esta carta. Esta carta gana ATK igual a [los Niveles totales de esos monstruos] x 100 hasta el final de este turno. A continuaci\u00f3n, baraja esos monstruos al Deck. Si has barajado exactamente 1 monstruo por este efecto, esta carta inflige da\u00f1o de batalla de penetraci\u00f3n (si el ATK del monstruo atacante excede la DEF del objetivo, inflige la diferencia), si ataca a un monstruo en Posici\u00f3n de Defensa este turno."
+    },
+    "ja": {
+      "name": "\u92fc\u6a5f\u795e\u30df\u30e9\u30fc\u30a4\u30ce\u30d9\u30a4\u30bf\u30fc",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u3068\u540c\u3058\u7a2e\u65cf\u306e\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u3092\uff13\u4f53\u307e\u3067\u9078\u3076\u3002\u3053\u306e\u30ab\u30fc\u30c9\u306e\u653b\u6483\u529b\u306f\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\u3001\uff3b\u9078\u3093\u3060\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u30ec\u30d9\u30eb\u306e\u5408\u8a08\uff3d\u00d7\uff11\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u9078\u3093\u3060\u30e2\u30f3\u30b9\u30bf\u30fc\u3092\u30c7\u30c3\u30ad\u306b\u623b\u3059\u3002\u3053\u306e\u52b9\u679c\u3067\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u306e\u307f\u3092\u623b\u3057\u305f\u5834\u5408\u3001\u3055\u3089\u306b\u3053\u306e\u30bf\u30fc\u30f3\u3001\u3053\u306e\u30ab\u30fc\u30c9\u306e\u653b\u6483\u306f\u8cab\u901a\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uac15\uae30\uc2e0 \ubbf8\ub7ec\uc774\ub178\ubca0\uc774\ud130",
+      "effect": "\uc774 \uce74\ub4dc\uc640 \uac19\uc740 \uc885\uc871\uc758 \uc790\uc2e0 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130\ub97c 3\uc7a5\uae4c\uc9c0 \uace0\ub978\ub2e4. \uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\ub825\uc740 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0, [\uace0\ub978 \ubaac\uc2a4\ud130\uc758 \ub808\ubca8\uc758 \ud569\uacc4] \u00d7 100 \uc62c\ub9b0\ub2e4. \uadf8 \ud6c4, \uace0\ub978 \ubaac\uc2a4\ud130\ub97c \ub371\uc73c\ub85c \ub418\ub3cc\ub9b0\ub2e4. \uc774 \ud6a8\uacfc\ub85c \ubaac\uc2a4\ud130 1\uc7a5\ub9cc\uc744 \ub418\ub3cc\ub838\uc744 \uacbd\uc6b0, \ucd94\uac00\ub85c \uc774 \ud134\uc5d0, \uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\uc740 \uad00\ud1b5\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2400,
+  "def": 1800,
+  "passwords": [],
+  "images": [
+    {
+      "id": "e05db621-de19-4e00-bfde-3dca1507e0d3",
+      "card": "https://ms.yugipedia.com//1/19/SteelMechLordMirrorInnovator-RDSD0C-JP-C.png"
+    },
+    {
+      "id": "adfd58ff-d9aa-4e57-9e48-918250a41b1e",
+      "card": "https://ms.yugipedia.com//9/98/SteelMechLordMirrorInnovator-RD5TH1-JP-UPR.png"
+    }
+  ],
+  "sets": [
+    "5b6d7ab4-987e-4469-89bd-9d9bf3d400c0",
+    "29280529-be04-4a88-b2a3-acb63a018731",
+    "29280529-be04-4a88-b2a3-acb63a018731",
+    "918ca201-7f5c-4e30-a6be-9ad1bd9e8458",
+    "918ca201-7f5c-4e30-a6be-9ad1bd9e8458",
+    "31432588-1ddf-4225-8c5e-7dfc48faac1e",
+    "31432588-1ddf-4225-8c5e-7dfc48faac1e"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Steel Mech Lord Mirror Innovator",
+        "id": 716872
+      }
+    ],
+    "dbID": 16138
+  },
+  "series": []
+}

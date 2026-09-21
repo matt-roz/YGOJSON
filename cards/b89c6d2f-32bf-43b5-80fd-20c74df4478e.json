@@ -1,0 +1,47 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "b89c6d2f-32bf-43b5-80fd-20c74df4478e",
+  "text": {
+    "en": {
+      "name": "Elemental HERO Mariner (Rush Duel)",
+      "effect": "This card can attack directly this turn."
+    },
+    "ko": {
+      "name": "\uc5d8\ub9ac\uba58\ud2c0 \ud788\uc5b4\ub85c \uc138\uc77c\ub7ec\ub9e8",
+      "effect": "\uc774 \ud134\uc5d0, \uc774 \uce74\ub4dc\ub294 \uc9c1\uc811 \uacf5\uaca9\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 5,
+  "atk": 1400,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "b025a91f-0753-4db3-b945-a64065d927de",
+      "card": "https://ms.yugipedia.com//9/95/ElementalHEROMariner-RDKP19-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Elemental HERO Mariner (Rush Duel)",
+        "id": 1090591
+      }
+    ],
+    "dbID": 20998
+  },
+  "series": [
+    "4e2112ec-34a4-4031-91ad-7dcc3818d4c7"
+  ]
+}

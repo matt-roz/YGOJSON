@@ -1,0 +1,88 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "79673e20-4261-458e-9f45-b58f4943a1d1",
+  "name": {
+    "en": "Yu-Gi-Oh! Championship Series Japan 2026 prize cards",
+    "ja": "\uff39\uff23\uff33\uff2a \uff12\uff10\uff12\uff16 \u666f\u54c1\u30ab\u30fc\u30c9"
+  },
+  "locales": {
+    "jp": {
+      "language": "ja",
+      "prefix": "26Y",
+      "date": "2026-06-13",
+      "image": "https://ms.yugipedia.com//8/80/26YC-PromoJP.png",
+      "cardImages": {
+        "unlimited": {}
+      },
+      "cardInfo": {
+        "unlimited": {}
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {}
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//8/80/26YC-PromoJP.png",
+      "cards": [
+        {
+          "id": "e1f179c7-2c1c-451a-bfc2-a3d32448e449",
+          "card": "0626cd7e-9544-4a18-8625-85b0ac76bb54",
+          "suffix": "C-JP001",
+          "rarity": "super",
+          "imageID": "de3328cf-a5fb-417a-8648-c518c10f8327",
+          "printStatus": "reprint",
+          "printNote": "New artwork"
+        },
+        {
+          "id": "b7ae8cc2-0b52-4ed4-8ed8-d9fe77529f67",
+          "card": "0626cd7e-9544-4a18-8625-85b0ac76bb54",
+          "suffix": "C-JP001",
+          "rarity": "ultra",
+          "imageID": "de3328cf-a5fb-417a-8648-c518c10f8327",
+          "printStatus": "reprint",
+          "printNote": "New artwork"
+        },
+        {
+          "id": "9cb1cac3-f223-49af-91bb-5463b811da80",
+          "card": "07240dec-046f-4b64-a5ab-9fe3508dda64",
+          "suffix": "C-JP002",
+          "rarity": "ultra",
+          "imageID": "bfe0f624-b178-4a80-be19-a0bf2577c989",
+          "printStatus": "reprint",
+          "printNote": "New artwork"
+        },
+        {
+          "id": "8e9c0a61-527c-4936-a648-fefe9ea460d7",
+          "card": "a2a08169-e25e-4a60-89a2-28a573683b08",
+          "suffix": "J-JPTKN",
+          "rarity": "superparallel",
+          "imageID": "3fa31707-f415-4275-b22a-731b05243c37",
+          "printStatus": "reprint",
+          "printNote": "New artwork"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Yu-Gi-Oh! Championship Series Japan 2026 prize cards",
+      "id": 1201966
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "f26fa376-bd8e-459a-a520-589f26e453d1",
+  "text": {
+    "en": {
+      "name": "Dark Necrofear, the Ruler of Demise",
+      "effect": "Cannot be Normal Summoned/Set. Must be Special Summoned by card effect. If you have 3 or more Fiend and/or Zombie monsters in your GY: You can Special Summon this card from your hand. If this card on the field is destroyed: You can add this card to your hand, and if you do, take control of 1 monster your opponent controls (until the End Phase), then you can inflict damage to your opponent equal to half its ATK. You can only use each effect of \"Dark Necrofear, the Ruler of Demise\" once per turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u6b7b\u306e\u4e16\u754c\u306e\u652f\u914d\u8005\uff0d\u30c0\u30fc\u30af\u30fb\u30cd\u30af\u30ed\u30d5\u30a3\u30a2"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "fiend",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 2200,
+  "def": 2800,
+  "passwords": [],
+  "images": [
+    {
+      "id": "5daf7b10-5391-4c4b-bc74-c458d325748b",
+      "card": "https://ms.yugipedia.com//1/1b/DarkNecrofeartheRulerofDemise-YAC1-JP-OP.png"
+    },
+    {
+      "id": "30eb49b9-f031-4d7f-9a07-be02a3490c9d",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/100459007.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/100459007.jpg"
+    }
+  ],
+  "sets": [
+    "9aefc662-0b55-44d0-85b1-7c92cfe8a78b",
+    "9aefc662-0b55-44d0-85b1-7c92cfe8a78b",
+    "9aefc662-0b55-44d0-85b1-7c92cfe8a78b",
+    "9aefc662-0b55-44d0-85b1-7c92cfe8a78b"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Dark Necrofear, the Ruler of Demise",
+        "id": 1227427
+      }
+    ],
+    "ygoprodeck": {
+      "id": 100459007,
+      "name": "dark-necrofear-the-ruler-of-demise-15960"
+    }
+  },
+  "series": []
+}

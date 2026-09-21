@@ -1,0 +1,837 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "7f36fc16-fccf-495c-a518-8eefc8493631",
+  "name": {
+    "en": "Duelist Entry Deck VS",
+    "ja": "\u30c7\u30e5\u30a8\u30ea\u30b9\u30c8\u30a8\u30f3\u30c8\u30ea\u30fc\u30c7\u30c3\u30ad\uff36\uff33"
+  },
+  "locales": {
+    "jp": {
+      "language": "ja",
+      "prefix": "VS15-JP",
+      "date": "2015-03-21",
+      "image": "https://ms.yugipedia.com//5/5f/VS15-DeckJP.png",
+      "cardImages": {
+        "unlimited": {
+          "019d7b5a-869b-4cef-a97c-994ac05da3df": "https://ms.yugipedia.com//b/b3/TheDragonDwellingintheCave-VS15-JP-C.png",
+          "03cc7151-f90b-4f94-9733-928b0abee52a": "https://ms.yugipedia.com//e/e4/DarkHole-VS15-JP-NPR-2.png",
+          "05b9fa91-ac9f-4135-bf90-127fd86331ff": "https://ms.yugipedia.com//9/9b/MirrorForce-VS15-JP-NPR.png",
+          "05f14aa8-d22d-42cf-942a-4506fe32d350": "https://ms.yugipedia.com//a/a0/ExploderDragon-VS15-JP-NPR.png",
+          "13d6cbf7-328f-4cd2-a792-38fcf9312745": "https://ms.yugipedia.com//e/e9/AlexandriteDragon-VS15-JP-C.png",
+          "1e68264b-e824-4dd8-8443-e63eff73112c": "https://ms.yugipedia.com//4/41/TrapHole-VS15-JP-C.png",
+          "28ded894-0ba3-48a3-a429-24f6174d7f35": "https://ms.yugipedia.com//2/26/GraveSquirmer-VS15-JP-C.png",
+          "2c089087-496d-46df-8f66-983be5d45aad": "https://ms.yugipedia.com//1/1a/MysticalSpaceTyphoon-VS15-JP-C-2.png",
+          "387467ac-ce12-4262-8bf2-0e26a4d00d2f": "https://ms.yugipedia.com//5/5d/SmashingGround-VS15-JP-NPR-2.png",
+          "3f07fc02-4a36-4508-9033-5b3c85de38b8": "https://ms.yugipedia.com//d/d8/GoblinEliteAttackForce-VS15-JP-C.png",
+          "42aec53f-0502-4c4b-a65c-fb82ef06105d": "https://ms.yugipedia.com//f/f5/MaskofWeakness-VS15-JP-C.png",
+          "449122b3-a9e5-46c0-b1d0-cbb64e775b27": "https://ms.yugipedia.com//2/2d/MonsterReborn-VS15-JP-NPR-2.png",
+          "4a6a9dab-b749-4464-830c-129026b0a68f": "https://ms.yugipedia.com//7/79/TheCalculator-VS15-JP-C.png",
+          "4b50b137-e3b8-4d7e-b8c8-6234f939eb23": "https://ms.yugipedia.com//8/8f/LancerLindwurm-VS15-JP-C.png",
+          "4c24831c-5586-4356-a3df-8ca5f71d493f": "https://ms.yugipedia.com//7/7d/AxeofFools-VS15-JP-C.png",
+          "4d86448a-5d4c-4c1a-9b4c-d7db70542adc": "https://ms.yugipedia.com//f/fc/OddEyesDragon-VS15-JP-NPR.png",
+          "4f0827aa-5d65-437b-8510-98e075a82b1d": "https://ms.yugipedia.com//6/6b/MalevolentNuzzler-VS15-JP-C.png",
+          "53c8758b-8c55-4322-95ad-30c02417346d": "https://ms.yugipedia.com//1/1c/OddEyesSaberDragon-VS15-JP-EScR.png",
+          "56f8cb11-ada7-4391-8825-82477591b230": "https://ms.yugipedia.com//1/17/NegateAttack-VS15-JP-C.png",
+          "5a3967ab-7273-4ba8-8bb2-542cf7abd3b3": "https://ms.yugipedia.com//4/4a/KaiserGlider-VS15-JP-NPR.png",
+          "62221137-2e0a-42ec-b4aa-2ed2d557ec6d": "https://ms.yugipedia.com//4/43/FabledAshenveil-VS15-JP-C.png",
+          "64a24729-12cb-4116-852b-b04c667b1589": "https://ms.yugipedia.com//2/2a/BeastofTalwar-VS15-JP-C.png",
+          "66f2dc54-86a8-4a09-8111-f1d90607ac7d": "https://ms.yugipedia.com//2/2b/AxeDragonute-VS15-JP-C.png",
+          "6bfbdbf2-6bf3-4e12-8da2-8a7be9231caf": "https://ms.yugipedia.com//a/a9/GraviCrushDragon-VS15-JP-NPR.png",
+          "6eb7b6c1-32c3-4d74-aa58-3e57e9d87eaf": "https://ms.yugipedia.com//0/01/DDDDragonKingPendragon-VS15-JP-EScR.png",
+          "711c224a-b51e-4b8c-b517-3dcd2017ad58": "https://ms.yugipedia.com//9/94/MirrorForce-VS15-JP-NPR-2.png",
+          "71d38430-2fa8-4fc6-9fac-440c19bdcc10": "https://ms.yugipedia.com//e/e1/BannerofCourage-VS15-JP-C.png",
+          "7e7e9acc-d759-4fb5-9467-bdfb1aa45ddf": "https://ms.yugipedia.com//f/f4/Skelengel-VS15-JP-C.png",
+          "7eeda410-fe17-4e1c-b56b-5e53ae6bbec4": "https://ms.yugipedia.com//0/08/AxeofDespair-VS15-JP-C.png",
+          "804f4d10-b600-48fd-91b0-473f45ff9642": "https://ms.yugipedia.com//3/36/MahaVailo-VS15-JP-C.png",
+          "81c4c95c-686c-431d-815a-43074910e599": "https://ms.yugipedia.com//a/a9/CyberDragon-VS15-JP-C.png",
+          "82e400d8-de0e-4b19-9924-2a1103881685": "https://ms.yugipedia.com//9/9e/MysticalElf-VS15-JP-C.png",
+          "9196be54-29dc-495d-bebc-065106936ffa": "https://ms.yugipedia.com//a/a0/RushRecklessly-VS15-JP-C-2.png",
+          "96fb00d2-aa25-4d83-bb1b-e21d261f0917": "https://ms.yugipedia.com//9/9d/PoisonoftheOldMan-VS15-JP-C.png",
+          "98767050-5a00-4f8e-97af-47288194b516": "https://ms.yugipedia.com//c/c0/TrapHole-VS15-JP-C-2.png",
+          "9fe840bd-c21d-4808-93b0-5bf0a91bbaf0": "https://ms.yugipedia.com//d/db/CalloftheHaunted-VS15-JP-C.png",
+          "a28b059b-825c-45cd-a736-ef158b6a9e3b": "https://ms.yugipedia.com//6/6e/BladeKnight-VS15-JP-C.png",
+          "a5417080-f2ca-43c2-9c4d-eb1753d179d5": "https://ms.yugipedia.com//c/c6/MonsterReborn-VS15-JP-NPR.png",
+          "a8d17548-37b7-429c-8c71-bcf6eebfb45d": "https://ms.yugipedia.com//7/78/LancerDragonute-VS15-JP-C.png",
+          "a8f2d4ea-5998-4d62-9a3a-06fe897e52ea": "https://ms.yugipedia.com//3/31/PinpointGuard-VS15-JP-C.png",
+          "aae43811-305d-4c63-9df7-1d09692511b4": "https://ms.yugipedia.com//4/42/RushRecklessly-VS15-JP-C.png",
+          "ab68c801-b4ca-45a4-b9ca-d5cc56c27e87": "https://ms.yugipedia.com//5/5c/NegateAttack-VS15-JP-C-2.png",
+          "bd3558cd-7c73-4554-a8aa-28e19e75c10a": "https://ms.yugipedia.com//2/2f/DustTornado-VS15-JP-C.png",
+          "c125f087-ad2e-49d5-aeb3-0ac4669d6e4f": "https://ms.yugipedia.com//6/66/MysticalSpaceTyphoon-VS15-JP-C.png",
+          "cc3fbcb1-c567-4f0a-ae47-55a90807fbb2": "https://ms.yugipedia.com//d/dd/ThebanNightmare-VS15-JP-C.png",
+          "d07d52af-415a-4bdc-a952-965c386eabd5": "https://ms.yugipedia.com//f/f1/DUCKERMobileCannon-VS15-JP-C.png",
+          "d0c01f08-0b5a-47db-8667-47d0e6e7727a": "https://ms.yugipedia.com//c/c9/DarkHole-VS15-JP-NPR.png",
+          "d2e27f10-5f53-47ee-9b70-0b1783e1eff1": "https://ms.yugipedia.com//4/4f/SmashingGround-VS15-JP-NPR.png",
+          "d387f187-89ad-4a74-a482-96ee674ec3e1": "https://ms.yugipedia.com//0/09/DustTornado-VS15-JP-C-2.png",
+          "d7729c25-9ccf-4781-a8b5-0d7e2d861672": "https://ms.yugipedia.com//4/41/MagicCylinder-VS15-JP-NPR-2.png",
+          "da4fde92-d6da-49f0-b473-23ceae324452": "https://ms.yugipedia.com//8/82/ArchfiendSoldier-VS15-JP-C.png",
+          "db24798b-662e-4996-a027-720d3c8c0988": "https://ms.yugipedia.com//6/61/MirageDragon-VS15-JP-C.png",
+          "df6802d4-713d-44fd-8533-aaa269cae21f": "https://ms.yugipedia.com//1/1d/MagicCylinder-VS15-JP-NPR.png",
+          "e1e4f477-6102-43f1-9de3-6dee4f20c882": "https://ms.yugipedia.com//b/bd/MadArchfiend-VS15-JP-C.png",
+          "e4ea9b1a-4671-404d-aac2-1431f969e0a2": "https://ms.yugipedia.com//e/ec/HeraldofCreation-VS15-JP-C.png",
+          "ec45fcfd-2d2b-4dcc-b9cd-cf77d214569f": "https://ms.yugipedia.com//2/20/MalevolentNuzzler-VS15-JP-C-2.png",
+          "f45fea93-81ef-40a8-bf85-565d87028098": "https://ms.yugipedia.com//c/ca/CalloftheHaunted-VS15-JP-C-2.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "019d7b5a-869b-4cef-a97c-994ac05da3df": {
+            "image": "https://ms.yugipedia.com//b/b3/TheDragonDwellingintheCave-VS15-JP-C.png"
+          },
+          "03cc7151-f90b-4f94-9733-928b0abee52a": {
+            "image": "https://ms.yugipedia.com//e/e4/DarkHole-VS15-JP-NPR-2.png",
+            "variants": [
+              {
+                "code": "2",
+                "image": "https://ms.yugipedia.com//e/e4/DarkHole-VS15-JP-NPR-2.png"
+              }
+            ]
+          },
+          "05b9fa91-ac9f-4135-bf90-127fd86331ff": {
+            "image": "https://ms.yugipedia.com//9/9b/MirrorForce-VS15-JP-NPR.png"
+          },
+          "05f14aa8-d22d-42cf-942a-4506fe32d350": {
+            "image": "https://ms.yugipedia.com//a/a0/ExploderDragon-VS15-JP-NPR.png"
+          },
+          "13d6cbf7-328f-4cd2-a792-38fcf9312745": {
+            "image": "https://ms.yugipedia.com//e/e9/AlexandriteDragon-VS15-JP-C.png"
+          },
+          "1e68264b-e824-4dd8-8443-e63eff73112c": {
+            "image": "https://ms.yugipedia.com//4/41/TrapHole-VS15-JP-C.png"
+          },
+          "28ded894-0ba3-48a3-a429-24f6174d7f35": {
+            "image": "https://ms.yugipedia.com//2/26/GraveSquirmer-VS15-JP-C.png"
+          },
+          "2c089087-496d-46df-8f66-983be5d45aad": {
+            "image": "https://ms.yugipedia.com//1/1a/MysticalSpaceTyphoon-VS15-JP-C-2.png",
+            "variants": [
+              {
+                "code": "2",
+                "image": "https://ms.yugipedia.com//1/1a/MysticalSpaceTyphoon-VS15-JP-C-2.png"
+              }
+            ]
+          },
+          "387467ac-ce12-4262-8bf2-0e26a4d00d2f": {
+            "image": "https://ms.yugipedia.com//5/5d/SmashingGround-VS15-JP-NPR-2.png",
+            "variants": [
+              {
+                "code": "2",
+                "image": "https://ms.yugipedia.com//5/5d/SmashingGround-VS15-JP-NPR-2.png"
+              }
+            ]
+          },
+          "3f07fc02-4a36-4508-9033-5b3c85de38b8": {
+            "image": "https://ms.yugipedia.com//d/d8/GoblinEliteAttackForce-VS15-JP-C.png"
+          },
+          "42aec53f-0502-4c4b-a65c-fb82ef06105d": {
+            "image": "https://ms.yugipedia.com//f/f5/MaskofWeakness-VS15-JP-C.png"
+          },
+          "449122b3-a9e5-46c0-b1d0-cbb64e775b27": {
+            "image": "https://ms.yugipedia.com//2/2d/MonsterReborn-VS15-JP-NPR-2.png",
+            "variants": [
+              {
+                "code": "2",
+                "image": "https://ms.yugipedia.com//2/2d/MonsterReborn-VS15-JP-NPR-2.png"
+              }
+            ]
+          },
+          "4a6a9dab-b749-4464-830c-129026b0a68f": {
+            "image": "https://ms.yugipedia.com//7/79/TheCalculator-VS15-JP-C.png"
+          },
+          "4b50b137-e3b8-4d7e-b8c8-6234f939eb23": {
+            "image": "https://ms.yugipedia.com//8/8f/LancerLindwurm-VS15-JP-C.png"
+          },
+          "4c24831c-5586-4356-a3df-8ca5f71d493f": {
+            "image": "https://ms.yugipedia.com//7/7d/AxeofFools-VS15-JP-C.png"
+          },
+          "4d86448a-5d4c-4c1a-9b4c-d7db70542adc": {
+            "image": "https://ms.yugipedia.com//f/fc/OddEyesDragon-VS15-JP-NPR.png"
+          },
+          "4f0827aa-5d65-437b-8510-98e075a82b1d": {
+            "image": "https://ms.yugipedia.com//6/6b/MalevolentNuzzler-VS15-JP-C.png"
+          },
+          "53c8758b-8c55-4322-95ad-30c02417346d": {
+            "image": "https://ms.yugipedia.com//1/1c/OddEyesSaberDragon-VS15-JP-EScR.png"
+          },
+          "56f8cb11-ada7-4391-8825-82477591b230": {
+            "image": "https://ms.yugipedia.com//1/17/NegateAttack-VS15-JP-C.png"
+          },
+          "5a3967ab-7273-4ba8-8bb2-542cf7abd3b3": {
+            "image": "https://ms.yugipedia.com//4/4a/KaiserGlider-VS15-JP-NPR.png"
+          },
+          "62221137-2e0a-42ec-b4aa-2ed2d557ec6d": {
+            "image": "https://ms.yugipedia.com//4/43/FabledAshenveil-VS15-JP-C.png"
+          },
+          "64a24729-12cb-4116-852b-b04c667b1589": {
+            "image": "https://ms.yugipedia.com//2/2a/BeastofTalwar-VS15-JP-C.png"
+          },
+          "66f2dc54-86a8-4a09-8111-f1d90607ac7d": {
+            "image": "https://ms.yugipedia.com//2/2b/AxeDragonute-VS15-JP-C.png"
+          },
+          "6bfbdbf2-6bf3-4e12-8da2-8a7be9231caf": {
+            "image": "https://ms.yugipedia.com//a/a9/GraviCrushDragon-VS15-JP-NPR.png"
+          },
+          "6eb7b6c1-32c3-4d74-aa58-3e57e9d87eaf": {
+            "image": "https://ms.yugipedia.com//0/01/DDDDragonKingPendragon-VS15-JP-EScR.png"
+          },
+          "711c224a-b51e-4b8c-b517-3dcd2017ad58": {
+            "image": "https://ms.yugipedia.com//9/94/MirrorForce-VS15-JP-NPR-2.png",
+            "variants": [
+              {
+                "code": "2",
+                "image": "https://ms.yugipedia.com//9/94/MirrorForce-VS15-JP-NPR-2.png"
+              }
+            ]
+          },
+          "71d38430-2fa8-4fc6-9fac-440c19bdcc10": {
+            "image": "https://ms.yugipedia.com//e/e1/BannerofCourage-VS15-JP-C.png"
+          },
+          "7e7e9acc-d759-4fb5-9467-bdfb1aa45ddf": {
+            "image": "https://ms.yugipedia.com//f/f4/Skelengel-VS15-JP-C.png"
+          },
+          "7eeda410-fe17-4e1c-b56b-5e53ae6bbec4": {
+            "image": "https://ms.yugipedia.com//0/08/AxeofDespair-VS15-JP-C.png"
+          },
+          "804f4d10-b600-48fd-91b0-473f45ff9642": {
+            "image": "https://ms.yugipedia.com//3/36/MahaVailo-VS15-JP-C.png"
+          },
+          "81c4c95c-686c-431d-815a-43074910e599": {
+            "image": "https://ms.yugipedia.com//a/a9/CyberDragon-VS15-JP-C.png"
+          },
+          "82e400d8-de0e-4b19-9924-2a1103881685": {
+            "image": "https://ms.yugipedia.com//9/9e/MysticalElf-VS15-JP-C.png"
+          },
+          "9196be54-29dc-495d-bebc-065106936ffa": {
+            "image": "https://ms.yugipedia.com//a/a0/RushRecklessly-VS15-JP-C-2.png",
+            "variants": [
+              {
+                "code": "2",
+                "image": "https://ms.yugipedia.com//a/a0/RushRecklessly-VS15-JP-C-2.png"
+              }
+            ]
+          },
+          "96fb00d2-aa25-4d83-bb1b-e21d261f0917": {
+            "image": "https://ms.yugipedia.com//9/9d/PoisonoftheOldMan-VS15-JP-C.png"
+          },
+          "98767050-5a00-4f8e-97af-47288194b516": {
+            "image": "https://ms.yugipedia.com//c/c0/TrapHole-VS15-JP-C-2.png",
+            "variants": [
+              {
+                "code": "2",
+                "image": "https://ms.yugipedia.com//c/c0/TrapHole-VS15-JP-C-2.png"
+              }
+            ]
+          },
+          "9fe840bd-c21d-4808-93b0-5bf0a91bbaf0": {
+            "image": "https://ms.yugipedia.com//d/db/CalloftheHaunted-VS15-JP-C.png"
+          },
+          "a28b059b-825c-45cd-a736-ef158b6a9e3b": {
+            "image": "https://ms.yugipedia.com//6/6e/BladeKnight-VS15-JP-C.png"
+          },
+          "a5417080-f2ca-43c2-9c4d-eb1753d179d5": {
+            "image": "https://ms.yugipedia.com//c/c6/MonsterReborn-VS15-JP-NPR.png"
+          },
+          "a8d17548-37b7-429c-8c71-bcf6eebfb45d": {
+            "image": "https://ms.yugipedia.com//7/78/LancerDragonute-VS15-JP-C.png"
+          },
+          "a8f2d4ea-5998-4d62-9a3a-06fe897e52ea": {
+            "image": "https://ms.yugipedia.com//3/31/PinpointGuard-VS15-JP-C.png"
+          },
+          "aae43811-305d-4c63-9df7-1d09692511b4": {
+            "image": "https://ms.yugipedia.com//4/42/RushRecklessly-VS15-JP-C.png"
+          },
+          "ab68c801-b4ca-45a4-b9ca-d5cc56c27e87": {
+            "image": "https://ms.yugipedia.com//5/5c/NegateAttack-VS15-JP-C-2.png",
+            "variants": [
+              {
+                "code": "2",
+                "image": "https://ms.yugipedia.com//5/5c/NegateAttack-VS15-JP-C-2.png"
+              }
+            ]
+          },
+          "bd3558cd-7c73-4554-a8aa-28e19e75c10a": {
+            "image": "https://ms.yugipedia.com//2/2f/DustTornado-VS15-JP-C.png"
+          },
+          "c125f087-ad2e-49d5-aeb3-0ac4669d6e4f": {
+            "image": "https://ms.yugipedia.com//6/66/MysticalSpaceTyphoon-VS15-JP-C.png"
+          },
+          "cc3fbcb1-c567-4f0a-ae47-55a90807fbb2": {
+            "image": "https://ms.yugipedia.com//d/dd/ThebanNightmare-VS15-JP-C.png"
+          },
+          "d07d52af-415a-4bdc-a952-965c386eabd5": {
+            "image": "https://ms.yugipedia.com//f/f1/DUCKERMobileCannon-VS15-JP-C.png"
+          },
+          "d0c01f08-0b5a-47db-8667-47d0e6e7727a": {
+            "image": "https://ms.yugipedia.com//c/c9/DarkHole-VS15-JP-NPR.png"
+          },
+          "d2e27f10-5f53-47ee-9b70-0b1783e1eff1": {
+            "image": "https://ms.yugipedia.com//4/4f/SmashingGround-VS15-JP-NPR.png"
+          },
+          "d387f187-89ad-4a74-a482-96ee674ec3e1": {
+            "image": "https://ms.yugipedia.com//0/09/DustTornado-VS15-JP-C-2.png",
+            "variants": [
+              {
+                "code": "2",
+                "image": "https://ms.yugipedia.com//0/09/DustTornado-VS15-JP-C-2.png"
+              }
+            ]
+          },
+          "d7729c25-9ccf-4781-a8b5-0d7e2d861672": {
+            "image": "https://ms.yugipedia.com//4/41/MagicCylinder-VS15-JP-NPR-2.png",
+            "variants": [
+              {
+                "code": "2",
+                "image": "https://ms.yugipedia.com//4/41/MagicCylinder-VS15-JP-NPR-2.png"
+              }
+            ]
+          },
+          "da4fde92-d6da-49f0-b473-23ceae324452": {
+            "image": "https://ms.yugipedia.com//8/82/ArchfiendSoldier-VS15-JP-C.png"
+          },
+          "db24798b-662e-4996-a027-720d3c8c0988": {
+            "image": "https://ms.yugipedia.com//6/61/MirageDragon-VS15-JP-C.png"
+          },
+          "df6802d4-713d-44fd-8533-aaa269cae21f": {
+            "image": "https://ms.yugipedia.com//1/1d/MagicCylinder-VS15-JP-NPR.png"
+          },
+          "e1e4f477-6102-43f1-9de3-6dee4f20c882": {
+            "image": "https://ms.yugipedia.com//b/bd/MadArchfiend-VS15-JP-C.png"
+          },
+          "e4ea9b1a-4671-404d-aac2-1431f969e0a2": {
+            "image": "https://ms.yugipedia.com//e/ec/HeraldofCreation-VS15-JP-C.png"
+          },
+          "ec45fcfd-2d2b-4dcc-b9cd-cf77d214569f": {
+            "image": "https://ms.yugipedia.com//2/20/MalevolentNuzzler-VS15-JP-C-2.png",
+            "variants": [
+              {
+                "code": "2",
+                "image": "https://ms.yugipedia.com//2/20/MalevolentNuzzler-VS15-JP-C-2.png"
+              }
+            ]
+          },
+          "f45fea93-81ef-40a8-bf85-565d87028098": {
+            "image": "https://ms.yugipedia.com//c/ca/CalloftheHaunted-VS15-JP-C-2.png",
+            "variants": [
+              {
+                "code": "2",
+                "image": "https://ms.yugipedia.com//c/ca/CalloftheHaunted-VS15-JP-C-2.png"
+              }
+            ]
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          2202009,
+          2202010
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//5/5f/VS15-DeckJP.png",
+      "cards": [
+        {
+          "id": "53c8758b-8c55-4322-95ad-30c02417346d",
+          "card": "94e8833e-f457-4190-8650-927be01d6c62",
+          "suffix": "S00",
+          "rarity": "extrasecret",
+          "imageID": "a3b92936-fae4-4fbd-9ad9-b9ef86ab4feb",
+          "printStatus": "new"
+        },
+        {
+          "id": "13d6cbf7-328f-4cd2-a792-38fcf9312745",
+          "card": "490460a1-def1-402d-97a0-2b0e44c9f210",
+          "suffix": "S01",
+          "rarity": "common",
+          "imageID": "3418deb9-02d8-43bc-a09a-bbcd5279f2ce",
+          "qty": 2,
+          "printStatus": "reprint"
+        },
+        {
+          "id": "82e400d8-de0e-4b19-9924-2a1103881685",
+          "card": "e8b3499e-9370-43a1-aa44-a9d4eaed4e8e",
+          "suffix": "S02",
+          "rarity": "common",
+          "imageID": "f9c3f90f-37ea-41a9-be71-f3ca569a9c2c",
+          "qty": 2,
+          "printStatus": "reprint"
+        },
+        {
+          "id": "4d86448a-5d4c-4c1a-9b4c-d7db70542adc",
+          "card": "70dfbd57-ed56-48db-9277-1fab23ff24df",
+          "suffix": "S03",
+          "rarity": "commonparallel",
+          "imageID": "6bf5bed8-e25e-428a-9bee-80fac03b5e03",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "5a3967ab-7273-4ba8-8bb2-542cf7abd3b3",
+          "card": "f0fa7447-c0bb-4a08-baef-da687d73524e",
+          "suffix": "S04",
+          "rarity": "commonparallel",
+          "imageID": "a0458671-b065-4d6e-8b6a-9eb0a9d374ce",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "81c4c95c-686c-431d-815a-43074910e599",
+          "card": "77bc0807-d7fc-461d-98dc-ea23a2acc6fa",
+          "suffix": "S05",
+          "rarity": "common",
+          "qty": 2,
+          "printStatus": "reprint"
+        },
+        {
+          "id": "e4ea9b1a-4671-404d-aac2-1431f969e0a2",
+          "card": "9cbda603-cdc2-4d97-bcd8-175ac3911dd1",
+          "suffix": "S06",
+          "rarity": "common",
+          "imageID": "29bcbc29-d6c3-4dc2-bb53-19a38c00bdef",
+          "qty": 2,
+          "printStatus": "reprint"
+        },
+        {
+          "id": "a28b059b-825c-45cd-a736-ef158b6a9e3b",
+          "card": "1f305341-f893-4e2d-b768-d3ad3404efbc",
+          "suffix": "S07",
+          "rarity": "common",
+          "imageID": "b52ef177-ca7e-4c80-91c0-73b6910fd2a1",
+          "qty": 2,
+          "printStatus": "reprint"
+        },
+        {
+          "id": "db24798b-662e-4996-a027-720d3c8c0988",
+          "card": "19e37dd8-cb93-4707-b5c6-aebe868a67a2",
+          "suffix": "S08",
+          "rarity": "common",
+          "imageID": "4515836f-0d0e-4071-a2e4-6bb9933a00ac",
+          "qty": 2,
+          "printStatus": "reprint"
+        },
+        {
+          "id": "804f4d10-b600-48fd-91b0-473f45ff9642",
+          "card": "d979497d-2762-41db-ad51-c79c14e99f4c",
+          "suffix": "S09",
+          "rarity": "common",
+          "imageID": "0b7cd0a4-66d4-4428-ad92-5f72a5cbdfac",
+          "qty": 2,
+          "printStatus": "reprint"
+        },
+        {
+          "id": "d07d52af-415a-4bdc-a952-965c386eabd5",
+          "card": "ef12df21-1675-40ac-b935-7630e2e06f74",
+          "suffix": "S10",
+          "rarity": "common",
+          "imageID": "963d0347-aedd-481e-8c7e-6088442cc321",
+          "qty": 2,
+          "printStatus": "reprint"
+        },
+        {
+          "id": "7e7e9acc-d759-4fb5-9467-bdfb1aa45ddf",
+          "card": "6f70e655-5157-499d-abf9-69d0026a9de1",
+          "suffix": "S11",
+          "rarity": "common",
+          "imageID": "9f6a51f4-e0c1-4e18-88b1-31791152daef",
+          "qty": 2,
+          "printStatus": "reprint"
+        },
+        {
+          "id": "4a6a9dab-b749-4464-830c-129026b0a68f",
+          "card": "23aff984-eeea-490d-b9e3-6e0ea42855e0",
+          "suffix": "S12",
+          "rarity": "common",
+          "imageID": "7877fc24-becc-4465-89c5-5be11bd18607",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "a5417080-f2ca-43c2-9c4d-eb1753d179d5",
+          "card": "08a59d85-df4c-4a8d-a9f6-b07dc21f58b0",
+          "suffix": "S13",
+          "rarity": "commonparallel",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "d0c01f08-0b5a-47db-8667-47d0e6e7727a",
+          "card": "0bae3885-838e-4d5d-88ac-108218510d12",
+          "suffix": "S14",
+          "rarity": "commonparallel",
+          "imageID": "809e89d1-ff4c-4965-b15c-7e6561850001",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "d2e27f10-5f53-47ee-9b70-0b1783e1eff1",
+          "card": "fbe477fc-d4ec-458c-9228-364776217ef2",
+          "suffix": "S15",
+          "rarity": "commonparallel",
+          "imageID": "2ef83a0f-3eb1-409b-9569-8a9179cff76c",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "c125f087-ad2e-49d5-aeb3-0ac4669d6e4f",
+          "card": "d15ea879-903e-481a-9ad1-774823a8518b",
+          "suffix": "S16",
+          "rarity": "common",
+          "imageID": "f7eb3c46-62df-45ec-9be3-877f11a4a522",
+          "qty": 2,
+          "printStatus": "reprint"
+        },
+        {
+          "id": "aae43811-305d-4c63-9df7-1d09692511b4",
+          "card": "0e0a131d-bc45-4bd7-a018-512733ebc1b6",
+          "suffix": "S17",
+          "rarity": "common",
+          "imageID": "1202fec8-edc0-46b8-808d-73cc037dd938",
+          "qty": 2,
+          "printStatus": "reprint"
+        },
+        {
+          "id": "96fb00d2-aa25-4d83-bb1b-e21d261f0917",
+          "card": "d895d4d9-f3dd-465b-969c-036f341e5b48",
+          "suffix": "S18",
+          "rarity": "common",
+          "imageID": "05902f73-1918-46ac-96df-0da2a69610cd",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "4c24831c-5586-4356-a3df-8ca5f71d493f",
+          "card": "db99e06c-6217-457c-bd47-bc66d537eb04",
+          "suffix": "S19",
+          "rarity": "common",
+          "imageID": "b0f43849-ffa2-4aad-869f-1272b8f70f14",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "4f0827aa-5d65-437b-8510-98e075a82b1d",
+          "card": "a0d031f5-1b62-4e7d-b510-d5c6d601e6d4",
+          "suffix": "S20",
+          "rarity": "common",
+          "imageID": "d4b3e6b6-c131-4170-9b87-0960237f9f79",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "05b9fa91-ac9f-4135-bf90-127fd86331ff",
+          "card": "0bfcc499-7a45-452e-ad36-d2e2026ad580",
+          "suffix": "S21",
+          "rarity": "commonparallel",
+          "imageID": "296b1a74-41ac-46bf-87af-b0b1820162ec",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "df6802d4-713d-44fd-8533-aaa269cae21f",
+          "card": "97b90b58-0d63-491b-b7e8-6448d6eb1ee9",
+          "suffix": "S22",
+          "rarity": "commonparallel",
+          "imageID": "a6757ca4-c049-496e-9295-bfdcd64c6c55",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "1e68264b-e824-4dd8-8443-e63eff73112c",
+          "card": "37bca14b-fe1a-4018-ae53-bf9a58e7d02c",
+          "suffix": "S23",
+          "rarity": "common",
+          "imageID": "ad389a91-0a80-4d17-b660-91a95ff380db",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "bd3558cd-7c73-4554-a8aa-28e19e75c10a",
+          "card": "255cb7b7-8539-43ff-954f-a69945d4b565",
+          "suffix": "S24",
+          "rarity": "common",
+          "imageID": "23b0902e-508c-4425-850a-1f3d0bea4180",
+          "qty": 2,
+          "printStatus": "reprint"
+        },
+        {
+          "id": "a8f2d4ea-5998-4d62-9a3a-06fe897e52ea",
+          "card": "53208628-8beb-4fd1-ba63-275c2177df54",
+          "suffix": "S25",
+          "rarity": "common",
+          "imageID": "e7b2539c-5114-48cd-a2bb-bb19094057da",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "9fe840bd-c21d-4808-93b0-5bf0a91bbaf0",
+          "card": "07240dec-046f-4b64-a5ab-9fe3508dda64",
+          "suffix": "S26",
+          "rarity": "common",
+          "imageID": "bfe0f624-b178-4a80-be19-a0bf2577c989",
+          "qty": 2,
+          "printStatus": "reprint"
+        },
+        {
+          "id": "56f8cb11-ada7-4391-8825-82477591b230",
+          "card": "13881104-18a3-4b8f-860a-4581510d9b39",
+          "suffix": "S27",
+          "rarity": "common",
+          "imageID": "acc561f5-a001-47e8-988d-b8568cd04ab5",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "6eb7b6c1-32c3-4d74-aa58-3e57e9d87eaf",
+          "card": "6f1eb1f4-3154-4736-b4a1-ab7377ccc7dd",
+          "suffix": "D00",
+          "rarity": "extrasecret",
+          "imageID": "32831b74-6af5-4182-ae28-8854c14920fe",
+          "printStatus": "new"
+        },
+        {
+          "id": "64a24729-12cb-4116-852b-b04c667b1589",
+          "card": "86f33085-548d-4ca4-adb5-7496df6b3ff3",
+          "suffix": "D01",
+          "rarity": "common",
+          "imageID": "f22b402c-27a9-4793-b955-77285a4a9d7c",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "da4fde92-d6da-49f0-b473-23ceae324452",
+          "card": "e9b3c5bf-9839-41df-8e60-2d777bd43192",
+          "suffix": "D02",
+          "rarity": "common",
+          "imageID": "043bf3f3-d492-4ed3-90ec-7f427152c813",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "019d7b5a-869b-4cef-a97c-994ac05da3df",
+          "card": "acf8f5c9-dc81-4557-958e-a73ee7f9ab2b",
+          "suffix": "D03",
+          "rarity": "common",
+          "imageID": "0e07b9dc-c039-48f7-81d1-7c78a5690a2c",
+          "qty": 2,
+          "printStatus": "reprint"
+        },
+        {
+          "id": "6bfbdbf2-6bf3-4e12-8da2-8a7be9231caf",
+          "card": "9e9ecbd7-3469-4236-8d68-8c2f8865de67",
+          "suffix": "D04",
+          "rarity": "commonparallel",
+          "imageID": "3bceb852-2e65-441d-b19c-d48b1b0bd561",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "3f07fc02-4a36-4508-9033-5b3c85de38b8",
+          "card": "9615cd6a-5669-4307-a7d2-e4134866cee1",
+          "suffix": "D05",
+          "rarity": "common",
+          "imageID": "5fbf6b6a-2ae3-4702-96df-47f564b2961b",
+          "qty": 2,
+          "printStatus": "reprint"
+        },
+        {
+          "id": "66f2dc54-86a8-4a09-8111-f1d90607ac7d",
+          "card": "7f0ae38b-7441-41f4-8178-9e0201fb0a2d",
+          "suffix": "D06",
+          "rarity": "common",
+          "imageID": "c20feecf-a1a7-4ae7-b06a-0885ce9617f3",
+          "qty": 2,
+          "printStatus": "reprint"
+        },
+        {
+          "id": "4b50b137-e3b8-4d7e-b8c8-6234f939eb23",
+          "card": "1dd1ec3b-288b-47b2-bf66-2683f4076fdf",
+          "suffix": "D07",
+          "rarity": "common",
+          "imageID": "62957883-7cef-4c46-bc6e-8f832c2a278b",
+          "qty": 2,
+          "printStatus": "reprint"
+        },
+        {
+          "id": "e1e4f477-6102-43f1-9de3-6dee4f20c882",
+          "card": "804f20eb-5f42-4943-a443-75986ec5a12a",
+          "suffix": "D08",
+          "rarity": "common",
+          "imageID": "0b259d9a-ca71-42f5-a092-b9a239bf7f73",
+          "qty": 2,
+          "printStatus": "reprint"
+        },
+        {
+          "id": "62221137-2e0a-42ec-b4aa-2ed2d557ec6d",
+          "card": "3231050f-890d-40fb-93ce-dc1548d28992",
+          "suffix": "D09",
+          "rarity": "common",
+          "imageID": "74ddf66e-8b39-452f-a5e1-764930419c9e",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "a8d17548-37b7-429c-8c71-bcf6eebfb45d",
+          "card": "720400ff-65b8-4e6c-910a-b0b848a1c050",
+          "suffix": "D10",
+          "rarity": "common",
+          "imageID": "229d429e-87b8-46a6-b0db-21ebdf47c130",
+          "qty": 2,
+          "printStatus": "reprint"
+        },
+        {
+          "id": "cc3fbcb1-c567-4f0a-ae47-55a90807fbb2",
+          "card": "e0855d7f-4ddd-46db-a974-82b031609ca0",
+          "suffix": "D11",
+          "rarity": "common",
+          "imageID": "5b7be09f-e8a6-4b59-ac63-4e69c85703dd",
+          "qty": 2,
+          "printStatus": "reprint"
+        },
+        {
+          "id": "05f14aa8-d22d-42cf-942a-4506fe32d350",
+          "card": "414e7226-a3a8-4462-8a26-b195fbdd3678",
+          "suffix": "D12",
+          "rarity": "commonparallel",
+          "imageID": "bb8b6a0d-aa02-4592-a53f-4adf92207025",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "28ded894-0ba3-48a3-a429-24f6174d7f35",
+          "card": "f8c223b7-1121-4f4f-a41d-f564cef50ba7",
+          "suffix": "D13",
+          "rarity": "common",
+          "imageID": "b99447ea-ac95-4452-b563-7ba0745d5b16",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "449122b3-a9e5-46c0-b1d0-cbb64e775b27",
+          "card": "08a59d85-df4c-4a8d-a9f6-b07dc21f58b0",
+          "suffix": "D14",
+          "rarity": "commonparallel",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "03cc7151-f90b-4f94-9733-928b0abee52a",
+          "card": "0bae3885-838e-4d5d-88ac-108218510d12",
+          "suffix": "D15",
+          "rarity": "commonparallel",
+          "imageID": "809e89d1-ff4c-4965-b15c-7e6561850001",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "387467ac-ce12-4262-8bf2-0e26a4d00d2f",
+          "card": "fbe477fc-d4ec-458c-9228-364776217ef2",
+          "suffix": "D16",
+          "rarity": "commonparallel",
+          "imageID": "2ef83a0f-3eb1-409b-9569-8a9179cff76c",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "2c089087-496d-46df-8f66-983be5d45aad",
+          "card": "d15ea879-903e-481a-9ad1-774823a8518b",
+          "suffix": "D17",
+          "rarity": "common",
+          "imageID": "f7eb3c46-62df-45ec-9be3-877f11a4a522",
+          "qty": 2,
+          "printStatus": "reprint"
+        },
+        {
+          "id": "9196be54-29dc-495d-bebc-065106936ffa",
+          "card": "0e0a131d-bc45-4bd7-a018-512733ebc1b6",
+          "suffix": "D18",
+          "rarity": "common",
+          "imageID": "1202fec8-edc0-46b8-808d-73cc037dd938",
+          "qty": 2,
+          "printStatus": "reprint"
+        },
+        {
+          "id": "7eeda410-fe17-4e1c-b56b-5e53ae6bbec4",
+          "card": "d010379b-048d-4ec4-8367-8d05a2f9d012",
+          "suffix": "D19",
+          "rarity": "common",
+          "imageID": "c3c63a35-5dc8-452a-bb93-c63b4afd8052",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "ec45fcfd-2d2b-4dcc-b9cd-cf77d214569f",
+          "card": "a0d031f5-1b62-4e7d-b510-d5c6d601e6d4",
+          "suffix": "D20",
+          "rarity": "common",
+          "imageID": "d4b3e6b6-c131-4170-9b87-0960237f9f79",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "71d38430-2fa8-4fc6-9fac-440c19bdcc10",
+          "card": "27f5fbcc-710b-4819-86cc-7baf54d75829",
+          "suffix": "D21",
+          "rarity": "common",
+          "imageID": "0f8ce7e9-d6de-4369-8f6d-f178d15f3c90",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "711c224a-b51e-4b8c-b517-3dcd2017ad58",
+          "card": "0bfcc499-7a45-452e-ad36-d2e2026ad580",
+          "suffix": "D22",
+          "rarity": "commonparallel",
+          "imageID": "296b1a74-41ac-46bf-87af-b0b1820162ec",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "d7729c25-9ccf-4781-a8b5-0d7e2d861672",
+          "card": "97b90b58-0d63-491b-b7e8-6448d6eb1ee9",
+          "suffix": "D23",
+          "rarity": "commonparallel",
+          "imageID": "a6757ca4-c049-496e-9295-bfdcd64c6c55",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "98767050-5a00-4f8e-97af-47288194b516",
+          "card": "37bca14b-fe1a-4018-ae53-bf9a58e7d02c",
+          "suffix": "D24",
+          "rarity": "common",
+          "imageID": "ad389a91-0a80-4d17-b660-91a95ff380db",
+          "qty": 2,
+          "printStatus": "reprint"
+        },
+        {
+          "id": "d387f187-89ad-4a74-a482-96ee674ec3e1",
+          "card": "255cb7b7-8539-43ff-954f-a69945d4b565",
+          "suffix": "D25",
+          "rarity": "common",
+          "imageID": "23b0902e-508c-4425-850a-1f3d0bea4180",
+          "qty": 2,
+          "printStatus": "reprint"
+        },
+        {
+          "id": "42aec53f-0502-4c4b-a65c-fb82ef06105d",
+          "card": "72cb9218-7730-4337-9a1b-c7d0261d8044",
+          "suffix": "D26",
+          "rarity": "common",
+          "imageID": "0698679f-df24-4bdf-b619-465b00fd43c5",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "f45fea93-81ef-40a8-bf85-565d87028098",
+          "card": "07240dec-046f-4b64-a5ab-9fe3508dda64",
+          "suffix": "D27",
+          "rarity": "common",
+          "imageID": "bfe0f624-b178-4a80-be19-a0bf2577c989",
+          "qty": 2,
+          "printStatus": "reprint"
+        },
+        {
+          "id": "ab68c801-b4ca-45a4-b9ca-d5cc56c27e87",
+          "card": "13881104-18a3-4b8f-860a-4581510d9b39",
+          "suffix": "D28",
+          "rarity": "common",
+          "imageID": "acc561f5-a001-47e8-988d-b8568cd04ab5",
+          "printStatus": "reprint"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Duelist Entry Deck VS",
+      "id": 370057
+    }
+  }
+}

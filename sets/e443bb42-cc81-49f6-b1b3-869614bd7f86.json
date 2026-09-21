@@ -1,0 +1,91 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "e443bb42-cc81-49f6-b1b3-869614bd7f86",
+  "name": {
+    "en": "National Championship 2012",
+    "ko": "National Championship 2012"
+  },
+  "locales": {
+    "kr": {
+      "language": "ko",
+      "prefix": "EV12-KR",
+      "date": "2012-04-15",
+      "image": "https://ms.yugipedia.com//3/35/EV12-PromoKR-Ver2.png",
+      "cardImages": {
+        "unlimited": {
+          "246055c9-4546-4eb2-816d-d1a7153095a5": "https://ms.yugipedia.com//2/2e/InzektorHornet-EV12-KR-ScR-UE.png",
+          "801e0fa8-031e-4073-ac40-81fe7adcd4d3": "https://ms.yugipedia.com//0/07/PotofDuality-EV12-KR-ScR-UE.png",
+          "f2f10da2-dd64-4848-b4db-4016a4f401e6": "https://ms.yugipedia.com//c/c0/ZubabaBuster-EV12-KR-SR-UE.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "246055c9-4546-4eb2-816d-d1a7153095a5": {
+            "image": "https://ms.yugipedia.com//2/2e/InzektorHornet-EV12-KR-ScR-UE.png"
+          },
+          "801e0fa8-031e-4073-ac40-81fe7adcd4d3": {
+            "image": "https://ms.yugipedia.com//0/07/PotofDuality-EV12-KR-ScR-UE.png"
+          },
+          "f2f10da2-dd64-4848-b4db-4016a4f401e6": {
+            "image": "https://ms.yugipedia.com//c/c0/ZubabaBuster-EV12-KR-SR-UE.png"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          7141409000
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "kr"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//3/35/EV12-PromoKR-Ver2.png",
+      "cards": [
+        {
+          "id": "f2f10da2-dd64-4848-b4db-4016a4f401e6",
+          "card": "4ad602fa-2bf3-4496-b8b5-a63dba0ce005",
+          "suffix": "004",
+          "rarity": "super",
+          "imageID": "a50c6571-285f-4aee-b89b-884a564630ca"
+        },
+        {
+          "id": "801e0fa8-031e-4073-ac40-81fe7adcd4d3",
+          "card": "31c4851b-0443-4787-a008-30b053dc9daa",
+          "suffix": "005",
+          "rarity": "secret",
+          "imageID": "96b9b816-27bc-4ac5-b2c4-a7127a646d8e"
+        },
+        {
+          "id": "246055c9-4546-4eb2-816d-d1a7153095a5",
+          "card": "b69f06e7-5e5a-47fd-b959-3b692d2c3bc3",
+          "suffix": "006",
+          "rarity": "secret",
+          "imageID": "cca9873f-eca9-4841-906e-65f46c6f2df0"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "National Championship 2012 (Korean)",
+      "id": 305118
+    }
+  }
+}

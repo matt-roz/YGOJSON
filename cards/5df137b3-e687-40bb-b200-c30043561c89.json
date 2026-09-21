@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "5df137b3-e687-40bb-b200-c30043561c89",
+  "text": {
+    "en": {
+      "name": "Swarming Basic Insect",
+      "effect": "Add 1 EARTH Attribute Insect Type monster with 2000 DEF from your Graveyard to your hand. If you added \"Double Cannon Armor\" by this effect, you can destroy 1 Spell/Trap Card on your opponent's field.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u7fa4\u308c\u3092\u306a\u3059\u6606\u866b\u4eba\u9593",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u5730\u5c5e\u6027\uff0f\u6606\u866b\u65cf\uff0f\u5b88\u5099\u529b\uff12\uff10\uff10\uff10\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u3002\u3053\u306e\u52b9\u679c\u3067\u300c\u9023\u88c5\u7832\u6a5f\u7532\u93a7\u300d\u3092\u9078\u3093\u3060\u5834\u5408\u3001\u3055\u3089\u306b\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u9b54\u6cd5\u30fb\u7f60\u30ab\u30fc\u30c9\uff11\u679a\u3092\u9078\u3093\u3067\u7834\u58ca\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ubb34\ub9ac \uc9d3\ub294 \uace4\ucda9 \uc778\uac04",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130(\ub545 \uc18d\uc131 / \uace4\ucda9\uc871 / \uc218\ube44\ub825 2000) 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\ub294\ub2e4. \uc774 \ud6a8\uacfc\ub85c \"\ub354\ube14 \uce90\ub17c \uc544\uba38\"\ub97c \uace0\ub978 \uacbd\uc6b0, \ucd94\uac00\ub85c \uc0c1\ub300 \ud544\ub4dc\uc758 \ub9c8\ubc95 / \ud568\uc815 \uce74\ub4dc 1\uc7a5\uc744 \uace0\ub974\uace0 \ud30c\uad34\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "insect",
+  "classifications": [
+    "effect"
+  ],
+  "level": 2,
+  "atk": 500,
+  "def": 700,
+  "passwords": [],
+  "images": [
+    {
+      "id": "352a8ada-834d-4806-a45e-2fe9cbdf7297",
+      "card": "https://ms.yugipedia.com//6/66/SwarmingBasicInsect-RDAP02-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Swarming Basic Insect",
+        "id": 1165394
+      }
+    ],
+    "dbID": 22655
+  },
+  "series": [
+    "bf6fe1a5-630e-4910-b18d-d8d44b294610"
+  ]
+}

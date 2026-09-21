@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "7a61890c-2f20-497a-bcd7-9e3cd2a4fa91",
+  "text": {
+    "en": {
+      "name": "Reporter Wars Scoopies [L]",
+      "effect": "Your opponent excavates the top card of their Deck and places it on top of their Deck. If it was the declared card type, gain 400 LP. Then, if this card is in Maximum Mode, you can destroy 1 card on your opponent's field.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u5831\u9053\u5408\u6226\u30b9\u30af\u30fc\u30d4\u30fc\u30ba\uff3b\uff2c\uff3d",
+      "effect": "\u76f8\u624b\u306f\u81ea\u8eab\u306e\u30c7\u30c3\u30ad\u306e\u4e00\u756a\u4e0a\u306e\u30ab\u30fc\u30c9\u3092\u3081\u304f\u308a\u3001\u304a\u4e92\u3044\u306b\u78ba\u8a8d\u3057\u3066\u5143\u306b\u623b\u3059\u3002\u305d\u306e\u30ab\u30fc\u30c9\u304c\u5ba3\u8a00\u3057\u305f\u7a2e\u985e\u306e\u30ab\u30fc\u30c9\u3060\u3063\u305f\u5834\u5408\u3001\u81ea\u5206\u306f\uff14\uff10\uff10\uff2c\uff30\u56de\u5fa9\u3059\u308b\u3002\u3053\u306e\u30ab\u30fc\u30c9\u304c\u30de\u30ad\u30b7\u30de\u30e0\u30e2\u30fc\u30c9\u306e\u5834\u5408\u3001\u3055\u3089\u306b\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u30ab\u30fc\u30c9\uff11\u679a\u3092\u9078\u3093\u3067\u7834\u58ca\u3067\u304d\u308b\u3002"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1000,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "1738e97a-922f-494f-9ce8-247ebac8b46f",
+      "card": "https://ms.yugipedia.com//8/8a/ReporterWarsScoopiesL-RDKP25-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Reporter Wars Scoopies (L)",
+        "id": 1187999
+      }
+    ],
+    "dbID": 23204
+  },
+  "series": [
+    "ccdb0fcd-05c3-4733-ae3f-e235f2553742"
+  ]
+}

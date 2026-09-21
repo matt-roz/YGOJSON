@@ -1,0 +1,42 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "3dcb3cb1-e751-4bfd-8d60-1885f720c6f1",
+  "text": {
+    "en": {
+      "name": "Lovely Blessing",
+      "effect": "The equipped monster and face-down cards in your Spell & Trap Zone cannot be destroyed by your opponent's card effects. While the equipped monster is face-up on your field, your opponent cannot declare an attack on monsters that are not equipped with an Equip Spell Card.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30e9\u30f4\u30fb\u30bb\u30fc\u30d5\u30c6\u30a3",
+      "effect": "\u88c5\u5099\u30e2\u30f3\u30b9\u30bf\u30fc\u3068\u81ea\u5206\u306e\u9b54\u6cd5\uff06\u7f60\u30be\u30fc\u30f3\u306e\u88cf\u5074\u8868\u793a\u306e\u30ab\u30fc\u30c9\u306f\u76f8\u624b\u306e\u52b9\u679c\u3067\u306f\u7834\u58ca\u3055\u308c\u306a\u3044\u3002\u88c5\u5099\u30e2\u30f3\u30b9\u30bf\u30fc\u304c\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u8868\u793a\u3067\u3044\u308b\u9650\u308a\u3001\u76f8\u624b\u306f\u88c5\u5099\u9b54\u6cd5\u30ab\u30fc\u30c9\u3092\u88c5\u5099\u3057\u3066\u3044\u306a\u3044\u30e2\u30f3\u30b9\u30bf\u30fc\u306b\u653b\u6483\u5ba3\u8a00\u3067\u304d\u306a\u3044\u3002"
+    },
+    "ko": {
+      "name": "\ub77c\ube0c \uc138\uc774\ud504\ud2f0",
+      "effect": "\uc7a5\ucc29 \ubaac\uc2a4\ud130\uc640 \uc790\uc2e0\uc758 \ub9c8\ubc95 & \ud568\uc815 \uc874\uc758 \ub4b7\uba74 \ud45c\uc2dc\uc758 \uce74\ub4dc\ub294 \uc0c1\ub300 \ud6a8\uacfc\ub85c\ub294 \ud30c\uad34\ub418\uc9c0 \uc54a\ub294\ub2e4. \uc7a5\ucc29 \ubaac\uc2a4\ud130\uac00 \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \ud45c\uc2dc\uc778 \ud55c, \uc0c1\ub300\ub294 \uc7a5\ucc29 \ub9c8\ubc95 \uce74\ub4dc\ub97c \uc7a5\ucc29\ud558\uace0 \uc788\uc9c0 \uc54a\uc740 \ubaac\uc2a4\ud130\uc5d0 \uacf5\uaca9 \uc120\uc5b8\ud560 \uc218 \uc5c6\ub2e4."
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "equip",
+  "passwords": [],
+  "images": [
+    {
+      "id": "1bd5c743-fe1e-4700-9719-0b04678b9b8a",
+      "card": "https://ms.yugipedia.com//0/0b/LovelyBlessing-RDORP2-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Lovely Blessing",
+        "id": 1043814
+      }
+    ],
+    "dbID": 20130
+  },
+  "series": [
+    "3e05c54a-8e27-41d6-b076-ee4fab2d19bc"
+  ]
+}

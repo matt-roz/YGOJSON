@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "5ceb8f18-ca70-4e9f-9e2c-bea9729882a0",
+  "text": {
+    "en": {
+      "name": "Abyss Kraken, the Abyssal Sea Serpent [L]",
+      "effect": "Make 1 face-up monster on your opponent's field lose ATK/DEF equal to [the number of monsters shuffled into the Deck to meet the requirement] x 300 until the end of this turn. Then, if this card is in Maximum Mode and you have no monsters in your Graveyard, you can destroy 1 Spell/Trap Card on your opponent's field.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u6df1\u6df5\u6d77\u7adc\u30a2\u30d3\u30b9\u30fb\u30af\u30e9\u30fc\u30b1\u30f3\uff3b\uff2c\uff3d",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u3092\u9078\u3073\u3001\u305d\u306e\u653b\u6483\u529b\u30fb\u5b88\u5099\u529b\u3092\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\u3001\uff3b\u3053\u306e\u52b9\u679c\u306e\u6761\u4ef6\u3067\u30c7\u30c3\u30ad\u306b\u623b\u3057\u305f\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u6570\uff3d\u00d7\uff13\uff10\uff10\u30c0\u30a6\u30f3\u3059\u308b\u3002\u3053\u306e\u30ab\u30fc\u30c9\u304c\u30de\u30ad\u30b7\u30de\u30e0\u30e2\u30fc\u30c9\u3067\u81ea\u5206\u306e\u5893\u5730\u306b\u30e2\u30f3\u30b9\u30bf\u30fc\u304c\u3044\u306a\u3044\u5834\u5408\u3001\u3055\u3089\u306b\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u9b54\u6cd5\u30fb\u7f60\u30ab\u30fc\u30c9\uff11\u679a\u3092\u9078\u3093\u3067\u7834\u58ca\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc2ec\uc5f0\ud574\ub8e1 \uc5b4\ube44\uc2a4 \ud06c\ub77c\ucf04[L]",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130 1\uc7a5\uc744 \uace0\ub974\uace0, \uadf8 \uacf5\uaca9\ub825 / \uc218\ube44\ub825\uc744 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0, [\uc774 \ud6a8\uacfc\uc758 \uc870\uac74\uc73c\ub85c \ub371\uc73c\ub85c \ub418\ub3cc\ub9b0 \ubaac\uc2a4\ud130\uc758 \uc218] \u00d7 300 \ub0b4\ub9b0\ub2e4. \uc774 \uce74\ub4dc\uac00 \ub9e5\uc2dc\uba48 \ubaa8\ub4dc\uc774\uace0 \uc790\uc2e0 \ubb18\uc9c0\uc5d0 \ubaac\uc2a4\ud130\uac00 \uc5c6\uc744 \uacbd\uc6b0, \ucd94\uac00\ub85c \uc0c1\ub300 \ud544\ub4dc\uc758 \ub9c8\ubc95 / \ud568\uc815 \uce74\ub4dc 1\uc7a5\uc744 \uace0\ub974\uace0 \ud30c\uad34\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "seaserpent",
+  "classifications": [
+    "effect"
+  ],
+  "level": 10,
+  "atk": 2300,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "2d1b8898-725f-41ac-af59-f6c38b348b5c",
+      "card": "https://ms.yugipedia.com//c/c9/AbyssKrakentheAbyssalSeaSerpentL-RDVSP1-JP-NPR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Abyssal Sea Dragon Abyss Kraken (L)",
+        "id": 712442
+      }
+    ],
+    "dbID": 18760
+  },
+  "series": [
+    "b47dacf2-a7d0-447b-9b0d-55925de95fba"
+  ]
+}

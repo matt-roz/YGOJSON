@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "caa33e73-a944-4aeb-8194-289b5c7b7394",
+  "text": {
+    "en": {
+      "name": "Lightclad Dragon - Llates",
+      "effect": "Add 1 \"Stella the Clad Dragon Researcher\" or 1 Level 9 Wyrm Type monster from your Graveyard to your hand.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u5149\u7e8f\u7adc\uff0d\u30e9\u30c6\u30b9",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u7e8f\u7adc\u306e\u63a2\u7d22\u8005 \u30b9\u30c6\u30e9\u300d\u307e\u305f\u306f\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff19\uff0f\u5e7b\u7adc\u65cf\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u3002"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "wyrm",
+  "classifications": [
+    "effect"
+  ],
+  "level": 1,
+  "atk": 0,
+  "def": 900,
+  "passwords": [],
+  "images": [
+    {
+      "id": "28b8e169-4234-4311-9167-52dc26d054a2",
+      "card": "https://ms.yugipedia.com//f/f0/LightcladDragonLlates-RDKP25-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Lightclad Dragon - Llates",
+        "id": 1185714
+      }
+    ],
+    "dbID": 23212
+  },
+  "series": [
+    "be769ed3-b6ac-4c49-838e-4e0e05d7320a"
+  ]
+}

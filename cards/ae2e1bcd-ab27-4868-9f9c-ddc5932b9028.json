@@ -1,0 +1,61 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "ae2e1bcd-ab27-4868-9f9c-ddc5932b9028",
+  "text": {
+    "en": {
+      "name": "Machine Attacker (Rush Duel)",
+      "effect": "This machine, created to lead charges into enemy territory, mows down enemies by rushing."
+    },
+    "fr": {
+      "name": "Machine d'attaque",
+      "effect": "Cette machine infernale a \u00e9t\u00e9 con\u00e7ue pour mener les attaques en territoire ennemi et charge furieusement pour faucher tous ses opposants."
+    },
+    "de": {
+      "name": "Angriffsmaschine",
+      "effect": "Diese Maschine, erschaffen, um Angriffe in feindliches Gebiet zu f\u00fchren, m\u00e4ht die Feinde durch ihr Vorw\u00e4rtsst\u00fcrzen einfach nieder."
+    },
+    "it": {
+      "name": "Macchina d'Attacco",
+      "effect": "Una macchina creata per condurre cariche in territorio nemico. Abbatte i suoi nemici muovendosi ad alta velocit\u00e0."
+    },
+    "es": {
+      "name": "Atacante de m\u00e1quina",
+      "effect": "Esta m\u00e1quina, creada para dirigir ataques en el territorio enemigo, se abalanza y barre a sus enemigos."
+    },
+    "ko": {
+      "name": "\uba38\uc2e0 \uc5b4\ud0dd\ucee4",
+      "effect": "\ud2b9\uacf5\uc6a9\uc73c\ub85c \ub9cc\ub4e4\uc5b4 \ub0b8 \uae30\uacc4. \ub3cc\uaca9\ud558\uc5ec \uc801\uc744 \ucc28\ub840\ub300\ub85c \uc4f0\ub7ec\ub728\ub824 \ub098\uc544\uac04\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "machine",
+  "classifications": [
+    "normal"
+  ],
+  "level": 5,
+  "atk": 1600,
+  "def": 1300,
+  "passwords": [],
+  "images": [
+    {
+      "id": "f9d475b0-045d-4616-bb41-6b53530abcae",
+      "card": "https://ms.yugipedia.com//6/61/MachineAttacker-RDSD02-JP-C.png"
+    }
+  ],
+  "sets": [
+    "a5dd7265-59c0-48dc-b924-5def08b05a08",
+    "a5dd7265-59c0-48dc-b924-5def08b05a08"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Machine Attacker (Rush Duel)",
+        "id": 715685
+      }
+    ],
+    "dbID": 15214
+  },
+  "series": []
+}

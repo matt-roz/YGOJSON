@@ -1,0 +1,54 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "efd6e920-47cf-44da-9be0-b38268b0bb8c",
+  "text": {
+    "en": {
+      "name": "Destructor Twin Princesses Haut-de-Chausses",
+      "effect": "During your opponent's turn, Spell/Trap Cards on your field cannot be shuffled into the hand/Deck/Extra Deck."
+    },
+    "ja": {
+      "name": "\u5e7b\u58ca\u53cc\u59eb\u30aa\u30fc\u30fb\u30c9\u30fb\u30b7\u30e7\u30fc\u30b9",
+      "effect": "\u76f8\u624b\u30bf\u30fc\u30f3\u306e\u9593\u3001\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u9b54\u6cd5\u30fb\u7f60\u30ab\u30fc\u30c9\u306f\u52b9\u679c\u3067\u306f\u624b\u672d\u30fb\u30c7\u30c3\u30ad\u30fb\uff25\uff38\u30c7\u30c3\u30ad\u306b\u623b\u3055\u308c\u306a\u3044\u3002"
+    },
+    "ko": {
+      "name": "\ud658\uad34\uc30d\ud76c \uc624 \ub4dc \uc1fc\uc2a4",
+      "effect": "\uc0c1\ub300 \ud134 \ub3d9\uc548, \uc790\uc2e0 \ud544\ub4dc\uc758 \ub9c8\ubc95 / \ud568\uc815 \uce74\ub4dc\ub294 \ud6a8\uacfc\ub85c\ub294 \ud328 / \ub371 / \uc5d1\uc2a4\ud2b8\ub77c \ub371\uc73c\ub85c \ub418\ub3cc\ub824\uc9c0\uc9c0 \uc54a\ub294\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "wyrm",
+  "classifications": [
+    "effect"
+  ],
+  "level": 9,
+  "atk": 2800,
+  "def": 1600,
+  "passwords": [],
+  "images": [
+    {
+      "id": "18976528-f2e4-4d7d-bc0d-6449910e377d",
+      "card": "https://ms.yugipedia.com//d/df/DestructorTwinPrincessesHautdeChausses-RDKP21-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Destructor Twin Princesses Haut-de-Chausses",
+        "id": 1127136
+      }
+    ],
+    "dbID": 21686
+  },
+  "series": [
+    "67b235e9-be91-4647-ac78-b92102a5898b"
+  ]
+}

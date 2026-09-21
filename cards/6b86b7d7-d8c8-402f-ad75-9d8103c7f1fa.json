@@ -1,0 +1,46 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "6b86b7d7-d8c8-402f-ad75-9d8103c7f1fa",
+  "text": {
+    "en": {
+      "name": "Flashforce Sword",
+      "effect": "Banish (face-up) 1 random card from your opponent's hand (until the Standby Phase of the next turn), then if this card was Set before activation and it banished a monster, you can apply this effect based on its Level.\n\u25cf 4 or lower: Your opponent banishes all monsters with its same name from their hand, Deck, and GY.\n\u25cf 5 or higher: Add 1 Level 5 or higher monster with the same Type, Attribute, and/or Level from your Deck to your hand.\nYou can only activate 1 \"Flashforce Sword\" per turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u9583\u5149\u306e\u5c01\u6bba\u5263"
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "quickplay",
+  "passwords": [],
+  "images": [
+    {
+      "id": "9747eded-f352-4a40-84a6-b52f70202cdc",
+      "card": "https://ms.yugipedia.com//9/9b/FlashforceSword-YAC1-JP-OP.png"
+    },
+    {
+      "id": "4df047ce-c55d-4d6b-b1da-bb66f56b78c7",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/100459021.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/100459021.jpg"
+    }
+  ],
+  "sets": [
+    "9aefc662-0b55-44d0-85b1-7c92cfe8a78b",
+    "9aefc662-0b55-44d0-85b1-7c92cfe8a78b"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Flashforce Sword",
+        "id": 1222617
+      }
+    ],
+    "ygoprodeck": {
+      "id": 100459021,
+      "name": "flashforce-sword-15923"
+    }
+  },
+  "series": []
+}

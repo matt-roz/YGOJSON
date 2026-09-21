@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "af853acb-48c6-4fff-aa4b-aa941025e831",
+  "text": {
+    "en": {
+      "name": "Flower Fan Clematis",
+      "effect": "Until the end of your opponent's next turn, while your LP are equal to or higher than your opponent's LP, this card cannot be destroyed by battle. Then, if you have 3 or more monsters in your Graveyard, you can Special Summon 1 Plant Type monster from your Graveyard face-up to your field.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u82b1\u7259\u30a2\u30fc\u30de\u30fc\u30fb\u30af\u30ec\u30de\u30c1\u30b9",
+      "effect": "\u6b21\u306e\u76f8\u624b\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\u3001\u81ea\u5206\u306e\uff2c\uff30\u304c\u76f8\u624b\u306e\uff2c\uff30\u4ee5\u4e0a\u306e\u9593\u3001\u3053\u306e\u30ab\u30fc\u30c9\u306f\u6226\u95d8\u3067\u306f\u7834\u58ca\u3055\u308c\u306a\u3044\u3002\u81ea\u5206\u306e\u5893\u5730\u306b\u30e2\u30f3\u30b9\u30bf\u30fc\u304c\uff13\u4f53\u4ee5\u4e0a\u3044\u308b\u5834\u5408\u3001\u3055\u3089\u306b\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u690d\u7269\u65cf\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u8868\u793a\u3067\u7279\u6b8a\u53ec\u559a\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud654\uc544\uc544\uba38 \ud074\ub808\ub9c8\ud2f0\uc2a4",
+      "effect": "\ub2e4\uc74c \uc0c1\ub300 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0, \uc790\uc2e0\uc758 LP\uac00 \uc0c1\ub300\uc758 LP \uc774\uc0c1\uc77c \ub3d9\uc548, \uc774 \uce74\ub4dc\ub294 \uc804\ud22c\ub85c\ub294 \ud30c\uad34\ub418\uc9c0 \uc54a\ub294\ub2e4. \uc790\uc2e0 \ubb18\uc9c0\uc5d0 \ubaac\uc2a4\ud130\uac00 3\uc7a5 \uc774\uc0c1 \uc788\uc744 \uacbd\uc6b0, \ucd94\uac00\ub85c \uc790\uc2e0 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130(\uc2dd\ubb3c\uc871) 1\uc7a5\uc744 \uace0\ub974\uace0 \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \ud45c\uc2dc\ub85c \ud2b9\uc218 \uc18c\ud658\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "plant",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 2500,
+  "def": 1500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "73309f4f-8f19-4b03-a417-b67d0a0d4695",
+      "card": "https://ms.yugipedia.com//1/1f/FlowerFanClematis-RDHC01-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Flower Fan Clematis",
+        "id": 1034452
+      }
+    ],
+    "dbID": 19790
+  },
+  "series": [
+    "676650a4-b6a3-4ba4-9d96-aebea1e7fca2"
+  ]
+}

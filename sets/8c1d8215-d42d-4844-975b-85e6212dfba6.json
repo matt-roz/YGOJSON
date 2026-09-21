@@ -1,0 +1,413 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "8c1d8215-d42d-4844-975b-85e6212dfba6",
+  "name": {
+    "en": "Magic Ruler",
+    "ja": "\uff2d\uff41\uff47\uff49\uff43 \uff32\uff55\uff4c\uff45\uff52 \uff0d\u9b54\u6cd5\u306e\u652f\u914d\u8005\uff0d"
+  },
+  "locales": {
+    "jp": {
+      "language": "ja",
+      "prefix": "MR-",
+      "date": "2000-04-20",
+      "cardImages": {},
+      "cardInfo": {},
+      "formats": [
+        "ocg"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          1103000
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "cards": [
+        {
+          "id": "6a3bf1cd-499d-48d2-97df-06b114e406b5",
+          "card": "75b7946f-1758-4155-b0db-1b0886459298",
+          "suffix": "01",
+          "rarity": "common",
+          "imageID": "ce5f8d2e-a311-4f48-a1e2-a14a69f510fd"
+        },
+        {
+          "id": "3edc0987-1530-4d21-9a8b-a22c23bdea5a",
+          "card": "d010379b-048d-4ec4-8367-8d05a2f9d012",
+          "suffix": "02",
+          "rarity": "super",
+          "imageID": "c3c63a35-5dc8-452a-bb93-c63b4afd8052"
+        },
+        {
+          "id": "6bb375ae-e83b-4398-ae39-7f2f5400111c",
+          "card": "74bf3b6a-ccdd-4612-b0c1-981b59db1671",
+          "suffix": "03",
+          "rarity": "rare",
+          "imageID": "13831e5f-8ad2-404f-a9f9-d2f4efcf1331"
+        },
+        {
+          "id": "62990fb2-58f1-4110-aeb3-9b4557a1053d",
+          "card": "4292f5ce-eb8c-461a-98b4-c46b56be3c0a",
+          "suffix": "04",
+          "rarity": "common",
+          "imageID": "5d840a94-cc49-47f9-9260-3498af375e43"
+        },
+        {
+          "id": "d1537c51-e730-492a-b9d8-d48019789631",
+          "card": "a0d031f5-1b62-4e7d-b510-d5c6d601e6d4",
+          "suffix": "05",
+          "rarity": "common",
+          "imageID": "d4b3e6b6-c131-4170-9b87-0960237f9f79"
+        },
+        {
+          "id": "34257cb7-6559-4d6f-a40c-96e7bba47b6f",
+          "card": "5f3abdc4-cae4-403a-83ea-5d626acb81f1",
+          "suffix": "06",
+          "rarity": "ultra"
+        },
+        {
+          "id": "18e0947f-8cd9-40c0-9dc1-98e2430f4581",
+          "card": "5f3abdc4-cae4-403a-83ea-5d626acb81f1",
+          "suffix": "06",
+          "rarity": "ultraparallel"
+        },
+        {
+          "id": "4fdd159e-7482-4157-861b-f119ff326295",
+          "card": "375371fd-3de9-4fce-961b-28b4a5e53147",
+          "suffix": "07",
+          "rarity": "common",
+          "imageID": "fb28fe3c-329d-4803-997e-4f048a5e7a14"
+        },
+        {
+          "id": "a84e1b84-98e4-4d60-a0b0-b55f09264ecb",
+          "card": "3385aeb3-5f34-4805-80ba-af1ba6fcc996",
+          "suffix": "08",
+          "rarity": "common",
+          "imageID": "8a91ffcd-7f15-4697-b0de-6a7283954ac8"
+        },
+        {
+          "id": "a407568e-6eda-4251-9545-2147e8810b55",
+          "card": "0bb8cf93-84eb-4337-8597-a324f5bb9b88",
+          "suffix": "09",
+          "rarity": "common",
+          "imageID": "28abb8a4-04ea-43a2-8c10-e5c94ff0eb71"
+        },
+        {
+          "id": "d47931cf-8e0a-4520-b10c-5459741dea77",
+          "card": "2cc8ce0d-cd9a-497a-987d-53ebcffda737",
+          "suffix": "10",
+          "rarity": "common",
+          "imageID": "fb827ae2-a46b-4d5f-8ccd-c6c4f7dad576"
+        },
+        {
+          "id": "b5150968-467d-4147-bb1c-86e7614d9a8c",
+          "card": "c079c078-9a73-434d-a8de-7b04ebf29130",
+          "suffix": "11",
+          "rarity": "common",
+          "imageID": "756c762f-0c42-439d-a7e6-32b91cce3118"
+        },
+        {
+          "id": "eb616694-0417-4762-a74d-f88f21838343",
+          "card": "d979497d-2762-41db-ad51-c79c14e99f4c",
+          "suffix": "12",
+          "rarity": "common",
+          "imageID": "0b7cd0a4-66d4-4428-ad92-5f72a5cbdfac"
+        },
+        {
+          "id": "7f63e322-c448-4b36-b765-1a5b0c2b3013",
+          "card": "534e097f-9252-4507-ab3d-c450525b73b4",
+          "suffix": "13",
+          "rarity": "common",
+          "imageID": "d5e14bcd-6549-4cea-b05e-efcbe067c7e2"
+        },
+        {
+          "id": "461c31c0-3d88-4af6-9cdb-ad0b3f351fb9",
+          "card": "fbe3d990-18d5-44b6-a43f-19509854baae",
+          "suffix": "14",
+          "rarity": "common",
+          "imageID": "96fae095-5820-4aa0-96ee-ae8dacbab77b"
+        },
+        {
+          "id": "9e754f3a-3336-42e2-88bc-536274bdee43",
+          "card": "805035db-64ff-4768-9e92-5a8e7c88e54f",
+          "suffix": "15",
+          "rarity": "common",
+          "imageID": "d379dff9-5a88-4097-a3b0-25e3ff0fbcd5"
+        },
+        {
+          "id": "cc9be240-fa4d-4aa6-9864-5a5e941e40ca",
+          "card": "28958c54-63bc-47c1-8d18-1c3e2b451ae7",
+          "suffix": "16",
+          "rarity": "common",
+          "imageID": "7ecfb20f-1a37-4feb-b9b6-578fa2ccc39f"
+        },
+        {
+          "id": "e06b8833-9f0e-4c81-8b76-797d05a06206",
+          "card": "e6a52508-5c20-486b-8abd-b40acf25d939",
+          "suffix": "17",
+          "rarity": "common",
+          "imageID": "4900b372-9079-4e40-a4de-2217078e8673"
+        },
+        {
+          "id": "aaa8a261-d264-4d35-b14f-cd46d3d1d641",
+          "card": "390c14b0-cb74-4e49-8b78-678767ab1113",
+          "suffix": "18",
+          "rarity": "common",
+          "imageID": "d92f1b44-9f0b-4e05-bdb9-f0fb6d78ba1e"
+        },
+        {
+          "id": "b26fad80-d72d-4e45-913e-1b7a216b75ea",
+          "card": "ff3c9a6c-1210-4b23-8295-347f481287b0",
+          "suffix": "19",
+          "rarity": "common",
+          "imageID": "b349901d-5982-41e7-980e-883c7c76f51d"
+        },
+        {
+          "id": "bbe709af-e4d4-4af3-9ca1-ceba09ebf694",
+          "card": "59deb9d2-6069-478e-bc45-f235a5149a5d",
+          "suffix": "20",
+          "rarity": "common",
+          "imageID": "6d456521-2ebd-4e7e-ae2d-a7022dfe9a18"
+        },
+        {
+          "id": "86975418-e0ca-4528-ab60-fbc584070a3d",
+          "card": "eedecd49-c6ab-42c0-8fb5-d58927859771",
+          "suffix": "21",
+          "rarity": "common",
+          "imageID": "7d2927cc-1a51-43b8-a882-31a4f3deb1ae"
+        },
+        {
+          "id": "9f15a760-5ddf-4537-a60c-64214391b270",
+          "card": "90bf0c99-2408-4e16-9139-cc6c9e63759d",
+          "suffix": "22",
+          "rarity": "common",
+          "imageID": "5b9fbde3-6427-4856-866f-434120be0275"
+        },
+        {
+          "id": "ccc9c3f1-ed07-4f8d-8b56-feed7f9a57e4",
+          "card": "029fffad-b1e2-45e1-ac66-84126dd4f1dc",
+          "suffix": "23",
+          "rarity": "common",
+          "imageID": "18210ff1-e970-4479-af26-25ae88ac751f"
+        },
+        {
+          "id": "3020f210-3e99-441c-8b4c-afd507b95d58",
+          "card": "697245d8-447f-4645-9606-c246e773e59d",
+          "suffix": "24",
+          "rarity": "super",
+          "imageID": "98be4ffe-08c6-44b6-85bc-a0f2fe20a6f4"
+        },
+        {
+          "id": "4d01bc5f-6899-4fec-a59e-89cabed2d84d",
+          "card": "d4f273e4-ff66-42e6-97a2-15024ec9eebb",
+          "suffix": "25",
+          "rarity": "common",
+          "imageID": "31ea3397-4cee-44b3-b4fc-18628b96c513"
+        },
+        {
+          "id": "93b06fb8-d65b-4e82-939b-7949732fb872",
+          "card": "def6c16f-933b-4b4d-a723-2e4f34207b97",
+          "suffix": "26",
+          "rarity": "super",
+          "imageID": "1fffbd5a-2a1f-4397-8397-b415f9a00beb"
+        },
+        {
+          "id": "c53686f8-6703-42d9-828a-7a07661a7af5",
+          "card": "511aa810-5736-49a5-a253-93ef471b441e",
+          "suffix": "27",
+          "rarity": "common",
+          "imageID": "a6b5efc2-0c76-418e-a2bd-237d31c49647"
+        },
+        {
+          "id": "bcbbf1b3-0a7e-4294-b5a7-bc77b9e80072",
+          "card": "91646435-0b15-4e95-97f9-cbbf2d1cb85a",
+          "suffix": "28",
+          "rarity": "ultra",
+          "imageID": "74a2faa2-1bdc-43db-9a91-fffb8e33002f"
+        },
+        {
+          "id": "6229e6d7-0a92-411e-a66d-9785b3ca12c2",
+          "card": "91646435-0b15-4e95-97f9-cbbf2d1cb85a",
+          "suffix": "28",
+          "rarity": "ultraparallel",
+          "imageID": "74a2faa2-1bdc-43db-9a91-fffb8e33002f"
+        },
+        {
+          "id": "9e03b1a0-3987-4031-9992-d73bd252b1d8",
+          "card": "bad094c6-414f-49e1-a5e6-96582c088b8f",
+          "suffix": "29",
+          "rarity": "ultra",
+          "imageID": "c09e1c08-7e90-421c-8671-9fbae8d1bf21"
+        },
+        {
+          "id": "3d4fa153-01db-4f77-82f9-ff7bddb05168",
+          "card": "bad094c6-414f-49e1-a5e6-96582c088b8f",
+          "suffix": "29",
+          "rarity": "ultraparallel",
+          "imageID": "c09e1c08-7e90-421c-8671-9fbae8d1bf21"
+        },
+        {
+          "id": "a4ffabff-db75-44da-a303-14bd1112e1e2",
+          "card": "236c6e04-0486-409f-9e6e-4fb24068fd8f",
+          "suffix": "30",
+          "rarity": "common",
+          "imageID": "c56b0fcf-fdfa-413e-b8b9-222d6d870932"
+        },
+        {
+          "id": "a1fe11de-6fbf-4d3a-bf55-e10a8931901f",
+          "card": "60f0f4a4-1c98-44b7-9b93-1be35f24d50e",
+          "suffix": "31",
+          "rarity": "common",
+          "imageID": "e58b71d6-a27a-4c92-98d4-3118ac4d8a49"
+        },
+        {
+          "id": "f20f1b9b-b6c9-40b8-8127-b2057d174594",
+          "card": "0b6b7efb-3c48-4b4b-8a18-88c37165f1c8",
+          "suffix": "32",
+          "rarity": "common",
+          "imageID": "23780d9b-70f1-4823-a38a-6660055f1a16"
+        },
+        {
+          "id": "ebeb03e8-9ace-42c4-8e0c-11d672a7febf",
+          "card": "0cf75ed7-b8a5-416d-bcb5-824a452bbf33",
+          "suffix": "33",
+          "rarity": "common",
+          "imageID": "c4abc321-24f3-4dd7-8364-f43cf836029d"
+        },
+        {
+          "id": "b41aac33-9d44-4002-820a-5598ca6165fa",
+          "card": "84b928e2-31ab-496c-a543-cf2a017decb0",
+          "suffix": "34",
+          "rarity": "rare",
+          "imageID": "9ef54b14-132a-48bf-99a3-7eb6f183f405"
+        },
+        {
+          "id": "f83f2bd7-8655-4866-a819-e407a546b5c3",
+          "card": "04a6040e-b90c-46f8-bee0-aa41b323444d",
+          "suffix": "35",
+          "rarity": "common",
+          "imageID": "f6e5975b-4982-4ab0-a308-35e37825c1f8"
+        },
+        {
+          "id": "50ccf829-e365-47d7-8694-d60eb30745d2",
+          "card": "10fbecc4-dd81-435d-b820-7d6db69cf9e2",
+          "suffix": "36",
+          "rarity": "common",
+          "imageID": "575f0c86-e976-47ef-80d6-98114fbbfb60"
+        },
+        {
+          "id": "d101261e-96b1-41ea-89c1-5c728c9d1f2d",
+          "card": "d5b10c23-82c9-4e1b-94cf-b0e57656377f",
+          "suffix": "37",
+          "rarity": "common",
+          "imageID": "6bd2e008-8851-422a-8455-7b12400fbe88"
+        },
+        {
+          "id": "5c93b3bf-b8f0-4adf-adcb-2a113e557238",
+          "card": "d1ba4ec8-ae99-43de-ab0d-cb7728c67bd7",
+          "suffix": "38",
+          "rarity": "rare",
+          "imageID": "2f3c2a5c-221e-40a8-bdc9-8def265c7faa"
+        },
+        {
+          "id": "edaca403-716c-4da7-9718-1b8c6f880bf0",
+          "card": "d314cd9e-21fe-44c6-b24a-7a6febb7fdcb",
+          "suffix": "39",
+          "rarity": "common",
+          "imageID": "69751aa5-daf6-496f-8a86-f1feda3594b8"
+        },
+        {
+          "id": "524fc344-3148-46e5-b7b5-518a0104aea5",
+          "card": "8bae7c25-e8c3-4d0f-b576-9c4de9ca8c97",
+          "suffix": "40",
+          "rarity": "rare",
+          "imageID": "c0167ad2-f657-457a-9ac2-0f329ce53377"
+        },
+        {
+          "id": "1d42d367-771d-4dc9-96fd-32f53601eb45",
+          "card": "e382596f-b9be-40fd-ba36-dc0947e73f01",
+          "suffix": "41",
+          "rarity": "common",
+          "imageID": "1b3c8f3d-170a-41f7-9e67-f9bc8da6f348"
+        },
+        {
+          "id": "f8888a52-321e-4882-b205-6c5a4e9425e6",
+          "card": "d747d792-d5e5-466c-9b34-51f3cc94412b",
+          "suffix": "42",
+          "rarity": "common",
+          "imageID": "d6e4d243-46b3-40b8-b2a2-fa52737283ff"
+        },
+        {
+          "id": "04d6245b-e374-4238-88a1-7662887f2b58",
+          "card": "0e0a131d-bc45-4bd7-a018-512733ebc1b6",
+          "suffix": "43",
+          "rarity": "common",
+          "imageID": "1202fec8-edc0-46b8-808d-73cc037dd938"
+        },
+        {
+          "id": "5efb953c-caf2-455f-8786-167bafb77a2d",
+          "card": "96244cfa-4651-416b-bd7e-8cfb5d6896bf",
+          "suffix": "44",
+          "rarity": "common",
+          "imageID": "c25eef95-f94d-4ba3-9fd8-04b4eb860140"
+        },
+        {
+          "id": "2d93cbd1-4587-40f3-ac55-5b96c6970948",
+          "card": "e808226e-1b3d-48f0-aaba-8cf68790de06",
+          "suffix": "45",
+          "rarity": "super",
+          "imageID": "3dfb1090-d5d0-4499-893f-69a096a0cb7d"
+        },
+        {
+          "id": "fa26d33d-dea5-443c-baed-1d023a618b67",
+          "card": "ed525d97-691f-4150-b647-ce65452b1064",
+          "suffix": "46",
+          "rarity": "common",
+          "imageID": "f6c95d75-804d-48d1-8262-371e0b06220e"
+        },
+        {
+          "id": "ba94c9c6-10b6-4ecf-bdb7-aa95d6ae9d6e",
+          "card": "d15ea879-903e-481a-9ad1-774823a8518b",
+          "suffix": "47",
+          "rarity": "common",
+          "imageID": "f7eb3c46-62df-45ec-9be3-877f11a4a522"
+        },
+        {
+          "id": "2cc18af0-2cd1-40c3-b35b-b4384c3b526a",
+          "card": "b5ea9957-75b9-4c50-85e1-c4f96d3ea806",
+          "suffix": "48",
+          "rarity": "common",
+          "imageID": "7961b2e9-728a-48cf-9f47-42b75c6fc71b"
+        },
+        {
+          "id": "abc2c67c-46d0-4114-8ce7-8ab693013372",
+          "card": "c50f2c23-4606-4676-834e-51728ff911b9",
+          "suffix": "49",
+          "rarity": "common",
+          "imageID": "36802d6e-d1e2-472a-861c-fb22a1773ffc"
+        },
+        {
+          "id": "40de888a-eec9-4b0c-8080-c0fb0154f642",
+          "card": "8f6f06b8-5c16-41fe-b653-d9c7ea7f44c6",
+          "suffix": "50",
+          "rarity": "common",
+          "imageID": "5725c2a8-58ce-4d70-b96c-785fa6fd0ca4"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Magic Ruler (Japanese)",
+      "id": 120
+    }
+  }
+}

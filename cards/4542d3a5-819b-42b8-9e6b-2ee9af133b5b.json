@@ -1,0 +1,53 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "4542d3a5-819b-42b8-9e6b-2ee9af133b5b",
+  "text": {
+    "en": {
+      "name": "Delirium Papillon",
+      "effect": "1 face-up monster on your opponent's field becomes Insect Type this turn. Then, if another face-up Defense Position monster is on the field, you can draw 1 card."
+    },
+    "ja": {
+      "name": "\u5922\u4e2d\u306e\u30d1\u30d4\u30e8\u30f3",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u3092\u9078\u3073\u3001\u305d\u306e\u7a2e\u65cf\u3092\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\u6606\u866b\u65cf\u306b\u3059\u308b\u3002\u81ea\u5206\u307e\u305f\u306f\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u3053\u306e\u30ab\u30fc\u30c9\u4ee5\u5916\u306e\u8868\u5074\u5b88\u5099\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\u304c\u3044\u308b\u5834\u5408\u3001\u3055\u3089\u306b\u81ea\u5206\u306f\uff11\u679a\u30c9\u30ed\u30fc\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ubabd\uc911\uc758 \ud30c\ud53c\uc6a9",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130 1\uc7a5\uc744 \uace0\ub974\uace0, \uadf8 \uc885\uc871\uc744 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0 \uace4\ucda9\uc871\uc73c\ub85c \ud55c\ub2e4. \uc790\uc2e0 \ub610\ub294 \uc0c1\ub300 \ud544\ub4dc\uc5d0 \uc774 \uce74\ub4dc \uc774\uc678\uc758 \uc55e\uba74 \uc218\ube44 \ud45c\uc2dc \ubaac\uc2a4\ud130\uac00 \uc788\uc744 \uacbd\uc6b0, \ucd94\uac00\ub85c \uc790\uc2e0\uc740 1\uc7a5 \ub4dc\ub85c\uc6b0\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "insect",
+  "classifications": [
+    "effect"
+  ],
+  "level": 2,
+  "atk": 800,
+  "def": 1200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "205398f2-3f12-4a0a-99b2-eb6a4f4cb103",
+      "card": "https://ms.yugipedia.com//6/65/DeliriumPapillon-RDAP02-JP-C.png"
+    }
+  ],
+  "sets": [
+    "43d37aa5-d0e5-47b7-ac44-ab3ca95014d3"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Delirium Papillon",
+        "id": 714508
+      }
+    ],
+    "dbID": 17883
+  },
+  "series": [
+    "e0a3c6d6-a40a-45db-b38a-b801fce5ca5e"
+  ]
+}

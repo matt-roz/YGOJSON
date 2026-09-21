@@ -1,0 +1,50 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "2a6d1196-d7f2-48d1-92df-12c6a3068a12",
+  "text": {
+    "en": {
+      "name": "Dark Handshaker",
+      "effect": "Shuffle 1 card from your opponent's Graveyard into the Deck. If you have a face-up Level 7 or higher Normal Monster on your field, you can change 1 Attack Position monster on your opponent's field to face-up Defense Position."
+    },
+    "ja": {
+      "name": "\u30d6\u30e9\u30c3\u30af\u30fb\u30cf\u30f3\u30c9\u30b7\u30a7\u30a4\u30ab\u30fc",
+      "effect": "\u76f8\u624b\u306e\u5893\u5730\u306e\u30ab\u30fc\u30c9\uff11\u679a\u3092\u9078\u3093\u3067\u30c7\u30c3\u30ad\u306b\u623b\u3059\u3002\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u8868\u793a\u306e\u901a\u5e38\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff17\u4ee5\u4e0a\uff09\u304c\u3044\u308b\u5834\u5408\u3001\u3055\u3089\u306b\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u653b\u6483\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u3092\u9078\u3093\u3067\u8868\u5074\u5b88\u5099\u8868\u793a\u306b\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ube14\ub799 \ud578\ub4dc\uc170\uc774\ucee4",
+      "effect": "\uc0c1\ub300 \ubb18\uc9c0\uc758 \uce74\ub4dc 1\uc7a5\uc744 \uace0\ub974\uace0 \ub371\uc73c\ub85c \ub418\ub3cc\ub9b0\ub2e4. \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \ud45c\uc2dc \uc77c\ubc18 \ubaac\uc2a4\ud130(\ub808\ubca8 7 \uc774\uc0c1)\uac00 \uc788\uc744 \uacbd\uc6b0, \ucd94\uac00\ub85c \uc0c1\ub300 \ud544\ub4dc\uc758 \uacf5\uaca9 \ud45c\uc2dc \ubaac\uc2a4\ud130 1\uc7a5\uc744 \uace0\ub974\uace0 \uc55e\uba74 \uc218\ube44 \ud45c\uc2dc\ub85c \ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "classifications": [
+    "effect"
+  ],
+  "level": 2,
+  "atk": 800,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "6d379d58-e195-43e8-b2e1-0ce102784fcb",
+      "card": "https://ms.yugipedia.com//1/19/DarkHandshaker-RDKP09-JP-R.png"
+    }
+  ],
+  "sets": [
+    "3c5cdcc3-aa46-45b2-8558-4ff997e6d6c5"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "n"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Dark Handshaker",
+        "id": 713769
+      }
+    ],
+    "dbID": 17499
+  },
+  "series": []
+}

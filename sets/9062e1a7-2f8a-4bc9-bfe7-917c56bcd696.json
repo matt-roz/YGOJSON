@@ -1,0 +1,163 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "9062e1a7-2f8a-4bc9-bfe7-917c56bcd696",
+  "name": {
+    "en": "Tournament Pack 2009 Vol.4",
+    "ko": "\ud1a0\ub108\uba3c\ud2b8 \ud329 2009 Vol.4"
+  },
+  "locales": {
+    "kr": {
+      "language": "ko",
+      "prefix": "TP04-KR",
+      "date": "2009-11-13",
+      "cardImages": {
+        "unlimited": {
+          "52d4bd9c-007b-470c-bf7c-50cf1abaeacf": "https://ms.yugipedia.com//4/47/PetentheDarkClown-TP04-KR-C-UE.png",
+          "8573fc2f-328f-4fb1-83db-45ccae7443ca": "https://ms.yugipedia.com//c/c3/Marshmallon-TP04-KR-SR-UE.png",
+          "b0125132-abc7-49a6-b5ca-dbb9d5bcded6": "https://ms.yugipedia.com//7/77/MeteorBlackDragon-TP04-KR-SR-UE.png",
+          "bb6f7ac0-aee2-4823-9c5f-68c76d69c1e1": "https://ms.yugipedia.com//2/2c/FairysGift-TP04-KR-C-UE.png",
+          "d5e93573-a544-4786-868b-1dc091f30f8a": "https://ms.yugipedia.com//c/c1/GaleDogra-TP04-KR-C-UE.png",
+          "fe8526f6-a69c-4bb9-a849-0ff434eb1c8a": "https://ms.yugipedia.com//5/5c/RareMetalDragon-TP04-KR-C-UE.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "52d4bd9c-007b-470c-bf7c-50cf1abaeacf": {
+            "image": "https://ms.yugipedia.com//4/47/PetentheDarkClown-TP04-KR-C-UE.png"
+          },
+          "8573fc2f-328f-4fb1-83db-45ccae7443ca": {
+            "image": "https://ms.yugipedia.com//c/c3/Marshmallon-TP04-KR-SR-UE.png"
+          },
+          "b0125132-abc7-49a6-b5ca-dbb9d5bcded6": {
+            "image": "https://ms.yugipedia.com//7/77/MeteorBlackDragon-TP04-KR-SR-UE.png"
+          },
+          "bb6f7ac0-aee2-4823-9c5f-68c76d69c1e1": {
+            "image": "https://ms.yugipedia.com//2/2c/FairysGift-TP04-KR-C-UE.png"
+          },
+          "d5e93573-a544-4786-868b-1dc091f30f8a": {
+            "image": "https://ms.yugipedia.com//c/c1/GaleDogra-TP04-KR-C-UE.png"
+          },
+          "fe8526f6-a69c-4bb9-a849-0ff434eb1c8a": {
+            "image": "https://ms.yugipedia.com//5/5c/RareMetalDragon-TP04-KR-C-UE.png"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          7141403001
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "kr"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "cards": [
+        {
+          "id": "8573fc2f-328f-4fb1-83db-45ccae7443ca",
+          "card": "1ed9c6e9-8008-47b2-9f51-3d42bbbc05ac",
+          "suffix": "001",
+          "rarity": "super",
+          "imageID": "34ec8e22-664b-4605-a994-bd13e148fb96"
+        },
+        {
+          "id": "b0125132-abc7-49a6-b5ca-dbb9d5bcded6",
+          "card": "4c6dcc10-9681-4b30-9f36-43fd2553c8db",
+          "suffix": "002",
+          "rarity": "super",
+          "imageID": "062bd178-7639-4240-9384-2b247e058d42"
+        },
+        {
+          "id": "bb6f7ac0-aee2-4823-9c5f-68c76d69c1e1",
+          "card": "839f0427-4d89-4893-a133-c51ff97bb7ea",
+          "suffix": "003",
+          "rarity": "common",
+          "imageID": "67e4dfe4-a4a2-44ca-a5f8-e40510e70b22"
+        },
+        {
+          "id": "7c4c9279-dea9-4c4e-af71-9e8fc472a875",
+          "card": "88a5bd08-6e5c-476f-9f9b-c8176a29aca9",
+          "suffix": "004",
+          "rarity": "common",
+          "imageID": "78f1832a-40a5-4a42-875d-4e344edf67e6"
+        },
+        {
+          "id": "d5e93573-a544-4786-868b-1dc091f30f8a",
+          "card": "4ee8f37a-6461-4d67-9e3f-ebd64fd19fe0",
+          "suffix": "005",
+          "rarity": "common",
+          "imageID": "6ea2fdb5-a4d7-439f-955b-837bd3871c83"
+        },
+        {
+          "id": "fe8526f6-a69c-4bb9-a849-0ff434eb1c8a",
+          "card": "ea97b4de-9740-48bb-bfe9-98a321f5130c",
+          "suffix": "006",
+          "rarity": "common",
+          "imageID": "fb323541-6eec-4567-93d2-f580f716f1a7"
+        },
+        {
+          "id": "52d4bd9c-007b-470c-bf7c-50cf1abaeacf",
+          "card": "dff3e302-59fc-4caa-94bf-9628aa437b15",
+          "suffix": "007",
+          "rarity": "common",
+          "imageID": "d3a622ce-c839-493f-9114-4e7592e879d1"
+        },
+        {
+          "id": "e1b7f24f-a32b-48f8-94dc-db2b412cc99b",
+          "card": "e3030567-de79-43b2-97f7-8548e07a837e",
+          "suffix": "008",
+          "rarity": "common",
+          "imageID": "79dc61ce-b33f-4ab6-981c-8ed2a4e80855"
+        },
+        {
+          "id": "ee5fcd49-17e0-44bb-bae2-fd1fa80868ee",
+          "card": "c67d8a95-12a5-46a7-b555-455371b49955",
+          "suffix": "009",
+          "rarity": "common",
+          "imageID": "20cf264f-4907-47b3-a9ce-7ac5dc3abb3a"
+        },
+        {
+          "id": "10b47706-0ed9-4bd4-aaaf-aa0198725923",
+          "card": "77de33e9-9ade-4b9f-95bf-0280ef514327",
+          "suffix": "010",
+          "rarity": "common",
+          "imageID": "d8306691-d045-4335-b2cf-de42672781f2"
+        },
+        {
+          "id": "9850095d-695d-47b9-b08c-da0722d7fa4b",
+          "card": "25f6cd37-ee11-4533-a7ca-6cc7075c73b8",
+          "suffix": "011",
+          "rarity": "common",
+          "imageID": "9bfbb21d-721b-41b2-a1db-fa6f49144e1f"
+        },
+        {
+          "id": "b1a08ec2-b4e2-4fab-ba55-3167af062ed6",
+          "card": "641d1a75-a4c2-4a39-82a9-07091a21aa4c",
+          "suffix": "012",
+          "rarity": "common"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Tournament Pack 2009 Vol.4 (Korean)",
+      "id": 399470
+    }
+  }
+}

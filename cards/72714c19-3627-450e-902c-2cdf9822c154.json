@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "72714c19-3627-450e-902c-2cdf9822c154",
+  "text": {
+    "en": {
+      "name": "Royal Rebel's Kidrum",
+      "effect": "A drum fiend that started a band because it admired the greater Royal Rebels.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30ed\u30a4\u30e4\u30eb\u30c7\u30e2\u30f3\u30ba\u30fb\u30ad\u30c3\u30c9\u30e9\u30e0",
+      "effect": "\u4e0a\u7d1a\u30ed\u30a4\u30e4\u30eb\u30c7\u30e2\u30f3\u30ba\u306b\u61a7\u308c\u3066\u30d0\u30f3\u30c9\u3092\u59cb\u3081\u305f\u30c9\u30e9\u30e0\u306e\u60aa\u9b54\u3002"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "fiend",
+  "classifications": [
+    "normal"
+  ],
+  "level": 1,
+  "atk": 300,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "91de9de4-d59b-4d39-a38c-af1785cff2a4",
+      "card": "https://ms.yugipedia.com//f/f1/RoyalRebelsKidrum-RDB233-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Royal Rebel's Kidrum",
+        "id": 1017933
+      }
+    ],
+    "dbID": 19540
+  },
+  "series": [
+    "39eae314-d153-45cf-aa63-9d42b5dc8cf2"
+  ]
+}

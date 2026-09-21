@@ -1,0 +1,92 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "316ce4ba-bce0-4013-a2e5-43ee41219149",
+  "name": {
+    "en": "Tournament Pack 2026 Vol.3",
+    "ja": "\u30c8\u30fc\u30ca\u30e1\u30f3\u30c8\u30d1\u30c3\u30af \uff12\uff10\uff12\uff16 \uff36\uff4f\uff4c\uff0e\uff13"
+  },
+  "locales": {
+    "jp": {
+      "language": "ja",
+      "prefix": "26TP-JP",
+      "date": "2026-10-01",
+      "image": "https://ms.yugipedia.com//e/ef/26TP-BoosterJP-Vol3.png",
+      "cardImages": {
+        "unlimited": {}
+      },
+      "cardInfo": {
+        "unlimited": {}
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {}
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//e/ef/26TP-BoosterJP-Vol3.png",
+      "cards": [
+        {
+          "id": "51deb041-47ce-4ea1-bdcc-6f938edb2da7",
+          "card": "b024b8c7-0dce-4947-af3f-498d19d8c763",
+          "suffix": "303",
+          "rarity": "commonparallel",
+          "imageID": "818a020a-db45-408a-b2fd-8eabbff9bab5",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "2e4b3510-9611-4351-bc98-8a0d4003a230",
+          "card": "00bf3319-51fd-4d7a-90fd-4b678a68c4bb",
+          "suffix": "305",
+          "rarity": "commonparallel",
+          "imageID": "946e2635-43c4-40db-88c4-fb8b5a6847c8",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "65e23896-4d05-42ae-b351-243e87676e92",
+          "card": "f9ecc58a-b0dd-4c32-9a0c-e2fac343b8c9",
+          "suffix": "306",
+          "rarity": "commonparallel",
+          "imageID": "2322fec0-f322-4e46-9013-b8bf4e2e8526",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "8ee512b2-419b-4502-96e2-35a52daf1330",
+          "card": "3d9eeb7e-1199-4458-b6c6-3f08a0f19f01",
+          "suffix": "307",
+          "rarity": "commonparallel",
+          "imageID": "fa5abbab-daa4-43fa-98c6-9c481596e301",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "7bdc63ac-b604-4d1b-97c6-1eb432ef4196",
+          "card": "314e4a23-6b6d-467c-855b-05c2af2765d3",
+          "suffix": "311",
+          "rarity": "secret-blue",
+          "imageID": "5da38550-2042-4b72-946a-005657c5755f",
+          "printStatus": "reprint"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Tournament Pack 2026 Vol.3",
+      "id": 1226824
+    }
+  }
+}

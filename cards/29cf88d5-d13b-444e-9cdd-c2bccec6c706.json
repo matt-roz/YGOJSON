@@ -1,0 +1,53 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "29cf88d5-d13b-444e-9cdd-c2bccec6c706",
+  "text": {
+    "en": {
+      "name": "Stock Buster Dragon",
+      "effect": "All face-up Level 7 or lower monsters on your opponent's field lose 1500 ATK until the end of this turn."
+    },
+    "ja": {
+      "name": "\u6050\u653b\u7adc\u30b9\u30c8\u30c3\u30af\u30d0\u30b9\u30bf\u30fc",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u5168\u3066\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff17\u4ee5\u4e0b\uff09\u306e\u653b\u6483\u529b\u306f\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\uff11\uff15\uff10\uff10\u30c0\u30a6\u30f3\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uacf5\uacf5\ub8e1 \uc2a4\ud1a1\ubc84\uc2a4\ud130",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \ubaa8\ub4e0 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\ub808\ubca8 7 \uc774\ud558)\uc758 \uacf5\uaca9\ub825\uc740 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0 1500 \ub0b4\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "dragon",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2400,
+  "def": 1600,
+  "passwords": [],
+  "images": [
+    {
+      "id": "d0c987e1-e768-4d12-aed6-caa7b11c30d7",
+      "card": "https://ms.yugipedia.com//e/ee/StockBusterDragon-RDSD03-JP-C.png"
+    }
+  ],
+  "sets": [
+    "5b6d7ab4-987e-4469-89bd-9d9bf3d400c0",
+    "b3912bea-7700-43b3-8e58-def0f757111c",
+    "b3912bea-7700-43b3-8e58-def0f757111c"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Stock Buster Dragon",
+        "id": 716878
+      }
+    ],
+    "dbID": 16673
+  },
+  "series": []
+}

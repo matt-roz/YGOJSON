@@ -1,0 +1,52 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "681f8c77-e8e8-4d3b-8fbf-8d72d6f8ff9b",
+  "text": {
+    "en": {
+      "name": "Lightclad Dragon Egg",
+      "effect": "Special Summon 1 Level 7 or higher monster from your hand face-up to your field. If you Special Summoned a monster whose original Type is Wyrm by this effect, this turn, it gains 800 ATK, and it inflicts piercing battle damage.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u5149\u7e8f\u7adc\u306e\u5375",
+      "effect": "\u624b\u672d\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff17\u4ee5\u4e0a\uff09\uff11\u4f53\u3092\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u8868\u793a\u3067\u7279\u6b8a\u53ec\u559a\u3059\u308b\u3002\u3053\u306e\u52b9\u679c\u3067\u5143\u3005\u306e\u7a2e\u65cf\u304c\u5e7b\u7adc\u65cf\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u3092\u7279\u6b8a\u53ec\u559a\u3057\u305f\u5834\u5408\u3001\u3055\u3089\u306b\u3053\u306e\u30bf\u30fc\u30f3\u3001\u305d\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u653b\u6483\u529b\u306f\uff18\uff10\uff10\u30a2\u30c3\u30d7\u3057\u3001\u305d\u306e\u653b\u6483\u306f\u8cab\u901a\u3059\u308b\u3002"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "wyrm",
+  "classifications": [
+    "effect"
+  ],
+  "level": 5,
+  "atk": 1000,
+  "def": 900,
+  "passwords": [],
+  "images": [
+    {
+      "id": "96556c43-57d1-4b7c-9dde-294df95f2de0",
+      "card": "https://ms.yugipedia.com//0/07/LightcladDragonEgg-RDKP25-JP-SR.png"
+    },
+    {
+      "id": "66a80af2-264d-4ff3-926b-3058a7300a16",
+      "card": "https://ms.yugipedia.com//d/d3/LightcladDragonEgg-RDKP25-JP-ScR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Lightclad Dragon Egg",
+        "id": 1185727
+      }
+    ],
+    "dbID": 23238
+  },
+  "series": [
+    "be769ed3-b6ac-4c49-838e-4e0e05d7320a"
+  ]
+}

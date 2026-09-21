@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "bd960c33-d19c-400f-816b-6c03a8371d4d",
+  "text": {
+    "en": {
+      "name": "Brain Harvester",
+      "effect": "Draw cards equal to [the number of monsters sent to the Graveyard to meet the requirement]."
+    },
+    "ja": {
+      "name": "\u30d6\u30ec\u30a4\u30f3\u30fb\u30cf\u30fc\u30d9\u30b9\u30bf\u30fc",
+      "effect": "\u81ea\u5206\u306f\uff3b\u3053\u306e\u52b9\u679c\u306e\u6761\u4ef6\u3067\u5893\u5730\u3078\u9001\u3063\u305f\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u6570\uff3d\u3060\u3051\u30c9\u30ed\u30fc\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ube0c\ub808\uc778 \ud558\ubca0\uc2a4\ud130",
+      "effect": "\uc790\uc2e0\uc740 [\uc774 \ud6a8\uacfc\uc758 \uc870\uac74\uc73c\ub85c \ubb18\uc9c0\ub85c \ubcf4\ub0b8 \ubaac\uc2a4\ud130\uc758 \uc218]\ub9cc\ud07c \ub4dc\ub85c\uc6b0\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "fairy",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 1000,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "de7bda77-0729-4c6c-b4d2-242d9ac3d232",
+      "card": "https://ms.yugipedia.com//6/66/BrainHarvester-RDKP11-JP-R.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Brain Harvester",
+        "id": 714128
+      }
+    ],
+    "dbID": 18261
+  },
+  "series": []
+}

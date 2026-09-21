@@ -1,0 +1,47 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "a9358f35-47a1-4582-8186-4a2b8776f437",
+  "text": {
+    "en": {
+      "name": "Wooly Wonderland - Graveyard Grudge",
+      "effect": "The attacked monster loses 2000 ATK until the end of this turn. Then, you can add up to 4 cards sent to the Graveyard to meet the requirement to your hand."
+    },
+    "ja": {
+      "name": "\u7f8a\u754c\uff0d\u5893\u5730\u306b\u6028\u5ff5",
+      "effect": "\u653b\u6483\u3092\u53d7\u3051\u308b\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u653b\u6483\u529b\u306f\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\uff12\uff10\uff10\uff10\u30c0\u30a6\u30f3\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306f\u3053\u306e\u52b9\u679c\u306e\u6761\u4ef6\u3067\u5893\u5730\u3078\u9001\u3063\u305f\u30ab\u30fc\u30c9\u3092\uff14\u679a\u307e\u3067\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc591\uacc4\uff0d\ubb18\uc9c0\uc5d0 \uc6d0\ud55c",
+      "effect": "\uacf5\uaca9\uc744 \ubc1b\ub294 \ubaac\uc2a4\ud130\uc758 \uacf5\uaca9\ub825\uc740 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0 2000 \ub0b4\ub9b0\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0\uc740 \uc774 \ud6a8\uacfc\uc758 \uc870\uac74\uc73c\ub85c \ubb18\uc9c0\ub85c \ubcf4\ub0b8 \uce74\ub4dc\ub97c 4\uc7a5\uae4c\uc9c0 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\uc744 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "trap",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "5ff47110-d900-49ef-9b1b-7ecbb939c015",
+      "card": "https://ms.yugipedia.com//b/b6/WoolyWonderlandGraveyardGrudge-RDORP3-JP-C.png"
+    }
+  ],
+  "sets": [
+    "a3a484b7-43f4-4cde-aa3c-fc8bd9d7f99a",
+    "9fedf2d0-5ae8-4861-b6f6-654c2d8aefeb"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "r"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Wooly Wonderland - Graveyard Grudge",
+        "id": 714850
+      }
+    ],
+    "dbID": 17541
+  },
+  "series": [
+    "354d73b1-0590-498d-8f4c-4095d830bbc1"
+  ]
+}

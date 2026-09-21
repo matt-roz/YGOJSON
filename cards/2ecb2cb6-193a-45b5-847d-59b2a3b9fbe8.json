@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "2ecb2cb6-193a-45b5-847d-59b2a3b9fbe8",
+  "text": {
+    "en": {
+      "name": "Draco the Hand-Picked",
+      "effect": "Send the top 2 cards of your Deck to the Graveyard. Then, you can add 1 Normal Monster with 0 ATK or 1 \"Draconic Peace Bomber\" from your Graveyard to your hand.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u624b\u6458\u307f\u30c9\u30e9\u30b3",
+      "effect": "\u81ea\u5206\u306e\u30c7\u30c3\u30ad\u306e\u4e0a\u304b\u3089\u30ab\u30fc\u30c9\uff12\u679a\u3092\u5893\u5730\u3078\u9001\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u901a\u5e38\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u653b\u6483\u529b\uff10\uff09\uff11\u4f53\u307e\u305f\u306f\u300c\u30c9\u30e9\u30b3\u30cb\u30c3\u30af\u30fb\u30d4\u30fc\u30b9\u30dc\u30f3\u30d0\u30fc\u300d\uff11\u679a\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud14c\uc988\ubbf8 \ub4dc\ub77c\ucf54",
+      "effect": "\uc790\uc2e0\uc758 \ub371 \uc704\uc5d0\uc11c \uce74\ub4dc 2\uc7a5\uc744 \ubb18\uc9c0\ub85c \ubcf4\ub0b8\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0 \ubb18\uc9c0\uc758 \uc77c\ubc18 \ubaac\uc2a4\ud130(\uacf5\uaca9\ub825 0) 1\uc7a5 \ub610\ub294 \"\ub4dc\ub77c\ucf54\ub2c9 \ud53c\uc2a4\ubd04\ubc84\" 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\uc744 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "type": "dragon",
+  "classifications": [
+    "effect"
+  ],
+  "level": 1,
+  "atk": 0,
+  "def": 1400,
+  "passwords": [],
+  "images": [
+    {
+      "id": "48ebd0a6-96ff-4293-9958-ea129a1ddcd4",
+      "card": "https://ms.yugipedia.com//d/d8/DracotheHandPicked-RDKP23-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Draco the Hand-Picked",
+        "id": 1159276
+      }
+    ],
+    "dbID": 22410
+  },
+  "series": [
+    "ded74c95-c7e2-4a4d-83e1-5e13844ed768"
+  ]
+}

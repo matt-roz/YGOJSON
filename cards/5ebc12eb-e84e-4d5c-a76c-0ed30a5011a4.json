@@ -1,0 +1,47 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "5ebc12eb-e84e-4d5c-a76c-0ed30a5011a4",
+  "text": {
+    "en": {
+      "name": "Mist Assassin",
+      "effect": "Add up to 2 \"Fusion\" and/or \"Fusion Cancel\" from your Graveyard to your hand.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30df\u30b9\u30c8\u30fb\u30a2\u30b5\u30b7\u30f3",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u30d5\u30e5\u30fc\u30b8\u30e7\u30f3\u300d\u300c\u30d5\u30e5\u30fc\u30b8\u30e7\u30f3\u30ad\u30e3\u30f3\u30bb\u30eb\u300d\u3092\u5408\u8a08\uff12\u679a\u307e\u3067\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ubbf8\uc2a4\ud2b8 \uc5b4\uc314\uc2e0",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \"\ud4e8\uc804\" \"\ud4e8\uc804 \uce94\uc2ac\"\uc744 \ud569\uacc4 2\uc7a5\uae4c\uc9c0 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\ub294\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 6,
+  "atk": 1700,
+  "def": 1400,
+  "passwords": [],
+  "images": [
+    {
+      "id": "3c1879c7-1546-47b5-b20d-892ad9afcd24",
+      "card": "https://ms.yugipedia.com//1/1a/MistAssassin-RDKP16-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Mist Assassin",
+        "id": 1036951
+      }
+    ],
+    "dbID": 19983
+  },
+  "series": []
+}

@@ -1,0 +1,58 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "421e1b0d-adc7-46a0-9e4a-a8ee99096724",
+  "text": {
+    "en": {
+      "name": "Jointech Ace",
+      "effect": "An autonomous robot with a knack for building things. No one yet knows the power embedded in its joints."
+    },
+    "ja": {
+      "name": "\u30b8\u30e7\u30a4\u30f3\u30c6\u30c3\u30af\u30fb\u30a8\u30fc\u30b9",
+      "effect": "\u5de5\u4f5c\u304c\u5f97\u610f\u306a\u81ea\u5f8b\u578b\u30ed\u30dc\u30c3\u30c8\u3002\u30b8\u30e7\u30a4\u30f3\u30c8\u90e8\u5206\u306b\u306f\u672a\u77e5\u306e\u529b\u304c\u79d8\u3081\u3089\u308c\u3066\u3044\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc870\uc778\ud14c\ud06c \uc5d0\uc774\uc2a4",
+      "effect": "\uacf5\uc791\uc774 \ud2b9\uae30\uc778 \uc790\uc728\ud615 \ub85c\ubd07. \uc870\uc778\ud2b8 \ubd80\ubd84\uc5d0\ub294 \ubbf8\uc9c0\uc758 \ud798\uc774 \uc228\uaca8\uc838 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "machine",
+  "classifications": [
+    "normal"
+  ],
+  "level": 4,
+  "atk": 1500,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "4bf766c8-6ebc-460b-9589-5d81bbd7fc61",
+      "card": "https://ms.yugipedia.com//c/c1/JointechAce-RDB232-JP-C.png"
+    }
+  ],
+  "sets": [
+    "a3a484b7-43f4-4cde-aa3c-fc8bd9d7f99a",
+    "cf303586-057a-4e6c-ae2a-65879480865d",
+    "31432588-1ddf-4225-8c5e-7dfc48faac1e",
+    "31432588-1ddf-4225-8c5e-7dfc48faac1e",
+    "a5dd7265-59c0-48dc-b924-5def08b05a08",
+    "a5dd7265-59c0-48dc-b924-5def08b05a08"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "n"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Jointech Ace",
+        "id": 715469
+      }
+    ],
+    "dbID": 17589
+  },
+  "series": [
+    "5d5055d0-52c0-457f-8fcf-f097bd9b9f9e"
+  ]
+}

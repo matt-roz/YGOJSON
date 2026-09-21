@@ -1,0 +1,52 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "1693c2ec-c4d1-43d4-8fb5-69c9d6c1b550",
+  "text": {
+    "en": {
+      "name": "Great Moth Alternative",
+      "effect": "This card's name becomes \"Great Moth\", and it cannot be destroyed by your opponent's card effects. Your Level 8 Insect Type monsters inflict piercing battle damage.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u76f8\u5909\u7570\u614b\u30fb\u30b0\u30ec\u30fc\u30c8\u30fb\u30e2\u30b9",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u306e\u30ab\u30fc\u30c9\u540d\u306f\u300c\u30b0\u30ec\u30fc\u30c8\u30fb\u30e2\u30b9\u300d\u306b\u306a\u308a\u3001\u76f8\u624b\u306e\u52b9\u679c\u3067\u306f\u7834\u58ca\u3055\u308c\u306a\u3044\u3002\u81ea\u5206\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff18\uff0f\u6606\u866b\u65cf\uff09\u306e\u653b\u6483\u306f\u8cab\u901a\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc0c1\ubcc0\uc774\uccb4 \uadf8\ub808\uc774\ud2b8 \ubaa8\uc2a4",
+      "effect": "\"\uc9c4\ud654\uc758 \uace0\uce58\" \uff0b \ubaac\uc2a4\ud130(\ub808\ubca8 5 \uc774\uc0c1 / \ub545 \uc18d\uc131 / \uace4\ucda9\uc871)\n\ubb18\uc9c0\uc5d0 \uc788\ub294 \uc774 \uce74\ub4dc\uc758 \uce74\ub4dc\uba85\uc740 \"\uadf8\ub808\uc774\ud2b8 \ubaa8\uc2a4\"\uac00 \ub41c\ub2e4.\n\u3010\uc870\uac74\u3011\uc5c6\uc74c\n\u3010\uc9c0\uc18d \ud6a8\uacfc\u3011\uc774 \uce74\ub4dc\uc758 \uce74\ub4dc\uba85\uc740 \"\uadf8\ub808\uc774\ud2b8 \ubaa8\uc2a4\"\uac00 \ub418\uace0, \uc0c1\ub300 \ud6a8\uacfc\ub85c\ub294 \ud30c\uad34\ub418\uc9c0 \uc54a\ub294\ub2e4. \uc790\uc2e0\uc758 \ubaac\uc2a4\ud130(\ub808\ubca8 8 / \uace4\ucda9\uc871)\uc758 \uacf5\uaca9\uc740 \uad00\ud1b5\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "insect",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 2600,
+  "def": 2500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "189960a7-cad2-4043-833e-0978f1a90c6f",
+      "card": "https://ms.yugipedia.com//e/e3/GreatMothAlternative-RDAP02-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Great Moth Alternative",
+        "id": 1159928
+      }
+    ],
+    "dbID": 22648
+  },
+  "series": [
+    "bf6fe1a5-630e-4910-b18d-d8d44b294610"
+  ]
+}

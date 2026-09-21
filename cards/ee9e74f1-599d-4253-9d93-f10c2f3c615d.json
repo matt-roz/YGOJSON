@@ -1,0 +1,44 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "ee9e74f1-599d-4253-9d93-f10c2f3c615d",
+  "text": {
+    "en": {
+      "name": "Mechaleon (Rush Duel)",
+      "effect": "This monster can hide just about anywhere by adopting the colors of its surroundings."
+    },
+    "ko": {
+      "name": "\uba54\uce74\ub808\uc628",
+      "effect": "\uc2e0\uccb4\uc758 \uc0c9\uc744 \ubcc0\ud654\uc2dc\ucf1c, \uc5b4\ub5a4 \uc7a5\uc18c\ub77c\ub3c4 \uc228\uc744 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "type": "reptile",
+  "classifications": [
+    "normal"
+  ],
+  "level": 2,
+  "atk": 800,
+  "def": 600,
+  "passwords": [],
+  "images": [
+    {
+      "id": "c079c168-16f5-4486-83bb-6e81f9a561e1",
+      "card": "https://ms.yugipedia.com//a/a2/Mechaleon-RDB004-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Mechaleon (Rush Duel)",
+        "id": 715842
+      }
+    ],
+    "dbID": 17270
+  },
+  "series": [
+    "1f634c80-0c3b-4ad6-98e4-7e85cca61b64"
+  ]
+}

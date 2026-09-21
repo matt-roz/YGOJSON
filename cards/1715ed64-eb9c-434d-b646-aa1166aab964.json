@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "1715ed64-eb9c-434d-b646-aa1166aab964",
+  "text": {
+    "en": {
+      "name": "Dimension Oper",
+      "effect": "Draw 1 card. Then, if you have 3 or more different Types in your Graveyard, you can add 1 Level 8 LIGHT Attribute Cyberse Type monster from your Graveyard to your hand. This turn, you can only attack with Level 8 or higher Cyberse Type monsters.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30c7\u30a3\u30e1\u30f3\u30b7\u30e7\u30f3\u30fb\u30aa\u30fc\u30da\u30eb"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "cyberse",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1000,
+  "def": 500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "25a62e0e-1d45-4a8f-896c-31322f7b5c23",
+      "card": "https://ms.yugipedia.com//4/40/DimensionOper-RDCA01-JP-OP.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Dimension Oper",
+        "id": 1214143
+      }
+    ]
+  },
+  "series": []
+}

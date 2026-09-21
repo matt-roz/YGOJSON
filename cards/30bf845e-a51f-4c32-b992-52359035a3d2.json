@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "30bf845e-a51f-4c32-b992-52359035a3d2",
+  "text": {
+    "en": {
+      "name": "Sael, the Knight of Skysavior",
+      "effect": "Draw 1 Card."
+    },
+    "ja": {
+      "name": "\u84bc\u6551\u9a0e\u58eb \u30bb\u30a4\u30eb",
+      "effect": "\u81ea\u5206\u306f\uff11\u679a\u30c9\u30ed\u30fc\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ucc3d\uad6c\uae30\uc0ac \uc138\uc77c",
+      "effect": "\uc790\uc2e0\uc740 1\uc7a5 \ub4dc\ub85c\uc6b0\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 500,
+  "def": 1300,
+  "passwords": [],
+  "images": [
+    {
+      "id": "9786744c-9b98-4f72-a2c7-30c49c8112bb",
+      "card": "https://ms.yugipedia.com//d/dc/SaeltheKnightofSkysavior-RDORP4-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "n"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Sael, the Knight of Skysavior",
+        "id": 716634
+      }
+    ],
+    "dbID": 18605
+  },
+  "series": [
+    "ca246ec0-d926-4a5f-b983-145ffb05a55c"
+  ]
+}

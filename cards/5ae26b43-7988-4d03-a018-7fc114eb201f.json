@@ -1,0 +1,43 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "5ae26b43-7988-4d03-a018-7fc114eb201f",
+  "text": {
+    "en": {
+      "name": "Amulet Dragon (Rush Duel)",
+      "effect": "Choose any number of Spell Cards in the Graveyards. While this card is face-up, it gains ATK equal to [the number of chosen cards] x 100. Then, shuffle the chosen card(s) into the owner's Deck.",
+      "official": false
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "dragon",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 2900,
+  "def": 2500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "16a266ed-d10d-4406-bd13-f3ca18804a4a",
+      "card": "https://ms.yugipedia.com//f/f3/AmuletDragon-RDCA01-JP-OP.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Amulet Dragon (Rush Duel)",
+        "id": 1212317
+      }
+    ]
+  },
+  "series": [
+    "73409add-3e9e-400d-a8b0-ae600de6af69"
+  ]
+}

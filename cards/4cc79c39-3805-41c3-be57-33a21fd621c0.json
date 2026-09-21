@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "4cc79c39-3805-41c3-be57-33a21fd621c0",
+  "text": {
+    "en": {
+      "name": "Secret Service Shine Guard",
+      "effect": "Set 1 \"Business Card Barrage\" and/or 1 \"Nutrient Zero\" from your Graveyard in your Spell & Trap Zone. You can only attack with Machine Type monsters this turn."
+    },
+    "ja": {
+      "name": "\uff33\uff30\u30b7\u30e3\u30a4\u30f3\u30fb\u30ac\u30fc\u30c9",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u540d\u523a\u3057\u306e\u547d\u6b7b\u4ea4\u63db\u300d\u300c\u4f53\u529b\u5897\u5f37\u5264\u30b9\u30c8\u30ed\u30f3\u30b0\uff3a\u300d\u3092\u305d\u308c\u305e\u308c\uff11\u679a\u307e\u3067\u9078\u3093\u3067\u81ea\u5206\u306e\u9b54\u6cd5\uff06\u7f60\u30be\u30fc\u30f3\u306b\u30bb\u30c3\u30c8\u3059\u308b\u3002\u3053\u306e\u30bf\u30fc\u30f3\u3001\u81ea\u5206\u306f\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u6a5f\u68b0\u65cf\u4ee5\u5916\uff09\u3067\u653b\u6483\u3067\u304d\u306a\u3044\u3002"
+    },
+    "ko": {
+      "name": "SP \uc0e4\uc778 \uac00\ub4dc",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \"\uba85\uc0ac\uad50\ud658 \uc9c0\uba85\ud568\" \"\uccb4\ub825\uc99d\uac15\uc81c \uc2a4\ud2b8\ub871Z(\uc81c\ud2b8)\"\ub97c \uac01\uac01 1\uc7a5\uae4c\uc9c0 \uace0\ub974\uace0 \uc790\uc2e0\uc758 \ub9c8\ubc95 & \ud568\uc815 \uc874\uc5d0 \uc138\ud2b8\ud55c\ub2e4. \uc774 \ud134\uc5d0, \uc790\uc2e0\uc740 \ubaac\uc2a4\ud130(\uae30\uacc4\uc871 \uc774\uc678)\ub85c \uacf5\uaca9\ud560 \uc218 \uc5c6\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 5,
+  "atk": 1000,
+  "def": 1800,
+  "passwords": [],
+  "images": [
+    {
+      "id": "3b000f54-386c-4258-bfc8-9da93eff9a7d",
+      "card": "https://ms.yugipedia.com//0/00/SecretServiceShineGuard-RDKP06-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Secret Service Shine Guard",
+        "id": 717519
+      }
+    ],
+    "dbID": 16680
+  },
+  "series": [
+    "20ff6f42-dacc-4386-9945-3b0110386c78"
+  ]
+}

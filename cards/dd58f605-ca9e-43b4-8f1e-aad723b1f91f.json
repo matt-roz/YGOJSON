@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "dd58f605-ca9e-43b4-8f1e-aad723b1f91f",
+  "text": {
+    "en": {
+      "name": "Barbeque Ox",
+      "effect": "An ox monster with a fine tongue and a hefty intestine. Grills everything on a single skewer."
+    },
+    "ja": {
+      "name": "\u30df\u30ce\u30bf\u30f3\u30b7\u30aa\u30eb\u30b9",
+      "effect": "\u3059\u3054\u3044\u820c\u3068\u80c3\u888b\u3092\u6301\u3064\u30a6\u30b7\u306e\u602a\u7269\u3002\u3072\u3068\u4e32\u3067\u4f55\u3067\u3082\u713c\u304d\u3042\u3052\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ubbf8\ub178\ud145\uc2dc\uc624\ub85c\uc2a4",
+      "effect": "\ub300\ub2e8\ud55c \ud600\uc640 \uc704\uc7a5\uc744 \uc9c0\ub154\uace0, \uc18c\uc758 \ubaa8\uc2b5\uc744 \ud558\uace0 \uc788\ub294 \uad34\ubb3c\uc774\ub2e4. \uaf2c\uce58\ub97c \ud718\ub458\ub7ec \ub2e5\uce58\ub294 \ub300\ub85c \uad6c\uc6cc\ubc84\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "type": "beast",
+  "classifications": [
+    "normal"
+  ],
+  "level": 3,
+  "atk": 1000,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "02cebab9-5f0b-4aaa-a189-de741ce17fc3",
+      "card": "https://ms.yugipedia.com//3/36/BarbequeOx-RDKP06-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Barbeque Ox",
+        "id": 713451
+      }
+    ],
+    "dbID": 16661
+  },
+  "series": [
+    "d28a8aab-c48f-47c4-9f16-08ed97f3ae09"
+  ]
+}

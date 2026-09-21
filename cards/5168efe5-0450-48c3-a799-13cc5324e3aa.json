@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "5168efe5-0450-48c3-a799-13cc5324e3aa",
+  "text": {
+    "en": {
+      "name": "Dynamail Dino Dynamix [R]",
+      "effect": "This card cannot be destroyed by your opponent's card effects until the end of your opponent's next turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u5927\u93a7\u7adc\u99d5\u30c0\u30a4\u30ca\uff0d\u30df\u30af\u30b9\uff3b\uff32\uff3d",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u306f\u6b21\u306e\u76f8\u624b\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\u76f8\u624b\u306e\u52b9\u679c\u3067\u306f\u7834\u58ca\u3055\u308c\u306a\u3044\u3002"
+    },
+    "ko": {
+      "name": "\ub300\uac1c\ub8e1\uac00 \ub2e4\uc774\ub108\uff0d\ubbf9\uc2a4[R]",
+      "effect": "\uc774 \uce74\ub4dc\ub294 \ub2e4\uc74c \uc0c1\ub300 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0 \uc0c1\ub300 \ud6a8\uacfc\ub85c\ub294 \ud30c\uad34\ub418\uc9c0 \uc54a\ub294\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "dinosaur",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1300,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "00fb3a7c-3049-415d-8508-f6e31b3aa108",
+      "card": "https://ms.yugipedia.com//e/e5/DynamailDinoDynamixR-RDTB02-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Dynamail Dino Dynamix (R)",
+        "id": 1099437
+      }
+    ],
+    "dbID": 21090
+  },
+  "series": [
+    "34abd7ad-23eb-4078-a140-43c367297c26"
+  ]
+}

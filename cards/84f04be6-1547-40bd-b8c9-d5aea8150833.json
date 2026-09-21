@@ -1,0 +1,53 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "84f04be6-1547-40bd-b8c9-d5aea8150833",
+  "text": {
+    "en": {
+      "name": "Magician of Black Chaos (Rush Duel)",
+      "effect": "None",
+      "official": false
+    },
+    "ko": {
+      "name": "\ub9e4\uc9c0\uc158 \uc624\ube0c \ube14\ub799 \uce74\uc624\uc2a4",
+      "effect": "\uc5c6\uc74c"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "monsterCardTypes": [
+    "ritual"
+  ],
+  "type": "spellcaster",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 2800,
+  "def": 2600,
+  "passwords": [],
+  "images": [
+    {
+      "id": "0952ff43-8717-4241-a1a5-eb60ad314864",
+      "card": "https://ms.yugipedia.com//f/f6/MagicianofBlackChaos-RDSD0E-JP-UR.png"
+    }
+  ],
+  "sets": [
+    "baac8391-2c2d-4331-8582-71b7007e0af6",
+    "baac8391-2c2d-4331-8582-71b7007e0af6",
+    "baac8391-2c2d-4331-8582-71b7007e0af6",
+    "baac8391-2c2d-4331-8582-71b7007e0af6"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Magician of Black Chaos (Rush Duel)",
+        "id": 1105505
+      }
+    ],
+    "dbID": 21588
+  },
+  "series": [
+    "73409add-3e9e-400d-a8b0-ae600de6af69"
+  ]
+}

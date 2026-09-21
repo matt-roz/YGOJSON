@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "3ea91c37-76e0-416a-a45e-ee033304ee98",
+  "text": {
+    "en": {
+      "name": "Freed the Brave Wanderer (Rush Duel)",
+      "effect": "Destroy 1 face-up monster on the field with higher ATK than this card."
+    },
+    "ko": {
+      "name": "\ubc29\ub791\uc758 \uc6a9\uc0ac \ud504\ub9ac\ub4dc",
+      "effect": "\uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\ub825\ubcf4\ub2e4 \ub192\uc740 \uacf5\uaca9\ub825\uc744 \uac00\uc9c0\ub294, \uc790\uc2e0 \ub610\ub294 \uc0c1\ub300 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130 1\uc7a5\uc744 \uace0\ub974\uace0 \ud30c\uad34\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1700,
+  "def": 1200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "c62a0420-f389-474b-a984-c4e208668e62",
+      "card": "https://ms.yugipedia.com//1/1c/FreedtheBraveWanderer-RDSD0B-JP-NPR.png"
+    }
+  ],
+  "sets": [
+    "fab3640e-34f2-410e-8c1b-6c7386795132",
+    "fab3640e-34f2-410e-8c1b-6c7386795132"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Freed the Brave Wanderer (Rush Duel)",
+        "id": 1064388
+      }
+    ],
+    "dbID": 20464
+  },
+  "series": []
+}

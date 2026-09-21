@@ -1,0 +1,42 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "5e71a875-bd6a-47b1-9cf8-e2e5fb491131",
+  "text": {
+    "en": {
+      "name": "Crawling Dragon #2",
+      "effect": "A powerful dragon with teeth that can grind almost anything to dust."
+    },
+    "ko": {
+      "name": "\uc2dc\uccb4\ub97c \uba39\ub294 \uc6a9",
+      "effect": "\ubb34\uc5c7\uc774\ub77c\ub3c4 \uae68\ubb3c\uc5b4 \ubd80\uc220 \uc218 \uc788\ub294 \uc785\uc744 \uac00\uc9c4 \uacf5\ub8e1. \uacf5\uaca9\uc740 \uac15\ud558\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "dinosaur",
+  "classifications": [
+    "normal"
+  ],
+  "level": 4,
+  "atk": 1600,
+  "def": 1200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "484b5788-4091-4f6a-a728-f877c8b29efd",
+      "card": "https://ms.yugipedia.com//e/ec/CrawlingDragon2-RDTB02-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Crawling Dragon 2 (Rush Duel)",
+        "id": 1101422
+      }
+    ],
+    "dbID": 21095
+  },
+  "series": []
+}

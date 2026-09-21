@@ -1,0 +1,781 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "49f15c8b-00f0-409c-850e-485fbbf04d43",
+  "name": {
+    "en": "Millennium Pack",
+    "ja": "\uff2d\uff29\uff2c\uff2c\uff25\uff2e\uff2e\uff29\uff35\uff2d \uff30\uff21\uff23\uff2b",
+    "ko": "\uff2d\uff29\uff2c\uff2c\uff25\uff2e\uff2e\uff29\uff35\uff2d \uff30\uff21\uff23\uff2b"
+  },
+  "locales": {
+    "jp": {
+      "language": "ja",
+      "prefix": "MP01-JP",
+      "date": "2015-12-19",
+      "image": "https://ms.yugipedia.com//5/5c/MP01-BoosterJP.png",
+      "cardImages": {
+        "unlimited": {
+          "190b0e7b-72da-4a7b-9d38-a295de64d1fc": "https://ms.yugipedia.com//d/da/TheTrueName-MP01-JP-MLUR.png",
+          "248862fd-b141-4bf8-9164-1d68fa66d0c3": "https://ms.yugipedia.com//6/6e/DarkMasterZorc-MP01-JP-MLSR.png",
+          "25894b8b-4753-49a9-969d-2a87592b8985": "https://ms.yugipedia.com//0/0a/Scapegoat-MP01-JP-MLSR.png",
+          "2a727eaa-3e44-47a1-9d8c-513c344462f2": "https://ms.yugipedia.com//3/32/SkyGallopingGaiatheDragonChampion-MP01-JP-MLScR.png",
+          "2c45e2ce-ddf1-4811-a70a-7255ef2bccc8": "https://ms.yugipedia.com//1/13/DarkRenewal-MP01-JP-MLSR.png",
+          "38c80b20-95c3-412e-a2e7-33e3d6971816": "https://ms.yugipedia.com//2/2d/BlackIllusion-MP01-JP-MLSR.png",
+          "3bbc3586-a315-4e1c-b13d-f41f423da072": "https://ms.yugipedia.com//b/bc/BlackSkullDragon-MP01-JP-MLSR.png",
+          "598e0970-a4d4-4007-82fa-d33163894c09": "https://ms.yugipedia.com//3/36/ChaosEmperorDragonEnvoyoftheEnd-MP01-JP-MLSR.png",
+          "5b77c018-77a2-49f7-a5c1-a7b5bb30b2fe": "https://ms.yugipedia.com//8/88/LeftArmOffering-MP01-JP-MLUR.png",
+          "642e24fb-ccdb-4c08-817e-8fa2654737fc": "https://ms.yugipedia.com//5/5c/Rebellion-MP01-JP-MLUR.png",
+          "720c6c7a-7561-431d-beae-aac1459775cb": "https://ms.yugipedia.com//b/bb/HoldingLegs-MP01-JP-MLUR.png",
+          "72c15958-12c7-4ca8-bce0-ba15ba115469": "https://ms.yugipedia.com//3/34/SymbolofFriendship-MP01-JP-MLSR.png",
+          "77ef63ed-2d7d-4342-8bed-993d79f18489": "https://ms.yugipedia.com//6/62/FiveHeadedDragon-MP01-JP-MLSR.png",
+          "7cbdbf58-3fbb-41e1-abbe-3b95ed29961b": "https://ms.yugipedia.com//b/b0/HarpiesFeatherDuster-MP01-JP-MLSR.png",
+          "85348a67-6fa1-46ba-bf59-3b9ee5a1633f": "https://ms.yugipedia.com//9/99/TheWingedDragonofRaImmortalPhoenix-MP01-JP-MLScR.png",
+          "8fc3dc79-b3b6-4eff-a2f3-41a30497366c": "https://ms.yugipedia.com//8/8b/CurseofDragonfire-MP01-JP-MLUR.png",
+          "906de40b-dbf9-41d2-a73d-d0b60d16c73a": "https://ms.yugipedia.com//6/65/TrapHoleofSpikes-MP01-JP-MLUR.png",
+          "914b32cd-8b86-4615-9db4-05494dd92616": "https://ms.yugipedia.com//7/76/NightmareWheel-MP01-JP-MLSR.png",
+          "97205c36-0d6a-4a36-95e6-229e23ceaa83": "https://ms.yugipedia.com//e/e7/BlackIllusionRitual-MP01-JP-MLSR.png",
+          "afc26572-2a29-42da-901b-a68b536f6e46": "https://ms.yugipedia.com//8/8d/ElectromagneticTurtle-MP01-JP-MLSR.png",
+          "b012f79a-e411-4a6a-89a5-0aecd5edd26c": "https://ms.yugipedia.com//a/ab/Relinquished-MP01-JP-MLSR.png",
+          "bca117ff-b224-4327-b976-b07e8bd7dc89": "https://ms.yugipedia.com//1/12/HoldingArms-MP01-JP-MLUR.png",
+          "c107bb3c-a2a9-4ba4-8fb2-69153b8a227b": "https://ms.yugipedia.com//2/2f/Shrink-MP01-JP-MLSR.png",
+          "ca0a1851-44ad-4b5d-ab28-c7bc30afbcba": "https://ms.yugipedia.com//2/2c/ContractwiththeDarkMaster-MP01-JP-MLSR.png",
+          "cffb9ed5-0dbb-4c02-a110-9812507abf07": "https://ms.yugipedia.com//e/ea/GilfordtheLightning-MP01-JP-MLSR.png",
+          "e72a009d-4617-41f3-bd8c-51cb3ba87f7d": "https://ms.yugipedia.com//b/be/ExodiustheUltimateForbiddenLord-MP01-JP-MLSR.png",
+          "e8befe16-b3ff-48eb-9e20-d67158587430": "https://ms.yugipedia.com//2/22/RingofDestruction-MP01-JP-MLSR.png",
+          "f31d93ad-23be-46f2-8b60-03ef5a5992c4": "https://ms.yugipedia.com//f/f0/CardofDemise-MP01-JP-MLUR.png",
+          "f33d3034-b7ce-4680-a519-673538e5e126": "https://ms.yugipedia.com//c/cb/GandoratheDragonofDestruction-MP01-JP-MLSR.png",
+          "fe08776b-575e-45a5-bfa6-a625942a1f67": "https://ms.yugipedia.com//c/c0/BlackLusterSoldierEnvoyoftheBeginning-MP01-JP-MLSR.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "190b0e7b-72da-4a7b-9d38-a295de64d1fc": {
+            "image": "https://ms.yugipedia.com//d/da/TheTrueName-MP01-JP-MLUR.png"
+          },
+          "248862fd-b141-4bf8-9164-1d68fa66d0c3": {
+            "image": "https://ms.yugipedia.com//6/6e/DarkMasterZorc-MP01-JP-MLSR.png"
+          },
+          "25894b8b-4753-49a9-969d-2a87592b8985": {
+            "image": "https://ms.yugipedia.com//0/0a/Scapegoat-MP01-JP-MLSR.png"
+          },
+          "2a727eaa-3e44-47a1-9d8c-513c344462f2": {
+            "image": "https://ms.yugipedia.com//3/32/SkyGallopingGaiatheDragonChampion-MP01-JP-MLScR.png"
+          },
+          "2c45e2ce-ddf1-4811-a70a-7255ef2bccc8": {
+            "image": "https://ms.yugipedia.com//1/13/DarkRenewal-MP01-JP-MLSR.png"
+          },
+          "38c80b20-95c3-412e-a2e7-33e3d6971816": {
+            "image": "https://ms.yugipedia.com//2/2d/BlackIllusion-MP01-JP-MLSR.png"
+          },
+          "3bbc3586-a315-4e1c-b13d-f41f423da072": {
+            "image": "https://ms.yugipedia.com//b/bc/BlackSkullDragon-MP01-JP-MLSR.png"
+          },
+          "598e0970-a4d4-4007-82fa-d33163894c09": {
+            "image": "https://ms.yugipedia.com//3/36/ChaosEmperorDragonEnvoyoftheEnd-MP01-JP-MLSR.png"
+          },
+          "5b77c018-77a2-49f7-a5c1-a7b5bb30b2fe": {
+            "image": "https://ms.yugipedia.com//8/88/LeftArmOffering-MP01-JP-MLUR.png"
+          },
+          "642e24fb-ccdb-4c08-817e-8fa2654737fc": {
+            "image": "https://ms.yugipedia.com//5/5c/Rebellion-MP01-JP-MLUR.png"
+          },
+          "720c6c7a-7561-431d-beae-aac1459775cb": {
+            "image": "https://ms.yugipedia.com//b/bb/HoldingLegs-MP01-JP-MLUR.png"
+          },
+          "72c15958-12c7-4ca8-bce0-ba15ba115469": {
+            "image": "https://ms.yugipedia.com//3/34/SymbolofFriendship-MP01-JP-MLSR.png"
+          },
+          "77ef63ed-2d7d-4342-8bed-993d79f18489": {
+            "image": "https://ms.yugipedia.com//6/62/FiveHeadedDragon-MP01-JP-MLSR.png"
+          },
+          "7cbdbf58-3fbb-41e1-abbe-3b95ed29961b": {
+            "image": "https://ms.yugipedia.com//b/b0/HarpiesFeatherDuster-MP01-JP-MLSR.png"
+          },
+          "85348a67-6fa1-46ba-bf59-3b9ee5a1633f": {
+            "image": "https://ms.yugipedia.com//9/99/TheWingedDragonofRaImmortalPhoenix-MP01-JP-MLScR.png"
+          },
+          "8fc3dc79-b3b6-4eff-a2f3-41a30497366c": {
+            "image": "https://ms.yugipedia.com//8/8b/CurseofDragonfire-MP01-JP-MLUR.png"
+          },
+          "906de40b-dbf9-41d2-a73d-d0b60d16c73a": {
+            "image": "https://ms.yugipedia.com//6/65/TrapHoleofSpikes-MP01-JP-MLUR.png"
+          },
+          "914b32cd-8b86-4615-9db4-05494dd92616": {
+            "image": "https://ms.yugipedia.com//7/76/NightmareWheel-MP01-JP-MLSR.png"
+          },
+          "97205c36-0d6a-4a36-95e6-229e23ceaa83": {
+            "image": "https://ms.yugipedia.com//e/e7/BlackIllusionRitual-MP01-JP-MLSR.png"
+          },
+          "afc26572-2a29-42da-901b-a68b536f6e46": {
+            "image": "https://ms.yugipedia.com//8/8d/ElectromagneticTurtle-MP01-JP-MLSR.png"
+          },
+          "b012f79a-e411-4a6a-89a5-0aecd5edd26c": {
+            "image": "https://ms.yugipedia.com//a/ab/Relinquished-MP01-JP-MLSR.png"
+          },
+          "bca117ff-b224-4327-b976-b07e8bd7dc89": {
+            "image": "https://ms.yugipedia.com//1/12/HoldingArms-MP01-JP-MLUR.png"
+          },
+          "c107bb3c-a2a9-4ba4-8fb2-69153b8a227b": {
+            "image": "https://ms.yugipedia.com//2/2f/Shrink-MP01-JP-MLSR.png"
+          },
+          "ca0a1851-44ad-4b5d-ab28-c7bc30afbcba": {
+            "image": "https://ms.yugipedia.com//2/2c/ContractwiththeDarkMaster-MP01-JP-MLSR.png"
+          },
+          "cffb9ed5-0dbb-4c02-a110-9812507abf07": {
+            "image": "https://ms.yugipedia.com//e/ea/GilfordtheLightning-MP01-JP-MLSR.png"
+          },
+          "e72a009d-4617-41f3-bd8c-51cb3ba87f7d": {
+            "image": "https://ms.yugipedia.com//b/be/ExodiustheUltimateForbiddenLord-MP01-JP-MLSR.png"
+          },
+          "e8befe16-b3ff-48eb-9e20-d67158587430": {
+            "image": "https://ms.yugipedia.com//2/22/RingofDestruction-MP01-JP-MLSR.png"
+          },
+          "f31d93ad-23be-46f2-8b60-03ef5a5992c4": {
+            "image": "https://ms.yugipedia.com//f/f0/CardofDemise-MP01-JP-MLUR.png"
+          },
+          "f33d3034-b7ce-4680-a519-673538e5e126": {
+            "image": "https://ms.yugipedia.com//c/cb/GandoratheDragonofDestruction-MP01-JP-MLSR.png"
+          },
+          "fe08776b-575e-45a5-bfa6-a625942a1f67": {
+            "image": "https://ms.yugipedia.com//c/c0/BlackLusterSoldierEnvoyoftheBeginning-MP01-JP-MLSR.png"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          3304002
+        ]
+      }
+    },
+    "kr": {
+      "language": "ko",
+      "prefix": "MP01-KR",
+      "date": "2016-09-06",
+      "image": "https://ms.yugipedia.com//c/ca/MP01-BoosterKR.png",
+      "cardImages": {
+        "1st": {
+          "190b0e7b-72da-4a7b-9d38-a295de64d1fc": "https://ms.yugipedia.com//6/60/TheTrueName-MP01-KR-MLUR-1E.png",
+          "248862fd-b141-4bf8-9164-1d68fa66d0c3": "https://ms.yugipedia.com//e/ea/DarkMasterZorc-MP01-KR-MLSR-1E.png",
+          "25894b8b-4753-49a9-969d-2a87592b8985": "https://ms.yugipedia.com//9/94/Scapegoat-MP01-KR-MLSR-1E.png",
+          "2a727eaa-3e44-47a1-9d8c-513c344462f2": "https://ms.yugipedia.com//4/4d/SkyGallopingGaiatheDragonChampion-MP01-KR-MLScR-1E.png",
+          "2c45e2ce-ddf1-4811-a70a-7255ef2bccc8": "https://ms.yugipedia.com//4/43/DarkRenewal-MP01-KR-MLSR-1E.png",
+          "38c80b20-95c3-412e-a2e7-33e3d6971816": "https://ms.yugipedia.com//3/38/BlackIllusion-MP01-KR-MLSR-1E.png",
+          "3bbc3586-a315-4e1c-b13d-f41f423da072": "https://ms.yugipedia.com//e/e3/BlackSkullDragon-MP01-KR-MLSR-1E.png",
+          "598e0970-a4d4-4007-82fa-d33163894c09": "https://ms.yugipedia.com//7/78/ChaosEmperorDragonEnvoyoftheEnd-MP01-KR-MLSR-1E.png",
+          "5b77c018-77a2-49f7-a5c1-a7b5bb30b2fe": "https://ms.yugipedia.com//9/91/LeftArmOffering-MP01-KR-MLUR-1E.png",
+          "642e24fb-ccdb-4c08-817e-8fa2654737fc": "https://ms.yugipedia.com//3/3c/Rebellion-MP01-KR-MLUR-1E.png",
+          "720c6c7a-7561-431d-beae-aac1459775cb": "https://ms.yugipedia.com//1/10/HoldingLegs-MP01-KR-MLUR-1E.png",
+          "72c15958-12c7-4ca8-bce0-ba15ba115469": "https://ms.yugipedia.com//3/35/SymbolofFriendship-MP01-KR-MLSR-1E.png",
+          "77ef63ed-2d7d-4342-8bed-993d79f18489": "https://ms.yugipedia.com//1/16/FiveHeadedDragon-MP01-KR-MLSR-1E.png",
+          "7cbdbf58-3fbb-41e1-abbe-3b95ed29961b": "https://ms.yugipedia.com//2/27/HarpiesFeatherDuster-MP01-KR-MLSR-1E.png",
+          "85348a67-6fa1-46ba-bf59-3b9ee5a1633f": "https://ms.yugipedia.com//f/fe/TheWingedDragonofRaImmortalPhoenix-MP01-KR-MLScR-1E.png",
+          "8fc3dc79-b3b6-4eff-a2f3-41a30497366c": "https://ms.yugipedia.com//c/c1/CurseofDragonfire-MP01-KR-MLUR-1E.png",
+          "906de40b-dbf9-41d2-a73d-d0b60d16c73a": "https://ms.yugipedia.com//6/6d/TrapHoleofSpikes-MP01-KR-MLUR-1E.png",
+          "914b32cd-8b86-4615-9db4-05494dd92616": "https://ms.yugipedia.com//6/62/NightmareWheel-MP01-KR-MLSR-1E.png",
+          "97205c36-0d6a-4a36-95e6-229e23ceaa83": "https://ms.yugipedia.com//6/62/BlackIllusionRitual-MP01-KR-MLSR-1E.png",
+          "afc26572-2a29-42da-901b-a68b536f6e46": "https://ms.yugipedia.com//4/40/ElectromagneticTurtle-MP01-KR-MLSR-1E.png",
+          "b012f79a-e411-4a6a-89a5-0aecd5edd26c": "https://ms.yugipedia.com//d/d4/Relinquished-MP01-KR-MLSR-1E.png",
+          "bca117ff-b224-4327-b976-b07e8bd7dc89": "https://ms.yugipedia.com//5/5c/HoldingArms-MP01-KR-MLUR-1E.png",
+          "c107bb3c-a2a9-4ba4-8fb2-69153b8a227b": "https://ms.yugipedia.com//8/8b/Shrink-MP01-KR-MLSR-1E.png",
+          "ca0a1851-44ad-4b5d-ab28-c7bc30afbcba": "https://ms.yugipedia.com//9/9a/ContractwiththeDarkMaster-MP01-KR-MLSR-1E.png",
+          "cffb9ed5-0dbb-4c02-a110-9812507abf07": "https://ms.yugipedia.com//3/37/GilfordtheLightning-MP01-KR-MLSR-1E.png",
+          "e72a009d-4617-41f3-bd8c-51cb3ba87f7d": "https://ms.yugipedia.com//6/68/ExodiustheUltimateForbiddenLord-MP01-KR-MLSR-1E.png",
+          "e8befe16-b3ff-48eb-9e20-d67158587430": "https://ms.yugipedia.com//d/d3/RingofDestruction-MP01-KR-MLSR-1E.png",
+          "f31d93ad-23be-46f2-8b60-03ef5a5992c4": "https://ms.yugipedia.com//d/d3/CardofDemise-MP01-KR-MLUR-1E.png",
+          "f33d3034-b7ce-4680-a519-673538e5e126": "https://ms.yugipedia.com//b/b0/GandoratheDragonofDestruction-MP01-KR-MLSR-1E.png",
+          "fe08776b-575e-45a5-bfa6-a625942a1f67": "https://ms.yugipedia.com//4/45/BlackLusterSoldierEnvoyoftheBeginning-MP01-KR-MLSR-1E.png"
+        }
+      },
+      "cardInfo": {
+        "1st": {
+          "190b0e7b-72da-4a7b-9d38-a295de64d1fc": {
+            "image": "https://ms.yugipedia.com//6/60/TheTrueName-MP01-KR-MLUR-1E.png"
+          },
+          "248862fd-b141-4bf8-9164-1d68fa66d0c3": {
+            "image": "https://ms.yugipedia.com//e/ea/DarkMasterZorc-MP01-KR-MLSR-1E.png"
+          },
+          "25894b8b-4753-49a9-969d-2a87592b8985": {
+            "image": "https://ms.yugipedia.com//9/94/Scapegoat-MP01-KR-MLSR-1E.png"
+          },
+          "2a727eaa-3e44-47a1-9d8c-513c344462f2": {
+            "image": "https://ms.yugipedia.com//4/4d/SkyGallopingGaiatheDragonChampion-MP01-KR-MLScR-1E.png"
+          },
+          "2c45e2ce-ddf1-4811-a70a-7255ef2bccc8": {
+            "image": "https://ms.yugipedia.com//4/43/DarkRenewal-MP01-KR-MLSR-1E.png"
+          },
+          "38c80b20-95c3-412e-a2e7-33e3d6971816": {
+            "image": "https://ms.yugipedia.com//3/38/BlackIllusion-MP01-KR-MLSR-1E.png"
+          },
+          "3bbc3586-a315-4e1c-b13d-f41f423da072": {
+            "image": "https://ms.yugipedia.com//e/e3/BlackSkullDragon-MP01-KR-MLSR-1E.png"
+          },
+          "598e0970-a4d4-4007-82fa-d33163894c09": {
+            "image": "https://ms.yugipedia.com//7/78/ChaosEmperorDragonEnvoyoftheEnd-MP01-KR-MLSR-1E.png"
+          },
+          "5b77c018-77a2-49f7-a5c1-a7b5bb30b2fe": {
+            "image": "https://ms.yugipedia.com//9/91/LeftArmOffering-MP01-KR-MLUR-1E.png"
+          },
+          "642e24fb-ccdb-4c08-817e-8fa2654737fc": {
+            "image": "https://ms.yugipedia.com//3/3c/Rebellion-MP01-KR-MLUR-1E.png"
+          },
+          "720c6c7a-7561-431d-beae-aac1459775cb": {
+            "image": "https://ms.yugipedia.com//1/10/HoldingLegs-MP01-KR-MLUR-1E.png"
+          },
+          "72c15958-12c7-4ca8-bce0-ba15ba115469": {
+            "image": "https://ms.yugipedia.com//3/35/SymbolofFriendship-MP01-KR-MLSR-1E.png"
+          },
+          "77ef63ed-2d7d-4342-8bed-993d79f18489": {
+            "image": "https://ms.yugipedia.com//1/16/FiveHeadedDragon-MP01-KR-MLSR-1E.png"
+          },
+          "7cbdbf58-3fbb-41e1-abbe-3b95ed29961b": {
+            "image": "https://ms.yugipedia.com//2/27/HarpiesFeatherDuster-MP01-KR-MLSR-1E.png"
+          },
+          "85348a67-6fa1-46ba-bf59-3b9ee5a1633f": {
+            "image": "https://ms.yugipedia.com//f/fe/TheWingedDragonofRaImmortalPhoenix-MP01-KR-MLScR-1E.png"
+          },
+          "8fc3dc79-b3b6-4eff-a2f3-41a30497366c": {
+            "image": "https://ms.yugipedia.com//c/c1/CurseofDragonfire-MP01-KR-MLUR-1E.png"
+          },
+          "906de40b-dbf9-41d2-a73d-d0b60d16c73a": {
+            "image": "https://ms.yugipedia.com//6/6d/TrapHoleofSpikes-MP01-KR-MLUR-1E.png"
+          },
+          "914b32cd-8b86-4615-9db4-05494dd92616": {
+            "image": "https://ms.yugipedia.com//6/62/NightmareWheel-MP01-KR-MLSR-1E.png"
+          },
+          "97205c36-0d6a-4a36-95e6-229e23ceaa83": {
+            "image": "https://ms.yugipedia.com//6/62/BlackIllusionRitual-MP01-KR-MLSR-1E.png"
+          },
+          "afc26572-2a29-42da-901b-a68b536f6e46": {
+            "image": "https://ms.yugipedia.com//4/40/ElectromagneticTurtle-MP01-KR-MLSR-1E.png"
+          },
+          "b012f79a-e411-4a6a-89a5-0aecd5edd26c": {
+            "image": "https://ms.yugipedia.com//d/d4/Relinquished-MP01-KR-MLSR-1E.png"
+          },
+          "bca117ff-b224-4327-b976-b07e8bd7dc89": {
+            "image": "https://ms.yugipedia.com//5/5c/HoldingArms-MP01-KR-MLUR-1E.png"
+          },
+          "c107bb3c-a2a9-4ba4-8fb2-69153b8a227b": {
+            "image": "https://ms.yugipedia.com//8/8b/Shrink-MP01-KR-MLSR-1E.png"
+          },
+          "ca0a1851-44ad-4b5d-ab28-c7bc30afbcba": {
+            "image": "https://ms.yugipedia.com//9/9a/ContractwiththeDarkMaster-MP01-KR-MLSR-1E.png"
+          },
+          "cffb9ed5-0dbb-4c02-a110-9812507abf07": {
+            "image": "https://ms.yugipedia.com//3/37/GilfordtheLightning-MP01-KR-MLSR-1E.png"
+          },
+          "e72a009d-4617-41f3-bd8c-51cb3ba87f7d": {
+            "image": "https://ms.yugipedia.com//6/68/ExodiustheUltimateForbiddenLord-MP01-KR-MLSR-1E.png"
+          },
+          "e8befe16-b3ff-48eb-9e20-d67158587430": {
+            "image": "https://ms.yugipedia.com//d/d3/RingofDestruction-MP01-KR-MLSR-1E.png"
+          },
+          "f31d93ad-23be-46f2-8b60-03ef5a5992c4": {
+            "image": "https://ms.yugipedia.com//d/d3/CardofDemise-MP01-KR-MLUR-1E.png"
+          },
+          "f33d3034-b7ce-4680-a519-673538e5e126": {
+            "image": "https://ms.yugipedia.com//b/b0/GandoratheDragonofDestruction-MP01-KR-MLSR-1E.png"
+          },
+          "fe08776b-575e-45a5-bfa6-a625942a1f67": {
+            "image": "https://ms.yugipedia.com//4/45/BlackLusterSoldierEnvoyoftheBeginning-MP01-KR-MLSR-1E.png"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "1st"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          78811005
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//5/5c/MP01-BoosterJP.png",
+      "cards": [
+        {
+          "id": "85348a67-6fa1-46ba-bf59-3b9ee5a1633f",
+          "card": "666b05bf-a868-431c-ae74-8ee0fac9a8e5",
+          "suffix": "001",
+          "rarity": "milleniumsecret",
+          "imageID": "e2fc0734-00f9-4966-ab2d-e6fd943f5e82",
+          "printStatus": "new"
+        },
+        {
+          "id": "8fc3dc79-b3b6-4eff-a2f3-41a30497366c",
+          "card": "2f09cac0-aaac-4651-842f-b0092474eb7c",
+          "suffix": "002",
+          "rarity": "milleniumultra",
+          "imageID": "8d2d0b79-e9ce-4679-a28d-795babb4511f",
+          "printStatus": "new"
+        },
+        {
+          "id": "bca117ff-b224-4327-b976-b07e8bd7dc89",
+          "card": "9e7e4807-46e1-405c-b3e7-5fd8ec4ab626",
+          "suffix": "003",
+          "rarity": "milleniumultra",
+          "imageID": "b19e6231-7e59-4c88-bf5a-829625bb65d0",
+          "printStatus": "new"
+        },
+        {
+          "id": "720c6c7a-7561-431d-beae-aac1459775cb",
+          "card": "2171eac9-9c2f-4626-ac10-ecb6a12640d9",
+          "suffix": "004",
+          "rarity": "milleniumultra",
+          "imageID": "323abd37-16b2-4724-b6a8-7a8f7cac174f",
+          "printStatus": "new"
+        },
+        {
+          "id": "598e0970-a4d4-4007-82fa-d33163894c09",
+          "card": "affcdd8b-aad2-4b7e-9b35-646c56ffea1c",
+          "suffix": "005",
+          "rarity": "milleniumsuper",
+          "imageID": "87651e1b-6efd-4e11-bc12-f1560ff0dc27",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "fe08776b-575e-45a5-bfa6-a625942a1f67",
+          "card": "0626cd7e-9544-4a18-8625-85b0ac76bb54",
+          "suffix": "006",
+          "rarity": "milleniumsuper",
+          "imageID": "de3328cf-a5fb-417a-8648-c518c10f8327",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "afc26572-2a29-42da-901b-a68b536f6e46",
+          "card": "8a05c541-de5d-4ff6-a824-ec585d5e7c85",
+          "suffix": "007",
+          "rarity": "milleniumsuper",
+          "imageID": "dbc818c9-da96-414e-80ab-c18956b0de52",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "f33d3034-b7ce-4680-a519-673538e5e126",
+          "card": "9ee4c04f-ea03-42cb-8317-92fd3f97d168",
+          "suffix": "008",
+          "rarity": "milleniumsuper",
+          "imageID": "2bb069b7-60e1-4608-831a-de3b083b31c9",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "cffb9ed5-0dbb-4c02-a110-9812507abf07",
+          "card": "dd15c86d-c1c9-4493-90d9-251307a2004f",
+          "suffix": "009",
+          "rarity": "milleniumsuper",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "e72a009d-4617-41f3-bd8c-51cb3ba87f7d",
+          "card": "70b4f9e8-eda6-4b2a-af0a-f809e58be2a8",
+          "suffix": "010",
+          "rarity": "milleniumsuper",
+          "imageID": "3964b66e-932e-4593-bd26-9a54e834cf35",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "b012f79a-e411-4a6a-89a5-0aecd5edd26c",
+          "card": "bad094c6-414f-49e1-a5e6-96582c088b8f",
+          "suffix": "011",
+          "rarity": "milleniumsuper",
+          "imageID": "c09e1c08-7e90-421c-8671-9fbae8d1bf21",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "248862fd-b141-4bf8-9164-1d68fa66d0c3",
+          "card": "6bc180a2-7436-4b40-a3a3-71ab23fdda34",
+          "suffix": "012",
+          "rarity": "milleniumsuper",
+          "imageID": "d76d5108-12f0-426d-9e31-857bcf5dd4e4",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "2a727eaa-3e44-47a1-9d8c-513c344462f2",
+          "card": "562c3d85-4773-4fcb-8ed2-97a5834b779f",
+          "suffix": "013",
+          "rarity": "milleniumsecret",
+          "imageID": "e756c83a-aaf9-4023-89d2-b760cc3575a7",
+          "printStatus": "new"
+        },
+        {
+          "id": "3bbc3586-a315-4e1c-b13d-f41f423da072",
+          "card": "f9125560-0cd2-46fc-af31-f39f09f4bd93",
+          "suffix": "014",
+          "rarity": "milleniumsuper",
+          "imageID": "8df10f49-b66c-4810-bc2f-e79b856772ce",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "77ef63ed-2d7d-4342-8bed-993d79f18489",
+          "card": "01a92517-0769-4b69-9889-0087279f02c2",
+          "suffix": "015",
+          "rarity": "milleniumsuper",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "642e24fb-ccdb-4c08-817e-8fa2654737fc",
+          "card": "b0ab8c9e-d311-4378-97e9-cc0a9aa51497",
+          "suffix": "016",
+          "rarity": "milleniumultra",
+          "imageID": "9c84b3ed-36c4-43ea-969f-080e7c295e1b",
+          "printStatus": "new"
+        },
+        {
+          "id": "f31d93ad-23be-46f2-8b60-03ef5a5992c4",
+          "card": "29672937-941b-42f7-9e15-1f3c3d22a037",
+          "suffix": "017",
+          "rarity": "milleniumultra",
+          "imageID": "840a21be-7b57-4090-994f-f34dc162e2f7",
+          "printStatus": "new"
+        },
+        {
+          "id": "5b77c018-77a2-49f7-a5c1-a7b5bb30b2fe",
+          "card": "4872fccd-df8e-405d-a488-bdafb50dc64a",
+          "suffix": "018",
+          "rarity": "milleniumultra",
+          "imageID": "70b33589-6c63-4ca0-9cf4-3785bbc5f01f",
+          "printStatus": "new"
+        },
+        {
+          "id": "190b0e7b-72da-4a7b-9d38-a295de64d1fc",
+          "card": "87436098-c794-4120-9473-533ccd834a78",
+          "suffix": "019",
+          "rarity": "milleniumultra",
+          "imageID": "0b722121-260e-4219-b15d-6c9d4fcd1837",
+          "printStatus": "new"
+        },
+        {
+          "id": "72c15958-12c7-4ca8-bce0-ba15ba115469",
+          "card": "d8d95b47-c567-4326-a7ab-6f2c26bfb0ea",
+          "suffix": "020",
+          "rarity": "milleniumsuper",
+          "imageID": "d5a3e482-6ea9-4e65-9ae7-87ddaba3d9b1",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "c107bb3c-a2a9-4ba4-8fb2-69153b8a227b",
+          "card": "d2e31861-9fbc-455a-9c77-f8eef2058c7b",
+          "suffix": "021",
+          "rarity": "milleniumsuper",
+          "imageID": "04407b0c-33b4-482e-a1c6-d1a62663de4f",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "25894b8b-4753-49a9-969d-2a87592b8985",
+          "card": "2936d7e9-7c26-4dd4-a2e1-03f2746d6439",
+          "suffix": "022",
+          "rarity": "milleniumsuper",
+          "imageID": "d7e04487-79d6-44d4-91fb-5479a1271e28",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "7cbdbf58-3fbb-41e1-abbe-3b95ed29961b",
+          "card": "4567872b-5f20-4aa2-8167-b7ca0c691552",
+          "suffix": "023",
+          "rarity": "milleniumsuper",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "97205c36-0d6a-4a36-95e6-229e23ceaa83",
+          "card": "9079fe0a-3c0a-4f6b-bfcc-d65746a8ecc2",
+          "suffix": "024",
+          "rarity": "milleniumsuper",
+          "imageID": "8792f246-746d-4a9a-9023-d1ff73820f23",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "ca0a1851-44ad-4b5d-ab28-c7bc30afbcba",
+          "card": "094bccd6-d6e7-427c-b0c9-f3691689377d",
+          "suffix": "025",
+          "rarity": "milleniumsuper",
+          "imageID": "1551d8bc-61be-4a82-bca2-bbaee780e30c",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "906de40b-dbf9-41d2-a73d-d0b60d16c73a",
+          "card": "50b369bc-f5d8-4a77-bf09-34b440cc922d",
+          "suffix": "026",
+          "rarity": "milleniumultra",
+          "imageID": "c72e214a-e86f-4a67-a64d-a4cb25e88b65",
+          "printStatus": "new"
+        },
+        {
+          "id": "2c45e2ce-ddf1-4811-a70a-7255ef2bccc8",
+          "card": "7e854e4a-fb16-4916-94dd-2185a1dc2226",
+          "suffix": "027",
+          "rarity": "milleniumsuper",
+          "imageID": "78e0935e-7b6c-427d-b2f2-d29c105bef68",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "38c80b20-95c3-412e-a2e7-33e3d6971816",
+          "card": "5eb5fda0-70ff-4367-becf-4d21c93b9fc2",
+          "suffix": "028",
+          "rarity": "milleniumsuper",
+          "imageID": "7df9ba30-58f3-4d42-83bb-ce00551b6dff",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "e8befe16-b3ff-48eb-9e20-d67158587430",
+          "card": "595af811-6d4c-4640-afde-4e93a1ffd768",
+          "suffix": "029",
+          "rarity": "milleniumsuper",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "914b32cd-8b86-4615-9db4-05494dd92616",
+          "card": "3f1d51cb-93a6-415b-ab67-1aee59e8fc31",
+          "suffix": "030",
+          "rarity": "milleniumsuper",
+          "imageID": "c8353c7b-8983-4f27-aa02-34964cd570d1",
+          "printStatus": "reprint"
+        }
+      ],
+      "externalIDs": {}
+    },
+    {
+      "locales": [
+        "kr"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "1st"
+      ],
+      "image": "https://ms.yugipedia.com//c/ca/MP01-BoosterKR.png",
+      "cards": [
+        {
+          "id": "85348a67-6fa1-46ba-bf59-3b9ee5a1633f",
+          "card": "666b05bf-a868-431c-ae74-8ee0fac9a8e5",
+          "suffix": "001",
+          "rarity": "milleniumsecret",
+          "imageID": "e2fc0734-00f9-4966-ab2d-e6fd943f5e82"
+        },
+        {
+          "id": "8fc3dc79-b3b6-4eff-a2f3-41a30497366c",
+          "card": "2f09cac0-aaac-4651-842f-b0092474eb7c",
+          "suffix": "002",
+          "rarity": "milleniumultra",
+          "imageID": "8d2d0b79-e9ce-4679-a28d-795babb4511f"
+        },
+        {
+          "id": "bca117ff-b224-4327-b976-b07e8bd7dc89",
+          "card": "9e7e4807-46e1-405c-b3e7-5fd8ec4ab626",
+          "suffix": "003",
+          "rarity": "milleniumultra",
+          "imageID": "b19e6231-7e59-4c88-bf5a-829625bb65d0"
+        },
+        {
+          "id": "720c6c7a-7561-431d-beae-aac1459775cb",
+          "card": "2171eac9-9c2f-4626-ac10-ecb6a12640d9",
+          "suffix": "004",
+          "rarity": "milleniumultra",
+          "imageID": "323abd37-16b2-4724-b6a8-7a8f7cac174f"
+        },
+        {
+          "id": "598e0970-a4d4-4007-82fa-d33163894c09",
+          "card": "affcdd8b-aad2-4b7e-9b35-646c56ffea1c",
+          "suffix": "005",
+          "rarity": "milleniumsuper",
+          "imageID": "87651e1b-6efd-4e11-bc12-f1560ff0dc27"
+        },
+        {
+          "id": "fe08776b-575e-45a5-bfa6-a625942a1f67",
+          "card": "0626cd7e-9544-4a18-8625-85b0ac76bb54",
+          "suffix": "006",
+          "rarity": "milleniumsuper",
+          "imageID": "de3328cf-a5fb-417a-8648-c518c10f8327"
+        },
+        {
+          "id": "afc26572-2a29-42da-901b-a68b536f6e46",
+          "card": "8a05c541-de5d-4ff6-a824-ec585d5e7c85",
+          "suffix": "007",
+          "rarity": "milleniumsuper",
+          "imageID": "dbc818c9-da96-414e-80ab-c18956b0de52"
+        },
+        {
+          "id": "f33d3034-b7ce-4680-a519-673538e5e126",
+          "card": "9ee4c04f-ea03-42cb-8317-92fd3f97d168",
+          "suffix": "008",
+          "rarity": "milleniumsuper",
+          "imageID": "2bb069b7-60e1-4608-831a-de3b083b31c9"
+        },
+        {
+          "id": "cffb9ed5-0dbb-4c02-a110-9812507abf07",
+          "card": "dd15c86d-c1c9-4493-90d9-251307a2004f",
+          "suffix": "009",
+          "rarity": "milleniumsuper"
+        },
+        {
+          "id": "e72a009d-4617-41f3-bd8c-51cb3ba87f7d",
+          "card": "70b4f9e8-eda6-4b2a-af0a-f809e58be2a8",
+          "suffix": "010",
+          "rarity": "milleniumsuper",
+          "imageID": "3964b66e-932e-4593-bd26-9a54e834cf35"
+        },
+        {
+          "id": "b012f79a-e411-4a6a-89a5-0aecd5edd26c",
+          "card": "bad094c6-414f-49e1-a5e6-96582c088b8f",
+          "suffix": "011",
+          "rarity": "milleniumsuper",
+          "imageID": "c09e1c08-7e90-421c-8671-9fbae8d1bf21"
+        },
+        {
+          "id": "248862fd-b141-4bf8-9164-1d68fa66d0c3",
+          "card": "6bc180a2-7436-4b40-a3a3-71ab23fdda34",
+          "suffix": "012",
+          "rarity": "milleniumsuper",
+          "imageID": "d76d5108-12f0-426d-9e31-857bcf5dd4e4"
+        },
+        {
+          "id": "2a727eaa-3e44-47a1-9d8c-513c344462f2",
+          "card": "562c3d85-4773-4fcb-8ed2-97a5834b779f",
+          "suffix": "013",
+          "rarity": "milleniumsecret",
+          "imageID": "e756c83a-aaf9-4023-89d2-b760cc3575a7"
+        },
+        {
+          "id": "3bbc3586-a315-4e1c-b13d-f41f423da072",
+          "card": "f9125560-0cd2-46fc-af31-f39f09f4bd93",
+          "suffix": "014",
+          "rarity": "milleniumsuper",
+          "imageID": "8df10f49-b66c-4810-bc2f-e79b856772ce"
+        },
+        {
+          "id": "77ef63ed-2d7d-4342-8bed-993d79f18489",
+          "card": "01a92517-0769-4b69-9889-0087279f02c2",
+          "suffix": "015",
+          "rarity": "milleniumsuper"
+        },
+        {
+          "id": "642e24fb-ccdb-4c08-817e-8fa2654737fc",
+          "card": "b0ab8c9e-d311-4378-97e9-cc0a9aa51497",
+          "suffix": "016",
+          "rarity": "milleniumultra",
+          "imageID": "9c84b3ed-36c4-43ea-969f-080e7c295e1b"
+        },
+        {
+          "id": "f31d93ad-23be-46f2-8b60-03ef5a5992c4",
+          "card": "29672937-941b-42f7-9e15-1f3c3d22a037",
+          "suffix": "017",
+          "rarity": "milleniumultra",
+          "imageID": "840a21be-7b57-4090-994f-f34dc162e2f7"
+        },
+        {
+          "id": "5b77c018-77a2-49f7-a5c1-a7b5bb30b2fe",
+          "card": "4872fccd-df8e-405d-a488-bdafb50dc64a",
+          "suffix": "018",
+          "rarity": "milleniumultra",
+          "imageID": "70b33589-6c63-4ca0-9cf4-3785bbc5f01f"
+        },
+        {
+          "id": "190b0e7b-72da-4a7b-9d38-a295de64d1fc",
+          "card": "87436098-c794-4120-9473-533ccd834a78",
+          "suffix": "019",
+          "rarity": "milleniumultra",
+          "imageID": "0b722121-260e-4219-b15d-6c9d4fcd1837"
+        },
+        {
+          "id": "72c15958-12c7-4ca8-bce0-ba15ba115469",
+          "card": "d8d95b47-c567-4326-a7ab-6f2c26bfb0ea",
+          "suffix": "020",
+          "rarity": "milleniumsuper",
+          "imageID": "d5a3e482-6ea9-4e65-9ae7-87ddaba3d9b1"
+        },
+        {
+          "id": "c107bb3c-a2a9-4ba4-8fb2-69153b8a227b",
+          "card": "d2e31861-9fbc-455a-9c77-f8eef2058c7b",
+          "suffix": "021",
+          "rarity": "milleniumsuper",
+          "imageID": "04407b0c-33b4-482e-a1c6-d1a62663de4f"
+        },
+        {
+          "id": "25894b8b-4753-49a9-969d-2a87592b8985",
+          "card": "2936d7e9-7c26-4dd4-a2e1-03f2746d6439",
+          "suffix": "022",
+          "rarity": "milleniumsuper",
+          "imageID": "d7e04487-79d6-44d4-91fb-5479a1271e28"
+        },
+        {
+          "id": "7cbdbf58-3fbb-41e1-abbe-3b95ed29961b",
+          "card": "4567872b-5f20-4aa2-8167-b7ca0c691552",
+          "suffix": "023",
+          "rarity": "milleniumsuper"
+        },
+        {
+          "id": "97205c36-0d6a-4a36-95e6-229e23ceaa83",
+          "card": "9079fe0a-3c0a-4f6b-bfcc-d65746a8ecc2",
+          "suffix": "024",
+          "rarity": "milleniumsuper",
+          "imageID": "8792f246-746d-4a9a-9023-d1ff73820f23"
+        },
+        {
+          "id": "ca0a1851-44ad-4b5d-ab28-c7bc30afbcba",
+          "card": "094bccd6-d6e7-427c-b0c9-f3691689377d",
+          "suffix": "025",
+          "rarity": "milleniumsuper",
+          "imageID": "1551d8bc-61be-4a82-bca2-bbaee780e30c"
+        },
+        {
+          "id": "906de40b-dbf9-41d2-a73d-d0b60d16c73a",
+          "card": "50b369bc-f5d8-4a77-bf09-34b440cc922d",
+          "suffix": "026",
+          "rarity": "milleniumultra",
+          "imageID": "c72e214a-e86f-4a67-a64d-a4cb25e88b65"
+        },
+        {
+          "id": "2c45e2ce-ddf1-4811-a70a-7255ef2bccc8",
+          "card": "7e854e4a-fb16-4916-94dd-2185a1dc2226",
+          "suffix": "027",
+          "rarity": "milleniumsuper",
+          "imageID": "78e0935e-7b6c-427d-b2f2-d29c105bef68"
+        },
+        {
+          "id": "38c80b20-95c3-412e-a2e7-33e3d6971816",
+          "card": "5eb5fda0-70ff-4367-becf-4d21c93b9fc2",
+          "suffix": "028",
+          "rarity": "milleniumsuper",
+          "imageID": "7df9ba30-58f3-4d42-83bb-ce00551b6dff"
+        },
+        {
+          "id": "e8befe16-b3ff-48eb-9e20-d67158587430",
+          "card": "595af811-6d4c-4640-afde-4e93a1ffd768",
+          "suffix": "029",
+          "rarity": "milleniumsuper"
+        },
+        {
+          "id": "914b32cd-8b86-4615-9db4-05494dd92616",
+          "card": "3f1d51cb-93a6-415b-ab67-1aee59e8fc31",
+          "suffix": "030",
+          "rarity": "milleniumsuper",
+          "imageID": "c8353c7b-8983-4f27-aa02-34964cd570d1"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Millennium Pack (OCG)",
+      "id": 389985
+    }
+  }
+}

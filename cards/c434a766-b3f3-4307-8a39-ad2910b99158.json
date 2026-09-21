@@ -1,0 +1,55 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "c434a766-b3f3-4307-8a39-ad2910b99158",
+  "text": {
+    "en": {
+      "name": "Elemental HERO Neos (Rush Duel)",
+      "effect": "A new Elemental HERO has arrived from Neo-Space! When he initiates a Contact Fusion with a Neo-Spacian his unknown powers are unleashed."
+    },
+    "ko": {
+      "name": "\uc5d8\ub9ac\uba58\ud2c0 \ud788\uc5b4\ub85c \ub124\uc624\uc2a4",
+      "effect": "\ub124\uc624\uc2a4\ud398\uc774\uc2a4\uc5d0\uc11c \uc628 \uc0c8\ub85c\uc6b4 \uc5d8\ub9ac\uba58\ud2c0 \ud788\uc5b4\ub85c. \ub124\uc624 \uc2a4\ud398\uc774\uc2dc\uc5b8\uacfc \ucf58\ud0dd\ud2b8 \uc735\ud569\ud558\uc5ec \ubbf8\uc9c0\uc758 \ud798\uc744 \ubc1c\ud718\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "warrior",
+  "classifications": [
+    "normal"
+  ],
+  "level": 7,
+  "atk": 2500,
+  "def": 2000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "1396bdca-2fc5-430e-9851-f1fe5e7f97a8",
+      "card": "https://ms.yugipedia.com//b/b5/ElementalHERONeos-RDSD0B-JP-C.png"
+    },
+    {
+      "id": "5fe461a5-b412-4742-b35e-cfddcf808456",
+      "card": "https://ms.yugipedia.com//5/51/ElementalHERONeos-RDKP26-JP-FORR.png"
+    }
+  ],
+  "sets": [
+    "fab3640e-34f2-410e-8c1b-6c7386795132",
+    "fab3640e-34f2-410e-8c1b-6c7386795132",
+    "fab3640e-34f2-410e-8c1b-6c7386795132",
+    "fab3640e-34f2-410e-8c1b-6c7386795132",
+    "4e22d87e-a534-448f-a0de-8304a5650040"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Elemental HERO Neos (Rush Duel)",
+        "id": 1059062
+      }
+    ],
+    "dbID": 20456
+  },
+  "series": [
+    "4e2112ec-34a4-4031-91ad-7dcc3818d4c7",
+    "34c5b22c-a2f7-4b8e-8938-a50b1e41c0d6"
+  ]
+}

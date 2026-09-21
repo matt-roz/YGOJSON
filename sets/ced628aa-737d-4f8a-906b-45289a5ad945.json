@@ -1,0 +1,2422 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "ced628aa-737d-4f8a-906b-45289a5ad945",
+  "name": {
+    "en": "Hidden Arsenal",
+    "fr": "Arsenal Myst\u00e9rieux",
+    "de": "Hidden Arsenal",
+    "it": "Arsenale Nascosto",
+    "es": "Arsenal Secreto",
+    "ko": "\uc228\uaca8\uc9c4 \uc138\ub825"
+  },
+  "locales": {
+    "en": {
+      "language": "en",
+      "prefix": "HA01-EN",
+      "image": "https://ms.yugipedia.com//f/fd/HA01-BoosterEN.png",
+      "cardImages": {
+        "limited": {
+          "076b2839-c081-439f-aa8a-941d325c33d0": "https://ms.yugipedia.com//1/14/AllyofJusticeRudra-HA01-EN-SR-LE.png",
+          "10f6fc05-8138-4603-a160-e3c5ca089ff9": "https://ms.yugipedia.com//b/bf/WrathofNeos-HA01-EN-ScR-LE.png",
+          "11488928-cf43-418e-98fc-c46c32a87b0b": "https://ms.yugipedia.com//e/ee/CryomanceroftheIceBarrier-HA01-EN-ScR-LE.png",
+          "16b27edb-894d-442c-96d6-6eaa33f54fd1": "https://ms.yugipedia.com//1/14/MistWurm-HA01-EN-ScR-LE.png",
+          "1a14fec0-3ecf-4c9b-95b3-a4e0e2a2eb5c": "https://ms.yugipedia.com//0/0a/MistValleySoldier-HA01-EN-ScR-LE.png",
+          "21178816-129d-458c-8902-36e45a3298a4": "https://ms.yugipedia.com//d/df/WormCartaros-HA01-EN-SR-LE.png",
+          "28ab8e3f-1078-496f-8ee8-fc6a1c3492e8": "https://ms.yugipedia.com//2/27/AllyofJusticeGaradholg-HA01-EN-SR-LE.png",
+          "3d4e6a16-83c4-488a-841d-e761fa28ddac": "https://ms.yugipedia.com//e/ef/EvolutionBurst-HA01-EN-ScR-LE.png",
+          "4f471d1c-875a-4934-acf7-daafd613aa1e": "https://ms.yugipedia.com//6/6c/XSaberUrbellum-HA01-EN-ScR-LE.jpg",
+          "681d3780-3f7a-4619-bb22-0b3437b8d25a": "https://ms.yugipedia.com//b/b4/XSaberUruz-HA01-EN-SR-LE.jpg",
+          "7fff4ec9-6334-4c70-bf11-8d95d1e970bc": "https://ms.yugipedia.com//8/82/MistValleyShaman-HA01-EN-ScR-LE.png",
+          "94527e55-895f-42af-98a7-2d4ff6f098a6": "https://ms.yugipedia.com//5/52/WormDimikles-HA01-EN-SR-LE.png",
+          "98eee53d-a2f0-41da-aa1d-92330df91294": "https://ms.yugipedia.com//5/51/WormBarses-HA01-EN-SR-LE.png",
+          "9b8a4cee-fde0-4540-9843-a782bfffaa5f": "https://ms.yugipedia.com//d/d5/WormErokin-HA01-EN-ScR-LE.png",
+          "9d34c88e-0d7c-4942-8444-b3b9d989dae5": "https://ms.yugipedia.com//f/f3/BlizzardWarrior-HA01-EN-SR-LE.png",
+          "a1baa21b-b621-4e39-bc26-df814bb8a808": "https://ms.yugipedia.com//f/f7/AllyofJusticeCatastor-HA01-EN-ScR-LE.jpg",
+          "ab5a9513-baf6-4cee-a013-b84154fd9ae2": "https://ms.yugipedia.com//d/d7/XSaberAirbellum-HA01-EN-ScR-LE.jpg",
+          "ad18937f-1227-43af-9f0e-b299e5e421cb": "https://ms.yugipedia.com//4/4d/XSaberAxel-HA01-EN-SR-LE.png",
+          "b0910bd4-046a-4246-a1a9-03730d2a7354": "https://ms.yugipedia.com//7/73/AllyofJusticeClausolas-HA01-EN-SR-LE.png",
+          "b9d63eef-1842-4add-b263-29624aaba390": "https://ms.yugipedia.com//4/49/MistValleyThunderbird-HA01-EN-ScR-LE.png",
+          "bd2f7257-04c6-40ca-80f3-bc03d4630075": "https://ms.yugipedia.com//9/9f/WormApocalypse-HA01-EN-SR-LE.png",
+          "be40dd57-c072-4be2-af44-7da35a932bb3": "https://ms.yugipedia.com//a/ae/BrionacDragonoftheIceBarrier-HA01-EN-ScR-LE.jpg",
+          "bf395eb5-1b89-4b5d-bb28-46932febabd8": "https://ms.yugipedia.com//4/4d/FlamvellUruquizas-HA01-EN-ScR-LE.png",
+          "c37e4bd2-9a59-41c3-ac31-68f133c83f50": "https://ms.yugipedia.com//d/df/CommanderGottomsSwordmaster-HA01-EN-ScR-LE.jpg",
+          "c4989743-1299-4e2c-acd2-07efa30e2b3a": "https://ms.yugipedia.com//2/26/BlizzedDefenderoftheIceBarrier-HA01-EN-ScR-LE.png",
+          "c6b47181-5c4c-4fce-b6ee-acd605e1925d": "https://ms.yugipedia.com//0/06/BerserkerCrush-HA01-EN-SR-LE.png",
+          "ca8a3985-04c5-4c12-83d5-c462248483f4": "https://ms.yugipedia.com//f/fc/FlamvellGuard-HA01-EN-SR-LE.png",
+          "e18743e4-2dba-45a1-add1-7a1c32fcccd2": "https://ms.yugipedia.com//b/ba/FlamvellMagician-HA01-EN-SR-LE.png",
+          "f06dcc00-15c0-4532-8e85-34de4ef6ca97": "https://ms.yugipedia.com//e/e0/FlamvellDragnov-HA01-EN-SR-LE.png",
+          "fcc37a72-96ff-4e78-aebe-8c5277c3db6f": "https://ms.yugipedia.com//d/d7/Detonate-HA01-EN-SR-LE.png"
+        },
+        "unlimited": {
+          "076b2839-c081-439f-aa8a-941d325c33d0": "https://ms.yugipedia.com//1/14/AllyofJusticeRudra-HA01-EN-SR-UE.png",
+          "10f6fc05-8138-4603-a160-e3c5ca089ff9": "https://ms.yugipedia.com//f/f0/WrathofNeos-HA01-EN-ScR-UE.png",
+          "11488928-cf43-418e-98fc-c46c32a87b0b": "https://ms.yugipedia.com//d/dd/CryomanceroftheIceBarrier-HA01-EN-ScR-UE.png",
+          "16b27edb-894d-442c-96d6-6eaa33f54fd1": "https://ms.yugipedia.com//6/6d/MistWurm-HA01-EN-ScR-UE.png",
+          "1a14fec0-3ecf-4c9b-95b3-a4e0e2a2eb5c": "https://ms.yugipedia.com//5/59/MistValleySoldier-HA01-EN-ScR-UE.png",
+          "21178816-129d-458c-8902-36e45a3298a4": "https://ms.yugipedia.com//d/de/WormCartaros-HA01-EN-SR-UE.png",
+          "28ab8e3f-1078-496f-8ee8-fc6a1c3492e8": "https://ms.yugipedia.com//4/4a/AllyofJusticeGaradholg-HA01-EN-SR-UE.png",
+          "3d4e6a16-83c4-488a-841d-e761fa28ddac": "https://ms.yugipedia.com//9/9a/EvolutionBurst-HA01-EN-ScR-UE.png",
+          "4f471d1c-875a-4934-acf7-daafd613aa1e": "https://ms.yugipedia.com//c/cb/XSaberUrbellum-HA01-EN-ScR-UE.png",
+          "681d3780-3f7a-4619-bb22-0b3437b8d25a": "https://ms.yugipedia.com//4/47/XSaberUruz-HA01-EN-SR-UE.png",
+          "7fff4ec9-6334-4c70-bf11-8d95d1e970bc": "https://ms.yugipedia.com//a/ab/MistValleyShaman-HA01-EN-ScR-UE.png",
+          "94527e55-895f-42af-98a7-2d4ff6f098a6": "https://ms.yugipedia.com//4/48/WormDimikles-HA01-EN-SR-UE.png",
+          "98eee53d-a2f0-41da-aa1d-92330df91294": "https://ms.yugipedia.com//c/c7/WormBarses-HA01-EN-SR-UE.png",
+          "9b8a4cee-fde0-4540-9843-a782bfffaa5f": "https://ms.yugipedia.com//3/36/WormErokin-HA01-EN-ScR-UE.png",
+          "9d34c88e-0d7c-4942-8444-b3b9d989dae5": "https://ms.yugipedia.com//1/15/BlizzardWarrior-HA01-EN-SR-UE.png",
+          "a1baa21b-b621-4e39-bc26-df814bb8a808": "https://ms.yugipedia.com//4/44/AllyofJusticeCatastor-HA01-EN-ScR-UE.png",
+          "ab5a9513-baf6-4cee-a013-b84154fd9ae2": "https://ms.yugipedia.com//6/62/XSaberAirbellum-HA01-EN-ScR-UE.png",
+          "ad18937f-1227-43af-9f0e-b299e5e421cb": "https://ms.yugipedia.com//3/37/XSaberAxel-HA01-EN-SR-UE.png",
+          "b0910bd4-046a-4246-a1a9-03730d2a7354": "https://ms.yugipedia.com//9/99/AllyofJusticeClausolas-HA01-EN-SR-UE.png",
+          "b9d63eef-1842-4add-b263-29624aaba390": "https://ms.yugipedia.com//6/69/MistValleyThunderbird-HA01-EN-ScR-UE.png",
+          "bd2f7257-04c6-40ca-80f3-bc03d4630075": "https://ms.yugipedia.com//6/61/WormApocalypse-HA01-EN-SR-UE.png",
+          "be40dd57-c072-4be2-af44-7da35a932bb3": "https://ms.yugipedia.com//c/ca/BrionacDragonoftheIceBarrier-HA01-EN-ScR-UE.png",
+          "bf395eb5-1b89-4b5d-bb28-46932febabd8": "https://ms.yugipedia.com//a/aa/FlamvellUruquizas-HA01-EN-ScR-UE.png",
+          "c37e4bd2-9a59-41c3-ac31-68f133c83f50": "https://ms.yugipedia.com//5/59/CommanderGottomsSwordmaster-HA01-EN-ScR-UE.png",
+          "c4989743-1299-4e2c-acd2-07efa30e2b3a": "https://ms.yugipedia.com//a/a0/BlizzedDefenderoftheIceBarrier-HA01-EN-ScR-UE.png",
+          "c6b47181-5c4c-4fce-b6ee-acd605e1925d": "https://ms.yugipedia.com//9/96/BerserkerCrush-HA01-EN-SR-UE.png",
+          "ca8a3985-04c5-4c12-83d5-c462248483f4": "https://ms.yugipedia.com//9/99/FlamvellGuard-HA01-EN-SR-UE.png",
+          "e18743e4-2dba-45a1-add1-7a1c32fcccd2": "https://ms.yugipedia.com//f/fc/FlamvellMagician-HA01-EN-SR-UE.png",
+          "f06dcc00-15c0-4532-8e85-34de4ef6ca97": "https://ms.yugipedia.com//2/21/FlamvellDragnov-HA01-EN-SR-UE.png",
+          "fcc37a72-96ff-4e78-aebe-8c5277c3db6f": "https://ms.yugipedia.com//4/4f/Detonate-HA01-EN-SR-UE.png"
+        }
+      },
+      "cardInfo": {
+        "limited": {
+          "076b2839-c081-439f-aa8a-941d325c33d0": {
+            "image": "https://ms.yugipedia.com//1/14/AllyofJusticeRudra-HA01-EN-SR-LE.png"
+          },
+          "10f6fc05-8138-4603-a160-e3c5ca089ff9": {
+            "image": "https://ms.yugipedia.com//b/bf/WrathofNeos-HA01-EN-ScR-LE.png"
+          },
+          "11488928-cf43-418e-98fc-c46c32a87b0b": {
+            "image": "https://ms.yugipedia.com//e/ee/CryomanceroftheIceBarrier-HA01-EN-ScR-LE.png"
+          },
+          "16b27edb-894d-442c-96d6-6eaa33f54fd1": {
+            "image": "https://ms.yugipedia.com//1/14/MistWurm-HA01-EN-ScR-LE.png"
+          },
+          "1a14fec0-3ecf-4c9b-95b3-a4e0e2a2eb5c": {
+            "image": "https://ms.yugipedia.com//0/0a/MistValleySoldier-HA01-EN-ScR-LE.png"
+          },
+          "21178816-129d-458c-8902-36e45a3298a4": {
+            "image": "https://ms.yugipedia.com//d/df/WormCartaros-HA01-EN-SR-LE.png"
+          },
+          "28ab8e3f-1078-496f-8ee8-fc6a1c3492e8": {
+            "image": "https://ms.yugipedia.com//2/27/AllyofJusticeGaradholg-HA01-EN-SR-LE.png"
+          },
+          "3d4e6a16-83c4-488a-841d-e761fa28ddac": {
+            "image": "https://ms.yugipedia.com//e/ef/EvolutionBurst-HA01-EN-ScR-LE.png"
+          },
+          "4f471d1c-875a-4934-acf7-daafd613aa1e": {
+            "image": "https://ms.yugipedia.com//6/6c/XSaberUrbellum-HA01-EN-ScR-LE.jpg"
+          },
+          "681d3780-3f7a-4619-bb22-0b3437b8d25a": {
+            "image": "https://ms.yugipedia.com//b/b4/XSaberUruz-HA01-EN-SR-LE.jpg"
+          },
+          "7fff4ec9-6334-4c70-bf11-8d95d1e970bc": {
+            "image": "https://ms.yugipedia.com//8/82/MistValleyShaman-HA01-EN-ScR-LE.png"
+          },
+          "94527e55-895f-42af-98a7-2d4ff6f098a6": {
+            "image": "https://ms.yugipedia.com//5/52/WormDimikles-HA01-EN-SR-LE.png"
+          },
+          "98eee53d-a2f0-41da-aa1d-92330df91294": {
+            "image": "https://ms.yugipedia.com//5/51/WormBarses-HA01-EN-SR-LE.png"
+          },
+          "9b8a4cee-fde0-4540-9843-a782bfffaa5f": {
+            "image": "https://ms.yugipedia.com//d/d5/WormErokin-HA01-EN-ScR-LE.png"
+          },
+          "9d34c88e-0d7c-4942-8444-b3b9d989dae5": {
+            "image": "https://ms.yugipedia.com//f/f3/BlizzardWarrior-HA01-EN-SR-LE.png"
+          },
+          "a1baa21b-b621-4e39-bc26-df814bb8a808": {
+            "image": "https://ms.yugipedia.com//f/f7/AllyofJusticeCatastor-HA01-EN-ScR-LE.jpg"
+          },
+          "ab5a9513-baf6-4cee-a013-b84154fd9ae2": {
+            "image": "https://ms.yugipedia.com//d/d7/XSaberAirbellum-HA01-EN-ScR-LE.jpg"
+          },
+          "ad18937f-1227-43af-9f0e-b299e5e421cb": {
+            "image": "https://ms.yugipedia.com//4/4d/XSaberAxel-HA01-EN-SR-LE.png"
+          },
+          "b0910bd4-046a-4246-a1a9-03730d2a7354": {
+            "image": "https://ms.yugipedia.com//7/73/AllyofJusticeClausolas-HA01-EN-SR-LE.png"
+          },
+          "b9d63eef-1842-4add-b263-29624aaba390": {
+            "image": "https://ms.yugipedia.com//4/49/MistValleyThunderbird-HA01-EN-ScR-LE.png"
+          },
+          "bd2f7257-04c6-40ca-80f3-bc03d4630075": {
+            "image": "https://ms.yugipedia.com//9/9f/WormApocalypse-HA01-EN-SR-LE.png"
+          },
+          "be40dd57-c072-4be2-af44-7da35a932bb3": {
+            "image": "https://ms.yugipedia.com//a/ae/BrionacDragonoftheIceBarrier-HA01-EN-ScR-LE.jpg"
+          },
+          "bf395eb5-1b89-4b5d-bb28-46932febabd8": {
+            "image": "https://ms.yugipedia.com//4/4d/FlamvellUruquizas-HA01-EN-ScR-LE.png"
+          },
+          "c37e4bd2-9a59-41c3-ac31-68f133c83f50": {
+            "image": "https://ms.yugipedia.com//d/df/CommanderGottomsSwordmaster-HA01-EN-ScR-LE.jpg"
+          },
+          "c4989743-1299-4e2c-acd2-07efa30e2b3a": {
+            "image": "https://ms.yugipedia.com//2/26/BlizzedDefenderoftheIceBarrier-HA01-EN-ScR-LE.png"
+          },
+          "c6b47181-5c4c-4fce-b6ee-acd605e1925d": {
+            "image": "https://ms.yugipedia.com//0/06/BerserkerCrush-HA01-EN-SR-LE.png"
+          },
+          "ca8a3985-04c5-4c12-83d5-c462248483f4": {
+            "image": "https://ms.yugipedia.com//f/fc/FlamvellGuard-HA01-EN-SR-LE.png"
+          },
+          "e18743e4-2dba-45a1-add1-7a1c32fcccd2": {
+            "image": "https://ms.yugipedia.com//b/ba/FlamvellMagician-HA01-EN-SR-LE.png"
+          },
+          "f06dcc00-15c0-4532-8e85-34de4ef6ca97": {
+            "image": "https://ms.yugipedia.com//e/e0/FlamvellDragnov-HA01-EN-SR-LE.png"
+          },
+          "fcc37a72-96ff-4e78-aebe-8c5277c3db6f": {
+            "image": "https://ms.yugipedia.com//d/d7/Detonate-HA01-EN-SR-LE.png"
+          }
+        },
+        "unlimited": {
+          "076b2839-c081-439f-aa8a-941d325c33d0": {
+            "image": "https://ms.yugipedia.com//1/14/AllyofJusticeRudra-HA01-EN-SR-UE.png"
+          },
+          "10f6fc05-8138-4603-a160-e3c5ca089ff9": {
+            "image": "https://ms.yugipedia.com//f/f0/WrathofNeos-HA01-EN-ScR-UE.png"
+          },
+          "11488928-cf43-418e-98fc-c46c32a87b0b": {
+            "image": "https://ms.yugipedia.com//d/dd/CryomanceroftheIceBarrier-HA01-EN-ScR-UE.png"
+          },
+          "16b27edb-894d-442c-96d6-6eaa33f54fd1": {
+            "image": "https://ms.yugipedia.com//6/6d/MistWurm-HA01-EN-ScR-UE.png"
+          },
+          "1a14fec0-3ecf-4c9b-95b3-a4e0e2a2eb5c": {
+            "image": "https://ms.yugipedia.com//5/59/MistValleySoldier-HA01-EN-ScR-UE.png"
+          },
+          "21178816-129d-458c-8902-36e45a3298a4": {
+            "image": "https://ms.yugipedia.com//d/de/WormCartaros-HA01-EN-SR-UE.png"
+          },
+          "28ab8e3f-1078-496f-8ee8-fc6a1c3492e8": {
+            "image": "https://ms.yugipedia.com//4/4a/AllyofJusticeGaradholg-HA01-EN-SR-UE.png"
+          },
+          "3d4e6a16-83c4-488a-841d-e761fa28ddac": {
+            "image": "https://ms.yugipedia.com//9/9a/EvolutionBurst-HA01-EN-ScR-UE.png"
+          },
+          "4f471d1c-875a-4934-acf7-daafd613aa1e": {
+            "image": "https://ms.yugipedia.com//c/cb/XSaberUrbellum-HA01-EN-ScR-UE.png"
+          },
+          "681d3780-3f7a-4619-bb22-0b3437b8d25a": {
+            "image": "https://ms.yugipedia.com//4/47/XSaberUruz-HA01-EN-SR-UE.png"
+          },
+          "7fff4ec9-6334-4c70-bf11-8d95d1e970bc": {
+            "image": "https://ms.yugipedia.com//a/ab/MistValleyShaman-HA01-EN-ScR-UE.png"
+          },
+          "94527e55-895f-42af-98a7-2d4ff6f098a6": {
+            "image": "https://ms.yugipedia.com//4/48/WormDimikles-HA01-EN-SR-UE.png"
+          },
+          "98eee53d-a2f0-41da-aa1d-92330df91294": {
+            "image": "https://ms.yugipedia.com//c/c7/WormBarses-HA01-EN-SR-UE.png"
+          },
+          "9b8a4cee-fde0-4540-9843-a782bfffaa5f": {
+            "image": "https://ms.yugipedia.com//3/36/WormErokin-HA01-EN-ScR-UE.png"
+          },
+          "9d34c88e-0d7c-4942-8444-b3b9d989dae5": {
+            "image": "https://ms.yugipedia.com//1/15/BlizzardWarrior-HA01-EN-SR-UE.png"
+          },
+          "a1baa21b-b621-4e39-bc26-df814bb8a808": {
+            "image": "https://ms.yugipedia.com//4/44/AllyofJusticeCatastor-HA01-EN-ScR-UE.png"
+          },
+          "ab5a9513-baf6-4cee-a013-b84154fd9ae2": {
+            "image": "https://ms.yugipedia.com//6/62/XSaberAirbellum-HA01-EN-ScR-UE.png"
+          },
+          "ad18937f-1227-43af-9f0e-b299e5e421cb": {
+            "image": "https://ms.yugipedia.com//3/37/XSaberAxel-HA01-EN-SR-UE.png"
+          },
+          "b0910bd4-046a-4246-a1a9-03730d2a7354": {
+            "image": "https://ms.yugipedia.com//9/99/AllyofJusticeClausolas-HA01-EN-SR-UE.png"
+          },
+          "b9d63eef-1842-4add-b263-29624aaba390": {
+            "image": "https://ms.yugipedia.com//6/69/MistValleyThunderbird-HA01-EN-ScR-UE.png"
+          },
+          "bd2f7257-04c6-40ca-80f3-bc03d4630075": {
+            "image": "https://ms.yugipedia.com//6/61/WormApocalypse-HA01-EN-SR-UE.png"
+          },
+          "be40dd57-c072-4be2-af44-7da35a932bb3": {
+            "image": "https://ms.yugipedia.com//c/ca/BrionacDragonoftheIceBarrier-HA01-EN-ScR-UE.png"
+          },
+          "bf395eb5-1b89-4b5d-bb28-46932febabd8": {
+            "image": "https://ms.yugipedia.com//a/aa/FlamvellUruquizas-HA01-EN-ScR-UE.png"
+          },
+          "c37e4bd2-9a59-41c3-ac31-68f133c83f50": {
+            "image": "https://ms.yugipedia.com//5/59/CommanderGottomsSwordmaster-HA01-EN-ScR-UE.png"
+          },
+          "c4989743-1299-4e2c-acd2-07efa30e2b3a": {
+            "image": "https://ms.yugipedia.com//a/a0/BlizzedDefenderoftheIceBarrier-HA01-EN-ScR-UE.png"
+          },
+          "c6b47181-5c4c-4fce-b6ee-acd605e1925d": {
+            "image": "https://ms.yugipedia.com//9/96/BerserkerCrush-HA01-EN-SR-UE.png"
+          },
+          "ca8a3985-04c5-4c12-83d5-c462248483f4": {
+            "image": "https://ms.yugipedia.com//9/99/FlamvellGuard-HA01-EN-SR-UE.png"
+          },
+          "e18743e4-2dba-45a1-add1-7a1c32fcccd2": {
+            "image": "https://ms.yugipedia.com//f/fc/FlamvellMagician-HA01-EN-SR-UE.png"
+          },
+          "f06dcc00-15c0-4532-8e85-34de4ef6ca97": {
+            "image": "https://ms.yugipedia.com//2/21/FlamvellDragnov-HA01-EN-SR-UE.png"
+          },
+          "fcc37a72-96ff-4e78-aebe-8c5277c3db6f": {
+            "image": "https://ms.yugipedia.com//4/4f/Detonate-HA01-EN-SR-UE.png"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "unlimited",
+        "limited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          11108004
+        ]
+      }
+    },
+    "fr": {
+      "language": "fr",
+      "prefix": "HA01-FR",
+      "date": "2009-11-05",
+      "image": "https://ms.yugipedia.com//c/c0/HA01-BoosterFR.png",
+      "cardImages": {
+        "limited": {
+          "076b2839-c081-439f-aa8a-941d325c33d0": "https://ms.yugipedia.com//3/33/AllyofJusticeRudra-HA01-FR-SR-LE.jpg",
+          "10f6fc05-8138-4603-a160-e3c5ca089ff9": "https://ms.yugipedia.com//f/f9/WrathofNeos-HA01-FR-ScR-LE.png",
+          "11488928-cf43-418e-98fc-c46c32a87b0b": "https://ms.yugipedia.com//8/8b/CryomanceroftheIceBarrier-HA01-FR-ScR-LE.jpg",
+          "16b27edb-894d-442c-96d6-6eaa33f54fd1": "https://ms.yugipedia.com//9/9c/MistWurm-HA01-FR-ScR-LE.png",
+          "1a14fec0-3ecf-4c9b-95b3-a4e0e2a2eb5c": "https://ms.yugipedia.com//9/9f/MistValleySoldier-HA01-FR-ScR-LE.png",
+          "21178816-129d-458c-8902-36e45a3298a4": "https://ms.yugipedia.com//6/6d/WormCartaros-HA01-FR-SR-LE.png",
+          "28ab8e3f-1078-496f-8ee8-fc6a1c3492e8": "https://ms.yugipedia.com//3/34/AllyofJusticeGaradholg-HA01-FR-SR-LE.jpg",
+          "3d4e6a16-83c4-488a-841d-e761fa28ddac": "https://ms.yugipedia.com//1/11/EvolutionBurst-HA01-FR-ScR-LE.png",
+          "4f471d1c-875a-4934-acf7-daafd613aa1e": "https://ms.yugipedia.com//f/fd/XSaberUrbellum-HA01-FR-ScR-LE.jpg",
+          "681d3780-3f7a-4619-bb22-0b3437b8d25a": "https://ms.yugipedia.com//f/fa/XSaberUruz-HA01-FR-SR-LE.jpg",
+          "7fff4ec9-6334-4c70-bf11-8d95d1e970bc": "https://ms.yugipedia.com//a/a3/MistValleyShaman-HA01-FR-ScR-LE.png",
+          "94527e55-895f-42af-98a7-2d4ff6f098a6": "https://ms.yugipedia.com//a/a9/WormDimikles-HA01-FR-SR-LE.png",
+          "98eee53d-a2f0-41da-aa1d-92330df91294": "https://ms.yugipedia.com//3/38/WormBarses-HA01-FR-SR-LE.png",
+          "9b8a4cee-fde0-4540-9843-a782bfffaa5f": "https://ms.yugipedia.com//9/9e/WormErokin-HA01-FR-ScR-LE.png",
+          "9d34c88e-0d7c-4942-8444-b3b9d989dae5": "https://ms.yugipedia.com//4/4d/BlizzardWarrior-HA01-FR-SR-LE.jpg",
+          "a1baa21b-b621-4e39-bc26-df814bb8a808": "https://ms.yugipedia.com//4/46/AllyofJusticeCatastor-HA01-FR-ScR-LE.jpg",
+          "ab5a9513-baf6-4cee-a013-b84154fd9ae2": "https://ms.yugipedia.com//7/72/XSaberAirbellum-HA01-FR-ScR-LE.jpg",
+          "ad18937f-1227-43af-9f0e-b299e5e421cb": "https://ms.yugipedia.com//d/db/XSaberAxel-HA01-FR-SR-LE.jpg",
+          "b0910bd4-046a-4246-a1a9-03730d2a7354": "https://ms.yugipedia.com//9/9a/AllyofJusticeClausolas-HA01-FR-SR-LE.jpg",
+          "b9d63eef-1842-4add-b263-29624aaba390": "https://ms.yugipedia.com//b/b5/MistValleyThunderbird-HA01-FR-ScR-LE.png",
+          "bd2f7257-04c6-40ca-80f3-bc03d4630075": "https://ms.yugipedia.com//f/f1/WormApocalypse-HA01-FR-SR-LE.png",
+          "be40dd57-c072-4be2-af44-7da35a932bb3": "https://ms.yugipedia.com//b/b3/BrionacDragonoftheIceBarrier-HA01-FR-ScR-LE.jpg",
+          "bf395eb5-1b89-4b5d-bb28-46932febabd8": "https://ms.yugipedia.com//e/e1/FlamvellUruquizas-HA01-FR-ScR-LE.png",
+          "c37e4bd2-9a59-41c3-ac31-68f133c83f50": "https://ms.yugipedia.com//c/cd/CommanderGottomsSwordmaster-HA01-FR-ScR-LE.png",
+          "c4989743-1299-4e2c-acd2-07efa30e2b3a": "https://ms.yugipedia.com//8/8c/BlizzedDefenderoftheIceBarrier-HA01-FR-ScR-LE.png",
+          "c6b47181-5c4c-4fce-b6ee-acd605e1925d": "https://ms.yugipedia.com//2/2d/BerserkerCrush-HA01-FR-SR-LE.png",
+          "ca8a3985-04c5-4c12-83d5-c462248483f4": "https://ms.yugipedia.com//e/e8/FlamvellGuard-HA01-FR-SR-LE.png",
+          "e18743e4-2dba-45a1-add1-7a1c32fcccd2": "https://ms.yugipedia.com//9/92/FlamvellMagician-HA01-FR-SR-LE.png",
+          "f06dcc00-15c0-4532-8e85-34de4ef6ca97": "https://ms.yugipedia.com//6/6f/FlamvellDragnov-HA01-FR-SR-LE.png",
+          "fcc37a72-96ff-4e78-aebe-8c5277c3db6f": "https://ms.yugipedia.com//0/0a/Detonate-HA01-FR-SR-LE.png"
+        }
+      },
+      "cardInfo": {
+        "limited": {
+          "076b2839-c081-439f-aa8a-941d325c33d0": {
+            "image": "https://ms.yugipedia.com//3/33/AllyofJusticeRudra-HA01-FR-SR-LE.jpg"
+          },
+          "10f6fc05-8138-4603-a160-e3c5ca089ff9": {
+            "image": "https://ms.yugipedia.com//f/f9/WrathofNeos-HA01-FR-ScR-LE.png"
+          },
+          "11488928-cf43-418e-98fc-c46c32a87b0b": {
+            "image": "https://ms.yugipedia.com//8/8b/CryomanceroftheIceBarrier-HA01-FR-ScR-LE.jpg"
+          },
+          "16b27edb-894d-442c-96d6-6eaa33f54fd1": {
+            "image": "https://ms.yugipedia.com//9/9c/MistWurm-HA01-FR-ScR-LE.png"
+          },
+          "1a14fec0-3ecf-4c9b-95b3-a4e0e2a2eb5c": {
+            "image": "https://ms.yugipedia.com//9/9f/MistValleySoldier-HA01-FR-ScR-LE.png"
+          },
+          "21178816-129d-458c-8902-36e45a3298a4": {
+            "image": "https://ms.yugipedia.com//6/6d/WormCartaros-HA01-FR-SR-LE.png"
+          },
+          "28ab8e3f-1078-496f-8ee8-fc6a1c3492e8": {
+            "image": "https://ms.yugipedia.com//3/34/AllyofJusticeGaradholg-HA01-FR-SR-LE.jpg"
+          },
+          "3d4e6a16-83c4-488a-841d-e761fa28ddac": {
+            "image": "https://ms.yugipedia.com//1/11/EvolutionBurst-HA01-FR-ScR-LE.png"
+          },
+          "4f471d1c-875a-4934-acf7-daafd613aa1e": {
+            "image": "https://ms.yugipedia.com//f/fd/XSaberUrbellum-HA01-FR-ScR-LE.jpg"
+          },
+          "681d3780-3f7a-4619-bb22-0b3437b8d25a": {
+            "image": "https://ms.yugipedia.com//f/fa/XSaberUruz-HA01-FR-SR-LE.jpg"
+          },
+          "7fff4ec9-6334-4c70-bf11-8d95d1e970bc": {
+            "image": "https://ms.yugipedia.com//a/a3/MistValleyShaman-HA01-FR-ScR-LE.png"
+          },
+          "94527e55-895f-42af-98a7-2d4ff6f098a6": {
+            "image": "https://ms.yugipedia.com//a/a9/WormDimikles-HA01-FR-SR-LE.png"
+          },
+          "98eee53d-a2f0-41da-aa1d-92330df91294": {
+            "image": "https://ms.yugipedia.com//3/38/WormBarses-HA01-FR-SR-LE.png"
+          },
+          "9b8a4cee-fde0-4540-9843-a782bfffaa5f": {
+            "image": "https://ms.yugipedia.com//9/9e/WormErokin-HA01-FR-ScR-LE.png"
+          },
+          "9d34c88e-0d7c-4942-8444-b3b9d989dae5": {
+            "image": "https://ms.yugipedia.com//4/4d/BlizzardWarrior-HA01-FR-SR-LE.jpg"
+          },
+          "a1baa21b-b621-4e39-bc26-df814bb8a808": {
+            "image": "https://ms.yugipedia.com//4/46/AllyofJusticeCatastor-HA01-FR-ScR-LE.jpg"
+          },
+          "ab5a9513-baf6-4cee-a013-b84154fd9ae2": {
+            "image": "https://ms.yugipedia.com//7/72/XSaberAirbellum-HA01-FR-ScR-LE.jpg"
+          },
+          "ad18937f-1227-43af-9f0e-b299e5e421cb": {
+            "image": "https://ms.yugipedia.com//d/db/XSaberAxel-HA01-FR-SR-LE.jpg"
+          },
+          "b0910bd4-046a-4246-a1a9-03730d2a7354": {
+            "image": "https://ms.yugipedia.com//9/9a/AllyofJusticeClausolas-HA01-FR-SR-LE.jpg"
+          },
+          "b9d63eef-1842-4add-b263-29624aaba390": {
+            "image": "https://ms.yugipedia.com//b/b5/MistValleyThunderbird-HA01-FR-ScR-LE.png"
+          },
+          "bd2f7257-04c6-40ca-80f3-bc03d4630075": {
+            "image": "https://ms.yugipedia.com//f/f1/WormApocalypse-HA01-FR-SR-LE.png"
+          },
+          "be40dd57-c072-4be2-af44-7da35a932bb3": {
+            "image": "https://ms.yugipedia.com//b/b3/BrionacDragonoftheIceBarrier-HA01-FR-ScR-LE.jpg"
+          },
+          "bf395eb5-1b89-4b5d-bb28-46932febabd8": {
+            "image": "https://ms.yugipedia.com//e/e1/FlamvellUruquizas-HA01-FR-ScR-LE.png"
+          },
+          "c37e4bd2-9a59-41c3-ac31-68f133c83f50": {
+            "image": "https://ms.yugipedia.com//c/cd/CommanderGottomsSwordmaster-HA01-FR-ScR-LE.png"
+          },
+          "c4989743-1299-4e2c-acd2-07efa30e2b3a": {
+            "image": "https://ms.yugipedia.com//8/8c/BlizzedDefenderoftheIceBarrier-HA01-FR-ScR-LE.png"
+          },
+          "c6b47181-5c4c-4fce-b6ee-acd605e1925d": {
+            "image": "https://ms.yugipedia.com//2/2d/BerserkerCrush-HA01-FR-SR-LE.png"
+          },
+          "ca8a3985-04c5-4c12-83d5-c462248483f4": {
+            "image": "https://ms.yugipedia.com//e/e8/FlamvellGuard-HA01-FR-SR-LE.png"
+          },
+          "e18743e4-2dba-45a1-add1-7a1c32fcccd2": {
+            "image": "https://ms.yugipedia.com//9/92/FlamvellMagician-HA01-FR-SR-LE.png"
+          },
+          "f06dcc00-15c0-4532-8e85-34de4ef6ca97": {
+            "image": "https://ms.yugipedia.com//6/6f/FlamvellDragnov-HA01-FR-SR-LE.png"
+          },
+          "fcc37a72-96ff-4e78-aebe-8c5277c3db6f": {
+            "image": "https://ms.yugipedia.com//0/0a/Detonate-HA01-FR-SR-LE.png"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          31108005
+        ]
+      }
+    },
+    "de": {
+      "language": "de",
+      "prefix": "HA01-DE",
+      "date": "2009-11-05",
+      "image": "https://ms.yugipedia.com//c/c9/HA01-BoosterDE.png",
+      "cardImages": {
+        "limited": {
+          "076b2839-c081-439f-aa8a-941d325c33d0": "https://ms.yugipedia.com//5/5d/AllyofJusticeRudra-HA01-DE-SR-LE.jpg",
+          "10f6fc05-8138-4603-a160-e3c5ca089ff9": "https://ms.yugipedia.com//a/a5/WrathofNeos-HA01-DE-ScR-LE.png",
+          "11488928-cf43-418e-98fc-c46c32a87b0b": "https://ms.yugipedia.com//a/af/CryomanceroftheIceBarrier-HA01-DE-ScR-LE.png",
+          "16b27edb-894d-442c-96d6-6eaa33f54fd1": "https://ms.yugipedia.com//0/07/MistWurm-HA01-DE-ScR-LE.png",
+          "1a14fec0-3ecf-4c9b-95b3-a4e0e2a2eb5c": "https://ms.yugipedia.com//c/ca/MistValleySoldier-HA01-DE-ScR-LE.png",
+          "21178816-129d-458c-8902-36e45a3298a4": "https://ms.yugipedia.com//b/b3/WormCartaros-HA01-DE-SR-LE.png",
+          "28ab8e3f-1078-496f-8ee8-fc6a1c3492e8": "https://ms.yugipedia.com//8/8c/AllyofJusticeGaradholg-HA01-DE-SR-LE.jpg",
+          "3d4e6a16-83c4-488a-841d-e761fa28ddac": "https://ms.yugipedia.com//4/4a/EvolutionBurst-HA01-DE-ScR-LE.png",
+          "4f471d1c-875a-4934-acf7-daafd613aa1e": "https://ms.yugipedia.com//8/8a/XSaberUrbellum-HA01-DE-ScR-LE.jpg",
+          "681d3780-3f7a-4619-bb22-0b3437b8d25a": "https://ms.yugipedia.com//5/5d/XSaberUruz-HA01-DE-SR-LE.jpg",
+          "7fff4ec9-6334-4c70-bf11-8d95d1e970bc": "https://ms.yugipedia.com//8/88/MistValleyShaman-HA01-DE-ScR-LE.png",
+          "94527e55-895f-42af-98a7-2d4ff6f098a6": "https://ms.yugipedia.com//9/9f/WormDimikles-HA01-DE-SR-LE.png",
+          "98eee53d-a2f0-41da-aa1d-92330df91294": "https://ms.yugipedia.com//8/85/WormBarses-HA01-DE-SR-LE.png",
+          "9b8a4cee-fde0-4540-9843-a782bfffaa5f": "https://ms.yugipedia.com//5/5c/WormErokin-HA01-DE-ScR-LE.png",
+          "9d34c88e-0d7c-4942-8444-b3b9d989dae5": "https://ms.yugipedia.com//c/cb/BlizzardWarrior-HA01-DE-SR-LE.jpg",
+          "a1baa21b-b621-4e39-bc26-df814bb8a808": "https://ms.yugipedia.com//5/58/AllyofJusticeCatastor-HA01-DE-ScR-LE.jpg",
+          "ab5a9513-baf6-4cee-a013-b84154fd9ae2": "https://ms.yugipedia.com//f/f9/XSaberAirbellum-HA01-DE-ScR-LE.jpg",
+          "ad18937f-1227-43af-9f0e-b299e5e421cb": "https://ms.yugipedia.com//6/60/XSaberAxel-HA01-DE-SR-LE.jpg",
+          "b0910bd4-046a-4246-a1a9-03730d2a7354": "https://ms.yugipedia.com//5/5c/AllyofJusticeClausolas-HA01-DE-SR-LE.jpg",
+          "b9d63eef-1842-4add-b263-29624aaba390": "https://ms.yugipedia.com//c/c5/MistValleyThunderbird-HA01-DE-ScR-LE.jpg",
+          "bd2f7257-04c6-40ca-80f3-bc03d4630075": "https://ms.yugipedia.com//e/ee/WormApocalypse-HA01-DE-SR-LE.png",
+          "be40dd57-c072-4be2-af44-7da35a932bb3": "https://ms.yugipedia.com//3/33/BrionacDragonoftheIceBarrier-HA01-DE-ScR-LE.jpg",
+          "bf395eb5-1b89-4b5d-bb28-46932febabd8": "https://ms.yugipedia.com//4/4f/FlamvellUruquizas-HA01-DE-ScR-LE.png",
+          "c37e4bd2-9a59-41c3-ac31-68f133c83f50": "https://ms.yugipedia.com//d/d5/CommanderGottomsSwordmaster-HA01-DE-ScR-LE.png",
+          "c4989743-1299-4e2c-acd2-07efa30e2b3a": "https://ms.yugipedia.com//d/d6/BlizzedDefenderoftheIceBarrier-HA01-DE-ScR-LE.png",
+          "c6b47181-5c4c-4fce-b6ee-acd605e1925d": "https://ms.yugipedia.com//b/b0/BerserkerCrush-HA01-DE-SR-LE.jpg",
+          "ca8a3985-04c5-4c12-83d5-c462248483f4": "https://ms.yugipedia.com//2/24/FlamvellGuard-HA01-DE-SR-LE.png",
+          "e18743e4-2dba-45a1-add1-7a1c32fcccd2": "https://ms.yugipedia.com//4/40/FlamvellMagician-HA01-DE-SR-LE.png",
+          "f06dcc00-15c0-4532-8e85-34de4ef6ca97": "https://ms.yugipedia.com//d/d7/FlamvellDragnov-HA01-DE-SR-LE.png",
+          "fcc37a72-96ff-4e78-aebe-8c5277c3db6f": "https://ms.yugipedia.com//7/71/Detonate-HA01-DE-SR-LE.png"
+        }
+      },
+      "cardInfo": {
+        "limited": {
+          "076b2839-c081-439f-aa8a-941d325c33d0": {
+            "image": "https://ms.yugipedia.com//5/5d/AllyofJusticeRudra-HA01-DE-SR-LE.jpg"
+          },
+          "10f6fc05-8138-4603-a160-e3c5ca089ff9": {
+            "image": "https://ms.yugipedia.com//a/a5/WrathofNeos-HA01-DE-ScR-LE.png"
+          },
+          "11488928-cf43-418e-98fc-c46c32a87b0b": {
+            "image": "https://ms.yugipedia.com//a/af/CryomanceroftheIceBarrier-HA01-DE-ScR-LE.png"
+          },
+          "16b27edb-894d-442c-96d6-6eaa33f54fd1": {
+            "image": "https://ms.yugipedia.com//0/07/MistWurm-HA01-DE-ScR-LE.png"
+          },
+          "1a14fec0-3ecf-4c9b-95b3-a4e0e2a2eb5c": {
+            "image": "https://ms.yugipedia.com//c/ca/MistValleySoldier-HA01-DE-ScR-LE.png"
+          },
+          "21178816-129d-458c-8902-36e45a3298a4": {
+            "image": "https://ms.yugipedia.com//b/b3/WormCartaros-HA01-DE-SR-LE.png"
+          },
+          "28ab8e3f-1078-496f-8ee8-fc6a1c3492e8": {
+            "image": "https://ms.yugipedia.com//8/8c/AllyofJusticeGaradholg-HA01-DE-SR-LE.jpg"
+          },
+          "3d4e6a16-83c4-488a-841d-e761fa28ddac": {
+            "image": "https://ms.yugipedia.com//4/4a/EvolutionBurst-HA01-DE-ScR-LE.png"
+          },
+          "4f471d1c-875a-4934-acf7-daafd613aa1e": {
+            "image": "https://ms.yugipedia.com//8/8a/XSaberUrbellum-HA01-DE-ScR-LE.jpg"
+          },
+          "681d3780-3f7a-4619-bb22-0b3437b8d25a": {
+            "image": "https://ms.yugipedia.com//5/5d/XSaberUruz-HA01-DE-SR-LE.jpg"
+          },
+          "7fff4ec9-6334-4c70-bf11-8d95d1e970bc": {
+            "image": "https://ms.yugipedia.com//8/88/MistValleyShaman-HA01-DE-ScR-LE.png"
+          },
+          "94527e55-895f-42af-98a7-2d4ff6f098a6": {
+            "image": "https://ms.yugipedia.com//9/9f/WormDimikles-HA01-DE-SR-LE.png"
+          },
+          "98eee53d-a2f0-41da-aa1d-92330df91294": {
+            "image": "https://ms.yugipedia.com//8/85/WormBarses-HA01-DE-SR-LE.png"
+          },
+          "9b8a4cee-fde0-4540-9843-a782bfffaa5f": {
+            "image": "https://ms.yugipedia.com//5/5c/WormErokin-HA01-DE-ScR-LE.png"
+          },
+          "9d34c88e-0d7c-4942-8444-b3b9d989dae5": {
+            "image": "https://ms.yugipedia.com//c/cb/BlizzardWarrior-HA01-DE-SR-LE.jpg"
+          },
+          "a1baa21b-b621-4e39-bc26-df814bb8a808": {
+            "image": "https://ms.yugipedia.com//5/58/AllyofJusticeCatastor-HA01-DE-ScR-LE.jpg"
+          },
+          "ab5a9513-baf6-4cee-a013-b84154fd9ae2": {
+            "image": "https://ms.yugipedia.com//f/f9/XSaberAirbellum-HA01-DE-ScR-LE.jpg"
+          },
+          "ad18937f-1227-43af-9f0e-b299e5e421cb": {
+            "image": "https://ms.yugipedia.com//6/60/XSaberAxel-HA01-DE-SR-LE.jpg"
+          },
+          "b0910bd4-046a-4246-a1a9-03730d2a7354": {
+            "image": "https://ms.yugipedia.com//5/5c/AllyofJusticeClausolas-HA01-DE-SR-LE.jpg"
+          },
+          "b9d63eef-1842-4add-b263-29624aaba390": {
+            "image": "https://ms.yugipedia.com//c/c5/MistValleyThunderbird-HA01-DE-ScR-LE.jpg"
+          },
+          "bd2f7257-04c6-40ca-80f3-bc03d4630075": {
+            "image": "https://ms.yugipedia.com//e/ee/WormApocalypse-HA01-DE-SR-LE.png"
+          },
+          "be40dd57-c072-4be2-af44-7da35a932bb3": {
+            "image": "https://ms.yugipedia.com//3/33/BrionacDragonoftheIceBarrier-HA01-DE-ScR-LE.jpg"
+          },
+          "bf395eb5-1b89-4b5d-bb28-46932febabd8": {
+            "image": "https://ms.yugipedia.com//4/4f/FlamvellUruquizas-HA01-DE-ScR-LE.png"
+          },
+          "c37e4bd2-9a59-41c3-ac31-68f133c83f50": {
+            "image": "https://ms.yugipedia.com//d/d5/CommanderGottomsSwordmaster-HA01-DE-ScR-LE.png"
+          },
+          "c4989743-1299-4e2c-acd2-07efa30e2b3a": {
+            "image": "https://ms.yugipedia.com//d/d6/BlizzedDefenderoftheIceBarrier-HA01-DE-ScR-LE.png"
+          },
+          "c6b47181-5c4c-4fce-b6ee-acd605e1925d": {
+            "image": "https://ms.yugipedia.com//b/b0/BerserkerCrush-HA01-DE-SR-LE.jpg"
+          },
+          "ca8a3985-04c5-4c12-83d5-c462248483f4": {
+            "image": "https://ms.yugipedia.com//2/24/FlamvellGuard-HA01-DE-SR-LE.png"
+          },
+          "e18743e4-2dba-45a1-add1-7a1c32fcccd2": {
+            "image": "https://ms.yugipedia.com//4/40/FlamvellMagician-HA01-DE-SR-LE.png"
+          },
+          "f06dcc00-15c0-4532-8e85-34de4ef6ca97": {
+            "image": "https://ms.yugipedia.com//d/d7/FlamvellDragnov-HA01-DE-SR-LE.png"
+          },
+          "fcc37a72-96ff-4e78-aebe-8c5277c3db6f": {
+            "image": "https://ms.yugipedia.com//7/71/Detonate-HA01-DE-SR-LE.png"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          21108004
+        ]
+      }
+    },
+    "it": {
+      "language": "it",
+      "prefix": "HA01-IT",
+      "date": "2009-11-05",
+      "image": "https://ms.yugipedia.com//7/72/HA01-BoosterIT.png",
+      "cardImages": {
+        "limited": {
+          "076b2839-c081-439f-aa8a-941d325c33d0": "https://ms.yugipedia.com//1/11/AllyofJusticeRudra-HA01-IT-SR-LE.png",
+          "10f6fc05-8138-4603-a160-e3c5ca089ff9": "https://ms.yugipedia.com//c/cf/WrathofNeos-HA01-IT-ScR-LE.png",
+          "11488928-cf43-418e-98fc-c46c32a87b0b": "https://ms.yugipedia.com//e/ed/CryomanceroftheIceBarrier-HA01-IT-ScR-LE.jpg",
+          "16b27edb-894d-442c-96d6-6eaa33f54fd1": "https://ms.yugipedia.com//4/49/MistWurm-HA01-IT-ScR-LE.jpg",
+          "1a14fec0-3ecf-4c9b-95b3-a4e0e2a2eb5c": "https://ms.yugipedia.com//6/6b/MistValleySoldier-HA01-IT-ScR-LE.jpg",
+          "21178816-129d-458c-8902-36e45a3298a4": "https://ms.yugipedia.com//d/d2/WormCartaros-HA01-IT-SR-LE.jpg",
+          "28ab8e3f-1078-496f-8ee8-fc6a1c3492e8": "https://ms.yugipedia.com//5/51/AllyofJusticeGaradholg-HA01-IT-SR-LE.png",
+          "3d4e6a16-83c4-488a-841d-e761fa28ddac": "https://ms.yugipedia.com//5/5a/EvolutionBurst-HA01-IT-ScR-LE.jpg",
+          "4f471d1c-875a-4934-acf7-daafd613aa1e": "https://ms.yugipedia.com//b/b7/XSaberUrbellum-HA01-IT-ScR-LE.png",
+          "681d3780-3f7a-4619-bb22-0b3437b8d25a": "https://ms.yugipedia.com//9/9e/XSaberUruz-HA01-IT-SR-LE.jpg",
+          "7fff4ec9-6334-4c70-bf11-8d95d1e970bc": "https://ms.yugipedia.com//3/30/MistValleyShaman-HA01-IT-ScR-LE.jpg",
+          "94527e55-895f-42af-98a7-2d4ff6f098a6": "https://ms.yugipedia.com//a/a7/WormDimikles-HA01-IT-SR-LE.jpg",
+          "98eee53d-a2f0-41da-aa1d-92330df91294": "https://ms.yugipedia.com//e/e3/WormBarses-HA01-IT-SR-LE.jpg",
+          "9b8a4cee-fde0-4540-9843-a782bfffaa5f": "https://ms.yugipedia.com//c/ca/WormErokin-HA01-IT-ScR-LE.jpg",
+          "9d34c88e-0d7c-4942-8444-b3b9d989dae5": "https://ms.yugipedia.com//7/74/BlizzardWarrior-HA01-IT-SR-LE.jpg",
+          "a1baa21b-b621-4e39-bc26-df814bb8a808": "https://ms.yugipedia.com//1/18/AllyofJusticeCatastor-HA01-IT-ScR-LE.png",
+          "ab5a9513-baf6-4cee-a013-b84154fd9ae2": "https://ms.yugipedia.com//e/e3/XSaberAirbellum-HA01-IT-ScR-LE.jpg",
+          "ad18937f-1227-43af-9f0e-b299e5e421cb": "https://ms.yugipedia.com//b/bc/XSaberAxel-HA01-IT-SR-LE.jpg",
+          "b0910bd4-046a-4246-a1a9-03730d2a7354": "https://ms.yugipedia.com//1/1a/AllyofJusticeClausolas-HA01-IT-SR-LE.jpg",
+          "b9d63eef-1842-4add-b263-29624aaba390": "https://ms.yugipedia.com//e/e9/MistValleyThunderbird-HA01-IT-ScR-LE.jpg",
+          "bd2f7257-04c6-40ca-80f3-bc03d4630075": "https://ms.yugipedia.com//2/23/WormApocalypse-HA01-IT-SR-LE.jpg",
+          "be40dd57-c072-4be2-af44-7da35a932bb3": "https://ms.yugipedia.com//f/fe/BrionacDragonoftheIceBarrier-HA01-IT-ScR-LE.jpg",
+          "bf395eb5-1b89-4b5d-bb28-46932febabd8": "https://ms.yugipedia.com//1/1d/FlamvellUruquizas-HA01-IT-ScR-LE.jpg",
+          "c37e4bd2-9a59-41c3-ac31-68f133c83f50": "https://ms.yugipedia.com//6/69/CommanderGottomsSwordmaster-HA01-IT-ScR-LE.jpg",
+          "c4989743-1299-4e2c-acd2-07efa30e2b3a": "https://ms.yugipedia.com//6/63/BlizzedDefenderoftheIceBarrier-HA01-IT-ScR-LE.jpg",
+          "c6b47181-5c4c-4fce-b6ee-acd605e1925d": "https://ms.yugipedia.com//9/9d/BerserkerCrush-HA01-IT-SR-LE.jpg",
+          "ca8a3985-04c5-4c12-83d5-c462248483f4": "https://ms.yugipedia.com//6/6d/FlamvellGuard-HA01-IT-SR-LE.png",
+          "e18743e4-2dba-45a1-add1-7a1c32fcccd2": "https://ms.yugipedia.com//e/ef/FlamvellMagician-HA01-IT-SR-LE.jpg",
+          "f06dcc00-15c0-4532-8e85-34de4ef6ca97": "https://ms.yugipedia.com//4/4e/FlamvellDragnov-HA01-IT-SR-LE.jpg",
+          "fcc37a72-96ff-4e78-aebe-8c5277c3db6f": "https://ms.yugipedia.com//1/13/Detonate-HA01-IT-SR-LE.png"
+        }
+      },
+      "cardInfo": {
+        "limited": {
+          "076b2839-c081-439f-aa8a-941d325c33d0": {
+            "image": "https://ms.yugipedia.com//1/11/AllyofJusticeRudra-HA01-IT-SR-LE.png"
+          },
+          "10f6fc05-8138-4603-a160-e3c5ca089ff9": {
+            "image": "https://ms.yugipedia.com//c/cf/WrathofNeos-HA01-IT-ScR-LE.png"
+          },
+          "11488928-cf43-418e-98fc-c46c32a87b0b": {
+            "image": "https://ms.yugipedia.com//e/ed/CryomanceroftheIceBarrier-HA01-IT-ScR-LE.jpg"
+          },
+          "16b27edb-894d-442c-96d6-6eaa33f54fd1": {
+            "image": "https://ms.yugipedia.com//4/49/MistWurm-HA01-IT-ScR-LE.jpg"
+          },
+          "1a14fec0-3ecf-4c9b-95b3-a4e0e2a2eb5c": {
+            "image": "https://ms.yugipedia.com//6/6b/MistValleySoldier-HA01-IT-ScR-LE.jpg"
+          },
+          "21178816-129d-458c-8902-36e45a3298a4": {
+            "image": "https://ms.yugipedia.com//d/d2/WormCartaros-HA01-IT-SR-LE.jpg"
+          },
+          "28ab8e3f-1078-496f-8ee8-fc6a1c3492e8": {
+            "image": "https://ms.yugipedia.com//5/51/AllyofJusticeGaradholg-HA01-IT-SR-LE.png"
+          },
+          "3d4e6a16-83c4-488a-841d-e761fa28ddac": {
+            "image": "https://ms.yugipedia.com//5/5a/EvolutionBurst-HA01-IT-ScR-LE.jpg"
+          },
+          "4f471d1c-875a-4934-acf7-daafd613aa1e": {
+            "image": "https://ms.yugipedia.com//b/b7/XSaberUrbellum-HA01-IT-ScR-LE.png"
+          },
+          "681d3780-3f7a-4619-bb22-0b3437b8d25a": {
+            "image": "https://ms.yugipedia.com//9/9e/XSaberUruz-HA01-IT-SR-LE.jpg"
+          },
+          "7fff4ec9-6334-4c70-bf11-8d95d1e970bc": {
+            "image": "https://ms.yugipedia.com//3/30/MistValleyShaman-HA01-IT-ScR-LE.jpg"
+          },
+          "94527e55-895f-42af-98a7-2d4ff6f098a6": {
+            "image": "https://ms.yugipedia.com//a/a7/WormDimikles-HA01-IT-SR-LE.jpg"
+          },
+          "98eee53d-a2f0-41da-aa1d-92330df91294": {
+            "image": "https://ms.yugipedia.com//e/e3/WormBarses-HA01-IT-SR-LE.jpg"
+          },
+          "9b8a4cee-fde0-4540-9843-a782bfffaa5f": {
+            "image": "https://ms.yugipedia.com//c/ca/WormErokin-HA01-IT-ScR-LE.jpg"
+          },
+          "9d34c88e-0d7c-4942-8444-b3b9d989dae5": {
+            "image": "https://ms.yugipedia.com//7/74/BlizzardWarrior-HA01-IT-SR-LE.jpg"
+          },
+          "a1baa21b-b621-4e39-bc26-df814bb8a808": {
+            "image": "https://ms.yugipedia.com//1/18/AllyofJusticeCatastor-HA01-IT-ScR-LE.png"
+          },
+          "ab5a9513-baf6-4cee-a013-b84154fd9ae2": {
+            "image": "https://ms.yugipedia.com//e/e3/XSaberAirbellum-HA01-IT-ScR-LE.jpg"
+          },
+          "ad18937f-1227-43af-9f0e-b299e5e421cb": {
+            "image": "https://ms.yugipedia.com//b/bc/XSaberAxel-HA01-IT-SR-LE.jpg"
+          },
+          "b0910bd4-046a-4246-a1a9-03730d2a7354": {
+            "image": "https://ms.yugipedia.com//1/1a/AllyofJusticeClausolas-HA01-IT-SR-LE.jpg"
+          },
+          "b9d63eef-1842-4add-b263-29624aaba390": {
+            "image": "https://ms.yugipedia.com//e/e9/MistValleyThunderbird-HA01-IT-ScR-LE.jpg"
+          },
+          "bd2f7257-04c6-40ca-80f3-bc03d4630075": {
+            "image": "https://ms.yugipedia.com//2/23/WormApocalypse-HA01-IT-SR-LE.jpg"
+          },
+          "be40dd57-c072-4be2-af44-7da35a932bb3": {
+            "image": "https://ms.yugipedia.com//f/fe/BrionacDragonoftheIceBarrier-HA01-IT-ScR-LE.jpg"
+          },
+          "bf395eb5-1b89-4b5d-bb28-46932febabd8": {
+            "image": "https://ms.yugipedia.com//1/1d/FlamvellUruquizas-HA01-IT-ScR-LE.jpg"
+          },
+          "c37e4bd2-9a59-41c3-ac31-68f133c83f50": {
+            "image": "https://ms.yugipedia.com//6/69/CommanderGottomsSwordmaster-HA01-IT-ScR-LE.jpg"
+          },
+          "c4989743-1299-4e2c-acd2-07efa30e2b3a": {
+            "image": "https://ms.yugipedia.com//6/63/BlizzedDefenderoftheIceBarrier-HA01-IT-ScR-LE.jpg"
+          },
+          "c6b47181-5c4c-4fce-b6ee-acd605e1925d": {
+            "image": "https://ms.yugipedia.com//9/9d/BerserkerCrush-HA01-IT-SR-LE.jpg"
+          },
+          "ca8a3985-04c5-4c12-83d5-c462248483f4": {
+            "image": "https://ms.yugipedia.com//6/6d/FlamvellGuard-HA01-IT-SR-LE.png"
+          },
+          "e18743e4-2dba-45a1-add1-7a1c32fcccd2": {
+            "image": "https://ms.yugipedia.com//e/ef/FlamvellMagician-HA01-IT-SR-LE.jpg"
+          },
+          "f06dcc00-15c0-4532-8e85-34de4ef6ca97": {
+            "image": "https://ms.yugipedia.com//4/4e/FlamvellDragnov-HA01-IT-SR-LE.jpg"
+          },
+          "fcc37a72-96ff-4e78-aebe-8c5277c3db6f": {
+            "image": "https://ms.yugipedia.com//1/13/Detonate-HA01-IT-SR-LE.png"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          41108004
+        ]
+      }
+    },
+    "sp": {
+      "language": "es",
+      "prefix": "HA01-SP",
+      "date": "2009-11-05",
+      "image": "https://ms.yugipedia.com//1/19/HA01-BoosterSP.png",
+      "cardImages": {
+        "limited": {
+          "076b2839-c081-439f-aa8a-941d325c33d0": "https://ms.yugipedia.com//a/ae/AllyofJusticeRudra-HA01-SP-SR-LE.jpg",
+          "10f6fc05-8138-4603-a160-e3c5ca089ff9": "https://ms.yugipedia.com//5/59/WrathofNeos-HA01-SP-ScR-LE.png",
+          "11488928-cf43-418e-98fc-c46c32a87b0b": "https://ms.yugipedia.com//c/c7/CryomanceroftheIceBarrier-HA01-SP-ScR-LE.jpg",
+          "16b27edb-894d-442c-96d6-6eaa33f54fd1": "https://ms.yugipedia.com//e/ef/MistWurm-HA01-SP-ScR-LE.png",
+          "1a14fec0-3ecf-4c9b-95b3-a4e0e2a2eb5c": "https://ms.yugipedia.com//d/dd/MistValleySoldier-HA01-SP-ScR-LE.png",
+          "21178816-129d-458c-8902-36e45a3298a4": "https://ms.yugipedia.com//c/c6/WormCartaros-HA01-SP-SR-LE.png",
+          "28ab8e3f-1078-496f-8ee8-fc6a1c3492e8": "https://ms.yugipedia.com//a/a5/AllyofJusticeGaradholg-HA01-SP-SR-LE.jpg",
+          "3d4e6a16-83c4-488a-841d-e761fa28ddac": "https://ms.yugipedia.com//0/04/EvolutionBurst-HA01-SP-ScR-LE.png",
+          "4f471d1c-875a-4934-acf7-daafd613aa1e": "https://ms.yugipedia.com//d/d4/XSaberUrbellum-HA01-SP-ScR-LE.png",
+          "681d3780-3f7a-4619-bb22-0b3437b8d25a": "https://ms.yugipedia.com//7/78/XSaberUruz-HA01-SP-SR-LE.png",
+          "7fff4ec9-6334-4c70-bf11-8d95d1e970bc": "https://ms.yugipedia.com//3/34/MistValleyShaman-HA01-SP-ScR-LE.jpg",
+          "94527e55-895f-42af-98a7-2d4ff6f098a6": "https://ms.yugipedia.com//1/19/WormDimikles-HA01-SP-SR-LE.png",
+          "98eee53d-a2f0-41da-aa1d-92330df91294": "https://ms.yugipedia.com//6/6f/WormBarses-HA01-SP-SR-LE.png",
+          "9b8a4cee-fde0-4540-9843-a782bfffaa5f": "https://ms.yugipedia.com//c/c5/WormErokin-HA01-SP-ScR-LE.jpg",
+          "9d34c88e-0d7c-4942-8444-b3b9d989dae5": "https://ms.yugipedia.com//9/9a/BlizzardWarrior-HA01-SP-SR-LE.png",
+          "a1baa21b-b621-4e39-bc26-df814bb8a808": "https://ms.yugipedia.com//0/04/AllyofJusticeCatastor-HA01-SP-ScR-LE.jpg",
+          "ab5a9513-baf6-4cee-a013-b84154fd9ae2": "https://ms.yugipedia.com//e/e9/XSaberAirbellum-HA01-SP-ScR-LE.jpg",
+          "ad18937f-1227-43af-9f0e-b299e5e421cb": "https://ms.yugipedia.com//a/a8/XSaberAxel-HA01-SP-SR-LE.png",
+          "b0910bd4-046a-4246-a1a9-03730d2a7354": "https://ms.yugipedia.com//d/d6/AllyofJusticeClausolas-HA01-SP-SR-LE.png",
+          "b9d63eef-1842-4add-b263-29624aaba390": "https://ms.yugipedia.com//7/76/MistValleyThunderbird-HA01-SP-ScR-LE.jpg",
+          "bd2f7257-04c6-40ca-80f3-bc03d4630075": "https://ms.yugipedia.com//4/43/WormApocalypse-HA01-SP-SR-LE.jpg",
+          "be40dd57-c072-4be2-af44-7da35a932bb3": "https://ms.yugipedia.com//d/da/BrionacDragonoftheIceBarrier-HA01-SP-ScR-LE.png",
+          "bf395eb5-1b89-4b5d-bb28-46932febabd8": "https://ms.yugipedia.com//1/17/FlamvellUruquizas-HA01-SP-ScR-LE.jpg",
+          "c37e4bd2-9a59-41c3-ac31-68f133c83f50": "https://ms.yugipedia.com//e/e8/CommanderGottomsSwordmaster-HA01-SP-ScR-LE.png",
+          "c4989743-1299-4e2c-acd2-07efa30e2b3a": "https://ms.yugipedia.com//e/ef/BlizzedDefenderoftheIceBarrier-HA01-SP-ScR-LE.png",
+          "c6b47181-5c4c-4fce-b6ee-acd605e1925d": "https://ms.yugipedia.com//1/11/BerserkerCrush-HA01-SP-SR-LE.jpg",
+          "ca8a3985-04c5-4c12-83d5-c462248483f4": "https://ms.yugipedia.com//a/aa/FlamvellGuard-HA01-SP-SR-LE.png",
+          "e18743e4-2dba-45a1-add1-7a1c32fcccd2": "https://ms.yugipedia.com//1/1b/FlamvellMagician-HA01-SP-SR-LE.png",
+          "f06dcc00-15c0-4532-8e85-34de4ef6ca97": "https://ms.yugipedia.com//f/f4/FlamvellDragnov-HA01-SP-SR-LE.jpg",
+          "fcc37a72-96ff-4e78-aebe-8c5277c3db6f": "https://ms.yugipedia.com//2/22/Detonate-HA01-SP-SR-LE.jpg"
+        }
+      },
+      "cardInfo": {
+        "limited": {
+          "076b2839-c081-439f-aa8a-941d325c33d0": {
+            "image": "https://ms.yugipedia.com//a/ae/AllyofJusticeRudra-HA01-SP-SR-LE.jpg"
+          },
+          "10f6fc05-8138-4603-a160-e3c5ca089ff9": {
+            "image": "https://ms.yugipedia.com//5/59/WrathofNeos-HA01-SP-ScR-LE.png"
+          },
+          "11488928-cf43-418e-98fc-c46c32a87b0b": {
+            "image": "https://ms.yugipedia.com//c/c7/CryomanceroftheIceBarrier-HA01-SP-ScR-LE.jpg"
+          },
+          "16b27edb-894d-442c-96d6-6eaa33f54fd1": {
+            "image": "https://ms.yugipedia.com//e/ef/MistWurm-HA01-SP-ScR-LE.png"
+          },
+          "1a14fec0-3ecf-4c9b-95b3-a4e0e2a2eb5c": {
+            "image": "https://ms.yugipedia.com//d/dd/MistValleySoldier-HA01-SP-ScR-LE.png"
+          },
+          "21178816-129d-458c-8902-36e45a3298a4": {
+            "image": "https://ms.yugipedia.com//c/c6/WormCartaros-HA01-SP-SR-LE.png"
+          },
+          "28ab8e3f-1078-496f-8ee8-fc6a1c3492e8": {
+            "image": "https://ms.yugipedia.com//a/a5/AllyofJusticeGaradholg-HA01-SP-SR-LE.jpg"
+          },
+          "3d4e6a16-83c4-488a-841d-e761fa28ddac": {
+            "image": "https://ms.yugipedia.com//0/04/EvolutionBurst-HA01-SP-ScR-LE.png"
+          },
+          "4f471d1c-875a-4934-acf7-daafd613aa1e": {
+            "image": "https://ms.yugipedia.com//d/d4/XSaberUrbellum-HA01-SP-ScR-LE.png"
+          },
+          "681d3780-3f7a-4619-bb22-0b3437b8d25a": {
+            "image": "https://ms.yugipedia.com//7/78/XSaberUruz-HA01-SP-SR-LE.png"
+          },
+          "7fff4ec9-6334-4c70-bf11-8d95d1e970bc": {
+            "image": "https://ms.yugipedia.com//3/34/MistValleyShaman-HA01-SP-ScR-LE.jpg"
+          },
+          "94527e55-895f-42af-98a7-2d4ff6f098a6": {
+            "image": "https://ms.yugipedia.com//1/19/WormDimikles-HA01-SP-SR-LE.png"
+          },
+          "98eee53d-a2f0-41da-aa1d-92330df91294": {
+            "image": "https://ms.yugipedia.com//6/6f/WormBarses-HA01-SP-SR-LE.png"
+          },
+          "9b8a4cee-fde0-4540-9843-a782bfffaa5f": {
+            "image": "https://ms.yugipedia.com//c/c5/WormErokin-HA01-SP-ScR-LE.jpg"
+          },
+          "9d34c88e-0d7c-4942-8444-b3b9d989dae5": {
+            "image": "https://ms.yugipedia.com//9/9a/BlizzardWarrior-HA01-SP-SR-LE.png"
+          },
+          "a1baa21b-b621-4e39-bc26-df814bb8a808": {
+            "image": "https://ms.yugipedia.com//0/04/AllyofJusticeCatastor-HA01-SP-ScR-LE.jpg"
+          },
+          "ab5a9513-baf6-4cee-a013-b84154fd9ae2": {
+            "image": "https://ms.yugipedia.com//e/e9/XSaberAirbellum-HA01-SP-ScR-LE.jpg"
+          },
+          "ad18937f-1227-43af-9f0e-b299e5e421cb": {
+            "image": "https://ms.yugipedia.com//a/a8/XSaberAxel-HA01-SP-SR-LE.png"
+          },
+          "b0910bd4-046a-4246-a1a9-03730d2a7354": {
+            "image": "https://ms.yugipedia.com//d/d6/AllyofJusticeClausolas-HA01-SP-SR-LE.png"
+          },
+          "b9d63eef-1842-4add-b263-29624aaba390": {
+            "image": "https://ms.yugipedia.com//7/76/MistValleyThunderbird-HA01-SP-ScR-LE.jpg"
+          },
+          "bd2f7257-04c6-40ca-80f3-bc03d4630075": {
+            "image": "https://ms.yugipedia.com//4/43/WormApocalypse-HA01-SP-SR-LE.jpg"
+          },
+          "be40dd57-c072-4be2-af44-7da35a932bb3": {
+            "image": "https://ms.yugipedia.com//d/da/BrionacDragonoftheIceBarrier-HA01-SP-ScR-LE.png"
+          },
+          "bf395eb5-1b89-4b5d-bb28-46932febabd8": {
+            "image": "https://ms.yugipedia.com//1/17/FlamvellUruquizas-HA01-SP-ScR-LE.jpg"
+          },
+          "c37e4bd2-9a59-41c3-ac31-68f133c83f50": {
+            "image": "https://ms.yugipedia.com//e/e8/CommanderGottomsSwordmaster-HA01-SP-ScR-LE.png"
+          },
+          "c4989743-1299-4e2c-acd2-07efa30e2b3a": {
+            "image": "https://ms.yugipedia.com//e/ef/BlizzedDefenderoftheIceBarrier-HA01-SP-ScR-LE.png"
+          },
+          "c6b47181-5c4c-4fce-b6ee-acd605e1925d": {
+            "image": "https://ms.yugipedia.com//1/11/BerserkerCrush-HA01-SP-SR-LE.jpg"
+          },
+          "ca8a3985-04c5-4c12-83d5-c462248483f4": {
+            "image": "https://ms.yugipedia.com//a/aa/FlamvellGuard-HA01-SP-SR-LE.png"
+          },
+          "e18743e4-2dba-45a1-add1-7a1c32fcccd2": {
+            "image": "https://ms.yugipedia.com//1/1b/FlamvellMagician-HA01-SP-SR-LE.png"
+          },
+          "f06dcc00-15c0-4532-8e85-34de4ef6ca97": {
+            "image": "https://ms.yugipedia.com//f/f4/FlamvellDragnov-HA01-SP-SR-LE.jpg"
+          },
+          "fcc37a72-96ff-4e78-aebe-8c5277c3db6f": {
+            "image": "https://ms.yugipedia.com//2/22/Detonate-HA01-SP-SR-LE.jpg"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          51107004
+        ]
+      }
+    },
+    "kr": {
+      "language": "ko",
+      "prefix": "HA01-KR",
+      "date": "2010-05-25",
+      "image": "https://ms.yugipedia.com//5/5f/HA01-BoosterKR.png",
+      "cardImages": {
+        "1st": {
+          "076b2839-c081-439f-aa8a-941d325c33d0": "https://ms.yugipedia.com//1/18/AllyofJusticeRudra-HA01-KR-SR-1E.png",
+          "10f6fc05-8138-4603-a160-e3c5ca089ff9": "https://ms.yugipedia.com//9/9a/WrathofNeos-HA01-KR-ScR-1E.png",
+          "11488928-cf43-418e-98fc-c46c32a87b0b": "https://ms.yugipedia.com//6/6f/CryomanceroftheIceBarrier-HA01-KR-ScR-1E.png",
+          "16b27edb-894d-442c-96d6-6eaa33f54fd1": "https://ms.yugipedia.com//d/de/MistWurm-HA01-KR-ScR-1E.png",
+          "1a14fec0-3ecf-4c9b-95b3-a4e0e2a2eb5c": "https://ms.yugipedia.com//d/d7/MistValleySoldier-HA01-KR-ScR-1E.png",
+          "21178816-129d-458c-8902-36e45a3298a4": "https://ms.yugipedia.com//e/e8/WormCartaros-HA01-KR-SR-1E.png",
+          "28ab8e3f-1078-496f-8ee8-fc6a1c3492e8": "https://ms.yugipedia.com//b/be/AllyofJusticeGaradholg-HA01-KR-SR-1E.png",
+          "3d4e6a16-83c4-488a-841d-e761fa28ddac": "https://ms.yugipedia.com//c/cf/EvolutionBurst-HA01-KR-ScR-1E.png",
+          "4f471d1c-875a-4934-acf7-daafd613aa1e": "https://ms.yugipedia.com//a/a4/XSaberUrbellum-HA01-KR-ScR-1E.png",
+          "681d3780-3f7a-4619-bb22-0b3437b8d25a": "https://ms.yugipedia.com//6/69/XSaberUruz-HA01-KR-SR-1E.png",
+          "7fff4ec9-6334-4c70-bf11-8d95d1e970bc": "https://ms.yugipedia.com//f/fd/MistValleyShaman-HA01-KR-ScR-1E.png",
+          "94527e55-895f-42af-98a7-2d4ff6f098a6": "https://ms.yugipedia.com//c/cf/WormDimikles-HA01-KR-SR-1E.png",
+          "98eee53d-a2f0-41da-aa1d-92330df91294": "https://ms.yugipedia.com//5/5c/WormBarses-HA01-KR-SR-1E.jpg",
+          "9b8a4cee-fde0-4540-9843-a782bfffaa5f": "https://ms.yugipedia.com//9/9d/WormErokin-HA01-KR-ScR-1E.png",
+          "9d34c88e-0d7c-4942-8444-b3b9d989dae5": "https://ms.yugipedia.com//1/11/BlizzardWarrior-HA01-KR-SR-1E.png",
+          "a1baa21b-b621-4e39-bc26-df814bb8a808": "https://ms.yugipedia.com//d/d2/AllyofJusticeCatastor-HA01-KR-ScR-1E.png",
+          "ab5a9513-baf6-4cee-a013-b84154fd9ae2": "https://ms.yugipedia.com//f/f0/XSaberAirbellum-HA01-KR-ScR-1E.png",
+          "ad18937f-1227-43af-9f0e-b299e5e421cb": "https://ms.yugipedia.com//e/e5/XSaberAxel-HA01-KR-SR-1E.png",
+          "b0910bd4-046a-4246-a1a9-03730d2a7354": "https://ms.yugipedia.com//8/84/AllyofJusticeClausolas-HA01-KR-SR-1E.png",
+          "b9d63eef-1842-4add-b263-29624aaba390": "https://ms.yugipedia.com//4/42/MistValleyThunderbird-HA01-KR-ScR-1E.png",
+          "bd2f7257-04c6-40ca-80f3-bc03d4630075": "https://ms.yugipedia.com//f/fa/WormApocalypse-HA01-KR-SR-1E.png",
+          "be40dd57-c072-4be2-af44-7da35a932bb3": "https://ms.yugipedia.com//b/b9/BrionacDragonoftheIceBarrier-HA01-KR-ScR-1E.jpg",
+          "bf395eb5-1b89-4b5d-bb28-46932febabd8": "https://ms.yugipedia.com//d/de/FlamvellUruquizas-HA01-KR-ScR-1E.png",
+          "c37e4bd2-9a59-41c3-ac31-68f133c83f50": "https://ms.yugipedia.com//7/77/CommanderGottomsSwordmaster-HA01-KR-ScR-1E.png",
+          "c4989743-1299-4e2c-acd2-07efa30e2b3a": "https://ms.yugipedia.com//d/df/BlizzedDefenderoftheIceBarrier-HA01-KR-ScR-1E.png",
+          "c6b47181-5c4c-4fce-b6ee-acd605e1925d": "https://ms.yugipedia.com//c/cf/BerserkerCrush-HA01-KR-SR-1E.png",
+          "ca8a3985-04c5-4c12-83d5-c462248483f4": "https://ms.yugipedia.com//2/23/FlamvellGuard-HA01-KR-SR-1E.png",
+          "e18743e4-2dba-45a1-add1-7a1c32fcccd2": "https://ms.yugipedia.com//2/29/FlamvellMagician-HA01-KR-SR-1E.png",
+          "f06dcc00-15c0-4532-8e85-34de4ef6ca97": "https://ms.yugipedia.com//2/2c/FlamvellDragnov-HA01-KR-SR-1E.png",
+          "fcc37a72-96ff-4e78-aebe-8c5277c3db6f": "https://ms.yugipedia.com//b/bf/Detonate-HA01-KR-SR-1E.png"
+        }
+      },
+      "cardInfo": {
+        "1st": {
+          "076b2839-c081-439f-aa8a-941d325c33d0": {
+            "image": "https://ms.yugipedia.com//1/18/AllyofJusticeRudra-HA01-KR-SR-1E.png"
+          },
+          "10f6fc05-8138-4603-a160-e3c5ca089ff9": {
+            "image": "https://ms.yugipedia.com//9/9a/WrathofNeos-HA01-KR-ScR-1E.png"
+          },
+          "11488928-cf43-418e-98fc-c46c32a87b0b": {
+            "image": "https://ms.yugipedia.com//6/6f/CryomanceroftheIceBarrier-HA01-KR-ScR-1E.png"
+          },
+          "16b27edb-894d-442c-96d6-6eaa33f54fd1": {
+            "image": "https://ms.yugipedia.com//d/de/MistWurm-HA01-KR-ScR-1E.png"
+          },
+          "1a14fec0-3ecf-4c9b-95b3-a4e0e2a2eb5c": {
+            "image": "https://ms.yugipedia.com//d/d7/MistValleySoldier-HA01-KR-ScR-1E.png"
+          },
+          "21178816-129d-458c-8902-36e45a3298a4": {
+            "image": "https://ms.yugipedia.com//e/e8/WormCartaros-HA01-KR-SR-1E.png"
+          },
+          "28ab8e3f-1078-496f-8ee8-fc6a1c3492e8": {
+            "image": "https://ms.yugipedia.com//b/be/AllyofJusticeGaradholg-HA01-KR-SR-1E.png"
+          },
+          "3d4e6a16-83c4-488a-841d-e761fa28ddac": {
+            "image": "https://ms.yugipedia.com//c/cf/EvolutionBurst-HA01-KR-ScR-1E.png"
+          },
+          "4f471d1c-875a-4934-acf7-daafd613aa1e": {
+            "image": "https://ms.yugipedia.com//a/a4/XSaberUrbellum-HA01-KR-ScR-1E.png"
+          },
+          "681d3780-3f7a-4619-bb22-0b3437b8d25a": {
+            "image": "https://ms.yugipedia.com//6/69/XSaberUruz-HA01-KR-SR-1E.png"
+          },
+          "7fff4ec9-6334-4c70-bf11-8d95d1e970bc": {
+            "image": "https://ms.yugipedia.com//f/fd/MistValleyShaman-HA01-KR-ScR-1E.png"
+          },
+          "94527e55-895f-42af-98a7-2d4ff6f098a6": {
+            "image": "https://ms.yugipedia.com//c/cf/WormDimikles-HA01-KR-SR-1E.png"
+          },
+          "98eee53d-a2f0-41da-aa1d-92330df91294": {
+            "image": "https://ms.yugipedia.com//5/5c/WormBarses-HA01-KR-SR-1E.jpg"
+          },
+          "9b8a4cee-fde0-4540-9843-a782bfffaa5f": {
+            "image": "https://ms.yugipedia.com//9/9d/WormErokin-HA01-KR-ScR-1E.png"
+          },
+          "9d34c88e-0d7c-4942-8444-b3b9d989dae5": {
+            "image": "https://ms.yugipedia.com//1/11/BlizzardWarrior-HA01-KR-SR-1E.png"
+          },
+          "a1baa21b-b621-4e39-bc26-df814bb8a808": {
+            "image": "https://ms.yugipedia.com//d/d2/AllyofJusticeCatastor-HA01-KR-ScR-1E.png"
+          },
+          "ab5a9513-baf6-4cee-a013-b84154fd9ae2": {
+            "image": "https://ms.yugipedia.com//f/f0/XSaberAirbellum-HA01-KR-ScR-1E.png"
+          },
+          "ad18937f-1227-43af-9f0e-b299e5e421cb": {
+            "image": "https://ms.yugipedia.com//e/e5/XSaberAxel-HA01-KR-SR-1E.png"
+          },
+          "b0910bd4-046a-4246-a1a9-03730d2a7354": {
+            "image": "https://ms.yugipedia.com//8/84/AllyofJusticeClausolas-HA01-KR-SR-1E.png"
+          },
+          "b9d63eef-1842-4add-b263-29624aaba390": {
+            "image": "https://ms.yugipedia.com//4/42/MistValleyThunderbird-HA01-KR-ScR-1E.png"
+          },
+          "bd2f7257-04c6-40ca-80f3-bc03d4630075": {
+            "image": "https://ms.yugipedia.com//f/fa/WormApocalypse-HA01-KR-SR-1E.png"
+          },
+          "be40dd57-c072-4be2-af44-7da35a932bb3": {
+            "image": "https://ms.yugipedia.com//b/b9/BrionacDragonoftheIceBarrier-HA01-KR-ScR-1E.jpg"
+          },
+          "bf395eb5-1b89-4b5d-bb28-46932febabd8": {
+            "image": "https://ms.yugipedia.com//d/de/FlamvellUruquizas-HA01-KR-ScR-1E.png"
+          },
+          "c37e4bd2-9a59-41c3-ac31-68f133c83f50": {
+            "image": "https://ms.yugipedia.com//7/77/CommanderGottomsSwordmaster-HA01-KR-ScR-1E.png"
+          },
+          "c4989743-1299-4e2c-acd2-07efa30e2b3a": {
+            "image": "https://ms.yugipedia.com//d/df/BlizzedDefenderoftheIceBarrier-HA01-KR-ScR-1E.png"
+          },
+          "c6b47181-5c4c-4fce-b6ee-acd605e1925d": {
+            "image": "https://ms.yugipedia.com//c/cf/BerserkerCrush-HA01-KR-SR-1E.png"
+          },
+          "ca8a3985-04c5-4c12-83d5-c462248483f4": {
+            "image": "https://ms.yugipedia.com//2/23/FlamvellGuard-HA01-KR-SR-1E.png"
+          },
+          "e18743e4-2dba-45a1-add1-7a1c32fcccd2": {
+            "image": "https://ms.yugipedia.com//2/29/FlamvellMagician-HA01-KR-SR-1E.png"
+          },
+          "f06dcc00-15c0-4532-8e85-34de4ef6ca97": {
+            "image": "https://ms.yugipedia.com//2/2c/FlamvellDragnov-HA01-KR-SR-1E.png"
+          },
+          "fcc37a72-96ff-4e78-aebe-8c5277c3db6f": {
+            "image": "https://ms.yugipedia.com//b/bf/Detonate-HA01-KR-SR-1E.png"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "1st"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          78805001
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "en"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "distrobution": "2e33ad14-fd18-4f42-8135-c4293948d006",
+      "packsPerBox": 36,
+      "editions": [
+        "unlimited",
+        "limited"
+      ],
+      "image": "https://ms.yugipedia.com//f/fd/HA01-BoosterEN.png",
+      "cards": [
+        {
+          "id": "c4989743-1299-4e2c-acd2-07efa30e2b3a",
+          "card": "120e5814-5c5d-4a6e-8df3-a6efc28860af",
+          "suffix": "001",
+          "rarity": "secret",
+          "imageID": "d7433f9e-8b27-40f4-a8a6-98404c6ea92e",
+          "printStatus": "new"
+        },
+        {
+          "id": "9d34c88e-0d7c-4942-8444-b3b9d989dae5",
+          "card": "00630dce-2a9f-404b-93bc-ee6153ed535d",
+          "suffix": "002",
+          "rarity": "super",
+          "imageID": "51827912-11de-4222-8edc-ac5742ef9562",
+          "printStatus": "new"
+        },
+        {
+          "id": "11488928-cf43-418e-98fc-c46c32a87b0b",
+          "card": "72dca6ef-d4fe-4b43-8abf-1e197a037e2f",
+          "suffix": "003",
+          "rarity": "secret",
+          "imageID": "5d2eaefd-cf3c-4dd4-b66d-717a8e4de99a",
+          "printStatus": "new"
+        },
+        {
+          "id": "b9d63eef-1842-4add-b263-29624aaba390",
+          "card": "05d65be2-f3f9-4e3c-bdfe-419d4db4ddfb",
+          "suffix": "004",
+          "rarity": "secret",
+          "imageID": "9a14630f-8eb6-4286-af18-74e846b8136d",
+          "printStatus": "new"
+        },
+        {
+          "id": "7fff4ec9-6334-4c70-bf11-8d95d1e970bc",
+          "card": "879facc9-5c80-4142-a6c4-57f22a8b18ab",
+          "suffix": "005",
+          "rarity": "secret",
+          "imageID": "65259ff5-381a-495f-9bf6-96f06c5f6c31",
+          "printStatus": "new"
+        },
+        {
+          "id": "1a14fec0-3ecf-4c9b-95b3-a4e0e2a2eb5c",
+          "card": "4686b303-b573-4419-af14-4128ce4a16e5",
+          "suffix": "006",
+          "rarity": "secret",
+          "imageID": "0cd70957-dcbb-4c60-a6c8-bb8ef8e81273",
+          "printStatus": "new"
+        },
+        {
+          "id": "f06dcc00-15c0-4532-8e85-34de4ef6ca97",
+          "card": "617057f9-9ed1-42f0-974b-c8a4791319d5",
+          "suffix": "007",
+          "rarity": "super",
+          "imageID": "60303b1d-c885-4afa-99b1-06560a50409a",
+          "printStatus": "new"
+        },
+        {
+          "id": "e18743e4-2dba-45a1-add1-7a1c32fcccd2",
+          "card": "1acb4c63-55a6-4092-8c05-e4bdd09b0ce1",
+          "suffix": "008",
+          "rarity": "super",
+          "imageID": "850c6958-cc30-4203-947e-2852e86d8085",
+          "printStatus": "new"
+        },
+        {
+          "id": "ca8a3985-04c5-4c12-83d5-c462248483f4",
+          "card": "495630e9-57c0-41e8-8b8b-46e8c2466da0",
+          "suffix": "009",
+          "rarity": "super",
+          "imageID": "38d68dd9-ab8f-4a83-93ca-c55b26011ce1",
+          "printStatus": "new"
+        },
+        {
+          "id": "ad18937f-1227-43af-9f0e-b299e5e421cb",
+          "card": "825f99e4-7652-4ad4-ab39-d8b7baa21536",
+          "suffix": "010",
+          "rarity": "super",
+          "imageID": "cb2a3feb-199f-4c37-84be-20eb64af6878",
+          "printStatus": "new"
+        },
+        {
+          "id": "ab5a9513-baf6-4cee-a013-b84154fd9ae2",
+          "card": "fc2c8bc6-b5cf-4023-af75-b6354557a3e4",
+          "suffix": "011",
+          "rarity": "secret",
+          "imageID": "4e9ccd2c-a1a1-404c-8eef-04b0571573a8",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "681d3780-3f7a-4619-bb22-0b3437b8d25a",
+          "card": "1ae7e9c7-36af-49b3-b69f-dadadb5e40ea",
+          "suffix": "012",
+          "rarity": "super",
+          "imageID": "d898fe56-ef9f-4ade-92a0-1ff243a653c3",
+          "printStatus": "new"
+        },
+        {
+          "id": "c37e4bd2-9a59-41c3-ac31-68f133c83f50",
+          "card": "114a9176-96f3-41de-a81e-8605a53efe55",
+          "suffix": "013",
+          "rarity": "secret",
+          "imageID": "91f1ef79-cc20-4040-8a9c-b31738c5be0e",
+          "printStatus": "new"
+        },
+        {
+          "id": "b0910bd4-046a-4246-a1a9-03730d2a7354",
+          "card": "f528dbc1-cbde-4e0d-bc80-f8b010b44901",
+          "suffix": "014",
+          "rarity": "super",
+          "imageID": "46fd776c-5fb3-4928-90f6-50a5b67a4ecb",
+          "printStatus": "new"
+        },
+        {
+          "id": "28ab8e3f-1078-496f-8ee8-fc6a1c3492e8",
+          "card": "a4a82bfa-3c2e-4894-95fa-94af13fb5751",
+          "suffix": "015",
+          "rarity": "super",
+          "imageID": "3fb1e35d-d99c-4573-8445-8ae9f965ad4f",
+          "printStatus": "new"
+        },
+        {
+          "id": "076b2839-c081-439f-aa8a-941d325c33d0",
+          "card": "fbca6350-39bc-48a3-ac7e-f008b492d00d",
+          "suffix": "016",
+          "rarity": "super",
+          "imageID": "5f56595f-a564-4463-943c-19a7427ee207",
+          "printStatus": "new"
+        },
+        {
+          "id": "bd2f7257-04c6-40ca-80f3-bc03d4630075",
+          "card": "797fda81-83ae-40d7-88d0-f4a3bf6a446e",
+          "suffix": "017",
+          "rarity": "super",
+          "imageID": "bf20ae4d-1887-4280-8131-72a4fe5b1048",
+          "printStatus": "new"
+        },
+        {
+          "id": "98eee53d-a2f0-41da-aa1d-92330df91294",
+          "card": "12b3c5bc-c0dc-469d-b945-cb72e30a5b96",
+          "suffix": "018",
+          "rarity": "super",
+          "imageID": "2765a9d7-33f2-4688-8358-ab92bd0b49a4",
+          "printStatus": "new"
+        },
+        {
+          "id": "21178816-129d-458c-8902-36e45a3298a4",
+          "card": "5d66ae8f-047c-4e71-94a8-bca8dbb10bea",
+          "suffix": "019",
+          "rarity": "super",
+          "imageID": "d64d5b2e-8285-4d64-808d-e606b7a351de",
+          "printStatus": "new"
+        },
+        {
+          "id": "94527e55-895f-42af-98a7-2d4ff6f098a6",
+          "card": "184fe0ff-59db-4ad1-a7e6-89d65c45944e",
+          "suffix": "020",
+          "rarity": "super",
+          "imageID": "8a74dcc6-3046-4870-b8fa-f03488d79157",
+          "printStatus": "new"
+        },
+        {
+          "id": "9b8a4cee-fde0-4540-9843-a782bfffaa5f",
+          "card": "2379cd39-2eb4-4511-80bf-66c6ee96a6b5",
+          "suffix": "021",
+          "rarity": "secret",
+          "imageID": "57bb798b-8f22-4e30-be89-5d952b06e7ac",
+          "printStatus": "new"
+        },
+        {
+          "id": "be40dd57-c072-4be2-af44-7da35a932bb3",
+          "card": "38aa0dc9-481f-453b-ac52-9579f1ea4039",
+          "suffix": "022",
+          "rarity": "secret",
+          "imageID": "634f0ed7-7825-496d-ba9b-b441ce0f22d2",
+          "printStatus": "new"
+        },
+        {
+          "id": "16b27edb-894d-442c-96d6-6eaa33f54fd1",
+          "card": "99eb5317-001f-46b5-9a0c-ff8939e6f73e",
+          "suffix": "023",
+          "rarity": "secret",
+          "imageID": "cbf5772d-e200-4044-9600-be345549981f",
+          "printStatus": "new"
+        },
+        {
+          "id": "bf395eb5-1b89-4b5d-bb28-46932febabd8",
+          "card": "bfafd2ac-cdd6-4f63-a776-7bc722eccdba",
+          "suffix": "024",
+          "rarity": "secret",
+          "imageID": "666f23e5-4fa4-43e7-8d59-a5e5e61f8df3",
+          "printStatus": "new"
+        },
+        {
+          "id": "4f471d1c-875a-4934-acf7-daafd613aa1e",
+          "card": "2a9d2a4e-4c79-45a0-8457-aba3961f7a67",
+          "suffix": "025",
+          "rarity": "secret",
+          "imageID": "1225cb53-e579-448c-a65d-e7d008e2032b",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "a1baa21b-b621-4e39-bc26-df814bb8a808",
+          "card": "d9bb7aba-7e8e-4fe6-a7cd-e86c58f6c955",
+          "suffix": "026",
+          "rarity": "secret",
+          "imageID": "8a6a0733-3410-4f00-a9e1-30c94c2ea2c1",
+          "printStatus": "reprint",
+          "printNote": "TCG legal debut"
+        },
+        {
+          "id": "10f6fc05-8138-4603-a160-e3c5ca089ff9",
+          "card": "81b5ee00-d1dc-407e-b6ab-2f2ed8f2f4d6",
+          "suffix": "027",
+          "rarity": "secret",
+          "imageID": "f50248aa-5ebc-44c1-b885-5ec684caf574",
+          "printStatus": "new"
+        },
+        {
+          "id": "fcc37a72-96ff-4e78-aebe-8c5277c3db6f",
+          "card": "0f10b08c-2ad3-4dcc-ad8f-a0184057ebca",
+          "suffix": "028",
+          "rarity": "super",
+          "imageID": "ab18cab7-2738-4c28-97b5-fef4cf9521a6",
+          "printStatus": "new"
+        },
+        {
+          "id": "c6b47181-5c4c-4fce-b6ee-acd605e1925d",
+          "card": "02eaaa86-e95b-4e30-bd31-328230f7021a",
+          "suffix": "029",
+          "rarity": "super",
+          "imageID": "1a0fe439-a98e-472f-b6f9-1e5cbd9a37cc",
+          "printStatus": "new"
+        },
+        {
+          "id": "3d4e6a16-83c4-488a-841d-e761fa28ddac",
+          "card": "a9c228e0-61af-48a4-bee7-ea6a5944199e",
+          "suffix": "030",
+          "rarity": "secret",
+          "imageID": "d22b8081-1da1-4f18-9714-f96d41d73462",
+          "printStatus": "new"
+        }
+      ],
+      "externalIDs": {
+        "ygoprodeck": "Hidden Arsenal"
+      }
+    },
+    {
+      "locales": [
+        "fr"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "distrobution": "2e33ad14-fd18-4f42-8135-c4293948d006",
+      "packsPerBox": 36,
+      "editions": [
+        "limited"
+      ],
+      "image": "https://ms.yugipedia.com//c/c0/HA01-BoosterFR.png",
+      "cards": [
+        {
+          "id": "c4989743-1299-4e2c-acd2-07efa30e2b3a",
+          "card": "120e5814-5c5d-4a6e-8df3-a6efc28860af",
+          "suffix": "001",
+          "rarity": "secret",
+          "imageID": "d7433f9e-8b27-40f4-a8a6-98404c6ea92e"
+        },
+        {
+          "id": "9d34c88e-0d7c-4942-8444-b3b9d989dae5",
+          "card": "00630dce-2a9f-404b-93bc-ee6153ed535d",
+          "suffix": "002",
+          "rarity": "super",
+          "imageID": "51827912-11de-4222-8edc-ac5742ef9562"
+        },
+        {
+          "id": "11488928-cf43-418e-98fc-c46c32a87b0b",
+          "card": "72dca6ef-d4fe-4b43-8abf-1e197a037e2f",
+          "suffix": "003",
+          "rarity": "secret",
+          "imageID": "5d2eaefd-cf3c-4dd4-b66d-717a8e4de99a"
+        },
+        {
+          "id": "b9d63eef-1842-4add-b263-29624aaba390",
+          "card": "05d65be2-f3f9-4e3c-bdfe-419d4db4ddfb",
+          "suffix": "004",
+          "rarity": "secret",
+          "imageID": "9a14630f-8eb6-4286-af18-74e846b8136d"
+        },
+        {
+          "id": "7fff4ec9-6334-4c70-bf11-8d95d1e970bc",
+          "card": "879facc9-5c80-4142-a6c4-57f22a8b18ab",
+          "suffix": "005",
+          "rarity": "secret",
+          "imageID": "65259ff5-381a-495f-9bf6-96f06c5f6c31"
+        },
+        {
+          "id": "1a14fec0-3ecf-4c9b-95b3-a4e0e2a2eb5c",
+          "card": "4686b303-b573-4419-af14-4128ce4a16e5",
+          "suffix": "006",
+          "rarity": "secret",
+          "imageID": "0cd70957-dcbb-4c60-a6c8-bb8ef8e81273"
+        },
+        {
+          "id": "f06dcc00-15c0-4532-8e85-34de4ef6ca97",
+          "card": "617057f9-9ed1-42f0-974b-c8a4791319d5",
+          "suffix": "007",
+          "rarity": "super",
+          "imageID": "60303b1d-c885-4afa-99b1-06560a50409a"
+        },
+        {
+          "id": "e18743e4-2dba-45a1-add1-7a1c32fcccd2",
+          "card": "1acb4c63-55a6-4092-8c05-e4bdd09b0ce1",
+          "suffix": "008",
+          "rarity": "super",
+          "imageID": "850c6958-cc30-4203-947e-2852e86d8085"
+        },
+        {
+          "id": "ca8a3985-04c5-4c12-83d5-c462248483f4",
+          "card": "495630e9-57c0-41e8-8b8b-46e8c2466da0",
+          "suffix": "009",
+          "rarity": "super",
+          "imageID": "38d68dd9-ab8f-4a83-93ca-c55b26011ce1"
+        },
+        {
+          "id": "ad18937f-1227-43af-9f0e-b299e5e421cb",
+          "card": "825f99e4-7652-4ad4-ab39-d8b7baa21536",
+          "suffix": "010",
+          "rarity": "super",
+          "imageID": "cb2a3feb-199f-4c37-84be-20eb64af6878"
+        },
+        {
+          "id": "ab5a9513-baf6-4cee-a013-b84154fd9ae2",
+          "card": "fc2c8bc6-b5cf-4023-af75-b6354557a3e4",
+          "suffix": "011",
+          "rarity": "secret",
+          "imageID": "4e9ccd2c-a1a1-404c-8eef-04b0571573a8"
+        },
+        {
+          "id": "681d3780-3f7a-4619-bb22-0b3437b8d25a",
+          "card": "1ae7e9c7-36af-49b3-b69f-dadadb5e40ea",
+          "suffix": "012",
+          "rarity": "super",
+          "imageID": "d898fe56-ef9f-4ade-92a0-1ff243a653c3"
+        },
+        {
+          "id": "c37e4bd2-9a59-41c3-ac31-68f133c83f50",
+          "card": "114a9176-96f3-41de-a81e-8605a53efe55",
+          "suffix": "013",
+          "rarity": "secret",
+          "imageID": "91f1ef79-cc20-4040-8a9c-b31738c5be0e"
+        },
+        {
+          "id": "b0910bd4-046a-4246-a1a9-03730d2a7354",
+          "card": "f528dbc1-cbde-4e0d-bc80-f8b010b44901",
+          "suffix": "014",
+          "rarity": "super",
+          "imageID": "46fd776c-5fb3-4928-90f6-50a5b67a4ecb"
+        },
+        {
+          "id": "28ab8e3f-1078-496f-8ee8-fc6a1c3492e8",
+          "card": "a4a82bfa-3c2e-4894-95fa-94af13fb5751",
+          "suffix": "015",
+          "rarity": "super",
+          "imageID": "3fb1e35d-d99c-4573-8445-8ae9f965ad4f"
+        },
+        {
+          "id": "076b2839-c081-439f-aa8a-941d325c33d0",
+          "card": "fbca6350-39bc-48a3-ac7e-f008b492d00d",
+          "suffix": "016",
+          "rarity": "super",
+          "imageID": "5f56595f-a564-4463-943c-19a7427ee207"
+        },
+        {
+          "id": "bd2f7257-04c6-40ca-80f3-bc03d4630075",
+          "card": "797fda81-83ae-40d7-88d0-f4a3bf6a446e",
+          "suffix": "017",
+          "rarity": "super",
+          "imageID": "bf20ae4d-1887-4280-8131-72a4fe5b1048"
+        },
+        {
+          "id": "98eee53d-a2f0-41da-aa1d-92330df91294",
+          "card": "12b3c5bc-c0dc-469d-b945-cb72e30a5b96",
+          "suffix": "018",
+          "rarity": "super",
+          "imageID": "2765a9d7-33f2-4688-8358-ab92bd0b49a4"
+        },
+        {
+          "id": "21178816-129d-458c-8902-36e45a3298a4",
+          "card": "5d66ae8f-047c-4e71-94a8-bca8dbb10bea",
+          "suffix": "019",
+          "rarity": "super",
+          "imageID": "d64d5b2e-8285-4d64-808d-e606b7a351de"
+        },
+        {
+          "id": "94527e55-895f-42af-98a7-2d4ff6f098a6",
+          "card": "184fe0ff-59db-4ad1-a7e6-89d65c45944e",
+          "suffix": "020",
+          "rarity": "super",
+          "imageID": "8a74dcc6-3046-4870-b8fa-f03488d79157"
+        },
+        {
+          "id": "9b8a4cee-fde0-4540-9843-a782bfffaa5f",
+          "card": "2379cd39-2eb4-4511-80bf-66c6ee96a6b5",
+          "suffix": "021",
+          "rarity": "secret",
+          "imageID": "57bb798b-8f22-4e30-be89-5d952b06e7ac"
+        },
+        {
+          "id": "be40dd57-c072-4be2-af44-7da35a932bb3",
+          "card": "38aa0dc9-481f-453b-ac52-9579f1ea4039",
+          "suffix": "022",
+          "rarity": "secret",
+          "imageID": "634f0ed7-7825-496d-ba9b-b441ce0f22d2"
+        },
+        {
+          "id": "16b27edb-894d-442c-96d6-6eaa33f54fd1",
+          "card": "99eb5317-001f-46b5-9a0c-ff8939e6f73e",
+          "suffix": "023",
+          "rarity": "secret",
+          "imageID": "cbf5772d-e200-4044-9600-be345549981f"
+        },
+        {
+          "id": "bf395eb5-1b89-4b5d-bb28-46932febabd8",
+          "card": "bfafd2ac-cdd6-4f63-a776-7bc722eccdba",
+          "suffix": "024",
+          "rarity": "secret",
+          "imageID": "666f23e5-4fa4-43e7-8d59-a5e5e61f8df3"
+        },
+        {
+          "id": "4f471d1c-875a-4934-acf7-daafd613aa1e",
+          "card": "2a9d2a4e-4c79-45a0-8457-aba3961f7a67",
+          "suffix": "025",
+          "rarity": "secret",
+          "imageID": "1225cb53-e579-448c-a65d-e7d008e2032b"
+        },
+        {
+          "id": "a1baa21b-b621-4e39-bc26-df814bb8a808",
+          "card": "d9bb7aba-7e8e-4fe6-a7cd-e86c58f6c955",
+          "suffix": "026",
+          "rarity": "secret",
+          "imageID": "8a6a0733-3410-4f00-a9e1-30c94c2ea2c1"
+        },
+        {
+          "id": "10f6fc05-8138-4603-a160-e3c5ca089ff9",
+          "card": "81b5ee00-d1dc-407e-b6ab-2f2ed8f2f4d6",
+          "suffix": "027",
+          "rarity": "secret",
+          "imageID": "f50248aa-5ebc-44c1-b885-5ec684caf574"
+        },
+        {
+          "id": "fcc37a72-96ff-4e78-aebe-8c5277c3db6f",
+          "card": "0f10b08c-2ad3-4dcc-ad8f-a0184057ebca",
+          "suffix": "028",
+          "rarity": "super",
+          "imageID": "ab18cab7-2738-4c28-97b5-fef4cf9521a6"
+        },
+        {
+          "id": "c6b47181-5c4c-4fce-b6ee-acd605e1925d",
+          "card": "02eaaa86-e95b-4e30-bd31-328230f7021a",
+          "suffix": "029",
+          "rarity": "super",
+          "imageID": "1a0fe439-a98e-472f-b6f9-1e5cbd9a37cc"
+        },
+        {
+          "id": "3d4e6a16-83c4-488a-841d-e761fa28ddac",
+          "card": "a9c228e0-61af-48a4-bee7-ea6a5944199e",
+          "suffix": "030",
+          "rarity": "secret",
+          "imageID": "d22b8081-1da1-4f18-9714-f96d41d73462"
+        }
+      ],
+      "externalIDs": {
+        "ygoprodeck": "Hidden Arsenal"
+      }
+    },
+    {
+      "locales": [
+        "de"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "distrobution": "2e33ad14-fd18-4f42-8135-c4293948d006",
+      "packsPerBox": 36,
+      "editions": [
+        "limited"
+      ],
+      "image": "https://ms.yugipedia.com//c/c9/HA01-BoosterDE.png",
+      "cards": [
+        {
+          "id": "c4989743-1299-4e2c-acd2-07efa30e2b3a",
+          "card": "120e5814-5c5d-4a6e-8df3-a6efc28860af",
+          "suffix": "001",
+          "rarity": "secret",
+          "imageID": "d7433f9e-8b27-40f4-a8a6-98404c6ea92e"
+        },
+        {
+          "id": "9d34c88e-0d7c-4942-8444-b3b9d989dae5",
+          "card": "00630dce-2a9f-404b-93bc-ee6153ed535d",
+          "suffix": "002",
+          "rarity": "super",
+          "imageID": "51827912-11de-4222-8edc-ac5742ef9562"
+        },
+        {
+          "id": "11488928-cf43-418e-98fc-c46c32a87b0b",
+          "card": "72dca6ef-d4fe-4b43-8abf-1e197a037e2f",
+          "suffix": "003",
+          "rarity": "secret",
+          "imageID": "5d2eaefd-cf3c-4dd4-b66d-717a8e4de99a"
+        },
+        {
+          "id": "b9d63eef-1842-4add-b263-29624aaba390",
+          "card": "05d65be2-f3f9-4e3c-bdfe-419d4db4ddfb",
+          "suffix": "004",
+          "rarity": "secret",
+          "imageID": "9a14630f-8eb6-4286-af18-74e846b8136d"
+        },
+        {
+          "id": "7fff4ec9-6334-4c70-bf11-8d95d1e970bc",
+          "card": "879facc9-5c80-4142-a6c4-57f22a8b18ab",
+          "suffix": "005",
+          "rarity": "secret",
+          "imageID": "65259ff5-381a-495f-9bf6-96f06c5f6c31"
+        },
+        {
+          "id": "1a14fec0-3ecf-4c9b-95b3-a4e0e2a2eb5c",
+          "card": "4686b303-b573-4419-af14-4128ce4a16e5",
+          "suffix": "006",
+          "rarity": "secret",
+          "imageID": "0cd70957-dcbb-4c60-a6c8-bb8ef8e81273"
+        },
+        {
+          "id": "f06dcc00-15c0-4532-8e85-34de4ef6ca97",
+          "card": "617057f9-9ed1-42f0-974b-c8a4791319d5",
+          "suffix": "007",
+          "rarity": "super",
+          "imageID": "60303b1d-c885-4afa-99b1-06560a50409a"
+        },
+        {
+          "id": "e18743e4-2dba-45a1-add1-7a1c32fcccd2",
+          "card": "1acb4c63-55a6-4092-8c05-e4bdd09b0ce1",
+          "suffix": "008",
+          "rarity": "super",
+          "imageID": "850c6958-cc30-4203-947e-2852e86d8085"
+        },
+        {
+          "id": "ca8a3985-04c5-4c12-83d5-c462248483f4",
+          "card": "495630e9-57c0-41e8-8b8b-46e8c2466da0",
+          "suffix": "009",
+          "rarity": "super",
+          "imageID": "38d68dd9-ab8f-4a83-93ca-c55b26011ce1"
+        },
+        {
+          "id": "ad18937f-1227-43af-9f0e-b299e5e421cb",
+          "card": "825f99e4-7652-4ad4-ab39-d8b7baa21536",
+          "suffix": "010",
+          "rarity": "super",
+          "imageID": "cb2a3feb-199f-4c37-84be-20eb64af6878"
+        },
+        {
+          "id": "ab5a9513-baf6-4cee-a013-b84154fd9ae2",
+          "card": "fc2c8bc6-b5cf-4023-af75-b6354557a3e4",
+          "suffix": "011",
+          "rarity": "secret",
+          "imageID": "4e9ccd2c-a1a1-404c-8eef-04b0571573a8"
+        },
+        {
+          "id": "681d3780-3f7a-4619-bb22-0b3437b8d25a",
+          "card": "1ae7e9c7-36af-49b3-b69f-dadadb5e40ea",
+          "suffix": "012",
+          "rarity": "super",
+          "imageID": "d898fe56-ef9f-4ade-92a0-1ff243a653c3"
+        },
+        {
+          "id": "c37e4bd2-9a59-41c3-ac31-68f133c83f50",
+          "card": "114a9176-96f3-41de-a81e-8605a53efe55",
+          "suffix": "013",
+          "rarity": "secret",
+          "imageID": "91f1ef79-cc20-4040-8a9c-b31738c5be0e"
+        },
+        {
+          "id": "b0910bd4-046a-4246-a1a9-03730d2a7354",
+          "card": "f528dbc1-cbde-4e0d-bc80-f8b010b44901",
+          "suffix": "014",
+          "rarity": "super",
+          "imageID": "46fd776c-5fb3-4928-90f6-50a5b67a4ecb"
+        },
+        {
+          "id": "28ab8e3f-1078-496f-8ee8-fc6a1c3492e8",
+          "card": "a4a82bfa-3c2e-4894-95fa-94af13fb5751",
+          "suffix": "015",
+          "rarity": "super",
+          "imageID": "3fb1e35d-d99c-4573-8445-8ae9f965ad4f"
+        },
+        {
+          "id": "076b2839-c081-439f-aa8a-941d325c33d0",
+          "card": "fbca6350-39bc-48a3-ac7e-f008b492d00d",
+          "suffix": "016",
+          "rarity": "super",
+          "imageID": "5f56595f-a564-4463-943c-19a7427ee207"
+        },
+        {
+          "id": "bd2f7257-04c6-40ca-80f3-bc03d4630075",
+          "card": "797fda81-83ae-40d7-88d0-f4a3bf6a446e",
+          "suffix": "017",
+          "rarity": "super",
+          "imageID": "bf20ae4d-1887-4280-8131-72a4fe5b1048"
+        },
+        {
+          "id": "98eee53d-a2f0-41da-aa1d-92330df91294",
+          "card": "12b3c5bc-c0dc-469d-b945-cb72e30a5b96",
+          "suffix": "018",
+          "rarity": "super",
+          "imageID": "2765a9d7-33f2-4688-8358-ab92bd0b49a4"
+        },
+        {
+          "id": "21178816-129d-458c-8902-36e45a3298a4",
+          "card": "5d66ae8f-047c-4e71-94a8-bca8dbb10bea",
+          "suffix": "019",
+          "rarity": "super",
+          "imageID": "d64d5b2e-8285-4d64-808d-e606b7a351de"
+        },
+        {
+          "id": "94527e55-895f-42af-98a7-2d4ff6f098a6",
+          "card": "184fe0ff-59db-4ad1-a7e6-89d65c45944e",
+          "suffix": "020",
+          "rarity": "super",
+          "imageID": "8a74dcc6-3046-4870-b8fa-f03488d79157"
+        },
+        {
+          "id": "9b8a4cee-fde0-4540-9843-a782bfffaa5f",
+          "card": "2379cd39-2eb4-4511-80bf-66c6ee96a6b5",
+          "suffix": "021",
+          "rarity": "secret",
+          "imageID": "57bb798b-8f22-4e30-be89-5d952b06e7ac"
+        },
+        {
+          "id": "be40dd57-c072-4be2-af44-7da35a932bb3",
+          "card": "38aa0dc9-481f-453b-ac52-9579f1ea4039",
+          "suffix": "022",
+          "rarity": "secret",
+          "imageID": "634f0ed7-7825-496d-ba9b-b441ce0f22d2"
+        },
+        {
+          "id": "16b27edb-894d-442c-96d6-6eaa33f54fd1",
+          "card": "99eb5317-001f-46b5-9a0c-ff8939e6f73e",
+          "suffix": "023",
+          "rarity": "secret",
+          "imageID": "cbf5772d-e200-4044-9600-be345549981f"
+        },
+        {
+          "id": "bf395eb5-1b89-4b5d-bb28-46932febabd8",
+          "card": "bfafd2ac-cdd6-4f63-a776-7bc722eccdba",
+          "suffix": "024",
+          "rarity": "secret",
+          "imageID": "666f23e5-4fa4-43e7-8d59-a5e5e61f8df3"
+        },
+        {
+          "id": "4f471d1c-875a-4934-acf7-daafd613aa1e",
+          "card": "2a9d2a4e-4c79-45a0-8457-aba3961f7a67",
+          "suffix": "025",
+          "rarity": "secret",
+          "imageID": "1225cb53-e579-448c-a65d-e7d008e2032b"
+        },
+        {
+          "id": "a1baa21b-b621-4e39-bc26-df814bb8a808",
+          "card": "d9bb7aba-7e8e-4fe6-a7cd-e86c58f6c955",
+          "suffix": "026",
+          "rarity": "secret",
+          "imageID": "8a6a0733-3410-4f00-a9e1-30c94c2ea2c1"
+        },
+        {
+          "id": "10f6fc05-8138-4603-a160-e3c5ca089ff9",
+          "card": "81b5ee00-d1dc-407e-b6ab-2f2ed8f2f4d6",
+          "suffix": "027",
+          "rarity": "secret",
+          "imageID": "f50248aa-5ebc-44c1-b885-5ec684caf574"
+        },
+        {
+          "id": "fcc37a72-96ff-4e78-aebe-8c5277c3db6f",
+          "card": "0f10b08c-2ad3-4dcc-ad8f-a0184057ebca",
+          "suffix": "028",
+          "rarity": "super",
+          "imageID": "ab18cab7-2738-4c28-97b5-fef4cf9521a6"
+        },
+        {
+          "id": "c6b47181-5c4c-4fce-b6ee-acd605e1925d",
+          "card": "02eaaa86-e95b-4e30-bd31-328230f7021a",
+          "suffix": "029",
+          "rarity": "super",
+          "imageID": "1a0fe439-a98e-472f-b6f9-1e5cbd9a37cc"
+        },
+        {
+          "id": "3d4e6a16-83c4-488a-841d-e761fa28ddac",
+          "card": "a9c228e0-61af-48a4-bee7-ea6a5944199e",
+          "suffix": "030",
+          "rarity": "secret",
+          "imageID": "d22b8081-1da1-4f18-9714-f96d41d73462"
+        }
+      ],
+      "externalIDs": {
+        "ygoprodeck": "Hidden Arsenal"
+      }
+    },
+    {
+      "locales": [
+        "it"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "distrobution": "2e33ad14-fd18-4f42-8135-c4293948d006",
+      "packsPerBox": 36,
+      "editions": [
+        "limited"
+      ],
+      "image": "https://ms.yugipedia.com//7/72/HA01-BoosterIT.png",
+      "cards": [
+        {
+          "id": "c4989743-1299-4e2c-acd2-07efa30e2b3a",
+          "card": "120e5814-5c5d-4a6e-8df3-a6efc28860af",
+          "suffix": "001",
+          "rarity": "secret",
+          "imageID": "d7433f9e-8b27-40f4-a8a6-98404c6ea92e"
+        },
+        {
+          "id": "9d34c88e-0d7c-4942-8444-b3b9d989dae5",
+          "card": "00630dce-2a9f-404b-93bc-ee6153ed535d",
+          "suffix": "002",
+          "rarity": "super",
+          "imageID": "51827912-11de-4222-8edc-ac5742ef9562"
+        },
+        {
+          "id": "11488928-cf43-418e-98fc-c46c32a87b0b",
+          "card": "72dca6ef-d4fe-4b43-8abf-1e197a037e2f",
+          "suffix": "003",
+          "rarity": "secret",
+          "imageID": "5d2eaefd-cf3c-4dd4-b66d-717a8e4de99a"
+        },
+        {
+          "id": "b9d63eef-1842-4add-b263-29624aaba390",
+          "card": "05d65be2-f3f9-4e3c-bdfe-419d4db4ddfb",
+          "suffix": "004",
+          "rarity": "secret",
+          "imageID": "9a14630f-8eb6-4286-af18-74e846b8136d"
+        },
+        {
+          "id": "7fff4ec9-6334-4c70-bf11-8d95d1e970bc",
+          "card": "879facc9-5c80-4142-a6c4-57f22a8b18ab",
+          "suffix": "005",
+          "rarity": "secret",
+          "imageID": "65259ff5-381a-495f-9bf6-96f06c5f6c31"
+        },
+        {
+          "id": "1a14fec0-3ecf-4c9b-95b3-a4e0e2a2eb5c",
+          "card": "4686b303-b573-4419-af14-4128ce4a16e5",
+          "suffix": "006",
+          "rarity": "secret",
+          "imageID": "0cd70957-dcbb-4c60-a6c8-bb8ef8e81273"
+        },
+        {
+          "id": "f06dcc00-15c0-4532-8e85-34de4ef6ca97",
+          "card": "617057f9-9ed1-42f0-974b-c8a4791319d5",
+          "suffix": "007",
+          "rarity": "super",
+          "imageID": "60303b1d-c885-4afa-99b1-06560a50409a"
+        },
+        {
+          "id": "e18743e4-2dba-45a1-add1-7a1c32fcccd2",
+          "card": "1acb4c63-55a6-4092-8c05-e4bdd09b0ce1",
+          "suffix": "008",
+          "rarity": "super",
+          "imageID": "850c6958-cc30-4203-947e-2852e86d8085"
+        },
+        {
+          "id": "ca8a3985-04c5-4c12-83d5-c462248483f4",
+          "card": "495630e9-57c0-41e8-8b8b-46e8c2466da0",
+          "suffix": "009",
+          "rarity": "super",
+          "imageID": "38d68dd9-ab8f-4a83-93ca-c55b26011ce1"
+        },
+        {
+          "id": "ad18937f-1227-43af-9f0e-b299e5e421cb",
+          "card": "825f99e4-7652-4ad4-ab39-d8b7baa21536",
+          "suffix": "010",
+          "rarity": "super",
+          "imageID": "cb2a3feb-199f-4c37-84be-20eb64af6878"
+        },
+        {
+          "id": "ab5a9513-baf6-4cee-a013-b84154fd9ae2",
+          "card": "fc2c8bc6-b5cf-4023-af75-b6354557a3e4",
+          "suffix": "011",
+          "rarity": "secret",
+          "imageID": "4e9ccd2c-a1a1-404c-8eef-04b0571573a8"
+        },
+        {
+          "id": "681d3780-3f7a-4619-bb22-0b3437b8d25a",
+          "card": "1ae7e9c7-36af-49b3-b69f-dadadb5e40ea",
+          "suffix": "012",
+          "rarity": "super",
+          "imageID": "d898fe56-ef9f-4ade-92a0-1ff243a653c3"
+        },
+        {
+          "id": "c37e4bd2-9a59-41c3-ac31-68f133c83f50",
+          "card": "114a9176-96f3-41de-a81e-8605a53efe55",
+          "suffix": "013",
+          "rarity": "secret",
+          "imageID": "91f1ef79-cc20-4040-8a9c-b31738c5be0e"
+        },
+        {
+          "id": "b0910bd4-046a-4246-a1a9-03730d2a7354",
+          "card": "f528dbc1-cbde-4e0d-bc80-f8b010b44901",
+          "suffix": "014",
+          "rarity": "super",
+          "imageID": "46fd776c-5fb3-4928-90f6-50a5b67a4ecb"
+        },
+        {
+          "id": "28ab8e3f-1078-496f-8ee8-fc6a1c3492e8",
+          "card": "a4a82bfa-3c2e-4894-95fa-94af13fb5751",
+          "suffix": "015",
+          "rarity": "super",
+          "imageID": "3fb1e35d-d99c-4573-8445-8ae9f965ad4f"
+        },
+        {
+          "id": "076b2839-c081-439f-aa8a-941d325c33d0",
+          "card": "fbca6350-39bc-48a3-ac7e-f008b492d00d",
+          "suffix": "016",
+          "rarity": "super",
+          "imageID": "5f56595f-a564-4463-943c-19a7427ee207"
+        },
+        {
+          "id": "bd2f7257-04c6-40ca-80f3-bc03d4630075",
+          "card": "797fda81-83ae-40d7-88d0-f4a3bf6a446e",
+          "suffix": "017",
+          "rarity": "super",
+          "imageID": "bf20ae4d-1887-4280-8131-72a4fe5b1048"
+        },
+        {
+          "id": "98eee53d-a2f0-41da-aa1d-92330df91294",
+          "card": "12b3c5bc-c0dc-469d-b945-cb72e30a5b96",
+          "suffix": "018",
+          "rarity": "super",
+          "imageID": "2765a9d7-33f2-4688-8358-ab92bd0b49a4"
+        },
+        {
+          "id": "21178816-129d-458c-8902-36e45a3298a4",
+          "card": "5d66ae8f-047c-4e71-94a8-bca8dbb10bea",
+          "suffix": "019",
+          "rarity": "super",
+          "imageID": "d64d5b2e-8285-4d64-808d-e606b7a351de"
+        },
+        {
+          "id": "94527e55-895f-42af-98a7-2d4ff6f098a6",
+          "card": "184fe0ff-59db-4ad1-a7e6-89d65c45944e",
+          "suffix": "020",
+          "rarity": "super",
+          "imageID": "8a74dcc6-3046-4870-b8fa-f03488d79157"
+        },
+        {
+          "id": "9b8a4cee-fde0-4540-9843-a782bfffaa5f",
+          "card": "2379cd39-2eb4-4511-80bf-66c6ee96a6b5",
+          "suffix": "021",
+          "rarity": "secret",
+          "imageID": "57bb798b-8f22-4e30-be89-5d952b06e7ac"
+        },
+        {
+          "id": "be40dd57-c072-4be2-af44-7da35a932bb3",
+          "card": "38aa0dc9-481f-453b-ac52-9579f1ea4039",
+          "suffix": "022",
+          "rarity": "secret",
+          "imageID": "634f0ed7-7825-496d-ba9b-b441ce0f22d2"
+        },
+        {
+          "id": "16b27edb-894d-442c-96d6-6eaa33f54fd1",
+          "card": "99eb5317-001f-46b5-9a0c-ff8939e6f73e",
+          "suffix": "023",
+          "rarity": "secret",
+          "imageID": "cbf5772d-e200-4044-9600-be345549981f"
+        },
+        {
+          "id": "bf395eb5-1b89-4b5d-bb28-46932febabd8",
+          "card": "bfafd2ac-cdd6-4f63-a776-7bc722eccdba",
+          "suffix": "024",
+          "rarity": "secret",
+          "imageID": "666f23e5-4fa4-43e7-8d59-a5e5e61f8df3"
+        },
+        {
+          "id": "4f471d1c-875a-4934-acf7-daafd613aa1e",
+          "card": "2a9d2a4e-4c79-45a0-8457-aba3961f7a67",
+          "suffix": "025",
+          "rarity": "secret",
+          "imageID": "1225cb53-e579-448c-a65d-e7d008e2032b"
+        },
+        {
+          "id": "a1baa21b-b621-4e39-bc26-df814bb8a808",
+          "card": "d9bb7aba-7e8e-4fe6-a7cd-e86c58f6c955",
+          "suffix": "026",
+          "rarity": "secret",
+          "imageID": "8a6a0733-3410-4f00-a9e1-30c94c2ea2c1"
+        },
+        {
+          "id": "10f6fc05-8138-4603-a160-e3c5ca089ff9",
+          "card": "81b5ee00-d1dc-407e-b6ab-2f2ed8f2f4d6",
+          "suffix": "027",
+          "rarity": "secret",
+          "imageID": "f50248aa-5ebc-44c1-b885-5ec684caf574"
+        },
+        {
+          "id": "fcc37a72-96ff-4e78-aebe-8c5277c3db6f",
+          "card": "0f10b08c-2ad3-4dcc-ad8f-a0184057ebca",
+          "suffix": "028",
+          "rarity": "super",
+          "imageID": "ab18cab7-2738-4c28-97b5-fef4cf9521a6"
+        },
+        {
+          "id": "c6b47181-5c4c-4fce-b6ee-acd605e1925d",
+          "card": "02eaaa86-e95b-4e30-bd31-328230f7021a",
+          "suffix": "029",
+          "rarity": "super",
+          "imageID": "1a0fe439-a98e-472f-b6f9-1e5cbd9a37cc"
+        },
+        {
+          "id": "3d4e6a16-83c4-488a-841d-e761fa28ddac",
+          "card": "a9c228e0-61af-48a4-bee7-ea6a5944199e",
+          "suffix": "030",
+          "rarity": "secret",
+          "imageID": "d22b8081-1da1-4f18-9714-f96d41d73462"
+        }
+      ],
+      "externalIDs": {
+        "ygoprodeck": "Hidden Arsenal"
+      }
+    },
+    {
+      "locales": [
+        "sp"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "distrobution": "2e33ad14-fd18-4f42-8135-c4293948d006",
+      "packsPerBox": 36,
+      "editions": [
+        "limited"
+      ],
+      "image": "https://ms.yugipedia.com//1/19/HA01-BoosterSP.png",
+      "cards": [
+        {
+          "id": "c4989743-1299-4e2c-acd2-07efa30e2b3a",
+          "card": "120e5814-5c5d-4a6e-8df3-a6efc28860af",
+          "suffix": "001",
+          "rarity": "secret",
+          "imageID": "d7433f9e-8b27-40f4-a8a6-98404c6ea92e"
+        },
+        {
+          "id": "9d34c88e-0d7c-4942-8444-b3b9d989dae5",
+          "card": "00630dce-2a9f-404b-93bc-ee6153ed535d",
+          "suffix": "002",
+          "rarity": "super",
+          "imageID": "51827912-11de-4222-8edc-ac5742ef9562"
+        },
+        {
+          "id": "11488928-cf43-418e-98fc-c46c32a87b0b",
+          "card": "72dca6ef-d4fe-4b43-8abf-1e197a037e2f",
+          "suffix": "003",
+          "rarity": "secret",
+          "imageID": "5d2eaefd-cf3c-4dd4-b66d-717a8e4de99a"
+        },
+        {
+          "id": "b9d63eef-1842-4add-b263-29624aaba390",
+          "card": "05d65be2-f3f9-4e3c-bdfe-419d4db4ddfb",
+          "suffix": "004",
+          "rarity": "secret",
+          "imageID": "9a14630f-8eb6-4286-af18-74e846b8136d"
+        },
+        {
+          "id": "7fff4ec9-6334-4c70-bf11-8d95d1e970bc",
+          "card": "879facc9-5c80-4142-a6c4-57f22a8b18ab",
+          "suffix": "005",
+          "rarity": "secret",
+          "imageID": "65259ff5-381a-495f-9bf6-96f06c5f6c31"
+        },
+        {
+          "id": "1a14fec0-3ecf-4c9b-95b3-a4e0e2a2eb5c",
+          "card": "4686b303-b573-4419-af14-4128ce4a16e5",
+          "suffix": "006",
+          "rarity": "secret",
+          "imageID": "0cd70957-dcbb-4c60-a6c8-bb8ef8e81273"
+        },
+        {
+          "id": "f06dcc00-15c0-4532-8e85-34de4ef6ca97",
+          "card": "617057f9-9ed1-42f0-974b-c8a4791319d5",
+          "suffix": "007",
+          "rarity": "super",
+          "imageID": "60303b1d-c885-4afa-99b1-06560a50409a"
+        },
+        {
+          "id": "e18743e4-2dba-45a1-add1-7a1c32fcccd2",
+          "card": "1acb4c63-55a6-4092-8c05-e4bdd09b0ce1",
+          "suffix": "008",
+          "rarity": "super",
+          "imageID": "850c6958-cc30-4203-947e-2852e86d8085"
+        },
+        {
+          "id": "ca8a3985-04c5-4c12-83d5-c462248483f4",
+          "card": "495630e9-57c0-41e8-8b8b-46e8c2466da0",
+          "suffix": "009",
+          "rarity": "super",
+          "imageID": "38d68dd9-ab8f-4a83-93ca-c55b26011ce1"
+        },
+        {
+          "id": "ad18937f-1227-43af-9f0e-b299e5e421cb",
+          "card": "825f99e4-7652-4ad4-ab39-d8b7baa21536",
+          "suffix": "010",
+          "rarity": "super",
+          "imageID": "cb2a3feb-199f-4c37-84be-20eb64af6878"
+        },
+        {
+          "id": "ab5a9513-baf6-4cee-a013-b84154fd9ae2",
+          "card": "fc2c8bc6-b5cf-4023-af75-b6354557a3e4",
+          "suffix": "011",
+          "rarity": "secret",
+          "imageID": "4e9ccd2c-a1a1-404c-8eef-04b0571573a8"
+        },
+        {
+          "id": "681d3780-3f7a-4619-bb22-0b3437b8d25a",
+          "card": "1ae7e9c7-36af-49b3-b69f-dadadb5e40ea",
+          "suffix": "012",
+          "rarity": "super",
+          "imageID": "d898fe56-ef9f-4ade-92a0-1ff243a653c3"
+        },
+        {
+          "id": "c37e4bd2-9a59-41c3-ac31-68f133c83f50",
+          "card": "114a9176-96f3-41de-a81e-8605a53efe55",
+          "suffix": "013",
+          "rarity": "secret",
+          "imageID": "91f1ef79-cc20-4040-8a9c-b31738c5be0e"
+        },
+        {
+          "id": "b0910bd4-046a-4246-a1a9-03730d2a7354",
+          "card": "f528dbc1-cbde-4e0d-bc80-f8b010b44901",
+          "suffix": "014",
+          "rarity": "super",
+          "imageID": "46fd776c-5fb3-4928-90f6-50a5b67a4ecb"
+        },
+        {
+          "id": "28ab8e3f-1078-496f-8ee8-fc6a1c3492e8",
+          "card": "a4a82bfa-3c2e-4894-95fa-94af13fb5751",
+          "suffix": "015",
+          "rarity": "super",
+          "imageID": "3fb1e35d-d99c-4573-8445-8ae9f965ad4f"
+        },
+        {
+          "id": "076b2839-c081-439f-aa8a-941d325c33d0",
+          "card": "fbca6350-39bc-48a3-ac7e-f008b492d00d",
+          "suffix": "016",
+          "rarity": "super",
+          "imageID": "5f56595f-a564-4463-943c-19a7427ee207"
+        },
+        {
+          "id": "bd2f7257-04c6-40ca-80f3-bc03d4630075",
+          "card": "797fda81-83ae-40d7-88d0-f4a3bf6a446e",
+          "suffix": "017",
+          "rarity": "super",
+          "imageID": "bf20ae4d-1887-4280-8131-72a4fe5b1048"
+        },
+        {
+          "id": "98eee53d-a2f0-41da-aa1d-92330df91294",
+          "card": "12b3c5bc-c0dc-469d-b945-cb72e30a5b96",
+          "suffix": "018",
+          "rarity": "super",
+          "imageID": "2765a9d7-33f2-4688-8358-ab92bd0b49a4"
+        },
+        {
+          "id": "21178816-129d-458c-8902-36e45a3298a4",
+          "card": "5d66ae8f-047c-4e71-94a8-bca8dbb10bea",
+          "suffix": "019",
+          "rarity": "super",
+          "imageID": "d64d5b2e-8285-4d64-808d-e606b7a351de"
+        },
+        {
+          "id": "94527e55-895f-42af-98a7-2d4ff6f098a6",
+          "card": "184fe0ff-59db-4ad1-a7e6-89d65c45944e",
+          "suffix": "020",
+          "rarity": "super",
+          "imageID": "8a74dcc6-3046-4870-b8fa-f03488d79157"
+        },
+        {
+          "id": "9b8a4cee-fde0-4540-9843-a782bfffaa5f",
+          "card": "2379cd39-2eb4-4511-80bf-66c6ee96a6b5",
+          "suffix": "021",
+          "rarity": "secret",
+          "imageID": "57bb798b-8f22-4e30-be89-5d952b06e7ac"
+        },
+        {
+          "id": "be40dd57-c072-4be2-af44-7da35a932bb3",
+          "card": "38aa0dc9-481f-453b-ac52-9579f1ea4039",
+          "suffix": "022",
+          "rarity": "secret",
+          "imageID": "634f0ed7-7825-496d-ba9b-b441ce0f22d2"
+        },
+        {
+          "id": "16b27edb-894d-442c-96d6-6eaa33f54fd1",
+          "card": "99eb5317-001f-46b5-9a0c-ff8939e6f73e",
+          "suffix": "023",
+          "rarity": "secret",
+          "imageID": "cbf5772d-e200-4044-9600-be345549981f"
+        },
+        {
+          "id": "bf395eb5-1b89-4b5d-bb28-46932febabd8",
+          "card": "bfafd2ac-cdd6-4f63-a776-7bc722eccdba",
+          "suffix": "024",
+          "rarity": "secret",
+          "imageID": "666f23e5-4fa4-43e7-8d59-a5e5e61f8df3"
+        },
+        {
+          "id": "4f471d1c-875a-4934-acf7-daafd613aa1e",
+          "card": "2a9d2a4e-4c79-45a0-8457-aba3961f7a67",
+          "suffix": "025",
+          "rarity": "secret",
+          "imageID": "1225cb53-e579-448c-a65d-e7d008e2032b"
+        },
+        {
+          "id": "a1baa21b-b621-4e39-bc26-df814bb8a808",
+          "card": "d9bb7aba-7e8e-4fe6-a7cd-e86c58f6c955",
+          "suffix": "026",
+          "rarity": "secret",
+          "imageID": "8a6a0733-3410-4f00-a9e1-30c94c2ea2c1"
+        },
+        {
+          "id": "10f6fc05-8138-4603-a160-e3c5ca089ff9",
+          "card": "81b5ee00-d1dc-407e-b6ab-2f2ed8f2f4d6",
+          "suffix": "027",
+          "rarity": "secret",
+          "imageID": "f50248aa-5ebc-44c1-b885-5ec684caf574"
+        },
+        {
+          "id": "fcc37a72-96ff-4e78-aebe-8c5277c3db6f",
+          "card": "0f10b08c-2ad3-4dcc-ad8f-a0184057ebca",
+          "suffix": "028",
+          "rarity": "super",
+          "imageID": "ab18cab7-2738-4c28-97b5-fef4cf9521a6"
+        },
+        {
+          "id": "c6b47181-5c4c-4fce-b6ee-acd605e1925d",
+          "card": "02eaaa86-e95b-4e30-bd31-328230f7021a",
+          "suffix": "029",
+          "rarity": "super",
+          "imageID": "1a0fe439-a98e-472f-b6f9-1e5cbd9a37cc"
+        },
+        {
+          "id": "3d4e6a16-83c4-488a-841d-e761fa28ddac",
+          "card": "a9c228e0-61af-48a4-bee7-ea6a5944199e",
+          "suffix": "030",
+          "rarity": "secret",
+          "imageID": "d22b8081-1da1-4f18-9714-f96d41d73462"
+        }
+      ],
+      "externalIDs": {
+        "ygoprodeck": "Hidden Arsenal"
+      }
+    },
+    {
+      "locales": [
+        "kr"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "distrobution": "2e33ad14-fd18-4f42-8135-c4293948d006",
+      "packsPerBox": 30,
+      "editions": [
+        "1st"
+      ],
+      "image": "https://ms.yugipedia.com//5/5f/HA01-BoosterKR.png",
+      "cards": [
+        {
+          "id": "c4989743-1299-4e2c-acd2-07efa30e2b3a",
+          "card": "120e5814-5c5d-4a6e-8df3-a6efc28860af",
+          "suffix": "001",
+          "rarity": "secret",
+          "imageID": "d7433f9e-8b27-40f4-a8a6-98404c6ea92e"
+        },
+        {
+          "id": "9d34c88e-0d7c-4942-8444-b3b9d989dae5",
+          "card": "00630dce-2a9f-404b-93bc-ee6153ed535d",
+          "suffix": "002",
+          "rarity": "super",
+          "imageID": "51827912-11de-4222-8edc-ac5742ef9562"
+        },
+        {
+          "id": "11488928-cf43-418e-98fc-c46c32a87b0b",
+          "card": "72dca6ef-d4fe-4b43-8abf-1e197a037e2f",
+          "suffix": "003",
+          "rarity": "secret",
+          "imageID": "5d2eaefd-cf3c-4dd4-b66d-717a8e4de99a"
+        },
+        {
+          "id": "b9d63eef-1842-4add-b263-29624aaba390",
+          "card": "05d65be2-f3f9-4e3c-bdfe-419d4db4ddfb",
+          "suffix": "004",
+          "rarity": "secret",
+          "imageID": "9a14630f-8eb6-4286-af18-74e846b8136d"
+        },
+        {
+          "id": "7fff4ec9-6334-4c70-bf11-8d95d1e970bc",
+          "card": "879facc9-5c80-4142-a6c4-57f22a8b18ab",
+          "suffix": "005",
+          "rarity": "secret",
+          "imageID": "65259ff5-381a-495f-9bf6-96f06c5f6c31"
+        },
+        {
+          "id": "1a14fec0-3ecf-4c9b-95b3-a4e0e2a2eb5c",
+          "card": "4686b303-b573-4419-af14-4128ce4a16e5",
+          "suffix": "006",
+          "rarity": "secret",
+          "imageID": "0cd70957-dcbb-4c60-a6c8-bb8ef8e81273"
+        },
+        {
+          "id": "f06dcc00-15c0-4532-8e85-34de4ef6ca97",
+          "card": "617057f9-9ed1-42f0-974b-c8a4791319d5",
+          "suffix": "007",
+          "rarity": "super",
+          "imageID": "60303b1d-c885-4afa-99b1-06560a50409a"
+        },
+        {
+          "id": "e18743e4-2dba-45a1-add1-7a1c32fcccd2",
+          "card": "1acb4c63-55a6-4092-8c05-e4bdd09b0ce1",
+          "suffix": "008",
+          "rarity": "super",
+          "imageID": "850c6958-cc30-4203-947e-2852e86d8085"
+        },
+        {
+          "id": "ca8a3985-04c5-4c12-83d5-c462248483f4",
+          "card": "495630e9-57c0-41e8-8b8b-46e8c2466da0",
+          "suffix": "009",
+          "rarity": "super",
+          "imageID": "38d68dd9-ab8f-4a83-93ca-c55b26011ce1"
+        },
+        {
+          "id": "ad18937f-1227-43af-9f0e-b299e5e421cb",
+          "card": "825f99e4-7652-4ad4-ab39-d8b7baa21536",
+          "suffix": "010",
+          "rarity": "super",
+          "imageID": "cb2a3feb-199f-4c37-84be-20eb64af6878"
+        },
+        {
+          "id": "ab5a9513-baf6-4cee-a013-b84154fd9ae2",
+          "card": "fc2c8bc6-b5cf-4023-af75-b6354557a3e4",
+          "suffix": "011",
+          "rarity": "secret",
+          "imageID": "4e9ccd2c-a1a1-404c-8eef-04b0571573a8"
+        },
+        {
+          "id": "681d3780-3f7a-4619-bb22-0b3437b8d25a",
+          "card": "1ae7e9c7-36af-49b3-b69f-dadadb5e40ea",
+          "suffix": "012",
+          "rarity": "super",
+          "imageID": "d898fe56-ef9f-4ade-92a0-1ff243a653c3"
+        },
+        {
+          "id": "c37e4bd2-9a59-41c3-ac31-68f133c83f50",
+          "card": "114a9176-96f3-41de-a81e-8605a53efe55",
+          "suffix": "013",
+          "rarity": "secret",
+          "imageID": "91f1ef79-cc20-4040-8a9c-b31738c5be0e"
+        },
+        {
+          "id": "b0910bd4-046a-4246-a1a9-03730d2a7354",
+          "card": "f528dbc1-cbde-4e0d-bc80-f8b010b44901",
+          "suffix": "014",
+          "rarity": "super",
+          "imageID": "46fd776c-5fb3-4928-90f6-50a5b67a4ecb"
+        },
+        {
+          "id": "28ab8e3f-1078-496f-8ee8-fc6a1c3492e8",
+          "card": "a4a82bfa-3c2e-4894-95fa-94af13fb5751",
+          "suffix": "015",
+          "rarity": "super",
+          "imageID": "3fb1e35d-d99c-4573-8445-8ae9f965ad4f"
+        },
+        {
+          "id": "076b2839-c081-439f-aa8a-941d325c33d0",
+          "card": "fbca6350-39bc-48a3-ac7e-f008b492d00d",
+          "suffix": "016",
+          "rarity": "super",
+          "imageID": "5f56595f-a564-4463-943c-19a7427ee207"
+        },
+        {
+          "id": "bd2f7257-04c6-40ca-80f3-bc03d4630075",
+          "card": "797fda81-83ae-40d7-88d0-f4a3bf6a446e",
+          "suffix": "017",
+          "rarity": "super",
+          "imageID": "bf20ae4d-1887-4280-8131-72a4fe5b1048"
+        },
+        {
+          "id": "98eee53d-a2f0-41da-aa1d-92330df91294",
+          "card": "12b3c5bc-c0dc-469d-b945-cb72e30a5b96",
+          "suffix": "018",
+          "rarity": "super",
+          "imageID": "2765a9d7-33f2-4688-8358-ab92bd0b49a4"
+        },
+        {
+          "id": "21178816-129d-458c-8902-36e45a3298a4",
+          "card": "5d66ae8f-047c-4e71-94a8-bca8dbb10bea",
+          "suffix": "019",
+          "rarity": "super",
+          "imageID": "d64d5b2e-8285-4d64-808d-e606b7a351de"
+        },
+        {
+          "id": "94527e55-895f-42af-98a7-2d4ff6f098a6",
+          "card": "184fe0ff-59db-4ad1-a7e6-89d65c45944e",
+          "suffix": "020",
+          "rarity": "super",
+          "imageID": "8a74dcc6-3046-4870-b8fa-f03488d79157"
+        },
+        {
+          "id": "9b8a4cee-fde0-4540-9843-a782bfffaa5f",
+          "card": "2379cd39-2eb4-4511-80bf-66c6ee96a6b5",
+          "suffix": "021",
+          "rarity": "secret",
+          "imageID": "57bb798b-8f22-4e30-be89-5d952b06e7ac"
+        },
+        {
+          "id": "be40dd57-c072-4be2-af44-7da35a932bb3",
+          "card": "38aa0dc9-481f-453b-ac52-9579f1ea4039",
+          "suffix": "022",
+          "rarity": "secret",
+          "imageID": "634f0ed7-7825-496d-ba9b-b441ce0f22d2"
+        },
+        {
+          "id": "16b27edb-894d-442c-96d6-6eaa33f54fd1",
+          "card": "99eb5317-001f-46b5-9a0c-ff8939e6f73e",
+          "suffix": "023",
+          "rarity": "secret",
+          "imageID": "cbf5772d-e200-4044-9600-be345549981f"
+        },
+        {
+          "id": "bf395eb5-1b89-4b5d-bb28-46932febabd8",
+          "card": "bfafd2ac-cdd6-4f63-a776-7bc722eccdba",
+          "suffix": "024",
+          "rarity": "secret",
+          "imageID": "666f23e5-4fa4-43e7-8d59-a5e5e61f8df3"
+        },
+        {
+          "id": "4f471d1c-875a-4934-acf7-daafd613aa1e",
+          "card": "2a9d2a4e-4c79-45a0-8457-aba3961f7a67",
+          "suffix": "025",
+          "rarity": "secret",
+          "imageID": "1225cb53-e579-448c-a65d-e7d008e2032b"
+        },
+        {
+          "id": "a1baa21b-b621-4e39-bc26-df814bb8a808",
+          "card": "d9bb7aba-7e8e-4fe6-a7cd-e86c58f6c955",
+          "suffix": "026",
+          "rarity": "secret",
+          "imageID": "8a6a0733-3410-4f00-a9e1-30c94c2ea2c1"
+        },
+        {
+          "id": "10f6fc05-8138-4603-a160-e3c5ca089ff9",
+          "card": "81b5ee00-d1dc-407e-b6ab-2f2ed8f2f4d6",
+          "suffix": "027",
+          "rarity": "secret",
+          "imageID": "f50248aa-5ebc-44c1-b885-5ec684caf574"
+        },
+        {
+          "id": "fcc37a72-96ff-4e78-aebe-8c5277c3db6f",
+          "card": "0f10b08c-2ad3-4dcc-ad8f-a0184057ebca",
+          "suffix": "028",
+          "rarity": "super",
+          "imageID": "ab18cab7-2738-4c28-97b5-fef4cf9521a6"
+        },
+        {
+          "id": "c6b47181-5c4c-4fce-b6ee-acd605e1925d",
+          "card": "02eaaa86-e95b-4e30-bd31-328230f7021a",
+          "suffix": "029",
+          "rarity": "super",
+          "imageID": "1a0fe439-a98e-472f-b6f9-1e5cbd9a37cc"
+        },
+        {
+          "id": "3d4e6a16-83c4-488a-841d-e761fa28ddac",
+          "card": "a9c228e0-61af-48a4-bee7-ea6a5944199e",
+          "suffix": "030",
+          "rarity": "secret",
+          "imageID": "d22b8081-1da1-4f18-9714-f96d41d73462"
+        }
+      ],
+      "externalIDs": {
+        "ygoprodeck": "Hidden Arsenal"
+      }
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Hidden Arsenal",
+      "id": 106903
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "55658e56-12d5-40bc-9e40-d67de0887c15",
+  "text": {
+    "en": {
+      "name": "Amusi Howling Performer",
+      "effect": "Inflict 800 damage to your opponent."
+    },
+    "ja": {
+      "name": "\u30a2\u30df\u30e5\u30fc\u30b8\u30fc\u30fb\u30cf\u30a6\u30ea\u30f3\u30b0\u30fb\u30d1\u30d5\u30a9\u30fc\u30de\u30fc",
+      "effect": "\u76f8\u624b\u306b\uff18\uff10\uff10\u30c0\u30e1\u30fc\u30b8\u3092\u4e0e\u3048\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc5b4\ubba4\uc9c0 \ud558\uc6b8\ub9c1 \ud37c\ud3ec\uba38",
+      "effect": "\uc0c1\ub300\uc5d0\uac8c 800 \ub370\ubbf8\uc9c0\ub97c \uc900\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "psychic",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2500,
+  "def": 1700,
+  "passwords": [],
+  "images": [
+    {
+      "id": "c2b89c20-976e-405c-81bc-aee512d54b41",
+      "card": "https://ms.yugipedia.com//0/01/AmusiHowlingPerformer-RDEXT1-JP-R.png"
+    }
+  ],
+  "sets": [
+    "f15281f0-8ea5-4682-b72c-36f0b779a7bc",
+    "b6e8e337-8faf-48be-851d-4ba7298c81d0",
+    "fa6096f7-75e2-43af-90f5-a5bbc2febd9a"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "r"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Amusi Howling Performer",
+        "id": 712807
+      }
+    ],
+    "dbID": 16913
+  },
+  "series": [
+    "d44dfc09-8d68-4b5a-ad5a-b70e6583268b"
+  ]
+}

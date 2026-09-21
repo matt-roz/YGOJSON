@@ -1,0 +1,43 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "da94c731-1185-477f-8b96-3cf03aafe0ea",
+  "text": {
+    "en": {
+      "name": "Behemoth the King of All Animals (Rush Duel)",
+      "effect": "Add Beast Type monsters from your Graveyard to your hand equal to [the number of monsters Tributed when Tribute Summoning this card].",
+      "official": false
+    },
+    "ko": {
+      "name": "\ubc31\uc218\uc655 \ubca0\ud788\ubaa8\uc2a4",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130(\uc57c\uc218\uc871)\ub97c [\uc774 \uce74\ub4dc\ub97c \uc5b4\ub4dc\ubc34\uc2a4 \uc18c\ud658\ud560 \ub54c\uc5d0 \ub9b4\ub9ac\uc2a4\ud55c \ubaac\uc2a4\ud130\uc758 \uc218]\ub9cc\ud07c \uace0\ub974\uace0 \ud328\uc5d0 \ub123\ub294\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "beast",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2700,
+  "def": 1500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "fc24a554-84c9-4d00-80ac-655aa998a3fd",
+      "card": "https://ms.yugipedia.com//4/40/BehemoththeKingofAllAnimals-RDORP3-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Behemoth the King of All Animals (Rush Duel)",
+        "id": 713667
+      }
+    ],
+    "dbID": 18682
+  },
+  "series": []
+}

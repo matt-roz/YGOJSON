@@ -1,0 +1,54 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "7411ec9e-396f-4ea4-bd99-a1b5bc62e3ce",
+  "text": {
+    "en": {
+      "name": "Crawling Torso",
+      "effect": "Add 1 Zombie Type Normal Monster with 0 ATK from your Graveyard to your hand."
+    },
+    "ja": {
+      "name": "\u9019\u3044\u305a\u308a\u56de\u308b\u534a\u8eab",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u901a\u5e38\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30a2\u30f3\u30c7\u30c3\u30c8\u65cf\uff0f\u653b\u6483\u529b\uff10\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uae30\uc5b4\ub2e4\ub2c8\ub294 \ubc18\uc2e0",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \uc77c\ubc18 \ubaac\uc2a4\ud130(\uc5b8\ub370\ub4dc\uc871 / \uacf5\uaca9\ub825 0) 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\ub294\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "zombie",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 1000,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "4f62f344-e7e9-479e-912f-4d828c58fc46",
+      "card": "https://ms.yugipedia.com//e/e1/CrawlingTorso-RDMRP1-JP-R.png"
+    }
+  ],
+  "sets": [
+    "a08d0d55-5282-4487-b8b3-a190adb90edf",
+    "62f50503-1055-4260-b990-3fb3469154e0"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "r"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Crawling Torso",
+        "id": 717074
+      }
+    ],
+    "dbID": 17699
+  },
+  "series": [
+    "0f2d4ea0-f393-4696-9048-3b455a7ae19a"
+  ]
+}

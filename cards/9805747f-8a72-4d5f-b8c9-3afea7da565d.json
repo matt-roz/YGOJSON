@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "9805747f-8a72-4d5f-b8c9-3afea7da565d",
+  "text": {
+    "en": {
+      "name": "The Calculator (Rush Duel)",
+      "effect": "This card gains ATK equal to [the total original Levels of the face-up monsters on your field] x 300.",
+      "official": false
+    },
+    "ko": {
+      "name": "\ub354 \uce98\ud058\ub808\uc774\ud130",
+      "effect": "\uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\ub825\uc740, [\uc790\uc2e0 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130\uc758 \uc6d0\ub798 \ub808\ubca8\uc758 \ud569\uacc4] \u00d7 300 \uc62c\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "thunder",
+  "classifications": [
+    "effect"
+  ],
+  "level": 2,
+  "atk": 0,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "126ef0a5-7bc4-45a1-ba8b-928ceae7f3b9",
+      "card": "https://ms.yugipedia.com//c/c2/TheCalculator-RDB261-JP-SPR.png"
+    }
+  ],
+  "sets": [
+    "b254644c-27d2-4111-9a53-3a82de7d4cd5"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "The Calculator (Rush Duel)",
+        "id": 1139873
+      }
+    ],
+    "dbID": 22091
+  },
+  "series": []
+}

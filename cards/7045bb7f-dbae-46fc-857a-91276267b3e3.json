@@ -1,0 +1,43 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "7045bb7f-dbae-46fc-857a-91276267b3e3",
+  "text": {
+    "en": {
+      "name": "Rising HERO Argent R",
+      "effect": "Send the top 2 cards of your Deck to the Graveyard. Then, you can add 1 \"Rising Equip\" from your Graveyard to your hand.",
+      "official": false
+    },
+    "ja": {
+      "name": "\uff32\u30fb\uff28\uff25\uff32\uff2f \u30a2\u30eb\u30b8\u30a7\u30f3\u30c8\uff32",
+      "effect": "\u81ea\u5206\u306e\u30c7\u30c3\u30ad\u306e\u4e0a\u304b\u3089\u30ab\u30fc\u30c9\uff12\u679a\u3092\u5893\u5730\u3078\u9001\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\uff32\u30fb\u30a4\u30af\u30a4\u30c3\u30d7\u300d\uff11\u679a\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 1400,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "209ebc3e-10a9-4503-8987-487b4c21bb5f",
+      "card": "https://ms.yugipedia.com//9/94/RisingHEROArgentR-RDKP25-JP-R.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Rising HERO Argent R",
+        "id": 1184155
+      }
+    ],
+    "dbID": 23222
+  },
+  "series": []
+}

@@ -1,0 +1,42 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "43a4ae21-b248-45cb-afd5-f9efb24eaf0c",
+  "text": {
+    "en": {
+      "name": "Thousand Dragon (Rush Duel)",
+      "effect": "\"Time Wizard\" + \"Baby Dragon\""
+    },
+    "ko": {
+      "name": "\uc0ac\uc6b0\uc804\ub4dc \ub4dc\ub798\uace4",
+      "effect": "\"\uc2dc\uac04\uc758 \ub9c8\uc220\uc0ac\" \uff0b \"\ubca0\uc774\ube44 \ub4dc\ub798\uace4\""
+    }
+  },
+  "cardType": "monster",
+  "attribute": "wind",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "dragon",
+  "level": 7,
+  "atk": 2400,
+  "def": 2000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "f7577adc-73e9-4ee8-bf9f-70645cacab51",
+      "card": "https://ms.yugipedia.com//c/c7/ThousandDragon-RDECG1-JP-NPR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Thousand Dragon (Rush Duel)",
+        "id": 1018997
+      }
+    ],
+    "dbID": 19435
+  },
+  "series": []
+}

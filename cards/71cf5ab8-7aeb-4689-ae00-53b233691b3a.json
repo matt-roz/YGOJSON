@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "71cf5ab8-7aeb-4689-ae00-53b233691b3a",
+  "text": {
+    "en": {
+      "name": "Spirit of the Stars",
+      "effect": "Send the top 3 cards of your Deck to the Graveyard. Then, you can Fusion Summon a monster that mentions \"Spirit of the Stars\" or \"Pliage the Sacred Shooting Star\" as material by sending monsters from your hand or field to the Graveyard as material.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u661f\u306e\u7cbe\u970a",
+      "effect": "\u81ea\u5206\u306e\u30c7\u30c3\u30ad\u306e\u4e0a\u304b\u3089\u30ab\u30fc\u30c9\uff13\u679a\u3092\u5893\u5730\u3078\u9001\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u624b\u672d\u30fb\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u3092\u7d20\u6750\u3068\u3057\u3066\u5893\u5730\u3078\u9001\u3063\u3066\u300c\u661f\u306e\u7cbe\u970a\u300d\u307e\u305f\u306f\u300c\u6d41\u8056\u306e\u30d7\u30ea\u30a2\u30fc\u30b8\u30e5\u300d\u306e\u30ab\u30fc\u30c9\u540d\u304c\u7d20\u6750\u3068\u3057\u3066\u8a18\u3055\u308c\u305f\u30e2\u30f3\u30b9\u30bf\u30fc\u3092\u30d5\u30e5\u30fc\u30b8\u30e7\u30f3\u53ec\u559a\u3067\u304d\u308b\u3002"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "spellcaster",
+  "classifications": [
+    "effect"
+  ],
+  "level": 2,
+  "atk": 800,
+  "def": 1200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "fdb455e1-7122-4b3a-b683-3934faa03d3c",
+      "card": "https://ms.yugipedia.com//7/75/SpiritoftheStars-RDAP03-JP-UR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Spirit of the Stars",
+        "id": 1201209
+      }
+    ],
+    "dbID": 23450
+  },
+  "series": [
+    "2c65f746-fbfd-4e06-a9f8-ace9050c9c95"
+  ]
+}

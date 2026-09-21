@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "d5cb160b-e652-4b55-96f7-302fdbbe7dfe",
+  "text": {
+    "en": {
+      "name": "CAN - Melo:D",
+      "effect": "Choose 1 face-down card on your opponent's field and shuffle it into the Deck. If your LP are lower than your opponent's, you can add 1 Level 1 Psychic Type Normal Monster from your Graveyard to your hand."
+    },
+    "ja": {
+      "name": "\uff23\uff21\uff2e\uff0d\uff2d\uff45\uff4c\uff4f\uff1a\uff24",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u88cf\u5074\u8868\u793a\u306e\u30ab\u30fc\u30c9\uff11\u679a\u3092\u9078\u3093\u3067\u6301\u3061\u4e3b\u306e\u30c7\u30c3\u30ad\u306b\u623b\u3059\u3002\u81ea\u5206\u306e\uff2c\uff30\u304c\u76f8\u624b\u3088\u308a\u5c11\u306a\u3044\u5834\u5408\u3001\u3055\u3089\u306b\u81ea\u5206\u306e\u5893\u5730\u306e\u901a\u5e38\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff11\uff0f\u30b5\u30a4\u30ad\u30c3\u30af\u65cf\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "CAN\uff0dMelo:D",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \ub4b7\uba74 \ud45c\uc2dc\uc758 \uce74\ub4dc 1\uc7a5\uc744 \uace0\ub974\uace0 \uc8fc\uc778\uc758 \ub371\uc73c\ub85c \ub418\ub3cc\ub9b0\ub2e4. \uc790\uc2e0\uc758 LP\uac00 \uc0c1\ub300\ubcf4\ub2e4 \uc801\uc744 \uacbd\uc6b0, \ucd94\uac00\ub85c \uc790\uc2e0 \ubb18\uc9c0\uc758 \uc77c\ubc18 \ubaac\uc2a4\ud130(\ub808\ubca8 1 / \uc0ac\uc774\ud0a5\uc871) 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\uc744 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "psychic",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2400,
+  "def": 1800,
+  "passwords": [],
+  "images": [
+    {
+      "id": "3bb9725f-cbfa-4875-b0c9-89e8d05524b7",
+      "card": "https://ms.yugipedia.com//d/d7/CANMeloD-RD5TH1-JP-ORR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "CAN - Melo:D",
+        "id": 714202
+      }
+    ],
+    "dbID": 17199
+  },
+  "series": [
+    "d4b738d2-c43e-41d1-bad9-e081fddd27a1"
+  ]
+}

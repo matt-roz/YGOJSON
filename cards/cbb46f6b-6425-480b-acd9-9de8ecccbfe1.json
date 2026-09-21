@@ -1,0 +1,48 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "cbb46f6b-6425-480b-acd9-9de8ecccbfe1",
+  "text": {
+    "en": {
+      "name": "Salamangreat Gearblade",
+      "effect": "Special Summon 1 \"Salamangreat\" monster from your hand or GY, and if you do, equip this card to it. You can send 1 \"Salamangreat\" monster from your Deck to the GY; the equipped monster gains ATK equal to the sent monster's Level x 300. If this card is in your GY: You can shuffle 3 \"Salamangreat\" cards from your GY into the Deck, except Equip Spells, and if you do, add this card to your hand. You can only use each effect of \"Salamangreat Gearblade\" once per turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u8ee2\u751f\u708e\u7363\u306e\u795e\u5263"
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "equip",
+  "passwords": [],
+  "images": [
+    {
+      "id": "b43bda22-13a5-4548-8488-79d8c3978ec5",
+      "card": "https://ms.yugipedia.com//1/1f/SalamangreatGearblade-IMPH-JP-OP.png"
+    },
+    {
+      "id": "190ce359-ad0d-4cb1-8f1d-f9b139cfc2bd",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/101403063.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/101403063.jpg"
+    }
+  ],
+  "sets": [
+    "ccc8125c-0182-45df-91a7-57e5e2423dfc",
+    "ccc8125c-0182-45df-91a7-57e5e2423dfc"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Salamangreat Gearblade",
+        "id": 1223812
+      }
+    ],
+    "ygoprodeck": {
+      "id": 101403063,
+      "name": "salamangreat-gearblade-15941"
+    }
+  },
+  "series": [
+    "95d50657-1e67-43bb-b963-2b1af055c1be"
+  ]
+}

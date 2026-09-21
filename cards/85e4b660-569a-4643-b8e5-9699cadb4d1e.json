@@ -1,0 +1,65 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "85e4b660-569a-4643-b8e5-9699cadb4d1e",
+  "text": {
+    "en": {
+      "name": "CAN - Re:D",
+      "effect": "Return 1 face-up monster with 500 or less ATK from your field to the owner's hand. This turn, while this card is face-up, you cannot Tribute Summon monsters with 1500 or more DEF in Attack Position."
+    },
+    "fr": {
+      "name": "CAN - Re:D"
+    },
+    "de": {
+      "name": "CAN - Re:D"
+    },
+    "it": {
+      "name": "CAN - Re:D"
+    },
+    "es": {
+      "name": "CAN - Re:D"
+    },
+    "ja": {
+      "name": "\uff23\uff21\uff2e\uff0d\uff32\uff45\uff1a\uff24",
+      "effect": "\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u653b\u6483\u529b\uff15\uff10\uff10\u4ee5\u4e0b\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u6301\u3061\u4e3b\u306e\u624b\u672d\u306b\u623b\u3059\u3002\u3053\u306e\u30bf\u30fc\u30f3\u3001\u3053\u306e\u30ab\u30fc\u30c9\u304c\u8868\u5074\u8868\u793a\u306e\u9593\u3001\u81ea\u5206\u306f\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u5b88\u5099\u529b\uff11\uff15\uff10\uff10\u4ee5\u4e0a\uff09\u3092\u653b\u6483\u8868\u793a\u3067\u30a2\u30c9\u30d0\u30f3\u30b9\u53ec\u559a\u3067\u304d\u306a\u3044\u3002"
+    },
+    "ko": {
+      "name": "CAN\uff0dRe:D",
+      "effect": "\uc790\uc2e0 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\uacf5\uaca9\ub825 500 \uc774\ud558) 1\uc7a5\uc744 \uace0\ub974\uace0 \uc8fc\uc778\uc758 \ud328\ub85c \ub418\ub3cc\ub9b0\ub2e4. \uc774 \ud134\uc5d0, \uc774 \uce74\ub4dc\uac00 \uc55e\uba74 \ud45c\uc2dc\uc778 \ub3d9\uc548, \uc790\uc2e0\uc740 \ubaac\uc2a4\ud130(\uc218\ube44\ub825 1500 \uc774\uc0c1)\ub97c \uacf5\uaca9 \ud45c\uc2dc\ub85c \uc5b4\ub4dc\ubc34\uc2a4 \uc18c\ud658\ud560 \uc218 \uc5c6\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "psychic",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2500,
+  "def": 1500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "9717495a-7e47-4b09-9831-925c8393c40e",
+      "card": "https://ms.yugipedia.com//2/2c/CANReD-RDS222-JP-ScR.png"
+    }
+  ],
+  "sets": [
+    "5b6d7ab4-987e-4469-89bd-9d9bf3d400c0"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "CAN - Re:D",
+        "id": 714203
+      }
+    ],
+    "dbID": 16326
+  },
+  "series": [
+    "d4b738d2-c43e-41d1-bad9-e081fddd27a1"
+  ]
+}

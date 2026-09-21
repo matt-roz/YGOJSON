@@ -1,0 +1,68 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "f2f1369b-53c0-40bb-82c7-dc5f56ae5618",
+  "text": {
+    "en": {
+      "name": "Tama the Mancer Cat",
+      "effect": "Send the top 2 cards of your Deck to the Graveyard. If a monster(s) with 0 ATK is among the cards sent, you can Special Summon 1 Normal Monster with 0 ATK from your Graveyard face-up to your field."
+    },
+    "fr": {
+      "name": "Tama le Chat Mancien",
+      "effect": "Envoyez les 2 cartes du dessus de votre Deck au Cimeti\u00e8re. Si un ou plusieurs monstres avec 0 ATK font partie des cartes envoy\u00e9es, vous pouvez Invoquer Sp\u00e9cialement 1 Monstre Normal avec 0 ATK depuis votre Cimeti\u00e8re face recto sur votre Terrain."
+    },
+    "de": {
+      "name": "Tama die Mantenkatzen",
+      "effect": "Lege die obersten 2 Karten deines Decks auf den Friedhof. Befinden sich ein oder mehrere Monster mit einem ATK von 0 unter den gelegten Karten, kannst du dir mit einer Spezialbeschw\u00f6rung 1 Normales Monster mit einem ATK von 0 von deinem Friedhof als offene Figur auf deiner Spielfeldseite holen."
+    },
+    "it": {
+      "name": "Tama il Gatto Mante",
+      "effect": "Manda le prime 2 carte del tuo Deck al Cimitero. Se uno o pi\u00f9 mostri con ATK 0 sono tra queste carte, puoi Evocare Specialmente 1 Mostro Normale con ATK 0 dal tuo Cimitero, scoperto sul tuo Terreno."
+    },
+    "es": {
+      "name": "Tama el Gato Mante",
+      "effect": "Manda al Cementerio las 2 cartas de la parte superior de tu Deck. Si hay uno o m\u00e1s monstruos con 0 ATK en las cartas enviadas, puedes Invocar de Modo Especial 1 Monstruo Normal con 0 ATK desde tu Cementerio boca arriba a tu Campo."
+    },
+    "ja": {
+      "name": "\u6b7b\u53cd\u306e\u30bf\u30de",
+      "effect": "\u81ea\u5206\u306e\u30c7\u30c3\u30ad\u306e\u4e0a\u304b\u3089\u30ab\u30fc\u30c9\uff12\u679a\u3092\u5893\u5730\u3078\u9001\u308b\u3002\u305d\u306e\u4e2d\u306b\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u653b\u6483\u529b\uff10\uff09\u304c\u3044\u305f\u5834\u5408\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u901a\u5e38\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u653b\u6483\u529b\uff10\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u8868\u793a\u3067\u7279\u6b8a\u53ec\u559a\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ubd80\ud65c\uc758 \uc5fc\uc8fc\uc758 \ud0c0\ub9c8",
+      "effect": "\uc790\uc2e0\uc758 \ub371 \uc704\uc5d0\uc11c \uce74\ub4dc 2\uc7a5\uc744 \ubb18\uc9c0\ub85c \ubcf4\ub0b8\ub2e4. \uadf8 \uc911\uc5d0 \ubaac\uc2a4\ud130(\uacf5\uaca9\ub825 0)\uac00 \uc788\uc5c8\uc744 \uacbd\uc6b0, \uc790\uc2e0 \ubb18\uc9c0\uc758 \uc77c\ubc18 \ubaac\uc2a4\ud130(\uacf5\uaca9\ub825 0) 1\uc7a5\uc744 \uace0\ub974\uace0 \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \ud45c\uc2dc\ub85c \ud2b9\uc218 \uc18c\ud658\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "beast",
+  "classifications": [
+    "effect"
+  ],
+  "level": 1,
+  "atk": 0,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "1e6b4174-6b35-4bfe-9396-6f479bb033c6",
+      "card": "https://ms.yugipedia.com//7/78/TamatheMancerCat-RDSBD3-JP-C.png"
+    }
+  ],
+  "sets": [
+    "f8e7532a-02f9-4834-aa0e-230e163cf5e4",
+    "f8e7532a-02f9-4834-aa0e-230e163cf5e4"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Tama the Mancer Cat",
+        "id": 716999
+      }
+    ],
+    "dbID": 16141
+  },
+  "series": []
+}

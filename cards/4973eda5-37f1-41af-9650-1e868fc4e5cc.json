@@ -1,0 +1,48 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "4973eda5-37f1-41af-9650-1e868fc4e5cc",
+  "text": {
+    "en": {
+      "name": "Star of Beginning",
+      "effect": "Send the top 2 cards of your Deck to the Graveyard. Then, you can add 1 Level 5 or lower Normal Monster, \"Fusion\", or \"Polymerization\" from your Graveyard to your hand."
+    },
+    "ja": {
+      "name": "\u306f\u3058\u307e\u308a\u306e\u661f",
+      "effect": "\u81ea\u5206\u306e\u30c7\u30c3\u30ad\u306e\u4e0a\u304b\u3089\u30ab\u30fc\u30c9\uff12\u679a\u3092\u5893\u5730\u3078\u9001\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u901a\u5e38\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff15\u4ee5\u4e0b\uff09\u3001\u300c\u30d5\u30e5\u30fc\u30b8\u30e7\u30f3\u300d\u3001\u300c\u878d\u5408\u300d\u306e\u4e2d\u304b\u3089\uff11\u679a\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc2dc\uc791\uc758 \ubcc4",
+      "effect": "\uc790\uc2e0\uc758 \ub371 \uc704\uc5d0\uc11c \uce74\ub4dc 2\uc7a5\uc744 \ubb18\uc9c0\ub85c \ubcf4\ub0b8\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0 \ubb18\uc9c0\uc758 \uc77c\ubc18 \ubaac\uc2a4\ud130(\ub808\ubca8 5 \uc774\ud558), \"\ud4e8\uc804\", \"\uc735\ud569\" \uc911\uc5d0\uc11c 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\uc744 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "8086b229-342a-42bb-a6dd-ca58bc8786f9",
+      "card": "https://ms.yugipedia.com//f/fc/StarofBeginning-RDAP03-JP-SR.png"
+    },
+    {
+      "id": "912eac80-6ac4-42c9-8d35-0a8c0ee51c70",
+      "card": "https://ms.yugipedia.com//4/47/StarofBeginning-RDAP03-JP-FORR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Star of Beginning",
+        "id": 1077862
+      }
+    ],
+    "dbID": 20878
+  },
+  "series": [
+    "2c65f746-fbfd-4e06-a9f8-ace9050c9c95"
+  ]
+}

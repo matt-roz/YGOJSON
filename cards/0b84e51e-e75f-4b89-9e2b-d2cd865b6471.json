@@ -1,0 +1,50 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "0b84e51e-e75f-4b89-9e2b-d2cd865b6471",
+  "text": {
+    "en": {
+      "name": "Progrigger Vancing",
+      "effect": "This Attack Position card cannot be destroyed by battle with a monster that has 2500 original ATK.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30d7\u30ed\u30b0\u30ea\u30fc\u30ac\u30fc\u30fb\u30f4\u30a1\u30f3\u30bb\u30f3\u30b0",
+      "effect": "\u653b\u6483\u8868\u793a\u306e\u3053\u306e\u30ab\u30fc\u30c9\u306f\u3001\u5143\u3005\u306e\u653b\u6483\u529b\u304c\uff12\uff15\uff10\uff10\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u3068\u306e\u6226\u95d8\u3067\u306f\u7834\u58ca\u3055\u308c\u306a\u3044\u3002"
+    },
+    "ko": {
+      "name": "\ud504\ub85c\uadf8\ub9ac\uac70 \ubc45\uc14d",
+      "effect": "\uacf5\uaca9 \ud45c\uc2dc\uc758 \uc774 \uce74\ub4dc\ub294, \uc6d0\ub798 \uacf5\uaca9\ub825\uc774 2500 \uc778 \ubaac\uc2a4\ud130\uc640\uc758 \uc804\ud22c\ub85c\ub294 \ud30c\uad34\ub418\uc9c0 \uc54a\ub294\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "cyberse",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2500,
+  "def": 1500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "1c9505e1-7105-43f4-95e2-1e0590a5a5ef",
+      "card": "https://ms.yugipedia.com//4/4c/ProgriggerVancing-RD25PR-JP-NPR.png"
+    }
+  ],
+  "sets": [
+    "39d31fc3-f31a-4e4e-8890-07c0643c9fc5",
+    "39d31fc3-f31a-4e4e-8890-07c0643c9fc5"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Progrigger Vancing",
+        "id": 1033306
+      }
+    ],
+    "dbID": 20043
+  },
+  "series": []
+}

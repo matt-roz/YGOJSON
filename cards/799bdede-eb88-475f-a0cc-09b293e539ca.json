@@ -1,0 +1,50 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "799bdede-eb88-475f-a0cc-09b293e539ca",
+  "text": {
+    "en": {
+      "name": "Ghost Cyclone",
+      "effect": "Destroy 1 Spell/Trap Card on your opponent's field. Then, if you have 3 or less monsters in your Graveyard, you can draw 1 card."
+    },
+    "ja": {
+      "name": "\u30b4\u30fc\u30b9\u30c8\u30fb\u30b5\u30a4\u30af\u30ed\u30f3",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u9b54\u6cd5\u30fb\u7f60\u30ab\u30fc\u30c9\uff11\u679a\u3092\u9078\u3093\u3067\u7834\u58ca\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u304c\uff13\u4f53\u4ee5\u4e0b\u306e\u5834\u5408\u3001\u81ea\u5206\u306f\uff11\u679a\u30c9\u30ed\u30fc\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uace0\uc2a4\ud2b8 \uc2f8\uc774\ud06c\ub860",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \ub9c8\ubc95 / \ud568\uc815 \uce74\ub4dc 1\uc7a5\uc744 \uace0\ub974\uace0 \ud30c\uad34\ud55c\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130\uac00 3\uc7a5 \uc774\ud558\uc77c \uacbd\uc6b0, \uc790\uc2e0\uc740 1\uc7a5 \ub4dc\ub85c\uc6b0\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "f5e95e69-dc9e-4eba-9faf-0c5840a6bee5",
+      "card": "https://ms.yugipedia.com//8/8a/GhostCyclone-RDSD0B-JP-C.png"
+    },
+    {
+      "id": "5a69af0c-fc3c-4b81-ade0-70ecd58b3817",
+      "card": "https://ms.yugipedia.com//a/a7/GhostCyclone-RD5TH1-JP-UPR.png"
+    }
+  ],
+  "sets": [
+    "e1cd0077-0760-46c2-8cff-9fd1ac443780",
+    "fab3640e-34f2-410e-8c1b-6c7386795132",
+    "fab3640e-34f2-410e-8c1b-6c7386795132"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Ghost Cyclone",
+        "id": 715100
+      }
+    ],
+    "dbID": 17539
+  },
+  "series": []
+}

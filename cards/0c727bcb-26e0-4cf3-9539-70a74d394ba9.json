@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "0c727bcb-26e0-4cf3-9539-70a74d394ba9",
+  "text": {
+    "en": {
+      "name": "Chemipet Purr",
+      "effect": "Gain 400 LP. Then, you can place 1 Pyro, Aqua, or Thunder Type monster from your Graveyard on top of your Deck."
+    },
+    "ja": {
+      "name": "\u30b1\u30df\u30b9\u30da\u30c3\u30c8\u30fb\u30cb\u30e3\u30f3\u30b3",
+      "effect": "\u81ea\u5206\u306f\uff14\uff10\uff10\uff2c\uff30\u56de\u5fa9\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u708e\u65cf\u30fb\u6c34\u65cf\u30fb\u96f7\u65cf\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u30c7\u30c3\u30ad\u306e\u4e0a\u306b\u623b\u3059\u4e8b\u304c\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ucf00\ubbf8\uc2a4\ud3ab \ub0e5\ucf54",
+      "effect": "\uc790\uc2e0\uc740 400 LP \ud68c\ubcf5\ud55c\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130(\ud654\uc5fc\uc871 / \ubb3c\uc871 / \ubc88\uac1c\uc871) 1\uc7a5\uc744 \uace0\ub974\uace0 \ub371 \uc704\ub85c \ub418\ub3cc\ub9b4 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "type": "thunder",
+  "classifications": [
+    "effect"
+  ],
+  "level": 1,
+  "atk": 600,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "a52d533d-8204-489f-b310-a9bd3fa5344d",
+      "card": "https://ms.yugipedia.com//7/79/ChemipetPurr-RDKP14-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Chemipet Purr",
+        "id": 975295
+      }
+    ],
+    "dbID": 19286
+  },
+  "series": [
+    "0d251edd-435a-4124-a397-93aa376c601d"
+  ]
+}

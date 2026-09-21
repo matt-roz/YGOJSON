@@ -1,0 +1,90 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "35b33ce8-ac3e-40f0-b1fc-1ed33a7edac1",
+  "text": {
+    "en": {
+      "name": "Prima Guitarna the Shining Superstar",
+      "effect": "All face-up monsters on your field gain ATK equal to [the number of monsters on your opponent's field] x 300 until the end of this turn."
+    },
+    "fr": {
+      "name": "Prima Guitarna la Superstar Flamboyante",
+      "effect": "Jusqu'\u00e0 la fin de ce tour, tous les monstres face recto sur votre Terrain gagnent une ATK \u00e9gale au [nombre de monstres sur le Terrain de votre adversaire] x 300."
+    },
+    "de": {
+      "name": "Prima Guitarna der gl\u00e4nzende Superstar",
+      "effect": "Alle offenen Monster auf deiner Spielfeldseite erhalten bis zum Ende dieses Spielzugs ATK in H\u00f6he [der Anzahl an Monstern auf dem Spielfeld deines Gegners] x 300."
+    },
+    "it": {
+      "name": "Prima Guitarna la Brillante Superstar",
+      "effect": "Tutti i mostri scoperti sul tuo Terreno guadagnano ATK pari [al numero di mostri sul Terreno del tuo avversario] x 300 fino alla fine di questo turno."
+    },
+    "es": {
+      "name": "Guitarna Prima la Superestrella Brillante",
+      "effect": "Todos los monstruos boca arriba en tu Campo ganan ATK igual [al n\u00famero de monstruos en el Campo de tu adversario] x 300 hasta el final de este turno."
+    },
+    "ja": {
+      "name": "\u5f69\u5149\u306e\u30d7\u30ea\u30de\u30ae\u30bf\u30fc\u30ca",
+      "effect": "\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u5168\u3066\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u653b\u6483\u529b\u306f\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\u3001\uff3b\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u6570\uff3d\u00d7\uff13\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ucc44\uad11\uc758 \ud504\ub9ac\ub9c8\uae30\ud0c0\ub098",
+      "effect": "\uc790\uc2e0 \ud544\ub4dc\uc758 \ubaa8\ub4e0 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130\uc758 \uacf5\uaca9\ub825\uc740 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0, [\uc0c1\ub300 \ud544\ub4dc\uc758 \ubaac\uc2a4\ud130\uc758 \uc218] \u00d7 300 \uc62c\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "psychic",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2200,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "f062d8e6-b3d5-4294-b7da-43b7bec473c1",
+      "card": "https://ms.yugipedia.com//a/ab/PrimaGuitarnatheShiningSuperstar-RDMRP2-JP-C.png"
+    },
+    {
+      "id": "3e7cf9bd-b338-4d02-b4dc-f0701fbcf684",
+      "card": "https://ms.yugipedia.com//4/49/PrimaGuitarnatheShiningSuperstar-RDMRP2-KR-C.png"
+    },
+    {
+      "id": "57830e75-eca6-4c12-90d9-ee2fa7665e6c",
+      "card": "https://ms.yugipedia.com//e/ec/PrimaGuitarnatheShiningSuperstar-RDCCC1-JP-NPR.png"
+    },
+    {
+      "id": "c19fd731-8e2f-45fd-bcc7-388cbfd57013",
+      "card": "https://ms.yugipedia.com//b/bf/PrimaGuitarnatheShiningSuperstar-RD5TH1-JP-UPR.png"
+    },
+    {
+      "id": "affd5406-041e-4c9e-aff6-8f1841fa543e",
+      "card": "https://ms.yugipedia.com//0/0b/PrimaGuitarnatheShiningSuperstar-RD5TH1-KR-UPR.png"
+    }
+  ],
+  "sets": [
+    "dba2c2c7-1304-41ac-b160-9e2879620d6c",
+    "e670ec5c-7fbb-49cd-9899-885731ab9e90",
+    "b0f28e3d-b93f-42f7-9518-5a27b9304349",
+    "a5eedf36-311c-4849-a732-d96430b8e8cc",
+    "9f297267-1ebc-44e2-b4a4-d3e5fea47c30",
+    "9f297267-1ebc-44e2-b4a4-d3e5fea47c30"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Prima Guitarna the Shining Superstar",
+        "id": 716290
+      }
+    ],
+    "dbID": 15193
+  },
+  "series": [
+    "d44dfc09-8d68-4b5a-ad5a-b70e6583268b"
+  ]
+}

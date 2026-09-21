@@ -1,0 +1,55 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "7a0895cf-e980-4ae7-9df0-38d8e8b0d42e",
+  "text": {
+    "en": {
+      "name": "Abyss Vagrada the Abyssal Cubic Lord",
+      "effect": "3 \"Cubic\" monsters\nGains 1000 ATK for each \"Vijam the Cubic Seed\" in your GY, also unaffected by the activated effects of monsters with ATK less than this card. (Quick Effect): You can return this card to the Extra Deck, and if you do, Special Summon 3 \"Cubic\" monsters from your GY, and if you do that, add 1 \"Cubic\" card from your Deck to your hand. You can only use this effect of \"Abyss Vagrada the Abyssal Cubic Lord\" once per turn, also you cannot Special Summon from the Extra Deck the turn you activate this effect, except Fusion Monsters.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u6e9f\u6df5\u65b9\u754c\u795e\u30a2\u30d3\u30b9\u30fb\u30f4\u30a1\u30b0\u30e9\u30fc\u30c0"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "fiend",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 0,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "ebdd13e8-27c6-4111-a4df-f93fd3898e11",
+      "card": "https://ms.yugipedia.com//f/ff/AbyssVagradatheAbyssalCubicLord-RV02-JP-OP.png"
+    },
+    {
+      "id": "8d72fc6c-47f4-4b3c-b974-5ab9f95c7bce",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/100460003.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/100460003.jpg"
+    }
+  ],
+  "sets": [
+    "a2b9546b-1f13-4956-8066-3103aaea48d7"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Abyss Vagrada the Abyssal Cubic Lord",
+        "id": 1226090
+      }
+    ],
+    "ygoprodeck": {
+      "id": 100460003,
+      "name": "abyss-vagrada-the-abyssal-cubic-lord-15955"
+    }
+  },
+  "series": []
+}

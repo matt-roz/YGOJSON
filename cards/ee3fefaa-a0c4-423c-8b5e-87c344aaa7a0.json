@@ -1,0 +1,53 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "ee3fefaa-a0c4-423c-8b5e-87c344aaa7a0",
+  "text": {
+    "en": {
+      "name": "Rocket Medic",
+      "effect": "Add 1 \"Meteor Dragon\" or 1 \"Meteor Flare Fusion\" from your Graveyard to your hand."
+    },
+    "ja": {
+      "name": "\u30ed\u30b1\u30c3\u30c8\u885b\u661f\u5175",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u30e1\u30c6\u30aa\u30fb\u30c9\u30e9\u30b4\u30f3\u300d\uff11\u4f53\u307e\u305f\u306f\u300c\u30e1\u30c6\u30aa\u30d5\u30ec\u30a2\u30fb\u30d5\u30e5\u30fc\u30b8\u30e7\u30f3\u300d\uff11\u679a\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub85c\ucf13 \uc704\uc131\ubcd1",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \"\uba54\ud14c\uc624 \ub4dc\ub798\uace4\" 1\uc7a5 \ub610\ub294 \"\uba54\ud14c\uc624\ud50c\ub808\uc5b4 \ud4e8\uc804\" 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\ub294\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1300,
+  "def": 1300,
+  "passwords": [],
+  "images": [
+    {
+      "id": "ed6f129a-25fa-48ad-a3a2-0d74fd1be40a",
+      "card": "https://ms.yugipedia.com//9/99/RocketMedic-RDTB02-JP-C.png"
+    }
+  ],
+  "sets": [
+    "e123be6e-0424-4ff0-a324-6175fee17d50"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "r"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Rocket Medic",
+        "id": 1022923
+      }
+    ],
+    "dbID": 19662
+  },
+  "series": [
+    "b8f9793c-0736-4ee4-99be-120c4d70afbc"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "20166054-618c-4cc5-9a94-3e3bb83c647f",
+  "text": {
+    "en": {
+      "name": "Cyber Fish",
+      "effect": "Draw 1 card."
+    },
+    "ja": {
+      "name": "\u30b5\u30a4\u30d0\u30fc\u30fb\u30d5\u30a3\u30c3\u30b7\u30e5",
+      "effect": "\u81ea\u5206\u306f\uff11\u679a\u30c9\u30ed\u30fc\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc0ac\uc774\ubc84 \ud53c\uc2dc",
+      "effect": "\uc790\uc2e0\uc740 1\uc7a5 \ub4dc\ub85c\uc6b0\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "type": "fish",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1000,
+  "def": 1200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "83308fba-2e33-48ad-a19d-5af34d2cd348",
+      "card": "https://ms.yugipedia.com//a/a8/CyberFish-RDKP15-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Cyber Fish",
+        "id": 1023242
+      }
+    ],
+    "dbID": 19655
+  },
+  "series": []
+}

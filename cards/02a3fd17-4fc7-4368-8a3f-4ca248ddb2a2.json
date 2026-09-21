@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "02a3fd17-4fc7-4368-8a3f-4ca248ddb2a2",
+  "text": {
+    "en": {
+      "name": "Ecdysis Caesarleon",
+      "effect": "This card gains ATK equal to [the number of cards in your Graveyard] x 100.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30a8\u30af\u30c7\u30a3\u30b7\u30b9\u30fb\u30ab\u30ea\u30ae\u30e5\u30ec\u30aa\u30f3",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u306e\u653b\u6483\u529b\u306f\u3001\uff3b\u81ea\u5206\u306e\u5893\u5730\u306e\u30ab\u30fc\u30c9\u306e\u6570\uff3d\u00d7\uff11\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc5d1\ub514\uc2dc\uc2a4 \uce7c\ub9ac\uad74\ub808\uc628",
+      "effect": "\uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\ub825\uc740, [\uc790\uc2e0 \ubb18\uc9c0\uc758 \uce74\ub4dc\uc758 \uc218] \u00d7 100 \uc62c\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "reptile",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 2000,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "000a6ce2-7b16-4023-ac2f-473dad3207d4",
+      "card": "https://ms.yugipedia.com//d/db/EcdysisCaesarleon-RDKP08-JP-UR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Ecdysis Caesarleon",
+        "id": 714755
+      }
+    ],
+    "dbID": 17298
+  },
+  "series": [
+    "1f634c80-0c3b-4ad6-98e4-7e85cca61b64"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "617244d3-74d9-4a30-a7a8-4c39721e51c4",
+  "text": {
+    "en": {
+      "name": "Progress Potter",
+      "effect": "Shuffle up to 2 cards from your opponent's Graveyard into the Deck. Then, you can draw cards equal to [the number of \"Progress Potter\" and \"Pot of Avarice\" with different names in your Graveyard].",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30d7\u30ed\u30b0\u30ec\u30b9\u30fb\u30dd\u30c3\u30bf\u30fc",
+      "effect": "\u76f8\u624b\u306e\u5893\u5730\u306e\u30ab\u30fc\u30c9\u3092\uff12\u679a\u307e\u3067\u9078\u3093\u3067\u30c7\u30c3\u30ad\u306b\u623b\u3059\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306f\uff3b\u81ea\u5206\u306e\u5893\u5730\u306b\u3042\u308b\u300c\u30d7\u30ed\u30b0\u30ec\u30b9\u30fb\u30dd\u30c3\u30bf\u30fc\u300d\u300c\u8caa\u6b32\u306a\u58fa\u300d\u306e\u30ab\u30fc\u30c9\u540d\u306e\u7a2e\u985e\uff3d\u3060\u3051\u30c9\u30ed\u30fc\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud504\ub85c\uadf8\ub808\uc2a4 \ud3ff\ud130",
+      "effect": "\uc0c1\ub300 \ubb18\uc9c0\uc758 \uce74\ub4dc\ub97c 2\uc7a5\uae4c\uc9c0 \uace0\ub974\uace0 \ub371\uc73c\ub85c \ub418\ub3cc\ub9b0\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0\uc740 [\uc790\uc2e0 \ubb18\uc9c0\uc5d0 \uc788\ub294 \"\ud504\ub85c\uadf8\ub808\uc2a4 \ud3ff\ud130\" \"\ud0d0\uc695\uc758 \ud56d\uc544\ub9ac\"\uc758 \uce74\ub4dc\uba85\uc758 \uc885\ub958]\ub9cc\ud07c \ub4dc\ub85c\uc6b0\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "wind",
+  "type": "psychic",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 1300,
+  "def": 200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "a303df75-1544-4d53-8efa-e0248ca861bf",
+      "card": "https://ms.yugipedia.com//6/61/ProgressPotter-RD5TH1-JP-SPR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Progress Potter",
+        "id": 716302
+      }
+    ],
+    "dbID": 17682
+  },
+  "series": []
+}

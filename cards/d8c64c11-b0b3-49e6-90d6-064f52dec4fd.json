@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "d8c64c11-b0b3-49e6-90d6-064f52dec4fd",
+  "text": {
+    "en": {
+      "name": "Black Skull Dragon (Rush Duel)",
+      "effect": "\"Summoned Skull\" + \"Red-Eyes Black Dragon\""
+    },
+    "ko": {
+      "name": "\ube14\ub799 \ub370\ubaac\uc988 \ub4dc\ub798\uace4",
+      "effect": "\"\ub370\ubaac \uc18c\ud658\" \uff0b \"\ubd89\uc740 \ub208\uc758 \ud751\ub8e1\""
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "dragon",
+  "level": 9,
+  "atk": 3200,
+  "def": 2500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "e0dd3a43-0f0e-442c-8d2a-b0e35d7fda92",
+      "card": "https://ms.yugipedia.com//3/3e/BlackSkullDragon-RDTB02-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Black Skull Dragon (Rush Duel)",
+        "id": 1042437
+      }
+    ],
+    "dbID": 19948
+  },
+  "series": [
+    "b8f9793c-0736-4ee4-99be-120c4d70afbc",
+    "30da8fac-ccef-4d93-8d83-2d10afec9c87"
+  ]
+}

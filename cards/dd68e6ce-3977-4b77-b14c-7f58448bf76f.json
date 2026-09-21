@@ -1,0 +1,46 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "dd68e6ce-3977-4b77-b14c-7f58448bf76f",
+  "text": {
+    "en": {
+      "name": "Lostream Nepia",
+      "effect": "Equip this card to 1 face-up WIND Attribute Sea Serpent Type monster on your field as an Equip Spell Card with the following effect. Then, you can Special Summon 1 \"Lostream Nemora\" from your Graveyard face-up to your field. \u25cfFace-up monsters on your opponent's field lose 400 ATK.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u96f2\u6d77\u7adc \u30cd\u30d4\u30a2"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "wind",
+  "type": "seaserpent",
+  "classifications": [
+    "effect"
+  ],
+  "abilities": [
+    "union"
+  ],
+  "level": 4,
+  "atk": 1200,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "6c5f599a-00c3-4293-8619-134cb657a286",
+      "card": "https://ms.yugipedia.com//5/58/LostreamNepia-RDCA01-JP-OP.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Lostream Nepia",
+        "id": 1221847
+      }
+    ]
+  },
+  "series": [
+    "8c7214b9-1442-4735-8c5e-bf1949656f9c"
+  ]
+}

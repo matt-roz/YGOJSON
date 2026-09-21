@@ -1,0 +1,52 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "e5cdb606-e28c-4352-b3b8-1034f3990803",
+  "text": {
+    "en": {
+      "name": "Worker Warrior - Sinister CEO",
+      "effect": "Set 1 \"Salary Slash\" and/or \"Battle Demotion\" from your Graveyard to your Spell & Trap Zone.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u6697\u9ed2\u30b7\u30e3\u30a4\u30f3\u738b\u30a2\u30fc\u30af\u30c8\u30fc\u30af",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u30a2\u30bf\u30c3\u30af\u6e1b\u4ff8\u300d\u300c\u30d0\u30c8\u30eb\u5de6\u9077\u300d\u3092\u305d\u308c\u305e\u308c\uff11\u679a\u307e\u3067\u9078\u3093\u3067\u81ea\u5206\u306e\u9b54\u6cd5\uff06\u7f60\u30be\u30fc\u30f3\u306b\u30bb\u30c3\u30c8\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc554\ud751 \uc0e4\uc778\uc655 \uc544\ud06c\ud1a0\ud06c",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \"\uc5b4\ud0dd \uac10\ubd09\" \"\ubc30\ud2c0 \uc88c\ucc9c\"\uc744 \uac01\uac01 1\uc7a5\uae4c\uc9c0 \uace0\ub974\uace0 \uc790\uc2e0\uc758 \ub9c8\ubc95 & \ud568\uc815 \uc874\uc5d0 \uc138\ud2b8\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2400,
+  "def": 600,
+  "passwords": [],
+  "images": [
+    {
+      "id": "cd71c76f-379a-45eb-a93a-e6f6cf6ffec0",
+      "card": "https://ms.yugipedia.com//1/1d/WorkerWarriorSinisterCEO-RDSD02-JP-C.png"
+    }
+  ],
+  "sets": [
+    "a5dd7265-59c0-48dc-b924-5def08b05a08",
+    "a5dd7265-59c0-48dc-b924-5def08b05a08"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Worker Warrior - Sinister CEO",
+        "id": 717517
+      }
+    ],
+    "dbID": 16681
+  },
+  "series": [
+    "20ff6f42-dacc-4386-9945-3b0110386c78"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "30c18b36-0a95-4f0c-a97d-aaef047776d8",
+  "text": {
+    "en": {
+      "name": "Dark Sword Magician",
+      "effect": "If you have 6 or more Spell Cards in your Graveyard, this card cannot be destroyed by your opponent's effects."
+    },
+    "ja": {
+      "name": "\u5263\u9ece\u306e\u9b54\u8853\u5e2b",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306b\u9b54\u6cd5\u30ab\u30fc\u30c9\u304c\uff16\u679a\u4ee5\u4e0a\u3042\u308b\u5834\u5408\u3001\u3053\u306e\u30ab\u30fc\u30c9\u306f\u76f8\u624b\u306e\u52b9\u679c\u3067\u306f\u7834\u58ca\u3055\u308c\u306a\u3044\u3002"
+    },
+    "ko": {
+      "name": "\uac80\ub824\uc758 \ub9c8\uc220\uc0ac",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc5d0 \ub9c8\ubc95 \uce74\ub4dc\uac00 6\uc7a5 \uc774\uc0c1 \uc788\uc744 \uacbd\uc6b0, \uc774 \uce74\ub4dc\ub294 \uc0c1\ub300 \ud6a8\uacfc\ub85c\ub294 \ud30c\uad34\ub418\uc9c0 \uc54a\ub294\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "spellcaster",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2500,
+  "def": 1500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "1a17155d-e42c-43e1-8ee0-d1e06d818ea5",
+      "card": "https://ms.yugipedia.com//5/54/DarkSwordMagician-RDSD0E-JP-C.png"
+    }
+  ],
+  "sets": [
+    "73606f93-01a6-44c8-b212-d726baceb4b2",
+    "baac8391-2c2d-4331-8582-71b7007e0af6",
+    "baac8391-2c2d-4331-8582-71b7007e0af6"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Dark Sword Magician",
+        "id": 1005415
+      }
+    ],
+    "dbID": 19595
+  },
+  "series": [
+    "73409add-3e9e-400d-a8b0-ae600de6af69"
+  ]
+}

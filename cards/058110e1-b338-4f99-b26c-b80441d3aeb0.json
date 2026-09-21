@@ -1,0 +1,40 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "058110e1-b338-4f99-b26c-b80441d3aeb0",
+  "text": {
+    "en": {
+      "name": "Fortress Whale (Rush Duel)"
+    },
+    "ko": {
+      "name": "\uc694\uc0c8 \uace0\ub798"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "monsterCardTypes": [
+    "ritual"
+  ],
+  "type": "fish",
+  "level": 7,
+  "atk": 2400,
+  "def": 2200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "7d851913-bf04-4e24-a93b-071a12e29b72",
+      "card": "https://ms.yugipedia.com//e/e5/FortressWhale-RDKP24-JP-R.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Fortress Whale (Rush Duel)",
+        "id": 1167283
+      }
+    ],
+    "dbID": 22871
+  },
+  "series": []
+}

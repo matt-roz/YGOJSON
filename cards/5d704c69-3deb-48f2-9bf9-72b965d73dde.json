@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "5d704c69-3deb-48f2-9bf9-72b965d73dde",
+  "text": {
+    "en": {
+      "name": "Mega Jointech Fortrex",
+      "effect": "Increase this card's Level by 6. If you have a Level 7 or higher Machine Type monster in your Graveyard, this card cannot be destroyed by card effects.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30e1\u30ac\u30b8\u30e7\u30a4\u30f3\u30c6\u30c3\u30af\u30fb\u30d5\u30a9\u30fc\u30c8\u30ec\u30c3\u30af\u30b9",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u306e\u30ec\u30d9\u30eb\u306f\uff16\u4e0a\u304c\u308b\u3002\u81ea\u5206\u306e\u5893\u5730\u306b\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff17\u4ee5\u4e0a\uff0f\u6a5f\u68b0\u65cf\uff09\u304c\u3044\u308b\u5834\u5408\u3001\u3053\u306e\u30ab\u30fc\u30c9\u306f\u52b9\u679c\u3067\u306f\u7834\u58ca\u3055\u308c\u306a\u3044\u3002"
+    },
+    "ko": {
+      "name": "\uba54\uac00\uc870\uc778\ud14c\ud06c \ud3ec\ud2b8\ub809\uc2a4",
+      "effect": "\uc774 \uce74\ub4dc\uc758 \ub808\ubca8\uc740 6 \uc62c\ub77c\uac04\ub2e4. \uc790\uc2e0 \ubb18\uc9c0\uc5d0 \ubaac\uc2a4\ud130(\ub808\ubca8 7 \uc774\uc0c1 / \uae30\uacc4\uc871)\uac00 \uc788\uc744 \uacbd\uc6b0, \uc774 \uce74\ub4dc\ub294 \ud6a8\uacfc\ub85c\ub294 \ud30c\uad34\ub418\uc9c0 \uc54a\ub294\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1300,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "a93a3773-75d9-448a-9920-d80f25118e07",
+      "card": "https://ms.yugipedia.com//4/41/MegaJointechFortrex-RD5TH1-JP-ORR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Mega Jointech Fortrex",
+        "id": 994930
+      }
+    ],
+    "dbID": 19281
+  },
+  "series": [
+    "5d5055d0-52c0-457f-8fcf-f097bd9b9f9e"
+  ]
+}

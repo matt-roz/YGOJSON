@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "5286b95d-6583-49b6-9128-c85d06d775de",
+  "text": {
+    "en": {
+      "name": "Grand Legend Saber Spirit",
+      "effect": "Add 1 Level 7 LIGHT Attribute Legend monster with 300 DEF from your Graveyard to your hand. This turn, you cannot activate the effect of \"Grand Legend Saber Spirit\".",
+      "official": false
+    },
+    "ja": {
+      "name": "\u82e5\u304d\u5263\u58eb\u306e\u7956",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u30ec\u30b8\u30a7\u30f3\u30c9\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff17\uff0f\u5149\u5c5e\u6027\uff0f\u5b88\u5099\u529b\uff13\uff10\uff10\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u3002\u3053\u306e\u30bf\u30fc\u30f3\u3001\u81ea\u5206\u306f\u300c\u82e5\u304d\u5263\u58eb\u306e\u7956\u300d\u306e\u52b9\u679c\u3092\u767a\u52d5\u3067\u304d\u306a\u3044\u3002"
+    },
+    "ko": {
+      "name": "\uadf8\ub79c\ub4dc \ub808\uc804\ub4dc \uc138\uc774\ubc84 \uc2a4\ud53c\ub9bf",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \ub808\uc804\ub4dc \ubaac\uc2a4\ud130(\ub808\ubca8 7 / \ube5b \uc18d\uc131 / \uc218\ube44\ub825 300) 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\ub294\ub2e4. \uc774 \ud134\uc5d0, \uc790\uc2e0\uc740 \"\uadf8\ub79c\ub4dc \ub808\uc804\ub4dc \uc138\uc774\ubc84 \uc2a4\ud53c\ub9bf\"\uc758 \ud6a8\uacfc\ub97c \ubc1c\ub3d9\ud560 \uc218 \uc5c6\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 1300,
+  "def": 300,
+  "passwords": [],
+  "images": [
+    {
+      "id": "aa432a3f-a5ef-4351-8dda-aacbbceb6aa8",
+      "card": "https://ms.yugipedia.com//2/2d/GrandLegendSaberSpirit-RDORP3-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Grand Legend Saber Spirit",
+        "id": 1152336
+      }
+    ],
+    "dbID": 22267
+  },
+  "series": [
+    "f942861f-b4f9-4253-baad-a08e2f2c7054"
+  ]
+}

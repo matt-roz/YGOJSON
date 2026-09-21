@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "231e8ffc-6012-4741-97e7-5f38a9b523dd",
+  "text": {
+    "en": {
+      "name": "Great Cosmonarch",
+      "effect": "This card gains 800 ATK until the end of this turn."
+    },
+    "ja": {
+      "name": "\u30b0\u30ec\u30fc\u30c8\u30fb\u30b3\u30b9\u30e2\u30ca\u30fc\u30af",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u306e\u653b\u6483\u529b\u306f\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\uff18\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uadf8\ub808\uc774\ud2b8 \ucf54\uc2a4\ubaa8\ub098\ud06c",
+      "effect": "\uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\ub825\uc740 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0 800 \uc62c\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2400,
+  "def": 1700,
+  "passwords": [],
+  "images": [
+    {
+      "id": "f0028c76-eb90-4ade-80ef-37dcd496e11f",
+      "card": "https://ms.yugipedia.com//3/3c/GreatCosmonarch-RDSD05-JP-C.png"
+    }
+  ],
+  "sets": [
+    "cd441253-4a09-47d0-a87e-c4896ae59e5a",
+    "cd441253-4a09-47d0-a87e-c4896ae59e5a"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Great Cosmonarch",
+        "id": 715188
+      }
+    ],
+    "dbID": 17504
+  },
+  "series": []
+}

@@ -1,0 +1,48 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "687bc521-6485-4bd7-8581-604b7be4d96b",
+  "text": {
+    "en": {
+      "name": "Dendrovenus the Planetairy",
+      "effect": "Send the top 2 cards of your Deck to the Graveyard. Then, you can destroy this card on your field.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u60d1\u7cbe\u306e\u30c7\u30f3\u30c9\u30ed\u30d3\u30fc\u30ca\u30b9",
+      "effect": "\u81ea\u5206\u306e\u30c7\u30c3\u30ad\u306e\u4e0a\u304b\u3089\u30ab\u30fc\u30c9\uff12\u679a\u3092\u5893\u5730\u3078\u9001\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u3053\u306e\u30ab\u30fc\u30c9\u3092\u7834\u58ca\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud639\uc815\uc758 \ub374\ub4dc\ub85c\ube44\ub108\uc2a4",
+      "effect": "\uc790\uc2e0\uc758 \ub371 \uc704\uc5d0\uc11c \uce74\ub4dc 2\uc7a5\uc744 \ubb18\uc9c0\ub85c \ubcf4\ub0b8\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0 \ud544\ub4dc\uc758 \uc774 \uce74\ub4dc\ub97c \ud30c\uad34\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "classifications": [
+    "effect"
+  ],
+  "level": 2,
+  "atk": 900,
+  "def": 600,
+  "passwords": [],
+  "images": [
+    {
+      "id": "083051ac-a856-4f57-b74c-672d174b461f",
+      "card": "https://ms.yugipedia.com//5/5e/DendrovenusthePlanetairy-RDORP3-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Dendrovenus the Planetairy",
+        "id": 1143491
+      }
+    ],
+    "dbID": 22253
+  },
+  "series": [
+    "402a6515-eafb-46c8-8a48-c408fc3deaaa"
+  ]
+}

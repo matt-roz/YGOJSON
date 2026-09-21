@@ -1,0 +1,54 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "ac8f0f40-e102-4469-9715-7889daeca9f6",
+  "text": {
+    "en": {
+      "name": "Dark-Guiding Kuriboh",
+      "effect": "Choose 1 face-up Level 8 or lower monster on your opponent's field. During your opponent's next turn, your opponent cannot attack with that monster. Then, you can Special Summon 1 \"Dark-Guiding Kuriboh\" or 1 Level 7 monster with 2100 DEF from your Graveyard to your field in face-down Defense Position.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u95c7\u3092\u5c0e\u304f\u30af\u30ea\u30dc\u30fc",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff18\u4ee5\u4e0b\uff09\uff11\u4f53\u3092\u9078\u3076\u3002\u6b21\u306e\u76f8\u624b\u30bf\u30fc\u30f3\u3001\u76f8\u624b\u306f\u305d\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u3067\u653b\u6483\u3067\u304d\u306a\u3044\u3002\u3055\u3089\u306b\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u95c7\u3092\u5c0e\u304f\u30af\u30ea\u30dc\u30fc\u300d\u307e\u305f\u306f\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff17\uff0f\u5b88\u5099\u529b\uff12\uff11\uff10\uff10\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u88cf\u5074\u5b88\u5099\u8868\u793a\u3067\u7279\u6b8a\u53ec\u559a\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc5b4\ub460\uc744 \uc774\ub044\ub294 \ud06c\ub9ac\ubcf4",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\ub808\ubca8 8 \uc774\ud558) 1\uc7a5\uc744 \uace0\ub978\ub2e4. \ub2e4\uc74c \uc0c1\ub300 \ud134\uc5d0, \uc0c1\ub300\ub294 \uadf8 \ubaac\uc2a4\ud130\ub85c \uacf5\uaca9\ud560 \uc218 \uc5c6\ub2e4. \ucd94\uac00\ub85c, \uc790\uc2e0 \ubb18\uc9c0\uc758 \"\uc5b4\ub460\uc744 \uc774\ub044\ub294 \ud06c\ub9ac\ubcf4\" \ub610\ub294 \ubaac\uc2a4\ud130(\ub808\ubca8 7 / \uc218\ube44\ub825 2100) 1\uc7a5\uc744 \uace0\ub974\uace0 \uc790\uc2e0 \ud544\ub4dc\uc5d0 \ub4b7\uba74 \uc218\ube44 \ud45c\uc2dc\ub85c \ud2b9\uc218 \uc18c\ud658\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "fiend",
+  "classifications": [
+    "effect"
+  ],
+  "level": 1,
+  "atk": 300,
+  "def": 200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "5bed7566-54d2-464b-b146-0a1ad8ce2f18",
+      "card": "https://ms.yugipedia.com//3/3c/DarkGuidingKuriboh-RDSD0E-JP-C.png"
+    }
+  ],
+  "sets": [
+    "baac8391-2c2d-4331-8582-71b7007e0af6",
+    "baac8391-2c2d-4331-8582-71b7007e0af6",
+    "baac8391-2c2d-4331-8582-71b7007e0af6",
+    "baac8391-2c2d-4331-8582-71b7007e0af6"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Dark-Guiding Kuriboh",
+        "id": 1117379
+      }
+    ],
+    "dbID": 21594
+  },
+  "series": [
+    "0dd6e571-f547-4fe6-ae1a-e26395051a81"
+  ]
+}

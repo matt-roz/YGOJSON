@@ -1,0 +1,52 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "6aa3d3a5-792c-4f05-a39f-5470a89574cb",
+  "text": {
+    "en": {
+      "name": "Matsugumi the Ruler's Squad",
+      "effect": "Set 1 \"Ruler's Current\", \"Dark Ruler Battle Slash\", or \"Ruler's Dance\" from your Graveyard to your Spell & Trap Zone.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u9b54\u5c06\u5206\u968a \u5f85\u7d44",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u9b54\u5c06\u6c17\u6d41\u300d\u300c\u9b54\u5c06\u6c7a\u95d8\u65ac\u300d\u300c\u9b54\u5c06\u65b9\u5186\u821e\u300d\u306e\u4e2d\u304b\u3089\uff11\u679a\u3092\u9078\u3093\u3067\u81ea\u5206\u306e\u9b54\u6cd5\uff06\u7f60\u30be\u30fc\u30f3\u306b\u30bb\u30c3\u30c8\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub9c8\uc7a5\ubd84\ub300 \ub300\uc870",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \"\ub9c8\uc7a5\uae30\ub958\" \"\ub9c8\uc7a5\uacb0\ud22c\ucc38\" \"\ub9c8\uc7a5\ubc29\uc6d0\ubb34\" \uc911\uc5d0\uc11c 1\uc7a5\uc744 \uace8\ub77c \uc790\uc2e0\uc758 \ub9c8\ubc95 & \ud568\uc815 \uc874\uc5d0 \uc138\ud2b8\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 6,
+  "atk": 1800,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "3fea2590-b48d-46f5-a8fb-d92489e8a5d2",
+      "card": "https://ms.yugipedia.com//3/30/MatsugumitheRulersSquad-RDSBD3-JP-C.png"
+    }
+  ],
+  "sets": [
+    "f8e7532a-02f9-4834-aa0e-230e163cf5e4",
+    "f8e7532a-02f9-4834-aa0e-230e163cf5e4"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Matsugumi the Ruler's Squad",
+        "id": 715835
+      }
+    ],
+    "dbID": 16779
+  },
+  "series": [
+    "2b04e0f3-925c-4ad0-921d-ed78f5f1c53b"
+  ]
+}

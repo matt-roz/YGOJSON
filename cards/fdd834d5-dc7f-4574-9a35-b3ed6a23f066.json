@@ -1,0 +1,48 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "fdd834d5-dc7f-4574-9a35-b3ed6a23f066",
+  "text": {
+    "en": {
+      "name": "Satellite Pegasus",
+      "effect": "Send the top card of your Deck to the Graveyard. If you have 1 or less monsters in your Graveyard, you can destroy 1 face-up Level 8 or lower monster on your opponent's field."
+    },
+    "ja": {
+      "name": "\u30b5\u30c6\u30e9\u30a4\u30c8\u30da\u30ac\u30b5\u30b9",
+      "effect": "\u81ea\u5206\u306e\u30c7\u30c3\u30ad\u306e\u4e00\u756a\u4e0a\u306e\u30ab\u30fc\u30c9\u3092\u5893\u5730\u3078\u9001\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u304c\uff11\u4f53\u4ee5\u4e0b\u306e\u5834\u5408\u3001\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff18\u4ee5\u4e0b\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u7834\u58ca\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc0c8\ud138\ub77c\uc774\ud2b8\ud398\uac00\uc218\uc2a4",
+      "effect": "\uc790\uc2e0\uc758 \ub371 \ub9e8 \uc704\uc758 \uce74\ub4dc\ub97c \ubb18\uc9c0\ub85c \ubcf4\ub0b8\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130\uac00 1\uc7a5 \uc774\ud558\uc77c \uacbd\uc6b0, \uc0c1\ub300 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\ub808\ubca8 8 \uc774\ud558) 1\uc7a5\uc744 \uace0\ub974\uace0 \ud30c\uad34\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1300,
+  "def": 600,
+  "passwords": [],
+  "images": [
+    {
+      "id": "2387dd05-a2d9-4a6b-baed-c1ef9313cf65",
+      "card": "https://ms.yugipedia.com//4/4e/SatellitePegasus-RDHC01-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Satellite Pegasus",
+        "id": 716582
+      }
+    ],
+    "dbID": 17503
+  },
+  "series": []
+}

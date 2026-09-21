@@ -1,0 +1,55 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "7e1556eb-67c4-4b65-8bb9-08b7beeac7d3",
+  "text": {
+    "en": {
+      "name": "Fire Fiend of the White Crow Forest",
+      "effect": "If you control a \"White Crow\" card, you can Special Summon this card (from your hand). You can only Special Summon \"Fire Fiend of the White Crow Forest\" once per turn this way. You can only use each of the following effects of \"Fire Fiend of the White Crow Forest\" once per turn. If this card is Normal or Special Summoned: You can add 1 \"White Crow\" Spell/Trap or 1 \"Sinful Spoils\" card from your Deck to your hand. You can target 1 \"White Crow\" Monster Card or 1 Level 7 or 8 Monster Card in the Spell & Trap Zone; Special Summon it to your field.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u767d\u9d09\u306e\u68ee\u306e\u708e\u9b54"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "type": "pyro",
+  "classifications": [
+    "effect"
+  ],
+  "level": 1,
+  "atk": 700,
+  "def": 200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "f96be6a1-88fa-4f45-9f3e-9760689bd033",
+      "card": "https://ms.yugipedia.com//3/38/FireFiendoftheWhiteCrowForest-IMPH-JP-OP.png"
+    },
+    {
+      "id": "079b4337-3021-4920-909c-67178d2237da",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/101403009.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/101403009.jpg"
+    }
+  ],
+  "sets": [
+    "ccc8125c-0182-45df-91a7-57e5e2423dfc",
+    "ccc8125c-0182-45df-91a7-57e5e2423dfc",
+    "ccc8125c-0182-45df-91a7-57e5e2423dfc",
+    "ccc8125c-0182-45df-91a7-57e5e2423dfc"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Fire Fiend of the White Crow Forest",
+        "id": 1224542
+      }
+    ],
+    "ygoprodeck": {
+      "id": 101403009,
+      "name": "fire-fiend-of-the-white-crow-forest-15952"
+    }
+  },
+  "series": []
+}

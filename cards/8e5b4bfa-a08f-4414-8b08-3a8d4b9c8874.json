@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "8e5b4bfa-a08f-4414-8b08-3a8d4b9c8874",
+  "text": {
+    "en": {
+      "name": "Elemental HERO Bubbleman (Rush Duel)",
+      "effect": "Draw 2 cards."
+    },
+    "ko": {
+      "name": "\uc5d8\ub9ac\uba58\ud2c0 \ud788\uc5b4\ub85c \ubc84\ube14\ub9e8",
+      "effect": "\uc790\uc2e0\uc740 2\uc7a5 \ub4dc\ub85c\uc6b0\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 800,
+  "def": 1200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "aa6721c5-d386-4567-abfd-72971b847f58",
+      "card": "https://ms.yugipedia.com//5/53/ElementalHEROBubbleman-RDSD0B-JP-C.png"
+    }
+  ],
+  "sets": [
+    "fab3640e-34f2-410e-8c1b-6c7386795132",
+    "fab3640e-34f2-410e-8c1b-6c7386795132",
+    "fab3640e-34f2-410e-8c1b-6c7386795132",
+    "fab3640e-34f2-410e-8c1b-6c7386795132"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Elemental HERO Bubbleman (Rush Duel)",
+        "id": 1059072
+      }
+    ],
+    "dbID": 20470
+  },
+  "series": [
+    "4e2112ec-34a4-4031-91ad-7dcc3818d4c7"
+  ]
+}

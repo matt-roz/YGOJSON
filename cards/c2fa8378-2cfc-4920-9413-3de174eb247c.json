@@ -1,0 +1,56 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "c2fa8378-2cfc-4920-9413-3de174eb247c",
+  "text": {
+    "en": {
+      "name": "Sinful Spoils of the White Crow Forest",
+      "effect": "You can Special Summon this card (from your hand) by placing 1 Level 1 FIRE Monster Card from your face-up field or GY on the bottom of the Deck. You can only Special Summon \"Sinful Spoils of the White Crow Forest\" once per turn this way. When your opponent activates a card or effect (Quick Effect): You can return this card to the hand, then target 1 monster in the face-up field or either GY; place it face-up in its owner's Spell & Trap Zone as a Continuous Spell. You can only use this effect of \"Sinful Spoils of the White Crow Forest\" once per turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u767d\u9d09\u306e\u68ee\u306e\u7f6a\u5b9d"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "type": "spellcaster",
+  "classifications": [
+    "tuner",
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2500,
+  "def": 2000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "2934b139-5f15-4174-8870-b765f3262fde",
+      "card": "https://ms.yugipedia.com//archive/5/5f/20260911063809%21SinfulSpoilsoftheWhiteCrowForest-IMPH-JP-OP.png"
+    },
+    {
+      "id": "1085c4b2-ed14-4ce6-8b94-f06d2a2c8837",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/101403012.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/101403012.jpg"
+    }
+  ],
+  "sets": [
+    "ccc8125c-0182-45df-91a7-57e5e2423dfc",
+    "ccc8125c-0182-45df-91a7-57e5e2423dfc",
+    "ccc8125c-0182-45df-91a7-57e5e2423dfc",
+    "ccc8125c-0182-45df-91a7-57e5e2423dfc"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Sinful Spoils of the White Crow Forest",
+        "id": 1224550
+      }
+    ],
+    "ygoprodeck": {
+      "id": 101403012,
+      "name": "sinful-spoils-of-the-white-crow-forest-15949"
+    }
+  },
+  "series": []
+}

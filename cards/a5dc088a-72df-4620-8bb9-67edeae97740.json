@@ -1,0 +1,52 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "a5dc088a-72df-4620-8bb9-67edeae97740",
+  "text": {
+    "en": {
+      "name": "Worker Warrior - Sinister Chairman",
+      "effect": "This card gains ATK equal to [the number of Machine Type monsters in your Graveyard] x 200 until the end of this turn. Then, you can place 1 \"Salary Slash\" or \"Battle Demotion\" from your Graveyard on the bottom of the Deck. If you do, you can draw 1 card.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u6f06\u9ed2\u30b7\u30e3\u30a4\u30f3\u738b\uff27\u30a2\u30fc\u30af\u30c8\u30fc\u30af",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u306e\u653b\u6483\u529b\u306f\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\u3001\uff3b\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u6a5f\u68b0\u65cf\uff09\u306e\u6570\uff3d\u00d7\uff12\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u30a2\u30bf\u30c3\u30af\u6e1b\u4ff8\u300d\u307e\u305f\u306f\u300c\u30d0\u30c8\u30eb\u5de6\u9077\u300d\uff11\u679a\u3092\u30c7\u30c3\u30ad\u306e\u4e0b\u306b\u623b\u3059\u4e8b\u304c\u3067\u304d\u308b\u3002\u623b\u3057\u305f\u5834\u5408\u3001\u3055\u3089\u306b\u81ea\u5206\u306f\uff11\u679a\u30c9\u30ed\u30fc\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uce60\ud751 \uc0e4\uc778\uc655G \uc544\ud06c\ud1a0\ud06c",
+      "effect": "\uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\ub825\uc740 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0, [\uc790\uc2e0 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130(\uae30\uacc4\uc871)\uc758 \uc218] \u00d7 200 \uc62c\ub9b0\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0 \ubb18\uc9c0\uc758 \"\uc5b4\ud0dd \uac10\ubd09\" \ub610\ub294 \"\ubc30\ud2c0 \uc88c\ucc9c\" 1\uc7a5\uc744 \ub371 \uc544\ub798\ub85c \ub418\ub3cc\ub9b4 \uc218 \uc788\ub2e4. \ub418\ub3cc\ub838\uc744 \uacbd\uc6b0, \ucd94\uac00\ub85c \uc790\uc2e0\uc740 1\uc7a5 \ub4dc\ub85c\uc6b0\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 9,
+  "atk": 2800,
+  "def": 2400,
+  "passwords": [],
+  "images": [
+    {
+      "id": "ced77211-526f-4827-b88b-2d1c463d5c10",
+      "card": "https://ms.yugipedia.com//5/5f/WorkerWarriorSinisterChairman-RDEXT1-JP-UR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Worker Warrior - Sinister Chairman",
+        "id": 717518
+      }
+    ],
+    "dbID": 16922
+  },
+  "series": [
+    "20ff6f42-dacc-4386-9945-3b0110386c78"
+  ]
+}

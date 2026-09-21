@@ -1,0 +1,46 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "e0043776-6e9f-4828-a713-325230c0962b",
+  "text": {
+    "en": {
+      "name": "Soitsu and Doitsu",
+      "effect": "Send 1 card from your hand or field to the Graveyard. Then, you can Special Summon up to 2 \"Aitsu\", \"Koitsu\", \"Soitsu\", and/or \"Doitsu\" from your Graveyard face-up to your field.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30bd\u30a4\u30c4\u3068\u30c9\u30a4\u30c4",
+      "effect": "\u81ea\u5206\u306e\u624b\u672d\u30fb\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u30ab\u30fc\u30c9\uff11\u679a\u3092\u9078\u3093\u3067\u5893\u5730\u3078\u9001\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u30a2\u30a4\u30c4\u300d\u300c\u30b3\u30a4\u30c4\u300d\u300c\u30bd\u30a4\u30c4\u300d\u300c\u30c9\u30a4\u30c4\u300d\u3092\u5408\u8a08\uff12\u4f53\u307e\u3067\u9078\u3093\u3067\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u8868\u793a\u3067\u7279\u6b8a\u53ec\u559a\u3067\u304d\u308b\u3002"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "wind",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "fairy",
+  "classifications": [
+    "effect"
+  ],
+  "level": 5,
+  "atk": 2500,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "cd002aba-7a26-4f02-823c-45fd659894cf",
+      "card": "https://ms.yugipedia.com//0/0c/SoitsuandDoitsu-RDKP26-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Soitsu and Doitsu",
+        "id": 1209298
+      }
+    ],
+    "dbID": 23752
+  },
+  "series": []
+}

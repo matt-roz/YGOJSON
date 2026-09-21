@@ -1,0 +1,48 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "125516af-627a-494d-bf8d-d4712410a75a",
+  "text": {
+    "en": {
+      "name": "Voidalfr Heavenstar",
+      "effect": "Send 1 card from your hand to the Graveyard. Then, you can draw 1 card. If you do, you can add 1 \"Micronova Fusion\" from your Graveyard to your hand.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30f4\u30a9\u30a4\u30c9\u30a2\u30eb\u30f4\u30fb\u30d8\u30f4\u30f3\u30b9\u30bf\u30fc",
+      "effect": "\u81ea\u5206\u306e\u624b\u672d\uff11\u679a\u3092\u9078\u3093\u3067\u5893\u5730\u3078\u9001\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306f\uff11\u679a\u30c9\u30ed\u30fc\u3067\u304d\u308b\u3002\u30c9\u30ed\u30fc\u3057\u305f\u5834\u5408\u3001\u3055\u3089\u306b\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u30de\u30a4\u30af\u30ed\u30ce\u30f4\u30a1\u30fb\u30d5\u30e5\u30fc\u30b8\u30e7\u30f3\u300d\uff11\u679a\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ubcf4\uc774\ub4dc\uc54c\ube0c \ud5e4\ube10\uc2a4\ud0c0",
+      "effect": "\uc790\uc2e0\uc758 \ud328 1\uc7a5\uc744 \uace0\ub974\uace0 \ubb18\uc9c0\ub85c \ubcf4\ub0b8\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0\uc740 1\uc7a5 \ub4dc\ub85c\uc6b0\ud560 \uc218 \uc788\ub2e4. \ub4dc\ub85c\uc6b0\ud588\uc744 \uacbd\uc6b0, \ucd94\uac00\ub85c \uc790\uc2e0 \ubb18\uc9c0\uc758 \"\ub9c8\uc774\ud06c\ub85c\ub178\ubc14 \ud4e8\uc804\" 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\uc744 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2400,
+  "def": 1600,
+  "passwords": [],
+  "images": [
+    {
+      "id": "7dd59a32-2018-4555-924e-38e3776c8649",
+      "card": "https://ms.yugipedia.com//9/96/VoidalfrHeavenstar-RDKP24-JP-R.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Voidalfr Heavenstar",
+        "id": 1173819
+      }
+    ],
+    "dbID": 22836
+  },
+  "series": [
+    "2c96b91d-7218-49fd-8323-3424dfc0f4f4"
+  ]
+}

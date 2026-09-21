@@ -1,0 +1,42 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "15bae693-51d8-4625-813c-99d5e288dc69",
+  "text": {
+    "en": {
+      "name": "Secret Alteration",
+      "effect": "Draw 3 cards. Then, you can make 1 face-up Level 8 or lower monster on your opponent's field lose 1300 ATK until the end of this turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u79d8\u5bc6\u30ab\u30a4\u30b6\u30f3",
+      "effect": "\u81ea\u5206\u306f\uff13\u679a\u30c9\u30ed\u30fc\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff18\u4ee5\u4e0b\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u305d\u306e\u653b\u6483\u529b\u3092\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\uff11\uff13\uff10\uff10\u30c0\u30a6\u30f3\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ube44\ubc00 \uce74\uc774\uc794",
+      "effect": "\uc790\uc2e0\uc740 3\uc7a5 \ub4dc\ub85c\uc6b0\ud55c\ub2e4. \uadf8 \ud6c4, \uc0c1\ub300 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\ub808\ubca8 8 \uc774\ud558) 1\uc7a5\uc744 \uace0\ub974\uace0 \uadf8 \uacf5\uaca9\ub825\uc744 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0 1300 \ub0b4\ub9b4 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "cd3c082d-90c6-4f66-ad06-b54f6b6d95b7",
+      "card": "https://ms.yugipedia.com//6/6e/SecretAlteration-RDKP16-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Secret Alteration",
+        "id": 1042848
+      }
+    ],
+    "dbID": 20001
+  },
+  "series": [
+    "76ab90ac-a878-4762-a384-39b6a1472e91"
+  ]
+}

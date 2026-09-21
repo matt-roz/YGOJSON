@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "b8cbc9e8-e2f5-4314-b8a9-9a6e48297d26",
+  "text": {
+    "en": {
+      "name": "Freshberry Happiness Harvest",
+      "effect": "This card gains ATK equal to [the number of cards sent to the Graveyard to meet the requirement] x 1500 until the end of your opponent's next turn. Then, if you have 5 or more Aqua Type monsters in your Graveyard, this card cannot be destroyed by your opponent's Spell/Trap Card effects until the end of your opponent's next turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30d9\u30ea\u30fc\u30d5\u30ec\u30c3\u30b7\u30e5\u30fb\u30cf\u30d4\u30cd\u30b9\u30fb\u30cf\u30fc\u30d9\u30b9\u30c8",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u306e\u653b\u6483\u529b\u306f\u6b21\u306e\u76f8\u624b\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\u3001\uff3b\u3053\u306e\u52b9\u679c\u306e\u6761\u4ef6\u3067\u5893\u5730\u3078\u9001\u3063\u305f\u30ab\u30fc\u30c9\u306e\u6570\uff3d\u00d7\uff11\uff15\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002\u81ea\u5206\u306e\u5893\u5730\u306b\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u6c34\u65cf\uff09\u304c\uff15\u4f53\u4ee5\u4e0a\u3044\u308b\u5834\u5408\u3001\u3055\u3089\u306b\u3053\u306e\u30ab\u30fc\u30c9\u306f\u6b21\u306e\u76f8\u624b\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\u76f8\u624b\u306e\u9b54\u6cd5\u30fb\u7f60\u30ab\u30fc\u30c9\u306e\u52b9\u679c\u3067\u306f\u7834\u58ca\u3055\u308c\u306a\u3044\u3002"
+    },
+    "ko": {
+      "name": "\ubca0\ub9ac\ud504\ub808\uc26c \ud558\ud53c\ub2c8\uc2a4 \ud558\ubca0\uc2a4\ud2b8",
+      "effect": "\uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\ub825\uc740 \ub2e4\uc74c \uc0c1\ub300 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0, [\uc774 \ud6a8\uacfc\uc758 \uc870\uac74\uc73c\ub85c \ubb18\uc9c0\ub85c \ubcf4\ub0b8 \uce74\ub4dc\uc758 \uc218] \u00d7 1500 \uc62c\ub9b0\ub2e4. \uc790\uc2e0 \ubb18\uc9c0\uc5d0 \ubaac\uc2a4\ud130(\ubb3c\uc871)\uac00 5\uc7a5 \uc774\uc0c1 \uc788\uc744 \uacbd\uc6b0, \ucd94\uac00\ub85c \uc774 \uce74\ub4dc\ub294 \ub2e4\uc74c \uc0c1\ub300 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0 \uc0c1\ub300\uc758 \ub9c8\ubc95 / \ud568\uc815 \uce74\ub4dc\uc758 \ud6a8\uacfc\ub85c\ub294 \ud30c\uad34\ub418\uc9c0 \uc54a\ub294\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "type": "aqua",
+  "classifications": [
+    "effect"
+  ],
+  "level": 1,
+  "atk": 100,
+  "def": 500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "dff0848c-fada-4fd4-bd8c-1f779cb50730",
+      "card": "https://ms.yugipedia.com//f/fd/FreshberryHappinessHarvest-RDKP18-JP-UR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Freshberry Happiness Harvest",
+        "id": 1061357
+      }
+    ],
+    "dbID": 20631
+  },
+  "series": [
+    "3f0e109f-a60c-4432-9646-61fc38dac793"
+  ]
+}

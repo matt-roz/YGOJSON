@@ -1,0 +1,44 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "902043be-5990-4003-bae5-99d5b9ec87cc",
+  "text": {
+    "en": {
+      "name": "Neo-Spacian Flare Scarab (Rush Duel)",
+      "effect": "This card gains ATK equal to [the number of Spell/Trap Cards on your opponent's field] x 400."
+    },
+    "ko": {
+      "name": "\ub124\uc624 \uc2a4\ud398\uc774\uc2dc\uc5b8 \ud50c\ub808\uc5b4 \uc2a4\uce90\ub7fd",
+      "effect": "\uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\ub825\uc740, [\uc0c1\ub300 \ud544\ub4dc\uc758 \ub9c8\ubc95 / \ud568\uc815 \uce74\ub4dc\uc758 \uc218] \u00d7 400 \uc62c\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "type": "insect",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 500,
+  "def": 500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "0c776e16-8c49-4027-9f02-927f4e606a0d",
+      "card": "https://ms.yugipedia.com//f/f4/NeoSpacianFlareScarab-RDKP18-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Neo-Spacian Flare Scarab (Rush Duel)",
+        "id": 1061377
+      }
+    ],
+    "dbID": 20627
+  },
+  "series": [
+    "34c5b22c-a2f7-4b8e-8938-a50b1e41c0d6"
+  ]
+}
