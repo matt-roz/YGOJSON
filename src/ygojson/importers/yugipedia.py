@@ -772,7 +772,13 @@ def parse_card(
         if not value:
             logging.warning(f"Spell/trap has no subcategory: {title}")
             return False
-        card.subcategory = SubCategory(value.lower().replace("-", "").strip())
+        value = value.lower().replace("-", "").strip()
+        if value == "???":
+            pass  # property to be announced; omit it
+        elif value not in SubCategory._value2member_map_:
+            logging.warning(f"Unknown property '{value}' in {title}")
+        else:
+            card.subcategory = SubCategory(value)
     elif card.card_type == CardType.TOKEN:
         pass
     elif card.card_type == CardType.SKILL:
