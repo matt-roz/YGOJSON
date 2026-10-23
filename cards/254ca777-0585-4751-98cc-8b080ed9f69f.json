@@ -1,0 +1,48 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "254ca777-0585-4751-98cc-8b080ed9f69f",
+  "text": {
+    "en": {
+      "name": "Familiar-Possessed - Wynn (Rush Duel)",
+      "effect": "This card cannot be used as material for the Fusion Summon of \"Familiar-Possessed - Wynn\". Your WIND Attribute monsters inflict piercing battle damage.",
+      "official": false
+    },
+    "ko": {
+      "name": "\ube59\uc758\uc7a5\ucc29\uff0d\uc708",
+      "effect": "\uc774 \uce74\ub4dc\ub294 \"\ube59\uc758\uc7a5\ucc29\uff0d\uc708\"\uc758 \ud4e8\uc804 \uc18c\ud658\uc758 \uc18c\uc7ac\ub85c \ud560 \uc218 \uc5c6\ub2e4. \uc790\uc2e0\uc758 \ubaac\uc2a4\ud130(\ubc14\ub78c \uc18d\uc131)\uc758 \uacf5\uaca9\uc740 \uad00\ud1b5\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "wind",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "spellcaster",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1900,
+  "def": 1500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "236be85e-07a2-482b-a924-997da7105ca0",
+      "card": "https://ms.yugipedia.com//7/74/FamiliarPossessedWynn-RDKP25-JP-UR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Familiar-Possessed - Wynn (Rush Duel)",
+        "id": 1192746
+      }
+    ],
+    "dbID": 23241
+  },
+  "series": [
+    "788d3d66-cdd1-44f3-b4e8-93528c9b134e"
+  ]
+}

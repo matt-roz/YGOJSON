@@ -1,0 +1,44 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "f9401cd7-e60e-4f88-a763-3b943b5dfe9f",
+  "text": {
+    "en": {
+      "name": "Card Trooper (Rush Duel)",
+      "effect": "This card gains ATK equal to [the number of cards sent to the Graveyard to meet the requirement] x 500 until the end of this turn. Then, you can send this card on your field to the Graveyard. If you sent it to the Graveyard by this effect, also draw 1 card."
+    },
+    "ko": {
+      "name": "\uce74\ub4dc \ud2b8\ub8e8\ud37c",
+      "effect": "\uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\ub825\uc740 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0, [\uc774 \ud6a8\uacfc\uc758 \uc870\uac74\uc73c\ub85c \ubb18\uc9c0\ub85c \ubcf4\ub0b8 \uce74\ub4dc\uc758 \uc218] \u00d7 500 \uc62c\ub9b0\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0 \ud544\ub4dc\uc758 \uc774 \uce74\ub4dc\ub97c \ubb18\uc9c0\ub85c \ubcf4\ub0bc \uc218 \uc788\ub2e4. \uc774 \ud6a8\uacfc\ub85c \ubb18\uc9c0\ub85c \ubcf4\ub0c8\uc744 \uacbd\uc6b0, \ucd94\uac00\ub85c \uc790\uc2e0\uc740 1\uc7a5 \ub4dc\ub85c\uc6b0\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 400,
+  "def": 400,
+  "passwords": [],
+  "images": [
+    {
+      "id": "5666aa2f-92eb-4491-afa4-7aa572c6e460",
+      "card": "https://ms.yugipedia.com//5/50/CardTrooper-RDAP02-JP-UR.png"
+    }
+  ],
+  "sets": [
+    "b254644c-27d2-4111-9a53-3a82de7d4cd5"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Card Trooper (Rush Duel)",
+        "id": 1078612
+      }
+    ],
+    "dbID": 20902
+  },
+  "series": []
+}

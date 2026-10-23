@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "75fd0496-6f18-4941-b1e5-4b111effced9",
+  "text": {
+    "en": {
+      "name": "Stone Statues of the Mortar Cannons",
+      "effect": "Special Summon 1 Level 4 Rock Type monster from your Graveyard to your field in face-up Defense Position. Then, you can change the battle position of 1 monster on your opponent's field. This turn, you can only attack with EARTH Attribute monsters.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u8feb\u6483\u7832\u306e\u77f3\u50cf"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "rock",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1100,
+  "def": 1400,
+  "passwords": [],
+  "images": [
+    {
+      "id": "eda61224-714d-409b-a985-6522f5d74b96",
+      "card": "https://ms.yugipedia.com//8/89/StoneStatuesoftheMortarCannons-RDKP27-JP-OP.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Stone Statues of the Mortar Cannons",
+        "id": 1235942
+      }
+    ]
+  },
+  "series": []
+}

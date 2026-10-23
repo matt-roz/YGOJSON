@@ -1,0 +1,52 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "7d3ab40d-144a-4320-8228-6f2f6ab036c7",
+  "text": {
+    "en": {
+      "name": "Demolition Meltdown Dragon Darkness Blasthamut",
+      "effect": "Send the top 3 cards of your opponent's Deck to the Graveyard. Then, if a monster(s) is among the cards sent, you can destroy face-down cards on your opponent's field, up to [the number of monsters sent to the Graveyard by this effect]. Then, inflict damage to your opponent equal to [the number of cards destroyed by this effect] x 500.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u5e7b\u58ca\u6eb6\u7adc\u30c0\u30fc\u30af\u30cd\u30b9\u30fb\u30d0\u30af\u30cf\u30e0\u30fc\u30c8",
+      "effect": "\u76f8\u624b\u306e\u30c7\u30c3\u30ad\u306e\u4e0a\u304b\u3089\u30ab\u30fc\u30c9\uff13\u679a\u3092\u5893\u5730\u3078\u9001\u308b\u3002\u305d\u306e\u4e2d\u306b\u30e2\u30f3\u30b9\u30bf\u30fc\u304c\u3044\u305f\u5834\u5408\u3001\u3055\u3089\u306b\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u88cf\u5074\u8868\u793a\u306e\u30ab\u30fc\u30c9\u3092\uff3b\u3053\u306e\u52b9\u679c\u3067\u5893\u5730\u3078\u9001\u3089\u308c\u305f\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u6570\uff3d\u307e\u3067\u9078\u3093\u3067\u7834\u58ca\u3067\u304d\u308b\u3002\u305d\u306e\u5f8c\u3001\uff3b\u3053\u306e\u52b9\u679c\u3067\u7834\u58ca\u3057\u305f\u30ab\u30fc\u30c9\u306e\u6570\uff3d\u00d7\uff15\uff10\uff10\u30c0\u30e1\u30fc\u30b8\u3092\u76f8\u624b\u306b\u4e0e\u3048\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud658\uad34\uc6a9\ub8e1 \ub2e4\ud06c\ub2c8\uc2a4 \ubc14\ucfe0\ud558\ubb34\ud2b8",
+      "effect": "\uc0c1\ub300\uc758 \ub371 \uc704\uc5d0\uc11c \uce74\ub4dc 3\uc7a5\uc744 \ubb18\uc9c0\ub85c \ubcf4\ub0b8\ub2e4. \uadf8 \uc911\uc5d0 \ubaac\uc2a4\ud130\uac00 \uc788\uc5c8\uc744 \uacbd\uc6b0, \ucd94\uac00\ub85c \uc0c1\ub300 \ud544\ub4dc\uc758 \ub4b7\uba74 \ud45c\uc2dc\uc758 \uce74\ub4dc\ub97c [\uc774 \ud6a8\uacfc\ub85c \ubb18\uc9c0\ub85c \ubcf4\ub0b4\uc9c4 \ubaac\uc2a4\ud130\uc758 \uc218]\uae4c\uc9c0 \uace0\ub974\uace0 \ud30c\uad34\ud560 \uc218 \uc788\ub2e4. \uadf8 \ud6c4, [\uc774 \ud6a8\uacfc\ub85c \ud30c\uad34\ud55c \uce74\ub4dc\uc758 \uc218] \u00d7 500 \ub370\ubbf8\uc9c0\ub97c \uc0c1\ub300\uc5d0\uac8c \uc900\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "wyrm",
+  "classifications": [
+    "effect"
+  ],
+  "level": 9,
+  "atk": 3000,
+  "def": 2500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "6405a1c5-f673-467f-bb26-c28527179898",
+      "card": "https://ms.yugipedia.com//2/27/DemolitionMeltdownDragonDarknessBlasthamut-RDKP15-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Demolition Meltdown Dragon Darkness Blasthamut",
+        "id": 1022810
+      }
+    ],
+    "dbID": 19675
+  },
+  "series": [
+    "67b235e9-be91-4647-ac78-b92102a5898b"
+  ]
+}

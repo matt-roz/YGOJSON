@@ -1,0 +1,53 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "12f6908a-7c23-4cfc-8659-271934cc5a81",
+  "text": {
+    "en": {
+      "name": "The Sun God Leading Down into Darkness",
+      "effect": "Activate this card by sending 1 \"The Winged Dragon of Ra\" monster from your hand, Deck, or face-up field to the GY. During your Main Phase, if this card was activated this turn: You can add 1 \"Sun God\" monster from your Deck to your hand. If a monster(s) is destroyed by battle: Its controller takes damage equal to its original ATK, then if you have \"The Winged Dragon of Ra\" in your GY, you gain 1000 LP. You can only use each effect of \"The Sun God Leading Down into Darkness\" once per turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u95c7\u3078\u8a98\u3046\u592a\u967d\u795e"
+    },
+    "zh-CN": {
+      "name": "\u8bf1\u5bfc\u5411\u9ed1\u6697\u7684\u592a\u9633\u795e",
+      "effect": "\u4ece\u624b\u724c\u30fb\u724c\u7ec4\u30fb\u573a\u4e0a\uff08\u8868\u4fa7\u8868\u793a\uff09\u5c061\u53ea\u201c\u62c9\u4e4b\u7ffc\u795e\u9f99\u201d\u602a\u517d\u9001\u81f3\u5893\u5730\u53ef\u4ee5\u53d1\u52a8\u6b64\u5361\u3002\u6b64\u5361\u540d\u7684\u2460\u2461\u6548\u679c1\u56de\u5408\u4ec5\u53ef\u5404\u4f7f\u75281\u6b21\u3002\u2460\uff1a\u5728\u53d1\u52a8\u4e86\u6b64\u5361\u7684\u56de\u5408\u7684\u81ea\u5df1\u7684\u4e3b\u8981\u9636\u6bb5\u53ef\u4ee5\u53d1\u52a8\u3002\u4ece\u724c\u7ec4\u5c061\u53ea\u201c\u592a\u9633\u795e\u201d\u602a\u517d\u52a0\u5165\u624b\u724c\u3002\u2461\uff1a\u6709\u602a\u517d\u56e0\u6218\u6597\u88ab\u7834\u574f\u7684\u60c5\u51b5\u4e0b\u53d1\u52a8\u3002\u88ab\u7834\u574f\u7684\u602a\u517d\u7684\u63a7\u5236\u8005\u53d7\u5230\u76f8\u5f53\u4e8e\u5176\u539f\u672c\u653b\u51fb\u529b\u6570\u503c\u7684\u4f24\u5bb3\u3002\u81ea\u5df1\u5893\u5730\u5b58\u5728\u201c\u62c9\u4e4b\u7ffc\u795e\u9f99\u201d\u7684\u60c5\u51b5\u4e0b\uff0c\u81ea\u5df1\u8fdb\u800c\u6062\u590d1000LP\u3002"
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "continuous",
+  "passwords": [],
+  "images": [
+    {
+      "id": "8f9b259d-2c88-4d73-abee-5c3eec73b041",
+      "card": "https://ms.yugipedia.com//7/76/TheSunGodLeadingDownintoDarkness-IMPH-JP-OP.png"
+    },
+    {
+      "id": "4a5c376c-ae4f-45fc-b426-92b24252c3cd",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/101403052.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/101403052.jpg"
+    }
+  ],
+  "sets": [
+    "ccc8125c-0182-45df-91a7-57e5e2423dfc",
+    "ccc8125c-0182-45df-91a7-57e5e2423dfc"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "The Sun God Leading Down into Darkness",
+        "id": 1210968
+      }
+    ],
+    "ygoprodeck": {
+      "id": 101403052,
+      "name": "the-sun-god-leading-down-into-darkness-15905"
+    }
+  },
+  "series": [
+    "f0ae0594-bf25-481e-9933-ea6067a5af6a",
+    "3b0eaf12-c2db-4323-bd23-08c247d04643"
+  ]
+}

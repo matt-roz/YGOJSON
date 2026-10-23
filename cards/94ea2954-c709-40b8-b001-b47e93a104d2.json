@@ -1,0 +1,65 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "94ea2954-c709-40b8-b001-b47e93a104d2",
+  "text": {
+    "en": {
+      "name": "Anchor Moray",
+      "effect": "Add 1 Level 3 or lower Fish Type Normal Monster from your Graveyard to your hand."
+    },
+    "fr": {
+      "name": "Mur\u00e8ne Ancre",
+      "effect": "Ajoutez 1 Monstre Normal de Type Poisson de max. Niveau 3 depuis votre Cimeti\u00e8re dans votre main."
+    },
+    "de": {
+      "name": "Ankermur\u00e4ne",
+      "effect": "F\u00fcge 1 Normales Monster des Typs Fisch der Stufe 3 oder niedriger von deinem Friedhof zu deiner Hand hinzu."
+    },
+    "it": {
+      "name": "Murena Ancora",
+      "effect": "Aggiungi 1 Mostro Normale di Tipo Pesce di Livello 3 o inferiore dal tuo Cimitero alla tua mano."
+    },
+    "es": {
+      "name": "Anguila Ancla",
+      "effect": "A\u00f1ade 1 Monstruo Normal de Tipo Pez de Nivel 3 o menor de tu Cementerio a tu mano."
+    },
+    "ja": {
+      "name": "\u30a2\u30f3\u30ab\u30fc\u30fb\u30e2\u30fc\u30ec\u30a4",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u901a\u5e38\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff13\u4ee5\u4e0b\uff0f\u9b5a\u65cf\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc575\ucee4 \ubaa8\ub808\uc774",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \uc77c\ubc18 \ubaac\uc2a4\ud130(\ub808\ubca8 3 \uc774\ud558 / \uc5b4\ub958\uc871) 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\ub294\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "type": "fish",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 900,
+  "def": 600,
+  "passwords": [],
+  "images": [
+    {
+      "id": "e338016a-6541-480f-942d-3e7e654a5daf",
+      "card": "https://ms.yugipedia.com//6/64/AnchorMoray-RDKP03-JP-R.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Anchor Moray",
+        "id": 712815
+      }
+    ],
+    "dbID": 15808
+  },
+  "series": []
+}

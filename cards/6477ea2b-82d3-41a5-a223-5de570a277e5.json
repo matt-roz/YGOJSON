@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "6477ea2b-82d3-41a5-a223-5de570a277e5",
+  "text": {
+    "en": {
+      "name": "Red-Eyes Darkness Metal Dragon (Rush Duel)",
+      "effect": "Special Summon 1 Dragon Type monster from your hand or Graveyard face-up to your field. This turn, you cannot activate the effect of \"Red-Eyes Darkness Metal Dragon\".",
+      "official": false
+    },
+    "ko": {
+      "name": "\ubd89\uc740 \ub208\uc758 \uc554\ud751 \uba54\ud0c8 \ub4dc\ub798\uace4",
+      "effect": "\uc790\uc2e0\uc758 \ud328 / \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130(\ub4dc\ub798\uace4\uc871) 1\uc7a5\uc744 \uace0\ub974\uace0, \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \ud45c\uc2dc\ub85c \ud2b9\uc218 \uc18c\ud658\ud55c\ub2e4. \uc774 \ud134\uc5d0, \uc790\uc2e0\uc740 \"\ubd89\uc740 \ub208\uc758 \uc554\ud751 \uba54\ud0c8 \ub4dc\ub798\uace4\"\uc758 \ud6a8\uacfc\ub97c \ubc1c\ub3d9\ud560 \uc218 \uc5c6\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "dragon",
+  "classifications": [
+    "effect"
+  ],
+  "level": 10,
+  "atk": 2800,
+  "def": 2400,
+  "passwords": [],
+  "images": [
+    {
+      "id": "a7db32ba-8b53-400f-9437-535f94a5a10e",
+      "card": "https://ms.yugipedia.com//d/d9/RedEyesDarknessMetalDragon-RDKP23-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Red-Eyes Darkness Metal Dragon (Rush Duel)",
+        "id": 1145887
+      }
+    ],
+    "dbID": 22405
+  },
+  "series": [
+    "b8f9793c-0736-4ee4-99be-120c4d70afbc"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "27d1ec92-b0b3-4364-a2d7-e3491b90367f",
+  "text": {
+    "en": {
+      "name": "Scissor Hercules",
+      "effect": "Excavate the top 3 cards of your Deck. You can add 1 excavated Level 3 or 8 EARTH Attribute Insect Type monster to your hand. Place the other cards on the bottom of your Deck in any order.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30b7\u30b6\u30fc\u30fb\u30d8\u30e9\u30af\u30ec\u30b9",
+      "effect": "\u81ea\u5206\u306e\u30c7\u30c3\u30ad\u306e\u4e0a\u304b\u3089\u30ab\u30fc\u30c9\u3092\uff13\u679a\u3081\u304f\u308a\u3001\u304a\u4e92\u3044\u306b\u78ba\u8a8d\u3059\u308b\u3002\u81ea\u5206\u306f\u305d\u306e\u4e2d\u304b\u3089\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff13\u30fb\uff18\uff0f\u5730\u5c5e\u6027\uff0f\u6606\u866b\u65cf\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002\u6b8b\u308a\u306e\u30ab\u30fc\u30c9\u3092\u597d\u304d\u306a\u9806\u756a\u3067\u30c7\u30c3\u30ad\u306e\u4e0b\u306b\u623b\u3059\u3002"
+    },
+    "ko": {
+      "name": "\uc2dc\uc800 \ud5e4\ub77c\ud074\ub808\uc2a4",
+      "effect": "\uc790\uc2e0\uc758 \ub371 \uc704\uc5d0\uc11c \uce74\ub4dc\ub97c 3\uc7a5 \ub118\uae30\uace0, \uc11c\ub85c \ud655\uc778\ud55c\ub2e4. \uc790\uc2e0\uc740 \uadf8 \uc911\uc5d0\uc11c \ubaac\uc2a4\ud130(\ub808\ubca8 3\u30fb8 / \ub545 \uc18d\uc131 / \uace4\ucda9\uc871) 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\uc744 \uc218 \uc788\ub2e4. \ub0a8\uc740 \uce74\ub4dc\ub97c \uc88b\uc544\ud558\ub294 \uc21c\uc11c\ub300\ub85c \ub371 \uc544\ub798\ub85c \ub418\ub3cc\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "insect",
+  "classifications": [
+    "effect"
+  ],
+  "level": 5,
+  "atk": 1500,
+  "def": 2000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "23f4d339-7891-4748-b2ec-f2013423234b",
+      "card": "https://ms.yugipedia.com//8/89/ScissorHercules-RDAP02-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Scissor Hercules",
+        "id": 1159932
+      }
+    ],
+    "dbID": 22653
+  },
+  "series": [
+    "bf6fe1a5-630e-4910-b18d-d8d44b294610"
+  ]
+}

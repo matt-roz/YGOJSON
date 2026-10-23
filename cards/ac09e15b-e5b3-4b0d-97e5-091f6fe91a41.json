@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "ac09e15b-e5b3-4b0d-97e5-091f6fe91a41",
+  "text": {
+    "en": {
+      "name": "Delirium Rosalia",
+      "effect": "Draw 1 card. Then, you can add 1 \"Delirium Silbyx\" from your Graveyard to your hand.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u5922\u4e2d\u306e\u30ed\u30b6\u30ea\u30a2",
+      "effect": "\u81ea\u5206\u306f\uff11\u679a\u30c9\u30ed\u30fc\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u5922\u4e2d\u306e\u30b7\u30eb\u30d3\u30af\u30b9\u300d\uff11\u4f53\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ubabd\uc911\uc758 \ub85c\uc798\ub9ac\uc544",
+      "effect": "\uc790\uc2e0\uc740 1\uc7a5 \ub4dc\ub85c\uc6b0\ud55c\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0 \ubb18\uc9c0\uc758 \"\ubabd\uc911\uc758 \uc2e4\ube45\uc2a4\" 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\uc744 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "insect",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2500,
+  "def": 1200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "12840e42-4176-49a4-80ee-7a93cbd81ce4",
+      "card": "https://ms.yugipedia.com//3/33/DeliriumRosalia-RDKP20-JP-R.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Delirium Rosalia",
+        "id": 1109810
+      }
+    ],
+    "dbID": 21285
+  },
+  "series": [
+    "e0a3c6d6-a40a-45db-b38a-b801fce5ca5e"
+  ]
+}

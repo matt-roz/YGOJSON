@@ -1,0 +1,47 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "fc083cb8-baba-46f1-b181-1b0e97f75066",
+  "text": {
+    "en": {
+      "name": "Hyozanryu (Rush Duel)",
+      "effect": "A dragon created from a massive diamond that sparkles with blinding light."
+    },
+    "ko": {
+      "name": "\ub2e4\uc774\uc544\ubaac\ub4dc \ub4dc\ub798\uace4",
+      "effect": "\uc804\uc2e0\uc774 \ub2e4\uc774\uc544\ubaac\ub4dc\ub85c \ub418\uc5b4\uc788\ub294 \ub4dc\ub798\uace4. \ub208\ubd80\uc2e0 \ube5b\uc73c\ub85c \uc801\uc758 \ub208\uc744 \uba40\uac8c \ub9cc\ub4e0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "dragon",
+  "classifications": [
+    "normal"
+  ],
+  "level": 7,
+  "atk": 2100,
+  "def": 2800,
+  "passwords": [],
+  "images": [
+    {
+      "id": "251895df-cf39-4ddd-b911-a44de3e31acb",
+      "card": "https://ms.yugipedia.com//1/18/Hyozanryu-RDSD0A-JP-C.png"
+    }
+  ],
+  "sets": [
+    "b0d594ec-1f44-402f-a994-a88c19a50a43",
+    "b0d594ec-1f44-402f-a994-a88c19a50a43"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Hyozanryu (Rush Duel)",
+        "id": 715348
+      }
+    ],
+    "dbID": 18695
+  },
+  "series": [
+    "ebbdc065-8b50-4170-b9ca-cbe4f46068a5"
+  ]
+}

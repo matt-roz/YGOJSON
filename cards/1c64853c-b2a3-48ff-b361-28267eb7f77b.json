@@ -1,0 +1,47 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "1c64853c-b2a3-48ff-b361-28267eb7f77b",
+  "text": {
+    "en": {
+      "name": "Archfiend Warrior",
+      "effect": "Send the top 3 cards of your Deck to the Graveyard. Then, if a Level 6 Fiend Type monster(s) is among the cards sent, draw 1 card.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30c7\u30fc\u30e2\u30f3\u30fb\u30a6\u30a9\u30ea\u30a2\u30fc",
+      "effect": "\u81ea\u5206\u306e\u30c7\u30c3\u30ad\u306e\u4e0a\u304b\u3089\u30ab\u30fc\u30c9\uff13\u679a\u3092\u5893\u5730\u3078\u9001\u308b\u3002\u305d\u306e\u4e2d\u306b\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff16\uff0f\u60aa\u9b54\u65cf\uff09\u304c\u3044\u305f\u5834\u5408\u3001\u3055\u3089\u306b\u81ea\u5206\u306f\uff11\u679a\u30c9\u30ed\u30fc\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub370\ubaac \uc6cc\ub9ac\uc5b4",
+      "effect": "\uc790\uc2e0\uc758 \ub371 \uc704\uc5d0\uc11c \uce74\ub4dc 3\uc7a5\uc744 \ubb18\uc9c0\ub85c \ubcf4\ub0b8\ub2e4. \uadf8 \uc911\uc5d0 \ubaac\uc2a4\ud130(\ub808\ubca8 6 / \uc545\ub9c8\uc871)\uac00 \uc788\uc5c8\uc744 \uacbd\uc6b0, \ucd94\uac00\ub85c \uc790\uc2e0\uc740 1\uc7a5 \ub4dc\ub85c\uc6b0\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "fiend",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1300,
+  "def": 900,
+  "passwords": [],
+  "images": [
+    {
+      "id": "3de0a489-4f2c-4f38-a303-1a5af11828e1",
+      "card": "https://ms.yugipedia.com//7/76/ArchfiendWarrior-RDTB02-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Archfiend Warrior",
+        "id": 713056
+      }
+    ],
+    "dbID": 18689
+  },
+  "series": []
+}

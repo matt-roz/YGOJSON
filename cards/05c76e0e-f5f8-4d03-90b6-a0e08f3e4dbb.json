@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "05c76e0e-f5f8-4d03-90b6-a0e08f3e4dbb",
+  "text": {
+    "en": {
+      "name": "Ruthless Slash - Megaplunder",
+      "effect": "A ferocious plunderer that hunts under the cover of the moonlit night. Its razor sharp claws slice through its enemies!",
+      "official": false
+    },
+    "ja": {
+      "name": "\u51b7\u9177\u306a\u308b\u65ac\u6483\uff0d\u30e1\u30ac\u30d7\u30e9\u30f3\u30c0\u30fc",
+      "effect": "\u6708\u591c\u306b\u7d1b\u308c\u308b\u7370\u731b\u306a\u7565\u596a\u8005\u3002\u92ed\u3044\u722a\u3067\u6575\u3092\u5207\u308a\u88c2\u304f\u305e\uff01"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "dinosaur",
+  "classifications": [
+    "normal"
+  ],
+  "level": 6,
+  "atk": 2000,
+  "def": 1500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "87f6f9c4-4261-4377-8929-982bdd92a7a7",
+      "card": "https://ms.yugipedia.com//f/f9/RuthlessSlashMegaplunder-RDDEC1-JP-NPR.png"
+    }
+  ],
+  "sets": [
+    "6a8cd3fb-3d6e-42b4-ad00-29b9cf073ce4"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Ruthless Slash - Megaplunder",
+        "id": 870078
+      }
+    ],
+    "dbID": 18677
+  },
+  "series": []
+}

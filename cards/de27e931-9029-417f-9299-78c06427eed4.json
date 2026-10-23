@@ -1,0 +1,71 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "de27e931-9029-417f-9299-78c06427eed4",
+  "text": {
+    "en": {
+      "name": "Wyrm Excavator the Heavy Cavalry Draco",
+      "effect": "This card cannot be destroyed by your opponent's Trap Card effects."
+    },
+    "fr": {
+      "name": "Excavateur Wyrm le Draco de la Cavalerie Lourde",
+      "effect": "Cette carte ne peut pas \u00eatre d\u00e9truite par les effets de Carte Pi\u00e8ge de votre adversaire."
+    },
+    "de": {
+      "name": "Wyrmgr\u00e4ber der Schwere-Kavallerie-Draco",
+      "effect": "Diese Karte l\u00e4sst sich nicht durch die Effekte von Fallenkarten deines Gegners zerst\u00f6ren."
+    },
+    "it": {
+      "name": "Wyrm Scavatore il Draco Cavalleria Pesante",
+      "effect": "Questa carta non pu\u00f2 essere distrutta dagli effetti di una Carta Trappola del tuo avversario."
+    },
+    "es": {
+      "name": "Excavador Wyrm el Draco de Caballer\u00eda Pesada",
+      "effect": "Esta carta no puede ser destruida por los efectos de las Cartas de Trampa de tu adversario."
+    },
+    "ja": {
+      "name": "\u5e7b\u7adc\u91cd\u9a0e\u30a6\u30a9\u30fc\u30e0\uff25\uff58\u30ab\u30d9\u30fc\u30bf\u30fc",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u306f\u76f8\u624b\u306e\u7f60\u30ab\u30fc\u30c9\u306e\u52b9\u679c\u3067\u306f\u7834\u58ca\u3055\u308c\u306a\u3044\u3002"
+    },
+    "ko": {
+      "name": "\ud658\ub8e1\uc911\uae30 \uc6dc Ex\ucee4\ubca0\uc774\ud130",
+      "effect": "\uc774 \uce74\ub4dc\ub294 \uc0c1\ub300\uc758 \ud568\uc815 \uce74\ub4dc\uc758 \ud6a8\uacfc\ub85c\ub294 \ud30c\uad34\ub418\uc9c0 \uc54a\ub294\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "wyrm",
+  "classifications": [
+    "effect"
+  ],
+  "level": 10,
+  "atk": 2500,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "7a622295-ecc8-452d-8dba-62b19626416a",
+      "card": "https://ms.yugipedia.com//3/37/WyrmExcavatortheHeavyCavalryDraco-RD5TH1-JP-ORR.png"
+    }
+  ],
+  "sets": [
+    "22e8bcf0-2b4c-48d0-87e4-2a51d0f0129e",
+    "728adba0-7417-496b-921a-bee0c18a0be2",
+    "728adba0-7417-496b-921a-bee0c18a0be2"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Wyrm Excavator the Heavy Cavalry Draco",
+        "id": 717525
+      }
+    ],
+    "dbID": 16145
+  },
+  "series": [
+    "f9467656-3928-4546-ab32-6354fc22eaa0"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "7a70f919-0f8e-49b8-a7f4-886a3348fb3c",
+  "text": {
+    "en": {
+      "name": "Packet Cylinder",
+      "effect": "The attacking monster loses ATK equal to [its Level] x 100 until the end of this turn."
+    },
+    "ja": {
+      "name": "\u30d1\u30b1\u30b7\u30ea\u30f3\u30c0\u30fc",
+      "effect": "\u653b\u6483\u3057\u3066\u304d\u305f\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u653b\u6483\u529b\u306f\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\u3001\uff3b\u653b\u6483\u3057\u3066\u304d\u305f\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u30ec\u30d9\u30eb\uff3d\u00d7\uff11\uff10\uff10\u30c0\u30a6\u30f3\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud30c\ucf00\uc2e4\ub9b0\ub354",
+      "effect": "\uacf5\uaca9\ud574 \uc628 \ubaac\uc2a4\ud130\uc758 \uacf5\uaca9\ub825\uc740 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0, [\uacf5\uaca9\ud574 \uc628 \ubaac\uc2a4\ud130\uc758 \ub808\ubca8] \u00d7 100 \ub0b4\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "trap",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "362c2b45-e718-40ea-8773-f086c65b5c63",
+      "card": "https://ms.yugipedia.com//3/31/PacketCylinder-RDKP10-JP-R.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Packet Cylinder",
+        "id": 716176
+      }
+    ],
+    "dbID": 17907
+  },
+  "series": []
+}

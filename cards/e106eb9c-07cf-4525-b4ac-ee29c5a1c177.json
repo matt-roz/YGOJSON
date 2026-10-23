@@ -1,0 +1,44 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "e106eb9c-07cf-4525-b4ac-ee29c5a1c177",
+  "text": {
+    "en": {
+      "name": "Z-Metal Tank (Rush Duel)",
+      "effect": "Equip this card to 1 face-up \"X-Head Cannon\", \"Y-Dragon Head\", or Fusion Monster that mentions either of those cards as material, on your field as an Equip Spell Card with the following effect. \u25cfThe equipped monster gains 600 ATK/DEF.",
+      "official": false
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "abilities": [
+    "union"
+  ],
+  "level": 4,
+  "atk": 1500,
+  "def": 1300,
+  "passwords": [],
+  "images": [
+    {
+      "id": "65441332-ac0f-4fe8-a476-b8275f7be449",
+      "card": "https://ms.yugipedia.com//a/a5/ZMetalTank-RDAP03-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Z-Metal Tank (Rush Duel)",
+        "id": 1196062
+      }
+    ],
+    "dbID": 23471
+  },
+  "series": [
+    "55d07b9d-24c6-4be1-9101-c7e5785a9c49"
+  ]
+}

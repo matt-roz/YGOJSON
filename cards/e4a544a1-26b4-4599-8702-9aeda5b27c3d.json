@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "e4a544a1-26b4-4599-8702-9aeda5b27c3d",
+  "text": {
+    "en": {
+      "name": "Peace Dragon",
+      "effect": "Each player gains 1000 LP."
+    },
+    "ja": {
+      "name": "\u30d4\u30fc\u30b9\u30fb\u30c9\u30e9\u30b4\u30f3",
+      "effect": "\u304a\u4e92\u3044\u306f\uff11\uff10\uff10\uff10\uff2c\uff30\u56de\u5fa9\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud53c\uc2a4 \ub4dc\ub798\uace4",
+      "effect": "\uc591\ucabd \ud50c\ub808\uc774\uc5b4\ub294 1000 LP \ud68c\ubcf5\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "dragon",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 800,
+  "def": 1300,
+  "passwords": [],
+  "images": [
+    {
+      "id": "3dd6b7a8-3ac5-4cff-877a-e9ae9b095a3d",
+      "card": "https://ms.yugipedia.com//e/ec/PeaceDragon-RD24PR-JP-NPR.png"
+    }
+  ],
+  "sets": [
+    "c0287cbc-dc56-47ae-9e89-0af80eb1b3d9"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "n"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Peace Dragon",
+        "id": 1034821
+      }
+    ],
+    "dbID": 19928
+  },
+  "series": []
+}

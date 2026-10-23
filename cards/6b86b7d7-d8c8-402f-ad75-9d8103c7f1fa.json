@@ -1,0 +1,57 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "6b86b7d7-d8c8-402f-ad75-9d8103c7f1fa",
+  "text": {
+    "en": {
+      "name": "Flashforce Sword",
+      "effect": "Banish (face-up) 1 random card from your opponent's hand (until the Standby Phase of the next turn), then if this card was Set before activation and it banished a monster, you can apply this effect based on its Level.\n\u25cf 4 or lower: Your opponent banishes all monsters with its same name from their hand, Deck, and GY.\n\u25cf 5 or higher: Add 1 Level 5 or higher monster with the same Type, Attribute, and/or Level from your Deck to your hand.\nYou can only activate 1 \"Flashforce Sword\" per turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u9583\u5149\u306e\u5c01\u6bba\u5263",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u540d\u306e\u30ab\u30fc\u30c9\u306f\uff11\u30bf\u30fc\u30f3\u306b\uff11\u679a\u3057\u304b\u767a\u52d5\u3067\u304d\u306a\u3044\u3002\u2460\uff1a\u76f8\u624b\u306e\u624b\u672d\u3092\u30e9\u30f3\u30c0\u30e0\u306b\uff11\u679a\u9078\u3073\u3001\u6b21\u306e\u30bf\u30fc\u30f3\u306e\u30b9\u30bf\u30f3\u30d0\u30a4\u30d5\u30a7\u30a4\u30ba\u307e\u3067\u8868\u5074\u3067\u9664\u5916\u3059\u308b\u3002\u30bb\u30c3\u30c8\u3055\u308c\u3066\u3044\u305f\u3053\u306e\u30ab\u30fc\u30c9\u3092\u767a\u52d5\u3057\u3001\u305d\u306e\u52b9\u679c\u3067\u30e2\u30f3\u30b9\u30bf\u30fc\u3092\u9664\u5916\u3057\u305f\u5834\u5408\u3001\u3055\u3089\u306b\u305d\u306e\u30ec\u30d9\u30eb\u306b\u3088\u3063\u3066\u4ee5\u4e0b\u306e\u52b9\u679c\u3092\u9069\u7528\u3067\u304d\u308b\u3002\n\u25cf\u30ec\u30d9\u30eb\uff14\u4ee5\u4e0b\uff1a\u76f8\u624b\u306f\u305d\u306e\u540c\u540d\u30e2\u30f3\u30b9\u30bf\u30fc\u3092\u81ea\u8eab\u306e\u624b\u672d\u30fb\u30c7\u30c3\u30ad\u30fb\u5893\u5730\u304b\u3089\u5168\u3066\u9664\u5916\u3059\u308b\u3002\n\u25cf\u30ec\u30d9\u30eb\uff15\u4ee5\u4e0a\uff1a\u81ea\u5206\u306f\u7a2e\u65cf\u30fb\u5c5e\u6027\u30fb\u30ec\u30d9\u30eb\u306e\u5185\uff11\u3064\u4ee5\u4e0a\u304c\u305d\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u3068\u540c\u3058\u3001\u30ec\u30d9\u30eb\uff15\u4ee5\u4e0a\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u3092\u30c7\u30c3\u30ad\u304b\u3089\u624b\u672d\u306b\u52a0\u3048\u308b\u3002"
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "quickplay",
+  "passwords": [
+    "50849686"
+  ],
+  "images": [
+    {
+      "id": "9747eded-f352-4a40-84a6-b52f70202cdc",
+      "card": "https://ms.yugipedia.com//9/9b/FlashforceSword-YAC1-JP-OP.png"
+    },
+    {
+      "id": "4df047ce-c55d-4d6b-b1da-bb66f56b78c7",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/100459021.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/100459021.jpg"
+    },
+    {
+      "id": "a1bb1f01-aaa3-439a-9603-c416b26d9496",
+      "password": "50849686",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/50849686.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/50849686.jpg"
+    }
+  ],
+  "sets": [
+    "9aefc662-0b55-44d0-85b1-7c92cfe8a78b",
+    "9aefc662-0b55-44d0-85b1-7c92cfe8a78b",
+    "9aefc662-0b55-44d0-85b1-7c92cfe8a78b"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Flashforce Sword",
+        "id": 1222617
+      }
+    ],
+    "dbID": 23585,
+    "ygoprodeck": {
+      "id": 50849686,
+      "name": "flashforce-sword-15923"
+    }
+  },
+  "series": []
+}

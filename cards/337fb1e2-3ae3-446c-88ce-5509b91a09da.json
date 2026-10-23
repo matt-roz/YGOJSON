@@ -1,0 +1,46 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "337fb1e2-3ae3-446c-88ce-5509b91a09da",
+  "text": {
+    "en": {
+      "name": "Monster Calling",
+      "effect": "Draw 1 card. Then, you can Special Summon 1 non-Effect Monster with 2000 ATK and/or 2100 DEF from your Graveyard face-up to your field."
+    },
+    "ja": {
+      "name": "\u30e2\u30f3\u30b9\u30bf\u30fc\u62db\u96c6",
+      "effect": "\u81ea\u5206\u306f\uff11\u679a\u30c9\u30ed\u30fc\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u52b9\u679c\u30e2\u30f3\u30b9\u30bf\u30fc\u4ee5\u5916\u306e\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u653b\u6483\u529b\uff12\uff10\uff10\uff10\u307e\u305f\u306f\u5b88\u5099\u529b\uff12\uff11\uff10\uff10\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u8868\u793a\u3067\u7279\u6b8a\u53ec\u559a\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ubaac\uc2a4\ud130 \ucd08\uc9d1",
+      "effect": "\uc790\uc2e0\uc740 1\uc7a5 \ub4dc\ub85c\uc6b0\ud55c\ub2e4. \uadf8 \ud6c4, \ud6a8\uacfc \ubaac\uc2a4\ud130 \uc774\uc678\uc758 \uc790\uc2e0 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130(\uacf5\uaca9\ub825 2000 \ub610\ub294 \uc218\ube44\ub825 2100) 1\uc7a5\uc744 \uace0\ub974\uace0 \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \ud45c\uc2dc\ub85c \ud2b9\uc218 \uc18c\ud658\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "e158b0b1-a89f-4290-9a24-98b14097db85",
+      "card": "https://ms.yugipedia.com//0/0d/MonsterCalling-RDKP14-JP-R.png"
+    }
+  ],
+  "sets": [
+    "cf303586-057a-4e6c-ae2a-65879480865d"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Monster Calling",
+        "id": 993047
+      }
+    ],
+    "dbID": 19329
+  },
+  "series": [
+    "a3e27cb2-0372-4fe5-a8ad-8ca351ad48d4"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "5633e8e9-5086-449f-b0b7-cac6bd72d248",
+  "text": {
+    "en": {
+      "name": "Autumn",
+      "effect": "This card's name becomes \"Summer\" while in the Field Zone. Once per turn: You can place Season Counters on this card equal to the number of cards in your opponent's hand. At the start of the Battle Phase: You can take 1 Field Spell from your hand, Deck, or GY that you can place a Season Counter on, except \"Autumn\", and place it face-up on your field, and if you do, place all Season Counters on this card on that card. If a card(s) in the Field Zone would be destroyed by card effect, you can banish this card from your GY instead.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u79cb"
+    },
+    "zh-CN": {
+      "name": "\u79cb",
+      "effect": "\u2460\uff1a\u6b64\u5361\u53ea\u8981\u5b58\u5728\u4e8e\u573a\u5730\u533a\u57df\uff0c\u5361\u540d\u89c6\u4e3a\u201c\u590f\u201d\u3002\u2461\uff1a1\u56de\u54081\u6b21\uff0c\u53ef\u4ee5\u53d1\u52a8\u3002\u4f9d\u5bf9\u624b\u624b\u724c\u7684\u6570\u91cf\u5728\u6b64\u5361\u4e0a\u653e\u56db\u5b63\u8ba1\u6570\u7269\u3002\u2462\uff1a\u5728\u81ea\u5df1\u30fb\u5bf9\u624b\u7684\u6218\u6597\u9636\u6bb5\u5f00\u59cb\u65f6\u53ef\u4ee5\u53d1\u52a8\u3002\u4ece\u81ea\u5df1\u624b\u724c\u30fb\u724c\u7ec4\u30fb\u5893\u5730\u5c06\u201c\u79cb\u201d\u4ee5\u5916\u7684\u30011\u5f20\u53ef\u653e\u56db\u5b63\u8ba1\u6570\u7269\u7684\u573a\u5730\u9b54\u6cd5\u5361\u4ee5\u8868\u4fa7\u8868\u793a\u653e\u5728\u81ea\u5df1\u573a\u4e0a\uff08\u6b64\u5361\u7684\u56db\u5b63\u8ba1\u6570\u7269\u79fb\u81f3\u8be5\u5361\uff09\u3002\u2463\uff1a\u573a\u5730\u533a\u57df\u7684\u5361\u5c06\u88ab\u6548\u679c\u7834\u574f\u7684\u60c5\u51b5\u4e0b\uff0c\u4f5c\u4e3a\u4ee3\u66ff\u53ef\u5c06\u5893\u5730\u7684\u6b64\u5361\u9664\u5916\u3002"
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "field",
+  "passwords": [],
+  "images": [
+    {
+      "id": "33d604d4-5858-4707-9a02-e5fe885036a7",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/101403071.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/101403071.jpg"
+    }
+  ],
+  "sets": [
+    "ccc8125c-0182-45df-91a7-57e5e2423dfc",
+    "ccc8125c-0182-45df-91a7-57e5e2423dfc"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Autumn",
+        "id": 1229722
+      }
+    ],
+    "ygoprodeck": {
+      "id": 101403071,
+      "name": "autumn-15978"
+    }
+  },
+  "series": []
+}

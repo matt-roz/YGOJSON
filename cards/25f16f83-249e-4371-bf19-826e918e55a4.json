@@ -1,0 +1,52 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "25f16f83-249e-4371-bf19-826e918e55a4",
+  "text": {
+    "en": {
+      "name": "Samba Zombie Rio",
+      "effect": "A zombie that is constantly swaying awkwardly. He has no consciousness, but his body cannot forget the beat of the samba."
+    },
+    "ja": {
+      "name": "\u30b5\u30f3\u30d0\u30be\u30f3\u30d3\u30fb\u30ea\u30aa",
+      "effect": "\u5e38\u306b\u304e\u3053\u3061\u306a\u304f\u4f53\u3092\u52d5\u304b\u3057\u3066\u3044\u308b\u30be\u30f3\u30d3\u3002\u65e2\u306b\u610f\u8b58\u306f\u7121\u3044\u304c\u4f53\u306b\u67d3\u307f\u3064\u3044\u305f\u30b5\u30f3\u30d0\u306e\u30ea\u30ba\u30e0\u306f\u5fd8\u308c\u3066\u3044\u306a\u3044\u3002"
+    },
+    "ko": {
+      "name": "\uc0bc\ubc14\uc880\ube44 \ub9ac\uc624",
+      "effect": "\uc5b8\uc81c\ub098 \uc5b4\uc0c9\ud558\uac8c \ubab8\uc744 \uc6c0\uc9c1\uc774\uace0 \uc788\ub294 \uc880\ube44. \uc774\ubbf8 \uc758\uc2dd\uc740 \uc5c6\uc9c0\ub9cc \ubab8\uc5d0 \ubc34 \uc0bc\ubc14\uc758 \ub9ac\ub4ec\uc740 \uc78a\uc9c0 \uc54a\uc558\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "zombie",
+  "classifications": [
+    "normal"
+  ],
+  "level": 4,
+  "atk": 1500,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "7bcd4ea6-4de8-4fbf-8fc3-f8944a7a5506",
+      "card": "https://ms.yugipedia.com//3/35/SambaZombieRio-RDMRP1-JP-C.png"
+    }
+  ],
+  "sets": [
+    "a08d0d55-5282-4487-b8b3-a190adb90edf",
+    "62f50503-1055-4260-b990-3fb3469154e0"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "r"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Samba Zombie Rio",
+        "id": 716578
+      }
+    ],
+    "dbID": 17704
+  },
+  "series": []
+}

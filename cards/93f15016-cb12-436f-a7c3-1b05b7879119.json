@@ -1,0 +1,34 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "93f15016-cb12-436f-a7c3-1b05b7879119",
+  "text": {
+    "en": {
+      "name": "System Maintenance",
+      "effect": "Send the top 3 cards of your Deck to the Graveyard. Then, if a Dragon Type Normal Monster(s) is among the cards sent, you can destroy 1 Spell/Trap Card on your opponent's field. This turn, you cannot attack with Level 7 or higher monsters.",
+      "official": false
+    },
+    "ja": {
+      "name": "\uff33\u30fb\u30e1\u30f3\u30c6\u30ca\u30f3\u30b9"
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "eac814d6-e1b0-4486-8cb4-7a00f6ea7bf5",
+      "card": "https://ms.yugipedia.com//7/77/SystemMaintenance-RDKP27-JP-OP.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "System Maintenance",
+        "id": 1231476
+      }
+    ]
+  },
+  "series": []
+}

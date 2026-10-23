@@ -1,0 +1,57 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "1833b941-031c-4ff1-a33b-c73dad798af1",
+  "text": {
+    "en": {
+      "name": "Assault Cannon",
+      "effect": "1 face-up monster on your opponent's field loses 300 ATK/DEF until the end of this turn."
+    },
+    "ja": {
+      "name": "\u30a2\u30b5\u30eb\u30c8\u30fb\u30a2\u30eb\u30de\u30fc\u30c8",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u3092\u9078\u3073\u3001\u305d\u306e\u653b\u6483\u529b\u30fb\u5b88\u5099\u529b\u3092\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\uff13\uff10\uff10\u30c0\u30a6\u30f3\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc5b4\uc370\ud2b8 \uc544\ub974\ub9c8\ud1a0",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130 1\uc7a5\uc744 \uace0\ub974\uace0, \uadf8 \uacf5\uaca9\ub825 / \uc218\ube44\ub825\uc744 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0 300 \ub0b4\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 1200,
+  "def": 600,
+  "passwords": [],
+  "images": [
+    {
+      "id": "e386cbcb-13da-4958-90c3-9a3471c78961",
+      "card": "https://ms.yugipedia.com//6/6d/AssaultCannon-RDGRD2-JP-C.png"
+    }
+  ],
+  "sets": [
+    "5b6d7ab4-987e-4469-89bd-9d9bf3d400c0",
+    "f73a3adb-8d11-44cc-be1d-7b4a81bff8d8",
+    "a6b12f39-c8d9-4ead-87f7-7ea71d365768",
+    "31432588-1ddf-4225-8c5e-7dfc48faac1e",
+    "31432588-1ddf-4225-8c5e-7dfc48faac1e",
+    "62f50503-1055-4260-b990-3fb3469154e0",
+    "4c887f72-12bb-4f1a-80de-38526bb09a9e"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "r"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Assault Cannon",
+        "id": 713253
+      }
+    ],
+    "dbID": 16687
+  },
+  "series": []
+}

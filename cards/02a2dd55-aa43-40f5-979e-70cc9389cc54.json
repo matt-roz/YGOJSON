@@ -1,0 +1,43 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "02a2dd55-aa43-40f5-979e-70cc9389cc54",
+  "text": {
+    "en": {
+      "name": "Dirham the Holy Empress",
+      "effect": "Send the top 3 cards of your Deck to the Graveyard. Then, you can add 1 Union monster or 1 Field Spell Card from your Graveyard to your hand. If you do, send 1 monster from your field or 1 card from your hand to the Graveyard.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u8056\u7687\u30c7\u30a3\u30a2\u30e9\u30e0",
+      "effect": "\u81ea\u5206\u306e\u30c7\u30c3\u30ad\u306e\u4e0a\u304b\u3089\u30ab\u30fc\u30c9\uff13\u679a\u3092\u5893\u5730\u3078\u9001\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u30e6\u30cb\u30aa\u30f3\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u307e\u305f\u306f\u30d5\u30a3\u30fc\u30eb\u30c9\u9b54\u6cd5\u30ab\u30fc\u30c9\uff11\u679a\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002\u52a0\u3048\u305f\u5834\u5408\u3001\u3055\u3089\u306b\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u307e\u305f\u306f\u81ea\u5206\u306e\u624b\u672d\uff11\u679a\u3092\u9078\u3093\u3067\u5893\u5730\u3078\u9001\u308b\u3002"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1000,
+  "def": 1100,
+  "passwords": [],
+  "images": [
+    {
+      "id": "97816f95-de31-4fcd-9b57-4497b0badc80",
+      "card": "https://ms.yugipedia.com//f/f5/DirhamtheHolyEmpress-RDAP03-JP-UR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Dirham the Holy Empress",
+        "id": 1202091
+      }
+    ],
+    "dbID": 23467
+  },
+  "series": []
+}

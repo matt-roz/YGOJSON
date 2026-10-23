@@ -1,0 +1,40 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "808848a8-4553-4e8d-aca6-064679ada1dd",
+  "text": {
+    "en": {
+      "name": "Pluamone the Planetairy",
+      "effect": "Fusion Summon a Galaxy Type monster with 1900 DEF by sending 2 monsters from your hand and/or field to the Graveyard as material.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u60d1\u7cbe\u306e\u30d7\u30eb\u30a2\u30e2\u30cd"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "classifications": [
+    "effect"
+  ],
+  "level": 9,
+  "atk": 900,
+  "def": 1600,
+  "passwords": [],
+  "images": [
+    {
+      "id": "a8bdc57c-7a14-4487-98c7-5dec187ed422",
+      "card": "https://ms.yugipedia.com//d/d7/PluamonethePlanetairy-RDLP02-JP-OP.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Pluamone the Planetairy",
+        "id": 1233948
+      }
+    ]
+  },
+  "series": []
+}

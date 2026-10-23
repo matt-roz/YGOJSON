@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "962c6a09-addb-4474-83a6-41e427f8818c",
+  "text": {
+    "en": {
+      "name": "Wynn the Wind Charmer (Rush Duel)",
+      "effect": "Take control of 1 face-up Level 8 or lower WIND Attribute monster on your opponent's field, except a Maximum Monster.",
+      "official": false
+    },
+    "ko": {
+      "name": "\ud48d\ub839\uc0ac \uc708",
+      "effect": "\ub9e5\uc2dc\uba48 \ubaac\uc2a4\ud130 \uc774\uc678\uc758 \uc0c1\ub300 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\ub808\ubca8 8 \uc774\ud558 / \ubc14\ub78c \uc18d\uc131) 1\uc7a5\uc744 \uace0\ub974\uace0 \uadf8 \ucee8\ud2b8\ub864\uc744 \uc5bb\ub294\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "wind",
+  "type": "spellcaster",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 500,
+  "def": 1500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "6e380f61-c649-4ea6-b44d-de666534e58c",
+      "card": "https://ms.yugipedia.com//0/0c/WynntheWindCharmer-RDORP4-JP-UR.png"
+    },
+    {
+      "id": "58d1cf6a-5f11-461d-8b77-a3287a847f8a",
+      "card": "https://ms.yugipedia.com//5/5c/WynntheWindCharmer-RDORP4-JP-FORR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Wynn the Wind Charmer (Rush Duel)",
+        "id": 1176302
+      }
+    ],
+    "dbID": 23041
+  },
+  "series": [
+    "788d3d66-cdd1-44f3-b4e8-93528c9b134e"
+  ]
+}

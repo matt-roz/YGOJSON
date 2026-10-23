@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "8f89d49a-ed95-4124-b946-b7b9d5d673a2",
+  "text": {
+    "en": {
+      "name": "Red-Eyes Mars Dragon",
+      "effect": "This turn, this card's name becomes \"Red-Eyes Black Dragon\". Then, if you have a Legend Normal Monster in your Graveyard, you can draw 1 card. You can only activate up to 2 \"Inferno Fire Blast\" until the end of this turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u771f\u7d05\u773c\u306e\u706b\u7adc",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u306e\u30ab\u30fc\u30c9\u540d\u306f\u3053\u306e\u30bf\u30fc\u30f3\u3001\u300c\u771f\u7d05\u773c\u306e\u9ed2\u7adc\u300d\u306b\u306a\u308b\u3002\u81ea\u5206\u306e\u5893\u5730\u306b\u30ec\u30b8\u30a7\u30f3\u30c9\u901a\u5e38\u30e2\u30f3\u30b9\u30bf\u30fc\u304c\u3044\u308b\u5834\u5408\u3001\u3055\u3089\u306b\u81ea\u5206\u306f\uff11\u679a\u30c9\u30ed\u30fc\u3067\u304d\u308b\u3002\u3053\u306e\u52b9\u679c\u306e\u767a\u52d5\u5f8c\u3001\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\u81ea\u5206\u306f\u300c\u9ed2\u708e\u5f3e\u300d\u3092\uff12\u679a\u307e\u3067\u3057\u304b\u767a\u52d5\u3067\u304d\u306a\u3044\u3002"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "dragon",
+  "classifications": [
+    "effect"
+  ],
+  "level": 6,
+  "atk": 1800,
+  "def": 1200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "79a7d02b-ee82-4f95-816d-3b1c1dab2c7f",
+      "card": "https://ms.yugipedia.com//7/78/RedEyesMarsDragon-RDKP26-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Red-Eyes Mars Dragon",
+        "id": 1211121
+      }
+    ],
+    "dbID": 23746
+  },
+  "series": [
+    "b8f9793c-0736-4ee4-99be-120c4d70afbc"
+  ]
+}

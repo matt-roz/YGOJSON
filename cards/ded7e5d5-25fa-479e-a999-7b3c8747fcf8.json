@@ -1,0 +1,44 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "ded7e5d5-25fa-479e-a999-7b3c8747fcf8",
+  "text": {
+    "en": {
+      "name": "The Royal Sword of Zeil",
+      "effect": "Equip this card to 1 face-up DARK Attribute Warrior Type monster on your field that is not equipped with \"The Royal Sword of Zeil\" as an Equip Spell Card with the following effect. \u25cfThe equipped monster gains 1000 ATK.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30bc\u30a4\u30eb\u306e\u738b\u5263"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "abilities": [
+    "union"
+  ],
+  "level": 1,
+  "atk": 1000,
+  "def": 500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "91fc6efd-c01e-401b-a00e-18da5a1a33d4",
+      "card": "https://ms.yugipedia.com//c/c8/TheRoyalSwordofZeil-RDKP27-JP-OP.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "The Royal Sword of Zeil",
+        "id": 1235369
+      }
+    ]
+  },
+  "series": []
+}

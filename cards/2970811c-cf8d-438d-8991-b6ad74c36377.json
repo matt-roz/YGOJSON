@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "2970811c-cf8d-438d-8991-b6ad74c36377",
+  "text": {
+    "en": {
+      "name": "Necroman the Third",
+      "effect": "Special Summon 1 Level 3 Normal Monster from your Graveyard face-up to your field."
+    },
+    "ja": {
+      "name": "\u30cd\u30af\u30ed\u30de\u30f3\u4e09\u4e16",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u901a\u5e38\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff13\uff09\uff11\u4f53\u3092\u9078\u3073\u3001\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u8868\u793a\u3067\u7279\u6b8a\u53ec\u559a\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub124\ud06c\ub85c\ub9e8\uc11c\ub4dc",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \uc77c\ubc18 \ubaac\uc2a4\ud130(\ub808\ubca8 3) 1\uc7a5\uc744 \uace0\ub974\uace0, \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \ud45c\uc2dc\ub85c \ud2b9\uc218 \uc18c\ud658\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "zombie",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 1000,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "1ea707df-e4ba-498c-86a6-0a6b5aa8ba05",
+      "card": "https://ms.yugipedia.com//c/c4/NecromantheThird-RDKP07-JP-SR.png"
+    }
+  ],
+  "sets": [
+    "f15281f0-8ea5-4682-b72c-36f0b779a7bc"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Necroman the Third",
+        "id": 716008
+      }
+    ],
+    "dbID": 16977
+  },
+  "series": []
+}

@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "64c329c0-21de-43a4-9d56-bcbcb0872950",
+  "text": {
+    "en": {
+      "name": "Headhunters' Jaguar",
+      "effect": "Shuffle 2 monsters from your opponent's Graveyard into the Deck, including a Normal Monster.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u5c16\u982d\u72e9\u731f\u30b8\u30e3\u30b0\u30fc\u30eb",
+      "effect": "\u901a\u5e38\u30e2\u30f3\u30b9\u30bf\u30fc\u3092\u542b\u3080\u76f8\u624b\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff12\u4f53\u3092\u9078\u3093\u3067\u30c7\u30c3\u30ad\u306b\u623b\u3059\u3002"
+    },
+    "ko": {
+      "name": "\ud5e4\ub4dc\ud5cc\ud130\uc988 \uc7c8\uad74",
+      "effect": "\uc77c\ubc18 \ubaac\uc2a4\ud130\ub97c \ud3ec\ud568\ud558\ub294 \uc0c1\ub300 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130 2\uc7a5\uc744 \uace0\ub974\uace0 \ub371\uc73c\ub85c \ub418\ub3cc\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "beastwarrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 6,
+  "atk": 1700,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "f73f2148-6213-4d8f-b7fa-34839447c2bd",
+      "card": "https://ms.yugipedia.com//6/65/HeadhuntersJaguar-RDSJMP-JP-NPR.png"
+    }
+  ],
+  "sets": [
+    "b254644c-27d2-4111-9a53-3a82de7d4cd5"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Headhunters' Jaguar",
+        "id": 715256
+      }
+    ],
+    "dbID": 17846
+  },
+  "series": [
+    "165b078e-5742-4e96-a11e-3c7ce106efa7"
+  ]
+}

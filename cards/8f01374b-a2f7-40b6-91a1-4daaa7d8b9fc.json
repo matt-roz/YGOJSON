@@ -1,0 +1,44 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "8f01374b-a2f7-40b6-91a1-4daaa7d8b9fc",
+  "text": {
+    "en": {
+      "name": "What Little the Blightblaze Leaves Behind",
+      "effect": "Face-up monsters on the field lose 2000 ATK/DEF, except monsters with 1000 original DEF.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u8150\u707c\u306e\u306a\u308c\u679c\u3066"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "monsterCardTypes": [
+    "ritual"
+  ],
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 1,
+  "atk": 700,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "afc9a274-a524-4265-96ab-6194676677d9",
+      "card": "https://ms.yugipedia.com//e/e0/WhatLittletheBlightblazeLeavesBehind-RDKP27-JP-OP.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "What Little the Blightblaze Leaves Behind",
+        "id": 1231468
+      }
+    ]
+  },
+  "series": []
+}

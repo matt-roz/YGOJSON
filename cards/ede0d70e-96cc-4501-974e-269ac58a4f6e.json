@@ -1,0 +1,47 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "ede0d70e-96cc-4501-974e-269ac58a4f6e",
+  "text": {
+    "en": {
+      "name": "Mech Dolphin",
+      "effect": "Return 1 card from your opponent's field to the owner's hand. This turn, you can only attack with Fish Type monsters.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30b5\u30a4\u30dc\u30fc\u30b0\u30fb\u30c9\u30eb\u30d5\u30a3\u30f3",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u30ab\u30fc\u30c9\uff11\u679a\u3092\u9078\u3093\u3067\u6301\u3061\u4e3b\u306e\u624b\u672d\u306b\u623b\u3059\u3002\u3053\u306e\u30bf\u30fc\u30f3\u3001\u81ea\u5206\u306f\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u9b5a\u65cf\u4ee5\u5916\uff09\u3067\u653b\u6483\u3067\u304d\u306a\u3044\u3002"
+    },
+    "ko": {
+      "name": "\uc0ac\uc774\ubcf4\uadf8 \ub3cc\ud540",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \uce74\ub4dc 1\uc7a5\uc744 \uace0\ub974\uace0 \uc8fc\uc778\uc758 \ud328\ub85c \ub418\ub3cc\ub9b0\ub2e4. \uc774 \ud134\uc5d0, \uc790\uc2e0\uc740 \ubaac\uc2a4\ud130(\uc5b4\ub958\uc871 \uc774\uc678)\ub85c \uacf5\uaca9\ud560 \uc218 \uc5c6\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "type": "fish",
+  "classifications": [
+    "effect"
+  ],
+  "level": 2,
+  "atk": 500,
+  "def": 400,
+  "passwords": [],
+  "images": [
+    {
+      "id": "39e11980-014e-4610-87b3-e95ee89d9ce6",
+      "card": "https://ms.yugipedia.com//e/e6/MechDolphin-RDKP24-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Mech Dolphin",
+        "id": 1172905
+      }
+    ],
+    "dbID": 22853
+  },
+  "series": []
+}

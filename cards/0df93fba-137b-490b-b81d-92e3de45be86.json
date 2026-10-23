@@ -1,0 +1,55 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "0df93fba-137b-490b-b81d-92e3de45be86",
+  "text": {
+    "en": {
+      "name": "Wilhel the Mega Monarch",
+      "effect": "Your opponent chooses 1 card on their field, and you destroy it."
+    },
+    "ja": {
+      "name": "\u624d\u8ce2\u5e1d\u30f4\u30a3\u30eb\u30d8\u30eb",
+      "effect": "\u76f8\u624b\u306f\u81ea\u8eab\u306e\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u30ab\u30fc\u30c9\uff11\u679a\u3092\u9078\u3076\u3002\u81ea\u5206\u306f\u305d\u306e\u30ab\u30fc\u30c9\u3092\u7834\u58ca\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc7ac\ud604 \uc81c\uc655 \ube4c\ud5ec",
+      "effect": "\uc0c1\ub300\ub294 \uc790\uc2e0 \ud544\ub4dc\uc758 \uce74\ub4dc 1\uc7a5\uc744 \uace0\ub978\ub2e4. \uc790\uc2e0\uc740 \uadf8 \uce74\ub4dc\ub97c \ud30c\uad34\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "cyberse",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 2400,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "3988bc7d-19c0-4271-bfc6-3f10adb8356d",
+      "card": "https://ms.yugipedia.com//c/cb/WilheltheMegaMonarch-RDSD0F-JP-NPR.png"
+    }
+  ],
+  "sets": [
+    "e2b816ef-5178-4aa9-b864-7248f545e896",
+    "e2b816ef-5178-4aa9-b864-7248f545e896",
+    "84ce4071-599b-4169-8b5c-6d4c252c2a67"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Wilhel the Mega Monarch",
+        "id": 930144
+      }
+    ],
+    "dbID": 18947
+  },
+  "series": [
+    "059923a7-4962-4032-a3bb-dab94d3fb38c"
+  ]
+}

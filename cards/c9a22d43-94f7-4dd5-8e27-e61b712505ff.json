@@ -1,0 +1,53 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "c9a22d43-94f7-4dd5-8e27-e61b712505ff",
+  "text": {
+    "en": {
+      "name": "Supreme Beasteam Magnum Overlord [R]",
+      "effect": "During the turn your opponent Special Summoned a Level 5 or higher monster face-up, your opponent cannot activate the effects of Level 10 or lower face-up monsters while this card is face-up."
+    },
+    "ja": {
+      "name": "\u8d85\u9b54\u8f1d\u7363\u30de\u30b0\u30ca\u30e0\u30fb\u30aa\u30fc\u30d0\u30fc\u30ed\u30fc\u30c9\uff3b\uff32\uff3d",
+      "effect": "\u76f8\u624b\u304c\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff15\u4ee5\u4e0a\uff09\u3092\u8868\u5074\u8868\u793a\u3067\u7279\u6b8a\u53ec\u559a\u3057\u305f\u30bf\u30fc\u30f3\u3001\u3053\u306e\u30ab\u30fc\u30c9\u304c\u8868\u5074\u8868\u793a\u306e\u9593\u3001\u76f8\u624b\u306f\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff11\uff10\u4ee5\u4e0b\uff09\u306e\u52b9\u679c\u3092\u767a\u52d5\u3067\u304d\u306a\u3044\u3002"
+    },
+    "ko": {
+      "name": "\ucd08\ub9c8\ud718\uc218 \ub9e4\uadf8\ub118 \uc624\ubc84\ub85c\ub4dc[R]",
+      "effect": "\uc0c1\ub300\uac00 \ubaac\uc2a4\ud130(\ub808\ubca8 5 \uc774\uc0c1)\ub97c \uc55e\uba74 \ud45c\uc2dc\ub85c \ud2b9\uc218 \uc18c\ud658\ud55c \ud134\uc5d0, \uc774 \uce74\ub4dc\uac00 \uc55e\uba74 \ud45c\uc2dc\uc778 \ub3d9\uc548, \uc0c1\ub300\ub294 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\ub808\ubca8 10 \uc774\ud558)\uc758 \ud6a8\uacfc\ub97c \ubc1c\ub3d9\ud560 \uc218 \uc5c6\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 500,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "6a7953a3-70cc-4156-98d2-5e7e8f0fd8f6",
+      "card": "https://ms.yugipedia.com//7/7d/SupremeBeasteamMagnumOverlordR-RDVSP1-JP-NPR.png"
+    }
+  ],
+  "sets": [
+    "a6b12f39-c8d9-4ead-87f7-7ea71d365768"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "r"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Supreme Beasteam Magnum Overlord (R)",
+        "id": 716931
+      }
+    ],
+    "dbID": 17667
+  },
+  "series": [
+    "46d80e91-99a3-4473-a284-0827b13901e8"
+  ]
+}

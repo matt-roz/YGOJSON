@@ -1,0 +1,67 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "2d4d7419-91be-45eb-98cd-900d9546fd23",
+  "text": {
+    "en": {
+      "name": "Dahut, Dark Ruler of the Chair",
+      "effect": "This card gains ATK equal to [the Level of 1 other face-up monster on your field with 0 ATK] x 500 until the end of this turn."
+    },
+    "fr": {
+      "name": "Dahut, Seigneur des T\u00e9n\u00e8bres de la Chaise",
+      "effect": "Cette carte gagne une ATK \u00e9gale au [Niveau d'1 autre monstre face recto sur votre Terrain avec 0 ATK] x 500 jusqu'\u00e0 la fin de ce tour."
+    },
+    "de": {
+      "name": "Dahut, finsterer Herrscher des Stuhls",
+      "effect": "Diese Karte erh\u00e4lt bis zum Ende dieses Spielzugs ATK in H\u00f6he [die Stufe von 1 anderen offenen Monsters auf deiner Spielfeldseite mit 0 ATK] x 500."
+    },
+    "it": {
+      "name": "Dahut, Sovrano Oscuro della Sedia",
+      "effect": "Questa carta guadagna ATK pari [al Livello di 1 altro mostro scoperto sul tuo Terreno con ATK 0] x 500 fino alla fine di questo turno."
+    },
+    "es": {
+      "name": "Dahut, Se\u00f1or Oscuro de la Silla",
+      "effect": "Esta carta gana ATK igual [al Nivel de otro monstruo boca arriba en tu Campo con 0 ATK] x 500 hasta el final de este turno."
+    },
+    "ja": {
+      "name": "\u30a4\u30b9\u306e\u51a5\u738b\u30c0\u30e6\u30fc",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u4ee5\u5916\u306e\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u653b\u6483\u529b\uff10\uff09\uff11\u4f53\u3092\u9078\u3073\u3001\u3053\u306e\u30ab\u30fc\u30c9\u306e\u653b\u6483\u529b\u306f\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\u3001\uff3b\u9078\u3093\u3060\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u30ec\u30d9\u30eb\uff3d\u00d7\uff15\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc774\uc2a4\uc758 \uba85\uc655 \ub2e4\uc720",
+      "effect": "\uc774 \uce74\ub4dc \uc774\uc678\uc758 \uc790\uc2e0 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\uacf5\uaca9\ub825 0) 1\uc7a5\uc744 \uace0\ub974\uace0, \uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\ub825\uc740 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0, [\uace0\ub978 \ubaac\uc2a4\ud130\uc758 \ub808\ubca8] \u00d7 500 \uc62c\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "fiend",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 0,
+  "def": 2400,
+  "passwords": [],
+  "images": [
+    {
+      "id": "041ff8de-8ec8-4083-abf9-d53aa0002033",
+      "card": "https://ms.yugipedia.com//f/f0/DahutDarkRuleroftheChair-RDMAX1-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Dahut, Dark Ruler of the Chair",
+        "id": 714448
+      }
+    ],
+    "dbID": 15931
+  },
+  "series": [
+    "5bdd580a-b735-4812-a4da-4902b46e79a4"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "3d4186e3-d6d7-467d-9c10-dfd468b7f3ee",
+  "text": {
+    "en": {
+      "name": "Surge Vortex Dragoon",
+      "effect": "Add 1 \"Electrical Discharge\" from your Graveyard to your hand.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30b5\u30fc\u30b8\u30fb\u30dc\u30eb\u30c6\u30c3\u30af\u30b9\u30fb\u30c9\u30e9\u30b0\u30fc\u30f3",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u653e\u96fb\u300d\uff11\u679a\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc11c\uc9c0 \ubcf4\ud14d\uc2a4 \ub4dc\ub77c\uad70",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \"\ubc29\uc804\" 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\ub294\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "thunder",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 2500,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "9b04c075-1895-4146-843d-ea3bba8ed9eb",
+      "card": "https://ms.yugipedia.com//a/a0/SurgeVortexDragoon-RDKP09-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Surge Vortex Dragoon",
+        "id": 716943
+      }
+    ],
+    "dbID": 17528
+  },
+  "series": []
+}

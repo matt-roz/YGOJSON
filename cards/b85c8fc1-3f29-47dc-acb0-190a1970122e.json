@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "b85c8fc1-3f29-47dc-acb0-190a1970122e",
+  "text": {
+    "en": {
+      "name": "Red-Boot Launch Burn Dragon",
+      "effect": "Special Summon 1 Dragon Type Normal Monster with 1000 DEF from your Graveyard face-up to your field. Then, inflict 400 damage to your opponent.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u771f\u7d05\u52d5\u306e\u521d\u901f\u7adc"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "dragon",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1400,
+  "def": 900,
+  "passwords": [],
+  "images": [
+    {
+      "id": "11ce89d5-1f13-49fd-8db9-0930ee7088ad",
+      "card": "https://ms.yugipedia.com//7/7e/RedBootLaunchBurnDragon-RDKP27-JP-OP.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Red-Boot Launch Burn Dragon",
+        "id": 1235928
+      }
+    ]
+  },
+  "series": []
+}

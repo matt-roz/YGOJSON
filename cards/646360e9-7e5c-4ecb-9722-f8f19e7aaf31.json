@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "646360e9-7e5c-4ecb-9722-f8f19e7aaf31",
+  "text": {
+    "en": {
+      "name": "Trumpetiger the Music Fiend",
+      "effect": "This card gains 300 ATK until the end of this turn. Then, you can Special Summon 1 Level 8 or lower WIND Attribute Warrior Type monster from your hand face-up to your field."
+    },
+    "ja": {
+      "name": "\u7363\u697d\u9b3c\u30c8\u30e9\u30f3\u30da\u30c3\u30c8\u864e",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u306e\u653b\u6483\u529b\u306f\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\uff13\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u624b\u672d\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff18\u4ee5\u4e0b\uff0f\u98a8\u5c5e\u6027\uff0f\u6226\u58eb\u65cf\uff09\uff11\u4f53\u3092\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u8868\u793a\u3067\u7279\u6b8a\u53ec\u559a\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc218\uc545\uadc0 \ud2b8\ub7fc\ud3ab \ud0c0\uc774\uac70",
+      "effect": "\uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\ub825\uc740 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0 300 \uc62c\ub9b0\ub2e4. \uadf8 \ud6c4, \ud328\uc758 \ubaac\uc2a4\ud130(\ub808\ubca8 8 \uc774\ud558 / \ubc14\ub78c \uc18d\uc131 / \uc804\uc0ac\uc871) 1\uc7a5\uc744 \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \ud45c\uc2dc\ub85c \ud2b9\uc218 \uc18c\ud658\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "wind",
+  "type": "beast",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2300,
+  "def": 1500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "390dc8e6-879c-45a4-a2d7-66ec53c37dbf",
+      "card": "https://ms.yugipedia.com//7/78/TrumpetigertheMusicFiend-RDTB01-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Trumpetiger the Music Fiend",
+        "id": 958752
+      }
+    ],
+    "dbID": 19112
+  },
+  "series": [
+    "0cb63dd6-3c6f-4d3d-b517-1ce587d98cf1"
+  ]
+}

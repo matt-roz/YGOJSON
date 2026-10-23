@@ -1,0 +1,44 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "48879b15-deac-4b5f-bcf8-7ce0327b486b",
+  "text": {
+    "en": {
+      "name": "Trade-In (Rush Duel)",
+      "effect": "Draw 2 cards."
+    },
+    "ko": {
+      "name": "\ud2b8\ub808\uc774\ub4dc \uc778",
+      "effect": "\uc790\uc2e0\uc740 2\uc7a5 \ub4dc\ub85c\uc6b0\ud55c\ub2e4."
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "8f36be85-2950-4369-8216-0f0594ad8614",
+      "card": "https://ms.yugipedia.com//2/27/TradeIn-RDAP03-JP-C.png"
+    },
+    {
+      "id": "447afa49-c125-4d51-a037-0ef9257438c2",
+      "card": "https://ms.yugipedia.com//1/1c/TradeIn-RDAP03-JP-ORR.png"
+    }
+  ],
+  "sets": [
+    "e2b816ef-5178-4aa9-b864-7248f545e896",
+    "e2b816ef-5178-4aa9-b864-7248f545e896",
+    "b0d594ec-1f44-402f-a994-a88c19a50a43",
+    "b0d594ec-1f44-402f-a994-a88c19a50a43"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Trade-In (Rush Duel)",
+        "id": 717180
+      }
+    ],
+    "dbID": 17721
+  },
+  "series": []
+}

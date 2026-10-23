@@ -1,0 +1,42 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "32acadde-d055-46a7-a780-6a25d81cb635",
+  "text": {
+    "en": {
+      "name": "Grand Tiki Elder (Rush Duel)",
+      "effect": "A masked monster that wields the most deadly of curses."
+    },
+    "ko": {
+      "name": "\uac00\uba74\uc8fc\uc220\uc0ac \ucee4\uc2a4\ub4dc \uaddc\ub77c",
+      "effect": "\uc800\uc8fc\uc758 \uc8fc\ubb38\uc73c\ub85c \uc0c1\ub300\ub97c \uc81c\uc555\ud558\ub294 \uac00\uba74 \ubaac\uc2a4\ud130."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "fiend",
+  "classifications": [
+    "normal"
+  ],
+  "level": 4,
+  "atk": 1500,
+  "def": 800,
+  "passwords": [],
+  "images": [
+    {
+      "id": "f31681ea-e3c8-4602-9842-cf45f181ade0",
+      "card": "https://ms.yugipedia.com//c/cd/GrandTikiElder-RDLGP1-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Grand Tiki Elder (Rush Duel)",
+        "id": 715178
+      }
+    ],
+    "dbID": 18707
+  },
+  "series": []
+}

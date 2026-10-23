@@ -1,0 +1,275 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "4bcd8712-fde4-4410-b3a0-fd2938354b4a",
+  "name": {
+    "en": "Dimension Force Premiere!",
+    "fr": "Force Dimensionnelle Premiere!",
+    "de": "Dimension Force Premiere!",
+    "it": "Forza Dimensionale Premiere!",
+    "pt": "For\u00e7a Dimensional Premiere!",
+    "es": "Fuerza Dimensional Premiere!"
+  },
+  "locales": {
+    "en": {
+      "language": "en",
+      "prefix": "DIFO-ENSP",
+      "image": "https://ms.yugipedia.com//6/6f/DIFO-LogoEN.png",
+      "cardImages": {
+        "limited": {
+          "22bdba55-1f1e-47c1-b5eb-3a3600e69a44": "https://ms.yugipedia.com//a/a7/VisasStarfrost-DIFO-EN-UR-LE.png"
+        }
+      },
+      "cardInfo": {
+        "limited": {
+          "22bdba55-1f1e-47c1-b5eb-3a3600e69a44": {
+            "image": "https://ms.yugipedia.com//a/a7/VisasStarfrost-DIFO-EN-UR-LE.png"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          2000001190000
+        ]
+      }
+    },
+    "fr": {
+      "language": "fr",
+      "prefix": "DIFO-FRSP",
+      "date": "2022-05-14",
+      "image": "https://ms.yugipedia.com//5/56/DIFO-LogoFR.png",
+      "cardImages": {
+        "limited": {}
+      },
+      "cardInfo": {
+        "limited": {}
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "externalIDs": {}
+    },
+    "de": {
+      "language": "de",
+      "prefix": "DIFO-DESP",
+      "date": "2022-05-14",
+      "image": "https://ms.yugipedia.com//6/6f/DIFO-LogoEN.png",
+      "cardImages": {
+        "limited": {}
+      },
+      "cardInfo": {
+        "limited": {}
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "externalIDs": {}
+    },
+    "it": {
+      "language": "it",
+      "prefix": "DIFO-ITSP",
+      "date": "2022-05-14",
+      "image": "https://ms.yugipedia.com//7/74/DIFO-LogoIT.png",
+      "cardImages": {
+        "limited": {}
+      },
+      "cardInfo": {
+        "limited": {}
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "externalIDs": {}
+    },
+    "pt": {
+      "language": "pt",
+      "prefix": "DIFO-PTSP",
+      "date": "2022-05-14",
+      "cardImages": {
+        "limited": {}
+      },
+      "cardInfo": {
+        "limited": {}
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "externalIDs": {}
+    },
+    "sp": {
+      "language": "es",
+      "prefix": "DIFO-SPSP",
+      "date": "2022-05-14",
+      "image": "https://ms.yugipedia.com//3/33/DIFO-LogoSP.png",
+      "cardImages": {
+        "limited": {}
+      },
+      "cardInfo": {
+        "limited": {}
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "externalIDs": {}
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "en"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "image": "https://ms.yugipedia.com//6/6f/DIFO-LogoEN.png",
+      "cards": [
+        {
+          "id": "22bdba55-1f1e-47c1-b5eb-3a3600e69a44",
+          "card": "01552c14-4441-4f04-992a-da5fded00a7e",
+          "suffix": "1",
+          "rarity": "ultra",
+          "imageID": "44aa6245-dd3d-444d-9fe4-a3b8109cd019"
+        }
+      ],
+      "externalIDs": {}
+    },
+    {
+      "locales": [
+        "fr"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "image": "https://ms.yugipedia.com//5/56/DIFO-LogoFR.png",
+      "cards": [
+        {
+          "id": "22bdba55-1f1e-47c1-b5eb-3a3600e69a44",
+          "card": "01552c14-4441-4f04-992a-da5fded00a7e",
+          "suffix": "1",
+          "rarity": "ultra",
+          "imageID": "44aa6245-dd3d-444d-9fe4-a3b8109cd019"
+        }
+      ],
+      "externalIDs": {}
+    },
+    {
+      "locales": [
+        "de"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "image": "https://ms.yugipedia.com//6/6f/DIFO-LogoEN.png",
+      "cards": [
+        {
+          "id": "22bdba55-1f1e-47c1-b5eb-3a3600e69a44",
+          "card": "01552c14-4441-4f04-992a-da5fded00a7e",
+          "suffix": "1",
+          "rarity": "ultra",
+          "imageID": "44aa6245-dd3d-444d-9fe4-a3b8109cd019"
+        }
+      ],
+      "externalIDs": {}
+    },
+    {
+      "locales": [
+        "it"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "image": "https://ms.yugipedia.com//7/74/DIFO-LogoIT.png",
+      "cards": [
+        {
+          "id": "22bdba55-1f1e-47c1-b5eb-3a3600e69a44",
+          "card": "01552c14-4441-4f04-992a-da5fded00a7e",
+          "suffix": "1",
+          "rarity": "ultra",
+          "imageID": "44aa6245-dd3d-444d-9fe4-a3b8109cd019"
+        }
+      ],
+      "externalIDs": {}
+    },
+    {
+      "locales": [
+        "pt"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "cards": [
+        {
+          "id": "22bdba55-1f1e-47c1-b5eb-3a3600e69a44",
+          "card": "01552c14-4441-4f04-992a-da5fded00a7e",
+          "suffix": "1",
+          "rarity": "ultra",
+          "imageID": "44aa6245-dd3d-444d-9fe4-a3b8109cd019"
+        }
+      ],
+      "externalIDs": {}
+    },
+    {
+      "locales": [
+        "sp"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "image": "https://ms.yugipedia.com//3/33/DIFO-LogoSP.png",
+      "cards": [
+        {
+          "id": "22bdba55-1f1e-47c1-b5eb-3a3600e69a44",
+          "card": "01552c14-4441-4f04-992a-da5fded00a7e",
+          "suffix": "1",
+          "rarity": "ultra",
+          "imageID": "44aa6245-dd3d-444d-9fe4-a3b8109cd019"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Dimension Force Premiere! promotional card",
+      "id": 734675
+    }
+  }
+}

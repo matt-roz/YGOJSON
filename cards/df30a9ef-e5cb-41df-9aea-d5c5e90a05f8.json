@@ -1,0 +1,40 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "df30a9ef-e5cb-41df-9aea-d5c5e90a05f8",
+  "text": {
+    "en": {
+      "name": "Indigo Prison",
+      "effect": "This turn, neither player can Special Summon Level 7 or 8 monsters from the Graveyard.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u85cd\u306e\u7262\u7344",
+      "effect": "\u3053\u306e\u30bf\u30fc\u30f3\u3001\u304a\u4e92\u3044\u306f\u5893\u5730\u304b\u3089\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff17\u30fb\uff18\uff09\u3092\u7279\u6b8a\u53ec\u559a\u3067\u304d\u306a\u3044\u3002"
+    },
+    "ko": {
+      "name": "\ucabd\ube5b\uc758 \uac10\uc625",
+      "effect": "\uc774 \ud134\uc5d0, \uc591\ucabd \ud50c\ub808\uc774\uc5b4\ub294 \ubb18\uc9c0\uc5d0\uc11c \ubaac\uc2a4\ud130(\ub808\ubca8 7 / 8)\ub97c \ud2b9\uc218 \uc18c\ud658\ud560 \uc218 \uc5c6\ub2e4."
+    }
+  },
+  "cardType": "trap",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "25b5a370-34ad-43b4-b047-ca82b310bd34",
+      "card": "https://ms.yugipedia.com//9/9a/IndigoPrison-RDKP11-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Indigo Prison",
+        "id": 709854
+      }
+    ],
+    "dbID": 18295
+  },
+  "series": []
+}

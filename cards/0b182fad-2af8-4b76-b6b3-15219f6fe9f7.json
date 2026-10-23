@@ -1,0 +1,47 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "0b182fad-2af8-4b76-b6b3-15219f6fe9f7",
+  "text": {
+    "en": {
+      "name": "Future Aeromancer",
+      "effect": "Send the top 3 cards of your Deck to the Graveyard. Then, you can add 1 Equip Spell Card sent to the Graveyard by this effect to your hand.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u672a\u6765\u98a8\u5e2b",
+      "effect": "\u81ea\u5206\u306e\u30c7\u30c3\u30ad\u306e\u4e0a\u304b\u3089\u30ab\u30fc\u30c9\uff13\u679a\u3092\u5893\u5730\u3078\u9001\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306f\u3053\u306e\u52b9\u679c\u3067\u5893\u5730\u3078\u9001\u3089\u308c\u305f\u30ab\u30fc\u30c9\u306e\u4e2d\u304b\u3089\u88c5\u5099\u9b54\u6cd5\u30ab\u30fc\u30c9\uff11\u679a\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ubbf8\ub798\ud48d\uc0ac",
+      "effect": "\uc790\uc2e0\uc758 \ub371 \uc704\uc5d0\uc11c \uce74\ub4dc 3\uc7a5\uc744 \ubb18\uc9c0\ub85c \ubcf4\ub0b8\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0\uc740 \uc774 \ud6a8\uacfc\ub85c \ubb18\uc9c0\ub85c \ubcf4\ub0b4\uc9c4 \uce74\ub4dc \uc911\uc5d0\uc11c \uc7a5\ucc29 \ub9c8\ubc95 \uce74\ub4dc 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\uc744 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "wind",
+  "type": "psychic",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 500,
+  "def": 1300,
+  "passwords": [],
+  "images": [
+    {
+      "id": "0d1f48ad-9a13-478b-a3cf-3f4e22c040db",
+      "card": "https://ms.yugipedia.com//d/d2/FutureAeromancer-RDORP1-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Future Aeromancer",
+        "id": 715040
+      }
+    ],
+    "dbID": 18383
+  },
+  "series": []
+}

@@ -1,0 +1,55 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "97c12bc9-ecf8-48e7-9fe0-8ec706dca383",
+  "text": {
+    "en": {
+      "name": "Animagica Witch",
+      "effect": "Draw cards equal to [the number of monsters revealed to meet the requirement]. Then, shuffle cards from your hand into the Deck equal to [the number of cards drawn by this effect]."
+    },
+    "ja": {
+      "name": "\u30a2\u30cb\u30de\u30b8\u30ab\u30fb\u30a6\u30a3\u30c3\u30c1",
+      "effect": "\u81ea\u5206\u306f\uff3b\u3053\u306e\u52b9\u679c\u306e\u6761\u4ef6\u3067\u898b\u305b\u305f\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u6570\uff3d\u3060\u3051\u30c9\u30ed\u30fc\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306f\u624b\u672d\u3092\uff3b\u3053\u306e\u52b9\u679c\u3067\u30c9\u30ed\u30fc\u3057\u305f\u6570\uff3d\u3060\u3051\u9078\u3093\u3067\u30c7\u30c3\u30ad\u306b\u623b\u3059\u3002"
+    },
+    "ko": {
+      "name": "\uc560\ub2c8\ub9e4\uc9c0\uce74 \uc704\uce58",
+      "effect": "\uc790\uc2e0\uc740 [\uc774 \ud6a8\uacfc\uc758 \uc870\uac74\uc73c\ub85c \ubcf4\uc5ec\uc900 \ubaac\uc2a4\ud130\uc758 \uc218]\ub9cc\ud07c \ub4dc\ub85c\uc6b0\ud55c\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0\uc740 \ud328\ub97c [\uc774 \ud6a8\uacfc\ub85c \ub4dc\ub85c\uc6b0\ud55c \uc218]\ub9cc\ud07c \uace0\ub974\uace0 \ub371\uc73c\ub85c \ub418\ub3cc\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "beast",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 1000,
+  "def": 200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "82028997-3199-423a-8de6-dab444db82fd",
+      "card": "https://ms.yugipedia.com//d/dd/AnimagicaWitch-RDTB02-JP-NPR.png"
+    },
+    {
+      "id": "2150067c-1efa-4e39-9550-ac9bb1839f36",
+      "card": "https://ms.yugipedia.com//4/4b/AnimagicaWitch-RDKP16-JP-ScR-AA.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Animagica Witch",
+        "id": 1037804
+      }
+    ],
+    "dbID": 19979
+  },
+  "series": [
+    "c1142f56-ae39-40b3-a589-264afc07aa82"
+  ]
+}

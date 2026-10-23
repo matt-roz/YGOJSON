@@ -1,0 +1,96 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "a25c9503-11a3-4775-8da7-d050ed9ff212",
+  "text": {
+    "en": {
+      "name": "Kuribot",
+      "effect": "Add 1 \"Kuribot\" from your Graveyard to your hand."
+    },
+    "fr": {
+      "name": "Kuribot",
+      "effect": "Ajoutez 1 \"Kuribot\" depuis votre Cimeti\u00e8re \u00e0 votre main."
+    },
+    "de": {
+      "name": "Kuribot",
+      "effect": "F\u00fcge deiner Hand 1 \u201eKuribot\u201c von deinem Friedhof hinzu."
+    },
+    "it": {
+      "name": "Kuribot",
+      "effect": "Aggiungi 1 \"Kuribot\" dal tuo Cimitero alla tua mano."
+    },
+    "es": {
+      "name": "Kuribot",
+      "effect": "A\u00f1ade a tu mano 1 \"Kuribot\" en tu Cementerio."
+    },
+    "ja": {
+      "name": "\u30af\u30ea\u30dc\u30c3\u30c8",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u30af\u30ea\u30dc\u30c3\u30c8\u300d\uff11\u4f53\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud06c\ub9ac\ubd07",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \"\ud06c\ub9ac\ubd07\" 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\ub294\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "fiend",
+  "classifications": [
+    "effect"
+  ],
+  "level": 1,
+  "atk": 300,
+  "def": 200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "43af25a7-df52-4f4e-8b00-3bbd657d6282",
+      "card": "https://ms.yugipedia.com//4/44/Kuribot-RD5TH1-JP-SR.png"
+    },
+    {
+      "id": "1c241a22-1ca2-4185-be2d-7fb57134ad8e",
+      "card": "https://ms.yugipedia.com//e/ef/Kuribot-RD711A-JP-NPR.png"
+    },
+    {
+      "id": "a46be0fd-4c24-4aca-8fec-06f22d518db8",
+      "card": "https://ms.yugipedia.com//9/98/Kuribot-RDSST1-JP-C-AA.png"
+    },
+    {
+      "id": "f11c787d-34d1-4512-b85a-5e6827d41621",
+      "card": "https://ms.yugipedia.com//3/37/Kuribot-RD711A-JP-NPR-AA.png"
+    },
+    {
+      "id": "493d5c66-5c97-4041-a927-ea9c4c4bb0f4",
+      "card": "https://ms.yugipedia.com//3/3f/Kuribot-RDSST1-JP-C-AA2.png"
+    },
+    {
+      "id": "209df14c-52ec-4e57-8b10-918ebd0ed3dd",
+      "card": "https://ms.yugipedia.com//1/15/Kuribot-RD711A-JP-NPR-AA2.png"
+    },
+    {
+      "id": "96322404-c3b0-4909-8bfb-e9d6be37bbce",
+      "card": "https://ms.yugipedia.com//5/5f/Kuribot-RDS242-JP-UPR.png"
+    }
+  ],
+  "sets": [
+    "e670ec5c-7fbb-49cd-9899-885731ab9e90",
+    "b0f28e3d-b93f-42f7-9518-5a27b9304349",
+    "800a7d3b-5bf8-4d9e-b88b-3ec6be2416b7",
+    "f9c6f064-6fdf-412a-a9ff-62631979aa08",
+    "f9c6f064-6fdf-412a-a9ff-62631979aa08",
+    "f9c6f064-6fdf-412a-a9ff-62631979aa08"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Kuribot",
+        "id": 715544
+      }
+    ],
+    "dbID": 15189
+  },
+  "series": []
+}

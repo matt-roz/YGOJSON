@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "e5d2bfba-c51f-4607-b0ce-0ecf2e58b620",
+  "text": {
+    "en": {
+      "name": "Alligator's Black Knight",
+      "effect": "Change 1 face-up Level 8 or lower monster on your opponent's field to face-down Defense Position.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30ef\u30a4\u30d0\u30fc\u30f3\u306e\u9ed2\u9a0e\u58eb",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff18\u4ee5\u4e0b\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u88cf\u5074\u5b88\u5099\u8868\u793a\u306b\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc640\uc774\ubc18 \ud751\uae30\uc0ac",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\ub808\ubca8 8 \uc774\ud558) 1\uc7a5\uc744 \uace0\ub974\uace0 \ub4b7\uba74 \uc218\ube44 \ud45c\uc2dc\ub85c \ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "beast",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1200,
+  "def": 1200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "795b37a3-206e-4ec6-a859-7e52cb642ba0",
+      "card": "https://ms.yugipedia.com//9/9b/AlligatorsBlackKnight-RDKP15-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Alligator's Black Knight",
+        "id": 1022921
+      }
+    ],
+    "dbID": 19661
+  },
+  "series": [
+    "b8f9793c-0736-4ee4-99be-120c4d70afbc"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "d30afe66-b005-476e-8b2d-fa1cee18d8a2",
+  "text": {
+    "en": {
+      "name": "Doomblaze Fiend Overlord Despairacion [R]",
+      "effect": "Neither player can Special Summon Level 7 monsters from the hand or Graveyard. If this card is in Maximum Mode, your opponent cannot Set monsters from their hand.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u7d42\u7114\u9b54\u795e\u30c7\u30a3\u30b9\u30da\u30e9\u30b7\u30aa\u30f3\uff3b\uff32\uff3d",
+      "effect": "\u304a\u4e92\u3044\u306f\u624b\u672d\u30fb\u5893\u5730\u304b\u3089\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff17\uff09\u3092\u7279\u6b8a\u53ec\u559a\u3067\u304d\u306a\u3044\u3002\u3053\u306e\u30ab\u30fc\u30c9\u304c\u30de\u30ad\u30b7\u30de\u30e0\u30e2\u30fc\u30c9\u306e\u5834\u5408\u3001\u76f8\u624b\u306f\u624b\u672d\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u3092\u30bb\u30c3\u30c8\u3067\u304d\u306a\u3044\u3002"
+    },
+    "ko": {
+      "name": "\uc885\uc5fc \ub9c8\uc2e0 \ub514\uc2a4\ud398\ub77c\uc2dc\uc628[R]",
+      "effect": "\uc591\ucabd \ud50c\ub808\uc774\uc5b4\ub294 \ud328 / \ubb18\uc9c0\uc5d0\uc11c \ubaac\uc2a4\ud130(\ub808\ubca8 7)\ub97c \ud2b9\uc218 \uc18c\ud658\ud560 \uc218 \uc5c6\ub2e4. \uc774 \uce74\ub4dc\uac00 \ub9e5\uc2dc\uba48 \ubaa8\ub4dc\uc77c \uacbd\uc6b0, \uc0c1\ub300\ub294 \ud328\uc758 \ubaac\uc2a4\ud130\ub97c \uc138\ud2b8\ud560 \uc218 \uc5c6\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "type": "fiend",
+  "classifications": [
+    "effect"
+  ],
+  "level": 10,
+  "atk": 2200,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "21aaf101-4ff6-48e5-a700-71b84eda78f4",
+      "card": "https://ms.yugipedia.com//e/ed/DoomblazeFiendOverlordDespairacionR-RDAP01-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Doomblaze Fiend Overlord Despairacion (R)",
+        "id": 714624
+      }
+    ],
+    "dbID": 18338
+  },
+  "series": [
+    "f5c3efea-440e-4585-aa6a-b79d87599d7c"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "b88c00eb-d1d0-4198-83fd-1d13f644511a",
+  "text": {
+    "en": {
+      "name": "Labyrinth Wall (Rush Duel)",
+      "effect": "These walls form a labyrinth with no exit for enemies."
+    },
+    "ko": {
+      "name": "\ubbf8\uad81\ucd9c\ud604\uff0d\ub798\ubc84\ub9b0\uc2a4 \uc6d4\uff0d",
+      "effect": "\ud544\ub4dc\uc5d0 \ubcbd\uc744 \ucd9c\ud604\uc2dc\ucf1c, \ucd9c\uad6c\uac00 \uc5c6\ub294 \ubbf8\uad81\uc744 \ub9cc\ub4e0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "rock",
+  "classifications": [
+    "normal"
+  ],
+  "level": 5,
+  "atk": 0,
+  "def": 3000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "76ce4965-30ac-4f75-9a84-b74efd1e1938",
+      "card": "https://ms.yugipedia.com//4/4e/LabyrinthWall-RDORP2-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Labyrinth Wall (Rush Duel)",
+        "id": 1046730
+      }
+    ],
+    "dbID": 20152
+  },
+  "series": []
+}

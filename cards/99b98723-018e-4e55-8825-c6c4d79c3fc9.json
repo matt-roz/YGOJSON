@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "99b98723-018e-4e55-8825-c6c4d79c3fc9",
+  "text": {
+    "en": {
+      "name": "Blue-Eyes Ultimate Dragon (Rush Duel)",
+      "effect": "\"Blue-Eyes White Dragon\" + \"Blue-Eyes White Dragon\" + \"Blue-Eyes White Dragon\""
+    },
+    "ko": {
+      "name": "\uad81\uadf9\uc758 \ud478\ub978 \ub208\uc758 \ubc31\ub8e1",
+      "effect": "\"\ud478\ub978 \ub208\uc758 \ubc31\ub8e1\" \uff0b \"\ud478\ub978 \ub208\uc758 \ubc31\ub8e1\" \uff0b \"\ud478\ub978 \ub208\uc758 \ubc31\ub8e1\""
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "dragon",
+  "level": 12,
+  "atk": 4500,
+  "def": 3800,
+  "passwords": [],
+  "images": [
+    {
+      "id": "001537b5-de2a-44a8-b0ef-82e403593784",
+      "card": "https://ms.yugipedia.com//3/31/BlueEyesUltimateDragon-RDAP01-JP-ScR.png"
+    }
+  ],
+  "sets": [
+    "b0d594ec-1f44-402f-a994-a88c19a50a43",
+    "b0d594ec-1f44-402f-a994-a88c19a50a43",
+    "b0d594ec-1f44-402f-a994-a88c19a50a43",
+    "b0d594ec-1f44-402f-a994-a88c19a50a43"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Blue-Eyes Ultimate Dragon (Rush Duel)",
+        "id": 1004305
+      }
+    ],
+    "dbID": 19434
+  },
+  "series": [
+    "3ed387c3-f52f-48de-ac78-801befb761ab"
+  ]
+}

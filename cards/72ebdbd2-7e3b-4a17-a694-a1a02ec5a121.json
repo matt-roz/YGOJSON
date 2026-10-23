@@ -1,0 +1,46 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "72ebdbd2-7e3b-4a17-a694-a1a02ec5a121",
+  "text": {
+    "en": {
+      "name": "Barrier Statue of the Inferno (Rush Duel)",
+      "effect": "Neither player can Special Summon non-FIRE Attribute monsters.",
+      "official": false
+    },
+    "ko": {
+      "name": "\uc5c5\ud654\uc758 \uacb0\uacc4\uc0c1",
+      "effect": "\uc591\ucabd \ud50c\ub808\uc774\uc5b4\ub294 \ubaac\uc2a4\ud130(\ud654\uc5fc \uc18d\uc131 \uc774\uc678)\ub97c \ud2b9\uc218 \uc18c\ud658\ud560 \uc218 \uc5c6\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "type": "pyro",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1000,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "fd5203dd-1503-4e4b-bbb2-f3df76fc00f4",
+      "card": "https://ms.yugipedia.com//f/f7/BarrierStatueoftheInferno-RDSD04-JP-C.png"
+    }
+  ],
+  "sets": [
+    "c05d7ca5-5bea-4c0f-884c-dd1ec7f1be77",
+    "c05d7ca5-5bea-4c0f-884c-dd1ec7f1be77"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Barrier Statue of the Inferno (Rush Duel)",
+        "id": 713480
+      }
+    ],
+    "dbID": 17958
+  },
+  "series": []
+}

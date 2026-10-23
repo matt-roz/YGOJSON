@@ -1,0 +1,40 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "ead3cab0-0c6e-47c2-8e5f-7e174200f8ee",
+  "text": {
+    "en": {
+      "name": "Triggered Lightning",
+      "effect": "Choose 1 face-up Effect Monster on your field. This turn, that monster gains 300 ATK, and it inflicts piercing battle damage. If neither player has cards in their hand, you can Special Summon 1 \"Thunder Cavalry Triggerdrago\" from your Graveyard face-up to your field.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30c8\u30ea\u30ac\u30fc\u30c9\u30fb\u30e9\u30a4\u30c8\u30cb\u30f3\u30b0",
+      "effect": "\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u306e\u52b9\u679c\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u3092\u9078\u3076\u3002\u3053\u306e\u30bf\u30fc\u30f3\u3001\u305d\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u653b\u6483\u529b\u306f\uff13\uff10\uff10\u30a2\u30c3\u30d7\u3057\u3001\u305d\u306e\u653b\u6483\u306f\u8cab\u901a\u3059\u308b\u3002\u304a\u4e92\u3044\u306e\u624b\u672d\u304c\uff10\u679a\u306e\u5834\u5408\u3001\u81ea\u5206\u306e\u5893\u5730\u304b\u3089\u300c\u96f7\u95d8\u9a0e\u30c8\u30ea\u30ac\u30fc\u30c9\u30e9\u30b4\u300d\uff11\u4f53\u3092\u9078\u3093\u3067\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u8868\u793a\u3067\u7279\u6b8a\u53ec\u559a\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud2b8\ub9ac\uac70\ub4dc \ub77c\uc774\ud2b8\ub2dd",
+      "effect": "\uc790\uc2e0 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc\uc778 \ud6a8\uacfc \ubaac\uc2a4\ud130 1\uc7a5\uc744 \uace0\ub978\ub2e4. \uc774 \ud134\uc5d0, \uadf8 \ubaac\uc2a4\ud130\uc758 \uacf5\uaca9\ub825\uc740 300 \uc62c\ub9ac\uace0, \uadf8 \uacf5\uaca9\uc740 \uad00\ud1b5\ud55c\ub2e4. \uc11c\ub85c\uc758 \ud328\uac00 0\uc7a5\uc77c \uacbd\uc6b0, \uc790\uc2e0 \ubb18\uc9c0\uc5d0\uc11c \"\ub1cc\ud22c\uae30 \ud2b8\ub9ac\uac70\ub4dc\ub77c\uace0\" 1\uc7a5\uc744 \uace0\ub974\uace0 \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \ud45c\uc2dc\ub85c \ud2b9\uc218 \uc18c\ud658\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "f107d39f-ec9d-45d1-9522-046f6e592150",
+      "card": "https://ms.yugipedia.com//d/d8/TriggeredLightning-RDKP21-JP-UR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Triggered Lightning",
+        "id": 1127552
+      }
+    ],
+    "dbID": 21704
+  },
+  "series": []
+}

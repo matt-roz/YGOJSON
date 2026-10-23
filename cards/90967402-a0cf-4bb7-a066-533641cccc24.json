@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "90967402-a0cf-4bb7-a066-533641cccc24",
+  "text": {
+    "en": {
+      "name": "Gadget Soldier (Rush Duel)",
+      "effect": "A rust-free machine warrior born to battle."
+    },
+    "ko": {
+      "name": "\uac00\uc81c\ud2b8 \uc194\uc800",
+      "effect": "\uc804\ud22c\ub97c \uc704\ud574 \uc81c\uc870\ub41c \uae30\uacc4 \uc804\uc0ac. \ub179\uc2ac\uc9c0 \uc54a\ub294 \uae08\uc18d\uc73c\ub85c \ub418\uc5b4 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "type": "machine",
+  "classifications": [
+    "normal"
+  ],
+  "level": 6,
+  "atk": 1800,
+  "def": 2000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "d6e23bdf-3be1-4ea8-8d35-4ff4e442edb9",
+      "card": "https://ms.yugipedia.com//d/d6/GadgetSoldier-RDGRD2-JP-C.png"
+    }
+  ],
+  "sets": [
+    "31432588-1ddf-4225-8c5e-7dfc48faac1e",
+    "31432588-1ddf-4225-8c5e-7dfc48faac1e"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Gadget Soldier (Rush Duel)",
+        "id": 711343
+      }
+    ],
+    "dbID": 17587
+  },
+  "series": []
+}

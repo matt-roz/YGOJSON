@@ -1,0 +1,63 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "7b4f712e-a546-418a-ac56-a6d412c74be5",
+  "text": {
+    "en": {
+      "name": "Aitvaras, Knight of the Winter Raven",
+      "effect": "1 Illusion Tuner + 1+ non-Tuners\nIf this card is Special Summoned: You can target 1 card you control and 1 card your opponent controls; return them to the hand. If this card is sent to the GY: You can activate this effect based on where it was sent from;\n\u25cf Field: Target 1 card on the field; shuffle it into the Deck.\n\u25cf Extra Deck: Special Summon 1 \"Winter Raven\" monster from your GY.\nYou can only use each effect of \"Aitvaras, Knight of the Winter Raven\" once per turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u767d\u9d09\u306e\u9a0e\u58eb\u30a2\u30a4\u30c8\u30ef\u30e9\u30b9"
+    },
+    "zh-CN": {
+      "name": "\u767d\u9e26\u9a91\u58eb \u827e\u7279\u74e6\u62c9\u65af",
+      "effect": "\u5e7b\u60f3\u9b54\u65cf\u534f\u8c03\uff0b\u534f\u8c03\u4ee5\u5916\u7684\u602a\u517d1\u53ea\u4ee5\u4e0a\n\u6b64\u5361\u540d\u7684\u2460\u2461\u6548\u679c1\u56de\u5408\u4ec5\u53ef\u5404\u4f7f\u75281\u6b21\u3002\u2460\uff1a\u6b64\u5361\u7279\u6b8a\u53ec\u5524\u7684\u60c5\u51b5\u4e0b\uff0c\u4ee5\u81ea\u5df1\u53ca\u5bf9\u624b\u573a\u4e0a\u7684\u54041\u5f20\u5361\u4e3a\u5bf9\u8c61\u53ef\u4ee5\u53d1\u52a8\u3002\u5c06\u8be5\u5361\u653e\u56de\u624b\u724c\u3002\u2461\uff1a\u6b64\u5361\u88ab\u9001\u81f3\u5893\u5730\u7684\u60c5\u51b5\u4e0b\uff0c\u6839\u636e\u4ece\u4f55\u5904\u88ab\u9001\u81f3\u5893\u5730\uff0c\u53ef\u4ee5\u53d1\u52a8\u4ee5\u4e0b\u6548\u679c\u3002\n\u25cf\u573a\u4e0a\uff1a\u4ee5\u573a\u4e0a\u76841\u5f20\u5361\u4e3a\u5bf9\u8c61\u53ef\u4ee5\u53d1\u52a8\u3002\u5c06\u8be5\u5361\u653e\u56de\u724c\u7ec4\u3002\n\u25cf\u989d\u5916\u724c\u7ec4\uff1a\u4ece\u81ea\u5df1\u5893\u5730\u5c061\u53ea\u201c\u767d\u9e26\u201d\u602a\u517d\u7279\u6b8a\u53ec\u5524\u3002"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "monsterCardTypes": [
+    "synchro"
+  ],
+  "type": "illusion",
+  "classifications": [
+    "effect"
+  ],
+  "level": 5,
+  "atk": 900,
+  "def": 2600,
+  "passwords": [],
+  "images": [
+    {
+      "id": "092e298b-9c02-4410-9944-6e21710cbf59",
+      "card": "https://ms.yugipedia.com//6/6c/AitvarastheWhiteCrowKnight-IMPH-JP-OP.png"
+    },
+    {
+      "id": "73d3a0ad-ce67-4c65-809c-c5c5b3c322bd",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/101403038.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/101403038.jpg"
+    }
+  ],
+  "sets": [
+    "ccc8125c-0182-45df-91a7-57e5e2423dfc",
+    "ccc8125c-0182-45df-91a7-57e5e2423dfc",
+    "ccc8125c-0182-45df-91a7-57e5e2423dfc"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Aitvaras the White Crow Knight",
+        "id": 1224568
+      }
+    ],
+    "ygoprodeck": {
+      "id": 101403038,
+      "name": "aitvaras-knight-of-the-winter-raven-15947"
+    }
+  },
+  "series": [
+    "44479bee-2678-4dcd-859e-43a2597c1ef2"
+  ]
+}

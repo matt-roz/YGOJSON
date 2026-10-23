@@ -1,0 +1,43 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "a21c7911-ef63-4e0d-9e09-683842e77a4b",
+  "text": {
+    "en": {
+      "name": "Worshiper of the Blightblaze",
+      "effect": "Send the top 2 cards of your Deck to the Graveyard. Then, you can add 1 \"Lena's Mushroom Soup\" or 1 \"Doomed by the Blackblight\" from your Graveyard to your hand.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u8150\u707c\u306e\u5d07\u62dd\u8005"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 1,
+  "atk": 800,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "ffff1f66-8635-4365-8327-eadcd8345c64",
+      "card": "https://ms.yugipedia.com/4/4c/WorshiperoftheBlightblaze-RDKP27-JP-OP.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Worshiper of the Blightblaze",
+        "id": 1231466
+      }
+    ]
+  },
+  "series": [
+    "7dced728-5e1c-49df-a837-28172ebeb3cb"
+  ]
+}

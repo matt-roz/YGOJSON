@@ -1,0 +1,44 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "a7f7326c-ac0d-4d05-a48a-9d1cbacd669e",
+  "text": {
+    "en": {
+      "name": "Dark Hole Device",
+      "effect": "Destroy all monsters on the field. Then, you can add 1 Galaxy Type monster from your Graveyard to your hand."
+    },
+    "ja": {
+      "name": "\u30d6\u30e9\u30c3\u30af\u30fb\u30db\u30fc\u30eb\u30fb\u30c7\u30f4\u30a1\u30a4\u30b9",
+      "effect": "\u304a\u4e92\u3044\u306e\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u3092\u5168\u3066\u7834\u58ca\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ae\u30e3\u30e9\u30af\u30b7\u30fc\u65cf\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ube14\ub799\ud640 \ub514\ubc14\uc774\uc2a4",
+      "effect": "\uc11c\ub85c\uc758 \ud544\ub4dc\uc758 \ubaac\uc2a4\ud130\ub97c \uc804\ubd80 \ud30c\uad34\ud55c\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130(\uac24\ub7ed\uc2dc\uc871) 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\uc744 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "a386147a-20b1-4c03-85cf-4642d719ac75",
+      "card": "https://ms.yugipedia.com//0/0b/DarkHoleDevice-RDB243-JP-SR.png"
+    }
+  ],
+  "sets": [
+    "c0287cbc-dc56-47ae-9e89-0af80eb1b3d9"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "r"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Dark Hole Device",
+        "id": 1002095
+      }
+    ],
+    "dbID": 19327
+  },
+  "series": []
+}

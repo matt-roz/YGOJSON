@@ -1,0 +1,52 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "e89e5824-54b8-45f8-894f-3d11509da90b",
+  "text": {
+    "en": {
+      "name": "Magistus Witchcrafter Aruru",
+      "effect": "If this card is in your hand and a \"Magistus\" monster is on the field: You can Special Summon this card. You can target 1 face-up monster your opponent controls; negate its effects until the end of this turn. If this card is sent to the GY: You can banish it, then target 1 \"Magistus\" or \"Witchcrafter\" monster in your GY; Special Summon it. You can only use each effect of \"Magistus Witchcrafter Aruru\" once per turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u7d50\u6676\u306e\u9b54\u5973\u795e\u30a2\u30eb\u30eb"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "spellcaster",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 2800,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "68828160-0aa9-488a-b7b3-3e02206b7634",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/100462004.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/100462004.jpg"
+    }
+  ],
+  "sets": [
+    "9ad72762-9326-4470-aead-23571b8e256c",
+    "9ad72762-9326-4470-aead-23571b8e256c",
+    "9ad72762-9326-4470-aead-23571b8e256c"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Magistus Witchcrafter Aruru",
+        "id": 1233929
+      }
+    ],
+    "ygoprodeck": {
+      "id": 100462004,
+      "name": "magistus-witchcrafter-aruru-16017"
+    }
+  },
+  "series": [
+    "240aca65-2a8b-48d4-9892-ecc341224c04"
+  ]
+}

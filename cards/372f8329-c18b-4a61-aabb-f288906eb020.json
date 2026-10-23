@@ -1,0 +1,63 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "372f8329-c18b-4a61-aabb-f288906eb020",
+  "text": {
+    "en": {
+      "name": "Faith Bird (Rush Duel)",
+      "effect": "This long-tailed bird blinds its enemies with mystical light."
+    },
+    "fr": {
+      "name": "Oiseau de la Foi",
+      "effect": "Cet oiseau \u00e0 la queue gigantesque aveugle ses ennemis d'une lumi\u00e8re mystique."
+    },
+    "de": {
+      "name": "Glaubensvogel",
+      "effect": "Dieser Vogel mit langen Schwanzfedern blendet seine Feinde mit einem mystischen Licht."
+    },
+    "it": {
+      "name": "Uccello della Fede",
+      "effect": "Questo uccello dalla coda lunga acceca i suoi nemici con una luce mistica."
+    },
+    "es": {
+      "name": "Ave de Fe",
+      "effect": "Este p\u00e1jaro de cola larga ciega a sus enemigos con una luz m\u00edstica."
+    },
+    "ko": {
+      "name": "\uc138\uc778\ud2b8 \ubc84\ub4dc",
+      "effect": "\uaf2c\ub9ac\uac00 \uc0c1\ub2f9\ud788 \uae34 \uc0c8. \uc804\uc2e0\uc5d0\uc11c \uc131\uc2a4\ub7ec\uc6b4 \ube5b\uc744 \ub0b8\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "wind",
+  "type": "wingedbeast",
+  "classifications": [
+    "normal"
+  ],
+  "level": 4,
+  "atk": 1500,
+  "def": 1100,
+  "passwords": [],
+  "images": [
+    {
+      "id": "9a50f21f-d27d-4a0a-8435-6273b32877e4",
+      "card": "https://ms.yugipedia.com//1/19/FaithBird-RDSD0D-JP-C.png"
+    }
+  ],
+  "sets": [
+    "f8e7532a-02f9-4834-aa0e-230e163cf5e4",
+    "f8e7532a-02f9-4834-aa0e-230e163cf5e4",
+    "d867f9ff-46bb-44fa-9cb3-94491d964afd",
+    "d867f9ff-46bb-44fa-9cb3-94491d964afd"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Faith Bird (Rush Duel)",
+        "id": 714916
+      }
+    ],
+    "dbID": 15216
+  },
+  "series": []
+}

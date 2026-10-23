@@ -1,0 +1,35 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "36ec0d15-ff9c-49ab-9c48-cceb0cae5b1b",
+  "text": {
+    "en": {
+      "name": "Level Blast",
+      "effect": "Choose 1 face-up monster on your field and inflict damage to your opponent equal to [the chosen monster's Level] x 100. You can only attack with 1 monster this turn."
+    },
+    "ja": {
+      "name": "\u30ec\u30d9\u30eb\u30d6\u30e9\u30b9\u30c8",
+      "effect": "\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u3092\u9078\u3073\u3001\uff3b\u9078\u3093\u3060\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u30ec\u30d9\u30eb\uff3d\u00d7\uff11\uff10\uff10\u30c0\u30e1\u30fc\u30b8\u3092\u76f8\u624b\u306b\u4e0e\u3048\u308b\u3002\u3053\u306e\u30bf\u30fc\u30f3\u3001\u81ea\u5206\u306f\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u3067\u3057\u304b\u653b\u6483\u3067\u304d\u306a\u3044\u3002"
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "b3fc021c-f1ab-4a27-bbef-a1f5c94da9a9",
+      "card": "https://ms.yugipedia.com//f/f8/LevelBlast-RDB224-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Level Blast",
+        "id": 715593
+      }
+    ],
+    "dbID": 18653
+  },
+  "series": []
+}

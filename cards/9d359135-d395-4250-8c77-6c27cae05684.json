@@ -1,0 +1,44 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "9d359135-d395-4250-8c77-6c27cae05684",
+  "text": {
+    "en": {
+      "name": "Pair Cycroid (Rush Duel)",
+      "effect": "This card can attack directly.",
+      "official": false
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 5,
+  "atk": 1600,
+  "def": 1200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "19e5c601-6625-4395-aa97-b24a6912d779",
+      "card": "https://ms.yugipedia.com//b/b0/PairCycroid-RDSJMP-JP-NPR.png"
+    }
+  ],
+  "sets": [
+    "b254644c-27d2-4111-9a53-3a82de7d4cd5"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Pair Cycroid (Rush Duel)",
+        "id": 1183579
+      }
+    ],
+    "dbID": 23183
+  },
+  "series": []
+}

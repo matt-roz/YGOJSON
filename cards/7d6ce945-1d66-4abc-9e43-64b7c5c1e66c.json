@@ -1,0 +1,53 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "7d6ce945-1d66-4abc-9e43-64b7c5c1e66c",
+  "text": {
+    "en": {
+      "name": "Mystical Sandbox",
+      "effect": "She bends water to her will, hardening sand into stone. With muddy hands, She brings all sorts of creations to life."
+    },
+    "ja": {
+      "name": "\u7802\u5834\u306e\u9b54\u5973",
+      "effect": "\u6c34\u3092\u64cd\u308a\u7802\u3092\u56fa\u3081\u308b\u9b54\u6cd5\u4f7f\u3044\u3002\u6ce5\u3060\u3089\u3051\u306e\u624b\u3067\u3042\u3089\u3086\u308b\u7269\u3092\u751f\u6210\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ubaa8\ub798\uc0ac\uc7a5\uc758 \ub9c8\ub140",
+      "effect": "\ubb3c\uc744 \uc870\uc885\ud574 \ubaa8\ub798\ub97c \uad73\ud788\ub294 \ub9c8\ubc95\uc0ac. \uc9c4\ud759 \ud22c\uc131\uc774\uc758 \uc190\uc73c\ub85c \uc628\uac16 \uac83\ub4e4\uc744 \uc0dd\uc131\ud574\ub0b8\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "type": "aqua",
+  "classifications": [
+    "normal"
+  ],
+  "level": 3,
+  "atk": 1200,
+  "def": 1200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "bdc8a44f-ee67-40b3-9d62-c631dba3b58c",
+      "card": "https://ms.yugipedia.com//7/7c/MysticalSandbox-RDB222-JP-C.png"
+    }
+  ],
+  "sets": [
+    "4c887f72-12bb-4f1a-80de-38526bb09a9e"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "n"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Mystical Sandbox",
+        "id": 715979
+      }
+    ],
+    "dbID": 17839
+  },
+  "series": [
+    "280a9d17-e91f-4b1a-a8c8-d76977cd2cdd"
+  ]
+}

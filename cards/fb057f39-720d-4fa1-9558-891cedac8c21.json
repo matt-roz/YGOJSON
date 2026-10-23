@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "fb057f39-720d-4fa1-9558-891cedac8c21",
+  "text": {
+    "en": {
+      "name": "Alpha Burn Wyvern",
+      "effect": "Excavate the top 5 cards of your Deck. You can add up to 2 excavated Level 1 Dragon Type Normal Monsters with 1000 DEF to your hand. Place the other cards on the bottom of your Deck in any order.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u03b1\u30d0\u30fc\u30f3\u30fb\u30ef\u30a4\u30d0\u30fc\u30f3"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "dragon",
+  "classifications": [
+    "effect"
+  ],
+  "level": 1,
+  "atk": 800,
+  "def": 900,
+  "passwords": [],
+  "images": [
+    {
+      "id": "252518ea-31fd-4e81-9a08-4e29c0872f52",
+      "card": "https://ms.yugipedia.com//3/3e/AlphaBurnWyvern-RDKP27-JP-OP.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Alpha Burn Wyvern",
+        "id": 1235927
+      }
+    ]
+  },
+  "series": []
+}

@@ -1,0 +1,53 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "4ce9d6f3-2916-4fc6-87ba-6ddabd1525c0",
+  "text": {
+    "en": {
+      "name": "Chimeratech Overdragon (Rush Duel)",
+      "effect": "This Fusion Summoned card can attack monsters a number of times per turn, up to [the number of monsters used as material when Fusion Summoning this card].",
+      "official": false
+    },
+    "ko": {
+      "name": "\ud0a4\uba54\ub77c\ud14c\ud06c \uc624\ubc84 \ub4dc\ub798\uace4",
+      "effect": "\ud4e8\uc804 \uc18c\ud658\ud55c \uc774 \uce74\ub4dc\ub294 1\ud134\uc5d0, [\uc774 \uce74\ub4dc\ub97c \ud4e8\uc804 \uc18c\ud658\ud560 \ub54c\uc5d0 \uc18c\uc7ac\ub85c \ud55c \ubaac\uc2a4\ud130\uc758 \uc218]\uae4c\uc9c0 \ubaac\uc2a4\ud130\uc5d0 \uacf5\uaca9\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 9,
+  "atk": 0,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "de437ee1-3df0-433d-a1c4-8aed45bdac50",
+      "card": "https://ms.yugipedia.com//5/54/ChimeratechOverdragon-RDSD0C-JP-UR.png"
+    }
+  ],
+  "sets": [
+    "918ca201-7f5c-4e30-a6be-9ad1bd9e8458",
+    "918ca201-7f5c-4e30-a6be-9ad1bd9e8458",
+    "918ca201-7f5c-4e30-a6be-9ad1bd9e8458",
+    "918ca201-7f5c-4e30-a6be-9ad1bd9e8458"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Chimeratech Overdragon (Rush Duel)",
+        "id": 1104011
+      }
+    ],
+    "dbID": 21387
+  },
+  "series": [
+    "86022427-8e1f-4a67-af9d-a38a063a0392"
+  ]
+}

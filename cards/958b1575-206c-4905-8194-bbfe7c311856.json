@@ -1,0 +1,47 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "958b1575-206c-4905-8194-bbfe7c311856",
+  "text": {
+    "en": {
+      "name": "Twin Edge Fire Dragon",
+      "effect": "Choose 1 face-up Dragon Type monster on your field, and it gains 500 ATK until the end of this turn. Then, if you chose \"Twin Edge Dragon\" by this effect, it gains an additional 500 ATK until the end of this turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30c4\u30a4\u30f3\u30a8\u30c3\u30b8\u30fb\u30d5\u30a1\u30a4\u30a2\u30fb\u30c9\u30e9\u30b4\u30f3",
+      "effect": "\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30c9\u30e9\u30b4\u30f3\u65cf\uff09\uff11\u4f53\u3092\u9078\u3073\u3001\u305d\u306e\u653b\u6483\u529b\u3092\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\uff15\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002\u3053\u306e\u52b9\u679c\u3067\u300c\u30c4\u30a4\u30f3\u30a8\u30c3\u30b8\u30fb\u30c9\u30e9\u30b4\u30f3\u300d\u3092\u9078\u3093\u3060\u5834\u5408\u3001\u3055\u3089\u306b\u305d\u306e\u653b\u6483\u529b\u306f\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\uff15\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud2b8\uc708\uc5d0\uc9c0 \ud30c\uc774\uc5b4 \ub4dc\ub798\uace4",
+      "effect": "\uc790\uc2e0 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\ub4dc\ub798\uace4\uc871) 1\uc7a5\uc744 \uace0\ub974\uace0, \uadf8 \uacf5\uaca9\ub825\uc744 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0 500 \uc62c\ub9b0\ub2e4. \uc774 \ud6a8\uacfc\ub85c \"\ud2b8\uc708\uc5d0\uc9c0 \ub4dc\ub798\uace4\"\uc744 \uace0\ub978 \uacbd\uc6b0, \ucd94\uac00\ub85c \uadf8 \uacf5\uaca9\ub825\uc740 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0 500 \uc62c\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "dragon",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 1000,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "e68120c8-b609-49d5-a918-369eb791adf2",
+      "card": "https://ms.yugipedia.com//a/af/TwinEdgeFireDragon-RDMRP2-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Twin Edge Fire Dragon",
+        "id": 1006408
+      }
+    ],
+    "dbID": 19559
+  },
+  "series": []
+}

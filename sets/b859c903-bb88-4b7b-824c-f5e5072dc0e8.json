@@ -1,0 +1,398 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "b859c903-bb88-4b7b-824c-f5e5072dc0e8",
+  "name": {
+    "en": "Creation Pack 13 +1 Bonus Pack"
+  },
+  "locales": {
+    "ae": {
+      "language": "ae",
+      "prefix": "CR13-AES",
+      "date": "2026-10-10",
+      "cardImages": {
+        "unlimited": {}
+      },
+      "cardInfo": {
+        "unlimited": {}
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {}
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "ae"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "cards": [
+        {
+          "id": "f77951d9-5b3e-4edf-b4e2-597563d40619",
+          "card": "bc4ce584-7451-4d5b-8d25-2557632e4be5",
+          "suffix": "01",
+          "rarity": "prismaticsecret",
+          "printStatus": "reprint",
+          "printNote": "New artwork"
+        },
+        {
+          "id": "469c2c7e-b109-4e82-9f42-e59b80845fe0",
+          "card": "1e483af1-e05f-4698-9ad2-62e5cd7f3b78",
+          "suffix": "02",
+          "rarity": "prismaticsecret",
+          "imageID": "3dda838c-1f76-4c9c-9fac-0dfbf168107f",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "4afa130f-a2c4-4058-b580-79cf4eb3acce",
+          "card": "6d9cf67e-c28c-4fb2-a88c-311da15f0577",
+          "suffix": "03",
+          "rarity": "prismaticsecret",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "6eb0288c-6239-4a70-bb71-43d20a9fdda6",
+          "card": "bc4e8664-83da-4a49-b63b-1b5bc7ca922b",
+          "suffix": "04",
+          "rarity": "ultra",
+          "imageID": "5c7585d8-a1e4-4f91-8285-454c77fed93a",
+          "printStatus": "new"
+        },
+        {
+          "id": "26de49ff-54da-4693-8d84-60eafaf83902",
+          "card": "98e300bd-70a2-4be9-a49f-4aa69d8d6070",
+          "suffix": "05",
+          "rarity": "ultra",
+          "imageID": "6292f3d3-b211-40f7-9313-5f5542ca6edc",
+          "printStatus": "new"
+        },
+        {
+          "id": "c130a94b-4131-4429-a68d-363a77bf129a",
+          "card": "98e300bd-70a2-4be9-a49f-4aa69d8d6070",
+          "suffix": "05",
+          "rarity": "prismaticsecret",
+          "imageID": "6292f3d3-b211-40f7-9313-5f5542ca6edc",
+          "printStatus": "new"
+        },
+        {
+          "id": "1585570d-af3a-4fd4-a6d8-21b971f76077",
+          "card": "81eeeb36-22a7-4a5a-95a2-ac53772c4452",
+          "suffix": "06",
+          "rarity": "secret",
+          "imageID": "107a0f9c-f56b-4c36-8c75-2d33f89ea91d",
+          "printStatus": "new"
+        },
+        {
+          "id": "69611744-ef86-4f24-b531-233c6514a38b",
+          "card": "abe2ca75-af80-4f13-acf0-5978e9d516f1",
+          "suffix": "07",
+          "rarity": "ultra",
+          "imageID": "d8310a87-7d1b-4643-8840-231b4cac17a4",
+          "printStatus": "new"
+        },
+        {
+          "id": "cc0846c0-3d5b-4a80-8a02-69ea1b91cc83",
+          "card": "022cced6-d30b-4b2a-b743-9c0e9a0f9f1d",
+          "suffix": "08",
+          "rarity": "prismaticsecret",
+          "imageID": "22dbdf0f-fbb6-4ad6-86cb-2cc879773a7d",
+          "printStatus": "new"
+        },
+        {
+          "id": "693c31b7-0668-4774-a0f6-c263f397eb4d",
+          "card": "6e37995c-0724-41b2-a9fe-9231e0058ad7",
+          "suffix": "09",
+          "rarity": "prismaticsecret",
+          "imageID": "c0a75ed1-41c8-4af7-abd8-72a08b3c22dd",
+          "printStatus": "new"
+        },
+        {
+          "id": "061f261d-0dc6-429f-9404-67c17d2f41ff",
+          "card": "e365ff0c-0d78-4e7f-9439-f152c5c41359",
+          "suffix": "10",
+          "rarity": "ultra",
+          "imageID": "1f54c7df-2711-48b6-8564-f09e0844edc7",
+          "printStatus": "new"
+        },
+        {
+          "id": "982e7e94-4f98-4786-950e-160f2d4fbec8",
+          "card": "0547b541-c4c2-48ab-8777-12d5ba38d957",
+          "suffix": "11",
+          "rarity": "secret",
+          "imageID": "8bbfdd75-577b-4ab9-b857-98a33fc6c4ae",
+          "printStatus": "new"
+        },
+        {
+          "id": "29ca420b-1380-468a-b787-a99a11e7c13d",
+          "card": "578f56e8-39a9-484a-b81d-a3884d8110b2",
+          "suffix": "12",
+          "rarity": "secret",
+          "imageID": "861a15e8-a2e0-497e-a5bb-ee192b20c2ec",
+          "printStatus": "new"
+        },
+        {
+          "id": "5e04254e-e5d6-4723-9a5f-e0cf02e29044",
+          "card": "741442e0-077f-45db-bf5a-c5e96302a4ea",
+          "suffix": "13",
+          "rarity": "prismaticsecret",
+          "imageID": "ba94bc78-b986-4c05-a3ec-92cafd8691f5",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "ee820141-dfcc-4482-a571-044a53ec1b67",
+          "card": "f2a88e4a-8377-41dd-bbcb-dcff94a0100a",
+          "suffix": "14",
+          "rarity": "ultra",
+          "imageID": "75764786-ce3b-48e1-9a5b-cccb6080893d",
+          "printStatus": "new"
+        },
+        {
+          "id": "3425cea6-0702-4b4d-8dcd-99004de3f204",
+          "card": "b9d13808-ebf1-4a40-9f15-7bcbe41b9342",
+          "suffix": "15",
+          "rarity": "secret",
+          "imageID": "49c4226c-e321-4212-8656-18d2ab4f960b",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "1ad9b344-67ff-4ba7-8fe0-39e6826f02dd",
+          "card": "fb4a8069-9752-4af3-979f-b8055e016456",
+          "suffix": "16",
+          "rarity": "ultra",
+          "imageID": "049a48c9-ce5f-43b0-acd8-255cd9de8631",
+          "printStatus": "new"
+        },
+        {
+          "id": "7b5534e2-693c-4c42-b386-78c0f46f28b3",
+          "card": "85232686-4b4f-4dde-ad9f-68763a14841e",
+          "suffix": "17",
+          "rarity": "prismaticsecret",
+          "imageID": "1739bc20-1384-4b4b-8e50-c6c6555bfb23",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "7d41847e-9881-47a3-9aa2-1c1c31ad59b5",
+          "card": "d5a7ac06-0b4c-4887-b8d4-8908dda8b64a",
+          "suffix": "18",
+          "rarity": "secret",
+          "imageID": "dff523b8-7ce3-4a1c-8f71-f0e90be6976d",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "c7364afd-4e19-4ea9-9fd7-877659ceec2d",
+          "card": "c0ca2caa-cd1d-434a-ad1b-b0f46c3b7c7b",
+          "suffix": "19",
+          "rarity": "prismaticsecret",
+          "imageID": "95acaa87-7a69-4ef1-8ab2-a2569f0bb0d0",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "c099f953-b431-4958-aa87-778d0a3f83b1",
+          "card": "5385d7e5-dde8-412d-8606-fd9bdbf4c5d4",
+          "suffix": "20",
+          "rarity": "ultra",
+          "imageID": "4aa6bd01-aa25-4aa9-b364-9d7279da3dbd",
+          "printStatus": "new"
+        },
+        {
+          "id": "69045792-58ff-4610-98d5-801c9d685068",
+          "card": "0412bf9c-107f-411d-9905-8af1ba2c73c5",
+          "suffix": "21",
+          "rarity": "secret",
+          "imageID": "9a13fb27-345d-4406-ab53-2ee2417a01e8",
+          "printStatus": "new"
+        },
+        {
+          "id": "a616feb1-ad0a-43b4-ba2a-9bf45d433972",
+          "card": "5dbf288a-43ed-46ec-b125-19dc9023ce7e",
+          "suffix": "22",
+          "rarity": "ultra",
+          "imageID": "f1cf2b31-c7c2-4ff3-b41a-b859c159dd99",
+          "printStatus": "new"
+        },
+        {
+          "id": "5acd14a2-434a-4e41-a9fe-538984c6f435",
+          "card": "6069aed5-9b25-4dad-bee9-2b0f6dd19c5b",
+          "suffix": "23",
+          "rarity": "ultra",
+          "imageID": "74ec771c-4311-4589-88a2-1a09d01d72ee",
+          "printStatus": "new"
+        },
+        {
+          "id": "2299fd07-1a6d-4802-88a6-4694f59b823c",
+          "card": "04fdcb03-a2ee-4c4c-ad51-9db8bdf1aab0",
+          "suffix": "24",
+          "rarity": "secret",
+          "imageID": "3dc26c81-e605-4439-a859-4e00db1044c8",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "42bdfaba-7f7a-462c-a10a-270713746504",
+          "card": "99bab227-63f1-42ef-aa6d-076a7c2aa56b",
+          "suffix": "25",
+          "rarity": "prismaticsecret",
+          "imageID": "20fba8f2-28f1-460d-a254-e70f5d478069",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "734cfcb6-4810-4401-8479-d92da7216aac",
+          "card": "06960c9e-0313-4734-a223-aeedd3c906b3",
+          "suffix": "26",
+          "rarity": "ultra",
+          "printStatus": "new"
+        },
+        {
+          "id": "01329cc1-9f6b-4c6e-b3bf-66041923d162",
+          "card": "ae1a3c81-0f79-40a9-b2ef-f9ba409eabcb",
+          "suffix": "27",
+          "rarity": "secret",
+          "printStatus": "new"
+        },
+        {
+          "id": "1f10f450-18d6-4eb6-9299-742c09b96d47",
+          "card": "b19a5a28-184b-4d09-9738-ba62a5bab1b0",
+          "suffix": "28",
+          "rarity": "prismaticsecret",
+          "imageID": "3a8d1117-1631-4d66-9e6a-6961645e6675",
+          "printStatus": "new"
+        },
+        {
+          "id": "1285c730-c73e-4582-8122-0f20e6bf2eaf",
+          "card": "48ab201c-9aba-4084-a436-6f12bb17e943",
+          "suffix": "29",
+          "rarity": "prismaticsecret",
+          "imageID": "2462fa68-bffb-46fc-abfc-0072803fe0cd",
+          "printStatus": "new"
+        },
+        {
+          "id": "f54c9441-1340-42bb-b6e8-bb8a76885cf2",
+          "card": "16e8832f-5b7d-4e72-b203-e6dcc22f26b4",
+          "suffix": "30",
+          "rarity": "secret",
+          "imageID": "0b45094f-ea02-47c2-841e-67aafd56d81b",
+          "printStatus": "new"
+        },
+        {
+          "id": "153e2c03-89fb-4554-9766-ace4f32e6544",
+          "card": "6a11cae9-d8a3-4c1a-acc4-49e60a046aa3",
+          "suffix": "31",
+          "rarity": "ultra",
+          "printStatus": "new"
+        },
+        {
+          "id": "1040376b-c096-49e6-99a4-d39cc6b84ce0",
+          "card": "6a11cae9-d8a3-4c1a-acc4-49e60a046aa3",
+          "suffix": "31",
+          "rarity": "prismaticsecret",
+          "printStatus": "new"
+        },
+        {
+          "id": "4fd38c88-2a5e-42fa-b4e7-a55b6d9fbd1d",
+          "card": "a82c9695-c3d0-4502-8fa4-42b2be8ad2d4",
+          "suffix": "32",
+          "rarity": "secret",
+          "imageID": "7ce90e73-bba4-4b35-91d9-1b57b279abde",
+          "printStatus": "new"
+        },
+        {
+          "id": "dc73ea63-2eeb-4d3c-9697-dab7649d87f5",
+          "card": "619ac5ec-2a2f-4a79-bb6c-1143aabafe87",
+          "suffix": "33",
+          "rarity": "ultra",
+          "printStatus": "new"
+        },
+        {
+          "id": "6b389f4b-7684-40c3-a597-4945d697318d",
+          "card": "a0b4377c-c5d2-4bff-8f30-88aea4c5ba2a",
+          "suffix": "34",
+          "rarity": "secret",
+          "imageID": "a66e6f9b-5b64-42c8-9225-b94ad22aa65e",
+          "printStatus": "new"
+        },
+        {
+          "id": "d2b2f4e6-d355-4915-8195-33d713298000",
+          "card": "f8c145db-6a5d-44ee-aa1d-70161e045363",
+          "suffix": "35",
+          "rarity": "ultra",
+          "imageID": "c0169987-ab97-4c47-8966-e9a1d429d649",
+          "printStatus": "new"
+        },
+        {
+          "id": "959f7f27-23f1-482a-9014-da28650396fc",
+          "card": "56bf6d6e-7957-47e6-b2ea-f0b7ec9bc317",
+          "suffix": "36",
+          "rarity": "secret",
+          "imageID": "5493bf63-1e39-42ba-84ac-232d0f11e45e",
+          "printStatus": "new"
+        },
+        {
+          "id": "b7b96f2a-76ab-4c4c-9798-38d64199a495",
+          "card": "ae013c1d-15db-40c3-9638-5de415bc9f1d",
+          "suffix": "37",
+          "rarity": "secret",
+          "imageID": "17834a01-55a6-4157-9f14-717039d5204e",
+          "printStatus": "new"
+        },
+        {
+          "id": "6d056fdc-ccb3-4080-82be-9aab40cb9316",
+          "card": "c0285d04-cadd-402d-a865-799a182d7510",
+          "suffix": "38",
+          "rarity": "secret",
+          "printStatus": "reprint",
+          "printNote": "New artwork"
+        },
+        {
+          "id": "ee65c465-fd3d-4609-8e48-3d5b7fcc8a70",
+          "card": "6af99874-04cf-4184-872f-fc51dca222ae",
+          "suffix": "39",
+          "rarity": "ultra",
+          "printStatus": "new"
+        },
+        {
+          "id": "50dabf14-eb88-4fa5-b5dd-56ac6293c4b7",
+          "card": "6af99874-04cf-4184-872f-fc51dca222ae",
+          "suffix": "39",
+          "rarity": "prismaticsecret",
+          "printStatus": "new"
+        },
+        {
+          "id": "150ff93f-a704-46e9-8989-54a75bf38850",
+          "card": "a5968e56-ca65-4c09-bbb1-57523faabbe2",
+          "suffix": "40",
+          "rarity": "secret",
+          "printStatus": "new"
+        },
+        {
+          "id": "a7ce43b3-2b2a-40fd-bb99-24b68aa4aff4",
+          "card": "b8193cbb-f7e8-4f3b-8652-84558b23d437",
+          "suffix": "41",
+          "rarity": "ultra",
+          "printStatus": "new"
+        },
+        {
+          "id": "272d114e-be45-49c6-b7ac-b7692388ddf2",
+          "card": "b8193cbb-f7e8-4f3b-8652-84558b23d437",
+          "suffix": "41",
+          "rarity": "prismaticsecret",
+          "printStatus": "new"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Creation Pack 13 +1 Bonus Pack",
+      "id": 1230334
+    }
+  }
+}

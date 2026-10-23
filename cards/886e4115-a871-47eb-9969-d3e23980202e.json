@@ -1,0 +1,69 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "886e4115-a871-47eb-9969-d3e23980202e",
+  "text": {
+    "en": {
+      "name": "Wyrm Excavator the Heavy Cavalry Draco [L]",
+      "effect": "This card gains ATK equal to [the number of cards in your hand] x 300."
+    },
+    "fr": {
+      "name": "Excavateur Wyrm le Draco de la Cavalerie Lourde [L]",
+      "effect": "Cette carte gagne une ATK \u00e9gale au [nombre de cartes dans votre main] x 300."
+    },
+    "de": {
+      "name": "Wyrmgr\u00e4ber der Schwere-Kavallerie-Draco [L]",
+      "effect": "Diese Karte erh\u00e4lt ATK in H\u00f6he [der Anzahl an Karten in deiner Hand] x 300."
+    },
+    "it": {
+      "name": "Wyrm Scavatore il Draco Cavalleria Pesante [L]",
+      "effect": "Questa carta guadagna ATK pari [al numero di carte nella tua mano] x 300."
+    },
+    "es": {
+      "name": "Excavador Wyrm el Draco de Caballer\u00eda Pesada [L]",
+      "effect": "Esta carta gana ATK igual [al n\u00famero de cartas en tu mano] x 300."
+    },
+    "ja": {
+      "name": "\u5e7b\u7adc\u91cd\u9a0e\u30a6\u30a9\u30fc\u30e0\uff25\uff58\u30ab\u30d9\u30fc\u30bf\u30fc\uff3b\uff2c\uff3d",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u306e\u653b\u6483\u529b\u306f\uff3b\u81ea\u5206\u306e\u624b\u672d\u306e\u6570\uff3d\u00d7\uff13\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud658\ub8e1\uc911\uae30 \uc6dc Ex\ucee4\ubca0\uc774\ud130[L]",
+      "effect": "\uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\ub825\uc740 [\uc790\uc2e0 \ud328\uc758 \uc218] \u00d7 300 \uc62c\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "wyrm",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 800,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "cf680c93-07b1-4d92-bd45-f70b2f0267a8",
+      "card": "https://ms.yugipedia.com//2/2f/WyrmExcavatortheHeavyCavalryDracoL-RD5TH1-JP-ORR.png"
+    }
+  ],
+  "sets": [
+    "22e8bcf0-2b4c-48d0-87e4-2a51d0f0129e"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "r"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Wyrm Excavator the Heavy Cavalry Draco (L)",
+        "id": 717526
+      }
+    ],
+    "dbID": 16144
+  },
+  "series": [
+    "f9467656-3928-4546-ab32-6354fc22eaa0"
+  ]
+}

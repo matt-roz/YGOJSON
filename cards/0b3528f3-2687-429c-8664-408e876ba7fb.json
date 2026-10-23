@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "0b3528f3-2687-429c-8664-408e876ba7fb",
+  "text": {
+    "en": {
+      "name": "Coredrasil the Spirit Tree Bunrei",
+      "effect": "Return 1 card from your opponent's field to the owner's hand. This turn, you can only attack with Plant Type monsters.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u5206\u970a\u6a39\u30b3\u30a2\u30c9\u30e9\u30b7\u30eb",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u30ab\u30fc\u30c9\uff11\u679a\u3092\u9078\u3093\u3067\u6301\u3061\u4e3b\u306e\u624b\u672d\u306b\u623b\u3059\u3002\u3053\u306e\u30bf\u30fc\u30f3\u3001\u81ea\u5206\u306f\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u690d\u7269\u65cf\u4ee5\u5916\uff09\u3067\u653b\u6483\u3067\u304d\u306a\u3044\u3002"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "wind",
+  "type": "plant",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 1200,
+  "def": 2500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "3e2e369d-dce5-4431-9f24-0b4a23b887ca",
+      "card": "https://ms.yugipedia.com//2/2a/CoredrasiltheSpiritTreeBunrei-RDKP26-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Coredrasil the Spirit Tree Bunrei",
+        "id": 1204660
+      }
+    ],
+    "dbID": 23730
+  },
+  "series": [
+    "dcb5814a-02a8-4cb5-8dbb-174d3c0203fb"
+  ]
+}

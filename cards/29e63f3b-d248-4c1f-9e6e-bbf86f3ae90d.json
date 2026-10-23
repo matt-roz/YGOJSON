@@ -1,0 +1,43 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "29e63f3b-d248-4c1f-9e6e-bbf86f3ae90d",
+  "text": {
+    "en": {
+      "name": "Jointech Guardian",
+      "effect": "Add 1 \"Jointech Ace\" or \"Jointech Rex\" from your Graveyard to your hand. This turn, you cannot activate the effect of \"Jointech Guardian\".",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30b8\u30e7\u30a4\u30f3\u30c6\u30c3\u30af\u30fb\u30ac\u30fc\u30c7\u30a3\u30a2\u30f3"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 1200,
+  "def": 2300,
+  "passwords": [],
+  "images": [
+    {
+      "id": "3ad5f6ce-c7de-4a96-aa48-56a9d092d5d9",
+      "card": "https://ms.yugipedia.com//5/55/JointechGuardian-RDKP27-JP-OP.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Jointech Guardian",
+        "id": 1231449
+      }
+    ]
+  },
+  "series": [
+    "5d5055d0-52c0-457f-8fcf-f097bd9b9f9e"
+  ]
+}

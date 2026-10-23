@@ -1,0 +1,52 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "1511dfed-a4c7-4b2c-9664-698034fe7895",
+  "text": {
+    "en": {
+      "name": "Durga the Shadow Flower Submarine",
+      "effect": "Destroy all face-up Level 6 or higher monsters on your opponent's field.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u82b1\u7259\u6f5c\u653b\u30b5\u30d6\u30de\u30ea\u30f3\u30fb\u30c9\u30a5\u30eb\u30ac\u30fc",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff16\u4ee5\u4e0a\uff09\u3092\u5168\u3066\u7834\u58ca\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud654\uc544\uc7a0\uacf5 \uc11c\ube0c\ub9c8\ub9b0 \ub450\ub974\uac00",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\ub808\ubca8 6 \uc774\uc0c1)\ub97c \uc804\ubd80 \ud30c\uad34\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "plant",
+  "classifications": [
+    "effect"
+  ],
+  "level": 9,
+  "atk": 2800,
+  "def": 2000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "2c85ee76-c30d-4378-af85-ec0d281f141e",
+      "card": "https://ms.yugipedia.com//5/5c/DurgatheShadowFlowerSubmarine-RDKP08-JP-R.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Durga the Shadow Flower Submarine",
+        "id": 714742
+      }
+    ],
+    "dbID": 17314
+  },
+  "series": [
+    "676650a4-b6a3-4ba4-9d96-aebea1e7fca2"
+  ]
+}

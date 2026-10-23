@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "f7db9868-6d7f-417e-b88f-fdd3f4d6ee58",
+  "text": {
+    "en": {
+      "name": "Granmarg the Rock Monarch (Rush Duel)",
+      "effect": "Destroy 1 face-down card on the field.",
+      "official": false
+    },
+    "ko": {
+      "name": "\ub545\uc758 \uc81c\uc655 \uadf8\ub780\ub9c8\uadf8",
+      "effect": "\uc790\uc2e0 \ub610\ub294 \uc0c1\ub300 \ud544\ub4dc\uc758 \ub4b7\uba74 \ud45c\uc2dc\uc758 \uce74\ub4dc 1\uc7a5\uc744 \uace0\ub974\uace0 \ud30c\uad34\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "rock",
+  "classifications": [
+    "effect"
+  ],
+  "level": 6,
+  "atk": 2400,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "96ac90d1-2a6d-4a80-8d14-085f0d218fb3",
+      "card": "https://ms.yugipedia.com//9/91/GranmargtheRockMonarch-RDKP17-JP-R.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Granmarg the Rock Monarch (Rush Duel)",
+        "id": 1055194
+      }
+    ],
+    "dbID": 20330
+  },
+  "series": [
+    "059923a7-4962-4032-a3bb-dab94d3fb38c"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "43cce9f7-9038-4fc0-8db1-bc657a45b6e2",
+  "text": {
+    "en": {
+      "name": "Harpie Lady (Rush Duel)",
+      "effect": "This human-shaped animal with wings is beautiful to watch but deadly in battle."
+    },
+    "ko": {
+      "name": "\ud574\ud53c \ub808\uc774\ub514",
+      "effect": "\uc778\uac04\uc758 \ubab8\uc5d0 \ub0a0\uac1c\uac00 \uc790\ub77c\ub09c \ubaac\uc2a4\ud130. \uc544\ub984\ub2f5\uace0 \ud654\ub824\ud558\uac8c \ucda4\uc744 \ucd94\uba70 \ub0a0\uce74\ub86d\uac8c \uacf5\uaca9\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "wind",
+  "type": "wingedbeast",
+  "classifications": [
+    "normal"
+  ],
+  "level": 4,
+  "atk": 1300,
+  "def": 1400,
+  "passwords": [],
+  "images": [
+    {
+      "id": "21a1ba15-afb6-463f-8a5f-386d5a3a9348",
+      "card": "https://ms.yugipedia.com//a/a6/HarpieLady-RDP008-JP-ScRRed.png"
+    },
+    {
+      "id": "7d197484-e3c9-474b-84fa-e2b1569e2d31",
+      "card": "https://ms.yugipedia.com//c/c6/HarpieLady-RDSD0D-KR-C.png"
+    },
+    {
+      "id": "a035308d-9724-4edc-82c9-17b0e0fbada2",
+      "card": "https://ms.yugipedia.com//f/f6/HarpieLady-RDKP25-JP-FORR.png"
+    }
+  ],
+  "sets": [
+    "d867f9ff-46bb-44fa-9cb3-94491d964afd",
+    "d867f9ff-46bb-44fa-9cb3-94491d964afd",
+    "d867f9ff-46bb-44fa-9cb3-94491d964afd",
+    "d867f9ff-46bb-44fa-9cb3-94491d964afd"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Harpie Lady (Rush Duel)",
+        "id": 715249
+      }
+    ],
+    "dbID": 17342
+  },
+  "series": [
+    "04dde7f8-0a7d-4b74-b812-f493b9fb1f62"
+  ]
+}

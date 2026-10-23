@@ -1,0 +1,58 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "92d57fee-fef2-4251-b3a9-40a183588391",
+  "name": {
+    "en": "Next-Gen Dueling Kit"
+  },
+  "locales": {
+    "en": {
+      "language": "en",
+      "prefix": "YS11-EN",
+      "image": "https://ms.yugipedia.com//9/9c/YS11-PromoEN.jpg",
+      "cardImages": {
+        "unlimited": {}
+      },
+      "cardInfo": {
+        "unlimited": {}
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {}
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "en"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "distrobution": "preconstructed",
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//9/9c/YS11-PromoEN.jpg",
+      "cards": [
+        {
+          "id": "aeeaedd3-08d2-49bd-b9ae-211a5574904c",
+          "card": "d29fbfc5-8525-4a87-b995-8245a07845cc",
+          "suffix": "043",
+          "rarity": "super",
+          "imageID": "a378adad-0cc4-4a5b-aba3-7dbab74e30bd"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Next-Gen Dueling Kit",
+      "id": 197338
+    }
+  }
+}

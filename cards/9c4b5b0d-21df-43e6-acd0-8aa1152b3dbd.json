@@ -1,0 +1,48 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "9c4b5b0d-21df-43e6-acd0-8aa1152b3dbd",
+  "text": {
+    "en": {
+      "name": "Shiny Shady",
+      "effect": "Change the battle position of up to 2 face-up Effect Monsters on either field to face-down Defense Position. If you choose a monster with 2600 or higher original ATK, you also gain 1500 LP."
+    },
+    "ja": {
+      "name": "\u30b7\u30e3\u30a4\u30cb\u30fc\u30b7\u30a7\u30a4\u30c7\u30a3\u30fc",
+      "effect": "\u81ea\u5206\u307e\u305f\u306f\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u306e\u52b9\u679c\u30e2\u30f3\u30b9\u30bf\u30fc\u3092\u5408\u8a08\uff12\u4f53\u307e\u3067\u9078\u3093\u3067\u88cf\u5074\u5b88\u5099\u8868\u793a\u306b\u3059\u308b\u3002\u3053\u306e\u52b9\u679c\u3067\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u5143\u3005\u306e\u653b\u6483\u529b\u304c\uff12\uff16\uff10\uff10\u4ee5\u4e0a\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u3092\u9078\u3093\u3060\u5834\u5408\u3001\u3055\u3089\u306b\u81ea\u5206\u306f\uff11\uff15\uff10\uff10\uff2c\uff30\u56de\u5fa9\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc0e4\uc774\ub2c8\uc170\uc774\ub514",
+      "effect": "\uc790\uc2e0 \ub610\ub294 \uc0c1\ub300 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ud6a8\uacfc \ubaac\uc2a4\ud130\ub97c \ud569\uacc4 2\uc7a5\uae4c\uc9c0 \uace0\ub974\uace0 \ub4b7\uba74 \uc218\ube44 \ud45c\uc2dc\ub85c \ud55c\ub2e4. \uc774 \ud6a8\uacfc\ub85c \uc0c1\ub300 \ud544\ub4dc\uc758 \uc6d0\ub798 \uacf5\uaca9\ub825\uc774 2600 \uc774\uc0c1\uc778 \ubaac\uc2a4\ud130\ub97c \uace0\ub978 \uacbd\uc6b0, \ucd94\uac00\ub85c \uc790\uc2e0\uc740 1500 LP \ud68c\ubcf5\ud55c\ub2e4."
+    }
+  },
+  "cardType": "trap",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "b44760fe-386b-4c51-8b62-36ed2270f9ea",
+      "card": "https://ms.yugipedia.com//a/a4/ShinyShady-RD5TH1-JP-ScR.png"
+    },
+    {
+      "id": "62636694-6778-4c77-b50e-172f1c7f3491",
+      "card": "https://ms.yugipedia.com//9/9d/ShinyShady-RDS262-JP-OP.png"
+    }
+  ],
+  "sets": [
+    "4758595f-fc6c-4993-9a71-0738f485c6c9"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Shiny Shady",
+        "id": 1047357
+      }
+    ],
+    "dbID": 20151
+  },
+  "series": []
+}

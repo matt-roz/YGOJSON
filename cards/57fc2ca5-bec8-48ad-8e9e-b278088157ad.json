@@ -1,0 +1,53 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "57fc2ca5-bec8-48ad-8e9e-b278088157ad",
+  "text": {
+    "en": {
+      "name": "Cat Claw Girl",
+      "effect": "Special Summon 1 Beast Type monster with 200 DEF from your Graveyard face-up to your field. If you Special Summoned a Normal Monster by this effect, you can Set 1 \"Fusion\" from your Graveyard to your Spell & Trap Zone.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30ad\u30e3\u30c3\u30c8\u30af\u30ed\u30fc\u30fb\u30ac\u30fc\u30eb",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u7363\u65cf\uff0f\u5b88\u5099\u529b\uff12\uff10\uff10\uff09\uff11\u4f53\u3092\u9078\u3073\u3001\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u8868\u793a\u3067\u7279\u6b8a\u53ec\u559a\u3059\u308b\u3002\u3053\u306e\u52b9\u679c\u3067\u901a\u5e38\u30e2\u30f3\u30b9\u30bf\u30fc\u3092\u7279\u6b8a\u53ec\u559a\u3057\u305f\u5834\u5408\u3001\u3055\u3089\u306b\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u30d5\u30e5\u30fc\u30b8\u30e7\u30f3\u300d\uff11\u679a\u3092\u9078\u3093\u3067\u81ea\u5206\u306e\u9b54\u6cd5\uff06\u7f60\u30be\u30fc\u30f3\u306b\u30bb\u30c3\u30c8\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ucea3\ud074\ub85c \uac78",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130(\uc57c\uc218\uc871 / \uc218\ube44\ub825 200) 1\uc7a5\uc744 \uace0\ub974\uace0, \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \ud45c\uc2dc\ub85c \ud2b9\uc218 \uc18c\ud658\ud55c\ub2e4. \uc774 \ud6a8\uacfc\ub85c \uc77c\ubc18 \ubaac\uc2a4\ud130\ub97c \ud2b9\uc218 \uc18c\ud658\ud588\uc744 \uacbd\uc6b0, \ucd94\uac00\ub85c \uc790\uc2e0 \ubb18\uc9c0\uc758 \"\ud4e8\uc804\" 1\uc7a5\uc744 \uace0\ub974\uace0 \uc790\uc2e0\uc758 \ub9c8\ubc95 & \ud568\uc815 \uc874\uc5d0 \uc138\ud2b8\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2200,
+  "def": 200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "fac7a500-2ec1-4369-8432-4d24515907be",
+      "card": "https://ms.yugipedia.com//4/45/CatClawGirl-RDKP12-JP-SR.png"
+    },
+    {
+      "id": "587b072c-89aa-49b2-8320-2cb662b3def3",
+      "card": "https://ms.yugipedia.com//3/32/CatClawGirl-RDBDG3-JP-UPR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Cat Claw Girl",
+        "id": 714225
+      }
+    ],
+    "dbID": 18598
+  },
+  "series": [
+    "79a5d72a-ddca-4158-ae45-bb393d081135"
+  ]
+}

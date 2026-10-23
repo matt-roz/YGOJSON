@@ -1,0 +1,64 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "57101e51-7d8a-4e85-8e2b-0b61839adb2f",
+  "text": {
+    "en": {
+      "name": "Zombyra",
+      "effect": "When this card declares an attack: You lose 500 LP, and if you do, this card gains 500 ATK. When a monster is destroyed by battle: You can equip this card from your GY to the monster that destroyed that monster, then you can destroy the 1 monster your opponent controls with the highest ATK (your choice, if tied). The equipped monster's name becomes \"Zombyra\", also its effects are negated. When the equipped monster declares an attack: Its controller loses 500 LP, and if they do, the equipped monster gains 500 ATK.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30be\u30f3\u30d0\u30a4\u30a2",
+      "effect": "\u2460\uff1a\u3053\u306e\u30ab\u30fc\u30c9\u306e\u653b\u6483\u5ba3\u8a00\u6642\u306b\u767a\u52d5\u3059\u308b\u3002\u81ea\u5206\u306f\uff15\uff10\uff10\uff2c\uff30\u3092\u5931\u3044\u3001\u3053\u306e\u30ab\u30fc\u30c9\u306e\u653b\u6483\u529b\u306f\uff15\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002\u2461\uff1a\u30e2\u30f3\u30b9\u30bf\u30fc\u304c\u6226\u95d8\u3067\u7834\u58ca\u3055\u308c\u305f\u6642\u306b\u767a\u52d5\u3067\u304d\u308b\u3002\u305d\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u3092\u7834\u58ca\u3057\u305f\u30e2\u30f3\u30b9\u30bf\u30fc\u306b\u5893\u5730\u306e\u3053\u306e\u30ab\u30fc\u30c9\u3092\u88c5\u5099\u9b54\u6cd5\u30ab\u30fc\u30c9\u6271\u3044\u3067\u88c5\u5099\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u653b\u6483\u529b\u304c\u4e00\u756a\u9ad8\u3044\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u3092\u7834\u58ca\u3067\u304d\u308b\u3002\u2462\uff1a\u88c5\u5099\u30e2\u30f3\u30b9\u30bf\u30fc\u306f\u30ab\u30fc\u30c9\u540d\u3092\u300c\u30be\u30f3\u30d0\u30a4\u30a2\u300d\u3068\u3057\u3066\u6271\u3044\u3001\u52b9\u679c\u306f\u7121\u52b9\u5316\u3055\u308c\u308b\u3002\u2463\uff1a\u88c5\u5099\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u653b\u6483\u5ba3\u8a00\u6642\u306b\u767a\u52d5\u3059\u308b\u3002\u305d\u306e\u30b3\u30f3\u30c8\u30ed\u30fc\u30e9\u30fc\u306f\uff15\uff10\uff10\uff2c\uff30\u3092\u5931\u3044\u3001\u88c5\u5099\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u653b\u6483\u529b\u306f\uff15\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 2100,
+  "def": 500,
+  "passwords": [
+    "52915304"
+  ],
+  "images": [
+    {
+      "id": "4f54780e-3f48-494b-8971-598b79f60963",
+      "card": "https://ms.yugipedia.com//a/a9/Zombyra-YAC1-JP-OP.png"
+    },
+    {
+      "id": "848c1408-9532-493b-a90b-ebb27f38882e",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/100459012.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/100459012.jpg"
+    },
+    {
+      "id": "18f1ccd5-e764-4e9c-8632-87f184d6bf44",
+      "password": "52915304",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/52915304.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/52915304.jpg"
+    }
+  ],
+  "sets": [
+    "9aefc662-0b55-44d0-85b1-7c92cfe8a78b",
+    "9aefc662-0b55-44d0-85b1-7c92cfe8a78b",
+    "9aefc662-0b55-44d0-85b1-7c92cfe8a78b"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Zombyra",
+        "id": 1210817
+      }
+    ],
+    "dbID": 23576,
+    "ygoprodeck": {
+      "id": 52915304,
+      "name": "zombyra-15894"
+    }
+  },
+  "series": []
+}

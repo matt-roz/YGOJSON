@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "6f2cebd5-460e-43a4-9279-48a08f569587",
+  "text": {
+    "en": {
+      "name": "Kataomoiruka",
+      "effect": "Draw 1 card.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30ab\u30bf\u30aa\u30e2\u30a4\u30eb\u30ab",
+      "effect": "\u81ea\u5206\u306f\uff11\u679a\u30c9\u30ed\u30fc\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc9dd\uc0ac\ub791\ub3cc\uace0\ub798",
+      "effect": "\uc790\uc2e0\uc740 1\uc7a5 \ub4dc\ub85c\uc6b0\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "type": "seaserpent",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 1200,
+  "def": 500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "0c4eff11-1ad8-474f-bca6-1ba228b8b53d",
+      "card": "https://ms.yugipedia.com//9/94/Kataomoiruka-RDKP07-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Kataomoiruka",
+        "id": 715521
+      }
+    ],
+    "dbID": 16989
+  },
+  "series": [
+    "d69ee92f-440a-4a05-bafc-2fb5ac4896b3"
+  ]
+}

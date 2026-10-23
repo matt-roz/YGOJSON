@@ -1,0 +1,113 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "f2f93e0a-8641-48e0-8682-cb3754363722",
+  "name": {
+    "en": "Limited Edition 6",
+    "ja": "\uff2c\uff29\uff2d\uff29\uff34\uff25\uff24 \uff25\uff24\uff29\uff34\uff29\uff2f\uff2e \uff16"
+  },
+  "locales": {
+    "jp": {
+      "language": "ja",
+      "prefix": "LE6-JP",
+      "date": "2004-05-01",
+      "image": "https://ms.yugipedia.com//f/f2/LE6-BoosterJP.jpg",
+      "cardImages": {
+        "unlimited": {
+          "168ee14d-4c08-4cd9-84c6-897edc4f05ca": "https://ms.yugipedia.com//d/d4/TrickySpell4-LE6-JP-UR.png",
+          "3dd654c2-7ad1-460d-ab52-fd34f669e9e1": "https://ms.yugipedia.com//5/58/TheTricky-LE6-JP-UR.png",
+          "86da1931-1f4a-4789-aa9e-470be11e05d2": "https://ms.yugipedia.com//e/e7/GreenGadget-LE6-JP-UR.png",
+          "97a9061a-9202-455a-99eb-41a90a9e5366": "https://ms.yugipedia.com//2/26/YellowGadget-LE6-JP-UR.png",
+          "ea19c89e-1dea-46b4-8943-6cf62c24daf4": "https://ms.yugipedia.com//0/0a/RedGadget-LE6-JP-UR.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "168ee14d-4c08-4cd9-84c6-897edc4f05ca": {
+            "image": "https://ms.yugipedia.com//d/d4/TrickySpell4-LE6-JP-UR.png"
+          },
+          "3dd654c2-7ad1-460d-ab52-fd34f669e9e1": {
+            "image": "https://ms.yugipedia.com//5/58/TheTricky-LE6-JP-UR.png"
+          },
+          "86da1931-1f4a-4789-aa9e-470be11e05d2": {
+            "image": "https://ms.yugipedia.com//e/e7/GreenGadget-LE6-JP-UR.png"
+          },
+          "97a9061a-9202-455a-99eb-41a90a9e5366": {
+            "image": "https://ms.yugipedia.com//2/26/YellowGadget-LE6-JP-UR.png"
+          },
+          "ea19c89e-1dea-46b4-8943-6cf62c24daf4": {
+            "image": "https://ms.yugipedia.com//0/0a/RedGadget-LE6-JP-UR.png"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          121206001
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//f/f2/LE6-BoosterJP.jpg",
+      "cards": [
+        {
+          "id": "86da1931-1f4a-4789-aa9e-470be11e05d2",
+          "card": "5d2da887-b5db-4c31-9b94-0ef39ccc3ed5",
+          "suffix": "001",
+          "rarity": "ultra",
+          "imageID": "9a6b8d8d-6e0a-46ec-95fe-14e808814a15"
+        },
+        {
+          "id": "ea19c89e-1dea-46b4-8943-6cf62c24daf4",
+          "card": "6cd1f3c6-32af-490c-a27a-4f2a5ecce542",
+          "suffix": "002",
+          "rarity": "ultra",
+          "imageID": "e1ef7d14-72e1-4b81-a61b-efeaa6046619"
+        },
+        {
+          "id": "97a9061a-9202-455a-99eb-41a90a9e5366",
+          "card": "3b9fc1ca-3137-4f79-b687-e2b4af712146",
+          "suffix": "003",
+          "rarity": "ultra",
+          "imageID": "3e2fe043-915d-4e5c-874e-d3876b42383c"
+        },
+        {
+          "id": "3dd654c2-7ad1-460d-ab52-fd34f669e9e1",
+          "card": "ecf75ef9-6a9e-45f6-acd4-11cef0d779dc",
+          "suffix": "004",
+          "rarity": "ultra",
+          "imageID": "89fc8f88-7341-4532-8ff3-a85154561d62"
+        },
+        {
+          "id": "168ee14d-4c08-4cd9-84c6-897edc4f05ca",
+          "card": "db3ae11b-e478-442e-acfb-3a7b53c1a880",
+          "suffix": "005",
+          "rarity": "ultra",
+          "imageID": "63974c26-ace0-4672-9f65-8f8f5e151fa6"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Limited Edition 6",
+      "id": 506808
+    }
+  }
+}

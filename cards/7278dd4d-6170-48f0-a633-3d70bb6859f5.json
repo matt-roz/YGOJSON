@@ -1,0 +1,50 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "7278dd4d-6170-48f0-a633-3d70bb6859f5",
+  "text": {
+    "en": {
+      "name": "Double Curse Dragon",
+      "effect": "Gain 200 LP. Then, you can Set 1 \"Dragon of Double Curse\" from your Graveyard to your Spell & Trap Zone.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u4e8c\u546a\u846c\u306e\u7adc",
+      "effect": "\u81ea\u5206\u306f\uff12\uff10\uff10\uff2c\uff30\u56de\u5fa9\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u7adc\u306e\u4e8c\u546a\u846c\u300d\uff11\u679a\u3092\u9078\u3093\u3067\u81ea\u5206\u306e\u9b54\u6cd5\uff06\u7f60\u30be\u30fc\u30f3\u306b\u30bb\u30c3\u30c8\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc774\uc8fc\uc7a5\uc758 \uc6a9",
+      "effect": "\uc790\uc2e0\uc740 200 LP \ud68c\ubcf5\ud55c\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0 \ubb18\uc9c0\uc758 \"\uc6a9\uc758 \uc774\uc8fc\uc7a5\" 1\uc7a5\uc744 \uace0\ub974\uace0 \uc790\uc2e0\uc758 \ub9c8\ubc95 & \ud568\uc815 \uc874\uc5d0 \uc138\ud2b8\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "dragon",
+  "classifications": [
+    "effect"
+  ],
+  "level": 2,
+  "atk": 200,
+  "def": 200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "62b9b1c0-7411-484f-91a6-6899fe9ffb7c",
+      "card": "https://ms.yugipedia.com//8/87/DoubleCurseDragon-RDSD0A-JP-C.png"
+    }
+  ],
+  "sets": [
+    "b0d594ec-1f44-402f-a994-a88c19a50a43",
+    "b0d594ec-1f44-402f-a994-a88c19a50a43"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Double Curse Dragon",
+        "id": 714636
+      }
+    ],
+    "dbID": 18593
+  },
+  "series": []
+}

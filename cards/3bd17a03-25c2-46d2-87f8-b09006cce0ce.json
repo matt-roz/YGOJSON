@@ -1,0 +1,70 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "3bd17a03-25c2-46d2-87f8-b09006cce0ce",
+  "text": {
+    "en": {
+      "name": "Thunder the Thunder",
+      "effect": "1 face-up monster on your opponent's field loses 300 ATK until the end of this turn."
+    },
+    "fr": {
+      "name": "Tonnerre le Tonnerre",
+      "effect": "1 monstre face recto sur le Terrain de votre adversaire perd 300 ATK jusqu'\u00e0 la fin de ce tour."
+    },
+    "de": {
+      "name": "Donner der Donner",
+      "effect": "1 offenes Monster auf dem Spielfeld deines Gegners verliert 300 ATK bis zum Ende dieses Spielzugs."
+    },
+    "it": {
+      "name": "Tuono il Tuono",
+      "effect": "1 mostro scoperto sul Terreno del tuo avversario perde 300 ATK fino alla fine di questo turno."
+    },
+    "es": {
+      "name": "Trueno del Trueno",
+      "effect": "1 monstruo boca arriba en el Campo de tu adversario pierde 300 ATK hasta el final de este turno."
+    },
+    "ja": {
+      "name": "\u30a4\u30ab\u30ba\u30c1\u306e\u30b5\u30f3\u30c0\u30fc",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u3092\u9078\u3073\u3001\u305d\u306e\u653b\u6483\u529b\u3092\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\uff13\uff10\uff10\u30c0\u30a6\u30f3\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc774\uce74\uc988\uce58\uc758 \uc36c\ub354",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130 1\uc7a5\uc744 \uace0\ub974\uace0, \uadf8 \uacf5\uaca9\ub825\uc744 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0 300 \ub0b4\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "thunder",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 1300,
+  "def": 300,
+  "passwords": [],
+  "images": [
+    {
+      "id": "f860f8c2-5ab6-48b2-bb96-8a02aa0b6261",
+      "card": "https://ms.yugipedia.com//1/17/ThundertheThunder-RDSST1-JP-C.png"
+    }
+  ],
+  "sets": [
+    "e670ec5c-7fbb-49cd-9899-885731ab9e90",
+    "29280529-be04-4a88-b2a3-acb63a018731",
+    "29280529-be04-4a88-b2a3-acb63a018731",
+    "f9c6f064-6fdf-412a-a9ff-62631979aa08"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Thunder the Thunder",
+        "id": 717141
+      }
+    ],
+    "dbID": 15202
+  },
+  "series": []
+}

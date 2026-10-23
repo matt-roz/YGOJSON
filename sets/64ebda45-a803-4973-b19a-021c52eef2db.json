@@ -1,0 +1,70 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "64ebda45-a803-4973-b19a-021c52eef2db",
+  "name": {
+    "en": "V Jump September 2026",
+    "ja": "\uff36\u30b8\u30e3\u30f3\u30d7 \uff12\uff10\uff12\uff16\u5e74 \uff19\u6708\u53f7 \u4ed8\u9332\u30ab\u30fc\u30c9"
+  },
+  "locales": {
+    "jp": {
+      "language": "ja",
+      "prefix": "VJMP-JP",
+      "date": "2026-07-21",
+      "image": "https://ms.yugipedia.com//2/26/VJMP-2026-9-Cover.png",
+      "cardImages": {
+        "unlimited": {
+          "c9141204-c38c-4a2e-87d3-912aea4e203f": "https://ms.yugipedia.com//4/4d/EvilLordZorc-VJMP-JP-UR.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "c9141204-c38c-4a2e-87d3-912aea4e203f": {
+            "image": "https://ms.yugipedia.com//4/4d/EvilLordZorc-VJMP-JP-UR.png"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          1000009615000
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//2/26/VJMP-2026-9-Cover.png",
+      "cards": [
+        {
+          "id": "c9141204-c38c-4a2e-87d3-912aea4e203f",
+          "card": "17b3652b-26be-42ce-a2e9-058ac6fdde03",
+          "suffix": "295",
+          "rarity": "ultra",
+          "imageID": "5bf94797-c729-4f1c-8e6e-f8f36abbaf1a",
+          "printStatus": "new"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "V Jump September 2026 promotional card",
+      "id": 1202303
+    }
+  }
+}

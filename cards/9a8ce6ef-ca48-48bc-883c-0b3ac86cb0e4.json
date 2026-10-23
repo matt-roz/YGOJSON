@@ -1,0 +1,53 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "9a8ce6ef-ca48-48bc-883c-0b3ac86cb0e4",
+  "text": {
+    "en": {
+      "name": "Psypickupper",
+      "effect": "This card loses 800 ATK until the end of this turn. Then, you can gain 800 LP."
+    },
+    "ja": {
+      "name": "\u30b5\u30a4\u30d4\u30c3\u30af\u30a2\u30c3\u30d1\u30fc",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u306e\u653b\u6483\u529b\u306f\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\uff18\uff10\uff10\u30c0\u30a6\u30f3\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306f\uff18\uff10\uff10\uff2c\uff30\u56de\u5fa9\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc0ac\uc774\ud53d\uc5b4\ud37c",
+      "effect": "\uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\ub825\uc740 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0 800 \ub0b4\ub9b0\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0\uc740 800 LP \ud68c\ubcf5\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "psychic",
+  "classifications": [
+    "effect"
+  ],
+  "level": 6,
+  "atk": 1800,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "44813d26-5a38-4671-93c0-331ffa58ab49",
+      "card": "https://ms.yugipedia.com//3/3f/Psypickupper-RD5TH1-JP-SR.png"
+    }
+  ],
+  "sets": [
+    "3c5cdcc3-aa46-45b2-8558-4ff997e6d6c5"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Psypickupper",
+        "id": 716327
+      }
+    ],
+    "dbID": 16980
+  },
+  "series": [
+    "d44dfc09-8d68-4b5a-ad5a-b70e6583268b"
+  ]
+}

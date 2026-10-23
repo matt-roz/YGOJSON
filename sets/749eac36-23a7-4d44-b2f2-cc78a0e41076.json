@@ -1,0 +1,70 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "749eac36-23a7-4d44-b2f2-cc78a0e41076",
+  "name": {
+    "en": "Yu-Gi-Oh! World Championship Qualifier 2026 Mainland China Finals prize card",
+    "zh-CN": "WCQ\u4e2d\u56fd \u5956\u54c1\u5361"
+  },
+  "locales": {
+    "sc": {
+      "language": "zh-CN",
+      "prefix": "26YC-SC",
+      "date": "2026-06-27",
+      "image": "https://ms.yugipedia.com//4/40/WCQ2026MainlandChina.png",
+      "cardImages": {
+        "unlimited": {}
+      },
+      "cardInfo": {
+        "unlimited": {}
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {}
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "sc"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//4/40/WCQ2026MainlandChina.png",
+      "cards": [
+        {
+          "id": "a93a34f6-79b7-455c-9dfe-2f84e587ac69",
+          "card": "0626cd7e-9544-4a18-8625-85b0ac76bb54",
+          "suffix": "001",
+          "rarity": "super",
+          "imageID": "de3328cf-a5fb-417a-8648-c518c10f8327",
+          "printStatus": "reprint",
+          "printNote": "New artwork"
+        },
+        {
+          "id": "89b6fb9a-5f25-40d1-a474-60172d5c67ef",
+          "card": "0626cd7e-9544-4a18-8625-85b0ac76bb54",
+          "suffix": "001",
+          "rarity": "ultra",
+          "imageID": "de3328cf-a5fb-417a-8648-c518c10f8327",
+          "printStatus": "reprint",
+          "printNote": "New artwork"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Yu-Gi-Oh! World Championship Qualifier 2026 Mainland China Finals prize card",
+      "id": 1204177
+    }
+  }
+}

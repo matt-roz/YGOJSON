@@ -1,0 +1,69 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "a46243b1-44ad-458c-b62e-fd56eb2a409c",
+  "name": {
+    "en": "EX.Premium Pack Kit Vol.1",
+    "ko": "EX.\ud504\ub9ac\ubbf8\uc5c4 \ud329 \ud0a4\ud2b8 Vol.1"
+  },
+  "locales": {
+    "kr": {
+      "language": "ko",
+      "prefix": "EPK1-KR",
+      "date": "2008-12-22",
+      "image": "https://ms.yugipedia.com//3/35/EPK1-PromoKR.png",
+      "cardImages": {
+        "limited": {
+          "18b20b3c-90e8-4647-811e-ee37e4cd2406": "https://ms.yugipedia.com//0/03/SpellStriker-EPK1-KR-ScR-LE.png"
+        }
+      },
+      "cardInfo": {
+        "limited": {
+          "18b20b3c-90e8-4647-811e-ee37e4cd2406": {
+            "image": "https://ms.yugipedia.com//0/03/SpellStriker-EPK1-KR-ScR-LE.png"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          74403006
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "kr"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "image": "https://ms.yugipedia.com//3/35/EPK1-PromoKR.png",
+      "cards": [
+        {
+          "id": "18b20b3c-90e8-4647-811e-ee37e4cd2406",
+          "card": "98fc5390-8fb6-4eb2-b08d-127e65c46e13",
+          "suffix": "001",
+          "rarity": "secret",
+          "imageID": "57641601-b8e5-4778-a448-93c18fa33ff3"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "EX.Premium Pack Kit Vol.1",
+      "id": 61646
+    }
+  }
+}

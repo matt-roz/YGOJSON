@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "4fa80aec-d3a5-4f64-a63e-78b6cf3cccd3",
+  "text": {
+    "en": {
+      "name": "Spyturtle",
+      "effect": "Reduce the Level of 1 face-up monster with a Level between 3 and 8 on your opponent's field by 2 until the end of this turn."
+    },
+    "ja": {
+      "name": "\u89b3\u6e2c\u4e80\u30b9\u30d1\u30a4\u30bf\u30fc\u30c8\u30eb",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff13\uff5e\uff18\uff09\uff11\u4f53\u3092\u9078\u3073\u3001\u305d\u306e\u30ec\u30d9\u30eb\u3092\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\uff12\u4e0b\u3052\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uad00\uce21\uadc0 \uc2a4\ud30c\uc774\ud130\ud2c0",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\ub808\ubca8 3~8) 1\uc7a5\uc744 \uace0\ub974\uace0, \uadf8 \ub808\ubca8\uc744 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0 2 \ub0b4\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "reptile",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 800,
+  "def": 1300,
+  "passwords": [],
+  "images": [
+    {
+      "id": "48b14ece-211d-4456-a6c6-843ce3956e67",
+      "card": "https://ms.yugipedia.com//6/62/Spyturtle-RDSD05-JP-C.png"
+    }
+  ],
+  "sets": [
+    "cd441253-4a09-47d0-a87e-c4896ae59e5a",
+    "cd441253-4a09-47d0-a87e-c4896ae59e5a"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Spyturtle",
+        "id": 716837
+      }
+    ],
+    "dbID": 17299
+  },
+  "series": []
+}

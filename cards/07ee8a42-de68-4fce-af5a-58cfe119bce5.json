@@ -1,0 +1,48 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "07ee8a42-de68-4fce-af5a-58cfe119bce5",
+  "text": {
+    "en": {
+      "name": "Dark Matter Deep Badger",
+      "effect": "If you have a face-down monster on your field, Attack Position DARK Attribute Galaxy Type monsters on your field cannot be destroyed by your opponent's monsters' attacks, and they gain ATK equal to [the number of cards in your hand] x 300.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30c0\u30fc\u30af\u30de\u30bf\u30fc\u30fb\u30c7\u30a3\u30fc\u30d7\u30d0\u30b8\u30e3\u30fc",
+      "effect": "\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u88cf\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\u304c\u3044\u308b\u5834\u5408\u3001\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u653b\u6483\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u95c7\u5c5e\u6027\uff0f\u30ae\u30e3\u30e9\u30af\u30b7\u30fc\u65cf\uff09\u306f\u76f8\u624b\u306e\u653b\u6483\u3067\u306f\u7834\u58ca\u3055\u308c\u305a\u3001\u305d\u306e\u653b\u6483\u529b\u306f\uff3b\u81ea\u5206\u306e\u624b\u672d\u306e\u6570\uff3d\u00d7\uff13\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub2e4\ud06c\ub9e4\ud130 \ub525\ubc30\uc800",
+      "effect": "\uc790\uc2e0 \ud544\ub4dc\uc5d0 \ub4b7\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130\uac00 \uc788\uc744 \uacbd\uc6b0, \uc790\uc2e0 \ud544\ub4dc\uc758 \uacf5\uaca9 \ud45c\uc2dc \ubaac\uc2a4\ud130(\uc5b4\ub460 \uc18d\uc131 / \uac24\ub7ed\uc2dc\uc871)\ub294 \uc0c1\ub300\uc758 \uacf5\uaca9\uc73c\ub85c\ub294 \ud30c\uad34\ub418\uc9c0 \uc54a\uc73c\uba70, \uadf8 \uacf5\uaca9\ub825\uc740 [\uc790\uc2e0 \ud328\uc758 \uc218] \u00d7 300 \uc62c\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "classifications": [
+    "effect"
+  ],
+  "level": 5,
+  "atk": 1000,
+  "def": 1300,
+  "passwords": [],
+  "images": [
+    {
+      "id": "bc6c7a9d-807d-420a-a528-47d4f3525163",
+      "card": "https://ms.yugipedia.com//a/a9/DarkMatterDeepBadger-RDKP18-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Dark Matter Deep Badger",
+        "id": 1074434
+      }
+    ],
+    "dbID": 20614
+  },
+  "series": [
+    "20e1a2b3-4557-4a43-a6e4-4f54272ef025"
+  ]
+}

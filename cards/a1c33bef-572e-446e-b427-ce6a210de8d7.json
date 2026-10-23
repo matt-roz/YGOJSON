@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "a1c33bef-572e-446e-b427-ce6a210de8d7",
+  "text": {
+    "en": {
+      "name": "Rocktusk Beast Babirusaite",
+      "effect": "Change the battle position of up to 2 monsters on your opponent's field. This turn, you can only attack with EARTH Attribute monsters.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u5ca9\u89d2\u7363\u30d0\u30d3\u30eb\u30b5\u30a4\u30c9"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "beast",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1300,
+  "def": 600,
+  "passwords": [],
+  "images": [
+    {
+      "id": "c8dd952e-0bdc-49b4-8943-448fdac76286",
+      "card": "https://ms.yugipedia.com//3/3a/RocktuskBeastBabirusaite-RDKP27-JP-OP.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Rocktusk Beast Babirusaite",
+        "id": 1235351
+      }
+    ]
+  },
+  "series": []
+}

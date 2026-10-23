@@ -1,0 +1,75 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "cc3d5d13-abcf-4e86-bd86-9da953ff7dd7",
+  "name": {
+    "en": "Legendary Duel Selection",
+    "ja": "\uff2c\uff25\uff27\uff25\uff2e\uff24\uff21\uff32\uff39 \uff24\uff35\uff25\uff2c \uff33\uff25\uff2c\uff25\uff23\uff34\uff29\uff2f\uff2e"
+  },
+  "locales": {
+    "jp": {
+      "language": "ja",
+      "prefix": "SJRY-JP",
+      "image": "https://ms.yugipedia.com//c/c7/SJRY-BoosterJP.png",
+      "cardImages": {
+        "unlimited": {}
+      },
+      "cardInfo": {
+        "unlimited": {}
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {}
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//c/c7/SJRY-BoosterJP.png",
+      "cards": [
+        {
+          "id": "b4830967-d74d-4ddf-81e9-1bc934ec6a4c",
+          "card": "de6c0a4d-b626-4d30-b741-a487f4e14e44",
+          "suffix": "001",
+          "rarity": "prismaticsecret",
+          "imageID": "4f7fd110-fa32-4721-8a25-9eac8e173de3",
+          "printStatus": "new"
+        },
+        {
+          "id": "b0c3ec1e-6232-4954-ae71-8e7d221b0a6e",
+          "card": "433477dc-7689-4515-aa0e-a776cd7decad",
+          "suffix": "002",
+          "rarity": "secret",
+          "imageID": "e32f96ea-1885-43b0-ad57-1a054820439f",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "e6abbbc1-8fcf-48f1-af24-6edf79b6bce4",
+          "card": "a4cbeef5-b0cb-42f3-9f43-baa542f76e6c",
+          "suffix": "003",
+          "rarity": "secret",
+          "imageID": "92f77a4f-4f2a-4211-b372-d9c171a41a51",
+          "printStatus": "reprint"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Legendary Duel Selection",
+      "id": 1231436
+    }
+  }
+}

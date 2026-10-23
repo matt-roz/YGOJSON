@@ -1,0 +1,47 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "4fbf2799-72cc-4273-b397-21c4980c52f7",
+  "text": {
+    "en": {
+      "name": "Skyporter Max",
+      "effect": "Place 2 to 3 Maximum Monsters from your Graveyard on top of the Deck in any order.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30b9\u30ab\u30a4\u30dd\u30fc\u30bf\u30fc\u30fb\u30de\u30c3\u30af\u30b9",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u30de\u30ad\u30b7\u30de\u30e0\u30e2\u30f3\u30b9\u30bf\u30fc\u3092\uff12\uff5e\uff13\u4f53\u9078\u3073\u3001\u597d\u304d\u306a\u9806\u756a\u3067\u30c7\u30c3\u30ad\u306e\u4e0a\u306b\u623b\u3059\u3002"
+    },
+    "ko": {
+      "name": "\uc2a4\uce74\uc774\ud3ec\ud130 \ub9e5\uc2a4",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \ub9e5\uc2dc\uba48 \ubaac\uc2a4\ud130\ub97c 2~3\uc7a5 \uace0\ub974\uace0, \uc88b\uc544\ud558\ub294 \uc21c\uc11c\ub300\ub85c \ub371 \uc704\ub85c \ub418\ub3cc\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 1000,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "5a26005d-9973-4e2b-9a14-d64e6b7e02b2",
+      "card": "https://ms.yugipedia.com//0/00/SkyporterMax-RDKP13-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Skyporter Max",
+        "id": 930552
+      }
+    ],
+    "dbID": 18954
+  },
+  "series": []
+}

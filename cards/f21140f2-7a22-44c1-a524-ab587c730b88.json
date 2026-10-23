@@ -1,0 +1,54 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "f21140f2-7a22-44c1-a524-ab587c730b88",
+  "text": {
+    "en": {
+      "name": "Piercing Samurai",
+      "effect": "Choose 1 face-up Warrior Type monster on your field. If it attacks a Defense Position monster this turn, inflict piercing battle damage (if the ATK of the attacking monster exceeds the DEF of the attack target, inflict the difference)."
+    },
+    "ja": {
+      "name": "\u8cab\u8cb4\u76ca\u8352\u7537",
+      "effect": "\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u6226\u58eb\u65cf\uff09\uff11\u4f53\u3092\u9078\u3076\u3002\u3053\u306e\u30bf\u30fc\u30f3\u3001\u305d\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u653b\u6483\u306f\u8cab\u901a\u3059\u308b\uff08\u5b88\u5099\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\u3092\u653b\u6483\u3057\u305f\u6642\u3001\u305d\u306e\u5b88\u5099\u529b\u3092\u653b\u6483\u529b\u304c\u8d85\u3048\u305f\u5206\u3060\u3051\u6226\u95d8\u30c0\u30e1\u30fc\u30b8\u3092\u4e0e\u3048\u308b\uff09\u3002"
+    },
+    "ko": {
+      "name": "\uce20\ub77c\ub204\ud0a4 \ub300\uc7a5\ubd80",
+      "effect": "\uc790\uc2e0 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\uc804\uc0ac\uc871) 1\uc7a5\uc744 \uace0\ub978\ub2e4. \uc774 \ud134\uc5d0, \uadf8 \ubaac\uc2a4\ud130\uc758 \uacf5\uaca9\uc740 \uad00\ud1b5\ud55c\ub2e4(\uc218\ube44 \ud45c\uc2dc \ubaac\uc2a4\ud130\ub97c \uacf5\uaca9\ud588\uc744 \ub54c, \uadf8 \uc218\ube44\ub825\uc744 \uacf5\uaca9\ub825\uc774 \ub118\uc740 \ub9cc\ud07c\ub9cc \uc804\ud22c \ub370\ubbf8\uc9c0\ub97c \uc900\ub2e4)."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1200,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "281640c3-66c9-4440-abd5-d57063ed1a8e",
+      "card": "https://ms.yugipedia.com//c/c8/PiercingSamurai-RDSD0B-JP-C.png"
+    }
+  ],
+  "sets": [
+    "e1cd0077-0760-46c2-8cff-9fd1ac443780",
+    "236e70bf-ca1c-4270-aabb-5afa47fdc1e2",
+    "fab3640e-34f2-410e-8c1b-6c7386795132",
+    "fab3640e-34f2-410e-8c1b-6c7386795132"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Piercing Samurai",
+        "id": 716230
+      }
+    ],
+    "dbID": 16982
+  },
+  "series": []
+}

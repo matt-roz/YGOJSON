@@ -1,0 +1,59 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "dfeb61fc-d60e-4544-bdb8-752464850370",
+  "text": {
+    "en": {
+      "name": "Millennium Shield (Rush Duel)",
+      "effect": "A famous shield said to belong to an ancient Egyptian Pharaoh. Legends tell of its power to block any strong attack."
+    },
+    "fr": {
+      "name": "Bouclier Mill\u00e9naire"
+    },
+    "de": {
+      "name": "Millenniumsschild"
+    },
+    "it": {
+      "name": "Scudo del Millennio"
+    },
+    "es": {
+      "name": "Escudo Milenario"
+    },
+    "ko": {
+      "name": "\ucc9c\ub144 \ubc29\ud328",
+      "effect": "\uace0\ub300 \uc774\uc9d1\ud2b8 \uc655\uac00\ub85c\ubd80\ud130 \uc804\ud574\uc838 \ub0b4\ub824\uc628 \uc804\uc124\uc758 \ubc29\ud328. \uc5b4\ub5a4 \uac15\ud55c \uacf5\uaca9\ub3c4 \ub9c9\uc544\ub0bc \uc218 \uc788\ub2e4\uace0 \ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "warrior",
+  "classifications": [
+    "normal"
+  ],
+  "level": 5,
+  "atk": 0,
+  "def": 3000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "52d7f2bb-89c0-4e22-b8e1-44d4e8898c9d",
+      "card": "https://ms.yugipedia.com//d/d2/MillenniumShield-RDSBD0-JP-SPR.png"
+    }
+  ],
+  "sets": [
+    "45666cd3-d245-4426-ab57-c0063a626902",
+    "45666cd3-d245-4426-ab57-c0063a626902",
+    "45666cd3-d245-4426-ab57-c0063a626902",
+    "45666cd3-d245-4426-ab57-c0063a626902"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Millennium Shield (Rush Duel)",
+        "id": 715917
+      }
+    ],
+    "dbID": 16764
+  },
+  "series": []
+}

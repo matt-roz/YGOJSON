@@ -1,0 +1,57 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "705d8cec-ea41-43d2-96c9-dbfad9428303",
+  "text": {
+    "en": {
+      "name": "Penalty Game \"GREED, the Illusion of Avarice\"",
+      "effect": "If your opponent added a card(s) from the Deck to the hand this turn, except during the Draw Phase: Inflict 400 damage to your opponent for each card in their hand, then if the total number of cards in their hand, field, and GY is 20 or more, you can banish their entire hand. You can only activate 1 \"Penalty Game \"GREED, the Illusion of Avarice\"\" per turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u7f70\u30b2\u30fc\u30e0\u300c\uff27\uff32\uff25\uff25\uff24\uff0d\u6b32\u671b\u306e\u5e7b\u50cf\uff0d\u300d",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u540d\u306e\u30ab\u30fc\u30c9\u306f\uff11\u30bf\u30fc\u30f3\u306b\uff11\u679a\u3057\u304b\u767a\u52d5\u3067\u304d\u306a\u3044\u3002\u2460\uff1a\u76f8\u624b\u304c\u30c9\u30ed\u30fc\u30d5\u30a7\u30a4\u30ba\u4ee5\u5916\u3067\u30c7\u30c3\u30ad\u304b\u3089\u30ab\u30fc\u30c9\u3092\u624b\u672d\u306b\u52a0\u3048\u305f\u30bf\u30fc\u30f3\u306b\u767a\u52d5\u3067\u304d\u308b\u3002\u76f8\u624b\u306e\u624b\u672d\u306e\u6570\u00d7\uff14\uff10\uff10\u30c0\u30e1\u30fc\u30b8\u3092\u76f8\u624b\u306b\u4e0e\u3048\u308b\u3002\u76f8\u624b\u306e\u624b\u672d\u30fb\u30d5\u30a3\u30fc\u30eb\u30c9\u30fb\u5893\u5730\u306e\u30ab\u30fc\u30c9\u304c\u5408\u8a08\uff12\uff10\u679a\u4ee5\u4e0a\u306e\u5834\u5408\u3001\u3055\u3089\u306b\u76f8\u624b\u306e\u624b\u672d\u3092\u5168\u3066\u9664\u5916\u3067\u304d\u308b\u3002"
+    }
+  },
+  "cardType": "trap",
+  "subcategory": "normal",
+  "passwords": [
+    "26511269"
+  ],
+  "images": [
+    {
+      "id": "a0bbb09d-2a71-48f3-a9a6-af6d88325f97",
+      "card": "https://ms.yugipedia.com//8/8a/PenaltyGameGREEDtheIllusionofAvarice-YAC1-JP-OP.png"
+    },
+    {
+      "id": "85cd780a-a35f-4a57-9a79-12c9d628f12c",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/100459011.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/100459011.jpg"
+    },
+    {
+      "id": "cae5b742-96ce-4636-acac-ea83293d5fde",
+      "password": "26511269",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/26511269.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/26511269.jpg"
+    }
+  ],
+  "sets": [
+    "9aefc662-0b55-44d0-85b1-7c92cfe8a78b",
+    "9aefc662-0b55-44d0-85b1-7c92cfe8a78b",
+    "9aefc662-0b55-44d0-85b1-7c92cfe8a78b"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Penalty Game \"GREED, the Illusion of Avarice\"",
+        "id": 1210815
+      }
+    ],
+    "dbID": 23575,
+    "ygoprodeck": {
+      "id": 26511269,
+      "name": "penalty-game-greed-the-illusion-of-avarice-15899"
+    }
+  },
+  "series": []
+}

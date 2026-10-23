@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "0ef5171f-a281-48b1-8756-a71cfaaafa40",
+  "text": {
+    "en": {
+      "name": "Cybersepice Hotpot",
+      "effect": "Add 1 Level 7 or higher FIRE Attribute Cyberse Type monster or 1 \"Spice Cross Mix\" from your Graveyard to your hand.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30b5\u30a4\u30d0\u30fc\u30b9\u30d1\u30a4\u30b9\u30fb\u30db\u30c3\u30c8\u30dd\u30c3\u30c8",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff17\u4ee5\u4e0a\uff0f\u708e\u5c5e\u6027\uff0f\u30b5\u30a4\u30d0\u30fc\u30b9\u65cf\uff09\uff11\u4f53\u307e\u305f\u306f\u300c\u30b9\u30d1\u30a4\u30b9\u30af\u30ed\u30fc\u30b9\u30fb\u30df\u30c3\u30af\u30b9\u300d\uff11\u679a\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc0ac\uc774\ubc84\uc2a4\ud30c\uc774\uc2a4 \ud56b\ud31f",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130(\ub808\ubca8 7 \uc774\uc0c1 / \ud654\uc5fc \uc18d\uc131 / \uc0ac\uc774\ubc84\uc2a4\uc871) 1\uc7a5 \ub610\ub294 \"\uc2a4\ud30c\uc774\uc2a4\ud074\ub85c\uc2a4 \ubbf9\uc2a4\" 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\ub294\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "type": "cyberse",
+  "classifications": [
+    "effect"
+  ],
+  "level": 1,
+  "atk": 100,
+  "def": 100,
+  "passwords": [],
+  "images": [
+    {
+      "id": "51f2194e-412d-4fc3-a611-99faaf987bff",
+      "card": "https://ms.yugipedia.com//7/7b/CybersepiceHotpot-RDKP17-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Cybersepice Hotpot",
+        "id": 1044904
+      }
+    ],
+    "dbID": 20310
+  },
+  "series": [
+    "77a03aa6-7e6b-4da3-9919-c02287f58091"
+  ]
+}

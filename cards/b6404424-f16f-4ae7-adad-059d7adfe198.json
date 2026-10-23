@@ -1,0 +1,44 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "b6404424-f16f-4ae7-adad-059d7adfe198",
+  "text": {
+    "en": {
+      "name": "Dinosaur Crush",
+      "effect": "Destroy 1 face-down card on your opponent's field."
+    },
+    "ja": {
+      "name": "\u30c0\u30a4\u30ca\u30bd\u30fc\u30fb\u30af\u30e9\u30c3\u30b7\u30e5",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u88cf\u5074\u8868\u793a\u306e\u30ab\u30fc\u30c9\uff11\u679a\u3092\u9078\u3093\u3067\u7834\u58ca\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub2e4\uc774\ub108\uc18c\uc5b4 \ud06c\ub798\uc2dc",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \ub4b7\uba74 \ud45c\uc2dc\uc758 \uce74\ub4dc 1\uc7a5\uc744 \uace0\ub974\uace0 \ud30c\uad34\ud55c\ub2e4."
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "9a2ca90d-9753-4d57-ab05-f6a468dee461",
+      "card": "https://ms.yugipedia.com//9/9f/DinosaurCrush-RDMAX2-JP-SR.png"
+    }
+  ],
+  "sets": [
+    "5b6d7ab4-987e-4469-89bd-9d9bf3d400c0"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "r"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Dinosaur Crush",
+        "id": 714577
+      }
+    ],
+    "dbID": 16585
+  },
+  "series": []
+}

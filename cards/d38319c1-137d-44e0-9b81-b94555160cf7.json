@@ -1,0 +1,47 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "d38319c1-137d-44e0-9b81-b94555160cf7",
+  "text": {
+    "en": {
+      "name": "King's Right",
+      "effect": "Add 2 to 3 Fiend Type Normal Monsters with different Levels from your Graveyard to your hand."
+    },
+    "ja": {
+      "name": "\u30ad\u30f3\u30b0\u30b9\u30fb\u30e9\u30a4\u30c8",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u30ec\u30d9\u30eb\u304c\u7570\u306a\u308b\u901a\u5e38\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u60aa\u9b54\u65cf\uff09\u3092\uff12\uff5e\uff13\u4f53\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud0b9\uc2a4 \ub77c\uc774\ud2b8",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \ub808\ubca8\uc774 \ub2e4\ub978 \uc77c\ubc18 \ubaac\uc2a4\ud130(\uc545\ub9c8\uc871)\ub97c 2~3\uc7a5 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\ub294\ub2e4."
+    }
+  },
+  "cardType": "trap",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "a0a60c9d-6087-4d9f-9fb7-0dbd93ebda3e",
+      "card": "https://ms.yugipedia.com//4/4a/KingsRight-RDSBD5-JP-C.png"
+    }
+  ],
+  "sets": [
+    "24efaeb8-31d0-4d9b-b5b6-db394582c1f3",
+    "24efaeb8-31d0-4d9b-b5b6-db394582c1f3"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "King's Right",
+        "id": 715533
+      }
+    ],
+    "dbID": 16790
+  },
+  "series": [
+    "77d2b450-6fcc-4acb-8900-f7dd8c36c9f7"
+  ]
+}

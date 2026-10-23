@@ -1,0 +1,61 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "1c26c900-1702-43e3-a65b-f11299a874b3",
+  "text": {
+    "en": {
+      "name": "Voidvelg Requiem",
+      "effect": "This card gains ATK equal to [the number of face-up DARK Attribute monsters on your field] x 300 until the end of this turn. Then, if your opponent has a face-up LIGHT Attribute monster on their field, this card gains 600 ATK until the end of this turn."
+    },
+    "ja": {
+      "name": "\u30f4\u30a9\u30a4\u30c9\u30f4\u30a7\u30eb\u30b0\u30fb\u30ec\u30af\u30a4\u30a8\u30e0",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u306e\u653b\u6483\u529b\u306f\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\u3001\uff3b\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u95c7\u5c5e\u6027\uff09\u306e\u6570\uff3d\u00d7\uff13\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u5149\u5c5e\u6027\uff09\u304c\u3044\u308b\u5834\u5408\u3001\u3055\u3089\u306b\u3053\u306e\u30ab\u30fc\u30c9\u306e\u653b\u6483\u529b\u306f\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\uff16\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ubcf4\uc774\ub4dc\ubca0\ub974\uadf8 \ub808\ud034\uc5e0",
+      "effect": "\uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\ub825\uc740 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0, [\uc790\uc2e0 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\uc5b4\ub460 \uc18d\uc131)\uc758 \uc218] \u00d7 300 \uc62c\ub9b0\ub2e4. \uc0c1\ub300 \ud544\ub4dc\uc5d0 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\ube5b \uc18d\uc131)\uac00 \uc788\uc744 \uacbd\uc6b0, \ucd94\uac00\ub85c \uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\ub825\uc740 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0 600 \uc62c\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 2500,
+  "def": 2000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "a1eae15d-8b49-46b6-8fbe-659ae5908533",
+      "card": "https://ms.yugipedia.com//b/b8/VoidvelgRequiem-RD5TH1-JP-SPR.png"
+    },
+    {
+      "id": "1feae0a3-42b5-4ac4-8e13-72e02392a64c",
+      "card": "https://ms.yugipedia.com//e/ef/VoidvelgRequiem-RD711B-JP-NPR.png"
+    },
+    {
+      "id": "d83439e0-00ac-43ec-a5f2-ac2893602abb",
+      "card": "https://ms.yugipedia.com//9/94/VoidvelgRequiem-RDCCC2-JP-NPR.png"
+    }
+  ],
+  "sets": [
+    "a4fd82b9-a039-4135-aea9-156e6937e169",
+    "3c5cdcc3-aa46-45b2-8558-4ff997e6d6c5"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Voidvelg Requiem",
+        "id": 717428
+      }
+    ],
+    "dbID": 17873
+  },
+  "series": [
+    "1a71afb3-d845-4b98-a693-c9d36036fc9c"
+  ]
+}

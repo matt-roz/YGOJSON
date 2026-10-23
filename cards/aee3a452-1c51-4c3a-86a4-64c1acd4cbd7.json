@@ -1,0 +1,50 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "aee3a452-1c51-4c3a-86a4-64c1acd4cbd7",
+  "text": {
+    "en": {
+      "name": "Gray Storm Reverie",
+      "effect": "This card gains 500 ATK until the end of this turn. If no Spell/Trap Cards are on the field, this card can make up to 2 attacks on monsters this turn."
+    },
+    "ja": {
+      "name": "\u30b0\u30ec\u30a4\u30b9\u30c8\u30fc\u30e0\u30fb\u30ec\u30f4\u30a7\u30ea\u30fc",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u306e\u653b\u6483\u529b\u306f\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\uff15\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002\u304a\u4e92\u3044\u306e\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u9b54\u6cd5\u30fb\u7f60\u30ab\u30fc\u30c9\u304c\u306a\u3044\u5834\u5408\u3001\u3055\u3089\u306b\u3053\u306e\u30bf\u30fc\u30f3\u3001\u3053\u306e\u30ab\u30fc\u30c9\u306f\u30e2\u30f3\u30b9\u30bf\u30fc\u306b\uff12\u56de\u653b\u6483\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uadf8\ub808\uc774\uc2a4\ud1b0 \ub808\ubc84\ub9ac",
+      "effect": "\uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\ub825\uc740 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0 500 \uc62c\ub9b0\ub2e4. \uc11c\ub85c\uc758 \ud544\ub4dc\uc5d0 \ub9c8\ubc95 / \ud568\uc815 \uce74\ub4dc\uac00 \uc5c6\uc744 \uacbd\uc6b0, \ucd94\uac00\ub85c \uc774 \ud134\uc5d0, \uc774 \uce74\ub4dc\ub294 \ubaac\uc2a4\ud130\uc5d0 2\ud68c \uacf5\uaca9\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 2500,
+  "def": 2000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "5ccdee48-8c47-4a4e-83b9-a543c2d9da0b",
+      "card": "https://ms.yugipedia.com//7/7e/GrayStormReverie-RDG002-JP-ScR.png"
+    }
+  ],
+  "sets": [
+    "e919bb19-cbca-4aae-ba1c-d55336255523"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Gray Storm Reverie",
+        "id": 715198
+      }
+    ],
+    "dbID": 17978
+  },
+  "series": []
+}

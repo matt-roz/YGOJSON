@@ -1,0 +1,55 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "55858aef-0dcc-4728-bf45-4bd067f53f01",
+  "text": {
+    "en": {
+      "name": "Invoked Magistus Heruvim",
+      "effect": "1 \"Magistus\" monster + 1 Spellcaster monster\nIf this card is Special Summoned from the Extra Deck: You can target 1 card your opponent controls; destroy it. When your opponent activates a monster effect, or their monster declares an attack, except during the turn this card was Special Summoned (Quick Effect): You can banish this card; Special Summon 1 \"Magistus\" or \"Invoked\" monster from your Extra Deck, except \"Invoked Magistus Heruvim\". You can only use each effect of \"Invoked Magistus Heruvim\" once per turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u53ec\u559a\u7363\u30de\u30ae\u30b9\u30c8\u30b9\u30fb\u30d8\u30eb\u30f4\u30a3\u30e0"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "spellcaster",
+  "classifications": [
+    "effect"
+  ],
+  "level": 9,
+  "atk": 2500,
+  "def": 2100,
+  "passwords": [],
+  "images": [
+    {
+      "id": "c7723745-4efe-439b-a7b4-1cd74068f37b",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/100462002.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/100462002.jpg"
+    }
+  ],
+  "sets": [
+    "9ad72762-9326-4470-aead-23571b8e256c",
+    "9ad72762-9326-4470-aead-23571b8e256c",
+    "9ad72762-9326-4470-aead-23571b8e256c"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Invoked Magistus Heruvim",
+        "id": 1233930
+      }
+    ],
+    "ygoprodeck": {
+      "id": 100462002,
+      "name": "invoked-magistus-heruvim-16016"
+    }
+  },
+  "series": [
+    "fec22db9-483f-4bd4-9e60-d1069308d1c1"
+  ]
+}

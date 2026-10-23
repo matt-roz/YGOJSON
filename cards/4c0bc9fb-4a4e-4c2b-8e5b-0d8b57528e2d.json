@@ -1,0 +1,77 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "4c0bc9fb-4a4e-4c2b-8e5b-0d8b57528e2d",
+  "text": {
+    "en": {
+      "name": "Righteous Dragon",
+      "effect": "This turn, this face-up card can be treated as 2 Tributes for the Tribute Summon of a Dragon Type monster in Attack Position."
+    },
+    "fr": {
+      "name": "Dragon Droit",
+      "effect": "Ce tour, cette carte face recto peut \u00eatre trait\u00e9e comme 2 Sacrifices pour l'Invocation Sacrifice d'un monstre de Type Dragon en Position d'Attaque."
+    },
+    "de": {
+      "name": "Gerechter Drache",
+      "effect": "Diese offene Karte kann in diesem Spielzug als 2 Tribute f\u00fcr die Tributbeschw\u00f6rung eines Monsters des Typs Drache in der Angriffsposition behandelt werden."
+    },
+    "it": {
+      "name": "Drago Virtuoso",
+      "effect": "In questo turno, questa carta scoperta pu\u00f2 essere considerata come 2 Tributi per Evocare tramite Tributo un mostro di Tipo Drago in Posizione di Attacco."
+    },
+    "es": {
+      "name": "Drag\u00f3n Justo",
+      "effect": "Este turno, esta carta boca arriba puede ser tratada como 2 Sacrificios para la Invocaci\u00f3n por Sacrificio de un monstruo de Tipo Drag\u00f3n en Posici\u00f3n de Ataque."
+    },
+    "ja": {
+      "name": "\u30b8\u30e3\u30b9\u30c6\u30a3\u30b9\u30fb\u30c9\u30e9\u30b4\u30f3",
+      "effect": "\u3053\u306e\u30bf\u30fc\u30f3\u3001\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30c9\u30e9\u30b4\u30f3\u65cf\uff09\u3092\u653b\u6483\u8868\u793a\u3067\u30a2\u30c9\u30d0\u30f3\u30b9\u53ec\u559a\u3059\u308b\u5834\u5408\u3001\u8868\u5074\u8868\u793a\u306e\u3053\u306e\u30ab\u30fc\u30c9\u306f\uff12\u4f53\u5206\u306e\u30ea\u30ea\u30fc\u30b9\u306b\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc800\uc2a4\ud2f0\uc2a4 \ub4dc\ub798\uace4",
+      "effect": "\uc774 \ud134\uc5d0, \ubaac\uc2a4\ud130(\ub4dc\ub798\uace4\uc871)\ub97c \uacf5\uaca9 \ud45c\uc2dc\ub85c \uc5b4\ub4dc\ubc34\uc2a4 \uc18c\ud658\ud560 \uacbd\uc6b0, \uc55e\uba74 \ud45c\uc2dc\uc758 \uc774 \uce74\ub4dc\ub294 2\uc7a5\ub9cc\ud07c\uc758 \ub9b4\ub9ac\uc2a4\ub85c \ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "dragon",
+  "classifications": [
+    "effect"
+  ],
+  "level": 5,
+  "atk": 1200,
+  "def": 1200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "61ce7c23-97a5-4e33-acad-3c4c20d19d8a",
+      "card": "https://ms.yugipedia.com//6/6c/RighteousDragon-RDSD03-JP-C.png"
+    }
+  ],
+  "sets": [
+    "b254644c-27d2-4111-9a53-3a82de7d4cd5",
+    "5b6d7ab4-987e-4469-89bd-9d9bf3d400c0",
+    "a08d0d55-5282-4487-b8b3-a190adb90edf",
+    "a5eedf36-311c-4849-a732-d96430b8e8cc",
+    "15adab2a-8746-40d3-a545-bbb610076d23",
+    "fa6096f7-75e2-43af-90f5-a5bbc2febd9a",
+    "630a6319-4798-42e5-b872-a4ae8d828ad2",
+    "630a6319-4798-42e5-b872-a4ae8d828ad2",
+    "b3912bea-7700-43b3-8e58-def0f757111c",
+    "b3912bea-7700-43b3-8e58-def0f757111c",
+    "cd789676-cedd-4bac-9b31-6fe414ff91be"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "r"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Righteous Dragon",
+        "id": 716462
+      }
+    ],
+    "dbID": 15404
+  },
+  "series": []
+}

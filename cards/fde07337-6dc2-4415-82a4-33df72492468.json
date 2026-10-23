@@ -1,0 +1,48 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "fde07337-6dc2-4415-82a4-33df72492468",
+  "text": {
+    "en": {
+      "name": "Elemental HERO Plasma Vice (Rush Duel)",
+      "effect": "Destroy 1 Attack Position monster on your opponent's field. Then, this card inflicts piercing battle damage this turn.",
+      "official": false
+    },
+    "ko": {
+      "name": "\uc5d8\ub9ac\uba58\ud2c0 \ud788\uc5b4\ub85c \ud50c\ub77c\uc988\ub9c8 \ubc14\uc774\uc2a4\ub9e8",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \uacf5\uaca9 \ud45c\uc2dc \ubaac\uc2a4\ud130 1\uc7a5\uc744 \uace0\ub974\uace0 \ud30c\uad34\ud55c\ub2e4. \ucd94\uac00\ub85c \uc774 \ud134\uc5d0, \uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\uc740 \uad00\ud1b5\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 2600,
+  "def": 2300,
+  "passwords": [],
+  "images": [
+    {
+      "id": "a9e7229a-22fe-4e3a-af7f-368fd9a1ffdf",
+      "card": "https://ms.yugipedia.com//5/57/ElementalHEROPlasmaVice-RDKP24-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Elemental HERO Plasma Vice (Rush Duel)",
+        "id": 1170971
+      }
+    ],
+    "dbID": 22896
+  },
+  "series": [
+    "4e2112ec-34a4-4031-91ad-7dcc3818d4c7"
+  ]
+}

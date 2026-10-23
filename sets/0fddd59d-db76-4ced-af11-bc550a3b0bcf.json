@@ -1,0 +1,76 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "0fddd59d-db76-4ced-af11-bc550a3b0bcf",
+  "name": {
+    "en": "Top Ranked COSSY Duelists promotional cards"
+  },
+  "locales": {
+    "en": {
+      "language": "en",
+      "prefix": "TKN4-EN",
+      "cardImages": {
+        "unlimited": {}
+      },
+      "cardInfo": {
+        "unlimited": {}
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {}
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "en"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "cards": [
+        {
+          "id": "f6bdb0c2-f352-4605-be2c-e1ad99786e8c",
+          "card": "0616ad66-1b02-4d5f-8f63-11672f8e0a13",
+          "suffix": "004",
+          "rarity": "ultra",
+          "imageID": "c9d48dcf-607f-4b82-892e-a509392ef830"
+        },
+        {
+          "id": "86ea3262-c6d5-48fa-8c2b-3a6f9b350961",
+          "card": "0616ad66-1b02-4d5f-8f63-11672f8e0a13",
+          "suffix": "005",
+          "rarity": "ultra",
+          "imageID": "c9d48dcf-607f-4b82-892e-a509392ef830"
+        },
+        {
+          "id": "2ea9f4f2-f0eb-4fb4-a0cc-d7069f25bb7f",
+          "card": "0616ad66-1b02-4d5f-8f63-11672f8e0a13",
+          "suffix": "006",
+          "rarity": "ultra",
+          "imageID": "c9d48dcf-607f-4b82-892e-a509392ef830"
+        },
+        {
+          "id": "aab7a53c-6808-4a8c-a8af-d92ea613d787",
+          "card": "0616ad66-1b02-4d5f-8f63-11672f8e0a13",
+          "suffix": "007",
+          "rarity": "ultra",
+          "imageID": "c9d48dcf-607f-4b82-892e-a509392ef830"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Top Ranked COSSY Duelists promotional cards",
+      "id": 496114
+    }
+  }
+}

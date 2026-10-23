@@ -1,0 +1,285 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "539832b2-9b51-4743-a71f-881a26a5f349",
+  "name": {
+    "en": "Go Rush Deck Bonus Cards",
+    "ja": "\u30b4\u30fc\u30e9\u30c3\u30b7\u30e5\u30c7\u30c3\u30ad \u30dc\u30fc\u30ca\u30b9\u30ab\u30fc\u30c9",
+    "ko": "\uace0 \ub7ec\uc2dc \ub371 \ubcf4\ub108\uc2a4 \uce74\ub4dc"
+  },
+  "locales": {
+    "jp": {
+      "language": "ja",
+      "prefix": "RD/GRD0-JP",
+      "date": "2022-04-29",
+      "image": "https://ms.yugipedia.com//6/67/RDGRD-Poster-JP.png",
+      "cardImages": {
+        "unlimited": {}
+      },
+      "cardInfo": {
+        "unlimited": {}
+      },
+      "formats": [
+        "rushduel"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          1000100111000
+        ]
+      }
+    },
+    "kr": {
+      "language": "ko",
+      "prefix": "RD/GRD0-KR",
+      "date": "2022-08-23",
+      "image": "https://ms.yugipedia.com//e/e2/RDGRD-Poster-KR.png",
+      "cardImages": {
+        "unlimited": {}
+      },
+      "cardInfo": {
+        "unlimited": {}
+      },
+      "formats": [
+        "rushduel"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          1010100041000
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "rushduel"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//6/67/RDGRD-Poster-JP.png",
+      "cards": [
+        {
+          "id": "42dc2f67-dcc6-49ab-abb4-7b4bbc3a89bf",
+          "card": "abcefcfe-9e40-480d-bf73-a9b642e377f0",
+          "suffix": "001",
+          "rarity": "commonparallel",
+          "imageID": "85bbc3ae-80da-472b-8b15-dc98a8128afa",
+          "printStatus": "new"
+        },
+        {
+          "id": "95384de6-551e-4736-889b-820950abaca8",
+          "card": "04341605-bc13-4879-b174-896c38aea393",
+          "suffix": "002",
+          "rarity": "commonparallel",
+          "imageID": "e77327c1-7cb5-4cd4-bc96-7983ce623246",
+          "printStatus": "new"
+        },
+        {
+          "id": "b76ee5fb-dc48-4e9d-9318-22736e0b3614",
+          "card": "041f273b-6aa2-4138-bcfd-2b393b1bd167",
+          "suffix": "003",
+          "rarity": "commonparallel",
+          "imageID": "21378206-94b5-4572-91dc-072adeba9f21",
+          "printStatus": "new"
+        },
+        {
+          "id": "16d5df5b-d4bd-4a55-a8b0-2dba95f5995f",
+          "card": "b245626e-775e-47f8-939c-59b96fe6d41a",
+          "suffix": "004",
+          "rarity": "commonparallel",
+          "imageID": "47b88879-c118-4e17-9d42-32ba9d6f504c",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "c3e949f7-fcd3-4a9e-b026-dba0b0975006",
+          "card": "fd55e8c4-e5d2-4c05-b1e9-d8c9ad5616e4",
+          "suffix": "005",
+          "rarity": "common",
+          "imageID": "f390fa82-3239-411c-bd14-807cfb7964d1",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "eb794855-4ab1-4e28-b0bd-289ab52b4d69",
+          "card": "50be9f2b-b335-4ef7-b2d7-e7b808eeef3d",
+          "suffix": "006",
+          "rarity": "common",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "1a9249ad-e5fb-4562-9913-4db868128936",
+          "card": "b14f7774-f8aa-4f2a-9264-d77b9830cf23",
+          "suffix": "007",
+          "rarity": "common",
+          "imageID": "0b2c06a2-d9fa-4875-bcd6-ab0d6aea3c63",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "31c25537-19f1-433e-8cf0-cb126fbd2782",
+          "card": "dc77aa83-cedd-457b-aa1e-ce9c8758eadd",
+          "suffix": "008",
+          "rarity": "common",
+          "imageID": "b3f8b179-a4e4-4319-8152-6376c923bc8c",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "04c9ea4a-ff18-44f4-8869-bac8b048594e",
+          "card": "25d3ffd7-d72f-4eac-93b3-b0c46f0b6b7f",
+          "suffix": "009",
+          "rarity": "common",
+          "imageID": "d1f1908b-ce8f-46e2-8e2b-40dc7976bf44",
+          "printStatus": "new"
+        },
+        {
+          "id": "be3a1f6c-0519-4e8c-b59d-04c10cd378fa",
+          "card": "acafd612-f2b7-40a1-a545-0f8459b99cc0",
+          "suffix": "010",
+          "rarity": "common",
+          "imageID": "187e3521-fea4-4d9b-b82e-55e4a4ebc63e",
+          "printStatus": "new"
+        },
+        {
+          "id": "6834bf0c-4d82-446c-81ec-1c35bf9108f6",
+          "card": "f18a62e6-6b89-41d1-9310-5e55fc63557d",
+          "suffix": "011",
+          "rarity": "common",
+          "imageID": "ab694171-210f-4a07-83fc-9c72cdf2ea80",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "d24b3777-d88f-473f-9010-8aaef8f6d1ce",
+          "card": "75a4934f-1194-414c-95c5-1e90a94ec326",
+          "suffix": "012",
+          "rarity": "common",
+          "imageID": "a18a58d8-dace-41b9-82bc-aef14d6c4856",
+          "printStatus": "reprint"
+        }
+      ],
+      "externalIDs": {}
+    },
+    {
+      "locales": [
+        "kr"
+      ],
+      "formats": [
+        "rushduel"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//e/e2/RDGRD-Poster-KR.png",
+      "cards": [
+        {
+          "id": "42dc2f67-dcc6-49ab-abb4-7b4bbc3a89bf",
+          "card": "abcefcfe-9e40-480d-bf73-a9b642e377f0",
+          "suffix": "001",
+          "rarity": "commonparallel",
+          "imageID": "85bbc3ae-80da-472b-8b15-dc98a8128afa",
+          "printStatus": "new"
+        },
+        {
+          "id": "95384de6-551e-4736-889b-820950abaca8",
+          "card": "04341605-bc13-4879-b174-896c38aea393",
+          "suffix": "002",
+          "rarity": "commonparallel",
+          "imageID": "e77327c1-7cb5-4cd4-bc96-7983ce623246",
+          "printStatus": "new"
+        },
+        {
+          "id": "b76ee5fb-dc48-4e9d-9318-22736e0b3614",
+          "card": "041f273b-6aa2-4138-bcfd-2b393b1bd167",
+          "suffix": "003",
+          "rarity": "commonparallel",
+          "imageID": "21378206-94b5-4572-91dc-072adeba9f21",
+          "printStatus": "new"
+        },
+        {
+          "id": "16d5df5b-d4bd-4a55-a8b0-2dba95f5995f",
+          "card": "b245626e-775e-47f8-939c-59b96fe6d41a",
+          "suffix": "004",
+          "rarity": "commonparallel",
+          "imageID": "47b88879-c118-4e17-9d42-32ba9d6f504c",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "c3e949f7-fcd3-4a9e-b026-dba0b0975006",
+          "card": "fd55e8c4-e5d2-4c05-b1e9-d8c9ad5616e4",
+          "suffix": "005",
+          "rarity": "common",
+          "imageID": "f390fa82-3239-411c-bd14-807cfb7964d1",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "eb794855-4ab1-4e28-b0bd-289ab52b4d69",
+          "card": "50be9f2b-b335-4ef7-b2d7-e7b808eeef3d",
+          "suffix": "006",
+          "rarity": "common",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "1a9249ad-e5fb-4562-9913-4db868128936",
+          "card": "b14f7774-f8aa-4f2a-9264-d77b9830cf23",
+          "suffix": "007",
+          "rarity": "common",
+          "imageID": "0b2c06a2-d9fa-4875-bcd6-ab0d6aea3c63",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "31c25537-19f1-433e-8cf0-cb126fbd2782",
+          "card": "dc77aa83-cedd-457b-aa1e-ce9c8758eadd",
+          "suffix": "008",
+          "rarity": "common",
+          "imageID": "b3f8b179-a4e4-4319-8152-6376c923bc8c",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "04c9ea4a-ff18-44f4-8869-bac8b048594e",
+          "card": "25d3ffd7-d72f-4eac-93b3-b0c46f0b6b7f",
+          "suffix": "009",
+          "rarity": "common",
+          "imageID": "d1f1908b-ce8f-46e2-8e2b-40dc7976bf44",
+          "printStatus": "new"
+        },
+        {
+          "id": "be3a1f6c-0519-4e8c-b59d-04c10cd378fa",
+          "card": "acafd612-f2b7-40a1-a545-0f8459b99cc0",
+          "suffix": "010",
+          "rarity": "common",
+          "imageID": "187e3521-fea4-4d9b-b82e-55e4a4ebc63e",
+          "printStatus": "new"
+        },
+        {
+          "id": "6834bf0c-4d82-446c-81ec-1c35bf9108f6",
+          "card": "f18a62e6-6b89-41d1-9310-5e55fc63557d",
+          "suffix": "011",
+          "rarity": "common",
+          "imageID": "ab694171-210f-4a07-83fc-9c72cdf2ea80",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "d24b3777-d88f-473f-9010-8aaef8f6d1ce",
+          "card": "75a4934f-1194-414c-95c5-1e90a94ec326",
+          "suffix": "012",
+          "rarity": "common",
+          "imageID": "a18a58d8-dace-41b9-82bc-aef14d6c4856",
+          "printStatus": "reprint"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Go Rush Deck Bonus Cards",
+      "id": 901139
+    }
+  }
+}

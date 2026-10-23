@@ -1,0 +1,46 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "b5b48ebf-dcb1-4ee9-a645-54d9b6f76eff",
+  "text": {
+    "en": {
+      "name": "King's Greed",
+      "effect": "Change 1 Attack Position LIGHT Attribute Fiend Type monster on your field to face-up Defense Position. Then, you can draw 2 cards."
+    },
+    "ja": {
+      "name": "\u30ad\u30f3\u30b0\u30b9\u30fb\u30b0\u30ea\u30fc\u30c9",
+      "effect": "\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u653b\u6483\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u5149\u5c5e\u6027\uff0f\u60aa\u9b54\u65cf\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u8868\u5074\u5b88\u5099\u8868\u793a\u306b\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306f\uff12\u679a\u30c9\u30ed\u30fc\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud0b9\uc2a4 \uadf8\ub9ac\ub4dc",
+      "effect": "\uc790\uc2e0 \ud544\ub4dc\uc758 \uacf5\uaca9 \ud45c\uc2dc \ubaac\uc2a4\ud130(\ube5b \uc18d\uc131 / \uc545\ub9c8\uc871) 1\uc7a5\uc744 \uace0\ub974\uace0 \uc55e\uba74 \uc218\ube44 \ud45c\uc2dc\ub85c \ud55c\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0\uc740 2\uc7a5 \ub4dc\ub85c\uc6b0\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "399b3840-fd09-438f-96d4-59541beef90e",
+      "card": "https://ms.yugipedia.com//f/f7/KingsGreed-RDHC01-JP-C.png"
+    }
+  ],
+  "sets": [
+    "288f40da-3a58-4353-8951-a8b611718475"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "King's Greed",
+        "id": 1029979
+      }
+    ],
+    "dbID": 19799
+  },
+  "series": [
+    "77d2b450-6fcc-4acb-8900-f7dd8c36c9f7"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "7ba05482-8bb7-4e82-8e7b-f3142502b77a",
+  "text": {
+    "en": {
+      "name": "Security Hole",
+      "effect": "Shuffle the attacking monster into the owner's Deck.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u30fb\u30db\u30fc\u30eb",
+      "effect": "\u653b\u6483\u3057\u3066\u304d\u305f\u30e2\u30f3\u30b9\u30bf\u30fc\u3092\u6301\u3061\u4e3b\u306e\u30c7\u30c3\u30ad\u306b\u623b\u3059\u3002"
+    },
+    "ko": {
+      "name": "\uc2dc\ud050\ub9ac\ud2f0 \ud640",
+      "effect": "\uacf5\uaca9\ud574 \uc628 \ubaac\uc2a4\ud130\ub97c \uc8fc\uc778\uc758 \ub371\uc73c\ub85c \ub418\ub3cc\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "trap",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "eb323131-e605-4ce6-ac04-665248609061",
+      "card": "https://ms.yugipedia.com//d/d3/SecurityHole-RDKP09-JP-R.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Security Hole",
+        "id": 716631
+      }
+    ],
+    "dbID": 17544
+  },
+  "series": []
+}

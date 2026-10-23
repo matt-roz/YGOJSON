@@ -1,0 +1,47 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "04e9b8fa-7c6f-4e5e-ae8d-8fcad2bd6637",
+  "text": {
+    "en": {
+      "name": "Hungry Softserve",
+      "effect": "Gain 1000 LP.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30cf\u30f3\u30b0\u30ea\u30fc\u30bd\u30d5\u30c8",
+      "effect": "\u81ea\u5206\u306f\uff11\uff10\uff10\uff10\uff2c\uff30\u56de\u5fa9\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud5dd\uadf8\ub9ac \uc18c\ud504\ud2b8",
+      "effect": "\uc790\uc2e0\uc740 1000 LP \ud68c\ubcf5\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 1200,
+  "def": 900,
+  "passwords": [],
+  "images": [
+    {
+      "id": "e5675b19-1630-4227-8aec-7a2b3d38f26d",
+      "card": "https://ms.yugipedia.com//c/cd/HungrySoftserve-RDKP22-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Hungry Softserve",
+        "id": 1136556
+      }
+    ],
+    "dbID": 21995
+  },
+  "series": []
+}

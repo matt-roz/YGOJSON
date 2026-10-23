@@ -1,0 +1,86 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "b043b06f-0b9e-4250-b42f-ab746ecd0011",
+  "name": {
+    "en": "Yu-Gi-Oh! Championship Series China 2026 prize cards",
+    "zh-CN": "\u6e38\u620f\u738b\u7cfb\u5217\u9526\u6807\u8d5b \u4e2d\u56fd 2026"
+  },
+  "locales": {
+    "sc": {
+      "language": "zh-CN",
+      "prefix": "26YC-SC",
+      "date": "2026-11-29",
+      "image": "https://ms.yugipedia.com//b/b9/YCSChina-LogoSC.png",
+      "cardImages": {
+        "unlimited": {}
+      },
+      "cardInfo": {
+        "unlimited": {}
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {}
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "sc"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//b/b9/YCSChina-LogoSC.png",
+      "cards": [
+        {
+          "id": "18795d9c-3205-4add-a8ac-878368367d3a",
+          "card": "0626cd7e-9544-4a18-8625-85b0ac76bb54",
+          "suffix": "001",
+          "rarity": "super",
+          "imageID": "de3328cf-a5fb-417a-8648-c518c10f8327",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "afd218b7-38e1-4f0b-ae8b-1c48d9374c43",
+          "card": "0626cd7e-9544-4a18-8625-85b0ac76bb54",
+          "suffix": "001",
+          "rarity": "ultra",
+          "imageID": "de3328cf-a5fb-417a-8648-c518c10f8327",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "5e60bcf2-6e24-463c-b770-1b5fc87ce927",
+          "card": "07240dec-046f-4b64-a5ab-9fe3508dda64",
+          "suffix": "002",
+          "rarity": "ultra",
+          "imageID": "bfe0f624-b178-4a80-be19-a0bf2577c989",
+          "printStatus": "reprint",
+          "printNote": "New artwork"
+        },
+        {
+          "id": "6295c70a-931a-4eca-850c-eb8118b2f30d",
+          "card": "85976593-c4da-4247-a971-88d7800a089c",
+          "suffix": "TKN",
+          "rarity": "superparallel",
+          "imageID": "a8de8611-7c74-4caa-a015-09899966e72a",
+          "printStatus": "reprint",
+          "printNote": "New artwork"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Yu-Gi-Oh! Championship Series China 2026 prize cards",
+      "id": 1234772
+    }
+  }
+}

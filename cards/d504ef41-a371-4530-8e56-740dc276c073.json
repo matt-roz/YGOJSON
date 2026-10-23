@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "d504ef41-a371-4530-8e56-740dc276c073",
+  "text": {
+    "en": {
+      "name": "Sparkle the Hyper Assistant",
+      "effect": "Send the top 3 cards of your Deck to the Graveyard. Then, if you have \"Ember the Super Assistant\" in your Graveyard, you can destroy 1 Spell/Trap Card on your opponent's field."
+    },
+    "ja": {
+      "name": "\uff28\uff30\u30a2\u30b7\u30b9\u30bf\u30f3\u30c8\u30fb\u30d3\u30ea\u30fc",
+      "effect": "\u81ea\u5206\u306e\u30c7\u30c3\u30ad\u306e\u4e0a\u304b\u3089\u30ab\u30fc\u30c9\uff13\u679a\u3092\u5893\u5730\u3078\u9001\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u5893\u5730\u306b\u300c\uff33\uff30\u30a2\u30b7\u30b9\u30bf\u30f3\u30c8\u30fb\u30a2\u30fc\u30c1\u300d\u304c\u3044\u308b\u5834\u5408\u3001\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u9b54\u6cd5\u30fb\u7f60\u30ab\u30fc\u30c9\uff11\u679a\u3092\u9078\u3093\u3067\u7834\u58ca\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "HP \uc5b4\uc2dc\uc2a4\ud134\ud2b8 \ube44\ub9ac",
+      "effect": "\uc790\uc2e0\uc758 \ub371 \uc704\uc5d0\uc11c \uce74\ub4dc 3\uc7a5\uc744 \ubb18\uc9c0\ub85c \ubcf4\ub0b8\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0 \ubb18\uc9c0\uc5d0 \"SP(\uc288\ud37c) \uc5b4\uc2dc\uc2a4\ud134\ud2b8 \uc544\uce58\"\uac00 \uc788\uc744 \uacbd\uc6b0, \uc0c1\ub300 \ud544\ub4dc\uc758 \ub9c8\ubc95 / \ud568\uc815 \uce74\ub4dc 1\uc7a5\uc744 \uace0\ub974\uace0 \ud30c\uad34\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "type": "thunder",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 800,
+  "def": 1500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "be7aa147-88eb-4422-b9f7-388c1ac78033",
+      "card": "https://ms.yugipedia.com//2/2d/SparkletheHyperAssistant-RDKP19-JP-R.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Sparkle the Hyper Assistant",
+        "id": 1098643
+      }
+    ],
+    "dbID": 20954
+  },
+  "series": []
+}

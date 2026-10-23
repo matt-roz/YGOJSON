@@ -1,0 +1,40 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "bea4bd25-e8bb-424a-8cd6-1c8ffdc7805b",
+  "text": {
+    "en": {
+      "name": "Helmet of the Master Craftsman",
+      "effect": "The equipped monster gains 200 ATK/DEF. Then, if the equipped monster is \"Master Craftsman Kotetsu\" or a Legend monster whose original Level is 4 or lower, it gains additional ATK equal to [its original ATK].",
+      "official": false
+    },
+    "ja": {
+      "name": "\u540d\u5320\u306e\u515c",
+      "effect": "\u88c5\u5099\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u653b\u6483\u529b\u30fb\u5b88\u5099\u529b\u306f\uff12\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002\u88c5\u5099\u30e2\u30f3\u30b9\u30bf\u30fc\u304c\u300c\u540d\u5320 \u864e\u9244\u300d\u307e\u305f\u306f\u5143\u3005\u306e\u30ec\u3079\u30eb\u304c\uff14\u4ee5\u4e0b\u306e\u30ec\u30b8\u30a7\u30f3\u30c9\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u5834\u5408\u3001\u3055\u3089\u306b\u653b\u6483\u529b\u3092\uff3b\u305d\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u5143\u3005\u306e\u653b\u6483\u529b\uff3d\u3060\u3051\u30a2\u30c3\u30d7\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uba85\uc7a5\uc758 \ud22c\uad6c",
+      "effect": "\uc7a5\ucc29 \ubaac\uc2a4\ud130\uc758 \uacf5\uaca9\ub825 / \uc218\ube44\ub825\uc740 200 \uc62c\ub9b0\ub2e4. \uc7a5\ucc29 \ubaac\uc2a4\ud130\uac00 \"\uba85\uc7a5 \ud638\ucca0\" \ub610\ub294 \uc6d0\ub798\uc758 \ub808\ubca8\uc774 4 \uc774\ud558\uc778 \ub808\uc804\ub4dc \ubaac\uc2a4\ud130\uc77c \uacbd\uc6b0, \ucd94\uac00\ub85c \uacf5\uaca9\ub825\uc744 [\uadf8 \ubaac\uc2a4\ud130\uc758 \uc6d0\ub798 \uacf5\uaca9\ub825]\ub9cc\ud07c \uc62c\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "equip",
+  "passwords": [],
+  "images": [
+    {
+      "id": "0e1c592b-2263-4695-ba82-a1448f4498ef",
+      "card": "https://ms.yugipedia.com//d/d7/HelmetoftheMasterCraftsman-RDLGP1-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Helmet of the Master Craftsman",
+        "id": 708997
+      }
+    ],
+    "dbID": 18719
+  },
+  "series": []
+}

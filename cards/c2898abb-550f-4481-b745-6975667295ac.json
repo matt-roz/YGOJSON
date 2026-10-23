@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "c2898abb-550f-4481-b745-6975667295ac",
+  "text": {
+    "en": {
+      "name": "Hungry Donut",
+      "effect": "Send the top 4 cards of your Deck to the Graveyard.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30cf\u30f3\u30b0\u30ea\u30fc\u30c9\u30fc\u30ca\u30c4",
+      "effect": "\u81ea\u5206\u306e\u30c7\u30c3\u30ad\u306e\u4e0a\u304b\u3089\u30ab\u30fc\u30c9\uff14\u679a\u3092\u5893\u5730\u3078\u9001\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud5dd\uadf8\ub9ac \ub3c4\ub108\uce20",
+      "effect": "\uc790\uc2e0\uc758 \ub371 \uc704\uc5d0\uc11c \uce74\ub4dc 4\uc7a5\uc744 \ubb18\uc9c0\ub85c \ubcf4\ub0b8\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 1200,
+  "def": 900,
+  "passwords": [],
+  "images": [
+    {
+      "id": "a65b7d26-956f-43c5-901c-4ef07b2fe81d",
+      "card": "https://ms.yugipedia.com//1/19/HungryDonut-RDKP22-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Hungry Donut",
+        "id": 1136557
+      }
+    ],
+    "dbID": 21996
+  },
+  "series": [
+    "e2d2c5fa-6cb7-405e-84d8-889b5da6d817"
+  ]
+}

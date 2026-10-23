@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "88fcd324-e44e-4f45-9d31-94259c2acca3",
+  "text": {
+    "en": {
+      "name": "Assailant of the Hollowed Grounds",
+      "effect": "Add 1 Level 7 DARK Attribute Warrior Type monster or 1 \"Doomed by the Blackblight\" from your Graveyard to your hand.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u9ed2\u5239\u306e\u6697\u6bba\u8005"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 1,
+  "atk": 1300,
+  "def": 500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "32c2c4e5-4f05-4461-a554-1b99772c9dd6",
+      "card": "https://ms.yugipedia.com//6/60/AssailantoftheHollowedGrounds-RDKP27-JP-OP.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Assailant of the Hollowed Grounds",
+        "id": 1231467
+      }
+    ]
+  },
+  "series": []
+}

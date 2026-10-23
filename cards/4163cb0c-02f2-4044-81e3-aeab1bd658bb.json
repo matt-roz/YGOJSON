@@ -1,0 +1,43 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "4163cb0c-02f2-4044-81e3-aeab1bd658bb",
+  "text": {
+    "en": {
+      "name": "King of the Skull Servants (Rush Duel)",
+      "effect": "This card gains ATK equal to [the total number of \"King of the Skull Servants\" and \"Skull Servant\" in your Graveyard] x 1000.",
+      "official": false
+    },
+    "ko": {
+      "name": "\uc800\uc8fc\ubc1b\uc740 \ud558\uc778 \ud0b9",
+      "effect": "\uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\ub825\uc740, [\uc790\uc2e0 \ubb18\uc9c0\uc758 \"\uc800\uc8fc\ubc1b\uc740 \ud558\uc778 \ud0b9\" \"\uc800\uc8fc\ubc1b\uc740 \ud558\uc778\"\uc758 \uc218\uc758 \ud569\uacc4] \u00d7 1000 \uc62c\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "zombie",
+  "classifications": [
+    "effect"
+  ],
+  "level": 1,
+  "atk": 0,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "8e793e7b-1393-48d9-92bc-e410bf04cdd1",
+      "card": "https://ms.yugipedia.com//7/75/KingoftheSkullServants-RDLGP2-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "King of the Skull Servants (Rush Duel)",
+        "id": 1080086
+      }
+    ],
+    "dbID": 20873
+  },
+  "series": []
+}

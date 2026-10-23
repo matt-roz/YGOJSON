@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "7cee41d5-6501-41e3-a2b5-67cd656f5e49",
+  "text": {
+    "en": {
+      "name": "Destructor Soldier Canteen",
+      "effect": "Make 1 face-up monster on your field gain 100 ATK until the end of this turn. Then, you can add 1 \"Destructor Soldier Helmet\" or a Wyrm Type Normal Monster from your Graveyard to your hand."
+    },
+    "ja": {
+      "name": "\u5e7b\u58ca\u5175\u30b7\u30e7\u30c3\u30af\u30fb\u30c9\u30a5",
+      "effect": "\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u3092\u9078\u3073\u3001\u305d\u306e\u653b\u6483\u529b\u3092\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\uff11\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u5e7b\u58ca\u5175\u30d8\u30eb\u30fb\u30e1\u30c3\u30c8\u300d\u307e\u305f\u306f\u901a\u5e38\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u5e7b\u7adc\u65cf\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud658\uad34\ubcd1 \uc1fc\ud06c \ub450",
+      "effect": "\uc790\uc2e0 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130 1\uc7a5\uc744 \uace0\ub974\uace0, \uadf8 \uacf5\uaca9\ub825\uc744 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0 100 \uc62c\ub9b0\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0 \ubb18\uc9c0\uc758 \"\ud658\uad34\ubcd1 \ud5ec \uba67\" \ub610\ub294 \uc77c\ubc18 \ubaac\uc2a4\ud130(\ud658\ub8e1\uc871) 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\uc744 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "type": "wyrm",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1000,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "122f22e0-9e4e-4912-97fa-c5d11cdcebc6",
+      "card": "https://ms.yugipedia.com//c/c8/DestructorSoldierCanteen-RDKP18-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "n"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Destructor Soldier Canteen",
+        "id": 1067971
+      }
+    ],
+    "dbID": 20622
+  },
+  "series": [
+    "67b235e9-be91-4647-ac78-b92102a5898b"
+  ]
+}

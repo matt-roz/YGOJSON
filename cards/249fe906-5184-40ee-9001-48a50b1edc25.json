@@ -1,0 +1,47 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "249fe906-5184-40ee-9001-48a50b1edc25",
+  "text": {
+    "en": {
+      "name": "Kaibaman (Rush Duel)",
+      "effect": "Special Summon 1 \"Blue-Eyes White Dragon\" from your hand face-up to your field."
+    },
+    "ko": {
+      "name": "\uc815\uc758\uc758 \uc544\uad70 \uce74\uc774\ubc14\ub9e8",
+      "effect": "\ud328\uc758 \"\ud478\ub978 \ub208\uc758 \ubc31\ub8e1\" 1\uc7a5\uc744 \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \ud45c\uc2dc\ub85c \ud2b9\uc218 \uc18c\ud658\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 200,
+  "def": 700,
+  "passwords": [],
+  "images": [
+    {
+      "id": "e9b6a208-961b-4fad-bed1-7508ac49820b",
+      "card": "https://ms.yugipedia.com//2/25/Kaibaman-RDSD0A-JP-C.png"
+    }
+  ],
+  "sets": [
+    "b0d594ec-1f44-402f-a994-a88c19a50a43",
+    "b0d594ec-1f44-402f-a994-a88c19a50a43"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Kaibaman (Rush Duel)",
+        "id": 715494
+      }
+    ],
+    "dbID": 17224
+  },
+  "series": [
+    "3ed387c3-f52f-48de-ac78-801befb761ab"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "de57c57c-1e80-4a2a-8327-76e3db2d483f",
+  "text": {
+    "en": {
+      "name": "Seahorse Server",
+      "effect": "Gain 500 LP."
+    },
+    "fr": {
+      "name": "Serveur Hippocampe",
+      "effect": "Gagnez 500 LP."
+    },
+    "de": {
+      "name": "Seepferdchen-Kellner",
+      "effect": "Erhalte 500 LP."
+    },
+    "it": {
+      "name": "Cavalluccio Marino Cameriere",
+      "effect": "Guadagna 500 LP."
+    },
+    "es": {
+      "name": "Mesero Caballito de Mar",
+      "effect": "Gana 500 LP."
+    },
+    "ja": {
+      "name": "\u30e1\u30c3\u30b7\u30fc\u30db\u30fc\u30b9",
+      "effect": "\u81ea\u5206\u306f\uff15\uff10\uff10\uff2c\uff30\u56de\u5fa9\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uba67\uc528\ud638\uc2a4",
+      "effect": "\uc790\uc2e0\uc740 500 LP \ud68c\ubcf5\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "aqua",
+  "classifications": [
+    "effect"
+  ],
+  "level": 2,
+  "atk": 500,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "4b2e5635-e5c1-46b4-9864-764d2ab331c4",
+      "card": "https://ms.yugipedia.com//5/5d/SeahorseServer-RDKP03-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Seahorse Server",
+        "id": 716624
+      }
+    ],
+    "dbID": 15802
+  },
+  "series": [
+    "6f8aa798-c2c6-4701-9182-9b51b9d11c7c"
+  ]
+}

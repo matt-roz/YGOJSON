@@ -1,0 +1,48 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "6f62e756-9e5f-4767-9193-9319f45fd760",
+  "text": {
+    "en": {
+      "name": "Voidalfr Mantistar",
+      "effect": "Add 1 non-Level 4 EARTH, WATER, FIRE, or WIND Attribute Galaxy Type Effect Monster from your Graveyard to your hand. Then, you can add 1 \"Micronova\" from your Graveyard to your hand.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30f4\u30a9\u30a4\u30c9\u30a2\u30eb\u30f4\u30fb\u30de\u30f3\u30c6\u30a3\u30b9\u30bf\u30fc",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u52b9\u679c\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff14\u4ee5\u5916\uff0f\u5730\u5c5e\u6027\u30fb\u6c34\u5c5e\u6027\u30fb\u708e\u5c5e\u6027\u30fb\u98a8\u5c5e\u6027\uff0f\u30ae\u30e3\u30e9\u30af\u30b7\u30fc\u65cf\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u30de\u30a4\u30af\u30ed\u30ce\u30f4\u30a1\u300d\uff11\u679a\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ubcf4\uc774\ub4dc\uc54c\ube0c \ub9e8\ud2f0\uc2a4\ud130",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \ud6a8\uacfc \ubaac\uc2a4\ud130(\ub808\ubca8 4 \uc774\uc678 / \ub545 \uc18d\uc131\u30fb\ubb3c \uc18d\uc131\u30fb\ud654\uc5fc \uc18d\uc131\u30fb\ubc14\ub78c \uc18d\uc131 / \uac24\ub7ed\uc2dc\uc871) 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\ub294\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0 \ubb18\uc9c0\uc758 \"\ub9c8\uc774\ud06c\ub85c\ub178\ubc14\" 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\uc744 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "wind",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1000,
+  "def": 600,
+  "passwords": [],
+  "images": [
+    {
+      "id": "e1d69fca-d815-4cff-9b6f-7b388e07a1e6",
+      "card": "https://ms.yugipedia.com//b/ba/VoidalfrMantistar-RDKP24-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Voidalfr Mantistar",
+        "id": 1174026
+      }
+    ],
+    "dbID": 22834
+  },
+  "series": [
+    "2c96b91d-7218-49fd-8323-3424dfc0f4f4"
+  ]
+}

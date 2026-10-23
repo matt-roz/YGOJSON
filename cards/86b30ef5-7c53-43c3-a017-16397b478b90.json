@@ -1,0 +1,44 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "86b30ef5-7c53-43c3-a017-16397b478b90",
+  "text": {
+    "en": {
+      "name": "Ancient Gear Golem (Rush Duel)",
+      "effect": "This card inflicts piercing battle damage and your opponent cannot activate Trap Cards when it declares an attack."
+    },
+    "ko": {
+      "name": "\uc564\ud2f1 \uae30\uc5b4 \uace8\ub818",
+      "effect": "\uc774 \uce74\ub4dc\uc758 \uacf5\uaca9 \uc120\uc5b8\uc2dc\uc5d0 \uc0c1\ub300\ub294 \ud568\uc815 \uce74\ub4dc\ub97c \ubc1c\ub3d9\ud560 \uc218 \uc5c6\uc73c\uba70, \uadf8 \uacf5\uaca9\uc740 \uad00\ud1b5\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 3000,
+  "def": 3000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "87022239-714c-4e55-8641-58912a7995ca",
+      "card": "https://ms.yugipedia.com//f/f6/AncientGearGolem-RDLGP2-JP-UR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Ancient Gear Golem (Rush Duel)",
+        "id": 1075977
+      }
+    ],
+    "dbID": 20838
+  },
+  "series": [
+    "449d0f52-746a-4aa8-a6d7-09fdf3b20d76"
+  ]
+}

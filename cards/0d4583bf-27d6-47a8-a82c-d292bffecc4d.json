@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "0d4583bf-27d6-47a8-a82c-d292bffecc4d",
+  "text": {
+    "en": {
+      "name": "Jointech Ace Spare",
+      "effect": "This turn, this card's name becomes \"Jointech Ace\". Then, you can add 1 EARTH Attribute Machine Type Union monster from your Graveyard to your hand.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30b8\u30e7\u30a4\u30f3\u30c6\u30c3\u30af\u30fb\u30a8\u30fc\u30b9\u30da\u30a2"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 700,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "f0e5c64d-b13c-4e33-a6fc-7dc2d78390f6",
+      "card": "https://ms.yugipedia.com//5/5c/JointechAceSpare-RDKP27-JP-OP.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Jointech Ace Spare",
+        "id": 1233580
+      }
+    ]
+  },
+  "series": []
+}

@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "027fd38f-e5ad-40df-9f41-dd91f306e9ba",
+  "text": {
+    "en": {
+      "name": "Headhunters' Goraliath",
+      "effect": "Special Summon 1 Level 7 monster from your Graveyard face-up to your field. This turn, you cannot activate the effect of \"Headhunters' Goraliath\".",
+      "official": false
+    },
+    "ja": {
+      "name": "\u5c16\u982d\u72e9\u731f\u30b4\u30e9\u30ea\u30a2\u30b9",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff17\uff09\uff11\u4f53\u3092\u9078\u3073\u3001\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u8868\u793a\u3067\u7279\u6b8a\u53ec\u559a\u3059\u308b\u3002\u3053\u306e\u30bf\u30fc\u30f3\u3001\u81ea\u5206\u306f\u300c\u5c16\u982d\u72e9\u731f\u30b4\u30e9\u30ea\u30a2\u30b9\u300d\u306e\u52b9\u679c\u3092\u767a\u52d5\u3067\u304d\u306a\u3044\u3002"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "beastwarrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2500,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "15b8d638-bc23-4f7d-81b9-6626bf6400e1",
+      "card": "https://ms.yugipedia.com//b/b3/HeadhuntersGoraliath-RDAP03-JP-UR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Headhunters' Goraliath",
+        "id": 1197865
+      }
+    ],
+    "dbID": 23466
+  },
+  "series": [
+    "165b078e-5742-4e96-a11e-3c7ce106efa7"
+  ]
+}

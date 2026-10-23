@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "69e23146-b4ab-4183-9c25-58d9b61ceec6",
+  "text": {
+    "en": {
+      "name": "Petit Moth of Evolution",
+      "effect": "This turn, this card's name becomes \"Petit Moth\". Then, you can add 1 \"Petit Moth\" from your Graveyard to your hand.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u9032\u5316\u306e\u30d7\u30c1\u30e2\u30b9",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u306e\u30ab\u30fc\u30c9\u540d\u306f\u3053\u306e\u30bf\u30fc\u30f3\u3001\u300c\u30d7\u30c1\u30e2\u30b9\u300d\u306b\u306a\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u30d7\u30c1\u30e2\u30b9\u300d\uff11\u4f53\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc9c4\ud654\uc758 \uaf2c\ub9c8 \ubaa8\uc2a4",
+      "effect": "\uc774 \uce74\ub4dc\uc758 \uce74\ub4dc\uba85\uc740 \uc774 \ud134\uc5d0, \"\uaf2c\ub9c8 \ubaa8\uc2a4\"\uac00 \ub41c\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0 \ubb18\uc9c0\uc758 \"\uaf2c\ub9c8 \ubaa8\uc2a4\" 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\uc744 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "insect",
+  "classifications": [
+    "effect"
+  ],
+  "level": 1,
+  "atk": 300,
+  "def": 200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "092141bd-4210-4551-8798-d36a4ea73be6",
+      "card": "https://ms.yugipedia.com//a/a4/PetitMothofEvolution-RDAP02-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Petit Moth of Evolution",
+        "id": 1165396
+      }
+    ],
+    "dbID": 22656
+  },
+  "series": [
+    "bf6fe1a5-630e-4910-b18d-d8d44b294610"
+  ]
+}

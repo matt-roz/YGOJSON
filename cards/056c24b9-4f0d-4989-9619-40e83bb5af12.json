@@ -1,0 +1,44 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "056c24b9-4f0d-4989-9619-40e83bb5af12",
+  "text": {
+    "en": {
+      "name": "Master Up-Drake",
+      "effect": "If you have \"Alpha Burn Drake\" in your Graveyard, this card gains 1000 ATK, and your opponent cannot activate Trap Cards when it declares an attack. If you have 3 or more \"Alpha Count\" in your Graveyard, this card gains an additional 500 ATK, and it inflicts piercing battle damage.",
+      "official": false
+    },
+    "ja": {
+      "name": "\uff2d\u30fb\uff35\u30fb\uff24"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "dragon",
+  "classifications": [
+    "effect"
+  ],
+  "level": 6,
+  "atk": 2000,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "d62aa130-3f93-45f1-8327-95e1ca221b6d",
+      "card": "https://ms.yugipedia.com//4/4e/MasterUpDrake-RDKP27-JP-OP.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Master Up-Drake",
+        "id": 1235935
+      }
+    ]
+  },
+  "series": []
+}

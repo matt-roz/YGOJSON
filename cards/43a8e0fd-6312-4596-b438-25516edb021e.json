@@ -1,0 +1,57 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "43a8e0fd-6312-4596-b438-25516edb021e",
+  "text": {
+    "en": {
+      "name": "Dragosite",
+      "effect": "An Electro organism dwelling inside network circuits. They do not enjoy conflicts and would eat bugs to resolve it."
+    },
+    "ja": {
+      "name": "\u30c9\u30e9\u30b4\u30b5\u30a4\u30c8",
+      "effect": "\u30cd\u30c3\u30c8\u30ef\u30fc\u30af\u4e16\u754c\u306b\u3044\u308b\u5e0c\u5c11\u306a\u96fb\u5b50\u751f\u547d\u4f53\u3002\u4e89\u3044\u3092\u597d\u307e\u305a\u3001\u30d0\u30b0\u3092\u98df\u3079\u3066\u80b2\u3064\u3068\u3044\u3046\u3002"
+    },
+    "ko": {
+      "name": "\ub4dc\ub77c\uace0\uc0ac\uc774\ud2b8",
+      "effect": "\ub124\ud2b8\uc6cc\ud06c \uc138\uacc4\uc5d0 \uc788\ub294 \ud76c\uc18c\ud55c \uc804\uc790 \uc0dd\uba85\uccb4. \uc2f8\uc6c0\uc744 \uc2eb\uc5b4\ud558\uba70, \ubc84\uadf8\ub97c \uba39\uc73c\uba74\uc11c \uc790\ub780\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "dragon",
+  "classifications": [
+    "normal"
+  ],
+  "level": 2,
+  "atk": 0,
+  "def": 1500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "b98cbc6d-f05f-4b40-985e-28929a64567c",
+      "card": "https://ms.yugipedia.com//b/b7/Dragosite-RDSD03-JP-C.png"
+    }
+  ],
+  "sets": [
+    "a3a484b7-43f4-4cde-aa3c-fc8bd9d7f99a",
+    "b6e8e337-8faf-48be-851d-4ba7298c81d0",
+    "b3912bea-7700-43b3-8e58-def0f757111c",
+    "b3912bea-7700-43b3-8e58-def0f757111c",
+    "11548122-d48e-4313-aff4-6d29bca3f0b0"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "n"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Dragosite",
+        "id": 714667
+      }
+    ],
+    "dbID": 17951
+  },
+  "series": [
+    "769c25f7-ecce-4241-b6fc-026abf19ab65"
+  ]
+}

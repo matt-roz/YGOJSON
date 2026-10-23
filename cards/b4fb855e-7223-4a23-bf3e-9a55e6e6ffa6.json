@@ -1,0 +1,47 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "b4fb855e-7223-4a23-bf3e-9a55e6e6ffa6",
+  "text": {
+    "en": {
+      "name": "Arzareth the Sweeping Wind",
+      "effect": "Destroy 1 Spell/Trap Card on your opponent's field.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u6383\u98a8\u306e\u30a2\u30b6\u30ec\u30b9",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u9b54\u6cd5\u30fb\u7f60\u30ab\u30fc\u30c9\uff11\u679a\u3092\u9078\u3093\u3067\u7834\u58ca\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc18c\ud48d\uc758 \uc544\uc790\ub808\uc2a4",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \ub9c8\ubc95 / \ud568\uc815 \uce74\ub4dc 1\uc7a5\uc744 \uace0\ub974\uace0 \ud30c\uad34\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "wind",
+  "type": "fairy",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2200,
+  "def": 2500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "59dc97e8-04e2-45b7-a7c7-55bac169c46f",
+      "card": "https://ms.yugipedia.com//e/ef/ArzareththeSweepingWind-RDKP06-JP-UR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Arzareth the Sweeping Wind",
+        "id": 713237
+      }
+    ],
+    "dbID": 16694
+  },
+  "series": []
+}

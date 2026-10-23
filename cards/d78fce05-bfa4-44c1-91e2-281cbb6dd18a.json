@@ -1,0 +1,53 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "d78fce05-bfa4-44c1-91e2-281cbb6dd18a",
+  "text": {
+    "en": {
+      "name": "Striping Wyvern",
+      "effect": "Special Summon 1 \"Blue-Fang Burst Dragon\" or \"Red Boot Boost Dragon\" from your hand to your field in face-up Defense Position. Then, you can add 1 \"Dragons Burst Fusion\" or \"Dragons Boost Fusion\" from your Graveyard to your hand."
+    },
+    "ja": {
+      "name": "\u30b9\u30c8\u30e9\u30a4\u30d4\u30f3\u30b0\u30fb\u30ef\u30a4\u30d0\u30fc\u30f3",
+      "effect": "\u624b\u672d\u306e\u300c\u78a7\u7259\u306e\u7206\u901f\u7adc\u300d\u307e\u305f\u306f\u300c\u771f\u7d05\u52d5\u306e\u6483\u901f\u7adc\u300d\uff11\u4f53\u3092\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u5b88\u5099\u8868\u793a\u3067\u7279\u6b8a\u53ec\u559a\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u30c9\u30e9\u30b4\u30f3\u30ba\u30fb\u30d0\u30fc\u30b9\u30c8\u30fb\u30d5\u30e5\u30fc\u30b8\u30e7\u30f3\u300d\u307e\u305f\u306f\u300c\u30c9\u30e9\u30b4\u30f3\u30ba\u30fb\u30d6\u30fc\u30b9\u30c8\u30fb\u30d5\u30e5\u30fc\u30b8\u30e7\u30f3\u300d\uff11\u679a\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc2a4\ud2b8\ub77c\uc774\ud551 \uc640\uc774\ubc18",
+      "effect": "\ud328\uc758 \"\ube14\ub8e8 \ud22c\uc2a4 \ubc84\uc2a4\ud2b8\ub4dc\ub798\uace4\" \ub610\ub294 \"\ub808\ub4dc\ubd80\ud2b8 \ubd80\uc2a4\ud2b8\ub4dc\ub798\uace4\" 1\uc7a5\uc744 \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \uc218\ube44 \ud45c\uc2dc\ub85c \ud2b9\uc218 \uc18c\ud658\ud55c\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0 \ubb18\uc9c0\uc758 \"\ub4dc\ub798\uace4\uc988 \ubc84\uc2a4\ud2b8 \ud4e8\uc804\" \ub610\ub294 \"\ub4dc\ub798\uace4\uc988 \ubd80\uc2a4\ud2b8 \ud4e8\uc804\" 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\uc744 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "dragon",
+  "classifications": [
+    "effect"
+  ],
+  "level": 1,
+  "atk": 0,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "cdabad62-07fe-40dd-ac98-a43db3703ee1",
+      "card": "https://ms.yugipedia.com//f/f4/StripingWyvern-RDB241-JP-SR.png"
+    }
+  ],
+  "sets": [
+    "15adab2a-8746-40d3-a545-bbb610076d23"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Striping Wyvern",
+        "id": 1018410
+      }
+    ],
+    "dbID": 19640
+  },
+  "series": [
+    "769c25f7-ecce-4241-b6fc-026abf19ab65"
+  ]
+}

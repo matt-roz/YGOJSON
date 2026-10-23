@@ -1,0 +1,64 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "d9b527ba-f7b2-49d0-977e-d4acb89ca5e4",
+  "text": {
+    "en": {
+      "name": "Jointech Rex",
+      "effect": "Destroy 1 card in your opponent's Spell & Trap Zone."
+    },
+    "ja": {
+      "name": "\u30b8\u30e7\u30a4\u30f3\u30c6\u30c3\u30af\u30fb\u30ec\u30c3\u30af\u30b9",
+      "effect": "\u76f8\u624b\u306e\u9b54\u6cd5\uff06\u7f60\u30be\u30fc\u30f3\u306e\u30ab\u30fc\u30c9\uff11\u679a\u3092\u9078\u3093\u3067\u7834\u58ca\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc870\uc778\ud14c\ud06c \ub809\uc2a4",
+      "effect": "\uc0c1\ub300\uc758 \ub9c8\ubc95 & \ud568\uc815 \uc874\uc758 \uce74\ub4dc 1\uc7a5\uc744 \uace0\ub974\uace0 \ud30c\uad34\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2500,
+  "def": 1500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "7bf003a7-e90b-4c31-9688-9003f1d7eba6",
+      "card": "https://ms.yugipedia.com//c/c7/JointechRex-RDORP2-JP-C.png"
+    },
+    {
+      "id": "7a7888d0-d657-48b9-8f31-c17aca6445ed",
+      "card": "https://ms.yugipedia.com//c/c7/JointechRex-RD711B-JP-NPR.png"
+    },
+    {
+      "id": "49136702-64b5-469e-a6a6-e45d1b9070a6",
+      "card": "https://ms.yugipedia.com//d/d9/JointechRex-RDCCC1-JP-NPR.png"
+    }
+  ],
+  "sets": [
+    "a9be937d-8a1f-42c9-9bad-6f55f97c7518",
+    "a3a484b7-43f4-4cde-aa3c-fc8bd9d7f99a",
+    "31432588-1ddf-4225-8c5e-7dfc48faac1e",
+    "31432588-1ddf-4225-8c5e-7dfc48faac1e"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Jointech Rex",
+        "id": 715474
+      }
+    ],
+    "dbID": 17505
+  },
+  "series": [
+    "5d5055d0-52c0-457f-8fcf-f097bd9b9f9e"
+  ]
+}

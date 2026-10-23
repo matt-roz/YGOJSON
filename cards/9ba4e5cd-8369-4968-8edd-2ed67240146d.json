@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "9ba4e5cd-8369-4968-8edd-2ed67240146d",
+  "text": {
+    "en": {
+      "name": "Onomatopitcher",
+      "effect": "Special Summon 1 Level 4 FIRE Attribute Warrior Type monster from your Graveyard to your field in face-up Defense Position. Then, you can add 1 Level 8 FIRE Attribute monster from your Graveyard to your hand. This turn, you cannot activate the effect of \"Onomatopitcher\".",
+      "official": false
+    },
+    "ja": {
+      "name": "\u7403\u5150\u7687\u30aa\u30ce\u30de\u30c8\u30d4\u30c3\u30c1\u30e3\u30fc",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff14\uff0f\u708e\u5c5e\u6027\uff0f\u6226\u58eb\u65cf\uff09\uff11\u4f53\u3092\u9078\u3073\u3001\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u5b88\u5099\u8868\u793a\u3067\u7279\u6b8a\u53ec\u559a\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff18\uff0f\u708e\u5c5e\u6027\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002\u3053\u306e\u30bf\u30fc\u30f3\u3001\u81ea\u5206\u306f\u300c\u7403\u5150\u7687\u30aa\u30ce\u30de\u30c8\u30d4\u30c3\u30c1\u30e3\u30fc\u300d\u306e\u52b9\u679c\u3092\u767a\u52d5\u3067\u304d\u306a\u3044\u3002"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1500,
+  "def": 400,
+  "passwords": [],
+  "images": [
+    {
+      "id": "77517723-8b16-4834-8fdd-7e42556b53ba",
+      "card": "https://ms.yugipedia.com//e/ef/Onomatopitcher-RDAP03-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Onomatopitcher",
+        "id": 1201216
+      }
+    ],
+    "dbID": 23457
+  },
+  "series": [
+    "11c88d41-6724-4c42-8912-d77015310efd"
+  ]
+}

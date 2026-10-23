@@ -1,0 +1,52 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "ef238976-06fd-4b12-b1a6-caa267fa0cf6",
+  "text": {
+    "en": {
+      "name": "Heat Core the Mad Fiend of Despair",
+      "effect": "Special Summon 1 Level 9 or lower monster from your opponent's Graveyard face-up to your field. Then, you can Special Summon 1 Fiend Type monster from your Graveyard to your opponent's field in face-up Defense Position.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u7d76\u671b\u72c2\u9b54\u30d2\u30fc\u30c8\u30fb\u30b3\u30a2",
+      "effect": "\u76f8\u624b\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff19\u4ee5\u4e0b\uff09\uff11\u4f53\u3092\u9078\u3073\u3001\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u8868\u793a\u3067\u7279\u6b8a\u53ec\u559a\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u60aa\u9b54\u65cf\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u5b88\u5099\u8868\u793a\u3067\u7279\u6b8a\u53ec\u559a\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc808\ub9dd\uad11\ub9c8 \ud788\ud2b8 \ucf54\uc5b4",
+      "effect": "\uc0c1\ub300 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130(\ub808\ubca8 9 \uc774\ud558) 1\uc7a5\uc744 \uace0\ub974\uace0, \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \ud45c\uc2dc\ub85c \ud2b9\uc218 \uc18c\ud658\ud55c\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130(\uc545\ub9c8\uc871) 1\uc7a5\uc744 \uace0\ub974\uace0 \uc0c1\ub300 \ud544\ub4dc\uc5d0 \uc55e\uba74 \uc218\ube44 \ud45c\uc2dc\ub85c \ud2b9\uc218 \uc18c\ud658\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "fiend",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 2700,
+  "def": 2400,
+  "passwords": [],
+  "images": [
+    {
+      "id": "bbe62fa1-15c2-4274-9f0d-46451c4c7ca5",
+      "card": "https://ms.yugipedia.com//c/cf/HeatCoretheMadFiendofDespair-RDORP4-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Heat Core the Mad Fiend of Despair",
+        "id": 1180071
+      }
+    ],
+    "dbID": 23057
+  },
+  "series": [
+    "182ca87e-912e-486d-8df2-dae67ce3bffd"
+  ]
+}

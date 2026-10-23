@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "49e6f6fd-36c6-4fb4-8197-068a2325f66b",
+  "text": {
+    "en": {
+      "name": "Ancient Gear Medic",
+      "effect": "Add 1 EARTH Attribute Machine Type monster with a Continuous Effect from your Graveyard to your hand. Then, if you sent \"Gear Section\" or \"Ancient Gear Barrage\" to the Graveyard to meet the requirement, you can draw 1 card.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u53e4\u4ee3\u306e\u6a5f\u68b0\u8ecd\u533b",
+      "effect": "\u6c38\u7d9a\u52b9\u679c\u3092\u6301\u3064\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u5730\u5c5e\u6027\uff0f\u6a5f\u68b0\u65cf\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u3002\u3053\u306e\u52b9\u679c\u306e\u6761\u4ef6\u3067\u300c\u6b6f\u8eca\u8857\u533a\u300d\u307e\u305f\u306f\u300c\u53e4\u4ee3\u306e\u6a5f\u68b0\u7832\u6483\u300d\u3092\u5893\u5730\u3078\u9001\u3063\u305f\u5834\u5408\u3001\u3055\u3089\u306b\u81ea\u5206\u306f\uff11\u679a\u30c9\u30ed\u30fc\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc564\ud2f1 \uae30\uc5b4 \uba54\ub515",
+      "effect": "\uc9c0\uc18d \ud6a8\uacfc\ub97c \uac00\uc9c0\ub294 \uc790\uc2e0 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130(\ub545 \uc18d\uc131 / \uae30\uacc4\uc871) 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\ub294\ub2e4. \uc774 \ud6a8\uacfc\uc758 \uc870\uac74\uc73c\ub85c \"\uae30\uc5b4 \uc139\uc158\" \ub610\ub294 \"\uc564\ud2f1 \uae30\uc5b4 \ubc30\ub7ec\uc9c0\"\ub97c \ubb18\uc9c0\ub85c \ubcf4\ub0c8\uc744 \uacbd\uc6b0, \ucd94\uac00\ub85c \uc790\uc2e0\uc740 1\uc7a5 \ub4dc\ub85c\uc6b0\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 1000,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "1539592b-48df-47f4-b468-6ff52ef085bf",
+      "card": "https://ms.yugipedia.com//e/ec/AncientGearMedic-RDLGP2-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Ancient Gear Medic",
+        "id": 1076082
+      }
+    ],
+    "dbID": 20843
+  },
+  "series": [
+    "449d0f52-746a-4aa8-a6d7-09fdf3b20d76"
+  ]
+}

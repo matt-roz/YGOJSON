@@ -1,0 +1,62 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "c43d0767-f2d9-400f-ac5c-fca847cb2c9b",
+  "text": {
+    "en": {
+      "name": "Counter Pigeons",
+      "effect": "The attacking monster loses ATK equal to [the Level of the attacking monster] x 100 until the end of this turn."
+    },
+    "fr": {
+      "name": "Contre aux Pigeons",
+      "effect": "Le monstre attaquant perd une ATK \u00e9gale au [Niveau du monstre attaquant] x 100 jusqu'\u00e0 la fin de ce tour."
+    },
+    "de": {
+      "name": "Kontertauben",
+      "effect": "Das angreifende Monster verliert bis zum Ende dieses Spielzugs ATK in H\u00f6he [der Stufe des angreifenden Monsters] x 100."
+    },
+    "it": {
+      "name": "Contro Piccioni",
+      "effect": "Il mostro attaccante perde ATK pari [al Livello del mostro attaccante] x 100 fino alla fine di questo turno."
+    },
+    "es": {
+      "name": "Palomas Contraataque",
+      "effect": "El monstruo atacante pierde ATK igual [al Nivel del monstruo atacante] x 100 hasta el final de este turno."
+    },
+    "ja": {
+      "name": "\u30ab\u30a6\u30f3\u30bf\u30fc\u30fb\u30cf\u30fc\u30c8",
+      "effect": "\u653b\u6483\u3057\u3066\u304d\u305f\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u653b\u6483\u529b\u306f\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\u3001\uff3b\u653b\u6483\u3057\u3066\u304d\u305f\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u30ec\u30d9\u30eb\uff3d\u00d7\uff11\uff10\uff10\u30c0\u30a6\u30f3\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uce74\uc6b4\ud130 \ud558\ud2b8",
+      "effect": "\uacf5\uaca9\ud574 \uc628 \ubaac\uc2a4\ud130\uc758 \uacf5\uaca9\ub825\uc740 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0, [\uacf5\uaca9\ud574 \uc628 \ubaac\uc2a4\ud130\uc758 \ub808\ubca8] \u00d7 100 \ub0b4\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "trap",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "158e6fcd-c775-4f79-8284-cc45384d29b8",
+      "card": "https://ms.yugipedia.com//d/d8/CounterPigeons-RDKP03-JP-C.png"
+    }
+  ],
+  "sets": [
+    "f97239a1-ffdc-49fe-a78c-d89fc57c1403",
+    "a08d0d55-5282-4487-b8b3-a190adb90edf",
+    "11548122-d48e-4313-aff4-6d29bca3f0b0"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "r"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Counter Pigeons",
+        "id": 714355
+      }
+    ],
+    "dbID": 15823
+  },
+  "series": []
+}

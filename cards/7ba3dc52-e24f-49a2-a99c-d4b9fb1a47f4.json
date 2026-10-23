@@ -1,0 +1,50 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "7ba3dc52-e24f-49a2-a99c-d4b9fb1a47f4",
+  "text": {
+    "en": {
+      "name": "Darkness Jointech Tyrant",
+      "effect": "Add 2 Level 7 or 8 DARK Attribute monsters with different Types from your Graveyard to your hand. Then, this card's name becomes \"Jointech Nesstrydar Tank\" this turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30c0\u30fc\u30af\u30cd\u30b9\u30fb\u30b8\u30e7\u30a4\u30f3\u30c6\u30c3\u30af\u30fb\u30bf\u30a4\u30e9\u30f3\u30c8",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u7a2e\u65cf\u304c\u7570\u306a\u308b\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff17\u30fb\uff18\uff0f\u95c7\u5c5e\u6027\uff09\uff12\u4f53\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u3002\u305d\u306e\u5f8c\u3001\u3053\u306e\u30ab\u30fc\u30c9\u306e\u30ab\u30fc\u30c9\u540d\u306f\u3053\u306e\u30bf\u30fc\u30f3\u3001\u300c\u30b8\u30e7\u30a4\u30f3\u30c6\u30c3\u30af\u30fb\u30cd\u30b9\u30c8\u30e9\u30a4\u30c0\u30fc\u30fb\u30bf\u30f3\u30af\u300d\u306b\u306a\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub2e4\ud06c\ub2c8\uc2a4 \uc870\uc778\ud14c\ud06c \ud0c0\uc774\ub780\ud2b8",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \uc885\uc871\uc774 \ub2e4\ub978 \ubaac\uc2a4\ud130(\ub808\ubca8 7\u30fb8 / \uc5b4\ub460 \uc18d\uc131) 2\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\ub294\ub2e4. \uadf8 \ud6c4, \uc774 \uce74\ub4dc\uc758 \uce74\ub4dc\uba85\uc740 \uc774 \ud134\uc5d0, \"\uc870\uc778\ud14c\ud06c \ub124\uc2a4\ud2b8\ub77c\uc774\ub354 \ud0f1\ud06c\"\uac00 \ub41c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2500,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "9a9622d5-850c-42ba-bec3-7cd48bd65ee8",
+      "card": "https://ms.yugipedia.com//1/1f/DarknessJointechTyrant-RDKP16-JP-R.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Darkness Jointech Tyrant",
+        "id": 1040573
+      }
+    ],
+    "dbID": 19966
+  },
+  "series": [
+    "eee6abac-4c42-43e0-8b68-d4c7ca22506e",
+    "5d5055d0-52c0-457f-8fcf-f097bd9b9f9e"
+  ]
+}

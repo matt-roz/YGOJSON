@@ -1,0 +1,68 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "2eaefb61-6168-4d90-b2e8-413de8d2456f",
+  "text": {
+    "en": {
+      "name": "Drilling Mandrill",
+      "effect": "Change face-down Defense Position monsters on your opponent's field to face-up Attack Position, up to [the number of face-up Machine Type monsters on your field]. The original ATK of the monsters changed to face-up Attack Position by this effect become 0 until the end of this turn."
+    },
+    "fr": {
+      "name": "Mandrill Foreur",
+      "effect": "Changez un nombre de monstres en Position de D\u00e9fense face verso sur le Terrain de votre adversaire en Position d'Attaque face recto inf\u00e9rieur ou \u00e9gal au [nombre de monstres de Type Machine face recto sur votre Terrain]. L'ATK d'origine des monstres chang\u00e9s en Position d'Attaque face recto par cet effet devient 0 jusqu'\u00e0 la fin de ce tour."
+    },
+    "de": {
+      "name": "Bohrender Mandrill",
+      "effect": "\u00c4ndere die Monster auf dem Spielfeld deines Gegners von der verdeckten Verteidigungsposition zur offenen Angriffsposition, bis zu [der Anzahl an offenen Monstern des Typs Maschine auf deiner Spielfeldseite]. Die Grund-ATK der Monster, die durch diesen Effekt in die offene Angriffsposition gewechselt sind, ist nunmehr bis zum Ende dieses Spielzugs gleich 0."
+    },
+    "it": {
+      "name": "Mandrillo Trivella",
+      "effect": "Metti scoperti in Posizione di Attacco i mostri coperti in Posizione di Difesa sul Terreno del tuo avversario, fino [al numero di mostri scoperti di Tipo Macchina sul tuo Terreno]. L'ATK originale del mostro messo scoperto in Posizione di Attacco da questo effetto diventa 0 fino alla fine di questo turno."
+    },
+    "es": {
+      "name": "Mandril Perforador",
+      "effect": "Cambia los monstruos en Posici\u00f3n de Defensa boca abajo en el Campo de tu adversario a la Posici\u00f3n de Ataque boca arriba, hasta [el n\u00famero de monstruos de Tipo M\u00e1quina boca arriba en tu Campo]. El ATK original de los monstruos que se han cambiado a la Posici\u00f3n de Ataque boca arriba por este efecto se convierte en 0 hasta el final de este turno."
+    },
+    "ja": {
+      "name": "\u30c9\u30ea\u30ea\u30f3\u30b0\u30fb\u30de\u30f3\u30c9\u30ea\u30eb",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u88cf\u5074\u5b88\u5099\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\u3092\uff3b\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u6a5f\u68b0\u65cf\uff09\u306e\u6570\uff3d\u307e\u3067\u9078\u3093\u3067\u8868\u5074\u653b\u6483\u8868\u793a\u306b\u3059\u308b\u3002\u3053\u306e\u52b9\u679c\u3067\u8868\u5074\u653b\u6483\u8868\u793a\u306b\u3057\u305f\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u5143\u3005\u306e\u653b\u6483\u529b\u306f\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\uff10\u306b\u306a\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub4dc\ub9b4\ub9c1 \ub9e8\ub4dc\ub9b4",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \ub4b7\uba74 \uc218\ube44 \ud45c\uc2dc \ubaac\uc2a4\ud130\ub97c [\uc790\uc2e0 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\uae30\uacc4\uc871)\uc758 \uc218]\uae4c\uc9c0 \uace0\ub974\uace0 \uc55e\uba74 \uacf5\uaca9 \ud45c\uc2dc\ub85c \ud55c\ub2e4. \uc774 \ud6a8\uacfc\ub85c \uc55e\uba74 \uacf5\uaca9 \ud45c\uc2dc\ub85c \ud55c \ubaac\uc2a4\ud130\uc758 \uc6d0\ub798 \uacf5\uaca9\ub825\uc740 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0 0 \uc774 \ub41c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 1700,
+  "def": 2000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "0f860e77-b219-46f8-b0cf-f7790a9bf690",
+      "card": "https://ms.yugipedia.com//b/b9/DrillingMandrill-RDGRD2-JP-C.png"
+    }
+  ],
+  "sets": [
+    "31432588-1ddf-4225-8c5e-7dfc48faac1e",
+    "31432588-1ddf-4225-8c5e-7dfc48faac1e"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Drilling Mandrill",
+        "id": 714701
+      }
+    ],
+    "dbID": 16152
+  },
+  "series": []
+}

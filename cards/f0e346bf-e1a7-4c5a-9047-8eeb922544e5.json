@@ -1,0 +1,67 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "f0e346bf-e1a7-4c5a-9047-8eeb922544e5",
+  "text": {
+    "en": {
+      "name": "Dark Paladin - Wave-Motion",
+      "effect": "\"Dark Magician\" + 1 Level 7 or higher monster\nMust be Fusion Summoned. Gains 500 ATK for every other monster on the field. Can attack all your opponent's monsters, once each. Once per turn, when your opponent activates a Spell Card or effect (Quick Effect): You can negate that effect, then you can destroy 1 card on the field. After this card destroys a card by battle or card effect and sends it to the GY, neither player can activate its effects while it is in the GY.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u6ce2\u52d5\u306e\u8d85\u9b54\u5c0e\u5263\u58eb\uff0d\u30d6\u30e9\u30c3\u30af\u30fb\u30d1\u30e9\u30c7\u30a3\u30f3",
+      "effect": "\u300c\u30d6\u30e9\u30c3\u30af\u30fb\u30de\u30b8\u30b7\u30e3\u30f3\u300d\uff0b\u30ec\u30d9\u30eb\uff17\u4ee5\u4e0a\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\n\u3053\u306e\u30ab\u30fc\u30c9\u306f\u878d\u5408\u53ec\u559a\u3067\u3057\u304b\u7279\u6b8a\u53ec\u559a\u3067\u304d\u306a\u3044\u3002\u2460\uff1a\u3053\u306e\u30ab\u30fc\u30c9\u306e\u653b\u6483\u529b\u306f\u3001\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u4ed6\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u6570\u00d7\uff15\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002\u2461\uff1a\u3053\u306e\u30ab\u30fc\u30c9\u306f\u76f8\u624b\u30e2\u30f3\u30b9\u30bf\u30fc\u5168\u3066\u306b\uff11\u56de\u305a\u3064\u653b\u6483\u3067\u304d\u308b\u3002\u2462\uff1a\uff11\u30bf\u30fc\u30f3\u306b\uff11\u5ea6\u3001\u76f8\u624b\u304c\u9b54\u6cd5\u30ab\u30fc\u30c9\u306e\u52b9\u679c\u3092\u767a\u52d5\u3057\u305f\u6642\u306b\u767a\u52d5\u3067\u304d\u308b\u3002\u305d\u306e\u52b9\u679c\u3092\u7121\u52b9\u306b\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u30ab\u30fc\u30c9\uff11\u679a\u3092\u7834\u58ca\u3067\u304d\u308b\u3002\u2463\uff1a\u3053\u306e\u30ab\u30fc\u30c9\u304c\u6226\u95d8\u30fb\u52b9\u679c\u3067\u30ab\u30fc\u30c9\u3092\u7834\u58ca\u3057\u5893\u5730\u3078\u9001\u3063\u305f\u6642\u306b\u9069\u7528\u3059\u308b\u3002\u305d\u306e\u30ab\u30fc\u30c9\u304c\u5893\u5730\u306b\u5b58\u5728\u3059\u308b\u9650\u308a\u3001\u305d\u306e\u52b9\u679c\u306f\u767a\u52d5\u3067\u304d\u306a\u3044\u3002"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "spellcaster",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 2900,
+  "def": 2400,
+  "passwords": [
+    "53038955"
+  ],
+  "images": [
+    {
+      "id": "dcec90e3-2db8-4dc4-92fe-86a95ba294b7",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/100459009.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/100459009.jpg"
+    },
+    {
+      "id": "9163241b-9c39-446a-aaa7-c57e4ca55381",
+      "password": "53038955",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/53038955.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/53038955.jpg"
+    }
+  ],
+  "sets": [
+    "9aefc662-0b55-44d0-85b1-7c92cfe8a78b",
+    "9aefc662-0b55-44d0-85b1-7c92cfe8a78b",
+    "9aefc662-0b55-44d0-85b1-7c92cfe8a78b",
+    "9aefc662-0b55-44d0-85b1-7c92cfe8a78b"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Dark Paladin - Wave-Motion",
+        "id": 1207224
+      }
+    ],
+    "dbID": 23573,
+    "ygoprodeck": {
+      "id": 53038955,
+      "name": "dark-paladin-wave-motion-15869"
+    }
+  },
+  "series": [
+    "60e0adb6-2544-4d78-8e99-6695d3ca7489",
+    "eb5f5f38-8097-45d1-8876-69ff45c611d4"
+  ]
+}

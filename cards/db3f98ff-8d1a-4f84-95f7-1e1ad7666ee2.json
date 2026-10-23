@@ -1,0 +1,43 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "db3f98ff-8d1a-4f84-95f7-1e1ad7666ee2",
+  "text": {
+    "en": {
+      "name": "Lilliputian Friends",
+      "effect": "Excavate the top 4 cards of your Deck. This card gains ATK equal to [the total number of excavated Level 1 monsters and \"The Connected Lilliputians\"] x 700 until the end of your opponent's next turn. Place the excavated cards on the bottom of your Deck in any order.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u5c0f\u4eba\u306e\u306a\u304b\u307e\u305f\u3061",
+      "effect": "\u81ea\u5206\u306e\u30c7\u30c3\u30ad\u306e\u4e0a\u304b\u3089\u30ab\u30fc\u30c9\u3092\uff14\u679a\u3081\u304f\u308a\u3001\u304a\u4e92\u3044\u306b\u78ba\u8a8d\u3059\u308b\u3002\u3053\u306e\u30ab\u30fc\u30c9\u306e\u653b\u6483\u529b\u306f\u6b21\u306e\u76f8\u624b\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\u3001\uff3b\u305d\u306e\u4e2d\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff11\uff09\u306e\u6570\u3068\u305d\u306e\u4e2d\u306e\u300c\u3064\u306a\u304c\u308b\u5c0f\u4eba\u300d\u306e\u6570\u306e\u5408\u8a08\uff3d\u00d7\uff17\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002\u81ea\u5206\u306f\u3081\u304f\u3063\u305f\u30ab\u30fc\u30c9\u3092\u597d\u304d\u306a\u9806\u756a\u3067\u30c7\u30c3\u30ad\u306e\u4e0b\u306b\u623b\u3059\u3002"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "fairy",
+  "classifications": [
+    "effect"
+  ],
+  "level": 1,
+  "atk": 0,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "dcf47914-4297-4d2e-bbf8-a994fe92d388",
+      "card": "https://ms.yugipedia.com//7/72/LilliputianFriends-RDCA01-JP-UPR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Lilliputian Friends",
+        "id": 1228565
+      }
+    ],
+    "dbID": 23943
+  },
+  "series": []
+}

@@ -1,0 +1,998 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "908da318-08c7-40b5-83f0-e2f4f2e0cc5f",
+  "name": {
+    "en": "Structure Deck: Advent of the Emperor",
+    "ja": "\u30b9\u30c8\u30e9\u30af\u30c1\u30e3\u30fc\u30c7\u30c3\u30ad \uff0d\u5e1d\u738b\u306e\u964d\u81e8\uff0d",
+    "ko": "\uff33\uff34\uff32\uff35\uff23\uff34\uff35\uff32\uff25 \uff24\uff25\uff23\uff2b \u2014\ud669\uc81c\uc758 \uac15\ub9bc\u2014"
+  },
+  "locales": {
+    "jp": {
+      "language": "ja",
+      "prefix": "SD14-JP",
+      "date": "2007-12-15",
+      "image": "https://ms.yugipedia.com//e/eb/SD14-DeckJP.png",
+      "cardImages": {
+        "unlimited": {
+          "1593d8f9-d646-4d2e-a9c8-ae0e0443d88e": "https://ms.yugipedia.com//3/31/Shrink-SD14-JP-C.jpg",
+          "1623161c-b38a-4090-aa96-43b502987df9": "https://ms.yugipedia.com//e/e6/LadyAssailantofFlames-SD14-JP-C.jpg",
+          "1791c909-1dab-4cce-8426-12971985bf02": "https://ms.yugipedia.com//2/2a/CardofSanctity-SD14-JP-C.jpg",
+          "21871952-70ac-4739-8546-d7adde1b41f7": "https://ms.yugipedia.com//6/6f/BanisheroftheRadiance-SD14-JP-C.jpg",
+          "29a2ae42-4314-40d7-9933-0f8c3f814963": "https://ms.yugipedia.com//9/9a/DimensionalFissure-SD14-JP-C.jpg",
+          "37d4fa18-065d-4c47-92bd-1097426f61fb": "https://ms.yugipedia.com//e/e6/SoulExchange-SD14-JP-C.jpg",
+          "44d52214-13c9-4908-b6e8-989b50e44d11": "https://ms.yugipedia.com//1/1a/ZaborgtheThunderMonarch-SD14-JP-C.jpg",
+          "4ab79267-fcce-4682-b67d-07596a14a010": "https://ms.yugipedia.com//4/4b/ReturnfromtheDifferentDimension-SD14-JP-C.jpg",
+          "50ebc79f-8c93-4ffe-ba4d-68fc1283414b": "https://ms.yugipedia.com//d/d2/BanisheroftheLight-SD14-JP-C.jpg",
+          "54866e79-f752-4926-b73d-00f0b794746a": "https://ms.yugipedia.com//8/8b/SkullLair-SD14-JP-C.jpg",
+          "5da62ea5-22b7-42f7-bc0e-0c01915abbcf": "https://ms.yugipedia.com//c/c0/RaizatheStormMonarch-SD14-JP-C.jpg",
+          "61628b4d-4b91-4a2b-b5e1-b33dc50a085e": "https://ms.yugipedia.com//4/44/SoulAbsorption-SD14-JP-C.jpg",
+          "654be728-17ec-4105-8130-37004accb487": "https://ms.yugipedia.com//8/8d/StatueoftheWicked-SD14-JP-C.jpg",
+          "656b6701-6153-464a-ab96-f404e56c748e": "https://ms.yugipedia.com//c/c7/CounterCounter-SD14-JP-C.jpg",
+          "6c1932e4-7166-4704-a702-e5afbfb9be24": "https://ms.yugipedia.com//2/2a/DDMDifferentDimensionMaster-SD14-JP-C.jpg",
+          "6fbf7575-722f-44a9-bc82-a26a1cf75800": "https://ms.yugipedia.com//8/86/DimensionDistortion-SD14-JP-C.jpg",
+          "7278ce4c-c49e-4da1-8bc8-421788c460ac": "https://ms.yugipedia.com//e/ef/EnemyController-SD14-JP-C.jpg",
+          "8ad1b9fa-7013-41cb-8c07-db4d5deae3a7": "https://ms.yugipedia.com//d/dd/DimensionalAlchemist-SD14-JP-SR.jpg",
+          "8aff1eb9-c106-4d13-b92c-1cd152b600ee": "https://ms.yugipedia.com//7/7c/GranmargtheRockMonarch-SD14-JP-C.png",
+          "9288b67a-be5f-4619-8613-fbe34772c30f": "https://ms.yugipedia.com//f/f7/SolemnJudgment-SD14-JP-C.jpg",
+          "9812a49a-c709-4394-bee5-f3eb57888cae": "https://ms.yugipedia.com//1/16/DDRDifferentDimensionReincarnation-SD14-JP-C.png",
+          "9a46e2ac-6d09-4663-a6b6-8a09cc51c3ae": "https://ms.yugipedia.com//2/21/DDSurvivor-SD14-JP-C.jpg",
+          "a0955246-5643-4afe-a731-36299383afc4": "https://ms.yugipedia.com//2/25/Tornado-SD14-JP-C.jpg",
+          "a3045d9b-5a80-45f9-b3a5-d70ff438a105": "https://ms.yugipedia.com//f/f0/BrainControl-SD14-JP-C.jpg",
+          "b60225b3-cc89-42c1-a1a3-ac4abd926fb1": "https://ms.yugipedia.com//9/9d/MacroCosmos-SD14-JP-C.jpg",
+          "b67adfb5-5c3a-4726-a1ef-2f77c8a54f8b": "https://ms.yugipedia.com//c/ca/SamsaraKaiser-SD14-JP-SR.jpg",
+          "bd8875d9-728a-4575-8c73-c86188aaffe1": "https://ms.yugipedia.com//7/7c/DDWarrior-SD14-JP-C.jpg",
+          "c08839bb-d308-4919-8104-79c1fc444fb5": "https://ms.yugipedia.com//3/30/NoblemanofCrossout-SD14-JP-C.jpg",
+          "c683f2aa-3416-401f-a30f-d90bda775bf5": "https://ms.yugipedia.com//6/63/SoulRelease-SD14-JP-C.jpg",
+          "c90a6b12-399d-45ec-a359-9101f86c2e63": "https://ms.yugipedia.com//1/11/ChaosriderGustaph-SD14-JP-C.jpg",
+          "d6e573b5-ebbd-4569-93bc-9341e675beab": "https://ms.yugipedia.com//f/f9/BigBangShot-SD14-JP-C.jpg",
+          "da6d1a0f-800c-40ed-b8fc-4030d567839d": "https://ms.yugipedia.com//f/f7/DDScoutPlane-SD14-JP-C.jpg",
+          "dc1567d9-f335-4561-ac39-009041978b62": "https://ms.yugipedia.com//4/46/ByOrderoftheEmperor-SD14-JP-C.jpg",
+          "e460829a-beff-4dfd-a286-940f9e59fdbf": "https://ms.yugipedia.com//4/4c/DustTornado-SD14-JP-C.jpg",
+          "e8b06b91-4894-4ee3-9c0a-edef21451d79": "https://ms.yugipedia.com//f/f5/CaiustheShadowMonarch-SD14-JP-UR.jpg",
+          "f8fe27b8-d166-4cbe-9c0e-d4ee966392fc": "https://ms.yugipedia.com//e/e5/MobiustheFrostMonarch-SD14-JP-C.jpg",
+          "fb407529-ca6c-4693-8bc2-8bb1e1e5b10f": "https://ms.yugipedia.com//d/db/ThestalostheFirestormMonarch-SD14-JP-C.jpg"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "1593d8f9-d646-4d2e-a9c8-ae0e0443d88e": {
+            "image": "https://ms.yugipedia.com//3/31/Shrink-SD14-JP-C.jpg"
+          },
+          "1623161c-b38a-4090-aa96-43b502987df9": {
+            "image": "https://ms.yugipedia.com//e/e6/LadyAssailantofFlames-SD14-JP-C.jpg"
+          },
+          "1791c909-1dab-4cce-8426-12971985bf02": {
+            "image": "https://ms.yugipedia.com//2/2a/CardofSanctity-SD14-JP-C.jpg"
+          },
+          "21871952-70ac-4739-8546-d7adde1b41f7": {
+            "image": "https://ms.yugipedia.com//6/6f/BanisheroftheRadiance-SD14-JP-C.jpg"
+          },
+          "29a2ae42-4314-40d7-9933-0f8c3f814963": {
+            "image": "https://ms.yugipedia.com//9/9a/DimensionalFissure-SD14-JP-C.jpg"
+          },
+          "37d4fa18-065d-4c47-92bd-1097426f61fb": {
+            "image": "https://ms.yugipedia.com//e/e6/SoulExchange-SD14-JP-C.jpg"
+          },
+          "44d52214-13c9-4908-b6e8-989b50e44d11": {
+            "image": "https://ms.yugipedia.com//1/1a/ZaborgtheThunderMonarch-SD14-JP-C.jpg"
+          },
+          "4ab79267-fcce-4682-b67d-07596a14a010": {
+            "image": "https://ms.yugipedia.com//4/4b/ReturnfromtheDifferentDimension-SD14-JP-C.jpg"
+          },
+          "50ebc79f-8c93-4ffe-ba4d-68fc1283414b": {
+            "image": "https://ms.yugipedia.com//d/d2/BanisheroftheLight-SD14-JP-C.jpg"
+          },
+          "54866e79-f752-4926-b73d-00f0b794746a": {
+            "image": "https://ms.yugipedia.com//8/8b/SkullLair-SD14-JP-C.jpg"
+          },
+          "5da62ea5-22b7-42f7-bc0e-0c01915abbcf": {
+            "image": "https://ms.yugipedia.com//c/c0/RaizatheStormMonarch-SD14-JP-C.jpg"
+          },
+          "61628b4d-4b91-4a2b-b5e1-b33dc50a085e": {
+            "image": "https://ms.yugipedia.com//4/44/SoulAbsorption-SD14-JP-C.jpg"
+          },
+          "654be728-17ec-4105-8130-37004accb487": {
+            "image": "https://ms.yugipedia.com//8/8d/StatueoftheWicked-SD14-JP-C.jpg"
+          },
+          "656b6701-6153-464a-ab96-f404e56c748e": {
+            "image": "https://ms.yugipedia.com//c/c7/CounterCounter-SD14-JP-C.jpg"
+          },
+          "6c1932e4-7166-4704-a702-e5afbfb9be24": {
+            "image": "https://ms.yugipedia.com//2/2a/DDMDifferentDimensionMaster-SD14-JP-C.jpg"
+          },
+          "6fbf7575-722f-44a9-bc82-a26a1cf75800": {
+            "image": "https://ms.yugipedia.com//8/86/DimensionDistortion-SD14-JP-C.jpg"
+          },
+          "7278ce4c-c49e-4da1-8bc8-421788c460ac": {
+            "image": "https://ms.yugipedia.com//e/ef/EnemyController-SD14-JP-C.jpg"
+          },
+          "8ad1b9fa-7013-41cb-8c07-db4d5deae3a7": {
+            "image": "https://ms.yugipedia.com//d/dd/DimensionalAlchemist-SD14-JP-SR.jpg"
+          },
+          "8aff1eb9-c106-4d13-b92c-1cd152b600ee": {
+            "image": "https://ms.yugipedia.com//7/7c/GranmargtheRockMonarch-SD14-JP-C.png"
+          },
+          "9288b67a-be5f-4619-8613-fbe34772c30f": {
+            "image": "https://ms.yugipedia.com//f/f7/SolemnJudgment-SD14-JP-C.jpg"
+          },
+          "9812a49a-c709-4394-bee5-f3eb57888cae": {
+            "image": "https://ms.yugipedia.com//1/16/DDRDifferentDimensionReincarnation-SD14-JP-C.png"
+          },
+          "9a46e2ac-6d09-4663-a6b6-8a09cc51c3ae": {
+            "image": "https://ms.yugipedia.com//2/21/DDSurvivor-SD14-JP-C.jpg"
+          },
+          "a0955246-5643-4afe-a731-36299383afc4": {
+            "image": "https://ms.yugipedia.com//2/25/Tornado-SD14-JP-C.jpg"
+          },
+          "a3045d9b-5a80-45f9-b3a5-d70ff438a105": {
+            "image": "https://ms.yugipedia.com//f/f0/BrainControl-SD14-JP-C.jpg"
+          },
+          "b60225b3-cc89-42c1-a1a3-ac4abd926fb1": {
+            "image": "https://ms.yugipedia.com//9/9d/MacroCosmos-SD14-JP-C.jpg"
+          },
+          "b67adfb5-5c3a-4726-a1ef-2f77c8a54f8b": {
+            "image": "https://ms.yugipedia.com//c/ca/SamsaraKaiser-SD14-JP-SR.jpg"
+          },
+          "bd8875d9-728a-4575-8c73-c86188aaffe1": {
+            "image": "https://ms.yugipedia.com//7/7c/DDWarrior-SD14-JP-C.jpg"
+          },
+          "c08839bb-d308-4919-8104-79c1fc444fb5": {
+            "image": "https://ms.yugipedia.com//3/30/NoblemanofCrossout-SD14-JP-C.jpg"
+          },
+          "c683f2aa-3416-401f-a30f-d90bda775bf5": {
+            "image": "https://ms.yugipedia.com//6/63/SoulRelease-SD14-JP-C.jpg"
+          },
+          "c90a6b12-399d-45ec-a359-9101f86c2e63": {
+            "image": "https://ms.yugipedia.com//1/11/ChaosriderGustaph-SD14-JP-C.jpg"
+          },
+          "d6e573b5-ebbd-4569-93bc-9341e675beab": {
+            "image": "https://ms.yugipedia.com//f/f9/BigBangShot-SD14-JP-C.jpg"
+          },
+          "da6d1a0f-800c-40ed-b8fc-4030d567839d": {
+            "image": "https://ms.yugipedia.com//f/f7/DDScoutPlane-SD14-JP-C.jpg"
+          },
+          "dc1567d9-f335-4561-ac39-009041978b62": {
+            "image": "https://ms.yugipedia.com//4/46/ByOrderoftheEmperor-SD14-JP-C.jpg"
+          },
+          "e460829a-beff-4dfd-a286-940f9e59fdbf": {
+            "image": "https://ms.yugipedia.com//4/4c/DustTornado-SD14-JP-C.jpg"
+          },
+          "e8b06b91-4894-4ee3-9c0a-edef21451d79": {
+            "image": "https://ms.yugipedia.com//f/f5/CaiustheShadowMonarch-SD14-JP-UR.jpg"
+          },
+          "f8fe27b8-d166-4cbe-9c0e-d4ee966392fc": {
+            "image": "https://ms.yugipedia.com//e/e5/MobiustheFrostMonarch-SD14-JP-C.jpg"
+          },
+          "fb407529-ca6c-4693-8bc2-8bb1e1e5b10f": {
+            "image": "https://ms.yugipedia.com//d/db/ThestalostheFirestormMonarch-SD14-JP-C.jpg"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          2201021
+        ]
+      }
+    },
+    "kr": {
+      "language": "ko",
+      "prefix": "SD14-KR",
+      "date": "2008-03-29",
+      "image": "https://ms.yugipedia.com//9/9a/SD14-DeckKR.png",
+      "cardImages": {
+        "1st": {
+          "1593d8f9-d646-4d2e-a9c8-ae0e0443d88e": "https://ms.yugipedia.com//5/5d/Shrink-SD14-KR-C-1E.jpg",
+          "1623161c-b38a-4090-aa96-43b502987df9": "https://ms.yugipedia.com//8/8e/LadyAssailantofFlames-SD14-KR-C-1E.png",
+          "1791c909-1dab-4cce-8426-12971985bf02": "https://ms.yugipedia.com//9/95/CardofSanctity-SD14-KR-C-1E.jpg",
+          "21871952-70ac-4739-8546-d7adde1b41f7": "https://ms.yugipedia.com//b/b1/BanisheroftheRadiance-SD14-KR-C-1E.jpg",
+          "29a2ae42-4314-40d7-9933-0f8c3f814963": "https://ms.yugipedia.com//0/0d/DimensionalFissure-SD14-KR-C-1E.jpg",
+          "37d4fa18-065d-4c47-92bd-1097426f61fb": "https://ms.yugipedia.com//c/c2/SoulExchange-SD14-KR-C-1E.jpg",
+          "44d52214-13c9-4908-b6e8-989b50e44d11": "https://ms.yugipedia.com//f/fc/ZaborgtheThunderMonarch-SD14-KR-C-1E.jpg",
+          "4ab79267-fcce-4682-b67d-07596a14a010": "https://ms.yugipedia.com//2/22/ReturnfromtheDifferentDimension-SD14-KR-C-1E.jpg",
+          "50ebc79f-8c93-4ffe-ba4d-68fc1283414b": "https://ms.yugipedia.com//7/7a/BanisheroftheLight-SD14-KR-C-1E.jpg",
+          "54866e79-f752-4926-b73d-00f0b794746a": "https://ms.yugipedia.com//4/4a/SkullLair-SD14-KR-C-1E.jpg",
+          "5da62ea5-22b7-42f7-bc0e-0c01915abbcf": "https://ms.yugipedia.com//6/6e/RaizatheStormMonarch-SD14-KR-C-1E.jpg",
+          "61628b4d-4b91-4a2b-b5e1-b33dc50a085e": "https://ms.yugipedia.com//1/1d/SoulAbsorption-SD14-KR-C-1E.jpg",
+          "654be728-17ec-4105-8130-37004accb487": "https://ms.yugipedia.com//a/a3/StatueoftheWicked-SD14-KR-C-1E.jpg",
+          "656b6701-6153-464a-ab96-f404e56c748e": "https://ms.yugipedia.com//6/68/CounterCounter-SD14-KR-C-1E.jpg",
+          "6c1932e4-7166-4704-a702-e5afbfb9be24": "https://ms.yugipedia.com//9/9d/DDMDifferentDimensionMaster-SD14-KR-C-1E.jpg",
+          "6fbf7575-722f-44a9-bc82-a26a1cf75800": "https://ms.yugipedia.com//2/26/DimensionDistortion-SD14-KR-C-1E.jpg",
+          "7278ce4c-c49e-4da1-8bc8-421788c460ac": "https://ms.yugipedia.com//0/02/EnemyController-SD14-KR-C-1E.jpg",
+          "8ad1b9fa-7013-41cb-8c07-db4d5deae3a7": "https://ms.yugipedia.com//f/fb/DimensionalAlchemist-SD14-KR-SR-1E.jpg",
+          "8aff1eb9-c106-4d13-b92c-1cd152b600ee": "https://ms.yugipedia.com//a/a4/GranmargtheRockMonarch-SD14-KR-C-1E.png",
+          "9288b67a-be5f-4619-8613-fbe34772c30f": "https://ms.yugipedia.com//8/88/SolemnJudgment-SD14-KR-C-1E.jpg",
+          "9812a49a-c709-4394-bee5-f3eb57888cae": "https://ms.yugipedia.com//9/92/DDRDifferentDimensionReincarnation-SD14-KR-C-1E.jpg",
+          "9a46e2ac-6d09-4663-a6b6-8a09cc51c3ae": "https://ms.yugipedia.com//b/bd/DDSurvivor-SD14-KR-C-1E.jpg",
+          "a0955246-5643-4afe-a731-36299383afc4": "https://ms.yugipedia.com//2/2b/Tornado-SD14-KR-C-1E.jpg",
+          "a3045d9b-5a80-45f9-b3a5-d70ff438a105": "https://ms.yugipedia.com//7/78/BrainControl-SD14-KR-C-1E.jpg",
+          "b60225b3-cc89-42c1-a1a3-ac4abd926fb1": "https://ms.yugipedia.com//2/29/MacroCosmos-SD14-KR-C-1E.jpg",
+          "b67adfb5-5c3a-4726-a1ef-2f77c8a54f8b": "https://ms.yugipedia.com//9/9f/SamsaraKaiser-SD14-KR-SR-1E.jpg",
+          "bd8875d9-728a-4575-8c73-c86188aaffe1": "https://ms.yugipedia.com//2/25/DDWarrior-SD14-KR-C-1E.jpg",
+          "c08839bb-d308-4919-8104-79c1fc444fb5": "https://ms.yugipedia.com//8/85/NoblemanofCrossout-SD14-KR-C-1E.jpg",
+          "c683f2aa-3416-401f-a30f-d90bda775bf5": "https://ms.yugipedia.com//d/d5/SoulRelease-SD14-KR-C-1E.jpg",
+          "c90a6b12-399d-45ec-a359-9101f86c2e63": "https://ms.yugipedia.com//1/19/ChaosriderGustaph-SD14-KR-C-1E.jpg",
+          "d6e573b5-ebbd-4569-93bc-9341e675beab": "https://ms.yugipedia.com//d/d9/BigBangShot-SD14-KR-C-1E.png",
+          "da6d1a0f-800c-40ed-b8fc-4030d567839d": "https://ms.yugipedia.com//b/b3/DDScoutPlane-SD14-KR-C-1E.jpg",
+          "dc1567d9-f335-4561-ac39-009041978b62": "https://ms.yugipedia.com//8/84/ByOrderoftheEmperor-SD14-KR-C-1E.jpg",
+          "e460829a-beff-4dfd-a286-940f9e59fdbf": "https://ms.yugipedia.com//1/1b/DustTornado-SD14-KR-C-1E.jpg",
+          "e8b06b91-4894-4ee3-9c0a-edef21451d79": "https://ms.yugipedia.com//8/84/CaiustheShadowMonarch-SD14-KR-UR-1E.png",
+          "f8fe27b8-d166-4cbe-9c0e-d4ee966392fc": "https://ms.yugipedia.com//d/d9/MobiustheFrostMonarch-SD14-KR-C-1E.jpg",
+          "fb407529-ca6c-4693-8bc2-8bb1e1e5b10f": "https://ms.yugipedia.com//e/ea/ThestalostheFirestormMonarch-SD14-KR-C-1E.jpg"
+        },
+        "unlimited": {
+          "1623161c-b38a-4090-aa96-43b502987df9": "https://ms.yugipedia.com//2/22/LadyAssailantofFlames-SD14-KR-C-UE.jpg",
+          "44d52214-13c9-4908-b6e8-989b50e44d11": "https://ms.yugipedia.com//5/57/ZaborgtheThunderMonarch-SD14-KR-C-UE.jpg",
+          "50ebc79f-8c93-4ffe-ba4d-68fc1283414b": "https://ms.yugipedia.com//1/14/BanisheroftheLight-SD14-KR-C-UE.jpg",
+          "8ad1b9fa-7013-41cb-8c07-db4d5deae3a7": "https://ms.yugipedia.com//f/fd/DimensionalAlchemist-SD14-KR-SR-UE.png",
+          "b67adfb5-5c3a-4726-a1ef-2f77c8a54f8b": "https://ms.yugipedia.com//8/80/SamsaraKaiser-SD14-KR-SR-UE.png",
+          "bd8875d9-728a-4575-8c73-c86188aaffe1": "https://ms.yugipedia.com//e/ef/DDWarrior-SD14-KR-C-UE.png",
+          "c90a6b12-399d-45ec-a359-9101f86c2e63": "https://ms.yugipedia.com//9/98/ChaosriderGustaph-SD14-KR-C-UE.jpg",
+          "da6d1a0f-800c-40ed-b8fc-4030d567839d": "https://ms.yugipedia.com//2/2d/DDScoutPlane-SD14-KR-C-UE.jpg",
+          "e8b06b91-4894-4ee3-9c0a-edef21451d79": "https://ms.yugipedia.com//3/33/CaiustheShadowMonarch-SD14-KR-UR-UE.png"
+        }
+      },
+      "cardInfo": {
+        "1st": {
+          "1593d8f9-d646-4d2e-a9c8-ae0e0443d88e": {
+            "image": "https://ms.yugipedia.com//5/5d/Shrink-SD14-KR-C-1E.jpg"
+          },
+          "1623161c-b38a-4090-aa96-43b502987df9": {
+            "image": "https://ms.yugipedia.com//8/8e/LadyAssailantofFlames-SD14-KR-C-1E.png"
+          },
+          "1791c909-1dab-4cce-8426-12971985bf02": {
+            "image": "https://ms.yugipedia.com//9/95/CardofSanctity-SD14-KR-C-1E.jpg"
+          },
+          "21871952-70ac-4739-8546-d7adde1b41f7": {
+            "image": "https://ms.yugipedia.com//b/b1/BanisheroftheRadiance-SD14-KR-C-1E.jpg"
+          },
+          "29a2ae42-4314-40d7-9933-0f8c3f814963": {
+            "image": "https://ms.yugipedia.com//0/0d/DimensionalFissure-SD14-KR-C-1E.jpg"
+          },
+          "37d4fa18-065d-4c47-92bd-1097426f61fb": {
+            "image": "https://ms.yugipedia.com//c/c2/SoulExchange-SD14-KR-C-1E.jpg"
+          },
+          "44d52214-13c9-4908-b6e8-989b50e44d11": {
+            "image": "https://ms.yugipedia.com//f/fc/ZaborgtheThunderMonarch-SD14-KR-C-1E.jpg"
+          },
+          "4ab79267-fcce-4682-b67d-07596a14a010": {
+            "image": "https://ms.yugipedia.com//2/22/ReturnfromtheDifferentDimension-SD14-KR-C-1E.jpg"
+          },
+          "50ebc79f-8c93-4ffe-ba4d-68fc1283414b": {
+            "image": "https://ms.yugipedia.com//7/7a/BanisheroftheLight-SD14-KR-C-1E.jpg"
+          },
+          "54866e79-f752-4926-b73d-00f0b794746a": {
+            "image": "https://ms.yugipedia.com//4/4a/SkullLair-SD14-KR-C-1E.jpg"
+          },
+          "5da62ea5-22b7-42f7-bc0e-0c01915abbcf": {
+            "image": "https://ms.yugipedia.com//6/6e/RaizatheStormMonarch-SD14-KR-C-1E.jpg"
+          },
+          "61628b4d-4b91-4a2b-b5e1-b33dc50a085e": {
+            "image": "https://ms.yugipedia.com//1/1d/SoulAbsorption-SD14-KR-C-1E.jpg"
+          },
+          "654be728-17ec-4105-8130-37004accb487": {
+            "image": "https://ms.yugipedia.com//a/a3/StatueoftheWicked-SD14-KR-C-1E.jpg"
+          },
+          "656b6701-6153-464a-ab96-f404e56c748e": {
+            "image": "https://ms.yugipedia.com//6/68/CounterCounter-SD14-KR-C-1E.jpg"
+          },
+          "6c1932e4-7166-4704-a702-e5afbfb9be24": {
+            "image": "https://ms.yugipedia.com//9/9d/DDMDifferentDimensionMaster-SD14-KR-C-1E.jpg"
+          },
+          "6fbf7575-722f-44a9-bc82-a26a1cf75800": {
+            "image": "https://ms.yugipedia.com//2/26/DimensionDistortion-SD14-KR-C-1E.jpg"
+          },
+          "7278ce4c-c49e-4da1-8bc8-421788c460ac": {
+            "image": "https://ms.yugipedia.com//0/02/EnemyController-SD14-KR-C-1E.jpg"
+          },
+          "8ad1b9fa-7013-41cb-8c07-db4d5deae3a7": {
+            "image": "https://ms.yugipedia.com//f/fb/DimensionalAlchemist-SD14-KR-SR-1E.jpg"
+          },
+          "8aff1eb9-c106-4d13-b92c-1cd152b600ee": {
+            "image": "https://ms.yugipedia.com//a/a4/GranmargtheRockMonarch-SD14-KR-C-1E.png"
+          },
+          "9288b67a-be5f-4619-8613-fbe34772c30f": {
+            "image": "https://ms.yugipedia.com//8/88/SolemnJudgment-SD14-KR-C-1E.jpg"
+          },
+          "9812a49a-c709-4394-bee5-f3eb57888cae": {
+            "image": "https://ms.yugipedia.com//9/92/DDRDifferentDimensionReincarnation-SD14-KR-C-1E.jpg"
+          },
+          "9a46e2ac-6d09-4663-a6b6-8a09cc51c3ae": {
+            "image": "https://ms.yugipedia.com//b/bd/DDSurvivor-SD14-KR-C-1E.jpg"
+          },
+          "a0955246-5643-4afe-a731-36299383afc4": {
+            "image": "https://ms.yugipedia.com//2/2b/Tornado-SD14-KR-C-1E.jpg"
+          },
+          "a3045d9b-5a80-45f9-b3a5-d70ff438a105": {
+            "image": "https://ms.yugipedia.com//7/78/BrainControl-SD14-KR-C-1E.jpg"
+          },
+          "b60225b3-cc89-42c1-a1a3-ac4abd926fb1": {
+            "image": "https://ms.yugipedia.com//2/29/MacroCosmos-SD14-KR-C-1E.jpg"
+          },
+          "b67adfb5-5c3a-4726-a1ef-2f77c8a54f8b": {
+            "image": "https://ms.yugipedia.com//9/9f/SamsaraKaiser-SD14-KR-SR-1E.jpg"
+          },
+          "bd8875d9-728a-4575-8c73-c86188aaffe1": {
+            "image": "https://ms.yugipedia.com//2/25/DDWarrior-SD14-KR-C-1E.jpg"
+          },
+          "c08839bb-d308-4919-8104-79c1fc444fb5": {
+            "image": "https://ms.yugipedia.com//8/85/NoblemanofCrossout-SD14-KR-C-1E.jpg"
+          },
+          "c683f2aa-3416-401f-a30f-d90bda775bf5": {
+            "image": "https://ms.yugipedia.com//d/d5/SoulRelease-SD14-KR-C-1E.jpg"
+          },
+          "c90a6b12-399d-45ec-a359-9101f86c2e63": {
+            "image": "https://ms.yugipedia.com//1/19/ChaosriderGustaph-SD14-KR-C-1E.jpg"
+          },
+          "d6e573b5-ebbd-4569-93bc-9341e675beab": {
+            "image": "https://ms.yugipedia.com//d/d9/BigBangShot-SD14-KR-C-1E.png"
+          },
+          "da6d1a0f-800c-40ed-b8fc-4030d567839d": {
+            "image": "https://ms.yugipedia.com//b/b3/DDScoutPlane-SD14-KR-C-1E.jpg"
+          },
+          "dc1567d9-f335-4561-ac39-009041978b62": {
+            "image": "https://ms.yugipedia.com//8/84/ByOrderoftheEmperor-SD14-KR-C-1E.jpg"
+          },
+          "e460829a-beff-4dfd-a286-940f9e59fdbf": {
+            "image": "https://ms.yugipedia.com//1/1b/DustTornado-SD14-KR-C-1E.jpg"
+          },
+          "e8b06b91-4894-4ee3-9c0a-edef21451d79": {
+            "image": "https://ms.yugipedia.com//8/84/CaiustheShadowMonarch-SD14-KR-UR-1E.png"
+          },
+          "f8fe27b8-d166-4cbe-9c0e-d4ee966392fc": {
+            "image": "https://ms.yugipedia.com//d/d9/MobiustheFrostMonarch-SD14-KR-C-1E.jpg"
+          },
+          "fb407529-ca6c-4693-8bc2-8bb1e1e5b10f": {
+            "image": "https://ms.yugipedia.com//e/ea/ThestalostheFirestormMonarch-SD14-KR-C-1E.jpg"
+          }
+        },
+        "unlimited": {
+          "1623161c-b38a-4090-aa96-43b502987df9": {
+            "image": "https://ms.yugipedia.com//2/22/LadyAssailantofFlames-SD14-KR-C-UE.jpg"
+          },
+          "44d52214-13c9-4908-b6e8-989b50e44d11": {
+            "image": "https://ms.yugipedia.com//5/57/ZaborgtheThunderMonarch-SD14-KR-C-UE.jpg"
+          },
+          "50ebc79f-8c93-4ffe-ba4d-68fc1283414b": {
+            "image": "https://ms.yugipedia.com//1/14/BanisheroftheLight-SD14-KR-C-UE.jpg"
+          },
+          "8ad1b9fa-7013-41cb-8c07-db4d5deae3a7": {
+            "image": "https://ms.yugipedia.com//f/fd/DimensionalAlchemist-SD14-KR-SR-UE.png"
+          },
+          "b67adfb5-5c3a-4726-a1ef-2f77c8a54f8b": {
+            "image": "https://ms.yugipedia.com//8/80/SamsaraKaiser-SD14-KR-SR-UE.png"
+          },
+          "bd8875d9-728a-4575-8c73-c86188aaffe1": {
+            "image": "https://ms.yugipedia.com//e/ef/DDWarrior-SD14-KR-C-UE.png"
+          },
+          "c90a6b12-399d-45ec-a359-9101f86c2e63": {
+            "image": "https://ms.yugipedia.com//9/98/ChaosriderGustaph-SD14-KR-C-UE.jpg"
+          },
+          "da6d1a0f-800c-40ed-b8fc-4030d567839d": {
+            "image": "https://ms.yugipedia.com//2/2d/DDScoutPlane-SD14-KR-C-UE.jpg"
+          },
+          "e8b06b91-4894-4ee3-9c0a-edef21451d79": {
+            "image": "https://ms.yugipedia.com//3/33/CaiustheShadowMonarch-SD14-KR-UR-UE.png"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "1st",
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          73304000
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//e/eb/SD14-DeckJP.png",
+      "cards": [
+        {
+          "id": "e8b06b91-4894-4ee3-9c0a-edef21451d79",
+          "card": "0dad204a-5647-4de8-8253-4294517eab73",
+          "suffix": "001",
+          "rarity": "ultra",
+          "imageID": "6a28f268-6e48-47e5-80d1-e1100f3987ed",
+          "printStatus": "new"
+        },
+        {
+          "id": "8ad1b9fa-7013-41cb-8c07-db4d5deae3a7",
+          "card": "e79f9b01-4301-4926-93c0-08f1bac145ed",
+          "suffix": "002",
+          "rarity": "super",
+          "imageID": "37eec53f-377f-4651-9e10-daab1a2cda87",
+          "printStatus": "new"
+        },
+        {
+          "id": "b67adfb5-5c3a-4726-a1ef-2f77c8a54f8b",
+          "card": "fac7a5b3-4f56-44b1-b0e4-3c2399d6803d",
+          "suffix": "003",
+          "rarity": "super",
+          "imageID": "53b50edb-a48e-44bc-8bf8-25545c98be9e",
+          "printStatus": "new"
+        },
+        {
+          "id": "bd8875d9-728a-4575-8c73-c86188aaffe1",
+          "card": "0a5ffede-34f3-4708-a4bf-747727ecb7ba",
+          "suffix": "004",
+          "rarity": "common",
+          "imageID": "229f42be-0737-4fe4-bb82-46d714471b6b",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "1623161c-b38a-4090-aa96-43b502987df9",
+          "card": "9eaf15ba-62e8-494c-aa91-7f8b5a112c87",
+          "suffix": "005",
+          "rarity": "common",
+          "imageID": "452abfa5-6e1f-499b-a7e9-10edc3b68627",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "50ebc79f-8c93-4ffe-ba4d-68fc1283414b",
+          "card": "bd5e12ef-4014-4c7a-8f46-a74ba0c70609",
+          "suffix": "006",
+          "rarity": "common",
+          "imageID": "103aa492-7d03-4937-9273-73823bf76f42",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "da6d1a0f-800c-40ed-b8fc-4030d567839d",
+          "card": "a92d3f97-d032-4b72-bf3d-389749c6eb05",
+          "suffix": "007",
+          "rarity": "common",
+          "imageID": "180a46cd-0b44-4d23-a9b9-8a9d0d099792",
+          "qty": 2,
+          "printStatus": "reprint"
+        },
+        {
+          "id": "c90a6b12-399d-45ec-a359-9101f86c2e63",
+          "card": "abc6eea7-338a-4d48-a286-58dab697ad31",
+          "suffix": "008",
+          "rarity": "common",
+          "imageID": "0db97f3a-eae5-4691-b810-42f6ef2accd2",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "44d52214-13c9-4908-b6e8-989b50e44d11",
+          "card": "4fd75701-3241-4f93-a201-ba1b35d2907b",
+          "suffix": "009",
+          "rarity": "common",
+          "imageID": "c2f9a4e6-5d36-4e69-841a-c707c1d2b527",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "f8fe27b8-d166-4cbe-9c0e-d4ee966392fc",
+          "card": "b07d303b-9211-43ac-a6fe-38653348d3f0",
+          "suffix": "010",
+          "rarity": "common",
+          "imageID": "4e5146cc-da78-49a4-8ff8-a8a5ef3f053d",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "fb407529-ca6c-4693-8bc2-8bb1e1e5b10f",
+          "card": "26113154-7003-47c4-901f-b71c339ea050",
+          "suffix": "011",
+          "rarity": "common",
+          "imageID": "1c44d7e4-48f7-45c5-b4d9-fb88bc011c42",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "8aff1eb9-c106-4d13-b92c-1cd152b600ee",
+          "card": "6ad2d4eb-98dd-4b9c-9411-b3ce70704a96",
+          "suffix": "012",
+          "rarity": "common",
+          "imageID": "5f5e5423-cd89-4c46-9d13-d550436be849",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "9a46e2ac-6d09-4663-a6b6-8a09cc51c3ae",
+          "card": "2708c71c-b0e9-4e22-8492-e6704965c329",
+          "suffix": "013",
+          "rarity": "common",
+          "imageID": "039d1dbd-6cbe-4a99-89ae-0232e0c90377",
+          "qty": 2,
+          "printStatus": "reprint"
+        },
+        {
+          "id": "6c1932e4-7166-4704-a702-e5afbfb9be24",
+          "card": "16f66bde-8ba2-4f6b-b0e6-281a4646cbe4",
+          "suffix": "014",
+          "rarity": "common",
+          "imageID": "e637becc-068d-4449-9d0e-8bf147b550b3",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "21871952-70ac-4739-8546-d7adde1b41f7",
+          "card": "014b8f23-d7d7-4f79-9078-0a965f54080c",
+          "suffix": "015",
+          "rarity": "common",
+          "imageID": "67af045d-c9bb-4254-9267-da300ffe1fdb",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "5da62ea5-22b7-42f7-bc0e-0c01915abbcf",
+          "card": "bbd3a9f0-8b7e-467d-91c2-28165f1a3434",
+          "suffix": "016",
+          "rarity": "common",
+          "imageID": "2a431a71-9c22-442a-a749-18c8e3bf4e80",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "9812a49a-c709-4394-bee5-f3eb57888cae",
+          "card": "64071c54-b6d3-46f1-923d-04958a67e249",
+          "suffix": "017",
+          "rarity": "common",
+          "imageID": "b85e8b56-cf83-460a-8a43-1f8b3efff427",
+          "printStatus": "new"
+        },
+        {
+          "id": "1593d8f9-d646-4d2e-a9c8-ae0e0443d88e",
+          "card": "d2e31861-9fbc-455a-9c77-f8eef2058c7b",
+          "suffix": "018",
+          "rarity": "common",
+          "imageID": "04407b0c-33b4-482e-a1c6-d1a62663de4f",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "37d4fa18-065d-4c47-92bd-1097426f61fb",
+          "card": "80446784-e5db-444e-93ed-b4fc934eff29",
+          "suffix": "019",
+          "rarity": "common",
+          "imageID": "0b6f2cc1-f160-40f2-8bb2-7d0256b4145e",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "c08839bb-d308-4919-8104-79c1fc444fb5",
+          "card": "d46045c7-a2f9-4920-a464-5d25bf485e54",
+          "suffix": "020",
+          "rarity": "common",
+          "imageID": "8d864322-9a46-48f4-8110-ebaad271ab36",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "c683f2aa-3416-401f-a30f-d90bda775bf5",
+          "card": "b2f27f6a-600c-4273-a751-a7e7f2a5d99d",
+          "suffix": "021",
+          "rarity": "common",
+          "imageID": "6d3e73b9-4fbc-406e-a726-6aa90c2ea6f3",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "d6e573b5-ebbd-4569-93bc-9341e675beab",
+          "card": "1bb360fd-c6fb-48d0-b6f4-912783ed9c0e",
+          "suffix": "022",
+          "rarity": "common",
+          "imageID": "7cab4c92-87cd-4d51-a73d-310ef7bde893",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "6fbf7575-722f-44a9-bc82-a26a1cf75800",
+          "card": "7286fe0d-3925-408b-a92e-f8042ef1cb42",
+          "suffix": "023",
+          "rarity": "common",
+          "imageID": "1620692d-2b29-40d7-b09b-fd1b2fa285b2",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "61628b4d-4b91-4a2b-b5e1-b33dc50a085e",
+          "card": "291830f2-f71a-4e78-9ed1-75cc266cd053",
+          "suffix": "024",
+          "rarity": "common",
+          "imageID": "ad7b5a89-5147-4b32-867d-f817870d8af5",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "7278ce4c-c49e-4da1-8bc8-421788c460ac",
+          "card": "a4cbeef5-b0cb-42f3-9f43-baa542f76e6c",
+          "suffix": "025",
+          "rarity": "common",
+          "imageID": "92f77a4f-4f2a-4211-b372-d9c171a41a51",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "1791c909-1dab-4cce-8426-12971985bf02",
+          "card": "be36d5c4-ec45-429e-9325-798cb37bed61",
+          "suffix": "026",
+          "rarity": "common",
+          "imageID": "008fcd3e-9463-44e1-8b5d-b8c634bfc9ce",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "a3045d9b-5a80-45f9-b3a5-d70ff438a105",
+          "card": "cf604010-e44d-4841-9212-38cf82221be3",
+          "suffix": "027",
+          "rarity": "common",
+          "imageID": "ca80e7b8-681b-4833-9dcd-d763054cda77",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "29a2ae42-4314-40d7-9933-0f8c3f814963",
+          "card": "b523d52b-4aa1-4a6c-9b8f-fcecb8908837",
+          "suffix": "028",
+          "rarity": "common",
+          "imageID": "b119c5f1-da2d-4eca-bf09-d1177eb83bd0",
+          "qty": 2,
+          "printStatus": "reprint"
+        },
+        {
+          "id": "a0955246-5643-4afe-a731-36299383afc4",
+          "card": "b2a87b4e-dd34-4354-af81-7b7686cc9da2",
+          "suffix": "029",
+          "rarity": "common",
+          "imageID": "77053ab4-a958-4443-a39b-6ffe2791d102",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "dc1567d9-f335-4561-ac39-009041978b62",
+          "card": "6f867258-ce60-4392-a931-2822e0da1883",
+          "suffix": "030",
+          "rarity": "common",
+          "imageID": "3100dbff-1be8-41a9-a94b-250869d80886",
+          "printStatus": "new"
+        },
+        {
+          "id": "4ab79267-fcce-4682-b67d-07596a14a010",
+          "card": "5738ade2-339a-4422-9d4e-97e5f2270622",
+          "suffix": "031",
+          "rarity": "common",
+          "imageID": "e39ce22a-c8c2-43b9-be2a-8a10623866e2",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "e460829a-beff-4dfd-a286-940f9e59fdbf",
+          "card": "255cb7b7-8539-43ff-954f-a69945d4b565",
+          "suffix": "032",
+          "rarity": "common",
+          "imageID": "23b0902e-508c-4425-850a-1f3d0bea4180",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "54866e79-f752-4926-b73d-00f0b794746a",
+          "card": "8eebdd41-a1fd-41c5-9247-5f0e52083070",
+          "suffix": "033",
+          "rarity": "common",
+          "imageID": "f81a1b88-8fe7-46c7-a356-1bfb54c0dd78",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "9288b67a-be5f-4619-8613-fbe34772c30f",
+          "card": "f9416d3f-4611-45ff-b993-52b75d6861a7",
+          "suffix": "034",
+          "rarity": "common",
+          "imageID": "06ae8f45-07a7-4f51-86a2-66cfc7c818c3",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "654be728-17ec-4105-8130-37004accb487",
+          "card": "25aaf09c-d416-42c4-8cd4-e925a40e2388",
+          "suffix": "035",
+          "rarity": "common",
+          "imageID": "fd906fd0-c841-4acf-8b68-a7dc1f5e25de",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "b60225b3-cc89-42c1-a1a3-ac4abd926fb1",
+          "card": "d7a863ce-87f0-41f8-b645-3cc90cd59489",
+          "suffix": "036",
+          "rarity": "common",
+          "imageID": "bd9eead6-2889-4f17-88d0-e181b92f703e",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "656b6701-6153-464a-ab96-f404e56c748e",
+          "card": "426c3d99-d58d-4739-88d6-b796923020d0",
+          "suffix": "037",
+          "rarity": "common",
+          "imageID": "2b1c39bd-b546-4508-a007-80421f64bde4",
+          "printStatus": "reprint"
+        }
+      ],
+      "externalIDs": {}
+    },
+    {
+      "locales": [
+        "kr"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "1st",
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//9/9a/SD14-DeckKR.png",
+      "cards": [
+        {
+          "id": "e8b06b91-4894-4ee3-9c0a-edef21451d79",
+          "card": "0dad204a-5647-4de8-8253-4294517eab73",
+          "suffix": "001",
+          "rarity": "ultra",
+          "imageID": "6a28f268-6e48-47e5-80d1-e1100f3987ed"
+        },
+        {
+          "id": "8ad1b9fa-7013-41cb-8c07-db4d5deae3a7",
+          "card": "e79f9b01-4301-4926-93c0-08f1bac145ed",
+          "suffix": "002",
+          "rarity": "super",
+          "imageID": "37eec53f-377f-4651-9e10-daab1a2cda87"
+        },
+        {
+          "id": "b67adfb5-5c3a-4726-a1ef-2f77c8a54f8b",
+          "card": "fac7a5b3-4f56-44b1-b0e4-3c2399d6803d",
+          "suffix": "003",
+          "rarity": "super",
+          "imageID": "53b50edb-a48e-44bc-8bf8-25545c98be9e"
+        },
+        {
+          "id": "bd8875d9-728a-4575-8c73-c86188aaffe1",
+          "card": "0a5ffede-34f3-4708-a4bf-747727ecb7ba",
+          "suffix": "004",
+          "rarity": "common",
+          "imageID": "229f42be-0737-4fe4-bb82-46d714471b6b"
+        },
+        {
+          "id": "1623161c-b38a-4090-aa96-43b502987df9",
+          "card": "9eaf15ba-62e8-494c-aa91-7f8b5a112c87",
+          "suffix": "005",
+          "rarity": "common",
+          "imageID": "452abfa5-6e1f-499b-a7e9-10edc3b68627"
+        },
+        {
+          "id": "50ebc79f-8c93-4ffe-ba4d-68fc1283414b",
+          "card": "bd5e12ef-4014-4c7a-8f46-a74ba0c70609",
+          "suffix": "006",
+          "rarity": "common",
+          "imageID": "103aa492-7d03-4937-9273-73823bf76f42"
+        },
+        {
+          "id": "da6d1a0f-800c-40ed-b8fc-4030d567839d",
+          "card": "a92d3f97-d032-4b72-bf3d-389749c6eb05",
+          "suffix": "007",
+          "rarity": "common",
+          "imageID": "180a46cd-0b44-4d23-a9b9-8a9d0d099792",
+          "qty": 2
+        },
+        {
+          "id": "c90a6b12-399d-45ec-a359-9101f86c2e63",
+          "card": "abc6eea7-338a-4d48-a286-58dab697ad31",
+          "suffix": "008",
+          "rarity": "common",
+          "imageID": "0db97f3a-eae5-4691-b810-42f6ef2accd2"
+        },
+        {
+          "id": "44d52214-13c9-4908-b6e8-989b50e44d11",
+          "card": "4fd75701-3241-4f93-a201-ba1b35d2907b",
+          "suffix": "009",
+          "rarity": "common",
+          "imageID": "c2f9a4e6-5d36-4e69-841a-c707c1d2b527"
+        },
+        {
+          "id": "f8fe27b8-d166-4cbe-9c0e-d4ee966392fc",
+          "card": "b07d303b-9211-43ac-a6fe-38653348d3f0",
+          "suffix": "010",
+          "rarity": "common",
+          "imageID": "4e5146cc-da78-49a4-8ff8-a8a5ef3f053d"
+        },
+        {
+          "id": "fb407529-ca6c-4693-8bc2-8bb1e1e5b10f",
+          "card": "26113154-7003-47c4-901f-b71c339ea050",
+          "suffix": "011",
+          "rarity": "common",
+          "imageID": "1c44d7e4-48f7-45c5-b4d9-fb88bc011c42"
+        },
+        {
+          "id": "8aff1eb9-c106-4d13-b92c-1cd152b600ee",
+          "card": "6ad2d4eb-98dd-4b9c-9411-b3ce70704a96",
+          "suffix": "012",
+          "rarity": "common",
+          "imageID": "5f5e5423-cd89-4c46-9d13-d550436be849"
+        },
+        {
+          "id": "9a46e2ac-6d09-4663-a6b6-8a09cc51c3ae",
+          "card": "2708c71c-b0e9-4e22-8492-e6704965c329",
+          "suffix": "013",
+          "rarity": "common",
+          "imageID": "039d1dbd-6cbe-4a99-89ae-0232e0c90377",
+          "qty": 2
+        },
+        {
+          "id": "6c1932e4-7166-4704-a702-e5afbfb9be24",
+          "card": "16f66bde-8ba2-4f6b-b0e6-281a4646cbe4",
+          "suffix": "014",
+          "rarity": "common",
+          "imageID": "e637becc-068d-4449-9d0e-8bf147b550b3"
+        },
+        {
+          "id": "21871952-70ac-4739-8546-d7adde1b41f7",
+          "card": "014b8f23-d7d7-4f79-9078-0a965f54080c",
+          "suffix": "015",
+          "rarity": "common",
+          "imageID": "67af045d-c9bb-4254-9267-da300ffe1fdb"
+        },
+        {
+          "id": "5da62ea5-22b7-42f7-bc0e-0c01915abbcf",
+          "card": "bbd3a9f0-8b7e-467d-91c2-28165f1a3434",
+          "suffix": "016",
+          "rarity": "common",
+          "imageID": "2a431a71-9c22-442a-a749-18c8e3bf4e80"
+        },
+        {
+          "id": "9812a49a-c709-4394-bee5-f3eb57888cae",
+          "card": "64071c54-b6d3-46f1-923d-04958a67e249",
+          "suffix": "017",
+          "rarity": "common",
+          "imageID": "b85e8b56-cf83-460a-8a43-1f8b3efff427"
+        },
+        {
+          "id": "1593d8f9-d646-4d2e-a9c8-ae0e0443d88e",
+          "card": "d2e31861-9fbc-455a-9c77-f8eef2058c7b",
+          "suffix": "018",
+          "rarity": "common",
+          "imageID": "04407b0c-33b4-482e-a1c6-d1a62663de4f"
+        },
+        {
+          "id": "37d4fa18-065d-4c47-92bd-1097426f61fb",
+          "card": "80446784-e5db-444e-93ed-b4fc934eff29",
+          "suffix": "019",
+          "rarity": "common",
+          "imageID": "0b6f2cc1-f160-40f2-8bb2-7d0256b4145e"
+        },
+        {
+          "id": "c08839bb-d308-4919-8104-79c1fc444fb5",
+          "card": "d46045c7-a2f9-4920-a464-5d25bf485e54",
+          "suffix": "020",
+          "rarity": "common",
+          "imageID": "8d864322-9a46-48f4-8110-ebaad271ab36"
+        },
+        {
+          "id": "c683f2aa-3416-401f-a30f-d90bda775bf5",
+          "card": "b2f27f6a-600c-4273-a751-a7e7f2a5d99d",
+          "suffix": "021",
+          "rarity": "common",
+          "imageID": "6d3e73b9-4fbc-406e-a726-6aa90c2ea6f3"
+        },
+        {
+          "id": "d6e573b5-ebbd-4569-93bc-9341e675beab",
+          "card": "1bb360fd-c6fb-48d0-b6f4-912783ed9c0e",
+          "suffix": "022",
+          "rarity": "common",
+          "imageID": "7cab4c92-87cd-4d51-a73d-310ef7bde893"
+        },
+        {
+          "id": "6fbf7575-722f-44a9-bc82-a26a1cf75800",
+          "card": "7286fe0d-3925-408b-a92e-f8042ef1cb42",
+          "suffix": "023",
+          "rarity": "common",
+          "imageID": "1620692d-2b29-40d7-b09b-fd1b2fa285b2"
+        },
+        {
+          "id": "61628b4d-4b91-4a2b-b5e1-b33dc50a085e",
+          "card": "291830f2-f71a-4e78-9ed1-75cc266cd053",
+          "suffix": "024",
+          "rarity": "common",
+          "imageID": "ad7b5a89-5147-4b32-867d-f817870d8af5"
+        },
+        {
+          "id": "7278ce4c-c49e-4da1-8bc8-421788c460ac",
+          "card": "a4cbeef5-b0cb-42f3-9f43-baa542f76e6c",
+          "suffix": "025",
+          "rarity": "common",
+          "imageID": "92f77a4f-4f2a-4211-b372-d9c171a41a51"
+        },
+        {
+          "id": "1791c909-1dab-4cce-8426-12971985bf02",
+          "card": "be36d5c4-ec45-429e-9325-798cb37bed61",
+          "suffix": "026",
+          "rarity": "common",
+          "imageID": "008fcd3e-9463-44e1-8b5d-b8c634bfc9ce"
+        },
+        {
+          "id": "a3045d9b-5a80-45f9-b3a5-d70ff438a105",
+          "card": "cf604010-e44d-4841-9212-38cf82221be3",
+          "suffix": "027",
+          "rarity": "common",
+          "imageID": "ca80e7b8-681b-4833-9dcd-d763054cda77"
+        },
+        {
+          "id": "29a2ae42-4314-40d7-9933-0f8c3f814963",
+          "card": "b523d52b-4aa1-4a6c-9b8f-fcecb8908837",
+          "suffix": "028",
+          "rarity": "common",
+          "imageID": "b119c5f1-da2d-4eca-bf09-d1177eb83bd0",
+          "qty": 2
+        },
+        {
+          "id": "a0955246-5643-4afe-a731-36299383afc4",
+          "card": "b2a87b4e-dd34-4354-af81-7b7686cc9da2",
+          "suffix": "029",
+          "rarity": "common",
+          "imageID": "77053ab4-a958-4443-a39b-6ffe2791d102"
+        },
+        {
+          "id": "dc1567d9-f335-4561-ac39-009041978b62",
+          "card": "6f867258-ce60-4392-a931-2822e0da1883",
+          "suffix": "030",
+          "rarity": "common",
+          "imageID": "3100dbff-1be8-41a9-a94b-250869d80886"
+        },
+        {
+          "id": "4ab79267-fcce-4682-b67d-07596a14a010",
+          "card": "5738ade2-339a-4422-9d4e-97e5f2270622",
+          "suffix": "031",
+          "rarity": "common",
+          "imageID": "e39ce22a-c8c2-43b9-be2a-8a10623866e2"
+        },
+        {
+          "id": "e460829a-beff-4dfd-a286-940f9e59fdbf",
+          "card": "255cb7b7-8539-43ff-954f-a69945d4b565",
+          "suffix": "032",
+          "rarity": "common",
+          "imageID": "23b0902e-508c-4425-850a-1f3d0bea4180"
+        },
+        {
+          "id": "54866e79-f752-4926-b73d-00f0b794746a",
+          "card": "8eebdd41-a1fd-41c5-9247-5f0e52083070",
+          "suffix": "033",
+          "rarity": "common",
+          "imageID": "f81a1b88-8fe7-46c7-a356-1bfb54c0dd78"
+        },
+        {
+          "id": "9288b67a-be5f-4619-8613-fbe34772c30f",
+          "card": "f9416d3f-4611-45ff-b993-52b75d6861a7",
+          "suffix": "034",
+          "rarity": "common",
+          "imageID": "06ae8f45-07a7-4f51-86a2-66cfc7c818c3"
+        },
+        {
+          "id": "654be728-17ec-4105-8130-37004accb487",
+          "card": "25aaf09c-d416-42c4-8cd4-e925a40e2388",
+          "suffix": "035",
+          "rarity": "common",
+          "imageID": "fd906fd0-c841-4acf-8b68-a7dc1f5e25de"
+        },
+        {
+          "id": "b60225b3-cc89-42c1-a1a3-ac4abd926fb1",
+          "card": "d7a863ce-87f0-41f8-b645-3cc90cd59489",
+          "suffix": "036",
+          "rarity": "common",
+          "imageID": "bd9eead6-2889-4f17-88d0-e181b92f703e"
+        },
+        {
+          "id": "656b6701-6153-464a-ab96-f404e56c748e",
+          "card": "426c3d99-d58d-4739-88d6-b796923020d0",
+          "suffix": "037",
+          "rarity": "common",
+          "imageID": "2b1c39bd-b546-4508-a007-80421f64bde4"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Structure Deck: Advent of the Emperor",
+      "id": 66981
+    }
+  }
+}

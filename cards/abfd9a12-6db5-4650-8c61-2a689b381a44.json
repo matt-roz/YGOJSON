@@ -1,0 +1,42 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "abfd9a12-6db5-4650-8c61-2a689b381a44",
+  "text": {
+    "en": {
+      "name": "Black Luster Jersitual",
+      "effect": "Special Summon 1 Level 8 monster with 500 DEF from your hand face-up to your field. This turn, the monster Special Summoned by this effect gains 500 ATK, it inflicts piercing battle damage, and cannot be destroyed by your opponent's Trap Card effects.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30ab\u30aa\u30b9\u306e\u30b8\u30e3\u30fc\u30b8\u5f0f",
+      "effect": "\u624b\u672d\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff18\uff0f\u5b88\u5099\u529b\uff15\uff10\uff10\uff09\uff11\u4f53\u3092\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u8868\u793a\u3067\u7279\u6b8a\u53ec\u559a\u3059\u308b\u3002\u3053\u306e\u30bf\u30fc\u30f3\u3001\u3053\u306e\u52b9\u679c\u3067\u7279\u6b8a\u53ec\u559a\u3057\u305f\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u653b\u6483\u529b\u306f\uff15\uff10\uff10\u30a2\u30c3\u30d7\u3057\u3001\u305d\u306e\u653b\u6483\u306f\u8cab\u901a\u3057\u3001\u76f8\u624b\u306e\u7f60\u30ab\u30fc\u30c9\u306e\u52b9\u679c\u3067\u306f\u7834\u58ca\u3055\u308c\u306a\u3044\u3002"
+    },
+    "ko": {
+      "name": "\uce74\uc624\uc2a4\uc758 \uc800\uc9c0\uc2dd",
+      "effect": "\ud328\uc758 \ubaac\uc2a4\ud130(\ub808\ubca8 8 / \uc218\ube44\ub825 500) 1\uc7a5\uc744 \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \ud45c\uc2dc\ub85c \ud2b9\uc218 \uc18c\ud658\ud55c\ub2e4. \uc774 \ud134\uc5d0, \uc774 \ud6a8\uacfc\ub85c \ud2b9\uc218 \uc18c\ud658\ud55c \ubaac\uc2a4\ud130\uc758 \uacf5\uaca9\ub825\uc740 500 \uc62c\ub9ac\uace0, \uadf8 \uacf5\uaca9\uc740 \uad00\ud1b5\ud558\uba70, \uc0c1\ub300\uc758 \ud568\uc815 \uce74\ub4dc\uc758 \ud6a8\uacfc\ub85c\ub294 \ud30c\uad34\ub418\uc9c0 \uc54a\ub294\ub2e4."
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "65a74540-8fd4-46be-97c9-220830c89e50",
+      "card": "https://ms.yugipedia.com//f/fd/BlackLusterJersitual-RDKP11-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Black Luster Jersitual",
+        "id": 713772
+      }
+    ],
+    "dbID": 18278
+  },
+  "series": [
+    "957c8903-5f6c-4dad-9726-71d109c1c996"
+  ]
+}

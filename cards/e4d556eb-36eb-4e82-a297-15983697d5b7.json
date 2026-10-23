@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "e4d556eb-36eb-4e82-a297-15983697d5b7",
+  "text": {
+    "en": {
+      "name": "Lovely Anela",
+      "effect": "Draw 1 card."
+    },
+    "ja": {
+      "name": "\u30e9\u30f4\u30fb\u30a2\u30fc\u30cd\u30e9",
+      "effect": "\u81ea\u5206\u306f\uff11\u679a\u30c9\u30ed\u30fc\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub77c\ube0c \uc544\ub12c\ub77c",
+      "effect": "\uc790\uc2e0\uc740 1\uc7a5 \ub4dc\ub85c\uc6b0\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "fairy",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 0,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "e15438d8-3c15-493c-9433-28c574387c2f",
+      "card": "https://ms.yugipedia.com//5/5f/LovelyAnela-RDORP2-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Lovely Anela",
+        "id": 1043810
+      }
+    ],
+    "dbID": 20124
+  },
+  "series": [
+    "3e05c54a-8e27-41d6-b076-ee4fab2d19bc"
+  ]
+}

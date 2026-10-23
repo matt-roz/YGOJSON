@@ -1,0 +1,73 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "28e7ad91-d9c4-4643-bd86-e3b452abbe46",
+  "text": {
+    "en": {
+      "name": "Sakakaze the Talismanic Warrior",
+      "effect": "Shuffle monsters from your opponent's Graveyard into the Deck, up to [the number of Spell/Trap Cards on your opponent's field]."
+    },
+    "fr": {
+      "name": "Sakakaze le Guerrier du Talisman",
+      "effect": "M\u00e9langez un nombre de monstres depuis le Cimeti\u00e8re de votre adversaire dans le Deck inf\u00e9rieur ou \u00e9gal au [nombre de Cartes Magie/Pi\u00e8ge sur le Terrain de votre adversaire]."
+    },
+    "de": {
+      "name": "Sakakaze, der Talisman-Krieger",
+      "effect": "Mische Monster des Friedhofs deines Gegners ins Deck - maximal jedoch bis zur [Anzahl an Zauber-/Fallenkarten auf dem Spielfeld deines Gegners]."
+    },
+    "it": {
+      "name": "Sakakaze il Guerriero Talismanico",
+      "effect": "Mischia mostri dal Cimitero del tuo avversario nel Deck, fino [al numero di Carte Magia/Trappola sul Terreno del tuo avversario]."
+    },
+    "es": {
+      "name": "Sakakaze el Guerrero Talism\u00e1n",
+      "effect": "Baraja monstruos del Cementerio de tu adversario al Deck, hasta [el n\u00famero de Cartas M\u00e1gicas/de Trampa en el Campo de tu adversario]."
+    },
+    "ja": {
+      "name": "\u9670\u967d\u58eb\u30b5\u30ab\u30ab\u30bc",
+      "effect": "\u76f8\u624b\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u3092\uff3b\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u9b54\u6cd5\u30fb\u7f60\u30ab\u30fc\u30c9\u306e\u6570\uff3d\u307e\u3067\u9078\u3093\u3067\u30c7\u30c3\u30ad\u306b\u623b\u3059\u3002"
+    },
+    "ko": {
+      "name": "\uc74c\uc591\uc0ac \uc0ac\uce74\uce74\uc81c",
+      "effect": "\uc0c1\ub300 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130\ub97c [\uc0c1\ub300 \ud544\ub4dc\uc758 \ub9c8\ubc95 / \ud568\uc815 \uce74\ub4dc\uc758 \uc218]\uae4c\uc9c0 \uace0\ub974\uace0 \ub371\uc73c\ub85c \ub418\ub3cc\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "wind",
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 1000,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "b19b40f2-bef1-4cbd-be1b-60115420d021",
+      "card": "https://ms.yugipedia.com//b/b2/SakakazetheTalismanicWarrior-RDSD0B-JP-C.png"
+    }
+  ],
+  "sets": [
+    "a5eedf36-311c-4849-a732-d96430b8e8cc",
+    "f8e7532a-02f9-4834-aa0e-230e163cf5e4",
+    "f8e7532a-02f9-4834-aa0e-230e163cf5e4",
+    "fab3640e-34f2-410e-8c1b-6c7386795132",
+    "fab3640e-34f2-410e-8c1b-6c7386795132"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Sakakaze the Talismanic Warrior",
+        "id": 716570
+      }
+    ],
+    "dbID": 16159
+  },
+  "series": [
+    "65fb4e35-34c4-47d9-a51a-a27792be1dde"
+  ]
+}

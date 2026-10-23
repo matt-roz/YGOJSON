@@ -1,0 +1,387 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "94cc13bc-8f74-45f7-95b1-a46788eb60dc",
+  "name": {
+    "en": "Starter Deck Luke - Explosive Supremacy! Dragias!!",
+    "ja": "\u30b9\u30bf\u30fc\u30bf\u30fc\u30c7\u30c3\u30ad \u30eb\u30fc\u30af \uff0d\u7206\u88c2\u8987\u9053\uff01 \u30c9\u30e9\u30ae\u30a2\u30b9\uff01\uff01\uff0d",
+    "ko": "\uc2a4\ud0c0\ud130 \ub371 \ub8e8\ud06c \u2013\ud3ed\ub82c\ud328\ub3c4! \ub4dc\ub77c\uae30\uc544\uc2a4!!\u2013"
+  },
+  "locales": {
+    "jp": {
+      "language": "ja",
+      "prefix": "RD/ST02-JP",
+      "date": "2020-04-04",
+      "image": "https://ms.yugipedia.com//f/fe/RDST02-DeckJP.png",
+      "cardImages": {
+        "unlimited": {}
+      },
+      "cardInfo": {
+        "unlimited": {}
+      },
+      "formats": [
+        "rushduel"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          1000100101000
+        ]
+      }
+    },
+    "kr": {
+      "language": "ko",
+      "prefix": "RD/ST02-KR",
+      "date": "2020-12-02",
+      "image": "https://ms.yugipedia.com//d/d9/RDST02-DeckKR.png",
+      "cardImages": {
+        "unlimited": {}
+      },
+      "cardInfo": {
+        "unlimited": {}
+      },
+      "formats": [
+        "rushduel"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          1010100002000
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "rushduel"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//f/fe/RDST02-DeckJP.png",
+      "cards": [
+        {
+          "id": "1cf8a036-d98a-4682-9a6a-6a6f1f6793f9",
+          "card": "a0d8b57e-2dec-49d5-ab97-80246dc45519",
+          "suffix": "001",
+          "rarity": "superparallel",
+          "printStatus": "new"
+        },
+        {
+          "id": "954801be-f6e2-4be4-9244-1f88960597a9",
+          "card": "e345ebf2-8df2-4bf6-a02a-15a82474eb83",
+          "suffix": "002",
+          "rarity": "rare",
+          "imageID": "f12caf35-e94d-4411-852e-a58cedbd031e",
+          "printStatus": "new"
+        },
+        {
+          "id": "eb7095fc-b892-44a6-aec9-d9e3da097c55",
+          "card": "e345ebf2-8df2-4bf6-a02a-15a82474eb83",
+          "suffix": "002",
+          "rarity": "common",
+          "imageID": "f12caf35-e94d-4411-852e-a58cedbd031e",
+          "qty": 2,
+          "printStatus": "new"
+        },
+        {
+          "id": "68633571-f378-4970-b49a-e2ec3e62d1c1",
+          "card": "9f000b27-19fa-4bb3-b982-34392c0e371f",
+          "suffix": "003",
+          "rarity": "common",
+          "imageID": "bc35c179-4863-492f-980f-19a677ca05c9",
+          "qty": 3,
+          "printStatus": "new"
+        },
+        {
+          "id": "fc7fc6c8-ec33-4324-903a-d7fba9c95204",
+          "card": "1625fc43-f6ed-4002-b67f-bf23882556cb",
+          "suffix": "004",
+          "rarity": "common",
+          "qty": 3,
+          "printStatus": "new"
+        },
+        {
+          "id": "0fb2c80a-ecbd-4889-8207-bc042c93b7be",
+          "card": "a7739c63-ef00-41c7-9e19-9f29cd537a42",
+          "suffix": "005",
+          "rarity": "common",
+          "imageID": "4ecea656-8b84-48eb-ac2b-86c97c31c8be",
+          "qty": 3,
+          "printStatus": "new"
+        },
+        {
+          "id": "25e000c4-0b20-47ab-8101-ef97e5399938",
+          "card": "caacb75e-18a6-4d3a-bb92-500e3d3341da",
+          "suffix": "006",
+          "rarity": "rare",
+          "imageID": "8ee27f8f-ebee-4c01-8096-c3ddcbecaa74",
+          "printStatus": "new"
+        },
+        {
+          "id": "69a0e0a5-3679-459f-8a3d-dd257fa63dff",
+          "card": "caacb75e-18a6-4d3a-bb92-500e3d3341da",
+          "suffix": "006",
+          "rarity": "common",
+          "imageID": "8ee27f8f-ebee-4c01-8096-c3ddcbecaa74",
+          "qty": 2,
+          "printStatus": "new"
+        },
+        {
+          "id": "2c149f2a-1f8e-454b-8749-3adbdf29dbca",
+          "card": "735c78f1-cc35-43d2-bb64-03b09a7b3422",
+          "suffix": "007",
+          "rarity": "common",
+          "imageID": "96bec777-c0ef-49a6-826f-81e1e7a66eb3",
+          "qty": 3,
+          "printStatus": "new"
+        },
+        {
+          "id": "eb780fbe-ca14-451e-991f-b8db3ab91b73",
+          "card": "31e37415-b236-4fcc-aa0e-7dcd733c43d9",
+          "suffix": "008",
+          "rarity": "common",
+          "imageID": "390edb9c-db89-4ac9-9ade-f7fe5911b163",
+          "qty": 3,
+          "printStatus": "new"
+        },
+        {
+          "id": "61297f8e-5be8-4d41-921a-b5b6cfa9fbc1",
+          "card": "7a17715e-ea89-4700-9b87-dc3c32fc263c",
+          "suffix": "009",
+          "rarity": "common",
+          "imageID": "2ea479bf-4ec3-4687-a432-ed7fc1e38ed6",
+          "qty": 3,
+          "printStatus": "new"
+        },
+        {
+          "id": "629c4b39-f1b5-43bd-b14f-f3df481750d1",
+          "card": "333bf77b-b927-4ed0-91a0-6b67ca767efb",
+          "suffix": "010",
+          "rarity": "common",
+          "qty": 3,
+          "printStatus": "new"
+        },
+        {
+          "id": "8624730d-c4bb-47c3-9c0e-e39463e01fdc",
+          "card": "bc158311-2c1c-4491-a81b-d08b03797713",
+          "suffix": "011",
+          "rarity": "rare",
+          "imageID": "424d1aa9-d89c-4142-80eb-1c4a286a87a8",
+          "printStatus": "new"
+        },
+        {
+          "id": "27d02977-ac33-4a99-9caf-aceaef9103d5",
+          "card": "bc158311-2c1c-4491-a81b-d08b03797713",
+          "suffix": "011",
+          "rarity": "common",
+          "imageID": "424d1aa9-d89c-4142-80eb-1c4a286a87a8",
+          "qty": 2,
+          "printStatus": "new"
+        },
+        {
+          "id": "04f6d854-670f-41df-b2da-25d183285640",
+          "card": "849a9ca8-57dc-4491-9993-6ef6ba722e39",
+          "suffix": "012",
+          "rarity": "common",
+          "imageID": "bca960b2-c115-490f-8fb7-f9b7c99005de",
+          "qty": 3,
+          "printStatus": "new"
+        },
+        {
+          "id": "9f1799d7-13d7-4d37-8c49-f4d228584d10",
+          "card": "c819d256-d433-4aad-b54c-59ebc0fd9a7f",
+          "suffix": "013",
+          "rarity": "common",
+          "imageID": "c8babdb1-d8a4-45ad-9628-cd522087520e",
+          "qty": 3,
+          "printStatus": "new"
+        },
+        {
+          "id": "905a7578-6ff7-482f-a9fc-d0de5193e6bd",
+          "card": "730c1b3e-5da9-4911-a297-23f97e1117e3",
+          "suffix": "014",
+          "rarity": "common",
+          "imageID": "2d232479-dd77-4b88-8fde-41766a59af3f",
+          "qty": 3,
+          "printStatus": "new"
+        }
+      ],
+      "externalIDs": {}
+    },
+    {
+      "locales": [
+        "kr"
+      ],
+      "formats": [
+        "rushduel"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//d/d9/RDST02-DeckKR.png",
+      "cards": [
+        {
+          "id": "1cf8a036-d98a-4682-9a6a-6a6f1f6793f9",
+          "card": "a0d8b57e-2dec-49d5-ab97-80246dc45519",
+          "suffix": "001",
+          "rarity": "superparallel",
+          "printStatus": "new"
+        },
+        {
+          "id": "954801be-f6e2-4be4-9244-1f88960597a9",
+          "card": "e345ebf2-8df2-4bf6-a02a-15a82474eb83",
+          "suffix": "002",
+          "rarity": "rare",
+          "imageID": "f12caf35-e94d-4411-852e-a58cedbd031e",
+          "printStatus": "new"
+        },
+        {
+          "id": "eb7095fc-b892-44a6-aec9-d9e3da097c55",
+          "card": "e345ebf2-8df2-4bf6-a02a-15a82474eb83",
+          "suffix": "002",
+          "rarity": "common",
+          "imageID": "f12caf35-e94d-4411-852e-a58cedbd031e",
+          "qty": 2,
+          "printStatus": "new"
+        },
+        {
+          "id": "68633571-f378-4970-b49a-e2ec3e62d1c1",
+          "card": "9f000b27-19fa-4bb3-b982-34392c0e371f",
+          "suffix": "003",
+          "rarity": "common",
+          "imageID": "bc35c179-4863-492f-980f-19a677ca05c9",
+          "qty": 3,
+          "printStatus": "new"
+        },
+        {
+          "id": "fc7fc6c8-ec33-4324-903a-d7fba9c95204",
+          "card": "1625fc43-f6ed-4002-b67f-bf23882556cb",
+          "suffix": "004",
+          "rarity": "common",
+          "qty": 3,
+          "printStatus": "new"
+        },
+        {
+          "id": "0fb2c80a-ecbd-4889-8207-bc042c93b7be",
+          "card": "a7739c63-ef00-41c7-9e19-9f29cd537a42",
+          "suffix": "005",
+          "rarity": "common",
+          "imageID": "4ecea656-8b84-48eb-ac2b-86c97c31c8be",
+          "qty": 3,
+          "printStatus": "new"
+        },
+        {
+          "id": "25e000c4-0b20-47ab-8101-ef97e5399938",
+          "card": "caacb75e-18a6-4d3a-bb92-500e3d3341da",
+          "suffix": "006",
+          "rarity": "rare",
+          "imageID": "8ee27f8f-ebee-4c01-8096-c3ddcbecaa74",
+          "printStatus": "new"
+        },
+        {
+          "id": "69a0e0a5-3679-459f-8a3d-dd257fa63dff",
+          "card": "caacb75e-18a6-4d3a-bb92-500e3d3341da",
+          "suffix": "006",
+          "rarity": "common",
+          "imageID": "8ee27f8f-ebee-4c01-8096-c3ddcbecaa74",
+          "qty": 2,
+          "printStatus": "new"
+        },
+        {
+          "id": "2c149f2a-1f8e-454b-8749-3adbdf29dbca",
+          "card": "735c78f1-cc35-43d2-bb64-03b09a7b3422",
+          "suffix": "007",
+          "rarity": "common",
+          "imageID": "96bec777-c0ef-49a6-826f-81e1e7a66eb3",
+          "qty": 3,
+          "printStatus": "new"
+        },
+        {
+          "id": "eb780fbe-ca14-451e-991f-b8db3ab91b73",
+          "card": "31e37415-b236-4fcc-aa0e-7dcd733c43d9",
+          "suffix": "008",
+          "rarity": "common",
+          "imageID": "390edb9c-db89-4ac9-9ade-f7fe5911b163",
+          "qty": 3,
+          "printStatus": "new"
+        },
+        {
+          "id": "61297f8e-5be8-4d41-921a-b5b6cfa9fbc1",
+          "card": "7a17715e-ea89-4700-9b87-dc3c32fc263c",
+          "suffix": "009",
+          "rarity": "common",
+          "imageID": "2ea479bf-4ec3-4687-a432-ed7fc1e38ed6",
+          "qty": 3,
+          "printStatus": "new"
+        },
+        {
+          "id": "629c4b39-f1b5-43bd-b14f-f3df481750d1",
+          "card": "333bf77b-b927-4ed0-91a0-6b67ca767efb",
+          "suffix": "010",
+          "rarity": "common",
+          "qty": 3,
+          "printStatus": "new"
+        },
+        {
+          "id": "8624730d-c4bb-47c3-9c0e-e39463e01fdc",
+          "card": "bc158311-2c1c-4491-a81b-d08b03797713",
+          "suffix": "011",
+          "rarity": "rare",
+          "imageID": "424d1aa9-d89c-4142-80eb-1c4a286a87a8",
+          "printStatus": "new"
+        },
+        {
+          "id": "27d02977-ac33-4a99-9caf-aceaef9103d5",
+          "card": "bc158311-2c1c-4491-a81b-d08b03797713",
+          "suffix": "011",
+          "rarity": "common",
+          "imageID": "424d1aa9-d89c-4142-80eb-1c4a286a87a8",
+          "qty": 2,
+          "printStatus": "new"
+        },
+        {
+          "id": "04f6d854-670f-41df-b2da-25d183285640",
+          "card": "849a9ca8-57dc-4491-9993-6ef6ba722e39",
+          "suffix": "012",
+          "rarity": "common",
+          "imageID": "bca960b2-c115-490f-8fb7-f9b7c99005de",
+          "qty": 3,
+          "printStatus": "new"
+        },
+        {
+          "id": "9f1799d7-13d7-4d37-8c49-f4d228584d10",
+          "card": "c819d256-d433-4aad-b54c-59ebc0fd9a7f",
+          "suffix": "013",
+          "rarity": "common",
+          "imageID": "c8babdb1-d8a4-45ad-9628-cd522087520e",
+          "qty": 3,
+          "printStatus": "new"
+        },
+        {
+          "id": "905a7578-6ff7-482f-a9fc-d0de5193e6bd",
+          "card": "730c1b3e-5da9-4911-a297-23f97e1117e3",
+          "suffix": "014",
+          "rarity": "common",
+          "imageID": "2d232479-dd77-4b88-8fde-41766a59af3f",
+          "qty": 3,
+          "printStatus": "new"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Starter Deck Luke - Explosive Supremacy! Dragias!!",
+      "id": 720278
+    }
+  }
+}

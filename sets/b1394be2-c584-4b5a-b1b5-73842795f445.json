@@ -1,0 +1,81 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "b1394be2-c584-4b5a-b1b5-73842795f445",
+  "name": {
+    "en": "I Park Mall Pop-Up Special Pack A",
+    "ko": "I PARK MALL POP-UP \ud2b9\ubcc4 \ud329 A"
+  },
+  "locales": {
+    "kr": {
+      "language": "ko",
+      "prefix": "26IM-KRA",
+      "date": "2026-10-15",
+      "image": "https://ms.yugipedia.com//2/21/26IMA-BoosterKR.png",
+      "cardImages": {
+        "unlimited": {}
+      },
+      "cardInfo": {
+        "unlimited": {}
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          1010001731000
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "kr"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//2/21/26IMA-BoosterKR.png",
+      "cards": [
+        {
+          "id": "094e59dd-01c8-4b27-8ad8-c23e155e06ea",
+          "card": "1bad35dc-8170-45bd-a93a-a7c8afea71ce",
+          "suffix": "01",
+          "rarity": "secret",
+          "imageID": "0e1ba733-f5eb-4975-b4e8-1041223a4c0e",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "2b885b14-b7bd-4028-a575-4fd954d3d8d1",
+          "card": "1bad35dc-8170-45bd-a93a-a7c8afea71ce",
+          "suffix": "02",
+          "rarity": "secret",
+          "imageID": "0e1ba733-f5eb-4975-b4e8-1041223a4c0e",
+          "printStatus": "reprint",
+          "printNote": "New artwork"
+        },
+        {
+          "id": "90434749-5414-4711-b8c9-2f7de6de136b",
+          "card": "13314cd5-7dde-4265-b71a-ac433e0219b1",
+          "suffix": "03",
+          "rarity": "secret",
+          "imageID": "6fe8ede4-94bb-4738-a3b3-8f92ee884715",
+          "printStatus": "reprint"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "I Park Mall Pop-Up Special Pack A",
+      "id": 1232442
+    }
+  }
+}

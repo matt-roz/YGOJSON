@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "626fa96d-11e8-46e0-9fe9-98aadcd6be84",
+  "text": {
+    "en": {
+      "name": "Dynamight Dino Dynamix [L]",
+      "effect": "Return 1 monster from your opponent's field to the owner's hand.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u5927\u5263\u7adc\u99d5\u30c0\u30a4\u30ca\uff0d\u30df\u30af\u30b9\uff3b\uff2c\uff3d",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u3092\u9078\u3093\u3067\u6301\u3061\u4e3b\u306e\u624b\u672d\u306b\u623b\u3059\u3002"
+    },
+    "ko": {
+      "name": "\ub300\uac80\ub8e1\uac00 \ub2e4\uc774\ub108\uff0d\ubbf9\uc2a4[L]",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \ubaac\uc2a4\ud130 1\uc7a5\uc744 \uace0\ub974\uace0 \uc8fc\uc778\uc758 \ud328\ub85c \ub418\ub3cc\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "dinosaur",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1300,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "49888d10-6b42-4286-8b42-dccd61edc83c",
+      "card": "https://ms.yugipedia.com//0/0a/DynamightDinoDynamixL-RDTB02-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Dynamight Dino Dynamix (L)",
+        "id": 1099436
+      }
+    ],
+    "dbID": 21089
+  },
+  "series": [
+    "34abd7ad-23eb-4078-a140-43c367297c26"
+  ]
+}

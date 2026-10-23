@@ -1,0 +1,48 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "8c695dfb-266e-45a5-b864-3db1ea8d4151",
+  "text": {
+    "en": {
+      "name": "Star Replete of the Star Sanctuary",
+      "effect": "Destroy up to 2 Spell/Trap Cards on your opponent's field. Then, this card inflicts piercing battle damage this turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u661f\u57df\u306e\u30b9\u30bf\u30fc\u30fb\u30ea\u30d7\u30ea\u30fc\u30c8",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u9b54\u6cd5\u30fb\u7f60\u30ab\u30fc\u30c9\u3092\uff12\u679a\u307e\u3067\u9078\u3093\u3067\u7834\u58ca\u3059\u308b\u3002\u3055\u3089\u306b\u3053\u306e\u30bf\u30fc\u30f3\u3001\u3053\u306e\u30ab\u30fc\u30c9\u306e\u653b\u6483\u306f\u8cab\u901a\u3059\u308b\u3002"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "dragon",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 2800,
+  "def": 2800,
+  "passwords": [],
+  "images": [
+    {
+      "id": "2314b170-3d31-4c7e-983e-af3448e10fbc",
+      "card": "https://ms.yugipedia.com//c/cb/StarRepleteoftheStarSanctuary-RDAP03-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Star Replete of the Star Sanctuary",
+        "id": 1203873
+      }
+    ],
+    "dbID": 23446
+  },
+  "series": [
+    "2c65f746-fbfd-4e06-a9f8-ace9050c9c95"
+  ]
+}

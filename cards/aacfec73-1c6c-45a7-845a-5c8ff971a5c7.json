@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "aacfec73-1c6c-45a7-845a-5c8ff971a5c7",
+  "text": {
+    "en": {
+      "name": "Nelkrita the Skysavior Hadal",
+      "effect": "Your Celestial Warrior, Warrior, and Fairy Type monsters equipped with an Equip Spell Card inflict piercing battle damage.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u84bc\u6551\u306e\u6666\u51a5 \u30cd\u30eb\u30af\u30ea\u30bf",
+      "effect": "\u88c5\u5099\u9b54\u6cd5\u30ab\u30fc\u30c9\u3092\u88c5\u5099\u3057\u3066\u3044\u308b\u81ea\u5206\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u5929\u754c\u6226\u58eb\u65cf\u30fb\u6226\u58eb\u65cf\u30fb\u5929\u4f7f\u65cf\uff09\u306e\u653b\u6483\u306f\u8cab\u901a\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ucc3d\uad6c\uc758 \ud68c\uba85 \ub12c\ud06c\ub9ac\ud0c0",
+      "effect": "\uc7a5\ucc29 \ub9c8\ubc95 \uce74\ub4dc\ub97c \uc7a5\ucc29\ud558\uace0 \uc788\ub294 \uc790\uc2e0 \ubaac\uc2a4\ud130(\ucc9c\uacc4\uc804\uc0ac\uc871\u30fb\uc804\uc0ac\uc871\u30fb\ucc9c\uc0ac\uc871)\uc758 \uacf5\uaca9\uc740 \uad00\ud1b5\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "classifications": [
+    "effect"
+  ],
+  "level": 9,
+  "atk": 2800,
+  "def": 2300,
+  "passwords": [],
+  "images": [
+    {
+      "id": "cb1b6183-6f58-46dc-a6a5-80b0fa6d104e",
+      "card": "https://ms.yugipedia.com//5/5c/NelkritatheSkysaviorHadal-RDB261-JP-NPR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Nelkrita the Skysavior Hadal",
+        "id": 1043011
+      }
+    ],
+    "dbID": 19994
+  },
+  "series": [
+    "ca246ec0-d926-4a5f-b983-145ffb05a55c"
+  ]
+}

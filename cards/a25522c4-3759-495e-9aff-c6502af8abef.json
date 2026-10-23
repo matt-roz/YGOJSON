@@ -1,0 +1,40 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "a25522c4-3759-495e-9aff-c6502af8abef",
+  "text": {
+    "en": {
+      "name": "X-Head Cannon (Rush Duel)",
+      "effect": "A monster with a mighty cannon barrel, it is able to integrate its attacks. It attacks in many ways by combining and separating with other monsters."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "machine",
+  "classifications": [
+    "normal"
+  ],
+  "level": 4,
+  "atk": 1800,
+  "def": 1500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "20b466bd-68e6-44cf-8406-1e24c3d2ff16",
+      "card": "https://ms.yugipedia.com//1/10/XHeadCannon-RDAP03-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "X-Head Cannon (Rush Duel)",
+        "id": 1196060
+      }
+    ],
+    "dbID": 23469
+  },
+  "series": [
+    "55d07b9d-24c6-4be1-9101-c7e5785a9c49"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "d0d3563e-8566-4e1c-9052-6dca898071cb",
+  "text": {
+    "en": {
+      "name": "Moonforce Ziggy",
+      "effect": "Choose 1 face-up Level 8 or lower monster on your opponent's field. During your opponent's next turn, your opponent cannot attack with that monster. Then, you can place 1 monster from your Graveyard on the bottom of the Deck. If you do, this card gains 500 DEF until the end of your opponent's next turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30e0\u30fc\u30f3\u30d5\u30a9\u30fc\u30b9\u30fb\u30ba\u30a3\u30b8\u30fc",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff18\u4ee5\u4e0b\uff09\uff11\u4f53\u3092\u9078\u3076\u3002\u6b21\u306e\u76f8\u624b\u30bf\u30fc\u30f3\u3001\u76f8\u624b\u306f\u305d\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u3067\u653b\u6483\u3067\u304d\u306a\u3044\u3002\u3055\u3089\u306b\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u3092\u9078\u3093\u3067\u30c7\u30c3\u30ad\u306e\u4e0b\u306b\u623b\u3059\u4e8b\u304c\u3067\u304d\u308b\u3002\u623b\u3057\u305f\u5834\u5408\u3001\u3053\u306e\u30ab\u30fc\u30c9\u306e\u5b88\u5099\u529b\u306f\u6b21\u306e\u76f8\u624b\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\uff15\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ubb38\ud3ec\uc2a4 \uc9c0\uc9c0",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\ub808\ubca8 8 \uc774\ud558) 1\uc7a5\uc744 \uace0\ub978\ub2e4. \ub2e4\uc74c \uc0c1\ub300 \ud134\uc5d0, \uc0c1\ub300\ub294 \uadf8 \ubaac\uc2a4\ud130\ub85c \uacf5\uaca9\ud560 \uc218 \uc5c6\ub2e4. \ucd94\uac00\ub85c, \uc790\uc2e0 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130 1\uc7a5\uc744 \uace0\ub974\uace0 \ub371 \uc544\ub798\ub85c \ub418\ub3cc\ub9b4 \uc218 \uc788\ub2e4. \ub418\ub3cc\ub838\uc744 \uacbd\uc6b0, \uc774 \uce74\ub4dc\uc758 \uc218\ube44\ub825\uc740 \ub2e4\uc74c \uc0c1\ub300 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0 500 \uc62c\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 0,
+  "def": 1400,
+  "passwords": [],
+  "images": [
+    {
+      "id": "910e22d6-b67a-4210-b9b9-7440d51706f0",
+      "card": "https://ms.yugipedia.com//1/1a/MoonforceZiggy-RDKP24-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Moonforce Ziggy",
+        "id": 1163456
+      }
+    ],
+    "dbID": 22844
+  },
+  "series": [
+    "1d849c21-e080-46d9-8477-f72044a333e0"
+  ]
+}

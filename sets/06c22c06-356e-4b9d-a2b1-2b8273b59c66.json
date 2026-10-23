@@ -1,0 +1,130 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "06c22c06-356e-4b9d-a2b1-2b8273b59c66",
+  "name": {
+    "en": "Battle City Tournament Kit"
+  },
+  "locales": {
+    "en": {
+      "language": "en",
+      "prefix": "TKN4-EN",
+      "cardImages": {
+        "unlimited": {
+          "0ac7de41-6f8a-4b8b-987e-83a32bb30096": "https://ms.yugipedia.com//e/ea/Token-TKN4-EN-SR-UE-OjamaBlue.png",
+          "2e98194c-6044-4221-b699-290a5abcee03": "https://ms.yugipedia.com//7/79/Token-TKN4-EN-SR-UE-OjamaRed.png",
+          "3f340345-b302-4b16-865a-319b5225f310": "https://ms.yugipedia.com//1/14/Token-TKN4-EN-SR-UE-MechaPhantomBeast.png",
+          "611e9128-c6e2-4584-8c35-08a43c703557": "https://ms.yugipedia.com//2/25/Token-TKN4-EN-SR-UE-OjamaYellow.png",
+          "b72ac607-a867-4e6e-a463-d7f4251cc350": "https://ms.yugipedia.com//a/ae/Token-TKN4-EN-SR-UE-OjamaGreen.png",
+          "b9ec2b59-c384-4592-8aa6-ca1021bf340b": "https://ms.yugipedia.com//c/ce/Token-TKN4-EN-SR-UE-OjamaBlack.png",
+          "ce93cd2a-4164-42f4-90d8-105e33508fb5": "https://ms.yugipedia.com//7/78/Token-TKN4-EN-SR-UE-BattleCity.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "0ac7de41-6f8a-4b8b-987e-83a32bb30096": {
+            "image": "https://ms.yugipedia.com//e/ea/Token-TKN4-EN-SR-UE-OjamaBlue.png"
+          },
+          "2e98194c-6044-4221-b699-290a5abcee03": {
+            "image": "https://ms.yugipedia.com//7/79/Token-TKN4-EN-SR-UE-OjamaRed.png"
+          },
+          "3f340345-b302-4b16-865a-319b5225f310": {
+            "image": "https://ms.yugipedia.com//1/14/Token-TKN4-EN-SR-UE-MechaPhantomBeast.png"
+          },
+          "611e9128-c6e2-4584-8c35-08a43c703557": {
+            "image": "https://ms.yugipedia.com//2/25/Token-TKN4-EN-SR-UE-OjamaYellow.png"
+          },
+          "b72ac607-a867-4e6e-a463-d7f4251cc350": {
+            "image": "https://ms.yugipedia.com//a/ae/Token-TKN4-EN-SR-UE-OjamaGreen.png"
+          },
+          "b9ec2b59-c384-4592-8aa6-ca1021bf340b": {
+            "image": "https://ms.yugipedia.com//c/ce/Token-TKN4-EN-SR-UE-OjamaBlack.png"
+          },
+          "ce93cd2a-4164-42f4-90d8-105e33508fb5": {
+            "image": "https://ms.yugipedia.com//7/78/Token-TKN4-EN-SR-UE-BattleCity.png"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {}
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "en"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "distrobution": "cbef3c5e-2ed0-4dae-8568-26577ad0564a",
+      "editions": [
+        "unlimited"
+      ],
+      "cards": [
+        {
+          "id": "611e9128-c6e2-4584-8c35-08a43c703557",
+          "card": "0616ad66-1b02-4d5f-8f63-11672f8e0a13",
+          "suffix": "008",
+          "rarity": "super",
+          "imageID": "c9d48dcf-607f-4b82-892e-a509392ef830"
+        },
+        {
+          "id": "b9ec2b59-c384-4592-8aa6-ca1021bf340b",
+          "card": "0616ad66-1b02-4d5f-8f63-11672f8e0a13",
+          "suffix": "009",
+          "rarity": "super",
+          "imageID": "c9d48dcf-607f-4b82-892e-a509392ef830"
+        },
+        {
+          "id": "b72ac607-a867-4e6e-a463-d7f4251cc350",
+          "card": "0616ad66-1b02-4d5f-8f63-11672f8e0a13",
+          "suffix": "010",
+          "rarity": "super",
+          "imageID": "c9d48dcf-607f-4b82-892e-a509392ef830"
+        },
+        {
+          "id": "0ac7de41-6f8a-4b8b-987e-83a32bb30096",
+          "card": "0616ad66-1b02-4d5f-8f63-11672f8e0a13",
+          "suffix": "011",
+          "rarity": "super",
+          "imageID": "c9d48dcf-607f-4b82-892e-a509392ef830"
+        },
+        {
+          "id": "2e98194c-6044-4221-b699-290a5abcee03",
+          "card": "0616ad66-1b02-4d5f-8f63-11672f8e0a13",
+          "suffix": "012",
+          "rarity": "super",
+          "imageID": "c9d48dcf-607f-4b82-892e-a509392ef830"
+        },
+        {
+          "id": "3f340345-b302-4b16-865a-319b5225f310",
+          "card": "0616ad66-1b02-4d5f-8f63-11672f8e0a13",
+          "suffix": "013",
+          "rarity": "super",
+          "imageID": "c9d48dcf-607f-4b82-892e-a509392ef830"
+        },
+        {
+          "id": "ce93cd2a-4164-42f4-90d8-105e33508fb5",
+          "card": "0616ad66-1b02-4d5f-8f63-11672f8e0a13",
+          "suffix": "014",
+          "rarity": "super",
+          "imageID": "c9d48dcf-607f-4b82-892e-a509392ef830"
+        }
+      ],
+      "externalIDs": {
+        "ygoprodeck": "Battle City Tournament Kit"
+      }
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Battle City Tournament Kit",
+      "id": 306959
+    }
+  }
+}

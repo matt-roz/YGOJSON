@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "7816f764-4706-49af-890f-9556c54d9a57",
+  "text": {
+    "en": {
+      "name": "Mad Rare Gramma",
+      "effect": "You cannot Special Summon monsters. Face-up monsters on your opponent's field lose 500 ATK/DEF. If you have \"Mad Rare Chreia\" in your Graveyard, this card cannot be destroyed by your opponent's card effects.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30de\u30c3\u30c9\u30ec\u30a2\u30fb\u30b0\u30e9\u30de"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "spellcaster",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 2500,
+  "def": 1100,
+  "passwords": [],
+  "images": [
+    {
+      "id": "b50bd56e-60ac-4275-b7e0-95b91aaf6026",
+      "card": "https://ms.yugipedia.com//1/11/MadRareGramma-RDKP27-JP-OP.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Mad Rare Gramma",
+        "id": 1233618
+      }
+    ]
+  },
+  "series": []
+}

@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "0237220b-9368-42ef-85d1-4338d226f2f0",
+  "text": {
+    "en": {
+      "name": "Vande the Electric Lion",
+      "effect": "Send cards from the top of your Deck to the Graveyard equal to [the number of face-up Pyro, Aqua, and Thunder Type monsters on your field] x2."
+    },
+    "ja": {
+      "name": "\u96fb\u7345\u5b50\u30d0\u30f3\u30c7",
+      "effect": "\u81ea\u5206\u306e\u30c7\u30c3\u30ad\u306e\u4e0a\u304b\u3089\u30ab\u30fc\u30c9\u3092\uff3b\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u708e\u65cf\u30fb\u6c34\u65cf\u30fb\u96f7\u65cf\uff09\u306e\u6570\uff3d\u00d7\uff12\u679a\u5893\u5730\u3078\u9001\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc804\uc0ac\uc790 \ubc34\ub370",
+      "effect": "\uc790\uc2e0\uc758 \ub371 \uc704\uc5d0\uc11c \uce74\ub4dc\ub97c [\uc790\uc2e0 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\ud654\uc5fc\uc871\u30fb\ubb3c\uc871\u30fb\ubc88\uac1c\uc871)\uc758 \uc218] \u00d7 2\uc7a5 \ubb18\uc9c0\ub85c \ubcf4\ub0b8\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "type": "thunder",
+  "classifications": [
+    "effect"
+  ],
+  "level": 2,
+  "atk": 600,
+  "def": 700,
+  "passwords": [],
+  "images": [
+    {
+      "id": "eb906a90-889a-4178-94b9-33390aabe00c",
+      "card": "https://ms.yugipedia.com//b/bb/VandetheElectricLion-RDKP16-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Vande the Electric Lion",
+        "id": 1041823
+      }
+    ],
+    "dbID": 19967
+  },
+  "series": [
+    "0d251edd-435a-4124-a397-93aa376c601d"
+  ]
+}

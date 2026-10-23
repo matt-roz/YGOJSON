@@ -1,0 +1,43 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "ba6e686f-07eb-4ba7-be63-c5cbcd05da15",
+  "text": {
+    "en": {
+      "name": "The Lady's Protectors (Rush Duel)",
+      "effect": "If this card attacks your opponent directly and reduces their LP to 0, you win the Match."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "beastwarrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2000,
+  "def": 2500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "25ffdc2a-90d4-412b-b589-ecb2974a8419",
+      "card": "https://ms.yugipedia.com//4/4b/TheLadysProtectors-RD2025-EN-ORR.png"
+    }
+  ],
+  "sets": [
+    "c6f99ccf-8665-4f42-b502-8cf890a570b6"
+  ],
+  "illegal": true,
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "The Lady's Protectors (Rush Duel)",
+        "id": 1143999
+      }
+    ],
+    "dbID": 21970
+  },
+  "series": [
+    "2572d2bf-aa08-42a8-81df-a074cca75fd6"
+  ]
+}

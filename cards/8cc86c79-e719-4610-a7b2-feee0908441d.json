@@ -1,0 +1,54 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "8cc86c79-e719-4610-a7b2-feee0908441d",
+  "text": {
+    "en": {
+      "name": "Yuri the Shadow Flower Fiend",
+      "effect": "Each player sends the top card of their Deck to the Graveyard."
+    },
+    "ja": {
+      "name": "\u82b1\u7259\u9b3c\u306e\u30e6\u30ea",
+      "effect": "\u304a\u4e92\u3044\u306e\u30c7\u30c3\u30ad\u306e\u4e00\u756a\u4e0a\u306e\u30ab\u30fc\u30c9\u3092\u5893\u5730\u3078\u9001\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud654\uc544\uadc0\uc758 \uc720\ub9ac",
+      "effect": "\uc11c\ub85c\uc758 \ub371 \ub9e8 \uc704\uc758 \uce74\ub4dc\ub97c \ubb18\uc9c0\ub85c \ubcf4\ub0b8\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "plant",
+  "classifications": [
+    "effect"
+  ],
+  "level": 2,
+  "atk": 500,
+  "def": 500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "4db865fa-cfd8-4cb6-81a7-4e809007e2ea",
+      "card": "https://ms.yugipedia.com//b/be/YuritheShadowFlowerFiend-RDGRP1-JP-C.png"
+    }
+  ],
+  "sets": [
+    "22e8bcf0-2b4c-48d0-87e4-2a51d0f0129e",
+    "9fedf2d0-5ae8-4861-b6f6-654c2d8aefeb"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "r"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Yuri the Shadow Flower Fiend",
+        "id": 717562
+      }
+    ],
+    "dbID": 16286
+  },
+  "series": [
+    "676650a4-b6a3-4ba4-9d96-aebea1e7fca2"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "ea1d64de-614f-4f4c-ac7b-6f28ed4e421f",
+  "text": {
+    "en": {
+      "name": "The Royal Crown of Zeil",
+      "effect": "Equip this card to 1 face-up DARK Attribute Warrior Type monster on your field that is not equipped with \"The Royal Crown of Zeil\" as an Equip Spell Card with the following effect. \u25cfThe equipped monster gains 500 DEF, and it cannot be returned to the hand/Deck/Extra Deck by card effects.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30bc\u30a4\u30eb\u306e\u738b\u51a0"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "abilities": [
+    "union"
+  ],
+  "level": 1,
+  "atk": 1000,
+  "def": 500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "dd05ece6-31bd-4e48-835e-f917ac9e2f54",
+      "card": "https://ms.yugipedia.com//7/7d/TheRoyalCrownofZeil-RDKP27-JP-OP.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "The Royal Crown of Zeil",
+        "id": 1235368
+      }
+    ]
+  },
+  "series": []
+}

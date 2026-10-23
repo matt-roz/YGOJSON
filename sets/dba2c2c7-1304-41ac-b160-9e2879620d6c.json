@@ -1,0 +1,118 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "dba2c2c7-1304-41ac-b160-9e2879620d6c",
+  "name": {
+    "en": "Coco's x Yu-Gi-Oh! Card Game Anniversary Campaign Part 1",
+    "ja": "\uff23\uff2f\uff23\uff2f\uff07\uff33\u00d7\u904a\u622f\u738b\u30ab\u30fc\u30c9\u30b2\u30fc\u30e0 \u30a2\u30cb\u30d0\u30fc\u30b5\u30ea\u30fc\u30ad\u30e3\u30f3\u30da\u30fc\u30f3 \u7b2c\uff11\u5f3e"
+  },
+  "locales": {
+    "jp": {
+      "language": "ja",
+      "date": "2023-05-16",
+      "image": "https://ms.yugipedia.com//e/e8/CCC1-PromoJP.png",
+      "cardImages": {
+        "unlimited": {
+          "36e02907-3a07-4693-9248-e266546e6fc0": "https://ms.yugipedia.com//c/c5/DarkMagician-CCC1-JP-NPR.png",
+          "477cbde5-e9f8-4e9d-bbe4-d9949fa1d173": "https://ms.yugipedia.com//9/97/ElementalHERONeos-CCC1-JP-NPR.png",
+          "dc27cfba-0a97-4a8d-aaae-587688dba078": "https://ms.yugipedia.com//c/c1/StardustDragon-CCC1-JP-NPR.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "36e02907-3a07-4693-9248-e266546e6fc0": {
+            "image": "https://ms.yugipedia.com//c/c5/DarkMagician-CCC1-JP-NPR.png"
+          },
+          "477cbde5-e9f8-4e9d-bbe4-d9949fa1d173": {
+            "image": "https://ms.yugipedia.com//9/97/ElementalHERONeos-CCC1-JP-NPR.png"
+          },
+          "dc27cfba-0a97-4a8d-aaae-587688dba078": {
+            "image": "https://ms.yugipedia.com//c/c1/StardustDragon-CCC1-JP-NPR.png"
+          }
+        }
+      },
+      "formats": [
+        "rushduel"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          1000008175000,
+          1000100451000
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "rushduel"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//e/e8/CCC1-PromoJP.png",
+      "cards": [
+        {
+          "id": "36e02907-3a07-4693-9248-e266546e6fc0",
+          "card": "c0285d04-cadd-402d-a865-799a182d7510",
+          "suffix": "CCC1-JP001",
+          "rarity": "commonparallel",
+          "printStatus": "reprint",
+          "printNote": "New artwork"
+        },
+        {
+          "id": "477cbde5-e9f8-4e9d-bbe4-d9949fa1d173",
+          "card": "bda59be9-3aaa-44e9-8aa6-11e06c1bfffa",
+          "suffix": "CCC1-JP002",
+          "rarity": "commonparallel",
+          "printStatus": "reprint",
+          "printNote": "New artwork"
+        },
+        {
+          "id": "dc27cfba-0a97-4a8d-aaae-587688dba078",
+          "card": "61d244e6-8ced-4c36-a928-de1d3a0c5a63",
+          "suffix": "CCC1-JP003",
+          "rarity": "commonparallel",
+          "printStatus": "reprint",
+          "printNote": "New artwork"
+        },
+        {
+          "id": "c48e6085-f874-4f8a-91a9-c306cdb8ed13",
+          "card": "5de0ecf8-b5b1-4d33-8992-0b17c3a013df",
+          "suffix": "RD/CCC1-JP001",
+          "rarity": "commonparallel",
+          "printStatus": "reprint",
+          "printNote": "New artwork"
+        },
+        {
+          "id": "15c9d9e5-116f-42d0-857a-a44596af96e1",
+          "card": "a0d8b57e-2dec-49d5-ab97-80246dc45519",
+          "suffix": "RD/CCC1-JP002",
+          "rarity": "commonparallel",
+          "printStatus": "reprint",
+          "printNote": "New artwork"
+        },
+        {
+          "id": "1d6508cc-5efa-4bb8-9013-927bc3717a04",
+          "card": "35b33ce8-ac3e-40f0-b1fc-1ed33a7edac1",
+          "suffix": "RD/CCC1-JP003",
+          "rarity": "commonparallel",
+          "printStatus": "reprint",
+          "printNote": "New artwork"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Coco's x Yu-Gi-Oh! Card Game Anniversary Campaign Part 1",
+      "id": 936251
+    }
+  }
+}

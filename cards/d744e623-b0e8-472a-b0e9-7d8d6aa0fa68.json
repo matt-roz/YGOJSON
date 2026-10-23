@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "d744e623-b0e8-472a-b0e9-7d8d6aa0fa68",
+  "text": {
+    "en": {
+      "name": "Zaborg the Thunder Monarch (Rush Duel)",
+      "effect": "Destroy 1 monster on the field.",
+      "official": false
+    },
+    "ko": {
+      "name": "\ubc88\uac1c \uc81c\uc655 \uc790\ubcf4\ub974\uadf8",
+      "effect": "\uc790\uc2e0 \ub610\ub294 \uc0c1\ub300 \ud544\ub4dc\uc758 \ubaac\uc2a4\ud130 1\uc7a5\uc744 \uace0\ub974\uace0 \ud30c\uad34\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "thunder",
+  "classifications": [
+    "effect"
+  ],
+  "level": 5,
+  "atk": 2400,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "0179e254-62ae-4176-8117-98cca19b1e5c",
+      "card": "https://ms.yugipedia.com//b/ba/ZaborgtheThunderMonarch-RDKP13-JP-R.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Zaborg the Thunder Monarch (Rush Duel)",
+        "id": 930146
+      }
+    ],
+    "dbID": 18949
+  },
+  "series": [
+    "059923a7-4962-4032-a3bb-dab94d3fb38c"
+  ]
+}

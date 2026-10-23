@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "ae592735-54d9-4f9f-aa8e-b43bc8917814",
+  "text": {
+    "en": {
+      "name": "Aqua Leviathan @Marincess",
+      "effect": "You can Ritual Summon this card with a \"Marincess\" card. Monsters your opponent controls lose 1000 ATK. You can only use each of the following effects of \"Aqua Leviathan @Marincess\" once per turn. You can reveal this card in your hand; add 1 \"Marincess\" card from your Deck to your hand, except a Ritual Monster, then discard 1 card. If this card is Ritual Summoned: You can return cards your opponent controls to the hand up to the number of \"Marincess\" Monster Cards you control.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30a2\u30af\u30a2\u30fb\u30ea\u30f4\u30a1\u30a4\u30a2\u30b5\u30f3\uff20\u30de\u30ea\u30f3\u30bb\u30b9"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "monsterCardTypes": [
+    "ritual"
+  ],
+  "type": "cyberse",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2300,
+  "def": 2000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "7fd83f70-958b-45cb-9418-6282d4c5ac8c",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/100460028.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/100460028.jpg"
+    }
+  ],
+  "sets": [
+    "a2b9546b-1f13-4956-8066-3103aaea48d7"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Aqua Leviathan @Marincess",
+        "id": 1233553
+      }
+    ],
+    "ygoprodeck": {
+      "id": 100460028,
+      "name": "aqua-leviathan-marincess-16012"
+    }
+  },
+  "series": []
+}

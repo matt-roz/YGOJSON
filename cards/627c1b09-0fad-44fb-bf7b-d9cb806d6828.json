@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "627c1b09-0fad-44fb-bf7b-d9cb806d6828",
+  "text": {
+    "en": {
+      "name": "Warrior's Devotion",
+      "effect": "Send 1 Warrior monster from your hand or Deck to the GY, then target 1 face-up monster your opponent controls; it loses ATK equal to the sent monster's ATK. If a Warrior monster(s) you control would be destroyed by battle or card effect, you can banish this card from your GY instead. You can only use each effect of \"Warrior's Devotion\" once per turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u6226\u58eb\u306e\u732e\u8eab"
+    }
+  },
+  "cardType": "trap",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "d09a2624-ce42-4fb9-82ad-d962c649392f",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/100463008.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/100463008.jpg"
+    }
+  ],
+  "sets": [
+    "f88b91db-4b6c-4ebc-83e8-44b9d713e8a0"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Warrior's Devotion",
+        "id": 1234310
+      }
+    ],
+    "ygoprodeck": {
+      "id": 100463008,
+      "name": "warrior-s-devotion-16019"
+    }
+  },
+  "series": []
+}

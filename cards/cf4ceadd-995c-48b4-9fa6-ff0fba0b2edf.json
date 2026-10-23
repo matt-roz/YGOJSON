@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "cf4ceadd-995c-48b4-9fa6-ff0fba0b2edf",
+  "text": {
+    "en": {
+      "name": "Lovely Dove",
+      "effect": "Send the top 3 cards of your Deck to the Graveyard. Then, you can add 1 \"Lovely Angel\" or 1 \"Lovely Blessing\" from your Graveyard to your hand."
+    },
+    "ja": {
+      "name": "\u30e9\u30f4\u30fb\u30c0\u30f4",
+      "effect": "\u81ea\u5206\u306e\u30c7\u30c3\u30ad\u306e\u4e0a\u304b\u3089\u30ab\u30fc\u30c9\uff13\u679a\u3092\u5893\u5730\u3078\u9001\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u30e9\u30f4\u30fb\u30a8\u30f3\u30b8\u30a7\u30eb\u300d\uff11\u4f53\u307e\u305f\u306f\u300c\u30e9\u30f4\u30fb\u30bb\u30fc\u30d5\u30c6\u30a3\u300d\uff11\u679a\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub77c\ube0c \ub3c4\ube0c",
+      "effect": "\uc790\uc2e0\uc758 \ub371 \uc704\uc5d0\uc11c \uce74\ub4dc 3\uc7a5\uc744 \ubb18\uc9c0\ub85c \ubcf4\ub0b8\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0 \ubb18\uc9c0\uc758 \"\ub77c\ube0c \uc5d4\uc824\" 1\uc7a5 \ub610\ub294 \"\ub77c\ube0c \uc138\uc774\ud504\ud2f0\" 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\uc744 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "fairy",
+  "classifications": [
+    "effect"
+  ],
+  "level": 2,
+  "atk": 0,
+  "def": 1400,
+  "passwords": [],
+  "images": [
+    {
+      "id": "bd77da13-5973-42ee-a060-cd3a78c4bfe8",
+      "card": "https://ms.yugipedia.com//b/b3/LovelyDove-RDORP2-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Lovely Dove",
+        "id": 1043811
+      }
+    ],
+    "dbID": 20126
+  },
+  "series": [
+    "3e05c54a-8e27-41d6-b076-ee4fab2d19bc"
+  ]
+}

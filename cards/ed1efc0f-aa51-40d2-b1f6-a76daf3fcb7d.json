@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "ed1efc0f-aa51-40d2-b1f6-a76daf3fcb7d",
+  "text": {
+    "en": {
+      "name": "Dimension Channel",
+      "effect": "Increase this card's Level by 4 until the end of this turn. Then, if you shuffled an EARTH Attribute Cyberse Type Ritual Monster to meet the requirement, you can destroy 1 Spell/Trap Card on your opponent's field.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30c7\u30a3\u30e1\u30f3\u30b7\u30e7\u30f3\u30fb\u30c1\u30e3\u30cd\u30eb",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u306e\u30ec\u30d9\u30eb\u306f\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\uff14\u4e0a\u304c\u308b\u3002\u3053\u306e\u52b9\u679c\u306e\u6761\u4ef6\u3067\u30ea\u30c1\u30e5\u30a2\u30eb\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u5730\u5c5e\u6027\uff0f\u30b5\u30a4\u30d0\u30fc\u30b9\u65cf\uff09\u3092\u623b\u3057\u305f\u5834\u5408\u3001\u3055\u3089\u306b\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u9b54\u6cd5\u30fb\u7f60\u30ab\u30fc\u30c9\uff11\u679a\u3092\u9078\u3093\u3067\u7834\u58ca\u3067\u304d\u308b\u3002"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "cyberse",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 700,
+  "def": 500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "4aabc9cc-15e4-4eee-ae2b-fb98eaf2f301",
+      "card": "https://ms.yugipedia.com//8/80/DimensionChannel-RDCA01-JP-UR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Dimension Channel",
+        "id": 1214144
+      }
+    ],
+    "dbID": 23919
+  },
+  "series": [
+    "d520f873-9bf8-48b7-8e88-f2a40eee7c75"
+  ]
+}

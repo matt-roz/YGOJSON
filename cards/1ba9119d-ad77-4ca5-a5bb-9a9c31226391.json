@@ -1,0 +1,50 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "1ba9119d-ad77-4ca5-a5bb-9a9c31226391",
+  "text": {
+    "en": {
+      "name": "Zerato, Angel of the Sanctuary",
+      "effect": "Destroy 1 face-up Level 8 or lower monster on your opponent's field.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u8056\u57df\u306e\u5929\u4f7f\u30bc\u30e9\u30fc\u30c8",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff18\u4ee5\u4e0b\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u7834\u58ca\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc131\uc5ed\uc758 \ucc9c\uc0ac \uc81c\ub77c\ud1a0",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\ub808\ubca8 8 \uc774\ud558) 1\uc7a5\uc744 \uace0\ub974\uace0 \ud30c\uad34\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "monsterCardTypes": [
+    "ritual"
+  ],
+  "type": "fairy",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 2800,
+  "def": 2300,
+  "passwords": [],
+  "images": [
+    {
+      "id": "e313be51-2e6b-4019-9c64-58915f85cb64",
+      "card": "https://ms.yugipedia.com//2/25/ZeratoAngeloftheSanctuary-RDKP22-JP-UR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Zerato, Angel of the Sanctuary",
+        "id": 1135767
+      }
+    ],
+    "dbID": 22011
+  },
+  "series": []
+}

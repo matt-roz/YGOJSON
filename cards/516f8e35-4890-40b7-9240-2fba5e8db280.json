@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "516f8e35-4890-40b7-9240-2fba5e8db280",
+  "text": {
+    "en": {
+      "name": "Elemental HERO Bladedge (Rush Duel)",
+      "effect": "This card inflicts piercing battle damage. During your turn, if \"Skyscraper\" is face-up on the field, this card gains 1000 ATK.",
+      "official": false
+    },
+    "ko": {
+      "name": "\uc5d8\ub9ac\uba58\ud2c0 \ud788\uc5b4\ub85c \uc5d0\uc9c0\ub9e8",
+      "effect": "\uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\uc740 \uad00\ud1b5\ud55c\ub2e4. \uc790\uc2e0 \ud134 \ub3d9\uc548, \uc790\uc2e0 \ub610\ub294 \uc0c1\ub300 \ud544\ub4dc\uc5d0 \uc55e\uba74 \ud45c\uc2dc\uc778 \"\ub9c8\ucc9c\ub8e8\uff0d\uc2a4\uce74\uc774\uc2a4\ud06c\ub808\uc774\ud37c\uff0d\"\uac00 \uc788\uc744 \uacbd\uc6b0, \uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\ub825\uc740 1000 \uc62c\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2600,
+  "def": 1800,
+  "passwords": [],
+  "images": [
+    {
+      "id": "cba0b196-7b24-484d-bd7a-6e70f9b22467",
+      "card": "https://ms.yugipedia.com//8/88/ElementalHEROBladedge-RDKP24-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Elemental HERO Bladedge (Rush Duel)",
+        "id": 1169890
+      }
+    ],
+    "dbID": 22895
+  },
+  "series": [
+    "4e2112ec-34a4-4031-91ad-7dcc3818d4c7"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "08c63924-ca17-4e7c-9dca-62020ee65288",
+  "text": {
+    "en": {
+      "name": "Marincess Ulpis",
+      "effect": "If this card is in your hand: You can discard 1 other \"Marincess\" card or WATER monster; Special Summon this card. If this card is Normal or Special Summoned: You can Set 1 \"Marincess\" Spell/Trap from your Deck. You can send 1 \"Marincess\" Link Monster Card you control to the GY; draw 1 card. You can only use each effect of \"Marincess Ulpis\" once per turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u6d77\u6676\u4e59\u5973\u30a6\u30eb\u30d4\u30b9"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "type": "cyberse",
+  "classifications": [
+    "effect"
+  ],
+  "level": 5,
+  "atk": 600,
+  "def": 2400,
+  "passwords": [],
+  "images": [
+    {
+      "id": "0e41da4f-9cc3-4ecf-a7f7-de0fd92d136a",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/100460027.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/100460027.jpg"
+    }
+  ],
+  "sets": [
+    "a2b9546b-1f13-4956-8066-3103aaea48d7"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Marincess Ulpis",
+        "id": 1233549
+      }
+    ],
+    "ygoprodeck": {
+      "id": 100460027,
+      "name": "marincess-ulpis-16014"
+    }
+  },
+  "series": []
+}

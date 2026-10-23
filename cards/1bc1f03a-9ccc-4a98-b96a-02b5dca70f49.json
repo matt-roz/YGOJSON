@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "1bc1f03a-9ccc-4a98-b96a-02b5dca70f49",
+  "text": {
+    "en": {
+      "name": "Aise the Snowmaiden of Sacred Splendor",
+      "effect": "Special Summon 1 Warrior Type monster with 2500 ATK/2500 DEF from your hand or Graveyard to your field in face-up Defense Position. Then, you can change the battle position of 1 face-up WATER Attribute monster on your field.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u8056\u9e97\u306e\u51cd\u59eb\u30a8\u30a4\u30b9",
+      "effect": "\u81ea\u5206\u306e\u624b\u672d\u307e\u305f\u306f\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u6226\u58eb\u65cf\uff0f\u653b\u6483\u529b\uff12\uff15\uff10\uff10\uff0f\u5b88\u5099\u529b\uff12\uff15\uff10\uff10\uff09\uff11\u4f53\u3092\u9078\u3073\u3001\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u5b88\u5099\u8868\u793a\u3067\u7279\u6b8a\u53ec\u559a\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u6c34\u5c5e\u6027\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u8868\u793a\u5f62\u5f0f\u3092\u5909\u66f4\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc131\ub824\uc758 \ub3d9\ud76c \uc5d0\uc774\uc2a4",
+      "effect": "\uc790\uc2e0\uc758 \ud328 \ub610\ub294 \uc790\uc2e0 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130(\uc804\uc0ac\uc871 / \uacf5\uaca9\ub825 2500 / \uc218\ube44\ub825 2500) 1\uc7a5\uc744 \uace0\ub974\uace0, \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \uc218\ube44 \ud45c\uc2dc\ub85c \ud2b9\uc218 \uc18c\ud658\ud55c\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\ubb3c \uc18d\uc131) 1\uc7a5\uc744 \uace0\ub974\uace0 \ud45c\uc2dc \ud615\uc2dd\uc744 \ubcc0\uacbd\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "type": "spellcaster",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 1000,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "babd888e-8838-4372-807c-c394b28a8585",
+      "card": "https://ms.yugipedia.com//d/d1/AisetheSnowmaidenofSacredSplendor-RDKP20-JP-R.png"
+    },
+    {
+      "id": "19b406f1-397c-4be2-a772-922baf1050d1",
+      "card": "https://ms.yugipedia.com//0/0e/AisetheSnowmaidenofSacredSplendor-RDKP20-JP-ScR-AA.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Aise the Snowmaiden of Sacred Splendor",
+        "id": 1108658
+      }
+    ],
+    "dbID": 21287
+  },
+  "series": []
+}

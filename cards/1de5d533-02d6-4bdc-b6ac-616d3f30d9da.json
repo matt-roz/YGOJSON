@@ -1,0 +1,54 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "1de5d533-02d6-4bdc-b6ac-616d3f30d9da",
+  "text": {
+    "en": {
+      "name": "Kuribotorero",
+      "effect": "Return 1 Defense Position monster from your opponent's field to the owner's hand."
+    },
+    "ja": {
+      "name": "\u30af\u30ea\u30dc\u30c3\u30c8\u30ec\u30fc\u30ed",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u5b88\u5099\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u3092\u9078\u3093\u3067\u6301\u3061\u4e3b\u306e\u624b\u672d\u306b\u623b\u3059\u3002"
+    },
+    "ko": {
+      "name": "\ud06c\ub9ac\ubd07\ud1a0\ub808\ub85c",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \uc218\ube44 \ud45c\uc2dc \ubaac\uc2a4\ud130 1\uc7a5\uc744 \uace0\ub974\uace0 \uc8fc\uc778\uc758 \ud328\ub85c \ub418\ub3cc\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "fiend",
+  "classifications": [
+    "effect"
+  ],
+  "level": 6,
+  "atk": 1200,
+  "def": 2200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "3f5db4b9-61f2-472d-867b-36d8287f7809",
+      "card": "https://ms.yugipedia.com//8/83/Kuribotorero-RDEXT1-JP-R.png"
+    }
+  ],
+  "sets": [
+    "800a7d3b-5bf8-4d9e-b88b-3ec6be2416b7"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Kuribotorero",
+        "id": 715545
+      }
+    ],
+    "dbID": 16903
+  },
+  "series": []
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "b50b2131-cc8a-458a-90f9-f6a629d6dfd2",
+  "text": {
+    "en": {
+      "name": "Cyber Tutu (Rush Duel)",
+      "effect": "This turn, this card can attack directly.",
+      "official": false
+    },
+    "ko": {
+      "name": "\uc0ac\uc774\ubc84 \uce04\uce04",
+      "effect": "\uc774 \ud134\uc5d0, \uc774 \uce74\ub4dc\ub294 \uc9c1\uc811 \uacf5\uaca9\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 1000,
+  "def": 800,
+  "passwords": [],
+  "images": [
+    {
+      "id": "a00086fc-01f9-45a5-8840-63f6e56ad1bf",
+      "card": "https://ms.yugipedia.com//c/c7/CyberTutu-RDECG1-JP-NPR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Cyber Tutu (Rush Duel)",
+        "id": 1018999
+      }
+    ],
+    "dbID": 19438
+  },
+  "series": []
+}

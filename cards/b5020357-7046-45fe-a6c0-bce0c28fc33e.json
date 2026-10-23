@@ -1,0 +1,53 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "b5020357-7046-45fe-a6c0-bce0c28fc33e",
+  "text": {
+    "en": {
+      "name": "Delirium Teega",
+      "effect": "This turn, this face-up card can be treated as 2 Tributes for the Tribute Summon of a LIGHT Attribute Insect Type monster in Attack Position. Then, you can make 1 face-up monster on your opponent's field become Insect Type until the end of this turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u5922\u4e2d\u306e\u30c6\u30a3\u30fc\u30ac",
+      "effect": "\u3053\u306e\u30bf\u30fc\u30f3\u3001\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u5149\u5c5e\u6027\uff0f\u6606\u866b\u65cf\uff09\u3092\u653b\u6483\u8868\u793a\u3067\u30a2\u30c9\u30d0\u30f3\u30b9\u53ec\u559a\u3059\u308b\u5834\u5408\u3001\u8868\u5074\u8868\u793a\u306e\u3053\u306e\u30ab\u30fc\u30c9\u306f\uff12\u4f53\u5206\u306e\u30ea\u30ea\u30fc\u30b9\u306b\u3067\u304d\u308b\u3002\u3055\u3089\u306b\u3001\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u3092\u9078\u3093\u3067\u305d\u306e\u7a2e\u65cf\u3092\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\u6606\u866b\u65cf\u306b\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ubabd\uc911\uc758 \ud2f0\uac70",
+      "effect": "\uc774 \ud134\uc5d0, \ubaac\uc2a4\ud130(\ube5b \uc18d\uc131 / \uace4\ucda9\uc871)\ub97c \uacf5\uaca9 \ud45c\uc2dc\ub85c \uc5b4\ub4dc\ubc34\uc2a4 \uc18c\ud658\ud560 \uacbd\uc6b0, \uc55e\uba74 \ud45c\uc2dc\uc778 \uc774 \uce74\ub4dc\ub294 2\uc7a5\ub9cc\ud07c\uc758 \ub9b4\ub9ac\uc2a4\ub85c \ud560 \uc218 \uc788\ub2e4. \ucd94\uac00\ub85c, \uc0c1\ub300 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130 1\uc7a5\uc744 \uace0\ub974\uace0 \uadf8 \uc885\uc871\uc744 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0 \uace4\ucda9\uc871\uc73c\ub85c \ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "insect",
+  "classifications": [
+    "effect"
+  ],
+  "level": 2,
+  "atk": 800,
+  "def": 1200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "7bbdbae4-1941-420e-8233-47e7947462bc",
+      "card": "https://ms.yugipedia.com//7/74/DeliriumTeega-RDKP24-JP-SR.png"
+    },
+    {
+      "id": "75b86ad1-37cc-4048-9204-f48055b3be80",
+      "card": "https://ms.yugipedia.com//8/89/DeliriumTeega-RDKP24-JP-ScR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Delirium Teega",
+        "id": 1167374
+      }
+    ],
+    "dbID": 22855
+  },
+  "series": [
+    "e0a3c6d6-a40a-45db-b38a-b801fce5ca5e"
+  ]
+}

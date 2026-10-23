@@ -1,0 +1,67 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "8618060e-ef05-416b-bc8b-c833f503d49d",
+  "name": {
+    "en": "WSJ Jump Pack Spring 2016 promotional card"
+  },
+  "locales": {
+    "en": {
+      "language": "en",
+      "prefix": "JMPS-EN",
+      "image": "https://ms.yugipedia.com//d/dd/WSJJumpPack-Spring2016.png",
+      "cardImages": {
+        "limited": {
+          "8d225edb-c5e8-42fa-982e-846bb405405b": "https://ms.yugipedia.com//1/1f/BlueEyesWhiteDragon-JMPS-EN-UR-LE.png"
+        }
+      },
+      "cardInfo": {
+        "limited": {
+          "8d225edb-c5e8-42fa-982e-846bb405405b": {
+            "image": "https://ms.yugipedia.com//1/1f/BlueEyesWhiteDragon-JMPS-EN-UR-LE.png"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          1111112001
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "en"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "distrobution": "preconstructed",
+      "editions": [
+        "limited"
+      ],
+      "image": "https://ms.yugipedia.com//d/dd/WSJJumpPack-Spring2016.png",
+      "cards": [
+        {
+          "id": "8d225edb-c5e8-42fa-982e-846bb405405b",
+          "card": "e0404755-1ade-4c7c-9a2a-b29b7755d860",
+          "suffix": "002",
+          "rarity": "ultra"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "WSJ Jump Pack Spring 2016 promotional card",
+      "id": 401952
+    }
+  }
+}

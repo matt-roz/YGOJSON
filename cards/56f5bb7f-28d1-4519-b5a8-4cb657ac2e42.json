@@ -1,0 +1,55 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "56f5bb7f-28d1-4519-b5a8-4cb657ac2e42",
+  "text": {
+    "en": {
+      "name": "Evil Dragon of Darkness",
+      "effect": "Send the top 2 cards of your Deck to the Graveyard. Then, you can add 1 \"Dragon Knight of Darkness\" or 1 Level 9 Dragon Type monster with 2500 ATK from your Graveyard to your hand."
+    },
+    "ja": {
+      "name": "\u6697\u9ed2\u306e\u90aa\u7adc",
+      "effect": "\u81ea\u5206\u306e\u30c7\u30c3\u30ad\u306e\u4e0a\u304b\u3089\u30ab\u30fc\u30c9\uff12\u679a\u3092\u5893\u5730\u3078\u9001\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u6697\u9ed2\u306e\u7adc\u9a0e\u58eb\u300d\u307e\u305f\u306f\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff19\uff0f\u30c9\u30e9\u30b4\u30f3\u65cf\uff0f\u653b\u6483\u529b\uff12\uff15\uff10\uff10\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc554\ud751\uc758 \uc0ac\ub8e1",
+      "effect": "\uc790\uc2e0\uc758 \ub371 \uc704\uc5d0\uc11c \uce74\ub4dc 2\uc7a5\uc744 \ubb18\uc9c0\ub85c \ubcf4\ub0b8\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0 \ubb18\uc9c0\uc758 \"\uc554\ud751\uc758 \uc6a9\uae30\uc0ac\" \ub610\ub294 \ubaac\uc2a4\ud130(\ub808\ubca8 9 / \ub4dc\ub798\uace4\uc871 / \uacf5\uaca9\ub825 2500) 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\uc744 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "dragon",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1100,
+  "def": 500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "0c892ad0-420c-4c5c-9663-543b8d8a21d9",
+      "card": "https://ms.yugipedia.com//2/22/EvilDragonofDarkness-RD5TH1-JP-UR.png"
+    },
+    {
+      "id": "d8bac627-b53d-48db-823b-9534d1bb2fdf",
+      "card": "https://ms.yugipedia.com//c/ce/EvilDragonofDarkness-RDS261-JP-OP.png"
+    }
+  ],
+  "sets": [
+    "cd789676-cedd-4bac-9b31-6fe414ff91be"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Evil Dragon of Darkness",
+        "id": 1121456
+      }
+    ],
+    "dbID": 21514
+  },
+  "series": []
+}

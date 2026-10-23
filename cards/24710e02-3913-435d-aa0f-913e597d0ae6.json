@@ -1,0 +1,69 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "24710e02-3913-435d-aa0f-913e597d0ae6",
+  "text": {
+    "en": {
+      "name": "Palace Gargoyle",
+      "effect": "Increase this card's Level by 1 until the end of this turn."
+    },
+    "fr": {
+      "name": "Gargouille du Palais",
+      "effect": "Augmentez le Niveau de cette carte de 1 jusqu'\u00e0 la fin de ce tour."
+    },
+    "de": {
+      "name": "Palast-Gargoyle",
+      "effect": "Steigere die Stufe dieser Karte bis zum Ende dieses Spielzugs um den Wert 1."
+    },
+    "it": {
+      "name": "Gargoyle di Reggia",
+      "effect": "Aumenta il Livello di questa carta di 1 fino alla fine di questo turno."
+    },
+    "es": {
+      "name": "G\u00e1rgola de Palacio",
+      "effect": "Aumenta el Nivel de esta carta en 1 hasta el final de este turno."
+    },
+    "ja": {
+      "name": "\u5bae\u6bbf\u306e\u30ac\u30fc\u30b4\u30a4\u30eb",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u306e\u30ec\u30d9\u30eb\u306f\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\uff11\u3064\u4e0a\u304c\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uad81\uc804\uc758 \uac00\uace0\uc77c",
+      "effect": "\uc774 \uce74\ub4dc\uc758 \ub808\ubca8\uc740 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0 1\uac1c \uc62c\ub77c\uac04\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "fiend",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1000,
+  "def": 1200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "5cbf0c74-3c10-4664-b6fa-bd3df2e1df16",
+      "card": "https://ms.yugipedia.com//2/21/PalaceGargoyle-RDSBD5-JP-C.png"
+    }
+  ],
+  "sets": [
+    "24efaeb8-31d0-4d9b-b5b6-db394582c1f3",
+    "24efaeb8-31d0-4d9b-b5b6-db394582c1f3",
+    "43d37aa5-d0e5-47b7-ac44-ab3ca95014d3"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Palace Gargoyle",
+        "id": 716152
+      }
+    ],
+    "dbID": 15667
+  },
+  "series": []
+}
