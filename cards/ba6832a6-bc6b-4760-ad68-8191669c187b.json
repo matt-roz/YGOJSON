@@ -1,0 +1,42 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "ba6832a6-bc6b-4760-ad68-8191669c187b",
+  "text": {
+    "en": {
+      "name": "Archfiend's Thunder Bolt",
+      "effect": "Destroy 1 card on your opponent's field.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30c7\u30fc\u30e2\u30f3\u306e\u96f7\u6483",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u30ab\u30fc\u30c9\uff11\u679a\u3092\u9078\u3093\u3067\u7834\u58ca\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub370\ubaac\uc758 \ub1cc\uaca9",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \uce74\ub4dc 1\uc7a5\uc744 \uace0\ub974\uace0 \ud30c\uad34\ud55c\ub2e4."
+    }
+  },
+  "cardType": "trap",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "98781c64-711d-4751-b2b5-99a61e657219",
+      "card": "https://ms.yugipedia.com//e/e0/ArchfiendsThunderBolt-RDKP20-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Archfiend's Thunder Bolt",
+        "id": 1107303
+      }
+    ],
+    "dbID": 21313
+  },
+  "series": [
+    "30da8fac-ccef-4d93-8d83-2d10afec9c87"
+  ]
+}

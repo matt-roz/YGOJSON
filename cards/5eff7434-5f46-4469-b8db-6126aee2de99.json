@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "5eff7434-5f46-4469-b8db-6126aee2de99",
+  "text": {
+    "en": {
+      "name": "Grace Princess Kaori",
+      "effect": "Gain 500 LP. Then, you can add 1 \"Grace Princess Kana\" or 1 \"Grace Hakama Fitting Ceremony\" from your Graveyard to your hand.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u3044\u3068\u3092\u304b\u3057\u304b\u304a\u308a\u3072\u3081",
+      "effect": "\u81ea\u5206\u306f\uff15\uff10\uff10\uff2c\uff30\u56de\u5fa9\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u3044\u3068\u3092\u304b\u3057\u304b\u306a\u3072\u3081\u300d\uff11\u4f53\u307e\u305f\u306f\u300c\u3044\u3068\u3092\u304b\u3057\u306f\u304b\u307e\u304d\u300d\uff11\u679a\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc559\uac31\ud5a5\ud76c",
+      "effect": "\uc790\uc2e0\uc740 500 LP \ud68c\ubcf5\ud55c\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0 \ubb18\uc9c0\uc758 \"\uc559\uac31\uacf5\uc8fc\" 1\uc7a5 \ub610\ub294 \"\uc559\uac31\ud558\uce74\ub9c8\ud0a4\" 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\uc744 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "aqua",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2100,
+  "def": 1400,
+  "passwords": [],
+  "images": [
+    {
+      "id": "354fa746-90e8-4ecc-b7d3-2a731f9fa3d8",
+      "card": "https://ms.yugipedia.com//3/3e/GracePrincessKaori-RDAP01-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Grace Princess Kaori",
+        "id": 1128669
+      }
+    ],
+    "dbID": 21864
+  },
+  "series": [
+    "8f036e0a-dfa6-4363-b89e-1235326a15c3"
+  ]
+}

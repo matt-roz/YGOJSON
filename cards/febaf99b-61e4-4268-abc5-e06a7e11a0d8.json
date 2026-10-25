@@ -1,0 +1,42 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "febaf99b-61e4-4268-abc5-e06a7e11a0d8",
+  "text": {
+    "en": {
+      "name": "Takriminos (Rush Duel)",
+      "effect": "A member of a race of Sea Serpents that freely travels through the sea."
+    },
+    "ko": {
+      "name": "\ud0c0\ud06c\ub9ac\ubbf8\ub178\uc2a4",
+      "effect": "\ubab8\uc5d0 \uc9c0\ub290\ub7ec\ubbf8\ub97c \uac16\uace0 \uc788\uc5b4 \ubb3c\uc18d\uc5d0\uc11c\ub3c4 \uc790\uc720\ub86d\uac8c \uc6c0\uc9c1\uc77c \uc218 \uc788\ub294 \ud574\ub8e1\uc758 \ub3d9\ub8cc."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "type": "seaserpent",
+  "classifications": [
+    "normal"
+  ],
+  "level": 4,
+  "atk": 1500,
+  "def": 1200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "e16bb587-40e7-4573-b2df-1027f73ecb29",
+      "card": "https://ms.yugipedia.com//5/58/Takriminos-RDB231-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Takriminos (Rush Duel)",
+        "id": 716996
+      }
+    ],
+    "dbID": 16968
+  },
+  "series": []
+}

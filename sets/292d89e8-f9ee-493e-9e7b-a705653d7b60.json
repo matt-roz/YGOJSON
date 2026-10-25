@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "292d89e8-f9ee-493e-9e7b-a705653d7b60",
+  "name": {
+    "en": "Asia Tour Invitational 2011 promotional card (2010 event)",
+    "ko": "ASIA TOUR INVITATIONAL 2011"
+  },
+  "locales": {
+    "kr": {
+      "language": "ko",
+      "prefix": "EV11-KR",
+      "date": "2010-09-12",
+      "cardImages": {},
+      "cardInfo": {},
+      "formats": [
+        "ocg"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          1010000984000
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "kr"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "cards": [
+        {
+          "id": "012d9fbe-8d92-4b98-8be0-7889686a0bee",
+          "card": "0626cd7e-9544-4a18-8625-85b0ac76bb54",
+          "suffix": "007",
+          "rarity": "secret",
+          "imageID": "de3328cf-a5fb-417a-8648-c518c10f8327"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Asia Tour Invitational 2011 promotional card (2010 event)",
+      "id": 1175658
+    }
+  }
+}

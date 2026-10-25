@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "608ac0bf-dc4d-464d-b488-8d1c6f5b923a",
+  "text": {
+    "en": {
+      "name": "Cocoon of Evolution (Rush Duel)",
+      "effect": "Fusion Summon a Level 8 or lower EARTH Attribute Insect Type monster by sending monsters from your hand or field to the Graveyard as material, including this card.",
+      "official": false
+    },
+    "ko": {
+      "name": "\uc9c4\ud654\uc758 \uace0\uce58",
+      "effect": "\uc774 \uce74\ub4dc\ub97c \ud3ec\ud568\ud558\ub294 \uc790\uc2e0\uc758 \ud328 / \ud544\ub4dc\uc758 \ubaac\uc2a4\ud130\ub97c \uc18c\uc7ac\ub85c\uc11c \ubb18\uc9c0\ub85c \ubcf4\ub0b4\uace0, \ubaac\uc2a4\ud130(\ub808\ubca8 8 \uc774\ud558 / \ub545 \uc18d\uc131 / \uace4\ucda9\uc871)\ub97c \ud4e8\uc804 \uc18c\ud658\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "insect",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 0,
+  "def": 2000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "09d12397-81d0-4591-99c1-913420930eb1",
+      "card": "https://ms.yugipedia.com//d/d5/CocoonofEvolution-RDAP02-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Cocoon of Evolution (Rush Duel)",
+        "id": 1161374
+      }
+    ],
+    "dbID": 22654
+  },
+  "series": [
+    "bf6fe1a5-630e-4910-b18d-d8d44b294610"
+  ]
+}

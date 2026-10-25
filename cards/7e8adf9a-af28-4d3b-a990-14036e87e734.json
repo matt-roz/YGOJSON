@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "7e8adf9a-af28-4d3b-a990-14036e87e734",
+  "text": {
+    "en": {
+      "name": "True Beast Gear King Liogon",
+      "effect": "This card gains ATK equal to [the original ATK of the monster sent to the Graveyard to meet the requirement] until the end of this turn. Then, if you have a card in your Field Zone, you can change the battle position of 1 monster on your opponent's field.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u771f\u30fb\u7363\u6a5f\u754c\u8987\u8005\u30e9\u30a4\u30ac\u30aa\u30f3",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u306e\u653b\u6483\u529b\u306f\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\u3001\uff3b\u3053\u306e\u52b9\u679c\u306e\u6761\u4ef6\u3067\u5893\u5730\u3078\u9001\u3063\u305f\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u5143\u3005\u306e\u653b\u6483\u529b\uff3d\u3060\u3051\u30a2\u30c3\u30d7\u3059\u308b\u3002\u81ea\u5206\u306e\u30d5\u30a3\u30fc\u30eb\u30c9\u30be\u30fc\u30f3\u306b\u30ab\u30fc\u30c9\u304c\u3042\u308b\u5834\u5408\u3001\u3055\u3089\u306b\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u3092\u9078\u3093\u3067\u8868\u793a\u5f62\u5f0f\u3092\u5909\u66f4\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc9c4 \uc218\uae30\uacc4\uc758 \ud328\uc790 \ub77c\uc774\uac00\uc628",
+      "effect": "\uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\ub825\uc740 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0, [\uc774 \ud6a8\uacfc\uc758 \uc870\uac74\uc73c\ub85c \ubb18\uc9c0\ub85c \ubcf4\ub0b8 \ubaac\uc2a4\ud130\uc758 \uc6d0\ub798 \uacf5\uaca9\ub825]\ub9cc\ud07c \uc62c\ub9b0\ub2e4. \uc790\uc2e0\uc758 \ud544\ub4dc \uc874\uc5d0 \uce74\ub4dc\uac00 \uc788\uc744 \uacbd\uc6b0, \ucd94\uac00\ub85c \uc0c1\ub300 \ud544\ub4dc\uc758 \ubaac\uc2a4\ud130 1\uc7a5\uc744 \uace0\ub974\uace0 \ud45c\uc2dc \ud615\uc2dd\uc744 \ubcc0\uacbd\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "beastwarrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2500,
+  "def": 1800,
+  "passwords": [],
+  "images": [
+    {
+      "id": "82cb2a70-312d-432b-9b06-5cc418e56b09",
+      "card": "https://ms.yugipedia.com//5/5e/TrueBeastGearKingLiogon-RDMRP2-JP-R.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "True Beast Gear King Liogon",
+        "id": 1018710
+      }
+    ],
+    "dbID": 19592
+  },
+  "series": [
+    "77bb707e-bd94-46d7-b928-6df38334e40c"
+  ]
+}

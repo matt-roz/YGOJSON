@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "3a7f3a07-9270-4091-be77-234e8b0733dc",
+  "text": {
+    "en": {
+      "name": "Kimeterasu the Divine Ruler",
+      "effect": "\u25cfChoose up to 2 face-up monsters on your field. This turn, those monsters can attack directly. \u25cfThis card gains 1000 ATK until the end of your opponent's next turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u5929\u7fd4\u6d41\u9e97\u30ad\u30e1\u30c6\u30e9\u30b9",
+      "effect": "\u25cf\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\u3092\uff12\u4f53\u307e\u3067\u9078\u3076\u3002\u3053\u306e\u30bf\u30fc\u30f3\u3001\u305d\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u306f\u76f4\u63a5\u653b\u6483\u3067\u304d\u308b\u3002\u25cf\u3053\u306e\u30ab\u30fc\u30c9\u306e\u653b\u6483\u529b\u306f\u6b21\u306e\u76f8\u624b\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\uff11\uff10\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ucc9c\uc0c1\ub8f0\ub7ec \ud0a4\uba54\ud14c\ub77c\uc2a4",
+      "effect": "\u25cf\uc790\uc2e0 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130\ub97c 2\uc7a5\uae4c\uc9c0 \uace0\ub978\ub2e4. \uc774 \ud134\uc5d0, \uadf8 \ubaac\uc2a4\ud130\ub294 \uc9c1\uc811 \uacf5\uaca9\ud560 \uc218 \uc788\ub2e4. \u25cf\uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\ub825\uc740 \ub2e4\uc74c \uc0c1\ub300 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0 1000 \uc62c\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "classifications": [
+    "effect"
+  ],
+  "level": 9,
+  "atk": 3000,
+  "def": 3000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "3a441f91-bd22-44c9-b0e3-a54ff0440542",
+      "card": "https://ms.yugipedia.com//7/72/KimeterasutheDivineRuler-RDMRP2-JP-R.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Kimeterasu the Divine Ruler",
+        "id": 1012490
+      }
+    ],
+    "dbID": 19568
+  },
+  "series": [
+    "2b04e0f3-925c-4ad0-921d-ed78f5f1c53b"
+  ]
+}

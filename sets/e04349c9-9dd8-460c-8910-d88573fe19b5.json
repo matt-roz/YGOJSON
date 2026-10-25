@@ -1,0 +1,66 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "e04349c9-9dd8-460c-8910-d88573fe19b5",
+  "name": {
+    "en": "Japan Championship 2026 Finals prize card",
+    "ja": "\u65e5\u672c\u9078\u624b\u6a29\uff12\uff10\uff12\uff16"
+  },
+  "locales": {
+    "jp": {
+      "language": "ja",
+      "prefix": "26YC-JP",
+      "date": "2026-07-19",
+      "cardImages": {
+        "unlimited": {}
+      },
+      "cardInfo": {
+        "unlimited": {}
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {}
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "cards": [
+        {
+          "id": "e60e9ee4-91ff-455c-bc7d-fcc3dfd4b50a",
+          "card": "0626cd7e-9544-4a18-8625-85b0ac76bb54",
+          "suffix": "001",
+          "rarity": "super",
+          "imageID": "de3328cf-a5fb-417a-8648-c518c10f8327",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "3a466d1f-53f5-43f7-8f58-accdcf7acf97",
+          "card": "0626cd7e-9544-4a18-8625-85b0ac76bb54",
+          "suffix": "001",
+          "rarity": "ultra",
+          "imageID": "de3328cf-a5fb-417a-8648-c518c10f8327",
+          "printStatus": "reprint"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Japan Championship 2026 Finals prize card",
+      "id": 1206150
+    }
+  }
+}

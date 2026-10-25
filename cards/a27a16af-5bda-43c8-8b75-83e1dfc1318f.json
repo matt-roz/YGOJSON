@@ -1,0 +1,54 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "a27a16af-5bda-43c8-8b75-83e1dfc1318f",
+  "text": {
+    "en": {
+      "name": "The Secret Crane Princess Who Returns A Favor",
+      "effect": "During your opponent's End Phase: You can place this card from your GY on top of the Deck. During the Main Phase (Quick Effect): You can return this card from the field to the hand, and if you do, each player draws 1 card, then your opponent can draw 1 card, and if they do, you must keep your hand revealed during this Main Phase. (Quick Effect): You can banish this revealed card from your hand; destroy all face-up cards your opponent controls. You can only use each effect of \"The Secret Crane Princess Who Returns A Favor\" once per turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u304a\u8fd4\u3057\u9db4\u79d8\u59eb"
+    },
+    "zh-CN": {
+      "name": "\u62a5\u6069\u9e64\u79d8\u59ec",
+      "effect": "\u6b64\u5361\u540d\u7684\u2460\u2461\u2462\u6548\u679c1\u56de\u5408\u4ec5\u53ef\u5404\u4f7f\u75281\u6b21\u3002\u2460\uff1a\u5728\u5bf9\u624b\u7684\u7ed3\u675f\u9636\u6bb5\u53ef\u4ee5\u53d1\u52a8\u3002\u5c06\u5893\u5730\u7684\u6b64\u5361\u653e\u56de\u724c\u7ec4\u6700\u4e0a\u9762\u3002\u2461\uff1a\u5728\u81ea\u5df1\u30fb\u5bf9\u624b\u7684\u4e3b\u8981\u9636\u6bb5\u53ef\u4ee5\u53d1\u52a8\u3002\u5c06\u573a\u4e0a\u7684\u6b64\u5361\u653e\u56de\u624b\u724c\uff0c\u53cc\u65b9\u5404\u62bd1\u5f20\u3002\u7136\u540e\uff0c\u5bf9\u624b\u53ef\u9002\u7528\u4ee5\u4e0b\u6548\u679c\u3002\n\u25cf\u81ea\u5df1\u62bd1\u5f20\uff0c\u6b64\u4e3b\u8981\u9636\u6bb5\u4e2d\uff0c\u5bf9\u624b\u6301\u7eed\u516c\u5f00\u6240\u6709\u624b\u724c\u3002\n\u2462\uff1a\u5728\u81ea\u5df1\u30fb\u5bf9\u624b\u56de\u5408\u4e2d\uff0c\u5c06\u624b\u724c\u4e2d\u88ab\u516c\u5f00\u7684\u6b64\u5361\u9664\u5916\u53ef\u4ee5\u53d1\u52a8\u3002\u5c06\u5bf9\u624b\u573a\u4e0a\u7684\u8868\u4fa7\u8868\u793a\u5361\u5168\u90e8\u7834\u574f\u3002"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "wingedbeast",
+  "classifications": [
+    "tuner",
+    "effect"
+  ],
+  "level": 1,
+  "atk": 0,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "549c1850-175c-46ec-9f81-d80c9edd25f0",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/101403023.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/101403023.jpg"
+    }
+  ],
+  "sets": [
+    "ccc8125c-0182-45df-91a7-57e5e2423dfc",
+    "ccc8125c-0182-45df-91a7-57e5e2423dfc"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "The Secret Crane Princess Who Returns A Favor",
+        "id": 1230393
+      }
+    ],
+    "ygoprodeck": {
+      "id": 101403023,
+      "name": "the-secret-crane-princess-who-returns-a-favor-15992"
+    }
+  },
+  "series": []
+}

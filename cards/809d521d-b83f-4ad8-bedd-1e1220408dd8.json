@@ -1,0 +1,42 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "809d521d-b83f-4ad8-bedd-1e1220408dd8",
+  "text": {
+    "en": {
+      "name": "Ruler's Current",
+      "effect": "Make 1 face-up Warrior Type monster with 2000 or more DEF on your field gain ATK equal to [its original DEF] until the end of this turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u9b54\u5c06\u6c17\u6d41",
+      "effect": "\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u6226\u58eb\u65cf\uff0f\u5b88\u5099\u529b\uff12\uff10\uff10\uff10\u4ee5\u4e0a\uff09\uff11\u4f53\u3092\u9078\u3073\u3001\u305d\u306e\u653b\u6483\u529b\u3092\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\u3001\uff3b\u9078\u3093\u3060\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u5143\u3005\u306e\u5b88\u5099\u529b\uff3d\u3060\u3051\u30a2\u30c3\u30d7\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub9c8\uc7a5\uae30\ub958",
+      "effect": "\uc790\uc2e0 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\uc804\uc0ac\uc871 / \uc218\ube44\ub825 2000 \uc774\uc0c1) 1\uc7a5\uc744 \uace0\ub974\uace0, \uadf8 \uacf5\uaca9\ub825\uc744 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0, [\uace0\ub978 \ubaac\uc2a4\ud130\uc758 \uc6d0\ub798 \uc218\ube44\ub825]\ub9cc\ud07c \uc62c\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "62d02839-743f-41ee-8670-df468d2e4467",
+      "card": "https://ms.yugipedia.com//d/da/RulersCurrent-RDKP06-JP-R.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Ruler's Current",
+        "id": 716530
+      }
+    ],
+    "dbID": 16698
+  },
+  "series": [
+    "2b04e0f3-925c-4ad0-921d-ed78f5f1c53b"
+  ]
+}

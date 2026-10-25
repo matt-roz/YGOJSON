@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "09fcf3b5-6101-4607-b5e4-e443e4fd58bf",
+  "text": {
+    "en": {
+      "name": "Dimension Pramma",
+      "effect": "Send the top 3 cards of your Deck to the Graveyard. Then, if you have 3 or more different Types in your Graveyard, you can add 1 Level 8 LIGHT Attribute Cyberse Type monster from your Graveyard to your hand. This turn, you can only attack with Level 8 or higher Cyberse Type monsters.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30c7\u30a3\u30e1\u30f3\u30b7\u30e7\u30f3\u30fb\u30d7\u30e9\u30de",
+      "effect": "\u81ea\u5206\u306e\u30c7\u30c3\u30ad\u306e\u4e0a\u304b\u3089\u30ab\u30fc\u30c9\uff13\u679a\u3092\u5893\u5730\u3078\u9001\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u7a2e\u65cf\u304c\uff13\u7a2e\u985e\u4ee5\u4e0a\u306e\u5834\u5408\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff18\uff0f\u5149\u5c5e\u6027\uff0f\u30b5\u30a4\u30d0\u30fc\u30b9\u65cf\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002\u3053\u306e\u30bf\u30fc\u30f3\u3001\u81ea\u5206\u306f\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff18\u4ee5\u4e0a\uff0f\u30b5\u30a4\u30d0\u30fc\u30b9\u65cf\uff09\u3067\u3057\u304b\u653b\u6483\u3067\u304d\u306a\u3044\u3002"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "cyberse",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1000,
+  "def": 500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "50bb1a48-6a79-4e87-949a-287147e21ef5",
+      "card": "https://ms.yugipedia.com//0/08/DimensionPramma-RDCA01-JP-UR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Dimension Pramma",
+        "id": 1229801
+      }
+    ],
+    "dbID": 23918
+  },
+  "series": [
+    "d520f873-9bf8-48b7-8e88-f2a40eee7c75"
+  ]
+}

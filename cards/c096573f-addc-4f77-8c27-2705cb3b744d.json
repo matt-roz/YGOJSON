@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "c096573f-addc-4f77-8c27-2705cb3b744d",
+  "text": {
+    "en": {
+      "name": "Polygon Butterfly",
+      "effect": "Choose 1 face-up Level 8 or lower Insect Type monster on your field. This turn, that monster gains 200 ATK and can make up to 2 attacks on monsters."
+    },
+    "ja": {
+      "name": "\u30dd\u30ea\u30b4\u30f3\u30d0\u30bf\u30d5\u30e9\u30a4",
+      "effect": "\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff18\u4ee5\u4e0b\uff0f\u6606\u866b\u65cf\uff09\uff11\u4f53\u3092\u9078\u3076\u3002\u3053\u306e\u30bf\u30fc\u30f3\u3001\u305d\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u653b\u6483\u529b\u306f\uff12\uff10\uff10\u30a2\u30c3\u30d7\u3057\u3001\u30e2\u30f3\u30b9\u30bf\u30fc\u306b\uff12\u56de\u653b\u6483\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud3f4\ub9ac\uace4\ubc84\ud130\ud50c\ub77c\uc774",
+      "effect": "\uc790\uc2e0 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\ub808\ubca8 8 \uc774\ud558 / \uace4\ucda9\uc871) 1\uc7a5\uc744 \uace0\ub978\ub2e4. \uc774 \ud134\uc5d0, \uadf8 \ubaac\uc2a4\ud130\uc758 \uacf5\uaca9\ub825\uc740 200 \uc62c\ub9ac\uace0, \ubaac\uc2a4\ud130\uc5d0 2\ud68c \uacf5\uaca9\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "insect",
+  "classifications": [
+    "effect"
+  ],
+  "level": 2,
+  "atk": 400,
+  "def": 200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "b049f889-7109-4367-bedd-16bc2989a010",
+      "card": "https://ms.yugipedia.com//2/2f/PolygonButterfly-RDKP14-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Polygon Butterfly",
+        "id": 997292
+      }
+    ],
+    "dbID": 19310
+  },
+  "series": []
+}

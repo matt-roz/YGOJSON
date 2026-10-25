@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "48ff67df-2c04-4d94-a185-983679b197d5",
+  "text": {
+    "en": {
+      "name": "Blue-Fang Teaser Burn Dragon",
+      "effect": "Choose 1 \"Red-Boot Launch Burn Dragon\" or 1 Dragon Type Normal Monster in your Graveyard, and this card gains ATK equal to [the chosen monster's Level] x 100 until the end of this turn. Then, add the chosen monster to your hand.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u78a7\u7259\u306e\u8a66\u901f\u7adc"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "dragon",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1500,
+  "def": 900,
+  "passwords": [],
+  "images": [
+    {
+      "id": "6629dd57-fadd-4d3f-a6fe-9db212111b38",
+      "card": "https://ms.yugipedia.com//2/22/BlueFangTeaserBurnDragon-RDKP27-JP-OP.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Blue-Fang Teaser Burn Dragon",
+        "id": 1235930
+      }
+    ]
+  },
+  "series": []
+}

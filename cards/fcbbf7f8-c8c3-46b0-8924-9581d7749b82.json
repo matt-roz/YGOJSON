@@ -1,0 +1,56 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "fcbbf7f8-c8c3-46b0-8924-9581d7749b82",
+  "text": {
+    "en": {
+      "name": "Harpie Cielo Light Skirt",
+      "effect": "Add up to 2 \"Harpie Lady Sisters\" from your Graveyard to your hand.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30cf\u30fc\u30d4\u30a3\u30fb\u30c1\u30a7\u30fc\u30ed\u30fb\uff2c\uff33",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u30cf\u30fc\u30d4\u30a3\u4e09\u59c9\u59b9\u300d\u3092\uff12\u4f53\u307e\u3067\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud574\ud53c \uce58\uc5d8\ub85c\u00b7LS",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \"\ud574\ud53c\ub808\uc774\ub514\uc988\"\ub97c 2\uc7a5\uae4c\uc9c0 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\ub294\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "wind",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "wingedbeast",
+  "classifications": [
+    "effect"
+  ],
+  "level": 5,
+  "atk": 2100,
+  "def": 1400,
+  "passwords": [],
+  "images": [
+    {
+      "id": "e785e8b5-4c77-4213-afd4-f1ab630b78ad",
+      "card": "https://ms.yugipedia.com//5/51/HarpieCieloLightSkirt-RD5TH1-JP-UR.png"
+    },
+    {
+      "id": "2f05705e-480d-45b2-960b-44b7fc9a0c65",
+      "card": "https://ms.yugipedia.com//5/58/HarpieCieloLightSkirt-RD5TH1-KR-UR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Harpie Cielo Light Skirt",
+        "id": 1117369
+      }
+    ],
+    "dbID": 21511
+  },
+  "series": [
+    "04dde7f8-0a7d-4b74-b812-f493b9fb1f62"
+  ]
+}

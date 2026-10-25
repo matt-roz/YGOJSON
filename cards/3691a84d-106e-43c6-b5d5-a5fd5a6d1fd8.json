@@ -1,0 +1,46 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "3691a84d-106e-43c6-b5d5-a5fd5a6d1fd8",
+  "text": {
+    "en": {
+      "name": "Jointech Brave Racer",
+      "effect": "Equip this card to 1 face-up EARTH Attribute Machine Type monster on your field as an Equip Spell Card with the following effect. \u25cfThe equipped monster gains 500 ATK, and neither player can activate Trap Cards when it declares an attack.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30b8\u30e7\u30a4\u30f3\u30c6\u30c3\u30af\u30fb\uff22\u30ec\u30fc\u30b5\u30fc"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "abilities": [
+    "union"
+  ],
+  "level": 4,
+  "atk": 1300,
+  "def": 1400,
+  "passwords": [],
+  "images": [
+    {
+      "id": "5fb0e0d9-afe6-4300-adac-0f5a9fb27a3b",
+      "card": "https://ms.yugipedia.com//5/50/JointechBraveRacer-RDKP27-JP-OP.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Jointech Brave Racer",
+        "id": 1233579
+      }
+    ]
+  },
+  "series": [
+    "5d5055d0-52c0-457f-8fcf-f097bd9b9f9e"
+  ]
+}

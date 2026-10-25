@@ -1,0 +1,53 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "69812744-76d3-4ac9-a56f-7a7ee76c07d4",
+  "text": {
+    "en": {
+      "name": "Yorishiro of Isyria",
+      "effect": "Send the top 2 cards of your Deck to the Graveyard. Then, you can add 1 \"Offering to Isyria\", \"Sarcophagus of Isyria\", or \"Spirit of Isyria\" from your Graveyard to your hand. If you do, you can add 1 \"Monumenthes Festival -The Isyria Seance-\" from your Graveyard to your hand.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30a4\u30b7\u30ea\u30a2\u306e\u4f9d\u4ee3",
+      "effect": "\u81ea\u5206\u306e\u30c7\u30c3\u30ad\u306e\u4e0a\u304b\u3089\u30ab\u30fc\u30c9\uff12\u679a\u3092\u5893\u5730\u3078\u9001\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u30a4\u30b7\u30ea\u30a2\u306e\u4f9b\u7269\u300d\u300c\u30a4\u30b7\u30ea\u30a2\u306e\u68fa\u300d\u300c\u30a4\u30b7\u30ea\u30a2\u306e\u970a\u9b42\u300d\u306e\u3044\u305a\u308c\u304b\uff11\u679a\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002\u52a0\u3048\u305f\u5834\u5408\u3001\u3055\u3089\u306b\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u51a5\u8de1\u796d\uff0d\u30a4\u30b7\u30ea\u30a2\u306e\u964d\u970a\uff0d\u300d\uff11\u679a\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc774\uc2e4\ub9ac\uc544\uc758 \uc758\ub300",
+      "effect": "\uc790\uc2e0\uc758 \ub371 \uc704\uc5d0\uc11c \uce74\ub4dc 2\uc7a5\uc744 \ubb18\uc9c0\ub85c \ubcf4\ub0b8\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0 \ubb18\uc9c0\uc758 \"\uc774\uc2e4\ub9ac\uc544\uc758 \uacf5\ubb3c\" \"\uc774\uc2e4\ub9ac\uc544\uc758 \uad00\" \"\uc774\uc2e4\ub9ac\uc544\uc758 \uc601\ud63c\" \uc911 \uc5b4\ub290 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\uc744 \uc218 \uc788\ub2e4. \ub123\uc5c8\uc744 \uacbd\uc6b0, \ucd94\uac00\ub85c \uc790\uc2e0 \ubb18\uc9c0\uc758 \"\uba85\uc801\uc81c\uff0d\uc774\uc2e4\ub9ac\uc544\uc758 \uac15\ub839\uff0d\" 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\uc744 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "beastwarrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1000,
+  "def": 1400,
+  "passwords": [],
+  "images": [
+    {
+      "id": "ed03d890-1d42-411a-a905-e551525c4844",
+      "card": "https://ms.yugipedia.com//d/dd/YorishiroofIsyria-RDKP24-JP-UR.png"
+    },
+    {
+      "id": "1a78b927-0090-41d9-b1ba-f9135f03d3ae",
+      "card": "https://ms.yugipedia.com//c/cf/YorishiroofIsyria-RDKP24-JP-ORR-AA.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Yorishiro of Isyria",
+        "id": 1163426
+      }
+    ],
+    "dbID": 22838
+  },
+  "series": [
+    "97eb63ff-6e37-4cb4-aec9-d4c303cc69da"
+  ]
+}

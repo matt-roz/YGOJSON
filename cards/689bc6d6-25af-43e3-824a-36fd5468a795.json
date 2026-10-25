@@ -1,0 +1,65 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "689bc6d6-25af-43e3-824a-36fd5468a795",
+  "text": {
+    "en": {
+      "name": "Scrubbing Santa Cloth",
+      "effect": "Your opponent draws cards equal to [the number of monsters on their field]. Then, you gain LP equal to [the number of cards they drew by this effect] x 300."
+    },
+    "fr": {
+      "name": "P\u00e8re No\u00ebl Brosseur",
+      "effect": "Votre adversaire pioche un nombre de cartes \u00e9gal au [nombre de monstres sur son Terrain]. Ensuite, vous gagnez des LP \u00e9gaux au [nombre de cartes qu'il a pioch\u00e9es avec cet effet] x 300."
+    },
+    "de": {
+      "name": "Weihnachtsmannmantel schrubben",
+      "effect": "Dein Gegner zieht Karten in H\u00f6he [der Anzahl an Monstern auf seinem Spielfeld]. Anschlie\u00dfend erh\u00e4ltst du LP in H\u00f6he [der Anzahl an Karten, die er durch diesen Effekt gezogen hat] x 300."
+    },
+    "it": {
+      "name": "Abito Babbo Strofinatale",
+      "effect": "Il tuo avversario pesca carte pari [al numero di mostri sul suo Terreno]. Poi, guadagni LP pari [al numero di carte che ha pescato con questo effetto] x 300."
+    },
+    "es": {
+      "name": "Depurador Santa Pa\u00f1os",
+      "effect": "Tu adversario roba una cantidad de cartas igual [al n\u00famero de monstruos en su Campo]. A continuaci\u00f3n, gana LP igual [al n\u00famero de cartas que ha robado por este efecto] x 300."
+    },
+    "ja": {
+      "name": "\u6d17\u6d44\u306e\u30b5\u30f3\u30bf\u30af\u30ed\u30b9",
+      "effect": "\u76f8\u624b\u306f\uff3b\u81ea\u8eab\u306e\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u6570\uff3d\u3060\u3051\u30c9\u30ed\u30fc\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306f\uff3b\u3053\u306e\u52b9\u679c\u3067\u76f8\u624b\u304c\u30c9\u30ed\u30fc\u3057\u305f\u6570\uff3d\u00d7\uff13\uff10\uff10\uff2c\uff30\u56de\u5fa9\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc138\uc815\ud558\ub294 \uc0b0\ud0c0\ud074\ub85c\uc2a4",
+      "effect": "\uc0c1\ub300\ub294 [\uc790\uc2e0 \ud544\ub4dc\uc758 \ubaac\uc2a4\ud130\uc758 \uc218]\ub9cc\ud07c \ub4dc\ub85c\uc6b0\ud55c\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0\uc740 [\uc774 \ud6a8\uacfc\ub85c \uc0c1\ub300\uac00 \ub4dc\ub85c\uc6b0\ud55c \uc218] \u00d7 300 LP \ud68c\ubcf5\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "type": "spellcaster",
+  "classifications": [
+    "effect"
+  ],
+  "level": 5,
+  "atk": 1000,
+  "def": 1800,
+  "passwords": [],
+  "images": [
+    {
+      "id": "8bd08991-0c85-41b4-a92a-8b4a19a0318d",
+      "card": "https://ms.yugipedia.com//2/2e/ScrubbingSantaCloth-RDMAX1-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Scrubbing Santa Cloth",
+        "id": 716616
+      }
+    ],
+    "dbID": 15916
+  },
+  "series": []
+}

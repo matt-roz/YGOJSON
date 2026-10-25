@@ -1,0 +1,146 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "76e5afc9-9ce4-4a05-9e55-fe9a5ee586e1",
+  "name": {
+    "en": "Premium Pack 7",
+    "ja": "\uff30\uff32\uff25\uff2d\uff29\uff35\uff2d \uff30\uff21\uff23\uff2b \uff17"
+  },
+  "locales": {
+    "jp": {
+      "language": "ja",
+      "prefix": "PP7-JP",
+      "date": "2004-08-05",
+      "image": "https://ms.yugipedia.com//5/58/PP7-BoosterJP.jpg",
+      "cardImages": {
+        "unlimited": {
+          "0c62f048-978d-4485-aaff-eedc8da00e7f": "https://ms.yugipedia.com//9/9b/AndroSphinx-PP7-JP-UR.png",
+          "70c61399-ab2e-41c2-a72d-c04fbce0e698": "https://ms.yugipedia.com//d/d2/SphinxTeleia-PP7-JP-UR.png",
+          "7990d892-a13a-47f2-a23f-18dc253a0afb": "https://ms.yugipedia.com//7/7f/RareMetalDragon-PP7-JP-C.png",
+          "7e367106-fb50-4238-be78-878d4733ec15": "https://ms.yugipedia.com//c/c7/ReturnfromtheDifferentDimension-PP7-JP-C.png",
+          "acc1e27d-78e0-4c4a-b23f-1014916b31d6": "https://ms.yugipedia.com//3/35/TheinentheGreatSphinx-PP7-JP-UR.png",
+          "b8825e78-4cfa-481a-addb-8d74c54427f3": "https://ms.yugipedia.com//9/9c/InfernoTempest-PP7-JP-C.png",
+          "dea8a31f-c5b6-4bfd-9891-05a98bac8948": "https://ms.yugipedia.com//5/54/PetentheDarkClown-PP7-JP-C.png",
+          "e53fc169-b80a-4fa3-9971-4f1fca4f673f": "https://ms.yugipedia.com//9/9e/FamiliarKnight-PP7-JP-C.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "0c62f048-978d-4485-aaff-eedc8da00e7f": {
+            "image": "https://ms.yugipedia.com//9/9b/AndroSphinx-PP7-JP-UR.png"
+          },
+          "70c61399-ab2e-41c2-a72d-c04fbce0e698": {
+            "image": "https://ms.yugipedia.com//d/d2/SphinxTeleia-PP7-JP-UR.png"
+          },
+          "7990d892-a13a-47f2-a23f-18dc253a0afb": {
+            "image": "https://ms.yugipedia.com//7/7f/RareMetalDragon-PP7-JP-C.png"
+          },
+          "7e367106-fb50-4238-be78-878d4733ec15": {
+            "image": "https://ms.yugipedia.com//c/c7/ReturnfromtheDifferentDimension-PP7-JP-C.png"
+          },
+          "acc1e27d-78e0-4c4a-b23f-1014916b31d6": {
+            "image": "https://ms.yugipedia.com//3/35/TheinentheGreatSphinx-PP7-JP-UR.png"
+          },
+          "b8825e78-4cfa-481a-addb-8d74c54427f3": {
+            "image": "https://ms.yugipedia.com//9/9c/InfernoTempest-PP7-JP-C.png"
+          },
+          "dea8a31f-c5b6-4bfd-9891-05a98bac8948": {
+            "image": "https://ms.yugipedia.com//5/54/PetentheDarkClown-PP7-JP-C.png"
+          },
+          "e53fc169-b80a-4fa3-9971-4f1fca4f673f": {
+            "image": "https://ms.yugipedia.com//9/9e/FamiliarKnight-PP7-JP-C.png"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          3308006
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//5/58/PP7-BoosterJP.jpg",
+      "cards": [
+        {
+          "id": "acc1e27d-78e0-4c4a-b23f-1014916b31d6",
+          "card": "5d946ff1-853c-4989-abde-1e2abab50dc4",
+          "suffix": "001",
+          "rarity": "ultra",
+          "imageID": "fed5dee8-9cac-4491-91bf-c8fb91b0b467"
+        },
+        {
+          "id": "0c62f048-978d-4485-aaff-eedc8da00e7f",
+          "card": "28d22633-9107-4667-a33d-45a39db44b8b",
+          "suffix": "002",
+          "rarity": "ultra",
+          "imageID": "577551b2-31d8-4e73-9c4d-8712878b09a1"
+        },
+        {
+          "id": "70c61399-ab2e-41c2-a72d-c04fbce0e698",
+          "card": "ed14ec74-2155-4beb-9dfd-14cb5a34c5f0",
+          "suffix": "003",
+          "rarity": "ultra",
+          "imageID": "0262f2b4-e597-4165-ada8-ddfe390bdd97"
+        },
+        {
+          "id": "7990d892-a13a-47f2-a23f-18dc253a0afb",
+          "card": "ea97b4de-9740-48bb-bfe9-98a321f5130c",
+          "suffix": "004",
+          "rarity": "common",
+          "imageID": "fb323541-6eec-4567-93d2-f580f716f1a7"
+        },
+        {
+          "id": "dea8a31f-c5b6-4bfd-9891-05a98bac8948",
+          "card": "dff3e302-59fc-4caa-94bf-9628aa437b15",
+          "suffix": "005",
+          "rarity": "common",
+          "imageID": "d3a622ce-c839-493f-9114-4e7592e879d1"
+        },
+        {
+          "id": "e53fc169-b80a-4fa3-9971-4f1fca4f673f",
+          "card": "ca572dff-f74c-4705-acc8-5ae7ad3a461c",
+          "suffix": "006",
+          "rarity": "common",
+          "imageID": "a74b8f91-eacb-4ba8-8153-894c5c9b33dd"
+        },
+        {
+          "id": "b8825e78-4cfa-481a-addb-8d74c54427f3",
+          "card": "72bd7db3-9e09-4e7c-9e2a-58d94852e6e1",
+          "suffix": "007",
+          "rarity": "common",
+          "imageID": "0a50db94-28b8-4dc5-9384-bbc154785946"
+        },
+        {
+          "id": "7e367106-fb50-4238-be78-878d4733ec15",
+          "card": "5738ade2-339a-4422-9d4e-97e5f2270622",
+          "suffix": "008",
+          "rarity": "common",
+          "imageID": "e39ce22a-c8c2-43b9-be2a-8a10623866e2"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Premium Pack 7",
+      "id": 507728
+    }
+  }
+}

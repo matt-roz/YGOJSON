@@ -1,0 +1,44 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "3bb9edb7-2848-40cf-b46c-ee98816b0430",
+  "text": {
+    "en": {
+      "name": "Saturnius' Orb",
+      "effect": "Draw 2 cards."
+    },
+    "ja": {
+      "name": "\u30b5\u30bf\u30cb\u30a6\u30b9\u306e\u5b9d\u73e0",
+      "effect": "\u81ea\u5206\u306f\uff12\u679a\u30c9\u30ed\u30fc\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc0ac\ud0c0\ub2c8\uc6b0\uc2a4\uc758 \ubcf4\uc8fc",
+      "effect": "\uc790\uc2e0\uc740 2\uc7a5 \ub4dc\ub85c\uc6b0\ud55c\ub2e4."
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "d75617f5-711e-41bc-93e3-b6547438da24",
+      "card": "https://ms.yugipedia.com//7/72/SaturniusOrb-RDAP02-JP-SR.png"
+    }
+  ],
+  "sets": [
+    "e123be6e-0424-4ff0-a324-6175fee17d50"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "r"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Saturnius' Orb",
+        "id": 714285
+      }
+    ],
+    "dbID": 18393
+  },
+  "series": []
+}

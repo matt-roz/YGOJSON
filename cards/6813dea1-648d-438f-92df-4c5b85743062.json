@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "6813dea1-648d-438f-92df-4c5b85743062",
+  "text": {
+    "en": {
+      "name": "Heel Healer",
+      "effect": "Gain 1000 LP.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30d2\u30fc\u30eb\u30fb\u30d2\u30fc\u30e9\u30fc",
+      "effect": "\u81ea\u5206\u306f\uff11\uff10\uff10\uff10\uff2c\uff30\u56de\u5fa9\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud790 \ud790\ub7ec",
+      "effect": "\uc790\uc2e0\uc740 1000 LP \ud68c\ubcf5\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "wind",
+  "type": "psychic",
+  "classifications": [
+    "effect"
+  ],
+  "level": 5,
+  "atk": 1600,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "7c876bfa-8f33-4420-a210-d35892bcee53",
+      "card": "https://ms.yugipedia.com//9/9d/HeelHealer-RDB242-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Heel Healer",
+        "id": 715287
+      }
+    ],
+    "dbID": 18255
+  },
+  "series": [
+    "e2451a40-fb70-4685-998f-4eb578b9eb8a"
+  ]
+}

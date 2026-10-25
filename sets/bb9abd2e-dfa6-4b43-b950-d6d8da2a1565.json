@@ -1,0 +1,70 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "bb9abd2e-dfa6-4b43-b950-d6d8da2a1565",
+  "name": {
+    "en": "Poseidra Value Box"
+  },
+  "locales": {
+    "en": {
+      "language": "en",
+      "prefix": "SDRE-EN",
+      "image": "https://ms.yugipedia.com//2/2a/SDRE-PromoEN.png",
+      "cardImages": {
+        "unlimited": {
+          "31cc4f02-6dd0-4b4c-8904-198b180131f5": "https://ms.yugipedia.com//e/ed/PoseidratheAtlanteanDragon-SDRE-EN-UR-UE-CT.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "31cc4f02-6dd0-4b4c-8904-198b180131f5": {
+            "image": "https://ms.yugipedia.com//e/ed/PoseidratheAtlanteanDragon-SDRE-EN-UR-UE-CT.png",
+            "variants": [
+              {
+                "code": "CT",
+                "image": "https://ms.yugipedia.com//e/ed/PoseidratheAtlanteanDragon-SDRE-EN-UR-UE-CT.png"
+              }
+            ]
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {}
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "en"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "distrobution": "preconstructed",
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//2/2a/SDRE-PromoEN.png",
+      "cards": [
+        {
+          "id": "31cc4f02-6dd0-4b4c-8904-198b180131f5",
+          "card": "750c2943-fcce-47e6-a5d6-34190c0832b4",
+          "suffix": "001",
+          "rarity": "ultra",
+          "imageID": "0d898d2f-dd1c-4a79-9d4c-fb41be900cbe"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Poseidra Value Box",
+      "id": 312439
+    }
+  }
+}

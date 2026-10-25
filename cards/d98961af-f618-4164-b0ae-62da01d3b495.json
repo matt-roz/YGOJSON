@@ -1,0 +1,61 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "d98961af-f618-4164-b0ae-62da01d3b495",
+  "text": {
+    "en": {
+      "name": "Lesser Dragon (Rush Duel)",
+      "effect": "A minor dragon incapable of breathing fire."
+    },
+    "fr": {
+      "name": "Dragon Inf\u00e9rieur",
+      "effect": "Dragon inf\u00e9rieur incapable de lancer des flammes."
+    },
+    "de": {
+      "name": "Geringerer Drache",
+      "effect": "Ein kleinerer Drache, der kein Feuer speien kann."
+    },
+    "it": {
+      "name": "Drago Minore",
+      "effect": "Drago minore incapace di sputare fuoco."
+    },
+    "es": {
+      "name": "Drag\u00f3n Menor",
+      "effect": "Un drag\u00f3n menor incapaz de arrojar fuego."
+    },
+    "ko": {
+      "name": "\ub808\uc11c \ub4dc\ub798\uace4",
+      "effect": "\ud654\uc5fc\ub3c4 \uc81c\ub300\ub85c \ubabb \ub0b4\ubfdc\ub294 \ub0ae\uc740 \ub808\ubca8\uc758 \ub4dc\ub798\uace4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "wind",
+  "type": "dragon",
+  "classifications": [
+    "normal"
+  ],
+  "level": 4,
+  "atk": 1200,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "0084f240-9727-4114-8f75-33434421f762",
+      "card": "https://ms.yugipedia.com//1/1b/LesserDragon-RDSBD2-JP-C.png"
+    }
+  ],
+  "sets": [
+    "630a6319-4798-42e5-b872-a4ae8d828ad2",
+    "630a6319-4798-42e5-b872-a4ae8d828ad2"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Lesser Dragon (Rush Duel)",
+        "id": 715588
+      }
+    ],
+    "dbID": 15218
+  },
+  "series": []
+}

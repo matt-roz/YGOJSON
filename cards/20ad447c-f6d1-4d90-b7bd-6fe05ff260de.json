@@ -1,0 +1,53 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "20ad447c-f6d1-4d90-b7bd-6fe05ff260de",
+  "text": {
+    "en": {
+      "name": "Excutie Plawtie",
+      "effect": "Gain 500 LP."
+    },
+    "ja": {
+      "name": "\u30a8\u30af\u30b9\u30ad\u30e5\u30fc\u30c6\u30a3\u30fc\u30fb\u30d7\u30e9\u30a6\u30c6\u30a3",
+      "effect": "\u81ea\u5206\u306f\uff15\uff10\uff10\uff2c\uff30\u56de\u5fa9\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc5d1\uc2a4\ud050\ud2f0 \ud504\ub77c\uc6b0\ud2f0",
+      "effect": "\uc790\uc2e0\uc740 500 LP \ud68c\ubcf5\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "plant",
+  "classifications": [
+    "effect"
+  ],
+  "level": 6,
+  "atk": 1500,
+  "def": 500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "76f242c8-d476-4be2-bd73-cdbcaa24457e",
+      "card": "https://ms.yugipedia.com//3/38/ExcutiePlawtie-RD5TH1-JP-SPR.png"
+    }
+  ],
+  "sets": [
+    "e123be6e-0424-4ff0-a324-6175fee17d50"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "r"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Excutie Plawtie",
+        "id": 714871
+      }
+    ],
+    "dbID": 18366
+  },
+  "series": [
+    "dae99f8b-02f7-4a16-9e85-778749af5c40"
+  ]
+}

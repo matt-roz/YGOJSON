@@ -1,0 +1,43 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "32e75896-7da5-4c81-928c-6f129e57c1d3",
+  "text": {
+    "en": {
+      "name": "Dark Effigy (Rush Duel)",
+      "effect": "This face-up card can be treated as 2 Tributes for the Tribute Summon of a DARK Attribute Normal Monster in Attack Position.",
+      "official": false
+    },
+    "ko": {
+      "name": "\ub2e4\ud06c \ud50c\ub808\uc784",
+      "effect": "\uc77c\ubc18 \ubaac\uc2a4\ud130(\uc5b4\ub460 \uc18d\uc131)\ub97c \uacf5\uaca9 \ud45c\uc2dc\ub85c \uc5b4\ub4dc\ubc34\uc2a4 \uc18c\ud658\ud560 \uacbd\uc6b0, \uc55e\uba74 \ud45c\uc2dc\uc758 \uc774 \uce74\ub4dc\ub294 2\uc7a5\ub9cc\ud07c\uc758 \ub9b4\ub9ac\uc2a4\ub85c \ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "fiend",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1500,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "b0f36d98-2abd-4b82-817d-d5a229eddbd8",
+      "card": "https://ms.yugipedia.com//9/9b/DarkEffigy-RDKP15-JP-R.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Dark Effigy (Rush Duel)",
+        "id": 1020896
+      }
+    ],
+    "dbID": 19667
+  },
+  "series": []
+}

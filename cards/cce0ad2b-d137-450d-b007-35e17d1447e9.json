@@ -1,0 +1,56 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "cce0ad2b-d137-450d-b007-35e17d1447e9",
+  "text": {
+    "en": {
+      "name": "Spike Seadra (Rush Duel)",
+      "effect": "Using the spikes sprouting from its body, this creature stabs its opponents and floods them with electricity."
+    },
+    "fr": {
+      "name": "Seadra Per\u00e7ant"
+    },
+    "de": {
+      "name": "Stachelseedra"
+    },
+    "it": {
+      "name": "Seadra degli Aculei"
+    },
+    "es": {
+      "name": "Seadra, la Punzante"
+    },
+    "ko": {
+      "name": "\uc2a4\ud30c\uc774\ud06c \uc2dc\ub4dc\ub77c",
+      "effect": "\ubab8\uc758 \uac00\uc2dc\ub97c \uc0c1\ub300\uc5d0\uac8c \ucc14\ub7ec \uc804\ub958\ub97c \ud758\ub824\ubcf4\ub0b4 \uacf5\uaca9\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "type": "seaserpent",
+  "classifications": [
+    "normal"
+  ],
+  "level": 5,
+  "atk": 1600,
+  "def": 1300,
+  "passwords": [],
+  "images": [
+    {
+      "id": "67491ef8-903e-471b-92c2-7928436184a5",
+      "card": "https://ms.yugipedia.com//f/fa/SpikeSeadra-RDSST1-JP-C.png"
+    }
+  ],
+  "sets": [
+    "f9c6f064-6fdf-412a-a9ff-62631979aa08"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Spike Seadra (Rush Duel)",
+        "id": 716789
+      }
+    ],
+    "dbID": 16963
+  },
+  "series": []
+}

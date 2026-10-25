@@ -1,0 +1,47 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "e82858ea-2fe7-4588-acc7-9e8f8e1340d8",
+  "text": {
+    "en": {
+      "name": "Zero Drake",
+      "effect": "New encounters, new adventures, a new world. A new road for the dragon whelp that turns zero into one.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30bc\u30ed\u30fb\u30c9\u30ec\u30a4\u30af",
+      "effect": "\u65b0\u305f\u306a\u51fa\u4f1a\u3044\u3001\u65b0\u305f\u306a\u5192\u967a\u3001\u65b0\u305f\u306a\u4e16\u754c\u3002\u30bc\u30ed\u3092\u30a4\u30c1\u306b\u3059\u308b\u5b50\u7adc\u306e\u65c5\u8def\u3002"
+    },
+    "ko": {
+      "name": "\uc81c\ub85c \ub4dc\ub808\uc774\ud06c",
+      "effect": "\uc0c8\ub85c\uc6b4 \ub9cc\ub0a8, \uc0c8\ub85c\uc6b4 \ubaa8\ud5d8, \uc0c8\ub85c\uc6b4 \uc138\uacc4. 0\uc5d0\uc11c 1\uc744 \ub9cc\ub4dc\ub294 \uc5b4\ub9b0 \uc6a9\uc758 \uc5ec\ud589."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "type": "dragon",
+  "classifications": [
+    "normal"
+  ],
+  "level": 1,
+  "atk": 0,
+  "def": 1500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "7fbe73c0-db76-4e05-bcf4-dec6b256c0df",
+      "card": "https://ms.yugipedia.com//d/d5/ZeroDrake-RDB234-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Zero Drake",
+        "id": 1035624
+      }
+    ],
+    "dbID": 19931
+  },
+  "series": []
+}

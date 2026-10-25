@@ -1,0 +1,69 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "ccba0f0a-b23c-46dd-9c15-b5785210541b",
+  "name": {
+    "en": "Structure Deck: Dinosaur's Rage Special Edition",
+    "ja": "\uff33\uff34\uff32\uff35\uff23\uff34\uff35\uff32\uff25 \uff24\uff25\uff23\uff2b \uff0d \u6050\u7adc\u306e\u9f13\u52d5 \uff0d \u30b9\u30da\u30b7\u30e3\u30eb\u30bb\u30c3\u30c8"
+  },
+  "locales": {
+    "jp": {
+      "language": "ja",
+      "prefix": "SD09-JPS",
+      "date": "2006-09-14",
+      "image": "https://ms.yugipedia.com//0/0b/SD09-PromoJP.png",
+      "cardImages": {
+        "unlimited": {
+          "37f194fe-723f-4a3f-a8bd-53e7769dd421": "https://ms.yugipedia.com//3/3f/SuperConductorTyranno-SD09-JP-UtR.jpg"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "37f194fe-723f-4a3f-a8bd-53e7769dd421": {
+            "image": "https://ms.yugipedia.com//3/3f/SuperConductorTyranno-SD09-JP-UtR.jpg"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          2201028
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//0/0b/SD09-PromoJP.png",
+      "cards": [
+        {
+          "id": "37f194fe-723f-4a3f-a8bd-53e7769dd421",
+          "card": "0fa3fa15-20da-4b0b-82f5-63145b33fd7f",
+          "suffix": "01",
+          "rarity": "ultimate",
+          "imageID": "f8ed8cb1-5c37-406b-afae-b2ae036871dd"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Structure Deck: Dinosaur's Rage Special Edition (Japanese)",
+      "id": 266643
+    }
+  }
+}

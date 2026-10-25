@@ -1,0 +1,58 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "189aa9ec-60ef-4239-913f-e3a9dd8ac0f0",
+  "text": {
+    "en": {
+      "name": "Flavor Inspector",
+      "effect": "A professional with an understanding that the world is either sweet or sour. Any dish she treats will be seasoned with perfection."
+    },
+    "ja": {
+      "name": "\u4e07\u80fd\u8abf\u5473\u67fb\u5bdf\u5b98",
+      "effect": "\u9178\u3044\u3082\u7518\u3044\u3082\u565b\u307f\u5206\u3051\u308b\u5473\u306e\u30d7\u30ed\u3002\u3069\u3093\u306a\u6599\u7406\u3067\u3082\u826f\u3044\u5869\u6885\u306b\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud14c\uc774\uc2a4\ud2b8 \uc778\uc2a4\ud399\ud130",
+      "effect": "\uc2e0\ub9db\ub3c4 \ub2e8\ub9db\ub3c4 \uac10\ubcc4\ud574 \ub0b4\ub294 \ub9db\uc758 \ud504\ub85c. \uc5b4\ub5a0\ud55c \uc694\ub9ac\ub77c\ub3c4 \ub531 \ub9de\ub294 \uac04\uc744 \ucc3e\uc544\ub0b8\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "type": "pyro",
+  "classifications": [
+    "normal"
+  ],
+  "level": 3,
+  "atk": 1300,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "1e2c03a6-5148-4fb6-bd66-afc32f24eec9",
+      "card": "https://ms.yugipedia.com//d/d9/FlavorInspector-RDSD04-JP-C.png"
+    },
+    {
+      "id": "d86f9cbc-f8e1-4fb1-b1c3-e6511042dc33",
+      "card": "https://ms.yugipedia.com//3/31/FlavorInspector-RDS254-JP-OP.png"
+    }
+  ],
+  "sets": [
+    "389782ec-2c38-4819-ae84-d3d562b6364c",
+    "e1cd0077-0760-46c2-8cff-9fd1ac443780",
+    "c05d7ca5-5bea-4c0f-884c-dd1ec7f1be77",
+    "c05d7ca5-5bea-4c0f-884c-dd1ec7f1be77"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "n"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Flavor Inspector",
+        "id": 717003
+      }
+    ],
+    "dbID": 16974
+  },
+  "series": []
+}

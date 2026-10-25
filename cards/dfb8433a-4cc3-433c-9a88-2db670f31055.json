@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "dfb8433a-4cc3-433c-9a88-2db670f31055",
+  "text": {
+    "en": {
+      "name": "Healthie Cafferin",
+      "effect": "Send the top 2 cards of your Deck to the Graveyard. Then, you can Set 1 \"Healthy Mind Speedy Buzzer Battle!\" from your Graveyard to your Spell & Trap Zone.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30d8\u30eb\u30b7\u30a3\u30fb\u30ab\u30d5\u30a7\u30ea\u30f3",
+      "effect": "\u81ea\u5206\u306e\u30c7\u30c3\u30ad\u306e\u4e0a\u304b\u3089\u30ab\u30fc\u30c9\uff12\u679a\u3092\u5893\u5730\u3078\u9001\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u5065\u5eb7\u8ce2\u660e\u65e9\u62bc\u3057\u30d0\u30c8\u30eb\uff01\u300d\uff11\u679a\u3092\u9078\u3093\u3067\u81ea\u5206\u306e\u9b54\u6cd5\uff06\u7f60\u30be\u30fc\u30f3\u306b\u30bb\u30c3\u30c8\u3067\u304d\u308b\u3002"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "type": "pyro",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 1500,
+  "def": 1300,
+  "passwords": [],
+  "images": [
+    {
+      "id": "18dbeabb-d5d4-4f4c-b117-7f07e444417d",
+      "card": "https://ms.yugipedia.com//b/b5/HealthieCafferin-RDKP26-JP-SR.png"
+    },
+    {
+      "id": "10c921ac-f8be-44db-b97f-9344433c8fbe",
+      "card": "https://ms.yugipedia.com//2/2c/HealthieCafferin-RDKP26-JP-ScR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Healthie Cafferin",
+        "id": 1207696
+      }
+    ],
+    "dbID": 23731
+  },
+  "series": [
+    "fa13c05e-752a-441d-bd0a-02d6954bf3f0"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "d161c622-bb31-49f8-8b09-aac784795278",
+  "text": {
+    "en": {
+      "name": "Recovery Force",
+      "effect": "Draw 1 card."
+    },
+    "fr": {
+      "name": "Forces de R\u00e9cup\u00e9ration",
+      "effect": "Piochez 1 carte."
+    },
+    "de": {
+      "name": "Gesundungskraft",
+      "effect": "Ziehe 1 Karte."
+    },
+    "it": {
+      "name": "Forza di Recupero",
+      "effect": "Pesca 1 carta."
+    },
+    "es": {
+      "name": "Fuerza de Recuperaci\u00f3n",
+      "effect": "Roba 1 carta."
+    },
+    "ja": {
+      "name": "\u30ea\u30ab\u30d0\u30ea\u30fc\u30fb\u30d5\u30a9\u30fc\u30b9",
+      "effect": "\u81ea\u5206\u306f\uff11\u679a\u30c9\u30ed\u30fc\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub9ac\ucee4\ubc84\ub9ac \ud3ec\uc2a4",
+      "effect": "\uc790\uc2e0\uc740 1\uc7a5 \ub4dc\ub85c\uc6b0\ud55c\ub2e4."
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "f9fc7a21-3b55-4cc5-909d-52fd1e0eec45",
+      "card": "https://ms.yugipedia.com//a/a0/RecoveryForce-RDMRP2-JP-C.png"
+    }
+  ],
+  "sets": [
+    "e670ec5c-7fbb-49cd-9899-885731ab9e90",
+    "f2a822fb-30a4-4e51-bd28-f909ecc826ff",
+    "b0f28e3d-b93f-42f7-9518-5a27b9304349",
+    "b6e8e337-8faf-48be-851d-4ba7298c81d0",
+    "836547cc-b1e4-4942-85e9-b165101b9463",
+    "dd544c08-5223-4f76-9470-5d47aec790d2",
+    "29280529-be04-4a88-b2a3-acb63a018731",
+    "29280529-be04-4a88-b2a3-acb63a018731",
+    "288f40da-3a58-4353-8951-a8b611718475"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "r"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Recovery Force",
+        "id": 716396
+      }
+    ],
+    "dbID": 15205
+  },
+  "series": []
+}

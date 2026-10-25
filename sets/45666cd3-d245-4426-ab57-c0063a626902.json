@@ -1,0 +1,251 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "45666cd3-d245-4426-ab57-c0063a626902",
+  "name": {
+    "en": "Strongest Battle Deck +1 Bonus Card",
+    "ja": "\u6700\u5f37\u30d0\u30c8\u30eb\u30c7\u30c3\u30ad \uff0b\uff11\u30dc\u30fc\u30ca\u30b9\u30ab\u30fc\u30c9",
+    "ko": "\ucd5c\uac15 \ubc30\ud2c0 \ub371 +1\ubcf4\ub108\uc2a4 \uce74\ub4dc"
+  },
+  "locales": {
+    "jp": {
+      "language": "ja",
+      "prefix": "RD/SBD0-JP",
+      "date": "2021-08-21",
+      "image": "https://ms.yugipedia.com//6/68/RDSBD-Poster-JP.png",
+      "cardImages": {
+        "unlimited": {}
+      },
+      "cardInfo": {
+        "unlimited": {}
+      },
+      "formats": [
+        "rushduel"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          1000100103000
+        ]
+      }
+    },
+    "kr": {
+      "language": "ko",
+      "prefix": "RD/SBD0-KR",
+      "date": "2021-10-19",
+      "image": "https://ms.yugipedia.com//e/e2/RDSBD-Poster-KR.png",
+      "cardImages": {
+        "unlimited": {}
+      },
+      "cardInfo": {
+        "unlimited": {}
+      },
+      "formats": [
+        "rushduel"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          1010100022000
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "rushduel"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//6/68/RDSBD-Poster-JP.png",
+      "cards": [
+        {
+          "id": "8437e5ea-abe9-456c-9841-9fdc8716a3c3",
+          "card": "dfeb61fc-d60e-4544-bdb8-752464850370",
+          "suffix": "001",
+          "rarity": "superparallel",
+          "imageID": "52d7f2bb-89c0-4e22-b8e1-44d4e8898c9d",
+          "printStatus": "new"
+        },
+        {
+          "id": "7a16025e-f0b0-436b-b00e-eb4bc310a25e",
+          "card": "dfeb61fc-d60e-4544-bdb8-752464850370",
+          "suffix": "001",
+          "rarity": "secret",
+          "imageID": "52d7f2bb-89c0-4e22-b8e1-44d4e8898c9d",
+          "printStatus": "new"
+        },
+        {
+          "id": "f52b0984-038c-43b2-8d27-c74996e24b73",
+          "card": "09364d40-a4a2-489a-a026-4e2eaf3e3f75",
+          "suffix": "002",
+          "rarity": "superparallel",
+          "imageID": "78b786cd-ff0d-4886-a61a-5949426edf53",
+          "printStatus": "new"
+        },
+        {
+          "id": "981b1f24-8bd7-436d-a63f-fd8fca0be726",
+          "card": "09364d40-a4a2-489a-a026-4e2eaf3e3f75",
+          "suffix": "002",
+          "rarity": "secret",
+          "imageID": "78b786cd-ff0d-4886-a61a-5949426edf53",
+          "printStatus": "new"
+        },
+        {
+          "id": "47d97355-8773-49d4-9210-b5aacbf0e3e0",
+          "card": "b901b4f3-5fe2-4ecf-951f-8d43b131d7ec",
+          "suffix": "003",
+          "rarity": "superparallel",
+          "imageID": "08314238-8125-415f-9583-5ac0604f89c7",
+          "printStatus": "new"
+        },
+        {
+          "id": "4b14445f-65cc-460b-9635-71a426d04978",
+          "card": "b901b4f3-5fe2-4ecf-951f-8d43b131d7ec",
+          "suffix": "003",
+          "rarity": "secret",
+          "imageID": "08314238-8125-415f-9583-5ac0604f89c7",
+          "printStatus": "new"
+        },
+        {
+          "id": "f7ebe73e-1b1a-4b1a-9d90-179a67973951",
+          "card": "d68e2df1-f25d-4441-bde4-78b4f45e4831",
+          "suffix": "004",
+          "rarity": "superparallel",
+          "printStatus": "new"
+        },
+        {
+          "id": "60b8a1e7-cf0d-4f10-b816-fc4ab0859c3e",
+          "card": "d68e2df1-f25d-4441-bde4-78b4f45e4831",
+          "suffix": "004",
+          "rarity": "secret",
+          "printStatus": "new"
+        },
+        {
+          "id": "fed03a81-8a29-4110-bde7-c1fff163f476",
+          "card": "4eada7e8-9619-4f71-bfbc-5dfa9758464e",
+          "suffix": "005",
+          "rarity": "superparallel",
+          "imageID": "c829295b-5d2b-4346-a471-f8795c1cb2de",
+          "printStatus": "new"
+        },
+        {
+          "id": "ca7fa769-0067-4527-8bc9-08fb67a9882e",
+          "card": "4eada7e8-9619-4f71-bfbc-5dfa9758464e",
+          "suffix": "005",
+          "rarity": "secret",
+          "imageID": "c829295b-5d2b-4346-a471-f8795c1cb2de",
+          "printStatus": "new"
+        }
+      ],
+      "externalIDs": {}
+    },
+    {
+      "locales": [
+        "kr"
+      ],
+      "formats": [
+        "rushduel"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//e/e2/RDSBD-Poster-KR.png",
+      "cards": [
+        {
+          "id": "8437e5ea-abe9-456c-9841-9fdc8716a3c3",
+          "card": "dfeb61fc-d60e-4544-bdb8-752464850370",
+          "suffix": "001",
+          "rarity": "superparallel",
+          "imageID": "52d7f2bb-89c0-4e22-b8e1-44d4e8898c9d",
+          "printStatus": "new"
+        },
+        {
+          "id": "7a16025e-f0b0-436b-b00e-eb4bc310a25e",
+          "card": "dfeb61fc-d60e-4544-bdb8-752464850370",
+          "suffix": "001",
+          "rarity": "secret",
+          "imageID": "52d7f2bb-89c0-4e22-b8e1-44d4e8898c9d",
+          "printStatus": "new"
+        },
+        {
+          "id": "f52b0984-038c-43b2-8d27-c74996e24b73",
+          "card": "09364d40-a4a2-489a-a026-4e2eaf3e3f75",
+          "suffix": "002",
+          "rarity": "superparallel",
+          "imageID": "78b786cd-ff0d-4886-a61a-5949426edf53",
+          "printStatus": "new"
+        },
+        {
+          "id": "981b1f24-8bd7-436d-a63f-fd8fca0be726",
+          "card": "09364d40-a4a2-489a-a026-4e2eaf3e3f75",
+          "suffix": "002",
+          "rarity": "secret",
+          "imageID": "78b786cd-ff0d-4886-a61a-5949426edf53",
+          "printStatus": "new"
+        },
+        {
+          "id": "47d97355-8773-49d4-9210-b5aacbf0e3e0",
+          "card": "b901b4f3-5fe2-4ecf-951f-8d43b131d7ec",
+          "suffix": "003",
+          "rarity": "superparallel",
+          "imageID": "08314238-8125-415f-9583-5ac0604f89c7",
+          "printStatus": "new"
+        },
+        {
+          "id": "4b14445f-65cc-460b-9635-71a426d04978",
+          "card": "b901b4f3-5fe2-4ecf-951f-8d43b131d7ec",
+          "suffix": "003",
+          "rarity": "secret",
+          "imageID": "08314238-8125-415f-9583-5ac0604f89c7",
+          "printStatus": "new"
+        },
+        {
+          "id": "f7ebe73e-1b1a-4b1a-9d90-179a67973951",
+          "card": "d68e2df1-f25d-4441-bde4-78b4f45e4831",
+          "suffix": "004",
+          "rarity": "superparallel",
+          "printStatus": "new"
+        },
+        {
+          "id": "60b8a1e7-cf0d-4f10-b816-fc4ab0859c3e",
+          "card": "d68e2df1-f25d-4441-bde4-78b4f45e4831",
+          "suffix": "004",
+          "rarity": "secret",
+          "printStatus": "new"
+        },
+        {
+          "id": "fed03a81-8a29-4110-bde7-c1fff163f476",
+          "card": "4eada7e8-9619-4f71-bfbc-5dfa9758464e",
+          "suffix": "005",
+          "rarity": "superparallel",
+          "imageID": "c829295b-5d2b-4346-a471-f8795c1cb2de",
+          "printStatus": "new"
+        },
+        {
+          "id": "ca7fa769-0067-4527-8bc9-08fb67a9882e",
+          "card": "4eada7e8-9619-4f71-bfbc-5dfa9758464e",
+          "suffix": "005",
+          "rarity": "secret",
+          "imageID": "c829295b-5d2b-4346-a471-f8795c1cb2de",
+          "printStatus": "new"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Strongest Battle Deck +1 Bonus Card",
+      "id": 901142
+    }
+  }
+}

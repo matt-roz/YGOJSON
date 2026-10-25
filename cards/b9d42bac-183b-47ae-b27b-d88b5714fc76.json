@@ -1,0 +1,43 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "b9d42bac-183b-47ae-b27b-d88b5714fc76",
+  "text": {
+    "en": {
+      "name": "Evil HERO Inferno Wing (Rush Duel)",
+      "effect": "This card inflicts piercing battle damage. If this card destroys a monster by battle and sends it to the Graveyard, inflict damage to your opponent equal to [that monster's original ATK or DEF (whichever is higher)].",
+      "official": false
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "fiend",
+  "classifications": [
+    "effect"
+  ],
+  "level": 6,
+  "atk": 2100,
+  "def": 1200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "810fdf51-d4d3-4a44-9cda-2cc3b2bd47c5",
+      "card": "https://ms.yugipedia.com//2/25/EvilHEROInfernoWing-RDLP02-JP-OP.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Evil HERO Inferno Wing (Rush Duel)",
+        "id": 1233937
+      }
+    ]
+  },
+  "series": [
+    "47fdc37e-7a1a-47fd-9f37-130a593f8dc7"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "9ec07b2e-6807-4acd-8869-cbba9b3222e0",
+  "text": {
+    "en": {
+      "name": "Bat of the Twin Blaze Fiends",
+      "effect": "Set 1 \"Altar of the Twin Blaze Fiends\" and/or \"Cage of the Blaze Fiends\" from your Graveyard to your Spell & Trap Zone.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u53cc\u7114\u9b54\u306e\u98db\u9f20",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u53cc\u7114\u9b54\u306e\u796d\u58c7\u300d\u300c\u7114\u9b54\u306e\u6abb\u300d\u3092\u305d\u308c\u305e\u308c\uff11\u679a\u307e\u3067\u9078\u3093\u3067\u81ea\u5206\u306e\u9b54\u6cd5\uff06\u7f60\u30be\u30fc\u30f3\u306b\u30bb\u30c3\u30c8\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc30d\uc5fc \ub9c8\uc758 \ube44\uc11c",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \"\uc30d\uc5fc \ub9c8\uc758 \uc81c\ub2e8\" \"\uc5fc \ub9c8\uc758 \uac10\uc625\"\uc744 \uac01\uac01 1\uc7a5\uae4c\uc9c0 \uace0\ub974\uace0 \uc790\uc2e0\uc758 \ub9c8\ubc95 & \ud568\uc815 \uc874\uc5d0 \uc138\ud2b8\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "type": "fiend",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1000,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "8cadf997-aefb-4074-a102-2d1509fc4a7d",
+      "card": "https://ms.yugipedia.com//7/73/BatoftheTwinBlazeFiends-RDKP22-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Bat of the Twin Blaze Fiends",
+        "id": 1135843
+      }
+    ],
+    "dbID": 22001
+  },
+  "series": [
+    "f5c3efea-440e-4585-aa6a-b79d87599d7c"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "1d22e721-d901-4ec0-ab39-03b56a5b42bb",
+  "text": {
+    "en": {
+      "name": "Javelin Beetle of the Alliance",
+      "effect": "You can Ritual Summon this card with \"Javelin Beetle of the Alliance\". During the Main Phase (Quick Effect): You can reveal this card in your hand; Ritual Summon 1 Insect Ritual Monster from your hand, by Tributing monsters from your hand or field whose total Levels equal or exceed its Level. You can only use this effect of \"Javelin Beetle of the Alliance\" once per Duel. If this card is Ritual Summoned: You can target 1 other card in this card's column; destroy it, and if you do, this card gains 600 ATK.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u76df\u7d04\u306e\u30b8\u30e3\u30d9\u30ea\u30f3\u30d3\u30fc\u30c8\u30eb"
+    },
+    "zh-CN": {
+      "name": "\u76df\u7ea6\u4e4b\u6807\u67aa\u7532\u866b",
+      "effect": "\u4ee5\u201c\u76df\u7ea6\u4e4b\u6807\u67aa\u7532\u866b\u201d\u964d\u4e34\n\u6b64\u5361\u540d\u7684\u2460\u6548\u679c\u5728\u51b3\u6597\u4e2d\u4ec5\u53ef\u4f7f\u75281\u6b21\u3002\u2460\uff1a\u5728\u81ea\u5df1\u30fb\u5bf9\u624b\u7684\u4e3b\u8981\u9636\u6bb5\uff0c\u5411\u5bf9\u624b\u51fa\u793a\u624b\u724c\u7684\u6b64\u5361\u53ef\u4ee5\u53d1\u52a8\u3002\u4e3a\u4f7f\u5408\u8ba1\u7b49\u7ea7\u8fbe\u5230\u4eea\u5f0f\u53ec\u5524\u7684\u602a\u517d\u7684\u7b49\u7ea7\u4ee5\u4e0a\uff0c\u89e3\u653e\u81ea\u5df1\u624b\u724c\u30fb\u573a\u4e0a\u7684\u602a\u517d\uff0c\u4ece\u624b\u724c\u5c061\u53ea\u6606\u866b\u65cf\u4eea\u5f0f\u602a\u517d\u4eea\u5f0f\u53ec\u5524\u3002\u2461\uff1a\u6b64\u5361\u4eea\u5f0f\u53ec\u5524\u7684\u60c5\u51b5\u4e0b\uff0c\u4ee5\u4e0e\u6b64\u5361\u540c\u4e00\u7eb5\u5217\u76841\u5f20\u5176\u4ed6\u5361\u4e3a\u5bf9\u8c61\u53ef\u4ee5\u53d1\u52a8\u3002\u5c06\u8be5\u5361\u7834\u574f\uff0c\u6b64\u5361\u7684\u653b\u51fb\u529b\u4e0a\u5347600\u3002"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "monsterCardTypes": [
+    "ritual"
+  ],
+  "type": "insect",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 2450,
+  "def": 2550,
+  "passwords": [],
+  "images": [
+    {
+      "id": "6019fcae-201b-469f-baeb-e709a102aa1a",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/101403029.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/101403029.jpg"
+    }
+  ],
+  "sets": [
+    "ccc8125c-0182-45df-91a7-57e5e2423dfc",
+    "ccc8125c-0182-45df-91a7-57e5e2423dfc"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Javelin Beetle of the Alliance",
+        "id": 1230914
+      }
+    ],
+    "ygoprodeck": {
+      "id": 101403029,
+      "name": "javelin-beetle-of-the-alliance-15994"
+    }
+  },
+  "series": []
+}

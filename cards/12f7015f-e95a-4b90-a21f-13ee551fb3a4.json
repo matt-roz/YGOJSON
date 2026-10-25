@@ -1,0 +1,48 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "12f7015f-e95a-4b90-a21f-13ee551fb3a4",
+  "text": {
+    "en": {
+      "name": "Marincess Azuri",
+      "effect": "If this card is Normal or Special Summoned: You can Special Summon 1 WATER Cyberse monster with 1000 or less ATK from your Deck, also you cannot Special Summon for the rest of this turn, except WATER monsters. If you Link Summon a \"Marincess\" Link Monster(s), while this card is in your GY: You can banish this card; equip 1 \"Marincess\" monster from your GY to 1 of those Link Monsters as an Equip Spell that gives it 600 ATK. You can only use each effect of \"Marincess Azuri\" once per turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u6d77\u6676\u4e59\u5973\u30a2\u30ba\u30ea\u30fc"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "type": "cyberse",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 1600,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "5ad82b91-f313-4d46-b1ea-ee1cd757ae9c",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/100460026.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/100460026.jpg"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Marincess Azuri",
+        "id": 1233546
+      }
+    ],
+    "ygoprodeck": {
+      "id": 100460026,
+      "name": "marincess-azuri-16013"
+    }
+  },
+  "series": [
+    "b58df174-893a-40f4-854e-352cd80e04b6"
+  ]
+}

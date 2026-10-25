@@ -1,0 +1,53 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "4d81db6f-fe6b-4a4a-9974-cb7e5aa397fa",
+  "text": {
+    "en": {
+      "name": "Celebrontosaurus",
+      "effect": "A now \"rich\" dinosaur who had changed names in exchange for luck. He used to live in a hole."
+    },
+    "ja": {
+      "name": "\u30bb\u30ec\u30d6\u30ed\u30f3\u30c8\u30b5\u30a6\u30eb\u30b9",
+      "effect": "\u30d7\u30c1\u6539\u540d\u3057\u3066\u7206\u904b\u3092\u5f97\u305f\u6210\u91d1\u30b5\u30a6\u30eb\u30b9\u3002\u304b\u3064\u3066\u306f\u307b\u3089\u7a74\u306b\u4f4f\u3093\u3067\u3044\u305f\u3002"
+    },
+    "ko": {
+      "name": "\uc140\ub808\ube0c\ub860\ud1a0\uc0ac\uc6b0\ub8e8\uc2a4",
+      "effect": "\uc0b4\uc9dd \uac1c\uba85\ud574\uc11c \ud314\uc790 \uace0\uce5c \uac11\ubd80 \uc0ac\uc6b0\ub8e8\uc2a4. \uc608\uc804\uc5d0\ub294 \ub3d9\uad74\uc5d0\uc11c \uc0b4\uace0 \uc788\uc5c8\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "dinosaur",
+  "classifications": [
+    "normal"
+  ],
+  "level": 4,
+  "atk": 1400,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "ea0b731d-a97a-4036-afae-301265026821",
+      "card": "https://ms.yugipedia.com//d/d3/Celebrontosaurus-RDMAX2-JP-C.png"
+    }
+  ],
+  "sets": [
+    "5b6d7ab4-987e-4469-89bd-9d9bf3d400c0"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "n"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Celebrontosaurus",
+        "id": 714237
+      }
+    ],
+    "dbID": 16581
+  },
+  "series": [
+    "34abd7ad-23eb-4078-a140-43c367297c26"
+  ]
+}

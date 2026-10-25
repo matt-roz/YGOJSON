@@ -1,0 +1,57 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "ded1df38-db71-40bd-adbe-1995aac20b7a",
+  "text": {
+    "en": {
+      "name": "Doma the Talismanic Master",
+      "effect": "This card gains ATK equal to [the number of cards on your opponent's field] x 200 until the end of this turn."
+    },
+    "ja": {
+      "name": "\u9670\u967d\u6975\u58eb\u30c9\u30a6\u30de",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u306e\u653b\u6483\u529b\u306f\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\u3001\uff3b\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u30ab\u30fc\u30c9\u306e\u6570\uff3d\u00d7\uff12\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc74c\uc591\uadf9\uc0ac \ub3c4\uc6b0\ub9c8",
+      "effect": "\uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\ub825\uc740 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0, [\uc0c1\ub300 \ud544\ub4dc\uc758 \uce74\ub4dc\uc758 \uc218] \u00d7 200 \uc62c\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 2500,
+  "def": 1600,
+  "passwords": [],
+  "images": [
+    {
+      "id": "112a22b1-66fb-41f7-af26-ecc2881f9ae0",
+      "card": "https://ms.yugipedia.com//6/6f/DomatheTalismanicMaster-RDB224-JP-C.png"
+    }
+  ],
+  "sets": [
+    "b254644c-27d2-4111-9a53-3a82de7d4cd5",
+    "a5eedf36-311c-4849-a732-d96430b8e8cc"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Doma the Talismanic Master",
+        "id": 714637
+      }
+    ],
+    "dbID": 17194
+  },
+  "series": [
+    "65fb4e35-34c4-47d9-a51a-a27792be1dde"
+  ]
+}

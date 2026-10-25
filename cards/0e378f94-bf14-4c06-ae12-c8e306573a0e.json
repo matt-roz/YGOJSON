@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "0e378f94-bf14-4c06-ae12-c8e306573a0e",
+  "text": {
+    "en": {
+      "name": "Legend Necromancer",
+      "effect": "Set 1 Ritual Spell Card from your Graveyard to your Spell & Trap Zone.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30ec\u30b8\u30a7\u30f3\u30c9\u30fb\u30cd\u30af\u30ed\u30de\u30f3\u30b5\u30fc",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u30ea\u30c1\u30e5\u30a2\u30eb\u9b54\u6cd5\u30ab\u30fc\u30c9\uff11\u679a\u3092\u9078\u3093\u3067\u81ea\u5206\u306e\u9b54\u6cd5\uff06\u7f60\u30be\u30fc\u30f3\u306b\u30bb\u30c3\u30c8\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub808\uc804\ub4dc \ub124\ud06c\ub85c\ub9e8\uc11c",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \ub9ac\ucd94\uc5bc \ub9c8\ubc95 \uce74\ub4dc 1\uc7a5\uc744 \uace0\ub974\uace0 \uc790\uc2e0\uc758 \ub9c8\ubc95 & \ud568\uc815 \uc874\uc5d0 \uc138\ud2b8\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "fiend",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1000,
+  "def": 300,
+  "passwords": [],
+  "images": [
+    {
+      "id": "b7eb2b32-0cd7-4b39-a262-d87f0c638b7c",
+      "card": "https://ms.yugipedia.com//7/7a/LegendNecromancer-RDORP3-JP-UR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Legend Necromancer",
+        "id": 1152338
+      }
+    ],
+    "dbID": 22266
+  },
+  "series": [
+    "f942861f-b4f9-4253-baad-a08e2f2c7054"
+  ]
+}

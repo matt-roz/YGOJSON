@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "eb63549c-7225-463f-838b-a0dcba8ba74d",
+  "text": {
+    "en": {
+      "name": "Alpha Burn SSD",
+      "effect": "Special Summon 1 \"Alpha Count\" from your Graveyard face-up to your field.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u03b1\u30d0\u30fc\u30f3\u30fb\uff33\uff33\uff24"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "dragon",
+  "classifications": [
+    "effect"
+  ],
+  "level": 1,
+  "atk": 700,
+  "def": 900,
+  "passwords": [],
+  "images": [
+    {
+      "id": "fc31426f-52c2-426d-9283-62bc93a86665",
+      "card": "https://ms.yugipedia.com//b/bb/AlphaBurnSSD-RDKP27-JP-OP.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Alpha Burn SSD",
+        "id": 1235926
+      }
+    ]
+  },
+  "series": []
+}

@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "dff9bdda-d68f-4a49-a66e-e8c53569f2f0",
+  "text": {
+    "en": {
+      "name": "Cosmostar the Luminous Polairy",
+      "effect": "Place 1 face-up monster from your opponent's field on the bottom of the owner's Deck. Then, you can add 1 \"Dendrovenus the Planetairy\" from your Graveyard to your hand. This turn, you cannot activate the effect of \"Cosmostar the Luminous Polairy\".",
+      "official": false
+    },
+    "ja": {
+      "name": "\u8f1d\u6975\u7cbe\u306e\u30b3\u30b9\u30e2\u30b9\u30bf\u30fc"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "classifications": [
+    "effect"
+  ],
+  "level": 10,
+  "atk": 2000,
+  "def": 1900,
+  "passwords": [],
+  "images": [
+    {
+      "id": "9b54186b-27e5-474a-8878-ed9c1076df3a",
+      "card": "https://ms.yugipedia.com//4/46/CosmostartheLuminousPolairy-RDLP02-JP-OP.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Cosmostar the Luminous Polairy",
+        "id": 1233954
+      }
+    ]
+  },
+  "series": [
+    "402a6515-eafb-46c8-8a48-c408fc3deaaa"
+  ]
+}

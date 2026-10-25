@@ -1,0 +1,40 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "e7f93fe1-cbac-4f95-a184-0a646a2ac18c",
+  "text": {
+    "en": {
+      "name": "Praime Requiem",
+      "effect": "This card gains ATK equal to [the number of face-up LIGHT Attribute monsters on your field] x 300 until the end of this turn. Then, you can add 1 \"Praime Call\" from your Graveyard to your hand.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30d7\u30e9\u30a4\u30e0\u30fb\u30ec\u30af\u30a4\u30a8\u30e0"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 2500,
+  "def": 2000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "39b1fcf8-f00f-48da-94f7-de7a08ae61b6",
+      "card": "https://ms.yugipedia.com//7/70/PraimeRequiem-RDLP02-JP-OP.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Praime Requiem",
+        "id": 1233965
+      }
+    ]
+  },
+  "series": []
+}

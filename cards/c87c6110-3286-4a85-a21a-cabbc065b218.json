@@ -1,0 +1,48 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "c87c6110-3286-4a85-a21a-cabbc065b218",
+  "text": {
+    "en": {
+      "name": "Dark Matter Mist",
+      "effect": "Choose 1 face-up DARK Attribute Galaxy Type monster on your field. This turn, that monster's name becomes \"Dark Matter Mist\".",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30c0\u30fc\u30af\u30de\u30bf\u30fc\u30fb\u30df\u30b9\u30c8",
+      "effect": "\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u95c7\u5c5e\u6027\uff0f\u30ae\u30e3\u30e9\u30af\u30b7\u30fc\u65cf\uff09\uff11\u4f53\u3092\u9078\u3076\u3002\u305d\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u30ab\u30fc\u30c9\u540d\u306f\u3053\u306e\u30bf\u30fc\u30f3\u3001\u300c\u30c0\u30fc\u30af\u30de\u30bf\u30fc\u30fb\u30df\u30b9\u30c8\u300d\u306b\u306a\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub2e4\ud06c\ub9e4\ud130 \ubbf8\uc2a4\ud2b8",
+      "effect": "\uc790\uc2e0 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\uc5b4\ub460 \uc18d\uc131 / \uac24\ub7ed\uc2dc\uc871) 1\uc7a5\uc744 \uace0\ub978\ub2e4. \uadf8 \ubaac\uc2a4\ud130\uc758 \uce74\ub4dc\uba85\uc740 \uc774 \ud134\uc5d0, \"\ub2e4\ud06c\ub9e4\ud130 \ubbf8\uc2a4\ud2b8\"\uac00 \ub41c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2100,
+  "def": 1300,
+  "passwords": [],
+  "images": [
+    {
+      "id": "bf18a4bf-9b6e-48aa-abb2-30045f128f41",
+      "card": "https://ms.yugipedia.com//9/96/DarkMatterMist-RDKP18-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Dark Matter Mist",
+        "id": 1066318
+      }
+    ],
+    "dbID": 20364
+  },
+  "series": [
+    "20e1a2b3-4557-4a43-a6e4-4f54272ef025"
+  ]
+}

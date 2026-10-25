@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "724faedc-277a-449c-bc7d-36fd0fdcf967",
+  "text": {
+    "en": {
+      "name": "Royal Rebel's Beginitar",
+      "effect": "A guitar fiend that works hard every day to get everyone to hear its songs.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30ed\u30a4\u30e4\u30eb\u30c7\u30e2\u30f3\u30ba\u30fb\u30d3\u30ae\u30bf\u30fc",
+      "effect": "\u81ea\u5206\u305f\u3061\u306e\u66f2\u3092\u7686\u306b\u8074\u3044\u3066\u3082\u3089\u304a\u3046\u3068\u65e5\u3005\u52aa\u529b\u3057\u3066\u3044\u308b\u30ae\u30bf\u30fc\u306e\u60aa\u9b54\u3002"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "fiend",
+  "classifications": [
+    "normal"
+  ],
+  "level": 1,
+  "atk": 100,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "46a1b9d8-5410-471d-8d4f-338937f86273",
+      "card": "https://ms.yugipedia.com//6/6b/RoyalRebelsBeginitar-RDB233-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Royal Rebel's Beginitar",
+        "id": 1017931
+      }
+    ],
+    "dbID": 19538
+  },
+  "series": [
+    "39eae314-d153-45cf-aa63-9d42b5dc8cf2"
+  ]
+}

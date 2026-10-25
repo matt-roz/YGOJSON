@@ -1,0 +1,33 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "bc018909-c5b8-4b6c-a916-e7977bb1f381",
+  "text": {
+    "en": {
+      "name": "Aroma Strategy",
+      "effect": "Once per turn: You can declare 1 card name; reveal the top card of your Deck, and if it is the declared card, you can apply this effect based on its card type. If it is not, destroy this card.\r\n\u25cf Monster: Special Summon it.\r\n\u25cf Spell/Trap: Set it.\r\nIf this card is destroyed by card effect: You can Special Summon 1 \"Harpie\" monster from your Deck or GY."
+    }
+  },
+  "cardType": "trap",
+  "subcategory": "continuous",
+  "passwords": [
+    "24672129"
+  ],
+  "images": [
+    {
+      "id": "5f4ac28c-31fa-4301-8af0-2df8dd973d29",
+      "password": "24672129",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/24672129.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/24672129.jpg"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "dbID": 23581,
+    "ygoprodeck": {
+      "id": 24672129,
+      "name": "aroma-strategy-16009"
+    }
+  },
+  "series": []
+}

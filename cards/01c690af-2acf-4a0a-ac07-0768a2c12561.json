@@ -1,0 +1,42 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "01c690af-2acf-4a0a-ac07-0768a2c12561",
+  "text": {
+    "en": {
+      "name": "Strange Attractor",
+      "effect": "Draw 2 cards. You cannot activate the effects of non-Cyberse Type monsters until the end of this turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30b9\u30c8\u30ec\u30f3\u30b8\u30fb\u30a2\u30c8\u30e9\u30af\u30bf\u30fc",
+      "effect": "\u81ea\u5206\u306f\uff12\u679a\u30c9\u30ed\u30fc\u3059\u308b\u3002\u3053\u306e\u52b9\u679c\u306e\u767a\u52d5\u5f8c\u3001\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\u81ea\u5206\u306f\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30b5\u30a4\u30d0\u30fc\u30b9\u65cf\u4ee5\u5916\uff09\u306e\u52b9\u679c\u3092\u767a\u52d5\u3067\u304d\u306a\u3044\u3002"
+    },
+    "ko": {
+      "name": "\uc2a4\ud2b8\ub808\uc778\uc9c0 \uc5b4\ud2b8\ub799\ud130",
+      "effect": "\uc790\uc2e0\uc740 2\uc7a5 \ub4dc\ub85c\uc6b0\ud55c\ub2e4. \uc774 \ud6a8\uacfc\uc758 \ubc1c\ub3d9 \ud6c4, \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0 \uc790\uc2e0\uc740 \ubaac\uc2a4\ud130(\uc0ac\uc774\ubc84\uc2a4\uc871 \uc774\uc678)\uc758 \ud6a8\uacfc\ub97c \ubc1c\ub3d9\ud560 \uc218 \uc5c6\ub2e4."
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "da293d65-ccfa-4ef4-9a22-3869635d8084",
+      "card": "https://ms.yugipedia.com//f/f0/StrangeAttractor-RDORP2-JP-UR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Strange Attractor",
+        "id": 1052179
+      }
+    ],
+    "dbID": 20098
+  },
+  "series": [
+    "001759e7-855e-4b0e-b581-199f0c377967"
+  ]
+}

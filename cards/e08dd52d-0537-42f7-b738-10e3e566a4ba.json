@@ -1,0 +1,43 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "e08dd52d-0537-42f7-b738-10e3e566a4ba",
+  "text": {
+    "en": {
+      "name": "Moonlight at Dawn",
+      "effect": "Cannot be Special Summoned. Requires 3 Warrior Tributes to Normal Summon (cannot be Normal Set). If this card attacks your opponent directly and reduces their LP to 0, you win the Match."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 3000,
+  "def": 2500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "918326d2-a9de-4e79-826e-1a5e8aa9f21c",
+      "card": "https://ms.yugipedia.com//5/5b/MoonlightatDawn-2026-EN-EScR-UE.png"
+    }
+  ],
+  "sets": [
+    "eeb7dcca-1370-4458-b4a9-6cda9ad03680"
+  ],
+  "illegal": true,
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Moonlight at Dawn",
+        "id": 1215385
+      }
+    ],
+    "dbID": 23414
+  },
+  "series": [
+    "2572d2bf-aa08-42a8-81df-a074cca75fd6"
+  ]
+}

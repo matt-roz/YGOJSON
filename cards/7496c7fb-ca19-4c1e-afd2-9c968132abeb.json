@@ -1,0 +1,63 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "7496c7fb-ca19-4c1e-afd2-9c968132abeb",
+  "text": {
+    "en": {
+      "name": "Blasting Bird",
+      "effect": "This turn, this face-up card can be treated as 2 Tributes for the Tribute Summon of a Winged Beast Type monster in Attack Position."
+    },
+    "fr": {
+      "name": "Oiseau Destructeur"
+    },
+    "de": {
+      "name": "Sprengvogel"
+    },
+    "it": {
+      "name": "Uccello Esplosivo"
+    },
+    "es": {
+      "name": "P\u00e1jaro Estallido"
+    },
+    "ja": {
+      "name": "\u30d0\u30af\u30cf\u30fc\u30c8",
+      "effect": "\u3053\u306e\u30bf\u30fc\u30f3\u3001\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u9ce5\u7363\u65cf\uff09\u3092\u653b\u6483\u8868\u793a\u3067\u30a2\u30c9\u30d0\u30f3\u30b9\u53ec\u559a\u3059\u308b\u5834\u5408\u3001\u8868\u5074\u8868\u793a\u306e\u3053\u306e\u30ab\u30fc\u30c9\u306f\uff12\u4f53\u5206\u306e\u30ea\u30ea\u30fc\u30b9\u306b\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ubc14\ucfe0\ud558\ud2b8",
+      "effect": "\uc774 \ud134\uc5d0, \ubaac\uc2a4\ud130(\ube44\ud589\uc57c\uc218\uc871)\ub97c \uacf5\uaca9 \ud45c\uc2dc\ub85c \uc5b4\ub4dc\ubc34\uc2a4 \uc18c\ud658\ud560 \uacbd\uc6b0, \uc55e\uba74 \ud45c\uc2dc\uc758 \uc774 \uce74\ub4dc\ub294 2\uc7a5\ub9cc\ud07c\uc758 \ub9b4\ub9ac\uc2a4\ub85c \ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "wingedbeast",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 800,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "254c0f69-4ca3-4631-b711-39d1e4941576",
+      "card": "https://ms.yugipedia.com//2/24/BlastingBird-RDKP05-JP-C.png"
+    }
+  ],
+  "sets": [
+    "11548122-d48e-4313-aff4-6d29bca3f0b0"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "n"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Blasting Bird",
+        "id": 713928
+      }
+    ],
+    "dbID": 16339
+  },
+  "series": []
+}

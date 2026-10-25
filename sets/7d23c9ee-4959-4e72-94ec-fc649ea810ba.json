@@ -1,0 +1,761 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "7d23c9ee-4959-4e72-94ec-fc649ea810ba",
+  "name": {
+    "en": "LINK VRAINS Duelist Set",
+    "ja": "\uff2c\uff29\uff2e\uff2b \uff36\uff32\uff21\uff29\uff2e\uff33 \uff24\uff35\uff25\uff2c\uff29\uff33\uff34 \uff33\uff25\uff34",
+    "ko": "\uff2c\uff29\uff2e\uff2b \uff36\uff32\uff21\uff29\uff2e\uff33 \uff24\uff35\uff25\uff2c\uff29\uff33\uff34 \uff33\uff25\uff34"
+  },
+  "locales": {
+    "jp": {
+      "language": "ja",
+      "prefix": "LVDS-JP",
+      "date": "2019-08-31",
+      "image": "https://ms.yugipedia.com//b/bd/LVDS-DeckJP.png",
+      "cardImages": {
+        "unlimited": {
+          "009c0599-8418-4329-af97-1da26d187445": "https://ms.yugipedia.com//d/d0/BruteEnforcer-LVDS-JP-UR.png",
+          "04b6c956-9b36-4c73-a27e-116b1c944080": "https://ms.yugipedia.com//c/c0/BayonetPunisher-LVDS-JP-UR.png",
+          "093fe99d-1e77-4c04-933d-1af4979efaef": "https://ms.yugipedia.com//f/f6/CodeTalker-LVDS-JP-SR.png",
+          "0a774350-e1cb-4444-9e77-4c7f0a040fe9": "https://ms.yugipedia.com//0/06/GoukiFinishingMove-LVDS-JP-ScR.png",
+          "11338639-db76-4e18-b756-5d0c4256d659": "https://ms.yugipedia.com//4/40/TindangleJhrelth-LVDS-JP-ScR.png",
+          "11c8b941-22f8-4d48-927c-9966b7c25765": "https://ms.yugipedia.com//5/56/GoukiFinishingMove-LVDS-JP-UR.png",
+          "166d1c69-f688-4888-abe2-667ed967920e": "https://ms.yugipedia.com//b/b3/SalamangreatBlazeDragon-LVDS-JP-ScR.png",
+          "1e7031b1-bcc5-4962-b7cf-d26c9b45f9bf": "https://ms.yugipedia.com//b/be/TindangleDelaunay-LVDS-JP-SR.png",
+          "249aa705-019e-48f9-b343-bd127d20a852": "https://ms.yugipedia.com//6/63/AltergeistFailover-LVDS-JP-UR.png",
+          "25897c42-080d-4f52-91c8-6c798c32ff0f": "https://ms.yugipedia.com//1/12/GoukiHeadbatt-LVDS-JP-SR.png",
+          "330556d0-697b-4ce7-8673-47327bfe9b20": "https://ms.yugipedia.com//7/73/BorrelswordDragon-LVDS-JP-SR.png",
+          "3394ebf8-82c5-440f-8389-0c6be97e7382": "https://ms.yugipedia.com//6/66/TrickstarFestival-LVDS-JP-UR.png",
+          "37b84e88-5fb1-4fdf-9faa-465841103702": "https://ms.yugipedia.com//6/66/SalamangreatSanctuary-LVDS-JP-SR.png",
+          "3f2fa005-d1de-4a52-a82a-96f55b64a640": "https://ms.yugipedia.com//5/54/TindangleJhrelth-LVDS-JP-UR.png",
+          "3fb4f0f9-e936-4d0b-ac40-b2c86dfe34d6": "https://ms.yugipedia.com//9/97/DinowrestlerIguanodraka-LVDS-JP-ScR.png",
+          "46741844-4bd6-40af-a29e-0505b769104a": "https://ms.yugipedia.com//9/97/CodeExporter-LVDS-JP-UR.png",
+          "4bbdb3a3-ad25-456d-866a-b7b0c57b7159": "https://ms.yugipedia.com//7/72/BruteEnforcer-LVDS-JP-ScR.png",
+          "4c6fa8d7-fea3-4ab7-8d36-d3b267768023": "https://ms.yugipedia.com//6/60/Dotscaper-LVDS-JP-SR.png",
+          "520fdf7e-3c74-4f5f-8414-fe6a7cdb9ac2": "https://ms.yugipedia.com//2/23/AltergeistFailover-LVDS-JP-ScR.png",
+          "54c51b57-390e-4ae6-987f-efe9cfcd8f9d": "https://ms.yugipedia.com//b/bd/SalamangreatBlazeDragon-LVDS-JP-UR.png",
+          "5a4d0d42-4670-4830-8031-4c610e6642f7": "https://ms.yugipedia.com//3/35/MarincessCoralAnemone-LVDS-JP-SR.png",
+          "614c18a5-4abe-4e54-b064-985d0f0e3205": "https://ms.yugipedia.com//a/a6/CodeExporter-LVDS-JP-ScR.png",
+          "a5287edf-9fe2-412e-9ab0-bcb6c530fb38": "https://ms.yugipedia.com//d/d7/AltergeistMeluseek-LVDS-JP-SR.png",
+          "b0117b1d-be7c-4584-bbb5-b5d9405488bb": "https://ms.yugipedia.com//b/b8/DinowrestlerIguanodraka-LVDS-JP-UR.png",
+          "b622e895-7d43-4383-8d37-0e62e4c1493e": "https://ms.yugipedia.com//8/89/BayonetPunisher-LVDS-JP-ScR.png",
+          "cf335071-6b97-443c-8545-c878729f6b2f": "https://ms.yugipedia.com//b/b0/MarincessPascalus-LVDS-JP-UR.png",
+          "da851eee-bdd8-4262-ab0a-060641d11c74": "https://ms.yugipedia.com//8/81/MarincessPascalus-LVDS-JP-ScR.png",
+          "dd2969fc-5df0-40f0-886b-22753ac5e91b": "https://ms.yugipedia.com//4/40/DinowrestlerSystegosaur-LVDS-JP-SR.png",
+          "e068d849-8b75-45b7-8c82-6e8eff319eae": "https://ms.yugipedia.com//e/e6/TrickstarReincarnation-LVDS-JP-SR.png",
+          "fac7e712-1c15-4765-af00-55d1ec7b9ce7": "https://ms.yugipedia.com//c/ce/TrickstarFestival-LVDS-JP-ScR.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "009c0599-8418-4329-af97-1da26d187445": {
+            "image": "https://ms.yugipedia.com//d/d0/BruteEnforcer-LVDS-JP-UR.png"
+          },
+          "04b6c956-9b36-4c73-a27e-116b1c944080": {
+            "image": "https://ms.yugipedia.com//c/c0/BayonetPunisher-LVDS-JP-UR.png"
+          },
+          "093fe99d-1e77-4c04-933d-1af4979efaef": {
+            "image": "https://ms.yugipedia.com//f/f6/CodeTalker-LVDS-JP-SR.png"
+          },
+          "0a774350-e1cb-4444-9e77-4c7f0a040fe9": {
+            "image": "https://ms.yugipedia.com//0/06/GoukiFinishingMove-LVDS-JP-ScR.png"
+          },
+          "11338639-db76-4e18-b756-5d0c4256d659": {
+            "image": "https://ms.yugipedia.com//4/40/TindangleJhrelth-LVDS-JP-ScR.png"
+          },
+          "11c8b941-22f8-4d48-927c-9966b7c25765": {
+            "image": "https://ms.yugipedia.com//5/56/GoukiFinishingMove-LVDS-JP-UR.png"
+          },
+          "166d1c69-f688-4888-abe2-667ed967920e": {
+            "image": "https://ms.yugipedia.com//b/b3/SalamangreatBlazeDragon-LVDS-JP-ScR.png"
+          },
+          "1e7031b1-bcc5-4962-b7cf-d26c9b45f9bf": {
+            "image": "https://ms.yugipedia.com//b/be/TindangleDelaunay-LVDS-JP-SR.png"
+          },
+          "249aa705-019e-48f9-b343-bd127d20a852": {
+            "image": "https://ms.yugipedia.com//6/63/AltergeistFailover-LVDS-JP-UR.png"
+          },
+          "25897c42-080d-4f52-91c8-6c798c32ff0f": {
+            "image": "https://ms.yugipedia.com//1/12/GoukiHeadbatt-LVDS-JP-SR.png"
+          },
+          "330556d0-697b-4ce7-8673-47327bfe9b20": {
+            "image": "https://ms.yugipedia.com//7/73/BorrelswordDragon-LVDS-JP-SR.png"
+          },
+          "3394ebf8-82c5-440f-8389-0c6be97e7382": {
+            "image": "https://ms.yugipedia.com//6/66/TrickstarFestival-LVDS-JP-UR.png"
+          },
+          "37b84e88-5fb1-4fdf-9faa-465841103702": {
+            "image": "https://ms.yugipedia.com//6/66/SalamangreatSanctuary-LVDS-JP-SR.png"
+          },
+          "3f2fa005-d1de-4a52-a82a-96f55b64a640": {
+            "image": "https://ms.yugipedia.com//5/54/TindangleJhrelth-LVDS-JP-UR.png"
+          },
+          "3fb4f0f9-e936-4d0b-ac40-b2c86dfe34d6": {
+            "image": "https://ms.yugipedia.com//9/97/DinowrestlerIguanodraka-LVDS-JP-ScR.png"
+          },
+          "46741844-4bd6-40af-a29e-0505b769104a": {
+            "image": "https://ms.yugipedia.com//9/97/CodeExporter-LVDS-JP-UR.png"
+          },
+          "4bbdb3a3-ad25-456d-866a-b7b0c57b7159": {
+            "image": "https://ms.yugipedia.com//7/72/BruteEnforcer-LVDS-JP-ScR.png"
+          },
+          "4c6fa8d7-fea3-4ab7-8d36-d3b267768023": {
+            "image": "https://ms.yugipedia.com//6/60/Dotscaper-LVDS-JP-SR.png"
+          },
+          "520fdf7e-3c74-4f5f-8414-fe6a7cdb9ac2": {
+            "image": "https://ms.yugipedia.com//2/23/AltergeistFailover-LVDS-JP-ScR.png"
+          },
+          "54c51b57-390e-4ae6-987f-efe9cfcd8f9d": {
+            "image": "https://ms.yugipedia.com//b/bd/SalamangreatBlazeDragon-LVDS-JP-UR.png"
+          },
+          "5a4d0d42-4670-4830-8031-4c610e6642f7": {
+            "image": "https://ms.yugipedia.com//3/35/MarincessCoralAnemone-LVDS-JP-SR.png"
+          },
+          "614c18a5-4abe-4e54-b064-985d0f0e3205": {
+            "image": "https://ms.yugipedia.com//a/a6/CodeExporter-LVDS-JP-ScR.png"
+          },
+          "a5287edf-9fe2-412e-9ab0-bcb6c530fb38": {
+            "image": "https://ms.yugipedia.com//d/d7/AltergeistMeluseek-LVDS-JP-SR.png"
+          },
+          "b0117b1d-be7c-4584-bbb5-b5d9405488bb": {
+            "image": "https://ms.yugipedia.com//b/b8/DinowrestlerIguanodraka-LVDS-JP-UR.png"
+          },
+          "b622e895-7d43-4383-8d37-0e62e4c1493e": {
+            "image": "https://ms.yugipedia.com//8/89/BayonetPunisher-LVDS-JP-ScR.png"
+          },
+          "cf335071-6b97-443c-8545-c878729f6b2f": {
+            "image": "https://ms.yugipedia.com//b/b0/MarincessPascalus-LVDS-JP-UR.png"
+          },
+          "da851eee-bdd8-4262-ab0a-060641d11c74": {
+            "image": "https://ms.yugipedia.com//8/81/MarincessPascalus-LVDS-JP-ScR.png"
+          },
+          "dd2969fc-5df0-40f0-886b-22753ac5e91b": {
+            "image": "https://ms.yugipedia.com//4/40/DinowrestlerSystegosaur-LVDS-JP-SR.png"
+          },
+          "e068d849-8b75-45b7-8c82-6e8eff319eae": {
+            "image": "https://ms.yugipedia.com//e/e6/TrickstarReincarnation-LVDS-JP-SR.png"
+          },
+          "fac7e712-1c15-4765-af00-55d1ec7b9ce7": {
+            "image": "https://ms.yugipedia.com//c/ce/TrickstarFestival-LVDS-JP-ScR.png"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          3304009,
+          3304008
+        ]
+      }
+    },
+    "kr": {
+      "language": "ko",
+      "prefix": "LVDS-KR",
+      "date": "2019-11-27",
+      "image": "https://ms.yugipedia.com//3/36/LVDS-DeckKR.png",
+      "cardImages": {
+        "unlimited": {
+          "009c0599-8418-4329-af97-1da26d187445": "https://ms.yugipedia.com//d/d8/BruteEnforcer-LVDS-KR-UR-UE.png",
+          "04b6c956-9b36-4c73-a27e-116b1c944080": "https://ms.yugipedia.com//3/3c/BayonetPunisher-LVDS-KR-UR-UE.png",
+          "093fe99d-1e77-4c04-933d-1af4979efaef": "https://ms.yugipedia.com//8/84/CodeTalker-LVDS-KR-SR-UE.png",
+          "0a774350-e1cb-4444-9e77-4c7f0a040fe9": "https://ms.yugipedia.com//4/46/GoukiFinishingMove-LVDS-KR-ScR-UE.png",
+          "11c8b941-22f8-4d48-927c-9966b7c25765": "https://ms.yugipedia.com//d/d3/GoukiFinishingMove-LVDS-KR-UR-UE.png",
+          "1e7031b1-bcc5-4962-b7cf-d26c9b45f9bf": "https://ms.yugipedia.com//b/be/TindangleDelaunay-LVDS-KR-SR-UE.png",
+          "249aa705-019e-48f9-b343-bd127d20a852": "https://ms.yugipedia.com//5/5f/AltergeistFailover-LVDS-KR-UR-UE.png",
+          "25897c42-080d-4f52-91c8-6c798c32ff0f": "https://ms.yugipedia.com//8/87/GoukiHeadbatt-LVDS-KR-SR-UE.png",
+          "330556d0-697b-4ce7-8673-47327bfe9b20": "https://ms.yugipedia.com//1/13/BorrelswordDragon-LVDS-KR-SR-UE.png",
+          "3394ebf8-82c5-440f-8389-0c6be97e7382": "https://ms.yugipedia.com//9/95/TrickstarFestival-LVDS-KR-UR-UE.png",
+          "37b84e88-5fb1-4fdf-9faa-465841103702": "https://ms.yugipedia.com//e/ea/SalamangreatSanctuary-LVDS-KR-SR-UE.png",
+          "3f2fa005-d1de-4a52-a82a-96f55b64a640": "https://ms.yugipedia.com//9/93/TindangleJhrelth-LVDS-KR-UR-UE.png",
+          "46741844-4bd6-40af-a29e-0505b769104a": "https://ms.yugipedia.com//3/30/CodeExporter-LVDS-KR-UR-UE.png",
+          "4c6fa8d7-fea3-4ab7-8d36-d3b267768023": "https://ms.yugipedia.com//0/0f/Dotscaper-LVDS-KR-SR-UE.png",
+          "520fdf7e-3c74-4f5f-8414-fe6a7cdb9ac2": "https://ms.yugipedia.com//f/fc/AltergeistFailover-LVDS-KR-ScR-UE.png",
+          "54c51b57-390e-4ae6-987f-efe9cfcd8f9d": "https://ms.yugipedia.com//8/84/SalamangreatBlazeDragon-LVDS-KR-UR-UE.png",
+          "5a4d0d42-4670-4830-8031-4c610e6642f7": "https://ms.yugipedia.com//b/b8/MarincessCoralAnemone-LVDS-KR-SR-UE.png",
+          "a5287edf-9fe2-412e-9ab0-bcb6c530fb38": "https://ms.yugipedia.com//c/c7/AltergeistMeluseek-LVDS-KR-SR-UE.png",
+          "b0117b1d-be7c-4584-bbb5-b5d9405488bb": "https://ms.yugipedia.com//f/fa/DinowrestlerIguanodraka-LVDS-KR-UR-UE.png",
+          "b622e895-7d43-4383-8d37-0e62e4c1493e": "https://ms.yugipedia.com//6/61/BayonetPunisher-LVDS-KR-ScR-UE.png",
+          "cf335071-6b97-443c-8545-c878729f6b2f": "https://ms.yugipedia.com//2/2f/MarincessPascalus-LVDS-KR-UR-UE.png",
+          "dd2969fc-5df0-40f0-886b-22753ac5e91b": "https://ms.yugipedia.com//d/df/DinowrestlerSystegosaur-LVDS-KR-SR-UE.png",
+          "e068d849-8b75-45b7-8c82-6e8eff319eae": "https://ms.yugipedia.com//3/3b/TrickstarReincarnation-LVDS-KR-SR-UE.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "009c0599-8418-4329-af97-1da26d187445": {
+            "image": "https://ms.yugipedia.com//d/d8/BruteEnforcer-LVDS-KR-UR-UE.png"
+          },
+          "04b6c956-9b36-4c73-a27e-116b1c944080": {
+            "image": "https://ms.yugipedia.com//3/3c/BayonetPunisher-LVDS-KR-UR-UE.png"
+          },
+          "093fe99d-1e77-4c04-933d-1af4979efaef": {
+            "image": "https://ms.yugipedia.com//8/84/CodeTalker-LVDS-KR-SR-UE.png"
+          },
+          "0a774350-e1cb-4444-9e77-4c7f0a040fe9": {
+            "image": "https://ms.yugipedia.com//4/46/GoukiFinishingMove-LVDS-KR-ScR-UE.png"
+          },
+          "11c8b941-22f8-4d48-927c-9966b7c25765": {
+            "image": "https://ms.yugipedia.com//d/d3/GoukiFinishingMove-LVDS-KR-UR-UE.png"
+          },
+          "1e7031b1-bcc5-4962-b7cf-d26c9b45f9bf": {
+            "image": "https://ms.yugipedia.com//b/be/TindangleDelaunay-LVDS-KR-SR-UE.png"
+          },
+          "249aa705-019e-48f9-b343-bd127d20a852": {
+            "image": "https://ms.yugipedia.com//5/5f/AltergeistFailover-LVDS-KR-UR-UE.png"
+          },
+          "25897c42-080d-4f52-91c8-6c798c32ff0f": {
+            "image": "https://ms.yugipedia.com//8/87/GoukiHeadbatt-LVDS-KR-SR-UE.png"
+          },
+          "330556d0-697b-4ce7-8673-47327bfe9b20": {
+            "image": "https://ms.yugipedia.com//1/13/BorrelswordDragon-LVDS-KR-SR-UE.png"
+          },
+          "3394ebf8-82c5-440f-8389-0c6be97e7382": {
+            "image": "https://ms.yugipedia.com//9/95/TrickstarFestival-LVDS-KR-UR-UE.png"
+          },
+          "37b84e88-5fb1-4fdf-9faa-465841103702": {
+            "image": "https://ms.yugipedia.com//e/ea/SalamangreatSanctuary-LVDS-KR-SR-UE.png"
+          },
+          "3f2fa005-d1de-4a52-a82a-96f55b64a640": {
+            "image": "https://ms.yugipedia.com//9/93/TindangleJhrelth-LVDS-KR-UR-UE.png"
+          },
+          "46741844-4bd6-40af-a29e-0505b769104a": {
+            "image": "https://ms.yugipedia.com//3/30/CodeExporter-LVDS-KR-UR-UE.png"
+          },
+          "4c6fa8d7-fea3-4ab7-8d36-d3b267768023": {
+            "image": "https://ms.yugipedia.com//0/0f/Dotscaper-LVDS-KR-SR-UE.png"
+          },
+          "520fdf7e-3c74-4f5f-8414-fe6a7cdb9ac2": {
+            "image": "https://ms.yugipedia.com//f/fc/AltergeistFailover-LVDS-KR-ScR-UE.png"
+          },
+          "54c51b57-390e-4ae6-987f-efe9cfcd8f9d": {
+            "image": "https://ms.yugipedia.com//8/84/SalamangreatBlazeDragon-LVDS-KR-UR-UE.png"
+          },
+          "5a4d0d42-4670-4830-8031-4c610e6642f7": {
+            "image": "https://ms.yugipedia.com//b/b8/MarincessCoralAnemone-LVDS-KR-SR-UE.png"
+          },
+          "a5287edf-9fe2-412e-9ab0-bcb6c530fb38": {
+            "image": "https://ms.yugipedia.com//c/c7/AltergeistMeluseek-LVDS-KR-SR-UE.png"
+          },
+          "b0117b1d-be7c-4584-bbb5-b5d9405488bb": {
+            "image": "https://ms.yugipedia.com//f/fa/DinowrestlerIguanodraka-LVDS-KR-UR-UE.png"
+          },
+          "b622e895-7d43-4383-8d37-0e62e4c1493e": {
+            "image": "https://ms.yugipedia.com//6/61/BayonetPunisher-LVDS-KR-ScR-UE.png"
+          },
+          "cf335071-6b97-443c-8545-c878729f6b2f": {
+            "image": "https://ms.yugipedia.com//2/2f/MarincessPascalus-LVDS-KR-UR-UE.png"
+          },
+          "dd2969fc-5df0-40f0-886b-22753ac5e91b": {
+            "image": "https://ms.yugipedia.com//d/df/DinowrestlerSystegosaur-LVDS-KR-SR-UE.png"
+          },
+          "e068d849-8b75-45b7-8c82-6e8eff319eae": {
+            "image": "https://ms.yugipedia.com//3/3b/TrickstarReincarnation-LVDS-KR-SR-UE.png"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          74414003,
+          74414002
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//b/bd/LVDS-DeckJP.png",
+      "cards": [
+        {
+          "id": "46741844-4bd6-40af-a29e-0505b769104a",
+          "card": "aad7f171-302c-43c5-8188-9beb16eee7b6",
+          "suffix": "A01",
+          "rarity": "ultra",
+          "imageID": "fb53f6cc-1f35-4e51-91e3-54fbcde758c5",
+          "printStatus": "new"
+        },
+        {
+          "id": "614c18a5-4abe-4e54-b064-985d0f0e3205",
+          "card": "aad7f171-302c-43c5-8188-9beb16eee7b6",
+          "suffix": "A01",
+          "rarity": "secret",
+          "imageID": "fb53f6cc-1f35-4e51-91e3-54fbcde758c5",
+          "printStatus": "new"
+        },
+        {
+          "id": "009c0599-8418-4329-af97-1da26d187445",
+          "card": "10285191-5890-451e-8fd4-84bf439d2c32",
+          "suffix": "A02",
+          "rarity": "ultra",
+          "imageID": "f6c12372-a2a9-451c-ada4-b8ebf3a7547a",
+          "printStatus": "new"
+        },
+        {
+          "id": "4bbdb3a3-ad25-456d-866a-b7b0c57b7159",
+          "card": "10285191-5890-451e-8fd4-84bf439d2c32",
+          "suffix": "A02",
+          "rarity": "secret",
+          "imageID": "f6c12372-a2a9-451c-ada4-b8ebf3a7547a",
+          "printStatus": "new"
+        },
+        {
+          "id": "54c51b57-390e-4ae6-987f-efe9cfcd8f9d",
+          "card": "52c1371d-f9d6-4d00-8cc6-5636e8932a3a",
+          "suffix": "A03",
+          "rarity": "ultra",
+          "imageID": "f8a7788c-daad-46c5-bd3f-1268e4bd21d5",
+          "printStatus": "new"
+        },
+        {
+          "id": "166d1c69-f688-4888-abe2-667ed967920e",
+          "card": "52c1371d-f9d6-4d00-8cc6-5636e8932a3a",
+          "suffix": "A03",
+          "rarity": "secret",
+          "imageID": "f8a7788c-daad-46c5-bd3f-1268e4bd21d5",
+          "printStatus": "new"
+        },
+        {
+          "id": "04b6c956-9b36-4c73-a27e-116b1c944080",
+          "card": "b7c7e284-10ca-453c-ab91-63187ea9addd",
+          "suffix": "A04",
+          "rarity": "ultra",
+          "imageID": "70452c94-b85b-49dc-90ad-7e73f987e743",
+          "printStatus": "new"
+        },
+        {
+          "id": "b622e895-7d43-4383-8d37-0e62e4c1493e",
+          "card": "b7c7e284-10ca-453c-ab91-63187ea9addd",
+          "suffix": "A04",
+          "rarity": "secret",
+          "imageID": "70452c94-b85b-49dc-90ad-7e73f987e743",
+          "printStatus": "new"
+        },
+        {
+          "id": "3394ebf8-82c5-440f-8389-0c6be97e7382",
+          "card": "618580f4-e165-4008-805c-fb47b62d460b",
+          "suffix": "A05",
+          "rarity": "ultra",
+          "imageID": "7c99d4b2-60d4-4019-9ea3-c96ccb4a69b2",
+          "printStatus": "new"
+        },
+        {
+          "id": "fac7e712-1c15-4765-af00-55d1ec7b9ce7",
+          "card": "618580f4-e165-4008-805c-fb47b62d460b",
+          "suffix": "A05",
+          "rarity": "secret",
+          "imageID": "7c99d4b2-60d4-4019-9ea3-c96ccb4a69b2",
+          "printStatus": "new"
+        },
+        {
+          "id": "cf335071-6b97-443c-8545-c878729f6b2f",
+          "card": "5fa85d83-e882-4a51-beed-fe4bd2f41e47",
+          "suffix": "A06",
+          "rarity": "ultra",
+          "imageID": "a4346c42-3649-485c-aa28-8ae1b0c0c5b6",
+          "printStatus": "new"
+        },
+        {
+          "id": "da851eee-bdd8-4262-ab0a-060641d11c74",
+          "card": "5fa85d83-e882-4a51-beed-fe4bd2f41e47",
+          "suffix": "A06",
+          "rarity": "secret",
+          "imageID": "a4346c42-3649-485c-aa28-8ae1b0c0c5b6",
+          "printStatus": "new"
+        },
+        {
+          "id": "11c8b941-22f8-4d48-927c-9966b7c25765",
+          "card": "e4232d88-0a67-4879-b5ae-c1aecbeae430",
+          "suffix": "A07",
+          "rarity": "ultra",
+          "imageID": "dc0d48b9-fe29-4b47-aca0-6cc499d28a59",
+          "printStatus": "new"
+        },
+        {
+          "id": "0a774350-e1cb-4444-9e77-4c7f0a040fe9",
+          "card": "e4232d88-0a67-4879-b5ae-c1aecbeae430",
+          "suffix": "A07",
+          "rarity": "secret",
+          "imageID": "dc0d48b9-fe29-4b47-aca0-6cc499d28a59",
+          "printStatus": "new"
+        },
+        {
+          "id": "b0117b1d-be7c-4584-bbb5-b5d9405488bb",
+          "card": "5a483e39-059d-457e-8456-fb8dc093c89e",
+          "suffix": "A08",
+          "rarity": "ultra",
+          "imageID": "2b0aa0dd-35ca-4c82-8245-71227b3fb7f9",
+          "printStatus": "new"
+        },
+        {
+          "id": "3fb4f0f9-e936-4d0b-ac40-b2c86dfe34d6",
+          "card": "5a483e39-059d-457e-8456-fb8dc093c89e",
+          "suffix": "A08",
+          "rarity": "secret",
+          "imageID": "2b0aa0dd-35ca-4c82-8245-71227b3fb7f9",
+          "printStatus": "new"
+        },
+        {
+          "id": "249aa705-019e-48f9-b343-bd127d20a852",
+          "card": "8ab05b47-79f0-43cb-a8b3-c52f82bdb3e5",
+          "suffix": "A09",
+          "rarity": "ultra",
+          "imageID": "3165d0fb-d681-423e-b642-4b65a4db6737",
+          "printStatus": "new"
+        },
+        {
+          "id": "520fdf7e-3c74-4f5f-8414-fe6a7cdb9ac2",
+          "card": "8ab05b47-79f0-43cb-a8b3-c52f82bdb3e5",
+          "suffix": "A09",
+          "rarity": "secret",
+          "imageID": "3165d0fb-d681-423e-b642-4b65a4db6737",
+          "printStatus": "new"
+        },
+        {
+          "id": "3f2fa005-d1de-4a52-a82a-96f55b64a640",
+          "card": "73e449f4-9fc4-40f7-88e2-c9c5c47cb611",
+          "suffix": "A10",
+          "rarity": "ultra",
+          "imageID": "490b650c-f125-4d9e-977d-e077f08c3ede",
+          "printStatus": "new"
+        },
+        {
+          "id": "11338639-db76-4e18-b756-5d0c4256d659",
+          "card": "73e449f4-9fc4-40f7-88e2-c9c5c47cb611",
+          "suffix": "A10",
+          "rarity": "secret",
+          "imageID": "490b650c-f125-4d9e-977d-e077f08c3ede",
+          "printStatus": "new"
+        },
+        {
+          "id": "093fe99d-1e77-4c04-933d-1af4979efaef",
+          "card": "68234238-75f3-4a37-82da-62db7defd8c1",
+          "suffix": "B01",
+          "rarity": "super",
+          "imageID": "1d5d8801-ab93-47d1-a932-94d16551b140",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "4c6fa8d7-fea3-4ab7-8d36-d3b267768023",
+          "card": "90367715-a1b8-41e0-abd9-2f59c98789e5",
+          "suffix": "B02",
+          "rarity": "super",
+          "imageID": "481c8afe-6fd8-47fa-9c24-bea9971ae354",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "37b84e88-5fb1-4fdf-9faa-465841103702",
+          "card": "c0207a21-6b32-4d96-bc31-f707991bdf38",
+          "suffix": "B03",
+          "rarity": "super",
+          "imageID": "a157dd39-7981-4ed8-9a0f-ddff9f290675",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "330556d0-697b-4ce7-8673-47327bfe9b20",
+          "card": "19bc3901-24d3-49da-bdf7-6d99d34c895e",
+          "suffix": "B04",
+          "rarity": "super",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "e068d849-8b75-45b7-8c82-6e8eff319eae",
+          "card": "58902a9b-0d24-41a4-b77c-893f1b9f405d",
+          "suffix": "B05",
+          "rarity": "super",
+          "imageID": "cb71a558-c429-493d-aa50-10e008356c5d",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "5a4d0d42-4670-4830-8031-4c610e6642f7",
+          "card": "d872139d-9b04-4a68-8335-9aab0ba81f8a",
+          "suffix": "B06",
+          "rarity": "super",
+          "imageID": "044e4c04-5691-434c-87f9-8455410c5188",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "25897c42-080d-4f52-91c8-6c798c32ff0f",
+          "card": "6049dbfe-e987-4572-a768-7509d1d81e69",
+          "suffix": "B07",
+          "rarity": "super",
+          "imageID": "3997860a-b2c4-4193-a270-b91863cd283b",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "dd2969fc-5df0-40f0-886b-22753ac5e91b",
+          "card": "4aab2353-e5a4-499b-a5bb-b7af4d666f69",
+          "suffix": "B08",
+          "rarity": "super",
+          "imageID": "0c424209-e219-404d-a171-42b4cb6ddf55",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "a5287edf-9fe2-412e-9ab0-bcb6c530fb38",
+          "card": "5d2c742e-eb66-47ea-96ea-d148c8430063",
+          "suffix": "B09",
+          "rarity": "super",
+          "imageID": "22fb79b7-df62-4e4b-ad59-13c6f4e36670",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "1e7031b1-bcc5-4962-b7cf-d26c9b45f9bf",
+          "card": "0db81abc-ec91-437a-85e8-425f55e858d3",
+          "suffix": "B10",
+          "rarity": "super",
+          "imageID": "6ab1fb1a-9d63-417e-a1e8-794b6a1802e0",
+          "printStatus": "reprint"
+        }
+      ],
+      "externalIDs": {}
+    },
+    {
+      "locales": [
+        "kr"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//3/36/LVDS-DeckKR.png",
+      "cards": [
+        {
+          "id": "46741844-4bd6-40af-a29e-0505b769104a",
+          "card": "aad7f171-302c-43c5-8188-9beb16eee7b6",
+          "suffix": "A01",
+          "rarity": "ultra",
+          "imageID": "fb53f6cc-1f35-4e51-91e3-54fbcde758c5"
+        },
+        {
+          "id": "614c18a5-4abe-4e54-b064-985d0f0e3205",
+          "card": "aad7f171-302c-43c5-8188-9beb16eee7b6",
+          "suffix": "A01",
+          "rarity": "secret",
+          "imageID": "fb53f6cc-1f35-4e51-91e3-54fbcde758c5"
+        },
+        {
+          "id": "009c0599-8418-4329-af97-1da26d187445",
+          "card": "10285191-5890-451e-8fd4-84bf439d2c32",
+          "suffix": "A02",
+          "rarity": "ultra",
+          "imageID": "f6c12372-a2a9-451c-ada4-b8ebf3a7547a"
+        },
+        {
+          "id": "4bbdb3a3-ad25-456d-866a-b7b0c57b7159",
+          "card": "10285191-5890-451e-8fd4-84bf439d2c32",
+          "suffix": "A02",
+          "rarity": "secret",
+          "imageID": "f6c12372-a2a9-451c-ada4-b8ebf3a7547a"
+        },
+        {
+          "id": "54c51b57-390e-4ae6-987f-efe9cfcd8f9d",
+          "card": "52c1371d-f9d6-4d00-8cc6-5636e8932a3a",
+          "suffix": "A03",
+          "rarity": "ultra",
+          "imageID": "f8a7788c-daad-46c5-bd3f-1268e4bd21d5"
+        },
+        {
+          "id": "166d1c69-f688-4888-abe2-667ed967920e",
+          "card": "52c1371d-f9d6-4d00-8cc6-5636e8932a3a",
+          "suffix": "A03",
+          "rarity": "secret",
+          "imageID": "f8a7788c-daad-46c5-bd3f-1268e4bd21d5"
+        },
+        {
+          "id": "04b6c956-9b36-4c73-a27e-116b1c944080",
+          "card": "b7c7e284-10ca-453c-ab91-63187ea9addd",
+          "suffix": "A04",
+          "rarity": "ultra",
+          "imageID": "70452c94-b85b-49dc-90ad-7e73f987e743"
+        },
+        {
+          "id": "b622e895-7d43-4383-8d37-0e62e4c1493e",
+          "card": "b7c7e284-10ca-453c-ab91-63187ea9addd",
+          "suffix": "A04",
+          "rarity": "secret",
+          "imageID": "70452c94-b85b-49dc-90ad-7e73f987e743"
+        },
+        {
+          "id": "3394ebf8-82c5-440f-8389-0c6be97e7382",
+          "card": "618580f4-e165-4008-805c-fb47b62d460b",
+          "suffix": "A05",
+          "rarity": "ultra",
+          "imageID": "7c99d4b2-60d4-4019-9ea3-c96ccb4a69b2"
+        },
+        {
+          "id": "fac7e712-1c15-4765-af00-55d1ec7b9ce7",
+          "card": "618580f4-e165-4008-805c-fb47b62d460b",
+          "suffix": "A05",
+          "rarity": "secret",
+          "imageID": "7c99d4b2-60d4-4019-9ea3-c96ccb4a69b2"
+        },
+        {
+          "id": "cf335071-6b97-443c-8545-c878729f6b2f",
+          "card": "5fa85d83-e882-4a51-beed-fe4bd2f41e47",
+          "suffix": "A06",
+          "rarity": "ultra",
+          "imageID": "a4346c42-3649-485c-aa28-8ae1b0c0c5b6"
+        },
+        {
+          "id": "da851eee-bdd8-4262-ab0a-060641d11c74",
+          "card": "5fa85d83-e882-4a51-beed-fe4bd2f41e47",
+          "suffix": "A06",
+          "rarity": "secret",
+          "imageID": "a4346c42-3649-485c-aa28-8ae1b0c0c5b6"
+        },
+        {
+          "id": "11c8b941-22f8-4d48-927c-9966b7c25765",
+          "card": "e4232d88-0a67-4879-b5ae-c1aecbeae430",
+          "suffix": "A07",
+          "rarity": "ultra",
+          "imageID": "dc0d48b9-fe29-4b47-aca0-6cc499d28a59"
+        },
+        {
+          "id": "0a774350-e1cb-4444-9e77-4c7f0a040fe9",
+          "card": "e4232d88-0a67-4879-b5ae-c1aecbeae430",
+          "suffix": "A07",
+          "rarity": "secret",
+          "imageID": "dc0d48b9-fe29-4b47-aca0-6cc499d28a59"
+        },
+        {
+          "id": "b0117b1d-be7c-4584-bbb5-b5d9405488bb",
+          "card": "5a483e39-059d-457e-8456-fb8dc093c89e",
+          "suffix": "A08",
+          "rarity": "ultra",
+          "imageID": "2b0aa0dd-35ca-4c82-8245-71227b3fb7f9"
+        },
+        {
+          "id": "3fb4f0f9-e936-4d0b-ac40-b2c86dfe34d6",
+          "card": "5a483e39-059d-457e-8456-fb8dc093c89e",
+          "suffix": "A08",
+          "rarity": "secret",
+          "imageID": "2b0aa0dd-35ca-4c82-8245-71227b3fb7f9"
+        },
+        {
+          "id": "249aa705-019e-48f9-b343-bd127d20a852",
+          "card": "8ab05b47-79f0-43cb-a8b3-c52f82bdb3e5",
+          "suffix": "A09",
+          "rarity": "ultra",
+          "imageID": "3165d0fb-d681-423e-b642-4b65a4db6737"
+        },
+        {
+          "id": "520fdf7e-3c74-4f5f-8414-fe6a7cdb9ac2",
+          "card": "8ab05b47-79f0-43cb-a8b3-c52f82bdb3e5",
+          "suffix": "A09",
+          "rarity": "secret",
+          "imageID": "3165d0fb-d681-423e-b642-4b65a4db6737"
+        },
+        {
+          "id": "3f2fa005-d1de-4a52-a82a-96f55b64a640",
+          "card": "73e449f4-9fc4-40f7-88e2-c9c5c47cb611",
+          "suffix": "A10",
+          "rarity": "ultra",
+          "imageID": "490b650c-f125-4d9e-977d-e077f08c3ede"
+        },
+        {
+          "id": "11338639-db76-4e18-b756-5d0c4256d659",
+          "card": "73e449f4-9fc4-40f7-88e2-c9c5c47cb611",
+          "suffix": "A10",
+          "rarity": "secret",
+          "imageID": "490b650c-f125-4d9e-977d-e077f08c3ede"
+        },
+        {
+          "id": "093fe99d-1e77-4c04-933d-1af4979efaef",
+          "card": "68234238-75f3-4a37-82da-62db7defd8c1",
+          "suffix": "B01",
+          "rarity": "super",
+          "imageID": "1d5d8801-ab93-47d1-a932-94d16551b140"
+        },
+        {
+          "id": "4c6fa8d7-fea3-4ab7-8d36-d3b267768023",
+          "card": "90367715-a1b8-41e0-abd9-2f59c98789e5",
+          "suffix": "B02",
+          "rarity": "super",
+          "imageID": "481c8afe-6fd8-47fa-9c24-bea9971ae354"
+        },
+        {
+          "id": "37b84e88-5fb1-4fdf-9faa-465841103702",
+          "card": "c0207a21-6b32-4d96-bc31-f707991bdf38",
+          "suffix": "B03",
+          "rarity": "super",
+          "imageID": "a157dd39-7981-4ed8-9a0f-ddff9f290675"
+        },
+        {
+          "id": "330556d0-697b-4ce7-8673-47327bfe9b20",
+          "card": "19bc3901-24d3-49da-bdf7-6d99d34c895e",
+          "suffix": "B04",
+          "rarity": "super"
+        },
+        {
+          "id": "e068d849-8b75-45b7-8c82-6e8eff319eae",
+          "card": "58902a9b-0d24-41a4-b77c-893f1b9f405d",
+          "suffix": "B05",
+          "rarity": "super",
+          "imageID": "cb71a558-c429-493d-aa50-10e008356c5d"
+        },
+        {
+          "id": "5a4d0d42-4670-4830-8031-4c610e6642f7",
+          "card": "d872139d-9b04-4a68-8335-9aab0ba81f8a",
+          "suffix": "B06",
+          "rarity": "super",
+          "imageID": "044e4c04-5691-434c-87f9-8455410c5188"
+        },
+        {
+          "id": "25897c42-080d-4f52-91c8-6c798c32ff0f",
+          "card": "6049dbfe-e987-4572-a768-7509d1d81e69",
+          "suffix": "B07",
+          "rarity": "super",
+          "imageID": "3997860a-b2c4-4193-a270-b91863cd283b"
+        },
+        {
+          "id": "dd2969fc-5df0-40f0-886b-22753ac5e91b",
+          "card": "4aab2353-e5a4-499b-a5bb-b7af4d666f69",
+          "suffix": "B08",
+          "rarity": "super",
+          "imageID": "0c424209-e219-404d-a171-42b4cb6ddf55"
+        },
+        {
+          "id": "a5287edf-9fe2-412e-9ab0-bcb6c530fb38",
+          "card": "5d2c742e-eb66-47ea-96ea-d148c8430063",
+          "suffix": "B09",
+          "rarity": "super",
+          "imageID": "22fb79b7-df62-4e4b-ad59-13c6f4e36670"
+        },
+        {
+          "id": "1e7031b1-bcc5-4962-b7cf-d26c9b45f9bf",
+          "card": "0db81abc-ec91-437a-85e8-425f55e858d3",
+          "suffix": "B10",
+          "rarity": "super",
+          "imageID": "6ab1fb1a-9d63-417e-a1e8-794b6a1802e0"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "LINK VRAINS Duelist Set",
+      "id": 625686
+    }
+  }
+}

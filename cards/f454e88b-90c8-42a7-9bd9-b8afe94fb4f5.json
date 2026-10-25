@@ -1,0 +1,55 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "f454e88b-90c8-42a7-9bd9-b8afe94fb4f5",
+  "text": {
+    "en": {
+      "name": "Harpie Cielo",
+      "effect": "Send the top 3 cards of your Deck to the Graveyard. Then, if a \"Harpie Lady\" or \"Harpie Lady Sisters\" was among the cards sent, you can add 1 \"Harpie's Feather Tempest\" from your Graveyard to your hand."
+    },
+    "ja": {
+      "name": "\u30cf\u30fc\u30d4\u30a3\u30fb\u30c1\u30a7\u30fc\u30ed",
+      "effect": "\u81ea\u5206\u306e\u30c7\u30c3\u30ad\u306e\u4e0a\u304b\u3089\u30ab\u30fc\u30c9\uff13\u679a\u3092\u5893\u5730\u3078\u9001\u308b\u3002\u305d\u306e\u4e2d\u306b\u300c\u30cf\u30fc\u30d4\u30a3\u30fb\u30ec\u30c7\u30a3\u300d\u307e\u305f\u306f\u300c\u30cf\u30fc\u30d4\u30a3\u4e09\u59c9\u59b9\u300d\u304c\u3044\u305f\u5834\u5408\u3001\u3055\u3089\u306b\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u30cf\u30fc\u30d4\u30a3\u306e\u7fbd\u6839\u5d50\u300d\uff11\u679a\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud574\ud53c \uce58\uc5d8\ub85c",
+      "effect": "\uc790\uc2e0\uc758 \ub371 \uc704\uc5d0\uc11c \uce74\ub4dc 3\uc7a5\uc744 \ubb18\uc9c0\ub85c \ubcf4\ub0b8\ub2e4. \uadf8 \uc911\uc5d0 \"\ud574\ud53c \ub808\uc774\ub514\" \ub610\ub294 \"\ud574\ud53c\ub808\uc774\ub514\uc988\"\uac00 \uc788\uc5c8\uc744 \uacbd\uc6b0, \ucd94\uac00\ub85c \uc790\uc2e0 \ubb18\uc9c0\uc758 \"\ud574\ud53c\uc758 \uae43\ud138\ud3ed\ud48d\" 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\uc744 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "wind",
+  "type": "wingedbeast",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1000,
+  "def": 300,
+  "passwords": [],
+  "images": [
+    {
+      "id": "628a846b-2d98-4f61-8c2e-35a8d26a253f",
+      "card": "https://ms.yugipedia.com//9/92/HarpieCielo-RD5TH1-JP-ScR.png"
+    },
+    {
+      "id": "141ce96d-3550-4fc1-9652-c9f1b038594f",
+      "card": "https://ms.yugipedia.com//0/05/HarpieCielo-RD5TH1-KR-ScR.png"
+    }
+  ],
+  "sets": [
+    "d867f9ff-46bb-44fa-9cb3-94491d964afd",
+    "d867f9ff-46bb-44fa-9cb3-94491d964afd"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Harpie Cielo",
+        "id": 992242
+      }
+    ],
+    "dbID": 19437
+  },
+  "series": [
+    "04dde7f8-0a7d-4b74-b812-f493b9fb1f62"
+  ]
+}

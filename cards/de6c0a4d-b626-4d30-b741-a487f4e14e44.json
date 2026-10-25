@@ -1,0 +1,48 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "de6c0a4d-b626-4d30-b741-a487f4e14e44",
+  "text": {
+    "en": {
+      "name": "Buster Blader, the One Who Surpasses the Limits",
+      "effect": "If this card is in your hand or GY: You can discard 1 Spell; Special Summon this card, and if you do, its name becomes \"Buster Blader\", also banish it when it leaves the field. You can only use this effect of \"Buster Blader, the One Who Surpasses the Limits\" once per turn. Gains 500 ATK for each Attack Position monster your opponent controls. When this card destroys a monster by battle: You can discard 1 card; Special Summon that monster to your field.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u6975\u9650\u3092\u8d85\u3048\u3057\u8005\uff0d\u30d0\u30b9\u30bf\u30fc\u30fb\u30d6\u30ec\u30a4\u30c0\u30fc"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 2600,
+  "def": 2300,
+  "passwords": [],
+  "images": [
+    {
+      "id": "4f7fd110-fa32-4721-8a25-9eac8e173de3",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/100461001.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/100461001.jpg"
+    }
+  ],
+  "sets": [
+    "cc3d5d13-abcf-4e86-bd86-9da953ff7dd7"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Buster Blader, the One Who Surpasses the Limits",
+        "id": 1231435
+      }
+    ],
+    "ygoprodeck": {
+      "id": 100461001,
+      "name": "buster-blader-the-one-who-surpasses-the-limits-15996"
+    }
+  },
+  "series": []
+}

@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "2a1f64b1-9dd8-45b1-ba0f-5cf6fee45e09",
+  "text": {
+    "en": {
+      "name": "The Dragias",
+      "effect": "A dragon that made seven supernovae go gamma-ray burst. Its name is... The Dragias! The Dragias!!",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30b6\u2606\u30c9\u30e9\u30ae\u30a2\u30b9",
+      "effect": "\uff17\u3064\u306e\u8d85\u65b0\u661f\u304c\u30ac\u30f3\u30de\u7dda\u30d0\u30fc\u30b9\u30c8\u3057\u305f\u30c9\u30e9\u30b4\u30f3\u3002\u305d\u306e\u540d\u3082\u3001\u30b6\u2606\u30c9\u30e9\u30ae\u30a2\u30b9\uff01\u30b6\u2606\u30c9\u30e9\u30ae\u30a2\u30b9\uff01\uff01"
+    },
+    "ko": {
+      "name": "\ub354\u2606\ub4dc\ub77c\uae30\uc544\uc2a4",
+      "effect": "7\uac1c\uc758 \ucd08\uc2e0\uc131\uc774 \uac10\ub9c8\uc120 \ud3ed\ubc1c\ud55c \ub4dc\ub798\uace4. \uadf8 \uc774\ub984\ub3c4, \ub354\u2606\ub4dc\ub77c\uae30\uc544\uc2a4! \ub354\u2606\ub4dc\ub77c\uae30\uc544\uc2a4!!"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "dragon",
+  "classifications": [
+    "normal"
+  ],
+  "level": 7,
+  "atk": 2500,
+  "def": 1500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "3d031928-3628-486c-8bf8-97de42646fdd",
+      "card": "https://ms.yugipedia.com//0/0a/TheDragias-RD5TH1-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "The Dragias",
+        "id": 717062
+      }
+    ],
+    "dbID": 18585
+  },
+  "series": [
+    "c47c618f-a8e3-4dbf-b2e2-f893c7428dff"
+  ]
+}

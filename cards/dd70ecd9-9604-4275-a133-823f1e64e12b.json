@@ -1,0 +1,52 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "dd70ecd9-9604-4275-a133-823f1e64e12b",
+  "text": {
+    "en": {
+      "name": "Dead Core the Mad Fiend of Despair",
+      "effect": "Fusion Summon a DARK Attribute Fiend Type monster with 2400 DEF by sending monsters from your hand or field to the Graveyard as material.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u7d76\u671b\u72c2\u9b54\u30c7\u30c3\u30c9\u30fb\u30b3\u30a2",
+      "effect": "\u81ea\u5206\u306e\u624b\u672d\u30fb\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u3092\u7d20\u6750\u3068\u3057\u3066\u5893\u5730\u3078\u9001\u308a\u3001\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u95c7\u5c5e\u6027\uff0f\u60aa\u9b54\u65cf\uff0f\u5b88\u5099\u529b\uff12\uff14\uff10\uff10\uff09\u3092\u30d5\u30e5\u30fc\u30b8\u30e7\u30f3\u53ec\u559a\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc808\ub9dd\uad11\ub9c8 \ub370\ub4dc \ucf54\uc5b4",
+      "effect": "\uc790\uc2e0\uc758 \ud328 / \ud544\ub4dc\uc758 \ubaac\uc2a4\ud130\ub97c \uc18c\uc7ac\ub85c\uc11c \ubb18\uc9c0\ub85c \ubcf4\ub0b4\uace0, \ubaac\uc2a4\ud130(\uc5b4\ub460 \uc18d\uc131 / \uc545\ub9c8\uc871 / \uc218\ube44\ub825 2400)\ub97c \ud4e8\uc804 \uc18c\ud658\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "monsterCardTypes": [
+    "ritual"
+  ],
+  "type": "fiend",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 0,
+  "def": 2400,
+  "passwords": [],
+  "images": [
+    {
+      "id": "ca195de5-87a0-454f-8cda-2cc75d99bf70",
+      "card": "https://ms.yugipedia.com//5/5e/DeadCoretheMadFiendofDespair-RDORP4-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Dead Core the Mad Fiend of Despair",
+        "id": 1176313
+      }
+    ],
+    "dbID": 23058
+  },
+  "series": [
+    "182ca87e-912e-486d-8df2-dae67ce3bffd"
+  ]
+}

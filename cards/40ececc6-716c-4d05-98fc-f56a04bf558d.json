@@ -1,0 +1,47 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "40ececc6-716c-4d05-98fc-f56a04bf558d",
+  "text": {
+    "en": {
+      "name": "Levia-Dragon - Daedalus (Rush Duel)",
+      "effect": "Destroy all other cards on the field.",
+      "official": false
+    },
+    "ko": {
+      "name": "\ud574\ub8e1\uff0d\ub2e4\uc774\ub2ec\ub85c\uc2a4",
+      "effect": "\uc774 \uce74\ub4dc \uc774\uc678\uc758 \uc11c\ub85c\uc758 \ud544\ub4dc\uc758 \uce74\ub4dc\ub97c \uc804\ubd80 \ud30c\uad34\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "type": "seaserpent",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2600,
+  "def": 1500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "236fdcf2-615f-4ed3-94ab-f109ddac8384",
+      "card": "https://ms.yugipedia.com//d/d1/LeviaDragonDaedalus-RDKP07-JP-RR.png"
+    },
+    {
+      "id": "77a4e0c8-b389-4fa4-805a-2dfbb22dabb7",
+      "card": "https://ms.yugipedia.com//b/b2/LeviaDragonDaedalus-RDVSP1-JP-ORR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Levia-Dragon - Daedalus (Rush Duel)",
+        "id": 715598
+      }
+    ],
+    "dbID": 16966
+  },
+  "series": []
+}

@@ -1,0 +1,66 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "849a9ca8-57dc-4491-9993-6ef6ba722e39",
+  "text": {
+    "en": {
+      "name": "Dragon's Inferno",
+      "effect": "Destroy 1 Spell/Trap Card on your opponent's field."
+    },
+    "fr": {
+      "name": "Brasier du Dragon",
+      "effect": "D\u00e9truisez 1 Carte Magie/Pi\u00e8ge sur le Terrain de votre adversaire."
+    },
+    "de": {
+      "name": "Dracheninferno",
+      "effect": "Zerst\u00f6re 1 Zauber-/Fallenkarte auf dem Spielfeld deines Gegners."
+    },
+    "it": {
+      "name": "Inferno del Drago",
+      "effect": "Distruggi 1 Carta Magia/Trappola sul Terreno del tuo avversario."
+    },
+    "es": {
+      "name": "Infierno de Drag\u00f3n",
+      "effect": "Destruye 1 Carta M\u00e1gica/de Trampa del Campo de tu adversario."
+    },
+    "ja": {
+      "name": "\u706b\u7adc\u306e\u71b1\u9583",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u9b54\u6cd5\u30fb\u7f60\u30ab\u30fc\u30c9\uff11\u679a\u3092\u9078\u3093\u3067\u7834\u58ca\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud654\ub8e1\uc758 \uc5f4\uc12c",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \ub9c8\ubc95 / \ud568\uc815 \uce74\ub4dc 1\uc7a5\uc744 \uace0\ub974\uace0 \ud30c\uad34\ud55c\ub2e4."
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "bca960b2-c115-490f-8fb7-f9b7c99005de",
+      "card": "https://ms.yugipedia.com//b/b1/DragonsInferno-RDSD0A-JP-C.png"
+    }
+  ],
+  "sets": [
+    "3fe0b98a-9822-4fdc-8329-1fdd2fa31e6d",
+    "b0d594ec-1f44-402f-a994-a88c19a50a43",
+    "b0d594ec-1f44-402f-a994-a88c19a50a43",
+    "b3912bea-7700-43b3-8e58-def0f757111c",
+    "b3912bea-7700-43b3-8e58-def0f757111c",
+    "94cc13bc-8f74-45f7-95b1-a46788eb60dc",
+    "94cc13bc-8f74-45f7-95b1-a46788eb60dc"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Dragon's Inferno",
+        "id": 714651
+      }
+    ],
+    "dbID": 15175
+  },
+  "series": []
+}

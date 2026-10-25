@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "7de56e76-1cfd-418c-8967-cb9740d60de5",
+  "text": {
+    "en": {
+      "name": "Royal Rebel's Pitch Shifter",
+      "effect": "Draw 1 card. Then, you can change the battle position of this card or 1 monster on your opponent's field.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30ed\u30a4\u30e4\u30eb\u30c7\u30e2\u30f3\u30ba\u30fb\u30d4\u30c3\u30c1\u30b7\u30d5\u30bf\u30fc",
+      "effect": "\u81ea\u5206\u306f\uff11\u679a\u30c9\u30ed\u30fc\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u3053\u306e\u30ab\u30fc\u30c9\u307e\u305f\u306f\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u3092\u9078\u3093\u3067\u8868\u793a\u5f62\u5f0f\u3092\u5909\u66f4\u3067\u304d\u308b\u3002"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "fiend",
+  "classifications": [
+    "effect"
+  ],
+  "level": 1,
+  "atk": 200,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "9a7324da-0d2a-4cd9-ab72-98d4372ca675",
+      "card": "https://ms.yugipedia.com//2/21/RoyalRebelsPitchShifter-RDKP26-JP-R.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Royal Rebel's Pitch Shifter",
+        "id": 1206781
+      }
+    ],
+    "dbID": 23715
+  },
+  "series": [
+    "39eae314-d153-45cf-aa63-9d42b5dc8cf2"
+  ]
+}

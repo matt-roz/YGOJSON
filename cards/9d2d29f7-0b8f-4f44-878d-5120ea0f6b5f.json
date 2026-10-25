@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "9d2d29f7-0b8f-4f44-878d-5120ea0f6b5f",
+  "text": {
+    "en": {
+      "name": "Grass",
+      "effect": "^^"
+    },
+    "ja": {
+      "name": "\u8349",
+      "effect": "\uff57"
+    },
+    "ko": {
+      "name": "\ub876",
+      "effect": "^^"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "plant",
+  "classifications": [
+    "normal"
+  ],
+  "level": 1,
+  "atk": 0,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "164e97bb-8e47-4e91-81cc-6a4f565c309f",
+      "card": "https://ms.yugipedia.com//2/29/Grass-RDKP05-JP-C.png"
+    }
+  ],
+  "sets": [
+    "43d37aa5-d0e5-47b7-ac44-ab3ca95014d3"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "n"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Grass",
+        "id": 715184
+      }
+    ],
+    "dbID": 16316
+  },
+  "series": []
+}

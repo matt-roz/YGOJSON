@@ -1,0 +1,42 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "c560a25f-8ee2-4f71-95b3-38d0b3fef909",
+  "text": {
+    "en": {
+      "name": "Magician's Valkyria (Rush Duel)",
+      "effect": "Your opponent cannot attack face-up Spellcaster Type monsters other than this card."
+    },
+    "ko": {
+      "name": "\ub9e4\uc9c0\uc158\uc988 \ubc1c\ud0a4\ub9ac\uc5b4",
+      "effect": "\uc0c1\ub300\ub294 \uc774 \uce74\ub4dc \uc774\uc678\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\ub9c8\ubc95\uc0ac\uc871)\uc5d0 \uacf5\uaca9\ud560 \uc218 \uc5c6\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "spellcaster",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1600,
+  "def": 1800,
+  "passwords": [],
+  "images": [
+    {
+      "id": "0cee9448-366c-4286-bd2c-bce3873b0191",
+      "card": "https://ms.yugipedia.com//3/37/MagiciansValkyria-RDG002-JP-ScR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Magician's Valkyria (Rush Duel)",
+        "id": 715715
+      }
+    ],
+    "dbID": 17979
+  },
+  "series": []
+}

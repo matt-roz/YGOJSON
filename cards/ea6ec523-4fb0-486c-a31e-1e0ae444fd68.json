@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "ea6ec523-4fb0-486c-a31e-1e0ae444fd68",
+  "text": {
+    "en": {
+      "name": "Familiar-Possessed - Aussa (Rush Duel)",
+      "effect": "This card cannot be used as material for the Fusion Summon of \"Familiar-Possessed - Aussa\". Your EARTH Attribute monsters inflict piercing battle damage.",
+      "official": false
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "spellcaster",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1900,
+  "def": 1500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "53131486-5298-4e56-b53d-d266232209a5",
+      "card": "https://ms.yugipedia.com//c/c7/FamiliarPossessedAussa-RDKP27-JP-OP.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Familiar-Possessed - Aussa (Rush Duel)",
+        "id": 1231491
+      }
+    ]
+  },
+  "series": []
+}

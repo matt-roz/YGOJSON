@@ -1,0 +1,42 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "008eee98-6d68-41aa-b939-94cfd64666c4",
+  "text": {
+    "en": {
+      "name": "7 Chance",
+      "effect": "Draw 3 cards and show them. If 2 or more Level 7 monsters are among them, gain LP equal to [the number of those Level 7 monsters] x 1500."
+    },
+    "ja": {
+      "name": "\uff17\u30c1\u30e3\u30f3\u30b9",
+      "effect": "\u81ea\u5206\u306f\uff13\u679a\u30c9\u30ed\u30fc\u3057\u3001\u304a\u4e92\u3044\u306b\u78ba\u8a8d\u3059\u308b\u3002\u305d\u306e\u4e2d\u306b\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff17\uff09\u304c\uff12\u4f53\u4ee5\u4e0a\u3044\u308b\u5834\u5408\u3001\u3055\u3089\u306b\u81ea\u5206\u306f\uff3b\u305d\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff17\uff09\u306e\u6570\uff3d\u00d7\uff11\uff15\uff10\uff10\uff2c\uff30\u56de\u5fa9\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "7\ucc2c\uc2a4",
+      "effect": "\uc790\uc2e0\uc740 3\uc7a5 \ub4dc\ub85c\uc6b0\ud558\uace0, \uc11c\ub85c \ud655\uc778\ud55c\ub2e4. \uadf8 \uc911\uc5d0 \ubaac\uc2a4\ud130(\ub808\ubca8 7)\uac00 2\uc7a5 \uc774\uc0c1 \uc788\uc744 \uacbd\uc6b0, \ucd94\uac00\ub85c \uc790\uc2e0\uc740 [\uadf8 \ubaac\uc2a4\ud130(\ub808\ubca8 7)\uc758 \uc218] \u00d7 1500 LP \ud68c\ubcf5\ud55c\ub2e4."
+    }
+  },
+  "cardType": "trap",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "bc49c454-185e-4ab1-bf5a-a75cb9a1b567",
+      "card": "https://ms.yugipedia.com//4/42/7Chance-RDKP06-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "7 Chance",
+        "id": 712320
+      }
+    ],
+    "dbID": 16714
+  },
+  "series": []
+}

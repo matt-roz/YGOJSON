@@ -1,0 +1,44 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "9d20f9bf-45ec-4297-85d0-b39b1f3c856f",
+  "text": {
+    "en": {
+      "name": "Zeil the King of the Hollowed Grounds",
+      "effect": "Face-up DARK Attribute Warrior Type monsters on your field cannot be destroyed by card effects, and they inflict piercing battle damage.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u9ed2\u5239\u306e\u738b \u30bc\u30a4\u30eb"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 10,
+  "atk": 3500,
+  "def": 2500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "7715c19c-47ab-423e-8d8a-006b5994c3af",
+      "card": "https://ms.yugipedia.com/archive/e/ed/20261023160821%21ZeiltheKingoftheHollowedGrounds-RDKP27-JP-OP.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Zeil the King of the Hollowed Grounds",
+        "id": 1235385
+      }
+    ]
+  },
+  "series": []
+}

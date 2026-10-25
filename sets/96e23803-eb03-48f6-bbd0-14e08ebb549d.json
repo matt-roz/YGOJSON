@@ -1,0 +1,929 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "96e23803-eb03-48f6-bbd0-14e08ebb549d",
+  "name": {
+    "en": "Duelist Set: Version Machine-Gear Troopers",
+    "ja": "\u30c7\u30e5\u30a8\u30ea\u30b9\u30c8\u30bb\u30c3\u30c8 \uff36\uff45\uff52\uff0e\u30de\u30b7\u30f3\u30ae\u30a2\u30fb\u30c8\u30eb\u30fc\u30d1\u30fc\u30ba",
+    "ko": "\ub4c0\uc5bc\ub9ac\uc2a4\ud2b8 \uc138\ud2b8 Ver.\uba38\uc2e0\uae30\uc544 \ud2b8\ub8e8\ud37c\uc988"
+  },
+  "locales": {
+    "jp": {
+      "language": "ja",
+      "prefix": "DS14-JPM",
+      "date": "2013-11-23",
+      "image": "https://ms.yugipedia.com//5/53/DS14-DeckJP-VerB.png",
+      "cardImages": {
+        "unlimited": {
+          "0413ad84-853d-4d36-91fe-1213e46bc502": "https://ms.yugipedia.com//e/e2/LimiterRemoval-DS14-JP-UR.png",
+          "07632e91-dd74-4bfe-9086-f6e44eb1ad97": "https://ms.yugipedia.com//b/bf/Oilman-DS14-JP-UR.png",
+          "0ad6f0ea-b8bb-4f70-aa8f-801e73a629d4": "https://ms.yugipedia.com//e/e2/SwiftScarecrow-DS14-JP-UR.png",
+          "1a17b627-ce87-481d-8817-4be5f180b5fb": "https://ms.yugipedia.com//5/59/AncientGearGadjiltronDragon-DS14-JP-UR.png",
+          "1b83da2b-f31d-4a19-b08b-441dd1c81844": "https://ms.yugipedia.com//b/b7/Minefieldriller-DS14-JP-UR.png",
+          "24584b9b-7a21-4263-b0dd-ff0764bfce16": "https://ms.yugipedia.com//2/26/RareMetalmorph-DS14-JP-UR.png",
+          "29b4b8f3-3bfd-4d1c-b56f-0fa81c60b306": "https://ms.yugipedia.com//f/f1/CreatureSwap-DS14-JP-UR.png",
+          "36efbf7c-faf9-47ca-bae1-da482fbba0de": "https://ms.yugipedia.com//1/10/GeargianoMkIII-DS14-JP-UR.png",
+          "37161f11-c440-478b-be25-9de1cee8a401": "https://ms.yugipedia.com//7/78/JumboDrill-DS14-JP-UR.png",
+          "3b2ec8a2-bce3-4b8d-af26-8f40c6044e3e": "https://ms.yugipedia.com//1/1e/GeargiagearGigantXG-DS14-JP-EScR.png",
+          "3f4a2311-182a-4137-9ad6-8a4dd4429797": "https://ms.yugipedia.com//2/2b/SmashingGround-DS14-JP-UR.png",
+          "41e2d607-e3cf-4db6-a6ee-97168ce9024c": "https://ms.yugipedia.com//f/f4/GearGigantX-DS14-JP-UR.png",
+          "5caa37b3-a928-43e9-bf8b-2517d5bfebfe": "https://ms.yugipedia.com//2/27/MachineAssemblyLine-DS14-JP-UR.png",
+          "5d956d5d-4299-4f87-8e17-24f639e45312": "https://ms.yugipedia.com//9/9b/YellowGadget-DS14-JP-UR.png",
+          "6570b3ae-bde3-4ce2-8b3d-a6dc164125f8": "https://ms.yugipedia.com//e/ec/Metalmorph-DS14-JP-UR.png",
+          "65a3472d-db0a-4794-91f0-568c378fe172": "https://ms.yugipedia.com//b/b2/AncientGearGadjiltronChimera-DS14-JP-UR.png",
+          "80492c32-dd81-4dd5-83e4-73dd503c8a4c": "https://ms.yugipedia.com//1/1f/GeargianoMkII-DS14-JP-UR.png",
+          "80e0430a-76d3-4d1d-b1e4-ffd759e7a052": "https://ms.yugipedia.com//a/ab/RollOut-DS14-JP-UR.png",
+          "83f43393-db18-4335-bd0a-7b7eb715c866": "https://ms.yugipedia.com//b/b0/DoubleSummon-DS14-JP-UR.png",
+          "96a2e9d7-5b79-458e-a126-af44c5bf4943": "https://ms.yugipedia.com//1/19/RedGadget-DS14-JP-UR.png",
+          "9819edad-4560-44bd-b754-6ac2f73cc4f9": "https://ms.yugipedia.com//7/78/GiantRat-DS14-JP-UR.png",
+          "af79f2aa-684e-4367-a5d8-76c5cc23ea5e": "https://ms.yugipedia.com//5/55/Geargiarmor-DS14-JP-UR.png",
+          "b13250b3-bdbd-4b4a-aa61-c94f59474742": "https://ms.yugipedia.com//c/c1/Geargiano-DS14-JP-UR.png",
+          "b377ffc1-ffad-4e4c-86a5-7065296e9dd8": "https://ms.yugipedia.com//1/1f/HeavyMechSupportPlatform-DS14-JP-UR.png",
+          "b501de2d-f75f-44af-94b0-15c84f3d56e0": "https://ms.yugipedia.com//0/05/GreenGadget-DS14-JP-UR.png",
+          "b8397331-62f6-4a70-982d-8c433570ee25": "https://ms.yugipedia.com//3/33/Geargiaccelerator-DS14-JP-UR.png",
+          "bbadb2b4-72ae-4b23-9a7e-28de20696f60": "https://ms.yugipedia.com//6/62/Fissure-DS14-JP-UR.png",
+          "c24a6bee-1908-4661-9f39-3be490500ba5": "https://ms.yugipedia.com//9/9d/Geargiattacker-DS14-JP-UR.png",
+          "dd605afb-2db3-4aa1-a98e-4424f8b7cab7": "https://ms.yugipedia.com//6/6e/Geargiagear-DS14-JP-UR.png",
+          "e2461745-202a-49ed-aabc-271402651725": "https://ms.yugipedia.com//5/51/StrongholdtheMovingFortress-DS14-JP-UR.png",
+          "e85dbc90-f9a9-42df-854d-99cd2dc63e45": "https://ms.yugipedia.com//2/26/Geargiarsenal-DS14-JP-UR.png",
+          "eaeaf86c-f768-4359-9e78-0f3bcaa7a2d4": "https://ms.yugipedia.com//5/5e/Terraforming-DS14-JP-UR-M.png",
+          "f7b45797-420a-4132-bbd8-0016b941dfc9": "https://ms.yugipedia.com//3/34/Geartown-DS14-JP-UR.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "0413ad84-853d-4d36-91fe-1213e46bc502": {
+            "image": "https://ms.yugipedia.com//e/e2/LimiterRemoval-DS14-JP-UR.png"
+          },
+          "07632e91-dd74-4bfe-9086-f6e44eb1ad97": {
+            "image": "https://ms.yugipedia.com//b/bf/Oilman-DS14-JP-UR.png"
+          },
+          "0ad6f0ea-b8bb-4f70-aa8f-801e73a629d4": {
+            "image": "https://ms.yugipedia.com//e/e2/SwiftScarecrow-DS14-JP-UR.png"
+          },
+          "1a17b627-ce87-481d-8817-4be5f180b5fb": {
+            "image": "https://ms.yugipedia.com//5/59/AncientGearGadjiltronDragon-DS14-JP-UR.png"
+          },
+          "1b83da2b-f31d-4a19-b08b-441dd1c81844": {
+            "image": "https://ms.yugipedia.com//b/b7/Minefieldriller-DS14-JP-UR.png"
+          },
+          "24584b9b-7a21-4263-b0dd-ff0764bfce16": {
+            "image": "https://ms.yugipedia.com//2/26/RareMetalmorph-DS14-JP-UR.png"
+          },
+          "29b4b8f3-3bfd-4d1c-b56f-0fa81c60b306": {
+            "image": "https://ms.yugipedia.com//f/f1/CreatureSwap-DS14-JP-UR.png"
+          },
+          "36efbf7c-faf9-47ca-bae1-da482fbba0de": {
+            "image": "https://ms.yugipedia.com//1/10/GeargianoMkIII-DS14-JP-UR.png"
+          },
+          "37161f11-c440-478b-be25-9de1cee8a401": {
+            "image": "https://ms.yugipedia.com//7/78/JumboDrill-DS14-JP-UR.png"
+          },
+          "3b2ec8a2-bce3-4b8d-af26-8f40c6044e3e": {
+            "image": "https://ms.yugipedia.com//1/1e/GeargiagearGigantXG-DS14-JP-EScR.png"
+          },
+          "3f4a2311-182a-4137-9ad6-8a4dd4429797": {
+            "image": "https://ms.yugipedia.com//2/2b/SmashingGround-DS14-JP-UR.png"
+          },
+          "41e2d607-e3cf-4db6-a6ee-97168ce9024c": {
+            "image": "https://ms.yugipedia.com//f/f4/GearGigantX-DS14-JP-UR.png"
+          },
+          "5caa37b3-a928-43e9-bf8b-2517d5bfebfe": {
+            "image": "https://ms.yugipedia.com//2/27/MachineAssemblyLine-DS14-JP-UR.png"
+          },
+          "5d956d5d-4299-4f87-8e17-24f639e45312": {
+            "image": "https://ms.yugipedia.com//9/9b/YellowGadget-DS14-JP-UR.png"
+          },
+          "6570b3ae-bde3-4ce2-8b3d-a6dc164125f8": {
+            "image": "https://ms.yugipedia.com//e/ec/Metalmorph-DS14-JP-UR.png"
+          },
+          "65a3472d-db0a-4794-91f0-568c378fe172": {
+            "image": "https://ms.yugipedia.com//b/b2/AncientGearGadjiltronChimera-DS14-JP-UR.png"
+          },
+          "80492c32-dd81-4dd5-83e4-73dd503c8a4c": {
+            "image": "https://ms.yugipedia.com//1/1f/GeargianoMkII-DS14-JP-UR.png"
+          },
+          "80e0430a-76d3-4d1d-b1e4-ffd759e7a052": {
+            "image": "https://ms.yugipedia.com//a/ab/RollOut-DS14-JP-UR.png"
+          },
+          "83f43393-db18-4335-bd0a-7b7eb715c866": {
+            "image": "https://ms.yugipedia.com//b/b0/DoubleSummon-DS14-JP-UR.png"
+          },
+          "96a2e9d7-5b79-458e-a126-af44c5bf4943": {
+            "image": "https://ms.yugipedia.com//1/19/RedGadget-DS14-JP-UR.png"
+          },
+          "9819edad-4560-44bd-b754-6ac2f73cc4f9": {
+            "image": "https://ms.yugipedia.com//7/78/GiantRat-DS14-JP-UR.png"
+          },
+          "af79f2aa-684e-4367-a5d8-76c5cc23ea5e": {
+            "image": "https://ms.yugipedia.com//5/55/Geargiarmor-DS14-JP-UR.png"
+          },
+          "b13250b3-bdbd-4b4a-aa61-c94f59474742": {
+            "image": "https://ms.yugipedia.com//c/c1/Geargiano-DS14-JP-UR.png"
+          },
+          "b377ffc1-ffad-4e4c-86a5-7065296e9dd8": {
+            "image": "https://ms.yugipedia.com//1/1f/HeavyMechSupportPlatform-DS14-JP-UR.png"
+          },
+          "b501de2d-f75f-44af-94b0-15c84f3d56e0": {
+            "image": "https://ms.yugipedia.com//0/05/GreenGadget-DS14-JP-UR.png"
+          },
+          "b8397331-62f6-4a70-982d-8c433570ee25": {
+            "image": "https://ms.yugipedia.com//3/33/Geargiaccelerator-DS14-JP-UR.png"
+          },
+          "bbadb2b4-72ae-4b23-9a7e-28de20696f60": {
+            "image": "https://ms.yugipedia.com//6/62/Fissure-DS14-JP-UR.png"
+          },
+          "c24a6bee-1908-4661-9f39-3be490500ba5": {
+            "image": "https://ms.yugipedia.com//9/9d/Geargiattacker-DS14-JP-UR.png"
+          },
+          "dd605afb-2db3-4aa1-a98e-4424f8b7cab7": {
+            "image": "https://ms.yugipedia.com//6/6e/Geargiagear-DS14-JP-UR.png"
+          },
+          "e2461745-202a-49ed-aabc-271402651725": {
+            "image": "https://ms.yugipedia.com//5/51/StrongholdtheMovingFortress-DS14-JP-UR.png"
+          },
+          "e85dbc90-f9a9-42df-854d-99cd2dc63e45": {
+            "image": "https://ms.yugipedia.com//2/26/Geargiarsenal-DS14-JP-UR.png"
+          },
+          "eaeaf86c-f768-4359-9e78-0f3bcaa7a2d4": {
+            "image": "https://ms.yugipedia.com//5/5e/Terraforming-DS14-JP-UR-M.png",
+            "variants": [
+              {
+                "code": "M",
+                "image": "https://ms.yugipedia.com//5/5e/Terraforming-DS14-JP-UR-M.png"
+              }
+            ]
+          },
+          "f7b45797-420a-4132-bbd8-0016b941dfc9": {
+            "image": "https://ms.yugipedia.com//3/34/Geartown-DS14-JP-UR.png"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          111114003
+        ]
+      }
+    },
+    "kr": {
+      "language": "ko",
+      "prefix": "DS14-KRM",
+      "date": "2014-01-15",
+      "image": "https://ms.yugipedia.com//a/af/DS14-DeckKR-VerB.png",
+      "cardImages": {
+        "1st": {
+          "07632e91-dd74-4bfe-9086-f6e44eb1ad97": "https://ms.yugipedia.com//3/3b/Oilman-DS14-KR-UR-1E.png",
+          "0ad6f0ea-b8bb-4f70-aa8f-801e73a629d4": "https://ms.yugipedia.com//a/a1/SwiftScarecrow-DS14-KR-UR-1E.png",
+          "0ae86ecb-ac47-4cff-8273-155283778dbd": "https://ms.yugipedia.com//1/16/Fissure-DS14-KR-UR-1E.png",
+          "1a17b627-ce87-481d-8817-4be5f180b5fb": "https://ms.yugipedia.com//8/81/AncientGearGadjiltronDragon-DS14-KR-UR-1E.png",
+          "1b83da2b-f31d-4a19-b08b-441dd1c81844": "https://ms.yugipedia.com//d/dd/Minefieldriller-DS14-KR-UR-1E.png",
+          "1d5ba116-da20-4906-a6db-87c2cc0a283a": "https://ms.yugipedia.com//6/6a/DoubleSummon-DS14-KR-UR-1E.png",
+          "1f26d82f-8e2b-481a-8437-6050c2d9c846": "https://ms.yugipedia.com//8/86/Geartown-DS14-KR-UR-1E.png",
+          "2e9504f6-80dd-4543-865c-6dc3d591f844": "https://ms.yugipedia.com//5/5d/Terraforming-DS14-KR-UR-1E-M.png",
+          "351cf6e3-3986-44c2-b191-aa184f8a2f6d": "https://ms.yugipedia.com//2/23/LimiterRemoval-DS14-KR-UR-1E.png",
+          "37161f11-c440-478b-be25-9de1cee8a401": "https://ms.yugipedia.com//6/68/JumboDrill-DS14-KR-UR-1E.png",
+          "5b11f57e-9ec7-4624-8f79-2801c7a5429f": "https://ms.yugipedia.com//6/6d/MachineAssemblyLine-DS14-KR-UR-1E.png",
+          "5d956d5d-4299-4f87-8e17-24f639e45312": "https://ms.yugipedia.com//7/7f/YellowGadget-DS14-KR-UR-1E.png",
+          "65a3472d-db0a-4794-91f0-568c378fe172": "https://ms.yugipedia.com//c/c9/AncientGearGadjiltronChimera-DS14-KR-UR-1E.png",
+          "6bb3b9f8-18ad-449f-836b-e592bd2dba47": "https://ms.yugipedia.com//6/67/UltimateOffering-DS14-KR-UR-1E.png",
+          "702f1829-9f51-4029-adf9-d7c172797ada": "https://ms.yugipedia.com//c/cb/RareMetalmorph-DS14-KR-UR-1E.png",
+          "80492c32-dd81-4dd5-83e4-73dd503c8a4c": "https://ms.yugipedia.com//b/bc/GeargianoMkII-DS14-KR-UR-1E.png",
+          "83c3b811-b152-4aee-9a07-4ddf12dcb5cb": "https://ms.yugipedia.com//3/36/SmashingGround-DS14-KR-UR-1E.png",
+          "8559c932-2cd9-48c8-b18c-7565b50f9eda": "https://ms.yugipedia.com//a/ab/Geargiagear-DS14-KR-UR-1E.png",
+          "93e3fe11-077b-4e93-8db3-4b44336a20a8": "https://ms.yugipedia.com//c/cb/CardTrooper-DS14-KR-UR-1E.png",
+          "96a2e9d7-5b79-458e-a126-af44c5bf4943": "https://ms.yugipedia.com//8/85/RedGadget-DS14-KR-UR-1E.png",
+          "9819edad-4560-44bd-b754-6ac2f73cc4f9": "https://ms.yugipedia.com//7/70/GiantRat-DS14-KR-UR-1E.png",
+          "a520fc2b-a0fa-462c-ac91-d9d05c5b2d03": "https://ms.yugipedia.com//0/00/GearGigantX-DS14-KR-UR-1E.png",
+          "af79f2aa-684e-4367-a5d8-76c5cc23ea5e": "https://ms.yugipedia.com//b/bb/Geargiarmor-DS14-KR-UR-1E.png",
+          "b13250b3-bdbd-4b4a-aa61-c94f59474742": "https://ms.yugipedia.com//b/ba/Geargiano-DS14-KR-UR-1E.png",
+          "b377ffc1-ffad-4e4c-86a5-7065296e9dd8": "https://ms.yugipedia.com//e/eb/HeavyMechSupportPlatform-DS14-KR-UR-1E.png",
+          "b501de2d-f75f-44af-94b0-15c84f3d56e0": "https://ms.yugipedia.com//8/8d/GreenGadget-DS14-KR-UR-1E.png",
+          "b8397331-62f6-4a70-982d-8c433570ee25": "https://ms.yugipedia.com//4/45/Geargiaccelerator-DS14-KR-UR-1E.png",
+          "bab7c454-c566-4f86-a750-ae3d445f3196": "https://ms.yugipedia.com//c/c5/RollOut-DS14-KR-UR-1E.png",
+          "bb6c9c78-520f-46c3-9d82-5324b66cbf31": "https://ms.yugipedia.com//6/67/PotofAvarice-DS14-KR-UR-1E.png",
+          "c4f61ec7-5979-42f0-8420-ec22e3e61861": "https://ms.yugipedia.com//7/7f/Metalmorph-DS14-KR-UR-1E.png",
+          "e134a8be-ee61-4758-9980-333da2df708e": "https://ms.yugipedia.com//a/aa/StrongholdtheMovingFortress-DS14-KR-UR-1E.png",
+          "e85dbc90-f9a9-42df-854d-99cd2dc63e45": "https://ms.yugipedia.com//c/cc/Geargiarsenal-DS14-KR-UR-1E.png",
+          "f3baf974-8a4c-434d-89da-06018a364e65": "https://ms.yugipedia.com//4/47/GenexAllyBirdman-DS14-KR-UR-1E.png",
+          "f5b78b3b-9950-4f8d-bc13-8a6cb204d1cd": "https://ms.yugipedia.com//b/b9/CreatureSwap-DS14-KR-UR-1E.png"
+        },
+        "limited": {
+          "36efbf7c-faf9-47ca-bae1-da482fbba0de": "https://ms.yugipedia.com//5/50/GeargianoMkIII-DS14-KR-UR-LE.png",
+          "3b2ec8a2-bce3-4b8d-af26-8f40c6044e3e": "https://ms.yugipedia.com//8/86/GeargiagearGigantXG-DS14-KR-EScR-LE.png",
+          "c24a6bee-1908-4661-9f39-3be490500ba5": "https://ms.yugipedia.com//d/df/Geargiattacker-DS14-KR-UR-LE.png"
+        }
+      },
+      "cardInfo": {
+        "1st": {
+          "07632e91-dd74-4bfe-9086-f6e44eb1ad97": {
+            "image": "https://ms.yugipedia.com//3/3b/Oilman-DS14-KR-UR-1E.png"
+          },
+          "0ad6f0ea-b8bb-4f70-aa8f-801e73a629d4": {
+            "image": "https://ms.yugipedia.com//a/a1/SwiftScarecrow-DS14-KR-UR-1E.png"
+          },
+          "0ae86ecb-ac47-4cff-8273-155283778dbd": {
+            "image": "https://ms.yugipedia.com//1/16/Fissure-DS14-KR-UR-1E.png"
+          },
+          "1a17b627-ce87-481d-8817-4be5f180b5fb": {
+            "image": "https://ms.yugipedia.com//8/81/AncientGearGadjiltronDragon-DS14-KR-UR-1E.png"
+          },
+          "1b83da2b-f31d-4a19-b08b-441dd1c81844": {
+            "image": "https://ms.yugipedia.com//d/dd/Minefieldriller-DS14-KR-UR-1E.png"
+          },
+          "1d5ba116-da20-4906-a6db-87c2cc0a283a": {
+            "image": "https://ms.yugipedia.com//6/6a/DoubleSummon-DS14-KR-UR-1E.png"
+          },
+          "1f26d82f-8e2b-481a-8437-6050c2d9c846": {
+            "image": "https://ms.yugipedia.com//8/86/Geartown-DS14-KR-UR-1E.png"
+          },
+          "2e9504f6-80dd-4543-865c-6dc3d591f844": {
+            "image": "https://ms.yugipedia.com//5/5d/Terraforming-DS14-KR-UR-1E-M.png",
+            "variants": [
+              {
+                "code": "M",
+                "image": "https://ms.yugipedia.com//5/5d/Terraforming-DS14-KR-UR-1E-M.png"
+              }
+            ]
+          },
+          "351cf6e3-3986-44c2-b191-aa184f8a2f6d": {
+            "image": "https://ms.yugipedia.com//2/23/LimiterRemoval-DS14-KR-UR-1E.png"
+          },
+          "37161f11-c440-478b-be25-9de1cee8a401": {
+            "image": "https://ms.yugipedia.com//6/68/JumboDrill-DS14-KR-UR-1E.png"
+          },
+          "5b11f57e-9ec7-4624-8f79-2801c7a5429f": {
+            "image": "https://ms.yugipedia.com//6/6d/MachineAssemblyLine-DS14-KR-UR-1E.png"
+          },
+          "5d956d5d-4299-4f87-8e17-24f639e45312": {
+            "image": "https://ms.yugipedia.com//7/7f/YellowGadget-DS14-KR-UR-1E.png"
+          },
+          "65a3472d-db0a-4794-91f0-568c378fe172": {
+            "image": "https://ms.yugipedia.com//c/c9/AncientGearGadjiltronChimera-DS14-KR-UR-1E.png"
+          },
+          "6bb3b9f8-18ad-449f-836b-e592bd2dba47": {
+            "image": "https://ms.yugipedia.com//6/67/UltimateOffering-DS14-KR-UR-1E.png"
+          },
+          "702f1829-9f51-4029-adf9-d7c172797ada": {
+            "image": "https://ms.yugipedia.com//c/cb/RareMetalmorph-DS14-KR-UR-1E.png"
+          },
+          "80492c32-dd81-4dd5-83e4-73dd503c8a4c": {
+            "image": "https://ms.yugipedia.com//b/bc/GeargianoMkII-DS14-KR-UR-1E.png"
+          },
+          "83c3b811-b152-4aee-9a07-4ddf12dcb5cb": {
+            "image": "https://ms.yugipedia.com//3/36/SmashingGround-DS14-KR-UR-1E.png"
+          },
+          "8559c932-2cd9-48c8-b18c-7565b50f9eda": {
+            "image": "https://ms.yugipedia.com//a/ab/Geargiagear-DS14-KR-UR-1E.png"
+          },
+          "93e3fe11-077b-4e93-8db3-4b44336a20a8": {
+            "image": "https://ms.yugipedia.com//c/cb/CardTrooper-DS14-KR-UR-1E.png"
+          },
+          "96a2e9d7-5b79-458e-a126-af44c5bf4943": {
+            "image": "https://ms.yugipedia.com//8/85/RedGadget-DS14-KR-UR-1E.png"
+          },
+          "9819edad-4560-44bd-b754-6ac2f73cc4f9": {
+            "image": "https://ms.yugipedia.com//7/70/GiantRat-DS14-KR-UR-1E.png"
+          },
+          "a520fc2b-a0fa-462c-ac91-d9d05c5b2d03": {
+            "image": "https://ms.yugipedia.com//0/00/GearGigantX-DS14-KR-UR-1E.png"
+          },
+          "af79f2aa-684e-4367-a5d8-76c5cc23ea5e": {
+            "image": "https://ms.yugipedia.com//b/bb/Geargiarmor-DS14-KR-UR-1E.png"
+          },
+          "b13250b3-bdbd-4b4a-aa61-c94f59474742": {
+            "image": "https://ms.yugipedia.com//b/ba/Geargiano-DS14-KR-UR-1E.png"
+          },
+          "b377ffc1-ffad-4e4c-86a5-7065296e9dd8": {
+            "image": "https://ms.yugipedia.com//e/eb/HeavyMechSupportPlatform-DS14-KR-UR-1E.png"
+          },
+          "b501de2d-f75f-44af-94b0-15c84f3d56e0": {
+            "image": "https://ms.yugipedia.com//8/8d/GreenGadget-DS14-KR-UR-1E.png"
+          },
+          "b8397331-62f6-4a70-982d-8c433570ee25": {
+            "image": "https://ms.yugipedia.com//4/45/Geargiaccelerator-DS14-KR-UR-1E.png"
+          },
+          "bab7c454-c566-4f86-a750-ae3d445f3196": {
+            "image": "https://ms.yugipedia.com//c/c5/RollOut-DS14-KR-UR-1E.png"
+          },
+          "bb6c9c78-520f-46c3-9d82-5324b66cbf31": {
+            "image": "https://ms.yugipedia.com//6/67/PotofAvarice-DS14-KR-UR-1E.png"
+          },
+          "c4f61ec7-5979-42f0-8420-ec22e3e61861": {
+            "image": "https://ms.yugipedia.com//7/7f/Metalmorph-DS14-KR-UR-1E.png"
+          },
+          "e134a8be-ee61-4758-9980-333da2df708e": {
+            "image": "https://ms.yugipedia.com//a/aa/StrongholdtheMovingFortress-DS14-KR-UR-1E.png"
+          },
+          "e85dbc90-f9a9-42df-854d-99cd2dc63e45": {
+            "image": "https://ms.yugipedia.com//c/cc/Geargiarsenal-DS14-KR-UR-1E.png"
+          },
+          "f3baf974-8a4c-434d-89da-06018a364e65": {
+            "image": "https://ms.yugipedia.com//4/47/GenexAllyBirdman-DS14-KR-UR-1E.png"
+          },
+          "f5b78b3b-9950-4f8d-bc13-8a6cb204d1cd": {
+            "image": "https://ms.yugipedia.com//b/b9/CreatureSwap-DS14-KR-UR-1E.png"
+          }
+        },
+        "limited": {
+          "36efbf7c-faf9-47ca-bae1-da482fbba0de": {
+            "image": "https://ms.yugipedia.com//5/50/GeargianoMkIII-DS14-KR-UR-LE.png"
+          },
+          "3b2ec8a2-bce3-4b8d-af26-8f40c6044e3e": {
+            "image": "https://ms.yugipedia.com//8/86/GeargiagearGigantXG-DS14-KR-EScR-LE.png"
+          },
+          "c24a6bee-1908-4661-9f39-3be490500ba5": {
+            "image": "https://ms.yugipedia.com//d/df/Geargiattacker-DS14-KR-UR-LE.png"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "1st",
+        "limited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          74409000,
+          7111104001
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//5/53/DS14-DeckJP-VerB.png",
+      "cards": [
+        {
+          "id": "3b2ec8a2-bce3-4b8d-af26-8f40c6044e3e",
+          "card": "a77757f1-0d3c-47cf-989b-66489de0fae9",
+          "suffix": "S1",
+          "rarity": "extrasecret",
+          "imageID": "e10ffe76-1361-41cd-a8de-917347d10b23",
+          "printStatus": "new"
+        },
+        {
+          "id": "36efbf7c-faf9-47ca-bae1-da482fbba0de",
+          "card": "5a39a181-60ed-4a19-ab36-f5b72dc6172d",
+          "suffix": "S2",
+          "rarity": "ultra",
+          "imageID": "52ad9d2c-f6e2-4022-8249-5a866275832f",
+          "printStatus": "new"
+        },
+        {
+          "id": "c24a6bee-1908-4661-9f39-3be490500ba5",
+          "card": "97da1204-175e-4ee5-bc03-a02ff27d3166",
+          "suffix": "S3",
+          "rarity": "ultra",
+          "imageID": "3b01c71c-d6ea-4f89-be85-f0e314232803",
+          "printStatus": "new"
+        },
+        {
+          "id": "b13250b3-bdbd-4b4a-aa61-c94f59474742",
+          "card": "ac5ba0cc-a495-4c9e-9454-9ac938de992a",
+          "suffix": "01",
+          "rarity": "ultra",
+          "imageID": "d90c267b-22d8-4c8f-a64d-057ede3a003e",
+          "qty": 2,
+          "printStatus": "reprint"
+        },
+        {
+          "id": "80492c32-dd81-4dd5-83e4-73dd503c8a4c",
+          "card": "b506cdd7-7ae0-4b34-8faa-0a3dca5c5f69",
+          "suffix": "02",
+          "rarity": "ultra",
+          "imageID": "88e92798-a858-4e5b-b140-2edab8945bba",
+          "qty": 2,
+          "printStatus": "reprint"
+        },
+        {
+          "id": "b8397331-62f6-4a70-982d-8c433570ee25",
+          "card": "024a576c-b3f2-4b81-88c3-98b737bfe07b",
+          "suffix": "03",
+          "rarity": "ultra",
+          "imageID": "7b70a691-0ec0-4088-9a66-f28222a1e359",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "e85dbc90-f9a9-42df-854d-99cd2dc63e45",
+          "card": "33e3e022-5601-450b-ae92-a8de82b0dce5",
+          "suffix": "04",
+          "rarity": "ultra",
+          "imageID": "9f2f88eb-6233-4825-a776-b755a90679a6",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "af79f2aa-684e-4367-a5d8-76c5cc23ea5e",
+          "card": "69303560-8ca8-43af-a7b9-cbdbbbad9e99",
+          "suffix": "05",
+          "rarity": "ultra",
+          "imageID": "3eeb4147-7d23-4915-9492-afb82d05e394",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "b501de2d-f75f-44af-94b0-15c84f3d56e0",
+          "card": "5d2da887-b5db-4c31-9b94-0ef39ccc3ed5",
+          "suffix": "06",
+          "rarity": "ultra",
+          "imageID": "9a6b8d8d-6e0a-46ec-95fe-14e808814a15",
+          "qty": 2,
+          "printStatus": "reprint"
+        },
+        {
+          "id": "96a2e9d7-5b79-458e-a126-af44c5bf4943",
+          "card": "6cd1f3c6-32af-490c-a27a-4f2a5ecce542",
+          "suffix": "07",
+          "rarity": "ultra",
+          "imageID": "e1ef7d14-72e1-4b81-a61b-efeaa6046619",
+          "qty": 2,
+          "printStatus": "reprint"
+        },
+        {
+          "id": "5d956d5d-4299-4f87-8e17-24f639e45312",
+          "card": "3b9fc1ca-3137-4f79-b687-e2b4af712146",
+          "suffix": "08",
+          "rarity": "ultra",
+          "imageID": "3e2fe043-915d-4e5c-874e-d3876b42383c",
+          "qty": 2,
+          "printStatus": "reprint"
+        },
+        {
+          "id": "65a3472d-db0a-4794-91f0-568c378fe172",
+          "card": "60fadfc2-7486-40c2-9b66-ad647f19afe4",
+          "suffix": "09",
+          "rarity": "ultra",
+          "imageID": "7c5b7559-1b82-4c49-b502-19ad1686af57",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "1a17b627-ce87-481d-8817-4be5f180b5fb",
+          "card": "eec236cf-03a2-4ec9-831d-a09a541bf103",
+          "suffix": "10",
+          "rarity": "ultra",
+          "imageID": "60f7d442-d40c-4789-af97-399c14844248",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "37161f11-c440-478b-be25-9de1cee8a401",
+          "card": "ccb85ca6-257c-41af-9263-a28cb5175265",
+          "suffix": "11",
+          "rarity": "ultra",
+          "imageID": "0c621581-37cf-491c-a35a-7030d2360042",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "1b83da2b-f31d-4a19-b08b-441dd1c81844",
+          "card": "3465fbe8-f703-4043-a932-450023852d1a",
+          "suffix": "12",
+          "rarity": "ultra",
+          "imageID": "ac8f89f7-7a03-4309-a685-e750091a4399",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "0ad6f0ea-b8bb-4f70-aa8f-801e73a629d4",
+          "card": "829760ba-dfff-4495-b22a-11c8cd61b4cb",
+          "suffix": "13",
+          "rarity": "ultra",
+          "imageID": "f530b82c-7044-40a2-8120-f7c0e0bed11a",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "07632e91-dd74-4bfe-9086-f6e44eb1ad97",
+          "card": "4195bc0b-4b70-4c4d-b412-7c704da6cfa4",
+          "suffix": "14",
+          "rarity": "ultra",
+          "imageID": "15158e87-212f-4690-98dd-315ef05fcb16",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "b377ffc1-ffad-4e4c-86a5-7065296e9dd8",
+          "card": "a542eda2-0ff1-4b01-8c98-435044e0d2b8",
+          "suffix": "15",
+          "rarity": "ultra",
+          "imageID": "5751ae29-3d71-47c2-b28c-20981e96680b",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "9819edad-4560-44bd-b754-6ac2f73cc4f9",
+          "card": "eb25ba27-a4a0-40a3-9357-79fc32ffd990",
+          "suffix": "16",
+          "rarity": "ultra",
+          "imageID": "86342d1e-ee1c-40d6-9eff-5efa6f6778c5",
+          "qty": 2,
+          "printStatus": "reprint"
+        },
+        {
+          "id": "f7b45797-420a-4132-bbd8-0016b941dfc9",
+          "card": "48f79295-9397-4f45-b74a-b67326ee5ec4",
+          "suffix": "17",
+          "rarity": "ultra",
+          "imageID": "a464b83c-5070-4d91-9be1-44d4b33bc70c",
+          "qty": 2,
+          "printStatus": "reprint"
+        },
+        {
+          "id": "0413ad84-853d-4d36-91fe-1213e46bc502",
+          "card": "c961c3cb-ad2c-4327-87a7-3fc0f6955ede",
+          "suffix": "18",
+          "rarity": "ultra",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "5caa37b3-a928-43e9-bf8b-2517d5bfebfe",
+          "card": "9f8718ba-2488-4c3c-8c1b-43f46a6b45aa",
+          "suffix": "19",
+          "rarity": "ultra",
+          "imageID": "9f36944d-4c47-4ed3-b0f7-5069b5c7e517",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "bbadb2b4-72ae-4b23-9a7e-28de20696f60",
+          "card": "967ebe38-3c90-4f10-822d-219430d22e94",
+          "suffix": "20",
+          "rarity": "ultra",
+          "imageID": "2342b224-c69f-47f0-a661-ee054be15862",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "3f4a2311-182a-4137-9ad6-8a4dd4429797",
+          "card": "fbe477fc-d4ec-458c-9228-364776217ef2",
+          "suffix": "21",
+          "rarity": "ultra",
+          "imageID": "2ef83a0f-3eb1-409b-9569-8a9179cff76c",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "83f43393-db18-4335-bd0a-7b7eb715c866",
+          "card": "14c08f49-ed0e-4562-aa27-82ffd83a8edd",
+          "suffix": "22",
+          "rarity": "ultra",
+          "imageID": "9fb13a74-8a4c-4326-89ae-fa2acbfc1755",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "29b4b8f3-3bfd-4d1c-b56f-0fa81c60b306",
+          "card": "474f45db-ad93-45f3-89a9-86e1148a5996",
+          "suffix": "23",
+          "rarity": "ultra",
+          "imageID": "9dd950a1-3bcf-4f71-842d-0bba1b6e61e2",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "eaeaf86c-f768-4359-9e78-0f3bcaa7a2d4",
+          "card": "3d521119-db81-4605-86fe-33cfce4b3aa8",
+          "suffix": "24",
+          "rarity": "ultra",
+          "imageID": "3cbe0fea-6010-4280-8c7b-8542eb96fb8c",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "dd605afb-2db3-4aa1-a98e-4424f8b7cab7",
+          "card": "1928d348-4b76-4b0d-b967-1f5784592f50",
+          "suffix": "25",
+          "rarity": "ultra",
+          "imageID": "0505f2ac-e8e2-4d15-a12b-e4a5b1986da6",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "e2461745-202a-49ed-aabc-271402651725",
+          "card": "08e89ce8-3a6a-4c48-97da-1f5984ee0145",
+          "suffix": "26",
+          "rarity": "ultra",
+          "imageID": "a8b3ecf9-37d4-4f8a-808c-78cfe2cf38b4",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "6570b3ae-bde3-4ce2-8b3d-a6dc164125f8",
+          "card": "23f66e79-a971-44c7-8a33-69a13bc26091",
+          "suffix": "27",
+          "rarity": "ultra",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "24584b9b-7a21-4263-b0dd-ff0764bfce16",
+          "card": "64d3c7f9-064e-4d3e-839b-527bc8005d12",
+          "suffix": "28",
+          "rarity": "ultra",
+          "imageID": "128b308d-5099-4da4-8522-f8fa40d3fcf2",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "80e0430a-76d3-4d1d-b1e4-ffd759e7a052",
+          "card": "63e1b99f-ef06-4ec9-ba99-8ded9eeef658",
+          "suffix": "29",
+          "rarity": "ultra",
+          "imageID": "bbdf495c-afd1-4645-81c0-e8d65f74299a",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "41e2d607-e3cf-4db6-a6ee-97168ce9024c",
+          "card": "6ce361c0-f330-4a00-b510-58a6ca53a51d",
+          "suffix": "30",
+          "rarity": "ultra",
+          "imageID": "a0e68ce9-5878-448a-9fe3-cf2f848585ff",
+          "printStatus": "reprint"
+        }
+      ],
+      "externalIDs": {}
+    },
+    {
+      "locales": [
+        "kr"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "1st",
+        "limited"
+      ],
+      "image": "https://ms.yugipedia.com//a/af/DS14-DeckKR-VerB.png",
+      "cards": [
+        {
+          "id": "3b2ec8a2-bce3-4b8d-af26-8f40c6044e3e",
+          "card": "a77757f1-0d3c-47cf-989b-66489de0fae9",
+          "suffix": "S1",
+          "rarity": "extrasecret",
+          "imageID": "e10ffe76-1361-41cd-a8de-917347d10b23"
+        },
+        {
+          "id": "36efbf7c-faf9-47ca-bae1-da482fbba0de",
+          "card": "5a39a181-60ed-4a19-ab36-f5b72dc6172d",
+          "suffix": "S2",
+          "rarity": "ultra",
+          "imageID": "52ad9d2c-f6e2-4022-8249-5a866275832f"
+        },
+        {
+          "id": "c24a6bee-1908-4661-9f39-3be490500ba5",
+          "card": "97da1204-175e-4ee5-bc03-a02ff27d3166",
+          "suffix": "S3",
+          "rarity": "ultra",
+          "imageID": "3b01c71c-d6ea-4f89-be85-f0e314232803"
+        },
+        {
+          "id": "b13250b3-bdbd-4b4a-aa61-c94f59474742",
+          "card": "ac5ba0cc-a495-4c9e-9454-9ac938de992a",
+          "suffix": "01",
+          "rarity": "ultra",
+          "imageID": "d90c267b-22d8-4c8f-a64d-057ede3a003e",
+          "qty": 2
+        },
+        {
+          "id": "80492c32-dd81-4dd5-83e4-73dd503c8a4c",
+          "card": "b506cdd7-7ae0-4b34-8faa-0a3dca5c5f69",
+          "suffix": "02",
+          "rarity": "ultra",
+          "imageID": "88e92798-a858-4e5b-b140-2edab8945bba",
+          "qty": 2
+        },
+        {
+          "id": "b8397331-62f6-4a70-982d-8c433570ee25",
+          "card": "024a576c-b3f2-4b81-88c3-98b737bfe07b",
+          "suffix": "03",
+          "rarity": "ultra",
+          "imageID": "7b70a691-0ec0-4088-9a66-f28222a1e359"
+        },
+        {
+          "id": "e85dbc90-f9a9-42df-854d-99cd2dc63e45",
+          "card": "33e3e022-5601-450b-ae92-a8de82b0dce5",
+          "suffix": "04",
+          "rarity": "ultra",
+          "imageID": "9f2f88eb-6233-4825-a776-b755a90679a6"
+        },
+        {
+          "id": "af79f2aa-684e-4367-a5d8-76c5cc23ea5e",
+          "card": "69303560-8ca8-43af-a7b9-cbdbbbad9e99",
+          "suffix": "05",
+          "rarity": "ultra",
+          "imageID": "3eeb4147-7d23-4915-9492-afb82d05e394"
+        },
+        {
+          "id": "b501de2d-f75f-44af-94b0-15c84f3d56e0",
+          "card": "5d2da887-b5db-4c31-9b94-0ef39ccc3ed5",
+          "suffix": "06",
+          "rarity": "ultra",
+          "imageID": "9a6b8d8d-6e0a-46ec-95fe-14e808814a15",
+          "qty": 2
+        },
+        {
+          "id": "96a2e9d7-5b79-458e-a126-af44c5bf4943",
+          "card": "6cd1f3c6-32af-490c-a27a-4f2a5ecce542",
+          "suffix": "07",
+          "rarity": "ultra",
+          "imageID": "e1ef7d14-72e1-4b81-a61b-efeaa6046619",
+          "qty": 2
+        },
+        {
+          "id": "5d956d5d-4299-4f87-8e17-24f639e45312",
+          "card": "3b9fc1ca-3137-4f79-b687-e2b4af712146",
+          "suffix": "08",
+          "rarity": "ultra",
+          "imageID": "3e2fe043-915d-4e5c-874e-d3876b42383c",
+          "qty": 2
+        },
+        {
+          "id": "65a3472d-db0a-4794-91f0-568c378fe172",
+          "card": "60fadfc2-7486-40c2-9b66-ad647f19afe4",
+          "suffix": "09",
+          "rarity": "ultra",
+          "imageID": "7c5b7559-1b82-4c49-b502-19ad1686af57"
+        },
+        {
+          "id": "1a17b627-ce87-481d-8817-4be5f180b5fb",
+          "card": "eec236cf-03a2-4ec9-831d-a09a541bf103",
+          "suffix": "10",
+          "rarity": "ultra",
+          "imageID": "60f7d442-d40c-4789-af97-399c14844248"
+        },
+        {
+          "id": "37161f11-c440-478b-be25-9de1cee8a401",
+          "card": "ccb85ca6-257c-41af-9263-a28cb5175265",
+          "suffix": "11",
+          "rarity": "ultra",
+          "imageID": "0c621581-37cf-491c-a35a-7030d2360042"
+        },
+        {
+          "id": "1b83da2b-f31d-4a19-b08b-441dd1c81844",
+          "card": "3465fbe8-f703-4043-a932-450023852d1a",
+          "suffix": "12",
+          "rarity": "ultra",
+          "imageID": "ac8f89f7-7a03-4309-a685-e750091a4399"
+        },
+        {
+          "id": "0ad6f0ea-b8bb-4f70-aa8f-801e73a629d4",
+          "card": "829760ba-dfff-4495-b22a-11c8cd61b4cb",
+          "suffix": "13",
+          "rarity": "ultra",
+          "imageID": "f530b82c-7044-40a2-8120-f7c0e0bed11a"
+        },
+        {
+          "id": "07632e91-dd74-4bfe-9086-f6e44eb1ad97",
+          "card": "4195bc0b-4b70-4c4d-b412-7c704da6cfa4",
+          "suffix": "14",
+          "rarity": "ultra",
+          "imageID": "15158e87-212f-4690-98dd-315ef05fcb16"
+        },
+        {
+          "id": "b377ffc1-ffad-4e4c-86a5-7065296e9dd8",
+          "card": "a542eda2-0ff1-4b01-8c98-435044e0d2b8",
+          "suffix": "15",
+          "rarity": "ultra",
+          "imageID": "5751ae29-3d71-47c2-b28c-20981e96680b"
+        },
+        {
+          "id": "9819edad-4560-44bd-b754-6ac2f73cc4f9",
+          "card": "eb25ba27-a4a0-40a3-9357-79fc32ffd990",
+          "suffix": "16",
+          "rarity": "ultra",
+          "imageID": "86342d1e-ee1c-40d6-9eff-5efa6f6778c5",
+          "qty": 2
+        },
+        {
+          "id": "93e3fe11-077b-4e93-8db3-4b44336a20a8",
+          "card": "56c09fe7-338b-48db-9e9f-cfd835b307fa",
+          "suffix": "17",
+          "rarity": "ultra",
+          "imageID": "237165b8-e28c-4c13-9a1c-d9a58f84f61b"
+        },
+        {
+          "id": "f3baf974-8a4c-434d-89da-06018a364e65",
+          "card": "c0fa18b1-9aca-47c4-9ffa-33dd045d5388",
+          "suffix": "18",
+          "rarity": "ultra"
+        },
+        {
+          "id": "1f26d82f-8e2b-481a-8437-6050c2d9c846",
+          "card": "48f79295-9397-4f45-b74a-b67326ee5ec4",
+          "suffix": "19",
+          "rarity": "ultra",
+          "imageID": "a464b83c-5070-4d91-9be1-44d4b33bc70c",
+          "qty": 2
+        },
+        {
+          "id": "351cf6e3-3986-44c2-b191-aa184f8a2f6d",
+          "card": "c961c3cb-ad2c-4327-87a7-3fc0f6955ede",
+          "suffix": "20",
+          "rarity": "ultra"
+        },
+        {
+          "id": "5b11f57e-9ec7-4624-8f79-2801c7a5429f",
+          "card": "9f8718ba-2488-4c3c-8c1b-43f46a6b45aa",
+          "suffix": "21",
+          "rarity": "ultra",
+          "imageID": "9f36944d-4c47-4ed3-b0f7-5069b5c7e517"
+        },
+        {
+          "id": "0ae86ecb-ac47-4cff-8273-155283778dbd",
+          "card": "967ebe38-3c90-4f10-822d-219430d22e94",
+          "suffix": "22",
+          "rarity": "ultra",
+          "imageID": "2342b224-c69f-47f0-a661-ee054be15862"
+        },
+        {
+          "id": "83c3b811-b152-4aee-9a07-4ddf12dcb5cb",
+          "card": "fbe477fc-d4ec-458c-9228-364776217ef2",
+          "suffix": "23",
+          "rarity": "ultra",
+          "imageID": "2ef83a0f-3eb1-409b-9569-8a9179cff76c"
+        },
+        {
+          "id": "1d5ba116-da20-4906-a6db-87c2cc0a283a",
+          "card": "14c08f49-ed0e-4562-aa27-82ffd83a8edd",
+          "suffix": "24",
+          "rarity": "ultra",
+          "imageID": "9fb13a74-8a4c-4326-89ae-fa2acbfc1755"
+        },
+        {
+          "id": "f5b78b3b-9950-4f8d-bc13-8a6cb204d1cd",
+          "card": "474f45db-ad93-45f3-89a9-86e1148a5996",
+          "suffix": "25",
+          "rarity": "ultra",
+          "imageID": "9dd950a1-3bcf-4f71-842d-0bba1b6e61e2"
+        },
+        {
+          "id": "2e9504f6-80dd-4543-865c-6dc3d591f844",
+          "card": "3d521119-db81-4605-86fe-33cfce4b3aa8",
+          "suffix": "26",
+          "rarity": "ultra",
+          "imageID": "3cbe0fea-6010-4280-8c7b-8542eb96fb8c"
+        },
+        {
+          "id": "bb6c9c78-520f-46c3-9d82-5324b66cbf31",
+          "card": "f4e1b0bd-82d7-4c14-8fa8-c804919118fd",
+          "suffix": "27",
+          "rarity": "ultra",
+          "imageID": "cdb66ec8-968f-4d07-b8a8-9c91ad46c5fb"
+        },
+        {
+          "id": "8559c932-2cd9-48c8-b18c-7565b50f9eda",
+          "card": "1928d348-4b76-4b0d-b967-1f5784592f50",
+          "suffix": "28",
+          "rarity": "ultra",
+          "imageID": "0505f2ac-e8e2-4d15-a12b-e4a5b1986da6"
+        },
+        {
+          "id": "e134a8be-ee61-4758-9980-333da2df708e",
+          "card": "08e89ce8-3a6a-4c48-97da-1f5984ee0145",
+          "suffix": "29",
+          "rarity": "ultra",
+          "imageID": "a8b3ecf9-37d4-4f8a-808c-78cfe2cf38b4"
+        },
+        {
+          "id": "c4f61ec7-5979-42f0-8420-ec22e3e61861",
+          "card": "23f66e79-a971-44c7-8a33-69a13bc26091",
+          "suffix": "30",
+          "rarity": "ultra"
+        },
+        {
+          "id": "702f1829-9f51-4029-adf9-d7c172797ada",
+          "card": "64d3c7f9-064e-4d3e-839b-527bc8005d12",
+          "suffix": "31",
+          "rarity": "ultra",
+          "imageID": "128b308d-5099-4da4-8522-f8fa40d3fcf2"
+        },
+        {
+          "id": "bab7c454-c566-4f86-a750-ae3d445f3196",
+          "card": "63e1b99f-ef06-4ec9-ba99-8ded9eeef658",
+          "suffix": "32",
+          "rarity": "ultra",
+          "imageID": "bbdf495c-afd1-4645-81c0-e8d65f74299a"
+        },
+        {
+          "id": "6bb3b9f8-18ad-449f-836b-e592bd2dba47",
+          "card": "85c9ba59-8011-4f23-b02b-e44c1397f8cb",
+          "suffix": "33",
+          "rarity": "ultra"
+        },
+        {
+          "id": "a520fc2b-a0fa-462c-ac91-d9d05c5b2d03",
+          "card": "6ce361c0-f330-4a00-b510-58a6ca53a51d",
+          "suffix": "34",
+          "rarity": "ultra",
+          "imageID": "a0e68ce9-5878-448a-9fe3-cf2f848585ff"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Duelist Set: Version Machine-Gear Troopers",
+      "id": 286375
+    }
+  }
+}

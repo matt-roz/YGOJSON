@@ -1,0 +1,714 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "342ce060-0a4a-4003-b4d7-5f465ca85401",
+  "name": {
+    "en": "Structure Deck: Marik (OCG)",
+    "ja": "\u30b9\u30c8\u30e9\u30af\u30c1\u30e3\u30fc\u30c7\u30c3\u30ad \uff0d\u30de\u30ea\u30af\u7de8\uff0d"
+  },
+  "locales": {
+    "jp": {
+      "language": "ja",
+      "prefix": "SDM-",
+      "date": "2004-03-25",
+      "image": "https://ms.yugipedia.com//6/6c/SDM-DeckJP.png",
+      "cardImages": {
+        "unlimited": {
+          "0055199f-7719-4a44-9daa-0cd4878ca8a3": "https://ms.yugipedia.com//c/cc/GigaGagagigo-SDM-JP-C.png",
+          "124e58ad-629b-40ec-a00e-1af41e015172": "https://ms.yugipedia.com//c/ce/BottomlessShiftingSand-SDM-JP-C.png",
+          "12a31779-acb3-45d2-9407-a98cbde19d1c": "https://ms.yugipedia.com//0/07/LavaGolem-SDM-JP-UR.png",
+          "1a6afcb2-abd4-44da-87bd-16238a894a35": "https://ms.yugipedia.com//f/f5/JamBreedingMachine-SDM-JP-C.jpg",
+          "1a867dae-4404-435b-a667-0a667c55887b": "https://ms.yugipedia.com//5/51/ViserDes-SDM-JP-C.jpg",
+          "27465af3-2d51-4383-bcb8-f4e9c9dfbb47": "https://ms.yugipedia.com//a/aa/HumanoidSlime-SDM-JP-C.jpg",
+          "28e63a9d-33fa-4277-bf41-b938fafd841f": "https://ms.yugipedia.com//f/f8/DarkRoomofNightmare-SDM-JP-C.jpg",
+          "2b16d01e-b324-474b-908a-333e990ab1fd": "https://ms.yugipedia.com//9/9e/MotherGrizzly-SDM-JP-C.jpg",
+          "2c64ee09-47ae-4370-a5f8-4fe2ffd09ae7": "https://ms.yugipedia.com//a/a8/ACatofIllOmen-SDM-JP-C.jpg",
+          "2ceb505f-2af0-400c-b68d-a9b717ba1916": "https://ms.yugipedia.com//e/ee/CurseofRoyal-SDM-JP-C.png",
+          "317f8058-a300-4b0b-88e1-44f42b0a4971": "https://ms.yugipedia.com//9/9b/NightmaresSteelcage-SDM-JP-C.jpg",
+          "35c48f09-09c7-4cd1-a4aa-a0465c37ab04": "https://ms.yugipedia.com//f/f5/Granadora-SDM-JP-C.png",
+          "364cf0b7-1f1b-4944-a3e4-f47eba4fb40b": "https://ms.yugipedia.com//0/0b/RiteofSpirit-SDM-JP-C.png",
+          "45a3cc62-ff51-4385-b4cc-487076c78160": "https://ms.yugipedia.com//5/54/NightmareWheel-SDM-JP-C.jpg",
+          "546ae1fb-1131-4722-9fbc-208d841060d1": "https://ms.yugipedia.com//0/0f/GravekeepersCurse-SDM-JP-C.jpg",
+          "557ef797-7e0c-4188-9b2e-fefa4b22f07e": "https://ms.yugipedia.com//1/1d/SwarmofLocusts-SDM-JP-C.png",
+          "5617fe14-eb55-4783-9325-2ef0f0ed5343": "https://ms.yugipedia.com//2/2c/GuardianSphinx-SDM-JP-C.jpg",
+          "6a4ae4f1-9a59-481d-90b6-31adf593e83c": "https://ms.yugipedia.com//6/67/SwarmofScarabs-SDM-JP-C.png",
+          "74400803-fc75-4ea3-8d1e-da772f930f7b": "https://ms.yugipedia.com//3/33/RecklessGreed-SDM-JP-C.png",
+          "7d015e89-ffb4-4639-a568-c250fea138c4": "https://ms.yugipedia.com//6/62/NonSpellcastingArea-SDM-JP-C.png",
+          "7f662167-f187-41c4-abb7-b43baaff02aa": "https://ms.yugipedia.com//a/aa/CompulsoryEvacuationDevice-SDM-JP-C.png",
+          "85aa927e-3233-45ef-8c44-bd5f74fa5370": "https://ms.yugipedia.com//9/91/StaunchDefender-SDM-JP-C.png",
+          "8b16b7fc-5f59-4384-97cd-d4c3b14dd525": "https://ms.yugipedia.com//9/92/WormDrake-SDM-JP-C.png",
+          "8b36af98-4378-427e-bac6-8c41bb2c3de9": "https://ms.yugipedia.com//a/a5/DarkJeroid-SDM-JP-C.jpg",
+          "a5b0eb32-7764-4dd7-857b-776eda261503": "https://ms.yugipedia.com//c/c8/RevivalJam-SDM-JP-C.png",
+          "a6b2a207-9bfe-47c4-874d-f0dfde54d9ef": "https://ms.yugipedia.com//2/27/Bowganian-SDM-JP-C.jpg",
+          "ace23188-e0dd-4b06-91a9-da771f21d474": "https://ms.yugipedia.com//5/5a/Lekunga-SDM-JP-C.jpg",
+          "b1f9106f-452b-48f2-9747-da5e440fc657": "https://ms.yugipedia.com//f/f2/GravekeepersChief-SDM-JP-C.jpg",
+          "b54a221e-4f51-410f-ba74-f54e5310f16c": "https://ms.yugipedia.com//4/40/SpellofPain-SDM-JP-C.png",
+          "b6b8f6d2-c7aa-4dda-87c7-8f739dc1f5d1": "https://ms.yugipedia.com//7/79/MonsterReborn-SDM-JP-C.png",
+          "b8f73e94-bbe9-4fc5-8ce2-dd169b0f20dc": "https://ms.yugipedia.com//e/e7/MirrorForce-SDM-JP-C.jpg",
+          "bc133587-b2c1-4022-b360-8a2954e6a4d8": "https://ms.yugipedia.com//8/81/PyramidEnergy-SDM-JP-C.jpg",
+          "bf77307c-e69b-4071-be50-df164b6ff0ce": "https://ms.yugipedia.com//5/57/RopeofLife-SDM-JP-C.png",
+          "c077f311-5802-4c21-a587-82007c71a542": "https://ms.yugipedia.com//6/65/InfiniteCards-SDM-JP-C.jpg",
+          "c1a872bb-13bc-4f39-8856-6c52ba5e5194": "https://ms.yugipedia.com//7/70/ByserShock-SDM-JP-C.png",
+          "c5d4b922-db9e-42fe-9533-be6ed29bf341": "https://ms.yugipedia.com//6/68/AnOwlofLuck-SDM-JP-C.jpg",
+          "c6afd176-e901-49cc-b3f1-b7fba4900e03": "https://ms.yugipedia.com//d/d0/MysticalSpaceTyphoon-SDM-JP-C.jpg",
+          "c6d8443d-dcc3-4a37-ac21-0c846df59322": "https://ms.yugipedia.com//c/c0/LordPoison-SDM-JP-C.png",
+          "c7db61e4-4898-4737-8da4-8394ee8f26bf": "https://ms.yugipedia.com//6/68/CardofSafeReturn-SDM-JP-C.png",
+          "c851186d-feec-40ae-b781-bc8c7dac54bf": "https://ms.yugipedia.com//6/64/MakyuratheDestructor-SDM-JP-C.jpg",
+          "c93d8af1-c881-4133-b791-99ad68902f13": "https://ms.yugipedia.com//d/d4/Newdoria-SDM-JP-C.jpg",
+          "cb2a97bb-a79c-40e2-8703-4577d626aa02": "https://ms.yugipedia.com//3/37/MalevolentCatastrophe-SDM-JP-SR.png",
+          "cefd620a-d749-4421-8ce6-67cc45db90ed": "https://ms.yugipedia.com//7/79/Stumbling-SDM-JP-C.png",
+          "d2fa299b-c0f9-4a25-b586-6db45e55ff86": "https://ms.yugipedia.com//6/6e/JamDefender-SDM-JP-C.png",
+          "d359cdf4-94f5-4338-8969-cf6edee264ad": "https://ms.yugipedia.com//3/39/MagicalStoneExcavation-SDM-JP-SR.png",
+          "de13bd52-ba96-4c9b-9219-6a95e5531c86": "https://ms.yugipedia.com//3/33/AcidTrapHole-SDM-JP-C.png",
+          "e14a1176-4a3c-46ff-bf81-3bcd170f4edb": "https://ms.yugipedia.com//4/4a/CobraJar-SDM-JP-C.jpg",
+          "e2dea926-bb45-4518-a01e-e61354b09a72": "https://ms.yugipedia.com//6/6d/RushRecklessly-SDM-JP-C.jpg",
+          "e56b6d3c-23c7-462a-9b21-4893b2e5d296": "https://ms.yugipedia.com//7/75/WanderingMummy-SDM-JP-C.png",
+          "e7e42f74-37e0-4fdf-9b93-9cbd2da65d99": "https://ms.yugipedia.com//2/24/CoffinSeller-SDM-JP-C.png",
+          "e8db70db-6c7e-4f8d-8b41-df88ebbb22ae": "https://ms.yugipedia.com//4/45/WidespreadRuin-SDM-JP-C.png",
+          "eab14130-3366-4bf5-a289-ab06cb9dd931": "https://ms.yugipedia.com//3/30/CreatureSwap-SDM-JP-C.jpg",
+          "ebb3c4c4-4d02-4aa4-a854-77545b43af05": "https://ms.yugipedia.com//7/7c/GravekeepersSpearSoldier-SDM-JP-C.jpg",
+          "edbc8dfd-a97d-43d6-ba55-a3501e244a87": "https://ms.yugipedia.com//a/a5/Drillago-SDM-JP-C.jpg",
+          "fabc092a-0d32-4812-b848-8976bbe5a6f5": "https://ms.yugipedia.com//e/e3/Helpoemer-SDM-JP-C.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "0055199f-7719-4a44-9daa-0cd4878ca8a3": {
+            "image": "https://ms.yugipedia.com//c/cc/GigaGagagigo-SDM-JP-C.png"
+          },
+          "124e58ad-629b-40ec-a00e-1af41e015172": {
+            "image": "https://ms.yugipedia.com//c/ce/BottomlessShiftingSand-SDM-JP-C.png"
+          },
+          "12a31779-acb3-45d2-9407-a98cbde19d1c": {
+            "image": "https://ms.yugipedia.com//0/07/LavaGolem-SDM-JP-UR.png"
+          },
+          "1a6afcb2-abd4-44da-87bd-16238a894a35": {
+            "image": "https://ms.yugipedia.com//f/f5/JamBreedingMachine-SDM-JP-C.jpg"
+          },
+          "1a867dae-4404-435b-a667-0a667c55887b": {
+            "image": "https://ms.yugipedia.com//5/51/ViserDes-SDM-JP-C.jpg"
+          },
+          "27465af3-2d51-4383-bcb8-f4e9c9dfbb47": {
+            "image": "https://ms.yugipedia.com//a/aa/HumanoidSlime-SDM-JP-C.jpg"
+          },
+          "28e63a9d-33fa-4277-bf41-b938fafd841f": {
+            "image": "https://ms.yugipedia.com//f/f8/DarkRoomofNightmare-SDM-JP-C.jpg"
+          },
+          "2b16d01e-b324-474b-908a-333e990ab1fd": {
+            "image": "https://ms.yugipedia.com//9/9e/MotherGrizzly-SDM-JP-C.jpg"
+          },
+          "2c64ee09-47ae-4370-a5f8-4fe2ffd09ae7": {
+            "image": "https://ms.yugipedia.com//a/a8/ACatofIllOmen-SDM-JP-C.jpg"
+          },
+          "2ceb505f-2af0-400c-b68d-a9b717ba1916": {
+            "image": "https://ms.yugipedia.com//e/ee/CurseofRoyal-SDM-JP-C.png"
+          },
+          "317f8058-a300-4b0b-88e1-44f42b0a4971": {
+            "image": "https://ms.yugipedia.com//9/9b/NightmaresSteelcage-SDM-JP-C.jpg"
+          },
+          "35c48f09-09c7-4cd1-a4aa-a0465c37ab04": {
+            "image": "https://ms.yugipedia.com//f/f5/Granadora-SDM-JP-C.png"
+          },
+          "364cf0b7-1f1b-4944-a3e4-f47eba4fb40b": {
+            "image": "https://ms.yugipedia.com//0/0b/RiteofSpirit-SDM-JP-C.png"
+          },
+          "45a3cc62-ff51-4385-b4cc-487076c78160": {
+            "image": "https://ms.yugipedia.com//5/54/NightmareWheel-SDM-JP-C.jpg"
+          },
+          "546ae1fb-1131-4722-9fbc-208d841060d1": {
+            "image": "https://ms.yugipedia.com//0/0f/GravekeepersCurse-SDM-JP-C.jpg"
+          },
+          "557ef797-7e0c-4188-9b2e-fefa4b22f07e": {
+            "image": "https://ms.yugipedia.com//1/1d/SwarmofLocusts-SDM-JP-C.png"
+          },
+          "5617fe14-eb55-4783-9325-2ef0f0ed5343": {
+            "image": "https://ms.yugipedia.com//2/2c/GuardianSphinx-SDM-JP-C.jpg"
+          },
+          "6a4ae4f1-9a59-481d-90b6-31adf593e83c": {
+            "image": "https://ms.yugipedia.com//6/67/SwarmofScarabs-SDM-JP-C.png"
+          },
+          "74400803-fc75-4ea3-8d1e-da772f930f7b": {
+            "image": "https://ms.yugipedia.com//3/33/RecklessGreed-SDM-JP-C.png"
+          },
+          "7d015e89-ffb4-4639-a568-c250fea138c4": {
+            "image": "https://ms.yugipedia.com//6/62/NonSpellcastingArea-SDM-JP-C.png"
+          },
+          "7f662167-f187-41c4-abb7-b43baaff02aa": {
+            "image": "https://ms.yugipedia.com//a/aa/CompulsoryEvacuationDevice-SDM-JP-C.png"
+          },
+          "85aa927e-3233-45ef-8c44-bd5f74fa5370": {
+            "image": "https://ms.yugipedia.com//9/91/StaunchDefender-SDM-JP-C.png"
+          },
+          "8b16b7fc-5f59-4384-97cd-d4c3b14dd525": {
+            "image": "https://ms.yugipedia.com//9/92/WormDrake-SDM-JP-C.png"
+          },
+          "8b36af98-4378-427e-bac6-8c41bb2c3de9": {
+            "image": "https://ms.yugipedia.com//a/a5/DarkJeroid-SDM-JP-C.jpg"
+          },
+          "a5b0eb32-7764-4dd7-857b-776eda261503": {
+            "image": "https://ms.yugipedia.com//c/c8/RevivalJam-SDM-JP-C.png"
+          },
+          "a6b2a207-9bfe-47c4-874d-f0dfde54d9ef": {
+            "image": "https://ms.yugipedia.com//2/27/Bowganian-SDM-JP-C.jpg"
+          },
+          "ace23188-e0dd-4b06-91a9-da771f21d474": {
+            "image": "https://ms.yugipedia.com//5/5a/Lekunga-SDM-JP-C.jpg"
+          },
+          "b1f9106f-452b-48f2-9747-da5e440fc657": {
+            "image": "https://ms.yugipedia.com//f/f2/GravekeepersChief-SDM-JP-C.jpg"
+          },
+          "b54a221e-4f51-410f-ba74-f54e5310f16c": {
+            "image": "https://ms.yugipedia.com//4/40/SpellofPain-SDM-JP-C.png"
+          },
+          "b6b8f6d2-c7aa-4dda-87c7-8f739dc1f5d1": {
+            "image": "https://ms.yugipedia.com//7/79/MonsterReborn-SDM-JP-C.png"
+          },
+          "b8f73e94-bbe9-4fc5-8ce2-dd169b0f20dc": {
+            "image": "https://ms.yugipedia.com//e/e7/MirrorForce-SDM-JP-C.jpg"
+          },
+          "bc133587-b2c1-4022-b360-8a2954e6a4d8": {
+            "image": "https://ms.yugipedia.com//8/81/PyramidEnergy-SDM-JP-C.jpg"
+          },
+          "bf77307c-e69b-4071-be50-df164b6ff0ce": {
+            "image": "https://ms.yugipedia.com//5/57/RopeofLife-SDM-JP-C.png"
+          },
+          "c077f311-5802-4c21-a587-82007c71a542": {
+            "image": "https://ms.yugipedia.com//6/65/InfiniteCards-SDM-JP-C.jpg"
+          },
+          "c1a872bb-13bc-4f39-8856-6c52ba5e5194": {
+            "image": "https://ms.yugipedia.com//7/70/ByserShock-SDM-JP-C.png"
+          },
+          "c5d4b922-db9e-42fe-9533-be6ed29bf341": {
+            "image": "https://ms.yugipedia.com//6/68/AnOwlofLuck-SDM-JP-C.jpg"
+          },
+          "c6afd176-e901-49cc-b3f1-b7fba4900e03": {
+            "image": "https://ms.yugipedia.com//d/d0/MysticalSpaceTyphoon-SDM-JP-C.jpg"
+          },
+          "c6d8443d-dcc3-4a37-ac21-0c846df59322": {
+            "image": "https://ms.yugipedia.com//c/c0/LordPoison-SDM-JP-C.png"
+          },
+          "c7db61e4-4898-4737-8da4-8394ee8f26bf": {
+            "image": "https://ms.yugipedia.com//6/68/CardofSafeReturn-SDM-JP-C.png"
+          },
+          "c851186d-feec-40ae-b781-bc8c7dac54bf": {
+            "image": "https://ms.yugipedia.com//6/64/MakyuratheDestructor-SDM-JP-C.jpg"
+          },
+          "c93d8af1-c881-4133-b791-99ad68902f13": {
+            "image": "https://ms.yugipedia.com//d/d4/Newdoria-SDM-JP-C.jpg"
+          },
+          "cb2a97bb-a79c-40e2-8703-4577d626aa02": {
+            "image": "https://ms.yugipedia.com//3/37/MalevolentCatastrophe-SDM-JP-SR.png"
+          },
+          "cefd620a-d749-4421-8ce6-67cc45db90ed": {
+            "image": "https://ms.yugipedia.com//7/79/Stumbling-SDM-JP-C.png"
+          },
+          "d2fa299b-c0f9-4a25-b586-6db45e55ff86": {
+            "image": "https://ms.yugipedia.com//6/6e/JamDefender-SDM-JP-C.png"
+          },
+          "d359cdf4-94f5-4338-8969-cf6edee264ad": {
+            "image": "https://ms.yugipedia.com//3/39/MagicalStoneExcavation-SDM-JP-SR.png"
+          },
+          "de13bd52-ba96-4c9b-9219-6a95e5531c86": {
+            "image": "https://ms.yugipedia.com//3/33/AcidTrapHole-SDM-JP-C.png"
+          },
+          "e14a1176-4a3c-46ff-bf81-3bcd170f4edb": {
+            "image": "https://ms.yugipedia.com//4/4a/CobraJar-SDM-JP-C.jpg"
+          },
+          "e2dea926-bb45-4518-a01e-e61354b09a72": {
+            "image": "https://ms.yugipedia.com//6/6d/RushRecklessly-SDM-JP-C.jpg"
+          },
+          "e56b6d3c-23c7-462a-9b21-4893b2e5d296": {
+            "image": "https://ms.yugipedia.com//7/75/WanderingMummy-SDM-JP-C.png"
+          },
+          "e7e42f74-37e0-4fdf-9b93-9cbd2da65d99": {
+            "image": "https://ms.yugipedia.com//2/24/CoffinSeller-SDM-JP-C.png"
+          },
+          "e8db70db-6c7e-4f8d-8b41-df88ebbb22ae": {
+            "image": "https://ms.yugipedia.com//4/45/WidespreadRuin-SDM-JP-C.png"
+          },
+          "eab14130-3366-4bf5-a289-ab06cb9dd931": {
+            "image": "https://ms.yugipedia.com//3/30/CreatureSwap-SDM-JP-C.jpg"
+          },
+          "ebb3c4c4-4d02-4aa4-a854-77545b43af05": {
+            "image": "https://ms.yugipedia.com//7/7c/GravekeepersSpearSoldier-SDM-JP-C.jpg"
+          },
+          "edbc8dfd-a97d-43d6-ba55-a3501e244a87": {
+            "image": "https://ms.yugipedia.com//a/a5/Drillago-SDM-JP-C.jpg"
+          },
+          "fabc092a-0d32-4812-b848-8976bbe5a6f5": {
+            "image": "https://ms.yugipedia.com//e/e3/Helpoemer-SDM-JP-C.png"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          2201007
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//6/6c/SDM-DeckJP.png",
+      "cards": [
+        {
+          "id": "27465af3-2d51-4383-bcb8-f4e9c9dfbb47",
+          "card": "0a06ab6b-0d37-4ff6-9a4a-7cf3fba77ed3",
+          "suffix": "001",
+          "rarity": "common",
+          "imageID": "bc7b2bf3-bc86-4a09-b9a6-7cba6ba9df37",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "c851186d-feec-40ae-b781-bc8c7dac54bf",
+          "card": "7fc8d6af-ecd7-4451-917f-dee9ef3388a0",
+          "suffix": "002",
+          "rarity": "common",
+          "imageID": "29f0d97a-6f1e-430c-b62d-15da28f59e38",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "a5b0eb32-7764-4dd7-857b-776eda261503",
+          "card": "5713dda7-ad9a-452f-bad5-1648c5bf91f9",
+          "suffix": "003",
+          "rarity": "common",
+          "imageID": "9f572117-12af-40ae-be64-2cf33f9a1d53",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "5617fe14-eb55-4783-9325-2ef0f0ed5343",
+          "card": "7c66e024-8984-4ba0-915e-0d241ab4a66f",
+          "suffix": "004",
+          "rarity": "common",
+          "imageID": "da5808b6-a1c0-4f6d-907e-effe885ed4e7",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "8b36af98-4378-427e-bac6-8c41bb2c3de9",
+          "card": "19f15d7e-8dc8-4a37-b72f-19095b153f98",
+          "suffix": "005",
+          "rarity": "common",
+          "imageID": "ce8046ed-0290-4474-aad9-327b15d7072b",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "c93d8af1-c881-4133-b791-99ad68902f13",
+          "card": "35cbca9a-8de1-4d7a-8567-39c355707b85",
+          "suffix": "006",
+          "rarity": "common",
+          "imageID": "083cc7cc-1ae6-4487-87c3-0f0cafea7a2c",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "fabc092a-0d32-4812-b848-8976bbe5a6f5",
+          "card": "e207ba03-44db-4e71-8a13-600135fa6194",
+          "suffix": "007",
+          "rarity": "common",
+          "imageID": "ee5db977-288b-49cd-bafe-e1aa203d7643",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "546ae1fb-1131-4722-9fbc-208d841060d1",
+          "card": "cd3d791b-03c7-4217-bc38-f96d444c4ec0",
+          "suffix": "008",
+          "rarity": "common",
+          "imageID": "43d36e52-0ddf-479d-ac6f-712fa064502e",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "ebb3c4c4-4d02-4aa4-a854-77545b43af05",
+          "card": "fda04a4f-f256-4bc7-a91b-8e7323fbfd40",
+          "suffix": "009",
+          "rarity": "common",
+          "imageID": "ba8e11df-90f4-4e9a-9a13-df67c833d74c",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "b1f9106f-452b-48f2-9747-da5e440fc657",
+          "card": "3d724ff6-4644-4063-ae1b-9e66ee0824e6",
+          "suffix": "010",
+          "rarity": "common",
+          "imageID": "e551f7dc-5b6a-4470-ae62-1a64258cc31e",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "2c64ee09-47ae-4370-a5f8-4fe2ffd09ae7",
+          "card": "2904168f-c552-4436-9b30-1144c033f188",
+          "suffix": "011",
+          "rarity": "common",
+          "imageID": "f746c28b-aff3-4578-9bac-b69eb57f0338",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "c5d4b922-db9e-42fe-9533-be6ed29bf341",
+          "card": "24aa43e4-8426-4cb5-8e13-e62423daad02",
+          "suffix": "012",
+          "rarity": "common",
+          "imageID": "333f6023-4a34-47a0-a601-52d42b0d08ce",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "e14a1176-4a3c-46ff-bf81-3bcd170f4edb",
+          "card": "a2771f74-113f-4386-ac46-fa9b6a1ccbdb",
+          "suffix": "013",
+          "rarity": "common",
+          "imageID": "3e198eae-b88d-4b5b-984d-00ea728701fb",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "12a31779-acb3-45d2-9407-a98cbde19d1c",
+          "card": "3d6ae59d-081e-4463-8bc1-f9ec2b16b618",
+          "suffix": "014",
+          "rarity": "ultra",
+          "imageID": "4a9991d3-be93-4ca4-87c1-837a15eea805",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "c1a872bb-13bc-4f39-8856-6c52ba5e5194",
+          "card": "5ad959d8-53e3-47db-a4c8-c381e2340f29",
+          "suffix": "015",
+          "rarity": "common",
+          "imageID": "58db15c9-29f0-4b15-a80b-b6263286376f",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "edbc8dfd-a97d-43d6-ba55-a3501e244a87",
+          "card": "88da3322-60ca-456d-bb50-cd233688be9e",
+          "suffix": "016",
+          "rarity": "common",
+          "imageID": "698048a7-e8a0-4dcd-97c4-558fe5c43343",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "ace23188-e0dd-4b06-91a9-da771f21d474",
+          "card": "780c033f-c512-4e30-9385-4f993ebe52e2",
+          "suffix": "017",
+          "rarity": "common",
+          "imageID": "ee134cce-fc76-4edc-9747-0308214a63b7",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "a6b2a207-9bfe-47c4-874d-f0dfde54d9ef",
+          "card": "e27f494d-a2c8-4b1f-b430-0a6d2f272d0f",
+          "suffix": "018",
+          "rarity": "common",
+          "imageID": "8443113a-bece-428b-b2b1-9f6fbd0f4984",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "35c48f09-09c7-4cd1-a4aa-a0465c37ab04",
+          "card": "c7f2e470-7c18-4b1a-95fd-49f4d097cc0b",
+          "suffix": "019",
+          "rarity": "common",
+          "imageID": "7c8431b4-7b44-4001-b027-0024cf0bcace",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "1a867dae-4404-435b-a667-0a667c55887b",
+          "card": "88729c3f-ec93-429b-b96f-86b19fbabc17",
+          "suffix": "020",
+          "rarity": "common",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "d359cdf4-94f5-4338-8969-cf6edee264ad",
+          "card": "93dad907-3cc6-4f94-ac12-ad5be0c76bac",
+          "suffix": "021",
+          "rarity": "super",
+          "imageID": "8894c413-03f5-4460-a44d-ea9ce16de0c5",
+          "printStatus": "new"
+        },
+        {
+          "id": "c6afd176-e901-49cc-b3f1-b7fba4900e03",
+          "card": "d15ea879-903e-481a-9ad1-774823a8518b",
+          "suffix": "022",
+          "rarity": "common",
+          "imageID": "f7eb3c46-62df-45ec-9be3-877f11a4a522",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "b6b8f6d2-c7aa-4dda-87c7-8f739dc1f5d1",
+          "card": "08a59d85-df4c-4a8d-a9f6-b07dc21f58b0",
+          "suffix": "023",
+          "rarity": "common",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "1a6afcb2-abd4-44da-87bd-16238a894a35",
+          "card": "85314e60-3218-42a0-b887-cf5a66f00c25",
+          "suffix": "024",
+          "rarity": "common",
+          "imageID": "872a9cc9-1f1b-4d56-89a1-8d855a707abd",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "c7db61e4-4898-4737-8da4-8394ee8f26bf",
+          "card": "785fae5b-face-4067-90a7-9e0872a6de53",
+          "suffix": "025",
+          "rarity": "common",
+          "imageID": "4c7fb086-f452-4130-97f1-cf1207cc5dbb",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "eab14130-3366-4bf5-a289-ab06cb9dd931",
+          "card": "474f45db-ad93-45f3-89a9-86e1148a5996",
+          "suffix": "026",
+          "rarity": "common",
+          "imageID": "9dd950a1-3bcf-4f71-842d-0bba1b6e61e2",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "28e63a9d-33fa-4277-bf41-b938fafd841f",
+          "card": "18026b34-4f42-47f7-a76b-2e0932693895",
+          "suffix": "027",
+          "rarity": "common",
+          "imageID": "c2a9a10a-73ab-4efc-a1cb-85715d81d4e4",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "cefd620a-d749-4421-8ce6-67cc45db90ed",
+          "card": "92b7b8f9-18a4-4536-91cc-6fcc260d1585",
+          "suffix": "028",
+          "rarity": "common",
+          "imageID": "220a0dc2-1b01-4c95-bc25-004534baa83d",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "317f8058-a300-4b0b-88e1-44f42b0a4971",
+          "card": "623c52f6-f23a-4b79-994f-15131772c765",
+          "suffix": "029",
+          "rarity": "common",
+          "imageID": "2c7f814d-3dd3-4b40-9979-6cc974ff6bd8",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "b54a221e-4f51-410f-ba74-f54e5310f16c",
+          "card": "5751293b-db5d-4fcd-9de4-be4ace05d315",
+          "suffix": "030",
+          "rarity": "common",
+          "imageID": "5872ecab-1d1d-447b-b4ab-07836456bd3c",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "cb2a97bb-a79c-40e2-8703-4577d626aa02",
+          "card": "e9dea58e-7d6d-4992-aaef-04a827a3dde6",
+          "suffix": "031",
+          "rarity": "super",
+          "imageID": "274263a5-a2a0-4d96-b4a6-154f22fdf3f7",
+          "printStatus": "new"
+        },
+        {
+          "id": "d2fa299b-c0f9-4a25-b586-6db45e55ff86",
+          "card": "b2405ccc-3735-4fe4-b38a-cd727e04dae8",
+          "suffix": "032",
+          "rarity": "common",
+          "imageID": "100f0fb4-7af6-4e4b-8b42-47fa357a707f",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "b8f73e94-bbe9-4fc5-8ce2-dd169b0f20dc",
+          "card": "0bfcc499-7a45-452e-ad36-d2e2026ad580",
+          "suffix": "033",
+          "rarity": "common",
+          "imageID": "296b1a74-41ac-46bf-87af-b0b1820162ec",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "74400803-fc75-4ea3-8d1e-da772f930f7b",
+          "card": "c3417ebf-2760-4bb1-aa14-c8307aac9e22",
+          "suffix": "034",
+          "rarity": "common",
+          "imageID": "0affc698-5137-4620-a868-eee74018daec",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "e7e42f74-37e0-4fdf-9b93-9cbd2da65d99",
+          "card": "331f312d-fed2-471e-a7a3-53aecf5eaa8c",
+          "suffix": "035",
+          "rarity": "common",
+          "imageID": "96eaf673-f8d7-43f4-a6f1-e918a040a38c",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "364cf0b7-1f1b-4944-a3e4-f47eba4fb40b",
+          "card": "3bb9b556-4d6c-4695-a0d8-a372f9f0dc2e",
+          "suffix": "036",
+          "rarity": "common",
+          "imageID": "befedd5e-1947-4f93-aff1-4bc5b11c0c4e",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "bf77307c-e69b-4071-be50-df164b6ff0ce",
+          "card": "28e99b9d-9ecc-4576-83fd-82cb36a71ac7",
+          "suffix": "037",
+          "rarity": "common",
+          "imageID": "e9f5455c-a2ce-419d-9aca-481d2abff9dd",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "45a3cc62-ff51-4385-b4cc-487076c78160",
+          "card": "3f1d51cb-93a6-415b-ab67-1aee59e8fc31",
+          "suffix": "038",
+          "rarity": "common",
+          "imageID": "c8353c7b-8983-4f27-aa02-34964cd570d1",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "de13bd52-ba96-4c9b-9219-6a95e5531c86",
+          "card": "641d1a75-a4c2-4a39-82a9-07091a21aa4c",
+          "suffix": "039",
+          "rarity": "common",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "e8db70db-6c7e-4f8d-8b41-df88ebbb22ae",
+          "card": "dfd681da-9466-4f39-9feb-c043faa433c4",
+          "suffix": "040",
+          "rarity": "common",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "8b16b7fc-5f59-4384-97cd-d4c3b14dd525",
+          "card": "50e77eee-9340-4267-931c-c15f8145eedf",
+          "suffix": "041",
+          "rarity": "common",
+          "imageID": "5344e710-629a-4ecb-ba42-b9697f35c575",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "0055199f-7719-4a44-9daa-0cd4878ca8a3",
+          "card": "2e174bbb-0e54-49d2-b8c3-1357b9b4cf62",
+          "suffix": "042",
+          "rarity": "common",
+          "imageID": "a8c1c30b-22cf-4b79-bef8-fbbd70f2343f",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "2b16d01e-b324-474b-908a-333e990ab1fd",
+          "card": "b3e95450-c358-42e4-8acd-5bf2de0736ad",
+          "suffix": "043",
+          "rarity": "common",
+          "imageID": "0b2a97f8-0522-42aa-9d9a-a614c512da69",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "e56b6d3c-23c7-462a-9b21-4893b2e5d296",
+          "card": "dac71734-0652-4f5d-98cb-1d6e6c45ad73",
+          "suffix": "044",
+          "rarity": "common",
+          "imageID": "cf76ed2c-9d67-4b48-a24f-6506f382c8ab",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "6a4ae4f1-9a59-481d-90b6-31adf593e83c",
+          "card": "09c3138d-7137-48eb-a374-682d4bb0d25a",
+          "suffix": "045",
+          "rarity": "common",
+          "imageID": "0bd6a11b-affa-48ca-9221-32ab1046ce60",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "557ef797-7e0c-4188-9b2e-fefa4b22f07e",
+          "card": "e17a9fe1-0c3a-477f-90e0-d913325d4469",
+          "suffix": "046",
+          "rarity": "common",
+          "imageID": "c2b0a2b2-2add-439b-8738-a660f7ba9331",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "c6d8443d-dcc3-4a37-ac21-0c846df59322",
+          "card": "9668fb8e-4ffd-4613-97e0-269bd350dc87",
+          "suffix": "047",
+          "rarity": "common",
+          "imageID": "d9201896-2ff4-438b-a532-ca19ecd1e501",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "e2dea926-bb45-4518-a01e-e61354b09a72",
+          "card": "0e0a131d-bc45-4bd7-a018-512733ebc1b6",
+          "suffix": "048",
+          "rarity": "common",
+          "imageID": "1202fec8-edc0-46b8-808d-73cc037dd938",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "c077f311-5802-4c21-a587-82007c71a542",
+          "card": "bd7d273b-b1fe-48d3-9dae-4b6edb7200a0",
+          "suffix": "049",
+          "rarity": "common",
+          "imageID": "f81f0ae7-417c-4087-9a9d-2ceab81047ff",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "bc133587-b2c1-4022-b360-8a2954e6a4d8",
+          "card": "acd0b35a-e09c-4b56-9475-3825d0bae7c5",
+          "suffix": "050",
+          "rarity": "common",
+          "imageID": "54259741-a9e0-4469-98bd-c6b8cb5ebade",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "7d015e89-ffb4-4639-a568-c250fea138c4",
+          "card": "07b8bfb0-c4ea-4e05-bd57-9e5b12ed4435",
+          "suffix": "051",
+          "rarity": "common",
+          "imageID": "ad81d53d-2e57-4bf8-aacf-cf74e33e8d79",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "124e58ad-629b-40ec-a00e-1af41e015172",
+          "card": "ae34912f-f0ea-4859-b241-f9c05a065d80",
+          "suffix": "052",
+          "rarity": "common",
+          "imageID": "a4658168-668e-49c9-a76b-94561f966182",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "2ceb505f-2af0-400c-b68d-a9b717ba1916",
+          "card": "e9a94ad2-facf-4db7-b430-46e89888f219",
+          "suffix": "053",
+          "rarity": "common",
+          "imageID": "ceeff141-7704-4ef6-ad5e-ce15a7066049",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "85aa927e-3233-45ef-8c44-bd5f74fa5370",
+          "card": "0658a0f4-7710-4a68-ad71-eb272ebc8cbe",
+          "suffix": "054",
+          "rarity": "common",
+          "imageID": "479407f0-f6c6-49f6-a789-f256850b6c4d",
+          "printStatus": "reprint"
+        },
+        {
+          "id": "7f662167-f187-41c4-abb7-b43baaff02aa",
+          "card": "a24c6422-09bb-4aac-9aa2-ba56baa5fa77",
+          "suffix": "055",
+          "rarity": "common",
+          "imageID": "f8137149-1b3e-4778-bd33-87b09d0488d5",
+          "printStatus": "reprint"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Structure Deck: Marik (OCG)",
+      "id": 16196
+    }
+  }
+}

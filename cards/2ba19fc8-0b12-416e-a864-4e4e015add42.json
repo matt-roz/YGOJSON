@@ -1,0 +1,70 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "2ba19fc8-0b12-416e-a864-4e4e015add42",
+  "text": {
+    "en": {
+      "name": "Aromagmabear",
+      "effect": "Gain LP equal to [the number of cards sent to the Graveyard to meet the requirement] x 300."
+    },
+    "fr": {
+      "name": "Ar\u00f4magmours",
+      "effect": "Gagnez des LP \u00e9gaux au [nombre de cartes envoy\u00e9es au Cimeti\u00e8re pour remplir la condition] x 300."
+    },
+    "de": {
+      "name": "Aromagmab\u00e4r",
+      "effect": "Erhalte LP in H\u00f6he [der Anzahl an Karten, die du auf dem Friedhof abgelegt hast, um die Bedingung zu erf\u00fcllen] x 300."
+    },
+    "it": {
+      "name": "Aromagmaorso",
+      "effect": "Guadagna LP pari [al numero di carte mandate al Cimitero per soddisfare il requisito] x 300."
+    },
+    "es": {
+      "name": "Aromagmaoso",
+      "effect": "Gana LP igual [al n\u00famero de cartas enviadas al Cementerio para cumplir con el requisito] x 300."
+    },
+    "ja": {
+      "name": "\u30a2\u30ed\u30de\u30b0\u30de",
+      "effect": "\u81ea\u5206\u306f\uff3b\u3053\u306e\u52b9\u679c\u306e\u6761\u4ef6\u3067\u5893\u5730\u3078\u9001\u3063\u305f\u30ab\u30fc\u30c9\u306e\u6570\uff3d\u00d7\uff13\uff10\uff10\uff2c\uff30\u56de\u5fa9\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc544\ub85c\ub9c8\uadf8\ub9c8",
+      "effect": "\uc790\uc2e0\uc740 [\uc774 \ud6a8\uacfc\uc758 \uc870\uac74\uc73c\ub85c \ubb18\uc9c0\ub85c \ubcf4\ub0b8 \uce74\ub4dc\uc758 \uc218] \u00d7 300 LP \ud68c\ubcf5\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "pyro",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 600,
+  "def": 1200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "e6050507-b3b1-4675-a8aa-a6431e8741ae",
+      "card": "https://ms.yugipedia.com//3/3f/Aromagmabear-RDSST1-JP-C.png"
+    }
+  ],
+  "sets": [
+    "cf303586-057a-4e6c-ae2a-65879480865d",
+    "f9c6f064-6fdf-412a-a9ff-62631979aa08"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "n"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Aromagmabear",
+        "id": 713184
+      }
+    ],
+    "dbID": 16156
+  },
+  "series": [
+    "3f71f9ea-ca2c-4aa6-a18f-89871dce96ab"
+  ]
+}

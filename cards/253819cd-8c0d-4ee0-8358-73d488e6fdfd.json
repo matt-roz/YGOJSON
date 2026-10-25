@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "253819cd-8c0d-4ee0-8358-73d488e6fdfd",
+  "text": {
+    "en": {
+      "name": "Cosmostar the Hypernova Polairy",
+      "effect": "Until the end of your opponent's next turn, this card gains 400 ATK, and cannot be destroyed by card effects. Then, you can add 1 \"Mercissus the Planetairy\" from your Graveyard to your hand. This turn, you cannot activate the effect of \"Cosmostar the Hypernova Polairy\".",
+      "official": false
+    },
+    "ja": {
+      "name": "\u6f84\u6975\u7cbe\u306e\u30b3\u30b9\u30e2\u30b9\u30bf\u30fc"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "classifications": [
+    "effect"
+  ],
+  "level": 10,
+  "atk": 2000,
+  "def": 1900,
+  "passwords": [],
+  "images": [
+    {
+      "id": "fd28623d-ddbd-414b-a4ac-f72e8ac62810",
+      "card": "https://ms.yugipedia.com//8/88/CosmostartheHypernovaPolairy-RDLP02-JP-OP.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Cosmostar the Hypernova Polairy",
+        "id": 1233958
+      }
+    ]
+  },
+  "series": [
+    "402a6515-eafb-46c8-8a48-c408fc3deaaa"
+  ]
+}

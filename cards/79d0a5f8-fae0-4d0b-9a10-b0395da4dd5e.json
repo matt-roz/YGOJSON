@@ -1,0 +1,61 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "79d0a5f8-fae0-4d0b-9a10-b0395da4dd5e",
+  "text": {
+    "en": {
+      "name": "Ars Magna Elfnote",
+      "effect": "2 monsters, including an \"Ars Magna\" or \"Elfnote\" monster\nYour linked monsters gain 300 ATK for each different Monster Type on the field. You can only use each of the following effects of \"Ars Magna Elfnote\" once per turn. During your Main Phase: You can send to the GY, or banish, 1 card you control, then you can return 1 monster on the field to the hand. You can banish this card from your GY; Special Summon 1 \"Elfnote\" monster from your hand.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u7121\u57a2\u306a\u308b\u5354\u594f \u30a8\u30eb\u30d5\u30a7\u30f3\u30ce\u30fc\u30c4"
+    },
+    "zh-CN": {
+      "name": "\u65e0\u57a2\u5965\u827a\u4e4b\u534f\u594f \u8000\u5723",
+      "effect": "\u5305\u542b\u201c\u5965\u827a\u201d\u3001\u201c\u8000\u5723\u201d\u602a\u517d\u4e2d\u7684\u4efb\u4e00\u5728\u5185\u7684\u602a\u517d2\u53ea\n\u6b64\u5361\u540d\u7684\u2461\u2462\u6548\u679c1\u56de\u5408\u4ec5\u53ef\u5404\u4f7f\u75281\u6b21\u3002\u2460\uff1a\u81ea\u5df1\u573a\u4e0a\u8fde\u63a5\u72b6\u6001\u7684\u602a\u517d\u7684\u653b\u51fb\u529b\u4e0a\u5347\u573a\u4e0a\u602a\u517d\u7684\u79cd\u65cf\u7684\u79cd\u7c7b\u00d7300\u7684\u6570\u503c\u3002\u2461\uff1a\u5728\u81ea\u5df1\u7684\u4e3b\u8981\u9636\u6bb5\u53ef\u4ee5\u53d1\u52a8\u3002\u6311\u9009\u81ea\u5df1\u573a\u4e0a\u76841\u5f20\u5361\u9001\u81f3\u5893\u5730\u6216\u9664\u5916\u3002\u7136\u540e\uff0c\u53ef\u5c06\u573a\u4e0a\u76841\u53ea\u602a\u517d\u653e\u56de\u624b\u724c\u3002\u2462\uff1a\u5c06\u5893\u5730\u7684\u6b64\u5361\u9664\u5916\u53ef\u4ee5\u53d1\u52a8\u3002\u4ece\u624b\u724c\u5c061\u53ea\u201c\u8000\u5723\u201d\u602a\u517d\u7279\u6b8a\u53ec\u5524\u3002"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "monsterCardTypes": [
+    "link"
+  ],
+  "type": "spellcaster",
+  "classifications": [
+    "effect"
+  ],
+  "atk": 1500,
+  "linkArrows": [
+    "bottomright",
+    "middleright"
+  ],
+  "passwords": [],
+  "images": [
+    {
+      "id": "87d7f223-ac3a-49d9-955b-8846096e9451",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/101403047.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/101403047.jpg"
+    }
+  ],
+  "sets": [
+    "ccc8125c-0182-45df-91a7-57e5e2423dfc",
+    "ccc8125c-0182-45df-91a7-57e5e2423dfc"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Ars Magna Elfnote",
+        "id": 1232808
+      }
+    ],
+    "ygoprodeck": {
+      "id": 101403047,
+      "name": "ars-magna-elfnote-16005"
+    }
+  },
+  "series": [
+    "62edd83c-8e0b-4d33-b109-d18736374374",
+    "bbc7797c-0eed-4209-b9bd-441d56cddc48"
+  ]
+}

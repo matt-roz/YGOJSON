@@ -1,0 +1,36 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "9b80d06e-a4cf-4788-a8ac-85d2ec258c45",
+  "text": {
+    "en": {
+      "name": "Number 96: Dark Manipulator",
+      "effect": "3 Level 2 DARK monsters\r\nYou can detach 1 material from this card; this card gains ATK equal to the total original ATK of all monsters your opponent currently controls. When your opponent activates a card or effect (Quick Effect): You can send this card with material to the GY; Special Summon \"Umbral Horror\" and/or \"Malicevorous\" monsters from your GY up to the number of materials this card had. You can only use each effect of \"Number 96: Dark Manipulator\" once per turn."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "monsterCardTypes": [
+    "xyz"
+  ],
+  "type": "fiend",
+  "rank": 2,
+  "atk": 100,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "0ca8c140-3b2e-461a-badd-6c808e556b03",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/101403043.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/101403043.jpg"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "ygoprodeck": {
+      "id": 101403043,
+      "name": "number-96-dark-manipulator-16039"
+    }
+  },
+  "series": []
+}

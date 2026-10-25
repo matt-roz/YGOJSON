@@ -1,0 +1,54 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "082b5f03-b5bd-4586-832f-58b326bf464d",
+  "text": {
+    "en": {
+      "name": "Ethyl the Fire Genie of the Lamp",
+      "effect": "Special Summon 1 \"Methyl the Fire Genie of the Lamp\" from your Graveyard to your field in face-up Defense Position."
+    },
+    "ja": {
+      "name": "\u30e9\u30f3\u30d7\u306e\u708e\u9b54\u30a8\u30c1\u30eb",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u30e9\u30f3\u30d7\u306e\u708e\u9b54\u30e1\u30c1\u30eb\u300d\uff11\u4f53\u3092\u9078\u3073\u3001\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u5b88\u5099\u8868\u793a\u3067\u7279\u6b8a\u53ec\u559a\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub7a8\ud504\uc758 \uc5fc\ub9c8 \uc5d0\ud2f8",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \"\ub7a8\ud504\uc758 \uc5fc\ub9c8 \uba54\ud2f8\" 1\uc7a5\uc744 \uace0\ub974\uace0, \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \uc218\ube44 \ud45c\uc2dc\ub85c \ud2b9\uc218 \uc18c\ud658\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "type": "pyro",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 500,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "95c94eaf-068b-4b57-97ba-620af056d879",
+      "card": "https://ms.yugipedia.com//3/3a/EthyltheFireGenieoftheLamp-RDSD04-JP-C.png"
+    }
+  ],
+  "sets": [
+    "c05d7ca5-5bea-4c0f-884c-dd1ec7f1be77",
+    "c05d7ca5-5bea-4c0f-884c-dd1ec7f1be77"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Ethyl the Fire Genie of the Lamp",
+        "id": 714819
+      }
+    ],
+    "dbID": 17962
+  },
+  "series": [
+    "0d251edd-435a-4124-a397-93aa376c601d"
+  ]
+}

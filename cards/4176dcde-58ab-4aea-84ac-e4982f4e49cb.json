@@ -1,0 +1,47 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "4176dcde-58ab-4aea-84ac-e4982f4e49cb",
+  "text": {
+    "en": {
+      "name": "Malevolent Seller",
+      "effect": "Destroy 1 face-up Level 8 or lower monster on your opponent's field. Then, you can add 1 Legend Card from your Graveyard to your hand.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30de\u30ec\u30f4\u30a9\u30ec\u30f3\u30c8\u30fb\u30bb\u30e9\u30fc",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff18\u4ee5\u4e0b\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u7834\u58ca\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u30ec\u30b8\u30a7\u30f3\u30c9\u30ab\u30fc\u30c9\uff11\u679a\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub9d0\ub808\ubcf4\ub80c\ud2b8 \uc140\ub7ec",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\ub808\ubca8 8 \uc774\ud558) 1\uc7a5\uc744 \uace0\ub974\uace0 \ud30c\uad34\ud55c\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0 \ubb18\uc9c0\uc758 \ub808\uc804\ub4dc \uce74\ub4dc 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\uc744 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "spellcaster",
+  "classifications": [
+    "effect"
+  ],
+  "level": 2,
+  "atk": 700,
+  "def": 300,
+  "passwords": [],
+  "images": [
+    {
+      "id": "3ce15606-8b60-4bc7-a921-b0c00cf198bd",
+      "card": "https://ms.yugipedia.com//0/06/MalevolentSeller-RD5TH1-JP-SPR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Malevolent Seller",
+        "id": 715774
+      }
+    ],
+    "dbID": 18715
+  },
+  "series": []
+}

@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "77f3eea3-5a32-4a1a-a03e-06d724bd9d54",
+  "text": {
+    "en": {
+      "name": "Counter Spell \"Negate Attack\"",
+      "effect": "During the Battle Phase: Activate 1 of these effects;\r\n\u25cf When an opponent's monster declares an attack while they control more monsters than you do: Negate the attack, then end the Battle Phase.\r\n\u25cf When your opponent activates a monster effect: Negate that effect, and if you do, destroy that monster.\r\nWhen you draw for your normal draw in your Draw Phase: You can banish this card from your GY; Special Summon 1 monster from your hand.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30ab\u30a6\u30f3\u30bf\u30fc\u30de\u30b8\u30c3\u30af\u300c\u653b\u6483\u306e\u7121\u529b\u5316\u300d",
+      "effect": "\u2460\uff1a\u81ea\u5206\u30fb\u76f8\u624b\u306e\u30d0\u30c8\u30eb\u30d5\u30a7\u30a4\u30ba\u306b\u3001\u4ee5\u4e0b\u306e\u52b9\u679c\u304b\u3089\uff11\u3064\u3092\u9078\u629e\u3057\u3066\u767a\u52d5\u3067\u304d\u308b\u3002\n\u25cf\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u6570\u304c\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u3088\u308a\u591a\u3044\u5834\u5408\u3001\u76f8\u624b\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u653b\u6483\u5ba3\u8a00\u6642\u306b\u767a\u52d5\u3067\u304d\u308b\u3002\u305d\u306e\u653b\u6483\u3092\u7121\u52b9\u306b\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u30d0\u30c8\u30eb\u30d5\u30a7\u30a4\u30ba\u3092\u7d42\u4e86\u3059\u308b\u3002\n\u25cf\u76f8\u624b\u304c\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u52b9\u679c\u3092\u767a\u52d5\u3057\u305f\u6642\u306b\u767a\u52d5\u3067\u304d\u308b\u3002\u305d\u306e\u52b9\u679c\u3092\u7121\u52b9\u306b\u3057\u7834\u58ca\u3059\u308b\u3002\n\u2461\uff1a\u81ea\u5206\u30c9\u30ed\u30fc\u30d5\u30a7\u30a4\u30ba\u306b\u901a\u5e38\u306e\u30c9\u30ed\u30fc\u3092\u3057\u305f\u6642\u3001\u5893\u5730\u306e\u3053\u306e\u30ab\u30fc\u30c9\u3092\u9664\u5916\u3057\u3066\u767a\u52d5\u3067\u304d\u308b\u3002\u624b\u672d\u304b\u3089\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u3092\u7279\u6b8a\u53ec\u559a\u3059\u308b\u3002"
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "quickplay",
+  "passwords": [],
+  "images": [
+    {
+      "id": "c0f895bc-c4f3-41f7-9d03-d5cf474c7c56",
+      "card": "https://ms.yugipedia.com//0/01/CounterSpellNegateAttack-VJMP-JP-OP.png"
+    },
+    {
+      "id": "75ca4537-475d-41d0-bf6f-9d8ba99c106e",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/100200298.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/100200298.jpg"
+    }
+  ],
+  "sets": [
+    "9af9360d-3df0-4167-836e-58336ad638b2",
+    "7567ea00-f3d9-4c20-9c86-fe6705227a05"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Counter Spell \"Negate Attack\"",
+        "id": 1227511
+      }
+    ],
+    "dbID": 24035,
+    "ygoprodeck": {
+      "id": 100200298,
+      "name": "counter-spell-negate-attack-16001"
+    }
+  },
+  "series": [
+    "526bb67a-9a68-426e-be96-ccb0a0b89d7c",
+    "4cfc6212-dddd-4591-85a6-de52842cdbff"
+  ]
+}

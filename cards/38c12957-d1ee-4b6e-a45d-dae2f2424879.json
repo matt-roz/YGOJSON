@@ -1,0 +1,43 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "38c12957-d1ee-4b6e-a45d-dae2f2424879",
+  "text": {
+    "en": {
+      "name": "Elemental HERO Tempest (Rush Duel)",
+      "effect": "Choose 1 face-up monster on your field. That monster cannot be destroyed by battle until the end of your opponent's next turn.",
+      "official": false
+    }
+  },
+  "cardType": "monster",
+  "attribute": "wind",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 2800,
+  "def": 2800,
+  "passwords": [],
+  "images": [
+    {
+      "id": "e8c0e004-2528-45b0-8ac6-3fe85d63f9c2",
+      "card": "https://ms.yugipedia.com//8/89/ElementalHEROTempest-RDLP02-JP-OP.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Elemental HERO Tempest (Rush Duel)",
+        "id": 1233947
+      }
+    ]
+  },
+  "series": [
+    "4e2112ec-34a4-4031-91ad-7dcc3818d4c7"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "e785843b-1fd5-4a94-b631-903e586a80b6",
+  "name": {
+    "en": "Art Expansion Box: Tri-Brigade Arms Mouser",
+    "ja": "\uff21\uff32\uff34 \uff25\uff38\uff30\uff21\uff2e\uff33\uff29\uff2f\uff2e \uff22\uff2f\uff38 \u9244\u7363\u5f0f\u6483\u6ec5\u5175\u88c5\u201c\uff2d\uff4f\uff55\uff53\uff45\uff52\u201d"
+  },
+  "locales": {
+    "jp": {
+      "language": "ja",
+      "prefix": "AX01-JP",
+      "date": "2026-12-01",
+      "image": "https://ms.yugipedia.com//4/4b/AX01-PromoJP.png",
+      "cardImages": {
+        "unlimited": {
+          "70653ecd-0a39-41f2-b542-fee4fdfc9a33": "https://ms.yugipedia.com//9/91/TriBrigadeArmsMouser-AX01-JP-UR.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "70653ecd-0a39-41f2-b542-fee4fdfc9a33": {
+            "image": "https://ms.yugipedia.com//9/91/TriBrigadeArmsMouser-AX01-JP-UR.png"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {}
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//4/4b/AX01-PromoJP.png",
+      "cards": [
+        {
+          "id": "70653ecd-0a39-41f2-b542-fee4fdfc9a33",
+          "card": "cceabe88-937a-4949-84d1-37d9cf35af89",
+          "suffix": "001",
+          "rarity": "ultra"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Art Expansion Box: Tri-Brigade Arms Mouser",
+      "id": 1209301
+    }
+  }
+}

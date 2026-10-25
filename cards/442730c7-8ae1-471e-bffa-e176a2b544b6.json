@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "442730c7-8ae1-471e-bffa-e176a2b544b6",
+  "text": {
+    "en": {
+      "name": "Wish of OuTerverSe the World-Shattering Emperor [R]",
+      "effect": "During your opponent's turn, this card gains ATK equal to [the number of face-up non-Galaxy Type monsters on your opponent's field] x 3000.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u7834\u754c\u738b\u5e1d\u30a6\u30a3\u30c3\u30b7\u30e5\u30fb\u30aa\u30d6\u30fb\u30a2\u30a6\u30bf\u30fc\u30d0\u30fc\u30b9\uff3b\uff32\uff3d",
+      "effect": "\u76f8\u624b\u30bf\u30fc\u30f3\u306e\u9593\u3001\u3053\u306e\u30ab\u30fc\u30c9\u306e\u653b\u6483\u529b\u306f\u3001\uff3b\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ae\u30e3\u30e9\u30af\u30b7\u30fc\u65cf\u4ee5\u5916\uff09\u306e\u6570\uff3d\u00d7\uff13\uff10\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud30c\uacc4\uc655 \uc81c\uc655 \uc704\uc2dc \uc624\ube0c \uc544\uc6b0\ud130\ubc84\uc2a4[R]",
+      "effect": "\uc0c1\ub300 \ud134 \ub3d9\uc548, \uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\ub825\uc740, [\uc0c1\ub300 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\uac24\ub7ed\uc2dc\uc871 \uc774\uc678)\uc758 \uc218] \u00d7 3000 \uc62c\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "fiend",
+  "classifications": [
+    "effect"
+  ],
+  "level": 10,
+  "atk": 2500,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "7d35d245-7750-4172-8be9-d87d171f9205",
+      "card": "https://ms.yugipedia.com//b/b4/WishofOuTerverSetheWorldShatteringEmperorR-RDORP3-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Wish of OuTerverSe the World-Shattering Emperor (R)",
+        "id": 1152193
+      }
+    ],
+    "dbID": 22260
+  },
+  "series": [
+    "4f4cbe79-db78-4daa-a418-c3b6fbdcb458"
+  ]
+}

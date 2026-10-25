@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "83ad931e-b1d5-46bd-b12d-35edf972f9ad",
+  "text": {
+    "en": {
+      "name": "Mad Rare Maqui",
+      "effect": "This turn, this card gains 500 ATK, and its Level is increased by 2. Then, you can return 1 face-up Level 6 monster from your opponent's field to the owner's hand. Until the end of this turn, you cannot Special Summon monsters, and you can only attack with DARK Attribute monsters with 1100 original DEF.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30de\u30c3\u30c9\u30ec\u30a2\u30fb\u30de\u30ad"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "beastwarrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 5,
+  "atk": 2100,
+  "def": 1100,
+  "passwords": [],
+  "images": [
+    {
+      "id": "f4f13d05-2869-4dde-8f0b-4cc5a39c895a",
+      "card": "https://ms.yugipedia.com//8/80/MadRareMaqui-RDKP27-JP-OP.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Mad Rare Maqui",
+        "id": 1231457
+      }
+    ]
+  },
+  "series": []
+}

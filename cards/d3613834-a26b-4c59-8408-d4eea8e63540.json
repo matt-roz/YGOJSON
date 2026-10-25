@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "d3613834-a26b-4c59-8408-d4eea8e63540",
+  "text": {
+    "en": {
+      "name": "Dramoth Caterpillar",
+      "effect": "Draw 1 card."
+    },
+    "ja": {
+      "name": "\u30c9\u30e9\u30e2\u30b9\u306e\u5e7c\u866b",
+      "effect": "\u81ea\u5206\u306f\uff11\u679a\u30c9\u30ed\u30fc\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub4dc\ub77c\ubaa8\uc2a4\uc758 \uc720\ucda9",
+      "effect": "\uc790\uc2e0\uc740 1\uc7a5 \ub4dc\ub85c\uc6b0\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "insect",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 1000,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "9a93dcd8-1a2d-4548-9265-9524f0d9ee25",
+      "card": "https://ms.yugipedia.com//6/61/DramothCaterpillar-RDTB02-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "r"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Dramoth Caterpillar",
+        "id": 714679
+      }
+    ],
+    "dbID": 17514
+  },
+  "series": []
+}

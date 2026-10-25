@@ -1,0 +1,104 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "c6f99ccf-8665-4f42-b502-8cf890a570b6",
+  "name": {
+    "en": "Yu-Gi-Oh! World Championship 2025 prize cards"
+  },
+  "locales": {
+    "en": {
+      "language": "en",
+      "date": "2025-08-31",
+      "image": "https://ms.yugipedia.com//4/4e/2025-LogoEN.png",
+      "cardImages": {
+        "unlimited": {
+          "05e26ff7-dd60-4373-8240-971642fdefd8": "https://ms.yugipedia.com//2/2e/LightLeadingtheValiant-2025-EN-EScR-UE.png",
+          "132a265d-4f95-4516-951d-98b26c9b4603": "https://ms.yugipedia.com//4/4b/TheLadysProtectors-RD2025-EN-ORR.png",
+          "bb6371a2-65b2-4a50-aaa8-f13be06ade83": "https://ms.yugipedia.com//7/7a/LightLeadingtheValiant-RD2025-EN-ORR.png",
+          "d2c75907-d7a5-4f3c-9dfa-5a658e26e0fb": "https://ms.yugipedia.com//6/6a/TheLadysProtectors-2025-EN-EScR-UE.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "05e26ff7-dd60-4373-8240-971642fdefd8": {
+            "image": "https://ms.yugipedia.com//2/2e/LightLeadingtheValiant-2025-EN-EScR-UE.png"
+          },
+          "132a265d-4f95-4516-951d-98b26c9b4603": {
+            "image": "https://ms.yugipedia.com//4/4b/TheLadysProtectors-RD2025-EN-ORR.png"
+          },
+          "bb6371a2-65b2-4a50-aaa8-f13be06ade83": {
+            "image": "https://ms.yugipedia.com//7/7a/LightLeadingtheValiant-RD2025-EN-ORR.png"
+          },
+          "d2c75907-d7a5-4f3c-9dfa-5a658e26e0fb": {
+            "image": "https://ms.yugipedia.com//6/6a/TheLadysProtectors-2025-EN-EScR-UE.png"
+          }
+        }
+      },
+      "formats": [
+        "rushduel"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          2000001523000
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "en"
+      ],
+      "formats": [
+        "rushduel"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//4/4e/2025-LogoEN.png",
+      "cards": [
+        {
+          "id": "05e26ff7-dd60-4373-8240-971642fdefd8",
+          "card": "c7385881-3c6b-461e-8cdf-4362e8a5434a",
+          "suffix": "2025-EN001",
+          "rarity": "extrasecret",
+          "imageID": "168beec8-0612-49c1-9877-03d3ea6d3794",
+          "printStatus": "new"
+        },
+        {
+          "id": "d2c75907-d7a5-4f3c-9dfa-5a658e26e0fb",
+          "card": "5aaef988-140d-4c8f-9d1f-441f013d331e",
+          "suffix": "2025-EN002",
+          "rarity": "extrasecret",
+          "imageID": "924943c7-2960-4994-958f-e876db69c270",
+          "printStatus": "new"
+        },
+        {
+          "id": "bb6371a2-65b2-4a50-aaa8-f13be06ade83",
+          "card": "96986cf0-59a8-4ea0-97e2-617145664907",
+          "suffix": "RD/2025-EN001",
+          "rarity": "overrush",
+          "imageID": "f836db6d-74e5-4923-848f-9130ac29d787",
+          "printStatus": "new"
+        },
+        {
+          "id": "132a265d-4f95-4516-951d-98b26c9b4603",
+          "card": "ba6e686f-07eb-4ba7-be63-c5cbcd05da15",
+          "suffix": "RD/2025-EN002",
+          "rarity": "overrush",
+          "imageID": "25ffdc2a-90d4-412b-b589-ecb2974a8419",
+          "printStatus": "new"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Yu-Gi-Oh! World Championship 2025 prize cards",
+      "id": 1143993
+    }
+  }
+}

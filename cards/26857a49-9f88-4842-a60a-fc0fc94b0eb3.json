@@ -1,0 +1,47 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "26857a49-9f88-4842-a60a-fc0fc94b0eb3",
+  "text": {
+    "en": {
+      "name": "Rikuen the Molten Martial Machine",
+      "effect": "Face-up Machine Type monsters on your field cannot be destroyed by card effects.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u6e67\u8ecd\u6a5f\u9678\u708e",
+      "effect": "\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u6a5f\u68b0\u65cf\uff09\u306f\u52b9\u679c\u3067\u306f\u7834\u58ca\u3055\u308c\u306a\u3044\u3002"
+    },
+    "ko": {
+      "name": "\uc6a9\uad70\uae30 \ub9ac\ucfe0\uc5d4",
+      "effect": "\uc790\uc2e0 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\uae30\uacc4\uc871)\ub294 \ud6a8\uacfc\ub85c\ub294 \ud30c\uad34\ub418\uc9c0 \uc54a\ub294\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 1900,
+  "def": 800,
+  "passwords": [],
+  "images": [
+    {
+      "id": "d4a0ef9d-48de-4faf-b8f7-0d2a219b1bc8",
+      "card": "https://ms.yugipedia.com//2/23/RikuentheMoltenMartialMachine-RDKP23-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Rikuen the Molten Martial Machine",
+        "id": 1153674
+      }
+    ],
+    "dbID": 22438
+  },
+  "series": []
+}

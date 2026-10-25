@@ -1,0 +1,52 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "3db99682-bff4-4d56-976e-0df2d6f637dd",
+  "text": {
+    "en": {
+      "name": "Arthen\u00e9e the Defender of Sacred Silence",
+      "effect": "Equip this card to 1 face-up monster on your field as an Equip Spell Card with the following effect. \u25cfThe equipped monster gains 1000 ATK, and during your turn, your opponent cannot activate Trap Cards when it declares an attack.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u8056\u5bc2\u306e\u8b77\u308a\u624b\u30a2\u30eb\u30c6\u30cd",
+      "effect": "\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u3092\u9078\u3073\u3001\u3053\u306e\u30ab\u30fc\u30c9\u3092\u4ee5\u4e0b\u306e\u52b9\u679c\u3092\u6301\u3064\u88c5\u5099\u9b54\u6cd5\u30ab\u30fc\u30c9\u6271\u3044\u3067\u88c5\u5099\u3059\u308b\u3002\u25cf\u88c5\u5099\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u653b\u6483\u529b\u306f\uff11\uff10\uff10\uff10\u30a2\u30c3\u30d7\u3057\u3001\u81ea\u5206\u30bf\u30fc\u30f3\u306e\u9593\u3001\u305d\u306e\u653b\u6483\u5ba3\u8a00\u6642\u306b\u76f8\u624b\u306f\u7f60\u30ab\u30fc\u30c9\u3092\u767a\u52d5\u3067\u304d\u306a\u3044\u3002"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "fairy",
+  "classifications": [
+    "effect"
+  ],
+  "abilities": [
+    "union"
+  ],
+  "level": 5,
+  "atk": 2000,
+  "def": 1200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "ef04bcbf-6b6c-44cf-94fd-0df51582e73b",
+      "card": "https://ms.yugipedia.com//7/76/Arthen%C3%A9etheDefenderofSacredSilence-RDKP26-JP-SR.png"
+    },
+    {
+      "id": "e6e4391a-800f-441a-a291-35b1b65b217e",
+      "card": "https://ms.yugipedia.com//b/b9/Arthen%C3%A9etheDefenderofSacredSilence-RDKP26-JP-ScR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Arthen\u00e9e the Defender of Sacred Silence",
+        "id": 1209570
+      }
+    ],
+    "dbID": 23745
+  },
+  "series": [
+    "002a3157-0a0f-4827-94b4-27ef6b936554"
+  ]
+}

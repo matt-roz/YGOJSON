@@ -1,0 +1,48 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "faa1903d-a30c-40b5-b4f7-44e6a158877f",
+  "text": {
+    "en": {
+      "name": "YXZ-Cannon Dragon",
+      "effect": "Special Summon 1 Level 8 LIGHT Attribute Machine Type monster from your Graveyard face-up to your field.",
+      "official": false
+    },
+    "ja": {
+      "name": "\uff39\uff38\uff3a\uff0d\u30ad\u30e3\u30ce\u30f3\u30fb\u30c9\u30e9\u30b4\u30f3",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff18\uff0f\u5149\u5c5e\u6027\uff0f\u6a5f\u68b0\u65cf\uff09\uff11\u4f53\u3092\u9078\u3073\u3001\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u8868\u793a\u3067\u7279\u6b8a\u53ec\u559a\u3059\u308b\u3002"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 2800,
+  "def": 2600,
+  "passwords": [],
+  "images": [
+    {
+      "id": "5a854c9e-0bb3-4a2a-ae3b-0921da3721c1",
+      "card": "https://ms.yugipedia.com//9/95/YXZCannonDragon-RDAP03-JP-UR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "YXZ-Cannon Dragon",
+        "id": 1202089
+      }
+    ],
+    "dbID": 23435
+  },
+  "series": [
+    "55d07b9d-24c6-4be1-9101-c7e5785a9c49"
+  ]
+}

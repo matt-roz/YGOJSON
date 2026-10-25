@@ -1,0 +1,42 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "b4fb7fd8-1a14-4f7e-bf82-611b45fcaba6",
+  "text": {
+    "en": {
+      "name": "Ancient Lizard Warrior (Rush Duel)",
+      "effect": "Before the dawn of man, this lizard warrior ruled supreme."
+    },
+    "ko": {
+      "name": "\uace0\ub300\uc758 \ub3c4\ub9c8\ubc40 \uc804\uc0ac",
+      "effect": "\ud0dc\uace0\uc801 \ubaa8\uc2b5\uc744 \uadf8\ub300\ub85c \ud55c \ub3c4\ub9c8\ubc40 \uc804\uc0ac. \uc758\uc678\ub85c \uac15\ud558\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "reptile",
+  "classifications": [
+    "normal"
+  ],
+  "level": 4,
+  "atk": 1400,
+  "def": 1100,
+  "passwords": [],
+  "images": [
+    {
+      "id": "58783691-9833-45d7-9393-a81185d0491d",
+      "card": "https://ms.yugipedia.com//2/2a/AncientLizardWarrior-RDKP08-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Ancient Lizard Warrior (Rush Duel)",
+        "id": 712873
+      }
+    ],
+    "dbID": 17279
+  },
+  "series": []
+}

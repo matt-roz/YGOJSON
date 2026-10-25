@@ -1,0 +1,52 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "af23ffa3-96bd-4a03-952b-e820592f0f45",
+  "text": {
+    "en": {
+      "name": "Rapid Carriearth",
+      "effect": "Special Summon 1 EARTH Attribute Machine Type monster from your hand face-up to your field. Your Level 6 or lower monsters cannot attack this turn."
+    },
+    "ja": {
+      "name": "\u30e9\u30d4\u30c3\u30c9\u30fb\u30ad\u30e3\u30ea\u30a2\u30fc\u30b9",
+      "effect": "\u624b\u672d\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u5730\u5c5e\u6027\uff0f\u6a5f\u68b0\u65cf\uff09\uff11\u4f53\u3092\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u8868\u793a\u3067\u7279\u6b8a\u53ec\u559a\u3059\u308b\u3002\u3053\u306e\u30bf\u30fc\u30f3\u3001\u81ea\u5206\u306f\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff16\u4ee5\u4e0b\uff09\u3067\u653b\u6483\u3067\u304d\u306a\u3044\u3002"
+    },
+    "ko": {
+      "name": "\ub77c\ud53c\ub3c4 \uce90\ub9ac\uc5b4\uc2a4",
+      "effect": "\ud328\uc758 \ubaac\uc2a4\ud130(\ub545 \uc18d\uc131 / \uae30\uacc4\uc871) 1\uc7a5\uc744 \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \ud45c\uc2dc\ub85c \ud2b9\uc218 \uc18c\ud658\ud55c\ub2e4. \uc774 \ud134\uc5d0, \uc790\uc2e0\uc740 \ubaac\uc2a4\ud130(\ub808\ubca8 6 \uc774\ud558)\ub85c \uacf5\uaca9\ud560 \uc218 \uc5c6\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 700,
+  "def": 1200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "7d0f4846-ea44-438d-b64e-460101c15255",
+      "card": "https://ms.yugipedia.com//7/77/RapidCarriearth-RDSD02-JP-C.png"
+    }
+  ],
+  "sets": [
+    "a5dd7265-59c0-48dc-b924-5def08b05a08",
+    "a5dd7265-59c0-48dc-b924-5def08b05a08"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Rapid Carriearth",
+        "id": 716375
+      }
+    ],
+    "dbID": 17513
+  },
+  "series": []
+}

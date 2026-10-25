@@ -1,0 +1,73 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "6a03502d-b1e7-483c-b569-e5310568a686",
+  "text": {
+    "en": {
+      "name": "Kumenyo, the Nine-Hued Deer",
+      "effect": "2+ Level 4 LIGHT and/or DARK monsters\r\nDuring the Main Phase (Quick Effect): You can detach 1 material from this card; attach 1 card from your hand, GY, or banishment to this card, except the detached material. You can only use this effect of \"Kumenyo, the Nine-Hued Deer\" once per turn. Gains the following effects, based on the number of different Monster Types attached to it.\r\n\u25cf 2+: Cannot be destroyed by card effects.\r\n\u25cf 3+: Draw 2 cards instead of 1 for your normal draw during your Draw Phase."
+    },
+    "fr": {
+      "name": "Kumenyo, le Cerf aux Neuf Teintes",
+      "effect": "2+ monstres LUMI\u00c8RE et/ou T\u00c9N\u00c8BRES de Niveau 4\nDurant la Main Phase (Effet Rapide) : vous pouvez d\u00e9tacher 1 Mat\u00e9riel de cette carte ; attachez 1 carte (le Mat\u00e9riel d\u00e9tach\u00e9 exclu) depuis votre main, Cimeti\u00e8re ou bannissement \u00e0 cette carte. Vous ne pouvez utiliser cet effet de \"Kumenyo, le Cerf aux Neuf Teintes\" qu'une fois par tour. Gagne les effets suivants, selon le nombre de Types de Monstre diff\u00e9rents qui lui sont attach\u00e9s.\n\u25cf 2+ : Non destructible par des effets de carte.\n\u25cf 3+ : Durant votre Draw Phase, piochez 2 cartes au lieu d'1 pour votre pioche normale."
+    },
+    "de": {
+      "name": "Kumenyo, der neunfarbige Hirsch",
+      "effect": "2+ LICHT und/oder FINSTERNIS Monster der Stufe 4\nW\u00e4hrend der Main Phase (Schnelleffekt): Du kannst 1 Material von dieser Karte abh\u00e4ngen; h\u00e4nge 1 Karte von deiner Hand, deinem Friedhof oder deinen verbannten Karten an diese Karte an, au\u00dfer dem abgeh\u00e4ngten Material. Du kannst diesen Effekt von \u201eKumenyo, der neunfarbige Hirsch\u201c nur einmal pro Spielzug verwenden. Diese Karte erh\u00e4lt die folgenden Effekte, basierend auf der Anzahl der unterschiedlichen Monstertypen, die an sie angeh\u00e4ngt sind.\n\u25cf 2+: Kann nicht durch Karteneffekte zerst\u00f6rt werden.\n\u25cf 3+: Ziehe w\u00e4hrend deiner Draw Phase als dein normales Ziehen 2 Karten statt 1."
+    },
+    "it": {
+      "name": "Kumenyo, il Cervo dalle Nove Tonalit\u00e0",
+      "effect": "2+ mostri LUCE e/o OSCURIT\u00c0 di Livello 4\nDurante la Main Phase (Effetto Rapido): puoi staccare 1 materiale da questa carta; attacca 1 carta dalla tua mano, Cimitero o carte bandite a questa carta, eccetto il materiale staccato. Puoi utilizzare questo effetto di \"Kumenyo, il Cervo dalle Nove Tonalit\u00e0\" una sola volta per turno. Guadagna i seguenti effetti, a seconda del numero di Tipi di Mostro diversi attaccati a esso.\n\u25cf 2+: Non pu\u00f2 essere distrutto dagli effetti delle carte.\n\u25cf 3+: Pesca 2 carte invece di 1 per la tua normale pescata durante la tua Draw Phase."
+    },
+    "pt": {
+      "name": "Kumenyo, o Cervo de Nove Matizes",
+      "effect": "2+ monstros de LUZ e/ou de TREVAS de N\u00edvel 4\nDurante a Fase Principal (Efeito R\u00e1pido): voc\u00ea pode desassociar 1 mat\u00e9ria deste card; associe 1 card da sua m\u00e3o, do Cemit\u00e9rio ou do banimento a este card, exceto a mat\u00e9ria desassociada. Voc\u00ea s\u00f3 pode usar este efeito de \"Kumenyo, o Cervo de Nove Matizes\" uma vez por turno. Ganha os seguintes efeitos, de acordo com o n\u00famero de Tipos de Monstro diferentes associados a ele.\n\u25cf 2+: Este card n\u00e3o pode ser destru\u00eddo por efeitos de card.\n\u25cf 3+: Compre 2 cards em vez de 1 em sua compra normal durante sua Fase de Compra."
+    },
+    "es": {
+      "name": "Kumenyo, el Ciervo de Nueve Tonos",
+      "effect": "2+ monstruos de LUZ y/u OSCURIDAD de Nivel 4\nDurante la Main Phase (Efecto R\u00e1pido): puedes desacoplar 1 material de esta carta; acopla a esta carta 1 carta en tu mano, Cementerio o destierro, excepto el material desacoplado. S\u00f3lo puedes usar este efecto de \"Kumenyo, el Ciervo de Nueve Tonos\" una vez por turno. Gana los siguientes efectos, basados en el n\u00famero de Tipos de Monstruo diferentes acoplados a ella.\n\u25cf 2+: No puede ser destruida por efectos de cartas.\n\u25cf 3+: Roba 2 cartas en vez de 1 en tu robo normal durante tu Draw Phase."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "monsterCardTypes": [
+    "xyz"
+  ],
+  "type": "spellcaster",
+  "rank": 4,
+  "atk": 2500,
+  "def": 1800,
+  "passwords": [
+    "52123534"
+  ],
+  "images": [
+    {
+      "id": "7d5fe80c-801f-452b-b794-2dff3945c27c",
+      "password": "52123534",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/52123534.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/52123534.jpg"
+    }
+  ],
+  "sets": [
+    "e41d4de1-aff5-4e60-af89-26763447bd70",
+    "e41d4de1-aff5-4e60-af89-26763447bd70",
+    "e41d4de1-aff5-4e60-af89-26763447bd70",
+    "e41d4de1-aff5-4e60-af89-26763447bd70",
+    "e41d4de1-aff5-4e60-af89-26763447bd70",
+    "e41d4de1-aff5-4e60-af89-26763447bd70"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Kumenyo, the Nine-Hued Deer",
+        "id": 1228918
+      }
+    ],
+    "dbID": 23516,
+    "ygoprodeck": {
+      "id": 52123534,
+      "name": "kumenyo-the-nine-hued-deer-15974"
+    }
+  },
+  "series": []
+}

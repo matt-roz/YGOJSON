@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "ac4b9823-d3b1-429a-91d1-3fa41015d9da",
+  "text": {
+    "en": {
+      "name": "Dedicated Gaia The Fierce Knight",
+      "effect": "Add 1 \"Black Luster Ritual\" from your Graveyard to your hand. Then, you can increase this card's Level by 1 until the end of this turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u6d17\u793c\u306e\u6697\u9ed2\u9a0e\u58eb\u30ac\u30a4\u30a2",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u30ab\u30aa\u30b9\u306e\u5100\u5f0f\u300d\uff11\u679a\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u3002\u305d\u306e\u5f8c\u3001\u3053\u306e\u30ab\u30fc\u30c9\u306e\u30ec\u30d9\u30eb\u3092\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\uff11\u4e0a\u3052\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc138\ub840\uc758 \uc554\ud751 \uae30\uc0ac \uac00\uc774\uc544",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \"\uce74\uc624\uc2a4\uc758 \uc758\uc2dd\" 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\ub294\ub2e4. \uadf8 \ud6c4, \uc774 \uce74\ub4dc\uc758 \ub808\ubca8\uc744 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0 1 \uc62c\ub9b4 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2300,
+  "def": 2100,
+  "passwords": [],
+  "images": [
+    {
+      "id": "9aefb044-7251-4714-b428-04b19ef72127",
+      "card": "https://ms.yugipedia.com//0/0d/DedicatedGaiaTheFierceKnight-RDORP3-JP-UR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Dedicated Gaia The Fierce Knight",
+        "id": 1142408
+      }
+    ],
+    "dbID": 22233
+  },
+  "series": [
+    "0dd6e571-f547-4fe6-ae1a-e26395051a81"
+  ]
+}

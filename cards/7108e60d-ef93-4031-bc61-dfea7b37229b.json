@@ -1,0 +1,47 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "7108e60d-ef93-4031-bc61-dfea7b37229b",
+  "text": {
+    "en": {
+      "name": "Watermirror Serpent",
+      "effect": "Fusion Summon by sending 1 Level 7 WATER or EARTH Attribute Dragon Type monster and 2 or more Dragon Type monsters from your hand and/or field to the Graveyard.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30a6\u30a9\u30fc\u30bf\u30fc\u30df\u30e9\u30fc\u30fb\u30b5\u30fc\u30da\u30f3\u30c8",
+      "effect": "\u81ea\u5206\u306e\u624b\u672d\u30fb\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u3001\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff17\uff0f\u6c34\u5c5e\u6027\u30fb\u5730\u5c5e\u6027\uff0f\u30c9\u30e9\u30b4\u30f3\u65cf\uff09\uff11\u4f53\u3068\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30c9\u30e9\u30b4\u30f3\u65cf\uff09\uff12\u4f53\u4ee5\u4e0a\u3092\u5893\u5730\u3078\u9001\u308a\u3001\u30d5\u30e5\u30fc\u30b8\u30e7\u30f3\u53ec\u559a\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc6cc\ud130\ubbf8\ub7ec \uc11c\ud39c\ud2b8",
+      "effect": "\uc790\uc2e0\uc758 \ud328 / \ud544\ub4dc\uc758, \ubaac\uc2a4\ud130(\ub808\ubca8 7 / \ubb3c \uc18d\uc131\u30fb\ub545 \uc18d\uc131 / \ub4dc\ub798\uace4\uc871) 1\uc7a5\uacfc \ubaac\uc2a4\ud130(\ub4dc\ub798\uace4\uc871) 2\uc7a5 \uc774\uc0c1\uc744 \ubb18\uc9c0\ub85c \ubcf4\ub0b4\uace0, \ud4e8\uc804 \uc18c\ud658\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "type": "dragon",
+  "classifications": [
+    "effect"
+  ],
+  "level": 2,
+  "atk": 0,
+  "def": 800,
+  "passwords": [],
+  "images": [
+    {
+      "id": "42409fdc-fdf8-43d7-af4e-157e650904c1",
+      "card": "https://ms.yugipedia.com//1/16/WatermirrorSerpent-RDKP17-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Watermirror Serpent",
+        "id": 1056652
+      }
+    ],
+    "dbID": 20331
+  },
+  "series": []
+}

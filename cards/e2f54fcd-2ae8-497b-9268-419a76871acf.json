@@ -1,0 +1,54 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "e2f54fcd-2ae8-497b-9268-419a76871acf",
+  "text": {
+    "en": {
+      "name": "Germalewe",
+      "effect": "A ferocious being in a world of fire. The devoured pray leaves not a single bone."
+    },
+    "ja": {
+      "name": "\u30b8\u30e3\u30fc\u30de\u30ec\u30fc\u30d9",
+      "effect": "\u708e\u306e\u4e16\u754c\u306b\u4f4f\u307e\u3046\u51f6\u66b4\u306a\u5b58\u5728\u3002\u8972\u308f\u308c\u305f\u7372\u7269\u306f\u9aa8\u3082\u6b8b\u3089\u306a\u3044\u3002"
+    },
+    "ko": {
+      "name": "\uc7c8\ub9c8\ub808\ubca0",
+      "effect": "\ud654\uc5fc\uc758 \uc138\uacc4\uc5d0 \uc0ac\ub294 \ud749\ud3ec\ud55c \uc874\uc7ac. \uc2b5\uaca9 \ubc1b\uc740 \uc0ac\ub0e5\uac10\uc740 \ubf08\uc870\ucc28 \ub0a8\uc9c0 \uc54a\ub294\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "type": "pyro",
+  "classifications": [
+    "normal"
+  ],
+  "level": 4,
+  "atk": 1500,
+  "def": 400,
+  "passwords": [],
+  "images": [
+    {
+      "id": "bbcb1dc7-f908-4d30-81ef-96aac39433b2",
+      "card": "https://ms.yugipedia.com//f/ff/Germalewe-RDSD04-JP-C.png"
+    }
+  ],
+  "sets": [
+    "cf303586-057a-4e6c-ae2a-65879480865d",
+    "c05d7ca5-5bea-4c0f-884c-dd1ec7f1be77",
+    "c05d7ca5-5bea-4c0f-884c-dd1ec7f1be77",
+    "84ce4071-599b-4169-8b5c-6d4c252c2a67"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "r"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Germalewe",
+        "id": 715459
+      }
+    ],
+    "dbID": 17285
+  },
+  "series": []
+}

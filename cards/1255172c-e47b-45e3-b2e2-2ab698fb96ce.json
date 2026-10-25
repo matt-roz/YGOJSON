@@ -1,0 +1,53 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "1255172c-e47b-45e3-b2e2-2ab698fb96ce",
+  "text": {
+    "en": {
+      "name": "Vic Viper Beginning",
+      "effect": "This turn, this card's name becomes \"Gradius\". Then, you can send up to 2 other monsters from your hand or field to the Graveyard. If you sent a monster to the Graveyard, you can Special Summon \"Gradius' Option\" from your Graveyard to your field in face-up Defense Position equal to [the number of monsters sent to the Graveyard by this effect]."
+    },
+    "ja": {
+      "name": "\u30d3\u30c3\u30af\u30fb\u30d0\u30a4\u30d1\u30fc \u30d3\u30ae\u30cb\u30f3\u30b0",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u306e\u30ab\u30fc\u30c9\u540d\u306f\u3053\u306e\u30bf\u30fc\u30f3\u3001\u300c\u8d85\u6642\u7a7a\u6226\u95d8\u6a5f\u30d3\u30c3\u30af\u30fb\u30d0\u30a4\u30d1\u30fc\u300d\u306b\u306a\u308b\u3002\u305d\u306e\u5f8c\u3001\u3053\u306e\u30ab\u30fc\u30c9\u4ee5\u5916\u306e\u81ea\u5206\u306e\u624b\u672d\u30fb\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u3092\uff12\u4f53\u307e\u3067\u9078\u3093\u3067\u5893\u5730\u3078\u9001\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002\u5893\u5730\u3078\u9001\u3063\u305f\u5834\u5408\u3001\u3055\u3089\u306b\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u30aa\u30d7\u30b7\u30e7\u30f3\u300d\u3092\uff3b\u3053\u306e\u52b9\u679c\u3067\u5893\u5730\u3078\u9001\u3063\u305f\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u6570\uff3d\u3060\u3051\u9078\u3093\u3067\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u5b88\u5099\u8868\u793a\u3067\u7279\u6b8a\u53ec\u559a\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ube45 \ubc14\uc774\ud37c \ube44\uae30\ub2dd",
+      "effect": "\uc774 \uce74\ub4dc\uc758 \uce74\ub4dc\uba85\uc740 \uc774 \ud134\uc5d0, \"\ucd08\uc2dc\uacf5 \uc804\ud22c\uae30 \ube45 \ubc14\uc774\ud37c\"\uac00 \ub41c\ub2e4. \uadf8 \ud6c4, \uc774 \uce74\ub4dc \uc774\uc678\uc758 \uc790\uc2e0\uc758 \ud328 / \ud544\ub4dc\uc758 \ubaac\uc2a4\ud130\ub97c 2\uc7a5\uae4c\uc9c0 \uace0\ub974\uace0 \ubb18\uc9c0\ub85c \ubcf4\ub0bc \uc218 \uc788\ub2e4. \ubb18\uc9c0\ub85c \ubcf4\ub0c8\uc744 \uacbd\uc6b0, \ucd94\uac00\ub85c \uc790\uc2e0 \ubb18\uc9c0\uc758 \"\uc635\uc158\"\uc744 [\uc774 \ud6a8\uacfc\ub85c \ubb18\uc9c0\ub85c \ubcf4\ub0b8 \ubaac\uc2a4\ud130\uc758 \uc218]\ub9cc\ud07c \uace0\ub974\uace0 \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \uc218\ube44 \ud45c\uc2dc\ub85c \ud2b9\uc218 \uc18c\ud658\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1200,
+  "def": 800,
+  "passwords": [],
+  "images": [
+    {
+      "id": "bce4e125-0f72-4fea-933f-76889b3f0e4a",
+      "card": "https://ms.yugipedia.com//7/77/VicViperBeginning-RDKP23-JP-R.png"
+    }
+  ],
+  "sets": [
+    "4c887f72-12bb-4f1a-80de-38526bb09a9e"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "r"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Vic Viper Beginning",
+        "id": 1158532
+      }
+    ],
+    "dbID": 22431
+  },
+  "series": [
+    "129bf619-8fb9-4bb6-b73a-bab85c3f0376"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "f30317d9-9a77-4558-9ab5-ebed0eddaae5",
+  "text": {
+    "en": {
+      "name": "Alpha Burn Rebuildra",
+      "effect": "Draw 1 card. Then, if you have \"Alpha Burn Drake\" in your Graveyard, you can draw 1 additional card. This turn, you cannot activate the effect of \"Alpha Burn Rebuildra\".",
+      "official": false
+    },
+    "ja": {
+      "name": "\u03b1\u30d0\u30fc\u30f3\u30fb\u30ea\u30d3\u30eb\u30c9\u30e9"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "dragon",
+  "classifications": [
+    "effect"
+  ],
+  "level": 1,
+  "atk": 300,
+  "def": 900,
+  "passwords": [],
+  "images": [
+    {
+      "id": "ec001ef1-838d-46c6-839f-c90cc0cab762",
+      "card": "https://ms.yugipedia.com//1/1c/AlphaBurnRebuildra-RDKP27-JP-OP.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Alpha Burn Rebuildra",
+        "id": 1235925
+      }
+    ]
+  },
+  "series": []
+}

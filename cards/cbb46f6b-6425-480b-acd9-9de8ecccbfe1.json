@@ -1,0 +1,52 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "cbb46f6b-6425-480b-acd9-9de8ecccbfe1",
+  "text": {
+    "en": {
+      "name": "Salamangreat Gearblade",
+      "effect": "Special Summon 1 \"Salamangreat\" monster from your hand or GY, and if you do, equip this card to it. You can send 1 \"Salamangreat\" monster from your Deck to the GY; the equipped monster gains ATK equal to the sent monster's Level x 300. If this card is in your GY: You can shuffle 3 \"Salamangreat\" cards from your GY into the Deck, except Equip Spells, and if you do, add this card to your hand. You can only use each effect of \"Salamangreat Gearblade\" once per turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u8ee2\u751f\u708e\u7363\u306e\u795e\u5263"
+    },
+    "zh-CN": {
+      "name": "\u8f6c\u751f\u708e\u517d\u4e4b\u795e\u5251",
+      "effect": "\u6b64\u5361\u540d\u7684\u2460\u2461\u2462\u6548\u679c1\u56de\u5408\u4ec5\u53ef\u5404\u4f7f\u75281\u6b21\u3002\u2460\uff1a\u4ece\u81ea\u5df1\u7684\u624b\u724c\u30fb\u5893\u5730\u5c061\u53ea\u201c\u8f6c\u751f\u708e\u517d\u201d\u602a\u517d\u7279\u6b8a\u53ec\u5524\uff0c\u5e76\u88c5\u5907\u6b64\u5361\u3002\u2461\uff1a\u4ece\u724c\u7ec4\u5c061\u53ea\u201c\u8f6c\u751f\u708e\u517d\u201d\u602a\u517d\u9001\u81f3\u5893\u5730\u53ef\u4ee5\u53d1\u52a8\u3002\u88c5\u5907\u602a\u517d\u7684\u653b\u51fb\u529b\u4e0a\u5347\u9001\u81f3\u5893\u5730\u7684\u602a\u517d\u7b49\u7ea7\u00d7300\u7684\u6570\u503c\u3002\u2462\uff1a\u6b64\u5361\u5b58\u5728\u4e8e\u5893\u5730\u7684\u60c5\u51b5\u4e0b\u53ef\u4ee5\u53d1\u52a8\u3002\u4ece\u81ea\u5df1\u5893\u5730\u5c06\u88c5\u5907\u9b54\u6cd5\u5361\u4ee5\u5916\u76843\u5f20\u201c\u8f6c\u751f\u708e\u517d\u201d\u5361\u653e\u56de\u724c\u7ec4\uff0c\u5c06\u6b64\u5361\u52a0\u5165\u624b\u724c\u3002"
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "equip",
+  "passwords": [],
+  "images": [
+    {
+      "id": "b43bda22-13a5-4548-8488-79d8c3978ec5",
+      "card": "https://ms.yugipedia.com//1/1f/SalamangreatGearblade-IMPH-JP-OP.png"
+    },
+    {
+      "id": "190ce359-ad0d-4cb1-8f1d-f9b139cfc2bd",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/101403063.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/101403063.jpg"
+    }
+  ],
+  "sets": [
+    "ccc8125c-0182-45df-91a7-57e5e2423dfc",
+    "ccc8125c-0182-45df-91a7-57e5e2423dfc"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Salamangreat Gearblade",
+        "id": 1223812
+      }
+    ],
+    "ygoprodeck": {
+      "id": 101403063,
+      "name": "salamangreat-gearblade-15941"
+    }
+  },
+  "series": [
+    "95d50657-1e67-43bb-b963-2b1af055c1be"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "e1f60102-4590-4dd8-8925-dbef1fce9d71",
+  "text": {
+    "en": {
+      "name": "Shield Boring Kong",
+      "effect": "Destroy 1 face-down Defense Position monster on your opponent's field. If you do, this card gains 1000 ATK until the end of this turn."
+    },
+    "fr": {
+      "name": "Kong Bouclier Foreur",
+      "effect": "D\u00e9truisez 1 monstre en Position de D\u00e9fense face verso sur le Terrain de votre adversaire. Si vous le faites, cette carte gagne 1000 ATK jusqu'\u00e0 la fin de ce tour."
+    },
+    "de": {
+      "name": "Schilddurchbohrender Kong",
+      "effect": "Zerst\u00f6re 1 Monster in verdeckter Verteidigungsposition auf dem Spielfeld deines Gegners. Falls du dies tust, erh\u00e4lt diese Karte bis zum Ende dieses Spielzugs einen ATK von 1000."
+    },
+    "it": {
+      "name": "Kong Fora Scudo",
+      "effect": "Distruggi 1 mostro coperto in Posizione di Difesa sul Terreno del tuo avversario. Se lo fai, questa carta guadagna 1000 ATK fino alla fine di questo turno."
+    },
+    "es": {
+      "name": "Kong Taladro de Defensa",
+      "effect": "Destruye 1 monstruo en Posici\u00f3n de Defensa boca abajo en el Campo de tu adversario. Si lo haces, esta carta gana 1000 ATK hasta el final de este turno."
+    },
+    "ja": {
+      "name": "\u30b7\u30fc\u30eb\u30c9\u30fb\u30dc\u30fc\u30ea\u30f3\u30b0\u30fb\u30b3\u30f3\u30b0",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u88cf\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u3092\u9078\u3093\u3067\u7834\u58ca\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u3053\u306e\u30ab\u30fc\u30c9\u306e\u653b\u6483\u529b\u306f\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\uff11\uff10\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc2e4\ub4dc \ubcf4\ub9c1 \ucf69",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \ub4b7\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130 1\uc7a5\uc744 \uace0\ub974\uace0 \ud30c\uad34\ud55c\ub2e4. \uadf8 \ud6c4, \uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\ub825\uc740 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0 1000 \uc62c\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 2300,
+  "def": 1700,
+  "passwords": [],
+  "images": [
+    {
+      "id": "cd0330cf-9ae4-4d25-9ec9-2f3c1468d9c1",
+      "card": "https://ms.yugipedia.com//1/18/ShieldBoringKong-RDSD02-JP-C.png"
+    }
+  ],
+  "sets": [
+    "22e8bcf0-2b4c-48d0-87e4-2a51d0f0129e",
+    "728adba0-7417-496b-921a-bee0c18a0be2",
+    "728adba0-7417-496b-921a-bee0c18a0be2",
+    "a5dd7265-59c0-48dc-b924-5def08b05a08",
+    "a5dd7265-59c0-48dc-b924-5def08b05a08"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Shield Boring Kong",
+        "id": 716680
+      }
+    ],
+    "dbID": 16153
+  },
+  "series": []
+}

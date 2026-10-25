@@ -1,0 +1,44 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "342f1e9a-28f0-42ba-9100-b1b1c7c88847",
+  "text": {
+    "en": {
+      "name": "Jointech Matchless Hero",
+      "effect": "Toss a coin 3 times. This card gains ATK equal to [the number of heads + 1] x 200 until the end of this turn. Then, you can destroy cards on your opponent's field, up to [the number of tails].",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30b8\u30e7\u30a4\u30f3\u30c6\u30c3\u30af\u30fb\u30de\u30c3\u30c1\u30ec\u30b9\u30d2\u30fc\u30ed\u30fc"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 9,
+  "atk": 2700,
+  "def": 2000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "8c8a4c69-2920-4177-b031-e4f0ce2fb1a1",
+      "card": "https://ms.yugipedia.com/archive/4/4f/20261022170048%21JointechMatchlessHero-RDKP27-JP-OP.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Jointech Matchless Hero",
+        "id": 1231448
+      }
+    ]
+  },
+  "series": []
+}

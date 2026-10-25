@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "cda90583-0746-44e7-859d-0bcff4651fa6",
+  "text": {
+    "en": {
+      "name": "Winged Dragon, Guardian of the Fortress #1",
+      "effect": "A dragon commonly found guarding mountain fortresses. Its signature attack is a sweeping dive from out of the blue."
+    },
+    "ko": {
+      "name": "\uc694\uc0c8\ub97c \uc9c0\ud0a4\ub294 \uc775\ub8e1",
+      "effect": "\uc0b0\uc758 \uc694\uc0c8\ub97c \uc9c0\ud0a4\ub294 \uc6a9. \ucc9c\uacf5\uc5d0\uc11c \uae09\uac15\ud558\ud558\uc5ec \uc801\uc744 \uacf5\uaca9."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "wind",
+  "type": "dragon",
+  "classifications": [
+    "normal"
+  ],
+  "level": 4,
+  "atk": 1400,
+  "def": 1200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "235f09c6-f9ba-4ddd-9670-851f422be110",
+      "card": "https://ms.yugipedia.com//5/5d/WingedDragonGuardianoftheFortress1-RDSD03-JP-C.png"
+    }
+  ],
+  "sets": [
+    "b3912bea-7700-43b3-8e58-def0f757111c",
+    "b3912bea-7700-43b3-8e58-def0f757111c"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Winged Dragon, Guardian of the Fortress 1 (Rush Duel)",
+        "id": 717500
+      }
+    ],
+    "dbID": 17343
+  },
+  "series": []
+}

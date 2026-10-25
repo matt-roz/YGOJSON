@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "b95ccc99-794a-4351-b2eb-789b44990342",
+  "text": {
+    "en": {
+      "name": "Animal Doctor Lily",
+      "effect": "Special Summon 1 EARTH Attribute monster with 400 ATK/1500 DEF from your Graveyard face-up to your field. Then, you can make 1 face-up monster on your field gain 1000 ATK until the end of your opponent's next turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30a2\u30cb\u30de\u30eb\u30fb\u30c9\u30af\u30bf\u30fc \u30ea\u30ea\u30fc",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u5730\u5c5e\u6027\uff0f\u653b\u6483\u529b\uff14\uff10\uff10\uff0f\u5b88\u5099\u529b\uff11\uff15\uff10\uff10\uff09\uff11\u4f53\u3092\u9078\u3073\u3001\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u8868\u793a\u3067\u7279\u6b8a\u53ec\u559a\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u3092\u9078\u3093\u3067\u305d\u306e\u653b\u6483\u529b\u3092\u6b21\u306e\u76f8\u624b\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\uff11\uff10\uff10\uff10\u30a2\u30c3\u30d7\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc560\ub2c8\uba40 \ub2e5\ud130 \ub9ac\ub9ac",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130(\ub545 \uc18d\uc131 / \uacf5\uaca9\ub825 400 / \uc218\ube44\ub825 1500) 1\uc7a5\uc744 \uace0\ub974\uace0, \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \ud45c\uc2dc\ub85c \ud2b9\uc218 \uc18c\ud658\ud55c\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130 1\uc7a5\uc744 \uace0\ub974\uace0 \uadf8 \uacf5\uaca9\ub825\uc744 \ub2e4\uc74c \uc0c1\ub300 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0 1000 \uc62c\ub9b4 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "beastwarrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 400,
+  "def": 1500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "2a34979d-2e6a-4815-a368-c76851a236fb",
+      "card": "https://ms.yugipedia.com//d/db/AnimalDoctorLily-RDKP19-JP-SR.png"
+    },
+    {
+      "id": "f408cb7f-2bfb-4c72-ae8d-c1eec10570c6",
+      "card": "https://ms.yugipedia.com//e/ef/AnimalDoctorLily-RDKP19-JP-ScR-AA.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Animal Doctor Lily",
+        "id": 1085095
+      }
+    ],
+    "dbID": 20973
+  },
+  "series": []
+}

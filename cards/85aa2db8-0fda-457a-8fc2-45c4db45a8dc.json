@@ -1,0 +1,53 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "85aa2db8-0fda-457a-8fc2-45c4db45a8dc",
+  "text": {
+    "en": {
+      "name": "Antsgiving",
+      "effect": "Ants thanking each other for their support. They are determined to reproduce for more soldiers to thank."
+    },
+    "ja": {
+      "name": "\u611f\u8b1d\u3059\u308b\u30a2\u30ea",
+      "effect": "\u3044\u3064\u3082\u652f\u3048\u3066\u304f\u308c\u308b\u4ef2\u9593\u306b\u611f\u8b1d\u3059\u308b\u87fb\u3002\u5171\u306b\u95d8\u3046\u8005\u3092\u66f4\u306b\u5897\u3084\u305d\u3046\u3068\u5fc3\u306b\u6c7a\u3081\u3066\u3044\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uac10\uc0ac\ud558\ub294 \uac1c\ubbf8",
+      "effect": "\uc5b8\uc81c\ub098 \uc9c0\uc9c0\ud574 \uc8fc\ub294 \ub3d9\ub8cc\ub4e4\uc5d0\uac8c \uac10\uc0ac\ud558\ub294 \uac1c\ubbf8. \ud568\uaed8 \uc2f8\uc6b8 \ub3d9\ub8cc\ub4e4\uc744 \ub354\uc6b1 \ub298\ub9ac\uaca0\ub2e4\uace0 \uacb0\uc2ec\ud558\uace0 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "insect",
+  "classifications": [
+    "normal"
+  ],
+  "level": 1,
+  "atk": 100,
+  "def": 1500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "0bbbe969-76c1-4f00-87d2-1872dff075a4",
+      "card": "https://ms.yugipedia.com//e/e6/Antsgiving-RDKP08-JP-C.png"
+    }
+  ],
+  "sets": [
+    "ec7418c0-cd48-468b-9ef5-a362b2a63198"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Antsgiving",
+        "id": 717038
+      }
+    ],
+    "dbID": 17286
+  },
+  "series": [
+    "71f8ee9b-a8f0-4273-9253-1d1923fd30d3"
+  ]
+}

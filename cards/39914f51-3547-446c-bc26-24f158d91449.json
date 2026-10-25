@@ -1,0 +1,52 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "39914f51-3547-446c-bc26-24f158d91449",
+  "text": {
+    "en": {
+      "name": "Ashtrata Tamayori",
+      "effect": "If this card is Normal or Special Summoned: You can Special Summon 1 \"Ashtra\" non-Tuner from your Deck in Defense Position, then you can change 1 face-up monster you control to face-down Defense Position, also you cannot Special Summon from the Extra Deck for the rest of this turn, except Synchro Summon using a Level 1 Tuner. If an \"Ashtra\" and/or face-down card(s) you control would be destroyed by card effect, you can banish this card from your GY instead. You can only use each effect of \"Ashtrata Tamayori\" once per turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u9b3c\u795e\u7ae5\u9d44 \u30bf\u30de\u30e8\u30ea"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "type": "fairy",
+  "classifications": [
+    "tuner"
+  ],
+  "level": 1,
+  "atk": 0,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "5b40a76b-c3db-49df-a9de-5c7e7d3ef2e0",
+      "card": "https://ms.yugipedia.com//a/a4/AshtrataTamayori-IMPH-JP-OP.png"
+    },
+    {
+      "id": "70c6abaa-999e-4cc0-a8e9-7129a3f47b5c",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/101403018.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/101403018.jpg"
+    }
+  ],
+  "sets": [
+    "ccc8125c-0182-45df-91a7-57e5e2423dfc"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Ashtrata Tamayori",
+        "id": 1236069
+      }
+    ],
+    "ygoprodeck": {
+      "id": 101403018,
+      "name": "ashtrata-tamayori-16041"
+    }
+  },
+  "series": []
+}

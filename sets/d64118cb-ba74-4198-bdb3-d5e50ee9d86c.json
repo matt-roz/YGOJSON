@@ -1,0 +1,58 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "d64118cb-ba74-4198-bdb3-d5e50ee9d86c",
+  "name": {
+    "en": "Duel Arrival Box -Heroes Edition-"
+  },
+  "locales": {
+    "ae": {
+      "language": "ae",
+      "prefix": "DA01-AE",
+      "date": "2027-01-09",
+      "image": "https://ms.yugipedia.com//5/5b/DA01-BoxAE.png",
+      "cardImages": {
+        "unlimited": {}
+      },
+      "cardInfo": {
+        "unlimited": {}
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {}
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "ae"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//5/5b/DA01-BoxAE.png",
+      "cards": [
+        {
+          "id": "be393803-1c1f-4d0b-a915-b54814ff4809",
+          "card": "63c89c49-0255-46a0-9565-051dfc5f61c2",
+          "suffix": "120",
+          "rarity": "collectors",
+          "printStatus": "reprint"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Duel Arrival Box -Heroes Edition-",
+      "id": 1229842
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "4f2f6003-d0bb-4656-baeb-7046ac162587",
+  "text": {
+    "en": {
+      "name": "Gandora-X the Blackmetal Rampaging Dragon",
+      "effect": "If this card is added from the Deck to your hand, except by drawing it: You can Special Summon it. If this card is Special Summoned: You can pay half your LP; destroy as many other monsters on the field as possible, and if you do, inflict damage to your opponent equal to the highest ATK on the field among the destroyed face-up monsters they own, and if you do that, this card gains that much ATK. If this card is destroyed: You can add 1 \"Final Geas\" from your Deck to your hand. You can only use each effect of \"Gandora-X the Blackmetal Rampaging Dragon\" once per turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u9ed2\u91d1\u306e\u66b4\u7adc\u30ac\u30f3\u30c9\u30e9\uff38"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "dragon",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 0,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "0942ed2c-8b85-4e94-9566-bcb06ee9a1e7",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/100463002.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/100463002.jpg"
+    }
+  ],
+  "sets": [
+    "f88b91db-4b6c-4ebc-83e8-44b9d713e8a0",
+    "f88b91db-4b6c-4ebc-83e8-44b9d713e8a0"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Gandora-X the Blackmetal Rampaging Dragon",
+        "id": 1234309
+      }
+    ],
+    "ygoprodeck": {
+      "id": 100463002,
+      "name": "gandora-x-the-blackmetal-rampaging-dragon-16020"
+    }
+  },
+  "series": []
+}

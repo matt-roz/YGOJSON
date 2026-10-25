@@ -1,0 +1,344 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/set.json",
+  "id": "8fb79227-fcb1-4386-942a-143484dc3642",
+  "name": {
+    "en": "Event Pack 2024 Vol.1",
+    "ja": "\u30a4\u30d9\u30f3\u30c8\u30d1\u30c3\u30af \uff12\uff10\uff12\uff14 \uff36\uff4f\uff4c\uff0e\uff11"
+  },
+  "locales": {
+    "jp": {
+      "language": "ja",
+      "prefix": "24EP-JP",
+      "date": "2024-04-01",
+      "image": "https://ms.yugipedia.com//7/7e/24EP1-BoosterJP.png",
+      "cardImages": {
+        "unlimited": {
+          "05c1a91f-400d-4e5c-af2b-c2b748c744f2": "https://ms.yugipedia.com//4/40/PaleozoicCanadia-24EP-JP-C.png",
+          "0aae2f02-a89c-45fb-8a83-cfbc695119c8": "https://ms.yugipedia.com//6/6b/SoulRelease-24EP-JP-C.png",
+          "125d7bc7-c8db-4f86-b986-ab8e4c017d15": "https://ms.yugipedia.com//a/a7/DarkArmedDragon-24EP-JP-C.png",
+          "2552ab57-8c4c-4f57-8efc-f16c3bfe2399": "https://ms.yugipedia.com//a/a7/LightningVortex-24EP-JP-C.png",
+          "324aacb8-f82e-491a-bf98-d27e3086e305": "https://ms.yugipedia.com//a/a3/Sangan-24EP-JP-C.png",
+          "3db8945b-5a66-4fe8-aaed-7e590d6387c0": "https://ms.yugipedia.com//3/3a/AdreusKeeperofArmageddon-24EP-JP-C.png",
+          "3f0e3834-dedf-4e6e-8f95-8be59bf25abd": "https://ms.yugipedia.com//8/84/FiendishChain-24EP-JP-C.png",
+          "4969943d-0784-4987-8c42-d46c62a7dda0": "https://ms.yugipedia.com//f/fa/DDCrow-24EP-JP-C.png",
+          "4f7d8e8c-964a-4b19-9315-71cc407d3714": "https://ms.yugipedia.com//4/44/RaizatheStormMonarch-24EP-JP-C.png",
+          "5104b406-e12c-4419-9a7e-07dfb23386ed": "https://ms.yugipedia.com//0/0e/MirrorForce-24EP-JP-C.png",
+          "60ec97d9-8fae-48af-a9d1-32914ab31fdb": "https://ms.yugipedia.com//5/57/DarkBribe-24EP-JP-C.png",
+          "6ac56eaf-e385-4a10-81df-702c7c4f2c62": "https://ms.yugipedia.com//f/f8/MysticalSpaceTyphoon-24EP-JP-C.png",
+          "712aa1ca-3731-4299-ac7e-71cb4b1d4945": "https://ms.yugipedia.com//9/97/HeavyStorm-24EP-JP-C.png",
+          "bec81acc-30dc-49bf-9cef-547d7cffdca1": "https://ms.yugipedia.com//7/79/Honest-24EP-JP-C.png",
+          "d5659ccb-4440-45a2-8607-9776085c453d": "https://ms.yugipedia.com//0/04/LylaLightswornSorceress-24EP-JP-C.png",
+          "f99d0218-4e81-4875-8d9a-0767aeebf7c7": "https://ms.yugipedia.com//d/d0/DecodeTalker-24EP-JP-C.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "05c1a91f-400d-4e5c-af2b-c2b748c744f2": {
+            "image": "https://ms.yugipedia.com//4/40/PaleozoicCanadia-24EP-JP-C.png"
+          },
+          "0aae2f02-a89c-45fb-8a83-cfbc695119c8": {
+            "image": "https://ms.yugipedia.com//6/6b/SoulRelease-24EP-JP-C.png"
+          },
+          "125d7bc7-c8db-4f86-b986-ab8e4c017d15": {
+            "image": "https://ms.yugipedia.com//a/a7/DarkArmedDragon-24EP-JP-C.png"
+          },
+          "2552ab57-8c4c-4f57-8efc-f16c3bfe2399": {
+            "image": "https://ms.yugipedia.com//a/a7/LightningVortex-24EP-JP-C.png"
+          },
+          "324aacb8-f82e-491a-bf98-d27e3086e305": {
+            "image": "https://ms.yugipedia.com//a/a3/Sangan-24EP-JP-C.png"
+          },
+          "3db8945b-5a66-4fe8-aaed-7e590d6387c0": {
+            "image": "https://ms.yugipedia.com//3/3a/AdreusKeeperofArmageddon-24EP-JP-C.png"
+          },
+          "3f0e3834-dedf-4e6e-8f95-8be59bf25abd": {
+            "image": "https://ms.yugipedia.com//8/84/FiendishChain-24EP-JP-C.png"
+          },
+          "4969943d-0784-4987-8c42-d46c62a7dda0": {
+            "image": "https://ms.yugipedia.com//f/fa/DDCrow-24EP-JP-C.png"
+          },
+          "4f7d8e8c-964a-4b19-9315-71cc407d3714": {
+            "image": "https://ms.yugipedia.com//4/44/RaizatheStormMonarch-24EP-JP-C.png"
+          },
+          "5104b406-e12c-4419-9a7e-07dfb23386ed": {
+            "image": "https://ms.yugipedia.com//0/0e/MirrorForce-24EP-JP-C.png"
+          },
+          "60ec97d9-8fae-48af-a9d1-32914ab31fdb": {
+            "image": "https://ms.yugipedia.com//5/57/DarkBribe-24EP-JP-C.png"
+          },
+          "6ac56eaf-e385-4a10-81df-702c7c4f2c62": {
+            "image": "https://ms.yugipedia.com//f/f8/MysticalSpaceTyphoon-24EP-JP-C.png"
+          },
+          "712aa1ca-3731-4299-ac7e-71cb4b1d4945": {
+            "image": "https://ms.yugipedia.com//9/97/HeavyStorm-24EP-JP-C.png"
+          },
+          "bec81acc-30dc-49bf-9cef-547d7cffdca1": {
+            "image": "https://ms.yugipedia.com//7/79/Honest-24EP-JP-C.png"
+          },
+          "d5659ccb-4440-45a2-8607-9776085c453d": {
+            "image": "https://ms.yugipedia.com//0/04/LylaLightswornSorceress-24EP-JP-C.png"
+          },
+          "f99d0218-4e81-4875-8d9a-0767aeebf7c7": {
+            "image": "https://ms.yugipedia.com//d/d0/DecodeTalker-24EP-JP-C.png"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          1000009302000
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//7/7e/24EP1-BoosterJP.png",
+      "cards": [
+        {
+          "id": "324aacb8-f82e-491a-bf98-d27e3086e305",
+          "card": "431a6148-ab71-445d-bb82-a18d339701e5",
+          "suffix": "101",
+          "rarity": "common",
+          "imageID": "4515c837-5961-42fd-8764-46f3267235de"
+        },
+        {
+          "id": "8af1e8ca-a51e-4e87-b922-f3079b70beba",
+          "card": "431a6148-ab71-445d-bb82-a18d339701e5",
+          "suffix": "101",
+          "rarity": "commonparallel",
+          "imageID": "4515c837-5961-42fd-8764-46f3267235de"
+        },
+        {
+          "id": "4969943d-0784-4987-8c42-d46c62a7dda0",
+          "card": "ee59059b-2c61-4b8a-a3f0-36a50c06a7d0",
+          "suffix": "102",
+          "rarity": "common",
+          "imageID": "3a6d418f-a213-4442-bcfc-f972d5411a10"
+        },
+        {
+          "id": "e9aff098-4abd-4a59-8df0-6459563e1f5e",
+          "card": "ee59059b-2c61-4b8a-a3f0-36a50c06a7d0",
+          "suffix": "102",
+          "rarity": "commonparallel",
+          "imageID": "3a6d418f-a213-4442-bcfc-f972d5411a10"
+        },
+        {
+          "id": "4f7d8e8c-964a-4b19-9315-71cc407d3714",
+          "card": "bbd3a9f0-8b7e-467d-91c2-28165f1a3434",
+          "suffix": "103",
+          "rarity": "common",
+          "imageID": "2a431a71-9c22-442a-a749-18c8e3bf4e80"
+        },
+        {
+          "id": "2a1951a6-e6ce-4a9d-9a15-5d365be09e1e",
+          "card": "bbd3a9f0-8b7e-467d-91c2-28165f1a3434",
+          "suffix": "103",
+          "rarity": "commonparallel",
+          "imageID": "2a431a71-9c22-442a-a749-18c8e3bf4e80"
+        },
+        {
+          "id": "125d7bc7-c8db-4f86-b986-ab8e4c017d15",
+          "card": "b3427d48-d6e8-4081-afe2-ab6353d70e9e",
+          "suffix": "104",
+          "rarity": "common",
+          "imageID": "ba75c164-6d70-442c-a60d-d1d4fe8d1443"
+        },
+        {
+          "id": "15978152-be25-4fa3-b9bc-9834974dc043",
+          "card": "b3427d48-d6e8-4081-afe2-ab6353d70e9e",
+          "suffix": "104",
+          "rarity": "commonparallel",
+          "imageID": "ba75c164-6d70-442c-a60d-d1d4fe8d1443"
+        },
+        {
+          "id": "bec81acc-30dc-49bf-9cef-547d7cffdca1",
+          "card": "a07fd96a-dac9-41f1-8da5-e453f9654cb7",
+          "suffix": "105",
+          "rarity": "common",
+          "imageID": "211ae949-ea29-4c03-97b7-1d93196cf13a"
+        },
+        {
+          "id": "f3504713-7ae1-4bbe-ab57-5948832c62e5",
+          "card": "a07fd96a-dac9-41f1-8da5-e453f9654cb7",
+          "suffix": "105",
+          "rarity": "commonparallel",
+          "imageID": "211ae949-ea29-4c03-97b7-1d93196cf13a"
+        },
+        {
+          "id": "d5659ccb-4440-45a2-8607-9776085c453d",
+          "card": "408b4ae5-2d46-4c55-af62-d0367546992e",
+          "suffix": "106",
+          "rarity": "common",
+          "imageID": "9683bd49-9dc2-45b1-a7c6-43627ac800c7"
+        },
+        {
+          "id": "19b78909-2922-4b82-9104-e6724dddff55",
+          "card": "408b4ae5-2d46-4c55-af62-d0367546992e",
+          "suffix": "106",
+          "rarity": "commonparallel",
+          "imageID": "9683bd49-9dc2-45b1-a7c6-43627ac800c7"
+        },
+        {
+          "id": "3db8945b-5a66-4fe8-aaed-7e590d6387c0",
+          "card": "654c1ae7-0447-4fe0-8e98-57cd74832902",
+          "suffix": "107",
+          "rarity": "common",
+          "imageID": "ee337efe-7903-4e23-8cc5-b2a36f2785ee"
+        },
+        {
+          "id": "acbac3e0-484a-4edc-bd35-8bcd9d81e968",
+          "card": "654c1ae7-0447-4fe0-8e98-57cd74832902",
+          "suffix": "107",
+          "rarity": "commonparallel",
+          "imageID": "ee337efe-7903-4e23-8cc5-b2a36f2785ee"
+        },
+        {
+          "id": "f99d0218-4e81-4875-8d9a-0767aeebf7c7",
+          "card": "9a54a9b2-176f-4c12-9941-1b0dfd28ebad",
+          "suffix": "108",
+          "rarity": "common"
+        },
+        {
+          "id": "9c9c1c6d-4241-40f6-aa83-da157d391014",
+          "card": "9a54a9b2-176f-4c12-9941-1b0dfd28ebad",
+          "suffix": "108",
+          "rarity": "commonparallel"
+        },
+        {
+          "id": "0aae2f02-a89c-45fb-8a83-cfbc695119c8",
+          "card": "b2f27f6a-600c-4273-a751-a7e7f2a5d99d",
+          "suffix": "109",
+          "rarity": "common",
+          "imageID": "6d3e73b9-4fbc-406e-a726-6aa90c2ea6f3"
+        },
+        {
+          "id": "d71b1340-b945-4b7c-98bf-fab35cd05bd9",
+          "card": "b2f27f6a-600c-4273-a751-a7e7f2a5d99d",
+          "suffix": "109",
+          "rarity": "commonparallel",
+          "imageID": "6d3e73b9-4fbc-406e-a726-6aa90c2ea6f3"
+        },
+        {
+          "id": "712aa1ca-3731-4299-ac7e-71cb4b1d4945",
+          "card": "6dc25591-4b27-4931-b5c6-57d9b8235328",
+          "suffix": "110",
+          "rarity": "common",
+          "imageID": "e6e5dd63-985f-484d-9bd4-238757035733"
+        },
+        {
+          "id": "170b0980-48b9-44e0-a3bb-ef82450a48f6",
+          "card": "6dc25591-4b27-4931-b5c6-57d9b8235328",
+          "suffix": "110",
+          "rarity": "commonparallel",
+          "imageID": "e6e5dd63-985f-484d-9bd4-238757035733"
+        },
+        {
+          "id": "6ac56eaf-e385-4a10-81df-702c7c4f2c62",
+          "card": "d15ea879-903e-481a-9ad1-774823a8518b",
+          "suffix": "111",
+          "rarity": "common",
+          "imageID": "f7eb3c46-62df-45ec-9be3-877f11a4a522"
+        },
+        {
+          "id": "ed3fcbd7-fdee-4246-9dc3-6915449df417",
+          "card": "d15ea879-903e-481a-9ad1-774823a8518b",
+          "suffix": "111",
+          "rarity": "commonparallel",
+          "imageID": "f7eb3c46-62df-45ec-9be3-877f11a4a522"
+        },
+        {
+          "id": "2552ab57-8c4c-4f57-8efc-f16c3bfe2399",
+          "card": "7e415bd1-0395-400d-9d27-e974d582cf05",
+          "suffix": "112",
+          "rarity": "common",
+          "imageID": "527a5099-c205-4295-a545-f335ea4ba52e"
+        },
+        {
+          "id": "17fab69c-fc06-46f2-a3c8-62442d82c9a7",
+          "card": "7e415bd1-0395-400d-9d27-e974d582cf05",
+          "suffix": "112",
+          "rarity": "commonparallel",
+          "imageID": "527a5099-c205-4295-a545-f335ea4ba52e"
+        },
+        {
+          "id": "5104b406-e12c-4419-9a7e-07dfb23386ed",
+          "card": "0bfcc499-7a45-452e-ad36-d2e2026ad580",
+          "suffix": "113",
+          "rarity": "common",
+          "imageID": "296b1a74-41ac-46bf-87af-b0b1820162ec"
+        },
+        {
+          "id": "4f276892-904b-4536-8701-3a58a126af2e",
+          "card": "0bfcc499-7a45-452e-ad36-d2e2026ad580",
+          "suffix": "113",
+          "rarity": "commonparallel",
+          "imageID": "296b1a74-41ac-46bf-87af-b0b1820162ec"
+        },
+        {
+          "id": "60ec97d9-8fae-48af-a9d1-32914ab31fdb",
+          "card": "1cb1d9f3-6418-49cf-b974-9cf14ec30a73",
+          "suffix": "114",
+          "rarity": "common",
+          "imageID": "c0b35e7d-981e-4f6c-a9b9-53647ab27e31"
+        },
+        {
+          "id": "8ff83160-7731-4e10-abdd-d8a53778cf5a",
+          "card": "1cb1d9f3-6418-49cf-b974-9cf14ec30a73",
+          "suffix": "114",
+          "rarity": "commonparallel",
+          "imageID": "c0b35e7d-981e-4f6c-a9b9-53647ab27e31"
+        },
+        {
+          "id": "3f0e3834-dedf-4e6e-8f95-8be59bf25abd",
+          "card": "48f303de-8788-472f-96d3-3d59b7d8b56a",
+          "suffix": "115",
+          "rarity": "common",
+          "imageID": "6f04c023-bf96-4cc1-b52f-ab34b7c0ccae"
+        },
+        {
+          "id": "72becfda-91cc-4224-b55b-96d0806cc09b",
+          "card": "48f303de-8788-472f-96d3-3d59b7d8b56a",
+          "suffix": "115",
+          "rarity": "commonparallel",
+          "imageID": "6f04c023-bf96-4cc1-b52f-ab34b7c0ccae"
+        },
+        {
+          "id": "05c1a91f-400d-4e5c-af2b-c2b748c744f2",
+          "card": "10ea7a65-55c9-4ed9-83c7-4ab97e98e0ad",
+          "suffix": "116",
+          "rarity": "common",
+          "imageID": "b8b7943e-5d32-488f-a0be-b57dbaf7a8ff"
+        },
+        {
+          "id": "24980c7a-fc37-436c-83a4-cb5403b2b99b",
+          "card": "10ea7a65-55c9-4ed9-83c7-4ab97e98e0ad",
+          "suffix": "116",
+          "rarity": "commonparallel",
+          "imageID": "b8b7943e-5d32-488f-a0be-b57dbaf7a8ff"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Event Pack 2024 Vol.1",
+      "id": 1047419
+    }
+  }
+}

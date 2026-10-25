@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "b57a1cf2-9389-4f9c-a271-e070e8b18a50",
+  "text": {
+    "en": {
+      "name": "Time Chain",
+      "effect": "Destroy this card during your opponent's 2nd Standby Phase after activation. Activate this card when your monster is targeted for an attack: Neither battling monster can be destroyed by that battle, also banish them after damage calculation until their controller's 2nd Standby Phase. Negate the activated effects of monsters with the same original name as monsters that are currently banished by this card's effect. During your Draw Phase, instead of conducting your normal draw: You can add 1 monster from your Deck to your hand.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u6642\u7a7a\u9396"
+    }
+  },
+  "cardType": "trap",
+  "subcategory": "continuous",
+  "passwords": [],
+  "images": [
+    {
+      "id": "345df05d-5b76-4f1e-b3b1-12101ac86cb5",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/100463005.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/100463005.jpg"
+    }
+  ],
+  "sets": [
+    "f88b91db-4b6c-4ebc-83e8-44b9d713e8a0"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Time Chain",
+        "id": 1234313
+      }
+    ],
+    "ygoprodeck": {
+      "id": 100463005,
+      "name": "time-chain-16018"
+    }
+  },
+  "series": []
+}

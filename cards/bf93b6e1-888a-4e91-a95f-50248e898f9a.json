@@ -1,0 +1,47 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "bf93b6e1-888a-4e91-a95f-50248e898f9a",
+  "text": {
+    "en": {
+      "name": "Planting Pixie",
+      "effect": "Add 1 Level 6 or lower Normal Monster or 1 \"Fusion\" from your Graveyard to your hand. Then, you can Special Summon 1 EARTH Attribute Plant Type monster from your hand face-up to your field.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30d7\u30e9\u30f3\u30c6\u30a3\u30f3\u30b0\u30d4\u30af\u30b7\u30fc",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u901a\u5e38\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff16\u4ee5\u4e0b\uff09\uff11\u4f53\u307e\u305f\u306f\u300c\u30d5\u30e5\u30fc\u30b8\u30e7\u30f3\u300d\uff11\u679a\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u3002\u305d\u306e\u5f8c\u3001\u624b\u672d\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u5730\u5c5e\u6027\uff0f\u690d\u7269\u65cf\uff09\uff11\u4f53\u3092\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u8868\u793a\u3067\u7279\u6b8a\u53ec\u559a\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud50c\ub79c\ud305\ud53d\uc2dc",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \uc77c\ubc18 \ubaac\uc2a4\ud130(\ub808\ubca8 6 \uc774\ud558) 1\uc7a5 \ub610\ub294 \"\ud4e8\uc804\" 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\ub294\ub2e4. \uadf8 \ud6c4, \ud328\uc758 \ubaac\uc2a4\ud130(\ub545 \uc18d\uc131 / \uc2dd\ubb3c\uc871) 1\uc7a5\uc744 \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \ud45c\uc2dc\ub85c \ud2b9\uc218 \uc18c\ud658\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "plant",
+  "classifications": [
+    "effect"
+  ],
+  "level": 2,
+  "atk": 800,
+  "def": 1200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "423e24ec-602e-42ec-9794-e3c9537873ea",
+      "card": "https://ms.yugipedia.com//e/e6/PlantingPixie-RDKP15-JP-UR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Planting Pixie",
+        "id": 1004613
+      }
+    ],
+    "dbID": 19664
+  },
+  "series": []
+}

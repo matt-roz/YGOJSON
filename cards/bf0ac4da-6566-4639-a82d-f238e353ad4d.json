@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "bf0ac4da-6566-4639-a82d-f238e353ad4d",
+  "text": {
+    "en": {
+      "name": "Air Formula Eagle",
+      "effect": "Special Summon 1 WIND Attribute Normal Monster from your hand to your field face-up. Then, you can Special Summon 1 Level 6 or lower WIND Attribute Normal Monster from your Graveyard to your field face-up."
+    },
+    "ja": {
+      "name": "\u30a8\u30a2\u30fb\u30d5\u30a9\u30fc\u30df\u30e5\u30e9\u30fb\u30a4\u30fc\u30b0\u30eb",
+      "effect": "\u624b\u672d\u306e\u901a\u5e38\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u98a8\u5c5e\u6027\uff09\uff11\u4f53\u3092\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u8868\u793a\u3067\u7279\u6b8a\u53ec\u559a\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u901a\u5e38\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff16\u4ee5\u4e0b\uff0f\u98a8\u5c5e\u6027\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u8868\u793a\u3067\u7279\u6b8a\u53ec\u559a\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc5d0\uc5b4 \ud3ec\ubbac\ub7ec \uc774\uae00",
+      "effect": "\ud328\uc758 \uc77c\ubc18 \ubaac\uc2a4\ud130(\ubc14\ub78c \uc18d\uc131) 1\uc7a5\uc744 \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \ud45c\uc2dc\ub85c \ud2b9\uc218 \uc18c\ud658\ud55c\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0 \ubb18\uc9c0\uc758 \uc77c\ubc18 \ubaac\uc2a4\ud130(\ub808\ubca8 6 \uc774\ud558 / \ubc14\ub78c \uc18d\uc131) 1\uc7a5\uc744 \uace0\ub974\uace0 \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \ud45c\uc2dc\ub85c \ud2b9\uc218 \uc18c\ud658\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "wind",
+  "type": "wingedbeast",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2300,
+  "def": 1800,
+  "passwords": [],
+  "images": [
+    {
+      "id": "79f5117d-0758-4356-801f-ba8e45135c28",
+      "card": "https://ms.yugipedia.com//3/3f/AirFormulaEagle-RDKP06-JP-UR.png"
+    }
+  ],
+  "sets": [
+    "e123be6e-0424-4ff0-a324-6175fee17d50"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Air Formula Eagle",
+        "id": 712548
+      }
+    ],
+    "dbID": 16679
+  },
+  "series": []
+}

@@ -1,0 +1,56 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "89b65399-daa1-4d83-92fe-493cf4e93582",
+  "text": {
+    "en": {
+      "name": "Dicemite Gyame Double-Up Chirori",
+      "effect": "Roll a six-sided die twice. You can Special Summon 1 LIGHT Attribute monster with a Level equal to or lower than [the total result] from either Graveyard face-up to your field. Then, you can make this card gain ATK equal to [the original ATK of the monster Special Summoned by this effect] until the end of this turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30c0\u30a4\u30b9\u30de\u30a4\u30c8\u30ae\u30e3\u30e0\u30fb\u30c0\u30d6\u30eb\u30a2\u30c3\u30d7\u30c1\u30ed\u30ea",
+      "effect": "\u30b5\u30a4\u30b3\u30ed\u3092\uff12\u56de\u632f\u308b\u3002\uff3b\u51fa\u305f\u76ee\u306e\u5408\u8a08\uff3d\u4ee5\u4e0b\u306e\u30ec\u30d9\u30eb\u3092\u6301\u3064\u81ea\u5206\u307e\u305f\u306f\u76f8\u624b\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u5149\u5c5e\u6027\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u8868\u793a\u3067\u7279\u6b8a\u53ec\u559a\u3067\u304d\u308b\u3002\u305d\u306e\u5f8c\u3001\u3053\u306e\u30ab\u30fc\u30c9\u306e\u653b\u6483\u529b\u3092\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\u3001\uff3b\u3053\u306e\u52b9\u679c\u3067\u7279\u6b8a\u53ec\u559a\u3057\u305f\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u5143\u3005\u306e\u653b\u6483\u529b\uff3d\u3060\u3051\u30a2\u30c3\u30d7\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub2e4\uc774\uc2a4\ub9c8\uc774\ud2b8\uac2c \ub354\ube14\uc5c5\uce58\ub85c\ub9ac",
+      "effect": "\uc8fc\uc0ac\uc704\ub97c 2\ud68c \ub358\uc9c4\ub2e4. [\ub098\uc628 \ub208\uc758 \ud569\uacc4] \uc774\ud558\uc758 \ub808\ubca8\uc744 \uac00\uc9c0\ub294 \uc790\uc2e0 \ub610\ub294 \uc0c1\ub300 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130(\ube5b \uc18d\uc131) 1\uc7a5\uc744 \uace0\ub974\uace0 \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \ud45c\uc2dc\ub85c \ud2b9\uc218 \uc18c\ud658\ud560 \uc218 \uc788\ub2e4. \uadf8 \ud6c4, \uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\ub825\uc744 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0, [\uc774 \ud6a8\uacfc\ub85c \ud2b9\uc218 \uc18c\ud658\ud55c \ubaac\uc2a4\ud130\uc758 \uc6d0\ub798 \uacf5\uaca9\ub825]\ub9cc\ud07c \uc62c\ub9b4 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "fairy",
+  "classifications": [
+    "effect"
+  ],
+  "level": 9,
+  "atk": 3000,
+  "def": 2400,
+  "passwords": [],
+  "images": [
+    {
+      "id": "ad3ce5d3-3a6f-4f23-8cd8-f2a1d0d5a46b",
+      "card": "https://ms.yugipedia.com//6/6f/DicemiteGyameDoubleUpChirori-RDKP19-JP-SR.png"
+    },
+    {
+      "id": "a55f278e-3a5e-41f1-98e3-98d13b44ea9b",
+      "card": "https://ms.yugipedia.com//1/1d/DicemiteGyameDoubleUpChirori-RDKP19-JP-ScR-AA.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Dicemite Gyame Double-Up Chirori",
+        "id": 1093056
+      }
+    ],
+    "dbID": 20991
+  },
+  "series": [
+    "412aee39-bef5-4897-a53b-e1d36fcffdd2"
+  ]
+}

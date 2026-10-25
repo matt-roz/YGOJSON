@@ -1,0 +1,60 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "8b82ea6e-0ec2-4620-9a54-2d3783a51699",
+  "text": {
+    "en": {
+      "name": "Primrose the Twin Rikka Fairy",
+      "effect": "If a monster(s) is Tributed: You can Special Summon this card from your hand and 1 \"Rikka\" monster from your Deck, except \"Primrose the Twin Rikka Fairy\", in Defense Position, also you cannot Special Summon for the rest of this turn, except Plant monsters. You can target 1 Plant monster you control; increase or decrease its Level by 2. During your opponent's Main Phase, you can (Quick Effect): Immediately after this effect resolves, Xyz Summon 1 Plant Xyz Monster. You can only use each effect of \"Primrose the Twin Rikka Fairy\" once per turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u516d\u82b1\u53cc\u7cbe\u30d7\u30ea\u30e0\u30ed\u30fc\u30ba"
+    },
+    "zh-CN": {
+      "name": "\u516d\u82b1\u53cc\u7cbe\u62a5\u6625\u8537\u8587",
+      "effect": "\u6b64\u5361\u540d\u7684\u2460\u2461\u2462\u6548\u679c1\u56de\u5408\u4ec5\u53ef\u5404\u4f7f\u75281\u6b21\u3002\u2460\uff1a\u6709\u602a\u517d\u88ab\u89e3\u653e\u7684\u60c5\u51b5\u4e0b\u53ef\u4ee5\u53d1\u52a8\u3002\u5c06\u201c\u516d\u82b1\u53cc\u7cbe\u62a5\u6625\u8537\u8587\u201d\u4ee5\u5916\u7684\u3001\u724c\u7ec4\u76841\u53ea\u201c\u516d\u82b1\u201d\u602a\u517d\uff0c\u548c\u624b\u724c\u7684\u6b64\u5361\u4ee5\u5b88\u5907\u8868\u793a\u7279\u6b8a\u53ec\u5524\u3002\u6b64\u6548\u679c\u53d1\u52a8\u540e\uff0c\u76f4\u81f3\u56de\u5408\u7ed3\u675f\u65f6\u4e3a\u6b62\u81ea\u5df1\u4ec5\u53ef\u7279\u6b8a\u53ec\u5524\u690d\u7269\u65cf\u602a\u517d\u3002\u2461\uff1a\u4ee5\u81ea\u5df1\u573a\u4e0a\u76841\u53ea\u690d\u7269\u65cf\u602a\u517d\u4e3a\u5bf9\u8c61\u53ef\u4ee5\u53d1\u52a8\u3002\u8be5\u602a\u517d\u7684\u7b49\u7ea7\u4e0a\u5347\u6216\u4e0b\u964d2\u3002\u2462\uff1a\u5728\u5bf9\u624b\u7684\u4e3b\u8981\u9636\u6bb5\u53ef\u4ee5\u53d1\u52a8\u3002\u8fdb\u884c1\u53ea\u690d\u7269\u65cf\u8d85\u91cf\u602a\u517d\u7684\u8d85\u91cf\u53ec\u5524\u3002"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "type": "plant",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 2600,
+  "def": 2600,
+  "passwords": [],
+  "images": [
+    {
+      "id": "95bf5de8-27b9-488a-bfbb-c21d48043f7b",
+      "card": "https://ms.yugipedia.com//b/bb/PrimrosetheTwinRikkaFairy-IMPH-JP-OP.png"
+    },
+    {
+      "id": "33eb3df0-0f77-4fa4-9a04-f572b1d45cc0",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/101403015.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/101403015.jpg"
+    }
+  ],
+  "sets": [
+    "ccc8125c-0182-45df-91a7-57e5e2423dfc",
+    "ccc8125c-0182-45df-91a7-57e5e2423dfc"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Primrose the Twin Rikka Fairy",
+        "id": 1234776
+      }
+    ],
+    "ygoprodeck": {
+      "id": 101403015,
+      "name": "primrose-the-twin-rikka-fairy-16036"
+    }
+  },
+  "series": [
+    "7fb94040-c398-4ede-9099-6b1b1adbee5d",
+    "06b6c03c-2cec-4640-a49a-472027ef4a80"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "1db215ad-0a90-4aa5-9ac5-df569067ffaa",
+  "text": {
+    "en": {
+      "name": "Ordoll the Adorable Star",
+      "effect": "Shuffle 2 monsters from your opponent's Graveyard into the Deck. Then, you can Special Summon 1 \"Ordoll the Adorable Star\" from your Graveyard to your field in face-up Defense Position."
+    },
+    "ja": {
+      "name": "\u6b4c\u6190\u594f\u5973\u30aa\u30eb\u30c9\u30fc\u30eb",
+      "effect": "\u76f8\u624b\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff12\u4f53\u3092\u9078\u3093\u3067\u30c7\u30c3\u30ad\u306b\u623b\u3059\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u6b4c\u6190\u594f\u5973\u30aa\u30eb\u30c9\u30fc\u30eb\u300d\uff11\u4f53\u3092\u9078\u3093\u3067\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u5b88\u5099\u8868\u793a\u3067\u7279\u6b8a\u53ec\u559a\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uac00\ub828\uc8fc\ub140 \uc624\ub974\ub3cc",
+      "effect": "\uc0c1\ub300 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130 2\uc7a5\uc744 \uace0\ub974\uace0 \ub371\uc73c\ub85c \ub418\ub3cc\ub9b0\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0 \ubb18\uc9c0\uc758 \"\uac00\ub828\uc8fc\ub140 \uc624\ub974\ub3cc\" 1\uc7a5\uc744 \uace0\ub974\uace0 \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \uc218\ube44 \ud45c\uc2dc\ub85c \ud2b9\uc218 \uc18c\ud658\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "psychic",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 1000,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "a4a22a0f-fe21-4731-acd3-de7d24d7237f",
+      "card": "https://ms.yugipedia.com//e/ec/OrdolltheAdorableStar-RDMRP2-JP-SR.png"
+    },
+    {
+      "id": "cb7e337d-60e1-45da-81c7-bb3e6bc61976",
+      "card": "https://ms.yugipedia.com//9/98/OrdolltheAdorableStar-RDS253-JP-OP.png"
+    }
+  ],
+  "sets": [
+    "a6b12f39-c8d9-4ead-87f7-7ea71d365768"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Ordoll the Adorable Star",
+        "id": 1009472
+      }
+    ],
+    "dbID": 19580
+  },
+  "series": [
+    "d44dfc09-8d68-4b5a-ad5a-b70e6583268b"
+  ]
+}

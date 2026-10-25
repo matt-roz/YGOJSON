@@ -1,0 +1,75 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "d5721b9d-5938-4edd-9f23-5b959f7cabc6",
+  "text": {
+    "en": {
+      "name": "Dark Sorcerer",
+      "effect": "A sorcerer whose hands have been tainted by the forbidden arts. He does not yet know the price for the power he desired."
+    },
+    "fr": {
+      "name": "Sorcier des T\u00e9n\u00e8bres",
+      "effect": "Un sorcier dont les mains portent les stigmates d'une magie interdite. Il ignore encore le lourd tribut du pouvoir qu'il convoitait."
+    },
+    "de": {
+      "name": "Dunkler Zauberer",
+      "effect": "Ein Zauberer, dessen H\u00e4nde durch die verbotenen K\u00fcnste gezeichnet sind. Er wei\u00df noch nicht, welchen Preis er f\u00fcr die ersehnte Macht bezahlen wird."
+    },
+    "it": {
+      "name": "Stregone Nero",
+      "effect": "Uno stregone le cui mani sono state macchiate dalle arti proibite. Ancora non conosce il prezzo di ci\u00f2 che ha desiderato."
+    },
+    "es": {
+      "name": "Hechicero Oscuro",
+      "effect": "Un hechicero cuyas manos han sido corrompidas por las artes prohibidas. A\u00fan no conoce el precio del poder que deseaba."
+    },
+    "ja": {
+      "name": "\u30c0\u30fc\u30af\u30fb\u30bd\u30fc\u30b5\u30e9\u30fc",
+      "effect": "\u7981\u5fcc\u306e\u8853\u306b\u624b\u3092\u67d3\u3081\u305f\u9b54\u8853\u5e2b\u3002\u671b\u3093\u3060\u305d\u306e\u529b\u306e\u4ee3\u511f\u3092\u5f7c\u306f\u307e\u3060\u77e5\u3089\u306a\u3044\u3002"
+    },
+    "ko": {
+      "name": "\ub2e4\ud06c \uc18c\uc11c\ub7ec",
+      "effect": "\uae08\uae30\uc220\uc5d0 \uc190\uc744 \ub304 \ub9c8\uc220\uc0ac. \ubc14\ub77c\ub358 \uadf8 \ud798\uc758 \ub300\uac00\ub97c \uadf8\ub294 \uc544\uc9c1 \ubaa8\ub978\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "spellcaster",
+  "classifications": [
+    "normal"
+  ],
+  "level": 4,
+  "atk": 1500,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "b71d2e18-3e15-4511-beb1-dcbe67628022",
+      "card": "https://ms.yugipedia.com//a/a8/DarkSorcerer-RDSD0E-JP-C.png"
+    }
+  ],
+  "sets": [
+    "e670ec5c-7fbb-49cd-9899-885731ab9e90",
+    "da224570-b5b4-4e64-a458-7824fbfc1589",
+    "1a7009d0-df34-47a5-aa3a-c1c21f8220aa",
+    "b0f28e3d-b93f-42f7-9518-5a27b9304349",
+    "dd544c08-5223-4f76-9470-5d47aec790d2",
+    "baac8391-2c2d-4331-8582-71b7007e0af6",
+    "baac8391-2c2d-4331-8582-71b7007e0af6",
+    "b65739b6-1f86-4fbd-8a47-2bfa5b511c44",
+    "b65739b6-1f86-4fbd-8a47-2bfa5b511c44"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "r"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Dark Sorcerer",
+        "id": 697010
+      }
+    ],
+    "dbID": 15154
+  },
+  "series": []
+}

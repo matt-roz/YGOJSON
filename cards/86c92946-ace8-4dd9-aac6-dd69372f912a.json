@@ -1,0 +1,48 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "86c92946-ace8-4dd9-aac6-dd69372f912a",
+  "text": {
+    "en": {
+      "name": "Jointech Ace Rex",
+      "effect": "Destroy 1 Spell/Trap Card on the field. Then, this card can attack twice this turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30b8\u30e7\u30a4\u30f3\u30c6\u30c3\u30af\u30fb\u30a8\u30fc\u30b9\u30ec\u30c3\u30af\u30b9"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 9,
+  "atk": 2900,
+  "def": 2500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "c8ffbc3d-dad9-41fe-b8d9-58381167924d",
+      "card": "https://ms.yugipedia.com//0/0f/JointechAceRex-RDSJMP-JP-OP.png"
+    }
+  ],
+  "sets": [
+    "b254644c-27d2-4111-9a53-3a82de7d4cd5"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Jointech Ace Rex",
+        "id": 1231520
+      }
+    ]
+  },
+  "series": [
+    "5d5055d0-52c0-457f-8fcf-f097bd9b9f9e"
+  ]
+}

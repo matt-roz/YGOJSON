@@ -1,0 +1,43 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "8588de62-2f89-4a3a-8319-494eafb57f80",
+  "text": {
+    "en": {
+      "name": "Silver Belfry Battery Bastion (Rush Duel)",
+      "effect": "If this card attacks your opponent directly and reduces their LP to 0, you win the Match."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2500,
+  "def": 2000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "5fdff2dc-9a36-47d8-9730-d0680b0c749b",
+      "card": "https://ms.yugipedia.com//4/42/SilverBelfryBatteryBastion-RD2026-EN-ORR.png"
+    }
+  ],
+  "sets": [
+    "eeb7dcca-1370-4458-b4a9-6cda9ad03680"
+  ],
+  "illegal": true,
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Silver Belfry Battery Bastion (Rush Duel)",
+        "id": 1215399
+      }
+    ],
+    "dbID": 23418
+  },
+  "series": [
+    "2572d2bf-aa08-42a8-81df-a074cca75fd6"
+  ]
+}

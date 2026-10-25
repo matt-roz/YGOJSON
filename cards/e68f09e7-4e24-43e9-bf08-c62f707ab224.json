@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "e68f09e7-4e24-43e9-bf08-c62f707ab224",
+  "text": {
+    "en": {
+      "name": "Transam Praime Master Nova",
+      "effect": "Monsters on your field cannot be returned to the hand/Deck/Extra Deck by card effects. Face-up monsters on your opponent's field become LIGHT Attribute.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30c8\u30e9\u30f3\u30b6\u30e0\u30fb\u30d7\u30e9\u30a4\u30e0\u30fb\u30de\u30b9\u30bf\u30fc\u30ce\u30f4\u30a1"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "classifications": [
+    "effect"
+  ],
+  "level": 9,
+  "atk": 2800,
+  "def": 3000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "11d25d40-9a1e-4224-b702-dff69e395d5e",
+      "card": "https://ms.yugipedia.com//d/d6/TransamPraimeMasterNova-RDLP02-JP-OP.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Transam Praime Master Nova",
+        "id": 1233966
+      }
+    ]
+  },
+  "series": [
+    "58be21ce-2f8a-4c61-b8e2-5981a4f6a3f5"
+  ]
+}

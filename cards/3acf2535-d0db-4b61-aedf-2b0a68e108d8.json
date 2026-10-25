@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "3acf2535-d0db-4b61-aedf-2b0a68e108d8",
+  "text": {
+    "en": {
+      "name": "Hyperstrike Dragon Dragiastar IF",
+      "effect": "\u25cfThis card gains 2000 ATK until the end of this turn. \u25cfDestroy 1 card on your opponent's field.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u8d85\u6483\u9f8d\u30c9\u30e9\u30ae\u30a2\u30b9\u30bf\u30fc\uff29\uff26",
+      "effect": "\u25cf\u3053\u306e\u30ab\u30fc\u30c9\u306e\u653b\u6483\u529b\u306f\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\uff12\uff10\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002\u25cf\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u30ab\u30fc\u30c9\uff11\u679a\u3092\u9078\u3093\u3067\u7834\u58ca\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ucd08\uaca9\ub8e1 \ub4dc\ub77c\uae30\uc544\uc2a4\ud0c0IF",
+      "effect": "\u25cf\uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\ub825\uc740 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0 2000 \uc62c\ub9b0\ub2e4. \u25cf\uc0c1\ub300 \ud544\ub4dc\uc758 \uce74\ub4dc 1\uc7a5\uc744 \uace0\ub974\uace0 \ud30c\uad34\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "classifications": [
+    "effect"
+  ],
+  "level": 9,
+  "atk": 3000,
+  "def": 2000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "8e8d3618-1ba0-409c-a9ee-addc264cc4d1",
+      "card": "https://ms.yugipedia.com//3/34/HyperstrikeDragonDragiastarIF-RDKP23-JP-UR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Hyperstrike Dragon Dragiastar IF",
+        "id": 1145880
+      }
+    ],
+    "dbID": 22445
+  },
+  "series": [
+    "639df0fd-9e13-4b98-b647-50790b76e507"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "00749b33-9846-45c8-9051-c5ea2536a6a2",
+  "text": {
+    "en": {
+      "name": "Volcanic Rat (Rush Duel)",
+      "effect": "This mutated mouse dwells in the core of active volcanoes. No amount of heat is too much for it to bear."
+    },
+    "fr": {
+      "name": "Rat Volcanique"
+    },
+    "de": {
+      "name": "Vulkanische Ratte"
+    },
+    "it": {
+      "name": "Ratto Vulcanico"
+    },
+    "es": {
+      "name": "Rata Volc\u00e1nica"
+    },
+    "ko": {
+      "name": "\ubcfc\uce90\ub2c9 \ub798\ud2b8",
+      "effect": "\uc791\uc5f4\ud558\ub294 \ud654\uc0b0\uc9c0\ub300\uc5d0 \uc11c\uc2dd\ud558\ub294 \uc950\uc758 \ubcc0\uc885. \uc5b4\ub5a0\ud55c \ub354\uc704\uc5d0\ub3c4 \uacac\ub51c \uc218 \uc788\ub294 \ubab8\uc744 \uac16\uace0 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "type": "pyro",
+  "classifications": [
+    "normal"
+  ],
+  "level": 1,
+  "atk": 500,
+  "def": 500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "7ea6e8b0-375f-4376-8f49-7f8d94167910",
+      "card": "https://ms.yugipedia.com//2/22/VolcanicRat-RDSD04-JP-C.png"
+    }
+  ],
+  "sets": [
+    "c05d7ca5-5bea-4c0f-884c-dd1ec7f1be77",
+    "c05d7ca5-5bea-4c0f-884c-dd1ec7f1be77"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Volcanic Rat (Rush Duel)",
+        "id": 717433
+      }
+    ],
+    "dbID": 16289
+  },
+  "series": []
+}

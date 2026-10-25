@@ -1,0 +1,42 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "00cdc4f0-4ffc-4e06-8a35-53f9776cd774",
+  "text": {
+    "en": {
+      "name": "Straynge Gathering",
+      "effect": "Draw 1 card. Then, if you have 2 or more \"Straynge Cat\" and/or \"Furtunate Cat\" in your Graveyard, draw 1 additional card.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u306f\u3050\u308c\u96c6\u4f1a",
+      "effect": "\u81ea\u5206\u306f\uff11\u679a\u30c9\u30ed\u30fc\u3059\u308b\u3002\u81ea\u5206\u306e\u5893\u5730\u306b\u300c\u306f\u3050\u308c\u4f7f\u3044\u9b54\u300d\u300c\u307e\u3050\u308c\u4f7f\u3044\u9b54\u300d\u304c\u5408\u8a08\uff12\u4f53\u4ee5\u4e0a\u3044\u308b\u5834\u5408\u3001\u3055\u3089\u306b\u81ea\u5206\u306f\uff11\u679a\u30c9\u30ed\u30fc\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub099\uc624\uc790 \uc9d1\ud68c",
+      "effect": "\uc790\uc2e0\uc740 1\uc7a5 \ub4dc\ub85c\uc6b0\ud55c\ub2e4. \uc790\uc2e0 \ubb18\uc9c0\uc5d0 \"\ub099\uc624\uc790 \uc0ac\uc5ed\ub9c8\" \"\uc694\ud589\uc790 \uc0ac\uc5ed\ub9c8\"\uac00 \ud569\uacc4 2\uc7a5 \uc774\uc0c1 \uc788\uc744 \uacbd\uc6b0, \ucd94\uac00\ub85c \uc790\uc2e0\uc740 1\uc7a5 \ub4dc\ub85c\uc6b0\ud55c\ub2e4."
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "dfa82953-77b5-45c8-86a8-8fc18f6d5f74",
+      "card": "https://ms.yugipedia.com//7/77/StrayngeGathering-RDMRP2-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Straynge Gathering",
+        "id": 1018570
+      }
+    ],
+    "dbID": 19553
+  },
+  "series": [
+    "c4dd8798-9ff1-412d-8506-6a4e790234e8"
+  ]
+}

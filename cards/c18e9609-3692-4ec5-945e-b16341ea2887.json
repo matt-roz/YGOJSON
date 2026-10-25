@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "c18e9609-3692-4ec5-945e-b16341ea2887",
+  "text": {
+    "en": {
+      "name": "Seiyaryu (Rush Duel)",
+      "effect": "A mystical dragon that burns away the unworthy with its mystic flames."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "dragon",
+  "classifications": [
+    "normal"
+  ],
+  "level": 7,
+  "atk": 2500,
+  "def": 2300,
+  "passwords": [],
+  "images": [
+    {
+      "id": "0fc589e8-93f7-4670-b031-432ca8ceb083",
+      "card": "https://ms.yugipedia.com//0/01/Seiyaryu-RD25PR-JP-NPR.png"
+    }
+  ],
+  "sets": [
+    "39d31fc3-f31a-4e4e-8890-07c0643c9fc5",
+    "39d31fc3-f31a-4e4e-8890-07c0643c9fc5"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Seiyaryu (Rush Duel)",
+        "id": 1018842
+      }
+    ],
+    "dbID": 20042
+  },
+  "series": []
+}

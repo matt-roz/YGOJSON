@@ -1,0 +1,42 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "9cbf8da2-6fd5-40e4-b7df-161646396d2c",
+  "text": {
+    "en": {
+      "name": "Cross Target",
+      "effect": "Return the attacking monster to the owner's hand. Then, if you have \"Handy Lady\" face-up on your field, you can add 1 Level 3 or lower monster from your Graveyard to your hand.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u672a\u77e5\u3068\u306e\u9082\u9005",
+      "effect": "\u653b\u6483\u3057\u3066\u304d\u305f\u30e2\u30f3\u30b9\u30bf\u30fc\u3092\u6301\u3061\u4e3b\u306e\u624b\u672d\u306b\u623b\u3059\u3002\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u8868\u793a\u306e\u300c\u30cf\u30f3\u30c7\u30a3\u30fc\u30ec\u30c7\u30a3\u300d\u304c\u3044\u308b\u5834\u5408\u3001\u3055\u3089\u306b\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff13\u4ee5\u4e0b\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud06c\ub85c\uc2a4\ud0c0\uac9f",
+      "effect": "\uacf5\uaca9\ud574 \uc628 \ubaac\uc2a4\ud130\ub97c \uc8fc\uc778\uc758 \ud328\ub85c \ub418\ub3cc\ub9b0\ub2e4. \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \ud45c\uc2dc\uc778 \"\ud578\ub514\ub808\uc774\ub514\"\uac00 \uc788\uc744 \uacbd\uc6b0, \ucd94\uac00\ub85c \uc790\uc2e0 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130(\ub808\ubca8 3 \uc774\ud558) 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\uc744 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "trap",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "e7aed7fa-8917-49c8-9de1-cfd8144cb465",
+      "card": "https://ms.yugipedia.com//5/53/CrossTarget-RDAP01-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Cross Target",
+        "id": 714374
+      }
+    ],
+    "dbID": 17686
+  },
+  "series": [
+    "46f86d76-02e4-4a41-b731-96af4f504c77"
+  ]
+}

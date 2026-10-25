@@ -1,0 +1,50 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "3f022485-a1dc-4d25-b882-5e71d8a24fd6",
+  "text": {
+    "en": {
+      "name": "Gaia the Dragon Champion (Rush Duel)",
+      "effect": "\"Gaia The Fierce Knight\" + \"Curse of Dragon\""
+    },
+    "ko": {
+      "name": "\uc6a9\uae30\uc0ac \uac00\uc774\uc544",
+      "effect": "\"\uc554\ud751 \uae30\uc0ac \uac00\uc774\uc544\" \uff0b \"\ucee4\uc2a4 \uc624\ube0c \ub4dc\ub798\uace4\""
+    }
+  },
+  "cardType": "monster",
+  "attribute": "wind",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "dragon",
+  "level": 7,
+  "atk": 2600,
+  "def": 2100,
+  "passwords": [],
+  "images": [
+    {
+      "id": "766d2056-7da0-46fa-a5cd-ae09bf0fb5b1",
+      "card": "https://ms.yugipedia.com//c/c2/GaiatheDragonChampion-RDAP01-JP-C.png"
+    },
+    {
+      "id": "5f781301-5680-4dc5-9647-23aff610a2d2",
+      "card": "https://ms.yugipedia.com//6/6e/GaiatheDragonChampion-RD711C-JP-NPR.png"
+    }
+  ],
+  "sets": [
+    "4307c2d4-8bec-4544-8549-d6fac1f69f00"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Gaia the Dragon Champion (Rush Duel)",
+        "id": 711070
+      }
+    ],
+    "dbID": 18298
+  },
+  "series": [
+    "a3e27cb2-0372-4fe5-a8ad-8ca351ad48d4"
+  ]
+}

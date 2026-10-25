@@ -1,0 +1,47 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "3c240e33-d1d7-4d7f-8fbc-df4603c1791c",
+  "text": {
+    "en": {
+      "name": "Evil HERO Dark Gaia (Rush Duel)",
+      "effect": "Change up to 3 Defense Position monsters on your opponent's field to face-up Attack Position.",
+      "official": false
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "fiend",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 0,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "42ad0771-736a-437f-a887-9384a74ac472",
+      "card": "https://ms.yugipedia.com//e/e2/EvilHERODarkGaia-RDLP02-JP-OP.png"
+    },
+    {
+      "id": "f116171c-1eec-4847-819e-b7faac7bd5b9",
+      "card": "https://ms.yugipedia.com//6/63/EvilHERODarkGaia-RDLP02-JP-OP-AA.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Evil HERO Dark Gaia (Rush Duel)",
+        "id": 1233936
+      }
+    ]
+  },
+  "series": [
+    "47fdc37e-7a1a-47fd-9f37-130a593f8dc7"
+  ]
+}

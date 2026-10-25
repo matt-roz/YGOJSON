@@ -1,0 +1,38 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "0bdcbc94-f444-4013-9eee-1f2b1f6f1a7c",
+  "text": {
+    "en": {
+      "name": "Elemental HERO Wildheart (Rush Duel)",
+      "effect": "This card cannot be destroyed by Trap Card effects, and cannot be returned to the hand/Deck/Extra Deck by Trap Card effects. During your turn, if \"Skyscraper\" is face-up on the field, this card gains 1000 ATK.",
+      "official": false
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1500,
+  "def": 1600,
+  "passwords": [],
+  "images": [
+    {
+      "id": "93a58e07-9d2c-4cdd-8f1a-bce886ef8c1f",
+      "card": "https://ms.yugipedia.com//1/17/ElementalHEROWildheart-RDLP02-JP-OP.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Elemental HERO Wildheart (Rush Duel)",
+        "id": 1233945
+      }
+    ]
+  },
+  "series": []
+}

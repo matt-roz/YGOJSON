@@ -1,0 +1,52 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "623377ac-788c-4cdd-a703-0b163a30bc51",
+  "text": {
+    "en": {
+      "name": "Aero Sorcerer",
+      "effect": "Inspired by the wind, he is devoted to freedom above all else. However, his willful ways will end up leading him down a path that limits his liberty."
+    },
+    "ja": {
+      "name": "\u30a8\u30a2\u30ed\u30fb\u30bd\u30fc\u30b5\u30e9\u30fc",
+      "effect": "\u98a8\u306e\u5439\u304f\u307e\u307e\u81ea\u7531\u3092\u8b33\u6b4c\u3059\u308b\u9b54\u8853\u5e2b\u3002\u8eab\u52dd\u624b\u306a\u884c\u52d5\u306f\u3084\u304c\u3066\u5f7c\u306e\u672a\u6765\u3092\u7e1b\u308b\u4e8b\u3068\u306a\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc5d0\uc5b4\ub85c \uc18c\uc11c\ub7ec",
+      "effect": "\ubc14\ub78c \ubd80\ub294 \ub300\ub85c \uc790\uc720\ub97c \uad6c\uac00\ud558\ub294 \ub9c8\uc220\uc0ac. \uc81c\uba4b\ub300\ub85c\uc778 \ud589\ub3d9\uc774 \uc774\uc73d\uace0 \uadf8\uc758 \ubbf8\ub798\ub97c \uc625\uc8c4\uc5b4 \uc628\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "wind",
+  "type": "spellcaster",
+  "classifications": [
+    "normal"
+  ],
+  "level": 4,
+  "atk": 1500,
+  "def": 0,
+  "passwords": [],
+  "images": [
+    {
+      "id": "47a39e51-b07c-44f1-a6aa-cebf06dd1e64",
+      "card": "https://ms.yugipedia.com//3/3c/AeroSorcerer-RDKP13-JP-C.png"
+    }
+  ],
+  "sets": [
+    "f15281f0-8ea5-4682-b72c-36f0b779a7bc",
+    "dd544c08-5223-4f76-9470-5d47aec790d2"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "n"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Aero Sorcerer",
+        "id": 903546
+      }
+    ],
+    "dbID": 18931
+  },
+  "series": []
+}

@@ -1,0 +1,53 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "502344b6-ab8a-4f74-9377-dbb35a1707e9",
+  "text": {
+    "en": {
+      "name": "Tapanchula",
+      "effect": "Add 1 level 4 Machine Type Normal Monster from your Graveyard to your hand."
+    },
+    "ja": {
+      "name": "\u30bf\u30e9\u30a4\u30c1\u30e5\u30e9",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u901a\u5e38\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff14\uff0f\u6a5f\u68b0\u65cf\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud0c0\ub77c\uc774\ud2a4\ub77c",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \uc77c\ubc18 \ubaac\uc2a4\ud130(\ub808\ubca8 4 / \uae30\uacc4\uc871) 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\ub294\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1300,
+  "def": 900,
+  "passwords": [],
+  "images": [
+    {
+      "id": "670147df-9b49-49a7-a00c-753a2698f167",
+      "card": "https://ms.yugipedia.com//6/65/Tapanchula-RDSD02-JP-C.png"
+    }
+  ],
+  "sets": [
+    "cf303586-057a-4e6c-ae2a-65879480865d",
+    "a5dd7265-59c0-48dc-b924-5def08b05a08",
+    "a5dd7265-59c0-48dc-b924-5def08b05a08"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Tapanchula",
+        "id": 716154
+      }
+    ],
+    "dbID": 17938
+  },
+  "series": []
+}

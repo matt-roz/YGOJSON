@@ -1,0 +1,47 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "36b70432-069c-4348-894b-32e9a7f42b7a",
+  "text": {
+    "en": {
+      "name": "Kappa Rapper",
+      "effect": "A rhymester representin' the riverside. He stirs up passersby who approach the water."
+    },
+    "ja": {
+      "name": "\u30ab\u30c3\u30d1\u30e9\u30c3\u30d1\u30fc",
+      "effect": "\u3088\u304f\u97fb\u3092\u8e0f\u307f\u3001\u6c34\u8fba\u306b\u8fd1\u3065\u304f\u4eba\u3005\u3092\u717d\u308b\u30ab\u30c3\u30d1\u3002"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "type": "aqua",
+  "classifications": [
+    "normal"
+  ],
+  "level": 3,
+  "atk": 800,
+  "def": 1300,
+  "passwords": [],
+  "images": [
+    {
+      "id": "fc86f769-00e7-4d83-96c3-779f27cd5425",
+      "card": "https://ms.yugipedia.com//0/09/KappaRapper-RDB222-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "n"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Kappa Rapper",
+        "id": 715503
+      }
+    ],
+    "dbID": 17844
+  },
+  "series": [
+    "0997b6d0-bdc2-4eb1-9535-88d8cdeeab1c"
+  ]
+}

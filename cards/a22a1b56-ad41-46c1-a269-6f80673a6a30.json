@@ -1,0 +1,62 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "a22a1b56-ad41-46c1-a269-6f80673a6a30",
+  "text": {
+    "en": {
+      "name": "Ars Magna Artmage",
+      "effect": "2+ monsters, including an \"Ars Magna\" or \"Artmage\" monster\nYour opponent cannot target your linked monsters with card effects. During your Main Phase: You can add to your hand, or Special Summon, 1 \"Ars Magna\", \"Artmage\", \"DoomZ\", or \"Elfnote\" monster from your Deck, then if you have 3 or more different Monster Types on your field, you can Special Summon 1 monster from your GY or banishment. You can only use this effect of \"Ars Magna Artmage\" once per turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u7121\u57a2\u306a\u308b\u7d46 \u30a2\u30eb\u30c8\u30e1\u30ae\u30a2"
+    },
+    "zh-CN": {
+      "name": "\u65e0\u57a2\u5965\u827a\u4e4b\u7eca \u795e\u827a",
+      "effect": "\u5305\u542b\u201c\u5965\u827a\u201d\u3001\u201c\u795e\u827a\u201d\u602a\u517d\u4e2d\u7684\u4efb\u4e00\u5728\u5185\u7684\u602a\u517d2\u53ea\u4ee5\u4e0a\n\u6b64\u5361\u540d\u7684\u2461\u6548\u679c1\u56de\u5408\u4ec5\u53ef\u4f7f\u75281\u6b21\u3002\u2460\uff1a\u5bf9\u624b\u4e0d\u53ef\u5c06\u81ea\u5df1\u573a\u4e0a\u8fde\u63a5\u72b6\u6001\u7684\u602a\u517d\u4f5c\u4e3a\u6548\u679c\u7684\u5bf9\u8c61\u3002\u2461\uff1a\u5728\u81ea\u5df1\u7684\u4e3b\u8981\u9636\u6bb5\u53ef\u4ee5\u53d1\u52a8\u3002\u4ece\u724c\u7ec4\u6311\u90091\u53ea\u201c\u5965\u827a\u201d\u3001\u201c\u795e\u827a\u201d\u3001\u201c\u7ec8\u523b\u201d\u3001\u201c\u8000\u5723\u201d\u602a\u517d\uff0c\u52a0\u5165\u624b\u724c\u6216\u7279\u6b8a\u53ec\u5524\u3002\u7136\u540e\uff0c\u81ea\u5df1\u573a\u4e0a\u7684\u602a\u517d\u7684\u79cd\u65cf\u4e3a3\u79cd\u4ee5\u4e0a\u7684\u60c5\u51b5\u4e0b\uff0c\u53ef\u5c06\u81ea\u5df1\u5893\u5730\u30fb\u9664\u5916\u72b6\u6001\u76841\u53ea\u602a\u517d\u7279\u6b8a\u53ec\u5524\u3002"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "monsterCardTypes": [
+    "link"
+  ],
+  "type": "fairy",
+  "classifications": [
+    "effect"
+  ],
+  "atk": 2500,
+  "linkArrows": [
+    "middleleft",
+    "bottomcenter",
+    "middleright",
+    "topcenter"
+  ],
+  "passwords": [],
+  "images": [
+    {
+      "id": "40e17165-5384-4882-92d0-3d0e4b80ce7a",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/101403045.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/101403045.jpg"
+    }
+  ],
+  "sets": [
+    "ccc8125c-0182-45df-91a7-57e5e2423dfc",
+    "ccc8125c-0182-45df-91a7-57e5e2423dfc"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Ars Magna Artmage",
+        "id": 1232806
+      }
+    ],
+    "ygoprodeck": {
+      "id": 101403045,
+      "name": "ars-magna-artmage-16003"
+    }
+  },
+  "series": [
+    "07a97c41-ff5d-4dc8-a959-de285a826d3b"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "d212bad9-5672-4e3e-b56e-92e11d0bf0af",
+  "text": {
+    "en": {
+      "name": "The Battlebump",
+      "effect": "The equipped monster gains 200 ATK. While the equipped monster is face-up on your field, your opponent cannot activate Equip Spell Cards. If the equipped monster battles an opponent's Defense Position monster, but the opponent's monster was not destroyed, change that opponent's monster to face-up Attack Position.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30b6\u2606\u30d0\u30c8\u30eb\u30d0\u30f3\u30d7",
+      "effect": "\u88c5\u5099\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u653b\u6483\u529b\u306f\uff12\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002\u88c5\u5099\u30e2\u30f3\u30b9\u30bf\u30fc\u304c\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u8868\u793a\u3067\u3044\u308b\u9650\u308a\u3001\u76f8\u624b\u306f\u88c5\u5099\u9b54\u6cd5\u30ab\u30fc\u30c9\u3092\u767a\u52d5\u3067\u304d\u306a\u3044\u3002\u88c5\u5099\u30e2\u30f3\u30b9\u30bf\u30fc\u304c\u76f8\u624b\u306e\u5b88\u5099\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\u3068\u6226\u95d8\u3092\u884c\u3044\u3001\u305d\u306e\u76f8\u624b\u30e2\u30f3\u30b9\u30bf\u30fc\u304c\u7834\u58ca\u3055\u308c\u306a\u304b\u3063\u305f\u5834\u5408\u3001\u305d\u306e\u76f8\u624b\u30e2\u30f3\u30b9\u30bf\u30fc\u3092\u8868\u5074\u653b\u6483\u8868\u793a\u306b\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub354\u2606\ubc30\ud2c0\ubc94\ud504",
+      "effect": "\uc7a5\ucc29 \ubaac\uc2a4\ud130\uc758 \uacf5\uaca9\ub825\uc740 200 \uc62c\ub9b0\ub2e4. \uc7a5\ucc29 \ubaac\uc2a4\ud130\uac00 \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \ud45c\uc2dc\uc778 \ud55c, \uc0c1\ub300\ub294 \uc7a5\ucc29 \ub9c8\ubc95 \uce74\ub4dc\ub97c \ubc1c\ub3d9\ud560 \uc218 \uc5c6\ub2e4. \uc7a5\ucc29 \ubaac\uc2a4\ud130\uac00 \uc0c1\ub300\uc758 \uc218\ube44 \ud45c\uc2dc \ubaac\uc2a4\ud130\uc640 \uc804\ud22c\ub97c \uc2e4\ud589\ud558\uace0, \uadf8 \uc0c1\ub300 \ubaac\uc2a4\ud130\uac00 \ud30c\uad34\ub418\uc9c0 \uc54a\uc558\uc744 \uacbd\uc6b0, \uadf8 \uc0c1\ub300 \ubaac\uc2a4\ud130\ub97c \uc55e\uba74 \uacf5\uaca9 \ud45c\uc2dc\ub85c \ud55c\ub2e4."
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "equip",
+  "passwords": [],
+  "images": [
+    {
+      "id": "08c1b250-900d-4470-a01c-da62b50ac6d3",
+      "card": "https://ms.yugipedia.com//7/74/TheBattlebump-RDORP3-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "The Battlebump",
+        "id": 1151002
+      }
+    ],
+    "dbID": 22272
+  },
+  "series": [
+    "c47c618f-a8e3-4dbf-b2e2-f893c7428dff"
+  ]
+}

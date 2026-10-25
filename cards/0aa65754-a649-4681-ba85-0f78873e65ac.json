@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "0aa65754-a649-4681-ba85-0f78873e65ac",
+  "text": {
+    "en": {
+      "name": "The Trojan Horse (Rush Duel)",
+      "effect": "This face-up card can be treated as 2 Tributes for the Tribute Summon of a Level 7 or 8 EARTH Attribute monster in Attack Position.",
+      "official": false
+    },
+    "ko": {
+      "name": "\ud2b8\ub85c\uc774 \ubaa9\ub9c8",
+      "effect": "\ubaac\uc2a4\ud130(\ub808\ubca8 7\u30fb8 / \ub545 \uc18d\uc131)\ub97c \uacf5\uaca9 \ud45c\uc2dc\ub85c \uc5b4\ub4dc\ubc34\uc2a4 \uc18c\ud658\ud560 \uacbd\uc6b0, \uc55e\uba74 \ud45c\uc2dc\uc778 \uc774 \uce74\ub4dc\ub294 2\uc7a5\ub9cc\ud07c\uc758 \ub9b4\ub9ac\uc2a4\ub85c \ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "beast",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1600,
+  "def": 1200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "63dc1e27-fba2-42f2-bc73-b9a3c45826f9",
+      "card": "https://ms.yugipedia.com//f/f7/TheTrojanHorse-RDSJMP-JP-NPR.png"
+    }
+  ],
+  "sets": [
+    "b254644c-27d2-4111-9a53-3a82de7d4cd5"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "The Trojan Horse (Rush Duel)",
+        "id": 1161621
+      }
+    ],
+    "dbID": 22618
+  },
+  "series": []
+}

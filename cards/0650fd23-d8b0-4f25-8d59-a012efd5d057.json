@@ -1,0 +1,50 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "0650fd23-d8b0-4f25-8d59-a012efd5d057",
+  "text": {
+    "en": {
+      "name": "Cyber Kirin (Rush Duel)",
+      "effect": "Send this card from your field to the Graveyard. This turn, you take no effect damage.",
+      "official": false
+    },
+    "ko": {
+      "name": "\uc0ac\uc774\ubc84 \uc9c0\ub77c\ud504",
+      "effect": "\uc790\uc2e0 \ud544\ub4dc\uc758 \uc774 \uce74\ub4dc\ub97c \ubb18\uc9c0\ub85c \ubcf4\ub0b8\ub2e4. \uc774 \ud134\uc5d0, \uc790\uc2e0\uc740 \ud6a8\uacfc\ub85c\ub294 \ub370\ubbf8\uc9c0\ub97c \ubc1b\uc9c0 \uc54a\ub294\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 300,
+  "def": 800,
+  "passwords": [],
+  "images": [
+    {
+      "id": "4ae27058-1805-407f-905b-113633fdc027",
+      "card": "https://ms.yugipedia.com//3/35/CyberKirin-RDSD0C-JP-C.png"
+    }
+  ],
+  "sets": [
+    "918ca201-7f5c-4e30-a6be-9ad1bd9e8458",
+    "918ca201-7f5c-4e30-a6be-9ad1bd9e8458",
+    "918ca201-7f5c-4e30-a6be-9ad1bd9e8458",
+    "918ca201-7f5c-4e30-a6be-9ad1bd9e8458"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Cyber Kirin (Rush Duel)",
+        "id": 1113450
+      }
+    ],
+    "dbID": 21390
+  },
+  "series": [
+    "86022427-8e1f-4a67-af9d-a38a063a0392"
+  ]
+}

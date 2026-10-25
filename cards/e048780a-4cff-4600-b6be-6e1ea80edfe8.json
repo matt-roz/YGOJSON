@@ -1,0 +1,42 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "e048780a-4cff-4600-b6be-6e1ea80edfe8",
+  "text": {
+    "en": {
+      "name": "The Chop",
+      "effect": "That Normal Summoned monster loses 500 ATK until the end of this turn. This turn, your opponent cannot activate that monster's effects.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30b6\u2606\u30c1\u30e7\u30c3\u30d7",
+      "effect": "\u305d\u306e\u53ec\u559a\u3055\u308c\u305f\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u653b\u6483\u529b\u306f\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\uff15\uff10\uff10\u30c0\u30a6\u30f3\u3059\u308b\u3002\u3053\u306e\u30bf\u30fc\u30f3\u3001\u76f8\u624b\u306f\u305d\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u52b9\u679c\u3092\u767a\u52d5\u3067\u304d\u306a\u3044\u3002"
+    },
+    "ko": {
+      "name": "\ub354\u2606\ucd19",
+      "effect": "\uadf8 \uc77c\ubc18 \uc18c\ud658\ub41c \ubaac\uc2a4\ud130\uc758 \uacf5\uaca9\ub825\uc740 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0 500 \ub0b4\ub9b0\ub2e4. \uc774 \ud134\uc5d0, \uc0c1\ub300\ub294 \uadf8 \ubaac\uc2a4\ud130\uc758 \ud6a8\uacfc\ub97c \ubc1c\ub3d9\ud560 \uc218 \uc5c6\ub2e4."
+    }
+  },
+  "cardType": "trap",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "65b46cbc-96aa-48c9-9d25-251b37ad6e85",
+      "card": "https://ms.yugipedia.com//d/d3/TheChop-RDKP23-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "The Chop",
+        "id": 1159529
+      }
+    ],
+    "dbID": 22466
+  },
+  "series": [
+    "c47c618f-a8e3-4dbf-b2e2-f893c7428dff"
+  ]
+}

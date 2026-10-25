@@ -1,0 +1,42 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "a213bacb-8ba8-429b-a342-bbfa9297e88e",
+  "text": {
+    "en": {
+      "name": "Lightning Bringer Scarecrow",
+      "effect": "Negate the attack. Then, you can shuffle up to 3 cards from your opponent's Graveyard into the Deck.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u6075\u96f7\u306e\u304b\u304b\u3057",
+      "effect": "\u305d\u306e\u653b\u6483\u3092\u7121\u52b9\u306b\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u76f8\u624b\u306e\u5893\u5730\u306e\u30ab\u30fc\u30c9\u3092\uff13\u679a\u307e\u3067\u9078\u3093\u3067\u30c7\u30c3\u30ad\u306b\u623b\u3059\u4e8b\u304c\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud61c\ub8b0\uc758 \ud5c8\uc218\uc544\ube44",
+      "effect": "\uadf8 \uacf5\uaca9\uc744 \ubb34\ud6a8\ub85c \ud55c\ub2e4. \uadf8 \ud6c4, \uc0c1\ub300 \ubb18\uc9c0\uc758 \uce74\ub4dc\ub97c 3\uc7a5\uae4c\uc9c0 \uace0\ub974\uace0 \ub371\uc73c\ub85c \ub418\ub3cc\ub9b4 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "trap",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "122e9bf0-8ff7-40cf-84ff-709ce5a5e1cf",
+      "card": "https://ms.yugipedia.com//e/ee/LightningBringerScarecrow-RDKP19-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Lightning Bringer Scarecrow",
+        "id": 1088733
+      }
+    ],
+    "dbID": 21011
+  },
+  "series": [
+    "988a9dd1-0654-4e8c-afbd-1a1fefd45216"
+  ]
+}

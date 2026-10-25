@@ -1,0 +1,48 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "582b94e1-e42d-42f8-9eb8-c2477b2cebbb",
+  "text": {
+    "en": {
+      "name": "Gradius (Rush Duel)",
+      "effect": "A high-performance jet fighter with power capsules for variable attack capabilities."
+    },
+    "ko": {
+      "name": "\ucd08\uc2dc\uacf5 \uc804\ud22c\uae30 \ube45 \ubc14\uc774\ud37c",
+      "effect": "\ud30c\uc6cc \ucea1\uc290\uc5d0 \uc758\ud574 \ub2e4\uc591\ud55c \ub2a5\ub825\uc744 \ubc1c\ud718\ud558\ub294 \uace0\uc131\ub2a5 \uc804\ud22c\uae30."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "machine",
+  "classifications": [
+    "normal"
+  ],
+  "level": 4,
+  "atk": 1200,
+  "def": 800,
+  "passwords": [],
+  "images": [
+    {
+      "id": "54f79226-938b-43ab-851c-057844cda87f",
+      "card": "https://ms.yugipedia.com//f/fe/Gradius-RDKP23-JP-R.png"
+    },
+    {
+      "id": "344d0801-ddf3-41f8-b990-87fbf923d944",
+      "card": "https://ms.yugipedia.com//3/38/Gradius-RDLP01-JP-OP.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Gradius (Rush Duel)",
+        "id": 1152382
+      }
+    ],
+    "dbID": 22406
+  },
+  "series": [
+    "129bf619-8fb9-4bb6-b73a-bab85c3f0376"
+  ]
+}

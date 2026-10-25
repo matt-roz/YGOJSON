@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "b56e6e1e-20d8-4e57-9ab7-0095dbf9ba65",
+  "text": {
+    "en": {
+      "name": "Leave it to the Sparkhearts!",
+      "effect": "Excavate the top 3 cards of your Deck. You can add 1 excavated Ritual Spell Card to your hand. Place the other cards on the bottom of your Deck in any order. If you have \"Sparks\" or \"Curtain of Sparks\" in your Graveyard, excavate 6 cards instead.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30b9\u30d1\u30fc\u30af\u30cf\u30fc\u30c4\u306b\u4efb\u305b\u3066\uff01",
+      "effect": "\u81ea\u5206\u306e\u30c7\u30c3\u30ad\u306e\u4e0a\u304b\u3089\u30ab\u30fc\u30c9\u3092\uff13\u679a\u3081\u304f\u308a\u3001\u304a\u4e92\u3044\u306b\u78ba\u8a8d\u3059\u308b\u3002\u81ea\u5206\u306f\u305d\u306e\u4e2d\u304b\u3089\u30ea\u30c1\u30e5\u30a2\u30eb\u9b54\u6cd5\u30ab\u30fc\u30c9\uff11\u679a\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002\u6b8b\u308a\u306e\u30ab\u30fc\u30c9\u3092\u597d\u304d\u306a\u9806\u756a\u3067\u30c7\u30c3\u30ad\u306e\u4e0b\u306b\u623b\u3059\u3002\u81ea\u5206\u306e\u5893\u5730\u306b\u300c\u706b\u306e\u7c89\u300d\u307e\u305f\u306f\u300c\u706b\u306e\u7c89\u306e\u30ab\u30fc\u30c6\u30f3\u300d\u304c\u3042\u308b\u5834\u5408\u3001\u3053\u306e\u52b9\u679c\u3067\u3081\u304f\u308b\u679a\u6570\u306f\uff16\u679a\u306b\u306a\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc2a4\ud30c\ud06c\ud558\uce20\uc5d0\uac8c \ub9e1\uaca8\uc918!",
+      "effect": "\uc790\uc2e0\uc758 \ub371 \uc704\uc5d0\uc11c \uce74\ub4dc\ub97c 3\uc7a5 \ub118\uae30\uace0, \uc11c\ub85c \ud655\uc778\ud55c\ub2e4. \uc790\uc2e0\uc740 \uadf8 \uc911\uc5d0\uc11c \ub9ac\ucd94\uc5bc \ub9c8\ubc95 \uce74\ub4dc 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\uc744 \uc218 \uc788\ub2e4. \ub0a8\uc740 \uce74\ub4dc\ub97c \uc88b\uc544\ud558\ub294 \uc21c\uc11c\ub300\ub85c \ub371 \uc544\ub798\ub85c \ub418\ub3cc\ub9b0\ub2e4. \uc790\uc2e0 \ubb18\uc9c0\uc5d0 \"\uc2a4\ud30c\ud06c\" \ub610\ub294 \"\uc2a4\ud30c\ud06c \ucee4\ud2bc\"\uc774 \uc788\uc744 \uacbd\uc6b0, \uc774 \ud6a8\uacfc\ub85c \ub118\uae30\ub294 \ub9e4\uc218\ub294 6\uc7a5\uc774 \ub41c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "fire",
+  "type": "spellcaster",
+  "classifications": [
+    "effect"
+  ],
+  "level": 3,
+  "atk": 800,
+  "def": 1200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "f60bbc8d-ea14-4bae-bcb6-008f71608303",
+      "card": "https://ms.yugipedia.com//b/be/LeaveittotheSparkhearts-RDAP02-JP-UR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Leave it to the Sparkhearts!",
+        "id": 1163692
+      }
+    ],
+    "dbID": 22637
+  },
+  "series": [
+    "850081f7-e83f-4b2c-8773-0482fd88fb9d"
+  ]
+}

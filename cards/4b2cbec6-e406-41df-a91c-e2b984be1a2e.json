@@ -1,0 +1,56 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "4b2cbec6-e406-41df-a91c-e2b984be1a2e",
+  "text": {
+    "en": {
+      "name": "Trinitas Magistus",
+      "effect": "2+ Spellcaster monsters\nIf this card is Special Summoned from the Extra Deck: You can equip 1 \"Magistus\" or Spellcaster monster from your Extra Deck to this card as an Equip Spell. You can discard 1 card; return all Fusion, Synchro, Xyz, and Link Monsters from your opponent's field and GY to the Extra Deck. During your opponent's Main Phase (Quick Effect): You can add 1 \"Magistus\" card from your GY or banishment to your hand. You can only use 1 \"Trinitas Magistus\" effect per turn, and only once that turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u5927\u3044\u306a\u308b\u4e09\u8ce2\u8005"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "monsterCardTypes": [
+    "link"
+  ],
+  "type": "spellcaster",
+  "classifications": [
+    "effect"
+  ],
+  "atk": 2500,
+  "linkArrows": [
+    "bottomleft",
+    "bottomright",
+    "topcenter"
+  ],
+  "passwords": [],
+  "images": [
+    {
+      "id": "9330818f-6a72-4133-b8f6-e8477f58aabb",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/100462001.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/100462001.jpg"
+    }
+  ],
+  "sets": [
+    "9ad72762-9326-4470-aead-23571b8e256c",
+    "9ad72762-9326-4470-aead-23571b8e256c",
+    "9ad72762-9326-4470-aead-23571b8e256c"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Trinitas Magistus",
+        "id": 1233931
+      }
+    ],
+    "ygoprodeck": {
+      "id": 100462001,
+      "name": "trinitas-magistus-16015"
+    }
+  },
+  "series": []
+}

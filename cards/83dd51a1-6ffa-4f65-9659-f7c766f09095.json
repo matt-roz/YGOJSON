@@ -1,0 +1,43 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "83dd51a1-6ffa-4f65-9659-f7c766f09095",
+  "text": {
+    "en": {
+      "name": "Chaos Emperor Dragon - Envoy of the End (Rush Duel)",
+      "effect": "Send all cards in both players' hands and fields to the Graveyard. Then, inflict damage to your opponent equal to [the number of cards sent to their Graveyard by this effect] x 300.",
+      "official": false
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "dragon",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 3000,
+  "def": 2500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "9903c9f7-31c2-40f6-be77-28b59fe0c144",
+      "card": "https://ms.yugipedia.com//5/53/ChaosEmperorDragonEnvoyoftheEnd-RDAP03-JP-UR.png"
+    },
+    {
+      "id": "a80ac758-f8d2-4e4c-b07b-78d100654c9e",
+      "card": "https://ms.yugipedia.com//f/f0/ChaosEmperorDragonEnvoyoftheEnd-RDAP03-JP-FORR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Chaos Emperor Dragon - Envoy of the End (Rush Duel)",
+        "id": 1201970
+      }
+    ],
+    "dbID": 23433
+  },
+  "series": []
+}

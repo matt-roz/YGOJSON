@@ -1,0 +1,44 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "280f89e7-9840-40aa-a1eb-d7107882772d",
+  "text": {
+    "en": {
+      "name": "YZ-Tank Dragon (Rush Duel)",
+      "effect": "Destroy 1 face-down monster on your opponent's field.",
+      "official": false
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 6,
+  "atk": 2100,
+  "def": 2200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "9ee8415a-e78a-4b90-85a0-286710b2833e",
+      "card": "https://ms.yugipedia.com//c/c5/YZTankDragon-RDAP03-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "YZ-Tank Dragon (Rush Duel)",
+        "id": 1196064
+      }
+    ],
+    "dbID": 23438
+  },
+  "series": [
+    "55d07b9d-24c6-4be1-9101-c7e5785a9c49"
+  ]
+}

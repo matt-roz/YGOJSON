@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "d73e35e5-45e8-429b-8bfb-bafc027a0d71",
+  "text": {
+    "en": {
+      "name": "Voidalfr Star Mayfly",
+      "effect": "Return up to 3 face-up Level 8 or lower monsters and/or face-down monsters from your opponent's field to the owner's hand. This turn, you can only attack with 1 monster.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30f4\u30a9\u30a4\u30c9\u30a2\u30eb\u30f4\u30fb\u30b9\u30bf\u30fc\u30e1\u30a4\u30d5\u30e9\u30a4",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff18\u4ee5\u4e0b\uff09\u307e\u305f\u306f\u88cf\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\u3092\u5408\u8a08\uff13\u4f53\u307e\u3067\u9078\u3093\u3067\u6301\u3061\u4e3b\u306e\u624b\u672d\u306b\u623b\u3059\u3002\u3053\u306e\u30bf\u30fc\u30f3\u3001\u81ea\u5206\u306f\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u3067\u3057\u304b\u653b\u6483\u3067\u304d\u306a\u3044\u3002"
+    },
+    "ko": {
+      "name": "\ubcf4\uc774\ub4dc\uc54c\ube0c \uc2a4\ud0c0\uba54\uc774\ud50c\ub77c\uc774",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\ub808\ubca8 8 \uc774\ud558) \ub610\ub294 \ub4b7\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130\ub97c \ud569\uacc4 3\uc7a5\uae4c\uc9c0 \uace0\ub974\uace0 \uc8fc\uc778\uc758 \ud328\ub85c \ub418\ub3cc\ub9b0\ub2e4. \uc774 \ud134\uc5d0, \uc790\uc2e0\uc740 \ubaac\uc2a4\ud130 1\uc7a5\uc73c\ub85c\ubc16\uc5d0 \uacf5\uaca9\ud560 \uc218 \uc5c6\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "classifications": [
+    "effect"
+  ],
+  "level": 9,
+  "atk": 3000,
+  "def": 2400,
+  "passwords": [],
+  "images": [
+    {
+      "id": "f30e1574-607c-4490-a3ac-1b2e07a09bca",
+      "card": "https://ms.yugipedia.com//9/95/VoidalfrStarMayfly-RDKP24-JP-R.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Voidalfr Star Mayfly",
+        "id": 1174032
+      }
+    ],
+    "dbID": 22864
+  },
+  "series": [
+    "2c96b91d-7218-49fd-8323-3424dfc0f4f4"
+  ]
+}

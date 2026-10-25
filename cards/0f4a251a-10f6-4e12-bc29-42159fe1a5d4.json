@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "0f4a251a-10f6-4e12-bc29-42159fe1a5d4",
+  "text": {
+    "en": {
+      "name": "Skull Archfiend of Confusion",
+      "effect": "This turn, this card's name becomes \"Summoned Skull\". Then, you can take control of 1 face-up Level 8 or lower monster on your opponent's field, except a Maximum Monster.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u60d1\u4e71\u306e\u30b9\u30ab\u30eb\u30fb\u30c7\u30fc\u30e2\u30f3",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u306e\u30ab\u30fc\u30c9\u540d\u306f\u3053\u306e\u30bf\u30fc\u30f3\u3001\u300c\u30c7\u30fc\u30e2\u30f3\u306e\u53ec\u559a\u300d\u306b\u306a\u308b\u3002\u305d\u306e\u5f8c\u3001\u30de\u30ad\u30b7\u30de\u30e0\u30e2\u30f3\u30b9\u30bf\u30fc\u4ee5\u5916\u306e\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff18\u4ee5\u4e0b\uff09\uff11\u4f53\u3092\u9078\u3093\u3067\u305d\u306e\u30b3\u30f3\u30c8\u30ed\u30fc\u30eb\u3092\u5f97\u308b\u4e8b\u304c\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud639\ub780\uc758 \uc2a4\uceec \ub370\ubaac",
+      "effect": "\uc774 \uce74\ub4dc\uc758 \uce74\ub4dc\uba85\uc740 \uc774 \ud134\uc5d0, \"\ub370\ubaac \uc18c\ud658\"\uc774 \ub41c\ub2e4. \uadf8 \ud6c4, \ub9e5\uc2dc\uba48 \ubaac\uc2a4\ud130 \uc774\uc678\uc758 \uc0c1\ub300 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130(\ub808\ubca8 8 \uc774\ud558) 1\uc7a5\uc744 \uace0\ub974\uace0 \uadf8 \ucee8\ud2b8\ub864\uc744 \uc5bb\uc744 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "fiend",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2500,
+  "def": 1200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "58661d1b-4770-4a1f-a43d-6db5c100ac68",
+      "card": "https://ms.yugipedia.com//b/bd/SkullArchfiendofConfusion-RDKP20-JP-SR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Skull Archfiend of Confusion",
+        "id": 1100641
+      }
+    ],
+    "dbID": 21274
+  },
+  "series": [
+    "30da8fac-ccef-4d93-8d83-2d10afec9c87"
+  ]
+}

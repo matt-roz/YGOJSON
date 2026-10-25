@@ -1,0 +1,56 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "5e3ec7bc-7957-40a3-be1f-4da73ec983c0",
+  "text": {
+    "en": {
+      "name": "Cyber Processor",
+      "effect": "This turn, this card's name becomes \"Cyber Dragon\". Then, you can Special Summon 1 \"Cyber Dragon\" from your Graveyard face-up to your field."
+    },
+    "ja": {
+      "name": "\u30b5\u30a4\u30d0\u30fc\u30fb\u30d7\u30ed\u30bb\u30c3\u30b5\u30fc",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u306e\u30ab\u30fc\u30c9\u540d\u306f\u3053\u306e\u30bf\u30fc\u30f3\u3001\u300c\u30b5\u30a4\u30d0\u30fc\u30fb\u30c9\u30e9\u30b4\u30f3\u300d\u306b\u306a\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u30b5\u30a4\u30d0\u30fc\u30fb\u30c9\u30e9\u30b4\u30f3\u300d\uff11\u4f53\u3092\u9078\u3093\u3067\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u8868\u5074\u8868\u793a\u3067\u7279\u6b8a\u53ec\u559a\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uc0ac\uc774\ubc84 \ud504\ub85c\uc138\uc11c",
+      "effect": "\uc774 \uce74\ub4dc\uc758 \uce74\ub4dc\uba85\uc740 \uc774 \ud134\uc5d0, \"\uc0ac\uc774\ubc84 \ub4dc\ub798\uace4\"\uc774 \ub41c\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0 \ubb18\uc9c0\uc758 \"\uc0ac\uc774\ubc84 \ub4dc\ub798\uace4\" 1\uc7a5\uc744 \uace0\ub974\uace0 \uc790\uc2e0 \ud544\ub4dc\uc5d0 \uc55e\uba74 \ud45c\uc2dc\ub85c \ud2b9\uc218 \uc18c\ud658\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 5,
+  "atk": 1500,
+  "def": 1600,
+  "passwords": [],
+  "images": [
+    {
+      "id": "b7f8392e-2d9c-4ed2-84f1-cf8c18728278",
+      "card": "https://ms.yugipedia.com//4/43/CyberProcessor-RDAP01-JP-ScR.png"
+    }
+  ],
+  "sets": [
+    "9fedf2d0-5ae8-4861-b6f6-654c2d8aefeb",
+    "918ca201-7f5c-4e30-a6be-9ad1bd9e8458",
+    "918ca201-7f5c-4e30-a6be-9ad1bd9e8458",
+    "62f50503-1055-4260-b990-3fb3469154e0"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Cyber Processor",
+        "id": 931936
+      }
+    ],
+    "dbID": 18950
+  },
+  "series": [
+    "86022427-8e1f-4a67-af9d-a38a063a0392"
+  ]
+}

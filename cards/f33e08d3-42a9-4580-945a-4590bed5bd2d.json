@@ -1,0 +1,65 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "f33e08d3-42a9-4580-945a-4590bed5bd2d",
+  "text": {
+    "en": {
+      "name": "Jet Barracuda",
+      "effect": "This creature uses jet propulsion to charge in shocking speeds. Some wonder whether it even is a fish."
+    },
+    "fr": {
+      "name": "Jet Barracuda",
+      "effect": "Cette cr\u00e9ature utilise ses propulseurs \u00e0 r\u00e9action pour charger \u00e0 une vitesse renversante. Certains se demandent m\u00eame s'il s'agit vraiment d'un poisson."
+    },
+    "de": {
+      "name": "Jet-Barracuda",
+      "effect": "Diese Kreatur kann dank eines D\u00fcsenantriebs erschreckend schnell angreifen. Manche bezweifeln sogar, dass sie \u00fcberhaupt ein Fisch ist."
+    },
+    "it": {
+      "name": "Barracuda Jet",
+      "effect": "Questa creatura usa la propulsione jet per raggiungere velocit\u00e0 sorprendenti. Alcuni si chiedono persino se sia davvero un pesce."
+    },
+    "es": {
+      "name": "Barracuda Jet",
+      "effect": "Esta criatura usa la propulsi\u00f3n para cargar contra sus rivales a velocidades de v\u00e9rtigo. Hay quien se pregunta si de verdad es un pez."
+    },
+    "ja": {
+      "name": "\u30b8\u30a7\u30c3\u30c8\u30fb\u30d0\u30e9\u30af\u30fc\u30c0",
+      "effect": "\u30b8\u30a7\u30c3\u30c8\u63a8\u9032\u5668\u3092\u99c6\u4f7f\u3057\u3001\u9a5a\u6115\u306e\u901f\u5ea6\u3067\u7a81\u6483\u3057\u3066\u304f\u308b\u305e\u3002\u9b5a\u306a\u306e\u304b\u602a\u3057\u3080\u58f0\u3082\u3002"
+    },
+    "ko": {
+      "name": "\uc81c\ud2b8 \ubc14\ub77c\ucfe0\ub2e4",
+      "effect": "\uc81c\ud2b8 \ucd94\uc9c4\uae30\ub97c \uc870\uc885\ud574. \uacbd\uc545\uc2a4\ub7ec\uc6b4 \uc18d\ub3c4\ub85c \ub3cc\uaca9\ud574\uc628\ub2e4. \ubb3c\uace0\uae30\uc778\uc9c0 \uc758\uc2ec\uc2a4\ub7ec\uc6b4 \uc18c\ub9ac\ub3c4 \ub09c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "type": "fish",
+  "classifications": [
+    "normal"
+  ],
+  "level": 3,
+  "atk": 800,
+  "def": 1000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "3bdeab03-f88d-4335-8113-8f7c4bdaef8f",
+      "card": "https://ms.yugipedia.com//0/0e/JetBarracuda-RDKP02-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "r"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Jet Barracuda",
+        "id": 715462
+      }
+    ],
+    "dbID": 15422
+  },
+  "series": []
+}

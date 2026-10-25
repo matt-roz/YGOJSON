@@ -1,0 +1,68 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "17a09c5b-81eb-4bb7-accb-60e475c6d7df",
+  "text": {
+    "en": {
+      "name": "Summoned Skull (Rush Duel)",
+      "effect": "A fiend with dark powers for confusing the enemy. Among the Fiend Type monsters, this monster boasts considerable force."
+    },
+    "fr": {
+      "name": "Cr\u00e2ne Invoqu\u00e9",
+      "effect": "D\u00e9mon dont les pouvoirs diaboliques d\u00e9sorientent l'ennemi. Parmi les monstres de Type D\u00e9mon, ce monstre a une force consid\u00e9rable."
+    },
+    "de": {
+      "name": "Herbeigerufener Totenkopf",
+      "effect": "Ein Unterweltler, der seine Gegner mit dunklen Kr\u00e4ften verwirrt. Er ist einer der m\u00e4chtigsten Unterweltler."
+    },
+    "it": {
+      "name": "Teschio Evocato",
+      "effect": "Un demone che confonde i nemici con i suoi poteri oscuri. Tra tutti i mostri di Tipo Demone, questo vanta una forza considerevole."
+    },
+    "es": {
+      "name": "Cr\u00e1neo Convocado",
+      "effect": "Un demonio con poderes oscuros para confundir al enemigo. Entre los monstruos de Tipo Demonio, este monstruo alardea de considerable fuerza."
+    },
+    "ko": {
+      "name": "\ub370\ubaac \uc18c\ud658",
+      "effect": "\uc5b4\ub460\uc758 \ud798\uc744 \uc0ac\uc6a9\ud558\uc5ec, \uc0ac\ub78c\uc758 \ub9c8\uc74c\uc744 \uc720\ud639\ud558\ub294 \ub370\ubaac. \uc545\ub9c8\uc871 \uc911\uc5d0\uc11c\ub3c4 \uc0c1\ub2f9\ud788 \uac15\ub825\ud55c \ud798\uc744 \uc790\ub791\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "fiend",
+  "classifications": [
+    "normal"
+  ],
+  "level": 6,
+  "atk": 2500,
+  "def": 1200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "84e364d8-47d9-4732-a790-37d41223d134",
+      "card": "https://ms.yugipedia.com//0/05/SummonedSkull-RDTB02-JP-C.png"
+    },
+    {
+      "id": "7854599a-120d-4d5f-9609-7468ab710582",
+      "card": "https://ms.yugipedia.com//5/51/SummonedSkull-RDS23P-JP-UPR.png"
+    },
+    {
+      "id": "43de3b32-8ca1-4e3c-a9d4-7f347b80a15b",
+      "card": "https://ms.yugipedia.com//7/77/SummonedSkull-RDKP20-JP-ORR.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Summoned Skull (Rush Duel)",
+        "id": 716902
+      }
+    ],
+    "dbID": 15781
+  },
+  "series": [
+    "30da8fac-ccef-4d93-8d83-2d10afec9c87"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "db7ff8fe-6476-4b96-9056-718da4d1bb03",
+  "text": {
+    "en": {
+      "name": "Metal Armored Ant",
+      "effect": "A gigantic ant creature covered by thick armor. It will crush those that had forsaken the forest."
+    },
+    "ja": {
+      "name": "\u9244\u92fc\u88c5\u7532\u87fb",
+      "effect": "\u5168\u8eab\u304c\u5206\u539a\u3044\u88c5\u7532\u3067\u8986\u308f\u308c\u3066\u3044\u308b\u5de8\u5927\u306a\u87fb\u578b\u751f\u7269\u3002\u68ee\u3092\u7834\u58ca\u3059\u308b\u3082\u306e\u306e\u884c\u304f\u624b\u3092\u5bb9\u8d66\u306a\u304f\u59a8\u3052\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ucca0\uac15 \uc7a5\uac11\uac1c\ubbf8",
+      "effect": "\uc804\uc2e0\uc774 \ub450\uaebc\uc6b4 \uac11\uc637\uc73c\ub85c \ub36e\uc5ec\uc788\ub294 \uac70\ub300\ud55c \uac1c\ubbf8\ud615 \uc0dd\ubb3c. \uc232\uc744 \ud30c\uad34\ud558\ub294 \uc790\uc758 \uc55e\uae38\uc744 \uac00\ucc28\uc5c6\uc774 \ubc29\ud574\ud55c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "insect",
+  "classifications": [
+    "normal"
+  ],
+  "level": 7,
+  "atk": 100,
+  "def": 2500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "ea7f70b0-76ce-4265-b67e-02250032d68b",
+      "card": "https://ms.yugipedia.com//d/d4/MetalArmoredAnt-RDKP05-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Metal Armored Ant",
+        "id": 711421
+      }
+    ],
+    "dbID": 16319
+  },
+  "series": [
+    "71f8ee9b-a8f0-4273-9253-1d1923fd30d3"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "08fe0094-e434-43a6-9456-1f8b5f6fe89e",
+  "text": {
+    "en": {
+      "name": "Black Magic Ritual (Rush Duel)",
+      "effect": "Ritual Summon \"Magician of Black Chaos\" by sending monsters from your hand or field to the Graveyard whose total Levels equal 8 or more as material (you cannot use more monsters than necessary as material).",
+      "official": false
+    },
+    "ko": {
+      "name": "\uce74\uc624\uc2a4\uff0d\ud751\ub9c8\uc220\uc758 \uc758\uc2dd",
+      "effect": "\ub808\ubca8\uc758 \ud569\uacc4\uac00 8 \uc774\uc0c1\uc774 \ub418\ub3c4\ub85d, \uc790\uc2e0\uc758 \ud328 / \ud544\ub4dc\uc758 \ubaac\uc2a4\ud130\ub97c \uc18c\uc7ac\ub85c\uc11c \ubb18\uc9c0\ub85c \ubcf4\ub0b4\uace0, \"\ub9e4\uc9c0\uc158 \uc624\ube0c \ube14\ub799 \uce74\uc624\uc2a4\"\ub97c \ub9ac\ucd94\uc5bc \uc18c\ud658\ud55c\ub2e4(\uc5ec\ubd84\uc758 \ubaac\uc2a4\ud130\ub97c \uc18c\uc7ac\ub85c \ud560 \uc218 \uc5c6\ub2e4)."
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "ritual",
+  "passwords": [],
+  "images": [
+    {
+      "id": "33032e51-a312-4ffe-9b35-070252284e4d",
+      "card": "https://ms.yugipedia.com//b/bd/BlackMagicRitual-RDSD0E-JP-C.png"
+    },
+    {
+      "id": "a9cc27d1-f27a-4ce7-9ec1-9c50688d5714",
+      "card": "https://ms.yugipedia.com//3/34/BlackMagicRitual-RDS252-JP-UPR.png"
+    }
+  ],
+  "sets": [
+    "baac8391-2c2d-4331-8582-71b7007e0af6",
+    "baac8391-2c2d-4331-8582-71b7007e0af6"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Black Magic Ritual (Rush Duel)",
+        "id": 1116797
+      }
+    ],
+    "dbID": 21597
+  },
+  "series": [
+    "73409add-3e9e-400d-a8b0-ae600de6af69"
+  ]
+}

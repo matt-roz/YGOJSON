@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "0b583f4e-1260-4ed9-aaa6-47d665ecca34",
+  "text": {
+    "en": {
+      "name": "Lightning Bringer Amona",
+      "effect": "Add 1 \"Lightning Bringer Spirit\" from your Graveyard to your hand.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u6075\u96f7\u306e\u30a2\u30e2\u30ca",
+      "effect": "\u81ea\u5206\u306e\u5893\u5730\u306e\u300c\u6075\u96f7\u306e\u7cbe\u970a\u300d\uff11\u4f53\u3092\u9078\u3093\u3067\u624b\u672d\u306b\u52a0\u3048\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud61c\ub8b0\uc758 \uc544\ubaa8\ub098",
+      "effect": "\uc790\uc2e0 \ubb18\uc9c0\uc758 \"\ud61c\ub8b0\uc758 \uc815\ub839\" 1\uc7a5\uc744 \uace0\ub974\uace0 \ud328\uc5d0 \ub123\ub294\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "thunder",
+  "classifications": [
+    "effect"
+  ],
+  "level": 2,
+  "atk": 400,
+  "def": 1200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "c95ce10f-9863-498d-bdda-c34e36990f9f",
+      "card": "https://ms.yugipedia.com//b/b4/LightningBringerAmona-RDKP19-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Lightning Bringer Amona",
+        "id": 1088729
+      }
+    ],
+    "dbID": 20974
+  },
+  "series": [
+    "988a9dd1-0654-4e8c-afbd-1a1fefd45216"
+  ]
+}

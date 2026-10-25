@@ -1,0 +1,66 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "b118a339-6598-4a8e-a8f9-58b63ebcd080",
+  "text": {
+    "en": {
+      "name": "Evil Dragon Cards - Metal Dragon",
+      "effect": "Cannot be Normal Summoned/Set. Must first be Special Summoned (from your hand) by revealing 3 LIGHT monsters in your hand, including this card. You can reveal this card in your hand; add 1 \"Dragon Card\" card from your Deck to your hand, then discard 1 card. During the Main Phase (Quick Effect): You can destroy 1 monster your opponent controls, and if you do, send this card to the GY, then if an EARTH monster is on the field, you can draw 1 card. You can only use each effect of \"Evil Dragon Cards - Metal Dragon\" once per turn.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u9b54\u306e\u9f8d\u672d\uff0d\u91d1\u9f8d",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u306f\u901a\u5e38\u53ec\u559a\u3067\u304d\u306a\u3044\u3002\u3053\u306e\u30ab\u30fc\u30c9\u3092\u542b\u3080\u624b\u672d\u306e\u5149\u5c5e\u6027\u30e2\u30f3\u30b9\u30bf\u30fc\uff13\u4f53\u3092\u76f8\u624b\u306b\u898b\u305b\u305f\u5834\u5408\u306b\u7279\u6b8a\u53ec\u559a\u3067\u304d\u308b\u3002\u3053\u306e\u30ab\u30fc\u30c9\u540d\u306e\u2460\u2461\u306e\u52b9\u679c\u306f\u305d\u308c\u305e\u308c\uff11\u30bf\u30fc\u30f3\u306b\uff11\u5ea6\u3057\u304b\u4f7f\u7528\u3067\u304d\u306a\u3044\u3002\u2460\uff1a\u624b\u672d\u306e\u3053\u306e\u30ab\u30fc\u30c9\u3092\u76f8\u624b\u306b\u898b\u305b\u3066\u767a\u52d5\u3067\u304d\u308b\u3002\u30c7\u30c3\u30ad\u304b\u3089\u300c\u9f8d\u672d\u300d\u30ab\u30fc\u30c9\uff11\u679a\u3092\u624b\u672d\u306b\u52a0\u3048\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u624b\u672d\u3092\uff11\u679a\u9078\u3093\u3067\u6368\u3066\u308b\u3002\u2461\uff1a\u81ea\u5206\u30fb\u76f8\u624b\u306e\u30e1\u30a4\u30f3\u30d5\u30a7\u30a4\u30ba\u306b\u767a\u52d5\u3067\u304d\u308b\u3002\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u3092\u7834\u58ca\u3057\u3001\u3053\u306e\u30ab\u30fc\u30c9\u3092\u5893\u5730\u3078\u9001\u308b\u3002\u305d\u306e\u5f8c\u3001\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u5730\u5c5e\u6027\u30e2\u30f3\u30b9\u30bf\u30fc\u304c\u5b58\u5728\u3059\u308b\u5834\u5408\u3001\u81ea\u5206\u306f\uff11\u679a\u30c9\u30ed\u30fc\u3067\u304d\u308b\u3002"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "type": "dragon",
+  "classifications": [
+    "effect"
+  ],
+  "level": 5,
+  "atk": 2100,
+  "def": 1500,
+  "passwords": [
+    "25799717"
+  ],
+  "images": [
+    {
+      "id": "538a24bf-43b7-4892-a15b-6a184089c5fc",
+      "card": "https://ms.yugipedia.com//f/f4/EvilDragonCardsMetalDragon-YAC1-JP-OP.png"
+    },
+    {
+      "id": "8239b601-809a-49c5-abfc-97f4830c1082",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/100459014.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/100459014.jpg"
+    },
+    {
+      "id": "9664093f-b1c9-4389-b17d-f73f28d326b1",
+      "password": "25799717",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/25799717.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/25799717.jpg"
+    }
+  ],
+  "sets": [
+    "9aefc662-0b55-44d0-85b1-7c92cfe8a78b",
+    "9aefc662-0b55-44d0-85b1-7c92cfe8a78b",
+    "9aefc662-0b55-44d0-85b1-7c92cfe8a78b"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Evil Dragon Cards - Metal Dragon",
+        "id": 1210825
+      }
+    ],
+    "dbID": 23578,
+    "ygoprodeck": {
+      "id": 25799717,
+      "name": "evil-dragon-cards-metal-dragon-15896"
+    }
+  },
+  "series": [
+    "c4a1ff3c-e340-479c-820f-1224029b63ce"
+  ]
+}

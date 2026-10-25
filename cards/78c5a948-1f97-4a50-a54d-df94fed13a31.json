@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "78c5a948-1f97-4a50-a54d-df94fed13a31",
+  "text": {
+    "en": {
+      "name": "Predator Ganleon",
+      "effect": "This card gains ATK equal to [the difference between your LP and your opponent's LP] until the end of this turn."
+    },
+    "ja": {
+      "name": "\u30d7\u30ec\u30c7\u30bf\u30fc\u30fb\u30ac\u30f3\u30ec\u30aa\u30f3",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u306e\u653b\u6483\u529b\u306f\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\u3001\uff3b\u304a\u4e92\u3044\u306e\uff2c\uff30\u306e\u5dee\uff3d\u3060\u3051\u30a2\u30c3\u30d7\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ud504\ub808\ub370\ud130 \uac74\ub808\uc628",
+      "effect": "\uc774 \uce74\ub4dc\uc758 \uacf5\uaca9\ub825\uc740 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0, [\uc11c\ub85c\uc758 LP\uc758 \ucc28]\ub9cc\ud07c \uc62c\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "reptile",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2500,
+  "def": 600,
+  "passwords": [],
+  "images": [
+    {
+      "id": "9d7a62da-05b8-476a-b513-2c057c9dc2fb",
+      "card": "https://ms.yugipedia.com//2/27/PredatorGanleon-RDKP08-JP-R.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "sr"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Predator Ganleon",
+        "id": 716281
+      }
+    ],
+    "dbID": 17297
+  },
+  "series": [
+    "1f634c80-0c3b-4ad6-98e4-7e85cca61b64"
+  ]
+}

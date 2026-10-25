@@ -1,0 +1,43 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "c0dddfb6-5311-483e-b3ed-84db06a7d7b1",
+  "text": {
+    "en": {
+      "name": "The Tricky (Rush Duel)",
+      "effect": "None",
+      "official": false
+    },
+    "ko": {
+      "name": "\ub354 \ud2b8\ub9ad\ud0a4",
+      "effect": "\uc5c6\uc74c"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "wind",
+  "type": "spellcaster",
+  "classifications": [
+    "effect"
+  ],
+  "level": 5,
+  "atk": 2000,
+  "def": 1200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "cac9510a-e387-4753-96b2-a647128479fb",
+      "card": "https://ms.yugipedia.com//c/c0/TheTricky-RDKP19-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "The Tricky (Rush Duel)",
+        "id": 1094184
+      }
+    ],
+    "dbID": 20984
+  },
+  "series": []
+}

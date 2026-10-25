@@ -1,0 +1,81 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "62a4b49b-0735-48bc-b0ac-68fde57cd531",
+  "text": {
+    "en": {
+      "name": "Yamiruler the Dark Delayer",
+      "effect": "Until the end of the opponent's next turn, while this card is face-up, neither player can Tribute Summon Level 7 or higher monsters."
+    },
+    "fr": {
+      "name": "Yamiruler le Retardateur des T\u00e9n\u00e8bres",
+      "effect": "Jusqu'\u00e0 la fin du prochain tour de l'adversaire et tant que cette carte est face recto, aucun joueur ne peut Invoquer par Sacrifice de monstre de min. Niveau 7."
+    },
+    "de": {
+      "name": "Yamiruler der dunkle Verz\u00f6gerer",
+      "effect": "Solange diese Karte offen liegt, kann bis zum Ende des n\u00e4chsten Spielzugs des Gegners kein Spieler Monster der Stufe 7 oder h\u00f6her als Tributbeschw\u00f6rung beschw\u00f6ren."
+    },
+    "it": {
+      "name": "Yamiruler il Ritardatore Oscuro",
+      "effect": "Fino alla fine del prossimo turno dell'avversario, mentre questa carta \u00e8 scoperta, nessun giocatore pu\u00f2 Evocare tramite Tributo mostri di Livello 7 o superiore."
+    },
+    "es": {
+      "name": "Yamiruler el Retrasador Oscuro",
+      "effect": "Hasta el final del pr\u00f3ximo turno del adversario, mientras esta carta est\u00e9 boca arriba, ning\u00fan jugador puede Invocar por Sacrificio monstruos de Nivel 7 o mayor."
+    },
+    "ja": {
+      "name": "\u9b54\u5c06\u30e4\u30e1\u30eb\u30fc\u30e9",
+      "effect": "\u6b21\u306e\u76f8\u624b\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\u3001\u3053\u306e\u30ab\u30fc\u30c9\u304c\u8868\u5074\u8868\u793a\u306e\u9593\u3001\u304a\u4e92\u3044\u306f\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff17\u4ee5\u4e0a\uff09\u3092\u30a2\u30c9\u30d0\u30f3\u30b9\u53ec\u559a\u3067\u304d\u306a\u3044\u3002"
+    },
+    "ko": {
+      "name": "\ub9c8\uc7a5 \uc57c\uba54\ub8f0\ub7ec",
+      "effect": "\ub2e4\uc74c \uc0c1\ub300 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0, \uc774 \uce74\ub4dc\uac00 \uc55e\uba74 \ud45c\uc2dc\uc778 \ub3d9\uc548, \uc591\ucabd \ud50c\ub808\uc774\uc5b4\ub294 \ubaac\uc2a4\ud130(\ub808\ubca8 7 \uc774\uc0c1)\ub97c \uc5b4\ub4dc\ubc34\uc2a4 \uc18c\ud658\ud560 \uc218 \uc5c6\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 8,
+  "atk": 2500,
+  "def": 2500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "ac2dec44-b494-4eea-8b41-c86a80adf6aa",
+      "card": "https://ms.yugipedia.com//c/c4/YamirulertheDarkDelayer-RDMRP2-JP-C.png"
+    },
+    {
+      "id": "3bc914da-d1af-4d81-a531-edafa1abfa00",
+      "card": "https://ms.yugipedia.com//3/30/YamirulertheDarkDelayer-RD5TH1-JP-UPR.png"
+    },
+    {
+      "id": "b869bba4-96ab-4aee-b5b6-aa127dd0402d",
+      "card": "https://ms.yugipedia.com//0/0a/YamirulertheDarkDelayer-RDCCC2-JP-NPR.png"
+    }
+  ],
+  "sets": [
+    "e670ec5c-7fbb-49cd-9899-885731ab9e90",
+    "a0399bcb-b90e-4b54-9f92-bcd52574e7cd",
+    "a5eedf36-311c-4849-a732-d96430b8e8cc",
+    "f8e7532a-02f9-4834-aa0e-230e163cf5e4",
+    "f8e7532a-02f9-4834-aa0e-230e163cf5e4"
+  ],
+  "legality": {},
+  "duelLinks": {
+    "rarity": "ur"
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Yamiruler the Dark Delayer",
+        "id": 717543
+      }
+    ],
+    "dbID": 15194
+  },
+  "series": [
+    "2b04e0f3-925c-4ad0-921d-ed78f5f1c53b"
+  ]
+}

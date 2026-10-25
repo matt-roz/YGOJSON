@@ -1,0 +1,44 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "2b6b998d-3900-488c-84d9-6a647bf29f05",
+  "text": {
+    "en": {
+      "name": "Early Access Burn Drake",
+      "effect": "Send the top 3 cards of your Deck to the Graveyard. Then, if you have \"Alpha Burn Drake\" in your Graveyard, you can add up to 2 \"Update Maintenance\" from your Graveyard to your hand. This turn, you cannot activate the effect of \"Early Access Burn Drake\".",
+      "official": false
+    },
+    "ja": {
+      "name": "\uff25\u03b1\u30d0\u30fc\u30f3\u30fb\u30c9\u30ec\u30a4\u30af"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "light",
+  "monsterCardTypes": [
+    "fusion"
+  ],
+  "type": "dragon",
+  "classifications": [
+    "effect"
+  ],
+  "level": 5,
+  "atk": 1800,
+  "def": 900,
+  "passwords": [],
+  "images": [
+    {
+      "id": "8074d213-8c06-4eed-bd1f-52cffd29c433",
+      "card": "https://ms.yugipedia.com//8/8f/EarlyAccessBurnDrake-RDKP27-JP-OP.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Early Access Burn Drake",
+        "id": 1231478
+      }
+    ]
+  },
+  "series": []
+}

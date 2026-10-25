@@ -1,0 +1,47 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "2d707270-e663-4b83-afb9-5e1fa9bd6f67",
+  "text": {
+    "en": {
+      "name": "Knight of the Hollowed Grounds",
+      "effect": "Add up to 2 \"The Legacy of Zeil\" from your Graveyard to your hand.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u9ed2\u5239\u306e\u9a0e\u58eb"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2500,
+  "def": 1500,
+  "passwords": [],
+  "images": [
+    {
+      "id": "56ae221a-684b-4593-a92e-07b1e848d5ea",
+      "card": "https://ms.yugipedia.com/archive/b/ba/20261022165917%21KnightoftheHollowedGrounds-RDKP27-JP-OP.png"
+    },
+    {
+      "id": "48bdbc82-f25b-432b-9d00-e1673103ae43",
+      "card": "https://ms.yugipedia.com//b/bd/KnightoftheHollowedGrounds-RDKP27-JP-OP-AA.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Knight of the Hollowed Grounds",
+        "id": 1231464
+      }
+    ]
+  },
+  "series": [
+    "7dced728-5e1c-49df-a837-28172ebeb3cb"
+  ]
+}

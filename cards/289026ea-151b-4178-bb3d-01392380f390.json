@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "289026ea-151b-4178-bb3d-01392380f390",
+  "text": {
+    "en": {
+      "name": "Fairy Dragon (Rush Duel)",
+      "effect": "This beautiful Dragon spirit harbors hidden strength."
+    },
+    "ko": {
+      "name": "\uc694\uc815 \ub4dc\ub798\uace4",
+      "effect": "\uc694\uc815 \uc911\uc5d0\uc11c\ub294 \uc758\uc678\ub85c \uac15\ud55c, \uc544\uc8fc \uc544\ub984\ub2e4\uc6b4 \ub4dc\ub798\uace4 \uc694\uc815."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "wind",
+  "type": "dragon",
+  "classifications": [
+    "normal"
+  ],
+  "level": 4,
+  "atk": 1100,
+  "def": 1200,
+  "passwords": [],
+  "images": [
+    {
+      "id": "0929ccdc-d7e2-4d43-b14a-86bc0be10db7",
+      "card": "https://ms.yugipedia.com//9/95/FairyDragon-RDSD0A-JP-C.png"
+    }
+  ],
+  "sets": [
+    "b0d594ec-1f44-402f-a994-a88c19a50a43",
+    "b0d594ec-1f44-402f-a994-a88c19a50a43"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Fairy Dragon (Rush Duel)",
+        "id": 714910
+      }
+    ],
+    "dbID": 18651
+  },
+  "series": []
+}

@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "caee8d46-4c1c-44df-9728-97f5ec7260f7",
+  "text": {
+    "en": {
+      "name": "Evasive Chaos Ninsect Bewitching Flute Ageha",
+      "effect": "Face-up monsters on your opponent's field become Insect Type.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u6606\u9041\u5fcd\u866b \u5909\u5996\u9b54\u7b1b\u306e\u30a2\u30b2\u30cf",
+      "effect": "\u76f8\u624b\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u7a2e\u65cf\u306f\u6606\u866b\u65cf\u306b\u306a\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uace4\ub454\uc778\ucda9 \ubcc0\uc694\ub9c8\uc801\uc758 \uc544\uac8c\ud558",
+      "effect": "\uc0c1\ub300 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130\uc758 \uc885\uc871\uc740 \uace4\ucda9\uc871\uc774 \ub41c\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "insect",
+  "classifications": [
+    "effect"
+  ],
+  "level": 7,
+  "atk": 2200,
+  "def": 400,
+  "passwords": [],
+  "images": [
+    {
+      "id": "91cd8d8e-a48e-4aee-802e-81fddb30f012",
+      "card": "https://ms.yugipedia.com//e/e0/EvasiveChaosNinsectBewitchingFluteAgeha-RDKP20-JP-R.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Evasive Chaos Ninsect Bewitching Flute Ageha",
+        "id": 1107523
+      }
+    ],
+    "dbID": 21266
+  },
+  "series": [
+    "5e2e65fc-ec0c-4d6e-89f1-59deaf9cf2a4"
+  ]
+}

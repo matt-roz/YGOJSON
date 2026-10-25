@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "7a153f80-d06d-4dfb-9133-5f4fba655c72",
+  "text": {
+    "en": {
+      "name": "Magical Weapon Tract",
+      "effect": "Fusion Summon a Magical Knight Type monster by sending monsters from your hand or field to the Graveyard as material, including this card.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u9b54\u5c0e\u5175\u5668\u30c8\u30e9\u30af\u30c8",
+      "effect": "\u3053\u306e\u30ab\u30fc\u30c9\u3092\u542b\u3080\u81ea\u5206\u306e\u624b\u672d\u30fb\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u3092\u7d20\u6750\u3068\u3057\u3066\u5893\u5730\u3078\u9001\u308a\u3001\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u9b54\u5c0e\u9a0e\u58eb\u65cf\uff09\u3092\u30d5\u30e5\u30fc\u30b8\u30e7\u30f3\u53ec\u559a\u3059\u308b\u3002"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "water",
+  "type": "machine",
+  "classifications": [
+    "effect"
+  ],
+  "level": 5,
+  "atk": 2000,
+  "def": 2000,
+  "passwords": [],
+  "images": [
+    {
+      "id": "bf49994a-fb1e-478c-906c-00933b2baa48",
+      "card": "https://ms.yugipedia.com//5/58/MagicalWeaponTract-RDKP26-JP-C.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Magical Weapon Tract",
+        "id": 1204273
+      }
+    ],
+    "dbID": 23724
+  },
+  "series": [
+    "b5500ee0-0299-4300-b263-6a518ad26652"
+  ]
+}

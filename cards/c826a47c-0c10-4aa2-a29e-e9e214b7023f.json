@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "c826a47c-0c10-4aa2-a29e-e9e214b7023f",
+  "text": {
+    "en": {
+      "name": "Mad Rare Chreia",
+      "effect": "Draw 1 card. Then, you can add 1 \"Mad Rare Gramma\" from your Graveyard to your hand. Until the end of this turn, you cannot Special Summon monsters, and you can only attack with DARK Attribute monsters with 1100 original DEF.",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30de\u30c3\u30c9\u30ec\u30a2\u30fb\u30af\u30ec\u30a4\u30a2"
+    }
+  },
+  "cardType": "monster",
+  "attribute": "dark",
+  "type": "spellcaster",
+  "classifications": [
+    "effect"
+  ],
+  "level": 4,
+  "atk": 1200,
+  "def": 1100,
+  "passwords": [],
+  "images": [
+    {
+      "id": "e4aafb28-eb56-44a3-bc0d-93f106eb38b7",
+      "card": "https://ms.yugipedia.com/5/52/MadRareChreia-RDKP27-JP-OP.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Mad Rare Chreia",
+        "id": 1231458
+      }
+    ]
+  },
+  "series": []
+}

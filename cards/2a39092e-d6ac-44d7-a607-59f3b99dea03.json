@@ -1,0 +1,63 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "2a39092e-d6ac-44d7-a607-59f3b99dea03",
+  "text": {
+    "en": {
+      "name": "Takegumi the Ruler's Squad",
+      "effect": "1 face-up monster on your field gains ATK equal to [the number of monsters with 0 ATK in your Graveyard] x 200 until the end of this turn."
+    },
+    "fr": {
+      "name": "Takegumi l'Escouade du Souverain"
+    },
+    "de": {
+      "name": "Takegumi, Trupp des Herrschers"
+    },
+    "it": {
+      "name": "Takegumi la Squadra del Sovrano"
+    },
+    "es": {
+      "name": "Takegumi el Escuadr\u00f3n del Gobernante"
+    },
+    "ja": {
+      "name": "\u9b54\u5c06\u5206\u968a \u6b66\u7d44",
+      "effect": "\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u3092\u9078\u3073\u3001\u305d\u306e\u653b\u6483\u529b\u3092\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\u3001\uff3b\u81ea\u5206\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u653b\u6483\u529b\uff10\uff09\u306e\u6570\uff3d\u00d7\uff12\uff10\uff10\u30a2\u30c3\u30d7\u3059\u308b\u3002"
+    },
+    "ko": {
+      "name": "\ub9c8\uc7a5\ubd84\ub300 \ubb34\uc870",
+      "effect": "\uc790\uc2e0 \ud544\ub4dc\uc758 \uc55e\uba74 \ud45c\uc2dc \ubaac\uc2a4\ud130 1\uc7a5\uc744 \uace0\ub974\uace0, \uadf8 \uacf5\uaca9\ub825\uc744 \ud134 \uc885\ub8cc\uc2dc\uae4c\uc9c0, [\uc790\uc2e0 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130(\uacf5\uaca9\ub825 0)\uc758 \uc218] \u00d7 200 \uc62c\ub9b0\ub2e4."
+    }
+  },
+  "cardType": "monster",
+  "attribute": "earth",
+  "type": "warrior",
+  "classifications": [
+    "effect"
+  ],
+  "level": 6,
+  "atk": 0,
+  "def": 1800,
+  "passwords": [],
+  "images": [
+    {
+      "id": "e615be7c-1e2f-4971-a9cf-7edd6d6a24a3",
+      "card": "https://ms.yugipedia.com//c/c7/TakegumitheRulersSquad-RDSBD3-JP-C.png"
+    }
+  ],
+  "sets": [
+    "f8e7532a-02f9-4834-aa0e-230e163cf5e4",
+    "f8e7532a-02f9-4834-aa0e-230e163cf5e4"
+  ],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Takegumi the Ruler's Squad",
+        "id": 716995
+      }
+    ],
+    "dbID": 16327
+  },
+  "series": [
+    "2b04e0f3-925c-4ad0-921d-ed78f5f1c53b"
+  ]
+}

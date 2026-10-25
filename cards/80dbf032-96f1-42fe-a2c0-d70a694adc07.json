@@ -1,0 +1,46 @@
+{
+  "$schema": "https://raw.githubusercontent.com/matt-roz/YGOJSON/main/schema/v1/card.json",
+  "id": "80dbf032-96f1-42fe-a2c0-d70a694adc07",
+  "text": {
+    "en": {
+      "name": "Maid's Mischief",
+      "effect": "Shuffle up to 2 monsters from your opponent's Graveyard into the Deck. Then, you can draw cards equal to [the number of Level 7 Effect Monsters shuffled by this effect].",
+      "official": false
+    },
+    "ja": {
+      "name": "\u30e1\u30a4\u30c9\u306e\u3044\u305f\u305a\u3089",
+      "effect": "\u76f8\u624b\u306e\u5893\u5730\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u3092\uff12\u4f53\u307e\u3067\u9078\u3093\u3067\u30c7\u30c3\u30ad\u306b\u623b\u3059\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306f\uff3b\u3053\u306e\u52b9\u679c\u3067\u623b\u3057\u305f\u52b9\u679c\u30e2\u30f3\u30b9\u30bf\u30fc\uff08\u30ec\u30d9\u30eb\uff17\uff09\u306e\u6570\uff3d\u3060\u3051\u30c9\u30ed\u30fc\u3067\u304d\u308b\u3002"
+    },
+    "ko": {
+      "name": "\uba54\uc774\ub4dc\uc758 \uc7a5\ub09c",
+      "effect": "\uc0c1\ub300 \ubb18\uc9c0\uc758 \ubaac\uc2a4\ud130\ub97c 2\uc7a5\uae4c\uc9c0 \uace0\ub974\uace0 \ub371\uc73c\ub85c \ub418\ub3cc\ub9b0\ub2e4. \uadf8 \ud6c4, \uc790\uc2e0\uc740 [\uc774 \ud6a8\uacfc\ub85c \ub418\ub3cc\ub9b0 \ud6a8\uacfc \ubaac\uc2a4\ud130(\ub808\ubca8 7)\uc758 \uc218]\ub9cc\ud07c \ub4dc\ub85c\uc6b0\ud560 \uc218 \uc788\ub2e4."
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "1fcd7b45-d203-43aa-9818-1c67a6a8e0e9",
+      "card": "https://ms.yugipedia.com//2/26/MaidsMischief-RDAP02-JP-C.png"
+    },
+    {
+      "id": "08191fea-acc0-4db3-9525-8c08becfb8d6",
+      "card": "https://ms.yugipedia.com//f/fb/MaidsMischief-RDKP15-JP-ScR-AA.png"
+    }
+  ],
+  "sets": [],
+  "legality": {},
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Maid's Mischief",
+        "id": 1024752
+      }
+    ],
+    "dbID": 19695
+  },
+  "series": [
+    "15739dea-0414-41f3-ab94-5d27e0578485"
+  ]
+}
